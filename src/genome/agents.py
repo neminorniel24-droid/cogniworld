@@ -31,6 +31,10 @@ class Agents:
 
         self.moves = MOVES.to(device)
 
+    def shelter_here(self, world) -> torch.Tensor:
+        x, y = self.pos[:, 0], self.pos[:, 1]
+        return world.shelter[y, x]
+
     def sense(self, world) -> torch.Tensor:
         x, y = self.pos[:, 0], self.pos[:, 1]
         food_here = world.food[y, x]
@@ -77,3 +81,5 @@ class Agents:
 
         # death
         self.alive &= self.energy > 0
+
+        return eaten > 0.01

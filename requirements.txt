@@ -4,3 +4,5 @@ noise
 pygame
 matplotlib
 pyyaml
+fastapi
+uvicorn

@@ -28,9 +28,18 @@ python3 -c "import torch; print(torch.cuda.is_available(), torch.cuda.get_device
 
 ## Run
 
+**Pygame view (fast, local window):**
 ```bash
 python3 src/sim.py
 ```
+
+**Web dashboard (recommended — live specimen inspector, click any agent):**
+```bash
+cd src
+uvicorn server:app --host 0.0.0.0 --port 8000
+```
+Then open `http://localhost:8000` in a browser. Click any dot to inspect that
+agent's live emotion state, current goal, and procedurally-generated thought.
 
 Tune population size, world size, mutation rate, etc. in `configs/default.yaml`.
 
@@ -42,10 +51,15 @@ Tune population size, world size, mutation rate, etc. in `configs/default.yaml`.
 | `src/genome/` | Agent physical state (position, energy), sensor extraction |
 | `src/brain/` | Batched MLP — every agent's brain runs as one `torch.bmm` call |
 | `src/evolution/` | Fitness-weighted selection, reproduction, mutation (genetic algorithm — no backprop) |
+| `src/emotion/` | Batched per-agent emotion vector (fear, hunger, curiosity, contentment) |
+| `src/cognition/` | Rule-based goal selection + procedural thought-text generation (no LLM) |
+| `src/memory/` | Lightweight per-agent episodic memory (ring buffer, stands in for ChromaDB/Redis until needed) |
+| `src/server.py` | FastAPI backend — runs the sim continuously, serves live state as JSON |
+| `web/` | Browser dashboard — biome canvas + click-to-inspect specimen panel |
 | `src/disease/` | *(planned)* SIR epidemic model over agent population |
 | `src/conflict/` | *(planned)* Tribe formation and combat over territory |
 | `src/time_control/` | *(planned)* Pause/rewind/speed via world-state snapshots |
-| `src/viz/` | Live pygame renderer |
+| `src/viz/` | Standalone pygame renderer (simpler alternative to the web dashboard) |
 
 ## Roadmap
 
