@@ -1,0 +1,31 @@
+# World
+world_size: 128          # grid is world_size x world_size
+seed: 42
+
+# Biome noise
+elevation_scale: 0.05
+moisture_scale: 0.08
+octaves: 4
+
+# Population
+n_agents: 2000
+brain_hidden: 16
+n_sensors: 8            # local biome readings + internal state
+n_actions: 4             # move N/S/E/W (extendable)
+
+# Agent physiology
+start_energy: 100.0
+move_cost: 0.5
+metabolism_cost: 0.2
+max_energy: 200.0
+reproduce_threshold: 150.0
+reproduce_cost: 80.0
+death_energy: 0.0
+
+# Evolution
+mutation_std: 0.05
+elite_fraction: 0.1
+
+# Time control
+steps_per_frame: 1
+max_steps: 100000
