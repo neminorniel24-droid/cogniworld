@@ -23,6 +23,7 @@ pip install -r requirements.txt
 Verify GPU is visible:
 
 ```bash
+
 python3 -c "import torch; print(torch.cuda.is_available(), torch.cuda.get_device_name(0))"
 ```
 
