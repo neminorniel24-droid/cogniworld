@@ -6,3 +6,4 @@ matplotlib
 pyyaml
 fastapi
 uvicorn
+panda3D
