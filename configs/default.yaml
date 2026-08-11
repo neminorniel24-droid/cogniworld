@@ -14,6 +14,7 @@ n_sensors: 8            # local biome readings + internal state
 n_actions: 4             # move N/S/E/W (extendable)
 
 # Agent physiology
+
 start_energy: 100.0
 move_cost: 0.5
 metabolism_cost: 0.2
