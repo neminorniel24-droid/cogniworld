@@ -20,7 +20,7 @@ python3.12 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-
+For WSL2 users, install the NVIDIA driver on the Windows side so CUDA can be accessed from WSL.
 Verify GPU is visible:
 
 ```bash
