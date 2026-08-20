@@ -1,3 +1,4 @@
+> A GPU-accelerated artificial life simulation where evolution, cognition, emotion, and survival emerge from simple rules.
 # CogniWorld
 
 A GPU-accelerated artificial life simulation: agents with small evolving neural
