@@ -17,8 +17,9 @@ n_actions: 4             # move N/S/E/W (extendable)
 
 start_energy: 100.0
 move_cost: 0.5
-metabolism_cost: 0.2
+metabolism_cost: 0.4
 max_energy: 200.0
+food_energy_value: 4.0   # energy per full unit of food eaten (was hardcoded 40.0)
 reproduce_threshold: 150.0
 reproduce_cost: 80.0
 death_energy: 0.0
