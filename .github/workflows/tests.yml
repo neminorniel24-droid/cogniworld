@@ -1,0 +1,29 @@
+name: tests
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install CPU-only torch + test deps
+        run: |
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install numpy noise pyyaml fastapi uvicorn pytest
+          # note: intentionally NOT `pip install -r requirements-dev.txt` here --
+          # that chains to requirements.txt, which pins the full CUDA torch
+          # build and would silently override the CPU wheel above. pygame and
+          # panda3D (rendering-only) also aren't needed to run the test suite.
+
+      - name: Run tests
+        run: pytest -v
