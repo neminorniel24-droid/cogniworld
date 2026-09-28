@@ -79,3 +79,14 @@ def test_respawned_agent_starts_with_fresh_scarcity_counter():
     reproduce(agents, brain, CONFIG, DEVICE)
     assert bool(agents.alive[0])
     assert agents.ticks_since_food[0].item() == 0
+
+
+def test_respawned_agent_is_born_susceptible():
+    agents, brain = make_pop(n=2)
+    agents.alive[0] = False
+    agents.infection[0] = 1          # died while infected
+    agents.infection_timer[0] = 7
+    agents.energy[1] = 100.0
+    reproduce(agents, brain, CONFIG, DEVICE)
+    assert agents.infection[0].item() == 0
+    assert agents.infection_timer[0].item() == 0
