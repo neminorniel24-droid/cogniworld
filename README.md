@@ -75,7 +75,14 @@ Tune population size, world size, mutation rate, etc. in `configs/default.yaml`.
 ## Notes
 
 Agent brains are direct-encoded (the weight matrices *are* the genome) and
-evolved via mutation + fitness-weighted parent selection — not gradient
-descent. This is intentionally simple and cheap; lifetime learning (RL or
-Hebbian plasticity on top of evolved weights) is a possible future stretch
-goal, not a requirement for interesting emergent behavior.
+evolved via fitness-weighted parent selection — not gradient descent.
+Reproduction is sexual by default: two eligible parents (energy above
+`reproduce_threshold`) each contribute roughly half their brain's weights
+via uniform crossover, then Gaussian mutation is applied on top, and both
+parents pay half of `reproduce_cost` in energy. Early on, or after a
+population crash, there often aren't two eligible parents available yet —
+in that case reproduction falls back to the original asexual path (single
+parent cloned with mutation, no energy cost) so the population can recover.
+Lifetime learning (RL or Hebbian plasticity on top of evolved weights) is a
+possible future stretch goal, not a requirement for interesting emergent
+behavior.
