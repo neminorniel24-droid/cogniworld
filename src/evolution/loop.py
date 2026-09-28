@@ -81,3 +81,4 @@ def reproduce(agents, brain, config: dict, device: torch.device):
     )
     agents.energy[dead_idx] = config["start_energy"]
     agents.alive[dead_idx] = True
+    agents.ticks_since_food[dead_idx] = 0  # newborns don't inherit the dead agent's scarcity streak

@@ -69,3 +69,13 @@ def test_total_extinction_does_not_crash():
     agents.alive[:] = False
     reproduce(agents, brain, CONFIG, DEVICE)  # should just no-op, not raise
     assert not torch.any(agents.alive)
+
+
+def test_respawned_agent_starts_with_fresh_scarcity_counter():
+    agents, brain = make_pop(n=2)
+    agents.alive[0] = False
+    agents.ticks_since_food[0] = 99  # dead agent was deep in a starvation streak
+    agents.energy[1] = 100.0
+    reproduce(agents, brain, CONFIG, DEVICE)
+    assert bool(agents.alive[0])
+    assert agents.ticks_since_food[0].item() == 0
