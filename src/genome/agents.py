@@ -28,6 +28,11 @@ class Agents:
         self.pos = torch.randint(0, world_size, (n_agents, 2), device=device)
         self.energy = torch.full((n_agents,), start_energy, device=device)
         self.alive = torch.ones(n_agents, dtype=torch.bool, device=device)
+        # scarcity tracking: consecutive ticks since this agent last ate.
+        # feeds migration pressure (see migration/pressure.py) -- an agent
+        # stuck too long without food gets a movement discount to encourage
+        # traveling further to find a better biome instead of starving in place.
+        self.ticks_since_food = torch.zeros(n_agents, dtype=torch.int64, device=device)
 
         self.moves = MOVES.to(device)
 
@@ -82,4 +87,9 @@ class Agents:
         # death
         self.alive &= self.energy > 0
 
-        return eaten > 0.01
+        ate = eaten > 0.01
+        self.ticks_since_food = torch.where(
+            ate, torch.zeros_like(self.ticks_since_food), self.ticks_since_food + 1
+        )
+
+        return ate
