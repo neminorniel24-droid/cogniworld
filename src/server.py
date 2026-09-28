@@ -24,6 +24,8 @@ from world.biome import World
 from genome.agents import Agents
 from brain.batched_brain import BatchedBrain
 from evolution.loop import reproduce
+from migration.pressure import compute_move_cost
+from disease.sir import DiseaseModel
 from emotion.state import EmotionState
 from cognition.goals import select_goals, GOAL_NAMES
 from cognition.thoughts import generate_thought
@@ -31,8 +33,11 @@ from memory.store import MemoryStore
 
 app = FastAPI()
 
+DISEASE_NAMES = ["susceptible", "infected", "recovered"]
+
 STATE_LOCK = threading.Lock()
-STATE = {"step": 0, "alive": 0, "agents": [], "biome": None}
+STATE = {"step": 0, "alive": 0, "agents": [], "biome": None,
+         "disease": {"susceptible": 0, "infected": 0, "recovered": 0}}
 
 
 def load_config(path=None):
@@ -57,6 +62,7 @@ def sim_loop():
     )
     emotions = EmotionState(config["n_agents"], device)
     memory = MemoryStore(config["n_agents"])
+    disease = DiseaseModel(config, config["world_size"], device)
 
     with STATE_LOCK:
         STATE["biome"] = world.biome_name_grid().tolist()
@@ -67,9 +73,15 @@ def sim_loop():
 
         sensors = agents.sense(world)
         action_logits = brain.forward(sensors)
+        move_cost = compute_move_cost(agents, config["move_cost"], config)
         ate_food = agents.act(
-            action_logits, world, config["move_cost"], config["metabolism_cost"], config["max_energy"]
+            action_logits, world, move_cost, config["metabolism_cost"], config["max_energy"], config["food_energy_value"]
         )
+
+        # runs before the death snapshot below so disease deaths get logged too
+        if step == config["disease_seed_step"]:
+            disease.seed(agents, config["disease_initial_infected"])
+        disease.step(agents)
 
         emotions.update(agents, world, ate_food)
         goals = select_goals(emotions.values)
@@ -92,6 +104,7 @@ def sim_loop():
             energy = agents.energy[alive_idx].cpu().tolist()
             goal_ids = goals[alive_idx].cpu().tolist()
             emo_vals = emotions.values[alive_idx].cpu().tolist()
+            infection_ids = agents.infection[alive_idx].cpu().tolist()
             x_coord = agents.pos[alive_idx, 0].cpu().tolist()
             y_coord = agents.pos[alive_idx, 1].cpu().tolist()
             biome_grid = world.biome
@@ -107,12 +120,14 @@ def sim_loop():
                     "goal": GOAL_NAMES[goal_ids[j]],
                     "emotion": emo_vals[j],
                     "thought": generate_thought(goal_ids[j], biome_id),
+                    "infection": DISEASE_NAMES[int(infection_ids[j])],
                 })
 
             with STATE_LOCK:
                 STATE["step"] = step
                 STATE["alive"] = int(agents.alive.sum().item())
                 STATE["agents"] = agent_records
+                STATE["disease"] = disease.counts(agents)
 
         step += 1
         time.sleep(0.03)  # cap sim rate so the dashboard can keep up
@@ -121,7 +136,8 @@ def sim_loop():
 @app.get("/state")
 def get_state():
     with STATE_LOCK:
-        return {"step": STATE["step"], "alive": STATE["alive"], "agents": STATE["agents"]}
+        return {"step": STATE["step"], "alive": STATE["alive"], "agents": STATE["agents"],
+                "disease": STATE["disease"]}
 
 
 @app.get("/biome")

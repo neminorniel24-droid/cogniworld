@@ -48,8 +48,27 @@ class BatchedBrain:
         self.b2[idx] = b2
 
     def mutate_into(self, src_idx: torch.Tensor, dst_idx: torch.Tensor, std: float):
-        """Copy src agent's brain into dst slot with Gaussian mutation noise."""
+        """Copy src agent's brain into dst slot with Gaussian mutation noise.
+
+        Kept as the asexual fallback path -- used when the evolution loop
+        can't find two eligible parents (see evolution/loop.py)."""
         self.W1[dst_idx] = self.W1[src_idx] + torch.randn_like(self.W1[src_idx]) * std
         self.b1[dst_idx] = self.b1[src_idx] + torch.randn_like(self.b1[src_idx]) * std
         self.W2[dst_idx] = self.W2[src_idx] + torch.randn_like(self.W2[src_idx]) * std
         self.b2[dst_idx] = self.b2[src_idx] + torch.randn_like(self.b2[src_idx]) * std
+
+    def crossover_into(self, parent_a_idx: torch.Tensor, parent_b_idx: torch.Tensor,
+                        dst_idx: torch.Tensor, std: float):
+        """Sexual reproduction: for each dst slot, build a child brain by
+        picking each weight independently from parent A or parent B
+        (uniform crossover, ~50/50 per element), then apply Gaussian
+        mutation noise on top -- same noise scale as the asexual path.
+        """
+        for name in ("W1", "b1", "W2", "b2"):
+            tensor = getattr(self, name)
+            a = tensor[parent_a_idx]
+            b = tensor[parent_b_idx]
+            mask = torch.rand_like(a) < 0.5
+            child = torch.where(mask, a, b)
+            child = child + torch.randn_like(child) * std
+            tensor[dst_idx] = child

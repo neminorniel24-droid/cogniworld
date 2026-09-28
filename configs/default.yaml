@@ -17,8 +17,9 @@ n_actions: 4             # move N/S/E/W (extendable)
 
 start_energy: 100.0
 move_cost: 0.5
-metabolism_cost: 0.2
+metabolism_cost: 0.4
 max_energy: 200.0
+food_energy_value: 4.0   # energy per full unit of food eaten (was hardcoded 40.0)
 reproduce_threshold: 150.0
 reproduce_cost: 80.0
 death_energy: 0.0
@@ -26,6 +27,17 @@ death_energy: 0.0
 # Evolution
 mutation_std: 0.05
 elite_fraction: 0.1
+
+# Migration pressure (Phase 2)
+migration_scarcity_ticks: 20    # ticks without eating before movement gets cheaper
+migration_move_discount: 0.5    # multiplier on move_cost once scarce (0.5 = half price)
+
+# Disease (Phase 3, SIR)
+disease_beta: 0.1              # per-tick catch chance per infected agent in the 3x3 neighborhood (<~0.06 burns out after one wave; >=0.1 stays endemic)
+disease_duration: 30           # ticks infected before recovering (with immunity)
+disease_energy_drain: 0.5      # extra energy lost per tick while infected
+disease_initial_infected: 10   # agents infected when the outbreak is seeded
+disease_seed_step: 300         # tick at which the outbreak starts (lets the economy settle first)
 
 # Time control
 steps_per_frame: 1

@@ -28,6 +28,14 @@ class Agents:
         self.pos = torch.randint(0, world_size, (n_agents, 2), device=device)
         self.energy = torch.full((n_agents,), start_energy, device=device)
         self.alive = torch.ones(n_agents, dtype=torch.bool, device=device)
+        # scarcity tracking: consecutive ticks since this agent last ate.
+        # feeds migration pressure (see migration/pressure.py) -- an agent
+        # stuck too long without food gets a movement discount to encourage
+        # traveling further to find a better biome instead of starving in place.
+        self.ticks_since_food = torch.zeros(n_agents, dtype=torch.int64, device=device)
+        # disease state (see disease/sir.py): 0=susceptible, 1=infected, 2=recovered
+        self.infection = torch.zeros(n_agents, dtype=torch.int64, device=device)
+        self.infection_timer = torch.zeros(n_agents, dtype=torch.int64, device=device)  # ticks infected
 
         self.moves = MOVES.to(device)
 
@@ -59,7 +67,8 @@ class Agents:
         ], dim=1)
         return sensors
 
-    def act(self, action_logits: torch.Tensor, world, move_cost: float, metabolism_cost: float, max_energy: float = 200.0):
+    def act(self, action_logits: torch.Tensor, world, move_cost: float, metabolism_cost: float, max_energy: float = 200.0,
+             food_energy_value: float = 40.0):
         """Move each alive agent toward its argmax action, consume energy, eat food."""
         action = torch.argmax(action_logits, dim=1)  # [N]
         delta = self.moves[action]  # [N, 2]
@@ -73,7 +82,7 @@ class Agents:
         x, y = self.pos[:, 0], self.pos[:, 1]
         eaten = world.food[y, x].clone()
         world.food[y, x] -= eaten
-        self.energy += eaten * 40.0  # food -> energy conversion
+        self.energy += eaten * food_energy_value  # food -> energy conversion
 
         # costs
         self.energy -= (move_cost + metabolism_cost)
@@ -82,4 +91,9 @@ class Agents:
         # death
         self.alive &= self.energy > 0
 
-        return eaten > 0.01
+        ate = eaten > 0.01
+        self.ticks_since_food = torch.where(
+            ate, torch.zeros_like(self.ticks_since_food), self.ticks_since_food + 1
+        )
+
+        return ate
