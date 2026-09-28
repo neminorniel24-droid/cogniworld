@@ -45,6 +45,16 @@ agent's live emotion state, current goal, and procedurally-generated thought.
 
 Tune population size, world size, mutation rate, etc. in `configs/default.yaml`.
 
+## Testing
+
+```bash
+pip install -r requirements-dev.txt
+pytest
+```
+Covers the pure-logic modules (brain, agents, emotion, goals, world, memory,
+evolution, migration) on CPU — no GPU required. Runs automatically on every
+push/PR via GitHub Actions (`.github/workflows/tests.yml`).
+
 ## Architecture
 
 | Module | Responsibility |
@@ -55,6 +65,7 @@ Tune population size, world size, mutation rate, etc. in `configs/default.yaml`.
 | `src/evolution/` | Fitness-weighted selection, reproduction, mutation (genetic algorithm — no backprop) |
 | `src/emotion/` | Batched per-agent emotion vector (fear, hunger, curiosity, contentment) |
 | `src/cognition/` | Rule-based goal selection + procedural thought-text generation (no LLM) |
+| `src/migration/` | Scarcity-driven move cost discount — cheaper movement for agents starving in place |
 | `src/memory/` | Lightweight per-agent episodic memory (ring buffer, stands in for ChromaDB/Redis until needed) |
 | `src/server.py` | FastAPI backend — runs the sim continuously, serves live state as JSON |
 | `web/` | Browser dashboard — biome canvas + click-to-inspect specimen panel |
@@ -66,7 +77,7 @@ Tune population size, world size, mutation rate, etc. in `configs/default.yaml`.
 ## Roadmap
 
 - [x] Phase 1: biome world + batched brains + energy-driven evolution
-- [ ] Phase 2: migration pressure (scarcity-driven movement between biomes)
+- [x] Phase 2: migration pressure (scarcity-driven movement between biomes)
 - [ ] Phase 3: SIR disease model, density-driven outbreaks
 - [ ] Phase 4: knowledge/tech accumulation + diffusion between nearby agents
 - [ ] Phase 5: tribe formation + territorial conflict
