@@ -45,10 +45,11 @@ def test_sexual_path_respawns_dead_slot_with_two_eligible_parents():
 
 
 def test_asexual_fallback_when_fewer_than_two_eligible():
-    agents, brain = make_pop(n=4)
+    # exactly one other alive agent, so it's deterministically the only
+    # possible parent -- no randomness in which agent gets sampled
+    agents, brain = make_pop(n=2)
     agents.alive[0] = False
-    agents.energy[1] = 200.0   # only one eligible parent
-    agents.energy[2:] = 5.0    # everyone else below threshold
+    agents.energy[1] = 200.0  # sole eligible parent
 
     parent_w1_before = brain.W1[1].clone()
     parent_energy_before = agents.energy[1].item()
