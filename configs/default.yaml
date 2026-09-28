@@ -27,6 +27,10 @@ death_energy: 0.0
 mutation_std: 0.05
 elite_fraction: 0.1
 
+# Migration pressure (Phase 2)
+migration_scarcity_ticks: 20    # ticks without eating before movement gets cheaper
+migration_move_discount: 0.5    # multiplier on move_cost once scarce (0.5 = half price)
+
 # Time control
 steps_per_frame: 1
 max_steps: 100000
