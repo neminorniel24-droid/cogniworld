@@ -16,6 +16,7 @@ from genome.agents import Agents
 from brain.batched_brain import BatchedBrain
 from evolution.loop import reproduce
 from migration.pressure import compute_move_cost
+from disease.sir import DiseaseModel
 from viz.renderer import Renderer
 
 
@@ -37,6 +38,7 @@ def main():
         config["n_agents"], config["n_sensors"], config["brain_hidden"],
         config["n_actions"], device,
     )
+    disease = DiseaseModel(config, config["world_size"], device)
     renderer = Renderer(config["world_size"])
 
     running = True
@@ -48,6 +50,10 @@ def main():
         action_logits = brain.forward(sensors)
         move_cost = compute_move_cost(agents, config["move_cost"], config)
         agents.act(action_logits, world, move_cost, config["metabolism_cost"], config["max_energy"], config["food_energy_value"])
+
+        if step == config["disease_seed_step"]:
+            disease.seed(agents, config["disease_initial_infected"])
+        disease.step(agents)
 
         reproduce(agents, brain, config, device)
 
