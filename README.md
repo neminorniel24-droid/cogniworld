@@ -55,6 +55,10 @@ Covers the pure-logic modules (brain, agents, emotion, goals, world, memory,
 evolution, migration) on CPU — no GPU required. Runs automatically on every
 push/PR via GitHub Actions (`.github/workflows/tests.yml`).
 
+For an end-to-end sanity check without a GPU or display, run
+`python3 scripts/headless_smoke_test.py` -- it runs the full pipeline for a
+couple thousand ticks and prints population stats.
+
 ## Architecture
 
 | Module | Responsibility |
@@ -97,3 +101,10 @@ parent cloned with mutation, no energy cost) so the population can recover.
 Lifetime learning (RL or Hebbian plasticity on top of evolved weights) is a
 possible future stretch goal, not a requirement for interesting emergent
 behavior.
+
+The default economy (`configs/default.yaml`, regen rates in `world/biome.py`)
+is tuned so real death/rebirth turnover happens. At the original numbers the
+whole map sat near the food cap and no agent ever ran out of energy. The
+population *count* is constant either way (`reproduce()` refills a dead slot
+the same tick), so check the smoke test's cumulative death counter, not the
+alive count, to see whether selection pressure is doing anything.
