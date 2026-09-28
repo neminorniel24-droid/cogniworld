@@ -70,7 +70,7 @@ def sim_loop():
         action_logits = brain.forward(sensors)
         move_cost = compute_move_cost(agents, config["move_cost"], config)
         ate_food = agents.act(
-            action_logits, world, move_cost, config["metabolism_cost"], config["max_energy"]
+            action_logits, world, move_cost, config["metabolism_cost"], config["max_energy"], config["food_energy_value"]
         )
 
         emotions.update(agents, world, ate_food)

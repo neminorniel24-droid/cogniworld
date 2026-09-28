@@ -47,7 +47,7 @@ def main():
         sensors = agents.sense(world)
         action_logits = brain.forward(sensors)
         move_cost = compute_move_cost(agents, config["move_cost"], config)
-        agents.act(action_logits, world, move_cost, config["metabolism_cost"], config["max_energy"])
+        agents.act(action_logits, world, move_cost, config["metabolism_cost"], config["max_energy"], config["food_energy_value"])
 
         reproduce(agents, brain, config, device)
 
