@@ -33,6 +33,9 @@ class Agents:
         # stuck too long without food gets a movement discount to encourage
         # traveling further to find a better biome instead of starving in place.
         self.ticks_since_food = torch.zeros(n_agents, dtype=torch.int64, device=device)
+        # disease state (see disease/sir.py): 0=susceptible, 1=infected, 2=recovered
+        self.infection = torch.zeros(n_agents, dtype=torch.int64, device=device)
+        self.infection_timer = torch.zeros(n_agents, dtype=torch.int64, device=device)  # ticks infected
 
         self.moves = MOVES.to(device)
 
