@@ -32,6 +32,13 @@ elite_fraction: 0.1
 migration_scarcity_ticks: 20    # ticks without eating before movement gets cheaper
 migration_move_discount: 0.5    # multiplier on move_cost once scarce (0.5 = half price)
 
+# Disease (Phase 3, SIR)
+disease_beta: 0.1              # per-tick catch chance per infected agent in the 3x3 neighborhood (<~0.06 burns out after one wave; >=0.1 stays endemic)
+disease_duration: 30           # ticks infected before recovering (with immunity)
+disease_energy_drain: 0.5      # extra energy lost per tick while infected
+disease_initial_infected: 10   # agents infected when the outbreak is seeded
+disease_seed_step: 300         # tick at which the outbreak starts (lets the economy settle first)
+
 # Time control
 steps_per_frame: 1
 max_steps: 100000
