@@ -70,6 +70,7 @@ couple thousand ticks and prints population stats.
 | `src/emotion/` | Batched per-agent emotion vector (fear, hunger, curiosity, contentment) |
 | `src/cognition/` | Rule-based goal selection + procedural thought-text generation (no LLM) |
 | `src/migration/` | Scarcity-driven move cost discount — cheaper movement for agents starving in place |
+| `src/disease/` | SIR disease model — density-driven spread (3x3 tile exposure), energy drain, immunity after recovery |
 | `src/memory/` | Lightweight per-agent episodic memory (ring buffer, stands in for ChromaDB/Redis until needed) |
 | `src/server.py` | FastAPI backend — runs the sim continuously, serves live state as JSON |
 | `web/` | Browser dashboard — biome canvas + click-to-inspect specimen panel |
@@ -82,10 +83,23 @@ couple thousand ticks and prints population stats.
 
 - [x] Phase 1: biome world + batched brains + energy-driven evolution
 - [x] Phase 2: migration pressure (scarcity-driven movement between biomes)
-- [ ] Phase 3: SIR disease model, density-driven outbreaks
+- [x] Phase 3: SIR disease model, density-driven outbreaks
 - [ ] Phase 4: knowledge/tech accumulation + diffusion between nearby agents
 - [ ] Phase 5: tribe formation + territorial conflict
 - [ ] Phase 6: time control UI (pause, rewind, speed slider)
+
+## Disease
+
+Agents are Susceptible, Infected or Recovered (immune). At `disease_seed_step`
+an outbreak is seeded; each tick a susceptible agent catches it with
+probability `1 - (1 - disease_beta) ** n`, where `n` is the number of infected
+agents within its 3x3 tile neighborhood, so crowded areas spread it faster.
+Infected agents lose `disease_energy_drain` extra energy per tick and can die
+of it; survivors recover after `disease_duration` ticks. Newborns are always
+born susceptible, which keeps supplying fresh hosts. Rule of thumb from a
+sweep on the default density: `disease_beta` below ~0.06 gives one wave that
+burns out, ~0.1 and above stays endemic. `/state` reports S/I/R counts and
+each agent's `infection` state.
 
 ## Notes
 
