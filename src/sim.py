@@ -15,6 +15,7 @@ from world.biome import World
 from genome.agents import Agents
 from brain.batched_brain import BatchedBrain
 from evolution.loop import reproduce
+from migration.pressure import compute_move_cost
 from viz.renderer import Renderer
 
 
@@ -45,7 +46,8 @@ def main():
 
         sensors = agents.sense(world)
         action_logits = brain.forward(sensors)
-        agents.act(action_logits, world, config["move_cost"], config["metabolism_cost"], config["max_energy"])
+        move_cost = compute_move_cost(agents, config["move_cost"], config)
+        agents.act(action_logits, world, move_cost, config["metabolism_cost"], config["max_energy"])
 
         reproduce(agents, brain, config, device)
 
