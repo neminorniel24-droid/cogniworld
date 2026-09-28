@@ -14,7 +14,7 @@ import time
 
 import yaml
 import torch
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
@@ -35,8 +35,18 @@ app = FastAPI()
 
 DISEASE_NAMES = ["susceptible", "infected", "recovered"]
 
+
+def terrain_payload(world) -> dict:
+    """Static terrain for the 3D viewer: elevation (0..1) and biome id per tile.
+    Sent once -- the world's terrain never changes during a run."""
+    return {
+        "size": int(world.size),
+        "elevation": [[round(v, 3) for v in row] for row in world.elevation.cpu().tolist()],
+        "biome": world.biome.cpu().tolist(),
+    }
+
 STATE_LOCK = threading.Lock()
-STATE = {"step": 0, "alive": 0, "agents": [], "biome": None,
+STATE = {"step": 0, "alive": 0, "agents": [], "biome": None, "terrain": None,
          "disease": {"susceptible": 0, "infected": 0, "recovered": 0}}
 
 
@@ -66,6 +76,7 @@ def sim_loop():
 
     with STATE_LOCK:
         STATE["biome"] = world.biome_name_grid().tolist()
+        STATE["terrain"] = terrain_payload(world)
 
     step = 0
     while step < config["max_steps"]:
@@ -144,6 +155,15 @@ def get_state():
 def get_biome():
     with STATE_LOCK:
         return {"biome": STATE["biome"]}
+
+
+@app.get("/terrain")
+def get_terrain():
+    with STATE_LOCK:
+        terrain = STATE["terrain"]
+    if terrain is None:
+        raise HTTPException(status_code=503, detail="world not ready yet")
+    return terrain
 
 
 @app.get("/")
