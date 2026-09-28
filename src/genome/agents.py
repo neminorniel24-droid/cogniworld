@@ -64,7 +64,8 @@ class Agents:
         ], dim=1)
         return sensors
 
-    def act(self, action_logits: torch.Tensor, world, move_cost: float, metabolism_cost: float, max_energy: float = 200.0):
+    def act(self, action_logits: torch.Tensor, world, move_cost: float, metabolism_cost: float, max_energy: float = 200.0,
+             food_energy_value: float = 40.0):
         """Move each alive agent toward its argmax action, consume energy, eat food."""
         action = torch.argmax(action_logits, dim=1)  # [N]
         delta = self.moves[action]  # [N, 2]
@@ -78,7 +79,7 @@ class Agents:
         x, y = self.pos[:, 0], self.pos[:, 1]
         eaten = world.food[y, x].clone()
         world.food[y, x] -= eaten
-        self.energy += eaten * 40.0  # food -> energy conversion
+        self.energy += eaten * food_energy_value  # food -> energy conversion
 
         # costs
         self.energy -= (move_cost + metabolism_cost)
