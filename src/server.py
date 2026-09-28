@@ -24,6 +24,7 @@ from world.biome import World
 from genome.agents import Agents
 from brain.batched_brain import BatchedBrain
 from evolution.loop import reproduce
+from migration.pressure import compute_move_cost
 from emotion.state import EmotionState
 from cognition.goals import select_goals, GOAL_NAMES
 from cognition.thoughts import generate_thought
@@ -67,8 +68,9 @@ def sim_loop():
 
         sensors = agents.sense(world)
         action_logits = brain.forward(sensors)
+        move_cost = compute_move_cost(agents, config["move_cost"], config)
         ate_food = agents.act(
-            action_logits, world, config["move_cost"], config["metabolism_cost"], config["max_energy"]
+            action_logits, world, move_cost, config["metabolism_cost"], config["max_energy"]
         )
 
         emotions.update(agents, world, ate_food)
