@@ -16,9 +16,13 @@ BIOME_NAMES = {
     DESERT: "desert", CAVE: "cave",
 }
 
-# Food regen rate per biome (per step, added to food tensor up to a cap)
+# Food regen rate per biome (per step, added to food tensor up to a cap).
+# Deliberately slow: at 10x these rates a depleted tile refilled in ~12 ticks,
+# so >99% of the map sat near the food cap and nothing ever went hungry.
+# Slower regen lets local depletion linger, so scarcity, migration pressure
+# and death-driven evolution can actually happen.
 BIOME_FOOD_REGEN = {
-    PLAINS: 0.08, RIVER: 0.15, MOUNTAIN: 0.03, DESERT: 0.01, CAVE: 0.02,
+    PLAINS: 0.008, RIVER: 0.015, MOUNTAIN: 0.003, DESERT: 0.001, CAVE: 0.002,
 }
 
 # Shelter value (reduces exposure/temperature penalties later)
