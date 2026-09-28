@@ -38,10 +38,17 @@ def reproduce(agents, brain, config: dict, device: torch.device):
         parent_a_choice = torch.multinomial(probs, n_dead, replacement=True)
         parent_b_choice = torch.multinomial(probs, n_dead, replacement=True)
 
-        # avoid a parent mating with itself where we can (single resample
-        # pass -- not a hard guarantee, but cuts self-pairing a lot)
-        self_paired = parent_a_choice == parent_b_choice
-        if self_paired.any():
+        # avoid a parent mating with itself: resample colliding pairs until
+        # none remain (bounded so we can't loop forever). A single resample
+        # attempt isn't enough -- it can re-collide by chance, and a
+        # self-paired agent would get charged reproduce_cost twice (once as
+        # "parent A", once as "parent B") instead of once. With an eligible
+        # pool of >= 2 (guaranteed by the branch above), 20 attempts drives
+        # the residual collision chance low enough to ignore in practice.
+        for _ in range(20):
+            self_paired = parent_a_choice == parent_b_choice
+            if not self_paired.any():
+                break
             parent_b_choice[self_paired] = torch.multinomial(
                 probs, int(self_paired.sum()), replacement=True
             )
