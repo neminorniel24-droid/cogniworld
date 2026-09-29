@@ -43,6 +43,12 @@ uvicorn server:app --host 0.0.0.0 --port 8000
 Then open `http://localhost:8000` in a browser. Click any dot to inspect that
 agent's live emotion state, current goal, and procedurally-generated thought.
 
+**3D viewer (terrain + agents in Three.js):** with the server running, open
+`http://localhost:8000/3d`. Real terrain mesh (elevation + biome colors,
+rivers carved in), agents rendered as one InstancedMesh so it stays smooth
+at thousands of agents, live S/I/R chart, and the same click-to-inspect
+panel. Keys 1-4 switch the agent color mode (infection/energy/goal/emotion).
+
 Tune population size, world size, mutation rate, etc. in `configs/default.yaml`.
 
 ## Testing
@@ -52,8 +58,14 @@ pip install -r requirements-dev.txt
 pytest
 ```
 Covers the pure-logic modules (brain, agents, emotion, goals, world, memory,
-evolution, migration) on CPU — no GPU required. Runs automatically on every
-push/PR via GitHub Actions (`.github/workflows/tests.yml`).
+evolution, migration, disease) on CPU — no GPU required. Runs automatically
+on every push/PR via GitHub Actions (`.github/workflows/tests.yml`).
+
+The 3D viewer's terrain/color/movement logic has its own Node test suite,
+separate from pytest since it's plain JS with no DOM/THREE dependency:
+```bash
+node --test "tests/js/*.test.mjs"
+```
 
 For an end-to-end sanity check without a GPU or display, run
 `python3 scripts/headless_smoke_test.py` -- it runs the full pipeline for a
@@ -72,9 +84,9 @@ couple thousand ticks and prints population stats.
 | `src/migration/` | Scarcity-driven move cost discount — cheaper movement for agents starving in place |
 | `src/disease/` | SIR disease model — density-driven spread (3x3 tile exposure), energy drain, immunity after recovery |
 | `src/memory/` | Lightweight per-agent episodic memory (ring buffer, stands in for ChromaDB/Redis until needed) |
-| `src/server.py` | FastAPI backend — runs the sim continuously, serves live state as JSON |
-| `web/` | Browser dashboard — biome canvas + click-to-inspect specimen panel |
-| `src/disease/` | *(planned)* SIR epidemic model over agent population |
+| `src/server.py` | FastAPI backend — runs the sim continuously, serves live state + terrain as JSON |
+| `web/index.html` | 2D browser dashboard — biome canvas + click-to-inspect specimen panel |
+| `web/world3d.html`, `web/world3d_core.mjs` | 3D viewer (Three.js) — terrain mesh, instanced agents, live S/I/R chart |
 | `src/conflict/` | *(planned)* Tribe formation and combat over territory |
 | `src/time_control/` | *(planned)* Pause/rewind/speed via world-state snapshots |
 | `src/viz/` | Standalone pygame renderer (simpler alternative to the web dashboard) |
