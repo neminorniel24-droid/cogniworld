@@ -15,7 +15,7 @@ import time
 
 import yaml
 import torch
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Body
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
@@ -31,6 +31,7 @@ from emotion.state import EmotionState
 from cognition.goals import select_goals, GOAL_NAMES
 from cognition.thoughts import generate_thought
 from memory.store import MemoryStore
+from god.controls import GodControls
 
 app = FastAPI()
 
@@ -39,6 +40,11 @@ mimetypes.add_type("text/javascript", ".mjs")  # browsers refuse ES modules serv
 app.mount("/web", StaticFiles(directory=WEB_DIR), name="web")
 
 DISEASE_NAMES = ["susceptible", "infected", "recovered"]
+
+# Single sim thread, so one shared GodControls instance is safe: HTTP
+# handlers queue commands from the request thread, sim_loop drains and
+# applies them once per tick.
+GOD = GodControls()
 
 
 def terrain_payload(world) -> dict:
@@ -52,7 +58,9 @@ def terrain_payload(world) -> dict:
 
 STATE_LOCK = threading.Lock()
 STATE = {"step": 0, "alive": 0, "agents": [], "biome": None, "terrain": None,
-         "disease": {"susceptible": 0, "infected": 0, "recovered": 0}}
+         "disease": {"susceptible": 0, "infected": 0, "recovered": 0},
+         "controls": {"paused": False, "speed": 1.0, "queued_commands": 0},
+         "events": []}
 
 
 def load_config(path=None):
@@ -60,6 +68,42 @@ def load_config(path=None):
         path = os.path.join(os.path.dirname(__file__), "..", "configs", "default.yaml")
     with open(path) as f:
         return yaml.safe_load(f)
+
+
+def publish_snapshot(step, agents, world, brain, emotions, disease):
+    """Build and store the /state payload from current tensors. Recomputes
+    goals from emotions.values (cheap -- no new sensing needed) so this can
+    be called right after a god command too, not just on the normal per-tick
+    cadence, and still reflect the right goal for each agent."""
+    goals = select_goals(emotions.values)
+    alive_idx = agents.alive.nonzero(as_tuple=True)[0]
+    energy = agents.energy[alive_idx].cpu().tolist()
+    goal_ids = goals[alive_idx].cpu().tolist()
+    emo_vals = emotions.values[alive_idx].cpu().tolist()
+    infection_ids = agents.infection[alive_idx].cpu().tolist()
+    x_coord = agents.pos[alive_idx, 0].cpu().tolist()
+    y_coord = agents.pos[alive_idx, 1].cpu().tolist()
+    biome_grid = world.biome
+
+    agent_records = []
+    for j, real_idx in enumerate(alive_idx.tolist()):
+        bx, by = int(x_coord[j]), int(y_coord[j])
+        biome_id = int(biome_grid[by, bx].item())
+        agent_records.append({
+            "id": real_idx,
+            "x": bx, "y": by,
+            "energy": round(energy[j], 1),
+            "goal": GOAL_NAMES[goal_ids[j]],
+            "emotion": emo_vals[j],
+            "thought": generate_thought(goal_ids[j], biome_id),
+            "infection": DISEASE_NAMES[int(infection_ids[j])],
+        })
+
+    with STATE_LOCK:
+        STATE["step"] = step
+        STATE["alive"] = int(agents.alive.sum().item())
+        STATE["agents"] = agent_records
+        STATE["disease"] = disease.counts(agents)
 
 
 def sim_loop():
@@ -85,6 +129,26 @@ def sim_loop():
 
     step = 0
     while step < config["max_steps"]:
+        ctl = GOD.snapshot()
+
+        # applied every iteration, even while paused, so a queued kill/spawn/
+        # famine/feast takes effect immediately instead of waiting to resume
+        god_events = GOD.apply(agents, world, brain, disease, config, device)
+
+        with STATE_LOCK:
+            STATE["controls"] = ctl
+            if god_events:
+                STATE["events"] = (STATE["events"] + god_events)[-20:]
+
+        if ctl["paused"]:
+            if god_events:
+                # otherwise a kill/spawn/famine/feast while paused wouldn't
+                # show up in /state until you resume -- caught by manually
+                # exercising every /control/* endpoint against a live server
+                publish_snapshot(step, agents, world, brain, emotions, disease)
+            time.sleep(0.05)
+            continue
+
         world.step()
 
         sensors = agents.sense(world)
@@ -115,45 +179,68 @@ def sim_loop():
 
         # publish a lightweight snapshot every few steps (avoid locking every tick)
         if step % 2 == 0:
-            alive_idx = agents.alive.nonzero(as_tuple=True)[0]
-            pos = agents.pos[alive_idx].cpu().tolist()
-            energy = agents.energy[alive_idx].cpu().tolist()
-            goal_ids = goals[alive_idx].cpu().tolist()
-            emo_vals = emotions.values[alive_idx].cpu().tolist()
-            infection_ids = agents.infection[alive_idx].cpu().tolist()
-            x_coord = agents.pos[alive_idx, 0].cpu().tolist()
-            y_coord = agents.pos[alive_idx, 1].cpu().tolist()
-            biome_grid = world.biome
-
-            agent_records = []
-            for j, real_idx in enumerate(alive_idx.tolist()):
-                bx, by = int(x_coord[j]), int(y_coord[j])
-                biome_id = int(biome_grid[by, bx].item())
-                agent_records.append({
-                    "id": real_idx,
-                    "x": bx, "y": by,
-                    "energy": round(energy[j], 1),
-                    "goal": GOAL_NAMES[goal_ids[j]],
-                    "emotion": emo_vals[j],
-                    "thought": generate_thought(goal_ids[j], biome_id),
-                    "infection": DISEASE_NAMES[int(infection_ids[j])],
-                })
-
-            with STATE_LOCK:
-                STATE["step"] = step
-                STATE["alive"] = int(agents.alive.sum().item())
-                STATE["agents"] = agent_records
-                STATE["disease"] = disease.counts(agents)
+            publish_snapshot(step, agents, world, brain, emotions, disease)
 
         step += 1
-        time.sleep(0.03)  # cap sim rate so the dashboard can keep up
+        time.sleep(max(0.005, 0.03 / ctl["speed"]))  # cap sim rate; speed adjusts it
 
 
 @app.get("/state")
 def get_state():
     with STATE_LOCK:
         return {"step": STATE["step"], "alive": STATE["alive"], "agents": STATE["agents"],
-                "disease": STATE["disease"]}
+                "disease": STATE["disease"], "controls": STATE["controls"], "events": STATE["events"]}
+
+
+# ---- god controls: HTTP handlers only ever queue/set flags. The actual
+# tensor work happens once per tick in sim_loop, which is single-threaded --
+# see god/controls.py's module docstring for why. ---------------------------
+
+@app.post("/control/pause")
+def control_pause(payload: dict = Body(...)):
+    GOD.set_paused(bool(payload.get("paused", True)))
+    return GOD.snapshot()
+
+
+@app.post("/control/speed")
+def control_speed(payload: dict = Body(...)):
+    GOD.set_speed(payload.get("speed", 1.0))
+    return GOD.snapshot()
+
+
+@app.post("/control/kill")
+def control_kill(payload: dict = Body(default={})):
+    GOD.queue("kill", ids=payload.get("ids"), region=payload.get("region"))
+    return GOD.snapshot()
+
+
+@app.post("/control/spawn")
+def control_spawn(payload: dict = Body(default={})):
+    GOD.queue("spawn", n=payload.get("n", 1))
+    return GOD.snapshot()
+
+
+@app.post("/control/famine")
+def control_famine(payload: dict = Body(default={})):
+    GOD.queue("famine", region=payload.get("region"))
+    return GOD.snapshot()
+
+
+@app.post("/control/feast")
+def control_feast(payload: dict = Body(default={})):
+    GOD.queue("feast", region=payload.get("region"))
+    return GOD.snapshot()
+
+
+@app.post("/control/seed_disease")
+def control_seed_disease(payload: dict = Body(default={})):
+    GOD.queue("seed_disease", n=payload.get("n", 10))
+    return GOD.snapshot()
+
+
+@app.get("/control/state")
+def control_state():
+    return GOD.snapshot()
 
 
 @app.get("/biome")
