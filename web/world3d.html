@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CogniWorld 3D</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #0b1020; color: #dfe7f5;
+               font: 13px/1.4 system-ui, sans-serif; }
+  canvas { display: block; }
+  .panel { position: fixed; background: rgba(12, 18, 36, 0.78); border: 1px solid #263252;
+           border-radius: 10px; padding: 10px 12px; backdrop-filter: blur(4px); }
+  #hud { top: 12px; left: 12px; width: 250px; }
+  #hud h1 { font-size: 15px; margin: 0 0 6px; letter-spacing: .5px; }
+  .row { display: flex; justify-content: space-between; }
+  .row b { font-variant-numeric: tabular-nums; }
+  .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; }
+  #modes { display: flex; gap: 4px; margin: 8px 0 6px; flex-wrap: wrap; }
+  #modes button { flex: 1; background: #16213f; color: #dfe7f5; border: 1px solid #2b3a63;
+                  border-radius: 6px; padding: 4px 6px; cursor: pointer; }
+  #modes button.active { background: #2f4a9a; border-color: #5a7be0; }
+  #legend { margin: 4px 0 8px; font-size: 12px; }
+  #chart { width: 226px; height: 70px; display: block; background: #0b1226; border-radius: 6px; }
+  #hint { margin-top: 8px; color: #8a97b8; font-size: 11px; }
+  #inspector { bottom: 12px; right: 12px; width: 270px; display: none; }
+  #inspector h2 { font-size: 14px; margin: 0 0 6px; }
+  #thought { font-style: italic; color: #b9c6e6; margin: 6px 0; }
+  .bar { height: 6px; background: #16213f; border-radius: 3px; margin: 2px 0 6px; }
+  .bar > div { height: 100%; border-radius: 3px; background: #5a7be0; }
+  #status { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center;
+            font-size: 15px; color: #8a97b8; pointer-events: none; }
+</style>
+<script type="importmap">
+{ "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<div id="status">Waiting for the simulation to build the world…</div>
+
+<div id="hud" class="panel">
+  <h1>CogniWorld 3D</h1>
+  <div class="row"><span>step</span><b id="step">–</b></div>
+  <div class="row"><span>alive</span><b id="alive">–</b></div>
+  <div class="row"><span><i class="dot" style="background:#eaf5ff"></i>susceptible</span><b id="cS">–</b></div>
+  <div class="row"><span><i class="dot" style="background:#ff3b3b"></i>infected</span><b id="cI">–</b></div>
+  <div class="row"><span><i class="dot" style="background:#b388ff"></i>recovered</span><b id="cR">–</b></div>
+  <div id="modes"></div>
+  <div id="legend"></div>
+  <canvas id="chart" width="226" height="70"></canvas>
+  <div id="hint">drag = orbit · right-drag = pan · scroll = zoom · click an agent · keys 1-4 = color mode</div>
+</div>
+
+<div id="inspector" class="panel">
+  <h2 id="iTitle"></h2>
+  <div class="row"><span>goal</span><b id="iGoal"></b></div>
+  <div class="row"><span>infection</span><b id="iInf"></b></div>
+  <div class="row"><span>energy</span><b id="iEnergy"></b></div>
+  <div id="thought"></div>
+  <div id="emotions"></div>
+</div>
+
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import {
+  buildTerrain, agentColor, agentScale, MODES, EMOTION_NAMES, stepToward,
+} from '/web/world3d_core.mjs';
+
+const MAX_AGENTS = 20000;
+const POLL_MS = 200;
+const HISTORY = 300;
+
+const $ = (id) => document.getElementById(id);
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const rgbCss = (c) => `rgb(${c.map((v) => Math.round(v * 255)).join(',')})`;
+
+async function loadTerrain() {
+  for (;;) {
+    try {
+      const r = await fetch('/terrain');
+      if (r.ok) return await r.json();
+    } catch (e) { /* server not up yet */ }
+    await sleep(500);
+  }
+}
+
+const data = await loadTerrain();
+$('status').style.display = 'none';
+const terrain = buildTerrain(data.elevation, data.biome);
+const N = terrain.n;
+
+// ---- scene -----------------------------------------------------------
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+renderer.setSize(window.innerWidth, window.innerHeight);
+document.body.prepend(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x0b1020);
+scene.fog = new THREE.Fog(0x0b1020, N * 1.4, N * 4);
+
+const camera = new THREE.PerspectiveCamera(55, window.innerWidth / window.innerHeight, 0.5, N * 10);
+camera.position.set(N * 0.5, N * 0.7, N * 1.15);
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.target.set(N / 2, 3, N / 2);
+controls.maxPolarAngle = Math.PI * 0.49; // never dip under the terrain
+controls.enableDamping = true;
+
+scene.add(new THREE.HemisphereLight(0xcfe0ff, 0x30281f, 1.0));
+const sun = new THREE.DirectionalLight(0xfff2d6, 1.6);
+sun.position.set(N * 0.2, N, N * 0.3);
+scene.add(sun);
+
+// terrain (palette values are authored in sRGB; convert to the renderer's linear space)
+{
+  const c = new THREE.Color();
+  const lin = new Float32Array(terrain.colors.length);
+  for (let i = 0; i < terrain.colors.length; i += 3) {
+    c.setRGB(terrain.colors[i], terrain.colors[i + 1], terrain.colors[i + 2], THREE.SRGBColorSpace);
+    lin[i] = c.r; lin[i + 1] = c.g; lin[i + 2] = c.b;
+  }
+  const geo = new THREE.BufferGeometry();
+  geo.setAttribute('position', new THREE.BufferAttribute(terrain.positions, 3));
+  geo.setAttribute('color', new THREE.BufferAttribute(lin, 3));
+  geo.setIndex(new THREE.BufferAttribute(terrain.indices, 1));
+  geo.computeVertexNormals();
+  scene.add(new THREE.Mesh(geo, new THREE.MeshLambertMaterial({ vertexColors: true })));
+}
+
+// agents: one InstancedMesh, one draw call for everybody
+const mesh = new THREE.InstancedMesh(
+  new THREE.SphereGeometry(0.42, 10, 8),
+  new THREE.MeshStandardMaterial({ roughness: 0.5 }),
+  MAX_AGENTS,
+);
+mesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
+mesh.frustumCulled = false;
+mesh.count = 0;
+mesh.setColorAt(0, new THREE.Color());
+scene.add(mesh);
+
+const ring = new THREE.Mesh(
+  new THREE.TorusGeometry(0.95, 0.09, 8, 28),
+  new THREE.MeshBasicMaterial({ color: 0xffffff }),
+);
+ring.rotation.x = Math.PI / 2;
+ring.visible = false;
+scene.add(ring);
+
+// ---- state -----------------------------------------------------------
+let mode = 'infection';
+let agents = [];
+let selectedId = null;
+const positions = new Map(); // agent id -> rendered {x, z, t:{x,z}}
+const history = { S: [], I: [], R: [] };
+const dummy = new THREE.Object3D();
+const col = new THREE.Color();
+
+function recolor() {
+  for (let i = 0; i < agents.length; i++) {
+    const c = agentColor(mode, agents[i]);
+    col.setRGB(c[0], c[1], c[2], THREE.SRGBColorSpace);
+    mesh.setColorAt(i, col);
+  }
+  if (mesh.instanceColor) mesh.instanceColor.needsUpdate = true;
+}
+
+function legendEntries() {
+  switch (mode) {
+    case 'infection':
+      return ['susceptible', 'infected', 'recovered'].map((k) => [k, agentColor('infection', { infection: k })]);
+    case 'goal':
+      return ['seeking food', 'fleeing danger', 'exploring', 'resting'].map((k) => [k, agentColor('goal', { goal: k })]);
+    case 'emotion':
+      return EMOTION_NAMES.map((k, i) => {
+        const v = [0, 0, 0, 0]; v[i] = 1;
+        return [k, agentColor('emotion', { emotion: v })];
+      });
+    default:
+      return [['starving', agentColor('energy', { energy: 0 })],
+              ['half', agentColor('energy', { energy: 100 })],
+              ['full', agentColor('energy', { energy: 200 })]];
+  }
+}
+
+function renderLegend() {
+  const box = $('legend');
+  box.replaceChildren();
+  for (const [label, c] of legendEntries()) {
+    const span = document.createElement('span');
+    span.style.marginRight = '10px';
+    const dot = document.createElement('i');
+    dot.className = 'dot';
+    dot.style.background = rgbCss(c);
+    span.append(dot, label);
+    box.append(span);
+  }
+}
+
+function setMode(m) {
+  mode = m;
+  for (const b of document.querySelectorAll('#modes button')) b.classList.toggle('active', b.dataset.mode === m);
+  renderLegend();
+  recolor();
+}
+
+for (const m of MODES) {
+  const b = document.createElement('button');
+  b.textContent = m;
+  b.dataset.mode = m;
+  b.onclick = () => setMode(m);
+  $('modes').append(b);
+}
+window.addEventListener('keydown', (e) => {
+  const i = Number(e.key) - 1;
+  if (i >= 0 && i < MODES.length) setMode(MODES[i]);
+});
+
+function drawChart() {
+  const cv = $('chart'), g = cv.getContext('2d');
+  g.clearRect(0, 0, cv.width, cv.height);
+  const top = Math.max(1, ...history.S.map((s, i) => s + history.I[i] + history.R[i]));
+  const line = (arr, color) => {
+    g.beginPath();
+    arr.forEach((v, i) => {
+      const x = (i / (HISTORY - 1)) * cv.width, y = cv.height - (v / top) * (cv.height - 4) - 2;
+      i ? g.lineTo(x, y) : g.moveTo(x, y);
+    });
+    g.strokeStyle = color; g.lineWidth = 1.5; g.stroke();
+  };
+  line(history.S, '#eaf5ff'); line(history.R, '#b388ff'); line(history.I, '#ff3b3b');
+}
+
+function updateInspector() {
+  const panel = $('inspector');
+  if (selectedId === null) { panel.style.display = 'none'; ring.visible = false; return; }
+  const a = agents.find((x) => x.id === selectedId);
+  panel.style.display = 'block';
+  if (!a) { $('iTitle').textContent = `agent #${selectedId} is gone`; ring.visible = false; return; }
+  ring.visible = true;
+  $('iTitle').textContent = `agent #${a.id}`;
+  $('iGoal').textContent = a.goal;
+  $('iInf').textContent = a.infection;
+  $('iEnergy').textContent = a.energy;
+  $('thought').textContent = `“${a.thought}”`;
+  const box = $('emotions');
+  box.replaceChildren();
+  EMOTION_NAMES.forEach((name, i) => {
+    const v = a.emotion[i] ?? 0;
+    const label = document.createElement('div');
+    label.className = 'row';
+    label.append(Object.assign(document.createElement('span'), { textContent: name }),
+                 Object.assign(document.createElement('b'), { textContent: v.toFixed(2) }));
+    const bar = document.createElement('div'); bar.className = 'bar';
+    const fill = document.createElement('div'); fill.style.width = `${Math.min(100, v * 100)}%`;
+    bar.append(fill);
+    box.append(label, bar);
+  });
+}
+
+function onState(s) {
+  agents = s.agents.slice(0, MAX_AGENTS);
+  const seen = new Set();
+  for (const a of agents) {
+    seen.add(a.id);
+    let e = positions.get(a.id);
+    if (!e) { e = { x: a.x, z: a.y, t: { x: a.x, z: a.y } }; positions.set(a.id, e); }
+    e.t.x = a.x; e.t.z = a.y;
+  }
+  for (const id of positions.keys()) if (!seen.has(id)) positions.delete(id);
+  mesh.count = agents.length;
+  recolor();
+
+  $('step').textContent = s.step;
+  $('alive').textContent = s.alive;
+  const d = s.disease ?? { susceptible: 0, infected: 0, recovered: 0 };
+  $('cS').textContent = d.susceptible; $('cI').textContent = d.infected; $('cR').textContent = d.recovered;
+  for (const [k, v] of [['S', d.susceptible], ['I', d.infected], ['R', d.recovered]]) {
+    history[k].push(v);
+    if (history[k].length > HISTORY) history[k].shift();
+  }
+  drawChart();
+  updateInspector();
+}
+
+async function poll() {
+  try {
+    const r = await fetch('/state');
+    if (r.ok) onState(await r.json());
+  } catch (e) { /* server restarting; keep trying */ }
+  setTimeout(poll, POLL_MS);
+}
+
+// ---- picking: nearest agent to the cursor in screen space -------------
+let downAt = null;
+renderer.domElement.addEventListener('pointerdown', (e) => { downAt = [e.clientX, e.clientY]; });
+renderer.domElement.addEventListener('pointerup', (e) => {
+  if (!downAt || Math.hypot(e.clientX - downAt[0], e.clientY - downAt[1]) > 5) return; // it was a drag
+  const v = new THREE.Vector3();
+  let best = null, bestDist = 16; // px
+  for (const a of agents) {
+    const p = positions.get(a.id);
+    if (!p) continue;
+    v.set(p.x, terrain.heightAt(p.x, p.z) + 0.55, p.z).project(camera);
+    if (v.z > 1) continue; // behind the camera
+    const sx = (v.x * 0.5 + 0.5) * window.innerWidth, sy = (-v.y * 0.5 + 0.5) * window.innerHeight;
+    const dist = Math.hypot(sx - e.clientX, sy - e.clientY);
+    if (dist < bestDist) { bestDist = dist; best = a.id; }
+  }
+  selectedId = best;
+  updateInspector();
+});
+
+window.addEventListener('resize', () => {
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(window.innerWidth, window.innerHeight);
+});
+
+function frame() {
+  requestAnimationFrame(frame);
+  for (let i = 0; i < agents.length; i++) {
+    const a = agents[i], e = positions.get(a.id);
+    if (!e) continue;
+    stepToward(e, e.t, 0.25, 4);
+    dummy.position.set(e.x, terrain.heightAt(e.x, e.z) + 0.55, e.z);
+    const s = agentScale(a);
+    dummy.scale.set(s, s, s);
+    dummy.updateMatrix();
+    mesh.setMatrixAt(i, dummy.matrix);
+    if (a.id === selectedId) ring.position.copy(dummy.position);
+  }
+  mesh.instanceMatrix.needsUpdate = true;
+  controls.update();
+  renderer.render(scene, camera);
+}
+
+setMode('infection');
+poll();
+frame();
+</script>
+</body>
+</html>

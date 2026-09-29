@@ -9,6 +9,7 @@ Then open http://localhost:8000 in a browser.
 """
 import sys
 import os
+import mimetypes
 import threading
 import time
 
@@ -32,6 +33,10 @@ from cognition.thoughts import generate_thought
 from memory.store import MemoryStore
 
 app = FastAPI()
+
+WEB_DIR = os.path.join(os.path.dirname(__file__), "..", "web")
+mimetypes.add_type("text/javascript", ".mjs")  # browsers refuse ES modules served with another type
+app.mount("/web", StaticFiles(directory=WEB_DIR), name="web")
 
 DISEASE_NAMES = ["susceptible", "infected", "recovered"]
 
@@ -164,6 +169,11 @@ def get_terrain():
     if terrain is None:
         raise HTTPException(status_code=503, detail="world not ready yet")
     return terrain
+
+
+@app.get("/3d")
+def viewer_3d():
+    return FileResponse(os.path.join(WEB_DIR, "world3d.html"))
 
 
 @app.get("/")
