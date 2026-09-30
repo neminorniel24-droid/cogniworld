@@ -67,6 +67,34 @@
     font-family: var(--font-display); font-size: 16px; font-weight: 600;
     margin: 0 0 4px; color: var(--text-primary);
   }
+  .god-panel {
+    width: 260px; border-right: 1px solid var(--panel-border);
+    background: var(--panel); padding: 18px; overflow-y: auto; flex-shrink: 0;
+  }
+  .god-panel h2 {
+    font-family: var(--font-display); font-size: 15px; font-weight: 600;
+    margin: 0 0 10px; color: var(--text-primary);
+  }
+  .god-panel .hint { font-size: 11px; color: var(--text-muted); margin: -4px 0 10px; }
+  .god-row { display: flex; gap: 6px; margin-bottom: 8px; }
+  .god-row label { font-size: 11px; color: var(--text-secondary); width: 60px; align-self: center; }
+  .god-btn {
+    background: #22302c; color: var(--text-primary); border: 1px solid var(--panel-border);
+    border-radius: 4px; padding: 6px 8px; font-family: var(--font-mono); font-size: 11px;
+    cursor: pointer; flex: 1;
+  }
+  .god-btn:hover { border-color: var(--teal); }
+  .god-btn.danger:hover { border-color: var(--rust); }
+  .god-btn.active { background: var(--rust); border-color: var(--rust); }
+  .god-num {
+    width: 56px; background: #0e1614; color: var(--text-primary); border: 1px solid var(--panel-border);
+    border-radius: 4px; padding: 5px 6px; font-family: var(--font-mono); font-size: 11px;
+  }
+  .god-region { font-size: 11px; color: var(--text-secondary); margin: 4px 0 8px; }
+  #god-log {
+    margin-top: 12px; border-top: 1px solid var(--panel-border); padding-top: 8px;
+    font-size: 10px; color: var(--text-muted); line-height: 1.6; max-height: 140px; overflow-y: auto;
+  }
   .empty-state {
     color: var(--text-muted); font-size: 13px; line-height: 1.7;
     padding-top: 12px; border-top: 1px dashed var(--panel-border); margin-top: 12px;
@@ -92,6 +120,43 @@
 </head>
 <body>
 <div class="app">
+  <div class="god-panel">
+    <h2>Powers</h2>
+    <div class="hint">drag on the map to target a region — otherwise powers act on the whole world</div>
+
+    <div class="god-row">
+      <button class="god-btn" id="god-pause">⏸ pause</button>
+      <button class="god-btn" id="god-resume">▶ resume</button>
+    </div>
+    <div class="god-row">
+      <label>speed</label>
+      <button class="god-btn speed-btn" data-speed="0.5">0.5x</button>
+      <button class="god-btn speed-btn active" data-speed="1">1x</button>
+      <button class="god-btn speed-btn" data-speed="3">3x</button>
+      <button class="god-btn speed-btn" data-speed="10">10x</button>
+    </div>
+
+    <div id="god-region" class="god-region">region: whole world</div>
+
+    <div class="god-row">
+      <button class="god-btn danger" id="god-famine">🔥 famine</button>
+      <button class="god-btn" id="god-feast">🌾 feast</button>
+    </div>
+    <div class="god-row">
+      <button class="god-btn danger" id="god-kill">☠ kill in region</button>
+    </div>
+    <div class="god-row">
+      <input class="god-num" id="god-spawn-n" type="number" value="10" min="1">
+      <button class="god-btn" id="god-spawn">✦ spawn</button>
+    </div>
+    <div class="god-row">
+      <input class="god-num" id="god-disease-n" type="number" value="10" min="1">
+      <button class="god-btn danger" id="god-disease">☣ seed disease</button>
+    </div>
+
+    <div id="god-log"></div>
+  </div>
+
   <div class="main">
     <div class="topbar">
       <h1>CogniWorld</h1>
@@ -179,6 +244,23 @@ function render() {
       ctx.stroke();
     }
   }
+
+  if (regionBox) drawRegionRect(regionBox.x0, regionBox.y0, regionBox.x1 + 1, regionBox.y1 + 1, "#c9a24a");
+  if (dragStartPx && dragCurrentTile) {
+    drawRegionRect(
+      Math.min(dragStartPx.x, dragCurrentTile.x), Math.min(dragStartPx.y, dragCurrentTile.y),
+      Math.max(dragStartPx.x, dragCurrentTile.x), Math.max(dragStartPx.y, dragCurrentTile.y),
+      "#5a9e94",
+    );
+  }
+}
+
+function drawRegionRect(x0, y0, x1, y1, color) {
+  ctx.strokeStyle = color;
+  ctx.lineWidth = 2;
+  ctx.setLineDash([4, 3]);
+  ctx.strokeRect(x0 * CELL, y0 * CELL, (x1 - x0) * CELL, (y1 - y0) * CELL);
+  ctx.setLineDash([]);
 }
 
 function renderPanel(agent) {
@@ -203,19 +285,57 @@ function renderPanel(agent) {
   `;
 }
 
-canvas.addEventListener('click', (e) => {
+// ---- god region selection: drag on the map to target a region ----------
+let regionBox = null;      // {x0,y0,x1,y1} in tile coords, or null = whole world
+let dragStartPx = null;
+let dragCurrentTile = null;
+
+function toTile(e) {
   const rect = canvas.getBoundingClientRect();
-  const cx = (e.clientX - rect.left) / CELL;
-  const cy = (e.clientY - rect.top) / CELL;
-  let nearest = null, bestDist = Infinity;
-  for (const a of latestAgents) {
-    const d = (a.x - cx) ** 2 + (a.y - cy) ** 2;
-    if (d < bestDist) { bestDist = d; nearest = a; }
+  return { x: (e.clientX - rect.left) / CELL, y: (e.clientY - rect.top) / CELL };
+}
+
+function updateRegionLabel() {
+  const label = document.getElementById('god-region');
+  label.innerHTML = regionBox
+    ? `region: (${regionBox.x0},${regionBox.y0})-(${regionBox.x1},${regionBox.y1}) <a href="#" id="god-region-clear" style="color:var(--teal)">clear</a>`
+    : 'region: whole world';
+  const clear = document.getElementById('god-region-clear');
+  if (clear) clear.onclick = (e) => { e.preventDefault(); regionBox = null; updateRegionLabel(); render(); };
+}
+
+canvas.addEventListener('mousedown', (e) => { dragStartPx = toTile(e); });
+
+canvas.addEventListener('mousemove', (e) => {
+  if (!dragStartPx) return;
+  dragCurrentTile = toTile(e);
+  render();
+});
+
+canvas.addEventListener('mouseup', (e) => {
+  if (!dragStartPx) return;
+  const end = toTile(e);
+  const dx = Math.abs(end.x - dragStartPx.x), dy = Math.abs(end.y - dragStartPx.y);
+  if (dx > 1.5 || dy > 1.5) {
+    regionBox = {
+      x0: Math.max(0, Math.floor(Math.min(dragStartPx.x, end.x))),
+      y0: Math.max(0, Math.floor(Math.min(dragStartPx.y, end.y))),
+      x1: Math.floor(Math.max(dragStartPx.x, end.x)),
+      y1: Math.floor(Math.max(dragStartPx.y, end.y)),
+    };
+    updateRegionLabel();
+  } else {
+    // it was basically a click, not a drag -- fall back to specimen inspection
+    let nearest = null, bestDist = Infinity;
+    for (const a of latestAgents) {
+      const d = (a.x - end.x) ** 2 + (a.y - end.y) ** 2;
+      if (d < bestDist) { bestDist = d; nearest = a; }
+    }
+    if (nearest && bestDist < 16) { selectedId = nearest.id; renderPanel(nearest); }
   }
-  if (nearest && bestDist < 16) {
-    selectedId = nearest.id;
-    renderPanel(nearest);
-  }
+  dragStartPx = null;
+  dragCurrentTile = null;
+  render();
 });
 
 async function pollState() {
@@ -230,8 +350,40 @@ async function pollState() {
       const found = latestAgents.find(a => a.id === selectedId);
       if (found) renderPanel(found);
     }
+    if (data.controls) {
+      document.getElementById('god-pause').classList.toggle('active', data.controls.paused);
+      document.getElementById('god-resume').classList.toggle('active', !data.controls.paused);
+      for (const b of document.querySelectorAll('.speed-btn')) {
+        b.classList.toggle('active', Number(b.dataset.speed) === data.controls.speed);
+      }
+    }
+    if (data.events) {
+      document.getElementById('god-log').innerHTML = data.events.slice().reverse()
+        .map(ev => `<div>${ev}</div>`).join('');
+    }
   } catch (e) { /* server still starting */ }
 }
+
+async function godPost(path, body) {
+  try {
+    await fetch(path, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body || {}) });
+  } catch (e) { /* server restarting; the next click will retry */ }
+}
+
+document.getElementById('god-pause').onclick = () => godPost('/control/pause', { paused: true });
+document.getElementById('god-resume').onclick = () => godPost('/control/pause', { paused: false });
+for (const b of document.querySelectorAll('.speed-btn')) {
+  b.onclick = () => godPost('/control/speed', { speed: Number(b.dataset.speed) });
+}
+document.getElementById('god-famine').onclick = () => godPost('/control/famine', { region: regionBox });
+document.getElementById('god-feast').onclick = () => godPost('/control/feast', { region: regionBox });
+document.getElementById('god-kill').onclick = () => godPost('/control/kill', { region: regionBox });
+document.getElementById('god-spawn').onclick = () =>
+  godPost('/control/spawn', { n: Number(document.getElementById('god-spawn-n').value) || 1 });
+document.getElementById('god-disease').onclick = () =>
+  godPost('/control/seed_disease', { n: Number(document.getElementById('god-disease-n').value) || 1 });
+
+updateRegionLabel();
 
 loadBiome().then(() => {
   setInterval(pollState, 250);
