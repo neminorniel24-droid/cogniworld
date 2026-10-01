@@ -4,6 +4,6 @@ noise
 pygame
 matplotlib
 pyyaml
-fastapi
-uvicorn
+fastapi==0.115.6
+uvicorn==0.32.0
 panda3D

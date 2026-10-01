@@ -19,7 +19,7 @@ jobs:
       - name: Install CPU-only torch + test deps
         run: |
           pip install torch --index-url https://download.pytorch.org/whl/cpu
-          pip install numpy noise pyyaml fastapi uvicorn pytest
+          pip install numpy noise pyyaml fastapi==0.115.6 uvicorn==0.32.0 pytest httpx==0.27.2
           # note: intentionally NOT `pip install -r requirements-dev.txt` here --
           # that chains to requirements.txt, which pins the full CUDA torch
           # build and would silently override the CPU wheel above. pygame and
