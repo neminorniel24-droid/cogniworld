@@ -24,6 +24,18 @@
   #hint { margin-top: 8px; color: #8a97b8; font-size: 11px; }
   #inspector { bottom: 12px; right: 12px; width: 270px; display: none; }
   #inspector h2 { font-size: 14px; margin: 0 0 6px; }
+  #god { top: 12px; right: 12px; width: 210px; }
+  #god h1 { font-size: 13px; margin: 0 0 8px; letter-spacing: .5px; }
+  #god .row2 { display: flex; gap: 4px; margin-bottom: 6px; }
+  #god button { flex: 1; background: #16213f; color: #dfe7f5; border: 1px solid #2b3a63;
+                border-radius: 6px; padding: 5px 4px; font-size: 11px; cursor: pointer; }
+  #god button.active { background: #2f4a9a; border-color: #5a7be0; }
+  #god button.danger:hover { border-color: #ff5b5b; }
+  #god input { width: 44px; background: #0e1530; color: #dfe7f5; border: 1px solid #2b3a63;
+               border-radius: 5px; padding: 4px; font-size: 11px; }
+  #god .hint2 { font-size: 10px; color: #8a97b8; margin: 6px 0; }
+  #god-log { margin-top: 8px; border-top: 1px solid #263252; padding-top: 6px;
+             font-size: 10px; color: #8a97b8; line-height: 1.5; max-height: 90px; overflow-y: auto; }
   #thought { font-style: italic; color: #b9c6e6; margin: 6px 0; }
   .bar { height: 6px; background: #16213f; border-radius: 3px; margin: 2px 0 6px; }
   .bar > div { height: 100%; border-radius: 3px; background: #5a7be0; }
@@ -60,6 +72,35 @@
   <div class="row"><span>energy</span><b id="iEnergy"></b></div>
   <div id="thought"></div>
   <div id="emotions"></div>
+</div>
+
+<div id="god" class="panel">
+  <h1>Powers (global)</h1>
+  <div class="row2">
+    <button id="god-pause">⏸ pause</button>
+    <button id="god-resume" class="active">▶ resume</button>
+  </div>
+  <div class="row2">
+    <button class="god-speed" data-speed="0.5">0.5x</button>
+    <button class="god-speed active" data-speed="1">1x</button>
+    <button class="god-speed" data-speed="3">3x</button>
+    <button class="god-speed" data-speed="10">10x</button>
+  </div>
+  <div class="row2">
+    <button id="god-famine" class="danger">🔥 famine</button>
+    <button id="god-feast">🌾 feast</button>
+  </div>
+  <div class="row2">
+    <input id="god-spawn-n" type="number" value="10" min="1">
+    <button id="god-spawn">✦ spawn</button>
+  </div>
+  <div class="row2">
+    <input id="god-disease-n" type="number" value="10" min="1">
+    <button id="god-disease" class="danger">☣ seed</button>
+  </div>
+  <button id="god-kill-selected" class="danger" style="width:100%">☠ kill selected agent</button>
+  <div class="hint2">region targeting is on the 2D dashboard — here powers act on the whole world (except "kill selected", which needs a clicked agent)</div>
+  <div id="god-log"></div>
 </div>
 
 <script type="module">
@@ -284,7 +325,38 @@ function onState(s) {
   }
   drawChart();
   updateInspector();
+
+  if (s.controls) {
+    $('god-pause').classList.toggle('active', s.controls.paused);
+    $('god-resume').classList.toggle('active', !s.controls.paused);
+    for (const b of document.querySelectorAll('.god-speed')) {
+      b.classList.toggle('active', Number(b.dataset.speed) === s.controls.speed);
+    }
+  }
+  if (s.events) {
+    $('god-log').innerHTML = s.events.slice().reverse().map((ev) => `<div>${ev}</div>`).join('');
+  }
 }
+
+async function godPost(path, body) {
+  try {
+    await fetch(path, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body || {}) });
+  } catch (e) { /* server restarting; next click retries */ }
+}
+
+$('god-pause').onclick = () => godPost('/control/pause', { paused: true });
+$('god-resume').onclick = () => godPost('/control/pause', { paused: false });
+for (const b of document.querySelectorAll('.god-speed')) {
+  b.onclick = () => godPost('/control/speed', { speed: Number(b.dataset.speed) });
+}
+$('god-famine').onclick = () => godPost('/control/famine', {});
+$('god-feast').onclick = () => godPost('/control/feast', {});
+$('god-spawn').onclick = () => godPost('/control/spawn', { n: Number($('god-spawn-n').value) || 1 });
+$('god-disease').onclick = () => godPost('/control/seed_disease', { n: Number($('god-disease-n').value) || 1 });
+$('god-kill-selected').onclick = () => {
+  if (selectedId === null) return;
+  godPost('/control/kill', { ids: [selectedId] });
+};
 
 async function poll() {
   try {
