@@ -83,12 +83,13 @@ couple thousand ticks and prints population stats.
 | `src/cognition/` | Rule-based goal selection + procedural thought-text generation (no LLM) |
 | `src/migration/` | Scarcity-driven move cost discount — cheaper movement for agents starving in place |
 | `src/disease/` | SIR disease model — density-driven spread (3x3 tile exposure), energy drain, immunity after recovery |
+| `src/god/` | God controls — pause/speed + kill/spawn/famine/feast/seed_disease, queued from HTTP and applied once per tick |
 | `src/memory/` | Lightweight per-agent episodic memory (ring buffer, stands in for ChromaDB/Redis until needed) |
 | `src/server.py` | FastAPI backend — runs the sim continuously, serves live state + terrain as JSON |
 | `web/index.html` | 2D browser dashboard — biome canvas + click-to-inspect specimen panel |
 | `web/world3d.html`, `web/world3d_core.mjs` | 3D viewer (Three.js) — terrain mesh, instanced agents, live S/I/R chart |
 | `src/conflict/` | *(planned)* Tribe formation and combat over territory |
-| `src/time_control/` | *(planned)* Pause/rewind/speed via world-state snapshots |
+| `src/time_control/` | *(planned)* Rewind via world-state snapshots — pause/speed already live via `src/god/` |
 | `src/viz/` | Standalone pygame renderer (simpler alternative to the web dashboard) |
 
 ## Roadmap
@@ -98,7 +99,29 @@ couple thousand ticks and prints population stats.
 - [x] Phase 3: SIR disease model, density-driven outbreaks
 - [ ] Phase 4: knowledge/tech accumulation + diffusion between nearby agents
 - [ ] Phase 5: tribe formation + territorial conflict
-- [ ] Phase 6: time control UI (pause, rewind, speed slider)
+- [x] Phase 6a: pause/speed (shipped as part of god controls, below)
+- [ ] Phase 6b: rewind via world-state snapshots
+
+## God controls
+
+External interventions, issued from the dashboard or directly via HTTP, queued
+thread-safely and applied once per tick from the single sim thread (see
+`src/god/controls.py`):
+
+| Endpoint | Effect |
+|---|---|
+| `POST /control/pause` `{paused}` | Pause/resume the simulation (commands still apply while paused) |
+| `POST /control/speed` `{speed}` | Scale tick rate, clamped to 0.1x-10x |
+| `POST /control/kill` `{ids}` or `{region}` | Kill agents by id list or a `{x0,y0,x1,y1}` box |
+| `POST /control/spawn` `{n}` | Fill up to `n` currently-dead slots immediately (population is fixed-size — see Notes) |
+| `POST /control/famine` `{region?}` | Zero out food in a region, or the whole world if omitted |
+| `POST /control/feast` `{region?}` | Fill food to cap in a region, or the whole world if omitted |
+| `POST /control/seed_disease` `{n}` | Infect `n` random susceptible agents on demand |
+| `GET /control/state` | Current `{paused, speed, queued_commands}` |
+
+The 2D dashboard lets you drag a region on the map to target famine/feast/kill;
+the 3D viewer's powers act globally except "kill selected agent", which uses
+whatever agent you last clicked.
 
 ## Disease
 
