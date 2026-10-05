@@ -14,3 +14,10 @@ def test_logic_003():
     w = make_world()
     w.temperature.fill_(0.0); w.temperature_target.fill_(1.0); apply(w);
     assert torch.allclose(w.temperature, torch.full_like(w.temperature, 0.08))
+
+
+def test_logic_004():
+    from world_rules.logic_004_heat_increases_evaporation_potential import apply
+    w = make_world()
+    w.temperature.fill_(0.0); apply(w); a=w.evaporation.clone(); w.temperature.fill_(1.0); apply(w); b=w.evaporation.clone()
+    assert torch.all(b > a)
