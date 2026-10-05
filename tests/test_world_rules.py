@@ -630,3 +630,10 @@ def test_logic_091():
     w = make_world()
     w.erosion.fill_(1.0); w.vegetation.fill_(1.0); apply(w);
     assert torch.allclose(w.erosion, torch.full_like(w.erosion, 0.6))
+
+
+def test_logic_092():
+    from world_rules.logic_092_roots_improve_infiltration import apply
+    w = make_world()
+    w.root_density.zero_(); w.soil_moisture.zero_(); w.vegetation.fill_(1.0); apply(w);
+    assert torch.all(w.root_density > 0) and torch.all(w.soil_moisture > 0)
