@@ -28,3 +28,10 @@ def test_logic_005():
     w = make_world()
     w.surface_water.fill_(1.0); w.evaporation.fill_(0.05); apply(w);
     assert torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.95))
+
+
+def test_logic_006():
+    from world_rules.logic_006_evaporation_raises_humidity import apply
+    w = make_world()
+    w.humidity.zero_(); w.evaporation.fill_(0.2); apply(w);
+    assert torch.allclose(w.humidity, torch.full_like(w.humidity, 0.1))

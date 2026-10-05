@@ -7,3 +7,5 @@ from .logic_004_heat_increases_evaporation_potential import apply as logic_004
 RULES.append(logic_004)
 from .logic_005_evaporation_removes_surface_water import apply as logic_005
 RULES.append(logic_005)
+from .logic_006_evaporation_raises_humidity import apply as logic_006
+RULES.append(logic_006)
