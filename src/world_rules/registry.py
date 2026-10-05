@@ -27,3 +27,5 @@ from .logic_014_caves_retain_moisture import apply as logic_014
 RULES.append(logic_014)
 from .logic_015_deserts_lose_surface_water_faster import apply as logic_015
 RULES.append(logic_015)
+from .logic_016_humidity_slows_evaporation import apply as logic_016
+RULES.append(logic_016)
