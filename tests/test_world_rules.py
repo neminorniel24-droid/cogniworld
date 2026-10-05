@@ -308,3 +308,10 @@ def test_logic_045():
     w = make_world()
     w.oxygen.zero_(); w.vegetation.fill_(1.0); apply(w);
     assert torch.allclose(w.oxygen, torch.full_like(w.oxygen, 0.02))
+
+
+def test_logic_046():
+    from world_rules.logic_046_respiration_consumes_oxygen import apply
+    w = make_world()
+    w.oxygen.fill_(1.0); w.biomass.fill_(1.0); w.herbivore.fill_(1.0); w.predator.fill_(1.0); apply(w);
+    assert torch.allclose(w.oxygen, torch.full_like(w.oxygen, 0.97))
