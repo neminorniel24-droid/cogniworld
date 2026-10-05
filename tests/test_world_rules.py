@@ -126,3 +126,10 @@ def test_logic_019():
     w = make_world()
     w.cloud.zero_(); w.cloud[1,1]=1.0; apply(w);
     assert torch.all(w.cloud >= 0) and w.cloud[1,0] > 0
+
+
+def test_logic_020():
+    from world_rules.logic_020_rain_dissipates_clouds import apply
+    w = make_world()
+    w.cloud.fill_(1.0); w.rain.fill_(1.0); apply(w);
+    assert torch.allclose(w.cloud, torch.full_like(w.cloud, 0.9))

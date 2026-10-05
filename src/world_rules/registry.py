@@ -35,3 +35,5 @@ from .logic_018_terrain_gradient_drives_wind import apply as logic_018
 RULES.append(logic_018)
 from .logic_019_wind_disperses_clouds import apply as logic_019
 RULES.append(logic_019)
+from .logic_020_rain_dissipates_clouds import apply as logic_020
+RULES.append(logic_020)
