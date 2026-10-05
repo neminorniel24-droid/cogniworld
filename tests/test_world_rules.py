@@ -553,3 +553,10 @@ def test_logic_080():
     w = make_world()
     w.biodiversity.zero_(); w.temperature.zero_(); w.temperature[:,0]=1.0; apply(w);
     assert torch.any(w.biodiversity > 0)
+
+
+def test_logic_081():
+    from world_rules.logic_081_thermal_extremes_raise_habitat_stress import apply
+    w = make_world()
+    w.habitat_stress.zero_(); w.temperature.fill_(1.0); apply(w);
+    assert torch.allclose(w.habitat_stress, torch.full_like(w.habitat_stress, 0.01))

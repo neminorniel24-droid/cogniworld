@@ -157,3 +157,5 @@ from .logic_079_carrion_boosts_nutrients import apply as logic_079
 RULES.append(logic_079)
 from .logic_080_habitat_heterogeneity_raises_biodiversity import apply as logic_080
 RULES.append(logic_080)
+from .logic_081_thermal_extremes_raise_habitat_stress import apply as logic_081
+RULES.append(logic_081)
