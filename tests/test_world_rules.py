@@ -588,3 +588,10 @@ def test_logic_085():
     w = make_world()
     w.habitat_stress.fill_(1.0); apply(w);
     assert torch.allclose(w.habitat_stress, torch.full_like(w.habitat_stress, 0.995))
+
+
+def test_logic_086():
+    from world_rules.logic_086_storm_runoff_erodes_soil import apply
+    w = make_world()
+    w.erosion.zero_(); w.runoff.fill_(1.0); w.rain.fill_(1.0); apply(w);
+    assert torch.allclose(w.erosion, torch.full_like(w.erosion, 0.02))
