@@ -175,3 +175,10 @@ def test_logic_026():
     w = make_world()
     w.surface_water.zero_(); w.ice.fill_(1.0); w.temperature.fill_(1.0); apply(w);
     assert torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.1))
+
+
+def test_logic_027():
+    from world_rules.logic_027_high_altitude_reduces_surface_water import apply
+    w = make_world()
+    w.surface_water.fill_(1.0); w.elevation.fill_(1.0); apply(w);
+    assert torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.98))

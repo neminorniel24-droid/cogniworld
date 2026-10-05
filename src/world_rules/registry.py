@@ -49,3 +49,5 @@ from .logic_025_cold_water_freezes import apply as logic_025
 RULES.append(logic_025)
 from .logic_026_warm_air_melts_ice import apply as logic_026
 RULES.append(logic_026)
+from .logic_027_high_altitude_reduces_surface_water import apply as logic_027
+RULES.append(logic_027)
