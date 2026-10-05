@@ -189,3 +189,10 @@ def test_logic_028():
     w = make_world()
     w.soil_moisture.zero_(); w.elevation.zero_(); apply(w);
     assert torch.allclose(w.soil_moisture, torch.full_like(w.soil_moisture, 0.01))
+
+
+def test_logic_029():
+    from world_rules.logic_029_vegetation_improves_soil_retention import apply
+    w = make_world()
+    w.soil_moisture.zero_(); w.vegetation.fill_(1.0); apply(w);
+    assert torch.allclose(w.soil_moisture, torch.full_like(w.soil_moisture, 0.02))
