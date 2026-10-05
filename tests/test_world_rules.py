@@ -42,3 +42,10 @@ def test_logic_007():
     w = make_world()
     w.cloud.zero_(); w.humidity.fill_(0.4); apply(w); a=w.cloud.clone(); w.humidity.fill_(0.8); apply(w);
     assert torch.all(w.cloud > a)
+
+
+def test_logic_008():
+    from world_rules.logic_008_clouds_produce_rain import apply
+    w = make_world()
+    w.cloud.fill_(0.8); apply(w);
+    assert torch.allclose(w.rain, torch.full_like(w.rain, 0.08))
