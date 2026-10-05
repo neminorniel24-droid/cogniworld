@@ -29,3 +29,5 @@ from .logic_015_deserts_lose_surface_water_faster import apply as logic_015
 RULES.append(logic_015)
 from .logic_016_humidity_slows_evaporation import apply as logic_016
 RULES.append(logic_016)
+from .logic_017_wind_advects_humidity import apply as logic_017
+RULES.append(logic_017)

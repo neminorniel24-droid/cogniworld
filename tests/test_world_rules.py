@@ -105,3 +105,10 @@ def test_logic_016():
     w = make_world()
     w.surface_water.fill_(0.5); w.evaporation.fill_(0.1); w.humidity.fill_(1.0); apply(w);
     assert torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.54))
+
+
+def test_logic_017():
+    from world_rules.logic_017_wind_advects_humidity import apply
+    w = make_world()
+    w.humidity.zero_(); w.humidity[:,0]=1.0; apply(w);
+    assert torch.all(w.humidity[:,1] > 0)
