@@ -490,3 +490,10 @@ def test_logic_071():
     w = make_world()
     w.pathogen_load.fill_(1.0); w.soil_moisture.zero_(); apply(w);
     assert torch.allclose(w.pathogen_load, torch.full_like(w.pathogen_load, 0.988))
+
+
+def test_logic_072():
+    from world_rules.logic_072_rain_washes_pathogens import apply
+    w = make_world()
+    w.pathogen_load.fill_(1.0); w.rain.fill_(1.0); apply(w);
+    assert torch.allclose(w.pathogen_load, torch.full_like(w.pathogen_load, 0.8))
