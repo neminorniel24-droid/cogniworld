@@ -95,3 +95,5 @@ from .logic_048_photosynthesis_consumes_co2 import apply as logic_048
 RULES.append(logic_048)
 from .logic_049_clouds_dampen_photosynthesis import apply as logic_049
 RULES.append(logic_049)
+from .logic_050_co2_fertilizes_vegetation import apply as logic_050
+RULES.append(logic_050)
