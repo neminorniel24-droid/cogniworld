@@ -181,3 +181,5 @@ from .logic_091_vegetation_prevents_erosion import apply as logic_091
 RULES.append(logic_091)
 from .logic_092_roots_improve_infiltration import apply as logic_092
 RULES.append(logic_092)
+from .logic_093_root_density_follows_vegetation import apply as logic_093
+RULES.append(logic_093)

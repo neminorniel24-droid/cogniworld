@@ -637,3 +637,10 @@ def test_logic_092():
     w = make_world()
     w.root_density.zero_(); w.soil_moisture.zero_(); w.vegetation.fill_(1.0); apply(w);
     assert torch.all(w.root_density > 0) and torch.all(w.soil_moisture > 0)
+
+
+def test_logic_093():
+    from world_rules.logic_093_root_density_follows_vegetation import apply
+    w = make_world()
+    w.root_density.zero_(); w.vegetation.fill_(1.0); apply(w);
+    assert torch.allclose(w.root_density, torch.full_like(w.root_density, 0.03))
