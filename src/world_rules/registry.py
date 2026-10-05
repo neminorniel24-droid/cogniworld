@@ -23,3 +23,5 @@ from .logic_012_low_elevation_pools_water import apply as logic_012
 RULES.append(logic_012)
 from .logic_013_rivers_add_base_water import apply as logic_013
 RULES.append(logic_013)
+from .logic_014_caves_retain_moisture import apply as logic_014
+RULES.append(logic_014)
