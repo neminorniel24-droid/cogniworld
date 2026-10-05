@@ -145,3 +145,5 @@ from .logic_073_vegetation_raises_herbivore_carrying_capacity import apply as lo
 RULES.append(logic_073)
 from .logic_074_herbivory_reduces_vegetation import apply as logic_074
 RULES.append(logic_074)
+from .logic_075_vegetation_scarcity_reduces_herbivores import apply as logic_075
+RULES.append(logic_075)

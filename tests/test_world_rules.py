@@ -511,3 +511,10 @@ def test_logic_074():
     w = make_world()
     w.vegetation.fill_(1.0); w.herbivore.fill_(1.0); apply(w);
     assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.99))
+
+
+def test_logic_075():
+    from world_rules.logic_075_vegetation_scarcity_reduces_herbivores import apply
+    w = make_world()
+    w.herbivore.fill_(1.0); w.vegetation.zero_(); apply(w);
+    assert torch.allclose(w.herbivore, torch.full_like(w.herbivore, 0.998))
