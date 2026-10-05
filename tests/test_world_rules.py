@@ -91,3 +91,10 @@ def test_logic_014():
     w = make_world()
     w.soil_moisture.zero_(); w.biome.fill_(4); w.surface_water.fill_(1.0); apply(w);
     assert torch.allclose(w.soil_moisture, torch.full_like(w.soil_moisture, 0.02))
+
+
+def test_logic_015():
+    from world_rules.logic_015_deserts_lose_surface_water_faster import apply
+    w = make_world()
+    w.surface_water.fill_(1.0); w.biome.fill_(3); apply(w);
+    assert torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.995))
