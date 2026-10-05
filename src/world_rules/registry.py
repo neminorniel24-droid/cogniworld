@@ -169,3 +169,5 @@ from .logic_085_stable_climate_reduces_stress import apply as logic_085
 RULES.append(logic_085)
 from .logic_086_storm_runoff_erodes_soil import apply as logic_086
 RULES.append(logic_086)
+from .logic_087_erosion_reduces_soil_depth import apply as logic_087
+RULES.append(logic_087)

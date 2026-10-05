@@ -595,3 +595,10 @@ def test_logic_086():
     w = make_world()
     w.erosion.zero_(); w.runoff.fill_(1.0); w.rain.fill_(1.0); apply(w);
     assert torch.allclose(w.erosion, torch.full_like(w.erosion, 0.02))
+
+
+def test_logic_087():
+    from world_rules.logic_087_erosion_reduces_soil_depth import apply
+    w = make_world()
+    w.soil_depth.fill_(1.0); w.erosion.fill_(1.0); apply(w);
+    assert torch.allclose(w.soil_depth, torch.full_like(w.soil_depth, 0.95))
