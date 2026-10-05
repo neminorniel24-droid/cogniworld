@@ -210,3 +210,10 @@ def test_logic_031():
     w = make_world()
     w.vegetation.fill_(0.5); w.soil_moisture.zero_(); apply(w);
     assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.495))
+
+
+def test_logic_032():
+    from world_rules.logic_032_vegetation_transpiration_adds_humidity import apply
+    w = make_world()
+    w.humidity.zero_(); w.vegetation.fill_(1.0); apply(w);
+    assert torch.allclose(w.humidity, torch.full_like(w.humidity, 0.03))

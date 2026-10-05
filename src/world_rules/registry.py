@@ -59,3 +59,5 @@ from .logic_030_soil_moisture_grows_vegetation import apply as logic_030
 RULES.append(logic_030)
 from .logic_031_drought_suppresses_vegetation import apply as logic_031
 RULES.append(logic_031)
+from .logic_032_vegetation_transpiration_adds_humidity import apply as logic_032
+RULES.append(logic_032)
