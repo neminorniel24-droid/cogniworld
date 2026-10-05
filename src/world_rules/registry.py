@@ -69,3 +69,5 @@ from .logic_035_biomass_follows_vegetation import apply as logic_035
 RULES.append(logic_035)
 from .logic_036_herbivores_grow_from_vegetation import apply as logic_036
 RULES.append(logic_036)
+from .logic_037_predators_grow_from_herbivores import apply as logic_037
+RULES.append(logic_037)
