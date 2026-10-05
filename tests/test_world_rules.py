@@ -357,3 +357,10 @@ def test_logic_052():
     w = make_world()
     w.vegetation.zero_(); w.humidity.fill_(1.0); apply(w);
     assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.01))
+
+
+def test_logic_053():
+    from world_rules.logic_053_dry_air_harms_vegetation import apply
+    w = make_world()
+    w.vegetation.fill_(0.5); w.humidity.zero_(); apply(w);
+    assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.49625))

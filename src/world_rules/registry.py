@@ -101,3 +101,5 @@ from .logic_051_heat_stresses_vegetation import apply as logic_051
 RULES.append(logic_051)
 from .logic_052_humidity_supports_vegetation import apply as logic_052
 RULES.append(logic_052)
+from .logic_053_dry_air_harms_vegetation import apply as logic_053
+RULES.append(logic_053)
