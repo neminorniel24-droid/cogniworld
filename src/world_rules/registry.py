@@ -137,3 +137,5 @@ from .logic_069_wind_mixes_temperature import apply as logic_069
 RULES.append(logic_069)
 from .logic_070_warmth_raises_pathogen_pressure import apply as logic_070
 RULES.append(logic_070)
+from .logic_071_dryness_reduces_pathogen_survival import apply as logic_071
+RULES.append(logic_071)
