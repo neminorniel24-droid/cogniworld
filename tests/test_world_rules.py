@@ -385,3 +385,10 @@ def test_logic_056():
     w = make_world()
     w.biome.fill_(3); w.vegetation.fill_(1.0); w.soil_moisture.zero_(); apply(w);
     assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.15))
+
+
+def test_logic_057():
+    from world_rules.logic_057_steep_mountains_limit_vegetation import apply
+    w = make_world()
+    w.vegetation.fill_(1.0); w.elevation.zero_(); w.elevation[1,1]=1.0; apply(w);
+    assert torch.any(w.vegetation < 1.0)
