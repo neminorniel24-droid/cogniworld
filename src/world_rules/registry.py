@@ -17,3 +17,5 @@ from .logic_009_rain_infiltrates_soil import apply as logic_009
 RULES.append(logic_009)
 from .logic_010_saturated_soil_generates_runoff import apply as logic_010
 RULES.append(logic_010)
+from .logic_011_lowlands_retain_runoff import apply as logic_011
+RULES.append(logic_011)

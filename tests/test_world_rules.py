@@ -63,3 +63,10 @@ def test_logic_010():
     w = make_world()
     w.soil_moisture.fill_(1.0); apply(w);
     assert torch.allclose(w.runoff, torch.full_like(w.runoff, 0.04))
+
+
+def test_logic_011():
+    from world_rules.logic_011_lowlands_retain_runoff import apply
+    w = make_world()
+    w.surface_water.zero_(); w.runoff.fill_(0.5); w.elevation.fill_(0.0); apply(w);
+    assert torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.05))
