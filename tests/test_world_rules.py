@@ -259,3 +259,10 @@ def test_logic_038():
     w = make_world()
     w.carrion.zero_(); w.herbivore.zero_(); apply(w);
     assert torch.allclose(w.carrion, torch.full_like(w.carrion, 0.0025))
+
+
+def test_logic_039():
+    from world_rules.logic_039_decomposition_recycles_carrion import apply
+    w = make_world()
+    w.nutrients.zero_(); w.carrion.fill_(1.0); apply(w);
+    assert torch.allclose(w.nutrients, torch.full_like(w.nutrients, 0.02))
