@@ -217,3 +217,10 @@ def test_logic_032():
     w = make_world()
     w.humidity.zero_(); w.vegetation.fill_(1.0); apply(w);
     assert torch.allclose(w.humidity, torch.full_like(w.humidity, 0.03))
+
+
+def test_logic_033():
+    from world_rules.logic_033_vegetation_reduces_ground_evaporation import apply
+    w = make_world()
+    w.surface_water.fill_(0.5); w.evaporation.fill_(0.1); w.vegetation.fill_(1.0); apply(w);
+    assert torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.55))
