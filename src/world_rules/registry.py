@@ -65,3 +65,5 @@ from .logic_033_vegetation_reduces_ground_evaporation import apply as logic_033
 RULES.append(logic_033)
 from .logic_034_roots_consume_soil_water import apply as logic_034
 RULES.append(logic_034)
+from .logic_035_biomass_follows_vegetation import apply as logic_035
+RULES.append(logic_035)

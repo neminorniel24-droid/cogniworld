@@ -231,3 +231,10 @@ def test_logic_034():
     w = make_world()
     w.soil_moisture.fill_(1.0); w.vegetation.fill_(1.0); apply(w);
     assert torch.allclose(w.soil_moisture, torch.full_like(w.soil_moisture, 0.99))
+
+
+def test_logic_035():
+    from world_rules.logic_035_biomass_follows_vegetation import apply
+    w = make_world()
+    w.biomass.zero_(); w.vegetation.fill_(1.0); apply(w);
+    assert torch.allclose(w.biomass, torch.full_like(w.biomass, 0.05))
