@@ -47,3 +47,5 @@ from .logic_024_water_moderates_temperature import apply as logic_024
 RULES.append(logic_024)
 from .logic_025_cold_water_freezes import apply as logic_025
 RULES.append(logic_025)
+from .logic_026_warm_air_melts_ice import apply as logic_026
+RULES.append(logic_026)
