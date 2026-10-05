@@ -665,3 +665,10 @@ def test_logic_096():
     w = make_world()
     w.methane.zero_(); w.wetland.fill_(1.0); apply(w);
     assert torch.allclose(w.methane, torch.full_like(w.methane, 0.005))
+
+
+def test_logic_097():
+    from world_rules.logic_097_carbon_storage_follows_biomass import apply
+    w = make_world()
+    w.carbon_storage.zero_(); w.biomass.fill_(1.0); apply(w);
+    assert torch.allclose(w.carbon_storage, torch.full_like(w.carbon_storage, 0.02))

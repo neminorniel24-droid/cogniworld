@@ -189,3 +189,5 @@ from .logic_095_wetlands_retain_water import apply as logic_095
 RULES.append(logic_095)
 from .logic_096_wetlands_produce_methane import apply as logic_096
 RULES.append(logic_096)
+from .logic_097_carbon_storage_follows_biomass import apply as logic_097
+RULES.append(logic_097)
