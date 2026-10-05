@@ -143,3 +143,5 @@ from .logic_072_rain_washes_pathogens import apply as logic_072
 RULES.append(logic_072)
 from .logic_073_vegetation_raises_herbivore_carrying_capacity import apply as logic_073
 RULES.append(logic_073)
+from .logic_074_herbivory_reduces_vegetation import apply as logic_074
+RULES.append(logic_074)
