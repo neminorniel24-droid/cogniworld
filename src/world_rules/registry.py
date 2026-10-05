@@ -123,3 +123,5 @@ from .logic_062_runoff_removes_nutrients import apply as logic_062
 RULES.append(logic_062)
 from .logic_063_low_oxygen_stresses_herbivores import apply as logic_063
 RULES.append(logic_063)
+from .logic_064_wet_anoxic_soil_produces_methane import apply as logic_064
+RULES.append(logic_064)

@@ -434,3 +434,10 @@ def test_logic_063():
     w = make_world()
     w.herbivore.fill_(1.0); w.oxygen.zero_(); apply(w);
     assert torch.allclose(w.herbivore, torch.full_like(w.herbivore, 0.997))
+
+
+def test_logic_064():
+    from world_rules.logic_064_wet_anoxic_soil_produces_methane import apply
+    w = make_world()
+    w.methane.zero_(); w.soil_moisture.fill_(1.0); w.oxygen.zero_(); apply(w);
+    assert torch.allclose(w.methane, torch.full_like(w.methane, 0.01))
