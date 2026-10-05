@@ -127,3 +127,5 @@ from .logic_064_wet_anoxic_soil_produces_methane import apply as logic_064
 RULES.append(logic_064)
 from .logic_065_methane_warms_surface import apply as logic_065
 RULES.append(logic_065)
+from .logic_066_wind_mixes_gases import apply as logic_066
+RULES.append(logic_066)

@@ -448,3 +448,10 @@ def test_logic_065():
     w = make_world()
     w.temperature.fill_(0.5); w.methane.fill_(1.0); apply(w);
     assert torch.allclose(w.temperature, torch.full_like(w.temperature, 0.51))
+
+
+def test_logic_066():
+    from world_rules.logic_066_wind_mixes_gases import apply
+    w = make_world()
+    w.co2.zero_(); w.co2[1,1]=1.0; apply(w);
+    assert w.co2[1,0] > 0
