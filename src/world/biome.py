@@ -7,6 +7,7 @@ Everything is stored as torch tensors on the target device so downstream modules
 """
 import torch
 from noise import pnoise2
+from world_rules.engine import apply_rules
 
 # Biome IDs
 PLAINS, RIVER, MOUNTAIN, DESERT, CAVE = 0, 1, 2, 3, 4
@@ -65,6 +66,42 @@ class World:
         self._regen = self._biome_lookup(BIOME_FOOD_REGEN)
         self.shelter = self._biome_lookup(BIOME_SHELTER)
 
+        # Deterministic environment fields evolved by causal world rules.
+        self.temperature = torch.full_like(self.food, 0.5)
+        self.temperature_target = torch.full_like(self.food, 0.5)
+        self.surface_water = self.moisture.clone()
+        self.humidity = self.moisture.clone()
+        self.cloud = torch.zeros_like(self.food)
+        self.rain = torch.zeros_like(self.food)
+        self.soil_moisture = (0.5 * self.moisture).clamp(0.0, 1.0)
+        self.runoff = torch.zeros_like(self.food)
+        self.wind_x = torch.zeros_like(self.food)
+        self.wind_y = torch.zeros_like(self.food)
+        self.vegetation = (1.0 - 0.5 * (self.biome == DESERT).float()).clamp(0.0, 1.0)
+        self.biomass = self.vegetation.clone()
+        self.herbivore = torch.zeros_like(self.food)
+        self.predator = torch.zeros_like(self.food)
+        self.carrion = torch.zeros_like(self.food)
+        self.nutrients = torch.full_like(self.food, 0.5)
+        self.decomposition_rate = torch.zeros_like(self.food)
+        self.oxygen = torch.full_like(self.food, 0.5)
+        self.co2 = torch.full_like(self.food, 0.5)
+        self.photosynthesis_factor = torch.ones_like(self.food)
+        self.ice = torch.zeros_like(self.food)
+        self.evaporation = torch.zeros_like(self.food)
+        self.detritus = torch.zeros_like(self.food)
+        self.methane = torch.zeros_like(self.food)
+        self.pathogen_load = torch.zeros_like(self.food)
+        self.biodiversity = torch.zeros_like(self.food)
+        self.habitat_stress = torch.zeros_like(self.food)
+        self.erosion = torch.zeros_like(self.food)
+        self.soil_depth = torch.ones_like(self.food)
+        self.root_density = torch.zeros_like(self.food)
+        self.wetland = torch.zeros_like(self.food)
+        self.carbon_storage = self.biomass.clone() * 0.5
+        self.fire_risk = torch.zeros_like(self.food)
+        self.ash = torch.zeros_like(self.food)
+
         # seed initial food so the world isn't empty at t=0
         self.food = self._regen.clone() * 5.0
         self.food.clamp_(0, 1.0)
@@ -86,6 +123,7 @@ class World:
     def step(self):
         """Regenerate food each tick, capped per tile."""
         self.food = torch.clamp(self.food + self._regen, min=torch.zeros_like(self._food_cap), max=self._food_cap)
+        apply_rules(self)
 
     def biome_name_grid(self):
         """Return a CPU numpy-friendly grid of biome ids for rendering."""
