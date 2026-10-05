@@ -266,3 +266,10 @@ def test_logic_039():
     w = make_world()
     w.nutrients.zero_(); w.carrion.fill_(1.0); apply(w);
     assert torch.allclose(w.nutrients, torch.full_like(w.nutrients, 0.02))
+
+
+def test_logic_040():
+    from world_rules.logic_040_nutrients_support_vegetation import apply
+    w = make_world()
+    w.vegetation.zero_(); w.nutrients.fill_(1.0); apply(w);
+    assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.015))

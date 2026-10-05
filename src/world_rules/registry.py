@@ -75,3 +75,5 @@ from .logic_038_low_herbivore_biomass_creates_carrion import apply as logic_038
 RULES.append(logic_038)
 from .logic_039_decomposition_recycles_carrion import apply as logic_039
 RULES.append(logic_039)
+from .logic_040_nutrients_support_vegetation import apply as logic_040
+RULES.append(logic_040)
