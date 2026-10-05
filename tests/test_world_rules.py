@@ -364,3 +364,10 @@ def test_logic_053():
     w = make_world()
     w.vegetation.fill_(0.5); w.humidity.zero_(); apply(w);
     assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.49625))
+
+
+def test_logic_054():
+    from world_rules.logic_054_soil_moisture_boosts_plant_growth import apply
+    w = make_world()
+    w.vegetation.zero_(); w.soil_moisture.fill_(1.0); apply(w);
+    assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.02))
