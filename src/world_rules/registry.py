@@ -57,3 +57,5 @@ from .logic_029_vegetation_improves_soil_retention import apply as logic_029
 RULES.append(logic_029)
 from .logic_030_soil_moisture_grows_vegetation import apply as logic_030
 RULES.append(logic_030)
+from .logic_031_drought_suppresses_vegetation import apply as logic_031
+RULES.append(logic_031)
