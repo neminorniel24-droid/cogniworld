@@ -462,3 +462,10 @@ def test_logic_067():
     w = make_world()
     w.co2.zero_(); w.co2[1,1]=1.0; apply(w);
     assert w.co2[1,0] > 0
+
+
+def test_logic_068():
+    from world_rules.logic_068_oxygen_diffuses_across_grid import apply
+    w = make_world()
+    w.oxygen.zero_(); w.oxygen[1,1]=1.0; apply(w);
+    assert w.oxygen[1,0] > 0

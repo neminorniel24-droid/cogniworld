@@ -131,3 +131,5 @@ from .logic_066_wind_mixes_gases import apply as logic_066
 RULES.append(logic_066)
 from .logic_067_co2_diffuses_across_grid import apply as logic_067
 RULES.append(logic_067)
+from .logic_068_oxygen_diffuses_across_grid import apply as logic_068
+RULES.append(logic_068)
