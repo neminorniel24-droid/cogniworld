@@ -41,3 +41,5 @@ from .logic_021_warm_soil_dries import apply as logic_021
 RULES.append(logic_021)
 from .logic_022_wet_soil_cools_surface import apply as logic_022
 RULES.append(logic_022)
+from .logic_023_clouds_cool_surface import apply as logic_023
+RULES.append(logic_023)
