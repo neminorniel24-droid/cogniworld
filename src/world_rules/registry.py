@@ -105,3 +105,5 @@ from .logic_053_dry_air_harms_vegetation import apply as logic_053
 RULES.append(logic_053)
 from .logic_054_soil_moisture_boosts_plant_growth import apply as logic_054
 RULES.append(logic_054)
+from .logic_055_river_biomes_buffer_plant_growth import apply as logic_055
+RULES.append(logic_055)
