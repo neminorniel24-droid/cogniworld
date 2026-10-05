@@ -149,3 +149,5 @@ from .logic_075_vegetation_scarcity_reduces_herbivores import apply as logic_075
 RULES.append(logic_075)
 from .logic_076_predation_reduces_herbivores import apply as logic_076
 RULES.append(logic_076)
+from .logic_077_prey_scarcity_reduces_predators import apply as logic_077
+RULES.append(logic_077)
