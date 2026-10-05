@@ -644,3 +644,10 @@ def test_logic_093():
     w = make_world()
     w.root_density.zero_(); w.vegetation.fill_(1.0); apply(w);
     assert torch.allclose(w.root_density, torch.full_like(w.root_density, 0.03))
+
+
+def test_logic_094():
+    from world_rules.logic_094_canopy_reduces_runoff import apply
+    w = make_world()
+    w.runoff.fill_(1.0); w.vegetation.fill_(1.0); apply(w);
+    assert torch.allclose(w.runoff, torch.full_like(w.runoff, 0.7))
