@@ -197,3 +197,5 @@ from .logic_099_dry_biomass_raises_fire_risk import apply as logic_099
 RULES.append(logic_099)
 from .logic_100_fire_consumes_vegetation_and_creates_ash import apply as logic_100
 RULES.append(logic_100)
+from .logic_101_ash_returns_nutrients import apply as logic_101
+RULES.append(logic_101)
