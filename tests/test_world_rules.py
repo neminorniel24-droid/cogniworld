@@ -49,3 +49,10 @@ def test_logic_008():
     w = make_world()
     w.cloud.fill_(0.8); apply(w);
     assert torch.allclose(w.rain, torch.full_like(w.rain, 0.08))
+
+
+def test_logic_009():
+    from world_rules.logic_009_rain_infiltrates_soil import apply
+    w = make_world()
+    w.soil_moisture.zero_(); w.rain.fill_(0.4); apply(w);
+    assert torch.allclose(w.soil_moisture, torch.full_like(w.soil_moisture, 0.2))

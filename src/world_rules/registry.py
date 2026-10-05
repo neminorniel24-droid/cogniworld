@@ -13,3 +13,5 @@ from .logic_007_humidity_condenses_clouds import apply as logic_007
 RULES.append(logic_007)
 from .logic_008_clouds_produce_rain import apply as logic_008
 RULES.append(logic_008)
+from .logic_009_rain_infiltrates_soil import apply as logic_009
+RULES.append(logic_009)
