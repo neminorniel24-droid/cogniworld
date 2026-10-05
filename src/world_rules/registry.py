@@ -155,3 +155,5 @@ from .logic_078_predation_creates_carrion import apply as logic_078
 RULES.append(logic_078)
 from .logic_079_carrion_boosts_nutrients import apply as logic_079
 RULES.append(logic_079)
+from .logic_080_habitat_heterogeneity_raises_biodiversity import apply as logic_080
+RULES.append(logic_080)

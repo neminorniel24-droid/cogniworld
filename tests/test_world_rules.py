@@ -546,3 +546,10 @@ def test_logic_079():
     w = make_world()
     w.nutrients.zero_(); w.carrion.fill_(1.0); apply(w);
     assert torch.allclose(w.nutrients, torch.full_like(w.nutrients, 0.01))
+
+
+def test_logic_080():
+    from world_rules.logic_080_habitat_heterogeneity_raises_biodiversity import apply
+    w = make_world()
+    w.biodiversity.zero_(); w.temperature.zero_(); w.temperature[:,0]=1.0; apply(w);
+    assert torch.any(w.biodiversity > 0)
