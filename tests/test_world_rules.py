@@ -469,3 +469,10 @@ def test_logic_068():
     w = make_world()
     w.oxygen.zero_(); w.oxygen[1,1]=1.0; apply(w);
     assert w.oxygen[1,0] > 0
+
+
+def test_logic_069():
+    from world_rules.logic_069_wind_mixes_temperature import apply
+    w = make_world()
+    w.temperature.zero_(); w.temperature[1,1]=1.0; apply(w);
+    assert w.temperature[1,0] > 0
