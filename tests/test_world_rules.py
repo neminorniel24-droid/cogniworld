@@ -273,3 +273,10 @@ def test_logic_040():
     w = make_world()
     w.vegetation.zero_(); w.nutrients.fill_(1.0); apply(w);
     assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.015))
+
+
+def test_logic_041():
+    from world_rules.logic_041_rain_leaches_nutrients import apply
+    w = make_world()
+    w.nutrients.fill_(1.0); w.rain.fill_(1.0); apply(w);
+    assert torch.allclose(w.nutrients, torch.full_like(w.nutrients, 0.98))

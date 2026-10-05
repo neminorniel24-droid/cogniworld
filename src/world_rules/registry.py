@@ -77,3 +77,5 @@ from .logic_039_decomposition_recycles_carrion import apply as logic_039
 RULES.append(logic_039)
 from .logic_040_nutrients_support_vegetation import apply as logic_040
 RULES.append(logic_040)
+from .logic_041_rain_leaches_nutrients import apply as logic_041
+RULES.append(logic_041)
