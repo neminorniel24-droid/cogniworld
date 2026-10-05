@@ -35,3 +35,10 @@ def test_logic_006():
     w = make_world()
     w.humidity.zero_(); w.evaporation.fill_(0.2); apply(w);
     assert torch.allclose(w.humidity, torch.full_like(w.humidity, 0.1))
+
+
+def test_logic_007():
+    from world_rules.logic_007_humidity_condenses_clouds import apply
+    w = make_world()
+    w.cloud.zero_(); w.humidity.fill_(0.4); apply(w); a=w.cloud.clone(); w.humidity.fill_(0.8); apply(w);
+    assert torch.all(w.cloud > a)

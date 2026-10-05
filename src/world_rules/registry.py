@@ -9,3 +9,5 @@ from .logic_005_evaporation_removes_surface_water import apply as logic_005
 RULES.append(logic_005)
 from .logic_006_evaporation_raises_humidity import apply as logic_006
 RULES.append(logic_006)
+from .logic_007_humidity_condenses_clouds import apply as logic_007
+RULES.append(logic_007)
