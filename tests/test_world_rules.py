@@ -182,3 +182,10 @@ def test_logic_027():
     w = make_world()
     w.surface_water.fill_(1.0); w.elevation.fill_(1.0); apply(w);
     assert torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.98))
+
+
+def test_logic_028():
+    from world_rules.logic_028_lowlands_retain_soil_moisture import apply
+    w = make_world()
+    w.soil_moisture.zero_(); w.elevation.zero_(); apply(w);
+    assert torch.allclose(w.soil_moisture, torch.full_like(w.soil_moisture, 0.01))

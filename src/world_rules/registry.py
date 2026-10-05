@@ -51,3 +51,5 @@ from .logic_026_warm_air_melts_ice import apply as logic_026
 RULES.append(logic_026)
 from .logic_027_high_altitude_reduces_surface_water import apply as logic_027
 RULES.append(logic_027)
+from .logic_028_lowlands_retain_soil_moisture import apply as logic_028
+RULES.append(logic_028)
