@@ -161,3 +161,10 @@ def test_logic_024():
     w = make_world()
     w.temperature.fill_(1.0); w.surface_water.fill_(1.0); apply(w);
     assert torch.allclose(w.temperature, torch.full_like(w.temperature, 0.995))
+
+
+def test_logic_025():
+    from world_rules.logic_025_cold_water_freezes import apply
+    w = make_world()
+    w.ice.zero_(); w.surface_water.fill_(1.0); w.temperature.fill_(0.0); apply(w);
+    assert torch.allclose(w.ice, torch.full_like(w.ice, 0.05)) and torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.95))
