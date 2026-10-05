@@ -91,3 +91,5 @@ from .logic_046_respiration_consumes_oxygen import apply as logic_046
 RULES.append(logic_046)
 from .logic_047_respiration_adds_co2 import apply as logic_047
 RULES.append(logic_047)
+from .logic_048_photosynthesis_consumes_co2 import apply as logic_048
+RULES.append(logic_048)

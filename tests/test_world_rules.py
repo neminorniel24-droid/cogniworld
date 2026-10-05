@@ -322,3 +322,10 @@ def test_logic_047():
     w = make_world()
     w.co2.zero_(); w.biomass.fill_(1.0); w.herbivore.fill_(1.0); w.predator.fill_(1.0); apply(w);
     assert torch.allclose(w.co2, torch.full_like(w.co2, 0.03))
+
+
+def test_logic_048():
+    from world_rules.logic_048_photosynthesis_consumes_co2 import apply
+    w = make_world()
+    w.co2.fill_(1.0); w.vegetation.fill_(1.0); apply(w);
+    assert torch.allclose(w.co2, torch.full_like(w.co2, 0.98))
