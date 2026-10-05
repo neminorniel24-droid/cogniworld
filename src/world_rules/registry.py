@@ -85,3 +85,5 @@ from .logic_043_heat_accelerates_decomposition import apply as logic_043
 RULES.append(logic_043)
 from .logic_044_cold_slows_decomposition import apply as logic_044
 RULES.append(logic_044)
+from .logic_045_vegetation_produces_oxygen import apply as logic_045
+RULES.append(logic_045)

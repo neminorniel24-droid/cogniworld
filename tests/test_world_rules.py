@@ -301,3 +301,10 @@ def test_logic_044():
     w = make_world()
     w.carrion.fill_(0.8); w.decomposition_rate.fill_(0.04); w.temperature.zero_(); apply(w);
     assert torch.allclose(w.carrion, torch.full_like(w.carrion, 0.9))
+
+
+def test_logic_045():
+    from world_rules.logic_045_vegetation_produces_oxygen import apply
+    w = make_world()
+    w.oxygen.zero_(); w.vegetation.fill_(1.0); apply(w);
+    assert torch.allclose(w.oxygen, torch.full_like(w.oxygen, 0.02))
