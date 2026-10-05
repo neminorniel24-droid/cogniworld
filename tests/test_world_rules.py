@@ -518,3 +518,10 @@ def test_logic_075():
     w = make_world()
     w.herbivore.fill_(1.0); w.vegetation.zero_(); apply(w);
     assert torch.allclose(w.herbivore, torch.full_like(w.herbivore, 0.998))
+
+
+def test_logic_076():
+    from world_rules.logic_076_predation_reduces_herbivores import apply
+    w = make_world()
+    w.herbivore.fill_(1.0); w.predator.fill_(1.0); apply(w);
+    assert torch.allclose(w.herbivore, torch.full_like(w.herbivore, 0.99))
