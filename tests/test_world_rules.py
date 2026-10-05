@@ -581,3 +581,10 @@ def test_logic_084():
     w = make_world()
     w.vegetation.fill_(1.0); w.habitat_stress.fill_(1.0); apply(w);
     assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.98))
+
+
+def test_logic_085():
+    from world_rules.logic_085_stable_climate_reduces_stress import apply
+    w = make_world()
+    w.habitat_stress.fill_(1.0); apply(w);
+    assert torch.allclose(w.habitat_stress, torch.full_like(w.habitat_stress, 0.995))
