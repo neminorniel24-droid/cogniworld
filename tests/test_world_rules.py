@@ -658,3 +658,10 @@ def test_logic_095():
     w = make_world()
     w.wetland.zero_(); w.surface_water.zero_(); w.rain.fill_(1.0); w.soil_moisture.fill_(1.0); apply(w);
     assert torch.allclose(w.wetland, torch.full_like(w.wetland, 0.02)) and torch.all(w.surface_water > 0)
+
+
+def test_logic_096():
+    from world_rules.logic_096_wetlands_produce_methane import apply
+    w = make_world()
+    w.methane.zero_(); w.wetland.fill_(1.0); apply(w);
+    assert torch.allclose(w.methane, torch.full_like(w.methane, 0.005))

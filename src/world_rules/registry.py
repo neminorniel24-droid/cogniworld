@@ -187,3 +187,5 @@ from .logic_094_canopy_reduces_runoff import apply as logic_094
 RULES.append(logic_094)
 from .logic_095_wetlands_retain_water import apply as logic_095
 RULES.append(logic_095)
+from .logic_096_wetlands_produce_methane import apply as logic_096
+RULES.append(logic_096)
