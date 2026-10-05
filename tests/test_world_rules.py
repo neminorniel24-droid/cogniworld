@@ -497,3 +497,10 @@ def test_logic_072():
     w = make_world()
     w.pathogen_load.fill_(1.0); w.rain.fill_(1.0); apply(w);
     assert torch.allclose(w.pathogen_load, torch.full_like(w.pathogen_load, 0.8))
+
+
+def test_logic_073():
+    from world_rules.logic_073_vegetation_raises_herbivore_carrying_capacity import apply
+    w = make_world()
+    w.herbivore.zero_(); w.vegetation.fill_(1.0); apply(w);
+    assert torch.allclose(w.herbivore, torch.full_like(w.herbivore, 0.01))
