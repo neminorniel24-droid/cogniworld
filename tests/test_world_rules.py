@@ -567,3 +567,10 @@ def test_logic_082():
     w = make_world()
     w.habitat_stress.zero_(); w.surface_water.zero_(); apply(w);
     assert torch.allclose(w.habitat_stress, torch.full_like(w.habitat_stress, 0.006))
+
+
+def test_logic_083():
+    from world_rules.logic_083_food_scarcity_raises_stress import apply
+    w = make_world()
+    w.habitat_stress.zero_(); w.vegetation.zero_(); apply(w);
+    assert torch.allclose(w.habitat_stress, torch.full_like(w.habitat_stress, 0.004))

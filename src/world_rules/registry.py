@@ -161,3 +161,5 @@ from .logic_081_thermal_extremes_raise_habitat_stress import apply as logic_081
 RULES.append(logic_081)
 from .logic_082_water_scarcity_raises_stress import apply as logic_082
 RULES.append(logic_082)
+from .logic_083_food_scarcity_raises_stress import apply as logic_083
+RULES.append(logic_083)
