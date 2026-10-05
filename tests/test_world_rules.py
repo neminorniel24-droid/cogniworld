@@ -119,3 +119,10 @@ def test_logic_018():
     w = make_world()
     w.wind_x.zero_(); w.wind_y.zero_(); w.elevation.zero_(); w.elevation[1,1]=1.0; apply(w);
     assert torch.any(w.wind_x != 0) and torch.any(w.wind_y != 0)
+
+
+def test_logic_019():
+    from world_rules.logic_019_wind_disperses_clouds import apply
+    w = make_world()
+    w.cloud.zero_(); w.cloud[1,1]=1.0; apply(w);
+    assert torch.all(w.cloud >= 0) and w.cloud[1,0] > 0
