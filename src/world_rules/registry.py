@@ -119,3 +119,5 @@ from .logic_060_decomposers_consume_detritus import apply as logic_060
 RULES.append(logic_060)
 from .logic_061_nutrient_saturation_limits_growth import apply as logic_061
 RULES.append(logic_061)
+from .logic_062_runoff_removes_nutrients import apply as logic_062
+RULES.append(logic_062)
