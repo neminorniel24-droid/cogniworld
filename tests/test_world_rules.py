@@ -21,3 +21,10 @@ def test_logic_004():
     w = make_world()
     w.temperature.fill_(0.0); apply(w); a=w.evaporation.clone(); w.temperature.fill_(1.0); apply(w); b=w.evaporation.clone()
     assert torch.all(b > a)
+
+
+def test_logic_005():
+    from world_rules.logic_005_evaporation_removes_surface_water import apply
+    w = make_world()
+    w.surface_water.fill_(1.0); w.evaporation.fill_(0.05); apply(w);
+    assert torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.95))
