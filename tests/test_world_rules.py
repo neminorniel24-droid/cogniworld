@@ -413,3 +413,10 @@ def test_logic_060():
     w = make_world()
     w.nutrients.zero_(); w.detritus.fill_(1.0); apply(w);
     assert torch.allclose(w.nutrients, torch.full_like(w.nutrients, 0.03))
+
+
+def test_logic_061():
+    from world_rules.logic_061_nutrient_saturation_limits_growth import apply
+    w = make_world()
+    w.vegetation.fill_(1.0); w.nutrients.fill_(1.0); apply(w);
+    assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.998))
