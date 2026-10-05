@@ -623,3 +623,10 @@ def test_logic_090():
     w = make_world()
     w.erosion.zero_(); w.wind_x.fill_(1.0); w.wind_y.zero_(); apply(w);
     assert torch.allclose(w.erosion, torch.full_like(w.erosion, 0.01))
+
+
+def test_logic_091():
+    from world_rules.logic_091_vegetation_prevents_erosion import apply
+    w = make_world()
+    w.erosion.fill_(1.0); w.vegetation.fill_(1.0); apply(w);
+    assert torch.allclose(w.erosion, torch.full_like(w.erosion, 0.6))
