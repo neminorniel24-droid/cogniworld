@@ -476,3 +476,10 @@ def test_logic_069():
     w = make_world()
     w.temperature.zero_(); w.temperature[1,1]=1.0; apply(w);
     assert w.temperature[1,0] > 0
+
+
+def test_logic_070():
+    from world_rules.logic_070_warmth_raises_pathogen_pressure import apply
+    w = make_world()
+    w.pathogen_load.zero_(); w.temperature.fill_(1.0); apply(w);
+    assert torch.allclose(w.pathogen_load, torch.full_like(w.pathogen_load, 0.008))
