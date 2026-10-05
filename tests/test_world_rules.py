@@ -343,3 +343,10 @@ def test_logic_050():
     w = make_world()
     w.vegetation.zero_(); w.co2.fill_(1.0); apply(w);
     assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.01))
+
+
+def test_logic_051():
+    from world_rules.logic_051_heat_stresses_vegetation import apply
+    w = make_world()
+    w.vegetation.fill_(1.0); w.temperature.fill_(1.0); apply(w);
+    assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.996))

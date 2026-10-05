@@ -97,3 +97,5 @@ from .logic_049_clouds_dampen_photosynthesis import apply as logic_049
 RULES.append(logic_049)
 from .logic_050_co2_fertilizes_vegetation import apply as logic_050
 RULES.append(logic_050)
+from .logic_051_heat_stresses_vegetation import apply as logic_051
+RULES.append(logic_051)
