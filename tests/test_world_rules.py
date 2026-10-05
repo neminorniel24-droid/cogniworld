@@ -287,3 +287,10 @@ def test_logic_042():
     w = make_world()
     w.nutrients.fill_(1.0); w.soil_moisture.zero_(); apply(w);
     assert torch.allclose(w.nutrients, torch.full_like(w.nutrients, 0.998))
+
+
+def test_logic_043():
+    from world_rules.logic_043_heat_accelerates_decomposition import apply
+    w = make_world()
+    w.temperature.fill_(1.0); w.carrion.fill_(1.0); apply(w);
+    assert torch.allclose(w.carrion, torch.full_like(w.carrion, 0.96))
