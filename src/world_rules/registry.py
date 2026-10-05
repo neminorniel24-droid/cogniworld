@@ -43,3 +43,5 @@ from .logic_022_wet_soil_cools_surface import apply as logic_022
 RULES.append(logic_022)
 from .logic_023_clouds_cool_surface import apply as logic_023
 RULES.append(logic_023)
+from .logic_024_water_moderates_temperature import apply as logic_024
+RULES.append(logic_024)

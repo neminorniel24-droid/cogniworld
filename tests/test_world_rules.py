@@ -154,3 +154,10 @@ def test_logic_023():
     w = make_world()
     w.temperature.fill_(0.5); w.cloud.fill_(1.0); apply(w);
     assert torch.allclose(w.temperature, torch.full_like(w.temperature, 0.48))
+
+
+def test_logic_024():
+    from world_rules.logic_024_water_moderates_temperature import apply
+    w = make_world()
+    w.temperature.fill_(1.0); w.surface_water.fill_(1.0); apply(w);
+    assert torch.allclose(w.temperature, torch.full_like(w.temperature, 0.995))
