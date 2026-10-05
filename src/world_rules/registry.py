@@ -19,3 +19,5 @@ from .logic_010_saturated_soil_generates_runoff import apply as logic_010
 RULES.append(logic_010)
 from .logic_011_lowlands_retain_runoff import apply as logic_011
 RULES.append(logic_011)
+from .logic_012_low_elevation_pools_water import apply as logic_012
+RULES.append(logic_012)
