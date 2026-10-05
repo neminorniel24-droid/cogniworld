@@ -392,3 +392,10 @@ def test_logic_057():
     w = make_world()
     w.vegetation.fill_(1.0); w.elevation.zero_(); w.elevation[1,1]=1.0; apply(w);
     assert torch.any(w.vegetation < 1.0)
+
+
+def test_logic_058():
+    from world_rules.logic_058_caves_suppress_vegetation import apply
+    w = make_world()
+    w.vegetation.fill_(1.0); w.biome.fill_(4); apply(w);
+    assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.7))

@@ -111,3 +111,5 @@ from .logic_056_desert_biomes_cap_vegetation import apply as logic_056
 RULES.append(logic_056)
 from .logic_057_steep_mountains_limit_vegetation import apply as logic_057
 RULES.append(logic_057)
+from .logic_058_caves_suppress_vegetation import apply as logic_058
+RULES.append(logic_058)
