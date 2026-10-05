@@ -163,3 +163,5 @@ from .logic_082_water_scarcity_raises_stress import apply as logic_082
 RULES.append(logic_082)
 from .logic_083_food_scarcity_raises_stress import apply as logic_083
 RULES.append(logic_083)
+from .logic_084_stress_reduces_vegetation import apply as logic_084
+RULES.append(logic_084)
