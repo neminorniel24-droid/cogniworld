@@ -399,3 +399,10 @@ def test_logic_058():
     w = make_world()
     w.vegetation.fill_(1.0); w.biome.fill_(4); apply(w);
     assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.7))
+
+
+def test_logic_059():
+    from world_rules.logic_059_vegetation_loss_creates_detritus import apply
+    w = make_world()
+    w.detritus.zero_(); w.biomass.fill_(1.0); w.vegetation.zero_(); apply(w);
+    assert torch.allclose(w.detritus, torch.full_like(w.detritus, 0.01))

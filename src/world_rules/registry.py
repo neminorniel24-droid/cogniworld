@@ -113,3 +113,5 @@ from .logic_057_steep_mountains_limit_vegetation import apply as logic_057
 RULES.append(logic_057)
 from .logic_058_caves_suppress_vegetation import apply as logic_058
 RULES.append(logic_058)
+from .logic_059_vegetation_loss_creates_detritus import apply as logic_059
+RULES.append(logic_059)
