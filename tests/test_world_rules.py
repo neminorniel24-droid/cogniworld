@@ -294,3 +294,10 @@ def test_logic_043():
     w = make_world()
     w.temperature.fill_(1.0); w.carrion.fill_(1.0); apply(w);
     assert torch.allclose(w.carrion, torch.full_like(w.carrion, 0.96))
+
+
+def test_logic_044():
+    from world_rules.logic_044_cold_slows_decomposition import apply
+    w = make_world()
+    w.carrion.fill_(0.8); w.decomposition_rate.fill_(0.04); w.temperature.zero_(); apply(w);
+    assert torch.allclose(w.carrion, torch.full_like(w.carrion, 0.9))

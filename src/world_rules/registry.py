@@ -83,3 +83,5 @@ from .logic_042_dry_soil_locks_nutrients import apply as logic_042
 RULES.append(logic_042)
 from .logic_043_heat_accelerates_decomposition import apply as logic_043
 RULES.append(logic_043)
+from .logic_044_cold_slows_decomposition import apply as logic_044
+RULES.append(logic_044)
