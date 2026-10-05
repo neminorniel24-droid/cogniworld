@@ -280,3 +280,10 @@ def test_logic_041():
     w = make_world()
     w.nutrients.fill_(1.0); w.rain.fill_(1.0); apply(w);
     assert torch.allclose(w.nutrients, torch.full_like(w.nutrients, 0.98))
+
+
+def test_logic_042():
+    from world_rules.logic_042_dry_soil_locks_nutrients import apply
+    w = make_world()
+    w.nutrients.fill_(1.0); w.soil_moisture.zero_(); apply(w);
+    assert torch.allclose(w.nutrients, torch.full_like(w.nutrients, 0.998))
