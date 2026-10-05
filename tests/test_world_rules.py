@@ -532,3 +532,10 @@ def test_logic_077():
     w = make_world()
     w.predator.fill_(1.0); w.herbivore.zero_(); apply(w);
     assert torch.allclose(w.predator, torch.full_like(w.predator, 0.996))
+
+
+def test_logic_078():
+    from world_rules.logic_078_predation_creates_carrion import apply
+    w = make_world()
+    w.carrion.zero_(); w.predator.fill_(1.0); apply(w);
+    assert torch.allclose(w.carrion, torch.full_like(w.carrion, 0.006))
