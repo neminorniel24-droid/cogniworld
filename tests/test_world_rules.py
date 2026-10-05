@@ -672,3 +672,10 @@ def test_logic_097():
     w = make_world()
     w.carbon_storage.zero_(); w.biomass.fill_(1.0); apply(w);
     assert torch.allclose(w.carbon_storage, torch.full_like(w.carbon_storage, 0.02))
+
+
+def test_logic_098():
+    from world_rules.logic_098_drought_releases_stored_carbon import apply
+    w = make_world()
+    w.carbon_storage.fill_(1.0); w.soil_moisture.zero_(); apply(w);
+    assert torch.allclose(w.carbon_storage, torch.full_like(w.carbon_storage, 0.996))
