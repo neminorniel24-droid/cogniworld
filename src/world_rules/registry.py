@@ -121,3 +121,5 @@ from .logic_061_nutrient_saturation_limits_growth import apply as logic_061
 RULES.append(logic_061)
 from .logic_062_runoff_removes_nutrients import apply as logic_062
 RULES.append(logic_062)
+from .logic_063_low_oxygen_stresses_herbivores import apply as logic_063
+RULES.append(logic_063)

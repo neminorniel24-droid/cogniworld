@@ -427,3 +427,10 @@ def test_logic_062():
     w = make_world()
     w.nutrients.fill_(1.0); w.runoff.fill_(1.0); apply(w);
     assert torch.allclose(w.nutrients, torch.full_like(w.nutrients, 0.95))
+
+
+def test_logic_063():
+    from world_rules.logic_063_low_oxygen_stresses_herbivores import apply
+    w = make_world()
+    w.herbivore.fill_(1.0); w.oxygen.zero_(); apply(w);
+    assert torch.allclose(w.herbivore, torch.full_like(w.herbivore, 0.997))
