@@ -193,3 +193,5 @@ from .logic_097_carbon_storage_follows_biomass import apply as logic_097
 RULES.append(logic_097)
 from .logic_098_drought_releases_stored_carbon import apply as logic_098
 RULES.append(logic_098)
+from .logic_099_dry_biomass_raises_fire_risk import apply as logic_099
+RULES.append(logic_099)

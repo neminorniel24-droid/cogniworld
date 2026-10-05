@@ -679,3 +679,10 @@ def test_logic_098():
     w = make_world()
     w.carbon_storage.fill_(1.0); w.soil_moisture.zero_(); apply(w);
     assert torch.allclose(w.carbon_storage, torch.full_like(w.carbon_storage, 0.996))
+
+
+def test_logic_099():
+    from world_rules.logic_099_dry_biomass_raises_fire_risk import apply
+    w = make_world()
+    w.fire_risk.zero_(); w.soil_moisture.zero_(); w.vegetation.fill_(1.0); apply(w);
+    assert torch.allclose(w.fire_risk, torch.full_like(w.fire_risk, 0.006))
