@@ -21,3 +21,5 @@ from .logic_011_lowlands_retain_runoff import apply as logic_011
 RULES.append(logic_011)
 from .logic_012_low_elevation_pools_water import apply as logic_012
 RULES.append(logic_012)
+from .logic_013_rivers_add_base_water import apply as logic_013
+RULES.append(logic_013)

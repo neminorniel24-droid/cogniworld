@@ -77,3 +77,10 @@ def test_logic_012():
     w = make_world()
     w.surface_water.zero_(); w.elevation.fill_(0.0); w.soil_moisture.fill_(1.0); apply(w);
     assert torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.01))
+
+
+def test_logic_013():
+    from world_rules.logic_013_rivers_add_base_water import apply
+    w = make_world()
+    w.surface_water.zero_(); w.biome.fill_(1); apply(w);
+    assert torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.03))
