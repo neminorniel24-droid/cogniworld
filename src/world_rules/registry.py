@@ -185,3 +185,5 @@ from .logic_093_root_density_follows_vegetation import apply as logic_093
 RULES.append(logic_093)
 from .logic_094_canopy_reduces_runoff import apply as logic_094
 RULES.append(logic_094)
+from .logic_095_wetlands_retain_water import apply as logic_095
+RULES.append(logic_095)
