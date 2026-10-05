@@ -93,3 +93,5 @@ from .logic_047_respiration_adds_co2 import apply as logic_047
 RULES.append(logic_047)
 from .logic_048_photosynthesis_consumes_co2 import apply as logic_048
 RULES.append(logic_048)
+from .logic_049_clouds_dampen_photosynthesis import apply as logic_049
+RULES.append(logic_049)

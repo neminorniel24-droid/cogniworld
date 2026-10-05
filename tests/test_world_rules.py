@@ -329,3 +329,10 @@ def test_logic_048():
     w = make_world()
     w.co2.fill_(1.0); w.vegetation.fill_(1.0); apply(w);
     assert torch.allclose(w.co2, torch.full_like(w.co2, 0.98))
+
+
+def test_logic_049():
+    from world_rules.logic_049_clouds_dampen_photosynthesis import apply
+    w = make_world()
+    w.cloud.fill_(1.0); apply(w);
+    assert torch.allclose(w.photosynthesis_factor, torch.full_like(w.photosynthesis_factor, 0.8))
