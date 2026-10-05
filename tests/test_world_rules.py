@@ -560,3 +560,10 @@ def test_logic_081():
     w = make_world()
     w.habitat_stress.zero_(); w.temperature.fill_(1.0); apply(w);
     assert torch.allclose(w.habitat_stress, torch.full_like(w.habitat_stress, 0.01))
+
+
+def test_logic_082():
+    from world_rules.logic_082_water_scarcity_raises_stress import apply
+    w = make_world()
+    w.habitat_stress.zero_(); w.surface_water.zero_(); apply(w);
+    assert torch.allclose(w.habitat_stress, torch.full_like(w.habitat_stress, 0.006))
