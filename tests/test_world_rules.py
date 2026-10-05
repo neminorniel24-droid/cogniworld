@@ -406,3 +406,10 @@ def test_logic_059():
     w = make_world()
     w.detritus.zero_(); w.biomass.fill_(1.0); w.vegetation.zero_(); apply(w);
     assert torch.allclose(w.detritus, torch.full_like(w.detritus, 0.01))
+
+
+def test_logic_060():
+    from world_rules.logic_060_decomposers_consume_detritus import apply
+    w = make_world()
+    w.nutrients.zero_(); w.detritus.fill_(1.0); apply(w);
+    assert torch.allclose(w.nutrients, torch.full_like(w.nutrients, 0.03))

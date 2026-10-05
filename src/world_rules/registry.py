@@ -115,3 +115,5 @@ from .logic_058_caves_suppress_vegetation import apply as logic_058
 RULES.append(logic_058)
 from .logic_059_vegetation_loss_creates_detritus import apply as logic_059
 RULES.append(logic_059)
+from .logic_060_decomposers_consume_detritus import apply as logic_060
+RULES.append(logic_060)
