@@ -224,3 +224,10 @@ def test_logic_033():
     w = make_world()
     w.surface_water.fill_(0.5); w.evaporation.fill_(0.1); w.vegetation.fill_(1.0); apply(w);
     assert torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.55))
+
+
+def test_logic_034():
+    from world_rules.logic_034_roots_consume_soil_water import apply
+    w = make_world()
+    w.soil_moisture.fill_(1.0); w.vegetation.fill_(1.0); apply(w);
+    assert torch.allclose(w.soil_moisture, torch.full_like(w.soil_moisture, 0.99))
