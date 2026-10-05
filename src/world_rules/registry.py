@@ -153,3 +153,5 @@ from .logic_077_prey_scarcity_reduces_predators import apply as logic_077
 RULES.append(logic_077)
 from .logic_078_predation_creates_carrion import apply as logic_078
 RULES.append(logic_078)
+from .logic_079_carrion_boosts_nutrients import apply as logic_079
+RULES.append(logic_079)

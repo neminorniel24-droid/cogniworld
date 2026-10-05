@@ -539,3 +539,10 @@ def test_logic_078():
     w = make_world()
     w.carrion.zero_(); w.predator.fill_(1.0); apply(w);
     assert torch.allclose(w.carrion, torch.full_like(w.carrion, 0.006))
+
+
+def test_logic_079():
+    from world_rules.logic_079_carrion_boosts_nutrients import apply
+    w = make_world()
+    w.nutrients.zero_(); w.carrion.fill_(1.0); apply(w);
+    assert torch.allclose(w.nutrients, torch.full_like(w.nutrients, 0.01))
