@@ -378,3 +378,10 @@ def test_logic_055():
     w = make_world()
     w.vegetation.zero_(); w.biome.fill_(1); apply(w);
     assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.01))
+
+
+def test_logic_056():
+    from world_rules.logic_056_desert_biomes_cap_vegetation import apply
+    w = make_world()
+    w.biome.fill_(3); w.vegetation.fill_(1.0); w.soil_moisture.zero_(); apply(w);
+    assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.15))
