@@ -37,3 +37,5 @@ from .logic_019_wind_disperses_clouds import apply as logic_019
 RULES.append(logic_019)
 from .logic_020_rain_dissipates_clouds import apply as logic_020
 RULES.append(logic_020)
+from .logic_021_warm_soil_dries import apply as logic_021
+RULES.append(logic_021)

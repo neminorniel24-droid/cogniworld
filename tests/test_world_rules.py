@@ -133,3 +133,10 @@ def test_logic_020():
     w = make_world()
     w.cloud.fill_(1.0); w.rain.fill_(1.0); apply(w);
     assert torch.allclose(w.cloud, torch.full_like(w.cloud, 0.9))
+
+
+def test_logic_021():
+    from world_rules.logic_021_warm_soil_dries import apply
+    w = make_world()
+    w.soil_moisture.fill_(1.0); w.temperature.fill_(1.0); apply(w);
+    assert torch.allclose(w.soil_moisture, torch.full_like(w.soil_moisture, 0.99))
