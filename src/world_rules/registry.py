@@ -171,3 +171,5 @@ from .logic_086_storm_runoff_erodes_soil import apply as logic_086
 RULES.append(logic_086)
 from .logic_087_erosion_reduces_soil_depth import apply as logic_087
 RULES.append(logic_087)
+from .logic_088_shallow_soil_limits_vegetation import apply as logic_088
+RULES.append(logic_088)

@@ -602,3 +602,10 @@ def test_logic_087():
     w = make_world()
     w.soil_depth.fill_(1.0); w.erosion.fill_(1.0); apply(w);
     assert torch.allclose(w.soil_depth, torch.full_like(w.soil_depth, 0.95))
+
+
+def test_logic_088():
+    from world_rules.logic_088_shallow_soil_limits_vegetation import apply
+    w = make_world()
+    w.vegetation.fill_(1.0); w.soil_depth.zero_(); apply(w);
+    assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.997))
