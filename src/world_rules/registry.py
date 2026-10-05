@@ -125,3 +125,5 @@ from .logic_063_low_oxygen_stresses_herbivores import apply as logic_063
 RULES.append(logic_063)
 from .logic_064_wet_anoxic_soil_produces_methane import apply as logic_064
 RULES.append(logic_064)
+from .logic_065_methane_warms_surface import apply as logic_065
+RULES.append(logic_065)

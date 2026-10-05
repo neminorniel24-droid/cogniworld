@@ -441,3 +441,10 @@ def test_logic_064():
     w = make_world()
     w.methane.zero_(); w.soil_moisture.fill_(1.0); w.oxygen.zero_(); apply(w);
     assert torch.allclose(w.methane, torch.full_like(w.methane, 0.01))
+
+
+def test_logic_065():
+    from world_rules.logic_065_methane_warms_surface import apply
+    w = make_world()
+    w.temperature.fill_(0.5); w.methane.fill_(1.0); apply(w);
+    assert torch.allclose(w.temperature, torch.full_like(w.temperature, 0.51))
