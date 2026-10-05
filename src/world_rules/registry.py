@@ -99,3 +99,5 @@ from .logic_050_co2_fertilizes_vegetation import apply as logic_050
 RULES.append(logic_050)
 from .logic_051_heat_stresses_vegetation import apply as logic_051
 RULES.append(logic_051)
+from .logic_052_humidity_supports_vegetation import apply as logic_052
+RULES.append(logic_052)

@@ -350,3 +350,10 @@ def test_logic_051():
     w = make_world()
     w.vegetation.fill_(1.0); w.temperature.fill_(1.0); apply(w);
     assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.996))
+
+
+def test_logic_052():
+    from world_rules.logic_052_humidity_supports_vegetation import apply
+    w = make_world()
+    w.vegetation.zero_(); w.humidity.fill_(1.0); apply(w);
+    assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.01))
