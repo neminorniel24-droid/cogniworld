@@ -686,3 +686,10 @@ def test_logic_099():
     w = make_world()
     w.fire_risk.zero_(); w.soil_moisture.zero_(); w.vegetation.fill_(1.0); apply(w);
     assert torch.allclose(w.fire_risk, torch.full_like(w.fire_risk, 0.006))
+
+
+def test_logic_100():
+    from world_rules.logic_100_fire_consumes_vegetation_and_creates_ash import apply
+    w = make_world()
+    w.fire_risk.fill_(1.0); w.vegetation.fill_(1.0); w.biomass.fill_(1.0); w.ash.zero_(); apply(w);
+    assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.98)) and torch.allclose(w.ash, torch.full_like(w.ash, 0.01))
