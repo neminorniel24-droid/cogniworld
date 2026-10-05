@@ -129,3 +129,5 @@ from .logic_065_methane_warms_surface import apply as logic_065
 RULES.append(logic_065)
 from .logic_066_wind_mixes_gases import apply as logic_066
 RULES.append(logic_066)
+from .logic_067_co2_diffuses_across_grid import apply as logic_067
+RULES.append(logic_067)
