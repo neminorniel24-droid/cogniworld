@@ -616,3 +616,10 @@ def test_logic_089():
     w = make_world()
     w.soil_moisture.zero_(); w.soil_depth.fill_(1.0); apply(w);
     assert torch.allclose(w.soil_moisture, torch.full_like(w.soil_moisture, 0.02))
+
+
+def test_logic_090():
+    from world_rules.logic_090_high_wind_increases_erosion import apply
+    w = make_world()
+    w.erosion.zero_(); w.wind_x.fill_(1.0); w.wind_y.zero_(); apply(w);
+    assert torch.allclose(w.erosion, torch.full_like(w.erosion, 0.01))

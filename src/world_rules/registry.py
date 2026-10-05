@@ -175,3 +175,5 @@ from .logic_088_shallow_soil_limits_vegetation import apply as logic_088
 RULES.append(logic_088)
 from .logic_089_deep_soil_stores_more_water import apply as logic_089
 RULES.append(logic_089)
+from .logic_090_high_wind_increases_erosion import apply as logic_090
+RULES.append(logic_090)
