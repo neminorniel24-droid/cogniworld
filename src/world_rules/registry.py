@@ -89,3 +89,5 @@ from .logic_045_vegetation_produces_oxygen import apply as logic_045
 RULES.append(logic_045)
 from .logic_046_respiration_consumes_oxygen import apply as logic_046
 RULES.append(logic_046)
+from .logic_047_respiration_adds_co2 import apply as logic_047
+RULES.append(logic_047)
