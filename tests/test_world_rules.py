@@ -238,3 +238,10 @@ def test_logic_035():
     w = make_world()
     w.biomass.zero_(); w.vegetation.fill_(1.0); apply(w);
     assert torch.allclose(w.biomass, torch.full_like(w.biomass, 0.05))
+
+
+def test_logic_036():
+    from world_rules.logic_036_herbivores_grow_from_vegetation import apply
+    w = make_world()
+    w.herbivore.zero_(); w.vegetation.fill_(1.0); apply(w);
+    assert torch.allclose(w.herbivore, torch.full_like(w.herbivore, 0.02))
