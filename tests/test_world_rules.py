@@ -112,3 +112,10 @@ def test_logic_017():
     w = make_world()
     w.humidity.zero_(); w.humidity[:,0]=1.0; apply(w);
     assert torch.all(w.humidity[:,1] > 0)
+
+
+def test_logic_018():
+    from world_rules.logic_018_terrain_gradient_drives_wind import apply
+    w = make_world()
+    w.wind_x.zero_(); w.wind_y.zero_(); w.elevation.zero_(); w.elevation[1,1]=1.0; apply(w);
+    assert torch.any(w.wind_x != 0) and torch.any(w.wind_y != 0)

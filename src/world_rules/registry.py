@@ -31,3 +31,5 @@ from .logic_016_humidity_slows_evaporation import apply as logic_016
 RULES.append(logic_016)
 from .logic_017_wind_advects_humidity import apply as logic_017
 RULES.append(logic_017)
+from .logic_018_terrain_gradient_drives_wind import apply as logic_018
+RULES.append(logic_018)
