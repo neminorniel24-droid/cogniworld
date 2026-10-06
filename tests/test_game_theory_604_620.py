@@ -38,3 +38,5 @@ def test_cooperation_score_in_ledger():
     assert "cooperation_score" in _event()
 def test_competition_score_in_ledger():
     assert "competition_score" in _event()
+def test_defection_score_in_ledger():
+    assert "defection_score" in _event()
