@@ -672,3 +672,7 @@ def logic_1158(world):
 def logic_1159(world):
     # soil moisture supports flowering; stronger when temperature is high.
     _feedback(world, 'soil_moisture', 'flowers', 1, 'heat_gate')
+
+def logic_1160(world):
+    # soil moisture supports flowering; stronger when temperature is low.
+    _feedback(world, 'soil_moisture', 'flowers', 1, 'cold_gate')
