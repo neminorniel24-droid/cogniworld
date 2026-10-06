@@ -496,3 +496,7 @@ def logic_1114(world):
 def logic_1115(world):
     # groundwater buffers soil moisture; stronger when soil is dry.
     _feedback(world, 'groundwater', 'soil_moisture', 1, 'dry_gate')
+
+def logic_1116(world):
+    # groundwater buffers soil moisture; stronger when soil is wet.
+    _feedback(world, 'groundwater', 'soil_moisture', 1, 'wet_gate')
