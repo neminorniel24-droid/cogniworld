@@ -2604,3 +2604,7 @@ def logic_1641(world):
 def logic_1642(world):
     # soil carbon contributes ecosystem carbon; modulated by temperature.
     _feedback(world, 'soil_carbon', 'carbon_storage', 1, 'seasonal_gate')
+
+def logic_1643(world):
+    # soil carbon contributes ecosystem carbon; saturates at high source levels.
+    _feedback(world, 'soil_carbon', 'carbon_storage', 1, 'saturation')
