@@ -899,3 +899,8 @@ def test_logic_208():
     from world_rules.logic_208_groundwater_reduces_surface_water_loss import apply
     w = make_world()
     w.surface_water.zero_(); w.groundwater.fill_(1.0); apply(w); assert torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.01))
+
+def test_logic_209():
+    from world_rules.logic_209_dryness_draws_down_groundwater import apply
+    w = make_world()
+    w.groundwater.fill_(1.0); w.soil_moisture.zero_(); apply(w); assert torch.allclose(w.groundwater, torch.full_like(w.groundwater, 0.997))
