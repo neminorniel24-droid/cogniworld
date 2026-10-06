@@ -2452,3 +2452,7 @@ def logic_1603(world):
 def logic_1604(world):
     # fire releases stored carbon; direct.
     _feedback(world, 'fire_risk', 'carbon_storage', -1, 'baseline')
+
+def logic_1605(world):
+    # fire releases stored carbon; stronger when soil is dry.
+    _feedback(world, 'fire_risk', 'carbon_storage', -1, 'dry_gate')
