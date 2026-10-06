@@ -243,3 +243,6 @@ def test_logic_698():
 def test_logic_699():
     from agent_rules.rules import logic_699
     _check(logic_699, 'stability', 'caution', 1)
+def test_logic_700():
+    from agent_rules.rules import logic_700
+    _check(logic_700, 'habitat_stress', 'confidence', -1)

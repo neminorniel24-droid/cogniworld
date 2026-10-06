@@ -760,3 +760,5 @@ def logic_698(agents,world):
     agents.strategy_confidence=_delta(agents.strategy_confidence,+0.002*agents.wealth)
 def logic_699(agents,world):
     agents.caution=_delta(agents.caution,+0.002*agents.stability)
+def logic_700(agents,world):
+    agents.confidence=_delta(agents.confidence,-0.002*agents.habitat_stress)
