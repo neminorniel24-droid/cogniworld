@@ -3294,3 +3294,7 @@ def logic_3815(agents, world):
 def logic_3816(agents, world):
     # surface_water -> strategy_mixing; threshold coupling.
     _update(agents, 'strategy_mixing', _desired(agents, world, 'surface_water', 'strategy_mixing', 'threshold'))
+
+def logic_3817(agents, world):
+    # surface_water -> strategy_mixing; strong coupling.
+    _update(agents, 'strategy_mixing', _desired(agents, world, 'surface_water', 'strategy_mixing', 'strong'))
