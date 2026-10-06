@@ -722,3 +722,5 @@ def logic_679(agents,world):
     agents.reproduction_score=_delta(agents.reproduction_score,+0.002*agents.stability)
 def logic_680(agents,world):
     agents.exploration_score=_delta(agents.exploration_score,+0.002*agents.habitat_stress)
+def logic_681(agents,world):
+    agents.strategy_score=_delta(agents.strategy_score,+0.002*agents.social_tolerance)

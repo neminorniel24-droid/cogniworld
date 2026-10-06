@@ -186,3 +186,6 @@ def test_logic_679():
 def test_logic_680():
     from agent_rules.rules import logic_680
     _check(logic_680, 'habitat_stress', 'exploration_score', 1)
+def test_logic_681():
+    from agent_rules.rules import logic_681
+    _check(logic_681, 'social_tolerance', 'strategy_score', 1)
