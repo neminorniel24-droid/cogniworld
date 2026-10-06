@@ -984,3 +984,8 @@ def test_logic_225():
     from world_rules.logic_225_cloudy_water_limits_algae import apply
     w = make_world()
     w.algae.fill_(1.0); w.cloud.fill_(1.0); apply(w); assert torch.allclose(w.algae, torch.full_like(w.algae, 0.997))
+
+def test_logic_226():
+    from world_rules.logic_226_algae_raises_pathogen_load import apply
+    w = make_world()
+    w.pathogen_load.zero_(); w.algae.fill_(1.0); apply(w); assert torch.allclose(w.pathogen_load, torch.full_like(w.pathogen_load, 0.002))

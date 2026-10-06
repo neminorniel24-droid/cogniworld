@@ -447,3 +447,5 @@ from .logic_224_algae_produce_oxygen import apply as logic_224
 RULES.append(logic_224)
 from .logic_225_cloudy_water_limits_algae import apply as logic_225
 RULES.append(logic_225)
+from .logic_226_algae_raises_pathogen_load import apply as logic_226
+RULES.append(logic_226)
