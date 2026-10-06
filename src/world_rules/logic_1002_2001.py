@@ -1824,3 +1824,7 @@ def logic_1446(world):
 def logic_1447(world):
     # biomass stores carbon; saturates at high source levels.
     _feedback(world, 'biomass', 'carbon_storage', 1, 'saturation')
+
+def logic_1448(world):
+    # biomass stores carbon; activates above a food threshold.
+    _feedback(world, 'biomass', 'carbon_storage', 1, 'threshold')
