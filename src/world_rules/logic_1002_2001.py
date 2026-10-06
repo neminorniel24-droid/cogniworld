@@ -148,3 +148,7 @@ def logic_1027(world):
 def logic_1028(world):
     # rainfall wets soil; activates above a food threshold.
     _feedback(world, 'rain', 'soil_moisture', 1, 'threshold')
+
+def logic_1029(world):
+    # rainfall wets soil; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'rain', 'soil_moisture', 1, 'recovery')
