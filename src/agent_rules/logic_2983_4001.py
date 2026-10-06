@@ -2514,3 +2514,7 @@ def logic_3620(agents, world):
 def logic_3621(agents, world):
     # surface_water -> competition_score; strong coupling.
     _update(agents, 'competition_score', _desired(agents, world, 'surface_water', 'competition_score', 'strong'))
+
+def logic_3622(agents, world):
+    # surface_water -> competition_score; limited coupling.
+    _update(agents, 'competition_score', _desired(agents, world, 'surface_water', 'competition_score', 'limited'))
