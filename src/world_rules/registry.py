@@ -347,3 +347,5 @@ from .logic_174_ash_suppresses_future_fire_risk import apply as logic_174
 RULES.append(logic_174)
 from .logic_175_active_fire_warms_surface import apply as logic_175
 RULES.append(logic_175)
+from .logic_176_ash_reflects_heat import apply as logic_176
+RULES.append(logic_176)

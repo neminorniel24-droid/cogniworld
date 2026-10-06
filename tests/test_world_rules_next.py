@@ -641,3 +641,12 @@ def test_logic_175():
     before=w.temperature_target.clone()
     apply(w)
     assert torch.all(w.temperature_target > before)
+
+def test_logic_176():
+    from world_rules.logic_176_ash_reflects_heat import apply
+    w = make_world()
+    w.ash.fill_(1.0)
+    w.temperature_target.fill_(0.5)
+    before=w.temperature_target.clone()
+    apply(w)
+    assert torch.all(w.temperature_target < before)
