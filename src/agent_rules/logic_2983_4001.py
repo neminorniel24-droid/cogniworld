@@ -1718,3 +1718,7 @@ def logic_3421(agents, world):
 def logic_3422(agents, world):
     # surface_water -> help_drive; direct coupling.
     _update(agents, 'help_drive', _desired(agents, world, 'surface_water', 'help_drive', 'direct'))
+
+def logic_3423(agents, world):
+    # surface_water -> help_drive; inverse coupling.
+    _update(agents, 'help_drive', _desired(agents, world, 'surface_water', 'help_drive', 'inverse'))
