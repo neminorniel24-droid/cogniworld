@@ -792,3 +792,7 @@ def logic_1188(world):
 def logic_1189(world):
     # humidity promotes cloud formation; stronger under fire pressure.
     _feedback(world, 'humidity', 'cloud', 1, 'fire_gate')
+
+def logic_1190(world):
+    # humidity promotes cloud formation; stronger when surface water is high.
+    _feedback(world, 'humidity', 'cloud', 1, 'water_gate')
