@@ -18,3 +18,7 @@ def logic_2983(world):
 def logic_2984(world):
     # groundwater discharge sustains surface water.
     _apply(world, 'groundwater', 'surface_water', 1.0)
+
+def logic_2985(world):
+    # surface water replenishes soil moisture.
+    _apply(world, 'surface_water', 'soil_moisture', -1.0)
