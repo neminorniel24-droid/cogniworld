@@ -3869,3 +3869,7 @@ def logic_2965(world):
 def logic_2966(world):
     # snowmelt contributes runoff; threshold coupling.
     _couple(world,'snowpack','runoff',1.0,'threshold')
+
+def logic_2967(world):
+    # snowmelt contributes runoff; pulse coupling.
+    _couple(world,'snowpack','runoff',1.0,'pulse')
