@@ -3056,3 +3056,7 @@ def logic_1754(world):
 def logic_1755(world):
     # predation reduces herbivores; saturates at high source levels.
     _feedback(world, 'predator', 'herbivore', -1, 'saturation')
+
+def logic_1756(world):
+    # predation reduces herbivores; activates above a food threshold.
+    _feedback(world, 'predator', 'herbivore', -1, 'threshold')
