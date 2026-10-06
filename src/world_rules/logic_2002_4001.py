@@ -2369,3 +2369,7 @@ def logic_2590(world):
 def logic_2591(world):
     # fire removes erosion protection; reserve coupling.
     _couple(world,'fire_risk','erosion',0.9,'positive')
+
+def logic_2592(world):
+    # ash returns mineral nutrients; direct coupling.
+    _couple(world,'ash','nutrients',1.0,'positive')
