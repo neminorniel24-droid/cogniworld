@@ -521,3 +521,7 @@ def logic_2128(world):
 def logic_2129(world):
     # surface water recharges groundwater; counterpressure coupling.
     _couple(world,'surface_water','groundwater',0.8,'negative')
+
+def logic_2130(world):
+    # surface water recharges groundwater; capacity coupling.
+    _couple(world,'surface_water','groundwater',0.5,'positive')
