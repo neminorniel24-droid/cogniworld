@@ -3204,3 +3204,7 @@ def logic_1791(world):
 def logic_1792(world):
     # carrion feeds decomposers; stronger when surface water is high.
     _feedback(world, 'carrion', 'organic_matter', 1, 'water_gate')
+
+def logic_1793(world):
+    # carrion feeds decomposers; stronger when vegetation is scarce.
+    _feedback(world, 'carrion', 'organic_matter', 1, 'scarcity_gate')
