@@ -296,3 +296,11 @@ def test_logic_135():
     before=w.detritus.clone()
     apply(w)
     assert torch.all(w.detritus < before)
+
+def test_logic_136():
+    from world_rules.logic_136_decomposition_recycles_nutrients import apply
+    w = make_world()
+    w.decomposition_rate.fill_(1.0)
+    w.nutrients.zero_()
+    apply(w)
+    assert torch.allclose(w.nutrients, torch.full_like(w.nutrients, 0.008))
