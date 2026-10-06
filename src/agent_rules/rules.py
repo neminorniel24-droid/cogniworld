@@ -1090,3 +1090,5 @@ def logic_863(agents,world):
     agents.strategy_confidence=_delta(agents.strategy_confidence,+0.002*agents.fitness_score)
 def logic_864(agents,world):
     agents.risk_tolerance=_delta(agents.risk_tolerance,+0.002*agents.help_score)
+def logic_865(agents,world):
+    agents.confidence=_delta(agents.confidence,+0.002*agents.attack_success)
