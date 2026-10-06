@@ -295,3 +295,5 @@ from .logic_148_vegetation_raises_biodiversity import apply as logic_148
 RULES.append(logic_148)
 from .logic_149_balanced_food_web_raises_biodiversity import apply as logic_149
 RULES.append(logic_149)
+from .logic_150_habitat_stress_reduces_biodiversity import apply as logic_150
+RULES.append(logic_150)

@@ -416,3 +416,12 @@ def test_logic_149():
     w.biodiversity.zero_()
     apply(w)
     assert torch.allclose(w.biodiversity, torch.full_like(w.biodiversity, 0.003))
+
+def test_logic_150():
+    from world_rules.logic_150_habitat_stress_reduces_biodiversity import apply
+    w = make_world()
+    w.habitat_stress.fill_(1.0)
+    w.biodiversity.fill_(1.0)
+    before=w.biodiversity.clone()
+    apply(w)
+    assert torch.all(w.biodiversity < before)
