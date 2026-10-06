@@ -2956,3 +2956,7 @@ def logic_1729(world):
 def logic_1730(world):
     # herbivore mortality contributes carrion; direct.
     _feedback(world, 'herbivore', 'carrion', 1, 'baseline')
+
+def logic_1731(world):
+    # herbivore mortality contributes carrion; stronger when soil is dry.
+    _feedback(world, 'herbivore', 'carrion', 1, 'dry_gate')
