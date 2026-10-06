@@ -1570,3 +1570,7 @@ def logic_3384(agents, world):
 def logic_3385(agents, world):
     # surface_water -> territoriality; pulse coupling.
     _update(agents, 'territoriality', _desired(agents, world, 'surface_water', 'territoriality', 'pulse'))
+
+def logic_3386(agents, world):
+    # surface_water -> territoriality; feedback coupling.
+    _update(agents, 'territoriality', _desired(agents, world, 'surface_water', 'territoriality', 'feedback'))
