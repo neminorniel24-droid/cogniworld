@@ -3394,3 +3394,7 @@ def logic_3840(agents, world):
 def logic_3841(agents, world):
     # surface_water -> learning_rate; persistence coupling.
     _update(agents, 'learning_rate', _desired(agents, world, 'surface_water', 'learning_rate', 'persistence'))
+
+def logic_3842(agents, world):
+    # surface_water -> memory_update; direct coupling.
+    _update(agents, 'memory_update', _desired(agents, world, 'surface_water', 'memory_update', 'direct'))
