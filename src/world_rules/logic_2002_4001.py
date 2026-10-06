@@ -609,3 +609,7 @@ def logic_2150(world):
 def logic_2151(world):
     # rainfall recharges groundwater; reserve coupling.
     _couple(world,'rain','groundwater',0.9,'positive')
+
+def logic_2152(world):
+    # snowmelt feeds groundwater; direct coupling.
+    _couple(world,'snowpack','groundwater',1.0,'positive')
