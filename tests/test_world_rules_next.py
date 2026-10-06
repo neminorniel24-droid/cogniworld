@@ -856,3 +856,12 @@ def test_logic_200():
     w.erosion.zero_()
     apply(w)
     assert torch.allclose(w.erosion, torch.full_like(w.erosion, 0.003))
+
+def test_logic_201():
+    from world_rules.logic_201_soil_depth_limits_root_density import apply
+    w = make_world()
+    w.soil_depth.zero_()
+    w.root_density.fill_(1.0)
+    before=w.root_density.clone()
+    apply(w)
+    assert torch.all(w.root_density < before)
