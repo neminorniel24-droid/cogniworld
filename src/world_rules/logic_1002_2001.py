@@ -416,3 +416,7 @@ def logic_1094(world):
 def logic_1095(world):
     # persistent surface water expands wetlands; stronger under habitat stress.
     _feedback(world, 'surface_water', 'wetland', 1, 'stress_gate')
+
+def logic_1096(world):
+    # persistent surface water expands wetlands; modulated by temperature.
+    _feedback(world, 'surface_water', 'wetland', 1, 'seasonal_gate')
