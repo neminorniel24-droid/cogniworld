@@ -850,3 +850,5 @@ def logic_743(agents,world):
     agents.aggression=_delta(agents.aggression,+0.002*agents.territoriality)
 def logic_744(agents,world):
     agents.conflict_pressure=_delta(agents.conflict_pressure,+0.002*agents.group_stability)
+def logic_745(agents,world):
+    agents.competition_pressure=_delta(agents.competition_pressure,+0.002*agents.sharing_capacity)
