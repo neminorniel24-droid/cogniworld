@@ -944,3 +944,5 @@ def logic_790(agents,world):
     agents.group_stability=_delta(agents.group_stability,+0.002*agents.trust)
 def logic_791(agents,world):
     agents.sharing_capacity=_delta(agents.sharing_capacity,+0.002*agents.cooperation)
+def logic_792(agents,world):
+    agents.help_drive=_delta(agents.help_drive,-0.002*agents.defection)
