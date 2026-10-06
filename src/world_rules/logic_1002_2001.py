@@ -2944,3 +2944,7 @@ def logic_1726(world):
 def logic_1727(world):
     # vegetation supports herbivores; saturates at high source levels.
     _feedback(world, 'vegetation', 'herbivore', 1, 'saturation')
+
+def logic_1728(world):
+    # vegetation supports herbivores; activates above a food threshold.
+    _feedback(world, 'vegetation', 'herbivore', 1, 'threshold')
