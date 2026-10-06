@@ -320,3 +320,7 @@ def logic_1070(world):
 def logic_1071(world):
     # snowpack supports groundwater recharge; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'snowpack', 'groundwater', 1, 'recovery')
+
+def logic_1072(world):
+    # open water raises local humidity; direct.
+    _feedback(world, 'surface_water', 'humidity', 1, 'baseline')
