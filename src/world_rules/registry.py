@@ -539,3 +539,5 @@ from .logic_270_seed_bank_recovers_after_fire import apply as logic_270
 RULES.append(logic_270)
 from .logic_271_ash_boosts_seed_germination import apply as logic_271
 RULES.append(logic_271)
+from .logic_272_herbivores_reduce_flowering import apply as logic_272
+RULES.append(logic_272)
