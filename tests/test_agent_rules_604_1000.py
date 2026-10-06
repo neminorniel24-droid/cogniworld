@@ -1011,3 +1011,6 @@ def test_logic_954():
 def test_logic_955():
     from agent_rules.rules import logic_955
     _check(logic_955, 'reproduction_score', 'survival_score', 1)
+def test_logic_956():
+    from agent_rules.rules import logic_956
+    _check(logic_956, 'strategy_persistence', 'reproduction_score', 1)
