@@ -828,3 +828,6 @@ def test_logic_893():
 def test_logic_894():
     from agent_rules.rules import logic_894
     _check(logic_894, 'reciprocity_score', 'payoff', 1)
+def test_logic_895():
+    from agent_rules.rules import logic_895
+    _check(logic_895, 'risk_score', 'fitness_score', 1)
