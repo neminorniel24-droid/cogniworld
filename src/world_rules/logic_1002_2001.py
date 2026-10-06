@@ -1556,3 +1556,7 @@ def logic_1379(world):
 def logic_1380(world):
     # vegetation roots suppress erosion; direct.
     _feedback(world, 'vegetation', 'erosion', -1, 'baseline')
+
+def logic_1381(world):
+    # vegetation roots suppress erosion; stronger when soil is dry.
+    _feedback(world, 'vegetation', 'erosion', -1, 'dry_gate')
