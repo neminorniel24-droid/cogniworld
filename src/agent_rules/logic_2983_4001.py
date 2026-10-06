@@ -1318,3 +1318,7 @@ def logic_3321(agents, world):
 def logic_3322(agents, world):
     # surface_water -> cooperation; recovery coupling.
     _update(agents, 'cooperation', _desired(agents, world, 'surface_water', 'cooperation', 'recovery'))
+
+def logic_3323(agents, world):
+    # surface_water -> cooperation; persistence coupling.
+    _update(agents, 'cooperation', _desired(agents, world, 'surface_water', 'cooperation', 'persistence'))
