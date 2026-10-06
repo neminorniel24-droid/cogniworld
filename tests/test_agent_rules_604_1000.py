@@ -792,3 +792,6 @@ def test_logic_881():
 def test_logic_882():
     from agent_rules.rules import logic_882
     _check(logic_882, 'help_score', 'survival_score', 1)
+def test_logic_883():
+    from agent_rules.rules import logic_883
+    _check(logic_883, 'attack_success', 'reproduction_score', 1)

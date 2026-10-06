@@ -1126,3 +1126,5 @@ def logic_881(agents,world):
     agents.payoff=_signed_delta(agents.payoff,+0.002*agents.survival_score)
 def logic_882(agents,world):
     agents.survival_score=_delta(agents.survival_score,+0.002*agents.help_score)
+def logic_883(agents,world):
+    agents.reproduction_score=_delta(agents.reproduction_score,+0.002*agents.attack_success)
