@@ -435,3 +435,6 @@ def test_logic_762():
 def test_logic_763():
     from agent_rules.rules import logic_763
     _check(logic_763, 'gratitude', 'cooperation_score', 1)
+def test_logic_764():
+    from agent_rules.rules import logic_764
+    _check(logic_764, 'caution', 'competition_score', 1)
