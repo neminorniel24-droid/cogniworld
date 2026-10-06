@@ -3489,3 +3489,7 @@ def logic_2870(world):
 def logic_2871(world):
     # organic matter retains water; reserve coupling.
     _couple(world,'organic_matter','surface_water',0.9,'positive')
+
+def logic_2872(world):
+    # soil carbon improves water retention; direct coupling.
+    _couple(world,'soil_carbon','surface_water',1.0,'positive')
