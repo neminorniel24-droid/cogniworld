@@ -2141,3 +2141,7 @@ def logic_2533(world):
 def logic_2534(world):
     # plants reduce rapid soil drying; limited coupling.
     _couple(world,'vegetation','soil_moisture',0.65,'positive')
+
+def logic_2535(world):
+    # plants reduce rapid soil drying; strong coupling.
+    _couple(world,'vegetation','soil_moisture',1.35,'positive')
