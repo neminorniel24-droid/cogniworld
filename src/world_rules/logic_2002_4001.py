@@ -2121,3 +2121,7 @@ def logic_2528(world):
 def logic_2529(world):
     # wetlands retain surface water; counterpressure coupling.
     _couple(world,'wetland','surface_water',0.8,'negative')
+
+def logic_2530(world):
+    # wetlands retain surface water; capacity coupling.
+    _couple(world,'wetland','surface_water',0.5,'positive')
