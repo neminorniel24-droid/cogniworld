@@ -1980,3 +1980,7 @@ def logic_1485(world):
 def logic_1486(world):
     # photosynthesis builds biomass; stronger when biomass is high.
     _feedback(world, 'photosynthesis_factor', 'biomass', 1, 'biomass_gate')
+
+def logic_1487(world):
+    # photosynthesis builds biomass; stronger under habitat stress.
+    _feedback(world, 'photosynthesis_factor', 'biomass', 1, 'stress_gate')
