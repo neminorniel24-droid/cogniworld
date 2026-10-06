@@ -66,3 +66,7 @@ def logic_2995(world):
 def logic_2996(world):
     # snowpack supplies runoff.
     _apply(world, 'snowpack', 'runoff', 1.0)
+
+def logic_2997(world):
+    # runoff transports sediment.
+    _apply(world, 'runoff', 'sediment', -1.0)
