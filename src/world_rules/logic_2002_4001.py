@@ -2129,3 +2129,7 @@ def logic_2530(world):
 def logic_2531(world):
     # wetlands retain surface water; reserve coupling.
     _couple(world,'wetland','surface_water',0.9,'positive')
+
+def logic_2532(world):
+    # plants reduce rapid soil drying; direct coupling.
+    _couple(world,'vegetation','soil_moisture',1.0,'positive')
