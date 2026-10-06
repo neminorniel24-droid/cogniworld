@@ -1372,3 +1372,7 @@ def logic_1333(world):
 def logic_1334(world):
     # evaporation removes surface water; modulated by temperature.
     _feedback(world, 'evaporation', 'surface_water', -1, 'seasonal_gate')
+
+def logic_1335(world):
+    # evaporation removes surface water; saturates at high source levels.
+    _feedback(world, 'evaporation', 'surface_water', -1, 'saturation')
