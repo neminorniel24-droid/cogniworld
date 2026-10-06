@@ -250,3 +250,8 @@ def test_logic_350():
 def test_logic_351():
  from agent_rules.rules import logic_351
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.health.clone();setattr(w,'biodiversity',torch.ones(4,4));logic_351(a,w);assert torch.any(a.health!=b)
+
+
+def test_logic_352():
+ from agent_rules.rules import logic_352
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.habitat_stress.clone();setattr(w,'biodiversity',torch.ones(4,4));logic_352(a,w);assert torch.any(a.habitat_stress!=b)
