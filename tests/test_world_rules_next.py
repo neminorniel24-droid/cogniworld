@@ -914,3 +914,8 @@ def test_logic_211():
     from world_rules.logic_211_deep_roots_tap_groundwater import apply
     w = make_world()
     w.soil_moisture.zero_(); w.groundwater.fill_(1.0); w.root_density.fill_(1.0); apply(w); assert torch.allclose(w.soil_moisture, torch.full_like(w.soil_moisture, 0.01))
+
+def test_logic_212():
+    from world_rules.logic_212_runoff_transports_sediment import apply
+    w = make_world()
+    w.sediment.zero_(); w.runoff.fill_(1.0); apply(w); assert torch.allclose(w.sediment, torch.full_like(w.sediment, 0.03))

@@ -10,4 +10,5 @@ def make_world(size=3):
         setattr(w,n,z(0.0 if n not in {"soil_depth","photosynthesis_factor"} else (1.0 if n=="soil_depth" else 1.0)))
     w.snowpack=z(0.0)
     w.groundwater=z(0.0)
+    w.sediment=z(0.0)
     return w

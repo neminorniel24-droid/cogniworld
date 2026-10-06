@@ -104,6 +104,7 @@ class World:
 
         self.snowpack = torch.zeros_like(self.food)
         self.groundwater = torch.zeros_like(self.food)
+        self.sediment = torch.zeros_like(self.food)
         # seed initial food so the world isn't empty at t=0
         self.food = self._regen.clone() * 5.0
         self.food.clamp_(0, 1.0)
