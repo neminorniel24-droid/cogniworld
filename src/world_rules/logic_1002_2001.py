@@ -2020,3 +2020,7 @@ def logic_1495(world):
 def logic_1496(world):
     # nutrients support vegetation; stronger when temperature is low.
     _feedback(world, 'nutrients', 'vegetation', 1, 'cold_gate')
+
+def logic_1497(world):
+    # nutrients support vegetation; stronger under fire pressure.
+    _feedback(world, 'nutrients', 'vegetation', 1, 'fire_gate')
