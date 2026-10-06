@@ -596,3 +596,7 @@ def logic_1139(world):
 def logic_1140(world):
     # groundwater supports wetlands; activates above a food threshold.
     _feedback(world, 'groundwater', 'wetland', 1, 'threshold')
+
+def logic_1141(world):
+    # groundwater supports wetlands; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'groundwater', 'wetland', 1, 'recovery')
