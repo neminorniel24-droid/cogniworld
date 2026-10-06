@@ -213,3 +213,7 @@ def logic_2051(world):
 def logic_2052(world):
     # organic matter builds soil carbon; direct coupling.
     _couple(world,'organic_matter','soil_carbon',1.0,'positive')
+
+def logic_2053(world):
+    # organic matter builds soil carbon; inverse coupling.
+    _couple(world,'organic_matter','soil_carbon',1.0,'negative')
