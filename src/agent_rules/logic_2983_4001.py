@@ -1730,3 +1730,7 @@ def logic_3424(agents, world):
 def logic_3425(agents, world):
     # surface_water -> help_drive; strong coupling.
     _update(agents, 'help_drive', _desired(agents, world, 'surface_water', 'help_drive', 'strong'))
+
+def logic_3426(agents, world):
+    # surface_water -> help_drive; limited coupling.
+    _update(agents, 'help_drive', _desired(agents, world, 'surface_water', 'help_drive', 'limited'))
