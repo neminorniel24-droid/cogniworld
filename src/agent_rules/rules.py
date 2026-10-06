@@ -1058,3 +1058,5 @@ def logic_847(agents,world):
     agents.strategy_mixing=_delta(agents.strategy_mixing,+0.002*agents.retaliation_risk)
 def logic_848(agents,world):
     agents.future_payoff_weight=_delta(agents.future_payoff_weight,+0.002*agents.defense_score)
+def logic_849(agents,world):
+    agents.fitness_score=_delta(agents.fitness_score,+0.002*agents.last_reward)
