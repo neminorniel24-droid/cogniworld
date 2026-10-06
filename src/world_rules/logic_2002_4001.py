@@ -89,3 +89,7 @@ def logic_2020(world):
 def logic_2021(world):
     # rainfall wets soil; reserve coupling.
     _couple(world,'rain','soil_moisture',0.9,'positive')
+
+def logic_2022(world):
+    # soil moisture supports vegetation; direct coupling.
+    _couple(world,'soil_moisture','vegetation',1.0,'positive')
