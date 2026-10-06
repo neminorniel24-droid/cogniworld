@@ -2728,3 +2728,7 @@ def logic_1672(world):
 def logic_1673(world):
     # pollination sustains flowering; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'pollinators', 'flowers', 1, 'recovery')
+
+def logic_1674(world):
+    # seed banks support vegetation recovery; direct.
+    _feedback(world, 'seed_bank', 'vegetation', 1, 'baseline')
