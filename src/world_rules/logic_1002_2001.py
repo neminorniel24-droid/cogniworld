@@ -528,3 +528,7 @@ def logic_1122(world):
 def logic_1123(world):
     # groundwater buffers soil moisture; stronger under habitat stress.
     _feedback(world, 'groundwater', 'soil_moisture', 1, 'stress_gate')
+
+def logic_1124(world):
+    # groundwater buffers soil moisture; modulated by temperature.
+    _feedback(world, 'groundwater', 'soil_moisture', 1, 'seasonal_gate')
