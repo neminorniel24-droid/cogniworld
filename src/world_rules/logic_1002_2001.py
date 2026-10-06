@@ -3144,3 +3144,7 @@ def logic_1776(world):
 def logic_1777(world):
     # predator mortality contributes carrion; stronger under fire pressure.
     _feedback(world, 'predator', 'carrion', 1, 'fire_gate')
+
+def logic_1778(world):
+    # predator mortality contributes carrion; stronger when surface water is high.
+    _feedback(world, 'predator', 'carrion', 1, 'water_gate')
