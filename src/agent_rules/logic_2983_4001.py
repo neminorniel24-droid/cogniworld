@@ -2554,3 +2554,7 @@ def logic_3630(agents, world):
 def logic_3631(agents, world):
     # surface_water -> competition_score; persistence coupling.
     _update(agents, 'competition_score', _desired(agents, world, 'surface_water', 'competition_score', 'persistence'))
+
+def logic_3632(agents, world):
+    # surface_water -> defection_score; direct coupling.
+    _update(agents, 'defection_score', _desired(agents, world, 'surface_water', 'defection_score', 'direct'))
