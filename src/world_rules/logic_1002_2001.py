@@ -3448,3 +3448,7 @@ def logic_1852(world):
 def logic_1853(world):
     # habitat stress erodes diversity; saturates at high source levels.
     _feedback(world, 'habitat_stress', 'biodiversity', -1, 'saturation')
+
+def logic_1854(world):
+    # habitat stress erodes diversity; activates above a food threshold.
+    _feedback(world, 'habitat_stress', 'biodiversity', -1, 'threshold')
