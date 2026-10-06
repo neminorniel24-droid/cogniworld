@@ -3528,3 +3528,7 @@ def logic_1872(world):
 def logic_1873(world):
     # algae contribute oxygen; stronger when temperature is high.
     _feedback(world, 'algae', 'oxygen', 1, 'heat_gate')
+
+def logic_1874(world):
+    # algae contribute oxygen; stronger when temperature is low.
+    _feedback(world, 'algae', 'oxygen', 1, 'cold_gate')
