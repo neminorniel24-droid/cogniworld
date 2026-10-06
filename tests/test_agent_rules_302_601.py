@@ -420,3 +420,8 @@ def test_logic_384():
 def test_logic_385():
  from agent_rules.rules import logic_385
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.fire_fear.clone();setattr(w,'deadwood',torch.ones(4,4));logic_385(a,w);assert torch.any(a.fire_fear!=b)
+
+
+def test_logic_386():
+ from agent_rules.rules import logic_386
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.resource_competition.clone();setattr(w,'deadwood',torch.ones(4,4));logic_386(a,w);assert torch.any(a.resource_competition!=b)
