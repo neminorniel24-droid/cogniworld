@@ -1777,3 +1777,7 @@ def logic_2442(world):
 def logic_2443(world):
     # surface ice contributes to ice cover; inverse coupling.
     _couple(world,'surface_ice','ice',1.0,'negative')
+
+def logic_2444(world):
+    # surface ice contributes to ice cover; limited coupling.
+    _couple(world,'surface_ice','ice',0.65,'positive')
