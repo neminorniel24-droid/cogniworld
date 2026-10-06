@@ -560,3 +560,7 @@ def logic_1130(world):
 def logic_1131(world):
     # groundwater supports wetlands; stronger when temperature is high.
     _feedback(world, 'groundwater', 'wetland', 1, 'heat_gate')
+
+def logic_1132(world):
+    # groundwater supports wetlands; stronger when temperature is low.
+    _feedback(world, 'groundwater', 'wetland', 1, 'cold_gate')
