@@ -51,3 +51,6 @@ def test_logic_634():
 def test_logic_635():
     from agent_rules.rules import logic_635
     _check(logic_635, 'migration_drive', 'resource_discovery', 1)
+def test_logic_636():
+    from agent_rules.rules import logic_636
+    _check(logic_636, 'exploration_drive', 'sharing_capacity', 1)

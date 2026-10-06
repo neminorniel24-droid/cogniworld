@@ -632,3 +632,5 @@ def logic_634(agents,world):
     agents.learning_rate=_delta(agents.learning_rate,+0.002*agents.reproduction_drive)
 def logic_635(agents,world):
     agents.resource_discovery=_delta(agents.resource_discovery,+0.002*agents.migration_drive)
+def logic_636(agents,world):
+    agents.sharing_capacity=_delta(agents.sharing_capacity,+0.002*agents.exploration_drive)
