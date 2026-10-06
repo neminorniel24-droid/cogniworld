@@ -3360,3 +3360,7 @@ def logic_1830(world):
 def logic_1831(world):
     # diversity buffers habitat stress; stronger when temperature is high.
     _feedback(world, 'biodiversity', 'habitat_stress', -1, 'heat_gate')
+
+def logic_1832(world):
+    # diversity buffers habitat stress; stronger when temperature is low.
+    _feedback(world, 'biodiversity', 'habitat_stress', -1, 'cold_gate')
