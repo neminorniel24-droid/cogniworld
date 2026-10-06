@@ -216,3 +216,6 @@ def test_logic_689():
 def test_logic_690():
     from agent_rules.rules import logic_690
     _check(logic_690, 'alertness', 'risk_score', 1)
+def test_logic_691():
+    from agent_rules.rules import logic_691
+    _check(logic_691, 'fear', 'safety_score', 1)
