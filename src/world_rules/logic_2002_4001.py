@@ -1105,3 +1105,7 @@ def logic_2274(world):
 def logic_2275(world):
     # flowers support pollinators; strong coupling.
     _couple(world,'flowers','pollinators',1.35,'positive')
+
+def logic_2276(world):
+    # flowers support pollinators; threshold coupling.
+    _couple(world,'flowers','pollinators',1.0,'threshold')
