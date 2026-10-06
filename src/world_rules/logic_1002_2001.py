@@ -2384,3 +2384,7 @@ def logic_1586(world):
 def logic_1587(world):
     # fire reduces vegetation; saturates at high source levels.
     _feedback(world, 'fire_risk', 'vegetation', -1, 'saturation')
+
+def logic_1588(world):
+    # fire reduces vegetation; activates above a food threshold.
+    _feedback(world, 'fire_risk', 'vegetation', -1, 'threshold')
