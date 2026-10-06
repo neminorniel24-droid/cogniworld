@@ -1493,3 +1493,7 @@ def logic_2371(world):
 def logic_2372(world):
     # salinity stresses vegetation; direct coupling.
     _couple(world,'salinity','vegetation',1.0,'positive')
+
+def logic_2373(world):
+    # salinity stresses vegetation; inverse coupling.
+    _couple(world,'salinity','vegetation',1.0,'negative')
