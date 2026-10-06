@@ -1604,3 +1604,7 @@ def logic_1391(world):
 def logic_1392(world):
     # vegetation roots suppress erosion; activates above a food threshold.
     _feedback(world, 'vegetation', 'erosion', -1, 'threshold')
+
+def logic_1393(world):
+    # vegetation roots suppress erosion; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'vegetation', 'erosion', -1, 'recovery')
