@@ -2434,3 +2434,7 @@ def logic_3600(agents, world):
 def logic_3601(agents, world):
     # surface_water -> strategy_score; stress coupling.
     _update(agents, 'strategy_score', _desired(agents, world, 'surface_water', 'strategy_score', 'stress'))
+
+def logic_3602(agents, world):
+    # surface_water -> strategy_score; recovery coupling.
+    _update(agents, 'strategy_score', _desired(agents, world, 'surface_water', 'strategy_score', 'recovery'))
