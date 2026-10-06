@@ -1344,3 +1344,5 @@ def logic_990(agents,world):
     agents.reciprocity_score=_delta(agents.reciprocity_score,+0.002*agents.migration_score)
 def logic_991(agents,world):
     agents.risk_score=_delta(agents.risk_score,+0.002*agents.reproduction_score)
+def logic_992(agents,world):
+    agents.safety_score=_delta(agents.safety_score,+0.002*agents.strategy_persistence)
