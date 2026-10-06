@@ -1290,3 +1290,7 @@ def logic_3314(agents, world):
 def logic_3315(agents, world):
     # surface_water -> cooperation; pulse coupling.
     _update(agents, 'cooperation', _desired(agents, world, 'surface_water', 'cooperation', 'pulse'))
+
+def logic_3316(agents, world):
+    # surface_water -> cooperation; feedback coupling.
+    _update(agents, 'cooperation', _desired(agents, world, 'surface_water', 'cooperation', 'feedback'))
