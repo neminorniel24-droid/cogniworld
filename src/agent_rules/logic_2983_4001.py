@@ -182,3 +182,7 @@ def logic_3037(agents, world):
 def logic_3038(agents, world):
     # surface_water -> hunger; capacity coupling.
     _update(agents, 'hunger', _desired(agents, world, 'surface_water', 'hunger', 'capacity'))
+
+def logic_3039(agents, world):
+    # surface_water -> hunger; reserve coupling.
+    _update(agents, 'hunger', _desired(agents, world, 'surface_water', 'hunger', 'reserve'))
