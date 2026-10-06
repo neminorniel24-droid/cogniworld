@@ -1902,3 +1902,7 @@ def logic_3467(agents, world):
 def logic_3468(agents, world):
     # surface_water -> generosity; limited coupling.
     _update(agents, 'generosity', _desired(agents, world, 'surface_water', 'generosity', 'limited'))
+
+def logic_3469(agents, world):
+    # surface_water -> generosity; pulse coupling.
+    _update(agents, 'generosity', _desired(agents, world, 'surface_water', 'generosity', 'pulse'))
