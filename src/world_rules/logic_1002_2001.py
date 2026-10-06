@@ -820,3 +820,7 @@ def logic_1195(world):
 def logic_1196(world):
     # humidity promotes cloud formation; activates above a food threshold.
     _feedback(world, 'humidity', 'cloud', 1, 'threshold')
+
+def logic_1197(world):
+    # humidity promotes cloud formation; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'humidity', 'cloud', 1, 'recovery')
