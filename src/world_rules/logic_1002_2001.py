@@ -984,3 +984,7 @@ def logic_1236(world):
 def logic_1237(world):
     # warmth increases evaporation; saturates at high source levels.
     _feedback(world, 'temperature', 'evaporation', 1, 'saturation')
+
+def logic_1238(world):
+    # warmth increases evaporation; activates above a food threshold.
+    _feedback(world, 'temperature', 'evaporation', 1, 'threshold')
