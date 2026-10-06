@@ -1145,3 +1145,7 @@ def logic_2284(world):
 def logic_2285(world):
     # pollination replenishes seed bank; strong coupling.
     _couple(world,'pollinators','seed_bank',1.35,'positive')
+
+def logic_2286(world):
+    # pollination replenishes seed bank; threshold coupling.
+    _couple(world,'pollinators','seed_bank',1.0,'threshold')
