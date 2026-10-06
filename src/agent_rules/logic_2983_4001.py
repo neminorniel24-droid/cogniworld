@@ -2226,3 +2226,7 @@ def logic_3548(agents, world):
 def logic_3549(agents, world):
     # surface_water -> resource_discovery; inverse coupling.
     _update(agents, 'resource_discovery', _desired(agents, world, 'surface_water', 'resource_discovery', 'inverse'))
+
+def logic_3550(agents, world):
+    # surface_water -> resource_discovery; threshold coupling.
+    _update(agents, 'resource_discovery', _desired(agents, world, 'surface_water', 'resource_discovery', 'threshold'))
