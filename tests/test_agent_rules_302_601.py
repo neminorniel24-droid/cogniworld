@@ -305,3 +305,8 @@ def test_logic_361():
 def test_logic_362():
  from agent_rules.rules import logic_362
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.hunger.clone();setattr(w,'soil_depth',torch.ones(4,4));logic_362(a,w);assert torch.any(a.hunger!=b)
+
+
+def test_logic_363():
+ from agent_rules.rules import logic_363
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.food_access.clone();setattr(w,'root_density',torch.ones(4,4));logic_363(a,w);assert torch.any(a.food_access!=b)
