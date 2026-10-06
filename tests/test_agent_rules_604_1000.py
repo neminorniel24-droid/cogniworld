@@ -897,3 +897,6 @@ def test_logic_916():
 def test_logic_917():
     from agent_rules.rules import logic_917
     _check(logic_917, 'group_stability', 'sharing_score', 1)
+def test_logic_918():
+    from agent_rules.rules import logic_918
+    _check(logic_918, 'sharing_score', 'attack_success', 1)

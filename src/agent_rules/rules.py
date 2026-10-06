@@ -1196,3 +1196,5 @@ def logic_916(agents,world):
     agents.foraging_score=_delta(agents.foraging_score,+0.002*agents.defection)
 def logic_917(agents,world):
     agents.sharing_score=_delta(agents.sharing_score,+0.002*agents.group_stability)
+def logic_918(agents,world):
+    agents.attack_success=_delta(agents.attack_success,+0.002*agents.sharing_score)
