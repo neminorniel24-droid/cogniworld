@@ -2700,3 +2700,7 @@ def logic_1665(world):
 def logic_1666(world):
     # pollination sustains flowering; stronger when surface water is high.
     _feedback(world, 'pollinators', 'flowers', 1, 'water_gate')
+
+def logic_1667(world):
+    # pollination sustains flowering; stronger when vegetation is scarce.
+    _feedback(world, 'pollinators', 'flowers', 1, 'scarcity_gate')
