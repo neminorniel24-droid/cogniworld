@@ -1030,3 +1030,5 @@ def logic_833(agents,world):
     agents.caution=_delta(agents.caution,+0.002*agents.last_interaction)
 def logic_834(agents,world):
     agents.payoff=_signed_delta(agents.payoff,+0.002*agents.strategy_score)
+def logic_835(agents,world):
+    agents.fitness_score=_delta(agents.fitness_score,+0.002*agents.cooperation_score)
