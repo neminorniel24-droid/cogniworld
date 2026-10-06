@@ -1328,3 +1328,7 @@ def logic_1322(world):
 def logic_1323(world):
     # evaporation replenishes humidity; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'evaporation', 'humidity', 1, 'recovery')
+
+def logic_1324(world):
+    # evaporation removes surface water; direct.
+    _feedback(world, 'evaporation', 'surface_water', -1, 'baseline')
