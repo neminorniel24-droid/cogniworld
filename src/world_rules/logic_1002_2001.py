@@ -2676,3 +2676,7 @@ def logic_1659(world):
 def logic_1660(world):
     # pollination sustains flowering; direct.
     _feedback(world, 'pollinators', 'flowers', 1, 'baseline')
+
+def logic_1661(world):
+    # pollination sustains flowering; stronger when soil is dry.
+    _feedback(world, 'pollinators', 'flowers', 1, 'dry_gate')
