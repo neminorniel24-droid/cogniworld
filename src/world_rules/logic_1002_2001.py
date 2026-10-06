@@ -3904,3 +3904,7 @@ def logic_1966(world):
 def logic_1967(world):
     # moist soil lowers fire risk; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'soil_moisture', 'fire_risk', -1, 'recovery')
+
+def logic_1968(world):
+    # humid air lowers fire risk; direct.
+    _feedback(world, 'humidity', 'fire_risk', -1, 'baseline')
