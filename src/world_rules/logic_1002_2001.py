@@ -1364,3 +1364,7 @@ def logic_1331(world):
 def logic_1332(world):
     # evaporation removes surface water; stronger when biomass is high.
     _feedback(world, 'evaporation', 'surface_water', -1, 'biomass_gate')
+
+def logic_1333(world):
+    # evaporation removes surface water; stronger under habitat stress.
+    _feedback(world, 'evaporation', 'surface_water', -1, 'stress_gate')
