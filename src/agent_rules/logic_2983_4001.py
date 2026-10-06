@@ -218,3 +218,7 @@ def logic_3046(agents, world):
 def logic_3047(agents, world):
     # surface_water -> health; strong coupling.
     _update(agents, 'health', _desired(agents, world, 'surface_water', 'health', 'strong'))
+
+def logic_3048(agents, world):
+    # surface_water -> health; limited coupling.
+    _update(agents, 'health', _desired(agents, world, 'surface_water', 'health', 'limited'))
