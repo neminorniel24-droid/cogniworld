@@ -411,3 +411,5 @@ from .logic_206_rain_compacts_snowpack import apply as logic_206
 RULES.append(logic_206)
 from .logic_207_snowmelt_recharges_water_table import apply as logic_207
 RULES.append(logic_207)
+from .logic_208_groundwater_reduces_surface_water_loss import apply as logic_208
+RULES.append(logic_208)

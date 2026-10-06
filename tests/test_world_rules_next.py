@@ -894,3 +894,8 @@ def test_logic_207():
     from world_rules.logic_207_snowmelt_recharges_water_table import apply
     w = make_world()
     w.groundwater.zero_(); w.snowpack.fill_(1.0); apply(w); assert torch.allclose(w.groundwater, torch.full_like(w.groundwater, 0.01))
+
+def test_logic_208():
+    from world_rules.logic_208_groundwater_reduces_surface_water_loss import apply
+    w = make_world()
+    w.surface_water.zero_(); w.groundwater.fill_(1.0); apply(w); assert torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.01))
