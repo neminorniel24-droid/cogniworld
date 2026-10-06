@@ -3872,3 +3872,7 @@ def logic_1958(world):
 def logic_1959(world):
     # moist soil lowers fire risk; stronger under fire pressure.
     _feedback(world, 'soil_moisture', 'fire_risk', -1, 'fire_gate')
+
+def logic_1960(world):
+    # moist soil lowers fire risk; stronger when surface water is high.
+    _feedback(world, 'soil_moisture', 'fire_risk', -1, 'water_gate')
