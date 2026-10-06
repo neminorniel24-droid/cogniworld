@@ -144,3 +144,7 @@ def logic_1026(world):
 def logic_1027(world):
     # rainfall wets soil; saturates at high source levels.
     _feedback(world, 'rain', 'soil_moisture', 1, 'saturation')
+
+def logic_1028(world):
+    # rainfall wets soil; activates above a food threshold.
+    _feedback(world, 'rain', 'soil_moisture', 1, 'threshold')
