@@ -3785,3 +3785,7 @@ def logic_2944(world):
 def logic_2945(world):
     # fire releases CO2; strong coupling.
     _couple(world,'fire_risk','co2',1.35,'positive')
+
+def logic_2946(world):
+    # fire releases CO2; threshold coupling.
+    _couple(world,'fire_risk','co2',1.0,'threshold')
