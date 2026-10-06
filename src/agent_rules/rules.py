@@ -200,3 +200,5 @@ def logic_399(agents,world):
  v=_local(world,agents,'salinity');agents.health=_delta(agents.health,v*0.001)
 def logic_400(agents,world):
  v=_local(world,agents,'salinity');agents.hydration=_delta(agents.hydration,v*0.001)
+def logic_401(agents,world):
+ v=_local(world,agents,'salinity');agents.migration_drive=_delta(agents.migration_drive,v*0.001)

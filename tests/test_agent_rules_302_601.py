@@ -495,3 +495,8 @@ def test_logic_399():
 def test_logic_400():
  from agent_rules.rules import logic_400
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.hydration.clone();setattr(w,'salinity',torch.ones(4,4));logic_400(a,w);assert torch.any(a.hydration!=b)
+
+
+def test_logic_401():
+ from agent_rules.rules import logic_401
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.migration_drive.clone();setattr(w,'salinity',torch.ones(4,4));logic_401(a,w);assert torch.any(a.migration_drive!=b)
