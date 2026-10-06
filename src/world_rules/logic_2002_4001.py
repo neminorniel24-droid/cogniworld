@@ -3353,3 +3353,7 @@ def logic_2836(world):
 def logic_2837(world):
     # evaporation contributes atmospheric moisture; pulse coupling.
     _couple(world,'evaporation','humidity',1.0,'pulse')
+
+def logic_2838(world):
+    # evaporation contributes atmospheric moisture; feedback coupling.
+    _couple(world,'evaporation','humidity',0.8,'positive')
