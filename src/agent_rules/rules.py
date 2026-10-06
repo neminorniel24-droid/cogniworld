@@ -32,3 +32,5 @@ def logic_315(agents,world):
  v=_local(world,agents,'snowpack');agents.hydration=_delta(agents.hydration,v*0.001)
 def logic_316(agents,world):
  v=_local(world,agents,'snowpack');agents.thermal_stress=_delta(agents.thermal_stress,v*0.001)
+def logic_317(agents,world):
+ v=_local(world,agents,'snowpack');agents.pathogen_risk=_delta(agents.pathogen_risk,v*0.001)
