@@ -940,3 +940,7 @@ def logic_1225(world):
 def logic_1226(world):
     # warmth increases evaporation; direct.
     _feedback(world, 'temperature', 'evaporation', 1, 'baseline')
+
+def logic_1227(world):
+    # warmth increases evaporation; stronger when soil is dry.
+    _feedback(world, 'temperature', 'evaporation', 1, 'dry_gate')
