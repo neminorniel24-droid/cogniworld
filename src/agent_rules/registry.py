@@ -513,3 +513,5 @@ from .rules import logic_558
 RULES.append(logic_558)
 from .rules import logic_559
 RULES.append(logic_559)
+from .rules import logic_560
+RULES.append(logic_560)
