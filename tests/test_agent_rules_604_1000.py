@@ -927,3 +927,6 @@ def test_logic_926():
 def test_logic_927():
     from agent_rules.rules import logic_927
     _check(logic_927, 'future_payoff_weight', 'self_preservation', 1)
+def test_logic_928():
+    from agent_rules.rules import logic_928
+    _check(logic_928, 'self_preservation', 'payoff', 1)
