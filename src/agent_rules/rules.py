@@ -122,3 +122,5 @@ def logic_360(agents,world):
  v=_local(world,agents,'soil_depth');agents.migration_drive=_delta(agents.migration_drive,v*0.001)
 def logic_361(agents,world):
  v=_local(world,agents,'soil_depth');agents.health=_delta(agents.health,v*0.001)
+def logic_362(agents,world):
+ v=_local(world,agents,'soil_depth');agents.hunger=_delta(agents.hunger,v*0.001)

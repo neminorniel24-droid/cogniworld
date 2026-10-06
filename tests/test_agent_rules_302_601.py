@@ -300,3 +300,8 @@ def test_logic_360():
 def test_logic_361():
  from agent_rules.rules import logic_361
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.health.clone();setattr(w,'soil_depth',torch.ones(4,4));logic_361(a,w);assert torch.any(a.health!=b)
+
+
+def test_logic_362():
+ from agent_rules.rules import logic_362
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.hunger.clone();setattr(w,'soil_depth',torch.ones(4,4));logic_362(a,w);assert torch.any(a.hunger!=b)
