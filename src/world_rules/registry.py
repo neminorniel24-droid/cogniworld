@@ -595,3 +595,5 @@ from .logic_298_organic_matter_increases_seed_bank import apply as logic_298
 RULES.append(logic_298)
 from .logic_299_fire_creates_surface_ice_loss import apply as logic_299
 RULES.append(logic_299)
+from .logic_300_carbon_storage_reduces_fire_heat import apply as logic_300
+RULES.append(logic_300)

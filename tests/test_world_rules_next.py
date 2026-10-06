@@ -1354,3 +1354,8 @@ def test_logic_299():
     from world_rules.logic_299_fire_creates_surface_ice_loss import apply
     w = make_world()
     w.surface_ice.fill_(1.0); w.fire_risk.fill_(1.0); apply(w); assert torch.allclose(w.surface_ice, torch.full_like(w.surface_ice, 0.995))
+
+def test_logic_300():
+    from world_rules.logic_300_carbon_storage_reduces_fire_heat import apply
+    w = make_world()
+    w.temperature.fill_(0.5); w.carbon_storage.fill_(1.0); apply(w); assert torch.allclose(w.temperature, torch.full_like(w.temperature, 0.499))
