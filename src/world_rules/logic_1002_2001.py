@@ -3956,3 +3956,7 @@ def logic_1979(world):
 def logic_1980(world):
     # humid air lowers fire risk; activates above a food threshold.
     _feedback(world, 'humidity', 'fire_risk', -1, 'threshold')
+
+def logic_1981(world):
+    # humid air lowers fire risk; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'humidity', 'fire_risk', -1, 'recovery')
