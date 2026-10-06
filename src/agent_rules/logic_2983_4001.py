@@ -1154,3 +1154,7 @@ def logic_3280(agents, world):
 def logic_3281(agents, world):
     # surface_water -> social_tolerance; persistence coupling.
     _update(agents, 'social_tolerance', _desired(agents, world, 'surface_water', 'social_tolerance', 'persistence'))
+
+def logic_3282(agents, world):
+    # surface_water -> reputation; direct coupling.
+    _update(agents, 'reputation', _desired(agents, world, 'surface_water', 'reputation', 'direct'))
