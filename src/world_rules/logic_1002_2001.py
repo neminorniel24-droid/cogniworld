@@ -2204,3 +2204,7 @@ def logic_1541(world):
 def logic_1542(world):
     # deadwood feeds organic matter; stronger when biomass is high.
     _feedback(world, 'deadwood', 'organic_matter', 1, 'biomass_gate')
+
+def logic_1543(world):
+    # deadwood feeds organic matter; stronger under habitat stress.
+    _feedback(world, 'deadwood', 'organic_matter', 1, 'stress_gate')
