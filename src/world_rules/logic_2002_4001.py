@@ -3065,3 +3065,7 @@ def logic_2764(world):
 def logic_2765(world):
     # pathogens alter community diversity; strong coupling.
     _couple(world,'pathogen_load','biodiversity',1.35,'positive')
+
+def logic_2766(world):
+    # pathogens alter community diversity; threshold coupling.
+    _couple(world,'pathogen_load','biodiversity',1.0,'threshold')
