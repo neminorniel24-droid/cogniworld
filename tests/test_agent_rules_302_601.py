@@ -485,3 +485,8 @@ def test_logic_397():
 def test_logic_398():
  from agent_rules.rules import logic_398
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.habitat_stress.clone();setattr(w,'soil_carbon',torch.ones(4,4));logic_398(a,w);assert torch.any(a.habitat_stress!=b)
+
+
+def test_logic_399():
+ from agent_rules.rules import logic_399
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.health.clone();setattr(w,'salinity',torch.ones(4,4));logic_399(a,w);assert torch.any(a.health!=b)
