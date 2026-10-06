@@ -3625,3 +3625,7 @@ def logic_2904(world):
 def logic_2905(world):
     # deadwood stores carbon; strong coupling.
     _couple(world,'deadwood','carbon_storage',1.35,'positive')
+
+def logic_2906(world):
+    # deadwood stores carbon; threshold coupling.
+    _couple(world,'deadwood','carbon_storage',1.0,'threshold')
