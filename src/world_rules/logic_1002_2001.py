@@ -1312,3 +1312,7 @@ def logic_1318(world):
 def logic_1319(world):
     # evaporation replenishes humidity; stronger under habitat stress.
     _feedback(world, 'evaporation', 'humidity', 1, 'stress_gate')
+
+def logic_1320(world):
+    # evaporation replenishes humidity; modulated by temperature.
+    _feedback(world, 'evaporation', 'humidity', 1, 'seasonal_gate')
