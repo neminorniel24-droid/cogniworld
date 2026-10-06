@@ -262,3 +262,11 @@ def test_logic_131():
     w.decomposition_rate.zero_()
     apply(w)
     assert torch.allclose(w.decomposition_rate, torch.full_like(w.decomposition_rate, 0.01))
+
+def test_logic_132():
+    from world_rules.logic_132_detritus_feeds_decomposition import apply
+    w = make_world()
+    w.detritus.fill_(1.0)
+    w.decomposition_rate.zero_()
+    apply(w)
+    assert torch.allclose(w.decomposition_rate, torch.full_like(w.decomposition_rate, 0.01))

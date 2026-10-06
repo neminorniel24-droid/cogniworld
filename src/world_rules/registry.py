@@ -259,3 +259,5 @@ from .logic_130_moderate_temperature_supports_vegetation import apply as logic_1
 RULES.append(logic_130)
 from .logic_131_oxygen_supports_decomposition import apply as logic_131
 RULES.append(logic_131)
+from .logic_132_detritus_feeds_decomposition import apply as logic_132
+RULES.append(logic_132)
