@@ -652,3 +652,7 @@ def logic_1153(world):
 def logic_1154(world):
     # soil moisture supports vegetation; activates above a food threshold.
     _feedback(world, 'soil_moisture', 'vegetation', 1, 'threshold')
+
+def logic_1155(world):
+    # soil moisture supports vegetation; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'soil_moisture', 'vegetation', 1, 'recovery')
