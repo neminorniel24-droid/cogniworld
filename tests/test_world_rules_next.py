@@ -1359,3 +1359,8 @@ def test_logic_300():
     from world_rules.logic_300_carbon_storage_reduces_fire_heat import apply
     w = make_world()
     w.temperature.fill_(0.5); w.carbon_storage.fill_(1.0); apply(w); assert torch.allclose(w.temperature, torch.full_like(w.temperature, 0.499))
+
+def test_logic_301():
+    from world_rules.logic_301_biodiversity_buffers_ecosystem_stress import apply
+    w = make_world()
+    w.habitat_stress.fill_(1.0); w.biodiversity.fill_(1.0); apply(w); assert torch.allclose(w.habitat_stress, torch.full_like(w.habitat_stress, 0.998))

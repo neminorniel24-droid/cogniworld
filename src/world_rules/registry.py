@@ -597,3 +597,5 @@ from .logic_299_fire_creates_surface_ice_loss import apply as logic_299
 RULES.append(logic_299)
 from .logic_300_carbon_storage_reduces_fire_heat import apply as logic_300
 RULES.append(logic_300)
+from .logic_301_biodiversity_buffers_ecosystem_stress import apply as logic_301
+RULES.append(logic_301)
