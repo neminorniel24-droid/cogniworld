@@ -2124,3 +2124,7 @@ def logic_1521(world):
 def logic_1522(world):
     # decomposition releases nutrients; stronger when soil is wet.
     _feedback(world, 'decomposition_rate', 'nutrients', 1, 'wet_gate')
+
+def logic_1523(world):
+    # decomposition releases nutrients; stronger when temperature is high.
+    _feedback(world, 'decomposition_rate', 'nutrients', 1, 'heat_gate')
