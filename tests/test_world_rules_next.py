@@ -511,3 +511,11 @@ def test_logic_160():
     before=w.herbivore.clone()
     apply(w)
     assert torch.all(w.herbivore < before)
+
+def test_logic_161():
+    from world_rules.logic_161_oxygen_supports_predators import apply
+    w = make_world()
+    w.oxygen.fill_(1.0)
+    w.predator.zero_()
+    apply(w)
+    assert torch.allclose(w.predator, torch.full_like(w.predator, 0.003))
