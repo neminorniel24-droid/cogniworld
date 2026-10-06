@@ -1334,3 +1334,5 @@ def logic_985(agents,world):
     agents.reproduction_score=_delta(agents.reproduction_score,+0.002*agents.group_stability)
 def logic_986(agents,world):
     agents.strategy_score=_delta(agents.strategy_score,+0.002*agents.sharing_score)
+def logic_987(agents,world):
+    agents.cooperation_score=_delta(agents.cooperation_score,+0.002*agents.help_score)
