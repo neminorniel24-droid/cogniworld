@@ -963,3 +963,6 @@ def test_logic_938():
 def test_logic_939():
     from agent_rules.rules import logic_939
     _check(logic_939, 'resource_scarcity', 'safety_score', -1)
+def test_logic_940():
+    from agent_rules.rules import logic_940
+    _check(logic_940, 'food_access', 'exploration_score', 1)
