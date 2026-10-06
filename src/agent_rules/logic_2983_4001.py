@@ -650,3 +650,7 @@ def logic_3154(agents, world):
 def logic_3155(agents, world):
     # surface_water -> recovery; persistence coupling.
     _update(agents, 'recovery', _desired(agents, world, 'surface_water', 'recovery', 'persistence'))
+
+def logic_3156(agents, world):
+    # surface_water -> metabolic_cost; direct coupling.
+    _update(agents, 'metabolic_cost', _desired(agents, world, 'surface_water', 'metabolic_cost', 'direct'))
