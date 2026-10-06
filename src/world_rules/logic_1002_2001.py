@@ -896,3 +896,7 @@ def logic_1214(world):
 def logic_1215(world):
     # cloud cover reduces heating; stronger when temperature is high.
     _feedback(world, 'cloud', 'temperature', -1, 'heat_gate')
+
+def logic_1216(world):
+    # cloud cover reduces heating; stronger when temperature is low.
+    _feedback(world, 'cloud', 'temperature', -1, 'cold_gate')
