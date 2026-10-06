@@ -686,3 +686,5 @@ def logic_661(agents,world):
     agents.foraging_score=_delta(agents.foraging_score,+0.002*agents.social_tolerance)
 def logic_662(agents,world):
     agents.strategy_confidence=_delta(agents.strategy_confidence,+0.002*agents.health)
+def logic_663(agents,world):
+    agents.caution=_delta(agents.caution,+0.002*agents.hydration)
