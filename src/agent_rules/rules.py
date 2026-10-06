@@ -732,3 +732,5 @@ def logic_684(agents,world):
     agents.sharing_capacity=_delta(agents.sharing_capacity,-0.002*agents.thirst)
 def logic_685(agents,world):
     agents.help_drive=_delta(agents.help_drive,-0.002*agents.hunger)
+def logic_686(agents,world):
+    agents.social_need=_delta(agents.social_need,+0.002*agents.thermal_stress)
