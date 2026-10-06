@@ -3009,3 +3009,7 @@ def logic_2750(world):
 def logic_2751(world):
     # wind alters local thermal state; reserve coupling.
     _couple(world,'wind_y','temperature',0.9,'positive')
+
+def logic_2752(world):
+    # humidity favors pathogen persistence; direct coupling.
+    _couple(world,'humidity','pathogen_load',1.0,'positive')
