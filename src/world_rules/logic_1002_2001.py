@@ -2624,3 +2624,7 @@ def logic_1646(world):
 def logic_1647(world):
     # flowers support pollinators; stronger when soil is dry.
     _feedback(world, 'flowers', 'pollinators', 1, 'dry_gate')
+
+def logic_1648(world):
+    # flowers support pollinators; stronger when soil is wet.
+    _feedback(world, 'flowers', 'pollinators', 1, 'wet_gate')
