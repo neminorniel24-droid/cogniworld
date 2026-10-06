@@ -1104,3 +1104,8 @@ def test_logic_249():
     from world_rules.logic_249_soil_carbon_reduces_co2 import apply
     w = make_world()
     w.co2.fill_(1.0); w.soil_carbon.fill_(1.0); apply(w); assert torch.allclose(w.co2, torch.full_like(w.co2, 0.998))
+
+def test_logic_250():
+    from world_rules.logic_250_soil_carbon_buffers_heat import apply
+    w = make_world()
+    w.temperature.fill_(0.5); w.soil_carbon.fill_(1.0); apply(w); assert torch.allclose(w.temperature, torch.full_like(w.temperature, 0.498))

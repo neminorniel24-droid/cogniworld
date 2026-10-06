@@ -495,3 +495,5 @@ from .logic_248_decomposition_releases_soil_carbon import apply as logic_248
 RULES.append(logic_248)
 from .logic_249_soil_carbon_reduces_co2 import apply as logic_249
 RULES.append(logic_249)
+from .logic_250_soil_carbon_buffers_heat import apply as logic_250
+RULES.append(logic_250)
