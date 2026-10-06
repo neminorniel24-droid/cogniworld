@@ -1201,3 +1201,7 @@ def logic_2298(world):
 def logic_2299(world):
     # seed bank supports regeneration; counterpressure coupling.
     _couple(world,'seed_bank','vegetation',0.8,'negative')
+
+def logic_2300(world):
+    # seed bank supports regeneration; capacity coupling.
+    _couple(world,'seed_bank','vegetation',0.5,'positive')
