@@ -2989,3 +2989,7 @@ def logic_2745(world):
 def logic_2746(world):
     # wind alters local thermal state; threshold coupling.
     _couple(world,'wind_y','temperature',1.0,'threshold')
+
+def logic_2747(world):
+    # wind alters local thermal state; pulse coupling.
+    _couple(world,'wind_y','temperature',1.0,'pulse')
