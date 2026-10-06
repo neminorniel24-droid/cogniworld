@@ -408,3 +408,6 @@ def test_logic_753():
 def test_logic_754():
     from agent_rules.rules import logic_754
     _check(logic_754, 'future_help', 'competition_score', 1)
+def test_logic_755():
+    from agent_rules.rules import logic_755
+    _check(logic_755, 'empathy', 'defection_score', 1)
