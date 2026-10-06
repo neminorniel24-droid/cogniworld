@@ -3952,3 +3952,7 @@ def logic_1978(world):
 def logic_1979(world):
     # humid air lowers fire risk; saturates at high source levels.
     _feedback(world, 'humidity', 'fire_risk', -1, 'saturation')
+
+def logic_1980(world):
+    # humid air lowers fire risk; activates above a food threshold.
+    _feedback(world, 'humidity', 'fire_risk', -1, 'threshold')
