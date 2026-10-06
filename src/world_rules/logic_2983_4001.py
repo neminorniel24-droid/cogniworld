@@ -50,3 +50,7 @@ def logic_2991(world):
 def logic_2992(world):
     # vegetation alters evaporative demand.
     _apply(world, 'vegetation', 'evaporation', 1.0)
+
+def logic_2993(world):
+    # temperature raises evaporation.
+    _apply(world, 'temperature', 'evaporation', 1.0)
