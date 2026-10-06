@@ -1172,3 +1172,5 @@ def logic_904(agents,world):
     agents.learning_rate=_delta(agents.learning_rate,+0.002*agents.defense_score)
 def logic_905(agents,world):
     agents.strategy_confidence=_delta(agents.strategy_confidence,+0.002*agents.payoff)
+def logic_906(agents,world):
+    agents.payoff=_signed_delta(agents.payoff,+0.002*agents.wealth)
