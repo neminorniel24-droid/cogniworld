@@ -1578,3 +1578,7 @@ def logic_3386(agents, world):
 def logic_3387(agents, world):
     # surface_water -> territoriality; counterpressure coupling.
     _update(agents, 'territoriality', _desired(agents, world, 'surface_water', 'territoriality', 'counterpressure'))
+
+def logic_3388(agents, world):
+    # surface_water -> territoriality; capacity coupling.
+    _update(agents, 'territoriality', _desired(agents, world, 'surface_water', 'territoriality', 'capacity'))
