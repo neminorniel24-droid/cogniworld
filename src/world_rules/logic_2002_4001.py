@@ -2737,3 +2737,7 @@ def logic_2682(world):
 def logic_2683(world):
     # biomass mortality feeds detritus; inverse coupling.
     _couple(world,'biomass','detritus',1.0,'negative')
+
+def logic_2684(world):
+    # biomass mortality feeds detritus; limited coupling.
+    _couple(world,'biomass','detritus',0.65,'positive')
