@@ -475,3 +475,5 @@ from .logic_238_fire_releases_deadwood_carbon import apply as logic_238
 RULES.append(logic_238)
 from .logic_239_vegetation_supports_pollinators import apply as logic_239
 RULES.append(logic_239)
+from .logic_240_flowers_feed_pollinators import apply as logic_240
+RULES.append(logic_240)

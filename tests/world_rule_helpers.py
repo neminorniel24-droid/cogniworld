@@ -16,4 +16,5 @@ def make_world(size=3):
     w.organic_matter=z(0.0)
     w.deadwood=z(0.0)
     w.pollinators=z(0.0)
+    w.flowers=z(0.0)
     return w
