@@ -183,3 +183,12 @@ def test_logic_122():
     w.oxygen.zero_()
     apply(w)
     assert torch.allclose(w.oxygen, torch.full_like(w.oxygen, 0.005))
+
+def test_logic_123():
+    from world_rules.logic_123_vegetation_transpiration_drains_soil import apply
+    w = make_world()
+    w.vegetation.fill_(1.0)
+    w.soil_moisture.fill_(1.0)
+    before=w.soil_moisture.clone()
+    apply(w)
+    assert torch.all(w.soil_moisture < before)
