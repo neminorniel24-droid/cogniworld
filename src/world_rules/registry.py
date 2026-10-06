@@ -485,3 +485,5 @@ from .logic_243_flowers_store_seed_bank import apply as logic_243
 RULES.append(logic_243)
 from .logic_244_moisture_germinates_seed_bank import apply as logic_244
 RULES.append(logic_244)
+from .logic_245_drought_preserves_seed_bank import apply as logic_245
+RULES.append(logic_245)

@@ -1079,3 +1079,8 @@ def test_logic_244():
     from world_rules.logic_244_moisture_germinates_seed_bank import apply
     w = make_world()
     w.seed_bank.fill_(1.0); w.soil_moisture.fill_(1.0); w.vegetation.zero_(); apply(w); assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.02))
+
+def test_logic_245():
+    from world_rules.logic_245_drought_preserves_seed_bank import apply
+    w = make_world()
+    w.seed_bank.zero_(); w.soil_moisture.zero_(); apply(w); assert torch.allclose(w.seed_bank, torch.full_like(w.seed_bank, 0.002))
