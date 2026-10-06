@@ -153,3 +153,6 @@ def test_logic_668():
 def test_logic_669():
     from agent_rules.rules import logic_669
     _check(logic_669, 'infection_risk', 'help_drive', -1)
+def test_logic_670():
+    from agent_rules.rules import logic_670
+    _check(logic_670, 'alertness', 'social_need', 1)
