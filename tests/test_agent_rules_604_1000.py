@@ -765,3 +765,6 @@ def test_logic_872():
 def test_logic_873():
     from agent_rules.rules import logic_873
     _check(logic_873, 'cooperation_score', 'memory_update', 1)
+def test_logic_874():
+    from agent_rules.rules import logic_874
+    _check(logic_874, 'competition_score', 'strategy_persistence', 1)
