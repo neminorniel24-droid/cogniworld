@@ -3432,3 +3432,7 @@ def logic_1848(world):
 def logic_1849(world):
     # habitat stress erodes diversity; stronger when vegetation is scarce.
     _feedback(world, 'habitat_stress', 'biodiversity', -1, 'scarcity_gate')
+
+def logic_1850(world):
+    # habitat stress erodes diversity; stronger when biomass is high.
+    _feedback(world, 'habitat_stress', 'biodiversity', -1, 'biomass_gate')
