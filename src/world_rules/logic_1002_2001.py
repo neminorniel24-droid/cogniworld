@@ -2560,3 +2560,7 @@ def logic_1630(world):
 def logic_1631(world):
     # ash alters soil carbon inputs; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'ash', 'soil_carbon', 1, 'recovery')
+
+def logic_1632(world):
+    # soil carbon contributes ecosystem carbon; direct.
+    _feedback(world, 'soil_carbon', 'carbon_storage', 1, 'baseline')
