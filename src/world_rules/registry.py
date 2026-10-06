@@ -561,3 +561,5 @@ from .logic_281_excess_algae_reduces_biodiversity import apply as logic_281
 RULES.append(logic_281)
 from .logic_282_pathogens_suppress_pollinators import apply as logic_282
 RULES.append(logic_282)
+from .logic_283_pollinators_improve_vegetation_recovery import apply as logic_283
+RULES.append(logic_283)

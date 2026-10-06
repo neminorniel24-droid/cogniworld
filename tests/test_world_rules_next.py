@@ -1269,3 +1269,8 @@ def test_logic_282():
     from world_rules.logic_282_pathogens_suppress_pollinators import apply
     w = make_world()
     w.pollinators.fill_(1.0); w.pathogen_load.fill_(1.0); apply(w); assert torch.allclose(w.pollinators, torch.full_like(w.pollinators, 0.999))
+
+def test_logic_283():
+    from world_rules.logic_283_pollinators_improve_vegetation_recovery import apply
+    w = make_world()
+    w.vegetation.zero_(); w.pollinators.fill_(1.0); apply(w); assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.002))
