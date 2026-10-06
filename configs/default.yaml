@@ -11,7 +11,7 @@ octaves: 4
 n_agents: 2000
 brain_hidden: 16
 n_sensors: 8            # local biome readings + internal state
-n_actions: 4             # move N/S/E/W (extendable)
+n_actions: 8             # move N/S/E/W (extendable)
 
 # Agent physiology
 
@@ -42,3 +42,7 @@ disease_seed_step: 300         # tick at which the outbreak starts (lets the eco
 # Time control
 steps_per_frame: 1
 max_steps: 100000
+
+# Game-theory log
+game_theory_log: logs/game_theory.jsonl
+game_theory_flush_interval: 100

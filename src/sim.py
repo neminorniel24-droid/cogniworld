@@ -17,6 +17,8 @@ from brain.batched_brain import BatchedBrain
 from evolution.loop import reproduce
 from migration.pressure import compute_move_cost
 from disease.sir import DiseaseModel
+from agent_rules.engine import apply_rules as apply_agent_rules
+from game_theory.ledger import GameTheoryLedger
 from viz.renderer import Renderer
 
 
@@ -39,6 +41,7 @@ def main():
         config["n_actions"], device,
     )
     disease = DiseaseModel(config, config["world_size"], device)
+    ledger=GameTheoryLedger(config.get("game_theory_log"))
     renderer = Renderer(config["world_size"])
 
     running = True
@@ -46,6 +49,7 @@ def main():
     while running and step < config["max_steps"]:
         world.step()
 
+        apply_agent_rules(agents,world)
         sensors = agents.sense(world)
         action_logits = brain.forward(sensors)
         move_cost = compute_move_cost(agents, config["move_cost"], config)
@@ -56,6 +60,8 @@ def main():
         disease.step(agents)
 
         reproduce(agents, brain, config, device)
+        ledger.record(agents,step)
+        if step%config.get("game_theory_flush_interval",100)==0: ledger.flush()
 
         alive_count = int(agents.alive.sum().item())
         running = renderer.draw(world, agents, step, alive_count)
