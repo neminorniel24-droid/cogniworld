@@ -1239,3 +1239,8 @@ def test_logic_276():
     from world_rules.logic_276_oxygen_boosts_herbivore_capacity import apply
     w = make_world()
     w.herbivore.zero_(); w.oxygen.fill_(1.0); apply(w); assert torch.allclose(w.herbivore, torch.full_like(w.herbivore, 0.001))
+
+def test_logic_277():
+    from world_rules.logic_277_oxygen_boosts_predator_capacity import apply
+    w = make_world()
+    w.predator.zero_(); w.oxygen.fill_(1.0); apply(w); assert torch.allclose(w.predator, torch.full_like(w.predator, 0.001))

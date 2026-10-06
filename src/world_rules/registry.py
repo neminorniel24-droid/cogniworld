@@ -549,3 +549,5 @@ from .logic_275_algae_competes_with_herbivores import apply as logic_275
 RULES.append(logic_275)
 from .logic_276_oxygen_boosts_herbivore_capacity import apply as logic_276
 RULES.append(logic_276)
+from .logic_277_oxygen_boosts_predator_capacity import apply as logic_277
+RULES.append(logic_277)
