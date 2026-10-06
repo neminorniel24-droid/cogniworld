@@ -692,3 +692,5 @@ def logic_664(agents,world):
     agents.confidence=_delta(agents.confidence,-0.002*agents.thirst)
 def logic_665(agents,world):
     agents.self_preservation=_delta(agents.self_preservation,+0.002*agents.hunger)
+def logic_666(agents,world):
+    agents.learning_rate=_delta(agents.learning_rate,+0.002*agents.thermal_stress)

@@ -141,3 +141,6 @@ def test_logic_664():
 def test_logic_665():
     from agent_rules.rules import logic_665
     _check(logic_665, 'hunger', 'self_preservation', 1)
+def test_logic_666():
+    from agent_rules.rules import logic_666
+    _check(logic_666, 'thermal_stress', 'learning_rate', 1)
