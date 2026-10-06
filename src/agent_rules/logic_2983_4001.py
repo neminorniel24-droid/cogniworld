@@ -2290,3 +2290,7 @@ def logic_3564(agents, world):
 def logic_3565(agents, world):
     # surface_water -> empathy; strong coupling.
     _update(agents, 'empathy', _desired(agents, world, 'surface_water', 'empathy', 'strong'))
+
+def logic_3566(agents, world):
+    # surface_water -> empathy; limited coupling.
+    _update(agents, 'empathy', _desired(agents, world, 'surface_water', 'empathy', 'limited'))
