@@ -2040,3 +2040,7 @@ def logic_1500(world):
 def logic_1501(world):
     # nutrients support vegetation; stronger under habitat stress.
     _feedback(world, 'nutrients', 'vegetation', 1, 'stress_gate')
+
+def logic_1502(world):
+    # nutrients support vegetation; modulated by temperature.
+    _feedback(world, 'nutrients', 'vegetation', 1, 'seasonal_gate')
