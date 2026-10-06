@@ -2796,3 +2796,7 @@ def logic_1689(world):
 def logic_1690(world):
     # vegetation replenishes seeds; stronger when soil is wet.
     _feedback(world, 'vegetation', 'seed_bank', 1, 'wet_gate')
+
+def logic_1691(world):
+    # vegetation replenishes seeds; stronger when temperature is high.
+    _feedback(world, 'vegetation', 'seed_bank', 1, 'heat_gate')
