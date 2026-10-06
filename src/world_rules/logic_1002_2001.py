@@ -956,3 +956,7 @@ def logic_1229(world):
 def logic_1230(world):
     # warmth increases evaporation; stronger when temperature is low.
     _feedback(world, 'temperature', 'evaporation', 1, 'cold_gate')
+
+def logic_1231(world):
+    # warmth increases evaporation; stronger under fire pressure.
+    _feedback(world, 'temperature', 'evaporation', 1, 'fire_gate')
