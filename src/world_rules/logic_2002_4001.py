@@ -3449,3 +3449,7 @@ def logic_2860(world):
 def logic_2861(world):
     # sediment load changes water state; reserve coupling.
     _couple(world,'sediment','surface_water',0.9,'positive')
+
+def logic_2862(world):
+    # organic matter retains water; direct coupling.
+    _couple(world,'organic_matter','surface_water',1.0,'positive')
