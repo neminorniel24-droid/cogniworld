@@ -3592,3 +3592,7 @@ def logic_1888(world):
 def logic_1889(world):
     # algae add organic matter; stronger under fire pressure.
     _feedback(world, 'algae', 'organic_matter', 1, 'fire_gate')
+
+def logic_1890(world):
+    # algae add organic matter; stronger when surface water is high.
+    _feedback(world, 'algae', 'organic_matter', 1, 'water_gate')
