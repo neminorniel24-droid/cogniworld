@@ -374,3 +374,11 @@ def test_logic_144():
     before=w.biomass.clone()
     apply(w)
     assert torch.all(w.biomass < before)
+
+def test_logic_145():
+    from world_rules.logic_145_grazing_creates_detritus import apply
+    w = make_world()
+    w.herbivore.fill_(1.0)
+    w.detritus.zero_()
+    apply(w)
+    assert torch.allclose(w.detritus, torch.full_like(w.detritus, 0.003))

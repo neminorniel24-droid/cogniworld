@@ -285,3 +285,5 @@ from .logic_143_biomass_produces_oxygen import apply as logic_143
 RULES.append(logic_143)
 from .logic_144_herbivory_reduces_biomass import apply as logic_144
 RULES.append(logic_144)
+from .logic_145_grazing_creates_detritus import apply as logic_145
+RULES.append(logic_145)
