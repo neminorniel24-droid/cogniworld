@@ -1413,3 +1413,7 @@ def logic_2351(world):
 def logic_2352(world):
     # runoff transports sediment; direct coupling.
     _couple(world,'runoff','sediment',1.0,'positive')
+
+def logic_2353(world):
+    # runoff transports sediment; inverse coupling.
+    _couple(world,'runoff','sediment',1.0,'negative')
