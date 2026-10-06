@@ -2578,3 +2578,7 @@ def logic_3636(agents, world):
 def logic_3637(agents, world):
     # surface_water -> defection_score; pulse coupling.
     _update(agents, 'defection_score', _desired(agents, world, 'surface_water', 'defection_score', 'pulse'))
+
+def logic_3638(agents, world):
+    # surface_water -> defection_score; feedback coupling.
+    _update(agents, 'defection_score', _desired(agents, world, 'surface_water', 'defection_score', 'feedback'))
