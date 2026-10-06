@@ -1009,3 +1009,7 @@ def logic_2250(world):
 def logic_2251(world):
     # moist soil supports decomposition; reserve coupling.
     _couple(world,'soil_moisture','decomposition_rate',0.9,'positive')
+
+def logic_2252(world):
+    # algae adds organic matter; direct coupling.
+    _couple(world,'algae','organic_matter',1.0,'positive')
