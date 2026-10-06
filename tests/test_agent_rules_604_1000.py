@@ -222,3 +222,6 @@ def test_logic_691():
 def test_logic_692():
     from agent_rules.rules import logic_692
     _check(logic_692, 'recovery', 'survival_score', 1)
+def test_logic_693():
+    from agent_rules.rules import logic_693
+    _check(logic_693, 'metabolic_cost', 'foraging_score', 1)
