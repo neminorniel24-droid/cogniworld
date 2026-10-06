@@ -1370,3 +1370,7 @@ def logic_3334(agents, world):
 def logic_3335(agents, world):
     # surface_water -> defection; stress coupling.
     _update(agents, 'defection', _desired(agents, world, 'surface_water', 'defection', 'stress'))
+
+def logic_3336(agents, world):
+    # surface_water -> defection; recovery coupling.
+    _update(agents, 'defection', _desired(agents, world, 'surface_water', 'defection', 'recovery'))
