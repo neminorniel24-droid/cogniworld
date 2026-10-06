@@ -240,3 +240,8 @@ def test_logic_348():
 def test_logic_349():
  from agent_rules.rules import logic_349
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.infection_risk.clone();setattr(w,'pathogen_load',torch.ones(4,4));logic_349(a,w);assert torch.any(a.infection_risk!=b)
+
+
+def test_logic_350():
+ from agent_rules.rules import logic_350
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.social_avoidance.clone();setattr(w,'pathogen_load',torch.ones(4,4));logic_350(a,w);assert torch.any(a.social_avoidance!=b)

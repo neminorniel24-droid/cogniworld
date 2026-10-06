@@ -98,3 +98,5 @@ def logic_348(agents,world):
  v=_local(world,agents,'pathogen_load');agents.health=_delta(agents.health,v*0.001)
 def logic_349(agents,world):
  v=_local(world,agents,'pathogen_load');agents.infection_risk=_delta(agents.infection_risk,v*0.001)
+def logic_350(agents,world):
+ v=_local(world,agents,'pathogen_load');agents.social_avoidance=_delta(agents.social_avoidance,v*0.001)
