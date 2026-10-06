@@ -1662,3 +1662,7 @@ def logic_3407(agents, world):
 def logic_3408(agents, world):
     # surface_water -> sharing_capacity; direct coupling.
     _update(agents, 'sharing_capacity', _desired(agents, world, 'surface_water', 'sharing_capacity', 'direct'))
+
+def logic_3409(agents, world):
+    # surface_water -> sharing_capacity; inverse coupling.
+    _update(agents, 'sharing_capacity', _desired(agents, world, 'surface_water', 'sharing_capacity', 'inverse'))
