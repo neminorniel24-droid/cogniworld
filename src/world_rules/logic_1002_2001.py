@@ -660,3 +660,7 @@ def logic_1155(world):
 def logic_1156(world):
     # soil moisture supports flowering; direct.
     _feedback(world, 'soil_moisture', 'flowers', 1, 'baseline')
+
+def logic_1157(world):
+    # soil moisture supports flowering; stronger when soil is dry.
+    _feedback(world, 'soil_moisture', 'flowers', 1, 'dry_gate')
