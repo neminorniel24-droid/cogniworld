@@ -1124,3 +1124,5 @@ def logic_880(agents,world):
     agents.caution=_delta(agents.caution,+0.002*agents.foraging_score)
 def logic_881(agents,world):
     agents.payoff=_signed_delta(agents.payoff,+0.002*agents.survival_score)
+def logic_882(agents,world):
+    agents.survival_score=_delta(agents.survival_score,+0.002*agents.help_score)
