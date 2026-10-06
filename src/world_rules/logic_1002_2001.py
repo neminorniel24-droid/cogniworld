@@ -1040,3 +1040,7 @@ def logic_1250(world):
 def logic_1251(world):
     # warmth melts snowpack; saturates at high source levels.
     _feedback(world, 'temperature', 'snowpack', -1, 'saturation')
+
+def logic_1252(world):
+    # warmth melts snowpack; activates above a food threshold.
+    _feedback(world, 'temperature', 'snowpack', -1, 'threshold')
