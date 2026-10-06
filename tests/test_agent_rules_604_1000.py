@@ -849,3 +849,6 @@ def test_logic_900():
 def test_logic_901():
     from agent_rules.rules import logic_901
     _check(logic_901, 'help_score', 'risk_score', 1)
+def test_logic_902():
+    from agent_rules.rules import logic_902
+    _check(logic_902, 'attack_success', 'exploration_score', 1)
