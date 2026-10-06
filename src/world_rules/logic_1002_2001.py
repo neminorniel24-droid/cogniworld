@@ -180,3 +180,7 @@ def logic_1035(world):
 def logic_1036(world):
     # rain recharges groundwater; stronger when surface water is high.
     _feedback(world, 'rain', 'groundwater', 1, 'water_gate')
+
+def logic_1037(world):
+    # rain recharges groundwater; stronger when vegetation is scarce.
+    _feedback(world, 'rain', 'groundwater', 1, 'scarcity_gate')
