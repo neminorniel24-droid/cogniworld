@@ -573,3 +573,6 @@ def test_logic_808():
 def test_logic_809():
     from agent_rules.rules import logic_809
     _check(logic_809, 'betrayal_memory', 'retaliation_risk', 1)
+def test_logic_810():
+    from agent_rules.rules import logic_810
+    _check(logic_810, 'cooperation_history', 'future_help', 1)
