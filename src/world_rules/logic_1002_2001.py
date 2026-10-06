@@ -3316,3 +3316,7 @@ def logic_1819(world):
 def logic_1820(world):
     # diverse communities dilute pathogens; stronger when surface water is high.
     _feedback(world, 'biodiversity', 'pathogen_load', -1, 'water_gate')
+
+def logic_1821(world):
+    # diverse communities dilute pathogens; stronger when vegetation is scarce.
+    _feedback(world, 'biodiversity', 'pathogen_load', -1, 'scarcity_gate')
