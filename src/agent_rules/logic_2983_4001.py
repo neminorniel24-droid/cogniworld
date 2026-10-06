@@ -1854,3 +1854,7 @@ def logic_3455(agents, world):
 def logic_3456(agents, world):
     # surface_water -> selfishness; feedback coupling.
     _update(agents, 'selfishness', _desired(agents, world, 'surface_water', 'selfishness', 'feedback'))
+
+def logic_3457(agents, world):
+    # surface_water -> selfishness; counterpressure coupling.
+    _update(agents, 'selfishness', _desired(agents, world, 'surface_water', 'selfishness', 'counterpressure'))
