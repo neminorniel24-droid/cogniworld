@@ -48,3 +48,7 @@ def logic_1002(world):
 def logic_1003(world):
     # rainfall raises surface water; stronger when soil is dry.
     _feedback(world, 'rain', 'surface_water', 1, 'dry_gate')
+
+def logic_1004(world):
+    # rainfall raises surface water; stronger when soil is wet.
+    _feedback(world, 'rain', 'surface_water', 1, 'wet_gate')
