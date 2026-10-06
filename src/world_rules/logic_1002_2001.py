@@ -3220,3 +3220,7 @@ def logic_1795(world):
 def logic_1796(world):
     # carrion feeds decomposers; modulated by temperature.
     _feedback(world, 'carrion', 'organic_matter', 1, 'seasonal_gate')
+
+def logic_1797(world):
+    # carrion feeds decomposers; saturates at high source levels.
+    _feedback(world, 'carrion', 'organic_matter', 1, 'saturation')
