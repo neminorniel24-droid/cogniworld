@@ -1788,3 +1788,7 @@ def logic_1437(world):
 def logic_1438(world):
     # biomass stores carbon; stronger when soil is wet.
     _feedback(world, 'biomass', 'carbon_storage', 1, 'wet_gate')
+
+def logic_1439(world):
+    # biomass stores carbon; stronger when temperature is high.
+    _feedback(world, 'biomass', 'carbon_storage', 1, 'heat_gate')
