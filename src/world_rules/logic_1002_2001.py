@@ -396,3 +396,7 @@ def logic_1089(world):
 def logic_1090(world):
     # persistent surface water expands wetlands; stronger when temperature is low.
     _feedback(world, 'surface_water', 'wetland', 1, 'cold_gate')
+
+def logic_1091(world):
+    # persistent surface water expands wetlands; stronger under fire pressure.
+    _feedback(world, 'surface_water', 'wetland', 1, 'fire_gate')
