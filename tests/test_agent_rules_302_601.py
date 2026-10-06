@@ -45,3 +45,8 @@ def test_logic_309():
 def test_logic_310():
  from agent_rules.rules import logic_310
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.hunger.clone();setattr(w,'soil_moisture',torch.ones(4,4));logic_310(a,w);assert torch.any(a.hunger!=b)
+
+
+def test_logic_311():
+ from agent_rules.rules import logic_311
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.reproduction_drive.clone();setattr(w,'soil_moisture',torch.ones(4,4));logic_311(a,w);assert torch.any(a.reproduction_drive!=b)

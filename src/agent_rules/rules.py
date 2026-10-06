@@ -20,3 +20,5 @@ def logic_309(agents,world):
  v=_local(world,agents,'soil_moisture');agents.hydration=_delta(agents.hydration,v*0.001)
 def logic_310(agents,world):
  v=_local(world,agents,'soil_moisture');agents.hunger=_delta(agents.hunger,v*0.001)
+def logic_311(agents,world):
+ v=_local(world,agents,'soil_moisture');agents.reproduction_drive=_delta(agents.reproduction_drive,v*0.001)
