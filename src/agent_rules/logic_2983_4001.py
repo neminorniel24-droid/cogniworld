@@ -2182,3 +2182,7 @@ def logic_3537(agents, world):
 def logic_3538(agents, world):
     # surface_water -> future_help; limited coupling.
     _update(agents, 'future_help', _desired(agents, world, 'surface_water', 'future_help', 'limited'))
+
+def logic_3539(agents, world):
+    # surface_water -> future_help; pulse coupling.
+    _update(agents, 'future_help', _desired(agents, world, 'surface_water', 'future_help', 'pulse'))
