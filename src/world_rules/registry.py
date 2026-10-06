@@ -563,3 +563,5 @@ from .logic_282_pathogens_suppress_pollinators import apply as logic_282
 RULES.append(logic_282)
 from .logic_283_pollinators_improve_vegetation_recovery import apply as logic_283
 RULES.append(logic_283)
+from .logic_284_rain_increases_herbivore_capacity import apply as logic_284
+RULES.append(logic_284)

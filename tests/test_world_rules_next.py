@@ -1274,3 +1274,8 @@ def test_logic_283():
     from world_rules.logic_283_pollinators_improve_vegetation_recovery import apply
     w = make_world()
     w.vegetation.zero_(); w.pollinators.fill_(1.0); apply(w); assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.002))
+
+def test_logic_284():
+    from world_rules.logic_284_rain_increases_herbivore_capacity import apply
+    w = make_world()
+    w.herbivore.zero_(); w.rain.fill_(1.0); apply(w); assert torch.allclose(w.herbivore, torch.full_like(w.herbivore, 0.001))
