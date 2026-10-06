@@ -3728,3 +3728,7 @@ def logic_1922(world):
 def logic_1923(world):
     # methane increases warming pressure; saturates at high source levels.
     _feedback(world, 'methane', 'temperature', 1, 'saturation')
+
+def logic_1924(world):
+    # methane increases warming pressure; activates above a food threshold.
+    _feedback(world, 'methane', 'temperature', 1, 'threshold')
