@@ -82,3 +82,7 @@ def logic_2999(world):
 def logic_3000(world):
     # ash returns nutrients.
     _apply(world, 'ash', 'nutrients', -1.0)
+
+def logic_3001(world):
+    # wetlands emit methane.
+    _apply(world, 'wetland', 'methane', 1.0)
