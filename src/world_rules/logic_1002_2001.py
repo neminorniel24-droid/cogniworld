@@ -1360,3 +1360,7 @@ def logic_1330(world):
 def logic_1331(world):
     # evaporation removes surface water; stronger when vegetation is scarce.
     _feedback(world, 'evaporation', 'surface_water', -1, 'scarcity_gate')
+
+def logic_1332(world):
+    # evaporation removes surface water; stronger when biomass is high.
+    _feedback(world, 'evaporation', 'surface_water', -1, 'biomass_gate')
