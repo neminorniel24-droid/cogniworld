@@ -555,3 +555,5 @@ from .logic_278_salinity_stresses_predators import apply as logic_278
 RULES.append(logic_278)
 from .logic_279_predators_reduce_pathogen_load import apply as logic_279
 RULES.append(logic_279)
+from .logic_280_algae_raise_biodiversity_at_low_levels import apply as logic_280
+RULES.append(logic_280)

@@ -1254,3 +1254,8 @@ def test_logic_279():
     from world_rules.logic_279_predators_reduce_pathogen_load import apply
     w = make_world()
     w.pathogen_load.fill_(1.0); w.predator.fill_(1.0); apply(w); assert torch.allclose(w.pathogen_load, torch.full_like(w.pathogen_load, 0.999))
+
+def test_logic_280():
+    from world_rules.logic_280_algae_raise_biodiversity_at_low_levels import apply
+    w = make_world()
+    w.biodiversity.zero_(); w.algae.zero_(); apply(w); assert torch.allclose(w.biodiversity, torch.full_like(w.biodiversity, 0.0015))
