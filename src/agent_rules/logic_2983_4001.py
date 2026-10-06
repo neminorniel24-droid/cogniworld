@@ -54,3 +54,7 @@ def logic_3005(agents, world):
 def logic_3006(agents, world):
     # surface_water -> hydration; limited coupling.
     _update(agents, 'hydration', _desired(agents, world, 'surface_water', 'hydration', 'limited'))
+
+def logic_3007(agents, world):
+    # surface_water -> hydration; pulse coupling.
+    _update(agents, 'hydration', _desired(agents, world, 'surface_water', 'hydration', 'pulse'))
