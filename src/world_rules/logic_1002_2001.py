@@ -168,3 +168,7 @@ def logic_1032(world):
 def logic_1033(world):
     # rain recharges groundwater; stronger when temperature is high.
     _feedback(world, 'rain', 'groundwater', 1, 'heat_gate')
+
+def logic_1034(world):
+    # rain recharges groundwater; stronger when temperature is low.
+    _feedback(world, 'rain', 'groundwater', 1, 'cold_gate')
