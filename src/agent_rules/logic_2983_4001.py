@@ -3126,3 +3126,7 @@ def logic_3773(agents, world):
 def logic_3774(agents, world):
     # surface_water -> reproduction_score; threshold coupling.
     _update(agents, 'reproduction_score', _desired(agents, world, 'surface_water', 'reproduction_score', 'threshold'))
+
+def logic_3775(agents, world):
+    # surface_water -> reproduction_score; strong coupling.
+    _update(agents, 'reproduction_score', _desired(agents, world, 'surface_water', 'reproduction_score', 'strong'))
