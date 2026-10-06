@@ -69,3 +69,7 @@ def logic_2015(world):
 def logic_2016(world):
     # rainfall wets soil; threshold coupling.
     _couple(world,'rain','soil_moisture',1.0,'threshold')
+
+def logic_2017(world):
+    # rainfall wets soil; pulse coupling.
+    _couple(world,'rain','soil_moisture',1.0,'pulse')
