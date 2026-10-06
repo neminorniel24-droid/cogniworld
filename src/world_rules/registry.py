@@ -415,3 +415,5 @@ from .logic_208_groundwater_reduces_surface_water_loss import apply as logic_208
 RULES.append(logic_208)
 from .logic_209_dryness_draws_down_groundwater import apply as logic_209
 RULES.append(logic_209)
+from .logic_210_rain_recharges_groundwater import apply as logic_210
+RULES.append(logic_210)
