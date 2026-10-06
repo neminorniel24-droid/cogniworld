@@ -2366,3 +2366,7 @@ def logic_3583(agents, world):
 def logic_3584(agents, world):
     # surface_water -> risk_tolerance; capacity coupling.
     _update(agents, 'risk_tolerance', _desired(agents, world, 'surface_water', 'risk_tolerance', 'capacity'))
+
+def logic_3585(agents, world):
+    # surface_water -> risk_tolerance; reserve coupling.
+    _update(agents, 'risk_tolerance', _desired(agents, world, 'surface_water', 'risk_tolerance', 'reserve'))
