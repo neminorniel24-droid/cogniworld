@@ -825,3 +825,8 @@ def test_logic_465():
 def test_logic_466():
  from agent_rules.rules import logic_466
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.future_help.clone();a.betrayal_memory.fill_(1);logic_466(a,w);assert torch.any(a.future_help!=b)
+
+
+def test_logic_467():
+ from agent_rules.rules import logic_467
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.help_drive.clone();a.group_stability.fill_(1);logic_467(a,w);assert torch.any(a.help_drive!=b)
