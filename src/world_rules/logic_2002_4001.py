@@ -1865,3 +1865,7 @@ def logic_2464(world):
 def logic_2465(world):
     # vegetation stores carbon; strong coupling.
     _couple(world,'vegetation','carbon_storage',1.35,'positive')
+
+def logic_2466(world):
+    # vegetation stores carbon; threshold coupling.
+    _couple(world,'vegetation','carbon_storage',1.0,'threshold')
