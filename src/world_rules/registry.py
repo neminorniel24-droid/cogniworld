@@ -491,3 +491,5 @@ from .logic_246_seed_bank_reduces_biodiversity_loss import apply as logic_246
 RULES.append(logic_246)
 from .logic_247_biomass_builds_soil_carbon import apply as logic_247
 RULES.append(logic_247)
+from .logic_248_decomposition_releases_soil_carbon import apply as logic_248
+RULES.append(logic_248)
