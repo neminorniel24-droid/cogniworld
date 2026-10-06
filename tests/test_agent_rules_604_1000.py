@@ -915,3 +915,6 @@ def test_logic_922():
 def test_logic_923():
     from agent_rules.rules import logic_923
     _check(logic_923, 'reproduction_score', 'strategy_mixing', 1)
+def test_logic_924():
+    from agent_rules.rules import logic_924
+    _check(logic_924, 'strategy_persistence', 'learning_rate', 1)
