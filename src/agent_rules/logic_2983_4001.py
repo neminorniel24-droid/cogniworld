@@ -1550,3 +1550,7 @@ def logic_3379(agents, world):
 def logic_3380(agents, world):
     # surface_water -> territoriality; direct coupling.
     _update(agents, 'territoriality', _desired(agents, world, 'surface_water', 'territoriality', 'direct'))
+
+def logic_3381(agents, world):
+    # surface_water -> territoriality; inverse coupling.
+    _update(agents, 'territoriality', _desired(agents, world, 'surface_water', 'territoriality', 'inverse'))
