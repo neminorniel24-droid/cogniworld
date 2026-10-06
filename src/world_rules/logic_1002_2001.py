@@ -1444,3 +1444,7 @@ def logic_1351(world):
 def logic_1352(world):
     # sediment export reduces soil depth; direct.
     _feedback(world, 'sediment', 'soil_depth', -1, 'baseline')
+
+def logic_1353(world):
+    # sediment export reduces soil depth; stronger when soil is dry.
+    _feedback(world, 'sediment', 'soil_depth', -1, 'dry_gate')
