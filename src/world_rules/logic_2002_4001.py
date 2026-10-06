@@ -3805,3 +3805,7 @@ def logic_2949(world):
 def logic_2950(world):
     # fire releases CO2; capacity coupling.
     _couple(world,'fire_risk','co2',0.5,'positive')
+
+def logic_2951(world):
+    # fire releases CO2; reserve coupling.
+    _couple(world,'fire_risk','co2',0.9,'positive')
