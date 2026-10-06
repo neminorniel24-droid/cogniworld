@@ -1274,3 +1274,7 @@ def logic_3310(agents, world):
 def logic_3311(agents, world):
     # surface_water -> cooperation; inverse coupling.
     _update(agents, 'cooperation', _desired(agents, world, 'surface_water', 'cooperation', 'inverse'))
+
+def logic_3312(agents, world):
+    # surface_water -> cooperation; threshold coupling.
+    _update(agents, 'cooperation', _desired(agents, world, 'surface_water', 'cooperation', 'threshold'))
