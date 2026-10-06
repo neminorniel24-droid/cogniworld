@@ -1064,3 +1064,7 @@ def logic_1256(world):
 def logic_1257(world):
     # warmth melts ice; stronger when temperature is high.
     _feedback(world, 'temperature', 'ice', -1, 'heat_gate')
+
+def logic_1258(world):
+    # warmth melts ice; stronger when temperature is low.
+    _feedback(world, 'temperature', 'ice', -1, 'cold_gate')
