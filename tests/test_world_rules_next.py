@@ -339,3 +339,12 @@ def test_logic_140():
     before=w.methane.clone()
     apply(w)
     assert torch.all(w.methane < before)
+
+def test_logic_141():
+    from world_rules.logic_141_drought_releases_carbon import apply
+    w = make_world()
+    w.soil_moisture.zero_()
+    w.carbon_storage.fill_(1.0)
+    before=w.carbon_storage.clone()
+    apply(w)
+    assert torch.all(w.carbon_storage < before)

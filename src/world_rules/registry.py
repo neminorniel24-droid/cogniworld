@@ -277,3 +277,5 @@ from .logic_139_oxygen_oxidizes_methane import apply as logic_139
 RULES.append(logic_139)
 from .logic_140_dry_soil_reduces_methane import apply as logic_140
 RULES.append(logic_140)
+from .logic_141_drought_releases_carbon import apply as logic_141
+RULES.append(logic_141)
