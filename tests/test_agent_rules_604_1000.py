@@ -582,3 +582,6 @@ def test_logic_811():
 def test_logic_812():
     from agent_rules.rules import logic_812
     _check(logic_812, 'last_energy_delta', 'memory_update', 1)
+def test_logic_813():
+    from agent_rules.rules import logic_813
+    _check(logic_813, 'last_food', 'strategy_persistence', 1)
