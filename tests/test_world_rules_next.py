@@ -287,3 +287,12 @@ def test_logic_134():
     w.decomposition_rate.zero_()
     apply(w)
     assert torch.allclose(w.decomposition_rate, torch.full_like(w.decomposition_rate, 0.008))
+
+def test_logic_135():
+    from world_rules.logic_135_decomposition_consumes_detritus import apply
+    w = make_world()
+    w.decomposition_rate.fill_(1.0)
+    w.detritus.fill_(1.0)
+    before=w.detritus.clone()
+    apply(w)
+    assert torch.all(w.detritus < before)

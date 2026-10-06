@@ -265,3 +265,5 @@ from .logic_133_cold_slows_decomposition import apply as logic_133
 RULES.append(logic_133)
 from .logic_134_wet_soil_accelerates_decomposition import apply as logic_134
 RULES.append(logic_134)
+from .logic_135_decomposition_consumes_detritus import apply as logic_135
+RULES.append(logic_135)
