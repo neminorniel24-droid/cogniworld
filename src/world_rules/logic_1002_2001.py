@@ -1324,3 +1324,7 @@ def logic_1321(world):
 def logic_1322(world):
     # evaporation replenishes humidity; activates above a food threshold.
     _feedback(world, 'evaporation', 'humidity', 1, 'threshold')
+
+def logic_1323(world):
+    # evaporation replenishes humidity; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'evaporation', 'humidity', 1, 'recovery')
