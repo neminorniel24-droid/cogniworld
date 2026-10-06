@@ -1116,3 +1116,5 @@ def logic_876(agents,world):
     agents.future_payoff_weight=_delta(agents.future_payoff_weight,+0.002*agents.reciprocity_score)
 def logic_877(agents,world):
     agents.strategy_confidence=_delta(agents.strategy_confidence,-0.002*agents.risk_score)
+def logic_878(agents,world):
+    agents.risk_tolerance=_delta(agents.risk_tolerance,+0.002*agents.safety_score)

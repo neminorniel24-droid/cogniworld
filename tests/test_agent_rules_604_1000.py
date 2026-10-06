@@ -777,3 +777,6 @@ def test_logic_876():
 def test_logic_877():
     from agent_rules.rules import logic_877
     _check(logic_877, 'risk_score', 'strategy_confidence', -1)
+def test_logic_878():
+    from agent_rules.rules import logic_878
+    _check(logic_878, 'safety_score', 'risk_tolerance', 1)
