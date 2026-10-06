@@ -536,3 +536,7 @@ def logic_1124(world):
 def logic_1125(world):
     # groundwater buffers soil moisture; saturates at high source levels.
     _feedback(world, 'groundwater', 'soil_moisture', 1, 'saturation')
+
+def logic_1126(world):
+    # groundwater buffers soil moisture; activates above a food threshold.
+    _feedback(world, 'groundwater', 'soil_moisture', 1, 'threshold')
