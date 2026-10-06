@@ -1929,3 +1929,7 @@ def logic_2480(world):
 def logic_2481(world):
     # soil carbon stores carbon; reserve coupling.
     _couple(world,'soil_carbon','carbon_storage',0.9,'positive')
+
+def logic_2482(world):
+    # snowmelt supplies surface water; direct coupling.
+    _couple(world,'snowpack','surface_water',1.0,'positive')
