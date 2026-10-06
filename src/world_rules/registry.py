@@ -203,3 +203,5 @@ from .logic_102_vegetation_shades_surface import apply as logic_102
 RULES.append(logic_102)
 from .logic_103_bare_soil_absorbs_more_heat import apply as logic_103
 RULES.append(logic_103)
+from .logic_104_ice_reflects_solar_energy import apply as logic_104
+RULES.append(logic_104)

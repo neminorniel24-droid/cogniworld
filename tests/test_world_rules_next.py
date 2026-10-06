@@ -19,3 +19,12 @@ def test_logic_103():
     before=w.temperature_target.clone()
     apply(w)
     assert torch.all(w.temperature_target > before)
+
+def test_logic_104():
+    from world_rules.logic_104_ice_reflects_solar_energy import apply
+    w = make_world()
+    w.ice.fill_(1.0)
+    w.temperature_target.fill_(0.5)
+    before=w.temperature_target.clone()
+    apply(w)
+    assert torch.all(w.temperature_target < before)
