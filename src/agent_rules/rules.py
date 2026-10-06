@@ -1188,3 +1188,5 @@ def logic_912(agents,world):
     agents.defection_score=_delta(agents.defection_score,-0.002*agents.help_received)
 def logic_913(agents,world):
     agents.risk_score=_delta(agents.risk_score,+0.002*agents.reputation)
+def logic_914(agents,world):
+    agents.safety_score=_delta(agents.safety_score,+0.002*agents.trust)
