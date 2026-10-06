@@ -1236,3 +1236,5 @@ def logic_936(agents,world):
     agents.defection_score=_delta(agents.defection_score,+0.002*agents.wealth)
 def logic_937(agents,world):
     agents.reciprocity_score=_delta(agents.reciprocity_score,+0.002*agents.energy_surplus)
+def logic_938(agents,world):
+    agents.risk_score=_delta(agents.risk_score,+0.002*agents.resource_abundance)
