@@ -10,3 +10,8 @@ def test_0302():
 def test_logic_303():
  from agent_rules.rules import logic_303
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.hydration.clone();setattr(w,'surface_water',torch.ones(4,4));logic_303(a,w);assert torch.any(a.hydration!=b)
+
+
+def test_logic_304():
+ from agent_rules.rules import logic_304
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.thirst.clone();setattr(w,'surface_water',torch.ones(4,4));logic_304(a,w);assert torch.any(a.thirst!=b)

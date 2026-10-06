@@ -6,3 +6,5 @@ def _local(world,agents,name):
 def _delta(x,d):return torch.clamp(x+d,0,2)
 def logic_303(agents,world):
  v=_local(world,agents,'surface_water');agents.hydration=_delta(agents.hydration,v*0.001)
+def logic_304(agents,world):
+ v=_local(world,agents,'surface_water');agents.thirst=_delta(agents.thirst,v*0.001)
