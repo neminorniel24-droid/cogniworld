@@ -1149,3 +1149,7 @@ def logic_2285(world):
 def logic_2286(world):
     # pollination replenishes seed bank; threshold coupling.
     _couple(world,'pollinators','seed_bank',1.0,'threshold')
+
+def logic_2287(world):
+    # pollination replenishes seed bank; pulse coupling.
+    _couple(world,'pollinators','seed_bank',1.0,'pulse')
