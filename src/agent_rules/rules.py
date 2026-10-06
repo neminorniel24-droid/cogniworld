@@ -1322,3 +1322,5 @@ def logic_979(agents,world):
     agents.memory_update=_delta(agents.memory_update,+0.002*agents.gratitude)
 def logic_980(agents,world):
     agents.future_payoff_weight=_delta(agents.future_payoff_weight,+0.002*agents.reputation)
+def logic_981(agents,world):
+    agents.self_preservation=_delta(agents.self_preservation,+0.002*agents.trust)

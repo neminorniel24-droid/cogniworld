@@ -1086,3 +1086,6 @@ def test_logic_979():
 def test_logic_980():
     from agent_rules.rules import logic_980
     _check(logic_980, 'reputation', 'future_payoff_weight', 1)
+def test_logic_981():
+    from agent_rules.rules import logic_981
+    _check(logic_981, 'trust', 'self_preservation', 1)
