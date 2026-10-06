@@ -1235,3 +1235,8 @@ def test_logic_547():
 def test_logic_548():
  from agent_rules.rules import logic_548
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.reproduction_score.clone();a.last_reward.fill_(1);logic_548(a,w);assert torch.any(a.reproduction_score!=b)
+
+
+def test_logic_549():
+ from agent_rules.rules import logic_549
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.cooperation_score.clone();a.last_reward.fill_(1);logic_549(a,w);assert torch.any(a.cooperation_score!=b)
