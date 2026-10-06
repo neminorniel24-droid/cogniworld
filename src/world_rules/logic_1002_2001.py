@@ -3032,3 +3032,7 @@ def logic_1748(world):
 def logic_1749(world):
     # predation reduces herbivores; stronger under fire pressure.
     _feedback(world, 'predator', 'herbivore', -1, 'fire_gate')
+
+def logic_1750(world):
+    # predation reduces herbivores; stronger when surface water is high.
+    _feedback(world, 'predator', 'herbivore', -1, 'water_gate')
