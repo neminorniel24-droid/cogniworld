@@ -774,3 +774,6 @@ def test_logic_875():
 def test_logic_876():
     from agent_rules.rules import logic_876
     _check(logic_876, 'reciprocity_score', 'future_payoff_weight', 1)
+def test_logic_877():
+    from agent_rules.rules import logic_877
+    _check(logic_877, 'risk_score', 'strategy_confidence', -1)
