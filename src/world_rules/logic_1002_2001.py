@@ -2356,3 +2356,7 @@ def logic_1579(world):
 def logic_1580(world):
     # fire reduces vegetation; stronger when temperature is low.
     _feedback(world, 'fire_risk', 'vegetation', -1, 'cold_gate')
+
+def logic_1581(world):
+    # fire reduces vegetation; stronger under fire pressure.
+    _feedback(world, 'fire_risk', 'vegetation', -1, 'fire_gate')
