@@ -924,3 +924,8 @@ def test_logic_213():
     from world_rules.logic_213_vegetation_traps_sediment import apply
     w = make_world()
     w.sediment.fill_(0.5); w.vegetation.fill_(1.0); apply(w); assert torch.allclose(w.sediment, torch.full_like(w.sediment, 0.49))
+
+def test_logic_214():
+    from world_rules.logic_214_sediment_reduces_infiltration import apply
+    w = make_world()
+    w.soil_moisture.fill_(0.5); w.sediment.fill_(1.0); apply(w); assert torch.allclose(w.soil_moisture, torch.full_like(w.soil_moisture, 0.495))

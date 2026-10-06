@@ -423,3 +423,5 @@ from .logic_212_runoff_transports_sediment import apply as logic_212
 RULES.append(logic_212)
 from .logic_213_vegetation_traps_sediment import apply as logic_213
 RULES.append(logic_213)
+from .logic_214_sediment_reduces_infiltration import apply as logic_214
+RULES.append(logic_214)
