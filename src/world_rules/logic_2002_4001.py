@@ -2997,3 +2997,7 @@ def logic_2747(world):
 def logic_2748(world):
     # wind alters local thermal state; feedback coupling.
     _couple(world,'wind_y','temperature',0.8,'positive')
+
+def logic_2749(world):
+    # wind alters local thermal state; counterpressure coupling.
+    _couple(world,'wind_y','temperature',0.8,'negative')
