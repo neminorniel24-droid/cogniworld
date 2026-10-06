@@ -3060,3 +3060,7 @@ def logic_1755(world):
 def logic_1756(world):
     # predation reduces herbivores; activates above a food threshold.
     _feedback(world, 'predator', 'herbivore', -1, 'threshold')
+
+def logic_1757(world):
+    # predation reduces herbivores; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'predator', 'herbivore', -1, 'recovery')
