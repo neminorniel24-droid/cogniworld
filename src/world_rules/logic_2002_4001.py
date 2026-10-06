@@ -341,3 +341,7 @@ def logic_2083(world):
 def logic_2084(world):
     # heat increases evaporation; limited coupling.
     _couple(world,'temperature','evaporation',0.65,'positive')
+
+def logic_2085(world):
+    # heat increases evaporation; strong coupling.
+    _couple(world,'temperature','evaporation',1.35,'positive')
