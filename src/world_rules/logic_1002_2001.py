@@ -1208,3 +1208,7 @@ def logic_1292(world):
 def logic_1293(world):
     # wind enhances evaporation; saturates at high source levels.
     _feedback(world, 'wind_x', 'evaporation', 1, 'saturation')
+
+def logic_1294(world):
+    # wind enhances evaporation; activates above a food threshold.
+    _feedback(world, 'wind_x', 'evaporation', 1, 'threshold')
