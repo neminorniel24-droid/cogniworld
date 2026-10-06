@@ -3836,3 +3836,7 @@ def logic_1949(world):
 def logic_1950(world):
     # heat raises fire risk; modulated by temperature.
     _feedback(world, 'temperature', 'fire_risk', 1, 'seasonal_gate')
+
+def logic_1951(world):
+    # heat raises fire risk; saturates at high source levels.
+    _feedback(world, 'temperature', 'fire_risk', 1, 'saturation')
