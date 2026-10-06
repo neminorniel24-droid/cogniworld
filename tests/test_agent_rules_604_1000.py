@@ -642,3 +642,6 @@ def test_logic_831():
 def test_logic_832():
     from agent_rules.rules import logic_832
     _check(logic_832, 'last_food', 'confidence', 1)
+def test_logic_833():
+    from agent_rules.rules import logic_833
+    _check(logic_833, 'last_interaction', 'caution', 1)
