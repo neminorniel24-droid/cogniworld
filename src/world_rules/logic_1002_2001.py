@@ -2064,3 +2064,7 @@ def logic_1506(world):
 def logic_1507(world):
     # organic matter mineralizes nutrients; stronger when soil is dry.
     _feedback(world, 'organic_matter', 'nutrients', 1, 'dry_gate')
+
+def logic_1508(world):
+    # organic matter mineralizes nutrients; stronger when soil is wet.
+    _feedback(world, 'organic_matter', 'nutrients', 1, 'wet_gate')
