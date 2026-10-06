@@ -1389,3 +1389,7 @@ def logic_2345(world):
 def logic_2346(world):
     # roots improve soil water retention; threshold coupling.
     _couple(world,'root_density','soil_moisture',1.0,'threshold')
+
+def logic_2347(world):
+    # roots improve soil water retention; pulse coupling.
+    _couple(world,'root_density','soil_moisture',1.0,'pulse')
