@@ -1410,3 +1410,8 @@ def test_logic_582():
 def test_logic_583():
  from agent_rules.rules import logic_583
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.aggression.clone();a.last_reward.fill_(1);logic_583(a,w);assert torch.any(a.aggression!=b)
+
+
+def test_logic_584():
+ from agent_rules.rules import logic_584
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.conflict_pressure.clone();a.last_reward.fill_(1);logic_584(a,w);assert torch.any(a.conflict_pressure!=b)
