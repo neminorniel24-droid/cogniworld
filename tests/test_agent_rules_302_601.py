@@ -520,3 +520,8 @@ def test_logic_404():
 def test_logic_405():
  from agent_rules.rules import logic_405
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.trust.clone();a.energy_surplus.fill_(1);logic_405(a,w);assert torch.any(a.trust!=b)
+
+
+def test_logic_406():
+ from agent_rules.rules import logic_406
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.reputation.clone();a.energy_surplus.fill_(1);logic_406(a,w);assert torch.any(a.reputation!=b)
