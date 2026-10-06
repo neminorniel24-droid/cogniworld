@@ -380,3 +380,8 @@ def test_logic_376():
 def test_logic_377():
  from agent_rules.rules import logic_377
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.health.clone();setattr(w,'ash',torch.ones(4,4));logic_377(a,w);assert torch.any(a.health!=b)
+
+
+def test_logic_378():
+ from agent_rules.rules import logic_378
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.hydration.clone();setattr(w,'surface_ice',torch.ones(4,4));logic_378(a,w);assert torch.any(a.hydration!=b)

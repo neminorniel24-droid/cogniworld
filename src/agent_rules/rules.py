@@ -154,3 +154,5 @@ def logic_376(agents,world):
  v=_local(world,agents,'ash');agents.recovery=_delta(agents.recovery,v*0.001)
 def logic_377(agents,world):
  v=_local(world,agents,'ash');agents.health=_delta(agents.health,v*0.001)
+def logic_378(agents,world):
+ v=_local(world,agents,'surface_ice');agents.hydration=_delta(agents.hydration,v*0.001)
