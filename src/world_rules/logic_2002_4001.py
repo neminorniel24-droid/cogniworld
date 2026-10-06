@@ -1093,3 +1093,7 @@ def logic_2271(world):
 def logic_2272(world):
     # flowers support pollinators; direct coupling.
     _couple(world,'flowers','pollinators',1.0,'positive')
+
+def logic_2273(world):
+    # flowers support pollinators; inverse coupling.
+    _couple(world,'flowers','pollinators',1.0,'negative')
