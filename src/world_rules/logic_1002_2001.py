@@ -2660,3 +2660,7 @@ def logic_1655(world):
 def logic_1656(world):
     # flowers support pollinators; modulated by temperature.
     _feedback(world, 'flowers', 'pollinators', 1, 'seasonal_gate')
+
+def logic_1657(world):
+    # flowers support pollinators; saturates at high source levels.
+    _feedback(world, 'flowers', 'pollinators', 1, 'saturation')
