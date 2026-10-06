@@ -3493,3 +3493,7 @@ def logic_2871(world):
 def logic_2872(world):
     # soil carbon improves water retention; direct coupling.
     _couple(world,'soil_carbon','surface_water',1.0,'positive')
+
+def logic_2873(world):
+    # soil carbon improves water retention; inverse coupling.
+    _couple(world,'soil_carbon','surface_water',1.0,'negative')
