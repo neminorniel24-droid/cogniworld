@@ -1982,3 +1982,7 @@ def logic_3487(agents, world):
 def logic_3488(agents, world):
     # surface_water -> gratitude; scarcity coupling.
     _update(agents, 'gratitude', _desired(agents, world, 'surface_water', 'gratitude', 'scarcity'))
+
+def logic_3489(agents, world):
+    # surface_water -> gratitude; stress coupling.
+    _update(agents, 'gratitude', _desired(agents, world, 'surface_water', 'gratitude', 'stress'))
