@@ -682,3 +682,5 @@ def logic_659(agents,world):
     agents.safety_score=_delta(agents.safety_score,+0.002*agents.stability)
 def logic_660(agents,world):
     agents.survival_score=_delta(agents.survival_score,-0.002*agents.habitat_stress)
+def logic_661(agents,world):
+    agents.foraging_score=_delta(agents.foraging_score,+0.002*agents.social_tolerance)
