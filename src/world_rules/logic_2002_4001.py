@@ -897,3 +897,7 @@ def logic_2222(world):
 def logic_2223(world):
     # decomposition releases nutrients; inverse coupling.
     _couple(world,'decomposition_rate','nutrients',1.0,'negative')
+
+def logic_2224(world):
+    # decomposition releases nutrients; limited coupling.
+    _couple(world,'decomposition_rate','nutrients',0.65,'positive')
