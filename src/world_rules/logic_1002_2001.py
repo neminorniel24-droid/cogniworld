@@ -3496,3 +3496,7 @@ def logic_1864(world):
 def logic_1865(world):
     # salinity suppresses freshwater algae; stronger under habitat stress.
     _feedback(world, 'salinity', 'algae', -1, 'stress_gate')
+
+def logic_1866(world):
+    # salinity suppresses freshwater algae; modulated by temperature.
+    _feedback(world, 'salinity', 'algae', -1, 'seasonal_gate')
