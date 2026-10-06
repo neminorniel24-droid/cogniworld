@@ -3780,3 +3780,7 @@ def logic_1935(world):
 def logic_1936(world):
     # CO2 increases warming pressure; modulated by temperature.
     _feedback(world, 'co2', 'temperature', 1, 'seasonal_gate')
+
+def logic_1937(world):
+    # CO2 increases warming pressure; saturates at high source levels.
+    _feedback(world, 'co2', 'temperature', 1, 'saturation')
