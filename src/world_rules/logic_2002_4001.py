@@ -2365,3 +2365,7 @@ def logic_2589(world):
 def logic_2590(world):
     # fire removes erosion protection; capacity coupling.
     _couple(world,'fire_risk','erosion',0.5,'positive')
+
+def logic_2591(world):
+    # fire removes erosion protection; reserve coupling.
+    _couple(world,'fire_risk','erosion',0.9,'positive')
