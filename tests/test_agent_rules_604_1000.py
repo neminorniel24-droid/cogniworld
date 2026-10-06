@@ -459,3 +459,6 @@ def test_logic_770():
 def test_logic_771():
     from agent_rules.rules import logic_771
     _check(logic_771, 'cooperation', 'conflict_pressure', -1)
+def test_logic_772():
+    from agent_rules.rules import logic_772
+    _check(logic_772, 'defection', 'competition_pressure', 1)
