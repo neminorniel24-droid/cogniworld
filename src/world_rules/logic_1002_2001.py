@@ -752,3 +752,7 @@ def logic_1178(world):
 def logic_1179(world):
     # soil moisture supports seed persistence; stronger under habitat stress.
     _feedback(world, 'soil_moisture', 'seed_bank', 1, 'stress_gate')
+
+def logic_1180(world):
+    # soil moisture supports seed persistence; modulated by temperature.
+    _feedback(world, 'soil_moisture', 'seed_bank', 1, 'seasonal_gate')
