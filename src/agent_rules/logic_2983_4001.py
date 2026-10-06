@@ -2898,3 +2898,7 @@ def logic_3716(agents, world):
 def logic_3717(agents, world):
     # surface_water -> survival_score; inverse coupling.
     _update(agents, 'survival_score', _desired(agents, world, 'surface_water', 'survival_score', 'inverse'))
+
+def logic_3718(agents, world):
+    # surface_water -> survival_score; threshold coupling.
+    _update(agents, 'survival_score', _desired(agents, world, 'surface_water', 'survival_score', 'threshold'))
