@@ -156,3 +156,6 @@ def test_logic_669():
 def test_logic_670():
     from agent_rules.rules import logic_670
     _check(logic_670, 'alertness', 'social_need', 1)
+def test_logic_671():
+    from agent_rules.rules import logic_671
+    _check(logic_671, 'fear', 'conflict_pressure', 1)

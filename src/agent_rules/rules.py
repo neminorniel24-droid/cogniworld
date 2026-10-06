@@ -702,3 +702,5 @@ def logic_669(agents,world):
     agents.help_drive=_delta(agents.help_drive,-0.002*agents.infection_risk)
 def logic_670(agents,world):
     agents.social_need=_delta(agents.social_need,+0.002*agents.alertness)
+def logic_671(agents,world):
+    agents.conflict_pressure=_delta(agents.conflict_pressure,+0.002*agents.fear)
