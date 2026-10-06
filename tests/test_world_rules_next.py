@@ -761,3 +761,12 @@ def test_logic_189():
     before=w.temperature_target.clone()
     apply(w)
     assert torch.all(w.temperature_target < before)
+
+def test_logic_190():
+    from world_rules.logic_190_vegetation_dampens_surface_wind import apply
+    w = make_world()
+    w.vegetation.fill_(1.0)
+    w.wind_x.fill_(1.0)
+    w.wind_y.fill_(1.0)
+    apply(w)
+    assert torch.allclose(w.wind_x, torch.full_like(w.wind_x, 0.95)) and torch.allclose(w.wind_y, torch.full_like(w.wind_y, 0.95))

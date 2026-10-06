@@ -375,3 +375,5 @@ from .logic_188_high_nutrients_reduce_habitat_stress import apply as logic_188
 RULES.append(logic_188)
 from .logic_189_carbon_storage_reduces_temperature_target import apply as logic_189
 RULES.append(logic_189)
+from .logic_190_vegetation_dampens_surface_wind import apply as logic_190
+RULES.append(logic_190)
