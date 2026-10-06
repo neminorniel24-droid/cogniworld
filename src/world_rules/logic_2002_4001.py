@@ -2029,3 +2029,7 @@ def logic_2505(world):
 def logic_2506(world):
     # moist soil permits recharge; threshold coupling.
     _couple(world,'soil_moisture','groundwater',1.0,'threshold')
+
+def logic_2507(world):
+    # moist soil permits recharge; pulse coupling.
+    _couple(world,'soil_moisture','groundwater',1.0,'pulse')
