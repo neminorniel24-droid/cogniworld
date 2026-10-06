@@ -2542,3 +2542,7 @@ def logic_3627(agents, world):
 def logic_3628(agents, world):
     # surface_water -> competition_score; scarcity coupling.
     _update(agents, 'competition_score', _desired(agents, world, 'surface_water', 'competition_score', 'scarcity'))
+
+def logic_3629(agents, world):
+    # surface_water -> competition_score; stress coupling.
+    _update(agents, 'competition_score', _desired(agents, world, 'surface_water', 'competition_score', 'stress'))
