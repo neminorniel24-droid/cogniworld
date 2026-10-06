@@ -40,3 +40,5 @@ def test_competition_score_in_ledger():
     assert "competition_score" in _event()
 def test_defection_score_in_ledger():
     assert "defection_score" in _event()
+def test_future_payoff_weight_in_ledger():
+    assert "future_payoff_weight" in _event()
