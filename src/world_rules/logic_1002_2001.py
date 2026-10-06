@@ -1596,3 +1596,7 @@ def logic_1389(world):
 def logic_1390(world):
     # vegetation roots suppress erosion; modulated by temperature.
     _feedback(world, 'vegetation', 'erosion', -1, 'seasonal_gate')
+
+def logic_1391(world):
+    # vegetation roots suppress erosion; saturates at high source levels.
+    _feedback(world, 'vegetation', 'erosion', -1, 'saturation')
