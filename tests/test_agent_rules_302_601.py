@@ -140,3 +140,8 @@ def test_logic_328():
 def test_logic_329():
  from agent_rules.rules import logic_329
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.reproduction_drive.clone();setattr(w,'vegetation',torch.ones(4,4));logic_329(a,w);assert torch.any(a.reproduction_drive!=b)
+
+
+def test_logic_330():
+ from agent_rules.rules import logic_330
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.hunger.clone();setattr(w,'biomass',torch.ones(4,4));logic_330(a,w);assert torch.any(a.hunger!=b)
