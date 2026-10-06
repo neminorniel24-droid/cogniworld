@@ -318,3 +318,6 @@ def test_logic_723():
 def test_logic_724():
     from agent_rules.rules import logic_724
     _check(logic_724, 'group_stability', 'cooperation', 1)
+def test_logic_725():
+    from agent_rules.rules import logic_725
+    _check(logic_725, 'sharing_capacity', 'defection', 1)
