@@ -3108,3 +3108,7 @@ def logic_1767(world):
 def logic_1768(world):
     # herbivores support predators; modulated by temperature.
     _feedback(world, 'herbivore', 'predator', 1, 'seasonal_gate')
+
+def logic_1769(world):
+    # herbivores support predators; saturates at high source levels.
+    _feedback(world, 'herbivore', 'predator', 1, 'saturation')
