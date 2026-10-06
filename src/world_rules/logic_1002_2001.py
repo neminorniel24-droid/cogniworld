@@ -1688,3 +1688,7 @@ def logic_1412(world):
 def logic_1413(world):
     # roots retain soil; stronger under fire pressure.
     _feedback(world, 'root_density', 'soil_depth', 1, 'fire_gate')
+
+def logic_1414(world):
+    # roots retain soil; stronger when surface water is high.
+    _feedback(world, 'root_density', 'soil_depth', 1, 'water_gate')
