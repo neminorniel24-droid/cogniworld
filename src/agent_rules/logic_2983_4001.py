@@ -2522,3 +2522,7 @@ def logic_3622(agents, world):
 def logic_3623(agents, world):
     # surface_water -> competition_score; pulse coupling.
     _update(agents, 'competition_score', _desired(agents, world, 'surface_water', 'competition_score', 'pulse'))
+
+def logic_3624(agents, world):
+    # surface_water -> competition_score; feedback coupling.
+    _update(agents, 'competition_score', _desired(agents, world, 'surface_water', 'competition_score', 'feedback'))
