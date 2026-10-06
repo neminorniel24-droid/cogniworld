@@ -632,3 +632,7 @@ def logic_1148(world):
 def logic_1149(world):
     # soil moisture supports vegetation; stronger when vegetation is scarce.
     _feedback(world, 'soil_moisture', 'vegetation', 1, 'scarcity_gate')
+
+def logic_1150(world):
+    # soil moisture supports vegetation; stronger when biomass is high.
+    _feedback(world, 'soil_moisture', 'vegetation', 1, 'biomass_gate')
