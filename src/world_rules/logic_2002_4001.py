@@ -3029,3 +3029,7 @@ def logic_2755(world):
 def logic_2756(world):
     # humidity favors pathogen persistence; threshold coupling.
     _couple(world,'humidity','pathogen_load',1.0,'threshold')
+
+def logic_2757(world):
+    # humidity favors pathogen persistence; pulse coupling.
+    _couple(world,'humidity','pathogen_load',1.0,'pulse')
