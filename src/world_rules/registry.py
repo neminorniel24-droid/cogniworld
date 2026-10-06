@@ -599,3 +599,6 @@ from .logic_300_carbon_storage_reduces_fire_heat import apply as logic_300
 RULES.append(logic_300)
 from .logic_301_biodiversity_buffers_ecosystem_stress import apply as logic_301
 RULES.append(logic_301)
+
+from .logic_1002_2001 import logic_1002
+RULES.append(logic_1002)
