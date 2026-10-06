@@ -1200,3 +1200,5 @@ def logic_918(agents,world):
     agents.attack_success=_delta(agents.attack_success,+0.002*agents.sharing_score)
 def logic_919(agents,world):
     agents.defense_score=_delta(agents.defense_score,+0.002*agents.help_score)
+def logic_920(agents,world):
+    agents.migration_score=_delta(agents.migration_score,+0.002*agents.attack_success)
