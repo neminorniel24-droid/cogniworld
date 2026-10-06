@@ -352,3 +352,5 @@ def logic_475(agents,world):
  v=torch.clamp(agents.resource_scarcity,0,2);agents.caution=_delta(agents.caution,v*0.001)
 def logic_476(agents,world):
  v=torch.clamp(agents.resource_scarcity,0,2);agents.attack_threshold=_delta(agents.attack_threshold,v*0.001)
+def logic_477(agents,world):
+ v=torch.clamp(agents.resource_abundance,0,2);agents.group_stability=_delta(agents.group_stability,v*0.001)
