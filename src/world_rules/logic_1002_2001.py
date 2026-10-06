@@ -760,3 +760,7 @@ def logic_1180(world):
 def logic_1181(world):
     # soil moisture supports seed persistence; saturates at high source levels.
     _feedback(world, 'soil_moisture', 'seed_bank', 1, 'saturation')
+
+def logic_1182(world):
+    # soil moisture supports seed persistence; activates above a food threshold.
+    _feedback(world, 'soil_moisture', 'seed_bank', 1, 'threshold')
