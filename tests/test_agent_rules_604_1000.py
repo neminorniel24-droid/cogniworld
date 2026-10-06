@@ -558,3 +558,6 @@ def test_logic_803():
 def test_logic_804():
     from agent_rules.rules import logic_804
     _check(logic_804, 'caution', 'trust', 1)
+def test_logic_805():
+    from agent_rules.rules import logic_805
+    _check(logic_805, 'confidence', 'cooperation', 1)
