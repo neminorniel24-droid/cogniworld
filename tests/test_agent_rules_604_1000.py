@@ -822,3 +822,6 @@ def test_logic_891():
 def test_logic_892():
     from agent_rules.rules import logic_892
     _check(logic_892, 'competition_score', 'confidence', 1)
+def test_logic_893():
+    from agent_rules.rules import logic_893
+    _check(logic_893, 'defection_score', 'caution', 1)
