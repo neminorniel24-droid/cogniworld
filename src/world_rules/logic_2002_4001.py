@@ -769,3 +769,7 @@ def logic_2190(world):
 def logic_2191(world):
     # fire increases ash; reserve coupling.
     _couple(world,'fire_risk','ash',0.9,'positive')
+
+def logic_2192(world):
+    # ash alters soil carbon; direct coupling.
+    _couple(world,'ash','soil_carbon',1.0,'positive')
