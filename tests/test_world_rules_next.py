@@ -709,3 +709,12 @@ def test_logic_183():
     w.biomass.zero_()
     apply(w)
     assert torch.allclose(w.biomass, torch.full_like(w.biomass, 0.004))
+
+def test_logic_184():
+    from world_rules.logic_184_habitat_stress_reduces_biomass import apply
+    w = make_world()
+    w.habitat_stress.fill_(1.0)
+    w.biomass.fill_(1.0)
+    before=w.biomass.clone()
+    apply(w)
+    assert torch.all(w.biomass < before)

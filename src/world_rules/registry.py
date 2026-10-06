@@ -363,3 +363,5 @@ from .logic_182_drought_reduces_biomass import apply as logic_182
 RULES.append(logic_182)
 from .logic_183_water_abundance_supports_biomass import apply as logic_183
 RULES.append(logic_183)
+from .logic_184_habitat_stress_reduces_biomass import apply as logic_184
+RULES.append(logic_184)
