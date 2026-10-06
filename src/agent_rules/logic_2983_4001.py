@@ -3962,3 +3962,7 @@ def logic_3982(agents, world):
 def logic_3983(agents, world):
     # groundwater -> pathogen_risk; inverse coupling.
     _update(agents, 'pathogen_risk', _desired(agents, world, 'groundwater', 'pathogen_risk', 'inverse'))
+
+def logic_3984(agents, world):
+    # groundwater -> pathogen_risk; threshold coupling.
+    _update(agents, 'pathogen_risk', _desired(agents, world, 'groundwater', 'pathogen_risk', 'threshold'))
