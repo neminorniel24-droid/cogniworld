@@ -102,3 +102,7 @@ def logic_3017(agents, world):
 def logic_3018(agents, world):
     # surface_water -> thirst; threshold coupling.
     _update(agents, 'thirst', _desired(agents, world, 'surface_water', 'thirst', 'threshold'))
+
+def logic_3019(agents, world):
+    # surface_water -> thirst; strong coupling.
+    _update(agents, 'thirst', _desired(agents, world, 'surface_water', 'thirst', 'strong'))
