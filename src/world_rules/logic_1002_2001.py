@@ -1940,3 +1940,7 @@ def logic_1475(world):
 def logic_1476(world):
     # high CO2 stress reduces photosynthetic efficiency; activates above a food threshold.
     _feedback(world, 'co2', 'photosynthesis_factor', -1, 'threshold')
+
+def logic_1477(world):
+    # high CO2 stress reduces photosynthetic efficiency; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'co2', 'photosynthesis_factor', -1, 'recovery')
