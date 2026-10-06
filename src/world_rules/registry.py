@@ -327,3 +327,5 @@ from .logic_164_vegetation_buffers_habitat_stress import apply as logic_164
 RULES.append(logic_164)
 from .logic_165_overgrazing_reduces_vegetation import apply as logic_165
 RULES.append(logic_165)
+from .logic_166_predators_curb_herbivores import apply as logic_166
+RULES.append(logic_166)

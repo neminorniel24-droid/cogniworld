@@ -554,3 +554,12 @@ def test_logic_165():
     before=w.vegetation.clone()
     apply(w)
     assert torch.all(w.vegetation < before)
+
+def test_logic_166():
+    from world_rules.logic_166_predators_curb_herbivores import apply
+    w = make_world()
+    w.predator.fill_(1.0)
+    w.herbivore.fill_(1.0)
+    before=w.herbivore.clone()
+    apply(w)
+    assert torch.all(w.herbivore < before)
