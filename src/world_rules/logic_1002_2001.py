@@ -3916,3 +3916,7 @@ def logic_1969(world):
 def logic_1970(world):
     # humid air lowers fire risk; stronger when soil is wet.
     _feedback(world, 'humidity', 'fire_risk', -1, 'wet_gate')
+
+def logic_1971(world):
+    # humid air lowers fire risk; stronger when temperature is high.
+    _feedback(world, 'humidity', 'fire_risk', -1, 'heat_gate')
