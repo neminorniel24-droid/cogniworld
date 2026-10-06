@@ -2928,3 +2928,7 @@ def logic_1722(world):
 def logic_1723(world):
     # vegetation supports herbivores; stronger when vegetation is scarce.
     _feedback(world, 'vegetation', 'herbivore', 1, 'scarcity_gate')
+
+def logic_1724(world):
+    # vegetation supports herbivores; stronger when biomass is high.
+    _feedback(world, 'vegetation', 'herbivore', 1, 'biomass_gate')
