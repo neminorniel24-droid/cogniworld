@@ -3512,3 +3512,7 @@ def logic_1868(world):
 def logic_1869(world):
     # salinity suppresses freshwater algae; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'salinity', 'algae', -1, 'recovery')
+
+def logic_1870(world):
+    # algae contribute oxygen; direct.
+    _feedback(world, 'algae', 'oxygen', 1, 'baseline')
