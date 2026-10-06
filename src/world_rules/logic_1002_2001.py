@@ -3404,3 +3404,7 @@ def logic_1841(world):
 def logic_1842(world):
     # habitat stress erodes diversity; direct.
     _feedback(world, 'habitat_stress', 'biodiversity', -1, 'baseline')
+
+def logic_1843(world):
+    # habitat stress erodes diversity; stronger when soil is dry.
+    _feedback(world, 'habitat_stress', 'biodiversity', -1, 'dry_gate')
