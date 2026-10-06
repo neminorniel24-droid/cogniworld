@@ -1049,3 +1049,8 @@ def test_logic_238():
     from world_rules.logic_238_fire_releases_deadwood_carbon import apply
     w = make_world()
     w.carbon_storage.fill_(1.0); w.fire_risk.fill_(1.0); w.deadwood.fill_(1.0); apply(w); assert torch.allclose(w.carbon_storage, torch.full_like(w.carbon_storage, 0.996))
+
+def test_logic_239():
+    from world_rules.logic_239_vegetation_supports_pollinators import apply
+    w = make_world()
+    w.pollinators.zero_(); w.vegetation.fill_(1.0); apply(w); assert torch.allclose(w.pollinators, torch.full_like(w.pollinators, 0.01))
