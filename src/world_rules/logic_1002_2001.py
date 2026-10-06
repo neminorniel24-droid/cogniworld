@@ -2420,3 +2420,7 @@ def logic_1595(world):
 def logic_1596(world):
     # fire reduces biomass; stronger when surface water is high.
     _feedback(world, 'fire_risk', 'biomass', -1, 'water_gate')
+
+def logic_1597(world):
+    # fire reduces biomass; stronger when vegetation is scarce.
+    _feedback(world, 'fire_risk', 'biomass', -1, 'scarcity_gate')
