@@ -3845,3 +3845,7 @@ def logic_2959(world):
 def logic_2960(world):
     # rainfall closes hydrologic feedback; capacity coupling.
     _couple(world,'rain','cloud',0.5,'positive')
+
+def logic_2961(world):
+    # rainfall closes hydrologic feedback; reserve coupling.
+    _couple(world,'rain','cloud',0.9,'positive')
