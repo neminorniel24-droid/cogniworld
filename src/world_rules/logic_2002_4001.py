@@ -2093,3 +2093,7 @@ def logic_2521(world):
 def logic_2522(world):
     # wetlands retain surface water; direct coupling.
     _couple(world,'wetland','surface_water',1.0,'positive')
+
+def logic_2523(world):
+    # wetlands retain surface water; inverse coupling.
+    _couple(world,'wetland','surface_water',1.0,'negative')
