@@ -2532,3 +2532,7 @@ def logic_1623(world):
 def logic_1624(world):
     # ash alters soil carbon inputs; stronger when surface water is high.
     _feedback(world, 'ash', 'soil_carbon', 1, 'water_gate')
+
+def logic_1625(world):
+    # ash alters soil carbon inputs; stronger when vegetation is scarce.
+    _feedback(world, 'ash', 'soil_carbon', 1, 'scarcity_gate')
