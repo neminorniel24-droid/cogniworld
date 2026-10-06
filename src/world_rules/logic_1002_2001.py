@@ -880,3 +880,7 @@ def logic_1210(world):
 def logic_1211(world):
     # cloud water produces rain; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'cloud', 'rain', 1, 'recovery')
+
+def logic_1212(world):
+    # cloud cover reduces heating; direct.
+    _feedback(world, 'cloud', 'temperature', -1, 'baseline')
