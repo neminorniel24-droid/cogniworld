@@ -854,3 +854,7 @@ def logic_3205(agents, world):
 def logic_3206(agents, world):
     # surface_water -> exploration_drive; capacity coupling.
     _update(agents, 'exploration_drive', _desired(agents, world, 'surface_water', 'exploration_drive', 'capacity'))
+
+def logic_3207(agents, world):
+    # surface_water -> exploration_drive; reserve coupling.
+    _update(agents, 'exploration_drive', _desired(agents, world, 'surface_water', 'exploration_drive', 'reserve'))
