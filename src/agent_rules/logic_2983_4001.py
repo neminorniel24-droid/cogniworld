@@ -1202,3 +1202,7 @@ def logic_3292(agents, world):
 def logic_3293(agents, world):
     # surface_water -> reputation; stress coupling.
     _update(agents, 'reputation', _desired(agents, world, 'surface_water', 'reputation', 'stress'))
+
+def logic_3294(agents, world):
+    # surface_water -> reputation; recovery coupling.
+    _update(agents, 'reputation', _desired(agents, world, 'surface_water', 'reputation', 'recovery'))
