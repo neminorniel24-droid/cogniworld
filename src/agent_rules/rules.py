@@ -1024,3 +1024,5 @@ def logic_830(agents,world):
     agents.strategy_confidence=_delta(agents.strategy_confidence,+0.002*agents.last_reward)
 def logic_831(agents,world):
     agents.risk_tolerance=_delta(agents.risk_tolerance,+0.002*agents.last_energy_delta)
+def logic_832(agents,world):
+    agents.confidence=_delta(agents.confidence,+0.002*agents.last_food)

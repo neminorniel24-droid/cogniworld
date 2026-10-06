@@ -639,3 +639,6 @@ def test_logic_830():
 def test_logic_831():
     from agent_rules.rules import logic_831
     _check(logic_831, 'last_energy_delta', 'risk_tolerance', 1)
+def test_logic_832():
+    from agent_rules.rules import logic_832
+    _check(logic_832, 'last_food', 'confidence', 1)
