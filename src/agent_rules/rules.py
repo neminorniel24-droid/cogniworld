@@ -648,3 +648,5 @@ def logic_642(agents,world):
     agents.migration_score=_delta(agents.migration_score,+0.002*agents.health)
 def logic_643(agents,world):
     agents.reproduction_score=_delta(agents.reproduction_score,+0.002*agents.hydration)
+def logic_644(agents,world):
+    agents.exploration_score=_delta(agents.exploration_score,+0.002*agents.thirst)

@@ -75,3 +75,6 @@ def test_logic_642():
 def test_logic_643():
     from agent_rules.rules import logic_643
     _check(logic_643, 'hydration', 'reproduction_score', 1)
+def test_logic_644():
+    from agent_rules.rules import logic_644
+    _check(logic_644, 'thirst', 'exploration_score', 1)
