@@ -383,3 +383,5 @@ from .logic_192_wet_soil_adds_humidity import apply as logic_192
 RULES.append(logic_192)
 from .logic_193_dry_soil_reduces_humidity import apply as logic_193
 RULES.append(logic_193)
+from .logic_194_wetlands_add_water_vapor import apply as logic_194
+RULES.append(logic_194)

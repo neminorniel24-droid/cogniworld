@@ -796,3 +796,11 @@ def test_logic_193():
     before=w.humidity.clone()
     apply(w)
     assert torch.all(w.humidity < before)
+
+def test_logic_194():
+    from world_rules.logic_194_wetlands_add_water_vapor import apply
+    w = make_world()
+    w.wetland.fill_(1.0)
+    w.humidity.zero_()
+    apply(w)
+    assert torch.allclose(w.humidity, torch.full_like(w.humidity, 0.003))
