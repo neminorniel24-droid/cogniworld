@@ -3776,3 +3776,7 @@ def logic_1934(world):
 def logic_1935(world):
     # CO2 increases warming pressure; stronger under habitat stress.
     _feedback(world, 'co2', 'temperature', 1, 'stress_gate')
+
+def logic_1936(world):
+    # CO2 increases warming pressure; modulated by temperature.
+    _feedback(world, 'co2', 'temperature', 1, 'seasonal_gate')
