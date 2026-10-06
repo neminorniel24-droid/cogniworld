@@ -1199,3 +1199,8 @@ def test_logic_268():
     from world_rules.logic_268_deadwood_reduces_biodiversity_when_accumulated import apply
     w = make_world()
     w.biodiversity.fill_(1.0); w.deadwood.fill_(1.0); apply(w); assert torch.allclose(w.biodiversity, torch.full_like(w.biodiversity, 0.999))
+
+def test_logic_269():
+    from world_rules.logic_269_high_biodiversity_reduces_fire_spread import apply
+    w = make_world()
+    w.fire_risk.fill_(1.0); w.biodiversity.fill_(1.0); apply(w); assert torch.allclose(w.fire_risk, torch.full_like(w.fire_risk, 0.998))

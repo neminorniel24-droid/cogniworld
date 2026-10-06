@@ -533,3 +533,5 @@ from .logic_267_groundwater_reduces_fire_risk import apply as logic_267
 RULES.append(logic_267)
 from .logic_268_deadwood_reduces_biodiversity_when_accumulated import apply as logic_268
 RULES.append(logic_268)
+from .logic_269_high_biodiversity_reduces_fire_spread import apply as logic_269
+RULES.append(logic_269)
