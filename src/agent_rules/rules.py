@@ -994,3 +994,5 @@ def logic_815(agents,world):
     agents.future_payoff_weight=_delta(agents.future_payoff_weight,+0.002*agents.strategy_score)
 def logic_816(agents,world):
     agents.strategy_confidence=_delta(agents.strategy_confidence,+0.002*agents.cooperation_score)
+def logic_817(agents,world):
+    agents.risk_tolerance=_delta(agents.risk_tolerance,+0.002*agents.competition_score)
