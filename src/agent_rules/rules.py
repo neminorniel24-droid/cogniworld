@@ -162,3 +162,5 @@ def logic_380(agents,world):
  v=_local(world,agents,'surface_ice');agents.thermal_stress=_delta(agents.thermal_stress,v*0.001)
 def logic_381(agents,world):
  v=_local(world,agents,'organic_matter');agents.hunger=_delta(agents.hunger,v*0.001)
+def logic_382(agents,world):
+ v=_local(world,agents,'organic_matter');agents.recovery=_delta(agents.recovery,v*0.001)

@@ -157,3 +157,5 @@ from .rules import logic_380
 RULES.append(logic_380)
 from .rules import logic_381
 RULES.append(logic_381)
+from .rules import logic_382
+RULES.append(logic_382)
