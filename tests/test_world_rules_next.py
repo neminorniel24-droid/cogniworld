@@ -735,3 +735,11 @@ def test_logic_186():
     w.carrion.zero_()
     apply(w)
     assert torch.allclose(w.carrion, torch.full_like(w.carrion, 0.001))
+
+def test_logic_187():
+    from world_rules.logic_187_low_nutrients_raise_habitat_stress import apply
+    w = make_world()
+    w.nutrients.zero_()
+    w.habitat_stress.zero_()
+    apply(w)
+    assert torch.allclose(w.habitat_stress, torch.full_like(w.habitat_stress, 0.003))

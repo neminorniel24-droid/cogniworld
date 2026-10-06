@@ -369,3 +369,5 @@ from .logic_185_biodiversity_buffers_stress import apply as logic_185
 RULES.append(logic_185)
 from .logic_186_detritus_supports_carrion_recovery import apply as logic_186
 RULES.append(logic_186)
+from .logic_187_low_nutrients_raise_habitat_stress import apply as logic_187
+RULES.append(logic_187)
