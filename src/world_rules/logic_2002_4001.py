@@ -205,3 +205,7 @@ def logic_2049(world):
 def logic_2050(world):
     # biomass contributes organic matter; capacity coupling.
     _couple(world,'biomass','organic_matter',0.5,'positive')
+
+def logic_2051(world):
+    # biomass contributes organic matter; reserve coupling.
+    _couple(world,'biomass','organic_matter',0.9,'positive')
