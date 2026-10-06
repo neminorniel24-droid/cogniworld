@@ -3750,3 +3750,7 @@ def logic_3929(agents, world):
 def logic_3930(agents, world):
     # groundwater -> hunger; limited coupling.
     _update(agents, 'hunger', _desired(agents, world, 'groundwater', 'hunger', 'limited'))
+
+def logic_3931(agents, world):
+    # groundwater -> hunger; pulse coupling.
+    _update(agents, 'hunger', _desired(agents, world, 'groundwater', 'hunger', 'pulse'))
