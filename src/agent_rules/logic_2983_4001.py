@@ -2634,3 +2634,7 @@ def logic_3650(agents, world):
 def logic_3651(agents, world):
     # surface_water -> reciprocity_score; pulse coupling.
     _update(agents, 'reciprocity_score', _desired(agents, world, 'surface_water', 'reciprocity_score', 'pulse'))
+
+def logic_3652(agents, world):
+    # surface_water -> reciprocity_score; feedback coupling.
+    _update(agents, 'reciprocity_score', _desired(agents, world, 'surface_water', 'reciprocity_score', 'feedback'))
