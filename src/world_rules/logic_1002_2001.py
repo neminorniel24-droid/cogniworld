@@ -2172,3 +2172,7 @@ def logic_1533(world):
 def logic_1534(world):
     # deadwood feeds organic matter; direct.
     _feedback(world, 'deadwood', 'organic_matter', 1, 'baseline')
+
+def logic_1535(world):
+    # deadwood feeds organic matter; stronger when soil is dry.
+    _feedback(world, 'deadwood', 'organic_matter', 1, 'dry_gate')
