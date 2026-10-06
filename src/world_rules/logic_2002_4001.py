@@ -3281,3 +3281,7 @@ def logic_2818(world):
 def logic_2819(world):
     # ice cover buffers temperature; counterpressure coupling.
     _couple(world,'surface_ice','temperature',0.8,'negative')
+
+def logic_2820(world):
+    # ice cover buffers temperature; capacity coupling.
+    _couple(world,'surface_ice','temperature',0.5,'positive')
