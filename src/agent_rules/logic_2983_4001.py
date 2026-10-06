@@ -1446,3 +1446,7 @@ def logic_3353(agents, world):
 def logic_3354(agents, world):
     # surface_water -> conflict_pressure; threshold coupling.
     _update(agents, 'conflict_pressure', _desired(agents, world, 'surface_water', 'conflict_pressure', 'threshold'))
+
+def logic_3355(agents, world):
+    # surface_water -> conflict_pressure; strong coupling.
+    _update(agents, 'conflict_pressure', _desired(agents, world, 'surface_water', 'conflict_pressure', 'strong'))
