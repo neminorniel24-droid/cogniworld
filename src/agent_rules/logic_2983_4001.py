@@ -258,3 +258,7 @@ def logic_3056(agents, world):
 def logic_3057(agents, world):
     # surface_water -> health; persistence coupling.
     _update(agents, 'health', _desired(agents, world, 'surface_water', 'health', 'persistence'))
+
+def logic_3058(agents, world):
+    # surface_water -> thermal_stress; direct coupling.
+    _update(agents, 'thermal_stress', _desired(agents, world, 'surface_water', 'thermal_stress', 'direct'))
