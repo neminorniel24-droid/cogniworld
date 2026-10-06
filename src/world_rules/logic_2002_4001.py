@@ -377,3 +377,7 @@ def logic_2092(world):
 def logic_2093(world):
     # humidity suppresses evaporation; inverse coupling.
     _couple(world,'humidity','evaporation',1.0,'negative')
+
+def logic_2094(world):
+    # humidity suppresses evaporation; limited coupling.
+    _couple(world,'humidity','evaporation',0.65,'positive')
