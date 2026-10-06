@@ -2680,3 +2680,7 @@ def logic_1660(world):
 def logic_1661(world):
     # pollination sustains flowering; stronger when soil is dry.
     _feedback(world, 'pollinators', 'flowers', 1, 'dry_gate')
+
+def logic_1662(world):
+    # pollination sustains flowering; stronger when soil is wet.
+    _feedback(world, 'pollinators', 'flowers', 1, 'wet_gate')
