@@ -913,3 +913,7 @@ def logic_2226(world):
 def logic_2227(world):
     # decomposition releases nutrients; pulse coupling.
     _couple(world,'decomposition_rate','nutrients',1.0,'pulse')
+
+def logic_2228(world):
+    # decomposition releases nutrients; feedback coupling.
+    _couple(world,'decomposition_rate','nutrients',0.8,'positive')
