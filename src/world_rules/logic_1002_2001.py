@@ -2820,3 +2820,7 @@ def logic_1695(world):
 def logic_1696(world):
     # vegetation replenishes seeds; stronger when biomass is high.
     _feedback(world, 'vegetation', 'seed_bank', 1, 'biomass_gate')
+
+def logic_1697(world):
+    # vegetation replenishes seeds; stronger under habitat stress.
+    _feedback(world, 'vegetation', 'seed_bank', 1, 'stress_gate')
