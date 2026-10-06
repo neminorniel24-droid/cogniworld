@@ -2828,3 +2828,7 @@ def logic_1697(world):
 def logic_1698(world):
     # vegetation replenishes seeds; modulated by temperature.
     _feedback(world, 'vegetation', 'seed_bank', 1, 'seasonal_gate')
+
+def logic_1699(world):
+    # vegetation replenishes seeds; saturates at high source levels.
+    _feedback(world, 'vegetation', 'seed_bank', 1, 'saturation')
