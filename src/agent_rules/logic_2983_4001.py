@@ -2458,3 +2458,7 @@ def logic_3606(agents, world):
 def logic_3607(agents, world):
     # surface_water -> cooperation_score; strong coupling.
     _update(agents, 'cooperation_score', _desired(agents, world, 'surface_water', 'cooperation_score', 'strong'))
+
+def logic_3608(agents, world):
+    # surface_water -> cooperation_score; limited coupling.
+    _update(agents, 'cooperation_score', _desired(agents, world, 'surface_water', 'cooperation_score', 'limited'))
