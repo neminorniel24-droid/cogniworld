@@ -356,3 +356,12 @@ def test_logic_142():
     w.carbon_storage.zero_()
     apply(w)
     assert torch.allclose(w.carbon_storage, torch.full_like(w.carbon_storage, 0.01))
+
+def test_logic_143():
+    from world_rules.logic_143_biomass_produces_oxygen import apply
+    w = make_world()
+    w.biomass.fill_(1.0)
+    w.photosynthesis_factor.fill_(1.0)
+    w.oxygen.zero_()
+    apply(w)
+    assert torch.allclose(w.oxygen, torch.full_like(w.oxygen, 0.008))

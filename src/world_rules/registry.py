@@ -281,3 +281,5 @@ from .logic_141_drought_releases_carbon import apply as logic_141
 RULES.append(logic_141)
 from .logic_142_biomass_builds_carbon_storage import apply as logic_142
 RULES.append(logic_142)
+from .logic_143_biomass_produces_oxygen import apply as logic_143
+RULES.append(logic_143)
