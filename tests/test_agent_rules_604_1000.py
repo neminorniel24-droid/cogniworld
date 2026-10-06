@@ -306,3 +306,6 @@ def test_logic_719():
 def test_logic_720():
     from agent_rules.rules import logic_720
     _check(logic_720, 'aggression', 'help_score', -1)
+def test_logic_721():
+    from agent_rules.rules import logic_721
+    _check(logic_721, 'conflict_pressure', 'sharing_score', -1)
