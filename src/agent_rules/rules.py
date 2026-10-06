@@ -696,3 +696,5 @@ def logic_666(agents,world):
     agents.learning_rate=_delta(agents.learning_rate,+0.002*agents.thermal_stress)
 def logic_667(agents,world):
     agents.resource_discovery=_delta(agents.resource_discovery,+0.002*agents.dehydration)
+def logic_668(agents,world):
+    agents.sharing_capacity=_delta(agents.sharing_capacity,-0.002*agents.pathogen_risk)

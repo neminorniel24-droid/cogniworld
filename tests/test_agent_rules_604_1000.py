@@ -147,3 +147,6 @@ def test_logic_666():
 def test_logic_667():
     from agent_rules.rules import logic_667
     _check(logic_667, 'dehydration', 'resource_discovery', 1)
+def test_logic_668():
+    from agent_rules.rules import logic_668
+    _check(logic_668, 'pathogen_risk', 'sharing_capacity', -1)
