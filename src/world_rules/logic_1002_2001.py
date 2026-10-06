@@ -936,3 +936,7 @@ def logic_1224(world):
 def logic_1225(world):
     # cloud cover reduces heating; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'cloud', 'temperature', -1, 'recovery')
+
+def logic_1226(world):
+    # warmth increases evaporation; direct.
+    _feedback(world, 'temperature', 'evaporation', 1, 'baseline')
