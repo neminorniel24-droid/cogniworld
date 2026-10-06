@@ -2788,3 +2788,7 @@ def logic_1687(world):
 def logic_1688(world):
     # vegetation replenishes seeds; direct.
     _feedback(world, 'vegetation', 'seed_bank', 1, 'baseline')
+
+def logic_1689(world):
+    # vegetation replenishes seeds; stronger when soil is dry.
+    _feedback(world, 'vegetation', 'seed_bank', 1, 'dry_gate')
