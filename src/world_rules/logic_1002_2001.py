@@ -4016,3 +4016,7 @@ def logic_1994(world):
 def logic_1995(world):
     # deadwood fuels fire risk; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'deadwood', 'fire_risk', 1, 'recovery')
+
+def logic_1996(world):
+    # wetlands emit methane; direct.
+    _feedback(world, 'wetland', 'methane', 1, 'baseline')
