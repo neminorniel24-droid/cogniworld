@@ -3548,3 +3548,7 @@ def logic_1877(world):
 def logic_1878(world):
     # algae contribute oxygen; stronger when biomass is high.
     _feedback(world, 'algae', 'oxygen', 1, 'biomass_gate')
+
+def logic_1879(world):
+    # algae contribute oxygen; stronger under habitat stress.
+    _feedback(world, 'algae', 'oxygen', 1, 'stress_gate')
