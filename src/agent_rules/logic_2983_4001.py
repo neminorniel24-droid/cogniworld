@@ -2818,3 +2818,7 @@ def logic_3696(agents, world):
 def logic_3697(agents, world):
     # surface_water -> exploration_score; reserve coupling.
     _update(agents, 'exploration_score', _desired(agents, world, 'surface_water', 'exploration_score', 'reserve'))
+
+def logic_3698(agents, world):
+    # surface_water -> exploration_score; scarcity coupling.
+    _update(agents, 'exploration_score', _desired(agents, world, 'surface_water', 'exploration_score', 'scarcity'))
