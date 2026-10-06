@@ -2889,3 +2889,7 @@ def logic_2720(world):
 def logic_2721(world):
     # CO2 availability shapes photosynthesis; reserve coupling.
     _couple(world,'co2','photosynthesis_factor',0.9,'positive')
+
+def logic_2722(world):
+    # temperature changes photosynthetic efficiency; direct coupling.
+    _couple(world,'temperature','photosynthesis_factor',1.0,'positive')
