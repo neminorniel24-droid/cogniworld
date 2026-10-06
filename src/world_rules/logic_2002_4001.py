@@ -3261,3 +3261,7 @@ def logic_2813(world):
 def logic_2814(world):
     # ice cover buffers temperature; limited coupling.
     _couple(world,'surface_ice','temperature',0.65,'positive')
+
+def logic_2815(world):
+    # ice cover buffers temperature; strong coupling.
+    _couple(world,'surface_ice','temperature',1.35,'positive')
