@@ -38,3 +38,7 @@ def _desired(agents, world, source, target, mode):
 def logic_3002(agents, world):
     # surface_water -> hydration; direct coupling.
     _update(agents, 'hydration', _desired(agents, world, 'surface_water', 'hydration', 'direct'))
+
+def logic_3003(agents, world):
+    # surface_water -> hydration; inverse coupling.
+    _update(agents, 'hydration', _desired(agents, world, 'surface_water', 'hydration', 'inverse'))
