@@ -1398,3 +1398,7 @@ def logic_3341(agents, world):
 def logic_3342(agents, world):
     # surface_water -> aggression; limited coupling.
     _update(agents, 'aggression', _desired(agents, world, 'surface_water', 'aggression', 'limited'))
+
+def logic_3343(agents, world):
+    # surface_water -> aggression; pulse coupling.
+    _update(agents, 'aggression', _desired(agents, world, 'surface_water', 'aggression', 'pulse'))
