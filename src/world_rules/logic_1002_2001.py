@@ -2188,3 +2188,7 @@ def logic_1537(world):
 def logic_1538(world):
     # deadwood feeds organic matter; stronger when temperature is low.
     _feedback(world, 'deadwood', 'organic_matter', 1, 'cold_gate')
+
+def logic_1539(world):
+    # deadwood feeds organic matter; stronger under fire pressure.
+    _feedback(world, 'deadwood', 'organic_matter', 1, 'fire_gate')
