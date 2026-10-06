@@ -44,3 +44,7 @@ def _feedback(world, source_name, target_name, sign, variant):
 def logic_1002(world):
     # rainfall raises surface water; direct.
     _feedback(world, 'rain', 'surface_water', 1, 'baseline')
+
+def logic_1003(world):
+    # rainfall raises surface water; stronger when soil is dry.
+    _feedback(world, 'rain', 'surface_water', 1, 'dry_gate')

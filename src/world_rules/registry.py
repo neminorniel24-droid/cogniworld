@@ -602,3 +602,5 @@ RULES.append(logic_301)
 
 from .logic_1002_2001 import logic_1002
 RULES.append(logic_1002)
+from .logic_1002_2001 import logic_1003
+RULES.append(logic_1003)
