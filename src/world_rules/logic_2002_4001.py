@@ -1997,3 +1997,7 @@ def logic_2497(world):
 def logic_2498(world):
     # water availability maintains soil moisture; feedback coupling.
     _couple(world,'surface_water','soil_moisture',0.8,'positive')
+
+def logic_2499(world):
+    # water availability maintains soil moisture; counterpressure coupling.
+    _couple(world,'surface_water','soil_moisture',0.8,'negative')
