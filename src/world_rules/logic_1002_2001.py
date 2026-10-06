@@ -1532,3 +1532,7 @@ def logic_1373(world):
 def logic_1374(world):
     # erosion removes soil depth; stronger when biomass is high.
     _feedback(world, 'erosion', 'soil_depth', -1, 'biomass_gate')
+
+def logic_1375(world):
+    # erosion removes soil depth; stronger under habitat stress.
+    _feedback(world, 'erosion', 'soil_depth', -1, 'stress_gate')
