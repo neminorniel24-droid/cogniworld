@@ -225,3 +225,6 @@ def test_logic_692():
 def test_logic_693():
     from agent_rules.rules import logic_693
     _check(logic_693, 'metabolic_cost', 'foraging_score', 1)
+def test_logic_694():
+    from agent_rules.rules import logic_694
+    _check(logic_694, 'reproduction_drive', 'migration_score', 1)
