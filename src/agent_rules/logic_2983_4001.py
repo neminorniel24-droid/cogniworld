@@ -210,3 +210,7 @@ def logic_3044(agents, world):
 def logic_3045(agents, world):
     # surface_water -> health; inverse coupling.
     _update(agents, 'health', _desired(agents, world, 'surface_water', 'health', 'inverse'))
+
+def logic_3046(agents, world):
+    # surface_water -> health; threshold coupling.
+    _update(agents, 'health', _desired(agents, world, 'surface_water', 'health', 'threshold'))
