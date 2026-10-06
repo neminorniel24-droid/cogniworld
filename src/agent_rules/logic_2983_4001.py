@@ -2562,3 +2562,7 @@ def logic_3632(agents, world):
 def logic_3633(agents, world):
     # surface_water -> defection_score; inverse coupling.
     _update(agents, 'defection_score', _desired(agents, world, 'surface_water', 'defection_score', 'inverse'))
+
+def logic_3634(agents, world):
+    # surface_water -> defection_score; threshold coupling.
+    _update(agents, 'defection_score', _desired(agents, world, 'surface_water', 'defection_score', 'threshold'))
