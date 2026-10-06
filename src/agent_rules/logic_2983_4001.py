@@ -878,3 +878,7 @@ def logic_3211(agents, world):
 def logic_3212(agents, world):
     # surface_water -> food_access; direct coupling.
     _update(agents, 'food_access', _desired(agents, world, 'surface_water', 'food_access', 'direct'))
+
+def logic_3213(agents, world):
+    # surface_water -> food_access; inverse coupling.
+    _update(agents, 'food_access', _desired(agents, world, 'surface_water', 'food_access', 'inverse'))
