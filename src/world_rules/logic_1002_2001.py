@@ -2372,3 +2372,7 @@ def logic_1583(world):
 def logic_1584(world):
     # fire reduces vegetation; stronger when biomass is high.
     _feedback(world, 'fire_risk', 'vegetation', -1, 'biomass_gate')
+
+def logic_1585(world):
+    # fire reduces vegetation; stronger under habitat stress.
+    _feedback(world, 'fire_risk', 'vegetation', -1, 'stress_gate')
