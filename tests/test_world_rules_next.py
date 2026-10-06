@@ -72,3 +72,11 @@ def test_logic_109():
     w.evaporation.zero_()
     apply(w)
     assert torch.allclose(w.evaporation, torch.full_like(w.evaporation, 0.006))
+
+def test_logic_110():
+    from world_rules.logic_110_dry_air_increases_evaporation import apply
+    w = make_world()
+    w.humidity.zero_()
+    w.evaporation.zero_()
+    apply(w)
+    assert torch.allclose(w.evaporation, torch.full_like(w.evaporation, 0.005))

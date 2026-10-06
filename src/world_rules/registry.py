@@ -215,3 +215,5 @@ from .logic_108_clouds_add_greenhouse_warming import apply as logic_108
 RULES.append(logic_108)
 from .logic_109_wind_increases_evaporation import apply as logic_109
 RULES.append(logic_109)
+from .logic_110_dry_air_increases_evaporation import apply as logic_110
+RULES.append(logic_110)
