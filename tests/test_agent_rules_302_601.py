@@ -345,3 +345,8 @@ def test_logic_369():
 def test_logic_370():
  from agent_rules.rules import logic_370
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.health.clone();setattr(w,'carbon_storage',torch.ones(4,4));logic_370(a,w);assert torch.any(a.health!=b)
+
+
+def test_logic_371():
+ from agent_rules.rules import logic_371
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.risk_tolerance.clone();setattr(w,'carbon_storage',torch.ones(4,4));logic_371(a,w);assert torch.any(a.risk_tolerance!=b)
