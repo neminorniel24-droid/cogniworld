@@ -535,3 +535,5 @@ from .logic_268_deadwood_reduces_biodiversity_when_accumulated import apply as l
 RULES.append(logic_268)
 from .logic_269_high_biodiversity_reduces_fire_spread import apply as logic_269
 RULES.append(logic_269)
+from .logic_270_seed_bank_recovers_after_fire import apply as logic_270
+RULES.append(logic_270)
