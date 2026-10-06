@@ -42,3 +42,7 @@ def logic_2989(world):
 def logic_2990(world):
     # decomposition releases nutrients.
     _apply(world, 'decomposition_rate', 'nutrients', 1.0)
+
+def logic_2991(world):
+    # nutrients support vegetation.
+    _apply(world, 'nutrients', 'vegetation', -1.0)
