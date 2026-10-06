@@ -950,3 +950,8 @@ def test_logic_490():
 def test_logic_491():
  from agent_rules.rules import logic_491
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.strategy_confidence.clone();a.neighbor_energy_gap.fill_(1);logic_491(a,w);assert torch.any(a.strategy_confidence!=b)
+
+
+def test_logic_492():
+ from agent_rules.rules import logic_492
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.attack_threshold.clone();a.neighbor_health_gap.fill_(1);logic_492(a,w);assert torch.any(a.attack_threshold!=b)

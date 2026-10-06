@@ -382,3 +382,5 @@ def logic_490(agents,world):
  v=torch.clamp(agents.neighbor_energy_gap,0,2);agents.exploration_drive=_delta(agents.exploration_drive,v*0.001)
 def logic_491(agents,world):
  v=torch.clamp(agents.neighbor_energy_gap,0,2);agents.strategy_confidence=_delta(agents.strategy_confidence,v*0.001)
+def logic_492(agents,world):
+ v=torch.clamp(agents.neighbor_health_gap,0,2);agents.attack_threshold=_delta(agents.attack_threshold,v*0.001)
