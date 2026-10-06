@@ -2214,3 +2214,7 @@ def logic_3545(agents, world):
 def logic_3546(agents, world):
     # surface_water -> future_help; recovery coupling.
     _update(agents, 'future_help', _desired(agents, world, 'surface_water', 'future_help', 'recovery'))
+
+def logic_3547(agents, world):
+    # surface_water -> future_help; persistence coupling.
+    _update(agents, 'future_help', _desired(agents, world, 'surface_water', 'future_help', 'persistence'))
