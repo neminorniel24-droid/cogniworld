@@ -330,3 +330,6 @@ def test_logic_727():
 def test_logic_728():
     from agent_rules.rules import logic_728
     _check(logic_728, 'selfishness', 'competition_pressure', 1)
+def test_logic_729():
+    from agent_rules.rules import logic_729
+    _check(logic_729, 'generosity', 'group_stability', 1)
