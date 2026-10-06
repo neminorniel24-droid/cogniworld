@@ -1284,3 +1284,8 @@ def test_logic_285():
     from world_rules.logic_285_drought_reduces_pollinators import apply
     w = make_world()
     w.pollinators.fill_(1.0); w.soil_moisture.zero_(); apply(w); assert torch.allclose(w.pollinators, torch.full_like(w.pollinators, 0.999))
+
+def test_logic_286():
+    from world_rules.logic_286_humidity_supports_pollinators import apply
+    w = make_world()
+    w.pollinators.zero_(); w.humidity.fill_(1.0); apply(w); assert torch.allclose(w.pollinators, torch.full_like(w.pollinators, 0.001))

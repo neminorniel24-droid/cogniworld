@@ -567,3 +567,5 @@ from .logic_284_rain_increases_herbivore_capacity import apply as logic_284
 RULES.append(logic_284)
 from .logic_285_drought_reduces_pollinators import apply as logic_285
 RULES.append(logic_285)
+from .logic_286_humidity_supports_pollinators import apply as logic_286
+RULES.append(logic_286)
