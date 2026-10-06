@@ -1259,3 +1259,8 @@ def test_logic_280():
     from world_rules.logic_280_algae_raise_biodiversity_at_low_levels import apply
     w = make_world()
     w.biodiversity.zero_(); w.algae.zero_(); apply(w); assert torch.allclose(w.biodiversity, torch.full_like(w.biodiversity, 0.0015))
+
+def test_logic_281():
+    from world_rules.logic_281_excess_algae_reduces_biodiversity import apply
+    w = make_world()
+    w.biodiversity.fill_(1.0); w.algae.fill_(1.0); apply(w); assert torch.allclose(w.biodiversity, torch.full_like(w.biodiversity, 0.997))
