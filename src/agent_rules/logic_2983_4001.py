@@ -2358,3 +2358,7 @@ def logic_3581(agents, world):
 def logic_3582(agents, world):
     # surface_water -> risk_tolerance; feedback coupling.
     _update(agents, 'risk_tolerance', _desired(agents, world, 'surface_water', 'risk_tolerance', 'feedback'))
+
+def logic_3583(agents, world):
+    # surface_water -> risk_tolerance; counterpressure coupling.
+    _update(agents, 'risk_tolerance', _desired(agents, world, 'surface_water', 'risk_tolerance', 'counterpressure'))
