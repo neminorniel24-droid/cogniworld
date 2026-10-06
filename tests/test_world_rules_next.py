@@ -312,3 +312,12 @@ def test_logic_137():
     w.co2.zero_()
     apply(w)
     assert torch.allclose(w.co2, torch.full_like(w.co2, 0.004))
+
+def test_logic_138():
+    from world_rules.logic_138_decomposition_consumes_oxygen import apply
+    w = make_world()
+    w.decomposition_rate.fill_(1.0)
+    w.oxygen.fill_(1.0)
+    before=w.oxygen.clone()
+    apply(w)
+    assert torch.all(w.oxygen < before)
