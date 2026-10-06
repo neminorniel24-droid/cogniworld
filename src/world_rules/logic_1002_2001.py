@@ -3232,3 +3232,7 @@ def logic_1798(world):
 def logic_1799(world):
     # carrion feeds decomposers; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'carrion', 'organic_matter', 1, 'recovery')
+
+def logic_1800(world):
+    # pathogens reduce biodiversity; direct.
+    _feedback(world, 'pathogen_load', 'biodiversity', -1, 'baseline')
