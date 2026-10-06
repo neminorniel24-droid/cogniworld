@@ -3721,3 +3721,7 @@ def logic_2928(world):
 def logic_2929(world):
     # stored carbon reduces atmospheric CO2 pressure; counterpressure coupling.
     _couple(world,'carbon_storage','co2',0.8,'negative')
+
+def logic_2930(world):
+    # stored carbon reduces atmospheric CO2 pressure; capacity coupling.
+    _couple(world,'carbon_storage','co2',0.5,'positive')
