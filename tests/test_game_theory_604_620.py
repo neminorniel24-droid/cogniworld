@@ -32,3 +32,5 @@ def test_habitat_stress_in_ledger():
     assert "habitat_stress" in _event()
 def test_last_interaction_in_ledger():
     assert "last_interaction" in _event()
+def test_strategy_score_in_ledger():
+    assert "strategy_score" in _event()
