@@ -2780,3 +2780,7 @@ def logic_1685(world):
 def logic_1686(world):
     # seed banks support vegetation recovery; activates above a food threshold.
     _feedback(world, 'seed_bank', 'vegetation', 1, 'threshold')
+
+def logic_1687(world):
+    # seed banks support vegetation recovery; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'seed_bank', 'vegetation', 1, 'recovery')
