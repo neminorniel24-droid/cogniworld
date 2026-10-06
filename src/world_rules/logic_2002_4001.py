@@ -2393,3 +2393,7 @@ def logic_2596(world):
 def logic_2597(world):
     # ash returns mineral nutrients; pulse coupling.
     _couple(world,'ash','nutrients',1.0,'pulse')
+
+def logic_2598(world):
+    # ash returns mineral nutrients; feedback coupling.
+    _couple(world,'ash','nutrients',0.8,'positive')
