@@ -2249,3 +2249,7 @@ def logic_2560(world):
 def logic_2561(world):
     # dense roots resist erosion; reserve coupling.
     _couple(world,'root_density','erosion',0.9,'positive')
+
+def logic_2562(world):
+    # heavy rainfall increases erosion pressure; direct coupling.
+    _couple(world,'rain','erosion',1.0,'positive')
