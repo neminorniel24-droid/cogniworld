@@ -704,3 +704,7 @@ def logic_1166(world):
 def logic_1167(world):
     # soil moisture supports flowering; saturates at high source levels.
     _feedback(world, 'soil_moisture', 'flowers', 1, 'saturation')
+
+def logic_1168(world):
+    # soil moisture supports flowering; activates above a food threshold.
+    _feedback(world, 'soil_moisture', 'flowers', 1, 'threshold')
