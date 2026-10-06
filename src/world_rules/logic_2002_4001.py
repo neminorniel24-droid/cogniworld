@@ -1221,3 +1221,7 @@ def logic_2303(world):
 def logic_2304(world):
     # vegetation relieves habitat stress; limited coupling.
     _couple(world,'vegetation','habitat_stress',0.65,'positive')
+
+def logic_2305(world):
+    # vegetation relieves habitat stress; strong coupling.
+    _couple(world,'vegetation','habitat_stress',1.35,'positive')
