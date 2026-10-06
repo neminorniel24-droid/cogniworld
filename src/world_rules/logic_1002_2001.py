@@ -3760,3 +3760,7 @@ def logic_1930(world):
 def logic_1931(world):
     # CO2 increases warming pressure; stronger under fire pressure.
     _feedback(world, 'co2', 'temperature', 1, 'fire_gate')
+
+def logic_1932(world):
+    # CO2 increases warming pressure; stronger when surface water is high.
+    _feedback(world, 'co2', 'temperature', 1, 'water_gate')
