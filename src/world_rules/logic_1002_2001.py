@@ -828,3 +828,7 @@ def logic_1197(world):
 def logic_1198(world):
     # cloud water produces rain; direct.
     _feedback(world, 'cloud', 'rain', 1, 'baseline')
+
+def logic_1199(world):
+    # cloud water produces rain; stronger when soil is dry.
+    _feedback(world, 'cloud', 'rain', 1, 'dry_gate')
