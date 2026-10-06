@@ -2364,3 +2364,7 @@ def logic_1581(world):
 def logic_1582(world):
     # fire reduces vegetation; stronger when surface water is high.
     _feedback(world, 'fire_risk', 'vegetation', -1, 'water_gate')
+
+def logic_1583(world):
+    # fire reduces vegetation; stronger when vegetation is scarce.
+    _feedback(world, 'fire_risk', 'vegetation', -1, 'scarcity_gate')
