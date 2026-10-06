@@ -2280,3 +2280,7 @@ def logic_1560(world):
 def logic_1561(world):
     # ash supplies mineral nutrients; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'ash', 'nutrients', 1, 'recovery')
+
+def logic_1562(world):
+    # fire consumes deadwood; direct.
+    _feedback(world, 'fire_risk', 'deadwood', -1, 'baseline')
