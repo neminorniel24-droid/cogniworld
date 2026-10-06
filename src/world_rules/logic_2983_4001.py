@@ -26,3 +26,7 @@ def logic_2985(world):
 def logic_2986(world):
     # soil moisture supports vegetation.
     _apply(world, 'soil_moisture', 'vegetation', 1.0)
+
+def logic_2987(world):
+    # vegetation contributes biomass.
+    _apply(world, 'vegetation', 'biomass', 1.0)
