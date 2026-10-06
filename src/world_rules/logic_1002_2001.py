@@ -980,3 +980,7 @@ def logic_1235(world):
 def logic_1236(world):
     # warmth increases evaporation; modulated by temperature.
     _feedback(world, 'temperature', 'evaporation', 1, 'seasonal_gate')
+
+def logic_1237(world):
+    # warmth increases evaporation; saturates at high source levels.
+    _feedback(world, 'temperature', 'evaporation', 1, 'saturation')
