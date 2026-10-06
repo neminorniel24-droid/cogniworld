@@ -4026,3 +4026,7 @@ def logic_3998(agents, world):
 def logic_3999(agents, world):
     # groundwater -> infection_risk; strong coupling.
     _update(agents, 'infection_risk', _desired(agents, world, 'groundwater', 'infection_risk', 'strong'))
+
+def logic_4000(agents, world):
+    # groundwater -> infection_risk; limited coupling.
+    _update(agents, 'infection_risk', _desired(agents, world, 'groundwater', 'infection_risk', 'limited'))
