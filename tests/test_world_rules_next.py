@@ -743,3 +743,12 @@ def test_logic_187():
     w.habitat_stress.zero_()
     apply(w)
     assert torch.allclose(w.habitat_stress, torch.full_like(w.habitat_stress, 0.003))
+
+def test_logic_188():
+    from world_rules.logic_188_high_nutrients_reduce_habitat_stress import apply
+    w = make_world()
+    w.nutrients.fill_(1.0)
+    w.habitat_stress.fill_(1.0)
+    before=w.habitat_stress.clone()
+    apply(w)
+    assert torch.all(w.habitat_stress < before)

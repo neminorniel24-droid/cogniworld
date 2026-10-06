@@ -371,3 +371,5 @@ from .logic_186_detritus_supports_carrion_recovery import apply as logic_186
 RULES.append(logic_186)
 from .logic_187_low_nutrients_raise_habitat_stress import apply as logic_187
 RULES.append(logic_187)
+from .logic_188_high_nutrients_reduce_habitat_stress import apply as logic_188
+RULES.append(logic_188)
