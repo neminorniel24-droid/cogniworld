@@ -1516,3 +1516,7 @@ def logic_1369(world):
 def logic_1370(world):
     # erosion removes soil depth; stronger when temperature is low.
     _feedback(world, 'erosion', 'soil_depth', -1, 'cold_gate')
+
+def logic_1371(world):
+    # erosion removes soil depth; stronger under fire pressure.
+    _feedback(world, 'erosion', 'soil_depth', -1, 'fire_gate')
