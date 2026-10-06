@@ -3674,3 +3674,7 @@ def logic_3910(agents, world):
 def logic_3911(agents, world):
     # groundwater -> hydration; persistence coupling.
     _update(agents, 'hydration', _desired(agents, world, 'groundwater', 'hydration', 'persistence'))
+
+def logic_3912(agents, world):
+    # groundwater -> thirst; direct coupling.
+    _update(agents, 'thirst', _desired(agents, world, 'groundwater', 'thirst', 'direct'))
