@@ -872,3 +872,7 @@ def logic_1208(world):
 def logic_1209(world):
     # cloud water produces rain; saturates at high source levels.
     _feedback(world, 'cloud', 'rain', 1, 'saturation')
+
+def logic_1210(world):
+    # cloud water produces rain; activates above a food threshold.
+    _feedback(world, 'cloud', 'rain', 1, 'threshold')
