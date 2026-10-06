@@ -1697,3 +1697,7 @@ def logic_2422(world):
 def logic_2423(world):
     # cloud formation supports rainfall; inverse coupling.
     _couple(world,'cloud','rain',1.0,'negative')
+
+def logic_2424(world):
+    # cloud formation supports rainfall; limited coupling.
+    _couple(world,'cloud','rain',0.65,'positive')
