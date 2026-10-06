@@ -1818,3 +1818,7 @@ def logic_3446(agents, world):
 def logic_3447(agents, world):
     # surface_water -> social_avoidance; stress coupling.
     _update(agents, 'social_avoidance', _desired(agents, world, 'surface_water', 'social_avoidance', 'stress'))
+
+def logic_3448(agents, world):
+    # surface_water -> social_avoidance; recovery coupling.
+    _update(agents, 'social_avoidance', _desired(agents, world, 'surface_water', 'social_avoidance', 'recovery'))
