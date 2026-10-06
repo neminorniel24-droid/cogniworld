@@ -16,3 +16,5 @@ def test_trust_in_ledger():
     assert "trust" in _event()
 def test_reputation_in_ledger():
     assert "reputation" in _event()
+def test_cooperation_in_ledger():
+    assert "cooperation" in _event()
