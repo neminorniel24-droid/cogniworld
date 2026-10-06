@@ -3980,3 +3980,7 @@ def logic_1985(world):
 def logic_1986(world):
     # deadwood fuels fire risk; stronger when temperature is low.
     _feedback(world, 'deadwood', 'fire_risk', 1, 'cold_gate')
+
+def logic_1987(world):
+    # deadwood fuels fire risk; stronger under fire pressure.
+    _feedback(world, 'deadwood', 'fire_risk', 1, 'fire_gate')
