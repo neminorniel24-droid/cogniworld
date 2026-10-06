@@ -3822,3 +3822,7 @@ def logic_3947(agents, world):
 def logic_3948(agents, world):
     # groundwater -> health; capacity coupling.
     _update(agents, 'health', _desired(agents, world, 'groundwater', 'health', 'capacity'))
+
+def logic_3949(agents, world):
+    # groundwater -> health; reserve coupling.
+    _update(agents, 'health', _desired(agents, world, 'groundwater', 'health', 'reserve'))
