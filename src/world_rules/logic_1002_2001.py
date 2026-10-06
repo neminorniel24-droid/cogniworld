@@ -3724,3 +3724,7 @@ def logic_1921(world):
 def logic_1922(world):
     # methane increases warming pressure; modulated by temperature.
     _feedback(world, 'methane', 'temperature', 1, 'seasonal_gate')
+
+def logic_1923(world):
+    # methane increases warming pressure; saturates at high source levels.
+    _feedback(world, 'methane', 'temperature', 1, 'saturation')
