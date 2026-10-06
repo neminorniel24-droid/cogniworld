@@ -2978,3 +2978,7 @@ def logic_3736(agents, world):
 def logic_3737(agents, world):
     # surface_water -> help_score; counterpressure coupling.
     _update(agents, 'help_score', _desired(agents, world, 'surface_water', 'help_score', 'counterpressure'))
+
+def logic_3738(agents, world):
+    # surface_water -> help_score; capacity coupling.
+    _update(agents, 'help_score', _desired(agents, world, 'surface_water', 'help_score', 'capacity'))
