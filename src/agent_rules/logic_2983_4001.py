@@ -1278,3 +1278,7 @@ def logic_3311(agents, world):
 def logic_3312(agents, world):
     # surface_water -> cooperation; threshold coupling.
     _update(agents, 'cooperation', _desired(agents, world, 'surface_water', 'cooperation', 'threshold'))
+
+def logic_3313(agents, world):
+    # surface_water -> cooperation; strong coupling.
+    _update(agents, 'cooperation', _desired(agents, world, 'surface_water', 'cooperation', 'strong'))
