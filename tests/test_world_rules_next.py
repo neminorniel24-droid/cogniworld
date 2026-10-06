@@ -1209,3 +1209,8 @@ def test_logic_270():
     from world_rules.logic_270_seed_bank_recovers_after_fire import apply
     w = make_world()
     w.seed_bank.zero_(); w.fire_risk.fill_(1.0); apply(w); assert torch.allclose(w.seed_bank, torch.full_like(w.seed_bank, 0.003))
+
+def test_logic_271():
+    from world_rules.logic_271_ash_boosts_seed_germination import apply
+    w = make_world()
+    w.seed_bank.fill_(1.0); w.ash.fill_(1.0); w.vegetation.zero_(); apply(w); assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.01))
