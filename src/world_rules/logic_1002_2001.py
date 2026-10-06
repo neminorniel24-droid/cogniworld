@@ -1892,3 +1892,7 @@ def logic_1463(world):
 def logic_1464(world):
     # high CO2 stress reduces photosynthetic efficiency; direct.
     _feedback(world, 'co2', 'photosynthesis_factor', -1, 'baseline')
+
+def logic_1465(world):
+    # high CO2 stress reduces photosynthetic efficiency; stronger when soil is dry.
+    _feedback(world, 'co2', 'photosynthesis_factor', -1, 'dry_gate')
