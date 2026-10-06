@@ -2018,3 +2018,7 @@ def logic_3496(agents, world):
 def logic_3497(agents, world):
     # surface_water -> caution; pulse coupling.
     _update(agents, 'caution', _desired(agents, world, 'surface_water', 'caution', 'pulse'))
+
+def logic_3498(agents, world):
+    # surface_water -> caution; feedback coupling.
+    _update(agents, 'caution', _desired(agents, world, 'surface_water', 'caution', 'feedback'))
