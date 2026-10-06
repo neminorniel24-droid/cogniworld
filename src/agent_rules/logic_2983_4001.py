@@ -2334,3 +2334,7 @@ def logic_3575(agents, world):
 def logic_3576(agents, world):
     # surface_water -> risk_tolerance; direct coupling.
     _update(agents, 'risk_tolerance', _desired(agents, world, 'surface_water', 'risk_tolerance', 'direct'))
+
+def logic_3577(agents, world):
+    # surface_water -> risk_tolerance; inverse coupling.
+    _update(agents, 'risk_tolerance', _desired(agents, world, 'surface_water', 'risk_tolerance', 'inverse'))
