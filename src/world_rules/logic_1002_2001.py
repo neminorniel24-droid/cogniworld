@@ -3516,3 +3516,7 @@ def logic_1869(world):
 def logic_1870(world):
     # algae contribute oxygen; direct.
     _feedback(world, 'algae', 'oxygen', 1, 'baseline')
+
+def logic_1871(world):
+    # algae contribute oxygen; stronger when soil is dry.
+    _feedback(world, 'algae', 'oxygen', 1, 'dry_gate')
