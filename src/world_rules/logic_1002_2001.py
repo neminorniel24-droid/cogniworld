@@ -2752,3 +2752,7 @@ def logic_1678(world):
 def logic_1679(world):
     # seed banks support vegetation recovery; stronger under fire pressure.
     _feedback(world, 'seed_bank', 'vegetation', 1, 'fire_gate')
+
+def logic_1680(world):
+    # seed banks support vegetation recovery; stronger when surface water is high.
+    _feedback(world, 'seed_bank', 'vegetation', 1, 'water_gate')
