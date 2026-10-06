@@ -3569,3 +3569,7 @@ def logic_2890(world):
 def logic_2891(world):
     # root systems support persistent vegetation; reserve coupling.
     _couple(world,'root_density','vegetation',0.9,'positive')
+
+def logic_2892(world):
+    # deadwood provides habitat structure; direct coupling.
+    _couple(world,'deadwood','habitat_stress',1.0,'positive')
