@@ -3074,3 +3074,7 @@ def logic_3760(agents, world):
 def logic_3761(agents, world):
     # surface_water -> migration_score; strong coupling.
     _update(agents, 'migration_score', _desired(agents, world, 'surface_water', 'migration_score', 'strong'))
+
+def logic_3762(agents, world):
+    # surface_water -> migration_score; limited coupling.
+    _update(agents, 'migration_score', _desired(agents, world, 'surface_water', 'migration_score', 'limited'))
