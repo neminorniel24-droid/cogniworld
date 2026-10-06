@@ -950,3 +950,5 @@ def logic_793(agents,world):
     agents.social_avoidance=_delta(agents.social_avoidance,+0.002*agents.aggression)
 def logic_794(agents,world):
     agents.selfishness=_delta(agents.selfishness,+0.002*agents.conflict_pressure)
+def logic_795(agents,world):
+    agents.generosity=_delta(agents.generosity,+0.002*agents.competition_pressure)
