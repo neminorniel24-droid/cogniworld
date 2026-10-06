@@ -494,3 +494,11 @@ def test_logic_158():
     w.pathogen_load.zero_()
     apply(w)
     assert torch.allclose(w.pathogen_load, torch.full_like(w.pathogen_load, 0.002))
+
+def test_logic_159():
+    from world_rules.logic_159_pathogens_raise_habitat_stress import apply
+    w = make_world()
+    w.pathogen_load.fill_(1.0)
+    w.habitat_stress.zero_()
+    apply(w)
+    assert torch.allclose(w.habitat_stress, torch.full_like(w.habitat_stress, 0.003))

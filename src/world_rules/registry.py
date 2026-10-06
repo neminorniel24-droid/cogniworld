@@ -313,3 +313,5 @@ from .logic_157_rain_washes_pathogens import apply as logic_157
 RULES.append(logic_157)
 from .logic_158_vegetation_shelters_pathogens import apply as logic_158
 RULES.append(logic_158)
+from .logic_159_pathogens_raise_habitat_stress import apply as logic_159
+RULES.append(logic_159)
