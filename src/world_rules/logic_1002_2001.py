@@ -1664,3 +1664,7 @@ def logic_1406(world):
 def logic_1407(world):
     # roots stabilize soil; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'root_density', 'erosion', -1, 'recovery')
+
+def logic_1408(world):
+    # roots retain soil; direct.
+    _feedback(world, 'root_density', 'soil_depth', 1, 'baseline')
