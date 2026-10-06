@@ -3388,3 +3388,7 @@ def logic_1837(world):
 def logic_1838(world):
     # diversity buffers habitat stress; modulated by temperature.
     _feedback(world, 'biodiversity', 'habitat_stress', -1, 'seasonal_gate')
+
+def logic_1839(world):
+    # diversity buffers habitat stress; saturates at high source levels.
+    _feedback(world, 'biodiversity', 'habitat_stress', -1, 'saturation')
