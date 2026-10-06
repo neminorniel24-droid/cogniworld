@@ -1125,3 +1125,6 @@ def test_logic_992():
 def test_logic_993():
     from agent_rules.rules import logic_993
     _check(logic_993, 'strategy_confidence', 'exploration_score', 1)
+def test_logic_994():
+    from agent_rules.rules import logic_994
+    _check(logic_994, 'learning_rate', 'foraging_score', 1)
