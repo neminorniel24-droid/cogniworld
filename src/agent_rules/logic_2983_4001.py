@@ -1126,3 +1126,7 @@ def logic_3273(agents, world):
 def logic_3274(agents, world):
     # surface_water -> social_tolerance; feedback coupling.
     _update(agents, 'social_tolerance', _desired(agents, world, 'surface_water', 'social_tolerance', 'feedback'))
+
+def logic_3275(agents, world):
+    # surface_water -> social_tolerance; counterpressure coupling.
+    _update(agents, 'social_tolerance', _desired(agents, world, 'surface_water', 'social_tolerance', 'counterpressure'))
