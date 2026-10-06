@@ -3008,3 +3008,7 @@ def logic_1742(world):
 def logic_1743(world):
     # herbivore mortality contributes carrion; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'herbivore', 'carrion', 1, 'recovery')
+
+def logic_1744(world):
+    # predation reduces herbivores; direct.
+    _feedback(world, 'predator', 'herbivore', -1, 'baseline')
