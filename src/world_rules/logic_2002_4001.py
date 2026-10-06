@@ -1577,3 +1577,7 @@ def logic_2392(world):
 def logic_2393(world):
     # oxygen availability shapes decomposition; inverse coupling.
     _couple(world,'oxygen','decomposition_rate',1.0,'negative')
+
+def logic_2394(world):
+    # oxygen availability shapes decomposition; limited coupling.
+    _couple(world,'oxygen','decomposition_rate',0.65,'positive')
