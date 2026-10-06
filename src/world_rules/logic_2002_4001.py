@@ -2169,3 +2169,7 @@ def logic_2540(world):
 def logic_2541(world):
     # plants reduce rapid soil drying; reserve coupling.
     _couple(world,'vegetation','soil_moisture',0.9,'positive')
+
+def logic_2542(world):
+    # vegetation roots reduce erosion; direct coupling.
+    _couple(world,'vegetation','erosion',1.0,'positive')
