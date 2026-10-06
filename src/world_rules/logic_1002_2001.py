@@ -1708,3 +1708,7 @@ def logic_1417(world):
 def logic_1418(world):
     # roots retain soil; modulated by temperature.
     _feedback(world, 'root_density', 'soil_depth', 1, 'seasonal_gate')
+
+def logic_1419(world):
+    # roots retain soil; saturates at high source levels.
+    _feedback(world, 'root_density', 'soil_depth', 1, 'saturation')
