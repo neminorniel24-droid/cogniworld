@@ -2449,3 +2449,7 @@ def logic_2610(world):
 def logic_2611(world):
     # fire raises habitat stress; reserve coupling.
     _couple(world,'fire_risk','habitat_stress',0.9,'positive')
+
+def logic_2612(world):
+    # stress reduces biodiversity; direct coupling.
+    _couple(world,'habitat_stress','biodiversity',1.0,'positive')
