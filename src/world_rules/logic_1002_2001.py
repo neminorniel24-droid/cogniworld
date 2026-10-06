@@ -1988,3 +1988,7 @@ def logic_1487(world):
 def logic_1488(world):
     # photosynthesis builds biomass; modulated by temperature.
     _feedback(world, 'photosynthesis_factor', 'biomass', 1, 'seasonal_gate')
+
+def logic_1489(world):
+    # photosynthesis builds biomass; saturates at high source levels.
+    _feedback(world, 'photosynthesis_factor', 'biomass', 1, 'saturation')
