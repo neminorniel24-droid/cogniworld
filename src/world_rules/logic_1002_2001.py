@@ -2844,3 +2844,7 @@ def logic_1701(world):
 def logic_1702(world):
     # herbivory consumes vegetation; direct.
     _feedback(world, 'herbivore', 'vegetation', -1, 'baseline')
+
+def logic_1703(world):
+    # herbivory consumes vegetation; stronger when soil is dry.
+    _feedback(world, 'herbivore', 'vegetation', -1, 'dry_gate')
