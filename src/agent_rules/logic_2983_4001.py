@@ -2102,3 +2102,7 @@ def logic_3517(agents, world):
 def logic_3518(agents, world):
     # surface_water -> confidence; recovery coupling.
     _update(agents, 'confidence', _desired(agents, world, 'surface_water', 'confidence', 'recovery'))
+
+def logic_3519(agents, world):
+    # surface_water -> confidence; persistence coupling.
+    _update(agents, 'confidence', _desired(agents, world, 'surface_water', 'confidence', 'persistence'))
