@@ -1333,3 +1333,7 @@ def logic_2331(world):
 def logic_2332(world):
     # soil depth supports roots; direct coupling.
     _couple(world,'soil_depth','root_density',1.0,'positive')
+
+def logic_2333(world):
+    # soil depth supports roots; inverse coupling.
+    _couple(world,'soil_depth','root_density',1.0,'negative')
