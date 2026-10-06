@@ -3885,3 +3885,7 @@ def logic_2969(world):
 def logic_2970(world):
     # snowmelt contributes runoff; capacity coupling.
     _couple(world,'snowpack','runoff',0.5,'positive')
+
+def logic_2971(world):
+    # snowmelt contributes runoff; reserve coupling.
+    _couple(world,'snowpack','runoff',0.9,'positive')
