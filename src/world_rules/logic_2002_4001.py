@@ -1449,3 +1449,7 @@ def logic_2360(world):
 def logic_2361(world):
     # runoff transports sediment; reserve coupling.
     _couple(world,'runoff','sediment',0.9,'positive')
+
+def logic_2362(world):
+    # sediment can rebuild soil depth; direct coupling.
+    _couple(world,'sediment','soil_depth',1.0,'positive')
