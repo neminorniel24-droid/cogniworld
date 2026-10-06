@@ -507,3 +507,6 @@ def test_logic_786():
 def test_logic_787():
     from agent_rules.rules import logic_787
     _check(logic_787, 'future_help', 'trust', 1)
+def test_logic_788():
+    from agent_rules.rules import logic_788
+    _check(logic_788, 'empathy', 'cooperation', 1)

@@ -936,3 +936,5 @@ def logic_786(agents,world):
     agents.reputation=_delta(agents.reputation,+0.002*agents.strategy_confidence)
 def logic_787(agents,world):
     agents.trust=_delta(agents.trust,+0.002*agents.future_help)
+def logic_788(agents,world):
+    agents.cooperation=_delta(agents.cooperation,+0.002*agents.empathy)
