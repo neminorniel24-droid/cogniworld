@@ -495,3 +495,6 @@ def test_logic_782():
 def test_logic_783():
     from agent_rules.rules import logic_783
     _check(logic_783, 'gratitude', 'reciprocity_score', 1)
+def test_logic_784():
+    from agent_rules.rules import logic_784
+    _check(logic_784, 'caution', 'help_score', 1)
