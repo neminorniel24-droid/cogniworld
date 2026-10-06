@@ -2969,3 +2969,7 @@ def logic_2740(world):
 def logic_2741(world):
     # cloud cover moderates temperature; reserve coupling.
     _couple(world,'cloud','temperature',0.9,'positive')
+
+def logic_2742(world):
+    # wind alters local thermal state; direct coupling.
+    _couple(world,'wind_y','temperature',1.0,'positive')
