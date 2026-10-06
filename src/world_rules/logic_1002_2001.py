@@ -3368,3 +3368,7 @@ def logic_1832(world):
 def logic_1833(world):
     # diversity buffers habitat stress; stronger under fire pressure.
     _feedback(world, 'biodiversity', 'habitat_stress', -1, 'fire_gate')
+
+def logic_1834(world):
+    # diversity buffers habitat stress; stronger when surface water is high.
+    _feedback(world, 'biodiversity', 'habitat_stress', -1, 'water_gate')
