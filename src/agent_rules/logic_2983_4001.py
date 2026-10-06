@@ -1226,3 +1226,7 @@ def logic_3298(agents, world):
 def logic_3299(agents, world):
     # surface_water -> trust; strong coupling.
     _update(agents, 'trust', _desired(agents, world, 'surface_water', 'trust', 'strong'))
+
+def logic_3300(agents, world):
+    # surface_water -> trust; limited coupling.
+    _update(agents, 'trust', _desired(agents, world, 'surface_water', 'trust', 'limited'))
