@@ -552,3 +552,6 @@ def test_logic_801():
 def test_logic_802():
     from agent_rules.rules import logic_802
     _check(logic_802, 'generosity', 'sharing_score', 1)
+def test_logic_803():
+    from agent_rules.rules import logic_803
+    _check(logic_803, 'gratitude', 'reputation', 1)
