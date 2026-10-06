@@ -626,3 +626,5 @@ def logic_631(agents,world):
     agents.caution=_delta(agents.caution,+0.002*agents.fear)
 def logic_632(agents,world):
     agents.confidence=_delta(agents.confidence,+0.002*agents.recovery)
+def logic_633(agents,world):
+    agents.self_preservation=_delta(agents.self_preservation,+0.002*agents.metabolic_cost)

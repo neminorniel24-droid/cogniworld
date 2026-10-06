@@ -42,3 +42,6 @@ def test_logic_631():
 def test_logic_632():
     from agent_rules.rules import logic_632
     _check(logic_632, 'recovery', 'confidence', 1)
+def test_logic_633():
+    from agent_rules.rules import logic_633
+    _check(logic_633, 'metabolic_cost', 'self_preservation', 1)
