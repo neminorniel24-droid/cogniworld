@@ -3606,3 +3606,7 @@ def logic_3893(agents, world):
 def logic_3894(agents, world):
     # surface_water -> payoff; scarcity coupling.
     _update(agents, 'payoff', _desired(agents, world, 'surface_water', 'payoff', 'scarcity'))
+
+def logic_3895(agents, world):
+    # surface_water -> payoff; stress coupling.
+    _update(agents, 'payoff', _desired(agents, world, 'surface_water', 'payoff', 'stress'))
