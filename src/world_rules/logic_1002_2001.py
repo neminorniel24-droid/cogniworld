@@ -3272,3 +3272,7 @@ def logic_1808(world):
 def logic_1809(world):
     # pathogens reduce biodiversity; stronger under habitat stress.
     _feedback(world, 'pathogen_load', 'biodiversity', -1, 'stress_gate')
+
+def logic_1810(world):
+    # pathogens reduce biodiversity; modulated by temperature.
+    _feedback(world, 'pathogen_load', 'biodiversity', -1, 'seasonal_gate')
