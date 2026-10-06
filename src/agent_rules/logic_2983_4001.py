@@ -1246,3 +1246,7 @@ def logic_3303(agents, world):
 def logic_3304(agents, world):
     # surface_water -> trust; capacity coupling.
     _update(agents, 'trust', _desired(agents, world, 'surface_water', 'trust', 'capacity'))
+
+def logic_3305(agents, world):
+    # surface_water -> trust; reserve coupling.
+    _update(agents, 'trust', _desired(agents, world, 'surface_water', 'trust', 'reserve'))
