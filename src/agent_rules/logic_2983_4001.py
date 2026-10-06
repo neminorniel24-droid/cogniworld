@@ -1762,3 +1762,7 @@ def logic_3432(agents, world):
 def logic_3433(agents, world):
     # surface_water -> help_drive; stress coupling.
     _update(agents, 'help_drive', _desired(agents, world, 'surface_water', 'help_drive', 'stress'))
+
+def logic_3434(agents, world):
+    # surface_water -> help_drive; recovery coupling.
+    _update(agents, 'help_drive', _desired(agents, world, 'surface_water', 'help_drive', 'recovery'))
