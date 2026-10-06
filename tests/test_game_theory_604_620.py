@@ -36,3 +36,5 @@ def test_strategy_score_in_ledger():
     assert "strategy_score" in _event()
 def test_cooperation_score_in_ledger():
     assert "cooperation_score" in _event()
+def test_competition_score_in_ledger():
+    assert "competition_score" in _event()
