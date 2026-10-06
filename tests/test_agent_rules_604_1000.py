@@ -855,3 +855,6 @@ def test_logic_902():
 def test_logic_903():
     from agent_rules.rules import logic_903
     _check(logic_903, 'retaliation_risk', 'foraging_score', 1)
+def test_logic_904():
+    from agent_rules.rules import logic_904
+    _check(logic_904, 'defense_score', 'learning_rate', 1)
