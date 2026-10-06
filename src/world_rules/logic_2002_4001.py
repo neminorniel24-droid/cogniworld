@@ -1489,3 +1489,7 @@ def logic_2370(world):
 def logic_2371(world):
     # sediment can rebuild soil depth; reserve coupling.
     _couple(world,'sediment','soil_depth',0.9,'positive')
+
+def logic_2372(world):
+    # salinity stresses vegetation; direct coupling.
+    _couple(world,'salinity','vegetation',1.0,'positive')
