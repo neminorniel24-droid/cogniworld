@@ -120,3 +120,7 @@ def logic_1020(world):
 def logic_1021(world):
     # rainfall wets soil; stronger under fire pressure.
     _feedback(world, 'rain', 'soil_moisture', 1, 'fire_gate')
+
+def logic_1022(world):
+    # rainfall wets soil; stronger when surface water is high.
+    _feedback(world, 'rain', 'soil_moisture', 1, 'water_gate')
