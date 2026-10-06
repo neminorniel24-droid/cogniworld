@@ -842,3 +842,5 @@ def logic_739(agents,world):
     agents.reputation=_delta(agents.reputation,-0.002*agents.defection)
 def logic_740(agents,world):
     agents.trust=_delta(agents.trust,-0.002*agents.aggression)
+def logic_741(agents,world):
+    agents.cooperation=_delta(agents.cooperation,-0.002*agents.conflict_pressure)
