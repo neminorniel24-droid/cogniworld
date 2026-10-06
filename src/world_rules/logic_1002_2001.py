@@ -2992,3 +2992,7 @@ def logic_1738(world):
 def logic_1739(world):
     # herbivore mortality contributes carrion; stronger under habitat stress.
     _feedback(world, 'herbivore', 'carrion', 1, 'stress_gate')
+
+def logic_1740(world):
+    # herbivore mortality contributes carrion; modulated by temperature.
+    _feedback(world, 'herbivore', 'carrion', 1, 'seasonal_gate')
