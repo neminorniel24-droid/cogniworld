@@ -3138,3 +3138,7 @@ def logic_3776(agents, world):
 def logic_3777(agents, world):
     # surface_water -> reproduction_score; pulse coupling.
     _update(agents, 'reproduction_score', _desired(agents, world, 'surface_water', 'reproduction_score', 'pulse'))
+
+def logic_3778(agents, world):
+    # surface_water -> reproduction_score; feedback coupling.
+    _update(agents, 'reproduction_score', _desired(agents, world, 'surface_water', 'reproduction_score', 'feedback'))
