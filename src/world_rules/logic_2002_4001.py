@@ -2269,3 +2269,7 @@ def logic_2565(world):
 def logic_2566(world):
     # heavy rainfall increases erosion pressure; threshold coupling.
     _couple(world,'rain','erosion',1.0,'threshold')
+
+def logic_2567(world):
+    # heavy rainfall increases erosion pressure; pulse coupling.
+    _couple(world,'rain','erosion',1.0,'pulse')
