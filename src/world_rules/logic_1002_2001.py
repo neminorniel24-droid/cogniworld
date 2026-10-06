@@ -2264,3 +2264,7 @@ def logic_1556(world):
 def logic_1557(world):
     # ash supplies mineral nutrients; stronger under habitat stress.
     _feedback(world, 'ash', 'nutrients', 1, 'stress_gate')
+
+def logic_1558(world):
+    # ash supplies mineral nutrients; modulated by temperature.
+    _feedback(world, 'ash', 'nutrients', 1, 'seasonal_gate')
