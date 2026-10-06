@@ -307,3 +307,5 @@ from .logic_154_dryness_suppresses_pathogens import apply as logic_154
 RULES.append(logic_154)
 from .logic_155_warmth_increases_pathogen_growth import apply as logic_155
 RULES.append(logic_155)
+from .logic_156_cold_reduces_pathogens import apply as logic_156
+RULES.append(logic_156)
