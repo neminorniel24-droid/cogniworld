@@ -2194,3 +2194,7 @@ def logic_3540(agents, world):
 def logic_3541(agents, world):
     # surface_water -> future_help; counterpressure coupling.
     _update(agents, 'future_help', _desired(agents, world, 'surface_water', 'future_help', 'counterpressure'))
+
+def logic_3542(agents, world):
+    # surface_water -> future_help; capacity coupling.
+    _update(agents, 'future_help', _desired(agents, world, 'surface_water', 'future_help', 'capacity'))
