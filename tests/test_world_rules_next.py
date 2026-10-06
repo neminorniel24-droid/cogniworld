@@ -1334,3 +1334,8 @@ def test_logic_295():
     from world_rules.logic_295_warm_rain_reduces_surface_ice import apply
     w = make_world()
     w.surface_ice.fill_(1.0); w.rain.fill_(1.0); w.temperature.fill_(1.0); apply(w); assert torch.allclose(w.surface_ice, torch.full_like(w.surface_ice, 0.98))
+
+def test_logic_296():
+    from world_rules.logic_296_surface_ice_preserves_surface_water import apply
+    w = make_world()
+    w.surface_water.zero_(); w.surface_ice.fill_(1.0); apply(w); assert torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.002))

@@ -587,3 +587,5 @@ from .logic_294_snowpack_reduces_pathogen_pressure import apply as logic_294
 RULES.append(logic_294)
 from .logic_295_warm_rain_reduces_surface_ice import apply as logic_295
 RULES.append(logic_295)
+from .logic_296_surface_ice_preserves_surface_water import apply as logic_296
+RULES.append(logic_296)
