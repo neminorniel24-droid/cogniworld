@@ -969,3 +969,8 @@ def test_logic_222():
     from world_rules.logic_222_nutrients_feed_algae import apply
     w = make_world()
     w.algae.zero_(); w.nutrients.fill_(1.0); apply(w); assert torch.allclose(w.algae, torch.full_like(w.algae, 0.015))
+
+def test_logic_223():
+    from world_rules.logic_223_algae_consume_nutrients import apply
+    w = make_world()
+    w.nutrients.fill_(1.0); w.algae.fill_(1.0); apply(w); assert torch.allclose(w.nutrients, torch.full_like(w.nutrients, 0.995))

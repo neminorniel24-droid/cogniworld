@@ -441,3 +441,5 @@ from .logic_221_warm_shallow_water_grows_algae import apply as logic_221
 RULES.append(logic_221)
 from .logic_222_nutrients_feed_algae import apply as logic_222
 RULES.append(logic_222)
+from .logic_223_algae_consume_nutrients import apply as logic_223
+RULES.append(logic_223)
