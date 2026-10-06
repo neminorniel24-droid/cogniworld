@@ -1880,3 +1880,7 @@ def logic_1460(world):
 def logic_1461(world):
     # biomass contributes oxygen; saturates at high source levels.
     _feedback(world, 'biomass', 'oxygen', 1, 'saturation')
+
+def logic_1462(world):
+    # biomass contributes oxygen; activates above a food threshold.
+    _feedback(world, 'biomass', 'oxygen', 1, 'threshold')
