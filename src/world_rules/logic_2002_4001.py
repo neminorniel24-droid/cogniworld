@@ -333,3 +333,7 @@ def logic_2081(world):
 def logic_2082(world):
     # heat increases evaporation; direct coupling.
     _couple(world,'temperature','evaporation',1.0,'positive')
+
+def logic_2083(world):
+    # heat increases evaporation; inverse coupling.
+    _couple(world,'temperature','evaporation',1.0,'negative')
