@@ -244,3 +244,5 @@ def logic_421(agents,world):
  v=torch.clamp(agents.stress,0,2);agents.conflict_pressure=_delta(agents.conflict_pressure,v*0.001)
 def logic_422(agents,world):
  v=torch.clamp(agents.reputation,0,2);agents.reputation=_delta(agents.reputation,v*0.001)
+def logic_423(agents,world):
+ v=torch.clamp(agents.reputation,0,2);agents.selfishness=_delta(agents.selfishness,v*0.001)

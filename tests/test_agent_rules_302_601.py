@@ -605,3 +605,8 @@ def test_logic_421():
 def test_logic_422():
  from agent_rules.rules import logic_422
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.reputation.clone();a.reputation.fill_(1);logic_422(a,w);assert torch.any(a.reputation!=b)
+
+
+def test_logic_423():
+ from agent_rules.rules import logic_423
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.selfishness.clone();a.reputation.fill_(1);logic_423(a,w);assert torch.any(a.selfishness!=b)
