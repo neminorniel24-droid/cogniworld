@@ -786,3 +786,6 @@ def test_logic_879():
 def test_logic_880():
     from agent_rules.rules import logic_880
     _check(logic_880, 'foraging_score', 'caution', 1)
+def test_logic_881():
+    from agent_rules.rules import logic_881
+    _check(logic_881, 'survival_score', 'payoff', 1)
