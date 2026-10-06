@@ -3252,3 +3252,7 @@ def logic_1803(world):
 def logic_1804(world):
     # pathogens reduce biodiversity; stronger when temperature is low.
     _feedback(world, 'pathogen_load', 'biodiversity', -1, 'cold_gate')
+
+def logic_1805(world):
+    # pathogens reduce biodiversity; stronger under fire pressure.
+    _feedback(world, 'pathogen_load', 'biodiversity', -1, 'fire_gate')
