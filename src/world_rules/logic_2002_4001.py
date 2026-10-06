@@ -777,3 +777,7 @@ def logic_2192(world):
 def logic_2193(world):
     # ash alters soil carbon; inverse coupling.
     _couple(world,'ash','soil_carbon',1.0,'negative')
+
+def logic_2194(world):
+    # ash alters soil carbon; limited coupling.
+    _couple(world,'ash','soil_carbon',0.65,'positive')
