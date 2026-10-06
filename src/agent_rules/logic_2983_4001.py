@@ -194,3 +194,7 @@ def logic_3040(agents, world):
 def logic_3041(agents, world):
     # surface_water -> hunger; stress coupling.
     _update(agents, 'hunger', _desired(agents, world, 'surface_water', 'hunger', 'stress'))
+
+def logic_3042(agents, world):
+    # surface_water -> hunger; recovery coupling.
+    _update(agents, 'hunger', _desired(agents, world, 'surface_water', 'hunger', 'recovery'))
