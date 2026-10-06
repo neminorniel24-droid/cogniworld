@@ -2940,3 +2940,7 @@ def logic_1725(world):
 def logic_1726(world):
     # vegetation supports herbivores; modulated by temperature.
     _feedback(world, 'vegetation', 'herbivore', 1, 'seasonal_gate')
+
+def logic_1727(world):
+    # vegetation supports herbivores; saturates at high source levels.
+    _feedback(world, 'vegetation', 'herbivore', 1, 'saturation')
