@@ -1964,3 +1964,7 @@ def logic_1481(world):
 def logic_1482(world):
     # photosynthesis builds biomass; stronger when temperature is low.
     _feedback(world, 'photosynthesis_factor', 'biomass', 1, 'cold_gate')
+
+def logic_1483(world):
+    # photosynthesis builds biomass; stronger under fire pressure.
+    _feedback(world, 'photosynthesis_factor', 'biomass', 1, 'fire_gate')
