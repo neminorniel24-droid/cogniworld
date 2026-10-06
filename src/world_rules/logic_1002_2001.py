@@ -2112,3 +2112,7 @@ def logic_1518(world):
 def logic_1519(world):
     # organic matter mineralizes nutrients; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'organic_matter', 'nutrients', 1, 'recovery')
+
+def logic_1520(world):
+    # decomposition releases nutrients; direct.
+    _feedback(world, 'decomposition_rate', 'nutrients', 1, 'baseline')
