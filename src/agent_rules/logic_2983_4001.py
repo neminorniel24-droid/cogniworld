@@ -550,3 +550,7 @@ def logic_3129(agents, world):
 def logic_3130(agents, world):
     # surface_water -> fear; threshold coupling.
     _update(agents, 'fear', _desired(agents, world, 'surface_water', 'fear', 'threshold'))
+
+def logic_3131(agents, world):
+    # surface_water -> fear; strong coupling.
+    _update(agents, 'fear', _desired(agents, world, 'surface_water', 'fear', 'strong'))
