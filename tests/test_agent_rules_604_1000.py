@@ -363,3 +363,6 @@ def test_logic_738():
 def test_logic_739():
     from agent_rules.rules import logic_739
     _check(logic_739, 'defection', 'reputation', -1)
+def test_logic_740():
+    from agent_rules.rules import logic_740
+    _check(logic_740, 'aggression', 'trust', -1)
