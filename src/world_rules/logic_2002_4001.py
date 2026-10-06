@@ -2329,3 +2329,7 @@ def logic_2580(world):
 def logic_2581(world):
     # wind increases erosion exposure; reserve coupling.
     _couple(world,'wind_x','erosion',0.9,'positive')
+
+def logic_2582(world):
+    # fire removes erosion protection; direct coupling.
+    _couple(world,'fire_risk','erosion',1.0,'positive')
