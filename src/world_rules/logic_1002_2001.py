@@ -1656,3 +1656,7 @@ def logic_1404(world):
 def logic_1405(world):
     # roots stabilize soil; saturates at high source levels.
     _feedback(world, 'root_density', 'erosion', -1, 'saturation')
+
+def logic_1406(world):
+    # roots stabilize soil; activates above a food threshold.
+    _feedback(world, 'root_density', 'erosion', -1, 'threshold')
