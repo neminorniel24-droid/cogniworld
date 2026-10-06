@@ -2529,3 +2529,7 @@ def logic_2630(world):
 def logic_2631(world):
     # biodiversity buffers habitat stress; reserve coupling.
     _couple(world,'biodiversity','habitat_stress',0.9,'positive')
+
+def logic_2632(world):
+    # diverse communities stabilize vegetation; direct coupling.
+    _couple(world,'biodiversity','vegetation',1.0,'positive')
