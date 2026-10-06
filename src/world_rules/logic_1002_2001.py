@@ -3568,3 +3568,7 @@ def logic_1882(world):
 def logic_1883(world):
     # algae contribute oxygen; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'algae', 'oxygen', 1, 'recovery')
+
+def logic_1884(world):
+    # algae add organic matter; direct.
+    _feedback(world, 'algae', 'organic_matter', 1, 'baseline')
