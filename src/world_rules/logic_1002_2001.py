@@ -2836,3 +2836,7 @@ def logic_1699(world):
 def logic_1700(world):
     # vegetation replenishes seeds; activates above a food threshold.
     _feedback(world, 'vegetation', 'seed_bank', 1, 'threshold')
+
+def logic_1701(world):
+    # vegetation replenishes seeds; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'vegetation', 'seed_bank', 1, 'recovery')
