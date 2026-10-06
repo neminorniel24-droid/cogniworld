@@ -1613,3 +1613,7 @@ def logic_2401(world):
 def logic_2402(world):
     # CO2 supports photosynthesis; direct coupling.
     _couple(world,'co2','vegetation',1.0,'positive')
+
+def logic_2403(world):
+    # CO2 supports photosynthesis; inverse coupling.
+    _couple(world,'co2','vegetation',1.0,'negative')
