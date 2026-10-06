@@ -801,3 +801,7 @@ def logic_2198(world):
 def logic_2199(world):
     # ash alters soil carbon; counterpressure coupling.
     _couple(world,'ash','soil_carbon',0.8,'negative')
+
+def logic_2200(world):
+    # ash alters soil carbon; capacity coupling.
+    _couple(world,'ash','soil_carbon',0.5,'positive')
