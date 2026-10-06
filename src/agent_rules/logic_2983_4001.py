@@ -2906,3 +2906,7 @@ def logic_3718(agents, world):
 def logic_3719(agents, world):
     # surface_water -> survival_score; strong coupling.
     _update(agents, 'survival_score', _desired(agents, world, 'surface_water', 'survival_score', 'strong'))
+
+def logic_3720(agents, world):
+    # surface_water -> survival_score; limited coupling.
+    _update(agents, 'survival_score', _desired(agents, world, 'surface_water', 'survival_score', 'limited'))
