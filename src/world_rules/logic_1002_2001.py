@@ -3644,3 +3644,7 @@ def logic_1901(world):
 def logic_1902(world):
     # oxygenated habitat limits pathogen persistence; stronger when temperature is low.
     _feedback(world, 'oxygen', 'pathogen_load', -1, 'cold_gate')
+
+def logic_1903(world):
+    # oxygenated habitat limits pathogen persistence; stronger under fire pressure.
+    _feedback(world, 'oxygen', 'pathogen_load', -1, 'fire_gate')
