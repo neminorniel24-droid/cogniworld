@@ -705,3 +705,6 @@ def test_logic_852():
 def test_logic_853():
     from agent_rules.rules import logic_853
     _check(logic_853, 'strategy_score', 'cooperation_score', 1)
+def test_logic_854():
+    from agent_rules.rules import logic_854
+    _check(logic_854, 'cooperation_score', 'defection_score', 1)
