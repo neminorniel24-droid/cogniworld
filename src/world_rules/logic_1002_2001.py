@@ -3396,3 +3396,7 @@ def logic_1839(world):
 def logic_1840(world):
     # diversity buffers habitat stress; activates above a food threshold.
     _feedback(world, 'biodiversity', 'habitat_stress', -1, 'threshold')
+
+def logic_1841(world):
+    # diversity buffers habitat stress; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'biodiversity', 'habitat_stress', -1, 'recovery')
