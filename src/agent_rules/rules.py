@@ -298,3 +298,5 @@ def logic_448(agents,world):
  v=torch.clamp(agents.help_given,0,2);agents.fear=_delta(agents.fear,v*0.001)
 def logic_449(agents,world):
  v=torch.clamp(agents.help_given,0,2);agents.aggression=_delta(agents.aggression,v*0.001)
+def logic_450(agents,world):
+ v=torch.clamp(agents.help_given,0,2);agents.migration_drive=_delta(agents.migration_drive,v*0.001)
