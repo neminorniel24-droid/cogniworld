@@ -400,3 +400,5 @@ def logic_499(agents,world):
  v=torch.clamp(agents.risk_tolerance,0,2);agents.strategy_confidence=_delta(agents.strategy_confidence,v*0.001)
 def logic_500(agents,world):
  v=torch.clamp(agents.risk_tolerance,0,2);agents.empathy=_delta(agents.empathy,v*0.001)
+def logic_501(agents,world):
+ v=torch.clamp(agents.risk_tolerance,0,2);agents.sharing_capacity=_delta(agents.sharing_capacity,v*0.001)

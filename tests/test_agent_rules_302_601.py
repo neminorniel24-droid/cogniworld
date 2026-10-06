@@ -995,3 +995,8 @@ def test_logic_499():
 def test_logic_500():
  from agent_rules.rules import logic_500
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.empathy.clone();a.risk_tolerance.fill_(1);logic_500(a,w);assert torch.any(a.empathy!=b)
+
+
+def test_logic_501():
+ from agent_rules.rules import logic_501
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.sharing_capacity.clone();a.risk_tolerance.fill_(1);logic_501(a,w);assert torch.any(a.sharing_capacity!=b)
