@@ -99,3 +99,6 @@ def test_logic_650():
 def test_logic_651():
     from agent_rules.rules import logic_651
     _check(logic_651, 'fear', 'resource_discovery', 1)
+def test_logic_652():
+    from agent_rules.rules import logic_652
+    _check(logic_652, 'recovery', 'sharing_capacity', 1)
