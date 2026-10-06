@@ -170,3 +170,7 @@ def logic_3034(agents, world):
 def logic_3035(agents, world):
     # surface_water -> hunger; pulse coupling.
     _update(agents, 'hunger', _desired(agents, world, 'surface_water', 'hunger', 'pulse'))
+
+def logic_3036(agents, world):
+    # surface_water -> hunger; feedback coupling.
+    _update(agents, 'hunger', _desired(agents, world, 'surface_water', 'hunger', 'feedback'))
