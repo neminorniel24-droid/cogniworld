@@ -284,3 +284,7 @@ def logic_1061(world):
 def logic_1062(world):
     # snowpack supports groundwater recharge; stronger when temperature is low.
     _feedback(world, 'snowpack', 'groundwater', 1, 'cold_gate')
+
+def logic_1063(world):
+    # snowpack supports groundwater recharge; stronger under fire pressure.
+    _feedback(world, 'snowpack', 'groundwater', 1, 'fire_gate')
