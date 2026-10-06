@@ -254,3 +254,5 @@ def logic_426(agents,world):
  v=torch.clamp(agents.reputation,0,2);agents.risk_tolerance=_delta(agents.risk_tolerance,v*0.001)
 def logic_427(agents,world):
  v=torch.clamp(agents.trust,0,2);agents.selfishness=_delta(agents.selfishness,v*0.001)
+def logic_428(agents,world):
+ v=torch.clamp(agents.trust,0,2);agents.defection=_delta(agents.defection,v*0.001)
