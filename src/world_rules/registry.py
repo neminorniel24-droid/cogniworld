@@ -221,3 +221,5 @@ from .logic_111_ice_suppresses_evaporation import apply as logic_111
 RULES.append(logic_111)
 from .logic_112_surface_water_recharges_soil import apply as logic_112
 RULES.append(logic_112)
+from .logic_113_rain_adds_surface_water import apply as logic_113
+RULES.append(logic_113)
