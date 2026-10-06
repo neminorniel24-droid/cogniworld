@@ -1938,3 +1938,7 @@ def logic_3476(agents, world):
 def logic_3477(agents, world):
     # surface_water -> generosity; persistence coupling.
     _update(agents, 'generosity', _desired(agents, world, 'surface_water', 'generosity', 'persistence'))
+
+def logic_3478(agents, world):
+    # surface_water -> gratitude; direct coupling.
+    _update(agents, 'gratitude', _desired(agents, world, 'surface_water', 'gratitude', 'direct'))
