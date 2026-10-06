@@ -1572,3 +1572,7 @@ def logic_1383(world):
 def logic_1384(world):
     # vegetation roots suppress erosion; stronger when temperature is low.
     _feedback(world, 'vegetation', 'erosion', -1, 'cold_gate')
+
+def logic_1385(world):
+    # vegetation roots suppress erosion; stronger under fire pressure.
+    _feedback(world, 'vegetation', 'erosion', -1, 'fire_gate')
