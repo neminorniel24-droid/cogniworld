@@ -838,3 +838,7 @@ def logic_3201(agents, world):
 def logic_3202(agents, world):
     # surface_water -> exploration_drive; limited coupling.
     _update(agents, 'exploration_drive', _desired(agents, world, 'surface_water', 'exploration_drive', 'limited'))
+
+def logic_3203(agents, world):
+    # surface_water -> exploration_drive; pulse coupling.
+    _update(agents, 'exploration_drive', _desired(agents, world, 'surface_water', 'exploration_drive', 'pulse'))
