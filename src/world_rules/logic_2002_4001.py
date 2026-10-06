@@ -2193,3 +2193,7 @@ def logic_2546(world):
 def logic_2547(world):
     # vegetation roots reduce erosion; pulse coupling.
     _couple(world,'vegetation','erosion',1.0,'pulse')
+
+def logic_2548(world):
+    # vegetation roots reduce erosion; feedback coupling.
+    _couple(world,'vegetation','erosion',0.8,'positive')
