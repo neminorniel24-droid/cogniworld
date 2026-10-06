@@ -3354,3 +3354,7 @@ def logic_3830(agents, world):
 def logic_3831(agents, world):
     # surface_water -> learning_rate; strong coupling.
     _update(agents, 'learning_rate', _desired(agents, world, 'surface_water', 'learning_rate', 'strong'))
+
+def logic_3832(agents, world):
+    # surface_water -> learning_rate; limited coupling.
+    _update(agents, 'learning_rate', _desired(agents, world, 'surface_water', 'learning_rate', 'limited'))
