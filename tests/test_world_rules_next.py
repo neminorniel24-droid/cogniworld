@@ -884,3 +884,8 @@ def test_logic_205():
     from world_rules.logic_205_snowpack_reflects_surface_heat import apply
     w = make_world()
     w.temperature.fill_(0.5); w.snowpack.fill_(1.0); apply(w); assert torch.allclose(w.temperature, torch.full_like(w.temperature, 0.48))
+
+def test_logic_206():
+    from world_rules.logic_206_rain_compacts_snowpack import apply
+    w = make_world()
+    w.snowpack.fill_(1.0); w.rain.fill_(1.0); apply(w); assert torch.allclose(w.snowpack, torch.full_like(w.snowpack, 0.98))
