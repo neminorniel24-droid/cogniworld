@@ -805,3 +805,7 @@ def logic_2199(world):
 def logic_2200(world):
     # ash alters soil carbon; capacity coupling.
     _couple(world,'ash','soil_carbon',0.5,'positive')
+
+def logic_2201(world):
+    # ash alters soil carbon; reserve coupling.
+    _couple(world,'ash','soil_carbon',0.9,'positive')
