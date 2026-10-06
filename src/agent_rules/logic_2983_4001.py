@@ -3646,3 +3646,7 @@ def logic_3903(agents, world):
 def logic_3904(agents, world):
     # groundwater -> hydration; feedback coupling.
     _update(agents, 'hydration', _desired(agents, world, 'groundwater', 'hydration', 'feedback'))
+
+def logic_3905(agents, world):
+    # groundwater -> hydration; counterpressure coupling.
+    _update(agents, 'hydration', _desired(agents, world, 'groundwater', 'hydration', 'counterpressure'))
