@@ -2500,3 +2500,7 @@ def logic_1615(world):
 def logic_1616(world):
     # fire releases stored carbon; activates above a food threshold.
     _feedback(world, 'fire_risk', 'carbon_storage', -1, 'threshold')
+
+def logic_1617(world):
+    # fire releases stored carbon; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'fire_risk', 'carbon_storage', -1, 'recovery')
