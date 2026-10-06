@@ -646,3 +646,5 @@ def logic_641(agents,world):
     agents.resource_competition=_delta(agents.resource_competition,+0.002*agents.social_tolerance)
 def logic_642(agents,world):
     agents.migration_score=_delta(agents.migration_score,+0.002*agents.health)
+def logic_643(agents,world):
+    agents.reproduction_score=_delta(agents.reproduction_score,+0.002*agents.hydration)
