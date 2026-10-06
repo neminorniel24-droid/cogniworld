@@ -2045,3 +2045,7 @@ def logic_2509(world):
 def logic_2510(world):
     # moist soil permits recharge; capacity coupling.
     _couple(world,'soil_moisture','groundwater',0.5,'positive')
+
+def logic_2511(world):
+    # moist soil permits recharge; reserve coupling.
+    _couple(world,'soil_moisture','groundwater',0.9,'positive')
