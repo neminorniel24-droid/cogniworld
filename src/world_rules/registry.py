@@ -527,3 +527,5 @@ from .logic_264_flowers_reduce_habitat_stress import apply as logic_264
 RULES.append(logic_264)
 from .logic_265_algae_can_reduce_water_oxygen import apply as logic_265
 RULES.append(logic_265)
+from .logic_266_surface_water_reduces_fire_risk import apply as logic_266
+RULES.append(logic_266)

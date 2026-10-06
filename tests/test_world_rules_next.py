@@ -1184,3 +1184,8 @@ def test_logic_265():
     from world_rules.logic_265_algae_can_reduce_water_oxygen import apply
     w = make_world()
     w.oxygen.fill_(1.0); w.algae.fill_(1.0); apply(w); assert torch.allclose(w.oxygen, torch.full_like(w.oxygen, 0.998))
+
+def test_logic_266():
+    from world_rules.logic_266_surface_water_reduces_fire_risk import apply
+    w = make_world()
+    w.fire_risk.fill_(1.0); w.surface_water.fill_(1.0); apply(w); assert torch.allclose(w.fire_risk, torch.full_like(w.fire_risk, 0.996))
