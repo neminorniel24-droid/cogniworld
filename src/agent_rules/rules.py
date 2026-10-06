@@ -150,3 +150,5 @@ def logic_374(agents,world):
  v=_local(world,agents,'fire_risk');agents.migration_drive=_delta(agents.migration_drive,v*0.001)
 def logic_375(agents,world):
  v=_local(world,agents,'ash');agents.hunger=_delta(agents.hunger,v*0.001)
+def logic_376(agents,world):
+ v=_local(world,agents,'ash');agents.recovery=_delta(agents.recovery,v*0.001)
