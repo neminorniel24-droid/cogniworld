@@ -1012,3 +1012,7 @@ def logic_1243(world):
 def logic_1244(world):
     # warmth melts snowpack; stronger when temperature is low.
     _feedback(world, 'temperature', 'snowpack', -1, 'cold_gate')
+
+def logic_1245(world):
+    # warmth melts snowpack; stronger under fire pressure.
+    _feedback(world, 'temperature', 'snowpack', -1, 'fire_gate')
