@@ -1769,3 +1769,7 @@ def logic_2440(world):
 def logic_2441(world):
     # rainfall generates runoff; reserve coupling.
     _couple(world,'rain','runoff',0.9,'positive')
+
+def logic_2442(world):
+    # surface ice contributes to ice cover; direct coupling.
+    _couple(world,'surface_ice','ice',1.0,'positive')
