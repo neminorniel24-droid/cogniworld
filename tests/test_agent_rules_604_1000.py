@@ -579,3 +579,6 @@ def test_logic_810():
 def test_logic_811():
     from agent_rules.rules import logic_811
     _check(logic_811, 'last_reward', 'learning_rate', 1)
+def test_logic_812():
+    from agent_rules.rules import logic_812
+    _check(logic_812, 'last_energy_delta', 'memory_update', 1)

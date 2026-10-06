@@ -984,3 +984,5 @@ def logic_810(agents,world):
     agents.future_help=_delta(agents.future_help,+0.002*agents.cooperation_history)
 def logic_811(agents,world):
     agents.learning_rate=_delta(agents.learning_rate,+0.002*agents.last_reward)
+def logic_812(agents,world):
+    agents.memory_update=_delta(agents.memory_update,+0.002*agents.last_energy_delta)
