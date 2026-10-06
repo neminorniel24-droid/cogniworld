@@ -2616,3 +2616,7 @@ def logic_1644(world):
 def logic_1645(world):
     # soil carbon contributes ecosystem carbon; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'soil_carbon', 'carbon_storage', 1, 'recovery')
+
+def logic_1646(world):
+    # flowers support pollinators; direct.
+    _feedback(world, 'flowers', 'pollinators', 1, 'baseline')
