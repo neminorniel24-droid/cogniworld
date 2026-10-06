@@ -632,3 +632,12 @@ def test_logic_174():
     before=w.fire_risk.clone()
     apply(w)
     assert torch.all(w.fire_risk < before)
+
+def test_logic_175():
+    from world_rules.logic_175_active_fire_warms_surface import apply
+    w = make_world()
+    w.fire_risk.fill_(1.0)
+    w.temperature_target.fill_(0.5)
+    before=w.temperature_target.clone()
+    apply(w)
+    assert torch.all(w.temperature_target > before)
