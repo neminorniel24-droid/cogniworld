@@ -3892,3 +3892,7 @@ def logic_1963(world):
 def logic_1964(world):
     # moist soil lowers fire risk; modulated by temperature.
     _feedback(world, 'soil_moisture', 'fire_risk', -1, 'seasonal_gate')
+
+def logic_1965(world):
+    # moist soil lowers fire risk; saturates at high source levels.
+    _feedback(world, 'soil_moisture', 'fire_risk', -1, 'saturation')
