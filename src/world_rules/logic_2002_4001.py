@@ -2673,3 +2673,7 @@ def logic_2666(world):
 def logic_2667(world):
     # flowers support seed production; pulse coupling.
     _couple(world,'flowers','seed_bank',1.0,'pulse')
+
+def logic_2668(world):
+    # flowers support seed production; feedback coupling.
+    _couple(world,'flowers','seed_bank',0.8,'positive')
