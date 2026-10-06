@@ -571,3 +571,11 @@ def test_logic_167():
     w.detritus.zero_()
     apply(w)
     assert torch.allclose(w.detritus, torch.full_like(w.detritus, 0.005))
+
+def test_logic_168():
+    from world_rules.logic_168_detritus_supports_biodiversity import apply
+    w = make_world()
+    w.detritus.fill_(1.0)
+    w.biodiversity.zero_()
+    apply(w)
+    assert torch.allclose(w.biodiversity, torch.full_like(w.biodiversity, 0.002))

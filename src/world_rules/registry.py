@@ -331,3 +331,5 @@ from .logic_166_predators_curb_herbivores import apply as logic_166
 RULES.append(logic_166)
 from .logic_167_carrion_feeds_detritus import apply as logic_167
 RULES.append(logic_167)
+from .logic_168_detritus_supports_biodiversity import apply as logic_168
+RULES.append(logic_168)
