@@ -3346,3 +3346,7 @@ def logic_3828(agents, world):
 def logic_3829(agents, world):
     # surface_water -> learning_rate; inverse coupling.
     _update(agents, 'learning_rate', _desired(agents, world, 'surface_water', 'learning_rate', 'inverse'))
+
+def logic_3830(agents, world):
+    # surface_water -> learning_rate; threshold coupling.
+    _update(agents, 'learning_rate', _desired(agents, world, 'surface_water', 'learning_rate', 'threshold'))
