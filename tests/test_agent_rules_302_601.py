@@ -550,3 +550,8 @@ def test_logic_410():
 def test_logic_411():
  from agent_rules.rules import logic_411
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.selfishness.clone();a.hunger.fill_(1);logic_411(a,w);assert torch.any(a.selfishness!=b)
+
+
+def test_logic_412():
+ from agent_rules.rules import logic_412
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.generosity.clone();a.health.fill_(1);logic_412(a,w);assert torch.any(a.generosity!=b)
