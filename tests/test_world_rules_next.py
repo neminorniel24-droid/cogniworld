@@ -434,3 +434,11 @@ def test_logic_151():
     before=w.pathogen_load.clone()
     apply(w)
     assert torch.all(w.pathogen_load < before)
+
+def test_logic_152():
+    from world_rules.logic_152_habitat_stress_increases_pathogens import apply
+    w = make_world()
+    w.habitat_stress.fill_(1.0)
+    w.pathogen_load.zero_()
+    apply(w)
+    assert torch.allclose(w.pathogen_load, torch.full_like(w.pathogen_load, 0.004))

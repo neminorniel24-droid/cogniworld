@@ -299,3 +299,5 @@ from .logic_150_habitat_stress_reduces_biodiversity import apply as logic_150
 RULES.append(logic_150)
 from .logic_151_biodiversity_suppresses_pathogens import apply as logic_151
 RULES.append(logic_151)
+from .logic_152_habitat_stress_increases_pathogens import apply as logic_152
+RULES.append(logic_152)
