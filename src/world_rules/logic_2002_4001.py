@@ -1793,3 +1793,7 @@ def logic_2446(world):
 def logic_2447(world):
     # surface ice contributes to ice cover; pulse coupling.
     _couple(world,'surface_ice','ice',1.0,'pulse')
+
+def logic_2448(world):
+    # surface ice contributes to ice cover; feedback coupling.
+    _couple(world,'surface_ice','ice',0.8,'positive')
