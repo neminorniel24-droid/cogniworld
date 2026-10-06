@@ -544,3 +544,7 @@ def logic_1126(world):
 def logic_1127(world):
     # groundwater buffers soil moisture; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'groundwater', 'soil_moisture', 1, 'recovery')
+
+def logic_1128(world):
+    # groundwater supports wetlands; direct.
+    _feedback(world, 'groundwater', 'wetland', 1, 'baseline')
