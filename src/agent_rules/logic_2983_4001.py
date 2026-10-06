@@ -994,3 +994,7 @@ def logic_3240(agents, world):
 def logic_3241(agents, world):
     # surface_water -> stability; inverse coupling.
     _update(agents, 'stability', _desired(agents, world, 'surface_water', 'stability', 'inverse'))
+
+def logic_3242(agents, world):
+    # surface_water -> stability; threshold coupling.
+    _update(agents, 'stability', _desired(agents, world, 'surface_water', 'stability', 'threshold'))
