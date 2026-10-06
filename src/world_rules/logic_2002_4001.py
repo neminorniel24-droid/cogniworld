@@ -2197,3 +2197,7 @@ def logic_2547(world):
 def logic_2548(world):
     # vegetation roots reduce erosion; feedback coupling.
     _couple(world,'vegetation','erosion',0.8,'positive')
+
+def logic_2549(world):
+    # vegetation roots reduce erosion; counterpressure coupling.
+    _couple(world,'vegetation','erosion',0.8,'negative')
