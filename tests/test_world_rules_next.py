@@ -279,3 +279,11 @@ def test_logic_133():
     before=w.decomposition_rate.clone()
     apply(w)
     assert torch.all(w.decomposition_rate < before)
+
+def test_logic_134():
+    from world_rules.logic_134_wet_soil_accelerates_decomposition import apply
+    w = make_world()
+    w.soil_moisture.fill_(1.0)
+    w.decomposition_rate.zero_()
+    apply(w)
+    assert torch.allclose(w.decomposition_rate, torch.full_like(w.decomposition_rate, 0.008))
