@@ -1268,3 +1268,7 @@ def logic_1307(world):
 def logic_1308(world):
     # wind enhances evaporation; activates above a food threshold.
     _feedback(world, 'wind_y', 'evaporation', 1, 'threshold')
+
+def logic_1309(world):
+    # wind enhances evaporation; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'wind_y', 'evaporation', 1, 'recovery')
