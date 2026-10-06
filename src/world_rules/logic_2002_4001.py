@@ -789,3 +789,7 @@ def logic_2195(world):
 def logic_2196(world):
     # ash alters soil carbon; threshold coupling.
     _couple(world,'ash','soil_carbon',1.0,'threshold')
+
+def logic_2197(world):
+    # ash alters soil carbon; pulse coupling.
+    _couple(world,'ash','soil_carbon',1.0,'pulse')
