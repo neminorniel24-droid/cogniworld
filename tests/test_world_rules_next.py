@@ -407,3 +407,12 @@ def test_logic_148():
     w.biodiversity.zero_()
     apply(w)
     assert torch.allclose(w.biodiversity, torch.full_like(w.biodiversity, 0.005))
+
+def test_logic_149():
+    from world_rules.logic_149_balanced_food_web_raises_biodiversity import apply
+    w = make_world()
+    w.herbivore.fill_(1.0)
+    w.predator.fill_(1.0)
+    w.biodiversity.zero_()
+    apply(w)
+    assert torch.allclose(w.biodiversity, torch.full_like(w.biodiversity, 0.003))

@@ -293,3 +293,5 @@ from .logic_147_carrion_decomposition_adds_decomposition import apply as logic_1
 RULES.append(logic_147)
 from .logic_148_vegetation_raises_biodiversity import apply as logic_148
 RULES.append(logic_148)
+from .logic_149_balanced_food_web_raises_biodiversity import apply as logic_149
+RULES.append(logic_149)
