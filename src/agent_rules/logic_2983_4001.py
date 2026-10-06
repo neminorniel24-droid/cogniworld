@@ -446,3 +446,7 @@ def logic_3103(agents, world):
 def logic_3104(agents, world):
     # surface_water -> infection_risk; limited coupling.
     _update(agents, 'infection_risk', _desired(agents, world, 'surface_water', 'infection_risk', 'limited'))
+
+def logic_3105(agents, world):
+    # surface_water -> infection_risk; pulse coupling.
+    _update(agents, 'infection_risk', _desired(agents, world, 'surface_water', 'infection_risk', 'pulse'))
