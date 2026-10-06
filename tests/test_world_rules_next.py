@@ -139,3 +139,12 @@ def test_logic_117():
     before=w.erosion.clone()
     apply(w)
     assert torch.all(w.erosion < before)
+
+def test_logic_118():
+    from world_rules.logic_118_canopy_intercepts_rain import apply
+    w = make_world()
+    w.rain.fill_(1.0)
+    w.vegetation.fill_(1.0)
+    w.soil_moisture.zero_()
+    apply(w)
+    assert torch.allclose(w.soil_moisture, torch.full_like(w.soil_moisture, 0.01))
