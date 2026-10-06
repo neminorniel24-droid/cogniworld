@@ -450,3 +450,12 @@ def test_logic_153():
     w.pathogen_load.zero_()
     apply(w)
     assert torch.allclose(w.pathogen_load, torch.full_like(w.pathogen_load, 0.003))
+
+def test_logic_154():
+    from world_rules.logic_154_dryness_suppresses_pathogens import apply
+    w = make_world()
+    w.soil_moisture.zero_()
+    w.pathogen_load.fill_(1.0)
+    before=w.pathogen_load.clone()
+    apply(w)
+    assert torch.all(w.pathogen_load < before)

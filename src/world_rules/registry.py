@@ -303,3 +303,5 @@ from .logic_152_habitat_stress_increases_pathogens import apply as logic_152
 RULES.append(logic_152)
 from .logic_153_wet_soil_supports_pathogen_survival import apply as logic_153
 RULES.append(logic_153)
+from .logic_154_dryness_suppresses_pathogens import apply as logic_154
+RULES.append(logic_154)
