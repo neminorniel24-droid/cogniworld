@@ -2389,3 +2389,7 @@ def logic_2595(world):
 def logic_2596(world):
     # ash returns mineral nutrients; threshold coupling.
     _couple(world,'ash','nutrients',1.0,'threshold')
+
+def logic_2597(world):
+    # ash returns mineral nutrients; pulse coupling.
+    _couple(world,'ash','nutrients',1.0,'pulse')
