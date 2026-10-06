@@ -446,3 +446,5 @@ def logic_522(agents,world):
  signal=torch.sigmoid(agents.last_reward*0.05+agents.last_action.float()*0.02);agents.confidence=_delta(agents.confidence,signal*0.001)
 def logic_523(agents,world):
  signal=torch.sigmoid(agents.last_reward*0.05+agents.last_action.float()*0.02);agents.caution=_delta(agents.caution,signal*0.001)
+def logic_524(agents,world):
+ signal=torch.sigmoid(agents.last_reward*0.05+agents.last_action.float()*0.02);agents.foraging_score=_delta(agents.foraging_score,signal*0.001)
