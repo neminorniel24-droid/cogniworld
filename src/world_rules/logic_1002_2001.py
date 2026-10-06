@@ -224,3 +224,7 @@ def logic_1046(world):
 def logic_1047(world):
     # snowmelt supplies surface water; stronger when temperature is high.
     _feedback(world, 'snowpack', 'surface_water', 1, 'heat_gate')
+
+def logic_1048(world):
+    # snowmelt supplies surface water; stronger when temperature is low.
+    _feedback(world, 'snowpack', 'surface_water', 1, 'cold_gate')
