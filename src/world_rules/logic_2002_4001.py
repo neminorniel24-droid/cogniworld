@@ -1013,3 +1013,7 @@ def logic_2251(world):
 def logic_2252(world):
     # algae adds organic matter; direct coupling.
     _couple(world,'algae','organic_matter',1.0,'positive')
+
+def logic_2253(world):
+    # algae adds organic matter; inverse coupling.
+    _couple(world,'algae','organic_matter',1.0,'negative')
