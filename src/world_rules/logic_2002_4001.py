@@ -2645,3 +2645,7 @@ def logic_2659(world):
 def logic_2660(world):
     # pollinators improve flower persistence; capacity coupling.
     _couple(world,'pollinators','flowers',0.5,'positive')
+
+def logic_2661(world):
+    # pollinators improve flower persistence; reserve coupling.
+    _couple(world,'pollinators','flowers',0.9,'positive')
