@@ -3352,3 +3352,7 @@ def logic_1828(world):
 def logic_1829(world):
     # diversity buffers habitat stress; stronger when soil is dry.
     _feedback(world, 'biodiversity', 'habitat_stress', -1, 'dry_gate')
+
+def logic_1830(world):
+    # diversity buffers habitat stress; stronger when soil is wet.
+    _feedback(world, 'biodiversity', 'habitat_stress', -1, 'wet_gate')
