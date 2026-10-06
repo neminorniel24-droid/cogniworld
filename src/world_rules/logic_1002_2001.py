@@ -2668,3 +2668,7 @@ def logic_1657(world):
 def logic_1658(world):
     # flowers support pollinators; activates above a food threshold.
     _feedback(world, 'flowers', 'pollinators', 1, 'threshold')
+
+def logic_1659(world):
+    # flowers support pollinators; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'flowers', 'pollinators', 1, 'recovery')
