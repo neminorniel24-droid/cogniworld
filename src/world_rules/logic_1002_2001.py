@@ -3616,3 +3616,7 @@ def logic_1894(world):
 def logic_1895(world):
     # algae add organic matter; saturates at high source levels.
     _feedback(world, 'algae', 'organic_matter', 1, 'saturation')
+
+def logic_1896(world):
+    # algae add organic matter; activates above a food threshold.
+    _feedback(world, 'algae', 'organic_matter', 1, 'threshold')
