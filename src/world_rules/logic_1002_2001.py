@@ -192,3 +192,7 @@ def logic_1038(world):
 def logic_1039(world):
     # rain recharges groundwater; stronger under habitat stress.
     _feedback(world, 'rain', 'groundwater', 1, 'stress_gate')
+
+def logic_1040(world):
+    # rain recharges groundwater; modulated by temperature.
+    _feedback(world, 'rain', 'groundwater', 1, 'seasonal_gate')
