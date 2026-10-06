@@ -3613,3 +3613,7 @@ def logic_2901(world):
 def logic_2902(world):
     # deadwood stores carbon; direct coupling.
     _couple(world,'deadwood','carbon_storage',1.0,'positive')
+
+def logic_2903(world):
+    # deadwood stores carbon; inverse coupling.
+    _couple(world,'deadwood','carbon_storage',1.0,'negative')
