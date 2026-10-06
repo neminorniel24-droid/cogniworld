@@ -665,3 +665,7 @@ def logic_2164(world):
 def logic_2165(world):
     # heat reduces snowpack; strong coupling.
     _couple(world,'temperature','snowpack',1.35,'positive')
+
+def logic_2166(world):
+    # heat reduces snowpack; threshold coupling.
+    _couple(world,'temperature','snowpack',1.0,'threshold')
