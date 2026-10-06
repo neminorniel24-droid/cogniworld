@@ -440,3 +440,7 @@ def logic_1100(world):
 def logic_1101(world):
     # surface water supports algae; stronger when soil is dry.
     _feedback(world, 'surface_water', 'algae', 1, 'dry_gate')
+
+def logic_1102(world):
+    # surface water supports algae; stronger when soil is wet.
+    _feedback(world, 'surface_water', 'algae', 1, 'wet_gate')
