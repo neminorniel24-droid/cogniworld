@@ -714,3 +714,6 @@ def test_logic_855():
 def test_logic_856():
     from agent_rules.rules import logic_856
     _check(logic_856, 'defection_score', 'exploration_score', 1)
+def test_logic_857():
+    from agent_rules.rules import logic_857
+    _check(logic_857, 'reciprocity_score', 'foraging_score', 1)
