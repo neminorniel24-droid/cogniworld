@@ -808,3 +808,7 @@ def logic_1192(world):
 def logic_1193(world):
     # humidity promotes cloud formation; stronger under habitat stress.
     _feedback(world, 'humidity', 'cloud', 1, 'stress_gate')
+
+def logic_1194(world):
+    # humidity promotes cloud formation; modulated by temperature.
+    _feedback(world, 'humidity', 'cloud', 1, 'seasonal_gate')
