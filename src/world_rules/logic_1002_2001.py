@@ -2328,3 +2328,7 @@ def logic_1572(world):
 def logic_1573(world):
     # fire consumes deadwood; saturates at high source levels.
     _feedback(world, 'fire_risk', 'deadwood', -1, 'saturation')
+
+def logic_1574(world):
+    # fire consumes deadwood; activates above a food threshold.
+    _feedback(world, 'fire_risk', 'deadwood', -1, 'threshold')
