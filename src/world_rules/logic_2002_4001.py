@@ -229,3 +229,7 @@ def logic_2055(world):
 def logic_2056(world):
     # organic matter builds soil carbon; threshold coupling.
     _couple(world,'organic_matter','soil_carbon',1.0,'threshold')
+
+def logic_2057(world):
+    # organic matter builds soil carbon; pulse coupling.
+    _couple(world,'organic_matter','soil_carbon',1.0,'pulse')
