@@ -100,3 +100,7 @@ def logic_1015(world):
 def logic_1016(world):
     # rainfall wets soil; direct.
     _feedback(world, 'rain', 'soil_moisture', 1, 'baseline')
+
+def logic_1017(world):
+    # rainfall wets soil; stronger when soil is dry.
+    _feedback(world, 'rain', 'soil_moisture', 1, 'dry_gate')
