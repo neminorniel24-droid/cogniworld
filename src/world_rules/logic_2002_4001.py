@@ -833,3 +833,7 @@ def logic_2206(world):
 def logic_2207(world):
     # fire removes deadwood; pulse coupling.
     _couple(world,'fire_risk','deadwood',1.0,'pulse')
+
+def logic_2208(world):
+    # fire removes deadwood; feedback coupling.
+    _couple(world,'fire_risk','deadwood',0.8,'positive')
