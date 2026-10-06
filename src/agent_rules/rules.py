@@ -392,3 +392,5 @@ def logic_495(agents,world):
  v=torch.clamp(agents.neighbor_health_gap,0,2);agents.strategy_confidence=_delta(agents.strategy_confidence,v*0.001)
 def logic_496(agents,world):
  v=torch.clamp(agents.neighbor_health_gap,0,2);agents.empathy=_delta(agents.empathy,v*0.001)
+def logic_497(agents,world):
+ v=torch.clamp(agents.risk_tolerance,0,2);agents.defection_threshold=_delta(agents.defection_threshold,v*0.001)
