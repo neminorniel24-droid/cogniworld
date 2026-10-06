@@ -946,3 +946,5 @@ def logic_791(agents,world):
     agents.sharing_capacity=_delta(agents.sharing_capacity,+0.002*agents.cooperation)
 def logic_792(agents,world):
     agents.help_drive=_delta(agents.help_drive,-0.002*agents.defection)
+def logic_793(agents,world):
+    agents.social_avoidance=_delta(agents.social_avoidance,+0.002*agents.aggression)

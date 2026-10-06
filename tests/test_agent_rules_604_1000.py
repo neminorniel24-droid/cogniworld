@@ -522,3 +522,6 @@ def test_logic_791():
 def test_logic_792():
     from agent_rules.rules import logic_792
     _check(logic_792, 'defection', 'help_drive', -1)
+def test_logic_793():
+    from agent_rules.rules import logic_793
+    _check(logic_793, 'aggression', 'social_avoidance', 1)
