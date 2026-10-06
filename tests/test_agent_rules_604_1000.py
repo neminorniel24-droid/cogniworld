@@ -729,3 +729,6 @@ def test_logic_860():
 def test_logic_861():
     from agent_rules.rules import logic_861
     _check(logic_861, 'foraging_score', 'strategy_mixing', 1)
+def test_logic_862():
+    from agent_rules.rules import logic_862
+    _check(logic_862, 'survival_score', 'future_payoff_weight', 1)
