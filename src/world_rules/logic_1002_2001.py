@@ -88,3 +88,7 @@ def logic_1012(world):
 def logic_1013(world):
     # rainfall raises surface water; saturates at high source levels.
     _feedback(world, 'rain', 'surface_water', 1, 'saturation')
+
+def logic_1014(world):
+    # rainfall raises surface water; activates above a food threshold.
+    _feedback(world, 'rain', 'surface_water', 1, 'threshold')
