@@ -1509,3 +1509,7 @@ def logic_2375(world):
 def logic_2376(world):
     # salinity stresses vegetation; threshold coupling.
     _couple(world,'salinity','vegetation',1.0,'threshold')
+
+def logic_2377(world):
+    # salinity stresses vegetation; pulse coupling.
+    _couple(world,'salinity','vegetation',1.0,'pulse')
