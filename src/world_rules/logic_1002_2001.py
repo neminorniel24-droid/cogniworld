@@ -1348,3 +1348,7 @@ def logic_1327(world):
 def logic_1328(world):
     # evaporation removes surface water; stronger when temperature is low.
     _feedback(world, 'evaporation', 'surface_water', -1, 'cold_gate')
+
+def logic_1329(world):
+    # evaporation removes surface water; stronger under fire pressure.
+    _feedback(world, 'evaporation', 'surface_water', -1, 'fire_gate')
