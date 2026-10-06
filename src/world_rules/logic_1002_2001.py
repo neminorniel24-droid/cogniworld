@@ -296,3 +296,7 @@ def logic_1064(world):
 def logic_1065(world):
     # snowpack supports groundwater recharge; stronger when vegetation is scarce.
     _feedback(world, 'snowpack', 'groundwater', 1, 'scarcity_gate')
+
+def logic_1066(world):
+    # snowpack supports groundwater recharge; stronger when biomass is high.
+    _feedback(world, 'snowpack', 'groundwater', 1, 'biomass_gate')
