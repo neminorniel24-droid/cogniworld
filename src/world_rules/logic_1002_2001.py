@@ -1864,3 +1864,7 @@ def logic_1456(world):
 def logic_1457(world):
     # biomass contributes oxygen; stronger when vegetation is scarce.
     _feedback(world, 'biomass', 'oxygen', 1, 'scarcity_gate')
+
+def logic_1458(world):
+    # biomass contributes oxygen; stronger when biomass is high.
+    _feedback(world, 'biomass', 'oxygen', 1, 'biomass_gate')
