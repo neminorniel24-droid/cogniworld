@@ -80,3 +80,8 @@ def test_logic_316():
 def test_logic_317():
  from agent_rules.rules import logic_317
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.pathogen_risk.clone();setattr(w,'snowpack',torch.ones(4,4));logic_317(a,w);assert torch.any(a.pathogen_risk!=b)
+
+
+def test_logic_318():
+ from agent_rules.rules import logic_318
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.thermal_stress.clone();setattr(w,'temperature',torch.ones(4,4));logic_318(a,w);assert torch.any(a.thermal_stress!=b)
