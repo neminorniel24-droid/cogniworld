@@ -857,3 +857,7 @@ def logic_2212(world):
 def logic_2213(world):
     # deadwood feeds organic matter; inverse coupling.
     _couple(world,'deadwood','organic_matter',1.0,'negative')
+
+def logic_2214(world):
+    # deadwood feeds organic matter; limited coupling.
+    _couple(world,'deadwood','organic_matter',0.65,'positive')
