@@ -3425,3 +3425,7 @@ def logic_2854(world):
 def logic_2855(world):
     # sediment load changes water state; strong coupling.
     _couple(world,'sediment','surface_water',1.35,'positive')
+
+def logic_2856(world):
+    # sediment load changes water state; threshold coupling.
+    _couple(world,'sediment','surface_water',1.0,'threshold')
