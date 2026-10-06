@@ -60,3 +60,7 @@ def logic_1005(world):
 def logic_1006(world):
     # rainfall raises surface water; stronger when temperature is low.
     _feedback(world, 'rain', 'surface_water', 1, 'cold_gate')
+
+def logic_1007(world):
+    # rainfall raises surface water; stronger under fire pressure.
+    _feedback(world, 'rain', 'surface_water', 1, 'fire_gate')
