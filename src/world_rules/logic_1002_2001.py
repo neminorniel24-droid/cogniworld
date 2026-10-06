@@ -2688,3 +2688,7 @@ def logic_1662(world):
 def logic_1663(world):
     # pollination sustains flowering; stronger when temperature is high.
     _feedback(world, 'pollinators', 'flowers', 1, 'heat_gate')
+
+def logic_1664(world):
+    # pollination sustains flowering; stronger when temperature is low.
+    _feedback(world, 'pollinators', 'flowers', 1, 'cold_gate')
