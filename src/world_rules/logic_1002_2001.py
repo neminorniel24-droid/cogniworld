@@ -1976,3 +1976,7 @@ def logic_1484(world):
 def logic_1485(world):
     # photosynthesis builds biomass; stronger when vegetation is scarce.
     _feedback(world, 'photosynthesis_factor', 'biomass', 1, 'scarcity_gate')
+
+def logic_1486(world):
+    # photosynthesis builds biomass; stronger when biomass is high.
+    _feedback(world, 'photosynthesis_factor', 'biomass', 1, 'biomass_gate')
