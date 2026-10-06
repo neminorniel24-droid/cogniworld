@@ -945,3 +945,7 @@ def logic_2234(world):
 def logic_2235(world):
     # warmth accelerates decomposition; strong coupling.
     _couple(world,'temperature','decomposition_rate',1.35,'positive')
+
+def logic_2236(world):
+    # warmth accelerates decomposition; threshold coupling.
+    _couple(world,'temperature','decomposition_rate',1.0,'threshold')
