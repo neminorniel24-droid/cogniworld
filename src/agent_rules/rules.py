@@ -164,3 +164,5 @@ def logic_381(agents,world):
  v=_local(world,agents,'organic_matter');agents.hunger=_delta(agents.hunger,v*0.001)
 def logic_382(agents,world):
  v=_local(world,agents,'organic_matter');agents.recovery=_delta(agents.recovery,v*0.001)
+def logic_383(agents,world):
+ v=_local(world,agents,'organic_matter');agents.wealth=_delta(agents.wealth,v*0.001)

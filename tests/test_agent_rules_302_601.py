@@ -405,3 +405,8 @@ def test_logic_381():
 def test_logic_382():
  from agent_rules.rules import logic_382
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.recovery.clone();setattr(w,'organic_matter',torch.ones(4,4));logic_382(a,w);assert torch.any(a.recovery!=b)
+
+
+def test_logic_383():
+ from agent_rules.rules import logic_383
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.wealth.clone();setattr(w,'organic_matter',torch.ones(4,4));logic_383(a,w);assert torch.any(a.wealth!=b)
