@@ -2904,3 +2904,7 @@ def logic_1716(world):
 def logic_1717(world):
     # vegetation supports herbivores; stronger when soil is dry.
     _feedback(world, 'vegetation', 'herbivore', 1, 'dry_gate')
+
+def logic_1718(world):
+    # vegetation supports herbivores; stronger when soil is wet.
+    _feedback(world, 'vegetation', 'herbivore', 1, 'wet_gate')
