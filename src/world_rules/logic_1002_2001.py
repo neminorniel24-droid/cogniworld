@@ -2052,3 +2052,7 @@ def logic_1503(world):
 def logic_1504(world):
     # nutrients support vegetation; activates above a food threshold.
     _feedback(world, 'nutrients', 'vegetation', 1, 'threshold')
+
+def logic_1505(world):
+    # nutrients support vegetation; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'nutrients', 'vegetation', 1, 'recovery')
