@@ -701,3 +701,11 @@ def test_logic_182():
     before=w.biomass.clone()
     apply(w)
     assert torch.all(w.biomass < before)
+
+def test_logic_183():
+    from world_rules.logic_183_water_abundance_supports_biomass import apply
+    w = make_world()
+    w.soil_moisture.fill_(1.0)
+    w.biomass.zero_()
+    apply(w)
+    assert torch.allclose(w.biomass, torch.full_like(w.biomass, 0.004))

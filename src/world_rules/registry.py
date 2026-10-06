@@ -361,3 +361,5 @@ from .logic_181_wetlands_store_carbon import apply as logic_181
 RULES.append(logic_181)
 from .logic_182_drought_reduces_biomass import apply as logic_182
 RULES.append(logic_182)
+from .logic_183_water_abundance_supports_biomass import apply as logic_183
+RULES.append(logic_183)
