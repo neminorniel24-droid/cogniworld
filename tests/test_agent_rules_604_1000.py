@@ -813,3 +813,6 @@ def test_logic_888():
 def test_logic_889():
     from agent_rules.rules import logic_889
     _check(logic_889, 'last_interaction', 'future_payoff_weight', 1)
+def test_logic_890():
+    from agent_rules.rules import logic_890
+    _check(logic_890, 'strategy_score', 'strategy_confidence', 1)
