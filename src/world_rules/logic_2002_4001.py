@@ -289,3 +289,7 @@ def logic_2070(world):
 def logic_2071(world):
     # soil carbon retains nutrients; reserve coupling.
     _couple(world,'soil_carbon','nutrients',0.9,'positive')
+
+def logic_2072(world):
+    # nutrients support plant growth; direct coupling.
+    _couple(world,'nutrients','vegetation',1.0,'positive')
