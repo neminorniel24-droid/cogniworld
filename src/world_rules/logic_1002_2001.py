@@ -2028,3 +2028,7 @@ def logic_1497(world):
 def logic_1498(world):
     # nutrients support vegetation; stronger when surface water is high.
     _feedback(world, 'nutrients', 'vegetation', 1, 'water_gate')
+
+def logic_1499(world):
+    # nutrients support vegetation; stronger when vegetation is scarce.
+    _feedback(world, 'nutrients', 'vegetation', 1, 'scarcity_gate')
