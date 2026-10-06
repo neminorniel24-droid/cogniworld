@@ -750,3 +750,6 @@ def test_logic_867():
 def test_logic_868():
     from agent_rules.rules import logic_868
     _check(logic_868, 'last_reward', 'defection_score', 1)
+def test_logic_869():
+    from agent_rules.rules import logic_869
+    _check(logic_869, 'last_energy_delta', 'risk_score', 1)

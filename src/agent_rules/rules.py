@@ -1098,3 +1098,5 @@ def logic_867(agents,world):
     agents.payoff=_signed_delta(agents.payoff,+0.002*agents.defense_score)
 def logic_868(agents,world):
     agents.defection_score=_delta(agents.defection_score,+0.002*agents.last_reward)
+def logic_869(agents,world):
+    agents.risk_score=_delta(agents.risk_score,+0.002*agents.last_energy_delta)
