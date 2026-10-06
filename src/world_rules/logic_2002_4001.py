@@ -3817,3 +3817,7 @@ def logic_2952(world):
 def logic_2953(world):
     # rainfall closes hydrologic feedback; inverse coupling.
     _couple(world,'rain','cloud',1.0,'negative')
+
+def logic_2954(world):
+    # rainfall closes hydrologic feedback; limited coupling.
+    _couple(world,'rain','cloud',0.65,'positive')
