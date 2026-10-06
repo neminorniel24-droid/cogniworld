@@ -514,3 +514,7 @@ def logic_3120(agents, world):
 def logic_3121(agents, world):
     # surface_water -> alertness; counterpressure coupling.
     _update(agents, 'alertness', _desired(agents, world, 'surface_water', 'alertness', 'counterpressure'))
+
+def logic_3122(agents, world):
+    # surface_water -> alertness; capacity coupling.
+    _update(agents, 'alertness', _desired(agents, world, 'surface_water', 'alertness', 'capacity'))
