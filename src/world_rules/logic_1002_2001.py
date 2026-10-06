@@ -176,3 +176,7 @@ def logic_1034(world):
 def logic_1035(world):
     # rain recharges groundwater; stronger under fire pressure.
     _feedback(world, 'rain', 'groundwater', 1, 'fire_gate')
+
+def logic_1036(world):
+    # rain recharges groundwater; stronger when surface water is high.
+    _feedback(world, 'rain', 'groundwater', 1, 'water_gate')
