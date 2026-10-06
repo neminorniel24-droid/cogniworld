@@ -3593,3 +3593,7 @@ def logic_2896(world):
 def logic_2897(world):
     # deadwood provides habitat structure; pulse coupling.
     _couple(world,'deadwood','habitat_stress',1.0,'pulse')
+
+def logic_2898(world):
+    # deadwood provides habitat structure; feedback coupling.
+    _couple(world,'deadwood','habitat_stress',0.8,'positive')
