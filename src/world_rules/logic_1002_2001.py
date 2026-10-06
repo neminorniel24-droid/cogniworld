@@ -1432,3 +1432,7 @@ def logic_1348(world):
 def logic_1349(world):
     # runoff mobilizes sediment; saturates at high source levels.
     _feedback(world, 'runoff', 'sediment', 1, 'saturation')
+
+def logic_1350(world):
+    # runoff mobilizes sediment; activates above a food threshold.
+    _feedback(world, 'runoff', 'sediment', 1, 'threshold')
