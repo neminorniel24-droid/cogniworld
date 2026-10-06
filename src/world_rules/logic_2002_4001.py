@@ -3001,3 +3001,7 @@ def logic_2748(world):
 def logic_2749(world):
     # wind alters local thermal state; counterpressure coupling.
     _couple(world,'wind_y','temperature',0.8,'negative')
+
+def logic_2750(world):
+    # wind alters local thermal state; capacity coupling.
+    _couple(world,'wind_y','temperature',0.5,'positive')
