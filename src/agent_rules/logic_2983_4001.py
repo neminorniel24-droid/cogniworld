@@ -262,3 +262,7 @@ def logic_3057(agents, world):
 def logic_3058(agents, world):
     # surface_water -> thermal_stress; direct coupling.
     _update(agents, 'thermal_stress', _desired(agents, world, 'surface_water', 'thermal_stress', 'direct'))
+
+def logic_3059(agents, world):
+    # surface_water -> thermal_stress; inverse coupling.
+    _update(agents, 'thermal_stress', _desired(agents, world, 'surface_water', 'thermal_stress', 'inverse'))
