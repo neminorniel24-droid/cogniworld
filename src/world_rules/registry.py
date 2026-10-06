@@ -205,3 +205,5 @@ from .logic_103_bare_soil_absorbs_more_heat import apply as logic_103
 RULES.append(logic_103)
 from .logic_104_ice_reflects_solar_energy import apply as logic_104
 RULES.append(logic_104)
+from .logic_105_methane_adds_greenhouse_warming import apply as logic_105
+RULES.append(logic_105)
