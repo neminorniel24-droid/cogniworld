@@ -30,3 +30,8 @@ def test_logic_306():
 def test_logic_307():
  from agent_rules.rules import logic_307
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.thirst.clone();setattr(w,'groundwater',torch.ones(4,4));logic_307(a,w);assert torch.any(a.thirst!=b)
+
+
+def test_logic_308():
+ from agent_rules.rules import logic_308
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.migration_drive.clone();setattr(w,'groundwater',torch.ones(4,4));logic_308(a,w);assert torch.any(a.migration_drive!=b)

@@ -14,3 +14,5 @@ def logic_306(agents,world):
  v=_local(world,agents,'groundwater');agents.hydration=_delta(agents.hydration,v*0.001)
 def logic_307(agents,world):
  v=_local(world,agents,'groundwater');agents.thirst=_delta(agents.thirst,v*0.001)
+def logic_308(agents,world):
+ v=_local(world,agents,'groundwater');agents.migration_drive=_delta(agents.migration_drive,v*0.001)
