@@ -2696,3 +2696,7 @@ def logic_1664(world):
 def logic_1665(world):
     # pollination sustains flowering; stronger under fire pressure.
     _feedback(world, 'pollinators', 'flowers', 1, 'fire_gate')
+
+def logic_1666(world):
+    # pollination sustains flowering; stronger when surface water is high.
+    _feedback(world, 'pollinators', 'flowers', 1, 'water_gate')
