@@ -329,3 +329,7 @@ def logic_2080(world):
 def logic_2081(world):
     # nutrients support plant growth; reserve coupling.
     _couple(world,'nutrients','vegetation',0.9,'positive')
+
+def logic_2082(world):
+    # heat increases evaporation; direct coupling.
+    _couple(world,'temperature','evaporation',1.0,'positive')
