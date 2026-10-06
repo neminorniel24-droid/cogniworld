@@ -3480,3 +3480,7 @@ def logic_1860(world):
 def logic_1861(world):
     # salinity suppresses freshwater algae; stronger under fire pressure.
     _feedback(world, 'salinity', 'algae', -1, 'fire_gate')
+
+def logic_1862(world):
+    # salinity suppresses freshwater algae; stronger when surface water is high.
+    _feedback(world, 'salinity', 'algae', -1, 'water_gate')
