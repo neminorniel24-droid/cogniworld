@@ -1260,3 +1260,7 @@ def logic_1305(world):
 def logic_1306(world):
     # wind enhances evaporation; modulated by temperature.
     _feedback(world, 'wind_y', 'evaporation', 1, 'seasonal_gate')
+
+def logic_1307(world):
+    # wind enhances evaporation; saturates at high source levels.
+    _feedback(world, 'wind_y', 'evaporation', 1, 'saturation')
