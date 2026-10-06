@@ -1952,3 +1952,7 @@ def logic_1478(world):
 def logic_1479(world):
     # photosynthesis builds biomass; stronger when soil is dry.
     _feedback(world, 'photosynthesis_factor', 'biomass', 1, 'dry_gate')
+
+def logic_1480(world):
+    # photosynthesis builds biomass; stronger when soil is wet.
+    _feedback(world, 'photosynthesis_factor', 'biomass', 1, 'wet_gate')
