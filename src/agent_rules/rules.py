@@ -1260,3 +1260,5 @@ def logic_948(agents,world):
     agents.strategy_persistence=_delta(agents.strategy_persistence,+0.002*agents.defection)
 def logic_949(agents,world):
     agents.strategy_mixing=_delta(agents.strategy_mixing,+0.002*agents.aggression)
+def logic_950(agents,world):
+    agents.learning_rate=_delta(agents.learning_rate,+0.002*agents.group_stability)

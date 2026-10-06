@@ -993,3 +993,6 @@ def test_logic_948():
 def test_logic_949():
     from agent_rules.rules import logic_949
     _check(logic_949, 'aggression', 'strategy_mixing', 1)
+def test_logic_950():
+    from agent_rules.rules import logic_950
+    _check(logic_950, 'group_stability', 'learning_rate', 1)
