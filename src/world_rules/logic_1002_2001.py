@@ -2268,3 +2268,7 @@ def logic_1557(world):
 def logic_1558(world):
     # ash supplies mineral nutrients; modulated by temperature.
     _feedback(world, 'ash', 'nutrients', 1, 'seasonal_gate')
+
+def logic_1559(world):
+    # ash supplies mineral nutrients; saturates at high source levels.
+    _feedback(world, 'ash', 'nutrients', 1, 'saturation')
