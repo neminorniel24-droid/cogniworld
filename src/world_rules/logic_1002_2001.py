@@ -1016,3 +1016,7 @@ def logic_1244(world):
 def logic_1245(world):
     # warmth melts snowpack; stronger under fire pressure.
     _feedback(world, 'temperature', 'snowpack', -1, 'fire_gate')
+
+def logic_1246(world):
+    # warmth melts snowpack; stronger when surface water is high.
+    _feedback(world, 'temperature', 'snowpack', -1, 'water_gate')
