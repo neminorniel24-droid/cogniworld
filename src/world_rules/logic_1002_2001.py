@@ -3276,3 +3276,7 @@ def logic_1809(world):
 def logic_1810(world):
     # pathogens reduce biodiversity; modulated by temperature.
     _feedback(world, 'pathogen_load', 'biodiversity', -1, 'seasonal_gate')
+
+def logic_1811(world):
+    # pathogens reduce biodiversity; saturates at high source levels.
+    _feedback(world, 'pathogen_load', 'biodiversity', -1, 'saturation')
