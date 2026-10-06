@@ -4008,3 +4008,7 @@ def logic_1992(world):
 def logic_1993(world):
     # deadwood fuels fire risk; saturates at high source levels.
     _feedback(world, 'deadwood', 'fire_risk', 1, 'saturation')
+
+def logic_1994(world):
+    # deadwood fuels fire risk; activates above a food threshold.
+    _feedback(world, 'deadwood', 'fire_risk', 1, 'threshold')
