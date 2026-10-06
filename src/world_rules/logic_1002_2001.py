@@ -2972,3 +2972,7 @@ def logic_1733(world):
 def logic_1734(world):
     # herbivore mortality contributes carrion; stronger when temperature is low.
     _feedback(world, 'herbivore', 'carrion', 1, 'cold_gate')
+
+def logic_1735(world):
+    # herbivore mortality contributes carrion; stronger under fire pressure.
+    _feedback(world, 'herbivore', 'carrion', 1, 'fire_gate')
