@@ -3077,3 +3077,7 @@ def logic_2767(world):
 def logic_2768(world):
     # pathogens alter community diversity; feedback coupling.
     _couple(world,'pathogen_load','biodiversity',0.8,'positive')
+
+def logic_2769(world):
+    # pathogens alter community diversity; counterpressure coupling.
+    _couple(world,'pathogen_load','biodiversity',0.8,'negative')
