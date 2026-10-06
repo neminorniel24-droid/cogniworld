@@ -1149,3 +1149,8 @@ def test_logic_258():
     from world_rules.logic_258_groundwater_supports_biomass import apply
     w = make_world()
     w.biomass.zero_(); w.groundwater.fill_(1.0); apply(w); assert torch.allclose(w.biomass, torch.full_like(w.biomass, 0.003))
+
+def test_logic_259():
+    from world_rules.logic_259_salinity_reduces_biomass import apply
+    w = make_world()
+    w.biomass.fill_(1.0); w.salinity.fill_(1.0); apply(w); assert torch.allclose(w.biomass, torch.full_like(w.biomass, 0.997))
