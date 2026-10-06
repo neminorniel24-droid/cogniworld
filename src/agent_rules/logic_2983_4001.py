@@ -1094,3 +1094,7 @@ def logic_3265(agents, world):
 def logic_3266(agents, world):
     # surface_water -> habitat_stress; recovery coupling.
     _update(agents, 'habitat_stress', _desired(agents, world, 'surface_water', 'habitat_stress', 'recovery'))
+
+def logic_3267(agents, world):
+    # surface_water -> habitat_stress; persistence coupling.
+    _update(agents, 'habitat_stress', _desired(agents, world, 'surface_water', 'habitat_stress', 'persistence'))
