@@ -1425,3 +1425,7 @@ def logic_2354(world):
 def logic_2355(world):
     # runoff transports sediment; strong coupling.
     _couple(world,'runoff','sediment',1.35,'positive')
+
+def logic_2356(world):
+    # runoff transports sediment; threshold coupling.
+    _couple(world,'runoff','sediment',1.0,'threshold')
