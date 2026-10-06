@@ -3286,3 +3286,7 @@ def logic_3813(agents, world):
 def logic_3814(agents, world):
     # surface_water -> strategy_mixing; direct coupling.
     _update(agents, 'strategy_mixing', _desired(agents, world, 'surface_water', 'strategy_mixing', 'direct'))
+
+def logic_3815(agents, world):
+    # surface_water -> strategy_mixing; inverse coupling.
+    _update(agents, 'strategy_mixing', _desired(agents, world, 'surface_water', 'strategy_mixing', 'inverse'))
