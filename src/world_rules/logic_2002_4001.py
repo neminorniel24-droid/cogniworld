@@ -761,3 +761,7 @@ def logic_2188(world):
 def logic_2189(world):
     # fire increases ash; counterpressure coupling.
     _couple(world,'fire_risk','ash',0.8,'negative')
+
+def logic_2190(world):
+    # fire increases ash; capacity coupling.
+    _couple(world,'fire_risk','ash',0.5,'positive')
