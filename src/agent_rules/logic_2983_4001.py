@@ -1214,3 +1214,7 @@ def logic_3295(agents, world):
 def logic_3296(agents, world):
     # surface_water -> trust; direct coupling.
     _update(agents, 'trust', _desired(agents, world, 'surface_water', 'trust', 'direct'))
+
+def logic_3297(agents, world):
+    # surface_water -> trust; inverse coupling.
+    _update(agents, 'trust', _desired(agents, world, 'surface_water', 'trust', 'inverse'))
