@@ -2720,3 +2720,7 @@ def logic_1670(world):
 def logic_1671(world):
     # pollination sustains flowering; saturates at high source levels.
     _feedback(world, 'pollinators', 'flowers', 1, 'saturation')
+
+def logic_1672(world):
+    # pollination sustains flowering; activates above a food threshold.
+    _feedback(world, 'pollinators', 'flowers', 1, 'threshold')
