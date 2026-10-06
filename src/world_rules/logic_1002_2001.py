@@ -3960,3 +3960,7 @@ def logic_1980(world):
 def logic_1981(world):
     # humid air lowers fire risk; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'humidity', 'fire_risk', -1, 'recovery')
+
+def logic_1982(world):
+    # deadwood fuels fire risk; direct.
+    _feedback(world, 'deadwood', 'fire_risk', 1, 'baseline')
