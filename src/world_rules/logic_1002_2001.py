@@ -1916,3 +1916,7 @@ def logic_1469(world):
 def logic_1470(world):
     # high CO2 stress reduces photosynthetic efficiency; stronger when surface water is high.
     _feedback(world, 'co2', 'photosynthesis_factor', -1, 'water_gate')
+
+def logic_1471(world):
+    # high CO2 stress reduces photosynthetic efficiency; stronger when vegetation is scarce.
+    _feedback(world, 'co2', 'photosynthesis_factor', -1, 'scarcity_gate')
