@@ -1724,3 +1724,7 @@ def logic_1421(world):
 def logic_1422(world):
     # vegetation stores carbon; direct.
     _feedback(world, 'vegetation', 'carbon_storage', 1, 'baseline')
+
+def logic_1423(world):
+    # vegetation stores carbon; stronger when soil is dry.
+    _feedback(world, 'vegetation', 'carbon_storage', 1, 'dry_gate')
