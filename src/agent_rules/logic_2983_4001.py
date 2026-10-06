@@ -2222,3 +2222,7 @@ def logic_3547(agents, world):
 def logic_3548(agents, world):
     # surface_water -> resource_discovery; direct coupling.
     _update(agents, 'resource_discovery', _desired(agents, world, 'surface_water', 'resource_discovery', 'direct'))
+
+def logic_3549(agents, world):
+    # surface_water -> resource_discovery; inverse coupling.
+    _update(agents, 'resource_discovery', _desired(agents, world, 'surface_water', 'resource_discovery', 'inverse'))
