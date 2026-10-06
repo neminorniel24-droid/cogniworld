@@ -124,3 +124,7 @@ def logic_1021(world):
 def logic_1022(world):
     # rainfall wets soil; stronger when surface water is high.
     _feedback(world, 'rain', 'soil_moisture', 1, 'water_gate')
+
+def logic_1023(world):
+    # rainfall wets soil; stronger when vegetation is scarce.
+    _feedback(world, 'rain', 'soil_moisture', 1, 'scarcity_gate')
