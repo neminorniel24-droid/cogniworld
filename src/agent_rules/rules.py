@@ -1180,3 +1180,5 @@ def logic_908(agents,world):
     agents.survival_score=_delta(agents.survival_score,+0.002*agents.resource_abundance)
 def logic_909(agents,world):
     agents.reproduction_score=_delta(agents.reproduction_score,-0.002*agents.resource_scarcity)
+def logic_910(agents,world):
+    agents.cooperation_score=_delta(agents.cooperation_score,+0.002*agents.resource_discovery)
