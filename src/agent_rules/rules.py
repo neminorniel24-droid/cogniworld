@@ -128,3 +128,5 @@ def logic_363(agents,world):
  v=_local(world,agents,'root_density');agents.food_access=_delta(agents.food_access,v*0.001)
 def logic_364(agents,world):
  v=_local(world,agents,'root_density');agents.stability=_delta(agents.stability,v*0.001)
+def logic_365(agents,world):
+ v=_local(world,agents,'root_density');agents.shelter_need=_delta(agents.shelter_need,v*0.001)

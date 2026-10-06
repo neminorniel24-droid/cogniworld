@@ -315,3 +315,8 @@ def test_logic_363():
 def test_logic_364():
  from agent_rules.rules import logic_364
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.stability.clone();setattr(w,'root_density',torch.ones(4,4));logic_364(a,w);assert torch.any(a.stability!=b)
+
+
+def test_logic_365():
+ from agent_rules.rules import logic_365
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.shelter_need.clone();setattr(w,'root_density',torch.ones(4,4));logic_365(a,w);assert torch.any(a.shelter_need!=b)
