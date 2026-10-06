@@ -210,3 +210,12 @@ def test_logic_125():
     before=w.photosynthesis_factor.clone()
     apply(w)
     assert torch.all(w.photosynthesis_factor < before)
+
+def test_logic_126():
+    from world_rules.logic_126_nutrients_raise_photosynthesis_factor import apply
+    w = make_world()
+    w.nutrients.fill_(1.0)
+    w.photosynthesis_factor.fill_(0.5)
+    before=w.photosynthesis_factor.clone()
+    apply(w)
+    assert torch.all(w.photosynthesis_factor > before)

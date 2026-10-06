@@ -247,3 +247,5 @@ from .logic_124_humid_air_reduces_transpiration_loss import apply as logic_124
 RULES.append(logic_124)
 from .logic_125_cloud_cover_limits_photosynthesis import apply as logic_125
 RULES.append(logic_125)
+from .logic_126_nutrients_raise_photosynthesis_factor import apply as logic_126
+RULES.append(logic_126)
