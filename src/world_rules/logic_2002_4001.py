@@ -157,3 +157,7 @@ def logic_2037(world):
 def logic_2038(world):
     # vegetation builds biomass; feedback coupling.
     _couple(world,'vegetation','biomass',0.8,'positive')
+
+def logic_2039(world):
+    # vegetation builds biomass; counterpressure coupling.
+    _couple(world,'vegetation','biomass',0.8,'negative')
