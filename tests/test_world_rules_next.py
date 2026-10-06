@@ -563,3 +563,11 @@ def test_logic_166():
     before=w.herbivore.clone()
     apply(w)
     assert torch.all(w.herbivore < before)
+
+def test_logic_167():
+    from world_rules.logic_167_carrion_feeds_detritus import apply
+    w = make_world()
+    w.carrion.fill_(1.0)
+    w.detritus.zero_()
+    apply(w)
+    assert torch.allclose(w.detritus, torch.full_like(w.detritus, 0.005))
