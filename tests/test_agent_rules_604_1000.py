@@ -21,3 +21,6 @@ def test_logic_624():
 def test_logic_625():
     from agent_rules.rules import logic_625
     _check(logic_625, 'hunger', 'foraging_score', 1)
+def test_logic_626():
+    from agent_rules.rules import logic_626
+    _check(logic_626, 'thermal_stress', 'migration_score', 1)
