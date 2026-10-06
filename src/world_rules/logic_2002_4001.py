@@ -1061,3 +1061,7 @@ def logic_2263(world):
 def logic_2264(world):
     # vegetation produces flowers; limited coupling.
     _couple(world,'vegetation','flowers',0.65,'positive')
+
+def logic_2265(world):
+    # vegetation produces flowers; strong coupling.
+    _couple(world,'vegetation','flowers',1.35,'positive')
