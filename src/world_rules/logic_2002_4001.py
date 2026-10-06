@@ -2469,3 +2469,7 @@ def logic_2615(world):
 def logic_2616(world):
     # stress reduces biodiversity; threshold coupling.
     _couple(world,'habitat_stress','biodiversity',1.0,'threshold')
+
+def logic_2617(world):
+    # stress reduces biodiversity; pulse coupling.
+    _couple(world,'habitat_stress','biodiversity',1.0,'pulse')
