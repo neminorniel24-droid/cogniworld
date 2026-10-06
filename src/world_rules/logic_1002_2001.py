@@ -2824,3 +2824,7 @@ def logic_1696(world):
 def logic_1697(world):
     # vegetation replenishes seeds; stronger under habitat stress.
     _feedback(world, 'vegetation', 'seed_bank', 1, 'stress_gate')
+
+def logic_1698(world):
+    # vegetation replenishes seeds; modulated by temperature.
+    _feedback(world, 'vegetation', 'seed_bank', 1, 'seasonal_gate')
