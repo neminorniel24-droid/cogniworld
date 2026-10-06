@@ -2048,3 +2048,7 @@ def logic_1502(world):
 def logic_1503(world):
     # nutrients support vegetation; saturates at high source levels.
     _feedback(world, 'nutrients', 'vegetation', 1, 'saturation')
+
+def logic_1504(world):
+    # nutrients support vegetation; activates above a food threshold.
+    _feedback(world, 'nutrients', 'vegetation', 1, 'threshold')
