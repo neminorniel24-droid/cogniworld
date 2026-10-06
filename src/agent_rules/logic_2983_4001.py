@@ -1382,3 +1382,7 @@ def logic_3337(agents, world):
 def logic_3338(agents, world):
     # surface_water -> aggression; direct coupling.
     _update(agents, 'aggression', _desired(agents, world, 'surface_water', 'aggression', 'direct'))
+
+def logic_3339(agents, world):
+    # surface_water -> aggression; inverse coupling.
+    _update(agents, 'aggression', _desired(agents, world, 'surface_water', 'aggression', 'inverse'))
