@@ -977,3 +977,7 @@ def logic_2242(world):
 def logic_2243(world):
     # moist soil supports decomposition; inverse coupling.
     _couple(world,'soil_moisture','decomposition_rate',1.0,'negative')
+
+def logic_2244(world):
+    # moist soil supports decomposition; limited coupling.
+    _couple(world,'soil_moisture','decomposition_rate',0.65,'positive')
