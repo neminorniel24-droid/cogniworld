@@ -2866,3 +2866,7 @@ def logic_3708(agents, world):
 def logic_3709(agents, world):
     # surface_water -> foraging_score; counterpressure coupling.
     _update(agents, 'foraging_score', _desired(agents, world, 'surface_water', 'foraging_score', 'counterpressure'))
+
+def logic_3710(agents, world):
+    # surface_water -> foraging_score; capacity coupling.
+    _update(agents, 'foraging_score', _desired(agents, world, 'surface_water', 'foraging_score', 'capacity'))
