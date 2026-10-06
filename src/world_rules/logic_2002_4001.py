@@ -3889,3 +3889,7 @@ def logic_2970(world):
 def logic_2971(world):
     # snowmelt contributes runoff; reserve coupling.
     _couple(world,'snowpack','runoff',0.9,'positive')
+
+def logic_2972(world):
+    # groundwater discharge sustains runoff; direct coupling.
+    _couple(world,'groundwater','runoff',1.0,'positive')
