@@ -3004,3 +3004,7 @@ def logic_1741(world):
 def logic_1742(world):
     # herbivore mortality contributes carrion; activates above a food threshold.
     _feedback(world, 'herbivore', 'carrion', 1, 'threshold')
+
+def logic_1743(world):
+    # herbivore mortality contributes carrion; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'herbivore', 'carrion', 1, 'recovery')
