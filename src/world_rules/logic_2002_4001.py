@@ -1741,3 +1741,7 @@ def logic_2433(world):
 def logic_2434(world):
     # rainfall generates runoff; limited coupling.
     _couple(world,'rain','runoff',0.65,'positive')
+
+def logic_2435(world):
+    # rainfall generates runoff; strong coupling.
+    _couple(world,'rain','runoff',1.35,'positive')
