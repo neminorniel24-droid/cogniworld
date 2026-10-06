@@ -476,3 +476,12 @@ def test_logic_156():
     before=w.pathogen_load.clone()
     apply(w)
     assert torch.all(w.pathogen_load < before)
+
+def test_logic_157():
+    from world_rules.logic_157_rain_washes_pathogens import apply
+    w = make_world()
+    w.rain.fill_(1.0)
+    w.pathogen_load.fill_(1.0)
+    before=w.pathogen_load.clone()
+    apply(w)
+    assert torch.all(w.pathogen_load < before)
