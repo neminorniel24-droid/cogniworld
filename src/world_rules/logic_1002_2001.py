@@ -3116,3 +3116,7 @@ def logic_1769(world):
 def logic_1770(world):
     # herbivores support predators; activates above a food threshold.
     _feedback(world, 'herbivore', 'predator', 1, 'threshold')
+
+def logic_1771(world):
+    # herbivores support predators; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'herbivore', 'predator', 1, 'recovery')
