@@ -3562,3 +3562,7 @@ def logic_3882(agents, world):
 def logic_3883(agents, world):
     # surface_water -> self_preservation; persistence coupling.
     _update(agents, 'self_preservation', _desired(agents, world, 'surface_water', 'self_preservation', 'persistence'))
+
+def logic_3884(agents, world):
+    # surface_water -> payoff; direct coupling.
+    _update(agents, 'payoff', _desired(agents, world, 'surface_water', 'payoff', 'direct'))
