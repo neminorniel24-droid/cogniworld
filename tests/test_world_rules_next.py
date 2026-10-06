@@ -1349,3 +1349,8 @@ def test_logic_298():
     from world_rules.logic_298_organic_matter_increases_seed_bank import apply
     w = make_world()
     w.seed_bank.zero_(); w.organic_matter.fill_(1.0); apply(w); assert torch.allclose(w.seed_bank, torch.full_like(w.seed_bank, 0.002))
+
+def test_logic_299():
+    from world_rules.logic_299_fire_creates_surface_ice_loss import apply
+    w = make_world()
+    w.surface_ice.fill_(1.0); w.fire_risk.fill_(1.0); apply(w); assert torch.allclose(w.surface_ice, torch.full_like(w.surface_ice, 0.995))

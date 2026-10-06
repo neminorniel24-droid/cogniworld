@@ -593,3 +593,5 @@ from .logic_297_deadwood_supports_organic_matter import apply as logic_297
 RULES.append(logic_297)
 from .logic_298_organic_matter_increases_seed_bank import apply as logic_298
 RULES.append(logic_298)
+from .logic_299_fire_creates_surface_ice_loss import apply as logic_299
+RULES.append(logic_299)
