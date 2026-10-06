@@ -204,3 +204,5 @@ def logic_401(agents,world):
  v=_local(world,agents,'salinity');agents.migration_drive=_delta(agents.migration_drive,v*0.001)
 def logic_402(agents,world):
  v=torch.clamp(agents.energy_surplus,0,2);agents.sharing_capacity=_delta(agents.sharing_capacity,v*0.001)
+def logic_403(agents,world):
+ v=torch.clamp(agents.energy_surplus,0,2);agents.cooperation=_delta(agents.cooperation,v*0.001)

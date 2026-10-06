@@ -505,3 +505,8 @@ def test_logic_401():
 def test_logic_402():
  from agent_rules.rules import logic_402
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.sharing_capacity.clone();a.energy_surplus.fill_(1);logic_402(a,w);assert torch.any(a.sharing_capacity!=b)
+
+
+def test_logic_403():
+ from agent_rules.rules import logic_403
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.cooperation.clone();a.energy_surplus.fill_(1);logic_403(a,w);assert torch.any(a.cooperation!=b)
