@@ -410,3 +410,5 @@ def logic_504(agents,world):
  signal=torch.sigmoid(agents.last_reward*0.05+agents.last_action.float()*0.02);agents.risk_score=_delta(agents.risk_score,signal*0.001)
 def logic_505(agents,world):
  signal=torch.sigmoid(agents.last_reward*0.05+agents.last_action.float()*0.02);agents.payoff=_delta(agents.payoff,signal*0.001)
+def logic_506(agents,world):
+ signal=torch.sigmoid(agents.last_reward*0.05+agents.last_action.float()*0.02);agents.confidence=_delta(agents.confidence,signal*0.001)

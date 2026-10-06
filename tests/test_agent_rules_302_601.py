@@ -1020,3 +1020,8 @@ def test_logic_504():
 def test_logic_505():
  from agent_rules.rules import logic_505
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.payoff.clone();a.last_reward.fill_(1);logic_505(a,w);assert torch.any(a.payoff!=b)
+
+
+def test_logic_506():
+ from agent_rules.rules import logic_506
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.confidence.clone();a.last_reward.fill_(1);logic_506(a,w);assert torch.any(a.confidence!=b)
