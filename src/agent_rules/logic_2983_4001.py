@@ -3414,3 +3414,7 @@ def logic_3845(agents, world):
 def logic_3846(agents, world):
     # surface_water -> memory_update; limited coupling.
     _update(agents, 'memory_update', _desired(agents, world, 'surface_water', 'memory_update', 'limited'))
+
+def logic_3847(agents, world):
+    # surface_water -> memory_update; pulse coupling.
+    _update(agents, 'memory_update', _desired(agents, world, 'surface_water', 'memory_update', 'pulse'))
