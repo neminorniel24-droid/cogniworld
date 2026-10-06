@@ -1834,3 +1834,7 @@ def logic_3450(agents, world):
 def logic_3451(agents, world):
     # surface_water -> selfishness; inverse coupling.
     _update(agents, 'selfishness', _desired(agents, world, 'surface_water', 'selfishness', 'inverse'))
+
+def logic_3452(agents, world):
+    # surface_water -> selfishness; threshold coupling.
+    _update(agents, 'selfishness', _desired(agents, world, 'surface_water', 'selfishness', 'threshold'))
