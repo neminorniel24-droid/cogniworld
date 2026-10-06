@@ -200,3 +200,7 @@ def logic_1040(world):
 def logic_1041(world):
     # rain recharges groundwater; saturates at high source levels.
     _feedback(world, 'rain', 'groundwater', 1, 'saturation')
+
+def logic_1042(world):
+    # rain recharges groundwater; activates above a food threshold.
+    _feedback(world, 'rain', 'groundwater', 1, 'threshold')
