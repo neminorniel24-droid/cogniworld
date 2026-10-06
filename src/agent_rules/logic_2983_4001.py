@@ -3114,3 +3114,7 @@ def logic_3770(agents, world):
 def logic_3771(agents, world):
     # surface_water -> migration_score; persistence coupling.
     _update(agents, 'migration_score', _desired(agents, world, 'surface_water', 'migration_score', 'persistence'))
+
+def logic_3772(agents, world):
+    # surface_water -> reproduction_score; direct coupling.
+    _update(agents, 'reproduction_score', _desired(agents, world, 'surface_water', 'reproduction_score', 'direct'))
