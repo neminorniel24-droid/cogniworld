@@ -2224,3 +2224,7 @@ def logic_1546(world):
 def logic_1547(world):
     # deadwood feeds organic matter; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'deadwood', 'organic_matter', 1, 'recovery')
+
+def logic_1548(world):
+    # ash supplies mineral nutrients; direct.
+    _feedback(world, 'ash', 'nutrients', 1, 'baseline')
