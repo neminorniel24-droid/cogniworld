@@ -3942,3 +3942,7 @@ def logic_3977(agents, world):
 def logic_3978(agents, world):
     # groundwater -> dehydration; scarcity coupling.
     _update(agents, 'dehydration', _desired(agents, world, 'groundwater', 'dehydration', 'scarcity'))
+
+def logic_3979(agents, world):
+    # groundwater -> dehydration; stress coupling.
+    _update(agents, 'dehydration', _desired(agents, world, 'groundwater', 'dehydration', 'stress'))
