@@ -1500,3 +1500,7 @@ def logic_1365(world):
 def logic_1366(world):
     # erosion removes soil depth; direct.
     _feedback(world, 'erosion', 'soil_depth', -1, 'baseline')
+
+def logic_1367(world):
+    # erosion removes soil depth; stronger when soil is dry.
+    _feedback(world, 'erosion', 'soil_depth', -1, 'dry_gate')
