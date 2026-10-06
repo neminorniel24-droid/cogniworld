@@ -96,3 +96,7 @@ def logic_1014(world):
 def logic_1015(world):
     # rainfall raises surface water; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'rain', 'surface_water', 1, 'recovery')
+
+def logic_1016(world):
+    # rainfall wets soil; direct.
+    _feedback(world, 'rain', 'soil_moisture', 1, 'baseline')
