@@ -48,3 +48,6 @@ def test_logic_633():
 def test_logic_634():
     from agent_rules.rules import logic_634
     _check(logic_634, 'reproduction_drive', 'learning_rate', 1)
+def test_logic_635():
+    from agent_rules.rules import logic_635
+    _check(logic_635, 'migration_drive', 'resource_discovery', 1)
