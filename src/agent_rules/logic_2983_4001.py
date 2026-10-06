@@ -3406,3 +3406,7 @@ def logic_3843(agents, world):
 def logic_3844(agents, world):
     # surface_water -> memory_update; threshold coupling.
     _update(agents, 'memory_update', _desired(agents, world, 'surface_water', 'memory_update', 'threshold'))
+
+def logic_3845(agents, world):
+    # surface_water -> memory_update; strong coupling.
+    _update(agents, 'memory_update', _desired(agents, world, 'surface_water', 'memory_update', 'strong'))
