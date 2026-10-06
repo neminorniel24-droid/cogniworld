@@ -2877,3 +2877,7 @@ def logic_2717(world):
 def logic_2718(world):
     # CO2 availability shapes photosynthesis; feedback coupling.
     _couple(world,'co2','photosynthesis_factor',0.8,'positive')
+
+def logic_2719(world):
+    # CO2 availability shapes photosynthesis; counterpressure coupling.
+    _couple(world,'co2','photosynthesis_factor',0.8,'negative')
