@@ -1990,3 +1990,7 @@ def logic_3489(agents, world):
 def logic_3490(agents, world):
     # surface_water -> gratitude; recovery coupling.
     _update(agents, 'gratitude', _desired(agents, world, 'surface_water', 'gratitude', 'recovery'))
+
+def logic_3491(agents, world):
+    # surface_water -> gratitude; persistence coupling.
+    _update(agents, 'gratitude', _desired(agents, world, 'surface_water', 'gratitude', 'persistence'))
