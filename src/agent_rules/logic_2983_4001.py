@@ -674,3 +674,7 @@ def logic_3160(agents, world):
 def logic_3161(agents, world):
     # surface_water -> metabolic_cost; pulse coupling.
     _update(agents, 'metabolic_cost', _desired(agents, world, 'surface_water', 'metabolic_cost', 'pulse'))
+
+def logic_3162(agents, world):
+    # surface_water -> metabolic_cost; feedback coupling.
+    _update(agents, 'metabolic_cost', _desired(agents, world, 'surface_water', 'metabolic_cost', 'feedback'))
