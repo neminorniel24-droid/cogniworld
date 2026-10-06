@@ -2996,3 +2996,7 @@ def logic_1739(world):
 def logic_1740(world):
     # herbivore mortality contributes carrion; modulated by temperature.
     _feedback(world, 'herbivore', 'carrion', 1, 'seasonal_gate')
+
+def logic_1741(world):
+    # herbivore mortality contributes carrion; saturates at high source levels.
+    _feedback(world, 'herbivore', 'carrion', 1, 'saturation')
