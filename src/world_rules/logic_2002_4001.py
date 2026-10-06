@@ -2821,3 +2821,7 @@ def logic_2703(world):
 def logic_2704(world):
     # decomposition returns CO2; limited coupling.
     _couple(world,'decomposition_rate','co2',0.65,'positive')
+
+def logic_2705(world):
+    # decomposition returns CO2; strong coupling.
+    _couple(world,'decomposition_rate','co2',1.35,'positive')
