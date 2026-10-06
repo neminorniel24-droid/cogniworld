@@ -534,3 +534,6 @@ def test_logic_795():
 def test_logic_796():
     from agent_rules.rules import logic_796
     _check(logic_796, 'territoriality', 'gratitude', -1)
+def test_logic_797():
+    from agent_rules.rules import logic_797
+    _check(logic_797, 'group_stability', 'cooperation_score', 1)
