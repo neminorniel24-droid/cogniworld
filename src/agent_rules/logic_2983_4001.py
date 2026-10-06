@@ -3338,3 +3338,7 @@ def logic_3826(agents, world):
 def logic_3827(agents, world):
     # surface_water -> strategy_mixing; persistence coupling.
     _update(agents, 'strategy_mixing', _desired(agents, world, 'surface_water', 'strategy_mixing', 'persistence'))
+
+def logic_3828(agents, world):
+    # surface_water -> learning_rate; direct coupling.
+    _update(agents, 'learning_rate', _desired(agents, world, 'surface_water', 'learning_rate', 'direct'))
