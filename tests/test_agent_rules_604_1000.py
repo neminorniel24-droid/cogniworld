@@ -732,3 +732,6 @@ def test_logic_861():
 def test_logic_862():
     from agent_rules.rules import logic_862
     _check(logic_862, 'survival_score', 'future_payoff_weight', 1)
+def test_logic_863():
+    from agent_rules.rules import logic_863
+    _check(logic_863, 'fitness_score', 'strategy_confidence', 1)
