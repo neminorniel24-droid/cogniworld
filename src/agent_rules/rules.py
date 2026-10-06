@@ -1304,3 +1304,5 @@ def logic_970(agents,world):
     agents.reproduction_score=_delta(agents.reproduction_score,+0.002*agents.safety_score)
 def logic_971(agents,world):
     agents.sharing_score=_delta(agents.sharing_score,+0.002*agents.wealth)
+def logic_972(agents,world):
+    agents.attack_success=_delta(agents.attack_success,+0.002*agents.energy_surplus)
