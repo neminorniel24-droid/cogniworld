@@ -1044,3 +1044,7 @@ def logic_1251(world):
 def logic_1252(world):
     # warmth melts snowpack; activates above a food threshold.
     _feedback(world, 'temperature', 'snowpack', -1, 'threshold')
+
+def logic_1253(world):
+    # warmth melts snowpack; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'temperature', 'snowpack', -1, 'recovery')
