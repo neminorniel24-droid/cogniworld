@@ -2920,3 +2920,7 @@ def logic_1720(world):
 def logic_1721(world):
     # vegetation supports herbivores; stronger under fire pressure.
     _feedback(world, 'vegetation', 'herbivore', 1, 'fire_gate')
+
+def logic_1722(world):
+    # vegetation supports herbivores; stronger when surface water is high.
+    _feedback(world, 'vegetation', 'herbivore', 1, 'water_gate')
