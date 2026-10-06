@@ -716,3 +716,5 @@ def logic_676(agents,world):
     agents.survival_score=_delta(agents.survival_score,+0.002*agents.exploration_drive)
 def logic_677(agents,world):
     agents.foraging_score=_delta(agents.foraging_score,+0.002*agents.food_access)
+def logic_678(agents,world):
+    agents.migration_score=_delta(agents.migration_score,+0.002*agents.wealth)
