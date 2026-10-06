@@ -86,3 +86,7 @@ def logic_3013(agents, world):
 def logic_3014(agents, world):
     # surface_water -> hydration; recovery coupling.
     _update(agents, 'hydration', _desired(agents, world, 'surface_water', 'hydration', 'recovery'))
+
+def logic_3015(agents, world):
+    # surface_water -> hydration; persistence coupling.
+    _update(agents, 'hydration', _desired(agents, world, 'surface_water', 'hydration', 'persistence'))
