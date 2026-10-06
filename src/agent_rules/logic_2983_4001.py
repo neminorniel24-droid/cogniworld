@@ -1174,3 +1174,7 @@ def logic_3285(agents, world):
 def logic_3286(agents, world):
     # surface_water -> reputation; limited coupling.
     _update(agents, 'reputation', _desired(agents, world, 'surface_water', 'reputation', 'limited'))
+
+def logic_3287(agents, world):
+    # surface_water -> reputation; pulse coupling.
+    _update(agents, 'reputation', _desired(agents, world, 'surface_water', 'reputation', 'pulse'))
