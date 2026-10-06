@@ -1204,3 +1204,5 @@ def logic_920(agents,world):
     agents.migration_score=_delta(agents.migration_score,+0.002*agents.attack_success)
 def logic_921(agents,world):
     agents.reproduction_score=_delta(agents.reproduction_score,+0.002*agents.defense_score)
+def logic_922(agents,world):
+    agents.strategy_persistence=_delta(agents.strategy_persistence,+0.002*agents.migration_score)
