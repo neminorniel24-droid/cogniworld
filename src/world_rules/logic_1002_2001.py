@@ -2892,3 +2892,7 @@ def logic_1713(world):
 def logic_1714(world):
     # herbivory consumes vegetation; activates above a food threshold.
     _feedback(world, 'herbivore', 'vegetation', -1, 'threshold')
+
+def logic_1715(world):
+    # herbivory consumes vegetation; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'herbivore', 'vegetation', -1, 'recovery')
