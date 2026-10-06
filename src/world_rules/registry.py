@@ -249,3 +249,5 @@ from .logic_125_cloud_cover_limits_photosynthesis import apply as logic_125
 RULES.append(logic_125)
 from .logic_126_nutrients_raise_photosynthesis_factor import apply as logic_126
 RULES.append(logic_126)
+from .logic_127_nutrient_scarcity_slows_vegetation import apply as logic_127
+RULES.append(logic_127)
