@@ -3236,3 +3236,7 @@ def logic_1799(world):
 def logic_1800(world):
     # pathogens reduce biodiversity; direct.
     _feedback(world, 'pathogen_load', 'biodiversity', -1, 'baseline')
+
+def logic_1801(world):
+    # pathogens reduce biodiversity; stronger when soil is dry.
+    _feedback(world, 'pathogen_load', 'biodiversity', -1, 'dry_gate')
