@@ -457,3 +457,5 @@ from .logic_229_wet_soil_boosts_organic_matter import apply as logic_229
 RULES.append(logic_229)
 from .logic_230_decomposition_consumes_organic_matter import apply as logic_230
 RULES.append(logic_230)
+from .logic_231_organic_matter_feeds_vegetation import apply as logic_231
+RULES.append(logic_231)

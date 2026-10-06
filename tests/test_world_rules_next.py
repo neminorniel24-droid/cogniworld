@@ -1009,3 +1009,8 @@ def test_logic_230():
     from world_rules.logic_230_decomposition_consumes_organic_matter import apply
     w = make_world()
     w.organic_matter.fill_(1.0); w.decomposition_rate.fill_(1.0); apply(w); assert torch.allclose(w.organic_matter, torch.full_like(w.organic_matter, 0.98))
+
+def test_logic_231():
+    from world_rules.logic_231_organic_matter_feeds_vegetation import apply
+    w = make_world()
+    w.vegetation.zero_(); w.organic_matter.fill_(1.0); apply(w); assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.005))
