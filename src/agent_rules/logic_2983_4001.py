@@ -734,3 +734,7 @@ def logic_3175(agents, world):
 def logic_3176(agents, world):
     # surface_water -> reproduction_drive; feedback coupling.
     _update(agents, 'reproduction_drive', _desired(agents, world, 'surface_water', 'reproduction_drive', 'feedback'))
+
+def logic_3177(agents, world):
+    # surface_water -> reproduction_drive; counterpressure coupling.
+    _update(agents, 'reproduction_drive', _desired(agents, world, 'surface_water', 'reproduction_drive', 'counterpressure'))
