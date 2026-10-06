@@ -1368,3 +1368,7 @@ def logic_1332(world):
 def logic_1333(world):
     # evaporation removes surface water; stronger under habitat stress.
     _feedback(world, 'evaporation', 'surface_water', -1, 'stress_gate')
+
+def logic_1334(world):
+    # evaporation removes surface water; modulated by temperature.
+    _feedback(world, 'evaporation', 'surface_water', -1, 'seasonal_gate')
