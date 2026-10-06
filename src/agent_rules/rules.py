@@ -788,3 +788,5 @@ def logic_712(agents,world):
     agents.exploration_score=_delta(agents.exploration_score,+0.002*agents.recovery)
 def logic_713(agents,world):
     agents.strategy_score=_delta(agents.strategy_score,+0.002*agents.metabolic_cost)
+def logic_714(agents,world):
+    agents.strategy_confidence=_delta(agents.strategy_confidence,+0.002*agents.reproduction_drive)

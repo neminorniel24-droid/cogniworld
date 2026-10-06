@@ -285,3 +285,6 @@ def test_logic_712():
 def test_logic_713():
     from agent_rules.rules import logic_713
     _check(logic_713, 'metabolic_cost', 'strategy_score', 1)
+def test_logic_714():
+    from agent_rules.rules import logic_714
+    _check(logic_714, 'reproduction_drive', 'strategy_confidence', 1)
