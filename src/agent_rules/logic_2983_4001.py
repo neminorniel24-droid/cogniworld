@@ -2382,3 +2382,7 @@ def logic_3587(agents, world):
 def logic_3588(agents, world):
     # surface_water -> risk_tolerance; recovery coupling.
     _update(agents, 'risk_tolerance', _desired(agents, world, 'surface_water', 'risk_tolerance', 'recovery'))
+
+def logic_3589(agents, world):
+    # surface_water -> risk_tolerance; persistence coupling.
+    _update(agents, 'risk_tolerance', _desired(agents, world, 'surface_water', 'risk_tolerance', 'persistence'))
