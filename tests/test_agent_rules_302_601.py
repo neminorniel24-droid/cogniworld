@@ -225,3 +225,8 @@ def test_logic_345():
 def test_logic_346():
  from agent_rules.rules import logic_346
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.metabolic_cost.clone();setattr(w,'oxygen',torch.ones(4,4));logic_346(a,w);assert torch.any(a.metabolic_cost!=b)
+
+
+def test_logic_347():
+ from agent_rules.rules import logic_347
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.recovery.clone();setattr(w,'oxygen',torch.ones(4,4));logic_347(a,w);assert torch.any(a.recovery!=b)
