@@ -1026,3 +1026,6 @@ def test_logic_959():
 def test_logic_960():
     from agent_rules.rules import logic_960
     _check(logic_960, 'self_preservation', 'defection_score', 1)
+def test_logic_961():
+    from agent_rules.rules import logic_961
+    _check(logic_961, 'last_reward', 'reciprocity_score', 1)
