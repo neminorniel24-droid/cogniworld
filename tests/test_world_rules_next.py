@@ -1134,3 +1134,8 @@ def test_logic_255():
     from world_rules.logic_255_surface_ice_increases_albedo_cooling import apply
     w = make_world()
     w.temperature.fill_(0.5); w.surface_ice.fill_(1.0); apply(w); assert torch.allclose(w.temperature, torch.full_like(w.temperature, 0.49))
+
+def test_logic_256():
+    from world_rules.logic_256_clouds_delay_surface_ice_melt import apply
+    w = make_world()
+    w.surface_ice.fill_(1.0); w.temperature.fill_(1.0); w.cloud.fill_(1.0); apply(w); assert torch.allclose(w.surface_ice, torch.ones_like(w.surface_ice))
