@@ -3442,3 +3442,7 @@ def logic_3852(agents, world):
 def logic_3853(agents, world):
     # surface_water -> memory_update; stress coupling.
     _update(agents, 'memory_update', _desired(agents, world, 'surface_water', 'memory_update', 'stress'))
+
+def logic_3854(agents, world):
+    # surface_water -> memory_update; recovery coupling.
+    _update(agents, 'memory_update', _desired(agents, world, 'surface_water', 'memory_update', 'recovery'))
