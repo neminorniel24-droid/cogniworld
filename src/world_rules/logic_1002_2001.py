@@ -2772,3 +2772,7 @@ def logic_1683(world):
 def logic_1684(world):
     # seed banks support vegetation recovery; modulated by temperature.
     _feedback(world, 'seed_bank', 'vegetation', 1, 'seasonal_gate')
+
+def logic_1685(world):
+    # seed banks support vegetation recovery; saturates at high source levels.
+    _feedback(world, 'seed_bank', 'vegetation', 1, 'saturation')
