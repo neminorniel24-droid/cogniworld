@@ -450,3 +450,6 @@ def test_logic_767():
 def test_logic_768():
     from agent_rules.rules import logic_768
     _check(logic_768, 'empathy', 'sharing_score', 1)
+def test_logic_769():
+    from agent_rules.rules import logic_769
+    _check(logic_769, 'reputation', 'defection', -1)
