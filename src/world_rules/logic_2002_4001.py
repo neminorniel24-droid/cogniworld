@@ -3217,3 +3217,7 @@ def logic_2802(world):
 def logic_2803(world):
     # snow cover buffers ground temperature; inverse coupling.
     _couple(world,'snowpack','temperature',1.0,'negative')
+
+def logic_2804(world):
+    # snow cover buffers ground temperature; limited coupling.
+    _couple(world,'snowpack','temperature',0.65,'positive')
