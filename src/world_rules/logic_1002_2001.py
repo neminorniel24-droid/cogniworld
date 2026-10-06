@@ -3556,3 +3556,7 @@ def logic_1879(world):
 def logic_1880(world):
     # algae contribute oxygen; modulated by temperature.
     _feedback(world, 'algae', 'oxygen', 1, 'seasonal_gate')
+
+def logic_1881(world):
+    # algae contribute oxygen; saturates at high source levels.
+    _feedback(world, 'algae', 'oxygen', 1, 'saturation')
