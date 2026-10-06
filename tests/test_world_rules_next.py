@@ -606,3 +606,12 @@ def test_logic_171():
     before=w.fire_risk.clone()
     apply(w)
     assert torch.all(w.fire_risk < before)
+
+def test_logic_172():
+    from world_rules.logic_172_wet_soil_suppresses_fire_risk import apply
+    w = make_world()
+    w.soil_moisture.fill_(1.0)
+    w.fire_risk.fill_(1.0)
+    before=w.fire_risk.clone()
+    apply(w)
+    assert torch.all(w.fire_risk < before)

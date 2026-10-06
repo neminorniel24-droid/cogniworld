@@ -339,3 +339,5 @@ from .logic_170_humidity_suppresses_fire_risk import apply as logic_170
 RULES.append(logic_170)
 from .logic_171_rain_quenches_fire_risk import apply as logic_171
 RULES.append(logic_171)
+from .logic_172_wet_soil_suppresses_fire_risk import apply as logic_172
+RULES.append(logic_172)
