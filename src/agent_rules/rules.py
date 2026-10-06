@@ -726,3 +726,5 @@ def logic_681(agents,world):
     agents.strategy_score=_delta(agents.strategy_score,+0.002*agents.social_tolerance)
 def logic_682(agents,world):
     agents.learning_rate=_delta(agents.learning_rate,+0.002*agents.health)
+def logic_683(agents,world):
+    agents.resource_discovery=_delta(agents.resource_discovery,+0.002*agents.hydration)
