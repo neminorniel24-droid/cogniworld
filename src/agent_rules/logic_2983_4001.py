@@ -150,3 +150,7 @@ def logic_3029(agents, world):
 def logic_3030(agents, world):
     # surface_water -> hunger; direct coupling.
     _update(agents, 'hunger', _desired(agents, world, 'surface_water', 'hunger', 'direct'))
+
+def logic_3031(agents, world):
+    # surface_water -> hunger; inverse coupling.
+    _update(agents, 'hunger', _desired(agents, world, 'surface_water', 'hunger', 'inverse'))
