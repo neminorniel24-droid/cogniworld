@@ -70,3 +70,7 @@ def logic_2996(world):
 def logic_2997(world):
     # runoff transports sediment.
     _apply(world, 'runoff', 'sediment', -1.0)
+
+def logic_2998(world):
+    # sediment modifies soil depth.
+    _apply(world, 'sediment', 'soil_depth', 1.0)
