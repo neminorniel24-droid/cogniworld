@@ -37,3 +37,5 @@ from .rules import logic_320
 RULES.append(logic_320)
 from .rules import logic_321
 RULES.append(logic_321)
+from .rules import logic_322
+RULES.append(logic_322)

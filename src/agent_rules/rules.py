@@ -42,3 +42,5 @@ def logic_320(agents,world):
  v=_local(world,agents,'temperature');agents.reproduction_drive=_delta(agents.reproduction_drive,v*0.001)
 def logic_321(agents,world):
  v=_local(world,agents,'humidity');agents.dehydration=_delta(agents.dehydration,v*0.001)
+def logic_322(agents,world):
+ v=_local(world,agents,'humidity');agents.thermal_stress=_delta(agents.thermal_stress,v*0.001)
