@@ -856,3 +856,5 @@ from .logic_1002_2001 import logic_1128
 RULES.append(logic_1128)
 from .logic_1002_2001 import logic_1129
 RULES.append(logic_1129)
+from .logic_1002_2001 import logic_1130
+RULES.append(logic_1130)

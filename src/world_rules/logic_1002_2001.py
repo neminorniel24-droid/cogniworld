@@ -552,3 +552,7 @@ def logic_1128(world):
 def logic_1129(world):
     # groundwater supports wetlands; stronger when soil is dry.
     _feedback(world, 'groundwater', 'wetland', 1, 'dry_gate')
+
+def logic_1130(world):
+    # groundwater supports wetlands; stronger when soil is wet.
+    _feedback(world, 'groundwater', 'wetland', 1, 'wet_gate')
