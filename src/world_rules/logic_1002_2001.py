@@ -768,3 +768,7 @@ def logic_1182(world):
 def logic_1183(world):
     # soil moisture supports seed persistence; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'soil_moisture', 'seed_bank', 1, 'recovery')
+
+def logic_1184(world):
+    # humidity promotes cloud formation; direct.
+    _feedback(world, 'humidity', 'cloud', 1, 'baseline')
