@@ -1184,3 +1184,5 @@ def logic_910(agents,world):
     agents.cooperation_score=_delta(agents.cooperation_score,+0.002*agents.resource_discovery)
 def logic_911(agents,world):
     agents.competition_score=_delta(agents.competition_score,+0.002*agents.help_given)
+def logic_912(agents,world):
+    agents.defection_score=_delta(agents.defection_score,-0.002*agents.help_received)
