@@ -1170,3 +1170,5 @@ def logic_903(agents,world):
     agents.foraging_score=_delta(agents.foraging_score,+0.002*agents.retaliation_risk)
 def logic_904(agents,world):
     agents.learning_rate=_delta(agents.learning_rate,+0.002*agents.defense_score)
+def logic_905(agents,world):
+    agents.strategy_confidence=_delta(agents.strategy_confidence,+0.002*agents.payoff)

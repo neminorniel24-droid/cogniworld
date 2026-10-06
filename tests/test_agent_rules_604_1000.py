@@ -858,3 +858,6 @@ def test_logic_903():
 def test_logic_904():
     from agent_rules.rules import logic_904
     _check(logic_904, 'defense_score', 'learning_rate', 1)
+def test_logic_905():
+    from agent_rules.rules import logic_905
+    _check(logic_905, 'payoff', 'strategy_confidence', 1)
