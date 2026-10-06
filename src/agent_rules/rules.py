@@ -710,3 +710,5 @@ def logic_673(agents,world):
     agents.resource_competition=_delta(agents.resource_competition,+0.002*agents.metabolic_cost)
 def logic_674(agents,world):
     agents.risk_score=_delta(agents.risk_score,+0.002*agents.reproduction_drive)
+def logic_675(agents,world):
+    agents.safety_score=_delta(agents.safety_score,+0.002*agents.migration_drive)

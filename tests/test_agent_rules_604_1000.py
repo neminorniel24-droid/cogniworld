@@ -168,3 +168,6 @@ def test_logic_673():
 def test_logic_674():
     from agent_rules.rules import logic_674
     _check(logic_674, 'reproduction_drive', 'risk_score', 1)
+def test_logic_675():
+    from agent_rules.rules import logic_675
+    _check(logic_675, 'migration_drive', 'safety_score', 1)
