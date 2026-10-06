@@ -567,3 +567,6 @@ def test_logic_806():
 def test_logic_807():
     from agent_rules.rules import logic_807
     _check(logic_807, 'future_help', 'aggression', 1)
+def test_logic_808():
+    from agent_rules.rules import logic_808
+    _check(logic_808, 'empathy', 'conflict_pressure', 1)
