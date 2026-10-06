@@ -934,3 +934,8 @@ def test_logic_215():
     from world_rules.logic_215_sediment_feeds_lowland_nutrients import apply
     w = make_world()
     w.nutrients.zero_(); w.elevation.zero_(); w.sediment.fill_(1.0); apply(w); assert torch.allclose(w.nutrients, torch.full_like(w.nutrients, 0.01))
+
+def test_logic_216():
+    from world_rules.logic_216_dryness_concentrates_salinity import apply
+    w = make_world()
+    w.salinity.zero_(); w.evaporation.fill_(1.0); apply(w); assert torch.allclose(w.salinity, torch.full_like(w.salinity, 0.01))

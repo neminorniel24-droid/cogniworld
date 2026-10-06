@@ -427,3 +427,5 @@ from .logic_214_sediment_reduces_infiltration import apply as logic_214
 RULES.append(logic_214)
 from .logic_215_sediment_feeds_lowland_nutrients import apply as logic_215
 RULES.append(logic_215)
+from .logic_216_dryness_concentrates_salinity import apply as logic_216
+RULES.append(logic_216)
