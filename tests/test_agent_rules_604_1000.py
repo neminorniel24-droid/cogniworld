@@ -183,3 +183,6 @@ def test_logic_678():
 def test_logic_679():
     from agent_rules.rules import logic_679
     _check(logic_679, 'stability', 'reproduction_score', 1)
+def test_logic_680():
+    from agent_rules.rules import logic_680
+    _check(logic_680, 'habitat_stress', 'exploration_score', 1)
