@@ -3849,3 +3849,7 @@ def logic_2960(world):
 def logic_2961(world):
     # rainfall closes hydrologic feedback; reserve coupling.
     _couple(world,'rain','cloud',0.9,'positive')
+
+def logic_2962(world):
+    # snowmelt contributes runoff; direct coupling.
+    _couple(world,'snowpack','runoff',1.0,'positive')
