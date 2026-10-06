@@ -405,3 +405,5 @@ from .logic_203_warmth_melts_snowpack import apply as logic_203
 RULES.append(logic_203)
 from .logic_204_snowpack_insulates_soil import apply as logic_204
 RULES.append(logic_204)
+from .logic_205_snowpack_reflects_surface_heat import apply as logic_205
+RULES.append(logic_205)
