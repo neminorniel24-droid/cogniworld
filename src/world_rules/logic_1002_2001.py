@@ -260,3 +260,7 @@ def logic_1055(world):
 def logic_1056(world):
     # snowmelt supplies surface water; activates above a food threshold.
     _feedback(world, 'snowpack', 'surface_water', 1, 'threshold')
+
+def logic_1057(world):
+    # snowmelt supplies surface water; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'snowpack', 'surface_water', 1, 'recovery')
