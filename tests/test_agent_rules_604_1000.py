@@ -174,3 +174,6 @@ def test_logic_675():
 def test_logic_676():
     from agent_rules.rules import logic_676
     _check(logic_676, 'exploration_drive', 'survival_score', 1)
+def test_logic_677():
+    from agent_rules.rules import logic_677
+    _check(logic_677, 'food_access', 'foraging_score', 1)
