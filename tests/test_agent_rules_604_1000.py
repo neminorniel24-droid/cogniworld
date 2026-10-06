@@ -1062,3 +1062,6 @@ def test_logic_971():
 def test_logic_972():
     from agent_rules.rules import logic_972
     _check(logic_972, 'energy_surplus', 'attack_success', 1)
+def test_logic_973():
+    from agent_rules.rules import logic_973
+    _check(logic_973, 'resource_abundance', 'defense_score', 1)
