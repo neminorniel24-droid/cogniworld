@@ -1912,3 +1912,7 @@ def logic_1468(world):
 def logic_1469(world):
     # high CO2 stress reduces photosynthetic efficiency; stronger under fire pressure.
     _feedback(world, 'co2', 'photosynthesis_factor', -1, 'fire_gate')
+
+def logic_1470(world):
+    # high CO2 stress reduces photosynthetic efficiency; stronger when surface water is high.
+    _feedback(world, 'co2', 'photosynthesis_factor', -1, 'water_gate')
