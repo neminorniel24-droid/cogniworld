@@ -328,3 +328,5 @@ def logic_463(agents,world):
  v=torch.clamp(agents.betrayal_memory,0,2);agents.help_drive=_delta(agents.help_drive,v*0.001)
 def logic_464(agents,world):
  v=torch.clamp(agents.betrayal_memory,0,2);agents.territoriality=_delta(agents.territoriality,v*0.001)
+def logic_465(agents,world):
+ v=torch.clamp(agents.betrayal_memory,0,2);agents.group_stability=_delta(agents.group_stability,v*0.001)
