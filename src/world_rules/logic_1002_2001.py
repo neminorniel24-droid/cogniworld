@@ -1820,3 +1820,7 @@ def logic_1445(world):
 def logic_1446(world):
     # biomass stores carbon; modulated by temperature.
     _feedback(world, 'biomass', 'carbon_storage', 1, 'seasonal_gate')
+
+def logic_1447(world):
+    # biomass stores carbon; saturates at high source levels.
+    _feedback(world, 'biomass', 'carbon_storage', 1, 'saturation')
