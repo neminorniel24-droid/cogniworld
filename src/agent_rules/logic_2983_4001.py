@@ -2614,3 +2614,7 @@ def logic_3645(agents, world):
 def logic_3646(agents, world):
     # surface_water -> reciprocity_score; direct coupling.
     _update(agents, 'reciprocity_score', _desired(agents, world, 'surface_water', 'reciprocity_score', 'direct'))
+
+def logic_3647(agents, world):
+    # surface_water -> reciprocity_score; inverse coupling.
+    _update(agents, 'reciprocity_score', _desired(agents, world, 'surface_water', 'reciprocity_score', 'inverse'))
