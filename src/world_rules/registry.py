@@ -4019,3 +4019,6 @@ RULES.append(logic_2473)
 
 from .logic_2002_4001 import logic_2474
 RULES.append(logic_2474)
+
+from .logic_2002_4001 import logic_2475
+RULES.append(logic_2475)
