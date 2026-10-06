@@ -37,3 +37,7 @@ def logic_2007(world):
 def logic_2008(world):
     # rainfall replenishes accessible water; feedback coupling.
     _couple(world,'rain','surface_water',0.8,'positive')
+
+def logic_2009(world):
+    # rainfall replenishes accessible water; counterpressure coupling.
+    _couple(world,'rain','surface_water',0.8,'negative')
