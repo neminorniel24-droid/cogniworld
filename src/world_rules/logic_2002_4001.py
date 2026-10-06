@@ -637,3 +637,7 @@ def logic_2157(world):
 def logic_2158(world):
     # snowmelt feeds groundwater; feedback coupling.
     _couple(world,'snowpack','groundwater',0.8,'positive')
+
+def logic_2159(world):
+    # snowmelt feeds groundwater; counterpressure coupling.
+    _couple(world,'snowpack','groundwater',0.8,'negative')
