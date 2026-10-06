@@ -933,3 +933,6 @@ def test_logic_928():
 def test_logic_929():
     from agent_rules.rules import logic_929
     _check(logic_929, 'strategy_score', 'competition_score', 1)
+def test_logic_930():
+    from agent_rules.rules import logic_930
+    _check(logic_930, 'competition_score', 'reciprocity_score', 1)
