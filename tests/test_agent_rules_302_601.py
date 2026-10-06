@@ -235,3 +235,8 @@ def test_logic_347():
 def test_logic_348():
  from agent_rules.rules import logic_348
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.health.clone();setattr(w,'pathogen_load',torch.ones(4,4));logic_348(a,w);assert torch.any(a.health!=b)
+
+
+def test_logic_349():
+ from agent_rules.rules import logic_349
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.infection_risk.clone();setattr(w,'pathogen_load',torch.ones(4,4));logic_349(a,w);assert torch.any(a.infection_risk!=b)

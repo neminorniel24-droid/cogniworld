@@ -96,3 +96,5 @@ def logic_347(agents,world):
  v=_local(world,agents,'oxygen');agents.recovery=_delta(agents.recovery,v*0.001)
 def logic_348(agents,world):
  v=_local(world,agents,'pathogen_load');agents.health=_delta(agents.health,v*0.001)
+def logic_349(agents,world):
+ v=_local(world,agents,'pathogen_load');agents.infection_risk=_delta(agents.infection_risk,v*0.001)

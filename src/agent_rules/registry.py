@@ -91,3 +91,5 @@ from .rules import logic_347
 RULES.append(logic_347)
 from .rules import logic_348
 RULES.append(logic_348)
+from .rules import logic_349
+RULES.append(logic_349)
