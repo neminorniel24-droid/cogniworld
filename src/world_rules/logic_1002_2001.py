@@ -996,3 +996,7 @@ def logic_1239(world):
 def logic_1240(world):
     # warmth melts snowpack; direct.
     _feedback(world, 'temperature', 'snowpack', -1, 'baseline')
+
+def logic_1241(world):
+    # warmth melts snowpack; stronger when soil is dry.
+    _feedback(world, 'temperature', 'snowpack', -1, 'dry_gate')
