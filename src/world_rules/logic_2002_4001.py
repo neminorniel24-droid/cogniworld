@@ -2545,3 +2545,7 @@ def logic_2634(world):
 def logic_2635(world):
     # diverse communities stabilize vegetation; strong coupling.
     _couple(world,'biodiversity','vegetation',1.35,'positive')
+
+def logic_2636(world):
+    # diverse communities stabilize vegetation; threshold coupling.
+    _couple(world,'biodiversity','vegetation',1.0,'threshold')
