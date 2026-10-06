@@ -3269,3 +3269,7 @@ def logic_2815(world):
 def logic_2816(world):
     # ice cover buffers temperature; threshold coupling.
     _couple(world,'surface_ice','temperature',1.0,'threshold')
+
+def logic_2817(world):
+    # ice cover buffers temperature; pulse coupling.
+    _couple(world,'surface_ice','temperature',1.0,'pulse')
