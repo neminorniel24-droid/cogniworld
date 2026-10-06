@@ -112,6 +112,7 @@ class World:
         self.pollinators = torch.zeros_like(self.food)
         self.flowers = torch.zeros_like(self.food)
         self.seed_bank = torch.zeros_like(self.food)
+        self.soil_carbon = torch.zeros_like(self.food)
         # seed initial food so the world isn't empty at t=0
         self.food = self._regen.clone() * 5.0
         self.food.clamp_(0, 1.0)

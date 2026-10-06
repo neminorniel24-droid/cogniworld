@@ -1089,3 +1089,8 @@ def test_logic_246():
     from world_rules.logic_246_seed_bank_reduces_biodiversity_loss import apply
     w = make_world()
     w.biodiversity.zero_(); w.seed_bank.fill_(1.0); apply(w); assert torch.allclose(w.biodiversity, torch.full_like(w.biodiversity, 0.003))
+
+def test_logic_247():
+    from world_rules.logic_247_biomass_builds_soil_carbon import apply
+    w = make_world()
+    w.soil_carbon.zero_(); w.biomass.fill_(1.0); apply(w); assert torch.allclose(w.soil_carbon, torch.full_like(w.soil_carbon, 0.01))

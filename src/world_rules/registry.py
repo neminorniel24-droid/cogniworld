@@ -489,3 +489,5 @@ from .logic_245_drought_preserves_seed_bank import apply as logic_245
 RULES.append(logic_245)
 from .logic_246_seed_bank_reduces_biodiversity_loss import apply as logic_246
 RULES.append(logic_246)
+from .logic_247_biomass_builds_soil_carbon import apply as logic_247
+RULES.append(logic_247)
