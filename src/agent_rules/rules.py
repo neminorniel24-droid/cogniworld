@@ -1258,3 +1258,5 @@ def logic_947(agents,world):
     agents.reproduction_score=_delta(agents.reproduction_score,+0.002*agents.cooperation)
 def logic_948(agents,world):
     agents.strategy_persistence=_delta(agents.strategy_persistence,+0.002*agents.defection)
+def logic_949(agents,world):
+    agents.strategy_mixing=_delta(agents.strategy_mixing,+0.002*agents.aggression)

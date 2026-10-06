@@ -990,3 +990,6 @@ def test_logic_947():
 def test_logic_948():
     from agent_rules.rules import logic_948
     _check(logic_948, 'defection', 'strategy_persistence', 1)
+def test_logic_949():
+    from agent_rules.rules import logic_949
+    _check(logic_949, 'aggression', 'strategy_mixing', 1)
