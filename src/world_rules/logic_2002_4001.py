@@ -2929,3 +2929,7 @@ def logic_2730(world):
 def logic_2731(world):
     # temperature changes photosynthetic efficiency; reserve coupling.
     _couple(world,'temperature','photosynthesis_factor',0.9,'positive')
+
+def logic_2732(world):
+    # cloud cover moderates temperature; direct coupling.
+    _couple(world,'cloud','temperature',1.0,'positive')
