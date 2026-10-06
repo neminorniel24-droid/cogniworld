@@ -470,3 +470,7 @@ def logic_3109(agents, world):
 def logic_3110(agents, world):
     # surface_water -> infection_risk; scarcity coupling.
     _update(agents, 'infection_risk', _desired(agents, world, 'surface_water', 'infection_risk', 'scarcity'))
+
+def logic_3111(agents, world):
+    # surface_water -> infection_risk; stress coupling.
+    _update(agents, 'infection_risk', _desired(agents, world, 'surface_water', 'infection_risk', 'stress'))
