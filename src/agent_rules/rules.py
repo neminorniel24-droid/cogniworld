@@ -294,3 +294,5 @@ def logic_446(agents,world):
  v=torch.clamp(agents.help_received,0,2);agents.migration_drive=_delta(agents.migration_drive,v*0.001)
 def logic_447(agents,world):
  v=torch.clamp(agents.help_given,0,2);agents.social_avoidance=_delta(agents.social_avoidance,v*0.001)
+def logic_448(agents,world):
+ v=torch.clamp(agents.help_given,0,2);agents.fear=_delta(agents.fear,v*0.001)
