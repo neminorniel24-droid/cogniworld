@@ -2860,3 +2860,7 @@ def logic_1705(world):
 def logic_1706(world):
     # herbivory consumes vegetation; stronger when temperature is low.
     _feedback(world, 'herbivore', 'vegetation', -1, 'cold_gate')
+
+def logic_1707(world):
+    # herbivory consumes vegetation; stronger under fire pressure.
+    _feedback(world, 'herbivore', 'vegetation', -1, 'fire_gate')
