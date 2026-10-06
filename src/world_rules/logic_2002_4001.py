@@ -3237,3 +3237,7 @@ def logic_2807(world):
 def logic_2808(world):
     # snow cover buffers ground temperature; feedback coupling.
     _couple(world,'snowpack','temperature',0.8,'positive')
+
+def logic_2809(world):
+    # snow cover buffers ground temperature; counterpressure coupling.
+    _couple(world,'snowpack','temperature',0.8,'negative')
