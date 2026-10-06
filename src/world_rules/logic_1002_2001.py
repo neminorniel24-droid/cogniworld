@@ -1996,3 +1996,7 @@ def logic_1489(world):
 def logic_1490(world):
     # photosynthesis builds biomass; activates above a food threshold.
     _feedback(world, 'photosynthesis_factor', 'biomass', 1, 'threshold')
+
+def logic_1491(world):
+    # photosynthesis builds biomass; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'photosynthesis_factor', 'biomass', 1, 'recovery')
