@@ -3409,3 +3409,7 @@ def logic_2850(world):
 def logic_2851(world):
     # runoff returns water to surface pools; reserve coupling.
     _couple(world,'runoff','surface_water',0.9,'positive')
+
+def logic_2852(world):
+    # sediment load changes water state; direct coupling.
+    _couple(world,'sediment','surface_water',1.0,'positive')
