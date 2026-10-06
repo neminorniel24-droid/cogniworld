@@ -1518,3 +1518,7 @@ def logic_3371(agents, world):
 def logic_3372(agents, world):
     # surface_water -> competition_pressure; feedback coupling.
     _update(agents, 'competition_pressure', _desired(agents, world, 'surface_water', 'competition_pressure', 'feedback'))
+
+def logic_3373(agents, world):
+    # surface_water -> competition_pressure; counterpressure coupling.
+    _update(agents, 'competition_pressure', _desired(agents, world, 'surface_water', 'competition_pressure', 'counterpressure'))
