@@ -3994,3 +3994,7 @@ def logic_3990(agents, world):
 def logic_3991(agents, world):
     # groundwater -> pathogen_risk; reserve coupling.
     _update(agents, 'pathogen_risk', _desired(agents, world, 'groundwater', 'pathogen_risk', 'reserve'))
+
+def logic_3992(agents, world):
+    # groundwater -> pathogen_risk; scarcity coupling.
+    _update(agents, 'pathogen_risk', _desired(agents, world, 'groundwater', 'pathogen_risk', 'scarcity'))
