@@ -2072,3 +2072,7 @@ def logic_1508(world):
 def logic_1509(world):
     # organic matter mineralizes nutrients; stronger when temperature is high.
     _feedback(world, 'organic_matter', 'nutrients', 1, 'heat_gate')
+
+def logic_1510(world):
+    # organic matter mineralizes nutrients; stronger when temperature is low.
+    _feedback(world, 'organic_matter', 'nutrients', 1, 'cold_gate')
