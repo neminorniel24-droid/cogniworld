@@ -3137,3 +3137,7 @@ def logic_2782(world):
 def logic_2783(world):
     # runoff redistributes salts; inverse coupling.
     _couple(world,'runoff','salinity',1.0,'negative')
+
+def logic_2784(world):
+    # runoff redistributes salts; limited coupling.
+    _couple(world,'runoff','salinity',0.65,'positive')
