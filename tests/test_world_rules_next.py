@@ -847,3 +847,12 @@ def test_logic_199():
     w.root_density.zero_()
     apply(w)
     assert torch.allclose(w.root_density, torch.full_like(w.root_density, 0.004))
+
+def test_logic_200():
+    from world_rules.logic_200_wind_increases_erosion import apply
+    w = make_world()
+    w.wind_x.fill_(1.0)
+    w.root_density.zero_()
+    w.erosion.zero_()
+    apply(w)
+    assert torch.allclose(w.erosion, torch.full_like(w.erosion, 0.003))

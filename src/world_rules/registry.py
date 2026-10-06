@@ -395,3 +395,5 @@ from .logic_198_erosion_reduces_soil_depth import apply as logic_198
 RULES.append(logic_198)
 from .logic_199_root_density_tracks_biomass import apply as logic_199
 RULES.append(logic_199)
+from .logic_200_wind_increases_erosion import apply as logic_200
+RULES.append(logic_200)
