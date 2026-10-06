@@ -818,3 +818,7 @@ def logic_3196(agents, world):
 def logic_3197(agents, world):
     # surface_water -> migration_drive; persistence coupling.
     _update(agents, 'migration_drive', _desired(agents, world, 'surface_water', 'migration_drive', 'persistence'))
+
+def logic_3198(agents, world):
+    # surface_water -> exploration_drive; direct coupling.
+    _update(agents, 'exploration_drive', _desired(agents, world, 'surface_water', 'exploration_drive', 'direct'))
