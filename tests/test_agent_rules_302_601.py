@@ -1080,3 +1080,8 @@ def test_logic_516():
 def test_logic_517():
  from agent_rules.rules import logic_517
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.payoff.clone();a.last_reward.fill_(1);logic_517(a,w);assert torch.any(a.payoff!=b)
+
+
+def test_logic_518():
+ from agent_rules.rules import logic_518
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.confidence.clone();a.last_reward.fill_(1);logic_518(a,w);assert torch.any(a.confidence!=b)
