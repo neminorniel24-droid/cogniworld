@@ -3469,3 +3469,7 @@ def logic_2865(world):
 def logic_2866(world):
     # organic matter retains water; threshold coupling.
     _couple(world,'organic_matter','surface_water',1.0,'threshold')
+
+def logic_2867(world):
+    # organic matter retains water; pulse coupling.
+    _couple(world,'organic_matter','surface_water',1.0,'pulse')
