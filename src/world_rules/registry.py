@@ -387,3 +387,5 @@ from .logic_194_wetlands_add_water_vapor import apply as logic_194
 RULES.append(logic_194)
 from .logic_195_clouds_and_rain_cool_surface import apply as logic_195
 RULES.append(logic_195)
+from .logic_196_high_temperature_drives_more_evaporation import apply as logic_196
+RULES.append(logic_196)

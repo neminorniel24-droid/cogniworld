@@ -814,3 +814,11 @@ def test_logic_195():
     before=w.temperature_target.clone()
     apply(w)
     assert torch.all(w.temperature_target < before)
+
+def test_logic_196():
+    from world_rules.logic_196_high_temperature_drives_more_evaporation import apply
+    w = make_world()
+    w.temperature.fill_(1.0)
+    w.evaporation.zero_()
+    apply(w)
+    assert torch.allclose(w.evaporation, torch.full_like(w.evaporation, 0.006))
