@@ -2840,3 +2840,7 @@ def logic_1700(world):
 def logic_1701(world):
     # vegetation replenishes seeds; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'vegetation', 'seed_bank', 1, 'recovery')
+
+def logic_1702(world):
+    # herbivory consumes vegetation; direct.
+    _feedback(world, 'herbivore', 'vegetation', -1, 'baseline')
