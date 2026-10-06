@@ -375,3 +375,8 @@ def test_logic_375():
 def test_logic_376():
  from agent_rules.rules import logic_376
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.recovery.clone();setattr(w,'ash',torch.ones(4,4));logic_376(a,w);assert torch.any(a.recovery!=b)
+
+
+def test_logic_377():
+ from agent_rules.rules import logic_377
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.health.clone();setattr(w,'ash',torch.ones(4,4));logic_377(a,w);assert torch.any(a.health!=b)

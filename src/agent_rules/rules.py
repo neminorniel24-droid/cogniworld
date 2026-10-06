@@ -152,3 +152,5 @@ def logic_375(agents,world):
  v=_local(world,agents,'ash');agents.hunger=_delta(agents.hunger,v*0.001)
 def logic_376(agents,world):
  v=_local(world,agents,'ash');agents.recovery=_delta(agents.recovery,v*0.001)
+def logic_377(agents,world):
+ v=_local(world,agents,'ash');agents.health=_delta(agents.health,v*0.001)
