@@ -3564,3 +3564,7 @@ def logic_1881(world):
 def logic_1882(world):
     # algae contribute oxygen; activates above a food threshold.
     _feedback(world, 'algae', 'oxygen', 1, 'threshold')
+
+def logic_1883(world):
+    # algae contribute oxygen; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'algae', 'oxygen', 1, 'recovery')
