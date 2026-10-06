@@ -1174,3 +1174,5 @@ def logic_905(agents,world):
     agents.strategy_confidence=_delta(agents.strategy_confidence,+0.002*agents.payoff)
 def logic_906(agents,world):
     agents.payoff=_signed_delta(agents.payoff,+0.002*agents.wealth)
+def logic_907(agents,world):
+    agents.fitness_score=_delta(agents.fitness_score,+0.002*agents.energy_surplus)

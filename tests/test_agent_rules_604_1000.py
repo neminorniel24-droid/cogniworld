@@ -864,3 +864,6 @@ def test_logic_905():
 def test_logic_906():
     from agent_rules.rules import logic_906
     _check(logic_906, 'wealth', 'payoff', 1)
+def test_logic_907():
+    from agent_rules.rules import logic_907
+    _check(logic_907, 'energy_surplus', 'fitness_score', 1)
