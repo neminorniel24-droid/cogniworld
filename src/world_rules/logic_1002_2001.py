@@ -3312,3 +3312,7 @@ def logic_1818(world):
 def logic_1819(world):
     # diverse communities dilute pathogens; stronger under fire pressure.
     _feedback(world, 'biodiversity', 'pathogen_load', -1, 'fire_gate')
+
+def logic_1820(world):
+    # diverse communities dilute pathogens; stronger when surface water is high.
+    _feedback(world, 'biodiversity', 'pathogen_load', -1, 'water_gate')
