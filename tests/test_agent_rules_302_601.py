@@ -650,3 +650,8 @@ def test_logic_430():
 def test_logic_431():
  from agent_rules.rules import logic_431
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.social_avoidance.clone();a.trust.fill_(1);logic_431(a,w);assert torch.any(a.social_avoidance!=b)
+
+
+def test_logic_432():
+ from agent_rules.rules import logic_432
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.defection.clone();a.cooperation.fill_(1);logic_432(a,w);assert torch.any(a.defection!=b)
