@@ -2218,3 +2218,7 @@ def logic_3546(agents, world):
 def logic_3547(agents, world):
     # surface_water -> future_help; persistence coupling.
     _update(agents, 'future_help', _desired(agents, world, 'surface_water', 'future_help', 'persistence'))
+
+def logic_3548(agents, world):
+    # surface_water -> resource_discovery; direct coupling.
+    _update(agents, 'resource_discovery', _desired(agents, world, 'surface_water', 'resource_discovery', 'direct'))
