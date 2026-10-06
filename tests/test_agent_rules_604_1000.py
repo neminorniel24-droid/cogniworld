@@ -234,3 +234,6 @@ def test_logic_695():
 def test_logic_696():
     from agent_rules.rules import logic_696
     _check(logic_696, 'exploration_drive', 'exploration_score', 1)
+def test_logic_697():
+    from agent_rules.rules import logic_697
+    _check(logic_697, 'food_access', 'strategy_score', 1)
