@@ -468,3 +468,7 @@ def logic_1107(world):
 def logic_1108(world):
     # surface water supports algae; stronger when biomass is high.
     _feedback(world, 'surface_water', 'algae', 1, 'biomass_gate')
+
+def logic_1109(world):
+    # surface water supports algae; stronger under habitat stress.
+    _feedback(world, 'surface_water', 'algae', 1, 'stress_gate')
