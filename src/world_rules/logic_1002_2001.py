@@ -3900,3 +3900,7 @@ def logic_1965(world):
 def logic_1966(world):
     # moist soil lowers fire risk; activates above a food threshold.
     _feedback(world, 'soil_moisture', 'fire_risk', -1, 'threshold')
+
+def logic_1967(world):
+    # moist soil lowers fire risk; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'soil_moisture', 'fire_risk', -1, 'recovery')
