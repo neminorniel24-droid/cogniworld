@@ -1400,3 +1400,7 @@ def logic_1340(world):
 def logic_1341(world):
     # runoff mobilizes sediment; stronger when temperature is high.
     _feedback(world, 'runoff', 'sediment', 1, 'heat_gate')
+
+def logic_1342(world):
+    # runoff mobilizes sediment; stronger when temperature is low.
+    _feedback(world, 'runoff', 'sediment', 1, 'cold_gate')
