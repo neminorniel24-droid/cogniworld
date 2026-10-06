@@ -376,3 +376,7 @@ def logic_1084(world):
 def logic_1085(world):
     # open water raises local humidity; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'surface_water', 'humidity', 1, 'recovery')
+
+def logic_1086(world):
+    # persistent surface water expands wetlands; direct.
+    _feedback(world, 'surface_water', 'wetland', 1, 'baseline')
