@@ -1092,3 +1092,7 @@ def logic_1263(world):
 def logic_1264(world):
     # warmth melts ice; modulated by temperature.
     _feedback(world, 'temperature', 'ice', -1, 'seasonal_gate')
+
+def logic_1265(world):
+    # warmth melts ice; saturates at high source levels.
+    _feedback(world, 'temperature', 'ice', -1, 'saturation')
