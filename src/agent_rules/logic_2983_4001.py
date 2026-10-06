@@ -3654,3 +3654,7 @@ def logic_3905(agents, world):
 def logic_3906(agents, world):
     # groundwater -> hydration; capacity coupling.
     _update(agents, 'hydration', _desired(agents, world, 'groundwater', 'hydration', 'capacity'))
+
+def logic_3907(agents, world):
+    # groundwater -> hydration; reserve coupling.
+    _update(agents, 'hydration', _desired(agents, world, 'groundwater', 'hydration', 'reserve'))
