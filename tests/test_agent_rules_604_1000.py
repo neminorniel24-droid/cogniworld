@@ -66,3 +66,6 @@ def test_logic_639():
 def test_logic_640():
     from agent_rules.rules import logic_640
     _check(logic_640, 'habitat_stress', 'competition_pressure', 1)
+def test_logic_641():
+    from agent_rules.rules import logic_641
+    _check(logic_641, 'social_tolerance', 'resource_competition', 1)
