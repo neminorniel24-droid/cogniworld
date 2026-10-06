@@ -1668,3 +1668,7 @@ def logic_1407(world):
 def logic_1408(world):
     # roots retain soil; direct.
     _feedback(world, 'root_density', 'soil_depth', 1, 'baseline')
+
+def logic_1409(world):
+    # roots retain soil; stronger when soil is dry.
+    _feedback(world, 'root_density', 'soil_depth', 1, 'dry_gate')
