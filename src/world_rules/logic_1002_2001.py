@@ -1852,3 +1852,7 @@ def logic_1453(world):
 def logic_1454(world):
     # biomass contributes oxygen; stronger when temperature is low.
     _feedback(world, 'biomass', 'oxygen', 1, 'cold_gate')
+
+def logic_1455(world):
+    # biomass contributes oxygen; stronger under fire pressure.
+    _feedback(world, 'biomass', 'oxygen', 1, 'fire_gate')
