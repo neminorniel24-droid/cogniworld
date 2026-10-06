@@ -3494,3 +3494,7 @@ def logic_3865(agents, world):
 def logic_3866(agents, world):
     # surface_water -> future_payoff_weight; scarcity coupling.
     _update(agents, 'future_payoff_weight', _desired(agents, world, 'surface_water', 'future_payoff_weight', 'scarcity'))
+
+def logic_3867(agents, world):
+    # surface_water -> future_payoff_weight; stress coupling.
+    _update(agents, 'future_payoff_weight', _desired(agents, world, 'surface_water', 'future_payoff_weight', 'stress'))
