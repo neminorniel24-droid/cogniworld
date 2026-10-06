@@ -2412,3 +2412,7 @@ def logic_1593(world):
 def logic_1594(world):
     # fire reduces biomass; stronger when temperature is low.
     _feedback(world, 'fire_risk', 'biomass', -1, 'cold_gate')
+
+def logic_1595(world):
+    # fire reduces biomass; stronger under fire pressure.
+    _feedback(world, 'fire_risk', 'biomass', -1, 'fire_gate')
