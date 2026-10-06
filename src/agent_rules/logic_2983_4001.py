@@ -1030,3 +1030,7 @@ def logic_3249(agents, world):
 def logic_3250(agents, world):
     # surface_water -> stability; scarcity coupling.
     _update(agents, 'stability', _desired(agents, world, 'surface_water', 'stability', 'scarcity'))
+
+def logic_3251(agents, world):
+    # surface_water -> stability; stress coupling.
+    _update(agents, 'stability', _desired(agents, world, 'surface_water', 'stability', 'stress'))
