@@ -830,3 +830,7 @@ def logic_3199(agents, world):
 def logic_3200(agents, world):
     # surface_water -> exploration_drive; threshold coupling.
     _update(agents, 'exploration_drive', _desired(agents, world, 'surface_water', 'exploration_drive', 'threshold'))
+
+def logic_3201(agents, world):
+    # surface_water -> exploration_drive; strong coupling.
+    _update(agents, 'exploration_drive', _desired(agents, world, 'surface_water', 'exploration_drive', 'strong'))
