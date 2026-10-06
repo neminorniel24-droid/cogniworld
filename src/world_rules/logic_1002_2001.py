@@ -3792,3 +3792,7 @@ def logic_1938(world):
 def logic_1939(world):
     # CO2 increases warming pressure; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'co2', 'temperature', 1, 'recovery')
+
+def logic_1940(world):
+    # heat raises fire risk; direct.
+    _feedback(world, 'temperature', 'fire_risk', 1, 'baseline')
