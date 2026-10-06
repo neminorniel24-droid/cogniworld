@@ -1710,3 +1710,7 @@ def logic_3419(agents, world):
 def logic_3420(agents, world):
     # surface_water -> sharing_capacity; recovery coupling.
     _update(agents, 'sharing_capacity', _desired(agents, world, 'surface_water', 'sharing_capacity', 'recovery'))
+
+def logic_3421(agents, world):
+    # surface_water -> sharing_capacity; persistence coupling.
+    _update(agents, 'sharing_capacity', _desired(agents, world, 'surface_water', 'sharing_capacity', 'persistence'))
