@@ -3689,3 +3689,7 @@ def logic_2920(world):
 def logic_2921(world):
     # methane flux changes carbon balance; reserve coupling.
     _couple(world,'methane','carbon_storage',0.9,'positive')
+
+def logic_2922(world):
+    # stored carbon reduces atmospheric CO2 pressure; direct coupling.
+    _couple(world,'carbon_storage','co2',1.0,'positive')
