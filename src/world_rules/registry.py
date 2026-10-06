@@ -421,3 +421,5 @@ from .logic_211_deep_roots_tap_groundwater import apply as logic_211
 RULES.append(logic_211)
 from .logic_212_runoff_transports_sediment import apply as logic_212
 RULES.append(logic_212)
+from .logic_213_vegetation_traps_sediment import apply as logic_213
+RULES.append(logic_213)
