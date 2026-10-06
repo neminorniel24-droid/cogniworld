@@ -4028,3 +4028,7 @@ def logic_1997(world):
 def logic_1998(world):
     # wetlands emit methane; stronger when soil is wet.
     _feedback(world, 'wetland', 'methane', 1, 'wet_gate')
+
+def logic_1999(world):
+    # wetlands emit methane; stronger when temperature is high.
+    _feedback(world, 'wetland', 'methane', 1, 'heat_gate')
