@@ -1924,3 +1924,7 @@ def logic_1471(world):
 def logic_1472(world):
     # high CO2 stress reduces photosynthetic efficiency; stronger when biomass is high.
     _feedback(world, 'co2', 'photosynthesis_factor', -1, 'biomass_gate')
+
+def logic_1473(world):
+    # high CO2 stress reduces photosynthetic efficiency; stronger under habitat stress.
+    _feedback(world, 'co2', 'photosynthesis_factor', -1, 'stress_gate')
