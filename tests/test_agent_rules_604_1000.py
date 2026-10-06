@@ -660,3 +660,6 @@ def test_logic_837():
 def test_logic_838():
     from agent_rules.rules import logic_838
     _check(logic_838, 'reciprocity_score', 'strategy_score', 1)
+def test_logic_839():
+    from agent_rules.rules import logic_839
+    _check(logic_839, 'risk_score', 'cooperation_score', -1)
