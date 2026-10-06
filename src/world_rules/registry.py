@@ -199,3 +199,5 @@ from .logic_100_fire_consumes_vegetation_and_creates_ash import apply as logic_1
 RULES.append(logic_100)
 from .logic_101_ash_returns_nutrients import apply as logic_101
 RULES.append(logic_101)
+from .logic_102_vegetation_shades_surface import apply as logic_102
+RULES.append(logic_102)
