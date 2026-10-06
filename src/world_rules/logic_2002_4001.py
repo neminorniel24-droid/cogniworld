@@ -181,3 +181,7 @@ def logic_2043(world):
 def logic_2044(world):
     # biomass contributes organic matter; limited coupling.
     _couple(world,'biomass','organic_matter',0.65,'positive')
+
+def logic_2045(world):
+    # biomass contributes organic matter; strong coupling.
+    _couple(world,'biomass','organic_matter',1.35,'positive')
