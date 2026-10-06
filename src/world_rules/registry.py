@@ -2648,3 +2648,6 @@ RULES.append(logic_2016)
 
 from .logic_2002_4001 import logic_2017
 RULES.append(logic_2017)
+
+from .logic_2002_4001 import logic_2018
+RULES.append(logic_2018)
