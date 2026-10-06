@@ -834,3 +834,5 @@ def logic_735(agents,world):
     agents.gratitude=_delta(agents.gratitude,+0.002*agents.empathy)
 def logic_736(agents,world):
     agents.reciprocity_score=_delta(agents.reciprocity_score,+0.002*agents.reputation)
+def logic_737(agents,world):
+    agents.help_score=_delta(agents.help_score,+0.002*agents.trust)
