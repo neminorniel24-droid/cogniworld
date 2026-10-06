@@ -3413,3 +3413,7 @@ def logic_2851(world):
 def logic_2852(world):
     # sediment load changes water state; direct coupling.
     _couple(world,'sediment','surface_water',1.0,'positive')
+
+def logic_2853(world):
+    # sediment load changes water state; inverse coupling.
+    _couple(world,'sediment','surface_water',1.0,'negative')
