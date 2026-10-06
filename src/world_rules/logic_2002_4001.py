@@ -3925,3 +3925,7 @@ def logic_2979(world):
 def logic_2980(world):
     # groundwater discharge sustains runoff; capacity coupling.
     _couple(world,'groundwater','runoff',0.5,'positive')
+
+def logic_2981(world):
+    # groundwater discharge sustains runoff; reserve coupling.
+    _couple(world,'groundwater','runoff',0.9,'positive')
