@@ -2644,3 +2644,7 @@ def logic_1651(world):
 def logic_1652(world):
     # flowers support pollinators; stronger when surface water is high.
     _feedback(world, 'flowers', 'pollinators', 1, 'water_gate')
+
+def logic_1653(world):
+    # flowers support pollinators; stronger when vegetation is scarce.
+    _feedback(world, 'flowers', 'pollinators', 1, 'scarcity_gate')
