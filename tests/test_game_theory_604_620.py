@@ -24,3 +24,5 @@ def test_attack_success_in_ledger():
     assert "attack_success" in _event()
 def test_defense_score_in_ledger():
     assert "defense_score" in _event()
+def test_resource_scarcity_in_ledger():
+    assert "resource_scarcity" in _event()
