@@ -2284,3 +2284,7 @@ def logic_1561(world):
 def logic_1562(world):
     # fire consumes deadwood; direct.
     _feedback(world, 'fire_risk', 'deadwood', -1, 'baseline')
+
+def logic_1563(world):
+    # fire consumes deadwood; stronger when soil is dry.
+    _feedback(world, 'fire_risk', 'deadwood', -1, 'dry_gate')
