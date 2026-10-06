@@ -3089,3 +3089,7 @@ def logic_2770(world):
 def logic_2771(world):
     # pathogens alter community diversity; reserve coupling.
     _couple(world,'pathogen_load','biodiversity',0.9,'positive')
+
+def logic_2772(world):
+    # fire can reduce pathogen load; direct coupling.
+    _couple(world,'fire_risk','pathogen_load',1.0,'positive')
