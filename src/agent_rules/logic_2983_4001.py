@@ -2830,3 +2830,7 @@ def logic_3699(agents, world):
 def logic_3700(agents, world):
     # surface_water -> exploration_score; recovery coupling.
     _update(agents, 'exploration_score', _desired(agents, world, 'surface_water', 'exploration_score', 'recovery'))
+
+def logic_3701(agents, world):
+    # surface_water -> exploration_score; persistence coupling.
+    _update(agents, 'exploration_score', _desired(agents, world, 'surface_water', 'exploration_score', 'persistence'))
