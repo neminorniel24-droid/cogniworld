@@ -1099,3 +1099,8 @@ def test_logic_248():
     from world_rules.logic_248_decomposition_releases_soil_carbon import apply
     w = make_world()
     w.soil_carbon.fill_(1.0); w.decomposition_rate.fill_(1.0); apply(w); assert torch.allclose(w.soil_carbon, torch.full_like(w.soil_carbon, 0.997))
+
+def test_logic_249():
+    from world_rules.logic_249_soil_carbon_reduces_co2 import apply
+    w = make_world()
+    w.co2.fill_(1.0); w.soil_carbon.fill_(1.0); apply(w); assert torch.allclose(w.co2, torch.full_like(w.co2, 0.998))
