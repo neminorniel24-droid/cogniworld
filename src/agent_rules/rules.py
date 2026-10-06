@@ -1082,3 +1082,5 @@ def logic_859(agents,world):
     agents.memory_update=_delta(agents.memory_update,+0.002*agents.safety_score)
 def logic_860(agents,world):
     agents.strategy_persistence=_delta(agents.strategy_persistence,+0.002*agents.exploration_score)
+def logic_861(agents,world):
+    agents.strategy_mixing=_delta(agents.strategy_mixing,+0.002*agents.foraging_score)

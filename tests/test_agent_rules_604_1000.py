@@ -726,3 +726,6 @@ def test_logic_859():
 def test_logic_860():
     from agent_rules.rules import logic_860
     _check(logic_860, 'exploration_score', 'strategy_persistence', 1)
+def test_logic_861():
+    from agent_rules.rules import logic_861
+    _check(logic_861, 'foraging_score', 'strategy_mixing', 1)
