@@ -3508,3 +3508,7 @@ def logic_1867(world):
 def logic_1868(world):
     # salinity suppresses freshwater algae; activates above a food threshold.
     _feedback(world, 'salinity', 'algae', -1, 'threshold')
+
+def logic_1869(world):
+    # salinity suppresses freshwater algae; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'salinity', 'algae', -1, 'recovery')
