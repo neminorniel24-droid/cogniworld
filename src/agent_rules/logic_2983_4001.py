@@ -902,3 +902,7 @@ def logic_3217(agents, world):
 def logic_3218(agents, world):
     # surface_water -> food_access; feedback coupling.
     _update(agents, 'food_access', _desired(agents, world, 'surface_water', 'food_access', 'feedback'))
+
+def logic_3219(agents, world):
+    # surface_water -> food_access; counterpressure coupling.
+    _update(agents, 'food_access', _desired(agents, world, 'surface_water', 'food_access', 'counterpressure'))
