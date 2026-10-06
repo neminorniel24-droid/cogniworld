@@ -1720,3 +1720,7 @@ def logic_1420(world):
 def logic_1421(world):
     # roots retain soil; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'root_density', 'soil_depth', 1, 'recovery')
+
+def logic_1422(world):
+    # vegetation stores carbon; direct.
+    _feedback(world, 'vegetation', 'carbon_storage', 1, 'baseline')
