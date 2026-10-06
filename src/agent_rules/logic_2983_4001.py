@@ -3530,3 +3530,7 @@ def logic_3874(agents, world):
 def logic_3875(agents, world):
     # surface_water -> self_preservation; pulse coupling.
     _update(agents, 'self_preservation', _desired(agents, world, 'surface_water', 'self_preservation', 'pulse'))
+
+def logic_3876(agents, world):
+    # surface_water -> self_preservation; feedback coupling.
+    _update(agents, 'self_preservation', _desired(agents, world, 'surface_water', 'self_preservation', 'feedback'))
