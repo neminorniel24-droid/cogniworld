@@ -1904,3 +1904,7 @@ def logic_1466(world):
 def logic_1467(world):
     # high CO2 stress reduces photosynthetic efficiency; stronger when temperature is high.
     _feedback(world, 'co2', 'photosynthesis_factor', -1, 'heat_gate')
+
+def logic_1468(world):
+    # high CO2 stress reduces photosynthetic efficiency; stronger when temperature is low.
+    _feedback(world, 'co2', 'photosynthesis_factor', -1, 'cold_gate')
