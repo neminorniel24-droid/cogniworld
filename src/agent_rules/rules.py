@@ -144,3 +144,5 @@ def logic_371(agents,world):
  v=_local(world,agents,'carbon_storage');agents.risk_tolerance=_delta(agents.risk_tolerance,v*0.001)
 def logic_372(agents,world):
  v=_local(world,agents,'fire_risk');agents.health=_delta(agents.health,v*0.001)
+def logic_373(agents,world):
+ v=_local(world,agents,'fire_risk');agents.fear=_delta(agents.fear,v*0.001)

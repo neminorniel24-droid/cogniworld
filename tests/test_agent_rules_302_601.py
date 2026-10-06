@@ -355,3 +355,8 @@ def test_logic_371():
 def test_logic_372():
  from agent_rules.rules import logic_372
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.health.clone();setattr(w,'fire_risk',torch.ones(4,4));logic_372(a,w);assert torch.any(a.health!=b)
+
+
+def test_logic_373():
+ from agent_rules.rules import logic_373
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.fear.clone();setattr(w,'fire_risk',torch.ones(4,4));logic_373(a,w);assert torch.any(a.fear!=b)
