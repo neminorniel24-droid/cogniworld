@@ -3954,3 +3954,7 @@ def logic_3980(agents, world):
 def logic_3981(agents, world):
     # groundwater -> dehydration; persistence coupling.
     _update(agents, 'dehydration', _desired(agents, world, 'groundwater', 'dehydration', 'persistence'))
+
+def logic_3982(agents, world):
+    # groundwater -> pathogen_risk; direct coupling.
+    _update(agents, 'pathogen_risk', _desired(agents, world, 'groundwater', 'pathogen_risk', 'direct'))
