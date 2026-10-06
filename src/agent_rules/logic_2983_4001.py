@@ -3862,3 +3862,7 @@ def logic_3957(agents, world):
 def logic_3958(agents, world):
     # groundwater -> thermal_stress; limited coupling.
     _update(agents, 'thermal_stress', _desired(agents, world, 'groundwater', 'thermal_stress', 'limited'))
+
+def logic_3959(agents, world):
+    # groundwater -> thermal_stress; pulse coupling.
+    _update(agents, 'thermal_stress', _desired(agents, world, 'groundwater', 'thermal_stress', 'pulse'))
