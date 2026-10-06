@@ -1132,3 +1132,7 @@ def logic_1273(world):
 def logic_1274(world):
     # warmth melts surface ice; stronger when surface water is high.
     _feedback(world, 'temperature', 'surface_ice', -1, 'water_gate')
+
+def logic_1275(world):
+    # warmth melts surface ice; stronger when vegetation is scarce.
+    _feedback(world, 'temperature', 'surface_ice', -1, 'scarcity_gate')
