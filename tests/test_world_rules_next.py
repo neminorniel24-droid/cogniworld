@@ -623,3 +623,12 @@ def test_logic_173():
     w.fire_risk.zero_()
     apply(w)
     assert torch.allclose(w.fire_risk, torch.full_like(w.fire_risk, 0.004))
+
+def test_logic_174():
+    from world_rules.logic_174_ash_suppresses_future_fire_risk import apply
+    w = make_world()
+    w.ash.fill_(1.0)
+    w.fire_risk.fill_(1.0)
+    before=w.fire_risk.clone()
+    apply(w)
+    assert torch.all(w.fire_risk < before)
