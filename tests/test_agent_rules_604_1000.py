@@ -45,3 +45,6 @@ def test_logic_632():
 def test_logic_633():
     from agent_rules.rules import logic_633
     _check(logic_633, 'metabolic_cost', 'self_preservation', 1)
+def test_logic_634():
+    from agent_rules.rules import logic_634
+    _check(logic_634, 'reproduction_drive', 'learning_rate', 1)
