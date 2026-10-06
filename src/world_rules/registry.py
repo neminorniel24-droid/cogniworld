@@ -521,3 +521,5 @@ from .logic_261_wetland_moisture_supports_algae import apply as logic_261
 RULES.append(logic_261)
 from .logic_262_biodiversity_supports_pollinators import apply as logic_262
 RULES.append(logic_262)
+from .logic_263_pollinators_raise_biodiversity import apply as logic_263
+RULES.append(logic_263)
