@@ -2014,3 +2014,7 @@ def logic_3495(agents, world):
 def logic_3496(agents, world):
     # surface_water -> caution; limited coupling.
     _update(agents, 'caution', _desired(agents, world, 'surface_water', 'caution', 'limited'))
+
+def logic_3497(agents, world):
+    # surface_water -> caution; pulse coupling.
+    _update(agents, 'caution', _desired(agents, world, 'surface_water', 'caution', 'pulse'))
