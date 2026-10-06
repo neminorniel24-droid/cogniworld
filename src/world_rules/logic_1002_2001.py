@@ -3284,3 +3284,7 @@ def logic_1811(world):
 def logic_1812(world):
     # pathogens reduce biodiversity; activates above a food threshold.
     _feedback(world, 'pathogen_load', 'biodiversity', -1, 'threshold')
+
+def logic_1813(world):
+    # pathogens reduce biodiversity; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'pathogen_load', 'biodiversity', -1, 'recovery')
