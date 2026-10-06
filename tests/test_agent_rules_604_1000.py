@@ -804,3 +804,6 @@ def test_logic_885():
 def test_logic_886():
     from agent_rules.rules import logic_886
     _check(logic_886, 'last_reward', 'memory_update', 1)
+def test_logic_887():
+    from agent_rules.rules import logic_887
+    _check(logic_887, 'last_energy_delta', 'strategy_persistence', 1)

@@ -1134,3 +1134,5 @@ def logic_885(agents,world):
     agents.cooperation_score=_delta(agents.cooperation_score,+0.002*agents.defense_score)
 def logic_886(agents,world):
     agents.memory_update=_delta(agents.memory_update,+0.002*agents.last_reward)
+def logic_887(agents,world):
+    agents.strategy_persistence=_delta(agents.strategy_persistence,+0.002*agents.last_energy_delta)
