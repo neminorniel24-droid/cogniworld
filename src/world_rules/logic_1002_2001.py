@@ -3456,3 +3456,7 @@ def logic_1854(world):
 def logic_1855(world):
     # habitat stress erodes diversity; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'habitat_stress', 'biodiversity', -1, 'recovery')
+
+def logic_1856(world):
+    # salinity suppresses freshwater algae; direct.
+    _feedback(world, 'salinity', 'algae', -1, 'baseline')
