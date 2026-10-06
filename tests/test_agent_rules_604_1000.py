@@ -90,3 +90,6 @@ def test_logic_647():
 def test_logic_648():
     from agent_rules.rules import logic_648
     _check(logic_648, 'pathogen_risk', 'confidence', -1)
+def test_logic_649():
+    from agent_rules.rules import logic_649
+    _check(logic_649, 'infection_risk', 'self_preservation', 1)
