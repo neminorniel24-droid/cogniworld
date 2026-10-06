@@ -2278,3 +2278,7 @@ def logic_3561(agents, world):
 def logic_3562(agents, world):
     # surface_water -> empathy; direct coupling.
     _update(agents, 'empathy', _desired(agents, world, 'surface_water', 'empathy', 'direct'))
+
+def logic_3563(agents, world):
+    # surface_water -> empathy; inverse coupling.
+    _update(agents, 'empathy', _desired(agents, world, 'surface_water', 'empathy', 'inverse'))
