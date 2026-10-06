@@ -3522,3 +3522,7 @@ def logic_3872(agents, world):
 def logic_3873(agents, world):
     # surface_water -> self_preservation; strong coupling.
     _update(agents, 'self_preservation', _desired(agents, world, 'surface_water', 'self_preservation', 'strong'))
+
+def logic_3874(agents, world):
+    # surface_water -> self_preservation; limited coupling.
+    _update(agents, 'self_preservation', _desired(agents, world, 'surface_water', 'self_preservation', 'limited'))
