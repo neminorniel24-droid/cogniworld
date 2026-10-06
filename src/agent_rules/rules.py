@@ -90,3 +90,5 @@ def logic_344(agents,world):
  v=_local(world,agents,'nutrients');agents.reproduction_drive=_delta(agents.reproduction_drive,v*0.001)
 def logic_345(agents,world):
  v=_local(world,agents,'oxygen');agents.health=_delta(agents.health,v*0.001)
+def logic_346(agents,world):
+ v=_local(world,agents,'oxygen');agents.metabolic_cost=_delta(agents.metabolic_cost,v*0.001)
