@@ -2570,3 +2570,7 @@ def logic_3634(agents, world):
 def logic_3635(agents, world):
     # surface_water -> defection_score; strong coupling.
     _update(agents, 'defection_score', _desired(agents, world, 'surface_water', 'defection_score', 'strong'))
+
+def logic_3636(agents, world):
+    # surface_water -> defection_score; limited coupling.
+    _update(agents, 'defection_score', _desired(agents, world, 'surface_water', 'defection_score', 'limited'))
