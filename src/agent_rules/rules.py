@@ -1288,3 +1288,5 @@ def logic_962(agents,world):
     agents.safety_score=_delta(agents.safety_score,+0.002*agents.last_food)
 def logic_963(agents,world):
     agents.exploration_score=_delta(agents.exploration_score,+0.002*agents.survival_score)
+def logic_964(agents,world):
+    agents.foraging_score=_delta(agents.foraging_score,+0.002*agents.fitness_score)

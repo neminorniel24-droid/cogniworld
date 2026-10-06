@@ -1035,3 +1035,6 @@ def test_logic_962():
 def test_logic_963():
     from agent_rules.rules import logic_963
     _check(logic_963, 'survival_score', 'exploration_score', 1)
+def test_logic_964():
+    from agent_rules.rules import logic_964
+    _check(logic_964, 'fitness_score', 'foraging_score', 1)
