@@ -1209,3 +1209,7 @@ def logic_2300(world):
 def logic_2301(world):
     # seed bank supports regeneration; reserve coupling.
     _couple(world,'seed_bank','vegetation',0.9,'positive')
+
+def logic_2302(world):
+    # vegetation relieves habitat stress; direct coupling.
+    _couple(world,'vegetation','habitat_stress',1.0,'positive')
