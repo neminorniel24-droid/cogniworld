@@ -3162,3 +3162,7 @@ def logic_3782(agents, world):
 def logic_3783(agents, world):
     # surface_water -> reproduction_score; stress coupling.
     _update(agents, 'reproduction_score', _desired(agents, world, 'surface_water', 'reproduction_score', 'stress'))
+
+def logic_3784(agents, world):
+    # surface_water -> reproduction_score; recovery coupling.
+    _update(agents, 'reproduction_score', _desired(agents, world, 'surface_water', 'reproduction_score', 'recovery'))
