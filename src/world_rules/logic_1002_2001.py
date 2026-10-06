@@ -2012,3 +2012,7 @@ def logic_1493(world):
 def logic_1494(world):
     # nutrients support vegetation; stronger when soil is wet.
     _feedback(world, 'nutrients', 'vegetation', 1, 'wet_gate')
+
+def logic_1495(world):
+    # nutrients support vegetation; stronger when temperature is high.
+    _feedback(world, 'nutrients', 'vegetation', 1, 'heat_gate')
