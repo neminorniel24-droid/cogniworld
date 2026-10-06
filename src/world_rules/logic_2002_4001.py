@@ -1289,3 +1289,7 @@ def logic_2320(world):
 def logic_2321(world):
     # habitat stress suppresses vegetation; reserve coupling.
     _couple(world,'habitat_stress','vegetation',0.9,'positive')
+
+def logic_2322(world):
+    # erosion reduces soil depth; direct coupling.
+    _couple(world,'erosion','soil_depth',1.0,'positive')
