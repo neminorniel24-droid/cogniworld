@@ -585,3 +585,6 @@ def test_logic_812():
 def test_logic_813():
     from agent_rules.rules import logic_813
     _check(logic_813, 'last_food', 'strategy_persistence', 1)
+def test_logic_814():
+    from agent_rules.rules import logic_814
+    _check(logic_814, 'last_interaction', 'strategy_mixing', 1)

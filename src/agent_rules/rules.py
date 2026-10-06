@@ -988,3 +988,5 @@ def logic_812(agents,world):
     agents.memory_update=_delta(agents.memory_update,+0.002*agents.last_energy_delta)
 def logic_813(agents,world):
     agents.strategy_persistence=_delta(agents.strategy_persistence,+0.002*agents.last_food)
+def logic_814(agents,world):
+    agents.strategy_mixing=_delta(agents.strategy_mixing,+0.002*agents.last_interaction)
