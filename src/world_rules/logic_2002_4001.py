@@ -2581,3 +2581,7 @@ def logic_2643(world):
 def logic_2644(world):
     # diversity supports pollinator niches; limited coupling.
     _couple(world,'biodiversity','pollinators',0.65,'positive')
+
+def logic_2645(world):
+    # diversity supports pollinator niches; strong coupling.
+    _couple(world,'biodiversity','pollinators',1.35,'positive')
