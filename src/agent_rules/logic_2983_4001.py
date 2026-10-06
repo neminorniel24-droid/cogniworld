@@ -3330,3 +3330,7 @@ def logic_3824(agents, world):
 def logic_3825(agents, world):
     # surface_water -> strategy_mixing; stress coupling.
     _update(agents, 'strategy_mixing', _desired(agents, world, 'surface_water', 'strategy_mixing', 'stress'))
+
+def logic_3826(agents, world):
+    # surface_water -> strategy_mixing; recovery coupling.
+    _update(agents, 'strategy_mixing', _desired(agents, world, 'surface_water', 'strategy_mixing', 'recovery'))
