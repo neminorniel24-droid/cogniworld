@@ -402,3 +402,7 @@ def logic_3092(agents, world):
 def logic_3093(agents, world):
     # surface_water -> pathogen_risk; counterpressure coupling.
     _update(agents, 'pathogen_risk', _desired(agents, world, 'surface_water', 'pathogen_risk', 'counterpressure'))
+
+def logic_3094(agents, world):
+    # surface_water -> pathogen_risk; capacity coupling.
+    _update(agents, 'pathogen_risk', _desired(agents, world, 'surface_water', 'pathogen_risk', 'capacity'))
