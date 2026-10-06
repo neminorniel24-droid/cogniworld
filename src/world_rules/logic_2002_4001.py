@@ -3289,3 +3289,7 @@ def logic_2820(world):
 def logic_2821(world):
     # ice cover buffers temperature; reserve coupling.
     _couple(world,'surface_ice','temperature',0.9,'positive')
+
+def logic_2822(world):
+    # evaporation removes surface water; direct coupling.
+    _couple(world,'evaporation','surface_water',1.0,'positive')
