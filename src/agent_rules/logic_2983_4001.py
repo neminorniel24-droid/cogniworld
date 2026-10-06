@@ -2298,3 +2298,7 @@ def logic_3566(agents, world):
 def logic_3567(agents, world):
     # surface_water -> empathy; pulse coupling.
     _update(agents, 'empathy', _desired(agents, world, 'surface_water', 'empathy', 'pulse'))
+
+def logic_3568(agents, world):
+    # surface_water -> empathy; feedback coupling.
+    _update(agents, 'empathy', _desired(agents, world, 'surface_water', 'empathy', 'feedback'))
