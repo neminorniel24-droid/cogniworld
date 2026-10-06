@@ -656,3 +656,5 @@ def logic_646(agents,world):
     agents.strategy_confidence=_delta(agents.strategy_confidence,-0.002*agents.thermal_stress)
 def logic_647(agents,world):
     agents.caution=_delta(agents.caution,+0.002*agents.dehydration)
+def logic_648(agents,world):
+    agents.confidence=_delta(agents.confidence,-0.002*agents.pathogen_risk)
