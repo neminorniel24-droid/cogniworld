@@ -1092,3 +1092,6 @@ def test_logic_981():
 def test_logic_982():
     from agent_rules.rules import logic_982
     _check(logic_982, 'cooperation', 'payoff', 1)
+def test_logic_983():
+    from agent_rules.rules import logic_983
+    _check(logic_983, 'defection', 'fitness_score', 1)
