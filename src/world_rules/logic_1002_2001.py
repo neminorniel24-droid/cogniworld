@@ -1716,3 +1716,7 @@ def logic_1419(world):
 def logic_1420(world):
     # roots retain soil; activates above a food threshold.
     _feedback(world, 'root_density', 'soil_depth', 1, 'threshold')
+
+def logic_1421(world):
+    # roots retain soil; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'root_density', 'soil_depth', 1, 'recovery')
