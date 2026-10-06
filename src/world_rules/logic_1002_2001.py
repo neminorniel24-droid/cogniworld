@@ -2548,3 +2548,7 @@ def logic_1627(world):
 def logic_1628(world):
     # ash alters soil carbon inputs; modulated by temperature.
     _feedback(world, 'ash', 'soil_carbon', 1, 'seasonal_gate')
+
+def logic_1629(world):
+    # ash alters soil carbon inputs; saturates at high source levels.
+    _feedback(world, 'ash', 'soil_carbon', 1, 'saturation')
