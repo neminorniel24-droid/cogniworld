@@ -1049,3 +1049,7 @@ def logic_2260(world):
 def logic_2261(world):
     # algae adds organic matter; reserve coupling.
     _couple(world,'algae','organic_matter',0.9,'positive')
+
+def logic_2262(world):
+    # vegetation produces flowers; direct coupling.
+    _couple(world,'vegetation','flowers',1.0,'positive')
