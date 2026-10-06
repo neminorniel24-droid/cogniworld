@@ -3909,3 +3909,7 @@ def logic_2975(world):
 def logic_2976(world):
     # groundwater discharge sustains runoff; threshold coupling.
     _couple(world,'groundwater','runoff',1.0,'threshold')
+
+def logic_2977(world):
+    # groundwater discharge sustains runoff; pulse coupling.
+    _couple(world,'groundwater','runoff',1.0,'pulse')
