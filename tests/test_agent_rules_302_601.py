@@ -205,3 +205,8 @@ def test_logic_341():
 def test_logic_342():
  from agent_rules.rules import logic_342
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.hunger.clone();setattr(w,'nutrients',torch.ones(4,4));logic_342(a,w);assert torch.any(a.hunger!=b)
+
+
+def test_logic_343():
+ from agent_rules.rules import logic_343
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.health.clone();setattr(w,'nutrients',torch.ones(4,4));logic_343(a,w);assert torch.any(a.health!=b)
