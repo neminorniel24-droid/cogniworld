@@ -3896,3 +3896,7 @@ def logic_1964(world):
 def logic_1965(world):
     # moist soil lowers fire risk; saturates at high source levels.
     _feedback(world, 'soil_moisture', 'fire_risk', -1, 'saturation')
+
+def logic_1966(world):
+    # moist soil lowers fire risk; activates above a food threshold.
+    _feedback(world, 'soil_moisture', 'fire_risk', -1, 'threshold')
