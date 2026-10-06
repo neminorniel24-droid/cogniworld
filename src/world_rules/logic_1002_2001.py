@@ -2256,3 +2256,7 @@ def logic_1554(world):
 def logic_1555(world):
     # ash supplies mineral nutrients; stronger when vegetation is scarce.
     _feedback(world, 'ash', 'nutrients', 1, 'scarcity_gate')
+
+def logic_1556(world):
+    # ash supplies mineral nutrients; stronger when biomass is high.
+    _feedback(world, 'ash', 'nutrients', 1, 'biomass_gate')
