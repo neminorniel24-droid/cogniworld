@@ -717,3 +717,6 @@ def test_logic_856():
 def test_logic_857():
     from agent_rules.rules import logic_857
     _check(logic_857, 'reciprocity_score', 'foraging_score', 1)
+def test_logic_858():
+    from agent_rules.rules import logic_858
+    _check(logic_858, 'risk_score', 'learning_rate', 1)
