@@ -414,3 +414,6 @@ def test_logic_755():
 def test_logic_756():
     from agent_rules.rules import logic_756
     _check(logic_756, 'territoriality', 'group_stability', -1)
+def test_logic_757():
+    from agent_rules.rules import logic_757
+    _check(logic_757, 'group_stability', 'sharing_capacity', 1)

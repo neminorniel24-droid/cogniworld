@@ -874,3 +874,5 @@ def logic_755(agents,world):
     agents.defection_score=_delta(agents.defection_score,+0.002*agents.empathy)
 def logic_756(agents,world):
     agents.group_stability=_delta(agents.group_stability,-0.002*agents.territoriality)
+def logic_757(agents,world):
+    agents.sharing_capacity=_delta(agents.sharing_capacity,+0.002*agents.group_stability)
