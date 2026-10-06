@@ -2409,3 +2409,7 @@ def logic_2600(world):
 def logic_2601(world):
     # ash returns mineral nutrients; reserve coupling.
     _couple(world,'ash','nutrients',0.9,'positive')
+
+def logic_2602(world):
+    # fire raises habitat stress; direct coupling.
+    _couple(world,'fire_risk','habitat_stress',1.0,'positive')
