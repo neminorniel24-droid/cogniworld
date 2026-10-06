@@ -540,3 +540,6 @@ def test_logic_797():
 def test_logic_798():
     from agent_rules.rules import logic_798
     _check(logic_798, 'sharing_capacity', 'competition_score', 1)
+def test_logic_799():
+    from agent_rules.rules import logic_799
+    _check(logic_799, 'help_drive', 'defection_score', 1)
