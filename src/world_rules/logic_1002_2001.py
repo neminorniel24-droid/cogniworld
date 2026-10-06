@@ -2136,3 +2136,7 @@ def logic_1524(world):
 def logic_1525(world):
     # decomposition releases nutrients; stronger under fire pressure.
     _feedback(world, 'decomposition_rate', 'nutrients', 1, 'fire_gate')
+
+def logic_1526(world):
+    # decomposition releases nutrients; stronger when surface water is high.
+    _feedback(world, 'decomposition_rate', 'nutrients', 1, 'water_gate')
