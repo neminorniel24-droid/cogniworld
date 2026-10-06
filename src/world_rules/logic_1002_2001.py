@@ -4012,3 +4012,7 @@ def logic_1993(world):
 def logic_1994(world):
     # deadwood fuels fire risk; activates above a food threshold.
     _feedback(world, 'deadwood', 'fire_risk', 1, 'threshold')
+
+def logic_1995(world):
+    # deadwood fuels fire risk; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'deadwood', 'fire_risk', 1, 'recovery')
