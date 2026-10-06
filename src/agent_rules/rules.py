@@ -960,3 +960,5 @@ def logic_798(agents,world):
     agents.competition_score=_delta(agents.competition_score,+0.002*agents.sharing_capacity)
 def logic_799(agents,world):
     agents.defection_score=_delta(agents.defection_score,+0.002*agents.help_drive)
+def logic_800(agents,world):
+    agents.reciprocity_score=_delta(agents.reciprocity_score,+0.002*agents.social_avoidance)

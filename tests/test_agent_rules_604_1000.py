@@ -543,3 +543,6 @@ def test_logic_798():
 def test_logic_799():
     from agent_rules.rules import logic_799
     _check(logic_799, 'help_drive', 'defection_score', 1)
+def test_logic_800():
+    from agent_rules.rules import logic_800
+    _check(logic_800, 'social_avoidance', 'reciprocity_score', 1)
