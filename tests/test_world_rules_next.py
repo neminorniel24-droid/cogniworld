@@ -321,3 +321,12 @@ def test_logic_138():
     before=w.oxygen.clone()
     apply(w)
     assert torch.all(w.oxygen < before)
+
+def test_logic_139():
+    from world_rules.logic_139_oxygen_oxidizes_methane import apply
+    w = make_world()
+    w.oxygen.fill_(1.0)
+    w.methane.fill_(1.0)
+    before=w.methane.clone()
+    apply(w)
+    assert torch.all(w.methane < before)

@@ -273,3 +273,5 @@ from .logic_137_decomposition_releases_co2 import apply as logic_137
 RULES.append(logic_137)
 from .logic_138_decomposition_consumes_oxygen import apply as logic_138
 RULES.append(logic_138)
+from .logic_139_oxygen_oxidizes_methane import apply as logic_139
+RULES.append(logic_139)
