@@ -1329,3 +1329,8 @@ def test_logic_294():
     from world_rules.logic_294_snowpack_reduces_pathogen_pressure import apply
     w = make_world()
     w.pathogen_load.fill_(1.0); w.snowpack.fill_(1.0); apply(w); assert torch.allclose(w.pathogen_load, torch.full_like(w.pathogen_load, 0.999))
+
+def test_logic_295():
+    from world_rules.logic_295_warm_rain_reduces_surface_ice import apply
+    w = make_world()
+    w.surface_ice.fill_(1.0); w.rain.fill_(1.0); w.temperature.fill_(1.0); apply(w); assert torch.allclose(w.surface_ice, torch.full_like(w.surface_ice, 0.98))

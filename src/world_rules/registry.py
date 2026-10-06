@@ -585,3 +585,5 @@ from .logic_293_groundwater_reduces_habitat_stress import apply as logic_293
 RULES.append(logic_293)
 from .logic_294_snowpack_reduces_pathogen_pressure import apply as logic_294
 RULES.append(logic_294)
+from .logic_295_warm_rain_reduces_surface_ice import apply as logic_295
+RULES.append(logic_295)
