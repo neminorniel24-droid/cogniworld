@@ -873,3 +873,7 @@ def logic_2216(world):
 def logic_2217(world):
     # deadwood feeds organic matter; pulse coupling.
     _couple(world,'deadwood','organic_matter',1.0,'pulse')
+
+def logic_2218(world):
+    # deadwood feeds organic matter; feedback coupling.
+    _couple(world,'deadwood','organic_matter',0.8,'positive')
