@@ -2603,3 +2603,6 @@ RULES.append(logic_2001)
 
 from .logic_2002_4001 import logic_2002
 RULES.append(logic_2002)
+
+from .logic_2002_4001 import logic_2003
+RULES.append(logic_2003)

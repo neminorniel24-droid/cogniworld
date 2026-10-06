@@ -13,3 +13,7 @@ def _couple(world,source,target,gain=1.0,mode="positive"):
 def logic_2002(world):
     # rainfall replenishes accessible water; direct coupling.
     _couple(world,'rain','surface_water',1.0,'positive')
+
+def logic_2003(world):
+    # rainfall replenishes accessible water; inverse coupling.
+    _couple(world,'rain','surface_water',1.0,'negative')
