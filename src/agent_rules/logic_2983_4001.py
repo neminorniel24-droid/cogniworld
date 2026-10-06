@@ -1026,3 +1026,7 @@ def logic_3248(agents, world):
 def logic_3249(agents, world):
     # surface_water -> stability; reserve coupling.
     _update(agents, 'stability', _desired(agents, world, 'surface_water', 'stability', 'reserve'))
+
+def logic_3250(agents, world):
+    # surface_water -> stability; scarcity coupling.
+    _update(agents, 'stability', _desired(agents, world, 'surface_water', 'stability', 'scarcity'))
