@@ -488,3 +488,7 @@ def logic_1112(world):
 def logic_1113(world):
     # surface water supports algae; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'surface_water', 'algae', 1, 'recovery')
+
+def logic_1114(world):
+    # groundwater buffers soil moisture; direct.
+    _feedback(world, 'groundwater', 'soil_moisture', 1, 'baseline')
