@@ -2729,3 +2729,7 @@ def logic_2680(world):
 def logic_2681(world):
     # seed reserves support diversity; reserve coupling.
     _couple(world,'seed_bank','biodiversity',0.9,'positive')
+
+def logic_2682(world):
+    # biomass mortality feeds detritus; direct coupling.
+    _couple(world,'biomass','detritus',1.0,'positive')
