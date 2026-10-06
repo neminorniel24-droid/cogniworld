@@ -3268,3 +3268,7 @@ def logic_1807(world):
 def logic_1808(world):
     # pathogens reduce biodiversity; stronger when biomass is high.
     _feedback(world, 'pathogen_load', 'biodiversity', -1, 'biomass_gate')
+
+def logic_1809(world):
+    # pathogens reduce biodiversity; stronger under habitat stress.
+    _feedback(world, 'pathogen_load', 'biodiversity', -1, 'stress_gate')
