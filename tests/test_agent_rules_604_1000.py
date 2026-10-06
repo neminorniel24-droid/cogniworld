@@ -645,3 +645,6 @@ def test_logic_832():
 def test_logic_833():
     from agent_rules.rules import logic_833
     _check(logic_833, 'last_interaction', 'caution', 1)
+def test_logic_834():
+    from agent_rules.rules import logic_834
+    _check(logic_834, 'strategy_score', 'payoff', 1)
