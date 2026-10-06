@@ -38,3 +38,7 @@ def logic_2988(world):
 def logic_2989(world):
     # organic matter supports soil carbon.
     _apply(world, 'organic_matter', 'soil_carbon', 1.0)
+
+def logic_2990(world):
+    # decomposition releases nutrients.
+    _apply(world, 'decomposition_rate', 'nutrients', 1.0)
