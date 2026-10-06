@@ -357,3 +357,5 @@ from .logic_179_runoff_removes_carbon import apply as logic_179
 RULES.append(logic_179)
 from .logic_180_deep_soil_preserves_carbon import apply as logic_180
 RULES.append(logic_180)
+from .logic_181_wetlands_store_carbon import apply as logic_181
+RULES.append(logic_181)

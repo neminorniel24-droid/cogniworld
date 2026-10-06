@@ -684,3 +684,11 @@ def test_logic_180():
     w.carbon_storage.zero_()
     apply(w)
     assert torch.allclose(w.carbon_storage, torch.full_like(w.carbon_storage, 0.004))
+
+def test_logic_181():
+    from world_rules.logic_181_wetlands_store_carbon import apply
+    w = make_world()
+    w.wetland.fill_(1.0)
+    w.carbon_storage.zero_()
+    apply(w)
+    assert torch.allclose(w.carbon_storage, torch.full_like(w.carbon_storage, 0.006))
