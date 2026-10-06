@@ -1962,3 +1962,7 @@ def logic_3482(agents, world):
 def logic_3483(agents, world):
     # surface_water -> gratitude; pulse coupling.
     _update(agents, 'gratitude', _desired(agents, world, 'surface_water', 'gratitude', 'pulse'))
+
+def logic_3484(agents, world):
+    # surface_water -> gratitude; feedback coupling.
+    _update(agents, 'gratitude', _desired(agents, world, 'surface_water', 'gratitude', 'feedback'))
