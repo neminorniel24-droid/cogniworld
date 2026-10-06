@@ -3374,3 +3374,7 @@ def logic_3835(agents, world):
 def logic_3836(agents, world):
     # surface_water -> learning_rate; capacity coupling.
     _update(agents, 'learning_rate', _desired(agents, world, 'surface_water', 'learning_rate', 'capacity'))
+
+def logic_3837(agents, world):
+    # surface_water -> learning_rate; reserve coupling.
+    _update(agents, 'learning_rate', _desired(agents, world, 'surface_water', 'learning_rate', 'reserve'))
