@@ -1853,3 +1853,7 @@ def logic_2461(world):
 def logic_2462(world):
     # vegetation stores carbon; direct coupling.
     _couple(world,'vegetation','carbon_storage',1.0,'positive')
+
+def logic_2463(world):
+    # vegetation stores carbon; inverse coupling.
+    _couple(world,'vegetation','carbon_storage',1.0,'negative')
