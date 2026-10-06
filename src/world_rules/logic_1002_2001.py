@@ -1100,3 +1100,7 @@ def logic_1265(world):
 def logic_1266(world):
     # warmth melts ice; activates above a food threshold.
     _feedback(world, 'temperature', 'ice', -1, 'threshold')
+
+def logic_1267(world):
+    # warmth melts ice; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'temperature', 'ice', -1, 'recovery')
