@@ -20,3 +20,5 @@ def test_cooperation_in_ledger():
     assert "cooperation" in _event()
 def test_defection_in_ledger():
     assert "defection" in _event()
+def test_attack_success_in_ledger():
+    assert "attack_success" in _event()
