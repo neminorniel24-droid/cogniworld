@@ -992,3 +992,5 @@ def logic_814(agents,world):
     agents.strategy_mixing=_delta(agents.strategy_mixing,+0.002*agents.last_interaction)
 def logic_815(agents,world):
     agents.future_payoff_weight=_delta(agents.future_payoff_weight,+0.002*agents.strategy_score)
+def logic_816(agents,world):
+    agents.strategy_confidence=_delta(agents.strategy_confidence,+0.002*agents.cooperation_score)
