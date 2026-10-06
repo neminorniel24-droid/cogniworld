@@ -1941,3 +1941,7 @@ def logic_2483(world):
 def logic_2484(world):
     # snowmelt supplies surface water; limited coupling.
     _couple(world,'snowpack','surface_water',0.65,'positive')
+
+def logic_2485(world):
+    # snowmelt supplies surface water; strong coupling.
+    _couple(world,'snowpack','surface_water',1.35,'positive')
