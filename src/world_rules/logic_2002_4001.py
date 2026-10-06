@@ -2113,3 +2113,7 @@ def logic_2526(world):
 def logic_2527(world):
     # wetlands retain surface water; pulse coupling.
     _couple(world,'wetland','surface_water',1.0,'pulse')
+
+def logic_2528(world):
+    # wetlands retain surface water; feedback coupling.
+    _couple(world,'wetland','surface_water',0.8,'positive')
