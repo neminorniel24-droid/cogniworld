@@ -3420,3 +3420,7 @@ def logic_1845(world):
 def logic_1846(world):
     # habitat stress erodes diversity; stronger when temperature is low.
     _feedback(world, 'habitat_stress', 'biodiversity', -1, 'cold_gate')
+
+def logic_1847(world):
+    # habitat stress erodes diversity; stronger under fire pressure.
+    _feedback(world, 'habitat_stress', 'biodiversity', -1, 'fire_gate')
