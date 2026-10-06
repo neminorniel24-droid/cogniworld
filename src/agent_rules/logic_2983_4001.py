@@ -1910,3 +1910,7 @@ def logic_3469(agents, world):
 def logic_3470(agents, world):
     # surface_water -> generosity; feedback coupling.
     _update(agents, 'generosity', _desired(agents, world, 'surface_water', 'generosity', 'feedback'))
+
+def logic_3471(agents, world):
+    # surface_water -> generosity; counterpressure coupling.
+    _update(agents, 'generosity', _desired(agents, world, 'surface_water', 'generosity', 'counterpressure'))
