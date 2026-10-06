@@ -239,3 +239,5 @@ from .logic_120_wetlands_store_rainfall import apply as logic_120
 RULES.append(logic_120)
 from .logic_121_waterlogging_reduces_soil_oxygen import apply as logic_121
 RULES.append(logic_121)
+from .logic_122_wind_reoxygenates_surface import apply as logic_122
+RULES.append(logic_122)

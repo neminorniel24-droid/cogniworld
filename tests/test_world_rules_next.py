@@ -175,3 +175,11 @@ def test_logic_121():
     before=w.oxygen.clone()
     apply(w)
     assert torch.all(w.oxygen < before)
+
+def test_logic_122():
+    from world_rules.logic_122_wind_reoxygenates_surface import apply
+    w = make_world()
+    w.wind_x.fill_(1.0)
+    w.oxygen.zero_()
+    apply(w)
+    assert torch.allclose(w.oxygen, torch.full_like(w.oxygen, 0.005))
