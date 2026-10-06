@@ -1626,3 +1626,7 @@ def logic_3398(agents, world):
 def logic_3399(agents, world):
     # surface_water -> group_stability; pulse coupling.
     _update(agents, 'group_stability', _desired(agents, world, 'surface_water', 'group_stability', 'pulse'))
+
+def logic_3400(agents, world):
+    # surface_water -> group_stability; feedback coupling.
+    _update(agents, 'group_stability', _desired(agents, world, 'surface_water', 'group_stability', 'feedback'))
