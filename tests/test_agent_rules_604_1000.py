@@ -24,3 +24,6 @@ def test_logic_625():
 def test_logic_626():
     from agent_rules.rules import logic_626
     _check(logic_626, 'thermal_stress', 'migration_score', 1)
+def test_logic_627():
+    from agent_rules.rules import logic_627
+    _check(logic_627, 'dehydration', 'reproduction_score', -1)
