@@ -882,3 +882,6 @@ def test_logic_911():
 def test_logic_912():
     from agent_rules.rules import logic_912
     _check(logic_912, 'help_received', 'defection_score', -1)
+def test_logic_913():
+    from agent_rules.rules import logic_913
+    _check(logic_913, 'reputation', 'risk_score', 1)
