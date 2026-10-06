@@ -3344,3 +3344,7 @@ def logic_1826(world):
 def logic_1827(world):
     # diverse communities dilute pathogens; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'biodiversity', 'pathogen_load', -1, 'recovery')
+
+def logic_1828(world):
+    # diversity buffers habitat stress; direct.
+    _feedback(world, 'biodiversity', 'habitat_stress', -1, 'baseline')
