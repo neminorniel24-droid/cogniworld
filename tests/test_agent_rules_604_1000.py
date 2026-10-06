@@ -870,3 +870,6 @@ def test_logic_907():
 def test_logic_908():
     from agent_rules.rules import logic_908
     _check(logic_908, 'resource_abundance', 'survival_score', 1)
+def test_logic_909():
+    from agent_rules.rules import logic_909
+    _check(logic_909, 'resource_scarcity', 'reproduction_score', -1)
