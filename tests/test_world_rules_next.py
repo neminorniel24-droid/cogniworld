@@ -228,3 +228,12 @@ def test_logic_127():
     before=w.vegetation.clone()
     apply(w)
     assert torch.all(w.vegetation < before)
+
+def test_logic_128():
+    from world_rules.logic_128_co2_enrichment_grows_vegetation import apply
+    w = make_world()
+    w.co2.fill_(1.0)
+    w.photosynthesis_factor.fill_(1.0)
+    w.vegetation.zero_()
+    apply(w)
+    assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.006))
