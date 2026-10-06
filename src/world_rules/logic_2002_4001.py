@@ -629,3 +629,7 @@ def logic_2155(world):
 def logic_2156(world):
     # snowmelt feeds groundwater; threshold coupling.
     _couple(world,'snowpack','groundwater',1.0,'threshold')
+
+def logic_2157(world):
+    # snowmelt feeds groundwater; pulse coupling.
+    _couple(world,'snowpack','groundwater',1.0,'pulse')
