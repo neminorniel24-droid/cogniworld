@@ -364,3 +364,7 @@ def logic_1081(world):
 def logic_1082(world):
     # open water raises local humidity; modulated by temperature.
     _feedback(world, 'surface_water', 'humidity', 1, 'seasonal_gate')
+
+def logic_1083(world):
+    # open water raises local humidity; saturates at high source levels.
+    _feedback(world, 'surface_water', 'humidity', 1, 'saturation')
