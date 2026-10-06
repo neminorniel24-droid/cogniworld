@@ -188,3 +188,5 @@ def logic_393(agents,world):
  v=_local(world,agents,'seed_bank');agents.food_access=_delta(agents.food_access,v*0.001)
 def logic_394(agents,world):
  v=_local(world,agents,'seed_bank');agents.hunger=_delta(agents.hunger,v*0.001)
+def logic_395(agents,world):
+ v=_local(world,agents,'seed_bank');agents.exploration_drive=_delta(agents.exploration_drive,v*0.001)
