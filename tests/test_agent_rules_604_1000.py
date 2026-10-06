@@ -681,3 +681,6 @@ def test_logic_844():
 def test_logic_845():
     from agent_rules.rules import logic_845
     _check(logic_845, 'help_score', 'memory_update', 1)
+def test_logic_846():
+    from agent_rules.rules import logic_846
+    _check(logic_846, 'attack_success', 'strategy_persistence', 1)
