@@ -3614,3 +3614,7 @@ def logic_3895(agents, world):
 def logic_3896(agents, world):
     # surface_water -> payoff; recovery coupling.
     _update(agents, 'payoff', _desired(agents, world, 'surface_water', 'payoff', 'recovery'))
+
+def logic_3897(agents, world):
+    # surface_water -> payoff; persistence coupling.
+    _update(agents, 'payoff', _desired(agents, world, 'surface_water', 'payoff', 'persistence'))
