@@ -916,3 +916,5 @@ def logic_776(agents,world):
     agents.social_avoidance=_delta(agents.social_avoidance,+0.002*agents.territoriality)
 def logic_777(agents,world):
     agents.selfishness=_delta(agents.selfishness,+0.002*agents.group_stability)
+def logic_778(agents,world):
+    agents.generosity=_delta(agents.generosity,+0.002*agents.sharing_capacity)
