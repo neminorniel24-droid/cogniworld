@@ -2168,3 +2168,7 @@ def logic_1532(world):
 def logic_1533(world):
     # decomposition releases nutrients; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'decomposition_rate', 'nutrients', 1, 'recovery')
+
+def logic_1534(world):
+    # deadwood feeds organic matter; direct.
+    _feedback(world, 'deadwood', 'organic_matter', 1, 'baseline')
