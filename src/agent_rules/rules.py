@@ -110,3 +110,5 @@ def logic_354(agents,world):
  v=_local(world,agents,'habitat_stress');agents.health=_delta(agents.health,v*0.001)
 def logic_355(agents,world):
  v=_local(world,agents,'habitat_stress');agents.fear=_delta(agents.fear,v*0.001)
+def logic_356(agents,world):
+ v=_local(world,agents,'habitat_stress');agents.migration_drive=_delta(agents.migration_drive,v*0.001)
