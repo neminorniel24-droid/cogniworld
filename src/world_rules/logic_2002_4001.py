@@ -1373,3 +1373,7 @@ def logic_2341(world):
 def logic_2342(world):
     # roots improve soil water retention; direct coupling.
     _couple(world,'root_density','soil_moisture',1.0,'positive')
+
+def logic_2343(world):
+    # roots improve soil water retention; inverse coupling.
+    _couple(world,'root_density','soil_moisture',1.0,'negative')
