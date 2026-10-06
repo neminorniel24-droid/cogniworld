@@ -566,3 +566,7 @@ def logic_3133(agents, world):
 def logic_3134(agents, world):
     # surface_water -> fear; feedback coupling.
     _update(agents, 'fear', _desired(agents, world, 'surface_water', 'fear', 'feedback'))
+
+def logic_3135(agents, world):
+    # surface_water -> fear; counterpressure coupling.
+    _update(agents, 'fear', _desired(agents, world, 'surface_water', 'fear', 'counterpressure'))
