@@ -2488,3 +2488,7 @@ def logic_1612(world):
 def logic_1613(world):
     # fire releases stored carbon; stronger under habitat stress.
     _feedback(world, 'fire_risk', 'carbon_storage', -1, 'stress_gate')
+
+def logic_1614(world):
+    # fire releases stored carbon; modulated by temperature.
+    _feedback(world, 'fire_risk', 'carbon_storage', -1, 'seasonal_gate')
