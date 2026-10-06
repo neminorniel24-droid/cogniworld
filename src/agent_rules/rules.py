@@ -1354,3 +1354,5 @@ def logic_995(agents,world):
     agents.help_score=_delta(agents.help_score,+0.002*agents.future_payoff_weight)
 def logic_996(agents,world):
     agents.sharing_score=_delta(agents.sharing_score,+0.002*agents.self_preservation)
+def logic_997(agents,world):
+    agents.attack_success=_delta(agents.attack_success,+0.002*agents.last_reward)

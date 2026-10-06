@@ -1134,3 +1134,6 @@ def test_logic_995():
 def test_logic_996():
     from agent_rules.rules import logic_996
     _check(logic_996, 'self_preservation', 'sharing_score', 1)
+def test_logic_997():
+    from agent_rules.rules import logic_997
+    _check(logic_997, 'last_reward', 'attack_success', 1)
