@@ -2512,3 +2512,7 @@ def logic_1618(world):
 def logic_1619(world):
     # ash alters soil carbon inputs; stronger when soil is dry.
     _feedback(world, 'ash', 'soil_carbon', 1, 'dry_gate')
+
+def logic_1620(world):
+    # ash alters soil carbon inputs; stronger when soil is wet.
+    _feedback(world, 'ash', 'soil_carbon', 1, 'wet_gate')
