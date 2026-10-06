@@ -1488,3 +1488,7 @@ def logic_1362(world):
 def logic_1363(world):
     # sediment export reduces soil depth; saturates at high source levels.
     _feedback(world, 'sediment', 'soil_depth', -1, 'saturation')
+
+def logic_1364(world):
+    # sediment export reduces soil depth; activates above a food threshold.
+    _feedback(world, 'sediment', 'soil_depth', -1, 'threshold')
