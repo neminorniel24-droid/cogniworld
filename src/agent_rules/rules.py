@@ -316,3 +316,5 @@ def logic_457(agents,world):
  v=torch.clamp(agents.cooperation_history,0,2);agents.aggression=_delta(agents.aggression,v*0.001)
 def logic_458(agents,world):
  v=torch.clamp(agents.cooperation_history,0,2);agents.migration_drive=_delta(agents.migration_drive,v*0.001)
+def logic_459(agents,world):
+ v=torch.clamp(agents.cooperation_history,0,2);agents.help_drive=_delta(agents.help_drive,v*0.001)
