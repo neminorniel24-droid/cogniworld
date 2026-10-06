@@ -1148,3 +1148,7 @@ def logic_1277(world):
 def logic_1278(world):
     # warmth melts surface ice; modulated by temperature.
     _feedback(world, 'temperature', 'surface_ice', -1, 'seasonal_gate')
+
+def logic_1279(world):
+    # warmth melts surface ice; saturates at high source levels.
+    _feedback(world, 'temperature', 'surface_ice', -1, 'saturation')
