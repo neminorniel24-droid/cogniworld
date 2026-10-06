@@ -81,3 +81,6 @@ def test_logic_644():
 def test_logic_645():
     from agent_rules.rules import logic_645
     _check(logic_645, 'hunger', 'strategy_score', 1)
+def test_logic_646():
+    from agent_rules.rules import logic_646
+    _check(logic_646, 'thermal_stress', 'strategy_confidence', -1)
