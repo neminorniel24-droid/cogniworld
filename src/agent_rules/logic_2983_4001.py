@@ -3738,3 +3738,7 @@ def logic_3926(agents, world):
 def logic_3927(agents, world):
     # groundwater -> hunger; inverse coupling.
     _update(agents, 'hunger', _desired(agents, world, 'groundwater', 'hunger', 'inverse'))
+
+def logic_3928(agents, world):
+    # groundwater -> hunger; threshold coupling.
+    _update(agents, 'hunger', _desired(agents, world, 'groundwater', 'hunger', 'threshold'))
