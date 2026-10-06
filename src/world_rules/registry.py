@@ -517,3 +517,5 @@ from .logic_259_salinity_reduces_biomass import apply as logic_259
 RULES.append(logic_259)
 from .logic_260_algae_increases_surface_humidity import apply as logic_260
 RULES.append(logic_260)
+from .logic_261_wetland_moisture_supports_algae import apply as logic_261
+RULES.append(logic_261)

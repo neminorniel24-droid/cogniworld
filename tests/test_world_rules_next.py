@@ -1159,3 +1159,8 @@ def test_logic_260():
     from world_rules.logic_260_algae_increases_surface_humidity import apply
     w = make_world()
     w.humidity.zero_(); w.algae.fill_(1.0); apply(w); assert torch.allclose(w.humidity, torch.full_like(w.humidity, 0.004))
+
+def test_logic_261():
+    from world_rules.logic_261_wetland_moisture_supports_algae import apply
+    w = make_world()
+    w.algae.zero_(); w.wetland.fill_(1.0); w.soil_moisture.fill_(1.0); apply(w); assert torch.allclose(w.algae, torch.full_like(w.algae, 0.008))
