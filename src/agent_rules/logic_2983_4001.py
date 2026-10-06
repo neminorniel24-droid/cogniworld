@@ -966,3 +966,7 @@ def logic_3233(agents, world):
 def logic_3234(agents, world):
     # surface_water -> wealth; capacity coupling.
     _update(agents, 'wealth', _desired(agents, world, 'surface_water', 'wealth', 'capacity'))
+
+def logic_3235(agents, world):
+    # surface_water -> wealth; reserve coupling.
+    _update(agents, 'wealth', _desired(agents, world, 'surface_water', 'wealth', 'reserve'))
