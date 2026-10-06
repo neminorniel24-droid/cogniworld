@@ -270,3 +270,6 @@ def test_logic_707():
 def test_logic_708():
     from agent_rules.rules import logic_708
     _check(logic_708, 'pathogen_risk', 'survival_score', -1)
+def test_logic_709():
+    from agent_rules.rules import logic_709
+    _check(logic_709, 'infection_risk', 'foraging_score', 1)
