@@ -667,3 +667,12 @@ def test_logic_178():
     before=w.nutrients.clone()
     apply(w)
     assert torch.all(w.nutrients < before)
+
+def test_logic_179():
+    from world_rules.logic_179_runoff_removes_carbon import apply
+    w = make_world()
+    w.runoff.fill_(1.0)
+    w.carbon_storage.fill_(1.0)
+    before=w.carbon_storage.clone()
+    apply(w)
+    assert torch.all(w.carbon_storage < before)

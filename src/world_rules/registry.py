@@ -353,3 +353,5 @@ from .logic_177_ash_fertilizes_vegetation import apply as logic_177
 RULES.append(logic_177)
 from .logic_178_erosion_removes_nutrients import apply as logic_178
 RULES.append(logic_178)
+from .logic_179_runoff_removes_carbon import apply as logic_179
+RULES.append(logic_179)
