@@ -359,3 +359,5 @@ from .logic_180_deep_soil_preserves_carbon import apply as logic_180
 RULES.append(logic_180)
 from .logic_181_wetlands_store_carbon import apply as logic_181
 RULES.append(logic_181)
+from .logic_182_drought_reduces_biomass import apply as logic_182
+RULES.append(logic_182)

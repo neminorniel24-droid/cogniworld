@@ -692,3 +692,12 @@ def test_logic_181():
     w.carbon_storage.zero_()
     apply(w)
     assert torch.allclose(w.carbon_storage, torch.full_like(w.carbon_storage, 0.006))
+
+def test_logic_182():
+    from world_rules.logic_182_drought_reduces_biomass import apply
+    w = make_world()
+    w.soil_moisture.zero_()
+    w.biomass.fill_(1.0)
+    before=w.biomass.clone()
+    apply(w)
+    assert torch.all(w.biomass < before)
