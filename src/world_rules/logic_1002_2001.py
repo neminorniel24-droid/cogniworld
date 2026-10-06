@@ -2888,3 +2888,7 @@ def logic_1712(world):
 def logic_1713(world):
     # herbivory consumes vegetation; saturates at high source levels.
     _feedback(world, 'herbivore', 'vegetation', -1, 'saturation')
+
+def logic_1714(world):
+    # herbivory consumes vegetation; activates above a food threshold.
+    _feedback(world, 'herbivore', 'vegetation', -1, 'threshold')
