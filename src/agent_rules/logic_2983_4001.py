@@ -3238,3 +3238,7 @@ def logic_3801(agents, world):
 def logic_3802(agents, world):
     # surface_water -> strategy_persistence; threshold coupling.
     _update(agents, 'strategy_persistence', _desired(agents, world, 'surface_water', 'strategy_persistence', 'threshold'))
+
+def logic_3803(agents, world):
+    # surface_water -> strategy_persistence; strong coupling.
+    _update(agents, 'strategy_persistence', _desired(agents, world, 'surface_water', 'strategy_persistence', 'strong'))
