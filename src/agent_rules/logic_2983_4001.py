@@ -2626,3 +2626,7 @@ def logic_3648(agents, world):
 def logic_3649(agents, world):
     # surface_water -> reciprocity_score; strong coupling.
     _update(agents, 'reciprocity_score', _desired(agents, world, 'surface_water', 'reciprocity_score', 'strong'))
+
+def logic_3650(agents, world):
+    # surface_water -> reciprocity_score; limited coupling.
+    _update(agents, 'reciprocity_score', _desired(agents, world, 'surface_water', 'reciprocity_score', 'limited'))
