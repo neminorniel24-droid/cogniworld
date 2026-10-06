@@ -968,3 +968,7 @@ def logic_1232(world):
 def logic_1233(world):
     # warmth increases evaporation; stronger when vegetation is scarce.
     _feedback(world, 'temperature', 'evaporation', 1, 'scarcity_gate')
+
+def logic_1234(world):
+    # warmth increases evaporation; stronger when biomass is high.
+    _feedback(world, 'temperature', 'evaporation', 1, 'biomass_gate')
