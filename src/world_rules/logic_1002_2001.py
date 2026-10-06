@@ -920,3 +920,7 @@ def logic_1220(world):
 def logic_1221(world):
     # cloud cover reduces heating; stronger under habitat stress.
     _feedback(world, 'cloud', 'temperature', -1, 'stress_gate')
+
+def logic_1222(world):
+    # cloud cover reduces heating; modulated by temperature.
+    _feedback(world, 'cloud', 'temperature', -1, 'seasonal_gate')
