@@ -1292,3 +1292,5 @@ def logic_964(agents,world):
     agents.foraging_score=_delta(agents.foraging_score,+0.002*agents.fitness_score)
 def logic_965(agents,world):
     agents.help_score=_delta(agents.help_score,+0.002*agents.strategy_score)
+def logic_966(agents,world):
+    agents.sharing_score=_delta(agents.sharing_score,+0.002*agents.cooperation_score)
