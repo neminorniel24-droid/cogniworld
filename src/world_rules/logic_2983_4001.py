@@ -14,3 +14,7 @@ def _apply(world, source_name, target_name, sign=1.0):
 def logic_2983(world):
     # rainfall sustains surface water.
     _apply(world, 'rain', 'surface_water', 1.0)
+
+def logic_2984(world):
+    # groundwater discharge sustains surface water.
+    _apply(world, 'groundwater', 'surface_water', 1.0)
