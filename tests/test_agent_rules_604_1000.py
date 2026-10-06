@@ -954,3 +954,6 @@ def test_logic_935():
 def test_logic_936():
     from agent_rules.rules import logic_936
     _check(logic_936, 'wealth', 'defection_score', 1)
+def test_logic_937():
+    from agent_rules.rules import logic_937
+    _check(logic_937, 'energy_surplus', 'reciprocity_score', 1)

@@ -1234,3 +1234,5 @@ def logic_935(agents,world):
     agents.help_score=_delta(agents.help_score,+0.002*agents.foraging_score)
 def logic_936(agents,world):
     agents.defection_score=_delta(agents.defection_score,+0.002*agents.wealth)
+def logic_937(agents,world):
+    agents.reciprocity_score=_delta(agents.reciprocity_score,+0.002*agents.energy_surplus)
