@@ -425,3 +425,12 @@ def test_logic_150():
     before=w.biodiversity.clone()
     apply(w)
     assert torch.all(w.biodiversity < before)
+
+def test_logic_151():
+    from world_rules.logic_151_biodiversity_suppresses_pathogens import apply
+    w = make_world()
+    w.biodiversity.fill_(1.0)
+    w.pathogen_load.fill_(1.0)
+    before=w.pathogen_load.clone()
+    apply(w)
+    assert torch.all(w.pathogen_load < before)
