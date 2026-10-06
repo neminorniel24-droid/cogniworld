@@ -395,3 +395,8 @@ def test_logic_379():
 def test_logic_380():
  from agent_rules.rules import logic_380
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.thermal_stress.clone();setattr(w,'surface_ice',torch.ones(4,4));logic_380(a,w);assert torch.any(a.thermal_stress!=b)
+
+
+def test_logic_381():
+ from agent_rules.rules import logic_381
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.hunger.clone();setattr(w,'organic_matter',torch.ones(4,4));logic_381(a,w);assert torch.any(a.hunger!=b)
