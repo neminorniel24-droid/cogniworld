@@ -106,6 +106,7 @@ class Agents:
         self.last_interaction = torch.ones(n_agents, device=device) if 'last_interaction' in ('hydration','health','stability','social_tolerance','attack_threshold','defection_threshold') else torch.zeros(n_agents, device=device)
         self.risk_tolerance = torch.full((n_agents,),0.5,device=device)
         self.last_action = torch.zeros(n_agents,dtype=torch.int64,device=device)
+        self.last_strategy_action = torch.zeros(n_agents,dtype=torch.int64,device=device)
         self.strategy_score=torch.zeros(n_agents,device=device)
         self.cooperation_score=torch.zeros(n_agents,device=device)
         self.competition_score=torch.zeros(n_agents,device=device)
@@ -143,8 +144,8 @@ class Agents:
         health_sum = torch.zeros(cells, dtype=torch.float32, device=self.device)
         ones = torch.ones(self.n, dtype=torch.float32, device=self.device)
         counts.scatter_add_(0, flat, ones)
-        energy_sum.scatter_add_(0, flat, self.energy)
-        health_sum.scatter_add_(0, flat, self.health)
+        energy_sum.scatter_add_(0, flat, self.energy.to(torch.float32))
+        health_sum.scatter_add_(0, flat, self.health.to(torch.float32))
         local_count = counts[flat].clamp(min=1.0)
         local_energy = energy_sum[flat] / local_count
         local_health = health_sum[flat] / local_count
