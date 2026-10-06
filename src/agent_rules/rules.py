@@ -104,3 +104,5 @@ def logic_351(agents,world):
  v=_local(world,agents,'biodiversity');agents.health=_delta(agents.health,v*0.001)
 def logic_352(agents,world):
  v=_local(world,agents,'biodiversity');agents.habitat_stress=_delta(agents.habitat_stress,v*0.001)
+def logic_353(agents,world):
+ v=_local(world,agents,'biodiversity');agents.fear=_delta(agents.fear,v*0.001)
