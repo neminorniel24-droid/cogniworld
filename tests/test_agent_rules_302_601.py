@@ -920,3 +920,8 @@ def test_logic_484():
 def test_logic_485():
  from agent_rules.rules import logic_485
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.defection_threshold.clone();a.local_density.fill_(1);logic_485(a,w);assert torch.any(a.defection_threshold!=b)
+
+
+def test_logic_486():
+ from agent_rules.rules import logic_486
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.exploration_drive.clone();a.local_density.fill_(1);logic_486(a,w);assert torch.any(a.exploration_drive!=b)

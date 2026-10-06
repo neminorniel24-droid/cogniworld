@@ -370,3 +370,5 @@ def logic_484(agents,world):
  v=torch.clamp(agents.local_density,0,2);agents.attack_threshold=_delta(agents.attack_threshold,v*0.001)
 def logic_485(agents,world):
  v=torch.clamp(agents.local_density,0,2);agents.defection_threshold=_delta(agents.defection_threshold,v*0.001)
+def logic_486(agents,world):
+ v=torch.clamp(agents.local_density,0,2);agents.exploration_drive=_delta(agents.exploration_drive,v*0.001)
