@@ -2130,3 +2130,7 @@ def logic_3524(agents, world):
 def logic_3525(agents, world):
     # surface_water -> strategy_confidence; pulse coupling.
     _update(agents, 'strategy_confidence', _desired(agents, world, 'surface_water', 'strategy_confidence', 'pulse'))
+
+def logic_3526(agents, world):
+    # surface_water -> strategy_confidence; feedback coupling.
+    _update(agents, 'strategy_confidence', _desired(agents, world, 'surface_water', 'strategy_confidence', 'feedback'))
