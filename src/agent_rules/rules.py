@@ -1210,3 +1210,5 @@ def logic_923(agents,world):
     agents.strategy_mixing=_delta(agents.strategy_mixing,+0.002*agents.reproduction_score)
 def logic_924(agents,world):
     agents.learning_rate=_delta(agents.learning_rate,+0.002*agents.strategy_persistence)
+def logic_925(agents,world):
+    agents.memory_update=_delta(agents.memory_update,+0.002*agents.strategy_confidence)
