@@ -1894,3 +1894,7 @@ def logic_3465(agents, world):
 def logic_3466(agents, world):
     # surface_water -> generosity; threshold coupling.
     _update(agents, 'generosity', _desired(agents, world, 'surface_water', 'generosity', 'threshold'))
+
+def logic_3467(agents, world):
+    # surface_water -> generosity; strong coupling.
+    _update(agents, 'generosity', _desired(agents, world, 'surface_water', 'generosity', 'strong'))
