@@ -1020,3 +1020,5 @@ def logic_828(agents,world):
     agents.exploration_score=_delta(agents.exploration_score,+0.002*agents.retaliation_risk)
 def logic_829(agents,world):
     agents.foraging_score=_delta(agents.foraging_score,+0.002*agents.defense_score)
+def logic_830(agents,world):
+    agents.strategy_confidence=_delta(agents.strategy_confidence,+0.002*agents.last_reward)
