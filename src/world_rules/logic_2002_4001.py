@@ -2833,3 +2833,7 @@ def logic_2706(world):
 def logic_2707(world):
     # decomposition returns CO2; pulse coupling.
     _couple(world,'decomposition_rate','co2',1.0,'pulse')
+
+def logic_2708(world):
+    # decomposition returns CO2; feedback coupling.
+    _couple(world,'decomposition_rate','co2',0.8,'positive')
