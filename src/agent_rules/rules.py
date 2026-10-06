@@ -940,3 +940,5 @@ def logic_788(agents,world):
     agents.cooperation=_delta(agents.cooperation,+0.002*agents.empathy)
 def logic_789(agents,world):
     agents.competition_pressure=_delta(agents.competition_pressure,-0.002*agents.reputation)
+def logic_790(agents,world):
+    agents.group_stability=_delta(agents.group_stability,+0.002*agents.trust)
