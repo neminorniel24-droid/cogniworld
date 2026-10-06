@@ -3274,3 +3274,7 @@ def logic_3810(agents, world):
 def logic_3811(agents, world):
     # surface_water -> strategy_persistence; stress coupling.
     _update(agents, 'strategy_persistence', _desired(agents, world, 'surface_water', 'strategy_persistence', 'stress'))
+
+def logic_3812(agents, world):
+    # surface_water -> strategy_persistence; recovery coupling.
+    _update(agents, 'strategy_persistence', _desired(agents, world, 'surface_water', 'strategy_persistence', 'recovery'))
