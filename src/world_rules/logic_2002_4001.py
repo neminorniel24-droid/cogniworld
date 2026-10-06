@@ -2061,3 +2061,7 @@ def logic_2513(world):
 def logic_2514(world):
     # groundwater supports wetland persistence; limited coupling.
     _couple(world,'groundwater','wetland',0.65,'positive')
+
+def logic_2515(world):
+    # groundwater supports wetland persistence; strong coupling.
+    _couple(world,'groundwater','wetland',1.35,'positive')
