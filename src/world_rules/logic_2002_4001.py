@@ -2973,3 +2973,7 @@ def logic_2741(world):
 def logic_2742(world):
     # wind alters local thermal state; direct coupling.
     _couple(world,'wind_y','temperature',1.0,'positive')
+
+def logic_2743(world):
+    # wind alters local thermal state; inverse coupling.
+    _couple(world,'wind_y','temperature',1.0,'negative')
