@@ -1496,3 +1496,7 @@ def logic_1364(world):
 def logic_1365(world):
     # sediment export reduces soil depth; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'sediment', 'soil_depth', -1, 'recovery')
+
+def logic_1366(world):
+    # erosion removes soil depth; direct.
+    _feedback(world, 'erosion', 'soil_depth', -1, 'baseline')
