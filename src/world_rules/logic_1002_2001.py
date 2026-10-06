@@ -3172,3 +3172,7 @@ def logic_1783(world):
 def logic_1784(world):
     # predator mortality contributes carrion; activates above a food threshold.
     _feedback(world, 'predator', 'carrion', 1, 'threshold')
+
+def logic_1785(world):
+    # predator mortality contributes carrion; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'predator', 'carrion', 1, 'recovery')
