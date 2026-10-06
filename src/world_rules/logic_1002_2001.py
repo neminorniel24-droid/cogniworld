@@ -1384,3 +1384,7 @@ def logic_1336(world):
 def logic_1337(world):
     # evaporation removes surface water; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'evaporation', 'surface_water', -1, 'recovery')
+
+def logic_1338(world):
+    # runoff mobilizes sediment; direct.
+    _feedback(world, 'runoff', 'sediment', 1, 'baseline')
