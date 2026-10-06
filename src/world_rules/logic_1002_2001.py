@@ -1944,3 +1944,7 @@ def logic_1476(world):
 def logic_1477(world):
     # high CO2 stress reduces photosynthetic efficiency; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'co2', 'photosynthesis_factor', -1, 'recovery')
+
+def logic_1478(world):
+    # photosynthesis builds biomass; direct.
+    _feedback(world, 'photosynthesis_factor', 'biomass', 1, 'baseline')
