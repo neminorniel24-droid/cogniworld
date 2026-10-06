@@ -1772,3 +1772,7 @@ def logic_1433(world):
 def logic_1434(world):
     # vegetation stores carbon; activates above a food threshold.
     _feedback(world, 'vegetation', 'carbon_storage', 1, 'threshold')
+
+def logic_1435(world):
+    # vegetation stores carbon; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'vegetation', 'carbon_storage', 1, 'recovery')
