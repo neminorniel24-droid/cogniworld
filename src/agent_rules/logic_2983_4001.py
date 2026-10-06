@@ -2838,3 +2838,7 @@ def logic_3701(agents, world):
 def logic_3702(agents, world):
     # surface_water -> foraging_score; direct coupling.
     _update(agents, 'foraging_score', _desired(agents, world, 'surface_water', 'foraging_score', 'direct'))
+
+def logic_3703(agents, world):
+    # surface_water -> foraging_score; inverse coupling.
+    _update(agents, 'foraging_score', _desired(agents, world, 'surface_water', 'foraging_score', 'inverse'))
