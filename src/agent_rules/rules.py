@@ -1060,3 +1060,5 @@ def logic_848(agents,world):
     agents.future_payoff_weight=_delta(agents.future_payoff_weight,+0.002*agents.defense_score)
 def logic_849(agents,world):
     agents.fitness_score=_delta(agents.fitness_score,+0.002*agents.last_reward)
+def logic_850(agents,world):
+    agents.survival_score=_delta(agents.survival_score,+0.002*agents.last_energy_delta)
