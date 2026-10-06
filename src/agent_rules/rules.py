@@ -1266,3 +1266,5 @@ def logic_951(agents,world):
     agents.memory_update=_delta(agents.memory_update,+0.002*agents.sharing_score)
 def logic_952(agents,world):
     agents.future_payoff_weight=_delta(agents.future_payoff_weight,+0.002*agents.help_score)
+def logic_953(agents,world):
+    agents.self_preservation=_delta(agents.self_preservation,+0.002*agents.attack_success)

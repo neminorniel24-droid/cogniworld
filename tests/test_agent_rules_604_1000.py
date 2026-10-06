@@ -1002,3 +1002,6 @@ def test_logic_951():
 def test_logic_952():
     from agent_rules.rules import logic_952
     _check(logic_952, 'help_score', 'future_payoff_weight', 1)
+def test_logic_953():
+    from agent_rules.rules import logic_953
+    _check(logic_953, 'attack_success', 'self_preservation', 1)
