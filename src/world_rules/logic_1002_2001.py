@@ -3264,3 +3264,7 @@ def logic_1806(world):
 def logic_1807(world):
     # pathogens reduce biodiversity; stronger when vegetation is scarce.
     _feedback(world, 'pathogen_load', 'biodiversity', -1, 'scarcity_gate')
+
+def logic_1808(world):
+    # pathogens reduce biodiversity; stronger when biomass is high.
+    _feedback(world, 'pathogen_load', 'biodiversity', -1, 'biomass_gate')
