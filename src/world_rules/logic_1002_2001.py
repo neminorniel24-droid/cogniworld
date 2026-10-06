@@ -3128,3 +3128,7 @@ def logic_1772(world):
 def logic_1773(world):
     # predator mortality contributes carrion; stronger when soil is dry.
     _feedback(world, 'predator', 'carrion', 1, 'dry_gate')
+
+def logic_1774(world):
+    # predator mortality contributes carrion; stronger when soil is wet.
+    _feedback(world, 'predator', 'carrion', 1, 'wet_gate')
