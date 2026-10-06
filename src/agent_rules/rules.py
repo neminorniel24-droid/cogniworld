@@ -770,3 +770,5 @@ def logic_703(agents,world):
     agents.conflict_pressure=_delta(agents.conflict_pressure,+0.002*agents.hydration)
 def logic_704(agents,world):
     agents.competition_pressure=_delta(agents.competition_pressure,+0.002*agents.thirst)
+def logic_705(agents,world):
+    agents.resource_competition=_delta(agents.resource_competition,+0.002*agents.hunger)
