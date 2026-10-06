@@ -375,3 +375,6 @@ def test_logic_742():
 def test_logic_743():
     from agent_rules.rules import logic_743
     _check(logic_743, 'territoriality', 'aggression', 1)
+def test_logic_744():
+    from agent_rules.rules import logic_744
+    _check(logic_744, 'group_stability', 'conflict_pressure', 1)
