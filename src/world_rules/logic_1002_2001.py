@@ -3668,3 +3668,7 @@ def logic_1907(world):
 def logic_1908(world):
     # oxygenated habitat limits pathogen persistence; modulated by temperature.
     _feedback(world, 'oxygen', 'pathogen_load', -1, 'seasonal_gate')
+
+def logic_1909(world):
+    # oxygenated habitat limits pathogen persistence; saturates at high source levels.
+    _feedback(world, 'oxygen', 'pathogen_load', -1, 'saturation')
