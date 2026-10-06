@@ -2009,3 +2009,7 @@ def logic_2500(world):
 def logic_2501(world):
     # water availability maintains soil moisture; reserve coupling.
     _couple(world,'surface_water','soil_moisture',0.9,'positive')
+
+def logic_2502(world):
+    # moist soil permits recharge; direct coupling.
+    _couple(world,'soil_moisture','groundwater',1.0,'positive')
