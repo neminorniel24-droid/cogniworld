@@ -2717,3 +2717,7 @@ def logic_2677(world):
 def logic_2678(world):
     # seed reserves support diversity; feedback coupling.
     _couple(world,'seed_bank','biodiversity',0.8,'positive')
+
+def logic_2679(world):
+    # seed reserves support diversity; counterpressure coupling.
+    _couple(world,'seed_bank','biodiversity',0.8,'negative')
