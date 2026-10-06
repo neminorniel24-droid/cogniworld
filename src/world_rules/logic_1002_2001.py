@@ -1320,3 +1320,7 @@ def logic_1320(world):
 def logic_1321(world):
     # evaporation replenishes humidity; saturates at high source levels.
     _feedback(world, 'evaporation', 'humidity', 1, 'saturation')
+
+def logic_1322(world):
+    # evaporation replenishes humidity; activates above a food threshold.
+    _feedback(world, 'evaporation', 'humidity', 1, 'threshold')
