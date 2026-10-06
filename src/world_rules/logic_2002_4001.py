@@ -1733,3 +1733,7 @@ def logic_2431(world):
 def logic_2432(world):
     # rainfall generates runoff; direct coupling.
     _couple(world,'rain','runoff',1.0,'positive')
+
+def logic_2433(world):
+    # rainfall generates runoff; inverse coupling.
+    _couple(world,'rain','runoff',1.0,'negative')
