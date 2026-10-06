@@ -2572,3 +2572,7 @@ def logic_1633(world):
 def logic_1634(world):
     # soil carbon contributes ecosystem carbon; stronger when soil is wet.
     _feedback(world, 'soil_carbon', 'carbon_storage', 1, 'wet_gate')
+
+def logic_1635(world):
+    # soil carbon contributes ecosystem carbon; stronger when temperature is high.
+    _feedback(world, 'soil_carbon', 'carbon_storage', 1, 'heat_gate')
