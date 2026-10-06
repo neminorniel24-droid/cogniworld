@@ -422,3 +422,7 @@ def logic_3097(agents, world):
 def logic_3098(agents, world):
     # surface_water -> pathogen_risk; recovery coupling.
     _update(agents, 'pathogen_risk', _desired(agents, world, 'surface_water', 'pathogen_risk', 'recovery'))
+
+def logic_3099(agents, world):
+    # surface_water -> pathogen_risk; persistence coupling.
+    _update(agents, 'pathogen_risk', _desired(agents, world, 'surface_water', 'pathogen_risk', 'persistence'))
