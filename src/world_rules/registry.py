@@ -245,3 +245,5 @@ from .logic_123_vegetation_transpiration_drains_soil import apply as logic_123
 RULES.append(logic_123)
 from .logic_124_humid_air_reduces_transpiration_loss import apply as logic_124
 RULES.append(logic_124)
+from .logic_125_cloud_cover_limits_photosynthesis import apply as logic_125
+RULES.append(logic_125)

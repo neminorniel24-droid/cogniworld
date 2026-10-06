@@ -201,3 +201,12 @@ def test_logic_124():
     w.soil_moisture.zero_()
     apply(w)
     assert torch.allclose(w.soil_moisture, torch.full_like(w.soil_moisture, 0.002))
+
+def test_logic_125():
+    from world_rules.logic_125_cloud_cover_limits_photosynthesis import apply
+    w = make_world()
+    w.cloud.fill_(1.0)
+    w.photosynthesis_factor.fill_(1.0)
+    before=w.photosynthesis_factor.clone()
+    apply(w)
+    assert torch.all(w.photosynthesis_factor < before)
