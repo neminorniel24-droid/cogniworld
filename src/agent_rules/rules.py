@@ -220,3 +220,5 @@ def logic_409(agents,world):
  v=torch.clamp(agents.hunger,0,2);agents.trust=_delta(agents.trust,v*0.001)
 def logic_410(agents,world):
  v=torch.clamp(agents.hunger,0,2);agents.reputation=_delta(agents.reputation,v*0.001)
+def logic_411(agents,world):
+ v=torch.clamp(agents.hunger,0,2);agents.selfishness=_delta(agents.selfishness,v*0.001)
