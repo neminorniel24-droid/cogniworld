@@ -3385,3 +3385,7 @@ def logic_2844(world):
 def logic_2845(world):
     # runoff returns water to surface pools; strong coupling.
     _couple(world,'runoff','surface_water',1.35,'positive')
+
+def logic_2846(world):
+    # runoff returns water to surface pools; threshold coupling.
+    _couple(world,'runoff','surface_water',1.0,'threshold')
