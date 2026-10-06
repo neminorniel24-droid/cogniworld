@@ -737,3 +737,7 @@ def logic_2182(world):
 def logic_2183(world):
     # fire increases ash; inverse coupling.
     _couple(world,'fire_risk','ash',1.0,'negative')
+
+def logic_2184(world):
+    # fire increases ash; limited coupling.
+    _couple(world,'fire_risk','ash',0.65,'positive')
