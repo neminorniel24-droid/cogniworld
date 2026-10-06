@@ -3184,3 +3184,7 @@ def logic_1786(world):
 def logic_1787(world):
     # carrion feeds decomposers; stronger when soil is dry.
     _feedback(world, 'carrion', 'organic_matter', 1, 'dry_gate')
+
+def logic_1788(world):
+    # carrion feeds decomposers; stronger when soil is wet.
+    _feedback(world, 'carrion', 'organic_matter', 1, 'wet_gate')
