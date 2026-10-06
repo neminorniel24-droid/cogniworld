@@ -565,3 +565,7 @@ def logic_2139(world):
 def logic_2140(world):
     # groundwater sustains surface water; capacity coupling.
     _couple(world,'groundwater','surface_water',0.5,'positive')
+
+def logic_2141(world):
+    # groundwater sustains surface water; reserve coupling.
+    _couple(world,'groundwater','surface_water',0.9,'positive')
