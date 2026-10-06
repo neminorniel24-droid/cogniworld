@@ -3025,3 +3025,7 @@ def logic_2754(world):
 def logic_2755(world):
     # humidity favors pathogen persistence; strong coupling.
     _couple(world,'humidity','pathogen_load',1.35,'positive')
+
+def logic_2756(world):
+    # humidity favors pathogen persistence; threshold coupling.
+    _couple(world,'humidity','pathogen_load',1.0,'threshold')
