@@ -27,3 +27,6 @@ def test_logic_626():
 def test_logic_627():
     from agent_rules.rules import logic_627
     _check(logic_627, 'dehydration', 'reproduction_score', -1)
+def test_logic_628():
+    from agent_rules.rules import logic_628
+    _check(logic_628, 'pathogen_risk', 'exploration_score', 1)

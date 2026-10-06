@@ -616,3 +616,5 @@ def logic_626(agents,world):
     agents.migration_score=_delta(agents.migration_score,+0.002*agents.thermal_stress)
 def logic_627(agents,world):
     agents.reproduction_score=_delta(agents.reproduction_score,-0.002*agents.dehydration)
+def logic_628(agents,world):
+    agents.exploration_score=_delta(agents.exploration_score,+0.002*agents.pathogen_risk)

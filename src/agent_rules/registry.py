@@ -597,4 +597,4 @@ from .rules import logic_600
 RULES.append(logic_600)
 from .rules import logic_601
 RULES.append(logic_601)
-from .rules import logic_622\nRULES.append(logic_622)\nfrom .rules import logic_623\nRULES.append(logic_623)\nfrom .rules import logic_624\nRULES.append(logic_624)\nfrom .rules import logic_625\nRULES.append(logic_625)\nfrom .rules import logic_626\nRULES.append(logic_626)\nfrom .rules import logic_627\nRULES.append(logic_627)\n
+from .rules import logic_622\nRULES.append(logic_622)\nfrom .rules import logic_623\nRULES.append(logic_623)\nfrom .rules import logic_624\nRULES.append(logic_624)\nfrom .rules import logic_625\nRULES.append(logic_625)\nfrom .rules import logic_626\nRULES.append(logic_626)\nfrom .rules import logic_627\nRULES.append(logic_627)\nfrom .rules import logic_628\nRULES.append(logic_628)\n
