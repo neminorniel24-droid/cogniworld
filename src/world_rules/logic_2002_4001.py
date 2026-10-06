@@ -849,3 +849,7 @@ def logic_2210(world):
 def logic_2211(world):
     # fire removes deadwood; reserve coupling.
     _couple(world,'fire_risk','deadwood',0.9,'positive')
+
+def logic_2212(world):
+    # deadwood feeds organic matter; direct coupling.
+    _couple(world,'deadwood','organic_matter',1.0,'positive')
