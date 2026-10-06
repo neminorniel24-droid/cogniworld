@@ -186,3 +186,5 @@ def logic_392(agents,world):
  v=_local(world,agents,'flowers');agents.sharing_capacity=_delta(agents.sharing_capacity,v*0.001)
 def logic_393(agents,world):
  v=_local(world,agents,'seed_bank');agents.food_access=_delta(agents.food_access,v*0.001)
+def logic_394(agents,world):
+ v=_local(world,agents,'seed_bank');agents.hunger=_delta(agents.hunger,v*0.001)
