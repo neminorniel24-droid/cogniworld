@@ -320,3 +320,8 @@ def test_logic_364():
 def test_logic_365():
  from agent_rules.rules import logic_365
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.shelter_need.clone();setattr(w,'root_density',torch.ones(4,4));logic_365(a,w);assert torch.any(a.shelter_need!=b)
+
+
+def test_logic_366():
+ from agent_rules.rules import logic_366
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.hydration.clone();setattr(w,'wetland',torch.ones(4,4));logic_366(a,w);assert torch.any(a.hydration!=b)

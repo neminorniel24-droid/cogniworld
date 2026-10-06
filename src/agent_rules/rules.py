@@ -130,3 +130,5 @@ def logic_364(agents,world):
  v=_local(world,agents,'root_density');agents.stability=_delta(agents.stability,v*0.001)
 def logic_365(agents,world):
  v=_local(world,agents,'root_density');agents.shelter_need=_delta(agents.shelter_need,v*0.001)
+def logic_366(agents,world):
+ v=_local(world,agents,'wetland');agents.hydration=_delta(agents.hydration,v*0.001)
