@@ -2178,3 +2178,7 @@ def logic_3536(agents, world):
 def logic_3537(agents, world):
     # surface_water -> future_help; strong coupling.
     _update(agents, 'future_help', _desired(agents, world, 'surface_water', 'future_help', 'strong'))
+
+def logic_3538(agents, world):
+    # surface_water -> future_help; limited coupling.
+    _update(agents, 'future_help', _desired(agents, world, 'surface_water', 'future_help', 'limited'))
