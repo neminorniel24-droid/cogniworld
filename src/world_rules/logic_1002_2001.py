@@ -2088,3 +2088,7 @@ def logic_1512(world):
 def logic_1513(world):
     # organic matter mineralizes nutrients; stronger when vegetation is scarce.
     _feedback(world, 'organic_matter', 'nutrients', 1, 'scarcity_gate')
+
+def logic_1514(world):
+    # organic matter mineralizes nutrients; stronger when biomass is high.
+    _feedback(world, 'organic_matter', 'nutrients', 1, 'biomass_gate')
