@@ -3736,3 +3736,7 @@ def logic_1924(world):
 def logic_1925(world):
     # methane increases warming pressure; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'methane', 'temperature', 1, 'recovery')
+
+def logic_1926(world):
+    # CO2 increases warming pressure; direct.
+    _feedback(world, 'co2', 'temperature', 1, 'baseline')
