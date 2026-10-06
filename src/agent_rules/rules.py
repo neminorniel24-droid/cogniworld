@@ -1152,3 +1152,5 @@ def logic_894(agents,world):
     agents.payoff=_signed_delta(agents.payoff,+0.002*agents.reciprocity_score)
 def logic_895(agents,world):
     agents.fitness_score=_delta(agents.fitness_score,+0.002*agents.risk_score)
+def logic_896(agents,world):
+    agents.survival_score=_delta(agents.survival_score,+0.002*agents.safety_score)
