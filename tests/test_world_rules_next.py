@@ -157,3 +157,12 @@ def test_logic_119():
     before=w.runoff.clone()
     apply(w)
     assert torch.all(w.runoff < before)
+
+def test_logic_120():
+    from world_rules.logic_120_wetlands_store_rainfall import apply
+    w = make_world()
+    w.wetland.fill_(1.0)
+    w.rain.fill_(1.0)
+    w.surface_water.zero_()
+    apply(w)
+    assert torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.01))
