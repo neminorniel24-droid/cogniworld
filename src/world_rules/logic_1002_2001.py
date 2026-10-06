@@ -2896,3 +2896,7 @@ def logic_1714(world):
 def logic_1715(world):
     # herbivory consumes vegetation; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'herbivore', 'vegetation', -1, 'recovery')
+
+def logic_1716(world):
+    # vegetation supports herbivores; direct.
+    _feedback(world, 'vegetation', 'herbivore', 1, 'baseline')
