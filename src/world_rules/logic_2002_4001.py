@@ -21,3 +21,7 @@ def logic_2003(world):
 def logic_2004(world):
     # rainfall replenishes accessible water; limited coupling.
     _couple(world,'rain','surface_water',0.65,'positive')
+
+def logic_2005(world):
+    # rainfall replenishes accessible water; strong coupling.
+    _couple(world,'rain','surface_water',1.35,'positive')
