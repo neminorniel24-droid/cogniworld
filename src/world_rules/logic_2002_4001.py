@@ -2017,3 +2017,7 @@ def logic_2502(world):
 def logic_2503(world):
     # moist soil permits recharge; inverse coupling.
     _couple(world,'soil_moisture','groundwater',1.0,'negative')
+
+def logic_2504(world):
+    # moist soil permits recharge; limited coupling.
+    _couple(world,'soil_moisture','groundwater',0.65,'positive')
