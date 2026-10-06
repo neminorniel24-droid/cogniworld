@@ -2764,3 +2764,7 @@ def logic_1681(world):
 def logic_1682(world):
     # seed banks support vegetation recovery; stronger when biomass is high.
     _feedback(world, 'seed_bank', 'vegetation', 1, 'biomass_gate')
+
+def logic_1683(world):
+    # seed banks support vegetation recovery; stronger under habitat stress.
+    _feedback(world, 'seed_bank', 'vegetation', 1, 'stress_gate')
