@@ -3649,3 +3649,7 @@ def logic_2910(world):
 def logic_2911(world):
     # deadwood stores carbon; reserve coupling.
     _couple(world,'deadwood','carbon_storage',0.9,'positive')
+
+def logic_2912(world):
+    # methane flux changes carbon balance; direct coupling.
+    _couple(world,'methane','carbon_storage',1.0,'positive')
