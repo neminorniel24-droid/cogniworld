@@ -3212,3 +3212,7 @@ def logic_1793(world):
 def logic_1794(world):
     # carrion feeds decomposers; stronger when biomass is high.
     _feedback(world, 'carrion', 'organic_matter', 1, 'biomass_gate')
+
+def logic_1795(world):
+    # carrion feeds decomposers; stronger under habitat stress.
+    _feedback(world, 'carrion', 'organic_matter', 1, 'stress_gate')
