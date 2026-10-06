@@ -699,3 +699,6 @@ def test_logic_850():
 def test_logic_851():
     from agent_rules.rules import logic_851
     _check(logic_851, 'last_food', 'reproduction_score', 1)
+def test_logic_852():
+    from agent_rules.rules import logic_852
+    _check(logic_852, 'last_interaction', 'strategy_score', 1)
