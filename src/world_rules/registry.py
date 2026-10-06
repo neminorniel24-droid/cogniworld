@@ -289,3 +289,5 @@ from .logic_145_grazing_creates_detritus import apply as logic_145
 RULES.append(logic_145)
 from .logic_146_predation_creates_carrion import apply as logic_146
 RULES.append(logic_146)
+from .logic_147_carrion_decomposition_adds_decomposition import apply as logic_147
+RULES.append(logic_147)

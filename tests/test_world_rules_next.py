@@ -391,3 +391,11 @@ def test_logic_146():
     w.carrion.zero_()
     apply(w)
     assert torch.allclose(w.carrion, torch.full_like(w.carrion, 0.004))
+
+def test_logic_147():
+    from world_rules.logic_147_carrion_decomposition_adds_decomposition import apply
+    w = make_world()
+    w.carrion.fill_(1.0)
+    w.decomposition_rate.zero_()
+    apply(w)
+    assert torch.allclose(w.decomposition_rate, torch.full_like(w.decomposition_rate, 0.006))
