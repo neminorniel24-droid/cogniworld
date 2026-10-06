@@ -1754,3 +1754,7 @@ def logic_3430(agents, world):
 def logic_3431(agents, world):
     # surface_water -> help_drive; reserve coupling.
     _update(agents, 'help_drive', _desired(agents, world, 'surface_water', 'help_drive', 'reserve'))
+
+def logic_3432(agents, world):
+    # surface_water -> help_drive; scarcity coupling.
+    _update(agents, 'help_drive', _desired(agents, world, 'surface_water', 'help_drive', 'scarcity'))
