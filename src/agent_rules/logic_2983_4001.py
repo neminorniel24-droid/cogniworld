@@ -290,3 +290,7 @@ def logic_3064(agents, world):
 def logic_3065(agents, world):
     # surface_water -> thermal_stress; counterpressure coupling.
     _update(agents, 'thermal_stress', _desired(agents, world, 'surface_water', 'thermal_stress', 'counterpressure'))
+
+def logic_3066(agents, world):
+    # surface_water -> thermal_stress; capacity coupling.
+    _update(agents, 'thermal_stress', _desired(agents, world, 'surface_water', 'thermal_stress', 'capacity'))
