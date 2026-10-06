@@ -2798,3 +2798,7 @@ def logic_3691(agents, world):
 def logic_3692(agents, world):
     # surface_water -> exploration_score; limited coupling.
     _update(agents, 'exploration_score', _desired(agents, world, 'surface_water', 'exploration_score', 'limited'))
+
+def logic_3693(agents, world):
+    # surface_water -> exploration_score; pulse coupling.
+    _update(agents, 'exploration_score', _desired(agents, world, 'surface_water', 'exploration_score', 'pulse'))
