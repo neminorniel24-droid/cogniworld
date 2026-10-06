@@ -852,3 +852,7 @@ def logic_1203(world):
 def logic_1204(world):
     # cloud water produces rain; stronger when surface water is high.
     _feedback(world, 'cloud', 'rain', 1, 'water_gate')
+
+def logic_1205(world):
+    # cloud water produces rain; stronger when vegetation is scarce.
+    _feedback(world, 'cloud', 'rain', 1, 'scarcity_gate')
