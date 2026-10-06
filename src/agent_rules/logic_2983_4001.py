@@ -1062,3 +1062,7 @@ def logic_3257(agents, world):
 def logic_3258(agents, world):
     # surface_water -> habitat_stress; limited coupling.
     _update(agents, 'habitat_stress', _desired(agents, world, 'surface_water', 'habitat_stress', 'limited'))
+
+def logic_3259(agents, world):
+    # surface_water -> habitat_stress; pulse coupling.
+    _update(agents, 'habitat_stress', _desired(agents, world, 'surface_water', 'habitat_stress', 'pulse'))
