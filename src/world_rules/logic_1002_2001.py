@@ -3040,3 +3040,7 @@ def logic_1750(world):
 def logic_1751(world):
     # predation reduces herbivores; stronger when vegetation is scarce.
     _feedback(world, 'predator', 'herbivore', -1, 'scarcity_gate')
+
+def logic_1752(world):
+    # predation reduces herbivores; stronger when biomass is high.
+    _feedback(world, 'predator', 'herbivore', -1, 'biomass_gate')
