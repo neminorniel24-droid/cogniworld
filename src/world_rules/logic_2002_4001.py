@@ -1081,3 +1081,7 @@ def logic_2268(world):
 def logic_2269(world):
     # vegetation produces flowers; counterpressure coupling.
     _couple(world,'vegetation','flowers',0.8,'negative')
+
+def logic_2270(world):
+    # vegetation produces flowers; capacity coupling.
+    _couple(world,'vegetation','flowers',0.5,'positive')
