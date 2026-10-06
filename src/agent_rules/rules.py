@@ -206,3 +206,5 @@ def logic_402(agents,world):
  v=torch.clamp(agents.energy_surplus,0,2);agents.sharing_capacity=_delta(agents.sharing_capacity,v*0.001)
 def logic_403(agents,world):
  v=torch.clamp(agents.energy_surplus,0,2);agents.cooperation=_delta(agents.cooperation,v*0.001)
+def logic_404(agents,world):
+ v=torch.clamp(agents.energy_surplus,0,2);agents.generosity=_delta(agents.generosity,v*0.001)
