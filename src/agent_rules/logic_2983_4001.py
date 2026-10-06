@@ -826,3 +826,7 @@ def logic_3198(agents, world):
 def logic_3199(agents, world):
     # surface_water -> exploration_drive; inverse coupling.
     _update(agents, 'exploration_drive', _desired(agents, world, 'surface_water', 'exploration_drive', 'inverse'))
+
+def logic_3200(agents, world):
+    # surface_water -> exploration_drive; threshold coupling.
+    _update(agents, 'exploration_drive', _desired(agents, world, 'surface_water', 'exploration_drive', 'threshold'))
