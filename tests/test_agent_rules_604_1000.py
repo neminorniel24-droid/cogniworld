@@ -30,3 +30,6 @@ def test_logic_627():
 def test_logic_628():
     from agent_rules.rules import logic_628
     _check(logic_628, 'pathogen_risk', 'exploration_score', 1)
+def test_logic_629():
+    from agent_rules.rules import logic_629
+    _check(logic_629, 'infection_risk', 'strategy_score', 1)
