@@ -2981,3 +2981,7 @@ def logic_2743(world):
 def logic_2744(world):
     # wind alters local thermal state; limited coupling.
     _couple(world,'wind_y','temperature',0.65,'positive')
+
+def logic_2745(world):
+    # wind alters local thermal state; strong coupling.
+    _couple(world,'wind_y','temperature',1.35,'positive')
