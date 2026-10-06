@@ -957,3 +957,7 @@ def logic_2237(world):
 def logic_2238(world):
     # warmth accelerates decomposition; feedback coupling.
     _couple(world,'temperature','decomposition_rate',0.8,'positive')
+
+def logic_2239(world):
+    # warmth accelerates decomposition; counterpressure coupling.
+    _couple(world,'temperature','decomposition_rate',0.8,'negative')
