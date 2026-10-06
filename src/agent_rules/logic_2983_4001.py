@@ -538,3 +538,7 @@ def logic_3126(agents, world):
 def logic_3127(agents, world):
     # surface_water -> alertness; persistence coupling.
     _update(agents, 'alertness', _desired(agents, world, 'surface_water', 'alertness', 'persistence'))
+
+def logic_3128(agents, world):
+    # surface_water -> fear; direct coupling.
+    _update(agents, 'fear', _desired(agents, world, 'surface_water', 'fear', 'direct'))
