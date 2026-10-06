@@ -322,3 +322,7 @@ def logic_3072(agents, world):
 def logic_3073(agents, world):
     # surface_water -> dehydration; inverse coupling.
     _update(agents, 'dehydration', _desired(agents, world, 'surface_water', 'dehydration', 'inverse'))
+
+def logic_3074(agents, world):
+    # surface_water -> dehydration; threshold coupling.
+    _update(agents, 'dehydration', _desired(agents, world, 'surface_water', 'dehydration', 'threshold'))
