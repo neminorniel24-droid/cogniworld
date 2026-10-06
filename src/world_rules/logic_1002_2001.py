@@ -2100,3 +2100,7 @@ def logic_1515(world):
 def logic_1516(world):
     # organic matter mineralizes nutrients; modulated by temperature.
     _feedback(world, 'organic_matter', 'nutrients', 1, 'seasonal_gate')
+
+def logic_1517(world):
+    # organic matter mineralizes nutrients; saturates at high source levels.
+    _feedback(world, 'organic_matter', 'nutrients', 1, 'saturation')
