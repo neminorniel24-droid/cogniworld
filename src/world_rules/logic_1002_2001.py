@@ -2436,3 +2436,7 @@ def logic_1599(world):
 def logic_1600(world):
     # fire reduces biomass; modulated by temperature.
     _feedback(world, 'fire_risk', 'biomass', -1, 'seasonal_gate')
+
+def logic_1601(world):
+    # fire reduces biomass; saturates at high source levels.
+    _feedback(world, 'fire_risk', 'biomass', -1, 'saturation')
