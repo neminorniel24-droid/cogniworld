@@ -1102,3 +1102,7 @@ def logic_3267(agents, world):
 def logic_3268(agents, world):
     # surface_water -> social_tolerance; direct coupling.
     _update(agents, 'social_tolerance', _desired(agents, world, 'surface_water', 'social_tolerance', 'direct'))
+
+def logic_3269(agents, world):
+    # surface_water -> social_tolerance; inverse coupling.
+    _update(agents, 'social_tolerance', _desired(agents, world, 'surface_water', 'social_tolerance', 'inverse'))
