@@ -2192,3 +2192,7 @@ def logic_1538(world):
 def logic_1539(world):
     # deadwood feeds organic matter; stronger under fire pressure.
     _feedback(world, 'deadwood', 'organic_matter', 1, 'fire_gate')
+
+def logic_1540(world):
+    # deadwood feeds organic matter; stronger when surface water is high.
+    _feedback(world, 'deadwood', 'organic_matter', 1, 'water_gate')
