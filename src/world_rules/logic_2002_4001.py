@@ -2965,3 +2965,7 @@ def logic_2739(world):
 def logic_2740(world):
     # cloud cover moderates temperature; capacity coupling.
     _couple(world,'cloud','temperature',0.5,'positive')
+
+def logic_2741(world):
+    # cloud cover moderates temperature; reserve coupling.
+    _couple(world,'cloud','temperature',0.9,'positive')
