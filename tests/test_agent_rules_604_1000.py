@@ -1089,3 +1089,6 @@ def test_logic_980():
 def test_logic_981():
     from agent_rules.rules import logic_981
     _check(logic_981, 'trust', 'self_preservation', 1)
+def test_logic_982():
+    from agent_rules.rules import logic_982
+    _check(logic_982, 'cooperation', 'payoff', 1)

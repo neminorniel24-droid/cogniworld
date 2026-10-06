@@ -1324,3 +1324,5 @@ def logic_980(agents,world):
     agents.future_payoff_weight=_delta(agents.future_payoff_weight,+0.002*agents.reputation)
 def logic_981(agents,world):
     agents.self_preservation=_delta(agents.self_preservation,+0.002*agents.trust)
+def logic_982(agents,world):
+    agents.payoff=_signed_delta(agents.payoff,+0.002*agents.cooperation)
