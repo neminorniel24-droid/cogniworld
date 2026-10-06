@@ -1416,3 +1416,7 @@ def logic_1344(world):
 def logic_1345(world):
     # runoff mobilizes sediment; stronger when vegetation is scarce.
     _feedback(world, 'runoff', 'sediment', 1, 'scarcity_gate')
+
+def logic_1346(world):
+    # runoff mobilizes sediment; stronger when biomass is high.
+    _feedback(world, 'runoff', 'sediment', 1, 'biomass_gate')
