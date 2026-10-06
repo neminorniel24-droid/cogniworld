@@ -2976,3 +2976,7 @@ def logic_1734(world):
 def logic_1735(world):
     # herbivore mortality contributes carrion; stronger under fire pressure.
     _feedback(world, 'herbivore', 'carrion', 1, 'fire_gate')
+
+def logic_1736(world):
+    # herbivore mortality contributes carrion; stronger when surface water is high.
+    _feedback(world, 'herbivore', 'carrion', 1, 'water_gate')
