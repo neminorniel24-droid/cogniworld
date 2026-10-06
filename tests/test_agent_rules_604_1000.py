@@ -888,3 +888,6 @@ def test_logic_913():
 def test_logic_914():
     from agent_rules.rules import logic_914
     _check(logic_914, 'trust', 'safety_score', 1)
+def test_logic_915():
+    from agent_rules.rules import logic_915
+    _check(logic_915, 'cooperation', 'exploration_score', 1)
