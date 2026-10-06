@@ -2782,3 +2782,7 @@ def logic_3687(agents, world):
 def logic_3688(agents, world):
     # surface_water -> exploration_score; direct coupling.
     _update(agents, 'exploration_score', _desired(agents, world, 'surface_water', 'exploration_score', 'direct'))
+
+def logic_3689(agents, world):
+    # surface_water -> exploration_score; inverse coupling.
+    _update(agents, 'exploration_score', _desired(agents, world, 'surface_water', 'exploration_score', 'inverse'))
