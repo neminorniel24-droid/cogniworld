@@ -2221,3 +2221,7 @@ def logic_2553(world):
 def logic_2554(world):
     # dense roots resist erosion; limited coupling.
     _couple(world,'root_density','erosion',0.65,'positive')
+
+def logic_2555(world):
+    # dense roots resist erosion; strong coupling.
+    _couple(world,'root_density','erosion',1.35,'positive')
