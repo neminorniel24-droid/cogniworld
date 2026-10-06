@@ -60,3 +60,6 @@ def test_logic_637():
 def test_logic_638():
     from agent_rules.rules import logic_638
     _check(logic_638, 'wealth', 'social_need', 1)
+def test_logic_639():
+    from agent_rules.rules import logic_639
+    _check(logic_639, 'stability', 'conflict_pressure', 1)
