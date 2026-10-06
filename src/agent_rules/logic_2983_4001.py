@@ -1666,3 +1666,7 @@ def logic_3408(agents, world):
 def logic_3409(agents, world):
     # surface_water -> sharing_capacity; inverse coupling.
     _update(agents, 'sharing_capacity', _desired(agents, world, 'surface_water', 'sharing_capacity', 'inverse'))
+
+def logic_3410(agents, world):
+    # surface_water -> sharing_capacity; threshold coupling.
+    _update(agents, 'sharing_capacity', _desired(agents, world, 'surface_water', 'sharing_capacity', 'threshold'))
