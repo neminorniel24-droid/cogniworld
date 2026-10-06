@@ -618,3 +618,7 @@ def logic_3146(agents, world):
 def logic_3147(agents, world):
     # surface_water -> recovery; pulse coupling.
     _update(agents, 'recovery', _desired(agents, world, 'surface_water', 'recovery', 'pulse'))
+
+def logic_3148(agents, world):
+    # surface_water -> recovery; feedback coupling.
+    _update(agents, 'recovery', _desired(agents, world, 'surface_water', 'recovery', 'feedback'))
