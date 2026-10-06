@@ -2377,3 +2377,7 @@ def logic_2592(world):
 def logic_2593(world):
     # ash returns mineral nutrients; inverse coupling.
     _couple(world,'ash','nutrients',1.0,'negative')
+
+def logic_2594(world):
+    # ash returns mineral nutrients; limited coupling.
+    _couple(world,'ash','nutrients',0.65,'positive')
