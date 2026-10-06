@@ -2021,3 +2021,7 @@ def logic_2503(world):
 def logic_2504(world):
     # moist soil permits recharge; limited coupling.
     _couple(world,'soil_moisture','groundwater',0.65,'positive')
+
+def logic_2505(world):
+    # moist soil permits recharge; strong coupling.
+    _couple(world,'soil_moisture','groundwater',1.35,'positive')
