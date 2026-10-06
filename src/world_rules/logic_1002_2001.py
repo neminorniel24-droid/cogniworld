@@ -916,3 +916,7 @@ def logic_1219(world):
 def logic_1220(world):
     # cloud cover reduces heating; stronger when biomass is high.
     _feedback(world, 'cloud', 'temperature', -1, 'biomass_gate')
+
+def logic_1221(world):
+    # cloud cover reduces heating; stronger under habitat stress.
+    _feedback(world, 'cloud', 'temperature', -1, 'stress_gate')
