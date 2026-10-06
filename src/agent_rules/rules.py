@@ -666,3 +666,5 @@ def logic_651(agents,world):
     agents.resource_discovery=_delta(agents.resource_discovery,+0.002*agents.fear)
 def logic_652(agents,world):
     agents.sharing_capacity=_delta(agents.sharing_capacity,+0.002*agents.recovery)
+def logic_653(agents,world):
+    agents.help_drive=_delta(agents.help_drive,+0.002*agents.metabolic_cost)
