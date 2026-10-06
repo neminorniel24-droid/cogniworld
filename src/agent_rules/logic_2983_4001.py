@@ -2338,3 +2338,7 @@ def logic_3576(agents, world):
 def logic_3577(agents, world):
     # surface_water -> risk_tolerance; inverse coupling.
     _update(agents, 'risk_tolerance', _desired(agents, world, 'surface_water', 'risk_tolerance', 'inverse'))
+
+def logic_3578(agents, world):
+    # surface_water -> risk_tolerance; threshold coupling.
+    _update(agents, 'risk_tolerance', _desired(agents, world, 'surface_water', 'risk_tolerance', 'threshold'))
