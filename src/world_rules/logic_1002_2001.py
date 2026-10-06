@@ -3536,3 +3536,7 @@ def logic_1874(world):
 def logic_1875(world):
     # algae contribute oxygen; stronger under fire pressure.
     _feedback(world, 'algae', 'oxygen', 1, 'fire_gate')
+
+def logic_1876(world):
+    # algae contribute oxygen; stronger when surface water is high.
+    _feedback(world, 'algae', 'oxygen', 1, 'water_gate')
