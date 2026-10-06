@@ -2404,3 +2404,7 @@ def logic_1591(world):
 def logic_1592(world):
     # fire reduces biomass; stronger when soil is wet.
     _feedback(world, 'fire_risk', 'biomass', -1, 'wet_gate')
+
+def logic_1593(world):
+    # fire reduces biomass; stronger when temperature is high.
+    _feedback(world, 'fire_risk', 'biomass', -1, 'heat_gate')
