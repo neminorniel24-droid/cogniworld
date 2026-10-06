@@ -362,3 +362,7 @@ def logic_3082(agents, world):
 def logic_3083(agents, world):
     # surface_water -> dehydration; stress coupling.
     _update(agents, 'dehydration', _desired(agents, world, 'surface_water', 'dehydration', 'stress'))
+
+def logic_3084(agents, world):
+    # surface_water -> dehydration; recovery coupling.
+    _update(agents, 'dehydration', _desired(agents, world, 'surface_water', 'dehydration', 'recovery'))
