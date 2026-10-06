@@ -3713,3 +3713,7 @@ def logic_2926(world):
 def logic_2927(world):
     # stored carbon reduces atmospheric CO2 pressure; pulse coupling.
     _couple(world,'carbon_storage','co2',1.0,'pulse')
+
+def logic_2928(world):
+    # stored carbon reduces atmospheric CO2 pressure; feedback coupling.
+    _couple(world,'carbon_storage','co2',0.8,'positive')
