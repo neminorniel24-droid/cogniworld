@@ -2672,3 +2672,7 @@ def logic_1658(world):
 def logic_1659(world):
     # flowers support pollinators; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'flowers', 'pollinators', 1, 'recovery')
+
+def logic_1660(world):
+    # pollination sustains flowering; direct.
+    _feedback(world, 'pollinators', 'flowers', 1, 'baseline')
