@@ -15,3 +15,6 @@ def test_logic_622():
 def test_logic_623():
     from agent_rules.rules import logic_623
     _check(logic_623, 'hydration', 'safety_score', 1)
+def test_logic_624():
+    from agent_rules.rules import logic_624
+    _check(logic_624, 'thirst', 'survival_score', -1)
