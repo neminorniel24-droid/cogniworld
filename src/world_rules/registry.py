@@ -543,3 +543,5 @@ from .logic_272_herbivores_reduce_flowering import apply as logic_272
 RULES.append(logic_272)
 from .logic_273_predators_protect_flowers import apply as logic_273
 RULES.append(logic_273)
+from .logic_274_flowers_support_herbivore_capacity import apply as logic_274
+RULES.append(logic_274)

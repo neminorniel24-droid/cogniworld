@@ -1224,3 +1224,8 @@ def test_logic_273():
     from world_rules.logic_273_predators_protect_flowers import apply
     w = make_world()
     w.flowers.zero_(); w.predator.fill_(1.0); apply(w); assert torch.allclose(w.flowers, torch.full_like(w.flowers, 0.001))
+
+def test_logic_274():
+    from world_rules.logic_274_flowers_support_herbivore_capacity import apply
+    w = make_world()
+    w.herbivore.zero_(); w.flowers.fill_(1.0); apply(w); assert torch.allclose(w.herbivore, torch.full_like(w.herbivore, 0.003))
