@@ -360,3 +360,7 @@ def logic_1080(world):
 def logic_1081(world):
     # open water raises local humidity; stronger under habitat stress.
     _feedback(world, 'surface_water', 'humidity', 1, 'stress_gate')
+
+def logic_1082(world):
+    # open water raises local humidity; modulated by temperature.
+    _feedback(world, 'surface_water', 'humidity', 1, 'seasonal_gate')
