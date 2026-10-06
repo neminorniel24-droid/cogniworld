@@ -978,3 +978,5 @@ def logic_807(agents,world):
     agents.aggression=_delta(agents.aggression,+0.002*agents.future_help)
 def logic_808(agents,world):
     agents.conflict_pressure=_delta(agents.conflict_pressure,+0.002*agents.empathy)
+def logic_809(agents,world):
+    agents.retaliation_risk=_delta(agents.retaliation_risk,+0.002*agents.betrayal_memory)
