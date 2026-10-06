@@ -1054,3 +1054,7 @@ def logic_3255(agents, world):
 def logic_3256(agents, world):
     # surface_water -> habitat_stress; threshold coupling.
     _update(agents, 'habitat_stress', _desired(agents, world, 'surface_water', 'habitat_stress', 'threshold'))
+
+def logic_3257(agents, world):
+    # surface_water -> habitat_stress; strong coupling.
+    _update(agents, 'habitat_stress', _desired(agents, world, 'surface_water', 'habitat_stress', 'strong'))
