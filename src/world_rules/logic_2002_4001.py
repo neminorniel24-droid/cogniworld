@@ -2209,3 +2209,7 @@ def logic_2550(world):
 def logic_2551(world):
     # vegetation roots reduce erosion; reserve coupling.
     _couple(world,'vegetation','erosion',0.9,'positive')
+
+def logic_2552(world):
+    # dense roots resist erosion; direct coupling.
+    _couple(world,'root_density','erosion',1.0,'positive')
