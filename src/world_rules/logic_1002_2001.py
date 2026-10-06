@@ -3824,3 +3824,7 @@ def logic_1946(world):
 def logic_1947(world):
     # heat raises fire risk; stronger when vegetation is scarce.
     _feedback(world, 'temperature', 'fire_risk', 1, 'scarcity_gate')
+
+def logic_1948(world):
+    # heat raises fire risk; stronger when biomass is high.
+    _feedback(world, 'temperature', 'fire_risk', 1, 'biomass_gate')
