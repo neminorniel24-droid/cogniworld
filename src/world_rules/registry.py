@@ -431,3 +431,5 @@ from .logic_216_dryness_concentrates_salinity import apply as logic_216
 RULES.append(logic_216)
 from .logic_217_rain_flushes_salinity import apply as logic_217
 RULES.append(logic_217)
+from .logic_218_surface_water_dilutes_salinity import apply as logic_218
+RULES.append(logic_218)
