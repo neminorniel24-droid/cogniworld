@@ -1809,3 +1809,7 @@ def logic_2450(world):
 def logic_2451(world):
     # surface ice contributes to ice cover; reserve coupling.
     _couple(world,'surface_ice','ice',0.9,'positive')
+
+def logic_2452(world):
+    # fire reduces stored carbon; direct coupling.
+    _couple(world,'fire_risk','carbon_storage',1.0,'positive')
