@@ -1042,3 +1042,7 @@ def logic_3252(agents, world):
 def logic_3253(agents, world):
     # surface_water -> stability; persistence coupling.
     _update(agents, 'stability', _desired(agents, world, 'surface_water', 'stability', 'persistence'))
+
+def logic_3254(agents, world):
+    # surface_water -> habitat_stress; direct coupling.
+    _update(agents, 'habitat_stress', _desired(agents, world, 'surface_water', 'habitat_stress', 'direct'))
