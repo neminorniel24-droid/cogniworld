@@ -3608,3 +3608,7 @@ def logic_1892(world):
 def logic_1893(world):
     # algae add organic matter; stronger under habitat stress.
     _feedback(world, 'algae', 'organic_matter', 1, 'stress_gate')
+
+def logic_1894(world):
+    # algae add organic matter; modulated by temperature.
+    _feedback(world, 'algae', 'organic_matter', 1, 'seasonal_gate')
