@@ -1166,3 +1166,5 @@ def logic_901(agents,world):
     agents.risk_score=_delta(agents.risk_score,+0.002*agents.help_score)
 def logic_902(agents,world):
     agents.exploration_score=_delta(agents.exploration_score,+0.002*agents.attack_success)
+def logic_903(agents,world):
+    agents.foraging_score=_delta(agents.foraging_score,+0.002*agents.retaliation_risk)
