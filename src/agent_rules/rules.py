@@ -1080,3 +1080,5 @@ def logic_858(agents,world):
     agents.learning_rate=_delta(agents.learning_rate,+0.002*agents.risk_score)
 def logic_859(agents,world):
     agents.memory_update=_delta(agents.memory_update,+0.002*agents.safety_score)
+def logic_860(agents,world):
+    agents.strategy_persistence=_delta(agents.strategy_persistence,+0.002*agents.exploration_score)
