@@ -429,3 +429,6 @@ def test_logic_760():
 def test_logic_761():
     from agent_rules.rules import logic_761
     _check(logic_761, 'selfishness', 'generosity', 1)
+def test_logic_762():
+    from agent_rules.rules import logic_762
+    _check(logic_762, 'generosity', 'gratitude', 1)

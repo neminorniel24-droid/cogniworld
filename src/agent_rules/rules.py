@@ -884,3 +884,5 @@ def logic_760(agents,world):
     agents.selfishness=_delta(agents.selfishness,+0.002*agents.social_avoidance)
 def logic_761(agents,world):
     agents.generosity=_delta(agents.generosity,+0.002*agents.selfishness)
+def logic_762(agents,world):
+    agents.gratitude=_delta(agents.gratitude,+0.002*agents.generosity)
