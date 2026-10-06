@@ -718,3 +718,12 @@ def test_logic_184():
     before=w.biomass.clone()
     apply(w)
     assert torch.all(w.biomass < before)
+
+def test_logic_185():
+    from world_rules.logic_185_biodiversity_buffers_stress import apply
+    w = make_world()
+    w.biodiversity.fill_(1.0)
+    w.habitat_stress.fill_(1.0)
+    before=w.habitat_stress.clone()
+    apply(w)
+    assert torch.all(w.habitat_stress < before)
