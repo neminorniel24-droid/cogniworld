@@ -1023,3 +1023,6 @@ def test_logic_958():
 def test_logic_959():
     from agent_rules.rules import logic_959
     _check(logic_959, 'future_payoff_weight', 'competition_score', 1)
+def test_logic_960():
+    from agent_rules.rules import logic_960
+    _check(logic_960, 'self_preservation', 'defection_score', 1)
