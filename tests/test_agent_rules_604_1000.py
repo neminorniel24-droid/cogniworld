@@ -510,3 +510,6 @@ def test_logic_787():
 def test_logic_788():
     from agent_rules.rules import logic_788
     _check(logic_788, 'empathy', 'cooperation', 1)
+def test_logic_789():
+    from agent_rules.rules import logic_789
+    _check(logic_789, 'reputation', 'competition_pressure', -1)
