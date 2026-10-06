@@ -2324,3 +2324,7 @@ def logic_1571(world):
 def logic_1572(world):
     # fire consumes deadwood; modulated by temperature.
     _feedback(world, 'fire_risk', 'deadwood', -1, 'seasonal_gate')
+
+def logic_1573(world):
+    # fire consumes deadwood; saturates at high source levels.
+    _feedback(world, 'fire_risk', 'deadwood', -1, 'saturation')
