@@ -686,3 +686,7 @@ def logic_3163(agents, world):
 def logic_3164(agents, world):
     # surface_water -> metabolic_cost; capacity coupling.
     _update(agents, 'metabolic_cost', _desired(agents, world, 'surface_water', 'metabolic_cost', 'capacity'))
+
+def logic_3165(agents, world):
+    # surface_water -> metabolic_cost; reserve coupling.
+    _update(agents, 'metabolic_cost', _desired(agents, world, 'surface_water', 'metabolic_cost', 'reserve'))
