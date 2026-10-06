@@ -1544,3 +1544,7 @@ def logic_1376(world):
 def logic_1377(world):
     # erosion removes soil depth; saturates at high source levels.
     _feedback(world, 'erosion', 'soil_depth', -1, 'saturation')
+
+def logic_1378(world):
+    # erosion removes soil depth; activates above a food threshold.
+    _feedback(world, 'erosion', 'soil_depth', -1, 'threshold')
