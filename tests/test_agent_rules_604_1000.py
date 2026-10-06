@@ -447,3 +447,6 @@ def test_logic_766():
 def test_logic_767():
     from agent_rules.rules import logic_767
     _check(logic_767, 'future_help', 'help_score', 1)
+def test_logic_768():
+    from agent_rules.rules import logic_768
+    _check(logic_768, 'empathy', 'sharing_score', 1)
