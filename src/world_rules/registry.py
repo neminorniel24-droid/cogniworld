@@ -315,3 +315,5 @@ from .logic_158_vegetation_shelters_pathogens import apply as logic_158
 RULES.append(logic_158)
 from .logic_159_pathogens_raise_habitat_stress import apply as logic_159
 RULES.append(logic_159)
+from .logic_160_low_oxygen_reduces_herbivores import apply as logic_160
+RULES.append(logic_160)

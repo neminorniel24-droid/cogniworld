@@ -502,3 +502,12 @@ def test_logic_159():
     w.habitat_stress.zero_()
     apply(w)
     assert torch.allclose(w.habitat_stress, torch.full_like(w.habitat_stress, 0.003))
+
+def test_logic_160():
+    from world_rules.logic_160_low_oxygen_reduces_herbivores import apply
+    w = make_world()
+    w.oxygen.zero_()
+    w.herbivore.fill_(1.0)
+    before=w.herbivore.clone()
+    apply(w)
+    assert torch.all(w.herbivore < before)
