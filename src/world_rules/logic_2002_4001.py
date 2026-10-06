@@ -2853,3 +2853,7 @@ def logic_2711(world):
 def logic_2712(world):
     # CO2 availability shapes photosynthesis; direct coupling.
     _couple(world,'co2','photosynthesis_factor',1.0,'positive')
+
+def logic_2713(world):
+    # CO2 availability shapes photosynthesis; inverse coupling.
+    _couple(world,'co2','photosynthesis_factor',1.0,'negative')
