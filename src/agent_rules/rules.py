@@ -570,3 +570,5 @@ def logic_584(agents,world):
  signal=torch.sigmoid(agents.last_reward*0.05+agents.last_action.float()*0.02);agents.conflict_pressure=_delta(agents.conflict_pressure,signal*0.001)
 def logic_585(agents,world):
  signal=torch.sigmoid(agents.last_reward*0.05+agents.last_action.float()*0.02);agents.learning_rate=_delta(agents.learning_rate,signal*0.001)
+def logic_586(agents,world):
+ signal=torch.sigmoid(agents.last_reward*0.05+agents.last_action.float()*0.02);agents.strategy_score=_delta(agents.strategy_score,signal*0.001)

@@ -1420,3 +1420,8 @@ def test_logic_584():
 def test_logic_585():
  from agent_rules.rules import logic_585
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.learning_rate.clone();a.last_reward.fill_(1);logic_585(a,w);assert torch.any(a.learning_rate!=b)
+
+
+def test_logic_586():
+ from agent_rules.rules import logic_586
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.strategy_score.clone();a.last_reward.fill_(1);logic_586(a,w);assert torch.any(a.strategy_score!=b)
