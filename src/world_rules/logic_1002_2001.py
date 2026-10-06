@@ -3544,3 +3544,7 @@ def logic_1876(world):
 def logic_1877(world):
     # algae contribute oxygen; stronger when vegetation is scarce.
     _feedback(world, 'algae', 'oxygen', 1, 'scarcity_gate')
+
+def logic_1878(world):
+    # algae contribute oxygen; stronger when biomass is high.
+    _feedback(world, 'algae', 'oxygen', 1, 'biomass_gate')
