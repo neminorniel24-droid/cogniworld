@@ -1330,3 +1330,8 @@ def test_logic_566():
 def test_logic_567():
  from agent_rules.rules import logic_567
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.trust.clone();a.last_reward.fill_(1);logic_567(a,w);assert torch.any(a.trust!=b)
+
+
+def test_logic_568():
+ from agent_rules.rules import logic_568
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.group_stability.clone();a.last_reward.fill_(1);logic_568(a,w);assert torch.any(a.group_stability!=b)
