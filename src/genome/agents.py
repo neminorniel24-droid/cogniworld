@@ -133,6 +133,26 @@ class Agents:
         self.payoff=torch.zeros(n_agents,device=device)
         self.moves = MOVES.to(device)
 
+    def update_social_context(self, world):
+        """Update local density and neighbor resource/health gaps from the spatial grid."""
+        x, y = self.pos[:, 0], self.pos[:, 1]
+        flat = y * self.world_size + x
+        cells = self.world_size * self.world_size
+        counts = torch.zeros(cells, dtype=torch.float32, device=self.device)
+        energy_sum = torch.zeros(cells, dtype=torch.float32, device=self.device)
+        health_sum = torch.zeros(cells, dtype=torch.float32, device=self.device)
+        ones = torch.ones(self.n, dtype=torch.float32, device=self.device)
+        counts.scatter_add_(0, flat, ones)
+        energy_sum.scatter_add_(0, flat, self.energy)
+        health_sum.scatter_add_(0, flat, self.health)
+        local_count = counts[flat].clamp(min=1.0)
+        local_energy = energy_sum[flat] / local_count
+        local_health = health_sum[flat] / local_count
+        self.local_density = (local_count - 1.0).clamp(min=0.0)
+        self.neighbor_energy_gap = ((local_energy - self.energy) / 200.0).clamp(-1.0, 1.0)
+        self.neighbor_health_gap = (local_health - self.health).clamp(-1.0, 1.0)
+        self.resource_competition = (self.local_density / (self.local_density + 1.0)).clamp(0.0, 1.0)
+
     def shelter_here(self, world) -> torch.Tensor:
         x, y = self.pos[:, 0], self.pos[:, 1]
         return world.shelter[y, x]

@@ -48,6 +48,7 @@ def main():
     step = 0
     while running and step < config["max_steps"]:
         world.step()
+        agents.update_social_context(world)
 
         apply_agent_rules(agents,world)
         sensors = agents.sense(world)
