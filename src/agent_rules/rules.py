@@ -974,3 +974,5 @@ def logic_805(agents,world):
     agents.cooperation=_delta(agents.cooperation,+0.002*agents.confidence)
 def logic_806(agents,world):
     agents.defection=_delta(agents.defection,+0.002*agents.strategy_confidence)
+def logic_807(agents,world):
+    agents.aggression=_delta(agents.aggression,+0.002*agents.future_help)
