@@ -2805,3 +2805,7 @@ def logic_2699(world):
 def logic_2700(world):
     # detritus fuels decomposition; capacity coupling.
     _couple(world,'detritus','decomposition_rate',0.5,'positive')
+
+def logic_2701(world):
+    # detritus fuels decomposition; reserve coupling.
+    _couple(world,'detritus','decomposition_rate',0.9,'positive')
