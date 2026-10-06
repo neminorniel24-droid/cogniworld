@@ -291,3 +291,5 @@ from .logic_146_predation_creates_carrion import apply as logic_146
 RULES.append(logic_146)
 from .logic_147_carrion_decomposition_adds_decomposition import apply as logic_147
 RULES.append(logic_147)
+from .logic_148_vegetation_raises_biodiversity import apply as logic_148
+RULES.append(logic_148)

@@ -399,3 +399,11 @@ def test_logic_147():
     w.decomposition_rate.zero_()
     apply(w)
     assert torch.allclose(w.decomposition_rate, torch.full_like(w.decomposition_rate, 0.006))
+
+def test_logic_148():
+    from world_rules.logic_148_vegetation_raises_biodiversity import apply
+    w = make_world()
+    w.vegetation.fill_(1.0)
+    w.biodiversity.zero_()
+    apply(w)
+    assert torch.allclose(w.biodiversity, torch.full_like(w.biodiversity, 0.005))
