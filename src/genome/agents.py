@@ -27,6 +27,10 @@ class Agents:
 
         self.pos = torch.randint(0, world_size, (n_agents, 2), device=device)
         self.energy = torch.full((n_agents,), start_energy, device=device)
+        # Resource-state signals used by the agent causal-rule layer.
+        self.energy_surplus = torch.zeros(n_agents, dtype=torch.float32, device=device)
+        self.resource_scarcity = torch.zeros(n_agents, dtype=torch.float32, device=device)
+        self.resource_abundance = torch.zeros(n_agents, dtype=torch.float32, device=device)
         self.alive = torch.ones(n_agents, dtype=torch.bool, device=device)
         # scarcity tracking: consecutive ticks since this agent last ate.
         # feeds migration pressure (see migration/pressure.py) -- an agent
@@ -160,12 +164,18 @@ class Agents:
     def act(self, action_logits: torch.Tensor, world, move_cost: float, metabolism_cost: float, max_energy: float = 200.0,
              food_energy_value: float = 40.0):
         """Move each alive agent toward its argmax action, consume energy, eat food."""
-        # Brain outputs two independent decisions:
-        #   logits 0:4 -> movement (N/S/E/W)
-        #   logits 4:8 -> strategy (share/attack/defend/wait)
+        # Brain outputs movement logits first. Strategy logits are optional
+        # for backward compatibility with the original 4-action callers.
         move_action = torch.argmax(action_logits[:, :4], dim=1)
-        strategy_action = torch.argmax(action_logits[:, 4:8], dim=1)
-        self.last_action = strategy_action.clone()
+
+        if action_logits.shape[1] >= 8:
+            # logits 4:8 -> strategy (share/attack/defend/wait)
+            strategy_action = torch.argmax(action_logits[:, 4:8], dim=1)
+        else:
+            # Legacy 4-action brains have no strategy head: wait.
+            strategy_action = torch.zeros_like(move_action)
+
+        self.last_action = move_action.clone()
         delta = self.moves[move_action]  # [N, 2]
 
         new_pos = self.pos + delta
@@ -181,7 +191,8 @@ class Agents:
         self.energy += eaten * food_energy_value  # food -> energy conversion
 
         # Strategic actions: 0=share, 1=attack, 2=defend, 3=wait.
-        self.last_interaction = torch.ones_like(strategy_action, dtype=torch.float32)
+        self.last_strategy_action = strategy_action.clone()
+        self.last_interaction = (strategy_action != 3).float()
         self.help_given += (strategy_action == 0).float() * 0.01
         self.aggression += (strategy_action == 1).float() * 0.01
         self.defense_score += (strategy_action == 2).float() * 0.01
