@@ -97,3 +97,7 @@ def logic_2022(world):
 def logic_2023(world):
     # soil moisture supports vegetation; inverse coupling.
     _couple(world,'soil_moisture','vegetation',1.0,'negative')
+
+def logic_2024(world):
+    # soil moisture supports vegetation; limited coupling.
+    _couple(world,'soil_moisture','vegetation',0.65,'positive')
