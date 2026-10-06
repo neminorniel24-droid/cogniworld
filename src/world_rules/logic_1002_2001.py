@@ -2000,3 +2000,7 @@ def logic_1490(world):
 def logic_1491(world):
     # photosynthesis builds biomass; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'photosynthesis_factor', 'biomass', 1, 'recovery')
+
+def logic_1492(world):
+    # nutrients support vegetation; direct.
+    _feedback(world, 'nutrients', 'vegetation', 1, 'baseline')
