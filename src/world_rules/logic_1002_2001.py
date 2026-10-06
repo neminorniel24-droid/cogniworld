@@ -824,3 +824,7 @@ def logic_1196(world):
 def logic_1197(world):
     # humidity promotes cloud formation; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'humidity', 'cloud', 1, 'recovery')
+
+def logic_1198(world):
+    # cloud water produces rain; direct.
+    _feedback(world, 'cloud', 'rain', 1, 'baseline')
