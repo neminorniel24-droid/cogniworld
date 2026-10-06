@@ -1121,3 +1121,7 @@ def logic_2278(world):
 def logic_2279(world):
     # flowers support pollinators; counterpressure coupling.
     _couple(world,'flowers','pollinators',0.8,'negative')
+
+def logic_2280(world):
+    # flowers support pollinators; capacity coupling.
+    _couple(world,'flowers','pollinators',0.5,'positive')
