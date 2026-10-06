@@ -1770,3 +1770,7 @@ def logic_3434(agents, world):
 def logic_3435(agents, world):
     # surface_water -> help_drive; persistence coupling.
     _update(agents, 'help_drive', _desired(agents, world, 'surface_water', 'help_drive', 'persistence'))
+
+def logic_3436(agents, world):
+    # surface_water -> social_avoidance; direct coupling.
+    _update(agents, 'social_avoidance', _desired(agents, world, 'surface_water', 'social_avoidance', 'direct'))
