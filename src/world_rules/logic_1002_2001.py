@@ -2220,3 +2220,7 @@ def logic_1545(world):
 def logic_1546(world):
     # deadwood feeds organic matter; activates above a food threshold.
     _feedback(world, 'deadwood', 'organic_matter', 1, 'threshold')
+
+def logic_1547(world):
+    # deadwood feeds organic matter; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'deadwood', 'organic_matter', 1, 'recovery')
