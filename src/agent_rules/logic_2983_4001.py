@@ -1266,3 +1266,7 @@ def logic_3308(agents, world):
 def logic_3309(agents, world):
     # surface_water -> trust; persistence coupling.
     _update(agents, 'trust', _desired(agents, world, 'surface_water', 'trust', 'persistence'))
+
+def logic_3310(agents, world):
+    # surface_water -> cooperation; direct coupling.
+    _update(agents, 'cooperation', _desired(agents, world, 'surface_water', 'cooperation', 'direct'))
