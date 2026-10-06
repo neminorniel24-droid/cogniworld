@@ -180,3 +180,5 @@ def logic_389(agents,world):
  v=_local(world,agents,'pollinators');agents.reproduction_drive=_delta(agents.reproduction_drive,v*0.001)
 def logic_390(agents,world):
  v=_local(world,agents,'flowers');agents.food_access=_delta(agents.food_access,v*0.001)
+def logic_391(agents,world):
+ v=_local(world,agents,'flowers');agents.health=_delta(agents.health,v*0.001)
