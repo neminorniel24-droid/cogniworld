@@ -1110,3 +1110,7 @@ def logic_3269(agents, world):
 def logic_3270(agents, world):
     # surface_water -> social_tolerance; threshold coupling.
     _update(agents, 'social_tolerance', _desired(agents, world, 'surface_water', 'social_tolerance', 'threshold'))
+
+def logic_3271(agents, world):
+    # surface_water -> social_tolerance; strong coupling.
+    _update(agents, 'social_tolerance', _desired(agents, world, 'surface_water', 'social_tolerance', 'strong'))
