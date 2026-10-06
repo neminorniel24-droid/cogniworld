@@ -1273,3 +1273,7 @@ def logic_2316(world):
 def logic_2317(world):
     # habitat stress suppresses vegetation; pulse coupling.
     _couple(world,'habitat_stress','vegetation',1.0,'pulse')
+
+def logic_2318(world):
+    # habitat stress suppresses vegetation; feedback coupling.
+    _couple(world,'habitat_stress','vegetation',0.8,'positive')
