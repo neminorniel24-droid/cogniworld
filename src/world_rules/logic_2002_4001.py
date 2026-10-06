@@ -1265,3 +1265,7 @@ def logic_2314(world):
 def logic_2315(world):
     # habitat stress suppresses vegetation; strong coupling.
     _couple(world,'habitat_stress','vegetation',1.35,'positive')
+
+def logic_2316(world):
+    # habitat stress suppresses vegetation; threshold coupling.
+    _couple(world,'habitat_stress','vegetation',1.0,'threshold')
