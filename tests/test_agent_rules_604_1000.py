@@ -816,3 +816,6 @@ def test_logic_889():
 def test_logic_890():
     from agent_rules.rules import logic_890
     _check(logic_890, 'strategy_score', 'strategy_confidence', 1)
+def test_logic_891():
+    from agent_rules.rules import logic_891
+    _check(logic_891, 'cooperation_score', 'risk_tolerance', 1)
