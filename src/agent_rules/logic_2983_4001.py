@@ -434,3 +434,7 @@ def logic_3100(agents, world):
 def logic_3101(agents, world):
     # surface_water -> infection_risk; inverse coupling.
     _update(agents, 'infection_risk', _desired(agents, world, 'surface_water', 'infection_risk', 'inverse'))
+
+def logic_3102(agents, world):
+    # surface_water -> infection_risk; threshold coupling.
+    _update(agents, 'infection_risk', _desired(agents, world, 'surface_water', 'infection_risk', 'threshold'))
