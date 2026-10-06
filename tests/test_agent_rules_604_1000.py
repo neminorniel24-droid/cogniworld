@@ -537,3 +537,6 @@ def test_logic_796():
 def test_logic_797():
     from agent_rules.rules import logic_797
     _check(logic_797, 'group_stability', 'cooperation_score', 1)
+def test_logic_798():
+    from agent_rules.rules import logic_798
+    _check(logic_798, 'sharing_capacity', 'competition_score', 1)

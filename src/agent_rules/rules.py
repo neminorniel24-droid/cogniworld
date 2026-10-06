@@ -956,3 +956,5 @@ def logic_796(agents,world):
     agents.gratitude=_delta(agents.gratitude,-0.002*agents.territoriality)
 def logic_797(agents,world):
     agents.cooperation_score=_delta(agents.cooperation_score,+0.002*agents.group_stability)
+def logic_798(agents,world):
+    agents.competition_score=_delta(agents.competition_score,+0.002*agents.sharing_capacity)
