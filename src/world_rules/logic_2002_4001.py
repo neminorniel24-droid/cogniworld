@@ -1677,3 +1677,7 @@ def logic_2417(world):
 def logic_2418(world):
     # photosynthetic efficiency supports vegetation; feedback coupling.
     _couple(world,'photosynthesis_factor','vegetation',0.8,'positive')
+
+def logic_2419(world):
+    # photosynthetic efficiency supports vegetation; counterpressure coupling.
+    _couple(world,'photosynthesis_factor','vegetation',0.8,'negative')
