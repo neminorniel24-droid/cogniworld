@@ -624,3 +624,6 @@ def test_logic_825():
 def test_logic_826():
     from agent_rules.rules import logic_826
     _check(logic_826, 'help_score', 'defection_score', 1)
+def test_logic_827():
+    from agent_rules.rules import logic_827
+    _check(logic_827, 'attack_success', 'risk_score', 1)
