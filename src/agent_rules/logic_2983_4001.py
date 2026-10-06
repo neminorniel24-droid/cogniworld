@@ -1046,3 +1046,7 @@ def logic_3253(agents, world):
 def logic_3254(agents, world):
     # surface_water -> habitat_stress; direct coupling.
     _update(agents, 'habitat_stress', _desired(agents, world, 'surface_water', 'habitat_stress', 'direct'))
+
+def logic_3255(agents, world):
+    # surface_water -> habitat_stress; inverse coupling.
+    _update(agents, 'habitat_stress', _desired(agents, world, 'surface_water', 'habitat_stress', 'inverse'))
