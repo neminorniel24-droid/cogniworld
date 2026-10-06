@@ -1160,3 +1160,7 @@ def logic_1280(world):
 def logic_1281(world):
     # warmth melts surface ice; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'temperature', 'surface_ice', -1, 'recovery')
+
+def logic_1282(world):
+    # wind enhances evaporation; direct.
+    _feedback(world, 'wind_x', 'evaporation', 1, 'baseline')
