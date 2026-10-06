@@ -696,3 +696,6 @@ def test_logic_849():
 def test_logic_850():
     from agent_rules.rules import logic_850
     _check(logic_850, 'last_energy_delta', 'survival_score', 1)
+def test_logic_851():
+    from agent_rules.rules import logic_851
+    _check(logic_851, 'last_food', 'reproduction_score', 1)
