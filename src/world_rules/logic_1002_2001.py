@@ -3336,3 +3336,7 @@ def logic_1824(world):
 def logic_1825(world):
     # diverse communities dilute pathogens; saturates at high source levels.
     _feedback(world, 'biodiversity', 'pathogen_load', -1, 'saturation')
+
+def logic_1826(world):
+    # diverse communities dilute pathogens; activates above a food threshold.
+    _feedback(world, 'biodiversity', 'pathogen_load', -1, 'threshold')
