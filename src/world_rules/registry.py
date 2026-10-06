@@ -451,3 +451,5 @@ from .logic_226_algae_raises_pathogen_load import apply as logic_226
 RULES.append(logic_226)
 from .logic_227_oxygen_stresses_anaerobic_algae import apply as logic_227
 RULES.append(logic_227)
+from .logic_228_low_oxygen_increases_methane import apply as logic_228
+RULES.append(logic_228)

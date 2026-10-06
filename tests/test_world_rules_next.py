@@ -994,3 +994,8 @@ def test_logic_227():
     from world_rules.logic_227_oxygen_stresses_anaerobic_algae import apply
     w = make_world()
     w.algae.fill_(1.0); w.oxygen.fill_(1.0); apply(w); assert torch.allclose(w.algae, torch.full_like(w.algae, 0.999))
+
+def test_logic_228():
+    from world_rules.logic_228_low_oxygen_increases_methane import apply
+    w = make_world()
+    w.methane.zero_(); w.oxygen.zero_(); apply(w); assert torch.allclose(w.methane, torch.full_like(w.methane, 0.004))
