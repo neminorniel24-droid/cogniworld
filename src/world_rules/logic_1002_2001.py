@@ -2308,3 +2308,7 @@ def logic_1567(world):
 def logic_1568(world):
     # fire consumes deadwood; stronger when surface water is high.
     _feedback(world, 'fire_risk', 'deadwood', -1, 'water_gate')
+
+def logic_1569(world):
+    # fire consumes deadwood; stronger when vegetation is scarce.
+    _feedback(world, 'fire_risk', 'deadwood', -1, 'scarcity_gate')
