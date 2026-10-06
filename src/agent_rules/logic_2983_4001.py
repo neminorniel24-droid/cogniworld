@@ -1842,3 +1842,7 @@ def logic_3452(agents, world):
 def logic_3453(agents, world):
     # surface_water -> selfishness; strong coupling.
     _update(agents, 'selfishness', _desired(agents, world, 'surface_water', 'selfishness', 'strong'))
+
+def logic_3454(agents, world):
+    # surface_water -> selfishness; limited coupling.
+    _update(agents, 'selfishness', _desired(agents, world, 'surface_water', 'selfishness', 'limited'))
