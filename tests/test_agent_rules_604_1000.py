@@ -135,3 +135,6 @@ def test_logic_662():
 def test_logic_663():
     from agent_rules.rules import logic_663
     _check(logic_663, 'hydration', 'caution', 1)
+def test_logic_664():
+    from agent_rules.rules import logic_664
+    _check(logic_664, 'thirst', 'confidence', -1)
