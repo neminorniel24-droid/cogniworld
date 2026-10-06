@@ -1696,3 +1696,7 @@ def logic_1414(world):
 def logic_1415(world):
     # roots retain soil; stronger when vegetation is scarce.
     _feedback(world, 'root_density', 'soil_depth', 1, 'scarcity_gate')
+
+def logic_1416(world):
+    # roots retain soil; stronger when biomass is high.
+    _feedback(world, 'root_density', 'soil_depth', 1, 'biomass_gate')
