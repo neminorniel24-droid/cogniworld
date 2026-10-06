@@ -2504,3 +2504,7 @@ def logic_1616(world):
 def logic_1617(world):
     # fire releases stored carbon; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'fire_risk', 'carbon_storage', -1, 'recovery')
+
+def logic_1618(world):
+    # ash alters soil carbon inputs; direct.
+    _feedback(world, 'ash', 'soil_carbon', 1, 'baseline')
