@@ -449,3 +449,7 @@ def logic_2110(world):
 def logic_2111(world):
     # wind increases evaporative loss; reserve coupling.
     _couple(world,'wind_x','evaporation',0.9,'positive')
+
+def logic_2112(world):
+    # open water adds humidity; direct coupling.
+    _couple(world,'surface_water','humidity',1.0,'positive')
