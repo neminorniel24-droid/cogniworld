@@ -494,3 +494,5 @@ def logic_546(agents,world):
  signal=torch.sigmoid(agents.last_reward*0.05+agents.last_action.float()*0.02);agents.reputation=_delta(agents.reputation,signal*0.001)
 def logic_547(agents,world):
  signal=torch.sigmoid(agents.last_reward*0.05+agents.last_action.float()*0.02);agents.fitness_score=_delta(agents.fitness_score,signal*0.001)
+def logic_548(agents,world):
+ signal=torch.sigmoid(agents.last_reward*0.05+agents.last_action.float()*0.02);agents.reproduction_score=_delta(agents.reproduction_score,signal*0.001)
