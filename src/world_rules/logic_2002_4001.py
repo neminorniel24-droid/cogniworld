@@ -2613,3 +2613,7 @@ def logic_2651(world):
 def logic_2652(world):
     # pollinators improve flower persistence; direct coupling.
     _couple(world,'pollinators','flowers',1.0,'positive')
+
+def logic_2653(world):
+    # pollinators improve flower persistence; inverse coupling.
+    _couple(world,'pollinators','flowers',1.0,'negative')
