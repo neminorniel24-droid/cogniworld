@@ -2296,3 +2296,7 @@ def logic_1564(world):
 def logic_1565(world):
     # fire consumes deadwood; stronger when temperature is high.
     _feedback(world, 'fire_risk', 'deadwood', -1, 'heat_gate')
+
+def logic_1566(world):
+    # fire consumes deadwood; stronger when temperature is low.
+    _feedback(world, 'fire_risk', 'deadwood', -1, 'cold_gate')
