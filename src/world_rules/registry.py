@@ -233,3 +233,5 @@ from .logic_117_roots_reduce_erosion import apply as logic_117
 RULES.append(logic_117)
 from .logic_118_canopy_intercepts_rain import apply as logic_118
 RULES.append(logic_118)
+from .logic_119_wetlands_reduce_runoff import apply as logic_119
+RULES.append(logic_119)

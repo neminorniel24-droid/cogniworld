@@ -148,3 +148,12 @@ def test_logic_118():
     w.soil_moisture.zero_()
     apply(w)
     assert torch.allclose(w.soil_moisture, torch.full_like(w.soil_moisture, 0.01))
+
+def test_logic_119():
+    from world_rules.logic_119_wetlands_reduce_runoff import apply
+    w = make_world()
+    w.wetland.fill_(1.0)
+    w.runoff.fill_(1.0)
+    before=w.runoff.clone()
+    apply(w)
+    assert torch.all(w.runoff < before)
