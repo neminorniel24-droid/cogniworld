@@ -509,3 +509,7 @@ def logic_2125(world):
 def logic_2126(world):
     # surface water recharges groundwater; threshold coupling.
     _couple(world,'surface_water','groundwater',1.0,'threshold')
+
+def logic_2127(world):
+    # surface water recharges groundwater; pulse coupling.
+    _couple(world,'surface_water','groundwater',1.0,'pulse')
