@@ -2664,3 +2664,7 @@ def logic_1656(world):
 def logic_1657(world):
     # flowers support pollinators; saturates at high source levels.
     _feedback(world, 'flowers', 'pollinators', 1, 'saturation')
+
+def logic_1658(world):
+    # flowers support pollinators; activates above a food threshold.
+    _feedback(world, 'flowers', 'pollinators', 1, 'threshold')
