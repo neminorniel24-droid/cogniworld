@@ -3677,3 +3677,7 @@ def logic_2917(world):
 def logic_2918(world):
     # methane flux changes carbon balance; feedback coupling.
     _couple(world,'methane','carbon_storage',0.8,'positive')
+
+def logic_2919(world):
+    # methane flux changes carbon balance; counterpressure coupling.
+    _couple(world,'methane','carbon_storage',0.8,'negative')
