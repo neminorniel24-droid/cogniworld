@@ -1200,3 +1200,7 @@ def logic_1290(world):
 def logic_1291(world):
     # wind enhances evaporation; stronger under habitat stress.
     _feedback(world, 'wind_x', 'evaporation', 1, 'stress_gate')
+
+def logic_1292(world):
+    # wind enhances evaporation; modulated by temperature.
+    _feedback(world, 'wind_x', 'evaporation', 1, 'seasonal_gate')
