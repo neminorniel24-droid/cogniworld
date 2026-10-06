@@ -261,3 +261,6 @@ def test_logic_704():
 def test_logic_705():
     from agent_rules.rules import logic_705
     _check(logic_705, 'hunger', 'resource_competition', 1)
+def test_logic_706():
+    from agent_rules.rules import logic_706
+    _check(logic_706, 'thermal_stress', 'risk_score', 1)
