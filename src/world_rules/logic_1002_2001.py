@@ -1872,3 +1872,7 @@ def logic_1458(world):
 def logic_1459(world):
     # biomass contributes oxygen; stronger under habitat stress.
     _feedback(world, 'biomass', 'oxygen', 1, 'stress_gate')
+
+def logic_1460(world):
+    # biomass contributes oxygen; modulated by temperature.
+    _feedback(world, 'biomass', 'oxygen', 1, 'seasonal_gate')
