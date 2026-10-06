@@ -150,3 +150,6 @@ def test_logic_667():
 def test_logic_668():
     from agent_rules.rules import logic_668
     _check(logic_668, 'pathogen_risk', 'sharing_capacity', -1)
+def test_logic_669():
+    from agent_rules.rules import logic_669
+    _check(logic_669, 'infection_risk', 'help_drive', -1)
