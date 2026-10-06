@@ -774,3 +774,7 @@ def logic_3185(agents, world):
 def logic_3186(agents, world):
     # surface_water -> migration_drive; threshold coupling.
     _update(agents, 'migration_drive', _desired(agents, world, 'surface_water', 'migration_drive', 'threshold'))
+
+def logic_3187(agents, world):
+    # surface_water -> migration_drive; strong coupling.
+    _update(agents, 'migration_drive', _desired(agents, world, 'surface_water', 'migration_drive', 'strong'))
