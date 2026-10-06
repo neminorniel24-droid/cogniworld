@@ -78,3 +78,6 @@ def test_logic_643():
 def test_logic_644():
     from agent_rules.rules import logic_644
     _check(logic_644, 'thirst', 'exploration_score', 1)
+def test_logic_645():
+    from agent_rules.rules import logic_645
+    _check(logic_645, 'hunger', 'strategy_score', 1)
