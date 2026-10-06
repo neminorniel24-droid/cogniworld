@@ -1318,3 +1318,5 @@ def logic_977(agents,world):
     agents.strategy_mixing=_delta(agents.strategy_mixing,+0.002*agents.help_given)
 def logic_978(agents,world):
     agents.learning_rate=_delta(agents.learning_rate,+0.002*agents.help_received)
+def logic_979(agents,world):
+    agents.memory_update=_delta(agents.memory_update,+0.002*agents.gratitude)

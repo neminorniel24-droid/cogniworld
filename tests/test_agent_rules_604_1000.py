@@ -1080,3 +1080,6 @@ def test_logic_977():
 def test_logic_978():
     from agent_rules.rules import logic_978
     _check(logic_978, 'help_received', 'learning_rate', 1)
+def test_logic_979():
+    from agent_rules.rules import logic_979
+    _check(logic_979, 'gratitude', 'memory_update', 1)
