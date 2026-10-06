@@ -442,3 +442,11 @@ def test_logic_152():
     w.pathogen_load.zero_()
     apply(w)
     assert torch.allclose(w.pathogen_load, torch.full_like(w.pathogen_load, 0.004))
+
+def test_logic_153():
+    from world_rules.logic_153_wet_soil_supports_pathogen_survival import apply
+    w = make_world()
+    w.soil_moisture.fill_(1.0)
+    w.pathogen_load.zero_()
+    apply(w)
+    assert torch.allclose(w.pathogen_load, torch.full_like(w.pathogen_load, 0.003))
