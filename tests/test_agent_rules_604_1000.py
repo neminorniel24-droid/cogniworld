@@ -1053,3 +1053,6 @@ def test_logic_968():
 def test_logic_969():
     from agent_rules.rules import logic_969
     _check(logic_969, 'risk_score', 'migration_score', 1)
+def test_logic_970():
+    from agent_rules.rules import logic_970
+    _check(logic_970, 'safety_score', 'reproduction_score', 1)
