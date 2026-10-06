@@ -1008,3 +1008,5 @@ def logic_822(agents,world):
     agents.survival_score=_delta(agents.survival_score,+0.002*agents.exploration_score)
 def logic_823(agents,world):
     agents.reproduction_score=_delta(agents.reproduction_score,+0.002*agents.foraging_score)
+def logic_824(agents,world):
+    agents.strategy_score=_delta(agents.strategy_score,+0.002*agents.survival_score)
