@@ -750,3 +750,7 @@ def logic_3179(agents, world):
 def logic_3180(agents, world):
     # surface_water -> reproduction_drive; scarcity coupling.
     _update(agents, 'reproduction_drive', _desired(agents, world, 'surface_water', 'reproduction_drive', 'scarcity'))
+
+def logic_3181(agents, world):
+    # surface_water -> reproduction_drive; stress coupling.
+    _update(agents, 'reproduction_drive', _desired(agents, world, 'surface_water', 'reproduction_drive', 'stress'))
