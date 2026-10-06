@@ -3457,3 +3457,7 @@ def logic_2862(world):
 def logic_2863(world):
     # organic matter retains water; inverse coupling.
     _couple(world,'organic_matter','surface_water',1.0,'negative')
+
+def logic_2864(world):
+    # organic matter retains water; limited coupling.
+    _couple(world,'organic_matter','surface_water',0.65,'positive')
