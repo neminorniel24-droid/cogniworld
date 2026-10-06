@@ -865,3 +865,7 @@ def logic_2214(world):
 def logic_2215(world):
     # deadwood feeds organic matter; strong coupling.
     _couple(world,'deadwood','organic_matter',1.35,'positive')
+
+def logic_2216(world):
+    # deadwood feeds organic matter; threshold coupling.
+    _couple(world,'deadwood','organic_matter',1.0,'threshold')
