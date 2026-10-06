@@ -972,3 +972,6 @@ def test_logic_941():
 def test_logic_942():
     from agent_rules.rules import logic_942
     _check(logic_942, 'help_given', 'help_score', 1)
+def test_logic_943():
+    from agent_rules.rules import logic_943
+    _check(logic_943, 'help_received', 'sharing_score', 1)
