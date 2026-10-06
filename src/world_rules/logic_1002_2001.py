@@ -1764,3 +1764,7 @@ def logic_1431(world):
 def logic_1432(world):
     # vegetation stores carbon; modulated by temperature.
     _feedback(world, 'vegetation', 'carbon_storage', 1, 'seasonal_gate')
+
+def logic_1433(world):
+    # vegetation stores carbon; saturates at high source levels.
+    _feedback(world, 'vegetation', 'carbon_storage', 1, 'saturation')
