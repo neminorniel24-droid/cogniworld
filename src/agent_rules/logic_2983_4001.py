@@ -1182,3 +1182,7 @@ def logic_3287(agents, world):
 def logic_3288(agents, world):
     # surface_water -> reputation; feedback coupling.
     _update(agents, 'reputation', _desired(agents, world, 'surface_water', 'reputation', 'feedback'))
+
+def logic_3289(agents, world):
+    # surface_water -> reputation; counterpressure coupling.
+    _update(agents, 'reputation', _desired(agents, world, 'surface_water', 'reputation', 'counterpressure'))
