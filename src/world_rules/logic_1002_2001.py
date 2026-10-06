@@ -1436,3 +1436,7 @@ def logic_1349(world):
 def logic_1350(world):
     # runoff mobilizes sediment; activates above a food threshold.
     _feedback(world, 'runoff', 'sediment', 1, 'threshold')
+
+def logic_1351(world):
+    # runoff mobilizes sediment; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'runoff', 'sediment', 1, 'recovery')
