@@ -84,3 +84,7 @@ def logic_1011(world):
 def logic_1012(world):
     # rainfall raises surface water; modulated by temperature.
     _feedback(world, 'rain', 'surface_water', 1, 'seasonal_gate')
+
+def logic_1013(world):
+    # rainfall raises surface water; saturates at high source levels.
+    _feedback(world, 'rain', 'surface_water', 1, 'saturation')
