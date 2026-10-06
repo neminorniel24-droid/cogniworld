@@ -2612,3 +2612,7 @@ def logic_1643(world):
 def logic_1644(world):
     # soil carbon contributes ecosystem carbon; activates above a food threshold.
     _feedback(world, 'soil_carbon', 'carbon_storage', 1, 'threshold')
+
+def logic_1645(world):
+    # soil carbon contributes ecosystem carbon; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'soil_carbon', 'carbon_storage', 1, 'recovery')
