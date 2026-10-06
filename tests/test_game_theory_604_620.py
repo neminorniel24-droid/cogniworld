@@ -30,3 +30,5 @@ def test_resource_abundance_in_ledger():
     assert "resource_abundance" in _event()
 def test_habitat_stress_in_ledger():
     assert "habitat_stress" in _event()
+def test_last_interaction_in_ledger():
+    assert "last_interaction" in _event()
