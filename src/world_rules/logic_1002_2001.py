@@ -3100,3 +3100,7 @@ def logic_1765(world):
 def logic_1766(world):
     # herbivores support predators; stronger when biomass is high.
     _feedback(world, 'herbivore', 'predator', 1, 'biomass_gate')
+
+def logic_1767(world):
+    # herbivores support predators; stronger under habitat stress.
+    _feedback(world, 'herbivore', 'predator', 1, 'stress_gate')
