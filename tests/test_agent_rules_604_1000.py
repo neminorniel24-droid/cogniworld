@@ -162,3 +162,6 @@ def test_logic_671():
 def test_logic_672():
     from agent_rules.rules import logic_672
     _check(logic_672, 'recovery', 'competition_pressure', 1)
+def test_logic_673():
+    from agent_rules.rules import logic_673
+    _check(logic_673, 'metabolic_cost', 'resource_competition', 1)
