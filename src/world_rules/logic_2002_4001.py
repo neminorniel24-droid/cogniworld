@@ -825,3 +825,7 @@ def logic_2204(world):
 def logic_2205(world):
     # fire removes deadwood; strong coupling.
     _couple(world,'fire_risk','deadwood',1.35,'positive')
+
+def logic_2206(world):
+    # fire removes deadwood; threshold coupling.
+    _couple(world,'fire_risk','deadwood',1.0,'threshold')
