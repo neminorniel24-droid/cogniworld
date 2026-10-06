@@ -894,3 +894,7 @@ def logic_3215(agents, world):
 def logic_3216(agents, world):
     # surface_water -> food_access; limited coupling.
     _update(agents, 'food_access', _desired(agents, world, 'surface_water', 'food_access', 'limited'))
+
+def logic_3217(agents, world):
+    # surface_water -> food_access; pulse coupling.
+    _update(agents, 'food_access', _desired(agents, world, 'surface_water', 'food_access', 'pulse'))
