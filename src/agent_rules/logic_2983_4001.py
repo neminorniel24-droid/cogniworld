@@ -1258,3 +1258,7 @@ def logic_3306(agents, world):
 def logic_3307(agents, world):
     # surface_water -> trust; stress coupling.
     _update(agents, 'trust', _desired(agents, world, 'surface_water', 'trust', 'stress'))
+
+def logic_3308(agents, world):
+    # surface_water -> trust; recovery coupling.
+    _update(agents, 'trust', _desired(agents, world, 'surface_water', 'trust', 'recovery'))
