@@ -54,3 +54,5 @@ def logic_326(agents,world):
  v=_local(world,agents,'wind_x');agents.exploration_drive=_delta(agents.exploration_drive,v*0.001)
 def logic_327(agents,world):
  v=_local(world,agents,'vegetation');agents.hunger=_delta(agents.hunger,v*0.001)
+def logic_328(agents,world):
+ v=_local(world,agents,'vegetation');agents.health=_delta(agents.health,v*0.001)
