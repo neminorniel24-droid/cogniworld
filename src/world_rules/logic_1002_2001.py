@@ -1408,3 +1408,7 @@ def logic_1342(world):
 def logic_1343(world):
     # runoff mobilizes sediment; stronger under fire pressure.
     _feedback(world, 'runoff', 'sediment', 1, 'fire_gate')
+
+def logic_1344(world):
+    # runoff mobilizes sediment; stronger when surface water is high.
+    _feedback(world, 'runoff', 'sediment', 1, 'water_gate')
