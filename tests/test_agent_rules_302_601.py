@@ -700,3 +700,8 @@ def test_logic_440():
 def test_logic_441():
  from agent_rules.rules import logic_441
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.aggression.clone();a.defection.fill_(1);logic_441(a,w);assert torch.any(a.aggression!=b)
+
+
+def test_logic_442():
+ from agent_rules.rules import logic_442
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.risk_tolerance.clone();a.help_received.fill_(1);logic_442(a,w);assert torch.any(a.risk_tolerance!=b)

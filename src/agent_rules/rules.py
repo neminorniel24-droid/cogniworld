@@ -282,3 +282,5 @@ def logic_440(agents,world):
  v=torch.clamp(agents.defection,0,2);agents.fear=_delta(agents.fear,v*0.001)
 def logic_441(agents,world):
  v=torch.clamp(agents.defection,0,2);agents.aggression=_delta(agents.aggression,v*0.001)
+def logic_442(agents,world):
+ v=torch.clamp(agents.help_received,0,2);agents.risk_tolerance=_delta(agents.risk_tolerance,v*0.001)
