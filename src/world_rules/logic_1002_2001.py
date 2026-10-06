@@ -3740,3 +3740,7 @@ def logic_1925(world):
 def logic_1926(world):
     # CO2 increases warming pressure; direct.
     _feedback(world, 'co2', 'temperature', 1, 'baseline')
+
+def logic_1927(world):
+    # CO2 increases warming pressure; stronger when soil is dry.
+    _feedback(world, 'co2', 'temperature', 1, 'dry_gate')
