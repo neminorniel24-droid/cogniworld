@@ -1876,3 +1876,7 @@ def logic_1459(world):
 def logic_1460(world):
     # biomass contributes oxygen; modulated by temperature.
     _feedback(world, 'biomass', 'oxygen', 1, 'seasonal_gate')
+
+def logic_1461(world):
+    # biomass contributes oxygen; saturates at high source levels.
+    _feedback(world, 'biomass', 'oxygen', 1, 'saturation')
