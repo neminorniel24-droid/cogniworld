@@ -2246,3 +2246,7 @@ def logic_3553(agents, world):
 def logic_3554(agents, world):
     # surface_water -> resource_discovery; feedback coupling.
     _update(agents, 'resource_discovery', _desired(agents, world, 'surface_water', 'resource_discovery', 'feedback'))
+
+def logic_3555(agents, world):
+    # surface_water -> resource_discovery; counterpressure coupling.
+    _update(agents, 'resource_discovery', _desired(agents, world, 'surface_water', 'resource_discovery', 'counterpressure'))
