@@ -3078,3 +3078,7 @@ def logic_3761(agents, world):
 def logic_3762(agents, world):
     # surface_water -> migration_score; limited coupling.
     _update(agents, 'migration_score', _desired(agents, world, 'surface_water', 'migration_score', 'limited'))
+
+def logic_3763(agents, world):
+    # surface_water -> migration_score; pulse coupling.
+    _update(agents, 'migration_score', _desired(agents, world, 'surface_water', 'migration_score', 'pulse'))
