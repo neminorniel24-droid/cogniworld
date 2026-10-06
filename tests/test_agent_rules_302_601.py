@@ -810,3 +810,8 @@ def test_logic_462():
 def test_logic_463():
  from agent_rules.rules import logic_463
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.help_drive.clone();a.betrayal_memory.fill_(1);logic_463(a,w);assert torch.any(a.help_drive!=b)
+
+
+def test_logic_464():
+ from agent_rules.rules import logic_464
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.territoriality.clone();a.betrayal_memory.fill_(1);logic_464(a,w);assert torch.any(a.territoriality!=b)
