@@ -1742,3 +1742,7 @@ def logic_3427(agents, world):
 def logic_3428(agents, world):
     # surface_water -> help_drive; feedback coupling.
     _update(agents, 'help_drive', _desired(agents, world, 'surface_water', 'help_drive', 'feedback'))
+
+def logic_3429(agents, world):
+    # surface_water -> help_drive; counterpressure coupling.
+    _update(agents, 'help_drive', _desired(agents, world, 'surface_water', 'help_drive', 'counterpressure'))
