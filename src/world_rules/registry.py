@@ -5000,3 +5000,6 @@ RULES.append(logic_2800)
 
 from .logic_2002_4001 import logic_2801
 RULES.append(logic_2801)
+
+from .logic_2002_4001 import logic_2802
+RULES.append(logic_2802)

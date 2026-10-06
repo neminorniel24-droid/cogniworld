@@ -3209,3 +3209,7 @@ def logic_2800(world):
 def logic_2801(world):
     # salinity changes water suitability; reserve coupling.
     _couple(world,'salinity','surface_water',0.9,'positive')
+
+def logic_2802(world):
+    # snow cover buffers ground temperature; direct coupling.
+    _couple(world,'snowpack','temperature',1.0,'positive')
