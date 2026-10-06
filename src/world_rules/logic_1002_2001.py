@@ -3768,3 +3768,7 @@ def logic_1932(world):
 def logic_1933(world):
     # CO2 increases warming pressure; stronger when vegetation is scarce.
     _feedback(world, 'co2', 'temperature', 1, 'scarcity_gate')
+
+def logic_1934(world):
+    # CO2 increases warming pressure; stronger when biomass is high.
+    _feedback(world, 'co2', 'temperature', 1, 'biomass_gate')
