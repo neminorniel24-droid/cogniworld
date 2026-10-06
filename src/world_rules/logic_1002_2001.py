@@ -3692,3 +3692,7 @@ def logic_1913(world):
 def logic_1914(world):
     # methane increases warming pressure; stronger when soil is wet.
     _feedback(world, 'methane', 'temperature', 1, 'wet_gate')
+
+def logic_1915(world):
+    # methane increases warming pressure; stronger when temperature is high.
+    _feedback(world, 'methane', 'temperature', 1, 'heat_gate')
