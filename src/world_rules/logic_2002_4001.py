@@ -361,3 +361,7 @@ def logic_2088(world):
 def logic_2089(world):
     # heat increases evaporation; counterpressure coupling.
     _couple(world,'temperature','evaporation',0.8,'negative')
+
+def logic_2090(world):
+    # heat increases evaporation; capacity coupling.
+    _couple(world,'temperature','evaporation',0.5,'positive')
