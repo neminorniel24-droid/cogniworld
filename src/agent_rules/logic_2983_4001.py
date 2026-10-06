@@ -3030,3 +3030,7 @@ def logic_3749(agents, world):
 def logic_3750(agents, world):
     # surface_water -> defense_score; feedback coupling.
     _update(agents, 'defense_score', _desired(agents, world, 'surface_water', 'defense_score', 'feedback'))
+
+def logic_3751(agents, world):
+    # surface_water -> defense_score; counterpressure coupling.
+    _update(agents, 'defense_score', _desired(agents, world, 'surface_water', 'defense_score', 'counterpressure'))
