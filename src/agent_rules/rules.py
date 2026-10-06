@@ -522,3 +522,5 @@ def logic_560(agents,world):
  signal=torch.sigmoid(agents.last_reward*0.05+agents.last_action.float()*0.02);agents.group_stability=_delta(agents.group_stability,signal*0.001)
 def logic_561(agents,world):
  signal=torch.sigmoid(agents.last_reward*0.05+agents.last_action.float()*0.02);agents.future_help=_delta(agents.future_help,signal*0.001)
+def logic_562(agents,world):
+ signal=torch.sigmoid(agents.last_reward*0.05+agents.last_action.float()*0.02);agents.reputation=_delta(agents.reputation,signal*0.001)
