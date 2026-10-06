@@ -1661,3 +1661,7 @@ def logic_2413(world):
 def logic_2414(world):
     # photosynthetic efficiency supports vegetation; limited coupling.
     _couple(world,'photosynthesis_factor','vegetation',0.65,'positive')
+
+def logic_2415(world):
+    # photosynthetic efficiency supports vegetation; strong coupling.
+    _couple(world,'photosynthesis_factor','vegetation',1.35,'positive')
