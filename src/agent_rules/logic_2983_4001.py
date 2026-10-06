@@ -1334,3 +1334,7 @@ def logic_3325(agents, world):
 def logic_3326(agents, world):
     # surface_water -> defection; threshold coupling.
     _update(agents, 'defection', _desired(agents, world, 'surface_water', 'defection', 'threshold'))
+
+def logic_3327(agents, world):
+    # surface_water -> defection; strong coupling.
+    _update(agents, 'defection', _desired(agents, world, 'surface_water', 'defection', 'strong'))
