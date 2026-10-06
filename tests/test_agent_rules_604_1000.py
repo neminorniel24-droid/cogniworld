@@ -444,3 +444,6 @@ def test_logic_765():
 def test_logic_766():
     from agent_rules.rules import logic_766
     _check(logic_766, 'strategy_confidence', 'reciprocity_score', 1)
+def test_logic_767():
+    from agent_rules.rules import logic_767
+    _check(logic_767, 'future_help', 'help_score', 1)
