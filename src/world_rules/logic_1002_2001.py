@@ -2704,3 +2704,7 @@ def logic_1666(world):
 def logic_1667(world):
     # pollination sustains flowering; stronger when vegetation is scarce.
     _feedback(world, 'pollinators', 'flowers', 1, 'scarcity_gate')
+
+def logic_1668(world):
+    # pollination sustains flowering; stronger when biomass is high.
+    _feedback(world, 'pollinators', 'flowers', 1, 'biomass_gate')
