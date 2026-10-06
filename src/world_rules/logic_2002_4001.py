@@ -53,3 +53,7 @@ def logic_2011(world):
 def logic_2012(world):
     # rainfall wets soil; direct coupling.
     _couple(world,'rain','soil_moisture',1.0,'positive')
+
+def logic_2013(world):
+    # rainfall wets soil; inverse coupling.
+    _couple(world,'rain','soil_moisture',1.0,'negative')
