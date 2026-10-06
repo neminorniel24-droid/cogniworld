@@ -3510,3 +3510,7 @@ def logic_3869(agents, world):
 def logic_3870(agents, world):
     # surface_water -> self_preservation; direct coupling.
     _update(agents, 'self_preservation', _desired(agents, world, 'surface_water', 'self_preservation', 'direct'))
+
+def logic_3871(agents, world):
+    # surface_water -> self_preservation; inverse coupling.
+    _update(agents, 'self_preservation', _desired(agents, world, 'surface_water', 'self_preservation', 'inverse'))
