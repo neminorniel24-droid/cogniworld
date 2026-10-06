@@ -2080,3 +2080,7 @@ def logic_1510(world):
 def logic_1511(world):
     # organic matter mineralizes nutrients; stronger under fire pressure.
     _feedback(world, 'organic_matter', 'nutrients', 1, 'fire_gate')
+
+def logic_1512(world):
+    # organic matter mineralizes nutrients; stronger when surface water is high.
+    _feedback(world, 'organic_matter', 'nutrients', 1, 'water_gate')
