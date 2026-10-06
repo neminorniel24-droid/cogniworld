@@ -3113,3 +3113,6 @@ RULES.append(logic_2171)
 
 from .logic_2002_4001 import logic_2172
 RULES.append(logic_2172)
+
+from .logic_2002_4001 import logic_2173
+RULES.append(logic_2173)
