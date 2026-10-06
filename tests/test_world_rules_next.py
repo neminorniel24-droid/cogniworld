@@ -1069,3 +1069,8 @@ def test_logic_242():
     from world_rules.logic_242_moderate_temperature_supports_flowers import apply
     w = make_world()
     w.flowers.zero_(); w.temperature.fill_(0.5); apply(w); assert torch.allclose(w.flowers, torch.full_like(w.flowers, 0.01))
+
+def test_logic_243():
+    from world_rules.logic_243_flowers_store_seed_bank import apply
+    w = make_world()
+    w.seed_bank.zero_(); w.flowers.fill_(1.0); apply(w); assert torch.allclose(w.seed_bank, torch.full_like(w.seed_bank, 0.008))

@@ -481,3 +481,5 @@ from .logic_241_pollinators_increase_flowering import apply as logic_241
 RULES.append(logic_241)
 from .logic_242_moderate_temperature_supports_flowers import apply as logic_242
 RULES.append(logic_242)
+from .logic_243_flowers_store_seed_bank import apply as logic_243
+RULES.append(logic_243)
