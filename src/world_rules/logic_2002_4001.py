@@ -613,3 +613,7 @@ def logic_2151(world):
 def logic_2152(world):
     # snowmelt feeds groundwater; direct coupling.
     _couple(world,'snowpack','groundwater',1.0,'positive')
+
+def logic_2153(world):
+    # snowmelt feeds groundwater; inverse coupling.
+    _couple(world,'snowpack','groundwater',1.0,'negative')
