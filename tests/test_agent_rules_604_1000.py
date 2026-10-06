@@ -1077,3 +1077,6 @@ def test_logic_976():
 def test_logic_977():
     from agent_rules.rules import logic_977
     _check(logic_977, 'help_given', 'strategy_mixing', 1)
+def test_logic_978():
+    from agent_rules.rules import logic_978
+    _check(logic_978, 'help_received', 'learning_rate', 1)
