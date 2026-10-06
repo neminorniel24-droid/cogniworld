@@ -2230,3 +2230,7 @@ def logic_3549(agents, world):
 def logic_3550(agents, world):
     # surface_water -> resource_discovery; threshold coupling.
     _update(agents, 'resource_discovery', _desired(agents, world, 'surface_water', 'resource_discovery', 'threshold'))
+
+def logic_3551(agents, world):
+    # surface_water -> resource_discovery; strong coupling.
+    _update(agents, 'resource_discovery', _desired(agents, world, 'surface_water', 'resource_discovery', 'strong'))
