@@ -2160,3 +2160,7 @@ def logic_1530(world):
 def logic_1531(world):
     # decomposition releases nutrients; saturates at high source levels.
     _feedback(world, 'decomposition_rate', 'nutrients', 1, 'saturation')
+
+def logic_1532(world):
+    # decomposition releases nutrients; activates above a food threshold.
+    _feedback(world, 'decomposition_rate', 'nutrients', 1, 'threshold')
