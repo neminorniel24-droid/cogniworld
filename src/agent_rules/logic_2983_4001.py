@@ -2954,3 +2954,7 @@ def logic_3730(agents, world):
 def logic_3731(agents, world):
     # surface_water -> help_score; inverse coupling.
     _update(agents, 'help_score', _desired(agents, world, 'surface_water', 'help_score', 'inverse'))
+
+def logic_3732(agents, world):
+    # surface_water -> help_score; threshold coupling.
+    _update(agents, 'help_score', _desired(agents, world, 'surface_water', 'help_score', 'threshold'))
