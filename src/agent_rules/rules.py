@@ -364,3 +364,5 @@ def logic_481(agents,world):
  v=torch.clamp(agents.resource_abundance,0,2);agents.defection_threshold=_delta(agents.defection_threshold,v*0.001)
 def logic_482(agents,world):
  v=torch.clamp(agents.local_density,0,2);agents.future_help=_delta(agents.future_help,v*0.001)
+def logic_483(agents,world):
+ v=torch.clamp(agents.local_density,0,2);agents.caution=_delta(agents.caution,v*0.001)
