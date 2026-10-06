@@ -401,3 +401,5 @@ from .logic_201_soil_depth_limits_root_density import apply as logic_201
 RULES.append(logic_201)
 from .logic_202_cold_air_accumulates_snowpack import apply as logic_202
 RULES.append(logic_202)
+from .logic_203_warmth_melts_snowpack import apply as logic_203
+RULES.append(logic_203)

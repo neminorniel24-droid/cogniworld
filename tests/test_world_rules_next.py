@@ -869,3 +869,8 @@ def test_logic_202():
     from world_rules.logic_202_cold_air_accumulates_snowpack import apply
     w = make_world()
     w.temperature.fill_(0.0); apply(w); assert torch.allclose(w.snowpack, torch.full_like(w.snowpack, 0.03))
+
+def test_logic_203():
+    from world_rules.logic_203_warmth_melts_snowpack import apply
+    w = make_world()
+    w.snowpack.fill_(1.0); w.temperature.fill_(1.0); apply(w); assert torch.allclose(w.snowpack, torch.full_like(w.snowpack, 0.95)) and torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.05))
