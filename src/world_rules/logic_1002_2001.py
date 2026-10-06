@@ -1760,3 +1760,7 @@ def logic_1430(world):
 def logic_1431(world):
     # vegetation stores carbon; stronger under habitat stress.
     _feedback(world, 'vegetation', 'carbon_storage', 1, 'stress_gate')
+
+def logic_1432(world):
+    # vegetation stores carbon; modulated by temperature.
+    _feedback(world, 'vegetation', 'carbon_storage', 1, 'seasonal_gate')
