@@ -2016,3 +2016,7 @@ def logic_1494(world):
 def logic_1495(world):
     # nutrients support vegetation; stronger when temperature is high.
     _feedback(world, 'nutrients', 'vegetation', 1, 'heat_gate')
+
+def logic_1496(world):
+    # nutrients support vegetation; stronger when temperature is low.
+    _feedback(world, 'nutrients', 'vegetation', 1, 'cold_gate')
