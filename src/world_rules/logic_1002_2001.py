@@ -1380,3 +1380,7 @@ def logic_1335(world):
 def logic_1336(world):
     # evaporation removes surface water; activates above a food threshold.
     _feedback(world, 'evaporation', 'surface_water', -1, 'threshold')
+
+def logic_1337(world):
+    # evaporation removes surface water; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'evaporation', 'surface_water', -1, 'recovery')
