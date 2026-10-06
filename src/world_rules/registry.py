@@ -581,3 +581,5 @@ from .logic_291_erosion_releases_soil_carbon import apply as logic_291
 RULES.append(logic_291)
 from .logic_292_soil_carbon_reduces_erosion import apply as logic_292
 RULES.append(logic_292)
+from .logic_293_groundwater_reduces_habitat_stress import apply as logic_293
+RULES.append(logic_293)
