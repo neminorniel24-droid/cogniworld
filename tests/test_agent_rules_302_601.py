@@ -335,3 +335,8 @@ def test_logic_367():
 def test_logic_368():
  from agent_rules.rules import logic_368
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.migration_drive.clone();setattr(w,'wetland',torch.ones(4,4));logic_368(a,w);assert torch.any(a.migration_drive!=b)
+
+
+def test_logic_369():
+ from agent_rules.rules import logic_369
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.thermal_stress.clone();setattr(w,'carbon_storage',torch.ones(4,4));logic_369(a,w);assert torch.any(a.thermal_stress!=b)
