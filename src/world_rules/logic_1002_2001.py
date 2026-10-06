@@ -3308,3 +3308,7 @@ def logic_1817(world):
 def logic_1818(world):
     # diverse communities dilute pathogens; stronger when temperature is low.
     _feedback(world, 'biodiversity', 'pathogen_load', -1, 'cold_gate')
+
+def logic_1819(world):
+    # diverse communities dilute pathogens; stronger under fire pressure.
+    _feedback(world, 'biodiversity', 'pathogen_load', -1, 'fire_gate')
