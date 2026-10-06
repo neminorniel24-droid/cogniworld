@@ -1104,3 +1104,5 @@ def logic_870(agents,world):
     agents.exploration_score=_delta(agents.exploration_score,+0.002*agents.last_food)
 def logic_871(agents,world):
     agents.foraging_score=_delta(agents.foraging_score,+0.002*agents.last_interaction)
+def logic_872(agents,world):
+    agents.learning_rate=_delta(agents.learning_rate,+0.002*agents.strategy_score)
