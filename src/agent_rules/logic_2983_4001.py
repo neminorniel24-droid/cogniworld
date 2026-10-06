@@ -1942,3 +1942,7 @@ def logic_3477(agents, world):
 def logic_3478(agents, world):
     # surface_water -> gratitude; direct coupling.
     _update(agents, 'gratitude', _desired(agents, world, 'surface_water', 'gratitude', 'direct'))
+
+def logic_3479(agents, world):
+    # surface_water -> gratitude; inverse coupling.
+    _update(agents, 'gratitude', _desired(agents, world, 'surface_water', 'gratitude', 'inverse'))
