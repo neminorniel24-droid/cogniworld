@@ -1084,3 +1084,7 @@ def logic_1261(world):
 def logic_1262(world):
     # warmth melts ice; stronger when biomass is high.
     _feedback(world, 'temperature', 'ice', -1, 'biomass_gate')
+
+def logic_1263(world):
+    # warmth melts ice; stronger under habitat stress.
+    _feedback(world, 'temperature', 'ice', -1, 'stress_gate')
