@@ -553,3 +553,5 @@ from .logic_277_oxygen_boosts_predator_capacity import apply as logic_277
 RULES.append(logic_277)
 from .logic_278_salinity_stresses_predators import apply as logic_278
 RULES.append(logic_278)
+from .logic_279_predators_reduce_pathogen_load import apply as logic_279
+RULES.append(logic_279)

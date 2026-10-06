@@ -1249,3 +1249,8 @@ def test_logic_278():
     from world_rules.logic_278_salinity_stresses_predators import apply
     w = make_world()
     w.predator.fill_(1.0); w.salinity.fill_(1.0); apply(w); assert torch.allclose(w.predator, torch.full_like(w.predator, 0.9985))
+
+def test_logic_279():
+    from world_rules.logic_279_predators_reduce_pathogen_load import apply
+    w = make_world()
+    w.pathogen_load.fill_(1.0); w.predator.fill_(1.0); apply(w); assert torch.allclose(w.pathogen_load, torch.full_like(w.pathogen_load, 0.999))
