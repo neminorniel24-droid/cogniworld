@@ -140,3 +140,7 @@ def logic_1025(world):
 def logic_1026(world):
     # rainfall wets soil; modulated by temperature.
     _feedback(world, 'rain', 'soil_moisture', 1, 'seasonal_gate')
+
+def logic_1027(world):
+    # rainfall wets soil; saturates at high source levels.
+    _feedback(world, 'rain', 'soil_moisture', 1, 'saturation')
