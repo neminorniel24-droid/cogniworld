@@ -1569,3 +1569,7 @@ def logic_2390(world):
 def logic_2391(world):
     # wetland conditions promote methane; reserve coupling.
     _couple(world,'wetland','methane',0.9,'positive')
+
+def logic_2392(world):
+    # oxygen availability shapes decomposition; direct coupling.
+    _couple(world,'oxygen','decomposition_rate',1.0,'positive')
