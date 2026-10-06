@@ -985,3 +985,8 @@ def test_logic_497():
 def test_logic_498():
  from agent_rules.rules import logic_498
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.exploration_drive.clone();a.risk_tolerance.fill_(1);logic_498(a,w);assert torch.any(a.exploration_drive!=b)
+
+
+def test_logic_499():
+ from agent_rules.rules import logic_499
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.strategy_confidence.clone();a.risk_tolerance.fill_(1);logic_499(a,w);assert torch.any(a.strategy_confidence!=b)
