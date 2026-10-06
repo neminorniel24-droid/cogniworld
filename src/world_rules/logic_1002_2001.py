@@ -1548,3 +1548,7 @@ def logic_1377(world):
 def logic_1378(world):
     # erosion removes soil depth; activates above a food threshold.
     _feedback(world, 'erosion', 'soil_depth', -1, 'threshold')
+
+def logic_1379(world):
+    # erosion removes soil depth; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'erosion', 'soil_depth', -1, 'recovery')
