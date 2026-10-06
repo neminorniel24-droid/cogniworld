@@ -590,3 +590,7 @@ def logic_3139(agents, world):
 def logic_3140(agents, world):
     # surface_water -> fear; recovery coupling.
     _update(agents, 'fear', _desired(agents, world, 'surface_water', 'fear', 'recovery'))
+
+def logic_3141(agents, world):
+    # surface_water -> fear; persistence coupling.
+    _update(agents, 'fear', _desired(agents, world, 'surface_water', 'fear', 'persistence'))
