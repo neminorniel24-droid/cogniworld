@@ -3228,3 +3228,7 @@ def logic_1797(world):
 def logic_1798(world):
     # carrion feeds decomposers; activates above a food threshold.
     _feedback(world, 'carrion', 'organic_matter', 1, 'threshold')
+
+def logic_1799(world):
+    # carrion feeds decomposers; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'carrion', 'organic_matter', 1, 'recovery')
