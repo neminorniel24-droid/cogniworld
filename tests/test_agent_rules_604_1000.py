@@ -1044,3 +1044,6 @@ def test_logic_965():
 def test_logic_966():
     from agent_rules.rules import logic_966
     _check(logic_966, 'cooperation_score', 'sharing_score', 1)
+def test_logic_967():
+    from agent_rules.rules import logic_967
+    _check(logic_967, 'competition_score', 'attack_success', 1)
