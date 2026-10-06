@@ -2270,3 +2270,7 @@ def logic_3559(agents, world):
 def logic_3560(agents, world):
     # surface_water -> resource_discovery; recovery coupling.
     _update(agents, 'resource_discovery', _desired(agents, world, 'surface_water', 'resource_discovery', 'recovery'))
+
+def logic_3561(agents, world):
+    # surface_water -> resource_discovery; persistence coupling.
+    _update(agents, 'resource_discovery', _desired(agents, world, 'surface_water', 'resource_discovery', 'persistence'))
