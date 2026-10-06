@@ -12,4 +12,5 @@ def make_world(size=3):
     w.groundwater=z(0.0)
     w.sediment=z(0.0)
     w.salinity=z(0.0)
+    w.algae=z(0.0)
     return w

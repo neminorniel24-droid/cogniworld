@@ -437,3 +437,5 @@ from .logic_219_high_salinity_suppresses_vegetation import apply as logic_219
 RULES.append(logic_219)
 from .logic_220_salinity_reduces_herbivore_survival import apply as logic_220
 RULES.append(logic_220)
+from .logic_221_warm_shallow_water_grows_algae import apply as logic_221
+RULES.append(logic_221)

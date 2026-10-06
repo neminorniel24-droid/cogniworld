@@ -959,3 +959,8 @@ def test_logic_220():
     from world_rules.logic_220_salinity_reduces_herbivore_survival import apply
     w = make_world()
     w.herbivore.fill_(1.0); w.salinity.fill_(1.0); apply(w); assert torch.allclose(w.herbivore, torch.full_like(w.herbivore, 0.998))
+
+def test_logic_221():
+    from world_rules.logic_221_warm_shallow_water_grows_algae import apply
+    w = make_world()
+    w.algae.zero_(); w.surface_water.fill_(1.0); w.temperature.fill_(1.0); apply(w); assert torch.allclose(w.algae, torch.full_like(w.algae, 0.02))
