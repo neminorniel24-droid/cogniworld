@@ -1529,3 +1529,7 @@ def logic_2380(world):
 def logic_2381(world):
     # salinity stresses vegetation; reserve coupling.
     _couple(world,'salinity','vegetation',0.9,'positive')
+
+def logic_2382(world):
+    # wetland conditions promote methane; direct coupling.
+    _couple(world,'wetland','methane',1.0,'positive')
