@@ -3398,3 +3398,7 @@ def logic_3841(agents, world):
 def logic_3842(agents, world):
     # surface_water -> memory_update; direct coupling.
     _update(agents, 'memory_update', _desired(agents, world, 'surface_water', 'memory_update', 'direct'))
+
+def logic_3843(agents, world):
+    # surface_water -> memory_update; inverse coupling.
+    _update(agents, 'memory_update', _desired(agents, world, 'surface_water', 'memory_update', 'inverse'))
