@@ -3637,3 +3637,7 @@ def logic_2907(world):
 def logic_2908(world):
     # deadwood stores carbon; feedback coupling.
     _couple(world,'deadwood','carbon_storage',0.8,'positive')
+
+def logic_2909(world):
+    # deadwood stores carbon; counterpressure coupling.
+    _couple(world,'deadwood','carbon_storage',0.8,'negative')
