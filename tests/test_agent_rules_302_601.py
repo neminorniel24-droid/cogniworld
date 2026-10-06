@@ -1090,3 +1090,8 @@ def test_logic_518():
 def test_logic_519():
  from agent_rules.rules import logic_519
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.caution.clone();a.last_reward.fill_(1);logic_519(a,w);assert torch.any(a.caution!=b)
+
+
+def test_logic_520():
+ from agent_rules.rules import logic_520
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.foraging_score.clone();a.last_reward.fill_(1);logic_520(a,w);assert torch.any(a.foraging_score!=b)
