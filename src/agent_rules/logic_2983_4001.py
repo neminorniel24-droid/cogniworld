@@ -3302,3 +3302,7 @@ def logic_3817(agents, world):
 def logic_3818(agents, world):
     # surface_water -> strategy_mixing; limited coupling.
     _update(agents, 'strategy_mixing', _desired(agents, world, 'surface_water', 'strategy_mixing', 'limited'))
+
+def logic_3819(agents, world):
+    # surface_water -> strategy_mixing; pulse coupling.
+    _update(agents, 'strategy_mixing', _desired(agents, world, 'surface_water', 'strategy_mixing', 'pulse'))
