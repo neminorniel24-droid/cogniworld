@@ -918,3 +918,7 @@ def logic_3221(agents, world):
 def logic_3222(agents, world):
     # surface_water -> food_access; scarcity coupling.
     _update(agents, 'food_access', _desired(agents, world, 'surface_water', 'food_access', 'scarcity'))
+
+def logic_3223(agents, world):
+    # surface_water -> food_access; stress coupling.
+    _update(agents, 'food_access', _desired(agents, world, 'surface_water', 'food_access', 'stress'))
