@@ -3430,3 +3430,7 @@ def logic_3849(agents, world):
 def logic_3850(agents, world):
     # surface_water -> memory_update; capacity coupling.
     _update(agents, 'memory_update', _desired(agents, world, 'surface_water', 'memory_update', 'capacity'))
+
+def logic_3851(agents, world):
+    # surface_water -> memory_update; reserve coupling.
+    _update(agents, 'memory_update', _desired(agents, world, 'surface_water', 'memory_update', 'reserve'))
