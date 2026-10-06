@@ -3288,3 +3288,7 @@ def logic_1812(world):
 def logic_1813(world):
     # pathogens reduce biodiversity; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'pathogen_load', 'biodiversity', -1, 'recovery')
+
+def logic_1814(world):
+    # diverse communities dilute pathogens; direct.
+    _feedback(world, 'biodiversity', 'pathogen_load', -1, 'baseline')
