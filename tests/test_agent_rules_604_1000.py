@@ -801,3 +801,6 @@ def test_logic_884():
 def test_logic_885():
     from agent_rules.rules import logic_885
     _check(logic_885, 'defense_score', 'cooperation_score', 1)
+def test_logic_886():
+    from agent_rules.rules import logic_886
+    _check(logic_886, 'last_reward', 'memory_update', 1)
