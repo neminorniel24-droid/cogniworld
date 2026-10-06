@@ -138,3 +138,6 @@ def test_logic_663():
 def test_logic_664():
     from agent_rules.rules import logic_664
     _check(logic_664, 'thirst', 'confidence', -1)
+def test_logic_665():
+    from agent_rules.rules import logic_665
+    _check(logic_665, 'hunger', 'self_preservation', 1)
