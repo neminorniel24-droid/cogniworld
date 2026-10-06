@@ -1396,3 +1396,7 @@ def logic_1339(world):
 def logic_1340(world):
     # runoff mobilizes sediment; stronger when soil is wet.
     _feedback(world, 'runoff', 'sediment', 1, 'wet_gate')
+
+def logic_1341(world):
+    # runoff mobilizes sediment; stronger when temperature is high.
+    _feedback(world, 'runoff', 'sediment', 1, 'heat_gate')
