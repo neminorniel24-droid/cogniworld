@@ -3386,3 +3386,7 @@ def logic_3838(agents, world):
 def logic_3839(agents, world):
     # surface_water -> learning_rate; stress coupling.
     _update(agents, 'learning_rate', _desired(agents, world, 'surface_water', 'learning_rate', 'stress'))
+
+def logic_3840(agents, world):
+    # surface_water -> learning_rate; recovery coupling.
+    _update(agents, 'learning_rate', _desired(agents, world, 'surface_water', 'learning_rate', 'recovery'))
