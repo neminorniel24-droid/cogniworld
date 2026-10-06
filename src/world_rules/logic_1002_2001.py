@@ -2004,3 +2004,7 @@ def logic_1491(world):
 def logic_1492(world):
     # nutrients support vegetation; direct.
     _feedback(world, 'nutrients', 'vegetation', 1, 'baseline')
+
+def logic_1493(world):
+    # nutrients support vegetation; stronger when soil is dry.
+    _feedback(world, 'nutrients', 'vegetation', 1, 'dry_gate')
