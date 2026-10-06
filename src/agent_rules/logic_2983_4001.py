@@ -1774,3 +1774,7 @@ def logic_3435(agents, world):
 def logic_3436(agents, world):
     # surface_water -> social_avoidance; direct coupling.
     _update(agents, 'social_avoidance', _desired(agents, world, 'surface_water', 'social_avoidance', 'direct'))
+
+def logic_3437(agents, world):
+    # surface_water -> social_avoidance; inverse coupling.
+    _update(agents, 'social_avoidance', _desired(agents, world, 'surface_water', 'social_avoidance', 'inverse'))
