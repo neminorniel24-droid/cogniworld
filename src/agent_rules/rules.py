@@ -158,3 +158,5 @@ def logic_378(agents,world):
  v=_local(world,agents,'surface_ice');agents.hydration=_delta(agents.hydration,v*0.001)
 def logic_379(agents,world):
  v=_local(world,agents,'surface_ice');agents.migration_drive=_delta(agents.migration_drive,v*0.001)
+def logic_380(agents,world):
+ v=_local(world,agents,'surface_ice');agents.thermal_stress=_delta(agents.thermal_stress,v*0.001)
