@@ -2336,3 +2336,7 @@ def logic_1574(world):
 def logic_1575(world):
     # fire consumes deadwood; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'fire_risk', 'deadwood', -1, 'recovery')
+
+def logic_1576(world):
+    # fire reduces vegetation; direct.
+    _feedback(world, 'fire_risk', 'vegetation', -1, 'baseline')
