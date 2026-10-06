@@ -770,3 +770,12 @@ def test_logic_190():
     w.wind_y.fill_(1.0)
     apply(w)
     assert torch.allclose(w.wind_x, torch.full_like(w.wind_x, 0.95)) and torch.allclose(w.wind_y, torch.full_like(w.wind_y, 0.95))
+
+def test_logic_191():
+    from world_rules.logic_191_bare_land_exposes_more_wind import apply
+    w = make_world()
+    w.vegetation.zero_()
+    w.wind_x.zero_()
+    w.wind_y.zero_()
+    apply(w)
+    assert torch.allclose(w.wind_x, torch.full_like(w.wind_x, 0.004)) and torch.allclose(w.wind_y, torch.full_like(w.wind_y, 0.004))

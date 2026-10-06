@@ -377,3 +377,5 @@ from .logic_189_carbon_storage_reduces_temperature_target import apply as logic_
 RULES.append(logic_189)
 from .logic_190_vegetation_dampens_surface_wind import apply as logic_190
 RULES.append(logic_190)
+from .logic_191_bare_land_exposes_more_wind import apply as logic_191
+RULES.append(logic_191)
