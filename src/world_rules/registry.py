@@ -2020,3 +2020,5 @@ from .logic_1002_2001 import logic_1710
 RULES.append(logic_1710)
 from .logic_1002_2001 import logic_1711
 RULES.append(logic_1711)
+from .logic_1002_2001 import logic_1712
+RULES.append(logic_1712)
