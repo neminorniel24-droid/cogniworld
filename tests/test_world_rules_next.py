@@ -1194,3 +1194,8 @@ def test_logic_267():
     from world_rules.logic_267_groundwater_reduces_fire_risk import apply
     w = make_world()
     w.fire_risk.fill_(1.0); w.groundwater.fill_(1.0); apply(w); assert torch.allclose(w.fire_risk, torch.full_like(w.fire_risk, 0.997))
+
+def test_logic_268():
+    from world_rules.logic_268_deadwood_reduces_biodiversity_when_accumulated import apply
+    w = make_world()
+    w.biodiversity.fill_(1.0); w.deadwood.fill_(1.0); apply(w); assert torch.allclose(w.biodiversity, torch.full_like(w.biodiversity, 0.999))
