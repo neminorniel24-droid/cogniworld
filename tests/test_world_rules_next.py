@@ -1139,3 +1139,8 @@ def test_logic_256():
     from world_rules.logic_256_clouds_delay_surface_ice_melt import apply
     w = make_world()
     w.surface_ice.fill_(1.0); w.temperature.fill_(1.0); w.cloud.fill_(1.0); apply(w); assert torch.allclose(w.surface_ice, torch.ones_like(w.surface_ice))
+
+def test_logic_257():
+    from world_rules.logic_257_surface_water_supports_biomass import apply
+    w = make_world()
+    w.biomass.zero_(); w.surface_water.fill_(1.0); apply(w); assert torch.allclose(w.biomass, torch.full_like(w.biomass, 0.004))

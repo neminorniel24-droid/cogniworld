@@ -509,3 +509,5 @@ from .logic_255_surface_ice_increases_albedo_cooling import apply as logic_255
 RULES.append(logic_255)
 from .logic_256_clouds_delay_surface_ice_melt import apply as logic_256
 RULES.append(logic_256)
+from .logic_257_surface_water_supports_biomass import apply as logic_257
+RULES.append(logic_257)
