@@ -776,3 +776,5 @@ def logic_706(agents,world):
     agents.risk_score=_delta(agents.risk_score,+0.002*agents.thermal_stress)
 def logic_707(agents,world):
     agents.safety_score=_delta(agents.safety_score,-0.002*agents.dehydration)
+def logic_708(agents,world):
+    agents.survival_score=_delta(agents.survival_score,-0.002*agents.pathogen_risk)
