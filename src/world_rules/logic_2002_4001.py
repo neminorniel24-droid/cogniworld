@@ -1605,3 +1605,7 @@ def logic_2399(world):
 def logic_2400(world):
     # oxygen availability shapes decomposition; capacity coupling.
     _couple(world,'oxygen','decomposition_rate',0.5,'positive')
+
+def logic_2401(world):
+    # oxygen availability shapes decomposition; reserve coupling.
+    _couple(world,'oxygen','decomposition_rate',0.9,'positive')
