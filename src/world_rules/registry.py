@@ -569,3 +569,5 @@ from .logic_285_drought_reduces_pollinators import apply as logic_285
 RULES.append(logic_285)
 from .logic_286_humidity_supports_pollinators import apply as logic_286
 RULES.append(logic_286)
+from .logic_287_extreme_temperature_suppresses_pollinators import apply as logic_287
+RULES.append(logic_287)
