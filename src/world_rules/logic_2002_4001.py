@@ -1669,3 +1669,7 @@ def logic_2415(world):
 def logic_2416(world):
     # photosynthetic efficiency supports vegetation; threshold coupling.
     _couple(world,'photosynthesis_factor','vegetation',1.0,'threshold')
+
+def logic_2417(world):
+    # photosynthetic efficiency supports vegetation; pulse coupling.
+    _couple(world,'photosynthesis_factor','vegetation',1.0,'pulse')
