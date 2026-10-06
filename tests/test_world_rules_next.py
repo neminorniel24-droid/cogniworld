@@ -459,3 +459,11 @@ def test_logic_154():
     before=w.pathogen_load.clone()
     apply(w)
     assert torch.all(w.pathogen_load < before)
+
+def test_logic_155():
+    from world_rules.logic_155_warmth_increases_pathogen_growth import apply
+    w = make_world()
+    w.temperature.fill_(1.0)
+    w.pathogen_load.zero_()
+    apply(w)
+    assert torch.allclose(w.pathogen_load, torch.full_like(w.pathogen_load, 0.005))
