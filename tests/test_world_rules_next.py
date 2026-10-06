@@ -485,3 +485,12 @@ def test_logic_157():
     before=w.pathogen_load.clone()
     apply(w)
     assert torch.all(w.pathogen_load < before)
+
+def test_logic_158():
+    from world_rules.logic_158_vegetation_shelters_pathogens import apply
+    w = make_world()
+    w.vegetation.fill_(1.0)
+    w.biodiversity.zero_()
+    w.pathogen_load.zero_()
+    apply(w)
+    assert torch.allclose(w.pathogen_load, torch.full_like(w.pathogen_load, 0.002))
