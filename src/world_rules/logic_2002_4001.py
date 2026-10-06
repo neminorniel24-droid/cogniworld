@@ -2293,3 +2293,7 @@ def logic_2571(world):
 def logic_2572(world):
     # wind increases erosion exposure; direct coupling.
     _couple(world,'wind_x','erosion',1.0,'positive')
+
+def logic_2573(world):
+    # wind increases erosion exposure; inverse coupling.
+    _couple(world,'wind_x','erosion',1.0,'negative')
