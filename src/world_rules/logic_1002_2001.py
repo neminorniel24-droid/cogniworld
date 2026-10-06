@@ -3080,3 +3080,7 @@ def logic_1760(world):
 def logic_1761(world):
     # herbivores support predators; stronger when temperature is high.
     _feedback(world, 'herbivore', 'predator', 1, 'heat_gate')
+
+def logic_1762(world):
+    # herbivores support predators; stronger when temperature is low.
+    _feedback(world, 'herbivore', 'predator', 1, 'cold_gate')
