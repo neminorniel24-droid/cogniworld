@@ -3796,3 +3796,7 @@ def logic_1939(world):
 def logic_1940(world):
     # heat raises fire risk; direct.
     _feedback(world, 'temperature', 'fire_risk', 1, 'baseline')
+
+def logic_1941(world):
+    # heat raises fire risk; stronger when soil is dry.
+    _feedback(world, 'temperature', 'fire_risk', 1, 'dry_gate')
