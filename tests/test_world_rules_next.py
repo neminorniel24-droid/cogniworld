@@ -545,3 +545,12 @@ def test_logic_164():
     before=w.habitat_stress.clone()
     apply(w)
     assert torch.all(w.habitat_stress < before)
+
+def test_logic_165():
+    from world_rules.logic_165_overgrazing_reduces_vegetation import apply
+    w = make_world()
+    w.herbivore.fill_(1.0)
+    w.vegetation.fill_(1.0)
+    before=w.vegetation.clone()
+    apply(w)
+    assert torch.all(w.vegetation < before)

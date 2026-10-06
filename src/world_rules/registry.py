@@ -325,3 +325,5 @@ from .logic_163_prey_scarcity_reduces_predators import apply as logic_163
 RULES.append(logic_163)
 from .logic_164_vegetation_buffers_habitat_stress import apply as logic_164
 RULES.append(logic_164)
+from .logic_165_overgrazing_reduces_vegetation import apply as logic_165
+RULES.append(logic_165)
