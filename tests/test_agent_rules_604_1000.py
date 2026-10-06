@@ -810,3 +810,6 @@ def test_logic_887():
 def test_logic_888():
     from agent_rules.rules import logic_888
     _check(logic_888, 'last_food', 'strategy_mixing', 1)
+def test_logic_889():
+    from agent_rules.rules import logic_889
+    _check(logic_889, 'last_interaction', 'future_payoff_weight', 1)
