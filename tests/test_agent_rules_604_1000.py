@@ -180,3 +180,6 @@ def test_logic_677():
 def test_logic_678():
     from agent_rules.rules import logic_678
     _check(logic_678, 'wealth', 'migration_score', 1)
+def test_logic_679():
+    from agent_rules.rules import logic_679
+    _check(logic_679, 'stability', 'reproduction_score', 1)
