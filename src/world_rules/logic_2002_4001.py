@@ -3809,3 +3809,7 @@ def logic_2950(world):
 def logic_2951(world):
     # fire releases CO2; reserve coupling.
     _couple(world,'fire_risk','co2',0.9,'positive')
+
+def logic_2952(world):
+    # rainfall closes hydrologic feedback; direct coupling.
+    _couple(world,'rain','cloud',1.0,'positive')
