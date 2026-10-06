@@ -432,3 +432,7 @@ def logic_1098(world):
 def logic_1099(world):
     # persistent surface water expands wetlands; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'surface_water', 'wetland', 1, 'recovery')
+
+def logic_1100(world):
+    # surface water supports algae; direct.
+    _feedback(world, 'surface_water', 'algae', 1, 'baseline')
