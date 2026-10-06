@@ -901,3 +901,7 @@ def logic_2223(world):
 def logic_2224(world):
     # decomposition releases nutrients; limited coupling.
     _couple(world,'decomposition_rate','nutrients',0.65,'positive')
+
+def logic_2225(world):
+    # decomposition releases nutrients; strong coupling.
+    _couple(world,'decomposition_rate','nutrients',1.35,'positive')
