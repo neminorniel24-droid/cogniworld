@@ -692,3 +692,7 @@ def logic_1163(world):
 def logic_1164(world):
     # soil moisture supports flowering; stronger when biomass is high.
     _feedback(world, 'soil_moisture', 'flowers', 1, 'biomass_gate')
+
+def logic_1165(world):
+    # soil moisture supports flowering; stronger under habitat stress.
+    _feedback(world, 'soil_moisture', 'flowers', 1, 'stress_gate')
