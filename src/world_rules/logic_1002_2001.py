@@ -3088,3 +3088,7 @@ def logic_1762(world):
 def logic_1763(world):
     # herbivores support predators; stronger under fire pressure.
     _feedback(world, 'herbivore', 'predator', 1, 'fire_gate')
+
+def logic_1764(world):
+    # herbivores support predators; stronger when surface water is high.
+    _feedback(world, 'herbivore', 'predator', 1, 'water_gate')
