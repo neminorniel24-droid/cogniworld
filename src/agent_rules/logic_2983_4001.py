@@ -3814,3 +3814,7 @@ def logic_3945(agents, world):
 def logic_3946(agents, world):
     # groundwater -> health; feedback coupling.
     _update(agents, 'health', _desired(agents, world, 'groundwater', 'health', 'feedback'))
+
+def logic_3947(agents, world):
+    # groundwater -> health; counterpressure coupling.
+    _update(agents, 'health', _desired(agents, world, 'groundwater', 'health', 'counterpressure'))
