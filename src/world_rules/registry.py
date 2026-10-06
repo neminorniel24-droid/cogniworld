@@ -443,3 +443,5 @@ from .logic_222_nutrients_feed_algae import apply as logic_222
 RULES.append(logic_222)
 from .logic_223_algae_consume_nutrients import apply as logic_223
 RULES.append(logic_223)
+from .logic_224_algae_produce_oxygen import apply as logic_224
+RULES.append(logic_224)
