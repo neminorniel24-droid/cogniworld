@@ -990,3 +990,5 @@ def logic_813(agents,world):
     agents.strategy_persistence=_delta(agents.strategy_persistence,+0.002*agents.last_food)
 def logic_814(agents,world):
     agents.strategy_mixing=_delta(agents.strategy_mixing,+0.002*agents.last_interaction)
+def logic_815(agents,world):
+    agents.future_payoff_weight=_delta(agents.future_payoff_weight,+0.002*agents.strategy_score)
