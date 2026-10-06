@@ -771,3 +771,6 @@ def test_logic_874():
 def test_logic_875():
     from agent_rules.rules import logic_875
     _check(logic_875, 'defection_score', 'strategy_mixing', 1)
+def test_logic_876():
+    from agent_rules.rules import logic_876
+    _check(logic_876, 'reciprocity_score', 'future_payoff_weight', 1)
