@@ -66,3 +66,5 @@ def logic_332(agents,world):
  v=_local(world,agents,'biomass');agents.wealth=_delta(agents.wealth,v*0.001)
 def logic_333(agents,world):
  v=_local(world,agents,'herbivore');agents.competition_pressure=_delta(agents.competition_pressure,v*0.001)
+def logic_334(agents,world):
+ v=_local(world,agents,'herbivore');agents.alertness=_delta(agents.alertness,v*0.001)
