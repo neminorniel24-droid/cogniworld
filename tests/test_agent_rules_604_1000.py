@@ -984,3 +984,6 @@ def test_logic_945():
 def test_logic_946():
     from agent_rules.rules import logic_946
     _check(logic_946, 'trust', 'migration_score', 1)
+def test_logic_947():
+    from agent_rules.rules import logic_947
+    _check(logic_947, 'cooperation', 'reproduction_score', 1)
