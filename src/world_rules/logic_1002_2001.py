@@ -1884,3 +1884,7 @@ def logic_1461(world):
 def logic_1462(world):
     # biomass contributes oxygen; activates above a food threshold.
     _feedback(world, 'biomass', 'oxygen', 1, 'threshold')
+
+def logic_1463(world):
+    # biomass contributes oxygen; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'biomass', 'oxygen', 1, 'recovery')
