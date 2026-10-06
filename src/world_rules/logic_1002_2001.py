@@ -2528,3 +2528,7 @@ def logic_1622(world):
 def logic_1623(world):
     # ash alters soil carbon inputs; stronger under fire pressure.
     _feedback(world, 'ash', 'soil_carbon', 1, 'fire_gate')
+
+def logic_1624(world):
+    # ash alters soil carbon inputs; stronger when surface water is high.
+    _feedback(world, 'ash', 'soil_carbon', 1, 'water_gate')
