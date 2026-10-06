@@ -3720,3 +3720,7 @@ def logic_1920(world):
 def logic_1921(world):
     # methane increases warming pressure; stronger under habitat stress.
     _feedback(world, 'methane', 'temperature', 1, 'stress_gate')
+
+def logic_1922(world):
+    # methane increases warming pressure; modulated by temperature.
+    _feedback(world, 'methane', 'temperature', 1, 'seasonal_gate')
