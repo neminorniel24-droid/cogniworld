@@ -1610,3 +1610,7 @@ def logic_3394(agents, world):
 def logic_3395(agents, world):
     # surface_water -> group_stability; inverse coupling.
     _update(agents, 'group_stability', _desired(agents, world, 'surface_water', 'group_stability', 'inverse'))
+
+def logic_3396(agents, world):
+    # surface_water -> group_stability; threshold coupling.
+    _update(agents, 'group_stability', _desired(agents, world, 'surface_water', 'group_stability', 'threshold'))
