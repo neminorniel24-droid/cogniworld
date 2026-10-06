@@ -585,3 +585,7 @@ def logic_2144(world):
 def logic_2145(world):
     # rainfall recharges groundwater; strong coupling.
     _couple(world,'rain','groundwater',1.35,'positive')
+
+def logic_2146(world):
+    # rainfall recharges groundwater; threshold coupling.
+    _couple(world,'rain','groundwater',1.0,'threshold')
