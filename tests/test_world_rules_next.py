@@ -519,3 +519,11 @@ def test_logic_161():
     w.predator.zero_()
     apply(w)
     assert torch.allclose(w.predator, torch.full_like(w.predator, 0.003))
+
+def test_logic_162():
+    from world_rules.logic_162_prey_abundance_supports_predators import apply
+    w = make_world()
+    w.herbivore.fill_(1.0)
+    w.predator.zero_()
+    apply(w)
+    assert torch.allclose(w.predator, torch.full_like(w.predator, 0.004))
