@@ -314,3 +314,7 @@ def logic_3070(agents, world):
 def logic_3071(agents, world):
     # surface_water -> thermal_stress; persistence coupling.
     _update(agents, 'thermal_stress', _desired(agents, world, 'surface_water', 'thermal_stress', 'persistence'))
+
+def logic_3072(agents, world):
+    # surface_water -> dehydration; direct coupling.
+    _update(agents, 'dehydration', _desired(agents, world, 'surface_water', 'dehydration', 'direct'))
