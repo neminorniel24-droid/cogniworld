@@ -1950,3 +1950,7 @@ def logic_3479(agents, world):
 def logic_3480(agents, world):
     # surface_water -> gratitude; threshold coupling.
     _update(agents, 'gratitude', _desired(agents, world, 'surface_water', 'gratitude', 'threshold'))
+
+def logic_3481(agents, world):
+    # surface_water -> gratitude; strong coupling.
+    _update(agents, 'gratitude', _desired(agents, world, 'surface_water', 'gratitude', 'strong'))
