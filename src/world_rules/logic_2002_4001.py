@@ -3405,3 +3405,7 @@ def logic_2849(world):
 def logic_2850(world):
     # runoff returns water to surface pools; capacity coupling.
     _couple(world,'runoff','surface_water',0.5,'positive')
+
+def logic_2851(world):
+    # runoff returns water to surface pools; reserve coupling.
+    _couple(world,'runoff','surface_water',0.9,'positive')
