@@ -715,3 +715,8 @@ def test_logic_443():
 def test_logic_444():
  from agent_rules.rules import logic_444
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.fear.clone();a.help_received.fill_(1);logic_444(a,w);assert torch.any(a.fear!=b)
+
+
+def test_logic_445():
+ from agent_rules.rules import logic_445
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.aggression.clone();a.help_received.fill_(1);logic_445(a,w);assert torch.any(a.aggression!=b)

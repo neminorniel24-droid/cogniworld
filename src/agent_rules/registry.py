@@ -283,3 +283,5 @@ from .rules import logic_443
 RULES.append(logic_443)
 from .rules import logic_444
 RULES.append(logic_444)
+from .rules import logic_445
+RULES.append(logic_445)
