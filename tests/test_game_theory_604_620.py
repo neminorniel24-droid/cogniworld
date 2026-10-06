@@ -22,3 +22,5 @@ def test_defection_in_ledger():
     assert "defection" in _event()
 def test_attack_success_in_ledger():
     assert "attack_success" in _event()
+def test_defense_score_in_ledger():
+    assert "defense_score" in _event()
