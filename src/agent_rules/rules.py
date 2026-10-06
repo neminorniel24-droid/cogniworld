@@ -1232,3 +1232,5 @@ def logic_934(agents,world):
     agents.foraging_score=_delta(agents.foraging_score,+0.002*agents.exploration_score)
 def logic_935(agents,world):
     agents.help_score=_delta(agents.help_score,+0.002*agents.foraging_score)
+def logic_936(agents,world):
+    agents.defection_score=_delta(agents.defection_score,+0.002*agents.wealth)
