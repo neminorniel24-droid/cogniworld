@@ -1270,3 +1270,5 @@ def logic_953(agents,world):
     agents.self_preservation=_delta(agents.self_preservation,+0.002*agents.attack_success)
 def logic_954(agents,world):
     agents.fitness_score=_delta(agents.fitness_score,+0.002*agents.migration_score)
+def logic_955(agents,world):
+    agents.survival_score=_delta(agents.survival_score,+0.002*agents.reproduction_score)
