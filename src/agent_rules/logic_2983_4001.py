@@ -490,3 +490,7 @@ def logic_3114(agents, world):
 def logic_3115(agents, world):
     # surface_water -> alertness; inverse coupling.
     _update(agents, 'alertness', _desired(agents, world, 'surface_water', 'alertness', 'inverse'))
+
+def logic_3116(agents, world):
+    # surface_water -> alertness; threshold coupling.
+    _update(agents, 'alertness', _desired(agents, world, 'surface_water', 'alertness', 'threshold'))
