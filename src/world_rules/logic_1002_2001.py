@@ -2116,3 +2116,7 @@ def logic_1519(world):
 def logic_1520(world):
     # decomposition releases nutrients; direct.
     _feedback(world, 'decomposition_rate', 'nutrients', 1, 'baseline')
+
+def logic_1521(world):
+    # decomposition releases nutrients; stronger when soil is dry.
+    _feedback(world, 'decomposition_rate', 'nutrients', 1, 'dry_gate')
