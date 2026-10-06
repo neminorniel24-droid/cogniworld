@@ -830,3 +830,12 @@ def test_logic_197():
     w.temperature_target.fill_(1.0)
     apply(w)
     assert torch.allclose(w.temperature_target, torch.full_like(w.temperature_target, 0.995))
+
+def test_logic_198():
+    from world_rules.logic_198_erosion_reduces_soil_depth import apply
+    w = make_world()
+    w.erosion.fill_(1.0)
+    w.soil_depth.fill_(1.0)
+    before=w.soil_depth.clone()
+    apply(w)
+    assert torch.all(w.soil_depth < before)

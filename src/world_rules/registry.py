@@ -391,3 +391,5 @@ from .logic_196_high_temperature_drives_more_evaporation import apply as logic_1
 RULES.append(logic_196)
 from .logic_197_surface_water_buffers_temperature import apply as logic_197
 RULES.append(logic_197)
+from .logic_198_erosion_reduces_soil_depth import apply as logic_198
+RULES.append(logic_198)
