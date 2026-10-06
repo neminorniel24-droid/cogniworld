@@ -3216,3 +3216,7 @@ def logic_1794(world):
 def logic_1795(world):
     # carrion feeds decomposers; stronger under habitat stress.
     _feedback(world, 'carrion', 'organic_matter', 1, 'stress_gate')
+
+def logic_1796(world):
+    # carrion feeds decomposers; modulated by temperature.
+    _feedback(world, 'carrion', 'organic_matter', 1, 'seasonal_gate')
