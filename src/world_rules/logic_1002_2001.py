@@ -1932,3 +1932,7 @@ def logic_1473(world):
 def logic_1474(world):
     # high CO2 stress reduces photosynthetic efficiency; modulated by temperature.
     _feedback(world, 'co2', 'photosynthesis_factor', -1, 'seasonal_gate')
+
+def logic_1475(world):
+    # high CO2 stress reduces photosynthetic efficiency; saturates at high source levels.
+    _feedback(world, 'co2', 'photosynthesis_factor', -1, 'saturation')
