@@ -203,3 +203,5 @@ from .rules import logic_403
 RULES.append(logic_403)
 from .rules import logic_404
 RULES.append(logic_404)
+from .rules import logic_405
+RULES.append(logic_405)
