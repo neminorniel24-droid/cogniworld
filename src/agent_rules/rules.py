@@ -1148,3 +1148,5 @@ def logic_892(agents,world):
     agents.confidence=_delta(agents.confidence,+0.002*agents.competition_score)
 def logic_893(agents,world):
     agents.caution=_delta(agents.caution,+0.002*agents.defection_score)
+def logic_894(agents,world):
+    agents.payoff=_signed_delta(agents.payoff,+0.002*agents.reciprocity_score)
