@@ -992,3 +992,7 @@ def logic_1238(world):
 def logic_1239(world):
     # warmth increases evaporation; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'temperature', 'evaporation', 1, 'recovery')
+
+def logic_1240(world):
+    # warmth melts snowpack; direct.
+    _feedback(world, 'temperature', 'snowpack', -1, 'baseline')
