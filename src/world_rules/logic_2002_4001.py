@@ -317,3 +317,7 @@ def logic_2077(world):
 def logic_2078(world):
     # nutrients support plant growth; feedback coupling.
     _couple(world,'nutrients','vegetation',0.8,'positive')
+
+def logic_2079(world):
+    # nutrients support plant growth; counterpressure coupling.
+    _couple(world,'nutrients','vegetation',0.8,'negative')
