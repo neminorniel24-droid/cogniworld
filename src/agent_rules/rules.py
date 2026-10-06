@@ -982,3 +982,5 @@ def logic_809(agents,world):
     agents.retaliation_risk=_delta(agents.retaliation_risk,+0.002*agents.betrayal_memory)
 def logic_810(agents,world):
     agents.future_help=_delta(agents.future_help,+0.002*agents.cooperation_history)
+def logic_811(agents,world):
+    agents.learning_rate=_delta(agents.learning_rate,+0.002*agents.last_reward)
