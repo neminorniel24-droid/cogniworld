@@ -2148,3 +2148,7 @@ def logic_1527(world):
 def logic_1528(world):
     # decomposition releases nutrients; stronger when biomass is high.
     _feedback(world, 'decomposition_rate', 'nutrients', 1, 'biomass_gate')
+
+def logic_1529(world):
+    # decomposition releases nutrients; stronger under habitat stress.
+    _feedback(world, 'decomposition_rate', 'nutrients', 1, 'stress_gate')
