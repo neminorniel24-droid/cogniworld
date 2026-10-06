@@ -1094,3 +1094,5 @@ def logic_865(agents,world):
     agents.confidence=_delta(agents.confidence,+0.002*agents.attack_success)
 def logic_866(agents,world):
     agents.caution=_delta(agents.caution,+0.002*agents.retaliation_risk)
+def logic_867(agents,world):
+    agents.payoff=_signed_delta(agents.payoff,+0.002*agents.defense_score)
