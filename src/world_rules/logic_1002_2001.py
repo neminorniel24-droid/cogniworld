@@ -1428,3 +1428,7 @@ def logic_1347(world):
 def logic_1348(world):
     # runoff mobilizes sediment; modulated by temperature.
     _feedback(world, 'runoff', 'sediment', 1, 'seasonal_gate')
+
+def logic_1349(world):
+    # runoff mobilizes sediment; saturates at high source levels.
+    _feedback(world, 'runoff', 'sediment', 1, 'saturation')
