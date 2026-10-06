@@ -986,3 +986,7 @@ def logic_3238(agents, world):
 def logic_3239(agents, world):
     # surface_water -> wealth; persistence coupling.
     _update(agents, 'wealth', _desired(agents, world, 'surface_water', 'wealth', 'persistence'))
+
+def logic_3240(agents, world):
+    # surface_water -> stability; direct coupling.
+    _update(agents, 'stability', _desired(agents, world, 'surface_water', 'stability', 'direct'))
