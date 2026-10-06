@@ -678,3 +678,5 @@ def logic_657(agents,world):
     agents.resource_competition=_delta(agents.resource_competition,+0.002*agents.food_access)
 def logic_658(agents,world):
     agents.risk_score=_delta(agents.risk_score,+0.002*agents.wealth)
+def logic_659(agents,world):
+    agents.safety_score=_delta(agents.safety_score,+0.002*agents.stability)
