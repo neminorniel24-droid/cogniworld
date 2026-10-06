@@ -2869,3 +2869,7 @@ def logic_2715(world):
 def logic_2716(world):
     # CO2 availability shapes photosynthesis; threshold coupling.
     _couple(world,'co2','photosynthesis_factor',1.0,'threshold')
+
+def logic_2717(world):
+    # CO2 availability shapes photosynthesis; pulse coupling.
+    _couple(world,'co2','photosynthesis_factor',1.0,'pulse')
