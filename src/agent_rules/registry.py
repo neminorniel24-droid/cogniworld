@@ -253,3 +253,5 @@ from .rules import logic_428
 RULES.append(logic_428)
 from .rules import logic_429
 RULES.append(logic_429)
+from .rules import logic_430
+RULES.append(logic_430)
