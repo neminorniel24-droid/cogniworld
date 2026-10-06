@@ -349,3 +349,7 @@ def logic_2085(world):
 def logic_2086(world):
     # heat increases evaporation; threshold coupling.
     _couple(world,'temperature','evaporation',1.0,'threshold')
+
+def logic_2087(world):
+    # heat increases evaporation; pulse coupling.
+    _couple(world,'temperature','evaporation',1.0,'pulse')
