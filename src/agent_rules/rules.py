@@ -604,3 +604,5 @@ def logic_600(agents,world):
  signal=torch.sigmoid(agents.last_reward*0.05+agents.last_action.float()*0.02);agents.risk_score=_delta(agents.risk_score,signal*0.001)
 def logic_601(agents,world):
  signal=torch.sigmoid(agents.last_reward*0.05+agents.last_action.float()*0.02);agents.payoff=_delta(agents.payoff,signal*0.001)
+def logic_622(agents,world):
+    agents.risk_score=_delta(agents.risk_score,+0.002*agents.health)
