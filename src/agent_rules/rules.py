@@ -118,3 +118,5 @@ def logic_358(agents,world):
  v=_local(world,agents,'erosion');agents.migration_drive=_delta(agents.migration_drive,v*0.001)
 def logic_359(agents,world):
  v=_local(world,agents,'erosion');agents.health=_delta(agents.health,v*0.001)
+def logic_360(agents,world):
+ v=_local(world,agents,'soil_depth');agents.migration_drive=_delta(agents.migration_drive,v*0.001)
