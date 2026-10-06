@@ -2254,3 +2254,7 @@ def logic_3555(agents, world):
 def logic_3556(agents, world):
     # surface_water -> resource_discovery; capacity coupling.
     _update(agents, 'resource_discovery', _desired(agents, world, 'surface_water', 'resource_discovery', 'capacity'))
+
+def logic_3557(agents, world):
+    # surface_water -> resource_discovery; reserve coupling.
+    _update(agents, 'resource_discovery', _desired(agents, world, 'surface_water', 'resource_discovery', 'reserve'))
