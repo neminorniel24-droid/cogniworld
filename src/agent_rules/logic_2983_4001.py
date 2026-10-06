@@ -3190,3 +3190,7 @@ def logic_3789(agents, world):
 def logic_3790(agents, world):
     # surface_water -> sharing_score; limited coupling.
     _update(agents, 'sharing_score', _desired(agents, world, 'surface_water', 'sharing_score', 'limited'))
+
+def logic_3791(agents, world):
+    # surface_water -> sharing_score; pulse coupling.
+    _update(agents, 'sharing_score', _desired(agents, world, 'surface_water', 'sharing_score', 'pulse'))
