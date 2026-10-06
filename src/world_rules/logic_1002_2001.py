@@ -2096,3 +2096,7 @@ def logic_1514(world):
 def logic_1515(world):
     # organic matter mineralizes nutrients; stronger under habitat stress.
     _feedback(world, 'organic_matter', 'nutrients', 1, 'stress_gate')
+
+def logic_1516(world):
+    # organic matter mineralizes nutrients; modulated by temperature.
+    _feedback(world, 'organic_matter', 'nutrients', 1, 'seasonal_gate')
