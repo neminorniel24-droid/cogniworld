@@ -2405,3 +2405,7 @@ def logic_2599(world):
 def logic_2600(world):
     # ash returns mineral nutrients; capacity coupling.
     _couple(world,'ash','nutrients',0.5,'positive')
+
+def logic_2601(world):
+    # ash returns mineral nutrients; reserve coupling.
+    _couple(world,'ash','nutrients',0.9,'positive')
