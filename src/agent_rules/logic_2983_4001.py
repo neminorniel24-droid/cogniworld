@@ -3966,3 +3966,7 @@ def logic_3983(agents, world):
 def logic_3984(agents, world):
     # groundwater -> pathogen_risk; threshold coupling.
     _update(agents, 'pathogen_risk', _desired(agents, world, 'groundwater', 'pathogen_risk', 'threshold'))
+
+def logic_3985(agents, world):
+    # groundwater -> pathogen_risk; strong coupling.
+    _update(agents, 'pathogen_risk', _desired(agents, world, 'groundwater', 'pathogen_risk', 'strong'))
