@@ -3092,3 +3092,7 @@ def logic_1763(world):
 def logic_1764(world):
     # herbivores support predators; stronger when surface water is high.
     _feedback(world, 'herbivore', 'predator', 1, 'water_gate')
+
+def logic_1765(world):
+    # herbivores support predators; stronger when vegetation is scarce.
+    _feedback(world, 'herbivore', 'predator', 1, 'scarcity_gate')
