@@ -1922,3 +1922,7 @@ def logic_3472(agents, world):
 def logic_3473(agents, world):
     # surface_water -> generosity; reserve coupling.
     _update(agents, 'generosity', _desired(agents, world, 'surface_water', 'generosity', 'reserve'))
+
+def logic_3474(agents, world):
+    # surface_water -> generosity; scarcity coupling.
+    _update(agents, 'generosity', _desired(agents, world, 'surface_water', 'generosity', 'scarcity'))
