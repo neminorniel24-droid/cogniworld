@@ -204,3 +204,7 @@ def logic_1041(world):
 def logic_1042(world):
     # rain recharges groundwater; activates above a food threshold.
     _feedback(world, 'rain', 'groundwater', 1, 'threshold')
+
+def logic_1043(world):
+    # rain recharges groundwater; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'rain', 'groundwater', 1, 'recovery')
