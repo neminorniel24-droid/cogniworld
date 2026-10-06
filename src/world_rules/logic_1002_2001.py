@@ -1216,3 +1216,7 @@ def logic_1294(world):
 def logic_1295(world):
     # wind enhances evaporation; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'wind_x', 'evaporation', 1, 'recovery')
+
+def logic_1296(world):
+    # wind enhances evaporation; direct.
+    _feedback(world, 'wind_y', 'evaporation', 1, 'baseline')
