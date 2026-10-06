@@ -3101,3 +3101,7 @@ def logic_2773(world):
 def logic_2774(world):
     # fire can reduce pathogen load; limited coupling.
     _couple(world,'fire_risk','pathogen_load',0.65,'positive')
+
+def logic_2775(world):
+    # fire can reduce pathogen load; strong coupling.
+    _couple(world,'fire_risk','pathogen_load',1.35,'positive')
