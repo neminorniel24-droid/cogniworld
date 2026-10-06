@@ -2440,3 +2440,7 @@ def logic_1600(world):
 def logic_1601(world):
     # fire reduces biomass; saturates at high source levels.
     _feedback(world, 'fire_risk', 'biomass', -1, 'saturation')
+
+def logic_1602(world):
+    # fire reduces biomass; activates above a food threshold.
+    _feedback(world, 'fire_risk', 'biomass', -1, 'threshold')
