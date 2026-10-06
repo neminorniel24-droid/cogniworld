@@ -868,3 +868,7 @@ def logic_1207(world):
 def logic_1208(world):
     # cloud water produces rain; modulated by temperature.
     _feedback(world, 'cloud', 'rain', 1, 'seasonal_gate')
+
+def logic_1209(world):
+    # cloud water produces rain; saturates at high source levels.
+    _feedback(world, 'cloud', 'rain', 1, 'saturation')
