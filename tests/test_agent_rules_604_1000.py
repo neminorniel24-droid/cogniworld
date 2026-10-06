@@ -684,3 +684,6 @@ def test_logic_845():
 def test_logic_846():
     from agent_rules.rules import logic_846
     _check(logic_846, 'attack_success', 'strategy_persistence', 1)
+def test_logic_847():
+    from agent_rules.rules import logic_847
+    _check(logic_847, 'retaliation_risk', 'strategy_mixing', 1)
