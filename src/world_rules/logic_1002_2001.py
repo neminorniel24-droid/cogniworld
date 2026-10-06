@@ -3468,3 +3468,7 @@ def logic_1857(world):
 def logic_1858(world):
     # salinity suppresses freshwater algae; stronger when soil is wet.
     _feedback(world, 'salinity', 'algae', -1, 'wet_gate')
+
+def logic_1859(world):
+    # salinity suppresses freshwater algae; stronger when temperature is high.
+    _feedback(world, 'salinity', 'algae', -1, 'heat_gate')
