@@ -1360,3 +1360,5 @@ def logic_998(agents,world):
     agents.defense_score=_delta(agents.defense_score,+0.002*agents.last_energy_delta)
 def logic_999(agents,world):
     agents.migration_score=_delta(agents.migration_score,+0.002*agents.last_food)
+def logic_1000(agents,world):
+    agents.reproduction_score=_delta(agents.reproduction_score,+0.002*agents.survival_score)

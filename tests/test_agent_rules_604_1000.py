@@ -1143,3 +1143,6 @@ def test_logic_998():
 def test_logic_999():
     from agent_rules.rules import logic_999
     _check(logic_999, 'last_food', 'migration_score', 1)
+def test_logic_1000():
+    from agent_rules.rules import logic_1000
+    _check(logic_1000, 'survival_score', 'reproduction_score', 1)
