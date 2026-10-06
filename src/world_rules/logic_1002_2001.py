@@ -2712,3 +2712,7 @@ def logic_1668(world):
 def logic_1669(world):
     # pollination sustains flowering; stronger under habitat stress.
     _feedback(world, 'pollinators', 'flowers', 1, 'stress_gate')
+
+def logic_1670(world):
+    # pollination sustains flowering; modulated by temperature.
+    _feedback(world, 'pollinators', 'flowers', 1, 'seasonal_gate')
