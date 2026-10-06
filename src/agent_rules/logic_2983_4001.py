@@ -2882,3 +2882,7 @@ def logic_3712(agents, world):
 def logic_3713(agents, world):
     # surface_water -> foraging_score; stress coupling.
     _update(agents, 'foraging_score', _desired(agents, world, 'surface_water', 'foraging_score', 'stress'))
+
+def logic_3714(agents, world):
+    # surface_water -> foraging_score; recovery coupling.
+    _update(agents, 'foraging_score', _desired(agents, world, 'surface_water', 'foraging_score', 'recovery'))
