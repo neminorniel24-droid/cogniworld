@@ -1297,3 +1297,7 @@ def logic_2322(world):
 def logic_2323(world):
     # erosion reduces soil depth; inverse coupling.
     _couple(world,'erosion','soil_depth',1.0,'negative')
+
+def logic_2324(world):
+    # erosion reduces soil depth; limited coupling.
+    _couple(world,'erosion','soil_depth',0.65,'positive')
