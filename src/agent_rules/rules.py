@@ -1106,3 +1106,5 @@ def logic_871(agents,world):
     agents.foraging_score=_delta(agents.foraging_score,+0.002*agents.last_interaction)
 def logic_872(agents,world):
     agents.learning_rate=_delta(agents.learning_rate,+0.002*agents.strategy_score)
+def logic_873(agents,world):
+    agents.memory_update=_delta(agents.memory_update,+0.002*agents.cooperation_score)

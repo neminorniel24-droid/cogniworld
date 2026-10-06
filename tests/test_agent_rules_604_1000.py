@@ -762,3 +762,6 @@ def test_logic_871():
 def test_logic_872():
     from agent_rules.rules import logic_872
     _check(logic_872, 'strategy_score', 'learning_rate', 1)
+def test_logic_873():
+    from agent_rules.rules import logic_873
+    _check(logic_873, 'cooperation_score', 'memory_update', 1)
