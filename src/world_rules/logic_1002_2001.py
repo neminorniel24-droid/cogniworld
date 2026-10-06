@@ -476,3 +476,7 @@ def logic_1109(world):
 def logic_1110(world):
     # surface water supports algae; modulated by temperature.
     _feedback(world, 'surface_water', 'algae', 1, 'seasonal_gate')
+
+def logic_1111(world):
+    # surface water supports algae; saturates at high source levels.
+    _feedback(world, 'surface_water', 'algae', 1, 'saturation')
