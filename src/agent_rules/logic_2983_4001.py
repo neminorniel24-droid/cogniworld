@@ -3574,3 +3574,7 @@ def logic_3885(agents, world):
 def logic_3886(agents, world):
     # surface_water -> payoff; threshold coupling.
     _update(agents, 'payoff', _desired(agents, world, 'surface_water', 'payoff', 'threshold'))
+
+def logic_3887(agents, world):
+    # surface_water -> payoff; strong coupling.
+    _update(agents, 'payoff', _desired(agents, world, 'surface_water', 'payoff', 'strong'))
