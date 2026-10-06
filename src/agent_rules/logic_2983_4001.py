@@ -1234,3 +1234,7 @@ def logic_3300(agents, world):
 def logic_3301(agents, world):
     # surface_water -> trust; pulse coupling.
     _update(agents, 'trust', _desired(agents, world, 'surface_water', 'trust', 'pulse'))
+
+def logic_3302(agents, world):
+    # surface_water -> trust; feedback coupling.
+    _update(agents, 'trust', _desired(agents, world, 'surface_water', 'trust', 'feedback'))
