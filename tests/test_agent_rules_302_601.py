@@ -835,3 +835,8 @@ def test_logic_467():
 def test_logic_468():
  from agent_rules.rules import logic_468
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.territoriality.clone();a.group_stability.fill_(1);logic_468(a,w);assert torch.any(a.territoriality!=b)
+
+
+def test_logic_469():
+ from agent_rules.rules import logic_469
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.group_stability.clone();a.group_stability.fill_(1);logic_469(a,w);assert torch.any(a.group_stability!=b)
