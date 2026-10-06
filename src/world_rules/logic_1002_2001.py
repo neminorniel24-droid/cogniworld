@@ -2104,3 +2104,7 @@ def logic_1516(world):
 def logic_1517(world):
     # organic matter mineralizes nutrients; saturates at high source levels.
     _feedback(world, 'organic_matter', 'nutrients', 1, 'saturation')
+
+def logic_1518(world):
+    # organic matter mineralizes nutrients; activates above a food threshold.
+    _feedback(world, 'organic_matter', 'nutrients', 1, 'threshold')
