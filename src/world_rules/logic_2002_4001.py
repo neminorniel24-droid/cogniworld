@@ -397,3 +397,7 @@ def logic_2097(world):
 def logic_2098(world):
     # humidity suppresses evaporation; feedback coupling.
     _couple(world,'humidity','evaporation',0.8,'positive')
+
+def logic_2099(world):
+    # humidity suppresses evaporation; counterpressure coupling.
+    _couple(world,'humidity','evaporation',0.8,'negative')
