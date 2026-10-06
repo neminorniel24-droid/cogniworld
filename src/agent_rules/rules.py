@@ -1248,3 +1248,5 @@ def logic_942(agents,world):
     agents.help_score=_delta(agents.help_score,+0.002*agents.help_given)
 def logic_943(agents,world):
     agents.sharing_score=_delta(agents.sharing_score,+0.002*agents.help_received)
+def logic_944(agents,world):
+    agents.attack_success=_delta(agents.attack_success,+0.002*agents.gratitude)
