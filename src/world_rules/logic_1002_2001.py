@@ -2768,3 +2768,7 @@ def logic_1682(world):
 def logic_1683(world):
     # seed banks support vegetation recovery; stronger under habitat stress.
     _feedback(world, 'seed_bank', 'vegetation', 1, 'stress_gate')
+
+def logic_1684(world):
+    # seed banks support vegetation recovery; modulated by temperature.
+    _feedback(world, 'seed_bank', 'vegetation', 1, 'seasonal_gate')
