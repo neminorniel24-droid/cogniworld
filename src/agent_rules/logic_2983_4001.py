@@ -926,3 +926,7 @@ def logic_3223(agents, world):
 def logic_3224(agents, world):
     # surface_water -> food_access; recovery coupling.
     _update(agents, 'food_access', _desired(agents, world, 'surface_water', 'food_access', 'recovery'))
+
+def logic_3225(agents, world):
+    # surface_water -> food_access; persistence coupling.
+    _update(agents, 'food_access', _desired(agents, world, 'surface_water', 'food_access', 'persistence'))
