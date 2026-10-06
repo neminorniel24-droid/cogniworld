@@ -938,3 +938,7 @@ def logic_3226(agents, world):
 def logic_3227(agents, world):
     # surface_water -> wealth; inverse coupling.
     _update(agents, 'wealth', _desired(agents, world, 'surface_water', 'wealth', 'inverse'))
+
+def logic_3228(agents, world):
+    # surface_water -> wealth; threshold coupling.
+    _update(agents, 'wealth', _desired(agents, world, 'surface_water', 'wealth', 'threshold'))
