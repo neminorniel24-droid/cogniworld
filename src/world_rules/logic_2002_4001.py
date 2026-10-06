@@ -1169,3 +1169,7 @@ def logic_2290(world):
 def logic_2291(world):
     # pollination replenishes seed bank; reserve coupling.
     _couple(world,'pollinators','seed_bank',0.9,'positive')
+
+def logic_2292(world):
+    # seed bank supports regeneration; direct coupling.
+    _couple(world,'seed_bank','vegetation',1.0,'positive')
