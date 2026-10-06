@@ -1336,3 +1336,7 @@ def logic_1324(world):
 def logic_1325(world):
     # evaporation removes surface water; stronger when soil is dry.
     _feedback(world, 'evaporation', 'surface_water', -1, 'dry_gate')
+
+def logic_1326(world):
+    # evaporation removes surface water; stronger when soil is wet.
+    _feedback(world, 'evaporation', 'surface_water', -1, 'wet_gate')
