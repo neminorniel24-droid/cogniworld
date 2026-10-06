@@ -1044,3 +1044,8 @@ def test_logic_237():
     from world_rules.logic_237_deadwood_stores_carbon import apply
     w = make_world()
     w.carbon_storage.zero_(); w.deadwood.fill_(1.0); apply(w); assert torch.allclose(w.carbon_storage, torch.full_like(w.carbon_storage, 0.01))
+
+def test_logic_238():
+    from world_rules.logic_238_fire_releases_deadwood_carbon import apply
+    w = make_world()
+    w.carbon_storage.fill_(1.0); w.fire_risk.fill_(1.0); w.deadwood.fill_(1.0); apply(w); assert torch.allclose(w.carbon_storage, torch.full_like(w.carbon_storage, 0.996))
