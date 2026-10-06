@@ -2478,3 +2478,7 @@ def logic_3611(agents, world):
 def logic_3612(agents, world):
     # surface_water -> cooperation_score; capacity coupling.
     _update(agents, 'cooperation_score', _desired(agents, world, 'surface_water', 'cooperation_score', 'capacity'))
+
+def logic_3613(agents, world):
+    # surface_water -> cooperation_score; reserve coupling.
+    _update(agents, 'cooperation_score', _desired(agents, world, 'surface_water', 'cooperation_score', 'reserve'))
