@@ -500,3 +500,8 @@ def test_logic_400():
 def test_logic_401():
  from agent_rules.rules import logic_401
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.migration_drive.clone();setattr(w,'salinity',torch.ones(4,4));logic_401(a,w);assert torch.any(a.migration_drive!=b)
+
+
+def test_logic_402():
+ from agent_rules.rules import logic_402
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.sharing_capacity.clone();a.energy_surplus.fill_(1);logic_402(a,w);assert torch.any(a.sharing_capacity!=b)
