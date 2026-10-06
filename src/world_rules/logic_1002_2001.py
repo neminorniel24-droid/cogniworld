@@ -2732,3 +2732,7 @@ def logic_1673(world):
 def logic_1674(world):
     # seed banks support vegetation recovery; direct.
     _feedback(world, 'seed_bank', 'vegetation', 1, 'baseline')
+
+def logic_1675(world):
+    # seed banks support vegetation recovery; stronger when soil is dry.
+    _feedback(world, 'seed_bank', 'vegetation', 1, 'dry_gate')
