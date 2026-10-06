@@ -1709,3 +1709,7 @@ def logic_2425(world):
 def logic_2426(world):
     # cloud formation supports rainfall; threshold coupling.
     _couple(world,'cloud','rain',1.0,'threshold')
+
+def logic_2427(world):
+    # cloud formation supports rainfall; pulse coupling.
+    _couple(world,'cloud','rain',1.0,'pulse')
