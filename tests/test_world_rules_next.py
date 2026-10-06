@@ -727,3 +727,11 @@ def test_logic_185():
     before=w.habitat_stress.clone()
     apply(w)
     assert torch.all(w.habitat_stress < before)
+
+def test_logic_186():
+    from world_rules.logic_186_detritus_supports_carrion_recovery import apply
+    w = make_world()
+    w.detritus.fill_(1.0)
+    w.carrion.zero_()
+    apply(w)
+    assert torch.allclose(w.carrion, torch.full_like(w.carrion, 0.001))

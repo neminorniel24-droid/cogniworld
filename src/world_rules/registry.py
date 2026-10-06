@@ -367,3 +367,5 @@ from .logic_184_habitat_stress_reduces_biomass import apply as logic_184
 RULES.append(logic_184)
 from .logic_185_biodiversity_buffers_stress import apply as logic_185
 RULES.append(logic_185)
+from .logic_186_detritus_supports_carrion_recovery import apply as logic_186
+RULES.append(logic_186)
