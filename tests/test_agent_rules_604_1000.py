@@ -1110,3 +1110,6 @@ def test_logic_987():
 def test_logic_988():
     from agent_rules.rules import logic_988
     _check(logic_988, 'attack_success', 'competition_score', 1)
+def test_logic_989():
+    from agent_rules.rules import logic_989
+    _check(logic_989, 'defense_score', 'defection_score', 1)
