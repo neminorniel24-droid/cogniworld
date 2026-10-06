@@ -1549,3 +1549,7 @@ def logic_2385(world):
 def logic_2386(world):
     # wetland conditions promote methane; threshold coupling.
     _couple(world,'wetland','methane',1.0,'threshold')
+
+def logic_2387(world):
+    # wetland conditions promote methane; pulse coupling.
+    _couple(world,'wetland','methane',1.0,'pulse')
