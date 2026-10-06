@@ -612,3 +612,6 @@ def test_logic_821():
 def test_logic_822():
     from agent_rules.rules import logic_822
     _check(logic_822, 'exploration_score', 'survival_score', 1)
+def test_logic_823():
+    from agent_rules.rules import logic_823
+    _check(logic_823, 'foraging_score', 'reproduction_score', 1)
