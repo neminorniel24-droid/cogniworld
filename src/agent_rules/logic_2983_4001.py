@@ -3178,3 +3178,7 @@ def logic_3786(agents, world):
 def logic_3787(agents, world):
     # surface_water -> sharing_score; inverse coupling.
     _update(agents, 'sharing_score', _desired(agents, world, 'surface_water', 'sharing_score', 'inverse'))
+
+def logic_3788(agents, world):
+    # surface_water -> sharing_score; threshold coupling.
+    _update(agents, 'sharing_score', _desired(agents, world, 'surface_water', 'sharing_score', 'threshold'))
