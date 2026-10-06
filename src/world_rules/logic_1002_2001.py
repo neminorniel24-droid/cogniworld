@@ -1052,3 +1052,7 @@ def logic_1253(world):
 def logic_1254(world):
     # warmth melts ice; direct.
     _feedback(world, 'temperature', 'ice', -1, 'baseline')
+
+def logic_1255(world):
+    # warmth melts ice; stronger when soil is dry.
+    _feedback(world, 'temperature', 'ice', -1, 'dry_gate')
