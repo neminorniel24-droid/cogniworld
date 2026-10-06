@@ -511,3 +511,5 @@ from .logic_256_clouds_delay_surface_ice_melt import apply as logic_256
 RULES.append(logic_256)
 from .logic_257_surface_water_supports_biomass import apply as logic_257
 RULES.append(logic_257)
+from .logic_258_groundwater_supports_biomass import apply as logic_258
+RULES.append(logic_258)
