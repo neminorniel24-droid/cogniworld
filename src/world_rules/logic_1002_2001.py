@@ -2056,3 +2056,7 @@ def logic_1504(world):
 def logic_1505(world):
     # nutrients support vegetation; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'nutrients', 'vegetation', 1, 'recovery')
+
+def logic_1506(world):
+    # organic matter mineralizes nutrients; direct.
+    _feedback(world, 'organic_matter', 'nutrients', 1, 'baseline')
