@@ -441,3 +441,6 @@ def test_logic_764():
 def test_logic_765():
     from agent_rules.rules import logic_765
     _check(logic_765, 'confidence', 'defection_score', 1)
+def test_logic_766():
+    from agent_rules.rules import logic_766
+    _check(logic_766, 'strategy_confidence', 'reciprocity_score', 1)

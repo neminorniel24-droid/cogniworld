@@ -892,3 +892,5 @@ def logic_764(agents,world):
     agents.competition_score=_delta(agents.competition_score,+0.002*agents.caution)
 def logic_765(agents,world):
     agents.defection_score=_delta(agents.defection_score,+0.002*agents.confidence)
+def logic_766(agents,world):
+    agents.reciprocity_score=_delta(agents.reciprocity_score,+0.002*agents.strategy_confidence)
