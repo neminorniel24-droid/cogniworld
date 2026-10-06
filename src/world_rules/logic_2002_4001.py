@@ -153,3 +153,7 @@ def logic_2036(world):
 def logic_2037(world):
     # vegetation builds biomass; pulse coupling.
     _couple(world,'vegetation','biomass',1.0,'pulse')
+
+def logic_2038(world):
+    # vegetation builds biomass; feedback coupling.
+    _couple(world,'vegetation','biomass',0.8,'positive')
