@@ -1624,3 +1624,7 @@ def logic_1396(world):
 def logic_1397(world):
     # roots stabilize soil; stronger when temperature is high.
     _feedback(world, 'root_density', 'erosion', -1, 'heat_gate')
+
+def logic_1398(world):
+    # roots stabilize soil; stronger when temperature is low.
+    _feedback(world, 'root_density', 'erosion', -1, 'cold_gate')
