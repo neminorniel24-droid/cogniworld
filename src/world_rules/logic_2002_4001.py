@@ -3529,3 +3529,7 @@ def logic_2880(world):
 def logic_2881(world):
     # soil carbon improves water retention; reserve coupling.
     _couple(world,'soil_carbon','surface_water',0.9,'positive')
+
+def logic_2882(world):
+    # root systems support persistent vegetation; direct coupling.
+    _couple(world,'root_density','vegetation',1.0,'positive')
