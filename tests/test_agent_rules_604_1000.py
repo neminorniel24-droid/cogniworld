@@ -603,3 +603,6 @@ def test_logic_818():
 def test_logic_819():
     from agent_rules.rules import logic_819
     _check(logic_819, 'reciprocity_score', 'caution', 1)
+def test_logic_820():
+    from agent_rules.rules import logic_820
+    _check(logic_820, 'risk_score', 'payoff', 1)
