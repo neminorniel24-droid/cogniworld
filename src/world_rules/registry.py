@@ -2618,3 +2618,6 @@ RULES.append(logic_2006)
 
 from .logic_2002_4001 import logic_2007
 RULES.append(logic_2007)
+
+from .logic_2002_4001 import logic_2008
+RULES.append(logic_2008)
