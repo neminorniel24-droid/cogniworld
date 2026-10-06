@@ -356,3 +356,7 @@ def logic_1079(world):
 def logic_1080(world):
     # open water raises local humidity; stronger when biomass is high.
     _feedback(world, 'surface_water', 'humidity', 1, 'biomass_gate')
+
+def logic_1081(world):
+    # open water raises local humidity; stronger under habitat stress.
+    _feedback(world, 'surface_water', 'humidity', 1, 'stress_gate')
