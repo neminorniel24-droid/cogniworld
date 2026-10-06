@@ -3582,3 +3582,7 @@ def logic_3887(agents, world):
 def logic_3888(agents, world):
     # surface_water -> payoff; limited coupling.
     _update(agents, 'payoff', _desired(agents, world, 'surface_water', 'payoff', 'limited'))
+
+def logic_3889(agents, world):
+    # surface_water -> payoff; pulse coupling.
+    _update(agents, 'payoff', _desired(agents, world, 'surface_water', 'payoff', 'pulse'))
