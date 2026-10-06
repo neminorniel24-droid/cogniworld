@@ -2501,3 +2501,7 @@ def logic_2623(world):
 def logic_2624(world):
     # biodiversity buffers habitat stress; limited coupling.
     _couple(world,'biodiversity','habitat_stress',0.65,'positive')
+
+def logic_2625(world):
+    # biodiversity buffers habitat stress; strong coupling.
+    _couple(world,'biodiversity','habitat_stress',1.35,'positive')
