@@ -3340,3 +3340,7 @@ def logic_1825(world):
 def logic_1826(world):
     # diverse communities dilute pathogens; activates above a food threshold.
     _feedback(world, 'biodiversity', 'pathogen_load', -1, 'threshold')
+
+def logic_1827(world):
+    # diverse communities dilute pathogens; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'biodiversity', 'pathogen_load', -1, 'recovery')
