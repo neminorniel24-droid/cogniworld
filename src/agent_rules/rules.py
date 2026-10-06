@@ -216,3 +216,5 @@ def logic_407(agents,world):
  v=torch.clamp(agents.hunger,0,2);agents.cooperation=_delta(agents.cooperation,v*0.001)
 def logic_408(agents,world):
  v=torch.clamp(agents.hunger,0,2);agents.generosity=_delta(agents.generosity,v*0.001)
+def logic_409(agents,world):
+ v=torch.clamp(agents.hunger,0,2);agents.trust=_delta(agents.trust,v*0.001)
