@@ -622,3 +622,5 @@ def logic_629(agents,world):
     agents.strategy_score=_delta(agents.strategy_score,+0.002*agents.infection_risk)
 def logic_630(agents,world):
     agents.strategy_confidence=_delta(agents.strategy_confidence,+0.002*agents.alertness)
+def logic_631(agents,world):
+    agents.caution=_delta(agents.caution,+0.002*agents.fear)
