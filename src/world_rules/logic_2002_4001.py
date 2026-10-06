@@ -3193,3 +3193,7 @@ def logic_2796(world):
 def logic_2797(world):
     # salinity changes water suitability; pulse coupling.
     _couple(world,'salinity','surface_water',1.0,'pulse')
+
+def logic_2798(world):
+    # salinity changes water suitability; feedback coupling.
+    _couple(world,'salinity','surface_water',0.8,'positive')
