@@ -336,3 +336,6 @@ def test_logic_729():
 def test_logic_730():
     from agent_rules.rules import logic_730
     _check(logic_730, 'gratitude', 'sharing_capacity', 1)
+def test_logic_731():
+    from agent_rules.rules import logic_731
+    _check(logic_731, 'caution', 'help_drive', 1)
