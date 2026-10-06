@@ -2832,3 +2832,7 @@ def logic_1698(world):
 def logic_1699(world):
     # vegetation replenishes seeds; saturates at high source levels.
     _feedback(world, 'vegetation', 'seed_bank', 1, 'saturation')
+
+def logic_1700(world):
+    # vegetation replenishes seeds; activates above a food threshold.
+    _feedback(world, 'vegetation', 'seed_bank', 1, 'threshold')
