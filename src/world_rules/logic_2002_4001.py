@@ -3321,3 +3321,7 @@ def logic_2828(world):
 def logic_2829(world):
     # evaporation removes surface water; counterpressure coupling.
     _couple(world,'evaporation','surface_water',0.8,'negative')
+
+def logic_2830(world):
+    # evaporation removes surface water; capacity coupling.
+    _couple(world,'evaporation','surface_water',0.5,'positive')
