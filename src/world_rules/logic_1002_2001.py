@@ -208,3 +208,7 @@ def logic_1042(world):
 def logic_1043(world):
     # rain recharges groundwater; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'rain', 'groundwater', 1, 'recovery')
+
+def logic_1044(world):
+    # snowmelt supplies surface water; direct.
+    _feedback(world, 'snowpack', 'surface_water', 1, 'baseline')
