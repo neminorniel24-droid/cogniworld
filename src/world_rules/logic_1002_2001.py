@@ -988,3 +988,7 @@ def logic_1237(world):
 def logic_1238(world):
     # warmth increases evaporation; activates above a food threshold.
     _feedback(world, 'temperature', 'evaporation', 1, 'threshold')
+
+def logic_1239(world):
+    # warmth increases evaporation; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'temperature', 'evaporation', 1, 'recovery')
