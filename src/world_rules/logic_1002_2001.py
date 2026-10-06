@@ -3680,3 +3680,7 @@ def logic_1910(world):
 def logic_1911(world):
     # oxygenated habitat limits pathogen persistence; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'oxygen', 'pathogen_load', -1, 'recovery')
+
+def logic_1912(world):
+    # methane increases warming pressure; direct.
+    _feedback(world, 'methane', 'temperature', 1, 'baseline')
