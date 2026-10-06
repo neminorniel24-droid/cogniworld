@@ -231,3 +231,6 @@ def test_logic_694():
 def test_logic_695():
     from agent_rules.rules import logic_695
     _check(logic_695, 'migration_drive', 'reproduction_score', 1)
+def test_logic_696():
+    from agent_rules.rules import logic_696
+    _check(logic_696, 'exploration_drive', 'exploration_score', 1)
