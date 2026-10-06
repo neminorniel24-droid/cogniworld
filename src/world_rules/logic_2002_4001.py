@@ -2753,3 +2753,7 @@ def logic_2686(world):
 def logic_2687(world):
     # biomass mortality feeds detritus; pulse coupling.
     _couple(world,'biomass','detritus',1.0,'pulse')
+
+def logic_2688(world):
+    # biomass mortality feeds detritus; feedback coupling.
+    _couple(world,'biomass','detritus',0.8,'positive')
