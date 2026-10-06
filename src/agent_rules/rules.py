@@ -174,3 +174,5 @@ def logic_386(agents,world):
  v=_local(world,agents,'deadwood');agents.resource_competition=_delta(agents.resource_competition,v*0.001)
 def logic_387(agents,world):
  v=_local(world,agents,'pollinators');agents.food_access=_delta(agents.food_access,v*0.001)
+def logic_388(agents,world):
+ v=_local(world,agents,'pollinators');agents.hunger=_delta(agents.hunger,v*0.001)
