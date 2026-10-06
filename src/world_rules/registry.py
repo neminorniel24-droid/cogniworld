@@ -389,3 +389,5 @@ from .logic_195_clouds_and_rain_cool_surface import apply as logic_195
 RULES.append(logic_195)
 from .logic_196_high_temperature_drives_more_evaporation import apply as logic_196
 RULES.append(logic_196)
+from .logic_197_surface_water_buffers_temperature import apply as logic_197
+RULES.append(logic_197)

@@ -822,3 +822,11 @@ def test_logic_196():
     w.evaporation.zero_()
     apply(w)
     assert torch.allclose(w.evaporation, torch.full_like(w.evaporation, 0.006))
+
+def test_logic_197():
+    from world_rules.logic_197_surface_water_buffers_temperature import apply
+    w = make_world()
+    w.surface_water.fill_(1.0)
+    w.temperature_target.fill_(1.0)
+    apply(w)
+    assert torch.allclose(w.temperature_target, torch.full_like(w.temperature_target, 0.995))
