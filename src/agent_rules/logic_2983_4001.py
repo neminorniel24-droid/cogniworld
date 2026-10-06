@@ -3218,3 +3218,7 @@ def logic_3796(agents, world):
 def logic_3797(agents, world):
     # surface_water -> sharing_score; stress coupling.
     _update(agents, 'sharing_score', _desired(agents, world, 'surface_water', 'sharing_score', 'stress'))
+
+def logic_3798(agents, world):
+    # surface_water -> sharing_score; recovery coupling.
+    _update(agents, 'sharing_score', _desired(agents, world, 'surface_water', 'sharing_score', 'recovery'))
