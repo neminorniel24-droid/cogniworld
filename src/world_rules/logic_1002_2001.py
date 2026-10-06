@@ -2936,3 +2936,7 @@ def logic_1724(world):
 def logic_1725(world):
     # vegetation supports herbivores; stronger under habitat stress.
     _feedback(world, 'vegetation', 'herbivore', 1, 'stress_gate')
+
+def logic_1726(world):
+    # vegetation supports herbivores; modulated by temperature.
+    _feedback(world, 'vegetation', 'herbivore', 1, 'seasonal_gate')
