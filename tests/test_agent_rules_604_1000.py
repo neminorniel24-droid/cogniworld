@@ -1128,3 +1128,6 @@ def test_logic_993():
 def test_logic_994():
     from agent_rules.rules import logic_994
     _check(logic_994, 'learning_rate', 'foraging_score', 1)
+def test_logic_995():
+    from agent_rules.rules import logic_995
+    _check(logic_995, 'future_payoff_weight', 'help_score', 1)
