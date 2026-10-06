@@ -1089,3 +1089,7 @@ def logic_2270(world):
 def logic_2271(world):
     # vegetation produces flowers; reserve coupling.
     _couple(world,'vegetation','flowers',0.9,'positive')
+
+def logic_2272(world):
+    # flowers support pollinators; direct coupling.
+    _couple(world,'flowers','pollinators',1.0,'positive')
