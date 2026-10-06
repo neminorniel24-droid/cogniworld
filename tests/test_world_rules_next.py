@@ -1324,3 +1324,8 @@ def test_logic_293():
     from world_rules.logic_293_groundwater_reduces_habitat_stress import apply
     w = make_world()
     w.habitat_stress.fill_(1.0); w.groundwater.fill_(1.0); apply(w); assert torch.allclose(w.habitat_stress, torch.full_like(w.habitat_stress, 0.998))
+
+def test_logic_294():
+    from world_rules.logic_294_snowpack_reduces_pathogen_pressure import apply
+    w = make_world()
+    w.pathogen_load.fill_(1.0); w.snowpack.fill_(1.0); apply(w); assert torch.allclose(w.pathogen_load, torch.full_like(w.pathogen_load, 0.999))
