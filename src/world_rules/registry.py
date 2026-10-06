@@ -409,3 +409,5 @@ from .logic_205_snowpack_reflects_surface_heat import apply as logic_205
 RULES.append(logic_205)
 from .logic_206_rain_compacts_snowpack import apply as logic_206
 RULES.append(logic_206)
+from .logic_207_snowmelt_recharges_water_table import apply as logic_207
+RULES.append(logic_207)

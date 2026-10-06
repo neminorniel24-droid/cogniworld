@@ -889,3 +889,8 @@ def test_logic_206():
     from world_rules.logic_206_rain_compacts_snowpack import apply
     w = make_world()
     w.snowpack.fill_(1.0); w.rain.fill_(1.0); apply(w); assert torch.allclose(w.snowpack, torch.full_like(w.snowpack, 0.98))
+
+def test_logic_207():
+    from world_rules.logic_207_snowmelt_recharges_water_table import apply
+    w = make_world()
+    w.groundwater.zero_(); w.snowpack.fill_(1.0); apply(w); assert torch.allclose(w.groundwater, torch.full_like(w.groundwater, 0.01))
