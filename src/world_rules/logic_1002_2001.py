@@ -3152,3 +3152,7 @@ def logic_1778(world):
 def logic_1779(world):
     # predator mortality contributes carrion; stronger when vegetation is scarce.
     _feedback(world, 'predator', 'carrion', 1, 'scarcity_gate')
+
+def logic_1780(world):
+    # predator mortality contributes carrion; stronger when biomass is high.
+    _feedback(world, 'predator', 'carrion', 1, 'biomass_gate')
