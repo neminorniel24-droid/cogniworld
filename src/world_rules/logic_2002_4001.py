@@ -489,3 +489,7 @@ def logic_2120(world):
 def logic_2121(world):
     # open water adds humidity; reserve coupling.
     _couple(world,'surface_water','humidity',0.9,'positive')
+
+def logic_2122(world):
+    # surface water recharges groundwater; direct coupling.
+    _couple(world,'surface_water','groundwater',1.0,'positive')
