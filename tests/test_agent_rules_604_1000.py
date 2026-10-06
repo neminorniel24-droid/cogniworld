@@ -606,3 +606,6 @@ def test_logic_819():
 def test_logic_820():
     from agent_rules.rules import logic_820
     _check(logic_820, 'risk_score', 'payoff', 1)
+def test_logic_821():
+    from agent_rules.rules import logic_821
+    _check(logic_821, 'safety_score', 'fitness_score', 1)
