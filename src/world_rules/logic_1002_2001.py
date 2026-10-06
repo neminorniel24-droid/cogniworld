@@ -2244,3 +2244,7 @@ def logic_1551(world):
 def logic_1552(world):
     # ash supplies mineral nutrients; stronger when temperature is low.
     _feedback(world, 'ash', 'nutrients', 1, 'cold_gate')
+
+def logic_1553(world):
+    # ash supplies mineral nutrients; stronger under fire pressure.
+    _feedback(world, 'ash', 'nutrients', 1, 'fire_gate')
