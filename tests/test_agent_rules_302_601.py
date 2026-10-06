@@ -1165,3 +1165,8 @@ def test_logic_533():
 def test_logic_534():
  from agent_rules.rules import logic_534
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.wealth.clone();a.last_reward.fill_(1);logic_534(a,w);assert torch.any(a.wealth!=b)
+
+
+def test_logic_535():
+ from agent_rules.rules import logic_535
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.fitness_score.clone();a.last_reward.fill_(1);logic_535(a,w);assert torch.any(a.fitness_score!=b)
