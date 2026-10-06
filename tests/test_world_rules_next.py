@@ -752,3 +752,12 @@ def test_logic_188():
     before=w.habitat_stress.clone()
     apply(w)
     assert torch.all(w.habitat_stress < before)
+
+def test_logic_189():
+    from world_rules.logic_189_carbon_storage_reduces_temperature_target import apply
+    w = make_world()
+    w.carbon_storage.fill_(1.0)
+    w.temperature_target.fill_(0.5)
+    before=w.temperature_target.clone()
+    apply(w)
+    assert torch.all(w.temperature_target < before)

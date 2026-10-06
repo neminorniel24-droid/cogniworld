@@ -373,3 +373,5 @@ from .logic_187_low_nutrients_raise_habitat_stress import apply as logic_187
 RULES.append(logic_187)
 from .logic_188_high_nutrients_reduce_habitat_stress import apply as logic_188
 RULES.append(logic_188)
+from .logic_189_carbon_storage_reduces_temperature_target import apply as logic_189
+RULES.append(logic_189)
