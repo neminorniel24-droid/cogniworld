@@ -14,3 +14,5 @@ def test_payoff_in_ledger():
     assert "payoff" in _event()
 def test_trust_in_ledger():
     assert "trust" in _event()
+def test_reputation_in_ledger():
+    assert "reputation" in _event()
