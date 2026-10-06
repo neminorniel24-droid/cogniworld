@@ -747,3 +747,6 @@ def test_logic_866():
 def test_logic_867():
     from agent_rules.rules import logic_867
     _check(logic_867, 'defense_score', 'payoff', 1)
+def test_logic_868():
+    from agent_rules.rules import logic_868
+    _check(logic_868, 'last_reward', 'defection_score', 1)
