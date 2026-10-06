@@ -1016,3 +1016,5 @@ def logic_826(agents,world):
     agents.defection_score=_delta(agents.defection_score,+0.002*agents.help_score)
 def logic_827(agents,world):
     agents.risk_score=_delta(agents.risk_score,+0.002*agents.attack_success)
+def logic_828(agents,world):
+    agents.exploration_score=_delta(agents.exploration_score,+0.002*agents.retaliation_risk)
