@@ -465,3 +465,5 @@ from .logic_233_biomass_loss_creates_deadwood import apply as logic_233
 RULES.append(logic_233)
 from .logic_234_deadwood_decomposes import apply as logic_234
 RULES.append(logic_234)
+from .logic_235_deadwood_raises_fire_risk import apply as logic_235
+RULES.append(logic_235)

@@ -1029,3 +1029,8 @@ def test_logic_234():
     from world_rules.logic_234_deadwood_decomposes import apply
     w = make_world()
     w.deadwood.fill_(1.0); w.decomposition_rate.fill_(1.0); apply(w); assert torch.allclose(w.deadwood, torch.full_like(w.deadwood, 0.99))
+
+def test_logic_235():
+    from world_rules.logic_235_deadwood_raises_fire_risk import apply
+    w = make_world()
+    w.fire_risk.zero_(); w.deadwood.fill_(1.0); apply(w); assert torch.allclose(w.fire_risk, torch.full_like(w.fire_risk, 0.003))
