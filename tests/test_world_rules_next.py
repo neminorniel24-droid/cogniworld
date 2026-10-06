@@ -130,3 +130,12 @@ def test_logic_116():
     before=w.soil_moisture.clone()
     apply(w)
     assert torch.all(w.soil_moisture < before)
+
+def test_logic_117():
+    from world_rules.logic_117_roots_reduce_erosion import apply
+    w = make_world()
+    w.root_density.fill_(1.0)
+    w.erosion.fill_(1.0)
+    before=w.erosion.clone()
+    apply(w)
+    assert torch.all(w.erosion < before)
