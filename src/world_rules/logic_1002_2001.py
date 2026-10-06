@@ -1744,3 +1744,7 @@ def logic_1426(world):
 def logic_1427(world):
     # vegetation stores carbon; stronger under fire pressure.
     _feedback(world, 'vegetation', 'carbon_storage', 1, 'fire_gate')
+
+def logic_1428(world):
+    # vegetation stores carbon; stronger when surface water is high.
+    _feedback(world, 'vegetation', 'carbon_storage', 1, 'water_gate')
