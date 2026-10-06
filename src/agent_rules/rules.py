@@ -1218,3 +1218,5 @@ def logic_927(agents,world):
     agents.self_preservation=_delta(agents.self_preservation,+0.002*agents.future_payoff_weight)
 def logic_928(agents,world):
     agents.payoff=_signed_delta(agents.payoff,+0.002*agents.self_preservation)
+def logic_929(agents,world):
+    agents.competition_score=_delta(agents.competition_score,+0.002*agents.strategy_score)

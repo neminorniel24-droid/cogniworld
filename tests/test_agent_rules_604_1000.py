@@ -930,3 +930,6 @@ def test_logic_927():
 def test_logic_928():
     from agent_rules.rules import logic_928
     _check(logic_928, 'self_preservation', 'payoff', 1)
+def test_logic_929():
+    from agent_rules.rules import logic_929
+    _check(logic_929, 'strategy_score', 'competition_score', 1)
