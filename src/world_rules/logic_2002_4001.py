@@ -1073,3 +1073,7 @@ def logic_2266(world):
 def logic_2267(world):
     # vegetation produces flowers; pulse coupling.
     _couple(world,'vegetation','flowers',1.0,'pulse')
+
+def logic_2268(world):
+    # vegetation produces flowers; feedback coupling.
+    _couple(world,'vegetation','flowers',0.8,'positive')
