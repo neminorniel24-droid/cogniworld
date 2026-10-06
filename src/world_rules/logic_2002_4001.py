@@ -417,3 +417,7 @@ def logic_2102(world):
 def logic_2103(world):
     # wind increases evaporative loss; inverse coupling.
     _couple(world,'wind_x','evaporation',1.0,'negative')
+
+def logic_2104(world):
+    # wind increases evaporative loss; limited coupling.
+    _couple(world,'wind_x','evaporation',0.65,'positive')
