@@ -3230,3 +3230,7 @@ def logic_3799(agents, world):
 def logic_3800(agents, world):
     # surface_water -> strategy_persistence; direct coupling.
     _update(agents, 'strategy_persistence', _desired(agents, world, 'surface_water', 'strategy_persistence', 'direct'))
+
+def logic_3801(agents, world):
+    # surface_water -> strategy_persistence; inverse coupling.
+    _update(agents, 'strategy_persistence', _desired(agents, world, 'surface_water', 'strategy_persistence', 'inverse'))
