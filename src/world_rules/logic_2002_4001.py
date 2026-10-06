@@ -3129,3 +3129,7 @@ def logic_2780(world):
 def logic_2781(world):
     # fire can reduce pathogen load; reserve coupling.
     _couple(world,'fire_risk','pathogen_load',0.9,'positive')
+
+def logic_2782(world):
+    # runoff redistributes salts; direct coupling.
+    _couple(world,'runoff','salinity',1.0,'positive')
