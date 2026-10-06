@@ -1048,3 +1048,7 @@ def logic_1252(world):
 def logic_1253(world):
     # warmth melts snowpack; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'temperature', 'snowpack', -1, 'recovery')
+
+def logic_1254(world):
+    # warmth melts ice; direct.
+    _feedback(world, 'temperature', 'ice', -1, 'baseline')
