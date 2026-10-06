@@ -254,3 +254,11 @@ def test_logic_130():
     w.vegetation.zero_()
     apply(w)
     assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.004))
+
+def test_logic_131():
+    from world_rules.logic_131_oxygen_supports_decomposition import apply
+    w = make_world()
+    w.oxygen.fill_(1.0)
+    w.decomposition_rate.zero_()
+    apply(w)
+    assert torch.allclose(w.decomposition_rate, torch.full_like(w.decomposition_rate, 0.01))
