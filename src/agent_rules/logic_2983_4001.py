@@ -1298,3 +1298,7 @@ def logic_3316(agents, world):
 def logic_3317(agents, world):
     # surface_water -> cooperation; counterpressure coupling.
     _update(agents, 'cooperation', _desired(agents, world, 'surface_water', 'cooperation', 'counterpressure'))
+
+def logic_3318(agents, world):
+    # surface_water -> cooperation; capacity coupling.
+    _update(agents, 'cooperation', _desired(agents, world, 'surface_water', 'cooperation', 'capacity'))
