@@ -280,3 +280,7 @@ def logic_1060(world):
 def logic_1061(world):
     # snowpack supports groundwater recharge; stronger when temperature is high.
     _feedback(world, 'snowpack', 'groundwater', 1, 'heat_gate')
+
+def logic_1062(world):
+    # snowpack supports groundwater recharge; stronger when temperature is low.
+    _feedback(world, 'snowpack', 'groundwater', 1, 'cold_gate')
