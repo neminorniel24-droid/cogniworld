@@ -300,3 +300,6 @@ def test_logic_717():
 def test_logic_718():
     from agent_rules.rules import logic_718
     _check(logic_718, 'cooperation', 'defection_score', -1)
+def test_logic_719():
+    from agent_rules.rules import logic_719
+    _check(logic_719, 'defection', 'reciprocity_score', 1)
