@@ -209,3 +209,5 @@ from .logic_105_methane_adds_greenhouse_warming import apply as logic_105
 RULES.append(logic_105)
 from .logic_106_co2_adds_greenhouse_warming import apply as logic_106
 RULES.append(logic_106)
+from .logic_107_humidity_adds_water_vapor_warming import apply as logic_107
+RULES.append(logic_107)

@@ -46,3 +46,12 @@ def test_logic_106():
     before=w.temperature_target.clone()
     apply(w)
     assert torch.all(w.temperature_target > before)
+
+def test_logic_107():
+    from world_rules.logic_107_humidity_adds_water_vapor_warming import apply
+    w = make_world()
+    w.humidity.fill_(1.0)
+    w.temperature_target.fill_(0.5)
+    before=w.temperature_target.clone()
+    apply(w)
+    assert torch.all(w.temperature_target > before)
