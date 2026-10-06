@@ -3604,3 +3604,7 @@ def logic_1891(world):
 def logic_1892(world):
     # algae add organic matter; stronger when biomass is high.
     _feedback(world, 'algae', 'organic_matter', 1, 'biomass_gate')
+
+def logic_1893(world):
+    # algae add organic matter; stronger under habitat stress.
+    _feedback(world, 'algae', 'organic_matter', 1, 'stress_gate')
