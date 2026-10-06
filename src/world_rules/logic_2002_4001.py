@@ -2689,3 +2689,7 @@ def logic_2670(world):
 def logic_2671(world):
     # flowers support seed production; reserve coupling.
     _couple(world,'flowers','seed_bank',0.9,'positive')
+
+def logic_2672(world):
+    # seed reserves support diversity; direct coupling.
+    _couple(world,'seed_bank','biodiversity',1.0,'positive')
