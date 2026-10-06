@@ -1286,3 +1286,5 @@ def logic_961(agents,world):
     agents.reciprocity_score=_delta(agents.reciprocity_score,+0.002*agents.last_reward)
 def logic_962(agents,world):
     agents.safety_score=_delta(agents.safety_score,+0.002*agents.last_food)
+def logic_963(agents,world):
+    agents.exploration_score=_delta(agents.exploration_score,+0.002*agents.survival_score)
