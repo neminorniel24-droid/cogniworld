@@ -634,3 +634,5 @@ def logic_635(agents,world):
     agents.resource_discovery=_delta(agents.resource_discovery,+0.002*agents.migration_drive)
 def logic_636(agents,world):
     agents.sharing_capacity=_delta(agents.sharing_capacity,+0.002*agents.exploration_drive)
+def logic_637(agents,world):
+    agents.help_drive=_delta(agents.help_drive,+0.002*agents.food_access)
