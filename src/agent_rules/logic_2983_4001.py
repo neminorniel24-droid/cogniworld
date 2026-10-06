@@ -2330,3 +2330,7 @@ def logic_3574(agents, world):
 def logic_3575(agents, world):
     # surface_water -> empathy; persistence coupling.
     _update(agents, 'empathy', _desired(agents, world, 'surface_water', 'empathy', 'persistence'))
+
+def logic_3576(agents, world):
+    # surface_water -> risk_tolerance; direct coupling.
+    _update(agents, 'risk_tolerance', _desired(agents, world, 'surface_water', 'risk_tolerance', 'direct'))
