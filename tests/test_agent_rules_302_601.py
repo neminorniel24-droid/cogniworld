@@ -440,3 +440,8 @@ def test_logic_388():
 def test_logic_389():
  from agent_rules.rules import logic_389
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.reproduction_drive.clone();setattr(w,'pollinators',torch.ones(4,4));logic_389(a,w);assert torch.any(a.reproduction_drive!=b)
+
+
+def test_logic_390():
+ from agent_rules.rules import logic_390
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.food_access.clone();setattr(w,'flowers',torch.ones(4,4));logic_390(a,w);assert torch.any(a.food_access!=b)
