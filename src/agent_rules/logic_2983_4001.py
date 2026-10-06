@@ -594,3 +594,7 @@ def logic_3140(agents, world):
 def logic_3141(agents, world):
     # surface_water -> fear; persistence coupling.
     _update(agents, 'fear', _desired(agents, world, 'surface_water', 'fear', 'persistence'))
+
+def logic_3142(agents, world):
+    # surface_water -> recovery; direct coupling.
+    _update(agents, 'recovery', _desired(agents, world, 'surface_water', 'recovery', 'direct'))
