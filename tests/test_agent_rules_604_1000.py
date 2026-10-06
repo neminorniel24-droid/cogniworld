@@ -123,3 +123,6 @@ def test_logic_658():
 def test_logic_659():
     from agent_rules.rules import logic_659
     _check(logic_659, 'stability', 'safety_score', 1)
+def test_logic_660():
+    from agent_rules.rules import logic_660
+    _check(logic_660, 'habitat_stress', 'survival_score', -1)

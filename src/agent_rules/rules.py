@@ -680,3 +680,5 @@ def logic_658(agents,world):
     agents.risk_score=_delta(agents.risk_score,+0.002*agents.wealth)
 def logic_659(agents,world):
     agents.safety_score=_delta(agents.safety_score,+0.002*agents.stability)
+def logic_660(agents,world):
+    agents.survival_score=_delta(agents.survival_score,-0.002*agents.habitat_stress)
