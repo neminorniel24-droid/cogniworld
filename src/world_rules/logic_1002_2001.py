@@ -316,3 +316,7 @@ def logic_1069(world):
 def logic_1070(world):
     # snowpack supports groundwater recharge; activates above a food threshold.
     _feedback(world, 'snowpack', 'groundwater', 1, 'threshold')
+
+def logic_1071(world):
+    # snowpack supports groundwater recharge; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'snowpack', 'groundwater', 1, 'recovery')
