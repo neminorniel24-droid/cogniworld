@@ -2984,3 +2984,7 @@ def logic_1736(world):
 def logic_1737(world):
     # herbivore mortality contributes carrion; stronger when vegetation is scarce.
     _feedback(world, 'herbivore', 'carrion', 1, 'scarcity_gate')
+
+def logic_1738(world):
+    # herbivore mortality contributes carrion; stronger when biomass is high.
+    _feedback(world, 'herbivore', 'carrion', 1, 'biomass_gate')
