@@ -2953,3 +2953,7 @@ def logic_2736(world):
 def logic_2737(world):
     # cloud cover moderates temperature; pulse coupling.
     _couple(world,'cloud','temperature',1.0,'pulse')
+
+def logic_2738(world):
+    # cloud cover moderates temperature; feedback coupling.
+    _couple(world,'cloud','temperature',0.8,'positive')
