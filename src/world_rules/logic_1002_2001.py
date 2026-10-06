@@ -924,3 +924,7 @@ def logic_1221(world):
 def logic_1222(world):
     # cloud cover reduces heating; modulated by temperature.
     _feedback(world, 'cloud', 'temperature', -1, 'seasonal_gate')
+
+def logic_1223(world):
+    # cloud cover reduces heating; saturates at high source levels.
+    _feedback(world, 'cloud', 'temperature', -1, 'saturation')
