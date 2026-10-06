@@ -336,3 +336,7 @@ def logic_1074(world):
 def logic_1075(world):
     # open water raises local humidity; stronger when temperature is high.
     _feedback(world, 'surface_water', 'humidity', 1, 'heat_gate')
+
+def logic_1076(world):
+    # open water raises local humidity; stronger when temperature is low.
+    _feedback(world, 'surface_water', 'humidity', 1, 'cold_gate')
