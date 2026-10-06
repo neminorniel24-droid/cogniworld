@@ -740,3 +740,5 @@ def logic_688(agents,world):
     agents.competition_pressure=_delta(agents.competition_pressure,+0.002*agents.pathogen_risk)
 def logic_689(agents,world):
     agents.resource_competition=_delta(agents.resource_competition,+0.002*agents.infection_risk)
+def logic_690(agents,world):
+    agents.risk_score=_delta(agents.risk_score,+0.002*agents.alertness)
