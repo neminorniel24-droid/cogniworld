@@ -484,3 +484,7 @@ def logic_1111(world):
 def logic_1112(world):
     # surface water supports algae; activates above a food threshold.
     _feedback(world, 'surface_water', 'algae', 1, 'threshold')
+
+def logic_1113(world):
+    # surface water supports algae; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'surface_water', 'algae', 1, 'recovery')
