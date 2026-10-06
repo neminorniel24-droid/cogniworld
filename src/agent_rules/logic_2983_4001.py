@@ -2810,3 +2810,7 @@ def logic_3694(agents, world):
 def logic_3695(agents, world):
     # surface_water -> exploration_score; counterpressure coupling.
     _update(agents, 'exploration_score', _desired(agents, world, 'surface_water', 'exploration_score', 'counterpressure'))
+
+def logic_3696(agents, world):
+    # surface_water -> exploration_score; capacity coupling.
+    _update(agents, 'exploration_score', _desired(agents, world, 'surface_water', 'exploration_score', 'capacity'))
