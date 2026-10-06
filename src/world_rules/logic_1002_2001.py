@@ -2640,3 +2640,7 @@ def logic_1650(world):
 def logic_1651(world):
     # flowers support pollinators; stronger under fire pressure.
     _feedback(world, 'flowers', 'pollinators', 1, 'fire_gate')
+
+def logic_1652(world):
+    # flowers support pollinators; stronger when surface water is high.
+    _feedback(world, 'flowers', 'pollinators', 1, 'water_gate')
