@@ -1909,3 +1909,7 @@ def logic_2475(world):
 def logic_2476(world):
     # soil carbon stores carbon; threshold coupling.
     _couple(world,'soil_carbon','carbon_storage',1.0,'threshold')
+
+def logic_2477(world):
+    # soil carbon stores carbon; pulse coupling.
+    _couple(world,'soil_carbon','carbon_storage',1.0,'pulse')
