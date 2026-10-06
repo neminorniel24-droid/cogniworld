@@ -34,3 +34,5 @@ def test_last_interaction_in_ledger():
     assert "last_interaction" in _event()
 def test_strategy_score_in_ledger():
     assert "strategy_score" in _event()
+def test_cooperation_score_in_ledger():
+    assert "cooperation_score" in _event()
