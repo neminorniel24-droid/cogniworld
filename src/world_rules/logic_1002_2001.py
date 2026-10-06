@@ -3488,3 +3488,7 @@ def logic_1862(world):
 def logic_1863(world):
     # salinity suppresses freshwater algae; stronger when vegetation is scarce.
     _feedback(world, 'salinity', 'algae', -1, 'scarcity_gate')
+
+def logic_1864(world):
+    # salinity suppresses freshwater algae; stronger when biomass is high.
+    _feedback(world, 'salinity', 'algae', -1, 'biomass_gate')
