@@ -1998,3 +1998,7 @@ def logic_3491(agents, world):
 def logic_3492(agents, world):
     # surface_water -> caution; direct coupling.
     _update(agents, 'caution', _desired(agents, world, 'surface_water', 'caution', 'direct'))
+
+def logic_3493(agents, world):
+    # surface_water -> caution; inverse coupling.
+    _update(agents, 'caution', _desired(agents, world, 'surface_water', 'caution', 'inverse'))
