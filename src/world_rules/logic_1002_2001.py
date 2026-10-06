@@ -4004,3 +4004,7 @@ def logic_1991(world):
 def logic_1992(world):
     # deadwood fuels fire risk; modulated by temperature.
     _feedback(world, 'deadwood', 'fire_risk', 1, 'seasonal_gate')
+
+def logic_1993(world):
+    # deadwood fuels fire risk; saturates at high source levels.
+    _feedback(world, 'deadwood', 'fire_risk', 1, 'saturation')
