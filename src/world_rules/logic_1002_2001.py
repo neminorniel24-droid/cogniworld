@@ -1776,3 +1776,7 @@ def logic_1434(world):
 def logic_1435(world):
     # vegetation stores carbon; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'vegetation', 'carbon_storage', 1, 'recovery')
+
+def logic_1436(world):
+    # biomass stores carbon; direct.
+    _feedback(world, 'biomass', 'carbon_storage', 1, 'baseline')
