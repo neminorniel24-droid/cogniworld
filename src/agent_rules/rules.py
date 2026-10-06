@@ -340,3 +340,5 @@ def logic_469(agents,world):
  v=torch.clamp(agents.group_stability,0,2);agents.group_stability=_delta(agents.group_stability,v*0.001)
 def logic_470(agents,world):
  v=torch.clamp(agents.group_stability,0,2);agents.future_help=_delta(agents.future_help,v*0.001)
+def logic_471(agents,world):
+ v=torch.clamp(agents.group_stability,0,2);agents.caution=_delta(agents.caution,v*0.001)
