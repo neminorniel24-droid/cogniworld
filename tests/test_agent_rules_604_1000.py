@@ -288,3 +288,6 @@ def test_logic_713():
 def test_logic_714():
     from agent_rules.rules import logic_714
     _check(logic_714, 'reproduction_drive', 'strategy_confidence', 1)
+def test_logic_715():
+    from agent_rules.rules import logic_715
+    _check(logic_715, 'migration_drive', 'caution', 1)
