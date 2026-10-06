@@ -3164,3 +3164,7 @@ def logic_1781(world):
 def logic_1782(world):
     # predator mortality contributes carrion; modulated by temperature.
     _feedback(world, 'predator', 'carrion', 1, 'seasonal_gate')
+
+def logic_1783(world):
+    # predator mortality contributes carrion; saturates at high source levels.
+    _feedback(world, 'predator', 'carrion', 1, 'saturation')
