@@ -3752,3 +3752,7 @@ def logic_1928(world):
 def logic_1929(world):
     # CO2 increases warming pressure; stronger when temperature is high.
     _feedback(world, 'co2', 'temperature', 1, 'heat_gate')
+
+def logic_1930(world):
+    # CO2 increases warming pressure; stronger when temperature is low.
+    _feedback(world, 'co2', 'temperature', 1, 'cold_gate')
