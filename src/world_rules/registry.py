@@ -453,3 +453,5 @@ from .logic_227_oxygen_stresses_anaerobic_algae import apply as logic_227
 RULES.append(logic_227)
 from .logic_228_low_oxygen_increases_methane import apply as logic_228
 RULES.append(logic_228)
+from .logic_229_wet_soil_boosts_organic_matter import apply as logic_229
+RULES.append(logic_229)

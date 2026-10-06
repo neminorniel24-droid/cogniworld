@@ -999,3 +999,8 @@ def test_logic_228():
     from world_rules.logic_228_low_oxygen_increases_methane import apply
     w = make_world()
     w.methane.zero_(); w.oxygen.zero_(); apply(w); assert torch.allclose(w.methane, torch.full_like(w.methane, 0.004))
+
+def test_logic_229():
+    from world_rules.logic_229_wet_soil_boosts_organic_matter import apply
+    w = make_world()
+    w.organic_matter.zero_(); w.soil_moisture.fill_(1.0); apply(w); assert torch.allclose(w.organic_matter, torch.full_like(w.organic_matter, 0.01))
