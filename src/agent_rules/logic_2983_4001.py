@@ -162,3 +162,7 @@ def logic_3032(agents, world):
 def logic_3033(agents, world):
     # surface_water -> hunger; strong coupling.
     _update(agents, 'hunger', _desired(agents, world, 'surface_water', 'hunger', 'strong'))
+
+def logic_3034(agents, world):
+    # surface_water -> hunger; limited coupling.
+    _update(agents, 'hunger', _desired(agents, world, 'surface_water', 'hunger', 'limited'))
