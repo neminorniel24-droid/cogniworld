@@ -3192,3 +3192,7 @@ def logic_1788(world):
 def logic_1789(world):
     # carrion feeds decomposers; stronger when temperature is high.
     _feedback(world, 'carrion', 'organic_matter', 1, 'heat_gate')
+
+def logic_1790(world):
+    # carrion feeds decomposers; stronger when temperature is low.
+    _feedback(world, 'carrion', 'organic_matter', 1, 'cold_gate')
