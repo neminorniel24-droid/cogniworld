@@ -1888,3 +1888,7 @@ def logic_1462(world):
 def logic_1463(world):
     # biomass contributes oxygen; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'biomass', 'oxygen', 1, 'recovery')
+
+def logic_1464(world):
+    # high CO2 stress reduces photosynthetic efficiency; direct.
+    _feedback(world, 'co2', 'photosynthesis_factor', -1, 'baseline')
