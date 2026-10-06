@@ -283,3 +283,5 @@ from .logic_142_biomass_builds_carbon_storage import apply as logic_142
 RULES.append(logic_142)
 from .logic_143_biomass_produces_oxygen import apply as logic_143
 RULES.append(logic_143)
+from .logic_144_herbivory_reduces_biomass import apply as logic_144
+RULES.append(logic_144)

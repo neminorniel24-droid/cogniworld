@@ -365,3 +365,12 @@ def test_logic_143():
     w.oxygen.zero_()
     apply(w)
     assert torch.allclose(w.oxygen, torch.full_like(w.oxygen, 0.008))
+
+def test_logic_144():
+    from world_rules.logic_144_herbivory_reduces_biomass import apply
+    w = make_world()
+    w.herbivore.fill_(1.0)
+    w.biomass.fill_(1.0)
+    before=w.biomass.clone()
+    apply(w)
+    assert torch.all(w.biomass < before)
