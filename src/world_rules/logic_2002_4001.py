@@ -129,3 +129,7 @@ def logic_2030(world):
 def logic_2031(world):
     # soil moisture supports vegetation; reserve coupling.
     _couple(world,'soil_moisture','vegetation',0.9,'positive')
+
+def logic_2032(world):
+    # vegetation builds biomass; direct coupling.
+    _couple(world,'vegetation','biomass',1.0,'positive')
