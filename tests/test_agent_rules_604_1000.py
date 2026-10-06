@@ -1017,3 +1017,6 @@ def test_logic_956():
 def test_logic_957():
     from agent_rules.rules import logic_957
     _check(logic_957, 'strategy_confidence', 'strategy_score', 1)
+def test_logic_958():
+    from agent_rules.rules import logic_958
+    _check(logic_958, 'learning_rate', 'cooperation_score', 1)
