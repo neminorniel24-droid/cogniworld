@@ -433,3 +433,5 @@ from .logic_217_rain_flushes_salinity import apply as logic_217
 RULES.append(logic_217)
 from .logic_218_surface_water_dilutes_salinity import apply as logic_218
 RULES.append(logic_218)
+from .logic_219_high_salinity_suppresses_vegetation import apply as logic_219
+RULES.append(logic_219)
