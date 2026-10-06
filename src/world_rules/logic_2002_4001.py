@@ -1589,3 +1589,7 @@ def logic_2395(world):
 def logic_2396(world):
     # oxygen availability shapes decomposition; threshold coupling.
     _couple(world,'oxygen','decomposition_rate',1.0,'threshold')
+
+def logic_2397(world):
+    # oxygen availability shapes decomposition; pulse coupling.
+    _couple(world,'oxygen','decomposition_rate',1.0,'pulse')
