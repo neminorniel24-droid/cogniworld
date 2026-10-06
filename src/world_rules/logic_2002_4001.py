@@ -113,3 +113,7 @@ def logic_2026(world):
 def logic_2027(world):
     # soil moisture supports vegetation; pulse coupling.
     _couple(world,'soil_moisture','vegetation',1.0,'pulse')
+
+def logic_2028(world):
+    # soil moisture supports vegetation; feedback coupling.
+    _couple(world,'soil_moisture','vegetation',0.8,'positive')
