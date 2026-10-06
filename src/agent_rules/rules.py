@@ -1092,3 +1092,5 @@ def logic_864(agents,world):
     agents.risk_tolerance=_delta(agents.risk_tolerance,+0.002*agents.help_score)
 def logic_865(agents,world):
     agents.confidence=_delta(agents.confidence,+0.002*agents.attack_success)
+def logic_866(agents,world):
+    agents.caution=_delta(agents.caution,+0.002*agents.retaliation_risk)
