@@ -588,3 +588,7 @@ def logic_1137(world):
 def logic_1138(world):
     # groundwater supports wetlands; modulated by temperature.
     _feedback(world, 'groundwater', 'wetland', 1, 'seasonal_gate')
+
+def logic_1139(world):
+    # groundwater supports wetlands; saturates at high source levels.
+    _feedback(world, 'groundwater', 'wetland', 1, 'saturation')
