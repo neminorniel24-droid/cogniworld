@@ -745,3 +745,8 @@ def test_logic_449():
 def test_logic_450():
  from agent_rules.rules import logic_450
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.migration_drive.clone();a.help_given.fill_(1);logic_450(a,w);assert torch.any(a.migration_drive!=b)
+
+
+def test_logic_451():
+ from agent_rules.rules import logic_451
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.help_drive.clone();a.help_given.fill_(1);logic_451(a,w);assert torch.any(a.help_drive!=b)
