@@ -804,3 +804,5 @@ def logic_720(agents,world):
     agents.help_score=_delta(agents.help_score,-0.002*agents.aggression)
 def logic_721(agents,world):
     agents.sharing_score=_delta(agents.sharing_score,-0.002*agents.conflict_pressure)
+def logic_722(agents,world):
+    agents.reputation=_delta(agents.reputation,-0.002*agents.competition_pressure)
