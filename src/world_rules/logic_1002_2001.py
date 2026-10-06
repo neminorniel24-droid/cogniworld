@@ -380,3 +380,7 @@ def logic_1085(world):
 def logic_1086(world):
     # persistent surface water expands wetlands; direct.
     _feedback(world, 'surface_water', 'wetland', 1, 'baseline')
+
+def logic_1087(world):
+    # persistent surface water expands wetlands; stronger when soil is dry.
+    _feedback(world, 'surface_water', 'wetland', 1, 'dry_gate')
