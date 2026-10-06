@@ -3533,3 +3533,7 @@ def logic_2881(world):
 def logic_2882(world):
     # root systems support persistent vegetation; direct coupling.
     _couple(world,'root_density','vegetation',1.0,'positive')
+
+def logic_2883(world):
+    # root systems support persistent vegetation; inverse coupling.
+    _couple(world,'root_density','vegetation',1.0,'negative')
