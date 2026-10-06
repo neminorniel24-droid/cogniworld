@@ -3576,3 +3576,7 @@ def logic_1884(world):
 def logic_1885(world):
     # algae add organic matter; stronger when soil is dry.
     _feedback(world, 'algae', 'organic_matter', 1, 'dry_gate')
+
+def logic_1886(world):
+    # algae add organic matter; stronger when soil is wet.
+    _feedback(world, 'algae', 'organic_matter', 1, 'wet_gate')
