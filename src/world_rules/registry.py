@@ -573,3 +573,5 @@ from .logic_287_extreme_temperature_suppresses_pollinators import apply as logic
 RULES.append(logic_287)
 from .logic_288_vegetation_reduces_salinity_exposure import apply as logic_288
 RULES.append(logic_288)
+from .logic_289_root_density_reduces_sediment_export import apply as logic_289
+RULES.append(logic_289)

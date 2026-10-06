@@ -1299,3 +1299,8 @@ def test_logic_288():
     from world_rules.logic_288_vegetation_reduces_salinity_exposure import apply
     w = make_world()
     w.salinity.fill_(1.0); w.vegetation.fill_(1.0); apply(w); assert torch.allclose(w.salinity, torch.full_like(w.salinity, 0.999))
+
+def test_logic_289():
+    from world_rules.logic_289_root_density_reduces_sediment_export import apply
+    w = make_world()
+    w.sediment.fill_(1.0); w.root_density.fill_(1.0); apply(w); assert torch.allclose(w.sediment, torch.full_like(w.sediment, 0.997))
