@@ -333,3 +333,5 @@ from .logic_167_carrion_feeds_detritus import apply as logic_167
 RULES.append(logic_167)
 from .logic_168_detritus_supports_biodiversity import apply as logic_168
 RULES.append(logic_168)
+from .logic_169_dry_vegetation_increases_fire_risk import apply as logic_169
+RULES.append(logic_169)

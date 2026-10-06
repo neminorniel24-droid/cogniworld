@@ -579,3 +579,12 @@ def test_logic_168():
     w.biodiversity.zero_()
     apply(w)
     assert torch.allclose(w.biodiversity, torch.full_like(w.biodiversity, 0.002))
+
+def test_logic_169():
+    from world_rules.logic_169_dry_vegetation_increases_fire_risk import apply
+    w = make_world()
+    w.vegetation.fill_(1.0)
+    w.soil_moisture.zero_()
+    w.fire_risk.zero_()
+    apply(w)
+    assert torch.allclose(w.fire_risk, torch.full_like(w.fire_risk, 0.008))
