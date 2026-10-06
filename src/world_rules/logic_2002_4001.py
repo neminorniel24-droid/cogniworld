@@ -1161,3 +1161,7 @@ def logic_2288(world):
 def logic_2289(world):
     # pollination replenishes seed bank; counterpressure coupling.
     _couple(world,'pollinators','seed_bank',0.8,'negative')
+
+def logic_2290(world):
+    # pollination replenishes seed bank; capacity coupling.
+    _couple(world,'pollinators','seed_bank',0.5,'positive')
