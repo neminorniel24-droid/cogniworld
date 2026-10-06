@@ -1437,3 +1437,7 @@ def logic_2357(world):
 def logic_2358(world):
     # runoff transports sediment; feedback coupling.
     _couple(world,'runoff','sediment',0.8,'positive')
+
+def logic_2359(world):
+    # runoff transports sediment; counterpressure coupling.
+    _couple(world,'runoff','sediment',0.8,'negative')
