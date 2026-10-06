@@ -3120,3 +3120,7 @@ def logic_1770(world):
 def logic_1771(world):
     # herbivores support predators; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'herbivore', 'predator', 1, 'recovery')
+
+def logic_1772(world):
+    # predator mortality contributes carrion; direct.
+    _feedback(world, 'predator', 'carrion', 1, 'baseline')
