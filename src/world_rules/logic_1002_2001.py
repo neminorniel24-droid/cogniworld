@@ -3844,3 +3844,7 @@ def logic_1951(world):
 def logic_1952(world):
     # heat raises fire risk; activates above a food threshold.
     _feedback(world, 'temperature', 'fire_risk', 1, 'threshold')
+
+def logic_1953(world):
+    # heat raises fire risk; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'temperature', 'fire_risk', 1, 'recovery')
