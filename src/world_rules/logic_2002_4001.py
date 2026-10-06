@@ -2569,3 +2569,7 @@ def logic_2640(world):
 def logic_2641(world):
     # diverse communities stabilize vegetation; reserve coupling.
     _couple(world,'biodiversity','vegetation',0.9,'positive')
+
+def logic_2642(world):
+    # diversity supports pollinator niches; direct coupling.
+    _couple(world,'biodiversity','pollinators',1.0,'positive')
