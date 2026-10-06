@@ -156,3 +156,7 @@ def logic_1029(world):
 def logic_1030(world):
     # rain recharges groundwater; direct.
     _feedback(world, 'rain', 'groundwater', 1, 'baseline')
+
+def logic_1031(world):
+    # rain recharges groundwater; stronger when soil is dry.
+    _feedback(world, 'rain', 'groundwater', 1, 'dry_gate')
