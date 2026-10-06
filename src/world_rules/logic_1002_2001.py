@@ -2228,3 +2228,7 @@ def logic_1547(world):
 def logic_1548(world):
     # ash supplies mineral nutrients; direct.
     _feedback(world, 'ash', 'nutrients', 1, 'baseline')
+
+def logic_1549(world):
+    # ash supplies mineral nutrients; stronger when soil is dry.
+    _feedback(world, 'ash', 'nutrients', 1, 'dry_gate')
