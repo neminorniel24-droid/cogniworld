@@ -2750,3 +2750,7 @@ def logic_3679(agents, world):
 def logic_3680(agents, world):
     # surface_water -> safety_score; feedback coupling.
     _update(agents, 'safety_score', _desired(agents, world, 'surface_water', 'safety_score', 'feedback'))
+
+def logic_3681(agents, world):
+    # surface_water -> safety_score; counterpressure coupling.
+    _update(agents, 'safety_score', _desired(agents, world, 'surface_water', 'safety_score', 'counterpressure'))
