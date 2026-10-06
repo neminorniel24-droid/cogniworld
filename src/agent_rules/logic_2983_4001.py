@@ -602,3 +602,7 @@ def logic_3142(agents, world):
 def logic_3143(agents, world):
     # surface_water -> recovery; inverse coupling.
     _update(agents, 'recovery', _desired(agents, world, 'surface_water', 'recovery', 'inverse'))
+
+def logic_3144(agents, world):
+    # surface_water -> recovery; threshold coupling.
+    _update(agents, 'recovery', _desired(agents, world, 'surface_water', 'recovery', 'threshold'))
