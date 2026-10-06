@@ -2185,3 +2185,7 @@ def logic_2544(world):
 def logic_2545(world):
     # vegetation roots reduce erosion; strong coupling.
     _couple(world,'vegetation','erosion',1.35,'positive')
+
+def logic_2546(world):
+    # vegetation roots reduce erosion; threshold coupling.
+    _couple(world,'vegetation','erosion',1.0,'threshold')
