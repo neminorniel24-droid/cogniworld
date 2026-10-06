@@ -2374,3 +2374,7 @@ def logic_3585(agents, world):
 def logic_3586(agents, world):
     # surface_water -> risk_tolerance; scarcity coupling.
     _update(agents, 'risk_tolerance', _desired(agents, world, 'surface_water', 'risk_tolerance', 'scarcity'))
+
+def logic_3587(agents, world):
+    # surface_water -> risk_tolerance; stress coupling.
+    _update(agents, 'risk_tolerance', _desired(agents, world, 'surface_water', 'risk_tolerance', 'stress'))
