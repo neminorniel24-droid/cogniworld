@@ -928,3 +928,7 @@ def logic_1222(world):
 def logic_1223(world):
     # cloud cover reduces heating; saturates at high source levels.
     _feedback(world, 'cloud', 'temperature', -1, 'saturation')
+
+def logic_1224(world):
+    # cloud cover reduces heating; activates above a food threshold.
+    _feedback(world, 'cloud', 'temperature', -1, 'threshold')
