@@ -3062,3 +3062,7 @@ def logic_3757(agents, world):
 def logic_3758(agents, world):
     # surface_water -> migration_score; direct coupling.
     _update(agents, 'migration_score', _desired(agents, world, 'surface_water', 'migration_score', 'direct'))
+
+def logic_3759(agents, world):
+    # surface_water -> migration_score; inverse coupling.
+    _update(agents, 'migration_score', _desired(agents, world, 'surface_water', 'migration_score', 'inverse'))
