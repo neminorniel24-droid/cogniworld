@@ -1969,3 +1969,7 @@ def logic_2490(world):
 def logic_2491(world):
     # snowmelt supplies surface water; reserve coupling.
     _couple(world,'snowpack','surface_water',0.9,'positive')
+
+def logic_2492(world):
+    # water availability maintains soil moisture; direct coupling.
+    _couple(world,'surface_water','soil_moisture',1.0,'positive')
