@@ -138,3 +138,5 @@ def logic_368(agents,world):
  v=_local(world,agents,'wetland');agents.migration_drive=_delta(agents.migration_drive,v*0.001)
 def logic_369(agents,world):
  v=_local(world,agents,'carbon_storage');agents.thermal_stress=_delta(agents.thermal_stress,v*0.001)
+def logic_370(agents,world):
+ v=_local(world,agents,'carbon_storage');agents.health=_delta(agents.health,v*0.001)
