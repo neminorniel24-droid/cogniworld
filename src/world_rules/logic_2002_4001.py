@@ -1821,3 +1821,7 @@ def logic_2453(world):
 def logic_2454(world):
     # fire reduces stored carbon; limited coupling.
     _couple(world,'fire_risk','carbon_storage',0.65,'positive')
+
+def logic_2455(world):
+    # fire reduces stored carbon; strong coupling.
+    _couple(world,'fire_risk','carbon_storage',1.35,'positive')
