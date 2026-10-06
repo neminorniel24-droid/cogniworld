@@ -701,3 +701,7 @@ def logic_2173(world):
 def logic_2174(world):
     # heat reduces ice; limited coupling.
     _couple(world,'temperature','ice',0.65,'positive')
+
+def logic_2175(world):
+    # heat reduces ice; strong coupling.
+    _couple(world,'temperature','ice',1.35,'positive')
