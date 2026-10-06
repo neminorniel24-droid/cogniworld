@@ -3996,3 +3996,7 @@ def logic_1989(world):
 def logic_1990(world):
     # deadwood fuels fire risk; stronger when biomass is high.
     _feedback(world, 'deadwood', 'fire_risk', 1, 'biomass_gate')
+
+def logic_1991(world):
+    # deadwood fuels fire risk; stronger under habitat stress.
+    _feedback(world, 'deadwood', 'fire_risk', 1, 'stress_gate')
