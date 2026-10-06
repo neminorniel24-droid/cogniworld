@@ -1670,3 +1670,7 @@ def logic_3409(agents, world):
 def logic_3410(agents, world):
     # surface_water -> sharing_capacity; threshold coupling.
     _update(agents, 'sharing_capacity', _desired(agents, world, 'surface_water', 'sharing_capacity', 'threshold'))
+
+def logic_3411(agents, world):
+    # surface_water -> sharing_capacity; strong coupling.
+    _update(agents, 'sharing_capacity', _desired(agents, world, 'surface_water', 'sharing_capacity', 'strong'))
