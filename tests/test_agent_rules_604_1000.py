@@ -279,3 +279,6 @@ def test_logic_710():
 def test_logic_711():
     from agent_rules.rules import logic_711
     _check(logic_711, 'fear', 'reproduction_score', 1)
+def test_logic_712():
+    from agent_rules.rules import logic_712
+    _check(logic_712, 'recovery', 'exploration_score', 1)

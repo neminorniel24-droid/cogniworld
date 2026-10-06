@@ -784,3 +784,5 @@ def logic_710(agents,world):
     agents.migration_score=_delta(agents.migration_score,+0.002*agents.alertness)
 def logic_711(agents,world):
     agents.reproduction_score=_delta(agents.reproduction_score,+0.002*agents.fear)
+def logic_712(agents,world):
+    agents.exploration_score=_delta(agents.exploration_score,+0.002*agents.recovery)
