@@ -1010,3 +1010,7 @@ def logic_3244(agents, world):
 def logic_3245(agents, world):
     # surface_water -> stability; pulse coupling.
     _update(agents, 'stability', _desired(agents, world, 'surface_water', 'stability', 'pulse'))
+
+def logic_3246(agents, world):
+    # surface_water -> stability; feedback coupling.
+    _update(agents, 'stability', _desired(agents, world, 'surface_water', 'stability', 'feedback'))
