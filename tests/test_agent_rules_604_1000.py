@@ -117,3 +117,6 @@ def test_logic_656():
 def test_logic_657():
     from agent_rules.rules import logic_657
     _check(logic_657, 'food_access', 'resource_competition', 1)
+def test_logic_658():
+    from agent_rules.rules import logic_658
+    _check(logic_658, 'wealth', 'risk_score', 1)
