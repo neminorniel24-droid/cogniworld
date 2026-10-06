@@ -2114,3 +2114,7 @@ def logic_3520(agents, world):
 def logic_3521(agents, world):
     # surface_water -> strategy_confidence; inverse coupling.
     _update(agents, 'strategy_confidence', _desired(agents, world, 'surface_water', 'strategy_confidence', 'inverse'))
+
+def logic_3522(agents, world):
+    # surface_water -> strategy_confidence; threshold coupling.
+    _update(agents, 'strategy_confidence', _desired(agents, world, 'surface_water', 'strategy_confidence', 'threshold'))
