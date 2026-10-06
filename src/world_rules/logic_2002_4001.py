@@ -1173,3 +1173,7 @@ def logic_2291(world):
 def logic_2292(world):
     # seed bank supports regeneration; direct coupling.
     _couple(world,'seed_bank','vegetation',1.0,'positive')
+
+def logic_2293(world):
+    # seed bank supports regeneration; inverse coupling.
+    _couple(world,'seed_bank','vegetation',1.0,'negative')
