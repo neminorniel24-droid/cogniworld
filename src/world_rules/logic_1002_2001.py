@@ -2952,3 +2952,7 @@ def logic_1728(world):
 def logic_1729(world):
     # vegetation supports herbivores; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'vegetation', 'herbivore', 1, 'recovery')
+
+def logic_1730(world):
+    # herbivore mortality contributes carrion; direct.
+    _feedback(world, 'herbivore', 'carrion', 1, 'baseline')
