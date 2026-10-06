@@ -10,3 +10,12 @@ def test_logic_102():
     before=w.temperature_target.clone()
     apply(w)
     assert torch.all(w.temperature_target < before)
+
+def test_logic_103():
+    from world_rules.logic_103_bare_soil_absorbs_more_heat import apply
+    w = make_world()
+    w.vegetation.zero_()
+    w.temperature_target.fill_(0.5)
+    before=w.temperature_target.clone()
+    apply(w)
+    assert torch.all(w.temperature_target > before)
