@@ -207,3 +207,5 @@ from .logic_104_ice_reflects_solar_energy import apply as logic_104
 RULES.append(logic_104)
 from .logic_105_methane_adds_greenhouse_warming import apply as logic_105
 RULES.append(logic_105)
+from .logic_106_co2_adds_greenhouse_warming import apply as logic_106
+RULES.append(logic_106)

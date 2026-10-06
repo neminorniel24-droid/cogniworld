@@ -37,3 +37,12 @@ def test_logic_105():
     before=w.temperature_target.clone()
     apply(w)
     assert torch.all(w.temperature_target > before)
+
+def test_logic_106():
+    from world_rules.logic_106_co2_adds_greenhouse_warming import apply
+    w = make_world()
+    w.co2.fill_(1.0)
+    w.temperature_target.fill_(0.5)
+    before=w.temperature_target.clone()
+    apply(w)
+    assert torch.all(w.temperature_target > before)
