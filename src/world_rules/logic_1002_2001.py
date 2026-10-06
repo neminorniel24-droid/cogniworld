@@ -1196,3 +1196,7 @@ def logic_1289(world):
 def logic_1290(world):
     # wind enhances evaporation; stronger when biomass is high.
     _feedback(world, 'wind_x', 'evaporation', 1, 'biomass_gate')
+
+def logic_1291(world):
+    # wind enhances evaporation; stronger under habitat stress.
+    _feedback(world, 'wind_x', 'evaporation', 1, 'stress_gate')
