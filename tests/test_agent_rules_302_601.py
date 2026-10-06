@@ -1000,3 +1000,8 @@ def test_logic_500():
 def test_logic_501():
  from agent_rules.rules import logic_501
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.sharing_capacity.clone();a.risk_tolerance.fill_(1);logic_501(a,w);assert torch.any(a.sharing_capacity!=b)
+
+
+def test_logic_502():
+ from agent_rules.rules import logic_502
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.strategy_score.clone();a.last_reward.fill_(1);logic_502(a,w);assert torch.any(a.strategy_score!=b)
