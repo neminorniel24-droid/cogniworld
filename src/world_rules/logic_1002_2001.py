@@ -4036,3 +4036,7 @@ def logic_1999(world):
 def logic_2000(world):
     # wetlands emit methane; stronger when temperature is low.
     _feedback(world, 'wetland', 'methane', 1, 'cold_gate')
+
+def logic_2001(world):
+    # wetlands emit methane; stronger under fire pressure.
+    _feedback(world, 'wetland', 'methane', 1, 'fire_gate')
