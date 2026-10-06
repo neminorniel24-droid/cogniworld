@@ -1166,3 +1166,7 @@ def logic_3283(agents, world):
 def logic_3284(agents, world):
     # surface_water -> reputation; threshold coupling.
     _update(agents, 'reputation', _desired(agents, world, 'surface_water', 'reputation', 'threshold'))
+
+def logic_3285(agents, world):
+    # surface_water -> reputation; strong coupling.
+    _update(agents, 'reputation', _desired(agents, world, 'surface_water', 'reputation', 'strong'))
