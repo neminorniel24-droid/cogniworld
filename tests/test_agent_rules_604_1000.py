@@ -921,3 +921,6 @@ def test_logic_924():
 def test_logic_925():
     from agent_rules.rules import logic_925
     _check(logic_925, 'strategy_confidence', 'memory_update', 1)
+def test_logic_926():
+    from agent_rules.rules import logic_926
+    _check(logic_926, 'learning_rate', 'future_payoff_weight', 1)
