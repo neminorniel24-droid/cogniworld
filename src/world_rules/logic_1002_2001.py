@@ -1524,3 +1524,7 @@ def logic_1371(world):
 def logic_1372(world):
     # erosion removes soil depth; stronger when surface water is high.
     _feedback(world, 'erosion', 'soil_depth', -1, 'water_gate')
+
+def logic_1373(world):
+    # erosion removes soil depth; stronger when vegetation is scarce.
+    _feedback(world, 'erosion', 'soil_depth', -1, 'scarcity_gate')
