@@ -3300,3 +3300,7 @@ def logic_1815(world):
 def logic_1816(world):
     # diverse communities dilute pathogens; stronger when soil is wet.
     _feedback(world, 'biodiversity', 'pathogen_load', -1, 'wet_gate')
+
+def logic_1817(world):
+    # diverse communities dilute pathogens; stronger when temperature is high.
+    _feedback(world, 'biodiversity', 'pathogen_load', -1, 'heat_gate')
