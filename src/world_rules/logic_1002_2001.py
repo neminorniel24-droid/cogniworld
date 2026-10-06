@@ -3624,3 +3624,7 @@ def logic_1896(world):
 def logic_1897(world):
     # algae add organic matter; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'algae', 'organic_matter', 1, 'recovery')
+
+def logic_1898(world):
+    # oxygenated habitat limits pathogen persistence; direct.
+    _feedback(world, 'oxygen', 'pathogen_load', -1, 'baseline')
