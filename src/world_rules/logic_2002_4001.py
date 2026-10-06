@@ -477,3 +477,7 @@ def logic_2117(world):
 def logic_2118(world):
     # open water adds humidity; feedback coupling.
     _couple(world,'surface_water','humidity',0.8,'positive')
+
+def logic_2119(world):
+    # open water adds humidity; counterpressure coupling.
+    _couple(world,'surface_water','humidity',0.8,'negative')
