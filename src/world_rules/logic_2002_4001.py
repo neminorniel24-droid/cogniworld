@@ -1633,3 +1633,7 @@ def logic_2406(world):
 def logic_2407(world):
     # CO2 supports photosynthesis; pulse coupling.
     _couple(world,'co2','vegetation',1.0,'pulse')
+
+def logic_2408(world):
+    # CO2 supports photosynthesis; feedback coupling.
+    _couple(world,'co2','vegetation',0.8,'positive')
