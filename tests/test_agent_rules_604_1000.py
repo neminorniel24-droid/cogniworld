@@ -108,3 +108,6 @@ def test_logic_653():
 def test_logic_654():
     from agent_rules.rules import logic_654
     _check(logic_654, 'reproduction_drive', 'social_need', 1)
+def test_logic_655():
+    from agent_rules.rules import logic_655
+    _check(logic_655, 'migration_drive', 'conflict_pressure', 1)
