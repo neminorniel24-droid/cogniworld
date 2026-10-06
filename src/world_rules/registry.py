@@ -381,3 +381,5 @@ from .logic_191_bare_land_exposes_more_wind import apply as logic_191
 RULES.append(logic_191)
 from .logic_192_wet_soil_adds_humidity import apply as logic_192
 RULES.append(logic_192)
+from .logic_193_dry_soil_reduces_humidity import apply as logic_193
+RULES.append(logic_193)
