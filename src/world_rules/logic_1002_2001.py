@@ -3840,3 +3840,7 @@ def logic_1950(world):
 def logic_1951(world):
     # heat raises fire risk; saturates at high source levels.
     _feedback(world, 'temperature', 'fire_risk', 1, 'saturation')
+
+def logic_1952(world):
+    # heat raises fire risk; activates above a food threshold.
+    _feedback(world, 'temperature', 'fire_risk', 1, 'threshold')
