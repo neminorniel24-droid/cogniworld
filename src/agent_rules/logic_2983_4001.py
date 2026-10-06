@@ -802,3 +802,7 @@ def logic_3192(agents, world):
 def logic_3193(agents, world):
     # surface_water -> migration_drive; reserve coupling.
     _update(agents, 'migration_drive', _desired(agents, world, 'surface_water', 'migration_drive', 'reserve'))
+
+def logic_3194(agents, world):
+    # surface_water -> migration_drive; scarcity coupling.
+    _update(agents, 'migration_drive', _desired(agents, world, 'surface_water', 'migration_drive', 'scarcity'))
