@@ -508,3 +508,7 @@ def logic_1117(world):
 def logic_1118(world):
     # groundwater buffers soil moisture; stronger when temperature is low.
     _feedback(world, 'groundwater', 'soil_moisture', 1, 'cold_gate')
+
+def logic_1119(world):
+    # groundwater buffers soil moisture; stronger under fire pressure.
+    _feedback(world, 'groundwater', 'soil_moisture', 1, 'fire_gate')
