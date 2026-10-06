@@ -2352,3 +2352,7 @@ def logic_1578(world):
 def logic_1579(world):
     # fire reduces vegetation; stronger when temperature is high.
     _feedback(world, 'fire_risk', 'vegetation', -1, 'heat_gate')
+
+def logic_1580(world):
+    # fire reduces vegetation; stronger when temperature is low.
+    _feedback(world, 'fire_risk', 'vegetation', -1, 'cold_gate')
