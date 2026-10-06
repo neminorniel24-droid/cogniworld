@@ -577,3 +577,5 @@ from .logic_289_root_density_reduces_sediment_export import apply as logic_289
 RULES.append(logic_289)
 from .logic_290_soil_depth_stores_more_groundwater import apply as logic_290
 RULES.append(logic_290)
+from .logic_291_erosion_releases_soil_carbon import apply as logic_291
+RULES.append(logic_291)

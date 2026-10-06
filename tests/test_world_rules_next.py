@@ -1309,3 +1309,8 @@ def test_logic_290():
     from world_rules.logic_290_soil_depth_stores_more_groundwater import apply
     w = make_world()
     w.groundwater.zero_(); w.soil_depth.fill_(1.0); apply(w); assert torch.allclose(w.groundwater, torch.full_like(w.groundwater, 0.002))
+
+def test_logic_291():
+    from world_rules.logic_291_erosion_releases_soil_carbon import apply
+    w = make_world()
+    w.soil_carbon.fill_(1.0); w.erosion.fill_(1.0); apply(w); assert torch.allclose(w.soil_carbon, torch.full_like(w.soil_carbon, 0.998))
