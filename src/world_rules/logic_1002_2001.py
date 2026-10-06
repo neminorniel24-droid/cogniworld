@@ -1680,3 +1680,7 @@ def logic_1410(world):
 def logic_1411(world):
     # roots retain soil; stronger when temperature is high.
     _feedback(world, 'root_density', 'soil_depth', 1, 'heat_gate')
+
+def logic_1412(world):
+    # roots retain soil; stronger when temperature is low.
+    _feedback(world, 'root_density', 'soil_depth', 1, 'cold_gate')
