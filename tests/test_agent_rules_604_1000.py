@@ -948,3 +948,6 @@ def test_logic_933():
 def test_logic_934():
     from agent_rules.rules import logic_934
     _check(logic_934, 'exploration_score', 'foraging_score', 1)
+def test_logic_935():
+    from agent_rules.rules import logic_935
+    _check(logic_935, 'foraging_score', 'help_score', 1)
