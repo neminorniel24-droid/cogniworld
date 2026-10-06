@@ -932,3 +932,7 @@ def logic_1223(world):
 def logic_1224(world):
     # cloud cover reduces heating; activates above a food threshold.
     _feedback(world, 'cloud', 'temperature', -1, 'threshold')
+
+def logic_1225(world):
+    # cloud cover reduces heating; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'cloud', 'temperature', -1, 'recovery')
