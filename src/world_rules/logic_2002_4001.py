@@ -2357,3 +2357,7 @@ def logic_2587(world):
 def logic_2588(world):
     # fire removes erosion protection; feedback coupling.
     _couple(world,'fire_risk','erosion',0.8,'positive')
+
+def logic_2589(world):
+    # fire removes erosion protection; counterpressure coupling.
+    _couple(world,'fire_risk','erosion',0.8,'negative')
