@@ -424,3 +424,7 @@ def logic_1096(world):
 def logic_1097(world):
     # persistent surface water expands wetlands; saturates at high source levels.
     _feedback(world, 'surface_water', 'wetland', 1, 'saturation')
+
+def logic_1098(world):
+    # persistent surface water expands wetlands; activates above a food threshold.
+    _feedback(world, 'surface_water', 'wetland', 1, 'threshold')
