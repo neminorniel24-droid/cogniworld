@@ -344,3 +344,5 @@ def logic_471(agents,world):
  v=torch.clamp(agents.group_stability,0,2);agents.caution=_delta(agents.caution,v*0.001)
 def logic_472(agents,world):
  v=torch.clamp(agents.resource_scarcity,0,2);agents.territoriality=_delta(agents.territoriality,v*0.001)
+def logic_473(agents,world):
+ v=torch.clamp(agents.resource_scarcity,0,2);agents.group_stability=_delta(agents.group_stability,v*0.001)
