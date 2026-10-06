@@ -758,3 +758,7 @@ def logic_3181(agents, world):
 def logic_3182(agents, world):
     # surface_water -> reproduction_drive; recovery coupling.
     _update(agents, 'reproduction_drive', _desired(agents, world, 'surface_water', 'reproduction_drive', 'recovery'))
+
+def logic_3183(agents, world):
+    # surface_water -> reproduction_drive; persistence coupling.
+    _update(agents, 'reproduction_drive', _desired(agents, world, 'surface_water', 'reproduction_drive', 'persistence'))
