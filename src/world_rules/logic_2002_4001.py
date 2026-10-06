@@ -3441,3 +3441,7 @@ def logic_2858(world):
 def logic_2859(world):
     # sediment load changes water state; counterpressure coupling.
     _couple(world,'sediment','surface_water',0.8,'negative')
+
+def logic_2860(world):
+    # sediment load changes water state; capacity coupling.
+    _couple(world,'sediment','surface_water',0.5,'positive')
