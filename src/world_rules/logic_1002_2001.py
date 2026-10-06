@@ -3884,3 +3884,7 @@ def logic_1961(world):
 def logic_1962(world):
     # moist soil lowers fire risk; stronger when biomass is high.
     _feedback(world, 'soil_moisture', 'fire_risk', -1, 'biomass_gate')
+
+def logic_1963(world):
+    # moist soil lowers fire risk; stronger under habitat stress.
+    _feedback(world, 'soil_moisture', 'fire_risk', -1, 'stress_gate')
