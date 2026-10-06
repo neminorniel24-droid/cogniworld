@@ -3696,3 +3696,7 @@ def logic_1914(world):
 def logic_1915(world):
     # methane increases warming pressure; stronger when temperature is high.
     _feedback(world, 'methane', 'temperature', 1, 'heat_gate')
+
+def logic_1916(world):
+    # methane increases warming pressure; stronger when temperature is low.
+    _feedback(world, 'methane', 'temperature', 1, 'cold_gate')
