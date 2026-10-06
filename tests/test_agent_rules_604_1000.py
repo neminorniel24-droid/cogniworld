@@ -687,3 +687,6 @@ def test_logic_846():
 def test_logic_847():
     from agent_rules.rules import logic_847
     _check(logic_847, 'retaliation_risk', 'strategy_mixing', 1)
+def test_logic_848():
+    from agent_rules.rules import logic_848
+    _check(logic_848, 'defense_score', 'future_payoff_weight', 1)
