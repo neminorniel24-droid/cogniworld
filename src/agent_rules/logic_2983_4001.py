@@ -1590,3 +1590,7 @@ def logic_3389(agents, world):
 def logic_3390(agents, world):
     # surface_water -> territoriality; scarcity coupling.
     _update(agents, 'territoriality', _desired(agents, world, 'surface_water', 'territoriality', 'scarcity'))
+
+def logic_3391(agents, world):
+    # surface_water -> territoriality; stress coupling.
+    _update(agents, 'territoriality', _desired(agents, world, 'surface_water', 'territoriality', 'stress'))
