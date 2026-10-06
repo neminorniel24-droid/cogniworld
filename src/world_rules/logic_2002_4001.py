@@ -1833,3 +1833,7 @@ def logic_2456(world):
 def logic_2457(world):
     # fire reduces stored carbon; pulse coupling.
     _couple(world,'fire_risk','carbon_storage',1.0,'pulse')
+
+def logic_2458(world):
+    # fire reduces stored carbon; feedback coupling.
+    _couple(world,'fire_risk','carbon_storage',0.8,'positive')
