@@ -978,3 +978,6 @@ def test_logic_943():
 def test_logic_944():
     from agent_rules.rules import logic_944
     _check(logic_944, 'gratitude', 'attack_success', 1)
+def test_logic_945():
+    from agent_rules.rules import logic_945
+    _check(logic_945, 'reputation', 'defense_score', 1)
