@@ -2509,3 +2509,7 @@ def logic_2625(world):
 def logic_2626(world):
     # biodiversity buffers habitat stress; threshold coupling.
     _couple(world,'biodiversity','habitat_stress',1.0,'threshold')
+
+def logic_2627(world):
+    # biodiversity buffers habitat stress; pulse coupling.
+    _couple(world,'biodiversity','habitat_stress',1.0,'pulse')
