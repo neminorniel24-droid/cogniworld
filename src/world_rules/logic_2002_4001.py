@@ -1513,3 +1513,7 @@ def logic_2376(world):
 def logic_2377(world):
     # salinity stresses vegetation; pulse coupling.
     _couple(world,'salinity','vegetation',1.0,'pulse')
+
+def logic_2378(world):
+    # salinity stresses vegetation; feedback coupling.
+    _couple(world,'salinity','vegetation',0.8,'positive')
