@@ -3560,3 +3560,7 @@ def logic_1880(world):
 def logic_1881(world):
     # algae contribute oxygen; saturates at high source levels.
     _feedback(world, 'algae', 'oxygen', 1, 'saturation')
+
+def logic_1882(world):
+    # algae contribute oxygen; activates above a food threshold.
+    _feedback(world, 'algae', 'oxygen', 1, 'threshold')
