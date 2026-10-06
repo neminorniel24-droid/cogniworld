@@ -333,3 +333,6 @@ def test_logic_728():
 def test_logic_729():
     from agent_rules.rules import logic_729
     _check(logic_729, 'generosity', 'group_stability', 1)
+def test_logic_730():
+    from agent_rules.rules import logic_730
+    _check(logic_730, 'gratitude', 'sharing_capacity', 1)

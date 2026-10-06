@@ -820,3 +820,5 @@ def logic_728(agents,world):
     agents.competition_pressure=_delta(agents.competition_pressure,+0.002*agents.selfishness)
 def logic_729(agents,world):
     agents.group_stability=_delta(agents.group_stability,+0.002*agents.generosity)
+def logic_730(agents,world):
+    agents.sharing_capacity=_delta(agents.sharing_capacity,+0.002*agents.gratitude)
