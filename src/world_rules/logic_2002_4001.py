@@ -1713,3 +1713,7 @@ def logic_2426(world):
 def logic_2427(world):
     # cloud formation supports rainfall; pulse coupling.
     _couple(world,'cloud','rain',1.0,'pulse')
+
+def logic_2428(world):
+    # cloud formation supports rainfall; feedback coupling.
+    _couple(world,'cloud','rain',0.8,'positive')
