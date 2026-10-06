@@ -3048,3 +3048,7 @@ def logic_1752(world):
 def logic_1753(world):
     # predation reduces herbivores; stronger under habitat stress.
     _feedback(world, 'predator', 'herbivore', -1, 'stress_gate')
+
+def logic_1754(world):
+    # predation reduces herbivores; modulated by temperature.
+    _feedback(world, 'predator', 'herbivore', -1, 'seasonal_gate')
