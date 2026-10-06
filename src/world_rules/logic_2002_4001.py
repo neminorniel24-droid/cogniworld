@@ -969,3 +969,7 @@ def logic_2240(world):
 def logic_2241(world):
     # warmth accelerates decomposition; reserve coupling.
     _couple(world,'temperature','decomposition_rate',0.9,'positive')
+
+def logic_2242(world):
+    # moist soil supports decomposition; direct coupling.
+    _couple(world,'soil_moisture','decomposition_rate',1.0,'positive')
