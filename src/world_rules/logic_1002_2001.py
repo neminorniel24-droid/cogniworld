@@ -2380,3 +2380,7 @@ def logic_1585(world):
 def logic_1586(world):
     # fire reduces vegetation; modulated by temperature.
     _feedback(world, 'fire_risk', 'vegetation', -1, 'seasonal_gate')
+
+def logic_1587(world):
+    # fire reduces vegetation; saturates at high source levels.
+    _feedback(world, 'fire_risk', 'vegetation', -1, 'saturation')
