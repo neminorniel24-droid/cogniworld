@@ -872,3 +872,5 @@ def logic_754(agents,world):
     agents.competition_score=_delta(agents.competition_score,+0.002*agents.future_help)
 def logic_755(agents,world):
     agents.defection_score=_delta(agents.defection_score,+0.002*agents.empathy)
+def logic_756(agents,world):
+    agents.group_stability=_delta(agents.group_stability,-0.002*agents.territoriality)
