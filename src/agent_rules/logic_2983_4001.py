@@ -658,3 +658,7 @@ def logic_3156(agents, world):
 def logic_3157(agents, world):
     # surface_water -> metabolic_cost; inverse coupling.
     _update(agents, 'metabolic_cost', _desired(agents, world, 'surface_water', 'metabolic_cost', 'inverse'))
+
+def logic_3158(agents, world):
+    # surface_water -> metabolic_cost; threshold coupling.
+    _update(agents, 'metabolic_cost', _desired(agents, world, 'surface_water', 'metabolic_cost', 'threshold'))
