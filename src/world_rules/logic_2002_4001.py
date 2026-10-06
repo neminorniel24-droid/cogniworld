@@ -2937,3 +2937,7 @@ def logic_2732(world):
 def logic_2733(world):
     # cloud cover moderates temperature; inverse coupling.
     _couple(world,'cloud','temperature',1.0,'negative')
+
+def logic_2734(world):
+    # cloud cover moderates temperature; limited coupling.
+    _couple(world,'cloud','temperature',0.65,'positive')
