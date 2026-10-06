@@ -840,3 +840,8 @@ def test_logic_468():
 def test_logic_469():
  from agent_rules.rules import logic_469
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.group_stability.clone();a.group_stability.fill_(1);logic_469(a,w);assert torch.any(a.group_stability!=b)
+
+
+def test_logic_470():
+ from agent_rules.rules import logic_470
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.future_help.clone();a.group_stability.fill_(1);logic_470(a,w);assert torch.any(a.future_help!=b)
