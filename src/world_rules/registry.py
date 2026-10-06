@@ -487,3 +487,5 @@ from .logic_244_moisture_germinates_seed_bank import apply as logic_244
 RULES.append(logic_244)
 from .logic_245_drought_preserves_seed_bank import apply as logic_245
 RULES.append(logic_245)
+from .logic_246_seed_bank_reduces_biodiversity_loss import apply as logic_246
+RULES.append(logic_246)

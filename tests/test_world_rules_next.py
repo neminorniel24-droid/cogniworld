@@ -1084,3 +1084,8 @@ def test_logic_245():
     from world_rules.logic_245_drought_preserves_seed_bank import apply
     w = make_world()
     w.seed_bank.zero_(); w.soil_moisture.zero_(); apply(w); assert torch.allclose(w.seed_bank, torch.full_like(w.seed_bank, 0.002))
+
+def test_logic_246():
+    from world_rules.logic_246_seed_bank_reduces_biodiversity_loss import apply
+    w = make_world()
+    w.biodiversity.zero_(); w.seed_bank.fill_(1.0); apply(w); assert torch.allclose(w.biodiversity, torch.full_like(w.biodiversity, 0.003))
