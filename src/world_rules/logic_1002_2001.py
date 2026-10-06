@@ -1600,3 +1600,7 @@ def logic_1390(world):
 def logic_1391(world):
     # vegetation roots suppress erosion; saturates at high source levels.
     _feedback(world, 'vegetation', 'erosion', -1, 'saturation')
+
+def logic_1392(world):
+    # vegetation roots suppress erosion; activates above a food threshold.
+    _feedback(world, 'vegetation', 'erosion', -1, 'threshold')
