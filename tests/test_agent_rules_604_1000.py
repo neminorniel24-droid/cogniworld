@@ -807,3 +807,6 @@ def test_logic_886():
 def test_logic_887():
     from agent_rules.rules import logic_887
     _check(logic_887, 'last_energy_delta', 'strategy_persistence', 1)
+def test_logic_888():
+    from agent_rules.rules import logic_888
+    _check(logic_888, 'last_food', 'strategy_mixing', 1)
