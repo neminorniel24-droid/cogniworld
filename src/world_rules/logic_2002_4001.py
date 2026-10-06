@@ -3121,3 +3121,7 @@ def logic_2778(world):
 def logic_2779(world):
     # fire can reduce pathogen load; counterpressure coupling.
     _couple(world,'fire_risk','pathogen_load',0.8,'negative')
+
+def logic_2780(world):
+    # fire can reduce pathogen load; capacity coupling.
+    _couple(world,'fire_risk','pathogen_load',0.5,'positive')
