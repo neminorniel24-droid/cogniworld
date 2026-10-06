@@ -3176,3 +3176,7 @@ def logic_1784(world):
 def logic_1785(world):
     # predator mortality contributes carrion; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'predator', 'carrion', 1, 'recovery')
+
+def logic_1786(world):
+    # carrion feeds decomposers; direct.
+    _feedback(world, 'carrion', 'organic_matter', 1, 'baseline')
