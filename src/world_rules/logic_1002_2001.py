@@ -132,3 +132,7 @@ def logic_1023(world):
 def logic_1024(world):
     # rainfall wets soil; stronger when biomass is high.
     _feedback(world, 'rain', 'soil_moisture', 1, 'biomass_gate')
+
+def logic_1025(world):
+    # rainfall wets soil; stronger under habitat stress.
+    _feedback(world, 'rain', 'soil_moisture', 1, 'stress_gate')
