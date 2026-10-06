@@ -1154,3 +1154,8 @@ def test_logic_259():
     from world_rules.logic_259_salinity_reduces_biomass import apply
     w = make_world()
     w.biomass.fill_(1.0); w.salinity.fill_(1.0); apply(w); assert torch.allclose(w.biomass, torch.full_like(w.biomass, 0.997))
+
+def test_logic_260():
+    from world_rules.logic_260_algae_increases_surface_humidity import apply
+    w = make_world()
+    w.humidity.zero_(); w.algae.fill_(1.0); apply(w); assert torch.allclose(w.humidity, torch.full_like(w.humidity, 0.004))
