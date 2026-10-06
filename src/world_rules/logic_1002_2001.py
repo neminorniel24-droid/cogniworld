@@ -1712,3 +1712,7 @@ def logic_1418(world):
 def logic_1419(world):
     # roots retain soil; saturates at high source levels.
     _feedback(world, 'root_density', 'soil_depth', 1, 'saturation')
+
+def logic_1420(world):
+    # roots retain soil; activates above a food threshold.
+    _feedback(world, 'root_density', 'soil_depth', 1, 'threshold')
