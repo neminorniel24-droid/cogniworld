@@ -780,3 +780,7 @@ def logic_1185(world):
 def logic_1186(world):
     # humidity promotes cloud formation; stronger when soil is wet.
     _feedback(world, 'humidity', 'cloud', 1, 'wet_gate')
+
+def logic_1187(world):
+    # humidity promotes cloud formation; stronger when temperature is high.
+    _feedback(world, 'humidity', 'cloud', 1, 'heat_gate')
