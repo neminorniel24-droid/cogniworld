@@ -2774,3 +2774,7 @@ def logic_3685(agents, world):
 def logic_3686(agents, world):
     # surface_water -> safety_score; recovery coupling.
     _update(agents, 'safety_score', _desired(agents, world, 'surface_water', 'safety_score', 'recovery'))
+
+def logic_3687(agents, world):
+    # surface_water -> safety_score; persistence coupling.
+    _update(agents, 'safety_score', _desired(agents, world, 'surface_water', 'safety_score', 'persistence'))
