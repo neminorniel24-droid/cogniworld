@@ -1565,3 +1565,7 @@ def logic_2389(world):
 def logic_2390(world):
     # wetland conditions promote methane; capacity coupling.
     _couple(world,'wetland','methane',0.5,'positive')
+
+def logic_2391(world):
+    # wetland conditions promote methane; reserve coupling.
+    _couple(world,'wetland','methane',0.9,'positive')
