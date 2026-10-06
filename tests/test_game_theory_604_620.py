@@ -10,3 +10,5 @@ def _event():
 
 def test_strategy_action_in_ledger():
     assert "strategy_action" in _event()
+def test_payoff_in_ledger():
+    assert "payoff" in _event()
