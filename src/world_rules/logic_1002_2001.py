@@ -1024,3 +1024,7 @@ def logic_1246(world):
 def logic_1247(world):
     # warmth melts snowpack; stronger when vegetation is scarce.
     _feedback(world, 'temperature', 'snowpack', -1, 'scarcity_gate')
+
+def logic_1248(world):
+    # warmth melts snowpack; stronger when biomass is high.
+    _feedback(world, 'temperature', 'snowpack', -1, 'biomass_gate')
