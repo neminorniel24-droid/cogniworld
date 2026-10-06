@@ -1264,3 +1264,5 @@ def logic_950(agents,world):
     agents.learning_rate=_delta(agents.learning_rate,+0.002*agents.group_stability)
 def logic_951(agents,world):
     agents.memory_update=_delta(agents.memory_update,+0.002*agents.sharing_score)
+def logic_952(agents,world):
+    agents.future_payoff_weight=_delta(agents.future_payoff_weight,+0.002*agents.help_score)

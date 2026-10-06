@@ -999,3 +999,6 @@ def test_logic_950():
 def test_logic_951():
     from agent_rules.rules import logic_951
     _check(logic_951, 'sharing_score', 'memory_update', 1)
+def test_logic_952():
+    from agent_rules.rules import logic_952
+    _check(logic_952, 'help_score', 'future_payoff_weight', 1)
