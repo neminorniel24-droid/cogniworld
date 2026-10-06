@@ -1792,3 +1792,7 @@ def logic_1438(world):
 def logic_1439(world):
     # biomass stores carbon; stronger when temperature is high.
     _feedback(world, 'biomass', 'carbon_storage', 1, 'heat_gate')
+
+def logic_1440(world):
+    # biomass stores carbon; stronger when temperature is low.
+    _feedback(world, 'biomass', 'carbon_storage', 1, 'cold_gate')
