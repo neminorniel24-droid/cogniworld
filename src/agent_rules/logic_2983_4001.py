@@ -2042,3 +2042,7 @@ def logic_3502(agents, world):
 def logic_3503(agents, world):
     # surface_water -> caution; stress coupling.
     _update(agents, 'caution', _desired(agents, world, 'surface_water', 'caution', 'stress'))
+
+def logic_3504(agents, world):
+    # surface_water -> caution; recovery coupling.
+    _update(agents, 'caution', _desired(agents, world, 'surface_water', 'caution', 'recovery'))
