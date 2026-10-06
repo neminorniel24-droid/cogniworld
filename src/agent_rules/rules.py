@@ -1042,3 +1042,5 @@ def logic_839(agents,world):
     agents.cooperation_score=_delta(agents.cooperation_score,-0.002*agents.risk_score)
 def logic_840(agents,world):
     agents.defection_score=_delta(agents.defection_score,+0.002*agents.safety_score)
+def logic_841(agents,world):
+    agents.risk_score=_delta(agents.risk_score,+0.002*agents.exploration_score)
