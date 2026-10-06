@@ -1,0 +1,2 @@
+def apply(world):
+    world.fire_risk = (world.fire_risk - 0.010 * world.rain).clamp(0.0, 1.0)
