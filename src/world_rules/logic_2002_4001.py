@@ -1749,3 +1749,7 @@ def logic_2435(world):
 def logic_2436(world):
     # rainfall generates runoff; threshold coupling.
     _couple(world,'rain','runoff',1.0,'threshold')
+
+def logic_2437(world):
+    # rainfall generates runoff; pulse coupling.
+    _couple(world,'rain','runoff',1.0,'pulse')
