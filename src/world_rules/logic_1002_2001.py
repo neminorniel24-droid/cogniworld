@@ -3160,3 +3160,7 @@ def logic_1780(world):
 def logic_1781(world):
     # predator mortality contributes carrion; stronger under habitat stress.
     _feedback(world, 'predator', 'carrion', 1, 'stress_gate')
+
+def logic_1782(world):
+    # predator mortality contributes carrion; modulated by temperature.
+    _feedback(world, 'predator', 'carrion', 1, 'seasonal_gate')
