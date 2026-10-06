@@ -2156,3 +2156,7 @@ def logic_1529(world):
 def logic_1530(world):
     # decomposition releases nutrients; modulated by temperature.
     _feedback(world, 'decomposition_rate', 'nutrients', 1, 'seasonal_gate')
+
+def logic_1531(world):
+    # decomposition releases nutrients; saturates at high source levels.
+    _feedback(world, 'decomposition_rate', 'nutrients', 1, 'saturation')
