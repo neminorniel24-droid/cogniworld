@@ -1552,3 +1552,7 @@ def logic_1378(world):
 def logic_1379(world):
     # erosion removes soil depth; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'erosion', 'soil_depth', -1, 'recovery')
+
+def logic_1380(world):
+    # vegetation roots suppress erosion; direct.
+    _feedback(world, 'vegetation', 'erosion', -1, 'baseline')
