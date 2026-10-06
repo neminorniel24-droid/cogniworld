@@ -8,4 +8,5 @@ def make_world(size=3):
     w.temperature=z(0.5); w.temperature_target=z(0.5)
     for n in ["surface_water","humidity","cloud","rain","soil_moisture","runoff","wind_x","wind_y","vegetation","biomass","herbivore","predator","carrion","nutrients","decomposition_rate","oxygen","co2","photosynthesis_factor","ice","evaporation","detritus","methane","pathogen_load","biodiversity","habitat_stress","erosion","soil_depth","root_density","wetland","carbon_storage","fire_risk","ash"]:
         setattr(w,n,z(0.0 if n not in {"soil_depth","photosynthesis_factor"} else (1.0 if n=="soil_depth" else 1.0)))
+    w.snowpack=z(0.0)
     return w

@@ -865,3 +865,7 @@ def test_logic_201():
     before=w.root_density.clone()
     apply(w)
     assert torch.all(w.root_density < before)
+def test_logic_202():
+    from world_rules.logic_202_cold_air_accumulates_snowpack import apply
+    w = make_world()
+    w.temperature.fill_(0.0); apply(w); assert torch.allclose(w.snowpack, torch.full_like(w.snowpack, 0.03))
