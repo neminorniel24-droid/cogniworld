@@ -468,3 +468,6 @@ def test_logic_773():
 def test_logic_774():
     from agent_rules.rules import logic_774
     _check(logic_774, 'conflict_pressure', 'sharing_capacity', -1)
+def test_logic_775():
+    from agent_rules.rules import logic_775
+    _check(logic_775, 'competition_pressure', 'help_drive', -1)
