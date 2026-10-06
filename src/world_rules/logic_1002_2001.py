@@ -1284,3 +1284,7 @@ def logic_1311(world):
 def logic_1312(world):
     # evaporation replenishes humidity; stronger when soil is wet.
     _feedback(world, 'evaporation', 'humidity', 1, 'wet_gate')
+
+def logic_1313(world):
+    # evaporation replenishes humidity; stronger when temperature is high.
+    _feedback(world, 'evaporation', 'humidity', 1, 'heat_gate')
