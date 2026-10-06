@@ -1096,3 +1096,7 @@ def logic_1264(world):
 def logic_1265(world):
     # warmth melts ice; saturates at high source levels.
     _feedback(world, 'temperature', 'ice', -1, 'saturation')
+
+def logic_1266(world):
+    # warmth melts ice; activates above a food threshold.
+    _feedback(world, 'temperature', 'ice', -1, 'threshold')
