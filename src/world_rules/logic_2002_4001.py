@@ -993,3 +993,7 @@ def logic_2246(world):
 def logic_2247(world):
     # moist soil supports decomposition; pulse coupling.
     _couple(world,'soil_moisture','decomposition_rate',1.0,'pulse')
+
+def logic_2248(world):
+    # moist soil supports decomposition; feedback coupling.
+    _couple(world,'soil_moisture','decomposition_rate',0.8,'positive')
