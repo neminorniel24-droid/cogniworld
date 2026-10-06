@@ -304,3 +304,7 @@ def logic_1066(world):
 def logic_1067(world):
     # snowpack supports groundwater recharge; stronger under habitat stress.
     _feedback(world, 'snowpack', 'groundwater', 1, 'stress_gate')
+
+def logic_1068(world):
+    # snowpack supports groundwater recharge; modulated by temperature.
+    _feedback(world, 'snowpack', 'groundwater', 1, 'seasonal_gate')
