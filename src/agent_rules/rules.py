@@ -62,3 +62,5 @@ def logic_330(agents,world):
  v=_local(world,agents,'biomass');agents.hunger=_delta(agents.hunger,v*0.001)
 def logic_331(agents,world):
  v=_local(world,agents,'biomass');agents.health=_delta(agents.health,v*0.001)
+def logic_332(agents,world):
+ v=_local(world,agents,'biomass');agents.wealth=_delta(agents.wealth,v*0.001)
