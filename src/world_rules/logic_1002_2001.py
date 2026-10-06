@@ -2024,3 +2024,7 @@ def logic_1496(world):
 def logic_1497(world):
     # nutrients support vegetation; stronger under fire pressure.
     _feedback(world, 'nutrients', 'vegetation', 1, 'fire_gate')
+
+def logic_1498(world):
+    # nutrients support vegetation; stronger when surface water is high.
+    _feedback(world, 'nutrients', 'vegetation', 1, 'water_gate')
