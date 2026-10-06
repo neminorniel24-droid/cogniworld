@@ -238,3 +238,7 @@ def logic_3051(agents, world):
 def logic_3052(agents, world):
     # surface_water -> health; capacity coupling.
     _update(agents, 'health', _desired(agents, world, 'surface_water', 'health', 'capacity'))
+
+def logic_3053(agents, world):
+    # surface_water -> health; reserve coupling.
+    _update(agents, 'health', _desired(agents, world, 'surface_water', 'health', 'reserve'))
