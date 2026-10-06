@@ -297,3 +297,6 @@ def test_logic_716():
 def test_logic_717():
     from agent_rules.rules import logic_717
     _check(logic_717, 'trust', 'competition_score', 1)
+def test_logic_718():
+    from agent_rules.rules import logic_718
+    _check(logic_718, 'cooperation', 'defection_score', -1)
