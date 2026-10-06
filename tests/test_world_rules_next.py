@@ -1294,3 +1294,8 @@ def test_logic_287():
     from world_rules.logic_287_extreme_temperature_suppresses_pollinators import apply
     w = make_world()
     w.pollinators.fill_(1.0); w.temperature.fill_(1.0); apply(w); assert torch.allclose(w.pollinators, torch.full_like(w.pollinators, 0.999))
+
+def test_logic_288():
+    from world_rules.logic_288_vegetation_reduces_salinity_exposure import apply
+    w = make_world()
+    w.salinity.fill_(1.0); w.vegetation.fill_(1.0); apply(w); assert torch.allclose(w.salinity, torch.full_like(w.salinity, 0.999))
