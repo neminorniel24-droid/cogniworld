@@ -758,3 +758,5 @@ def logic_697(agents,world):
     agents.strategy_score=_delta(agents.strategy_score,+0.002*agents.food_access)
 def logic_698(agents,world):
     agents.strategy_confidence=_delta(agents.strategy_confidence,+0.002*agents.wealth)
+def logic_699(agents,world):
+    agents.caution=_delta(agents.caution,+0.002*agents.stability)
