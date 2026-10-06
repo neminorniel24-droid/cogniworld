@@ -70,3 +70,7 @@ def logic_3009(agents, world):
 def logic_3010(agents, world):
     # surface_water -> hydration; capacity coupling.
     _update(agents, 'hydration', _desired(agents, world, 'surface_water', 'hydration', 'capacity'))
+
+def logic_3011(agents, world):
+    # surface_water -> hydration; reserve coupling.
+    _update(agents, 'hydration', _desired(agents, world, 'surface_water', 'hydration', 'reserve'))
