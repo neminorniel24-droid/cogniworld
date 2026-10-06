@@ -445,3 +445,5 @@ from .logic_223_algae_consume_nutrients import apply as logic_223
 RULES.append(logic_223)
 from .logic_224_algae_produce_oxygen import apply as logic_224
 RULES.append(logic_224)
+from .logic_225_cloudy_water_limits_algae import apply as logic_225
+RULES.append(logic_225)

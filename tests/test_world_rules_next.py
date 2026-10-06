@@ -979,3 +979,8 @@ def test_logic_224():
     from world_rules.logic_224_algae_produce_oxygen import apply
     w = make_world()
     w.oxygen.zero_(); w.algae.fill_(1.0); apply(w); assert torch.allclose(w.oxygen, torch.full_like(w.oxygen, 0.01))
+
+def test_logic_225():
+    from world_rules.logic_225_cloudy_water_limits_algae import apply
+    w = make_world()
+    w.algae.fill_(1.0); w.cloud.fill_(1.0); apply(w); assert torch.allclose(w.algae, torch.full_like(w.algae, 0.997))
