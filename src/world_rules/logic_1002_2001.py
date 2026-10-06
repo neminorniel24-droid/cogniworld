@@ -2812,3 +2812,7 @@ def logic_1693(world):
 def logic_1694(world):
     # vegetation replenishes seeds; stronger when surface water is high.
     _feedback(world, 'vegetation', 'seed_bank', 1, 'water_gate')
+
+def logic_1695(world):
+    # vegetation replenishes seeds; stronger when vegetation is scarce.
+    _feedback(world, 'vegetation', 'seed_bank', 1, 'scarcity_gate')
