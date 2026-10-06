@@ -1188,3 +1188,7 @@ def logic_1287(world):
 def logic_1288(world):
     # wind enhances evaporation; stronger when surface water is high.
     _feedback(world, 'wind_x', 'evaporation', 1, 'water_gate')
+
+def logic_1289(world):
+    # wind enhances evaporation; stronger when vegetation is scarce.
+    _feedback(world, 'wind_x', 'evaporation', 1, 'scarcity_gate')
