@@ -3500,3 +3500,7 @@ def logic_1865(world):
 def logic_1866(world):
     # salinity suppresses freshwater algae; modulated by temperature.
     _feedback(world, 'salinity', 'algae', -1, 'seasonal_gate')
+
+def logic_1867(world):
+    # salinity suppresses freshwater algae; saturates at high source levels.
+    _feedback(world, 'salinity', 'algae', -1, 'saturation')
