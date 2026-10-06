@@ -3846,3 +3846,7 @@ def logic_3953(agents, world):
 def logic_3954(agents, world):
     # groundwater -> thermal_stress; direct coupling.
     _update(agents, 'thermal_stress', _desired(agents, world, 'groundwater', 'thermal_stress', 'direct'))
+
+def logic_3955(agents, world):
+    # groundwater -> thermal_stress; inverse coupling.
+    _update(agents, 'thermal_stress', _desired(agents, world, 'groundwater', 'thermal_stress', 'inverse'))
