@@ -2769,3 +2769,7 @@ def logic_2690(world):
 def logic_2691(world):
     # biomass mortality feeds detritus; reserve coupling.
     _couple(world,'biomass','detritus',0.9,'positive')
+
+def logic_2692(world):
+    # detritus fuels decomposition; direct coupling.
+    _couple(world,'detritus','decomposition_rate',1.0,'positive')
