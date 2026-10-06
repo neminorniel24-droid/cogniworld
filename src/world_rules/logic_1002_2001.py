@@ -1800,3 +1800,7 @@ def logic_1440(world):
 def logic_1441(world):
     # biomass stores carbon; stronger under fire pressure.
     _feedback(world, 'biomass', 'carbon_storage', 1, 'fire_gate')
+
+def logic_1442(world):
+    # biomass stores carbon; stronger when surface water is high.
+    _feedback(world, 'biomass', 'carbon_storage', 1, 'water_gate')
