@@ -1346,3 +1346,5 @@ def logic_991(agents,world):
     agents.risk_score=_delta(agents.risk_score,+0.002*agents.reproduction_score)
 def logic_992(agents,world):
     agents.safety_score=_delta(agents.safety_score,+0.002*agents.strategy_persistence)
+def logic_993(agents,world):
+    agents.exploration_score=_delta(agents.exploration_score,+0.002*agents.strategy_confidence)
