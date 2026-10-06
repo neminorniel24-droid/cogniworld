@@ -3534,3 +3534,7 @@ def logic_3875(agents, world):
 def logic_3876(agents, world):
     # surface_water -> self_preservation; feedback coupling.
     _update(agents, 'self_preservation', _desired(agents, world, 'surface_water', 'self_preservation', 'feedback'))
+
+def logic_3877(agents, world):
+    # surface_water -> self_preservation; counterpressure coupling.
+    _update(agents, 'self_preservation', _desired(agents, world, 'surface_water', 'self_preservation', 'counterpressure'))
