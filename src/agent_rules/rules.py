@@ -28,3 +28,5 @@ def logic_313(agents,world):
  v=_local(world,agents,'rain');agents.health=_delta(agents.health,v*0.001)
 def logic_314(agents,world):
  v=_local(world,agents,'rain');agents.migration_drive=_delta(agents.migration_drive,v*0.001)
+def logic_315(agents,world):
+ v=_local(world,agents,'snowpack');agents.hydration=_delta(agents.hydration,v*0.001)

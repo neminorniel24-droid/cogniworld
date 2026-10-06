@@ -65,3 +65,8 @@ def test_logic_313():
 def test_logic_314():
  from agent_rules.rules import logic_314
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.migration_drive.clone();setattr(w,'rain',torch.ones(4,4));logic_314(a,w);assert torch.any(a.migration_drive!=b)
+
+
+def test_logic_315():
+ from agent_rules.rules import logic_315
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.hydration.clone();setattr(w,'snowpack',torch.ones(4,4));logic_315(a,w);assert torch.any(a.hydration!=b)
