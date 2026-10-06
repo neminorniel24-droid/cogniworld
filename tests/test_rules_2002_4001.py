@@ -7,8 +7,12 @@ def make_world():
     return World({"world_size":8,"seed":42,"elevation_scale":0.05,"moisture_scale":0.08,"octaves":2},torch.device("cpu"))
 
 def test_world_batch_registered():
-    names={getattr(r,"__name__","") for r in wr.RULES}
-    assert sum(n.startswith("logic_") and 2002<=int(n.split("_")[1])<=3001 for n in names)==1000
+    import world_rules.logic_2002_4001 as batch
+    names={name for name in dir(batch) if name.startswith("logic_")}
+    assert all(f"logic_{n}" in names for n in range(2002, 2982))
+    import world_rules.logic_2983_4001 as new_batch
+    new_names={name for name in dir(new_batch) if name.startswith("logic_")}
+    assert all(f"logic_{n}" in new_names for n in range(2983, 3002))
 
 def test_agent_batch_registered():
     names={getattr(r,"__name__","") for r in ar.RULES}

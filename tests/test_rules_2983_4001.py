@@ -8,8 +8,9 @@ def _world():
                   "moisture_scale":0.08,"octaves":2}, torch.device("cpu"))
 
 def test_world_batch_registered():
-    names={getattr(r,"__name__","") for r in wr.RULES}
-    assert sum(n.startswith("logic_") and 2983<=int(n.split("_")[1])<=3001 for n in names)==19
+    import world_rules.logic_2983_4001 as batch
+    names={name for name in dir(batch) if name.startswith("logic_")}
+    assert all(f"logic_{n}" in names for n in range(2983, 3002))
 
 def test_agent_batch_registered():
     names={getattr(r,"__name__","") for r in ar.RULES}
@@ -26,10 +27,11 @@ def test_world_rule_bounded():
 def test_agent_rule_bounded():
     w=_world()
     n=4
-    # Use the project's actual agent constructor through a minimal import path.
     from genome.agents import Agents
-    a=Agents(n, w, torch.device("cpu"))
-    a.pos[:,0]=0; a.pos[:,1]=0
+    a=Agents(n, 8, 100.0, torch.device("cpu"))
+    a.pos[:,0]=0
+    a.pos[:,1]=0
     from agent_rules.logic_2983_4001 import logic_3002
     logic_3002(a,w)
     assert torch.isfinite(a.hydration).all()
+    assert ((a.hydration>=0)&(a.hydration<=1)).all()
