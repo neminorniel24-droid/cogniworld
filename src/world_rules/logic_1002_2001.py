@@ -1296,3 +1296,7 @@ def logic_1314(world):
 def logic_1315(world):
     # evaporation replenishes humidity; stronger under fire pressure.
     _feedback(world, 'evaporation', 'humidity', 1, 'fire_gate')
+
+def logic_1316(world):
+    # evaporation replenishes humidity; stronger when surface water is high.
+    _feedback(world, 'evaporation', 'humidity', 1, 'water_gate')
