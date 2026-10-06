@@ -958,3 +958,7 @@ def logic_3231(agents, world):
 def logic_3232(agents, world):
     # surface_water -> wealth; feedback coupling.
     _update(agents, 'wealth', _desired(agents, world, 'surface_water', 'wealth', 'feedback'))
+
+def logic_3233(agents, world):
+    # surface_water -> wealth; counterpressure coupling.
+    _update(agents, 'wealth', _desired(agents, world, 'surface_water', 'wealth', 'counterpressure'))
