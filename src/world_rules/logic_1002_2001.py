@@ -3656,3 +3656,7 @@ def logic_1904(world):
 def logic_1905(world):
     # oxygenated habitat limits pathogen persistence; stronger when vegetation is scarce.
     _feedback(world, 'oxygen', 'pathogen_load', -1, 'scarcity_gate')
+
+def logic_1906(world):
+    # oxygenated habitat limits pathogen persistence; stronger when biomass is high.
+    _feedback(world, 'oxygen', 'pathogen_load', -1, 'biomass_gate')
