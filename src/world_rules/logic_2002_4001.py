@@ -1625,3 +1625,7 @@ def logic_2404(world):
 def logic_2405(world):
     # CO2 supports photosynthesis; strong coupling.
     _couple(world,'co2','vegetation',1.35,'positive')
+
+def logic_2406(world):
+    # CO2 supports photosynthesis; threshold coupling.
+    _couple(world,'co2','vegetation',1.0,'threshold')
