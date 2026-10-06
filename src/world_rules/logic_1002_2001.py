@@ -2584,3 +2584,7 @@ def logic_1636(world):
 def logic_1637(world):
     # soil carbon contributes ecosystem carbon; stronger under fire pressure.
     _feedback(world, 'soil_carbon', 'carbon_storage', 1, 'fire_gate')
+
+def logic_1638(world):
+    # soil carbon contributes ecosystem carbon; stronger when surface water is high.
+    _feedback(world, 'soil_carbon', 'carbon_storage', 1, 'water_gate')
