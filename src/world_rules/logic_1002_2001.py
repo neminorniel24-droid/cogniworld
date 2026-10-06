@@ -1704,3 +1704,7 @@ def logic_1416(world):
 def logic_1417(world):
     # roots retain soil; stronger under habitat stress.
     _feedback(world, 'root_density', 'soil_depth', 1, 'stress_gate')
+
+def logic_1418(world):
+    # roots retain soil; modulated by temperature.
+    _feedback(world, 'root_density', 'soil_depth', 1, 'seasonal_gate')
