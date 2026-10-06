@@ -3280,3 +3280,7 @@ def logic_1810(world):
 def logic_1811(world):
     # pathogens reduce biodiversity; saturates at high source levels.
     _feedback(world, 'pathogen_load', 'biodiversity', -1, 'saturation')
+
+def logic_1812(world):
+    # pathogens reduce biodiversity; activates above a food threshold.
+    _feedback(world, 'pathogen_load', 'biodiversity', -1, 'threshold')
