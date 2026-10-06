@@ -2897,3 +2897,7 @@ def logic_2722(world):
 def logic_2723(world):
     # temperature changes photosynthetic efficiency; inverse coupling.
     _couple(world,'temperature','photosynthesis_factor',1.0,'negative')
+
+def logic_2724(world):
+    # temperature changes photosynthetic efficiency; limited coupling.
+    _couple(world,'temperature','photosynthesis_factor',0.65,'positive')
