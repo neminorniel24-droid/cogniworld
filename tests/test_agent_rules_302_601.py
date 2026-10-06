@@ -1480,3 +1480,8 @@ def test_logic_596():
 def test_logic_597():
  from agent_rules.rules import logic_597
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.learning_rate.clone();a.last_reward.fill_(1);logic_597(a,w);assert torch.any(a.learning_rate!=b)
+
+
+def test_logic_598():
+ from agent_rules.rules import logic_598
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.strategy_score.clone();a.last_reward.fill_(1);logic_598(a,w);assert torch.any(a.strategy_score!=b)
