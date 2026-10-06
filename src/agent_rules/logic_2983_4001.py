@@ -1430,3 +1430,7 @@ def logic_3349(agents, world):
 def logic_3350(agents, world):
     # surface_water -> aggression; recovery coupling.
     _update(agents, 'aggression', _desired(agents, world, 'surface_water', 'aggression', 'recovery'))
+
+def logic_3351(agents, world):
+    # surface_water -> aggression; persistence coupling.
+    _update(agents, 'aggression', _desired(agents, world, 'surface_water', 'aggression', 'persistence'))
