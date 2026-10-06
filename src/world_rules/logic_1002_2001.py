@@ -1456,3 +1456,7 @@ def logic_1354(world):
 def logic_1355(world):
     # sediment export reduces soil depth; stronger when temperature is high.
     _feedback(world, 'sediment', 'soil_depth', -1, 'heat_gate')
+
+def logic_1356(world):
+    # sediment export reduces soil depth; stronger when temperature is low.
+    _feedback(world, 'sediment', 'soil_depth', -1, 'cold_gate')
