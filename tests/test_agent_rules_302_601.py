@@ -1190,3 +1190,8 @@ def test_logic_538():
 def test_logic_539():
  from agent_rules.rules import logic_539
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.fitness_score.clone();a.last_reward.fill_(1);logic_539(a,w);assert torch.any(a.fitness_score!=b)
+
+
+def test_logic_540():
+ from agent_rules.rules import logic_540
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.reproduction_score.clone();a.last_reward.fill_(1);logic_540(a,w);assert torch.any(a.reproduction_score!=b)
