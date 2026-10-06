@@ -1312,3 +1312,5 @@ def logic_974(agents,world):
     agents.migration_score=_delta(agents.migration_score,+0.002*agents.resource_scarcity)
 def logic_975(agents,world):
     agents.reproduction_score=_delta(agents.reproduction_score,+0.002*agents.food_access)
+def logic_976(agents,world):
+    agents.strategy_persistence=_delta(agents.strategy_persistence,+0.002*agents.resource_discovery)

@@ -1071,3 +1071,6 @@ def test_logic_974():
 def test_logic_975():
     from agent_rules.rules import logic_975
     _check(logic_975, 'food_access', 'reproduction_score', 1)
+def test_logic_976():
+    from agent_rules.rules import logic_976
+    _check(logic_976, 'resource_discovery', 'strategy_persistence', 1)
