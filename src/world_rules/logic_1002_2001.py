@@ -1804,3 +1804,7 @@ def logic_1441(world):
 def logic_1442(world):
     # biomass stores carbon; stronger when surface water is high.
     _feedback(world, 'biomass', 'carbon_storage', 1, 'water_gate')
+
+def logic_1443(world):
+    # biomass stores carbon; stronger when vegetation is scarce.
+    _feedback(world, 'biomass', 'carbon_storage', 1, 'scarcity_gate')
