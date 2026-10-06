@@ -527,3 +527,12 @@ def test_logic_162():
     w.predator.zero_()
     apply(w)
     assert torch.allclose(w.predator, torch.full_like(w.predator, 0.004))
+
+def test_logic_163():
+    from world_rules.logic_163_prey_scarcity_reduces_predators import apply
+    w = make_world()
+    w.herbivore.zero_()
+    w.predator.fill_(1.0)
+    before=w.predator.clone()
+    apply(w)
+    assert torch.all(w.predator < before)

@@ -321,3 +321,5 @@ from .logic_161_oxygen_supports_predators import apply as logic_161
 RULES.append(logic_161)
 from .logic_162_prey_abundance_supports_predators import apply as logic_162
 RULES.append(logic_162)
+from .logic_163_prey_scarcity_reduces_predators import apply as logic_163
+RULES.append(logic_163)
