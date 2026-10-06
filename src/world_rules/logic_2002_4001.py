@@ -601,3 +601,7 @@ def logic_2148(world):
 def logic_2149(world):
     # rainfall recharges groundwater; counterpressure coupling.
     _couple(world,'rain','groundwater',0.8,'negative')
+
+def logic_2150(world):
+    # rainfall recharges groundwater; capacity coupling.
+    _couple(world,'rain','groundwater',0.5,'positive')
