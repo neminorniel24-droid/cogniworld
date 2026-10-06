@@ -198,3 +198,5 @@ def logic_398(agents,world):
  v=_local(world,agents,'soil_carbon');agents.habitat_stress=_delta(agents.habitat_stress,v*0.001)
 def logic_399(agents,world):
  v=_local(world,agents,'salinity');agents.health=_delta(agents.health,v*0.001)
+def logic_400(agents,world):
+ v=_local(world,agents,'salinity');agents.hydration=_delta(agents.hydration,v*0.001)
