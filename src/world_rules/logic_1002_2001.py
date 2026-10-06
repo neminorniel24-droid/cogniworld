@@ -2216,3 +2216,7 @@ def logic_1544(world):
 def logic_1545(world):
     # deadwood feeds organic matter; saturates at high source levels.
     _feedback(world, 'deadwood', 'organic_matter', 1, 'saturation')
+
+def logic_1546(world):
+    # deadwood feeds organic matter; activates above a food threshold.
+    _feedback(world, 'deadwood', 'organic_matter', 1, 'threshold')
