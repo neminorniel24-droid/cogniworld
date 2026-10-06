@@ -779,3 +779,11 @@ def test_logic_191():
     w.wind_y.zero_()
     apply(w)
     assert torch.allclose(w.wind_x, torch.full_like(w.wind_x, 0.004)) and torch.allclose(w.wind_y, torch.full_like(w.wind_y, 0.004))
+
+def test_logic_192():
+    from world_rules.logic_192_wet_soil_adds_humidity import apply
+    w = make_world()
+    w.soil_moisture.fill_(1.0)
+    w.humidity.zero_()
+    apply(w)
+    assert torch.allclose(w.humidity, torch.full_like(w.humidity, 0.004))
