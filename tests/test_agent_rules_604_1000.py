@@ -312,3 +312,6 @@ def test_logic_721():
 def test_logic_722():
     from agent_rules.rules import logic_722
     _check(logic_722, 'competition_pressure', 'reputation', -1)
+def test_logic_723():
+    from agent_rules.rules import logic_723
+    _check(logic_723, 'territoriality', 'trust', -1)
