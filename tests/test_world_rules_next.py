@@ -348,3 +348,11 @@ def test_logic_141():
     before=w.carbon_storage.clone()
     apply(w)
     assert torch.all(w.carbon_storage < before)
+
+def test_logic_142():
+    from world_rules.logic_142_biomass_builds_carbon_storage import apply
+    w = make_world()
+    w.biomass.fill_(1.0)
+    w.carbon_storage.zero_()
+    apply(w)
+    assert torch.allclose(w.carbon_storage, torch.full_like(w.carbon_storage, 0.01))
