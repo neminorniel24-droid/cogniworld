@@ -256,3 +256,7 @@ def logic_1054(world):
 def logic_1055(world):
     # snowmelt supplies surface water; saturates at high source levels.
     _feedback(world, 'snowpack', 'surface_water', 1, 'saturation')
+
+def logic_1056(world):
+    # snowmelt supplies surface water; activates above a food threshold.
+    _feedback(world, 'snowpack', 'surface_water', 1, 'threshold')
