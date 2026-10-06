@@ -1840,3 +1840,7 @@ def logic_1450(world):
 def logic_1451(world):
     # biomass contributes oxygen; stronger when soil is dry.
     _feedback(world, 'biomass', 'oxygen', 1, 'dry_gate')
+
+def logic_1452(world):
+    # biomass contributes oxygen; stronger when soil is wet.
+    _feedback(world, 'biomass', 'oxygen', 1, 'wet_gate')
