@@ -1180,3 +1180,7 @@ def logic_1285(world):
 def logic_1286(world):
     # wind enhances evaporation; stronger when temperature is low.
     _feedback(world, 'wind_x', 'evaporation', 1, 'cold_gate')
+
+def logic_1287(world):
+    # wind enhances evaporation; stronger under fire pressure.
+    _feedback(world, 'wind_x', 'evaporation', 1, 'fire_gate')
