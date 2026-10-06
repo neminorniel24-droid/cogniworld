@@ -455,3 +455,8 @@ def test_logic_391():
 def test_logic_392():
  from agent_rules.rules import logic_392
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.sharing_capacity.clone();setattr(w,'flowers',torch.ones(4,4));logic_392(a,w);assert torch.any(a.sharing_capacity!=b)
+
+
+def test_logic_393():
+ from agent_rules.rules import logic_393
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.food_access.clone();setattr(w,'seed_bank',torch.ones(4,4));logic_393(a,w);assert torch.any(a.food_access!=b)
