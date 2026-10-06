@@ -3552,3 +3552,7 @@ def logic_1878(world):
 def logic_1879(world):
     # algae contribute oxygen; stronger under habitat stress.
     _feedback(world, 'algae', 'oxygen', 1, 'stress_gate')
+
+def logic_1880(world):
+    # algae contribute oxygen; modulated by temperature.
+    _feedback(world, 'algae', 'oxygen', 1, 'seasonal_gate')
