@@ -954,3 +954,8 @@ def test_logic_219():
     from world_rules.logic_219_high_salinity_suppresses_vegetation import apply
     w = make_world()
     w.vegetation.fill_(1.0); w.salinity.fill_(1.0); apply(w); assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.996))
+
+def test_logic_220():
+    from world_rules.logic_220_salinity_reduces_herbivore_survival import apply
+    w = make_world()
+    w.herbivore.fill_(1.0); w.salinity.fill_(1.0); apply(w); assert torch.allclose(w.herbivore, torch.full_like(w.herbivore, 0.998))
