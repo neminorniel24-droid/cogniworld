@@ -649,3 +649,7 @@ def logic_2160(world):
 def logic_2161(world):
     # snowmelt feeds groundwater; reserve coupling.
     _couple(world,'snowpack','groundwater',0.9,'positive')
+
+def logic_2162(world):
+    # heat reduces snowpack; direct coupling.
+    _couple(world,'temperature','snowpack',1.0,'positive')
