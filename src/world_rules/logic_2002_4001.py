@@ -1921,3 +1921,7 @@ def logic_2478(world):
 def logic_2479(world):
     # soil carbon stores carbon; counterpressure coupling.
     _couple(world,'soil_carbon','carbon_storage',0.8,'negative')
+
+def logic_2480(world):
+    # soil carbon stores carbon; capacity coupling.
+    _couple(world,'soil_carbon','carbon_storage',0.5,'positive')
