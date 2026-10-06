@@ -1179,3 +1179,8 @@ def test_logic_264():
     from world_rules.logic_264_flowers_reduce_habitat_stress import apply
     w = make_world()
     w.habitat_stress.fill_(1.0); w.flowers.fill_(1.0); apply(w); assert torch.allclose(w.habitat_stress, torch.full_like(w.habitat_stress, 0.999))
+
+def test_logic_265():
+    from world_rules.logic_265_algae_can_reduce_water_oxygen import apply
+    w = make_world()
+    w.oxygen.fill_(1.0); w.algae.fill_(1.0); apply(w); assert torch.allclose(w.oxygen, torch.full_like(w.oxygen, 0.998))

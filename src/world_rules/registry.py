@@ -525,3 +525,5 @@ from .logic_263_pollinators_raise_biodiversity import apply as logic_263
 RULES.append(logic_263)
 from .logic_264_flowers_reduce_habitat_stress import apply as logic_264
 RULES.append(logic_264)
+from .logic_265_algae_can_reduce_water_oxygen import apply as logic_265
+RULES.append(logic_265)
