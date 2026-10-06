@@ -2670,3 +2670,7 @@ def logic_3659(agents, world):
 def logic_3660(agents, world):
     # surface_water -> risk_score; direct coupling.
     _update(agents, 'risk_score', _desired(agents, world, 'surface_water', 'risk_score', 'direct'))
+
+def logic_3661(agents, world):
+    # surface_water -> risk_score; inverse coupling.
+    _update(agents, 'risk_score', _desired(agents, world, 'surface_water', 'risk_score', 'inverse'))
