@@ -8,3 +8,5 @@ def logic_303(agents,world):
  v=_local(world,agents,'surface_water');agents.hydration=_delta(agents.hydration,v*0.001)
 def logic_304(agents,world):
  v=_local(world,agents,'surface_water');agents.thirst=_delta(agents.thirst,v*0.001)
+def logic_305(agents,world):
+ v=_local(world,agents,'surface_water');agents.health=_delta(agents.health,v*0.001)
