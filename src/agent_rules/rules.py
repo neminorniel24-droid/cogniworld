@@ -1302,3 +1302,5 @@ def logic_969(agents,world):
     agents.migration_score=_delta(agents.migration_score,+0.002*agents.risk_score)
 def logic_970(agents,world):
     agents.reproduction_score=_delta(agents.reproduction_score,+0.002*agents.safety_score)
+def logic_971(agents,world):
+    agents.sharing_score=_delta(agents.sharing_score,+0.002*agents.wealth)
