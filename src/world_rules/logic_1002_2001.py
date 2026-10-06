@@ -3440,3 +3440,7 @@ def logic_1850(world):
 def logic_1851(world):
     # habitat stress erodes diversity; stronger under habitat stress.
     _feedback(world, 'habitat_stress', 'biodiversity', -1, 'stress_gate')
+
+def logic_1852(world):
+    # habitat stress erodes diversity; modulated by temperature.
+    _feedback(world, 'habitat_stress', 'biodiversity', -1, 'seasonal_gate')
