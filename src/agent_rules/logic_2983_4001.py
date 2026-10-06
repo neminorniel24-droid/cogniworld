@@ -1326,3 +1326,7 @@ def logic_3323(agents, world):
 def logic_3324(agents, world):
     # surface_water -> defection; direct coupling.
     _update(agents, 'defection', _desired(agents, world, 'surface_water', 'defection', 'direct'))
+
+def logic_3325(agents, world):
+    # surface_water -> defection; inverse coupling.
+    _update(agents, 'defection', _desired(agents, world, 'surface_water', 'defection', 'inverse'))
