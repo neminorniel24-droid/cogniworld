@@ -227,3 +227,5 @@ from .logic_114_runoff_adds_surface_water import apply as logic_114
 RULES.append(logic_114)
 from .logic_115_deep_soil_retains_more_moisture import apply as logic_115
 RULES.append(logic_115)
+from .logic_116_shallow_soil_drains_faster import apply as logic_116
+RULES.append(logic_116)

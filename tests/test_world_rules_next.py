@@ -121,3 +121,12 @@ def test_logic_115():
     w.soil_moisture.zero_()
     apply(w)
     assert torch.allclose(w.soil_moisture, torch.full_like(w.soil_moisture, 0.005))
+
+def test_logic_116():
+    from world_rules.logic_116_shallow_soil_drains_faster import apply
+    w = make_world()
+    w.soil_depth.zero_()
+    w.soil_moisture.fill_(1.0)
+    before=w.soil_moisture.clone()
+    apply(w)
+    assert torch.all(w.soil_moisture < before)
