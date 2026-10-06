@@ -1065,3 +1065,6 @@ def test_logic_972():
 def test_logic_973():
     from agent_rules.rules import logic_973
     _check(logic_973, 'resource_abundance', 'defense_score', 1)
+def test_logic_974():
+    from agent_rules.rules import logic_974
+    _check(logic_974, 'resource_scarcity', 'migration_score', 1)
