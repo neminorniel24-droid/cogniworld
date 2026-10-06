@@ -3566,3 +3566,7 @@ def logic_3883(agents, world):
 def logic_3884(agents, world):
     # surface_water -> payoff; direct coupling.
     _update(agents, 'payoff', _desired(agents, world, 'surface_water', 'payoff', 'direct'))
+
+def logic_3885(agents, world):
+    # surface_water -> payoff; inverse coupling.
+    _update(agents, 'payoff', _desired(agents, world, 'surface_water', 'payoff', 'inverse'))
