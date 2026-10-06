@@ -658,3 +658,12 @@ def test_logic_177():
     w.vegetation.zero_()
     apply(w)
     assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.005))
+
+def test_logic_178():
+    from world_rules.logic_178_erosion_removes_nutrients import apply
+    w = make_world()
+    w.erosion.fill_(1.0)
+    w.nutrients.fill_(1.0)
+    before=w.nutrients.clone()
+    apply(w)
+    assert torch.all(w.nutrients < before)
