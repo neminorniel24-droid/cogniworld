@@ -2022,3 +2022,7 @@ def logic_3497(agents, world):
 def logic_3498(agents, world):
     # surface_water -> caution; feedback coupling.
     _update(agents, 'caution', _desired(agents, world, 'surface_water', 'caution', 'feedback'))
+
+def logic_3499(agents, world):
+    # surface_water -> caution; counterpressure coupling.
+    _update(agents, 'caution', _desired(agents, world, 'surface_water', 'caution', 'counterpressure'))
