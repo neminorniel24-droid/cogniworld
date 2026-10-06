@@ -3173,3 +3173,7 @@ def logic_2791(world):
 def logic_2792(world):
     # salinity changes water suitability; direct coupling.
     _couple(world,'salinity','surface_water',1.0,'positive')
+
+def logic_2793(world):
+    # salinity changes water suitability; inverse coupling.
+    _couple(world,'salinity','surface_water',1.0,'negative')
