@@ -330,3 +330,8 @@ def test_logic_366():
 def test_logic_367():
  from agent_rules.rules import logic_367
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.health.clone();setattr(w,'wetland',torch.ones(4,4));logic_367(a,w);assert torch.any(a.health!=b)
+
+
+def test_logic_368():
+ from agent_rules.rules import logic_368
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.migration_drive.clone();setattr(w,'wetland',torch.ones(4,4));logic_368(a,w);assert torch.any(a.migration_drive!=b)

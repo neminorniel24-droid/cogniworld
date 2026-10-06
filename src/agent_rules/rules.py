@@ -134,3 +134,5 @@ def logic_366(agents,world):
  v=_local(world,agents,'wetland');agents.hydration=_delta(agents.hydration,v*0.001)
 def logic_367(agents,world):
  v=_local(world,agents,'wetland');agents.health=_delta(agents.health,v*0.001)
+def logic_368(agents,world):
+ v=_local(world,agents,'wetland');agents.migration_drive=_delta(agents.migration_drive,v*0.001)
