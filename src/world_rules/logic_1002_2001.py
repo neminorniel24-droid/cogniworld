@@ -2164,3 +2164,7 @@ def logic_1531(world):
 def logic_1532(world):
     # decomposition releases nutrients; activates above a food threshold.
     _feedback(world, 'decomposition_rate', 'nutrients', 1, 'threshold')
+
+def logic_1533(world):
+    # decomposition releases nutrients; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'decomposition_rate', 'nutrients', 1, 'recovery')
