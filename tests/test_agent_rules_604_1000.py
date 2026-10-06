@@ -12,3 +12,6 @@ def _check(logic, source, target, sign=1):
 def test_logic_622():
     from agent_rules.rules import logic_622
     _check(logic_622, 'health', 'risk_score', 1)
+def test_logic_623():
+    from agent_rules.rules import logic_623
+    _check(logic_623, 'hydration', 'safety_score', 1)
