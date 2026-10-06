@@ -3305,3 +3305,7 @@ def logic_2824(world):
 def logic_2825(world):
     # evaporation removes surface water; strong coupling.
     _couple(world,'evaporation','surface_water',1.35,'positive')
+
+def logic_2826(world):
+    # evaporation removes surface water; threshold coupling.
+    _couple(world,'evaporation','surface_water',1.0,'threshold')
