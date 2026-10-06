@@ -3197,3 +3197,7 @@ def logic_2797(world):
 def logic_2798(world):
     # salinity changes water suitability; feedback coupling.
     _couple(world,'salinity','surface_water',0.8,'positive')
+
+def logic_2799(world):
+    # salinity changes water suitability; counterpressure coupling.
+    _couple(world,'salinity','surface_water',0.8,'negative')
