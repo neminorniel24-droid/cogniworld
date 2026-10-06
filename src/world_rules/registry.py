@@ -269,3 +269,5 @@ from .logic_135_decomposition_consumes_detritus import apply as logic_135
 RULES.append(logic_135)
 from .logic_136_decomposition_recycles_nutrients import apply as logic_136
 RULES.append(logic_136)
+from .logic_137_decomposition_releases_co2 import apply as logic_137
+RULES.append(logic_137)

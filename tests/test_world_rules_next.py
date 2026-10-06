@@ -304,3 +304,11 @@ def test_logic_136():
     w.nutrients.zero_()
     apply(w)
     assert torch.allclose(w.nutrients, torch.full_like(w.nutrients, 0.008))
+
+def test_logic_137():
+    from world_rules.logic_137_decomposition_releases_co2 import apply
+    w = make_world()
+    w.decomposition_rate.fill_(1.0)
+    w.co2.zero_()
+    apply(w)
+    assert torch.allclose(w.co2, torch.full_like(w.co2, 0.004))
