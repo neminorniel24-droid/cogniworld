@@ -790,3 +790,7 @@ def logic_3189(agents, world):
 def logic_3190(agents, world):
     # surface_water -> migration_drive; feedback coupling.
     _update(agents, 'migration_drive', _desired(agents, world, 'surface_water', 'migration_drive', 'feedback'))
+
+def logic_3191(agents, world):
+    # surface_water -> migration_drive; counterpressure coupling.
+    _update(agents, 'migration_drive', _desired(agents, world, 'surface_water', 'migration_drive', 'counterpressure'))
