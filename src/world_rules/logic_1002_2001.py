@@ -2684,3 +2684,7 @@ def logic_1661(world):
 def logic_1662(world):
     # pollination sustains flowering; stronger when soil is wet.
     _feedback(world, 'pollinators', 'flowers', 1, 'wet_gate')
+
+def logic_1663(world):
+    # pollination sustains flowering; stronger when temperature is high.
+    _feedback(world, 'pollinators', 'flowers', 1, 'heat_gate')
