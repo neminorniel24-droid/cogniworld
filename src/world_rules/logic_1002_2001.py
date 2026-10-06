@@ -592,3 +592,7 @@ def logic_1138(world):
 def logic_1139(world):
     # groundwater supports wetlands; saturates at high source levels.
     _feedback(world, 'groundwater', 'wetland', 1, 'saturation')
+
+def logic_1140(world):
+    # groundwater supports wetlands; activates above a food threshold.
+    _feedback(world, 'groundwater', 'wetland', 1, 'threshold')
