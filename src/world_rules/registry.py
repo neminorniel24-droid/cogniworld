@@ -503,3 +503,5 @@ from .logic_252_surface_ice_accumulates_below_freezing import apply as logic_252
 RULES.append(logic_252)
 from .logic_253_warmth_melts_surface_ice import apply as logic_253
 RULES.append(logic_253)
+from .logic_254_surface_ice_reduces_evaporation import apply as logic_254
+RULES.append(logic_254)
