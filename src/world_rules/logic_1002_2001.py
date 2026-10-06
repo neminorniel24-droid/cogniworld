@@ -3052,3 +3052,7 @@ def logic_1753(world):
 def logic_1754(world):
     # predation reduces herbivores; modulated by temperature.
     _feedback(world, 'predator', 'herbivore', -1, 'seasonal_gate')
+
+def logic_1755(world):
+    # predation reduces herbivores; saturates at high source levels.
+    _feedback(world, 'predator', 'herbivore', -1, 'saturation')
