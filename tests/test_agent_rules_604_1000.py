@@ -600,3 +600,6 @@ def test_logic_817():
 def test_logic_818():
     from agent_rules.rules import logic_818
     _check(logic_818, 'defection_score', 'confidence', 1)
+def test_logic_819():
+    from agent_rules.rules import logic_819
+    _check(logic_819, 'reciprocity_score', 'caution', 1)
