@@ -1812,3 +1812,7 @@ def logic_1443(world):
 def logic_1444(world):
     # biomass stores carbon; stronger when biomass is high.
     _feedback(world, 'biomass', 'carbon_storage', 1, 'biomass_gate')
+
+def logic_1445(world):
+    # biomass stores carbon; stronger under habitat stress.
+    _feedback(world, 'biomass', 'carbon_storage', 1, 'stress_gate')
