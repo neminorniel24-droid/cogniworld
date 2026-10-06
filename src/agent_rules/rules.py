@@ -168,3 +168,5 @@ def logic_383(agents,world):
  v=_local(world,agents,'organic_matter');agents.wealth=_delta(agents.wealth,v*0.001)
 def logic_384(agents,world):
  v=_local(world,agents,'deadwood');agents.wealth=_delta(agents.wealth,v*0.001)
+def logic_385(agents,world):
+ v=_local(world,agents,'deadwood');agents.fire_fear=_delta(agents.fire_fear,v*0.001)
