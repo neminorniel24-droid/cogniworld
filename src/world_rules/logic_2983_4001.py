@@ -34,3 +34,7 @@ def logic_2987(world):
 def logic_2988(world):
     # biomass contributes organic matter.
     _apply(world, 'biomass', 'organic_matter', -1.0)
+
+def logic_2989(world):
+    # organic matter supports soil carbon.
+    _apply(world, 'organic_matter', 'soil_carbon', 1.0)
