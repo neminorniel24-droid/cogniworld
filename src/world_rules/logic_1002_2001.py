@@ -2032,3 +2032,7 @@ def logic_1498(world):
 def logic_1499(world):
     # nutrients support vegetation; stronger when vegetation is scarce.
     _feedback(world, 'nutrients', 'vegetation', 1, 'scarcity_gate')
+
+def logic_1500(world):
+    # nutrients support vegetation; stronger when biomass is high.
+    _feedback(world, 'nutrients', 'vegetation', 1, 'biomass_gate')
