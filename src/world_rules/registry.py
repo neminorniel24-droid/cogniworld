@@ -217,3 +217,5 @@ from .logic_109_wind_increases_evaporation import apply as logic_109
 RULES.append(logic_109)
 from .logic_110_dry_air_increases_evaporation import apply as logic_110
 RULES.append(logic_110)
+from .logic_111_ice_suppresses_evaporation import apply as logic_111
+RULES.append(logic_111)

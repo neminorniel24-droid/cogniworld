@@ -80,3 +80,12 @@ def test_logic_110():
     w.evaporation.zero_()
     apply(w)
     assert torch.allclose(w.evaporation, torch.full_like(w.evaporation, 0.005))
+
+def test_logic_111():
+    from world_rules.logic_111_ice_suppresses_evaporation import apply
+    w = make_world()
+    w.ice.fill_(1.0)
+    w.evaporation.fill_(1.0)
+    before=w.evaporation.clone()
+    apply(w)
+    assert torch.all(w.evaporation < before)
