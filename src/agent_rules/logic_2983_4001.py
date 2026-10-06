@@ -2834,3 +2834,7 @@ def logic_3700(agents, world):
 def logic_3701(agents, world):
     # surface_water -> exploration_score; persistence coupling.
     _update(agents, 'exploration_score', _desired(agents, world, 'surface_water', 'exploration_score', 'persistence'))
+
+def logic_3702(agents, world):
+    # surface_water -> foraging_score; direct coupling.
+    _update(agents, 'foraging_score', _desired(agents, world, 'surface_water', 'foraging_score', 'direct'))
