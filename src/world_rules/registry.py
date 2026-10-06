@@ -393,3 +393,5 @@ from .logic_197_surface_water_buffers_temperature import apply as logic_197
 RULES.append(logic_197)
 from .logic_198_erosion_reduces_soil_depth import apply as logic_198
 RULES.append(logic_198)
+from .logic_199_root_density_tracks_biomass import apply as logic_199
+RULES.append(logic_199)

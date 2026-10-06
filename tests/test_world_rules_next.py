@@ -839,3 +839,11 @@ def test_logic_198():
     before=w.soil_depth.clone()
     apply(w)
     assert torch.all(w.soil_depth < before)
+
+def test_logic_199():
+    from world_rules.logic_199_root_density_tracks_biomass import apply
+    w = make_world()
+    w.biomass.fill_(1.0)
+    w.root_density.zero_()
+    apply(w)
+    assert torch.allclose(w.root_density, torch.full_like(w.root_density, 0.004))
