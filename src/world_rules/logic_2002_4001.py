@@ -3313,3 +3313,7 @@ def logic_2826(world):
 def logic_2827(world):
     # evaporation removes surface water; pulse coupling.
     _couple(world,'evaporation','surface_water',1.0,'pulse')
+
+def logic_2828(world):
+    # evaporation removes surface water; feedback coupling.
+    _couple(world,'evaporation','surface_water',0.8,'positive')
