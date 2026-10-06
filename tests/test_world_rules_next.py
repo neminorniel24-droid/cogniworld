@@ -536,3 +536,12 @@ def test_logic_163():
     before=w.predator.clone()
     apply(w)
     assert torch.all(w.predator < before)
+
+def test_logic_164():
+    from world_rules.logic_164_vegetation_buffers_habitat_stress import apply
+    w = make_world()
+    w.vegetation.fill_(1.0)
+    w.habitat_stress.fill_(1.0)
+    before=w.habitat_stress.clone()
+    apply(w)
+    assert torch.all(w.habitat_stress < before)
