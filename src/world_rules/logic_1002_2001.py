@@ -196,3 +196,7 @@ def logic_1039(world):
 def logic_1040(world):
     # rain recharges groundwater; modulated by temperature.
     _feedback(world, 'rain', 'groundwater', 1, 'seasonal_gate')
+
+def logic_1041(world):
+    # rain recharges groundwater; saturates at high source levels.
+    _feedback(world, 'rain', 'groundwater', 1, 'saturation')
