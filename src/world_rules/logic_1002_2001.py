@@ -2464,3 +2464,7 @@ def logic_1606(world):
 def logic_1607(world):
     # fire releases stored carbon; stronger when temperature is high.
     _feedback(world, 'fire_risk', 'carbon_storage', -1, 'heat_gate')
+
+def logic_1608(world):
+    # fire releases stored carbon; stronger when temperature is low.
+    _feedback(world, 'fire_risk', 'carbon_storage', -1, 'cold_gate')
