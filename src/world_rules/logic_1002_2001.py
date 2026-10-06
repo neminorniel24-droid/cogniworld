@@ -1304,3 +1304,7 @@ def logic_1316(world):
 def logic_1317(world):
     # evaporation replenishes humidity; stronger when vegetation is scarce.
     _feedback(world, 'evaporation', 'humidity', 1, 'scarcity_gate')
+
+def logic_1318(world):
+    # evaporation replenishes humidity; stronger when biomass is high.
+    _feedback(world, 'evaporation', 'humidity', 1, 'biomass_gate')
