@@ -84,3 +84,6 @@ def test_logic_645():
 def test_logic_646():
     from agent_rules.rules import logic_646
     _check(logic_646, 'thermal_stress', 'strategy_confidence', -1)
+def test_logic_647():
+    from agent_rules.rules import logic_647
+    _check(logic_647, 'dehydration', 'caution', 1)

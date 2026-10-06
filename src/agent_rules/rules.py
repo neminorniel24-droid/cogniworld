@@ -654,3 +654,5 @@ def logic_645(agents,world):
     agents.strategy_score=_delta(agents.strategy_score,+0.002*agents.hunger)
 def logic_646(agents,world):
     agents.strategy_confidence=_delta(agents.strategy_confidence,-0.002*agents.thermal_stress)
+def logic_647(agents,world):
+    agents.caution=_delta(agents.caution,+0.002*agents.dehydration)
