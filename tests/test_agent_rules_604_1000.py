@@ -1029,3 +1029,6 @@ def test_logic_960():
 def test_logic_961():
     from agent_rules.rules import logic_961
     _check(logic_961, 'last_reward', 'reciprocity_score', 1)
+def test_logic_962():
+    from agent_rules.rules import logic_962
+    _check(logic_962, 'last_food', 'safety_score', 1)
