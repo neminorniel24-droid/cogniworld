@@ -3542,3 +3542,7 @@ def logic_3877(agents, world):
 def logic_3878(agents, world):
     # surface_water -> self_preservation; capacity coupling.
     _update(agents, 'self_preservation', _desired(agents, world, 'surface_water', 'self_preservation', 'capacity'))
+
+def logic_3879(agents, world):
+    # surface_water -> self_preservation; reserve coupling.
+    _update(agents, 'self_preservation', _desired(agents, world, 'surface_water', 'self_preservation', 'reserve'))
