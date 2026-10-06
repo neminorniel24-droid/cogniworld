@@ -555,3 +555,8 @@ def test_logic_411():
 def test_logic_412():
  from agent_rules.rules import logic_412
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.generosity.clone();a.health.fill_(1);logic_412(a,w);assert torch.any(a.generosity!=b)
+
+
+def test_logic_413():
+ from agent_rules.rules import logic_413
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.trust.clone();a.health.fill_(1);logic_413(a,w);assert torch.any(a.trust!=b)
