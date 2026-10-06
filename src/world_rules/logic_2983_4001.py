@@ -54,3 +54,7 @@ def logic_2992(world):
 def logic_2993(world):
     # temperature raises evaporation.
     _apply(world, 'temperature', 'evaporation', 1.0)
+
+def logic_2994(world):
+    # humidity suppresses evaporation.
+    _apply(world, 'humidity', 'evaporation', -1.0)
