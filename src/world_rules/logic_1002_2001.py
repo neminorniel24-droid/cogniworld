@@ -976,3 +976,7 @@ def logic_1234(world):
 def logic_1235(world):
     # warmth increases evaporation; stronger under habitat stress.
     _feedback(world, 'temperature', 'evaporation', 1, 'stress_gate')
+
+def logic_1236(world):
+    # warmth increases evaporation; modulated by temperature.
+    _feedback(world, 'temperature', 'evaporation', 1, 'seasonal_gate')
