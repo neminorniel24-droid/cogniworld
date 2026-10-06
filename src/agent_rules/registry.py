@@ -187,3 +187,5 @@ from .rules import logic_395
 RULES.append(logic_395)
 from .rules import logic_396
 RULES.append(logic_396)
+from .rules import logic_397
+RULES.append(logic_397)

@@ -192,3 +192,5 @@ def logic_395(agents,world):
  v=_local(world,agents,'seed_bank');agents.exploration_drive=_delta(agents.exploration_drive,v*0.001)
 def logic_396(agents,world):
  v=_local(world,agents,'soil_carbon');agents.thermal_stress=_delta(agents.thermal_stress,v*0.001)
+def logic_397(agents,world):
+ v=_local(world,agents,'soil_carbon');agents.health=_delta(agents.health,v*0.001)
