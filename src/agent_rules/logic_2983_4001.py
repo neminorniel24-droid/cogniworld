@@ -2506,3 +2506,7 @@ def logic_3618(agents, world):
 def logic_3619(agents, world):
     # surface_water -> competition_score; inverse coupling.
     _update(agents, 'competition_score', _desired(agents, world, 'surface_water', 'competition_score', 'inverse'))
+
+def logic_3620(agents, world):
+    # surface_water -> competition_score; threshold coupling.
+    _update(agents, 'competition_score', _desired(agents, world, 'surface_water', 'competition_score', 'threshold'))
