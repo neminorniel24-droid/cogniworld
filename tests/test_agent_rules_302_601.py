@@ -365,3 +365,8 @@ def test_logic_373():
 def test_logic_374():
  from agent_rules.rules import logic_374
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.migration_drive.clone();setattr(w,'fire_risk',torch.ones(4,4));logic_374(a,w);assert torch.any(a.migration_drive!=b)
+
+
+def test_logic_375():
+ from agent_rules.rules import logic_375
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.hunger.clone();setattr(w,'ash',torch.ones(4,4));logic_375(a,w);assert torch.any(a.hunger!=b)
