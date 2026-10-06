@@ -470,3 +470,8 @@ def test_logic_394():
 def test_logic_395():
  from agent_rules.rules import logic_395
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.exploration_drive.clone();setattr(w,'seed_bank',torch.ones(4,4));logic_395(a,w);assert torch.any(a.exploration_drive!=b)
+
+
+def test_logic_396():
+ from agent_rules.rules import logic_396
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.thermal_stress.clone();setattr(w,'soil_carbon',torch.ones(4,4));logic_396(a,w);assert torch.any(a.thermal_stress!=b)
