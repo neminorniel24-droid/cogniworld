@@ -3732,3 +3732,7 @@ def logic_1923(world):
 def logic_1924(world):
     # methane increases warming pressure; activates above a food threshold.
     _feedback(world, 'methane', 'temperature', 1, 'threshold')
+
+def logic_1925(world):
+    # methane increases warming pressure; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'methane', 'temperature', 1, 'recovery')
