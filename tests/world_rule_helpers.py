@@ -19,4 +19,5 @@ def make_world(size=3):
     w.flowers=z(0.0)
     w.seed_bank=z(0.0)
     w.soil_carbon=z(0.0)
+    w.surface_ice=z(0.0)
     return w

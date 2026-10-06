@@ -499,3 +499,5 @@ from .logic_250_soil_carbon_buffers_heat import apply as logic_250
 RULES.append(logic_250)
 from .logic_251_soil_carbon_reduces_habitat_stress import apply as logic_251
 RULES.append(logic_251)
+from .logic_252_surface_ice_accumulates_below_freezing import apply as logic_252
+RULES.append(logic_252)

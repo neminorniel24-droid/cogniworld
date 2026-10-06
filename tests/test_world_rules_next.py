@@ -1114,3 +1114,8 @@ def test_logic_251():
     from world_rules.logic_251_soil_carbon_reduces_habitat_stress import apply
     w = make_world()
     w.habitat_stress.fill_(1.0); w.soil_carbon.fill_(1.0); apply(w); assert torch.allclose(w.habitat_stress, torch.full_like(w.habitat_stress, 0.998))
+
+def test_logic_252():
+    from world_rules.logic_252_surface_ice_accumulates_below_freezing import apply
+    w = make_world()
+    w.surface_ice.zero_(); w.temperature.zero_(); apply(w); assert torch.allclose(w.surface_ice, torch.full_like(w.surface_ice, 0.02))
