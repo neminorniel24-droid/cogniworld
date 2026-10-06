@@ -939,3 +939,8 @@ def test_logic_216():
     from world_rules.logic_216_dryness_concentrates_salinity import apply
     w = make_world()
     w.salinity.zero_(); w.evaporation.fill_(1.0); apply(w); assert torch.allclose(w.salinity, torch.full_like(w.salinity, 0.01))
+
+def test_logic_217():
+    from world_rules.logic_217_rain_flushes_salinity import apply
+    w = make_world()
+    w.salinity.fill_(1.0); w.rain.fill_(1.0); apply(w); assert torch.allclose(w.salinity, torch.full_like(w.salinity, 0.98))

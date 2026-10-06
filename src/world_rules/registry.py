@@ -429,3 +429,5 @@ from .logic_215_sediment_feeds_lowland_nutrients import apply as logic_215
 RULES.append(logic_215)
 from .logic_216_dryness_concentrates_salinity import apply as logic_216
 RULES.append(logic_216)
+from .logic_217_rain_flushes_salinity import apply as logic_217
+RULES.append(logic_217)
