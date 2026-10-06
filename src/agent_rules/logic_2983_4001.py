@@ -606,3 +606,7 @@ def logic_3143(agents, world):
 def logic_3144(agents, world):
     # surface_water -> recovery; threshold coupling.
     _update(agents, 'recovery', _desired(agents, world, 'surface_water', 'recovery', 'threshold'))
+
+def logic_3145(agents, world):
+    # surface_water -> recovery; strong coupling.
+    _update(agents, 'recovery', _desired(agents, world, 'surface_water', 'recovery', 'strong'))
