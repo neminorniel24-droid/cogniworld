@@ -1494,3 +1494,7 @@ def logic_3365(agents, world):
 def logic_3366(agents, world):
     # surface_water -> competition_pressure; direct coupling.
     _update(agents, 'competition_pressure', _desired(agents, world, 'surface_water', 'competition_pressure', 'direct'))
+
+def logic_3367(agents, world):
+    # surface_water -> competition_pressure; inverse coupling.
+    _update(agents, 'competition_pressure', _desired(agents, world, 'surface_water', 'competition_pressure', 'inverse'))
