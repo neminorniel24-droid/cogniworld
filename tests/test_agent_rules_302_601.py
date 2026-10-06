@@ -200,3 +200,8 @@ def test_logic_340():
 def test_logic_341():
  from agent_rules.rules import logic_341
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.pathogen_risk.clone();setattr(w,'carrion',torch.ones(4,4));logic_341(a,w);assert torch.any(a.pathogen_risk!=b)
+
+
+def test_logic_342():
+ from agent_rules.rules import logic_342
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.hunger.clone();setattr(w,'nutrients',torch.ones(4,4));logic_342(a,w);assert torch.any(a.hunger!=b)
