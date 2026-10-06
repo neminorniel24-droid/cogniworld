@@ -1131,3 +1131,6 @@ def test_logic_994():
 def test_logic_995():
     from agent_rules.rules import logic_995
     _check(logic_995, 'future_payoff_weight', 'help_score', 1)
+def test_logic_996():
+    from agent_rules.rules import logic_996
+    _check(logic_996, 'self_preservation', 'sharing_score', 1)
