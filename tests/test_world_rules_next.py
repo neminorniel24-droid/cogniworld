@@ -1019,3 +1019,8 @@ def test_logic_232():
     from world_rules.logic_232_organic_matter_buffers_drought_stress import apply
     w = make_world()
     w.habitat_stress.fill_(1.0); w.organic_matter.fill_(1.0); apply(w); assert torch.allclose(w.habitat_stress, torch.full_like(w.habitat_stress, 0.997))
+
+def test_logic_233():
+    from world_rules.logic_233_biomass_loss_creates_deadwood import apply
+    w = make_world()
+    w.deadwood.zero_(); w.biomass.fill_(1.0); w.vegetation.zero_(); apply(w); assert torch.allclose(w.deadwood, torch.full_like(w.deadwood, 0.02))

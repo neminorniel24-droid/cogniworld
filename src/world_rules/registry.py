@@ -461,3 +461,5 @@ from .logic_231_organic_matter_feeds_vegetation import apply as logic_231
 RULES.append(logic_231)
 from .logic_232_organic_matter_buffers_drought_stress import apply as logic_232
 RULES.append(logic_232)
+from .logic_233_biomass_loss_creates_deadwood import apply as logic_233
+RULES.append(logic_233)
