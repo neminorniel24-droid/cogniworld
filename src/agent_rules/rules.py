@@ -146,3 +146,5 @@ def logic_372(agents,world):
  v=_local(world,agents,'fire_risk');agents.health=_delta(agents.health,v*0.001)
 def logic_373(agents,world):
  v=_local(world,agents,'fire_risk');agents.fear=_delta(agents.fear,v*0.001)
+def logic_374(agents,world):
+ v=_local(world,agents,'fire_risk');agents.migration_drive=_delta(agents.migration_drive,v*0.001)
