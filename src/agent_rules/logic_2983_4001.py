@@ -3450,3 +3450,7 @@ def logic_3854(agents, world):
 def logic_3855(agents, world):
     # surface_water -> memory_update; persistence coupling.
     _update(agents, 'memory_update', _desired(agents, world, 'surface_water', 'memory_update', 'persistence'))
+
+def logic_3856(agents, world):
+    # surface_water -> future_payoff_weight; direct coupling.
+    _update(agents, 'future_payoff_weight', _desired(agents, world, 'surface_water', 'future_payoff_weight', 'direct'))
