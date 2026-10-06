@@ -2878,3 +2878,7 @@ def logic_3711(agents, world):
 def logic_3712(agents, world):
     # surface_water -> foraging_score; scarcity coupling.
     _update(agents, 'foraging_score', _desired(agents, world, 'surface_water', 'foraging_score', 'scarcity'))
+
+def logic_3713(agents, world):
+    # surface_water -> foraging_score; stress coupling.
+    _update(agents, 'foraging_score', _desired(agents, world, 'surface_water', 'foraging_score', 'stress'))
