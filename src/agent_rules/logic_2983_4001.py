@@ -2682,3 +2682,7 @@ def logic_3662(agents, world):
 def logic_3663(agents, world):
     # surface_water -> risk_score; strong coupling.
     _update(agents, 'risk_score', _desired(agents, world, 'surface_water', 'risk_score', 'strong'))
+
+def logic_3664(agents, world):
+    # surface_water -> risk_score; limited coupling.
+    _update(agents, 'risk_score', _desired(agents, world, 'surface_water', 'risk_score', 'limited'))
