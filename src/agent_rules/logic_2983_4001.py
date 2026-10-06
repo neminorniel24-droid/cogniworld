@@ -3598,3 +3598,7 @@ def logic_3891(agents, world):
 def logic_3892(agents, world):
     # surface_water -> payoff; capacity coupling.
     _update(agents, 'payoff', _desired(agents, world, 'surface_water', 'payoff', 'capacity'))
+
+def logic_3893(agents, world):
+    # surface_water -> payoff; reserve coupling.
+    _update(agents, 'payoff', _desired(agents, world, 'surface_water', 'payoff', 'reserve'))
