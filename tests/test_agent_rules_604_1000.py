@@ -894,3 +894,6 @@ def test_logic_915():
 def test_logic_916():
     from agent_rules.rules import logic_916
     _check(logic_916, 'defection', 'foraging_score', 1)
+def test_logic_917():
+    from agent_rules.rules import logic_917
+    _check(logic_917, 'group_stability', 'sharing_score', 1)
