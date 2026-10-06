@@ -74,3 +74,5 @@ def logic_336(agents,world):
  v=_local(world,agents,'predator');agents.alertness=_delta(agents.alertness,v*0.001)
 def logic_337(agents,world):
  v=_local(world,agents,'predator');agents.fear=_delta(agents.fear,v*0.001)
+def logic_338(agents,world):
+ v=_local(world,agents,'predator');agents.migration_drive=_delta(agents.migration_drive,v*0.001)
