@@ -264,3 +264,7 @@ def logic_1056(world):
 def logic_1057(world):
     # snowmelt supplies surface water; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'snowpack', 'surface_water', 1, 'recovery')
+
+def logic_1058(world):
+    # snowpack supports groundwater recharge; direct.
+    _feedback(world, 'snowpack', 'groundwater', 1, 'baseline')
