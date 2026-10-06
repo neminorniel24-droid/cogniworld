@@ -92,3 +92,7 @@ def logic_1013(world):
 def logic_1014(world):
     # rainfall raises surface water; activates above a food threshold.
     _feedback(world, 'rain', 'surface_water', 1, 'threshold')
+
+def logic_1015(world):
+    # rainfall raises surface water; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'rain', 'surface_water', 1, 'recovery')
