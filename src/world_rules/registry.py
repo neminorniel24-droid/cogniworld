@@ -519,3 +519,5 @@ from .logic_260_algae_increases_surface_humidity import apply as logic_260
 RULES.append(logic_260)
 from .logic_261_wetland_moisture_supports_algae import apply as logic_261
 RULES.append(logic_261)
+from .logic_262_biodiversity_supports_pollinators import apply as logic_262
+RULES.append(logic_262)

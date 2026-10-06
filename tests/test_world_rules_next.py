@@ -1164,3 +1164,8 @@ def test_logic_261():
     from world_rules.logic_261_wetland_moisture_supports_algae import apply
     w = make_world()
     w.algae.zero_(); w.wetland.fill_(1.0); w.soil_moisture.fill_(1.0); apply(w); assert torch.allclose(w.algae, torch.full_like(w.algae, 0.008))
+
+def test_logic_262():
+    from world_rules.logic_262_biodiversity_supports_pollinators import apply
+    w = make_world()
+    w.pollinators.zero_(); w.biodiversity.fill_(1.0); apply(w); assert torch.allclose(w.pollinators, torch.full_like(w.pollinators, 0.004))
