@@ -2654,3 +2654,7 @@ def logic_3655(agents, world):
 def logic_3656(agents, world):
     # surface_water -> reciprocity_score; scarcity coupling.
     _update(agents, 'reciprocity_score', _desired(agents, world, 'surface_water', 'reciprocity_score', 'scarcity'))
+
+def logic_3657(agents, world):
+    # surface_water -> reciprocity_score; stress coupling.
+    _update(agents, 'reciprocity_score', _desired(agents, world, 'surface_water', 'reciprocity_score', 'stress'))
