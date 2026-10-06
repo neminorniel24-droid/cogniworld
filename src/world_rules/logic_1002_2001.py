@@ -2044,3 +2044,7 @@ def logic_1501(world):
 def logic_1502(world):
     # nutrients support vegetation; modulated by temperature.
     _feedback(world, 'nutrients', 'vegetation', 1, 'seasonal_gate')
+
+def logic_1503(world):
+    # nutrients support vegetation; saturates at high source levels.
+    _feedback(world, 'nutrients', 'vegetation', 1, 'saturation')
