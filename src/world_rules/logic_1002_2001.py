@@ -372,3 +372,7 @@ def logic_1083(world):
 def logic_1084(world):
     # open water raises local humidity; activates above a food threshold.
     _feedback(world, 'surface_water', 'humidity', 1, 'threshold')
+
+def logic_1085(world):
+    # open water raises local humidity; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'surface_water', 'humidity', 1, 'recovery')
