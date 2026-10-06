@@ -1314,3 +1314,8 @@ def test_logic_291():
     from world_rules.logic_291_erosion_releases_soil_carbon import apply
     w = make_world()
     w.soil_carbon.fill_(1.0); w.erosion.fill_(1.0); apply(w); assert torch.allclose(w.soil_carbon, torch.full_like(w.soil_carbon, 0.998))
+
+def test_logic_292():
+    from world_rules.logic_292_soil_carbon_reduces_erosion import apply
+    w = make_world()
+    w.erosion.fill_(1.0); w.soil_carbon.fill_(1.0); apply(w); assert torch.allclose(w.erosion, torch.full_like(w.erosion, 0.999))

@@ -579,3 +579,5 @@ from .logic_290_soil_depth_stores_more_groundwater import apply as logic_290
 RULES.append(logic_290)
 from .logic_291_erosion_releases_soil_carbon import apply as logic_291
 RULES.append(logic_291)
+from .logic_292_soil_carbon_reduces_erosion import apply as logic_292
+RULES.append(logic_292)
