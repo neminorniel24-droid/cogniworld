@@ -3452,3 +3452,7 @@ def logic_1853(world):
 def logic_1854(world):
     # habitat stress erodes diversity; activates above a food threshold.
     _feedback(world, 'habitat_stress', 'biodiversity', -1, 'threshold')
+
+def logic_1855(world):
+    # habitat stress erodes diversity; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'habitat_stress', 'biodiversity', -1, 'recovery')
