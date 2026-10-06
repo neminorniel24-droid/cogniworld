@@ -2876,3 +2876,7 @@ def logic_1709(world):
 def logic_1710(world):
     # herbivory consumes vegetation; stronger when biomass is high.
     _feedback(world, 'herbivore', 'vegetation', -1, 'biomass_gate')
+
+def logic_1711(world):
+    # herbivory consumes vegetation; stronger under habitat stress.
+    _feedback(world, 'herbivore', 'vegetation', -1, 'stress_gate')
