@@ -2544,3 +2544,7 @@ def logic_1626(world):
 def logic_1627(world):
     # ash alters soil carbon inputs; stronger under habitat stress.
     _feedback(world, 'ash', 'soil_carbon', 1, 'stress_gate')
+
+def logic_1628(world):
+    # ash alters soil carbon inputs; modulated by temperature.
+    _feedback(world, 'ash', 'soil_carbon', 1, 'seasonal_gate')
