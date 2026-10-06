@@ -3189,3 +3189,7 @@ def logic_2795(world):
 def logic_2796(world):
     # salinity changes water suitability; threshold coupling.
     _couple(world,'salinity','surface_water',1.0,'threshold')
+
+def logic_2797(world):
+    # salinity changes water suitability; pulse coupling.
+    _couple(world,'salinity','surface_water',1.0,'pulse')
