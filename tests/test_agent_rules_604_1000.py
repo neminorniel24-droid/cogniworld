@@ -96,3 +96,6 @@ def test_logic_649():
 def test_logic_650():
     from agent_rules.rules import logic_650
     _check(logic_650, 'alertness', 'learning_rate', 1)
+def test_logic_651():
+    from agent_rules.rules import logic_651
+    _check(logic_651, 'fear', 'resource_discovery', 1)

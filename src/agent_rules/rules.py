@@ -662,3 +662,5 @@ def logic_649(agents,world):
     agents.self_preservation=_delta(agents.self_preservation,+0.002*agents.infection_risk)
 def logic_650(agents,world):
     agents.learning_rate=_delta(agents.learning_rate,+0.002*agents.alertness)
+def logic_651(agents,world):
+    agents.resource_discovery=_delta(agents.resource_discovery,+0.002*agents.fear)
