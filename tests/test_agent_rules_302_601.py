@@ -95,3 +95,8 @@ def test_logic_319():
 def test_logic_320():
  from agent_rules.rules import logic_320
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.reproduction_drive.clone();setattr(w,'temperature',torch.ones(4,4));logic_320(a,w);assert torch.any(a.reproduction_drive!=b)
+
+
+def test_logic_321():
+ from agent_rules.rules import logic_321
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.dehydration.clone();setattr(w,'humidity',torch.ones(4,4));logic_321(a,w);assert torch.any(a.dehydration!=b)
