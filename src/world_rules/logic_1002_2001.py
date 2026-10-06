@@ -312,3 +312,7 @@ def logic_1068(world):
 def logic_1069(world):
     # snowpack supports groundwater recharge; saturates at high source levels.
     _feedback(world, 'snowpack', 'groundwater', 1, 'saturation')
+
+def logic_1070(world):
+    # snowpack supports groundwater recharge; activates above a food threshold.
+    _feedback(world, 'snowpack', 'groundwater', 1, 'threshold')
