@@ -219,3 +219,5 @@ from .logic_110_dry_air_increases_evaporation import apply as logic_110
 RULES.append(logic_110)
 from .logic_111_ice_suppresses_evaporation import apply as logic_111
 RULES.append(logic_111)
+from .logic_112_surface_water_recharges_soil import apply as logic_112
+RULES.append(logic_112)

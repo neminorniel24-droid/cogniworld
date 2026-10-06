@@ -89,3 +89,11 @@ def test_logic_111():
     before=w.evaporation.clone()
     apply(w)
     assert torch.all(w.evaporation < before)
+
+def test_logic_112():
+    from world_rules.logic_112_surface_water_recharges_soil import apply
+    w = make_world()
+    w.surface_water.fill_(1.0)
+    w.soil_moisture.zero_()
+    apply(w)
+    assert torch.allclose(w.soil_moisture, torch.full_like(w.soil_moisture, 0.01))
