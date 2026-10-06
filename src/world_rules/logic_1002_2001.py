@@ -3676,3 +3676,7 @@ def logic_1909(world):
 def logic_1910(world):
     # oxygenated habitat limits pathogen persistence; activates above a food threshold.
     _feedback(world, 'oxygen', 'pathogen_load', -1, 'threshold')
+
+def logic_1911(world):
+    # oxygenated habitat limits pathogen persistence; relaxes toward a biodiversity-linked equilibrium.
+    _feedback(world, 'oxygen', 'pathogen_load', -1, 'recovery')
