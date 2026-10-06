@@ -81,3 +81,7 @@ def logic_2018(world):
 def logic_2019(world):
     # rainfall wets soil; counterpressure coupling.
     _couple(world,'rain','soil_moisture',0.8,'negative')
+
+def logic_2020(world):
+    # rainfall wets soil; capacity coupling.
+    _couple(world,'rain','soil_moisture',0.5,'positive')
