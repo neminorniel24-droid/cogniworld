@@ -1464,3 +1464,7 @@ def logic_1356(world):
 def logic_1357(world):
     # sediment export reduces soil depth; stronger under fire pressure.
     _feedback(world, 'sediment', 'soil_depth', -1, 'fire_gate')
+
+def logic_1358(world):
+    # sediment export reduces soil depth; stronger when surface water is high.
+    _feedback(world, 'sediment', 'soil_depth', -1, 'water_gate')
