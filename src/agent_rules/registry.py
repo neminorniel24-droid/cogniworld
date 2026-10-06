@@ -363,3 +363,5 @@ from .rules import logic_483
 RULES.append(logic_483)
 from .rules import logic_484
 RULES.append(logic_484)
+from .rules import logic_485
+RULES.append(logic_485)
