@@ -600,3 +600,7 @@ def logic_1140(world):
 def logic_1141(world):
     # groundwater supports wetlands; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'groundwater', 'wetland', 1, 'recovery')
+
+def logic_1142(world):
+    # soil moisture supports vegetation; direct.
+    _feedback(world, 'soil_moisture', 'vegetation', 1, 'baseline')
