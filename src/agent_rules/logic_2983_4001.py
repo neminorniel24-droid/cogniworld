@@ -726,3 +726,7 @@ def logic_3173(agents, world):
 def logic_3174(agents, world):
     # surface_water -> reproduction_drive; limited coupling.
     _update(agents, 'reproduction_drive', _desired(agents, world, 'surface_water', 'reproduction_drive', 'limited'))
+
+def logic_3175(agents, world):
+    # surface_water -> reproduction_drive; pulse coupling.
+    _update(agents, 'reproduction_drive', _desired(agents, world, 'surface_water', 'reproduction_drive', 'pulse'))
