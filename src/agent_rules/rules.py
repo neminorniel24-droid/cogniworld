@@ -212,3 +212,5 @@ def logic_405(agents,world):
  v=torch.clamp(agents.energy_surplus,0,2);agents.trust=_delta(agents.trust,v*0.001)
 def logic_406(agents,world):
  v=torch.clamp(agents.energy_surplus,0,2);agents.reputation=_delta(agents.reputation,v*0.001)
+def logic_407(agents,world):
+ v=torch.clamp(agents.hunger,0,2);agents.cooperation=_delta(agents.cooperation,v*0.001)
