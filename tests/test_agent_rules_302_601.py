@@ -410,3 +410,8 @@ def test_logic_382():
 def test_logic_383():
  from agent_rules.rules import logic_383
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.wealth.clone();setattr(w,'organic_matter',torch.ones(4,4));logic_383(a,w);assert torch.any(a.wealth!=b)
+
+
+def test_logic_384():
+ from agent_rules.rules import logic_384
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.wealth.clone();setattr(w,'deadwood',torch.ones(4,4));logic_384(a,w);assert torch.any(a.wealth!=b)
