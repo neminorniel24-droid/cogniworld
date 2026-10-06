@@ -1349,3 +1349,7 @@ def logic_2335(world):
 def logic_2336(world):
     # soil depth supports roots; threshold coupling.
     _couple(world,'soil_depth','root_density',1.0,'threshold')
+
+def logic_2337(world):
+    # soil depth supports roots; pulse coupling.
+    _couple(world,'soil_depth','root_density',1.0,'pulse')
