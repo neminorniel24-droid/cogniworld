@@ -1430,3 +1430,8 @@ def test_logic_586():
 def test_logic_587():
  from agent_rules.rules import logic_587
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.aggression.clone();a.last_reward.fill_(1);logic_587(a,w);assert torch.any(a.aggression!=b)
+
+
+def test_logic_588():
+ from agent_rules.rules import logic_588
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.conflict_pressure.clone();a.last_reward.fill_(1);logic_588(a,w);assert torch.any(a.conflict_pressure!=b)
