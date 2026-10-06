@@ -1729,3 +1729,7 @@ def logic_2430(world):
 def logic_2431(world):
     # cloud formation supports rainfall; reserve coupling.
     _couple(world,'cloud','rain',0.9,'positive')
+
+def logic_2432(world):
+    # rainfall generates runoff; direct coupling.
+    _couple(world,'rain','runoff',1.0,'positive')
