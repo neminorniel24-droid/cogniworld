@@ -1304,3 +1304,8 @@ def test_logic_289():
     from world_rules.logic_289_root_density_reduces_sediment_export import apply
     w = make_world()
     w.sediment.fill_(1.0); w.root_density.fill_(1.0); apply(w); assert torch.allclose(w.sediment, torch.full_like(w.sediment, 0.997))
+
+def test_logic_290():
+    from world_rules.logic_290_soil_depth_stores_more_groundwater import apply
+    w = make_world()
+    w.groundwater.zero_(); w.soil_depth.fill_(1.0); apply(w); assert torch.allclose(w.groundwater, torch.full_like(w.groundwater, 0.002))
