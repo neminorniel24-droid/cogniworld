@@ -2932,3 +2932,7 @@ def logic_1723(world):
 def logic_1724(world):
     # vegetation supports herbivores; stronger when biomass is high.
     _feedback(world, 'vegetation', 'herbivore', 1, 'biomass_gate')
+
+def logic_1725(world):
+    # vegetation supports herbivores; stronger under habitat stress.
+    _feedback(world, 'vegetation', 'herbivore', 1, 'stress_gate')
