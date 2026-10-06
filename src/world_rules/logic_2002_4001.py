@@ -653,3 +653,7 @@ def logic_2161(world):
 def logic_2162(world):
     # heat reduces snowpack; direct coupling.
     _couple(world,'temperature','snowpack',1.0,'positive')
+
+def logic_2163(world):
+    # heat reduces snowpack; inverse coupling.
+    _couple(world,'temperature','snowpack',1.0,'negative')
