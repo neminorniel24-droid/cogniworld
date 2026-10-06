@@ -404,3 +404,7 @@ def logic_1091(world):
 def logic_1092(world):
     # persistent surface water expands wetlands; stronger when surface water is high.
     _feedback(world, 'surface_water', 'wetland', 1, 'water_gate')
+
+def logic_1093(world):
+    # persistent surface water expands wetlands; stronger when vegetation is scarce.
+    _feedback(world, 'surface_water', 'wetland', 1, 'scarcity_gate')
