@@ -45,3 +45,7 @@ def logic_2009(world):
 def logic_2010(world):
     # rainfall replenishes accessible water; capacity coupling.
     _couple(world,'rain','surface_water',0.5,'positive')
+
+def logic_2011(world):
+    # rainfall replenishes accessible water; reserve coupling.
+    _couple(world,'rain','surface_water',0.9,'positive')
