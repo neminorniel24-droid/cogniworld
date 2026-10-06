@@ -656,3 +656,7 @@ def logic_1154(world):
 def logic_1155(world):
     # soil moisture supports vegetation; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'soil_moisture', 'vegetation', 1, 'recovery')
+
+def logic_1156(world):
+    # soil moisture supports flowering; direct.
+    _feedback(world, 'soil_moisture', 'flowers', 1, 'baseline')
