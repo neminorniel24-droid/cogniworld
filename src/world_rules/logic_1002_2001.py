@@ -3020,3 +3020,7 @@ def logic_1745(world):
 def logic_1746(world):
     # predation reduces herbivores; stronger when soil is wet.
     _feedback(world, 'predator', 'herbivore', -1, 'wet_gate')
+
+def logic_1747(world):
+    # predation reduces herbivores; stronger when temperature is high.
+    _feedback(world, 'predator', 'herbivore', -1, 'heat_gate')
