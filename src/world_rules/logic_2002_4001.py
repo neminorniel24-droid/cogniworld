@@ -3745,3 +3745,7 @@ def logic_2934(world):
 def logic_2935(world):
     # CO2 uptake increases carbon storage; strong coupling.
     _couple(world,'co2','carbon_storage',1.35,'positive')
+
+def logic_2936(world):
+    # CO2 uptake increases carbon storage; threshold coupling.
+    _couple(world,'co2','carbon_storage',1.0,'threshold')
