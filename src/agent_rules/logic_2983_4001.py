@@ -3070,3 +3070,7 @@ def logic_3759(agents, world):
 def logic_3760(agents, world):
     # surface_water -> migration_score; threshold coupling.
     _update(agents, 'migration_score', _desired(agents, world, 'surface_water', 'migration_score', 'threshold'))
+
+def logic_3761(agents, world):
+    # surface_water -> migration_score; strong coupling.
+    _update(agents, 'migration_score', _desired(agents, world, 'surface_water', 'migration_score', 'strong'))
