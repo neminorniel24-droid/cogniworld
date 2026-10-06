@@ -804,3 +804,13 @@ def test_logic_194():
     w.humidity.zero_()
     apply(w)
     assert torch.allclose(w.humidity, torch.full_like(w.humidity, 0.003))
+
+def test_logic_195():
+    from world_rules.logic_195_clouds_and_rain_cool_surface import apply
+    w = make_world()
+    w.cloud.fill_(1.0)
+    w.rain.fill_(1.0)
+    w.temperature_target.fill_(0.5)
+    before=w.temperature_target.clone()
+    apply(w)
+    assert torch.all(w.temperature_target < before)
