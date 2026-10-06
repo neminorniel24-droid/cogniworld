@@ -1593,3 +1593,7 @@ def logic_2396(world):
 def logic_2397(world):
     # oxygen availability shapes decomposition; pulse coupling.
     _couple(world,'oxygen','decomposition_rate',1.0,'pulse')
+
+def logic_2398(world):
+    # oxygen availability shapes decomposition; feedback coupling.
+    _couple(world,'oxygen','decomposition_rate',0.8,'positive')
