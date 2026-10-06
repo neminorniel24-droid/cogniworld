@@ -2006,3 +2006,7 @@ def logic_3493(agents, world):
 def logic_3494(agents, world):
     # surface_water -> caution; threshold coupling.
     _update(agents, 'caution', _desired(agents, world, 'surface_water', 'caution', 'threshold'))
+
+def logic_3495(agents, world):
+    # surface_water -> caution; strong coupling.
+    _update(agents, 'caution', _desired(agents, world, 'surface_water', 'caution', 'strong'))
