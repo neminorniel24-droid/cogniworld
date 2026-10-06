@@ -1478,3 +1478,7 @@ def logic_3361(agents, world):
 def logic_3362(agents, world):
     # surface_water -> conflict_pressure; scarcity coupling.
     _update(agents, 'conflict_pressure', _desired(agents, world, 'surface_water', 'conflict_pressure', 'scarcity'))
+
+def logic_3363(agents, world):
+    # surface_water -> conflict_pressure; stress coupling.
+    _update(agents, 'conflict_pressure', _desired(agents, world, 'surface_water', 'conflict_pressure', 'stress'))
