@@ -74,3 +74,7 @@ def logic_2997(world):
 def logic_2998(world):
     # sediment modifies soil depth.
     _apply(world, 'sediment', 'soil_depth', 1.0)
+
+def logic_2999(world):
+    # fire produces ash.
+    _apply(world, 'fire_risk', 'ash', 1.0)
