@@ -277,3 +277,7 @@ def logic_2067(world):
 def logic_2068(world):
     # soil carbon retains nutrients; feedback coupling.
     _couple(world,'soil_carbon','nutrients',0.8,'positive')
+
+def logic_2069(world):
+    # soil carbon retains nutrients; counterpressure coupling.
+    _couple(world,'soil_carbon','nutrients',0.8,'negative')
