@@ -1339,3 +1339,8 @@ def test_logic_296():
     from world_rules.logic_296_surface_ice_preserves_surface_water import apply
     w = make_world()
     w.surface_water.zero_(); w.surface_ice.fill_(1.0); apply(w); assert torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.002))
+
+def test_logic_297():
+    from world_rules.logic_297_deadwood_supports_organic_matter import apply
+    w = make_world()
+    w.organic_matter.zero_(); w.deadwood.fill_(1.0); apply(w); assert torch.allclose(w.organic_matter, torch.full_like(w.organic_matter, 0.004))
