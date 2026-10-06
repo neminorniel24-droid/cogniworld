@@ -1609,3 +1609,7 @@ def logic_2400(world):
 def logic_2401(world):
     # oxygen availability shapes decomposition; reserve coupling.
     _couple(world,'oxygen','decomposition_rate',0.9,'positive')
+
+def logic_2402(world):
+    # CO2 supports photosynthesis; direct coupling.
+    _couple(world,'co2','vegetation',1.0,'positive')
