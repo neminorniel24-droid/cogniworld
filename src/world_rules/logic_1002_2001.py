@@ -2152,3 +2152,7 @@ def logic_1528(world):
 def logic_1529(world):
     # decomposition releases nutrients; stronger under habitat stress.
     _feedback(world, 'decomposition_rate', 'nutrients', 1, 'stress_gate')
+
+def logic_1530(world):
+    # decomposition releases nutrients; modulated by temperature.
+    _feedback(world, 'decomposition_rate', 'nutrients', 1, 'seasonal_gate')
