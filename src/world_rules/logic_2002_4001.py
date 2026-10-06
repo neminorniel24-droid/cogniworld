@@ -929,3 +929,7 @@ def logic_2230(world):
 def logic_2231(world):
     # decomposition releases nutrients; reserve coupling.
     _couple(world,'decomposition_rate','nutrients',0.9,'positive')
+
+def logic_2232(world):
+    # warmth accelerates decomposition; direct coupling.
+    _couple(world,'temperature','decomposition_rate',1.0,'positive')
