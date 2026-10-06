@@ -900,3 +900,8 @@ def test_logic_480():
 def test_logic_481():
  from agent_rules.rules import logic_481
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.defection_threshold.clone();a.resource_abundance.fill_(1);logic_481(a,w);assert torch.any(a.defection_threshold!=b)
+
+
+def test_logic_482():
+ from agent_rules.rules import logic_482
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.future_help.clone();a.local_density.fill_(1);logic_482(a,w);assert torch.any(a.future_help!=b)
