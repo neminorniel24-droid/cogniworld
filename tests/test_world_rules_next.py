@@ -246,3 +246,11 @@ def test_logic_129():
     before=w.vegetation.clone()
     apply(w)
     assert torch.all(w.vegetation < before)
+
+def test_logic_130():
+    from world_rules.logic_130_moderate_temperature_supports_vegetation import apply
+    w = make_world()
+    w.temperature.fill_(0.5)
+    w.vegetation.zero_()
+    apply(w)
+    assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.004))

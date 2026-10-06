@@ -255,3 +255,5 @@ from .logic_128_co2_enrichment_grows_vegetation import apply as logic_128
 RULES.append(logic_128)
 from .logic_129_temperature_extremes_suppress_vegetation import apply as logic_129
 RULES.append(logic_129)
+from .logic_130_moderate_temperature_supports_vegetation import apply as logic_130
+RULES.append(logic_130)
