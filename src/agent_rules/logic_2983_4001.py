@@ -3242,3 +3242,7 @@ def logic_3802(agents, world):
 def logic_3803(agents, world):
     # surface_water -> strategy_persistence; strong coupling.
     _update(agents, 'strategy_persistence', _desired(agents, world, 'surface_water', 'strategy_persistence', 'strong'))
+
+def logic_3804(agents, world):
+    # surface_water -> strategy_persistence; limited coupling.
+    _update(agents, 'strategy_persistence', _desired(agents, world, 'surface_water', 'strategy_persistence', 'limited'))
