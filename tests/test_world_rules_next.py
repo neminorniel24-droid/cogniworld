@@ -192,3 +192,12 @@ def test_logic_123():
     before=w.soil_moisture.clone()
     apply(w)
     assert torch.all(w.soil_moisture < before)
+
+def test_logic_124():
+    from world_rules.logic_124_humid_air_reduces_transpiration_loss import apply
+    w = make_world()
+    w.humidity.fill_(1.0)
+    w.vegetation.fill_(1.0)
+    w.soil_moisture.zero_()
+    apply(w)
+    assert torch.allclose(w.soil_moisture, torch.full_like(w.soil_moisture, 0.002))

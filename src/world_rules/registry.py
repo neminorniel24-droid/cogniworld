@@ -243,3 +243,5 @@ from .logic_122_wind_reoxygenates_surface import apply as logic_122
 RULES.append(logic_122)
 from .logic_123_vegetation_transpiration_drains_soil import apply as logic_123
 RULES.append(logic_123)
+from .logic_124_humid_air_reduces_transpiration_loss import apply as logic_124
+RULES.append(logic_124)
