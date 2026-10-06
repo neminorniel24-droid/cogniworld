@@ -1064,3 +1064,8 @@ def test_logic_241():
     from world_rules.logic_241_pollinators_increase_flowering import apply
     w = make_world()
     w.flowers.zero_(); w.pollinators.fill_(1.0); apply(w); assert torch.allclose(w.flowers, torch.full_like(w.flowers, 0.01))
+
+def test_logic_242():
+    from world_rules.logic_242_moderate_temperature_supports_flowers import apply
+    w = make_world()
+    w.flowers.zero_(); w.temperature.fill_(0.5); apply(w); assert torch.allclose(w.flowers, torch.full_like(w.flowers, 0.01))
