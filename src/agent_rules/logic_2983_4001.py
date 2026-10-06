@@ -2722,3 +2722,7 @@ def logic_3672(agents, world):
 def logic_3673(agents, world):
     # surface_water -> risk_score; persistence coupling.
     _update(agents, 'risk_score', _desired(agents, world, 'surface_water', 'risk_score', 'persistence'))
+
+def logic_3674(agents, world):
+    # surface_water -> safety_score; direct coupling.
+    _update(agents, 'safety_score', _desired(agents, world, 'surface_water', 'safety_score', 'direct'))
