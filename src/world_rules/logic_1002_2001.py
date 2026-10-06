@@ -2496,3 +2496,7 @@ def logic_1614(world):
 def logic_1615(world):
     # fire releases stored carbon; saturates at high source levels.
     _feedback(world, 'fire_risk', 'carbon_storage', -1, 'saturation')
+
+def logic_1616(world):
+    # fire releases stored carbon; activates above a food threshold.
+    _feedback(world, 'fire_risk', 'carbon_storage', -1, 'threshold')
