@@ -483,3 +483,5 @@ from .logic_242_moderate_temperature_supports_flowers import apply as logic_242
 RULES.append(logic_242)
 from .logic_243_flowers_store_seed_bank import apply as logic_243
 RULES.append(logic_243)
+from .logic_244_moisture_germinates_seed_bank import apply as logic_244
+RULES.append(logic_244)
