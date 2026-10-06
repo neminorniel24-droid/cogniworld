@@ -2050,3 +2050,7 @@ def logic_3504(agents, world):
 def logic_3505(agents, world):
     # surface_water -> caution; persistence coupling.
     _update(agents, 'caution', _desired(agents, world, 'surface_water', 'caution', 'persistence'))
+
+def logic_3506(agents, world):
+    # surface_water -> confidence; direct coupling.
+    _update(agents, 'confidence', _desired(agents, world, 'surface_water', 'confidence', 'direct'))
