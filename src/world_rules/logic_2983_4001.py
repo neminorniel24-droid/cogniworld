@@ -78,3 +78,7 @@ def logic_2998(world):
 def logic_2999(world):
     # fire produces ash.
     _apply(world, 'fire_risk', 'ash', 1.0)
+
+def logic_3000(world):
+    # ash returns nutrients.
+    _apply(world, 'ash', 'nutrients', -1.0)
