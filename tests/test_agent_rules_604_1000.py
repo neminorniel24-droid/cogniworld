@@ -1005,3 +1005,6 @@ def test_logic_952():
 def test_logic_953():
     from agent_rules.rules import logic_953
     _check(logic_953, 'attack_success', 'self_preservation', 1)
+def test_logic_954():
+    from agent_rules.rules import logic_954
+    _check(logic_954, 'migration_score', 'fitness_score', 1)

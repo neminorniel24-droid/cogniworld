@@ -1268,3 +1268,5 @@ def logic_952(agents,world):
     agents.future_payoff_weight=_delta(agents.future_payoff_weight,+0.002*agents.help_score)
 def logic_953(agents,world):
     agents.self_preservation=_delta(agents.self_preservation,+0.002*agents.attack_success)
+def logic_954(agents,world):
+    agents.fitness_score=_delta(agents.fitness_score,+0.002*agents.migration_score)
