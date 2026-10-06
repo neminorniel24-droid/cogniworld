@@ -3200,3 +3200,7 @@ def logic_1790(world):
 def logic_1791(world):
     # carrion feeds decomposers; stronger under fire pressure.
     _feedback(world, 'carrion', 'organic_matter', 1, 'fire_gate')
+
+def logic_1792(world):
+    # carrion feeds decomposers; stronger when surface water is high.
+    _feedback(world, 'carrion', 'organic_matter', 1, 'water_gate')
