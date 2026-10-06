@@ -1185,3 +1185,7 @@ def logic_2294(world):
 def logic_2295(world):
     # seed bank supports regeneration; strong coupling.
     _couple(world,'seed_bank','vegetation',1.35,'positive')
+
+def logic_2296(world):
+    # seed bank supports regeneration; threshold coupling.
+    _couple(world,'seed_bank','vegetation',1.0,'threshold')
