@@ -80,3 +80,7 @@ def logic_1010(world):
 def logic_1011(world):
     # rainfall raises surface water; stronger under habitat stress.
     _feedback(world, 'rain', 'surface_water', 1, 'stress_gate')
+
+def logic_1012(world):
+    # rainfall raises surface water; modulated by temperature.
+    _feedback(world, 'rain', 'surface_water', 1, 'seasonal_gate')
