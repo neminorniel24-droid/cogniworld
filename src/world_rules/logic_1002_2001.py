@@ -3324,3 +3324,7 @@ def logic_1821(world):
 def logic_1822(world):
     # diverse communities dilute pathogens; stronger when biomass is high.
     _feedback(world, 'biodiversity', 'pathogen_load', -1, 'biomass_gate')
+
+def logic_1823(world):
+    # diverse communities dilute pathogens; stronger under habitat stress.
+    _feedback(world, 'biodiversity', 'pathogen_load', -1, 'stress_gate')
