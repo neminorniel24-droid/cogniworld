@@ -2663,3 +2663,6 @@ RULES.append(logic_2021)
 
 from .logic_2002_4001 import logic_2022
 RULES.append(logic_2022)
+
+from .logic_2002_4001 import logic_2023
+RULES.append(logic_2023)
