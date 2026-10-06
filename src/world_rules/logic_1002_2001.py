@@ -1832,3 +1832,7 @@ def logic_1448(world):
 def logic_1449(world):
     # biomass stores carbon; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'biomass', 'carbon_storage', 1, 'recovery')
+
+def logic_1450(world):
+    # biomass contributes oxygen; direct.
+    _feedback(world, 'biomass', 'oxygen', 1, 'baseline')
