@@ -946,3 +946,7 @@ def logic_3228(agents, world):
 def logic_3229(agents, world):
     # surface_water -> wealth; strong coupling.
     _update(agents, 'wealth', _desired(agents, world, 'surface_water', 'wealth', 'strong'))
+
+def logic_3230(agents, world):
+    # surface_water -> wealth; limited coupling.
+    _update(agents, 'wealth', _desired(agents, world, 'surface_water', 'wealth', 'limited'))
