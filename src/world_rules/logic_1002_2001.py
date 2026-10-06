@@ -2552,3 +2552,7 @@ def logic_1628(world):
 def logic_1629(world):
     # ash alters soil carbon inputs; saturates at high source levels.
     _feedback(world, 'ash', 'soil_carbon', 1, 'saturation')
+
+def logic_1630(world):
+    # ash alters soil carbon inputs; activates above a food threshold.
+    _feedback(world, 'ash', 'soil_carbon', 1, 'threshold')
