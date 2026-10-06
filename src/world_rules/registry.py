@@ -477,3 +477,5 @@ from .logic_239_vegetation_supports_pollinators import apply as logic_239
 RULES.append(logic_239)
 from .logic_240_flowers_feed_pollinators import apply as logic_240
 RULES.append(logic_240)
+from .logic_241_pollinators_increase_flowering import apply as logic_241
+RULES.append(logic_241)
