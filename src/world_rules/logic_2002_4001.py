@@ -1465,3 +1465,7 @@ def logic_2364(world):
 def logic_2365(world):
     # sediment can rebuild soil depth; strong coupling.
     _couple(world,'sediment','soil_depth',1.35,'positive')
+
+def logic_2366(world):
+    # sediment can rebuild soil depth; threshold coupling.
+    _couple(world,'sediment','soil_depth',1.0,'threshold')
