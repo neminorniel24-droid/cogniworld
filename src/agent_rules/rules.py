@@ -1320,3 +1320,5 @@ def logic_978(agents,world):
     agents.learning_rate=_delta(agents.learning_rate,+0.002*agents.help_received)
 def logic_979(agents,world):
     agents.memory_update=_delta(agents.memory_update,+0.002*agents.gratitude)
+def logic_980(agents,world):
+    agents.future_payoff_weight=_delta(agents.future_payoff_weight,+0.002*agents.reputation)

@@ -1083,3 +1083,6 @@ def test_logic_978():
 def test_logic_979():
     from agent_rules.rules import logic_979
     _check(logic_979, 'gratitude', 'memory_update', 1)
+def test_logic_980():
+    from agent_rules.rules import logic_980
+    _check(logic_980, 'reputation', 'future_payoff_weight', 1)
