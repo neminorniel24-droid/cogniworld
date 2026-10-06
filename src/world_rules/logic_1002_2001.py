@@ -2392,3 +2392,7 @@ def logic_1588(world):
 def logic_1589(world):
     # fire reduces vegetation; relaxes toward a biodiversity-linked equilibrium.
     _feedback(world, 'fire_risk', 'vegetation', -1, 'recovery')
+
+def logic_1590(world):
+    # fire reduces biomass; direct.
+    _feedback(world, 'fire_risk', 'biomass', -1, 'baseline')
