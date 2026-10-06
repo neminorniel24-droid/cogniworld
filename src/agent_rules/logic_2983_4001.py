@@ -2110,3 +2110,7 @@ def logic_3519(agents, world):
 def logic_3520(agents, world):
     # surface_water -> strategy_confidence; direct coupling.
     _update(agents, 'strategy_confidence', _desired(agents, world, 'surface_water', 'strategy_confidence', 'direct'))
+
+def logic_3521(agents, world):
+    # surface_water -> strategy_confidence; inverse coupling.
+    _update(agents, 'strategy_confidence', _desired(agents, world, 'surface_water', 'strategy_confidence', 'inverse'))
