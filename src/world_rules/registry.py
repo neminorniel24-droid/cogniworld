@@ -523,3 +523,5 @@ from .logic_262_biodiversity_supports_pollinators import apply as logic_262
 RULES.append(logic_262)
 from .logic_263_pollinators_raise_biodiversity import apply as logic_263
 RULES.append(logic_263)
+from .logic_264_flowers_reduce_habitat_stress import apply as logic_264
+RULES.append(logic_264)

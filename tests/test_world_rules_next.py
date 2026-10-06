@@ -1174,3 +1174,8 @@ def test_logic_263():
     from world_rules.logic_263_pollinators_raise_biodiversity import apply
     w = make_world()
     w.biodiversity.zero_(); w.pollinators.fill_(1.0); apply(w); assert torch.allclose(w.biodiversity, torch.full_like(w.biodiversity, 0.002))
+
+def test_logic_264():
+    from world_rules.logic_264_flowers_reduce_habitat_stress import apply
+    w = make_world()
+    w.habitat_stress.fill_(1.0); w.flowers.fill_(1.0); apply(w); assert torch.allclose(w.habitat_stress, torch.full_like(w.habitat_stress, 0.999))
