@@ -105,3 +105,11 @@ def test_logic_113():
     w.surface_water.zero_()
     apply(w)
     assert torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.03))
+
+def test_logic_114():
+    from world_rules.logic_114_runoff_adds_surface_water import apply
+    w = make_world()
+    w.runoff.fill_(1.0)
+    w.surface_water.zero_()
+    apply(w)
+    assert torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.02))
