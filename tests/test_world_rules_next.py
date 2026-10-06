@@ -1119,3 +1119,8 @@ def test_logic_252():
     from world_rules.logic_252_surface_ice_accumulates_below_freezing import apply
     w = make_world()
     w.surface_ice.zero_(); w.temperature.zero_(); apply(w); assert torch.allclose(w.surface_ice, torch.full_like(w.surface_ice, 0.02))
+
+def test_logic_253():
+    from world_rules.logic_253_warmth_melts_surface_ice import apply
+    w = make_world()
+    w.surface_ice.fill_(1.0); w.temperature.fill_(1.0); apply(w); assert torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.04))
