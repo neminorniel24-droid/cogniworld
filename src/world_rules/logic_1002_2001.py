@@ -112,3 +112,7 @@ def logic_1018(world):
 def logic_1019(world):
     # rainfall wets soil; stronger when temperature is high.
     _feedback(world, 'rain', 'soil_moisture', 1, 'heat_gate')
+
+def logic_1020(world):
+    # rainfall wets soil; stronger when temperature is low.
+    _feedback(world, 'rain', 'soil_moisture', 1, 'cold_gate')
