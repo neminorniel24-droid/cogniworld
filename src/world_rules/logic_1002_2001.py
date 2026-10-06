@@ -2272,3 +2272,7 @@ def logic_1558(world):
 def logic_1559(world):
     # ash supplies mineral nutrients; saturates at high source levels.
     _feedback(world, 'ash', 'nutrients', 1, 'saturation')
+
+def logic_1560(world):
+    # ash supplies mineral nutrients; activates above a food threshold.
+    _feedback(world, 'ash', 'nutrients', 1, 'threshold')
