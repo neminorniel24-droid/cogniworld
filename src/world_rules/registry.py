@@ -261,3 +261,5 @@ from .logic_131_oxygen_supports_decomposition import apply as logic_131
 RULES.append(logic_131)
 from .logic_132_detritus_feeds_decomposition import apply as logic_132
 RULES.append(logic_132)
+from .logic_133_cold_slows_decomposition import apply as logic_133
+RULES.append(logic_133)

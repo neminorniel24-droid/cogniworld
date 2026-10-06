@@ -270,3 +270,12 @@ def test_logic_132():
     w.decomposition_rate.zero_()
     apply(w)
     assert torch.allclose(w.decomposition_rate, torch.full_like(w.decomposition_rate, 0.01))
+
+def test_logic_133():
+    from world_rules.logic_133_cold_slows_decomposition import apply
+    w = make_world()
+    w.temperature.zero_()
+    w.decomposition_rate.fill_(1.0)
+    before=w.decomposition_rate.clone()
+    apply(w)
+    assert torch.all(w.decomposition_rate < before)
