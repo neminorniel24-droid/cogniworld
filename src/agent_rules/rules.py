@@ -750,3 +750,5 @@ def logic_693(agents,world):
     agents.foraging_score=_delta(agents.foraging_score,+0.002*agents.metabolic_cost)
 def logic_694(agents,world):
     agents.migration_score=_delta(agents.migration_score,+0.002*agents.reproduction_drive)
+def logic_695(agents,world):
+    agents.reproduction_score=_delta(agents.reproduction_score,+0.002*agents.migration_drive)
