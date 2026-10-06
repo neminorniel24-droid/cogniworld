@@ -255,3 +255,6 @@ def test_logic_702():
 def test_logic_703():
     from agent_rules.rules import logic_703
     _check(logic_703, 'hydration', 'conflict_pressure', 1)
+def test_logic_704():
+    from agent_rules.rules import logic_704
+    _check(logic_704, 'thirst', 'competition_pressure', 1)
