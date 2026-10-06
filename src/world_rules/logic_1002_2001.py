@@ -1584,3 +1584,7 @@ def logic_1386(world):
 def logic_1387(world):
     # vegetation roots suppress erosion; stronger when vegetation is scarce.
     _feedback(world, 'vegetation', 'erosion', -1, 'scarcity_gate')
+
+def logic_1388(world):
+    # vegetation roots suppress erosion; stronger when biomass is high.
+    _feedback(world, 'vegetation', 'erosion', -1, 'biomass_gate')
