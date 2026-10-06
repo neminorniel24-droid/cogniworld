@@ -222,3 +222,7 @@ def logic_3047(agents, world):
 def logic_3048(agents, world):
     # surface_water -> health; limited coupling.
     _update(agents, 'health', _desired(agents, world, 'surface_water', 'health', 'limited'))
+
+def logic_3049(agents, world):
+    # surface_water -> health; pulse coupling.
+    _update(agents, 'health', _desired(agents, world, 'surface_water', 'health', 'pulse'))
