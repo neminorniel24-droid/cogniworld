@@ -766,3 +766,7 @@ def logic_3183(agents, world):
 def logic_3184(agents, world):
     # surface_water -> migration_drive; direct coupling.
     _update(agents, 'migration_drive', _desired(agents, world, 'surface_water', 'migration_drive', 'direct'))
+
+def logic_3185(agents, world):
+    # surface_water -> migration_drive; inverse coupling.
+    _update(agents, 'migration_drive', _desired(agents, world, 'surface_water', 'migration_drive', 'inverse'))
