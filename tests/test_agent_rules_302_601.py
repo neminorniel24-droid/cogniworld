@@ -50,3 +50,8 @@ def test_logic_310():
 def test_logic_311():
  from agent_rules.rules import logic_311
  a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.reproduction_drive.clone();setattr(w,'soil_moisture',torch.ones(4,4));logic_311(a,w);assert torch.any(a.reproduction_drive!=b)
+
+
+def test_logic_312():
+ from agent_rules.rules import logic_312
+ a=Agents(2,4,100,torch.device("cpu"));w=world();b=a.hydration.clone();setattr(w,'rain',torch.ones(4,4));logic_312(a,w);assert torch.any(a.hydration!=b)
