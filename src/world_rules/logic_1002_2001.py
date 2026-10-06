@@ -2476,3 +2476,7 @@ def logic_1609(world):
 def logic_1610(world):
     # fire releases stored carbon; stronger when surface water is high.
     _feedback(world, 'fire_risk', 'carbon_storage', -1, 'water_gate')
+
+def logic_1611(world):
+    # fire releases stored carbon; stronger when vegetation is scarce.
+    _feedback(world, 'fire_risk', 'carbon_storage', -1, 'scarcity_gate')
