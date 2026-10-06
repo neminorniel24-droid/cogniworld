@@ -3540,3 +3540,7 @@ def logic_1875(world):
 def logic_1876(world):
     # algae contribute oxygen; stronger when surface water is high.
     _feedback(world, 'algae', 'oxygen', 1, 'water_gate')
+
+def logic_1877(world):
+    # algae contribute oxygen; stronger when vegetation is scarce.
+    _feedback(world, 'algae', 'oxygen', 1, 'scarcity_gate')
