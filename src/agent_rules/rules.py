@@ -766,3 +766,5 @@ def logic_701(agents,world):
     agents.self_preservation=_delta(agents.self_preservation,+0.002*agents.social_tolerance)
 def logic_702(agents,world):
     agents.social_need=_delta(agents.social_need,+0.002*agents.health)
+def logic_703(agents,world):
+    agents.conflict_pressure=_delta(agents.conflict_pressure,+0.002*agents.hydration)
