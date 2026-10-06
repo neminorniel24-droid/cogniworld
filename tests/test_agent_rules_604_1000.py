@@ -282,3 +282,6 @@ def test_logic_711():
 def test_logic_712():
     from agent_rules.rules import logic_712
     _check(logic_712, 'recovery', 'exploration_score', 1)
+def test_logic_713():
+    from agent_rules.rules import logic_713
+    _check(logic_713, 'metabolic_cost', 'strategy_score', 1)
