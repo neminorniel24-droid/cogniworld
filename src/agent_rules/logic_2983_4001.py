@@ -3686,3 +3686,7 @@ def logic_3913(agents, world):
 def logic_3914(agents, world):
     # groundwater -> thirst; threshold coupling.
     _update(agents, 'thirst', _desired(agents, world, 'groundwater', 'thirst', 'threshold'))
+
+def logic_3915(agents, world):
+    # groundwater -> thirst; strong coupling.
+    _update(agents, 'thirst', _desired(agents, world, 'groundwater', 'thirst', 'strong'))
