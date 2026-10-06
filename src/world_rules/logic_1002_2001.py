@@ -2656,3 +2656,7 @@ def logic_1654(world):
 def logic_1655(world):
     # flowers support pollinators; stronger under habitat stress.
     _feedback(world, 'flowers', 'pollinators', 1, 'stress_gate')
+
+def logic_1656(world):
+    # flowers support pollinators; modulated by temperature.
+    _feedback(world, 'flowers', 'pollinators', 1, 'seasonal_gate')
