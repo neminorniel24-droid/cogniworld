@@ -248,3 +248,7 @@ def logic_1052(world):
 def logic_1053(world):
     # snowmelt supplies surface water; stronger under habitat stress.
     _feedback(world, 'snowpack', 'surface_water', 1, 'stress_gate')
+
+def logic_1054(world):
+    # snowmelt supplies surface water; modulated by temperature.
+    _feedback(world, 'snowpack', 'surface_water', 1, 'seasonal_gate')
