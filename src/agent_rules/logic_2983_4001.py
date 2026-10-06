@@ -1674,3 +1674,7 @@ def logic_3410(agents, world):
 def logic_3411(agents, world):
     # surface_water -> sharing_capacity; strong coupling.
     _update(agents, 'sharing_capacity', _desired(agents, world, 'surface_water', 'sharing_capacity', 'strong'))
+
+def logic_3412(agents, world):
+    # surface_water -> sharing_capacity; limited coupling.
+    _update(agents, 'sharing_capacity', _desired(agents, world, 'surface_water', 'sharing_capacity', 'limited'))
