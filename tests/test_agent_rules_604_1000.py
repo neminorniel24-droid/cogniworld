@@ -906,3 +906,6 @@ def test_logic_919():
 def test_logic_920():
     from agent_rules.rules import logic_920
     _check(logic_920, 'attack_success', 'migration_score', 1)
+def test_logic_921():
+    from agent_rules.rules import logic_921
+    _check(logic_921, 'defense_score', 'reproduction_score', 1)
