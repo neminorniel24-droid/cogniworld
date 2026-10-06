@@ -756,3 +756,6 @@ def test_logic_869():
 def test_logic_870():
     from agent_rules.rules import logic_870
     _check(logic_870, 'last_food', 'exploration_score', 1)
+def test_logic_871():
+    from agent_rules.rules import logic_871
+    _check(logic_871, 'last_interaction', 'foraging_score', 1)
