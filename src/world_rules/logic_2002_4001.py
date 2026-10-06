@@ -3369,3 +3369,7 @@ def logic_2840(world):
 def logic_2841(world):
     # evaporation contributes atmospheric moisture; reserve coupling.
     _couple(world,'evaporation','humidity',0.9,'positive')
+
+def logic_2842(world):
+    # runoff returns water to surface pools; direct coupling.
+    _couple(world,'runoff','surface_water',1.0,'positive')
