@@ -3612,3 +3612,7 @@ def logic_1893(world):
 def logic_1894(world):
     # algae add organic matter; modulated by temperature.
     _feedback(world, 'algae', 'organic_matter', 1, 'seasonal_gate')
+
+def logic_1895(world):
+    # algae add organic matter; saturates at high source levels.
+    _feedback(world, 'algae', 'organic_matter', 1, 'saturation')
