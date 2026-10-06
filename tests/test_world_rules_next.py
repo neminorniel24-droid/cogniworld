@@ -1014,3 +1014,8 @@ def test_logic_231():
     from world_rules.logic_231_organic_matter_feeds_vegetation import apply
     w = make_world()
     w.vegetation.zero_(); w.organic_matter.fill_(1.0); apply(w); assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.005))
+
+def test_logic_232():
+    from world_rules.logic_232_organic_matter_buffers_drought_stress import apply
+    w = make_world()
+    w.habitat_stress.fill_(1.0); w.organic_matter.fill_(1.0); apply(w); assert torch.allclose(w.habitat_stress, torch.full_like(w.habitat_stress, 0.997))
