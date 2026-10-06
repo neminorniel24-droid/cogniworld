@@ -764,3 +764,5 @@ def logic_700(agents,world):
     agents.confidence=_delta(agents.confidence,-0.002*agents.habitat_stress)
 def logic_701(agents,world):
     agents.self_preservation=_delta(agents.self_preservation,+0.002*agents.social_tolerance)
+def logic_702(agents,world):
+    agents.social_need=_delta(agents.social_need,+0.002*agents.health)

@@ -249,3 +249,6 @@ def test_logic_700():
 def test_logic_701():
     from agent_rules.rules import logic_701
     _check(logic_701, 'social_tolerance', 'self_preservation', 1)
+def test_logic_702():
+    from agent_rules.rules import logic_702
+    _check(logic_702, 'health', 'social_need', 1)
