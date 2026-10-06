@@ -768,3 +768,6 @@ def test_logic_873():
 def test_logic_874():
     from agent_rules.rules import logic_874
     _check(logic_874, 'competition_score', 'strategy_persistence', 1)
+def test_logic_875():
+    from agent_rules.rules import logic_875
+    _check(logic_875, 'defection_score', 'strategy_mixing', 1)

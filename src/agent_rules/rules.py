@@ -1110,3 +1110,5 @@ def logic_873(agents,world):
     agents.memory_update=_delta(agents.memory_update,+0.002*agents.cooperation_score)
 def logic_874(agents,world):
     agents.strategy_persistence=_delta(agents.strategy_persistence,+0.002*agents.competition_score)
+def logic_875(agents,world):
+    agents.strategy_mixing=_delta(agents.strategy_mixing,+0.002*agents.defection_score)
