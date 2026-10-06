@@ -146,3 +146,7 @@ def logic_3028(agents, world):
 def logic_3029(agents, world):
     # surface_water -> thirst; persistence coupling.
     _update(agents, 'thirst', _desired(agents, world, 'surface_water', 'thirst', 'persistence'))
+
+def logic_3030(agents, world):
+    # surface_water -> hunger; direct coupling.
+    _update(agents, 'hunger', _desired(agents, world, 'surface_water', 'hunger', 'direct'))
