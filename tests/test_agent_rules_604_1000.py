@@ -357,3 +357,6 @@ def test_logic_736():
 def test_logic_737():
     from agent_rules.rules import logic_737
     _check(logic_737, 'trust', 'help_score', 1)
+def test_logic_738():
+    from agent_rules.rules import logic_738
+    _check(logic_738, 'cooperation', 'sharing_score', 1)

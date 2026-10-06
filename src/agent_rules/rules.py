@@ -836,3 +836,5 @@ def logic_736(agents,world):
     agents.reciprocity_score=_delta(agents.reciprocity_score,+0.002*agents.reputation)
 def logic_737(agents,world):
     agents.help_score=_delta(agents.help_score,+0.002*agents.trust)
+def logic_738(agents,world):
+    agents.sharing_score=_delta(agents.sharing_score,+0.002*agents.cooperation)
