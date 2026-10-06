@@ -48,3 +48,5 @@ def logic_323(agents,world):
  v=_local(world,agents,'humidity');agents.pathogen_risk=_delta(agents.pathogen_risk,v*0.001)
 def logic_324(agents,world):
  v=_local(world,agents,'wind_x');agents.dehydration=_delta(agents.dehydration,v*0.001)
+def logic_325(agents,world):
+ v=_local(world,agents,'wind_x');agents.thermal_stress=_delta(agents.thermal_stress,v*0.001)
