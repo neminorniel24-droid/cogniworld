@@ -3292,3 +3292,7 @@ def logic_1813(world):
 def logic_1814(world):
     # diverse communities dilute pathogens; direct.
     _feedback(world, 'biodiversity', 'pathogen_load', -1, 'baseline')
+
+def logic_1815(world):
+    # diverse communities dilute pathogens; stronger when soil is dry.
+    _feedback(world, 'biodiversity', 'pathogen_load', -1, 'dry_gate')
