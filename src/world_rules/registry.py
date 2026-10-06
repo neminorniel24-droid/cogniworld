@@ -529,3 +529,5 @@ from .logic_265_algae_can_reduce_water_oxygen import apply as logic_265
 RULES.append(logic_265)
 from .logic_266_surface_water_reduces_fire_risk import apply as logic_266
 RULES.append(logic_266)
+from .logic_267_groundwater_reduces_fire_risk import apply as logic_267
+RULES.append(logic_267)
