@@ -2461,3 +2461,7 @@ def logic_2613(world):
 def logic_2614(world):
     # stress reduces biodiversity; limited coupling.
     _couple(world,'habitat_stress','biodiversity',0.65,'positive')
+
+def logic_2615(world):
+    # stress reduces biodiversity; strong coupling.
+    _couple(world,'habitat_stress','biodiversity',1.35,'positive')
