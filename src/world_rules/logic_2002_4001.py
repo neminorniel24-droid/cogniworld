@@ -469,3 +469,7 @@ def logic_2115(world):
 def logic_2116(world):
     # open water adds humidity; threshold coupling.
     _couple(world,'surface_water','humidity',1.0,'threshold')
+
+def logic_2117(world):
+    # open water adds humidity; pulse coupling.
+    _couple(world,'surface_water','humidity',1.0,'pulse')
