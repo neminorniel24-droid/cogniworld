@@ -868,3 +868,5 @@ def logic_752(agents,world):
     agents.gratitude=_delta(agents.gratitude,+0.002*agents.confidence)
 def logic_753(agents,world):
     agents.cooperation_score=_delta(agents.cooperation_score,+0.002*agents.strategy_confidence)
+def logic_754(agents,world):
+    agents.competition_score=_delta(agents.competition_score,+0.002*agents.future_help)
