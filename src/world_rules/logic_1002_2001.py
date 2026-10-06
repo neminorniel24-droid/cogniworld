@@ -2808,3 +2808,7 @@ def logic_1692(world):
 def logic_1693(world):
     # vegetation replenishes seeds; stronger under fire pressure.
     _feedback(world, 'vegetation', 'seed_bank', 1, 'fire_gate')
+
+def logic_1694(world):
+    # vegetation replenishes seeds; stronger when surface water is high.
+    _feedback(world, 'vegetation', 'seed_bank', 1, 'water_gate')
