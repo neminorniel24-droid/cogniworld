@@ -2054,3 +2054,7 @@ def logic_3505(agents, world):
 def logic_3506(agents, world):
     # surface_water -> confidence; direct coupling.
     _update(agents, 'confidence', _desired(agents, world, 'surface_water', 'confidence', 'direct'))
+
+def logic_3507(agents, world):
+    # surface_water -> confidence; inverse coupling.
+    _update(agents, 'confidence', _desired(agents, world, 'surface_water', 'confidence', 'inverse'))
