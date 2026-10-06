@@ -2310,3 +2310,7 @@ def logic_3569(agents, world):
 def logic_3570(agents, world):
     # surface_water -> empathy; capacity coupling.
     _update(agents, 'empathy', _desired(agents, world, 'surface_water', 'empathy', 'capacity'))
+
+def logic_3571(agents, world):
+    # surface_water -> empathy; reserve coupling.
+    _update(agents, 'empathy', _desired(agents, world, 'surface_water', 'empathy', 'reserve'))
