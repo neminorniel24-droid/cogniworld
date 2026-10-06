@@ -1598,3 +1598,7 @@ def logic_3391(agents, world):
 def logic_3392(agents, world):
     # surface_water -> territoriality; recovery coupling.
     _update(agents, 'territoriality', _desired(agents, world, 'surface_water', 'territoriality', 'recovery'))
+
+def logic_3393(agents, world):
+    # surface_water -> territoriality; persistence coupling.
+    _update(agents, 'territoriality', _desired(agents, world, 'surface_water', 'territoriality', 'persistence'))
