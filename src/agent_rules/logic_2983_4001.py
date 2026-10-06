@@ -4010,3 +4010,7 @@ def logic_3994(agents, world):
 def logic_3995(agents, world):
     # groundwater -> pathogen_risk; persistence coupling.
     _update(agents, 'pathogen_risk', _desired(agents, world, 'groundwater', 'pathogen_risk', 'persistence'))
+
+def logic_3996(agents, world):
+    # groundwater -> infection_risk; direct coupling.
+    _update(agents, 'infection_risk', _desired(agents, world, 'groundwater', 'infection_risk', 'direct'))
