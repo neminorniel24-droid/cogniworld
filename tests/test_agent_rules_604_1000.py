@@ -1020,3 +1020,6 @@ def test_logic_957():
 def test_logic_958():
     from agent_rules.rules import logic_958
     _check(logic_958, 'learning_rate', 'cooperation_score', 1)
+def test_logic_959():
+    from agent_rules.rules import logic_959
+    _check(logic_959, 'future_payoff_weight', 'competition_score', 1)
