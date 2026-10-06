@@ -2849,3 +2849,7 @@ def logic_2710(world):
 def logic_2711(world):
     # decomposition returns CO2; reserve coupling.
     _couple(world,'decomposition_rate','co2',0.9,'positive')
+
+def logic_2712(world):
+    # CO2 availability shapes photosynthesis; direct coupling.
+    _couple(world,'co2','photosynthesis_factor',1.0,'positive')
