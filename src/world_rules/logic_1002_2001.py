@@ -448,3 +448,7 @@ def logic_1102(world):
 def logic_1103(world):
     # surface water supports algae; stronger when temperature is high.
     _feedback(world, 'surface_water', 'algae', 1, 'heat_gate')
+
+def logic_1104(world):
+    # surface water supports algae; stronger when temperature is low.
+    _feedback(world, 'surface_water', 'algae', 1, 'cold_gate')
