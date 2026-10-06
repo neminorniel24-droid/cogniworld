@@ -1222,3 +1222,7 @@ def logic_3297(agents, world):
 def logic_3298(agents, world):
     # surface_water -> trust; threshold coupling.
     _update(agents, 'trust', _desired(agents, world, 'surface_water', 'trust', 'threshold'))
+
+def logic_3299(agents, world):
+    # surface_water -> trust; strong coupling.
+    _update(agents, 'trust', _desired(agents, world, 'surface_water', 'trust', 'strong'))
