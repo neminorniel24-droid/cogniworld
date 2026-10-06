@@ -166,3 +166,12 @@ def test_logic_120():
     w.surface_water.zero_()
     apply(w)
     assert torch.allclose(w.surface_water, torch.full_like(w.surface_water, 0.01))
+
+def test_logic_121():
+    from world_rules.logic_121_waterlogging_reduces_soil_oxygen import apply
+    w = make_world()
+    w.soil_moisture.fill_(1.0)
+    w.oxygen.fill_(1.0)
+    before=w.oxygen.clone()
+    apply(w)
+    assert torch.all(w.oxygen < before)
