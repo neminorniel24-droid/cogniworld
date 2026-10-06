@@ -1358,3 +1358,5 @@ def logic_997(agents,world):
     agents.attack_success=_delta(agents.attack_success,+0.002*agents.last_reward)
 def logic_998(agents,world):
     agents.defense_score=_delta(agents.defense_score,+0.002*agents.last_energy_delta)
+def logic_999(agents,world):
+    agents.migration_score=_delta(agents.migration_score,+0.002*agents.last_food)

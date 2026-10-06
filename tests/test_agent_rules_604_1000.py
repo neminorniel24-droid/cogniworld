@@ -1140,3 +1140,6 @@ def test_logic_997():
 def test_logic_998():
     from agent_rules.rules import logic_998
     _check(logic_998, 'last_energy_delta', 'defense_score', 1)
+def test_logic_999():
+    from agent_rules.rules import logic_999
+    _check(logic_999, 'last_food', 'migration_score', 1)
