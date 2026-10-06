@@ -650,3 +650,11 @@ def test_logic_176():
     before=w.temperature_target.clone()
     apply(w)
     assert torch.all(w.temperature_target < before)
+
+def test_logic_177():
+    from world_rules.logic_177_ash_fertilizes_vegetation import apply
+    w = make_world()
+    w.ash.fill_(1.0)
+    w.vegetation.zero_()
+    apply(w)
+    assert torch.allclose(w.vegetation, torch.full_like(w.vegetation, 0.005))

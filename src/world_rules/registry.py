@@ -349,3 +349,5 @@ from .logic_175_active_fire_warms_surface import apply as logic_175
 RULES.append(logic_175)
 from .logic_176_ash_reflects_heat import apply as logic_176
 RULES.append(logic_176)
+from .logic_177_ash_fertilizes_vegetation import apply as logic_177
+RULES.append(logic_177)
