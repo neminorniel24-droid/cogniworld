@@ -68,3 +68,5 @@ def logic_333(agents,world):
  v=_local(world,agents,'herbivore');agents.competition_pressure=_delta(agents.competition_pressure,v*0.001)
 def logic_334(agents,world):
  v=_local(world,agents,'herbivore');agents.alertness=_delta(agents.alertness,v*0.001)
+def logic_335(agents,world):
+ v=_local(world,agents,'herbivore');agents.hunger=_delta(agents.hunger,v*0.001)
