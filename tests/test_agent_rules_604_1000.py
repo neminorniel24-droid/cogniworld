@@ -501,3 +501,6 @@ def test_logic_784():
 def test_logic_785():
     from agent_rules.rules import logic_785
     _check(logic_785, 'confidence', 'sharing_score', 1)
+def test_logic_786():
+    from agent_rules.rules import logic_786
+    _check(logic_786, 'strategy_confidence', 'reputation', 1)
