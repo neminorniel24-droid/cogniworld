@@ -3808,3 +3808,7 @@ def logic_1942(world):
 def logic_1943(world):
     # heat raises fire risk; stronger when temperature is high.
     _feedback(world, 'temperature', 'fire_risk', 1, 'heat_gate')
+
+def logic_1944(world):
+    # heat raises fire risk; stronger when temperature is low.
+    _feedback(world, 'temperature', 'fire_risk', 1, 'cold_gate')
