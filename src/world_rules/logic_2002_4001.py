@@ -2657,3 +2657,7 @@ def logic_2662(world):
 def logic_2663(world):
     # flowers support seed production; inverse coupling.
     _couple(world,'flowers','seed_bank',1.0,'negative')
+
+def logic_2664(world):
+    # flowers support seed production; limited coupling.
+    _couple(world,'flowers','seed_bank',0.65,'positive')
