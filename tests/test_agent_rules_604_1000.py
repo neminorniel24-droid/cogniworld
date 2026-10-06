@@ -291,3 +291,6 @@ def test_logic_714():
 def test_logic_715():
     from agent_rules.rules import logic_715
     _check(logic_715, 'migration_drive', 'caution', 1)
+def test_logic_716():
+    from agent_rules.rules import logic_716
+    _check(logic_716, 'reputation', 'cooperation_score', 1)
