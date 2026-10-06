@@ -3102,3 +3102,7 @@ def logic_3767(agents, world):
 def logic_3768(agents, world):
     # surface_water -> migration_score; scarcity coupling.
     _update(agents, 'migration_score', _desired(agents, world, 'surface_water', 'migration_score', 'scarcity'))
+
+def logic_3769(agents, world):
+    # surface_water -> migration_score; stress coupling.
+    _update(agents, 'migration_score', _desired(agents, world, 'surface_water', 'migration_score', 'stress'))
