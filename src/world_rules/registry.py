@@ -469,3 +469,5 @@ from .logic_235_deadwood_raises_fire_risk import apply as logic_235
 RULES.append(logic_235)
 from .logic_236_fire_reduces_deadwood import apply as logic_236
 RULES.append(logic_236)
+from .logic_237_deadwood_stores_carbon import apply as logic_237
+RULES.append(logic_237)
