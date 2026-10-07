@@ -12269,3 +12269,6 @@ def logic_8156(agents, world):
 
 def logic_8157(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'last_energy_delta', 'direct')
+
+def logic_8158(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'last_energy_delta', 'direct')
