@@ -6069,3 +6069,4 @@
 - 26068: integrated cross-system causal rule
 - 26069: integrated cross-system causal rule
 - 26070: integrated cross-system causal rule
+- 26071: integrated cross-system causal rule
