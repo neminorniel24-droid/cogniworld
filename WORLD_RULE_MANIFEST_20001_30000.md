@@ -2925,3 +2925,4 @@
 - 22924: integrated cross-system causal rule
 - 22925: integrated cross-system causal rule
 - 22926: integrated cross-system causal rule
+- 22927: integrated cross-system causal rule
