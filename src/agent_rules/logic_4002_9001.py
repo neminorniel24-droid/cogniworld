@@ -14258,3 +14258,6 @@ def logic_8819(agents, world):
 
 def logic_8820(agents, world):
     _agent_apply(world, agents, 'erosion', 'risk_score', 'direct')
+
+def logic_8821(agents, world):
+    _agent_apply(world, agents, 'soil_depth', 'risk_score', 'direct')
