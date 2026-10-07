@@ -21080,3 +21080,6 @@ def logic_17005(world):
 
 def logic_17006(world):
     _world_apply(world, 'biodiversity', 'vegetation', 'direct')
+
+def logic_17007(world):
+    _world_apply(world, 'biodiversity', 'biomass', 'square')
