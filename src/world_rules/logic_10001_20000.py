@@ -20945,3 +20945,6 @@ def logic_16960(world):
 
 def logic_16961(world):
     _world_apply(world, 'pathogen_load', 'wind_y', 'direct')
+
+def logic_16962(world):
+    _world_apply(world, 'pathogen_load', 'vegetation', 'square')
