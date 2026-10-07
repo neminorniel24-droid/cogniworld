@@ -7238,3 +7238,6 @@ def logic_6479(agents, world):
 
 def logic_6480(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'gratitude', 'direct')
+
+def logic_6481(agents, world):
+    _agent_apply(world, agents, 'payoff', 'gratitude', 'direct')
