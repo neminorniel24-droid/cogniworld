@@ -99,3 +99,6 @@ def logic_9008(world):
 
 def logic_9009(world):
     _world_apply(world, 'groundwater', 'surface_water', 'reciprocal')
+
+def logic_9010(world):
+    _world_apply(world, 'surface_water', 'wetland', 'direct')
