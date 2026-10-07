@@ -22820,3 +22820,6 @@ def logic_17585(world):
 
 def logic_17586(world):
     _world_apply(world, 'algae', 'co2', 'saturation')
+
+def logic_17587(world):
+    _world_apply(world, 'algae', 'photosynthesis_factor', 'gap')
