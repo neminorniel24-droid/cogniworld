@@ -10757,3 +10757,6 @@ def logic_7652(agents, world):
 
 def logic_7653(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'betrayal_memory', 'direct')
+
+def logic_7654(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'betrayal_memory', 'direct')
