@@ -7941,3 +7941,4 @@
 - 27940: integrated cross-system causal rule
 - 27941: integrated cross-system causal rule
 - 27942: integrated cross-system causal rule
+- 27943: integrated cross-system causal rule
