@@ -10079,3 +10079,6 @@ def logic_13338(world):
 
 def logic_13339(world):
     _world_apply(world, 'carbon_storage', 'deadwood', 'direct')
+
+def logic_13340(world):
+    _world_apply(world, 'carbon_storage', 'pollinators', 'square')
