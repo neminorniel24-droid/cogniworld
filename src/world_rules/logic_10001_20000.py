@@ -13547,3 +13547,6 @@ def logic_14494(world):
 
 def logic_14495(world):
     _world_apply(world, 'predator', 'runoff', 'direct')
+
+def logic_14496(world):
+    _world_apply(world, 'predator', 'wind_x', 'square')
