@@ -14717,3 +14717,6 @@ def logic_14884(world):
 
 def logic_14885(world):
     _world_apply(world, 'detritus', 'temperature', 'gap')
+
+def logic_14886(world):
+    _world_apply(world, 'detritus', 'surface_water', 'direct')
