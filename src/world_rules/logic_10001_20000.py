@@ -18443,3 +18443,6 @@ def logic_16126(world):
 
 def logic_16127(world):
     _world_apply(world, 'rain', 'herbivore', 'square')
+
+def logic_16128(world):
+    _world_apply(world, 'rain', 'predator', 'pulse')
