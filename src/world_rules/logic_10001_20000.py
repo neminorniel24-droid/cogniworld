@@ -19493,3 +19493,6 @@ def logic_16476(world):
 
 def logic_16477(world):
     _world_apply(world, 'predator', 'wind_y', 'direct')
+
+def logic_16478(world):
+    _world_apply(world, 'predator', 'vegetation', 'square')
