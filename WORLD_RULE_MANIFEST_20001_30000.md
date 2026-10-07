@@ -3746,3 +3746,4 @@
 - 23745: integrated cross-system causal rule
 - 23746: integrated cross-system causal rule
 - 23747: integrated cross-system causal rule
+- 23748: integrated cross-system causal rule
