@@ -8288,3 +8288,6 @@ def logic_12741(world):
 
 def logic_12742(world):
     _world_apply(world, 'co2', 'carrion', 'saturation')
+
+def logic_12743(world):
+    _world_apply(world, 'co2', 'nutrients', 'gap')
