@@ -6520,3 +6520,4 @@
 - 26519: integrated cross-system causal rule
 - 26520: integrated cross-system causal rule
 - 26521: integrated cross-system causal rule
+- 26522: integrated cross-system causal rule
