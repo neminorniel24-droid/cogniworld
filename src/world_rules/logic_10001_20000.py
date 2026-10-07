@@ -8870,3 +8870,6 @@ def logic_12935(world):
 
 def logic_12936(world):
     _world_apply(world, 'detritus', 'ash', 'square')
+
+def logic_12937(world):
+    _world_apply(world, 'detritus', 'snowpack', 'saturation')
