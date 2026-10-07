@@ -3932,3 +3932,6 @@ def logic_5377(agents, world):
 
 def logic_5378(agents, world):
     _agent_apply(world, agents, 'health', 'habitat_stress', 'direct')
+
+def logic_5379(agents, world):
+    _agent_apply(world, agents, 'stress', 'habitat_stress', 'direct')
