@@ -651,3 +651,6 @@ def logic_9192(world):
 
 def logic_9193(world):
     _world_apply(world, 'cloud', 'herbivore', 'reciprocal')
+
+def logic_9194(world):
+    _world_apply(world, 'cloud', 'predator', 'direct')
