@@ -10838,3 +10838,6 @@ def logic_13591(world):
 
 def logic_13592(world):
     _world_apply(world, 'salinity', 'soil_depth', 'gap')
+
+def logic_13593(world):
+    _world_apply(world, 'salinity', 'root_density', 'square')
