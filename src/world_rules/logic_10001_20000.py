@@ -19397,3 +19397,6 @@ def logic_16444(world):
 
 def logic_16445(world):
     _world_apply(world, 'herbivore', 'detritus', 'gap')
+
+def logic_16446(world):
+    _world_apply(world, 'herbivore', 'methane', 'direct')
