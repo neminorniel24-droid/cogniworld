@@ -6056,3 +6056,6 @@ def logic_6085(agents, world):
 
 def logic_6086(agents, world):
     _agent_apply(world, agents, 'predator', 'sharing_capacity', 'direct')
+
+def logic_6087(agents, world):
+    _agent_apply(world, agents, 'carrion', 'sharing_capacity', 'direct')
