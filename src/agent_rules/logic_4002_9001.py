@@ -1238,3 +1238,6 @@ def logic_4479(agents, world):
 
 def logic_4480(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'dehydration', 'direct')
+
+def logic_4481(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'dehydration', 'direct')
