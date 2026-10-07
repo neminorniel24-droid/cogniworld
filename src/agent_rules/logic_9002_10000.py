@@ -1590,3 +1590,6 @@ def logic_9704(agents, world):
 
 def logic_9705(agents, world):
     _agent_apply(world, agents, 'root_density', 'infection_risk', 'direct')
+
+def logic_9706(agents, world):
+    _agent_apply(world, agents, 'wetland', 'infection_risk', 'direct')
