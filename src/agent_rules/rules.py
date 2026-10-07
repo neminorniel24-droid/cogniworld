@@ -38046,3 +38046,10 @@ def logic_35813(agents, world):
     src = _local(world, agents, 'oxygen')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.defection_threshold = _delta(agents.defection_threshold, delta)
+
+
+def logic_35814(agents, world):
+    """Environmental co2 shapes agent social_need (direct)."""
+    src = _local(world, agents, 'co2')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.social_need = _delta(agents.social_need, delta)
