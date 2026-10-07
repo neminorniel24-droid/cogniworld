@@ -44990,3 +44990,10 @@ def logic_36805(agents, world):
     src = _local(world, agents, 'seed_bank')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.shelter_need = _delta(agents.shelter_need, delta)
+
+
+def logic_36806(agents, world):
+    """Environmental soil_carbon shapes agent neighbor_health_gap (direct)."""
+    src = _local(world, agents, 'soil_carbon')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.neighbor_health_gap = _delta(agents.neighbor_health_gap, delta)
