@@ -2549,3 +2549,6 @@ def logic_4916(agents, world):
 
 def logic_4917(agents, world):
     _agent_apply(world, agents, 'payoff', 'metabolic_cost', 'direct')
+
+def logic_4918(agents, world):
+    _agent_apply(world, agents, 'temperature', 'reproduction_drive', 'direct')
