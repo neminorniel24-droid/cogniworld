@@ -3425,3 +3425,6 @@ def logic_11120(world):
 
 def logic_11121(world):
     _world_apply(world, 'habitat_stress', 'evaporation', 'direct')
+
+def logic_11122(world):
+    _world_apply(world, 'habitat_stress', 'detritus', 'square')
