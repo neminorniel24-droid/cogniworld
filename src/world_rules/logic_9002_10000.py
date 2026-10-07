@@ -618,3 +618,6 @@ def logic_9181(world):
 
 def logic_9182(world):
     _world_apply(world, 'humidity', 'seed_bank', 'pulse')
+
+def logic_9183(world):
+    _world_apply(world, 'humidity', 'soil_carbon', 'threshold')
