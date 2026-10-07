@@ -10607,3 +10607,6 @@ def logic_7602(agents, world):
 
 def logic_7603(agents, world):
     _agent_apply(world, agents, 'snowpack', 'neighbor_health_gap', 'direct')
+
+def logic_7604(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'neighbor_health_gap', 'direct')
