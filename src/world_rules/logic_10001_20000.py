@@ -20843,3 +20843,6 @@ def logic_16926(world):
 
 def logic_16927(world):
     _world_apply(world, 'methane', 'photosynthesis_factor', 'square')
+
+def logic_16928(world):
+    _world_apply(world, 'methane', 'ice', 'pulse')
