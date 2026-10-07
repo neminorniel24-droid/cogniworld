@@ -8380,3 +8380,4 @@
 - 28379: integrated cross-system causal rule
 - 28380: integrated cross-system causal rule
 - 28381: integrated cross-system causal rule
+- 28382: integrated cross-system causal rule
