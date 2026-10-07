@@ -5744,3 +5744,6 @@ def logic_19893(agents, world):
 
 def logic_19894(agents, world):
     _agent_apply(world, agents, 'neighbor_energy_gap', 'infection_risk', 'inverse')
+
+def logic_19895(agents, world):
+    _agent_apply(world, agents, 'neighbor_health_gap', 'infection_risk', 'inverse')
