@@ -20345,3 +20345,6 @@ def logic_16760(world):
 
 def logic_16761(world):
     _world_apply(world, 'photosynthesis_factor', 'wetland', 'direct')
+
+def logic_16762(world):
+    _world_apply(world, 'photosynthesis_factor', 'carbon_storage', 'square')
