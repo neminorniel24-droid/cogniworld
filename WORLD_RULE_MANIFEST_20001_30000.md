@@ -4020,3 +4020,4 @@
 - 24019: integrated cross-system causal rule
 - 24020: integrated cross-system causal rule
 - 24021: integrated cross-system causal rule
+- 24022: integrated cross-system causal rule
