@@ -8050,3 +8050,4 @@
 - 28049: integrated cross-system causal rule
 - 28050: integrated cross-system causal rule
 - 28051: integrated cross-system causal rule
+- 28052: integrated cross-system causal rule
