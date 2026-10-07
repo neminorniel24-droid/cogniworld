@@ -2370,3 +2370,4 @@
 - 22369: integrated cross-system causal rule
 - 22370: integrated cross-system causal rule
 - 22371: integrated cross-system causal rule
+- 22372: integrated cross-system causal rule
