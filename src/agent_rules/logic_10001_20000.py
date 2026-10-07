@@ -1319,3 +1319,6 @@ def logic_18418(agents, world):
 
 def logic_18419(agents, world):
     _agent_apply(world, agents, 'rain', 'trust', 'pulse')
+
+def logic_18420(agents, world):
+    _agent_apply(world, agents, 'soil_moisture', 'trust', 'pulse')
