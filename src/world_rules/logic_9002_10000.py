@@ -600,3 +600,6 @@ def logic_9175(world):
 
 def logic_9176(world):
     _world_apply(world, 'humidity', 'salinity', 'saturation')
+
+def logic_9177(world):
+    _world_apply(world, 'humidity', 'algae', 'reciprocal')
