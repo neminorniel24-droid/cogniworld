@@ -4283,3 +4283,6 @@ def logic_11406(world):
 
 def logic_11407(world):
     _world_apply(world, 'fire_risk', 'soil_carbon', 'square')
+
+def logic_11408(world):
+    _world_apply(world, 'fire_risk', 'surface_ice', 'pulse')
