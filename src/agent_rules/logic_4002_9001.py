@@ -10013,3 +10013,6 @@ def logic_7404(agents, world):
 
 def logic_7405(agents, world):
     _agent_apply(world, agents, 'deadwood', 'stress', 'direct')
+
+def logic_7406(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'stress', 'direct')
