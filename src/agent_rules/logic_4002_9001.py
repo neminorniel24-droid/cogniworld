@@ -4391,3 +4391,6 @@ def logic_5530(agents, world):
 
 def logic_5531(agents, world):
     _agent_apply(world, agents, 'surface_water', 'trust', 'direct')
+
+def logic_5532(agents, world):
+    _agent_apply(world, agents, 'humidity', 'trust', 'direct')
