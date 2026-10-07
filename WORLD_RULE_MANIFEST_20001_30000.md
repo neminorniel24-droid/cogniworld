@@ -2271,3 +2271,4 @@
 - 22270: integrated cross-system causal rule
 - 22271: integrated cross-system causal rule
 - 22272: integrated cross-system causal rule
+- 22273: integrated cross-system causal rule
