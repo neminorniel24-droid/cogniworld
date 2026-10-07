@@ -347,3 +347,4 @@
 - 20346: integrated cross-system causal rule
 - 20347: integrated cross-system causal rule
 - 20348: integrated cross-system causal rule
+- 20349: integrated cross-system causal rule
