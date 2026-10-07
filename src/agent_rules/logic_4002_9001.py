@@ -13979,3 +13979,6 @@ def logic_8726(agents, world):
 
 def logic_8727(agents, world):
     _agent_apply(world, agents, 'surface_water', 'reciprocity_score', 'direct')
+
+def logic_8728(agents, world):
+    _agent_apply(world, agents, 'humidity', 'reciprocity_score', 'direct')
