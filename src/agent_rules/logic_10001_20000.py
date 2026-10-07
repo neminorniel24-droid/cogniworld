@@ -2516,3 +2516,6 @@ def logic_18817(agents, world):
 
 def logic_18818(agents, world):
     _agent_apply(world, agents, 'defense_score', 'attack_threshold', 'feedback')
+
+def logic_18819(agents, world):
+    _agent_apply(world, agents, 'migration_score', 'attack_threshold', 'feedback')
