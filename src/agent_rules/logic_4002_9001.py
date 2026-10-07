@@ -5492,3 +5492,6 @@ def logic_5897(agents, world):
 
 def logic_5898(agents, world):
     _agent_apply(world, agents, 'root_density', 'competition_pressure', 'direct')
+
+def logic_5899(agents, world):
+    _agent_apply(world, agents, 'wetland', 'competition_pressure', 'direct')
