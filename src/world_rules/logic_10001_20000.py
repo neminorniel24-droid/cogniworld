@@ -7562,3 +7562,6 @@ def logic_12499(world):
 
 def logic_12500(world):
     _world_apply(world, 'herbivore', 'salinity', 'square')
+
+def logic_12501(world):
+    _world_apply(world, 'herbivore', 'algae', 'pulse')
