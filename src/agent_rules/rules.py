@@ -41259,3 +41259,10 @@ def logic_36272(agents, world):
     src = _local(world, agents, 'decomposition_rate')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.neighbor_health_gap = _delta(agents.neighbor_health_gap, delta)
+
+
+def logic_36273(agents, world):
+    """Environmental oxygen shapes agent last_reward (root)."""
+    src = _local(world, agents, 'oxygen')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.last_reward = _delta(agents.last_reward, delta)
