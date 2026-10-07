@@ -13946,3 +13946,6 @@ def logic_14627(world):
 
 def logic_14628(world):
     _world_apply(world, 'decomposition_rate', 'wind_x', 'direct')
+
+def logic_14629(world):
+    _world_apply(world, 'decomposition_rate', 'wind_y', 'square')
