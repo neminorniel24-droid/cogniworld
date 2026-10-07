@@ -273,3 +273,6 @@ def logic_9066(world):
 
 def logic_9067(world):
     _world_apply(world, 'temperature', 'runoff', 'inverse')
+
+def logic_9068(world):
+    _world_apply(world, 'temperature', 'wind_x', 'square')
