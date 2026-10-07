@@ -20360,3 +20360,6 @@ def logic_16765(world):
 
 def logic_16766(world):
     _world_apply(world, 'photosynthesis_factor', 'groundwater', 'direct')
+
+def logic_16767(world):
+    _world_apply(world, 'photosynthesis_factor', 'sediment', 'square')
