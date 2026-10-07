@@ -2744,3 +2744,6 @@ def logic_10893(world):
 
 def logic_10894(world):
     _world_apply(world, 'evaporation', 'carrion', 'gap')
+
+def logic_10895(world):
+    _world_apply(world, 'evaporation', 'nutrients', 'direct')
