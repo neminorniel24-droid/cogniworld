@@ -4334,3 +4334,6 @@ def logic_11423(world):
 
 def logic_11424(world):
     _world_apply(world, 'ash', 'decomposition_rate', 'direct')
+
+def logic_11425(world):
+    _world_apply(world, 'ash', 'oxygen', 'pulse')
