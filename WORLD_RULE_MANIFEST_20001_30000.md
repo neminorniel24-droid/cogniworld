@@ -7141,3 +7141,4 @@
 - 27140: integrated cross-system causal rule
 - 27141: integrated cross-system causal rule
 - 27142: integrated cross-system causal rule
+- 27143: integrated cross-system causal rule
