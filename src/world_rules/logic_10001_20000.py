@@ -9338,3 +9338,6 @@ def logic_13091(world):
 
 def logic_13092(world):
     _world_apply(world, 'habitat_stress', 'herbivore', 'pulse')
+
+def logic_13093(world):
+    _world_apply(world, 'habitat_stress', 'predator', 'saturation')
