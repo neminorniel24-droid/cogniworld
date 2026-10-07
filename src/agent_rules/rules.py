@@ -39607,3 +39607,10 @@ def logic_36036(agents, world):
     src = _local(world, agents, 'vegetation')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.thirst = _delta(agents.thirst, delta)
+
+
+def logic_36037(agents, world):
+    """Environmental biomass shapes agent alertness (root)."""
+    src = _local(world, agents, 'biomass')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.alertness = _delta(agents.alertness, delta)
