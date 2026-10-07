@@ -46670,3 +46670,10 @@ def logic_37045(agents, world):
     src = _local(world, agents, 'runoff')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.generosity = _delta(agents.generosity, delta)
+
+
+def logic_37046(agents, world):
+    """Environmental wind_x shapes agent empathy (direct)."""
+    src = _local(world, agents, 'wind_x')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.empathy = _delta(agents.empathy, delta)
