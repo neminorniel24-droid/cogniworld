@@ -1097,3 +1097,6 @@ def logic_10344(world):
 
 def logic_10345(world):
     _world_apply(world, 'wind_x', 'algae', 'pulse')
+
+def logic_10346(world):
+    _world_apply(world, 'wind_x', 'organic_matter', 'saturation')
