@@ -12953,3 +12953,6 @@ def logic_8384(agents, world):
 
 def logic_8385(agents, world):
     _agent_apply(world, agents, 'payoff', 'risk_tolerance', 'direct')
+
+def logic_8386(agents, world):
+    _agent_apply(world, agents, 'temperature', 'last_action', 'direct')
