@@ -2903,3 +2903,6 @@ def logic_18946(agents, world):
 
 def logic_18947(agents, world):
     _agent_apply(world, agents, 'risk_score', 'vegetation_expectation', 'direct')
+
+def logic_18948(agents, world):
+    _agent_apply(world, agents, 'safety_score', 'stress', 'direct')
