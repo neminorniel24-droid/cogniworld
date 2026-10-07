@@ -16829,3 +16829,6 @@ def logic_15588(world):
 
 def logic_15589(world):
     _world_apply(world, 'algae', 'temperature', 'square')
+
+def logic_15590(world):
+    _world_apply(world, 'algae', 'surface_water', 'pulse')
