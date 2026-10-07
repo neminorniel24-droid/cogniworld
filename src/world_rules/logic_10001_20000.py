@@ -22334,3 +22334,6 @@ def logic_17423(world):
 
 def logic_17424(world):
     _world_apply(world, 'snowpack', 'fire_risk', 'direct')
+
+def logic_17425(world):
+    _world_apply(world, 'snowpack', 'ash', 'pulse')
