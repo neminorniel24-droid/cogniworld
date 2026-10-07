@@ -11144,3 +11144,6 @@ def logic_7781(agents, world):
 
 def logic_7782(agents, world):
     _agent_apply(world, agents, 'wind_y', 'cooperation_history', 'direct')
+
+def logic_7783(agents, world):
+    _agent_apply(world, agents, 'vegetation', 'cooperation_history', 'direct')
