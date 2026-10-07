@@ -3854,3 +3854,6 @@ def logic_19263(agents, world):
 
 def logic_19264(agents, world):
     _agent_apply(world, agents, 'detritus', 'strategy_score', 'pulse')
+
+def logic_19265(agents, world):
+    _agent_apply(world, agents, 'methane', 'strategy_score', 'pulse')
