@@ -225,3 +225,4 @@
 - 20224: integrated cross-system causal rule
 - 20225: integrated cross-system causal rule
 - 20226: integrated cross-system causal rule
+- 20227: integrated cross-system causal rule
