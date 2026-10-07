@@ -23756,3 +23756,6 @@ def logic_17897(world):
 
 def logic_17898(world):
     _world_apply(world, 'surface_ice', 'detritus', 'gap')
+
+def logic_17899(world):
+    _world_apply(world, 'surface_ice', 'methane', 'direct')
