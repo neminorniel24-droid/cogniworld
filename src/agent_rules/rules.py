@@ -42309,3 +42309,10 @@ def logic_36422(agents, world):
     src = _local(world, agents, 'soil_depth')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.generosity = _delta(agents.generosity, delta)
+
+
+def logic_36423(agents, world):
+    """Environmental root_density shapes agent empathy (inverse)."""
+    src = _local(world, agents, 'root_density')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.empathy = _delta(agents.empathy, delta)
