@@ -28239,3 +28239,10 @@ def logic_34412(agents, world):
     src = _local(world, agents, 'flowers')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.conflict_pressure = _delta(agents.conflict_pressure, delta)
+
+
+def logic_34413(agents, world):
+    """Environmental seed_bank shapes agent selfishness (root)."""
+    src = _local(world, agents, 'seed_bank')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.selfishness = _delta(agents.selfishness, delta)
