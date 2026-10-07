@@ -594,3 +594,4 @@
 - 20593: integrated cross-system causal rule
 - 20594: integrated cross-system causal rule
 - 20595: integrated cross-system causal rule
+- 20596: integrated cross-system causal rule
