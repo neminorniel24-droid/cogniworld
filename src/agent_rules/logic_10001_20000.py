@@ -2546,3 +2546,6 @@ def logic_18827(agents, world):
 
 def logic_18828(agents, world):
     _agent_apply(world, agents, 'payoff', 'attack_threshold', 'feedback')
+
+def logic_18829(agents, world):
+    _agent_apply(world, agents, 'temperature', 'defection_threshold', 'feedback')
