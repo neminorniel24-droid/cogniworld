@@ -7008,3 +7008,4 @@
 - 27007: integrated cross-system causal rule
 - 27008: integrated cross-system causal rule
 - 27009: integrated cross-system causal rule
+- 27010: integrated cross-system causal rule
