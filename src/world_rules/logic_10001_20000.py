@@ -6032,3 +6032,6 @@ def logic_11989(world):
 
 def logic_11990(world):
     _world_apply(world, 'temperature', 'biomass', 'pulse')
+
+def logic_11991(world):
+    _world_apply(world, 'temperature', 'herbivore', 'saturation')
