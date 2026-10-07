@@ -12788,3 +12788,6 @@ def logic_8329(agents, world):
 
 def logic_8330(agents, world):
     _agent_apply(world, agents, 'predator', 'risk_tolerance', 'direct')
+
+def logic_8331(agents, world):
+    _agent_apply(world, agents, 'carrion', 'risk_tolerance', 'direct')
