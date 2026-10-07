@@ -131,3 +131,6 @@ def logic_4010(world):
 
 def logic_4011(world):
     _world_apply(world, 'nutrients', 'vegetation', 'inverse')
+
+def logic_4012(world):
+    _world_apply(world, 'organic_matter', 'soil_carbon', 'square')
