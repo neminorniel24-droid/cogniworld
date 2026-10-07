@@ -1133,3 +1133,6 @@ def logic_4444(agents, world):
 
 def logic_4445(agents, world):
     _agent_apply(world, agents, 'cloud', 'dehydration', 'direct')
+
+def logic_4446(agents, world):
+    _agent_apply(world, agents, 'rain', 'dehydration', 'direct')
