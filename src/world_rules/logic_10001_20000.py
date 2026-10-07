@@ -14048,3 +14048,6 @@ def logic_14661(world):
 
 def logic_14662(world):
     _world_apply(world, 'decomposition_rate', 'seed_bank', 'saturation')
+
+def logic_14663(world):
+    _world_apply(world, 'decomposition_rate', 'soil_carbon', 'gap')
