@@ -231,3 +231,6 @@ def logic_9052(world):
 
 def logic_9053(world):
     _world_apply(world, 'snowpack', 'surface_ice', 'sqrt')
+
+def logic_9054(world):
+    _world_apply(world, 'surface_ice', 'surface_water', 'pulse')
