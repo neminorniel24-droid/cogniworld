@@ -43149,3 +43149,10 @@ def logic_36542(agents, world):
     src = _local(world, agents, 'vegetation')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.foraging_score = _delta(agents.foraging_score, delta)
+
+
+def logic_36543(agents, world):
+    """Environmental biomass shapes agent migration_score (inverse)."""
+    src = _local(world, agents, 'biomass')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.migration_score = _delta(agents.migration_score, delta)
