@@ -19523,3 +19523,6 @@ def logic_16486(world):
 
 def logic_16487(world):
     _world_apply(world, 'predator', 'ice', 'square')
+
+def logic_16488(world):
+    _world_apply(world, 'predator', 'evaporation', 'pulse')
