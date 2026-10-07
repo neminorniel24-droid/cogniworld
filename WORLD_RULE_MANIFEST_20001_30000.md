@@ -6716,3 +6716,4 @@
 - 26715: integrated cross-system causal rule
 - 26716: integrated cross-system causal rule
 - 26717: integrated cross-system causal rule
+- 26718: integrated cross-system causal rule
