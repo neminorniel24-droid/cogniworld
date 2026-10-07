@@ -18890,3 +18890,6 @@ def logic_16275(world):
 
 def logic_16276(world):
     _world_apply(world, 'wind_x', 'root_density', 'gap')
+
+def logic_16277(world):
+    _world_apply(world, 'wind_x', 'wetland', 'direct')
