@@ -2999,3 +2999,6 @@ def logic_10978(world):
 
 def logic_10979(world):
     _world_apply(world, 'methane', 'biomass', 'direct')
+
+def logic_10980(world):
+    _world_apply(world, 'methane', 'herbivore', 'square')
