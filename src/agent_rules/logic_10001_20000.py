@@ -2582,3 +2582,6 @@ def logic_18839(agents, world):
 
 def logic_18840(agents, world):
     _agent_apply(world, agents, 'herbivore', 'defection_threshold', 'feedback')
+
+def logic_18841(agents, world):
+    _agent_apply(world, agents, 'predator', 'defection_threshold', 'feedback')
