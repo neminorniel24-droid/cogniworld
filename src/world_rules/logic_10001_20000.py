@@ -4268,3 +4268,6 @@ def logic_11401(world):
 
 def logic_11402(world):
     _world_apply(world, 'fire_risk', 'organic_matter', 'square')
+
+def logic_11403(world):
+    _world_apply(world, 'fire_risk', 'deadwood', 'pulse')
