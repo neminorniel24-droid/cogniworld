@@ -8987,3 +8987,6 @@ def logic_12974(world):
 
 def logic_12975(world):
     _world_apply(world, 'methane', 'soil_depth', 'direct')
+
+def logic_12976(world):
+    _world_apply(world, 'methane', 'root_density', 'square')
