@@ -5945,3 +5945,6 @@ def logic_6048(agents, world):
 
 def logic_6049(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'group_stability', 'direct')
+
+def logic_6050(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'group_stability', 'direct')
