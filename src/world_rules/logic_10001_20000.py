@@ -23942,3 +23942,6 @@ def logic_17959(world):
 
 def logic_17960(world):
     _world_apply(world, 'temperature', 'pollinators', 'saturation')
+
+def logic_17961(world):
+    _world_apply(world, 'temperature', 'flowers', 'direct')
