@@ -9347,3 +9347,6 @@ def logic_7182(agents, world):
 
 def logic_7183(agents, world):
     _agent_apply(world, agents, 'detritus', 'fire_fear', 'direct')
+
+def logic_7184(agents, world):
+    _agent_apply(world, agents, 'methane', 'fire_fear', 'direct')
