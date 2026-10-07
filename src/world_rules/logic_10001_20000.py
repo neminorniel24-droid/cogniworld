@@ -20948,3 +20948,6 @@ def logic_16961(world):
 
 def logic_16962(world):
     _world_apply(world, 'pathogen_load', 'vegetation', 'square')
+
+def logic_16963(world):
+    _world_apply(world, 'pathogen_load', 'biomass', 'pulse')
