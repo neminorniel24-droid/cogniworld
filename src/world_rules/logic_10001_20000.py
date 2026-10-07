@@ -10106,3 +10106,6 @@ def logic_13347(world):
 
 def logic_13348(world):
     _world_apply(world, 'fire_risk', 'cloud', 'direct')
+
+def logic_13349(world):
+    _world_apply(world, 'fire_risk', 'rain', 'square')
