@@ -3149,3 +3149,6 @@ def logic_11028(world):
 
 def logic_11029(world):
     _world_apply(world, 'pathogen_load', 'oxygen', 'square')
+
+def logic_11030(world):
+    _world_apply(world, 'pathogen_load', 'co2', 'pulse')
