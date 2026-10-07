@@ -2305,3 +2305,4 @@
 - 22304: integrated cross-system causal rule
 - 22305: integrated cross-system causal rule
 - 22306: integrated cross-system causal rule
+- 22307: integrated cross-system causal rule
