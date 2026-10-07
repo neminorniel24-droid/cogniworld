@@ -147,3 +147,6 @@ def logic_9223(agents, world):
 
 def logic_9224(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'hydration', 'direct')
+
+def logic_9225(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'hydration', 'direct')
