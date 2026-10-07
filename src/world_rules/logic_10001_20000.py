@@ -15182,3 +15182,6 @@ def logic_15039(world):
 
 def logic_15040(world):
     _world_apply(world, 'biodiversity', 'pathogen_load', 'saturation')
+
+def logic_15041(world):
+    _world_apply(world, 'biodiversity', 'habitat_stress', 'direct')
