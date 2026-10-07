@@ -14117,3 +14117,6 @@ def logic_8772(agents, world):
 
 def logic_8773(agents, world):
     _agent_apply(world, agents, 'energy_surplus', 'reciprocity_score', 'direct')
+
+def logic_8774(agents, world):
+    _agent_apply(world, agents, 'ticks_since_food', 'reciprocity_score', 'direct')
