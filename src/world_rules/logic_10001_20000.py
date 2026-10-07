@@ -8573,3 +8573,6 @@ def logic_12836(world):
 
 def logic_12837(world):
     _world_apply(world, 'ice', 'detritus', 'direct')
+
+def logic_12838(world):
+    _world_apply(world, 'ice', 'methane', 'square')
