@@ -230,3 +230,6 @@ def logic_4043(world):
 
 def logic_4044(world):
     _world_apply(world, 'biodiversity', 'habitat_stress', 'square')
+
+def logic_4045(world):
+    _world_apply(world, 'soil_depth', 'root_density', 'sqrt')
