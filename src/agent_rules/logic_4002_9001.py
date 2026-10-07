@@ -1853,3 +1853,6 @@ def logic_4684(agents, world):
 
 def logic_4685(agents, world):
     _agent_apply(world, agents, 'deadwood', 'alertness', 'direct')
+
+def logic_4686(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'alertness', 'direct')
