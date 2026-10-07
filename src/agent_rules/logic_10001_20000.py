@@ -5189,3 +5189,6 @@ def logic_19708(agents, world):
 
 def logic_19709(agents, world):
     _agent_apply(world, agents, 'health', 'future_payoff_weight', 'feedback')
+
+def logic_19710(agents, world):
+    _agent_apply(world, agents, 'thermal_stress', 'future_payoff_weight', 'feedback')
