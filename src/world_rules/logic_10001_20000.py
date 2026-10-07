@@ -18893,3 +18893,6 @@ def logic_16276(world):
 
 def logic_16277(world):
     _world_apply(world, 'wind_x', 'wetland', 'direct')
+
+def logic_16278(world):
+    _world_apply(world, 'wind_x', 'carbon_storage', 'square')
