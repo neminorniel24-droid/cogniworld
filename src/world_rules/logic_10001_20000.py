@@ -1553,3 +1553,6 @@ def logic_10496(world):
 
 def logic_10497(world):
     _world_apply(world, 'herbivore', 'carrion', 'saturation')
+
+def logic_10498(world):
+    _world_apply(world, 'herbivore', 'nutrients', 'gap')
