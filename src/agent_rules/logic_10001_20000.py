@@ -866,3 +866,6 @@ def logic_18267(agents, world):
 
 def logic_18268(agents, world):
     _agent_apply(world, agents, 'reproduction_score', 'migration_drive', 'sqrt')
+
+def logic_18269(agents, world):
+    _agent_apply(world, agents, 'sharing_score', 'migration_drive', 'sqrt')
