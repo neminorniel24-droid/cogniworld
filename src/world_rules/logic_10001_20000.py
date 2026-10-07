@@ -11297,3 +11297,6 @@ def logic_13744(world):
 
 def logic_13745(world):
     _world_apply(world, 'pollinators', 'rain', 'pulse')
+
+def logic_13746(world):
+    _world_apply(world, 'pollinators', 'soil_moisture', 'saturation')
