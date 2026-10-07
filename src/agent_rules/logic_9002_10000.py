@@ -2409,3 +2409,6 @@ def logic_9977(agents, world):
 
 def logic_9978(agents, world):
     _agent_apply(world, agents, 'wetland', 'metabolic_cost', 'direct')
+
+def logic_9979(agents, world):
+    _agent_apply(world, agents, 'carbon_storage', 'metabolic_cost', 'direct')
