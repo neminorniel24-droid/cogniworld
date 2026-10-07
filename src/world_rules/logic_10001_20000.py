@@ -20180,3 +20180,6 @@ def logic_16705(world):
 
 def logic_16706(world):
     _world_apply(world, 'co2', 'photosynthesis_factor', 'saturation')
+
+def logic_16707(world):
+    _world_apply(world, 'co2', 'ice', 'gap')
