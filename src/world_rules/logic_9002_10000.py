@@ -177,3 +177,6 @@ def logic_9034(world):
 
 def logic_9035(world):
     _world_apply(world, 'soil_depth', 'root_density', 'inverse')
+
+def logic_9036(world):
+    _world_apply(world, 'root_density', 'soil_carbon', 'square')
