@@ -10550,3 +10550,6 @@ def logic_7583(agents, world):
 
 def logic_7584(agents, world):
     _agent_apply(world, agents, 'nutrients', 'neighbor_health_gap', 'direct')
+
+def logic_7585(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'neighbor_health_gap', 'direct')
