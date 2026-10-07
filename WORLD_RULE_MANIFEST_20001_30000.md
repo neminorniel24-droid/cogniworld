@@ -6684,3 +6684,4 @@
 - 26683: integrated cross-system causal rule
 - 26684: integrated cross-system causal rule
 - 26685: integrated cross-system causal rule
+- 26686: integrated cross-system causal rule
