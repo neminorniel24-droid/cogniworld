@@ -1100,3 +1100,6 @@ def logic_18345(agents, world):
 
 def logic_18346(agents, world):
     _agent_apply(world, agents, 'reputation', 'stability', 'sqrt')
+
+def logic_18347(agents, world):
+    _agent_apply(world, agents, 'trust', 'stability', 'sqrt')
