@@ -2093,3 +2093,6 @@ def logic_10676(world):
 
 def logic_10677(world):
     _world_apply(world, 'decomposition_rate', 'co2', 'direct')
+
+def logic_10678(world):
+    _world_apply(world, 'decomposition_rate', 'photosynthesis_factor', 'square')
