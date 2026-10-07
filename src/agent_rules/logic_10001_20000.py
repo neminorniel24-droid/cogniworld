@@ -4241,3 +4241,6 @@ def logic_19392(agents, world):
 
 def logic_19393(agents, world):
     _agent_apply(world, agents, 'predator', 'safety_score', 'threshold')
+
+def logic_19394(agents, world):
+    _agent_apply(world, agents, 'carrion', 'safety_score', 'threshold')
