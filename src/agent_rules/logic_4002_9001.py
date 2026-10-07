@@ -6260,3 +6260,6 @@ def logic_6153(agents, world):
 
 def logic_6154(agents, world):
     _agent_apply(world, agents, 'predator', 'help_drive', 'direct')
+
+def logic_6155(agents, world):
+    _agent_apply(world, agents, 'carrion', 'help_drive', 'direct')
