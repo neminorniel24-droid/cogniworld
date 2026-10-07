@@ -84,3 +84,6 @@ def logic_9003(world):
 
 def logic_9004(world):
     _world_apply(world, 'humidity', 'cloud', 'square')
+
+def logic_9005(world):
+    _world_apply(world, 'cloud', 'rain', 'sqrt')
