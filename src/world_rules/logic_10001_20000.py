@@ -9209,3 +9209,6 @@ def logic_13048(world):
 
 def logic_13049(world):
     _world_apply(world, 'biodiversity', 'predator', 'gap')
+
+def logic_13050(world):
+    _world_apply(world, 'biodiversity', 'carrion', 'direct')
