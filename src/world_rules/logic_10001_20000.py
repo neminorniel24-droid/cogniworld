@@ -16109,3 +16109,6 @@ def logic_15348(world):
 
 def logic_15349(world):
     _world_apply(world, 'fire_risk', 'biodiversity', 'square')
+
+def logic_15350(world):
+    _world_apply(world, 'fire_risk', 'habitat_stress', 'pulse')
