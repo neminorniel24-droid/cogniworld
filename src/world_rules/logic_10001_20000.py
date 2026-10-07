@@ -9785,3 +9785,6 @@ def logic_13240(world):
 
 def logic_13241(world):
     _world_apply(world, 'root_density', 'wetland', 'direct')
+
+def logic_13242(world):
+    _world_apply(world, 'root_density', 'carbon_storage', 'square')
