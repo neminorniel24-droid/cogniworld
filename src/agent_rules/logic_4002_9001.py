@@ -14522,3 +14522,6 @@ def logic_8907(agents, world):
 
 def logic_8908(agents, world):
     _agent_apply(world, agents, 'resource_abundance', 'safety_score', 'direct')
+
+def logic_8909(agents, world):
+    _agent_apply(world, agents, 'energy_surplus', 'safety_score', 'direct')
