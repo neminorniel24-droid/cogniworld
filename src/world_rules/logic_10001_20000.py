@@ -11357,3 +11357,6 @@ def logic_13764(world):
 
 def logic_13765(world):
     _world_apply(world, 'pollinators', 'biodiversity', 'gap')
+
+def logic_13766(world):
+    _world_apply(world, 'pollinators', 'habitat_stress', 'direct')
