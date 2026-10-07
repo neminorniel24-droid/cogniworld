@@ -1862,3 +1862,6 @@ def logic_10599(world):
 
 def logic_10600(world):
     _world_apply(world, 'carrion', 'root_density', 'saturation')
+
+def logic_10601(world):
+    _world_apply(world, 'carrion', 'wetland', 'direct')
