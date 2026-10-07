@@ -2652,3 +2652,4 @@
 - 22651: integrated cross-system causal rule
 - 22652: integrated cross-system causal rule
 - 22653: integrated cross-system causal rule
+- 22654: integrated cross-system causal rule
