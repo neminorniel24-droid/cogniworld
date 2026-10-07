@@ -18020,3 +18020,6 @@ def logic_15985(world):
 
 def logic_15986(world):
     _world_apply(world, 'surface_water', 'humidity', 'saturation')
+
+def logic_15987(world):
+    _world_apply(world, 'surface_water', 'cloud', 'gap')
