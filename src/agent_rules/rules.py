@@ -61293,3 +61293,10 @@ def logic_39134(agents, world):
     src = _local(world, agents, 'habitat_stress')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_food = _delta(agents.last_food, delta)
+
+
+def logic_39135(agents, world):
+    """Environmental erosion shapes agent defection_score (inverse)."""
+    src = _local(world, agents, 'erosion')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defection_score = _delta(agents.defection_score, delta)
