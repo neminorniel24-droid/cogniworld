@@ -19883,3 +19883,6 @@ def logic_16606(world):
 
 def logic_16607(world):
     _world_apply(world, 'decomposition_rate', 'runoff', 'square')
+
+def logic_16608(world):
+    _world_apply(world, 'decomposition_rate', 'wind_x', 'pulse')
