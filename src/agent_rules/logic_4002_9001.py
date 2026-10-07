@@ -8717,3 +8717,6 @@ def logic_6972(agents, world):
 
 def logic_6973(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'defection_threshold', 'direct')
+
+def logic_6974(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'defection_threshold', 'direct')
