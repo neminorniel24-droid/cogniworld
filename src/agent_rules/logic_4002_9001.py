@@ -2756,3 +2756,6 @@ def logic_4985(agents, world):
 
 def logic_4986(agents, world):
     _agent_apply(world, agents, 'temperature', 'migration_drive', 'direct')
+
+def logic_4987(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'migration_drive', 'direct')
