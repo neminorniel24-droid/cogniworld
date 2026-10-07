@@ -11888,3 +11888,6 @@ def logic_8029(agents, world):
 
 def logic_8030(agents, world):
     _agent_apply(world, agents, 'health', 'local_density', 'direct')
+
+def logic_8031(agents, world):
+    _agent_apply(world, agents, 'stress', 'local_density', 'direct')
