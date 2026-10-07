@@ -5770,3 +5770,4 @@
 - 25769: integrated cross-system causal rule
 - 25770: integrated cross-system causal rule
 - 25771: integrated cross-system causal rule
+- 25772: integrated cross-system causal rule
