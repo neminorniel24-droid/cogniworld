@@ -25852,3 +25852,10 @@ def logic_34071(agents, world):
     src = _local(world, agents, 'methane')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.attack_threshold = _delta(agents.attack_threshold, delta)
+
+
+def logic_34072(agents, world):
+    """Environmental pathogen_load shapes agent stress (square)."""
+    src = _local(world, agents, 'pathogen_load')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.stress = _delta(agents.stress, delta)
