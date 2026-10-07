@@ -13046,3 +13046,6 @@ def logic_14327(world):
 
 def logic_14328(world):
     _world_apply(world, 'wind_y', 'oxygen', 'pulse')
+
+def logic_14329(world):
+    _world_apply(world, 'wind_y', 'co2', 'gap')
