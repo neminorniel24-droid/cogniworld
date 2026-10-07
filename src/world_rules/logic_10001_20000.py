@@ -20708,3 +20708,6 @@ def logic_16881(world):
 
 def logic_16882(world):
     _world_apply(world, 'detritus', 'co2', 'square')
+
+def logic_16883(world):
+    _world_apply(world, 'detritus', 'photosynthesis_factor', 'pulse')
