@@ -4763,3 +4763,6 @@ def logic_11566(world):
 
 def logic_11567(world):
     _world_apply(world, 'sediment', 'erosion', 'square')
+
+def logic_11568(world):
+    _world_apply(world, 'sediment', 'soil_depth', 'pulse')
