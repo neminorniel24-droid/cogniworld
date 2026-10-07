@@ -16358,3 +16358,6 @@ def logic_15431(world):
 
 def logic_15432(world):
     _world_apply(world, 'snowpack', 'ice', 'gap')
+
+def logic_15433(world):
+    _world_apply(world, 'snowpack', 'evaporation', 'square')
