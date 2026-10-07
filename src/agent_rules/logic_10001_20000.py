@@ -5342,3 +5342,6 @@ def logic_19759(agents, world):
 
 def logic_19760(agents, world):
     _agent_apply(world, agents, 'cooperation_history', 'hydration', 'feedback')
+
+def logic_19761(agents, world):
+    _agent_apply(world, agents, 'help_received', 'hydration', 'feedback')
