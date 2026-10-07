@@ -13370,3 +13370,6 @@ def logic_14435(world):
 
 def logic_14436(world):
     _world_apply(world, 'biomass', 'salinity', 'gap')
+
+def logic_14437(world):
+    _world_apply(world, 'biomass', 'algae', 'direct')
