@@ -12068,3 +12068,6 @@ def logic_8089(agents, world):
 
 def logic_8090(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'last_reward', 'direct')
+
+def logic_8091(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'last_reward', 'direct')
