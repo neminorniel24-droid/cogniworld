@@ -920,3 +920,6 @@ def logic_10285(world):
 
 def logic_10286(world):
     _world_apply(world, 'runoff', 'methane', 'direct')
+
+def logic_10287(world):
+    _world_apply(world, 'runoff', 'pathogen_load', 'square')
