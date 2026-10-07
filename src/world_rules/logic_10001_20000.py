@@ -7655,3 +7655,6 @@ def logic_12530(world):
 
 def logic_12531(world):
     _world_apply(world, 'predator', 'pathogen_load', 'square')
+
+def logic_12532(world):
+    _world_apply(world, 'predator', 'biodiversity', 'pulse')
