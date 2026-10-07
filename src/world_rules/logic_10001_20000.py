@@ -8186,3 +8186,6 @@ def logic_12707(world):
 
 def logic_12708(world):
     _world_apply(world, 'oxygen', 'biodiversity', 'direct')
+
+def logic_12709(world):
+    _world_apply(world, 'oxygen', 'habitat_stress', 'square')
