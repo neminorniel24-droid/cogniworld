@@ -34525,3 +34525,10 @@ def logic_35310(agents, world):
     src = _local(world, agents, 'ice')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.sharing_score = _delta(agents.sharing_score, delta)
+
+
+def logic_35311(agents, world):
+    """Environmental evaporation shapes agent payoff (inverse)."""
+    src = _local(world, agents, 'evaporation')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.payoff = _delta(agents.payoff, delta)
