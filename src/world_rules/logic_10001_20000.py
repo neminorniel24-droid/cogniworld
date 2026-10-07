@@ -16889,3 +16889,6 @@ def logic_15608(world):
 
 def logic_15609(world):
     _world_apply(world, 'algae', 'evaporation', 'gap')
+
+def logic_15610(world):
+    _world_apply(world, 'algae', 'detritus', 'direct')
