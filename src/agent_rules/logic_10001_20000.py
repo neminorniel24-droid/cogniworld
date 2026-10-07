@@ -4472,3 +4472,6 @@ def logic_19469(agents, world):
 
 def logic_19470(agents, world):
     _agent_apply(world, agents, 'empathy', 'fitness_score', 'saturation')
+
+def logic_19471(agents, world):
+    _agent_apply(world, agents, 'attack_threshold', 'fitness_score', 'saturation')
