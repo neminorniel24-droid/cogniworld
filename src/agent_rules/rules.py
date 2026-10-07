@@ -47132,3 +47132,10 @@ def logic_37111(agents, world):
     src = _local(world, agents, 'erosion')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.neighbor_energy_gap = _delta(agents.neighbor_energy_gap, delta)
+
+
+def logic_37112(agents, world):
+    """Environmental soil_depth shapes agent local_density (square)."""
+    src = _local(world, agents, 'soil_depth')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.local_density = _delta(agents.local_density, delta)
