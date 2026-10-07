@@ -539,3 +539,6 @@ def logic_18158(agents, world):
 
 def logic_18159(agents, world):
     _agent_apply(world, agents, 'evaporation', 'alertness', 'inverse')
+
+def logic_18160(agents, world):
+    _agent_apply(world, agents, 'detritus', 'alertness', 'inverse')
