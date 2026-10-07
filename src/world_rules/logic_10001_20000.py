@@ -4013,3 +4013,6 @@ def logic_11316(world):
 
 def logic_11317(world):
     _world_apply(world, 'wetland', 'flowers', 'direct')
+
+def logic_11318(world):
+    _world_apply(world, 'wetland', 'seed_bank', 'square')
