@@ -2636,3 +2636,6 @@ def logic_4945(agents, world):
 
 def logic_4946(agents, world):
     _agent_apply(world, agents, 'root_density', 'reproduction_drive', 'direct')
+
+def logic_4947(agents, world):
+    _agent_apply(world, agents, 'wetland', 'reproduction_drive', 'direct')
