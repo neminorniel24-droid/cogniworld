@@ -27777,3 +27777,10 @@ def logic_34346(agents, world):
     src = _local(world, agents, 'detritus')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.alertness = _delta(agents.alertness, delta)
+
+
+def logic_34347(agents, world):
+    """Environmental methane shapes agent food_access (inverse)."""
+    src = _local(world, agents, 'methane')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.food_access = _delta(agents.food_access, delta)
