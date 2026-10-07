@@ -55203,3 +55203,10 @@ def logic_38264(agents, world):
     src = _local(world, agents, 'wetland')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.cooperation = _delta(agents.cooperation, delta)
+
+
+def logic_38265(agents, world):
+    """Environmental carbon_storage shapes agent sharing_capacity (root)."""
+    src = _local(world, agents, 'carbon_storage')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.sharing_capacity = _delta(agents.sharing_capacity, delta)
