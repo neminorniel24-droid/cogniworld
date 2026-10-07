@@ -20612,3 +20612,6 @@ def logic_16849(world):
 
 def logic_16850(world):
     _world_apply(world, 'evaporation', 'carbon_storage', 'direct')
+
+def logic_16851(world):
+    _world_apply(world, 'evaporation', 'fire_risk', 'square')
