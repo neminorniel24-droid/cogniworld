@@ -35162,3 +35162,10 @@ def logic_35401(agents, world):
     src = _local(world, agents, 'photosynthesis_factor')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.pathogen_risk = _delta(agents.pathogen_risk, delta)
+
+
+def logic_35402(agents, world):
+    """Environmental ice shapes agent migration_drive (direct)."""
+    src = _local(world, agents, 'ice')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.migration_drive = _delta(agents.migration_drive, delta)
