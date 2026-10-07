@@ -7502,3 +7502,6 @@ def logic_6567(agents, world):
 
 def logic_6568(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'confidence', 'direct')
+
+def logic_6569(agents, world):
+    _agent_apply(world, agents, 'ice', 'confidence', 'direct')
