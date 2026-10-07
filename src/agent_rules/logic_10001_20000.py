@@ -4739,3 +4739,6 @@ def logic_19558(agents, world):
 
 def logic_19559(agents, world):
     _agent_apply(world, agents, 'pollinators', 'migration_score', 'reciprocal')
+
+def logic_19560(agents, world):
+    _agent_apply(world, agents, 'flowers', 'migration_score', 'reciprocal')
