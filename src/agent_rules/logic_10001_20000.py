@@ -4412,3 +4412,6 @@ def logic_19449(agents, world):
 
 def logic_19450(agents, world):
     _agent_apply(world, agents, 'reputation', 'survival_score', 'saturation')
+
+def logic_19451(agents, world):
+    _agent_apply(world, agents, 'trust', 'survival_score', 'saturation')
