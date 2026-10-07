@@ -47986,3 +47986,10 @@ def logic_37233(agents, world):
     src = _local(world, agents, 'biomass')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.exploration_drive = _delta(agents.exploration_drive, delta)
+
+
+def logic_37234(agents, world):
+    """Environmental herbivore shapes agent trust (direct)."""
+    src = _local(world, agents, 'herbivore')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.trust = _delta(agents.trust, delta)
