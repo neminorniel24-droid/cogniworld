@@ -19409,3 +19409,6 @@ def logic_16448(world):
 
 def logic_16449(world):
     _world_apply(world, 'herbivore', 'habitat_stress', 'gap')
+
+def logic_16450(world):
+    _world_apply(world, 'herbivore', 'erosion', 'direct')
