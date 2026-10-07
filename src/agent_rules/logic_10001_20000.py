@@ -4709,3 +4709,6 @@ def logic_19548(agents, world):
 
 def logic_19549(agents, world):
     _agent_apply(world, agents, 'carbon_storage', 'defense_score', 'reciprocal')
+
+def logic_19550(agents, world):
+    _agent_apply(world, agents, 'fire_risk', 'defense_score', 'reciprocal')
