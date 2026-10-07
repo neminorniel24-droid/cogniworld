@@ -15560,3 +15560,6 @@ def logic_15165(world):
 
 def logic_15166(world):
     _world_apply(world, 'soil_depth', 'co2', 'direct')
+
+def logic_15167(world):
+    _world_apply(world, 'soil_depth', 'photosynthesis_factor', 'square')
