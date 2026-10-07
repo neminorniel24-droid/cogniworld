@@ -16001,3 +16001,6 @@ def logic_15312(world):
 
 def logic_15313(world):
     _world_apply(world, 'carbon_storage', 'snowpack', 'square')
+
+def logic_15314(world):
+    _world_apply(world, 'carbon_storage', 'groundwater', 'pulse')
