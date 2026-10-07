@@ -13568,3 +13568,6 @@ def logic_14501(world):
 
 def logic_14502(world):
     _world_apply(world, 'predator', 'nutrients', 'saturation')
+
+def logic_14503(world):
+    _world_apply(world, 'predator', 'decomposition_rate', 'gap')
