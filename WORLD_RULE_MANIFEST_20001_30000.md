@@ -3080,3 +3080,4 @@
 - 23079: integrated cross-system causal rule
 - 23080: integrated cross-system causal rule
 - 23081: integrated cross-system causal rule
+- 23082: integrated cross-system causal rule
