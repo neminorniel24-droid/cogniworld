@@ -6575,3 +6575,6 @@ def logic_12170(world):
 
 def logic_12171(world):
     _world_apply(world, 'rain', 'decomposition_rate', 'square')
+
+def logic_12172(world):
+    _world_apply(world, 'rain', 'oxygen', 'pulse')
