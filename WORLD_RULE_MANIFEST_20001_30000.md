@@ -8234,3 +8234,4 @@
 - 28233: integrated cross-system causal rule
 - 28234: integrated cross-system causal rule
 - 28235: integrated cross-system causal rule
+- 28236: integrated cross-system causal rule
