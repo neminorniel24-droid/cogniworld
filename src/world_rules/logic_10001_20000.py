@@ -74,3 +74,6 @@ def logic_10003(world):
 
 def logic_10004(world):
     _world_apply(world, 'temperature', 'rain', 'saturation')
+
+def logic_10005(world):
+    _world_apply(world, 'temperature', 'soil_moisture', 'gap')
