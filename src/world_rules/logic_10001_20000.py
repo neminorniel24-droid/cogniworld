@@ -15818,3 +15818,6 @@ def logic_15251(world):
 
 def logic_15252(world):
     _world_apply(world, 'wetland', 'decomposition_rate', 'pulse')
+
+def logic_15253(world):
+    _world_apply(world, 'wetland', 'oxygen', 'saturation')
