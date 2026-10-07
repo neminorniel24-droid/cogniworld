@@ -6791,3 +6791,4 @@
 - 26790: integrated cross-system causal rule
 - 26791: integrated cross-system causal rule
 - 26792: integrated cross-system causal rule
+- 26793: integrated cross-system causal rule
