@@ -2663,3 +2663,6 @@ def logic_18866(agents, world):
 
 def logic_18867(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'oxygen_need', 'feedback')
+
+def logic_18868(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'oxygen_need', 'feedback')
