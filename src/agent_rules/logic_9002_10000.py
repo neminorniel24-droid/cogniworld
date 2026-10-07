@@ -1161,3 +1161,6 @@ def logic_9561(agents, world):
 
 def logic_9562(agents, world):
     _agent_apply(world, agents, 'detritus', 'dehydration', 'direct')
+
+def logic_9563(agents, world):
+    _agent_apply(world, agents, 'methane', 'dehydration', 'direct')
