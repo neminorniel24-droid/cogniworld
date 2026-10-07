@@ -10316,3 +10316,6 @@ def logic_13417(world):
 
 def logic_13418(world):
     _world_apply(world, 'ash', 'wetland', 'gap')
+
+def logic_13419(world):
+    _world_apply(world, 'ash', 'carbon_storage', 'direct')
