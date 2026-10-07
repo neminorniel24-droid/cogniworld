@@ -2213,3 +2213,6 @@ def logic_10716(world):
 
 def logic_10717(world):
     _world_apply(world, 'oxygen', 'predator', 'direct')
+
+def logic_10718(world):
+    _world_apply(world, 'oxygen', 'carrion', 'square')
