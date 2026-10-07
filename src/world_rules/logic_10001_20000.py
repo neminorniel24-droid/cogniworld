@@ -16412,3 +16412,6 @@ def logic_15449(world):
 
 def logic_15450(world):
     _world_apply(world, 'snowpack', 'organic_matter', 'direct')
+
+def logic_15451(world):
+    _world_apply(world, 'snowpack', 'deadwood', 'square')
