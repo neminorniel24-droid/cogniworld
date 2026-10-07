@@ -206,3 +206,6 @@ def logic_4035(world):
 
 def logic_4036(world):
     _world_apply(world, 'fire_risk', 'biomass', 'square')
+
+def logic_4037(world):
+    _world_apply(world, 'fire_risk', 'deadwood', 'sqrt')
