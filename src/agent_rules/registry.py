@@ -50002,3 +50002,5 @@ from .rules import logic_39772
 RULES.append(logic_39772)
 from .rules import logic_39773
 RULES.append(logic_39773)
+from .rules import logic_39774
+RULES.append(logic_39774)
