@@ -17420,3 +17420,6 @@ def logic_15785(world):
 
 def logic_15786(world):
     _world_apply(world, 'flowers', 'detritus', 'saturation')
+
+def logic_15787(world):
+    _world_apply(world, 'flowers', 'methane', 'gap')
