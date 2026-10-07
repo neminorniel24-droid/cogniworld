@@ -1946,3 +1946,6 @@ def logic_4715(agents, world):
 
 def logic_4716(agents, world):
     _agent_apply(world, agents, 'humidity', 'fear', 'direct')
+
+def logic_4717(agents, world):
+    _agent_apply(world, agents, 'cloud', 'fear', 'direct')
