@@ -11612,3 +11612,6 @@ def logic_13849(world):
 
 def logic_13850(world):
     _world_apply(world, 'seed_bank', 'detritus', 'direct')
+
+def logic_13851(world):
+    _world_apply(world, 'seed_bank', 'methane', 'square')
