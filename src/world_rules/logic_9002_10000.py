@@ -621,3 +621,6 @@ def logic_9182(world):
 
 def logic_9183(world):
     _world_apply(world, 'humidity', 'soil_carbon', 'threshold')
+
+def logic_9184(world):
+    _world_apply(world, 'humidity', 'surface_ice', 'saturation')
