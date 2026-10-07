@@ -2675,3 +2675,6 @@ def logic_18870(agents, world):
 
 def logic_18871(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'shelter_need', 'feedback')
+
+def logic_18872(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'shelter_need', 'feedback')
