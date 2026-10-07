@@ -4199,3 +4199,6 @@ def logic_19378(agents, world):
 
 def logic_19379(agents, world):
     _agent_apply(world, agents, 'self_preservation', 'risk_score', 'threshold')
+
+def logic_19380(agents, world):
+    _agent_apply(world, agents, 'payoff', 'risk_score', 'threshold')
