@@ -3965,3 +3965,6 @@ def logic_19300(agents, world):
 
 def logic_19301(agents, world):
     _agent_apply(world, agents, 'fear', 'cooperation_score', 'pulse')
+
+def logic_19302(agents, world):
+    _agent_apply(world, agents, 'recovery', 'cooperation_score', 'pulse')
