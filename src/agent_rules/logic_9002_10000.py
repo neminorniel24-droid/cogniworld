@@ -933,3 +933,6 @@ def logic_9485(agents, world):
 
 def logic_9486(agents, world):
     _agent_apply(world, agents, 'carrion', 'thermal_stress', 'direct')
+
+def logic_9487(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'thermal_stress', 'direct')
