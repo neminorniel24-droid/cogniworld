@@ -13385,3 +13385,6 @@ def logic_8528(agents, world):
 
 def logic_8529(agents, world):
     _agent_apply(world, agents, 'wind_x', 'cooperation_score', 'direct')
+
+def logic_8530(agents, world):
+    _agent_apply(world, agents, 'wind_y', 'cooperation_score', 'direct')
