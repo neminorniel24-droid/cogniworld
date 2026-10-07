@@ -200,3 +200,6 @@ def logic_4033(world):
 
 def logic_4034(world):
     _world_apply(world, 'wetland', 'surface_water', 'direct')
+
+def logic_4035(world):
+    _world_apply(world, 'fire_risk', 'vegetation', 'inverse')
