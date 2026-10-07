@@ -14159,3 +14159,6 @@ def logic_8786(agents, world):
 
 def logic_8787(agents, world):
     _agent_apply(world, agents, 'help_received', 'reciprocity_score', 'direct')
+
+def logic_8788(agents, world):
+    _agent_apply(world, agents, 'help_given', 'reciprocity_score', 'direct')
