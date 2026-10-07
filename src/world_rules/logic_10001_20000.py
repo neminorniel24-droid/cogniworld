@@ -15974,3 +15974,6 @@ def logic_15303(world):
 
 def logic_15304(world):
     _world_apply(world, 'carbon_storage', 'pathogen_load', 'direct')
+
+def logic_15305(world):
+    _world_apply(world, 'carbon_storage', 'biodiversity', 'pulse')
