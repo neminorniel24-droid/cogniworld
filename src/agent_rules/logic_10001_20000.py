@@ -2405,3 +2405,6 @@ def logic_18780(agents, world):
 
 def logic_18781(agents, world):
     _agent_apply(world, agents, 'attack_threshold', 'resource_discovery', 'gap')
+
+def logic_18782(agents, world):
+    _agent_apply(world, agents, 'defection_threshold', 'resource_discovery', 'gap')
