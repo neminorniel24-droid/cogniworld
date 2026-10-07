@@ -4055,3 +4055,6 @@ def logic_5418(agents, world):
 
 def logic_5419(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'social_tolerance', 'direct')
+
+def logic_5420(agents, world):
+    _agent_apply(world, agents, 'erosion', 'social_tolerance', 'direct')
