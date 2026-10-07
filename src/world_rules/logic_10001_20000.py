@@ -12863,3 +12863,6 @@ def logic_14266(world):
 
 def logic_14267(world):
     _world_apply(world, 'runoff', 'soil_carbon', 'gap')
+
+def logic_14268(world):
+    _world_apply(world, 'runoff', 'surface_ice', 'direct')
