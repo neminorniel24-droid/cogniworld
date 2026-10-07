@@ -11657,3 +11657,6 @@ def logic_13864(world):
 
 def logic_13865(world):
     _world_apply(world, 'seed_bank', 'salinity', 'pulse')
+
+def logic_13866(world):
+    _world_apply(world, 'seed_bank', 'algae', 'saturation')
