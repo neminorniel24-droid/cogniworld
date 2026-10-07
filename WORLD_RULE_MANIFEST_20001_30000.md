@@ -506,3 +506,4 @@
 - 20505: integrated cross-system causal rule
 - 20506: integrated cross-system causal rule
 - 20507: integrated cross-system causal rule
+- 20508: integrated cross-system causal rule
