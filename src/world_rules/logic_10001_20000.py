@@ -9638,3 +9638,6 @@ def logic_13191(world):
 
 def logic_13192(world):
     _world_apply(world, 'soil_depth', 'pathogen_load', 'gap')
+
+def logic_13193(world):
+    _world_apply(world, 'soil_depth', 'biodiversity', 'square')
