@@ -2900,3 +2900,6 @@ def logic_5033(agents, world):
 
 def logic_5034(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'migration_drive', 'direct')
+
+def logic_5035(agents, world):
+    _agent_apply(world, agents, 'hydration', 'migration_drive', 'direct')
