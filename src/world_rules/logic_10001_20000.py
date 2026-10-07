@@ -10226,3 +10226,6 @@ def logic_13387(world):
 
 def logic_13388(world):
     _world_apply(world, 'fire_risk', 'surface_ice', 'direct')
+
+def logic_13389(world):
+    _world_apply(world, 'ash', 'temperature', 'square')
