@@ -14750,3 +14750,6 @@ def logic_14895(world):
 
 def logic_14896(world):
     _world_apply(world, 'detritus', 'herbivore', 'square')
+
+def logic_14897(world):
+    _world_apply(world, 'detritus', 'predator', 'saturation')
