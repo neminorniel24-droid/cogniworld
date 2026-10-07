@@ -1823,3 +1823,6 @@ def logic_4674(agents, world):
 
 def logic_4675(agents, world):
     _agent_apply(world, agents, 'wetland', 'alertness', 'direct')
+
+def logic_4676(agents, world):
+    _agent_apply(world, agents, 'carbon_storage', 'alertness', 'direct')
