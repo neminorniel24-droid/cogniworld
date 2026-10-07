@@ -359,3 +359,6 @@ def logic_4086(world):
 
 def logic_4087(world):
     _world_apply(world, 'nutrients', 'algae', 'threshold')
+
+def logic_4088(world):
+    _world_apply(world, 'algae', 'surface_water', 'saturation')
