@@ -12899,3 +12899,6 @@ def logic_14278(world):
 
 def logic_14279(world):
     _world_apply(world, 'wind_x', 'herbivore', 'pulse')
+
+def logic_14280(world):
+    _world_apply(world, 'wind_x', 'predator', 'saturation')
