@@ -11225,3 +11225,6 @@ def logic_13720(world):
 
 def logic_13721(world):
     _world_apply(world, 'deadwood', 'biodiversity', 'direct')
+
+def logic_13722(world):
+    _world_apply(world, 'deadwood', 'habitat_stress', 'square')
