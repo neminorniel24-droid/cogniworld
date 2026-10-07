@@ -7973,3 +7973,6 @@ def logic_12636(world):
 
 def logic_12637(world):
     _world_apply(world, 'nutrients', 'flowers', 'direct')
+
+def logic_12638(world):
+    _world_apply(world, 'nutrients', 'seed_bank', 'square')
