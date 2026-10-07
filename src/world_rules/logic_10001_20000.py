@@ -13955,3 +13955,6 @@ def logic_14630(world):
 
 def logic_14631(world):
     _world_apply(world, 'decomposition_rate', 'biomass', 'saturation')
+
+def logic_14632(world):
+    _world_apply(world, 'decomposition_rate', 'herbivore', 'gap')
