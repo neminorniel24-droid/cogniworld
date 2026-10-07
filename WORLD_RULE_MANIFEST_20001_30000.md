@@ -4922,3 +4922,4 @@
 - 24921: integrated cross-system causal rule
 - 24922: integrated cross-system causal rule
 - 24923: integrated cross-system causal rule
+- 24924: integrated cross-system causal rule
