@@ -15308,3 +15308,6 @@ def logic_15081(world):
 
 def logic_15082(world):
     _world_apply(world, 'habitat_stress', 'detritus', 'square')
+
+def logic_15083(world):
+    _world_apply(world, 'habitat_stress', 'methane', 'pulse')
