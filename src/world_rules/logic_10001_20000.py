@@ -7178,3 +7178,6 @@ def logic_12371(world):
 
 def logic_12372(world):
     _world_apply(world, 'wind_y', 'pollinators', 'pulse')
+
+def logic_12373(world):
+    _world_apply(world, 'wind_y', 'flowers', 'saturation')
