@@ -12023,3 +12023,6 @@ def logic_8074(agents, world):
 
 def logic_8075(agents, world):
     _agent_apply(world, agents, 'wetland', 'last_reward', 'direct')
+
+def logic_8076(agents, world):
+    _agent_apply(world, agents, 'carbon_storage', 'last_reward', 'direct')
