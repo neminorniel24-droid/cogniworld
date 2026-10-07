@@ -11732,3 +11732,6 @@ def logic_13889(world):
 
 def logic_13890(world):
     _world_apply(world, 'soil_carbon', 'co2', 'direct')
+
+def logic_13891(world):
+    _world_apply(world, 'soil_carbon', 'photosynthesis_factor', 'square')
