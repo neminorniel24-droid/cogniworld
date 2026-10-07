@@ -975,3 +975,6 @@ def logic_9499(agents, world):
 
 def logic_9500(agents, world):
     _agent_apply(world, agents, 'soil_depth', 'thermal_stress', 'direct')
+
+def logic_9501(agents, world):
+    _agent_apply(world, agents, 'root_density', 'thermal_stress', 'direct')
