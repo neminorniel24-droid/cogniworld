@@ -440,3 +440,6 @@ def logic_10125(world):
 
 def logic_10126(world):
     _world_apply(world, 'humidity', 'organic_matter', 'direct')
+
+def logic_10127(world):
+    _world_apply(world, 'humidity', 'deadwood', 'square')
