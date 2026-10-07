@@ -2996,3 +2996,6 @@ def logic_18977(agents, world):
 
 def logic_18978(agents, world):
     _agent_apply(world, agents, 'herbivore', 'social_need', 'direct')
+
+def logic_18979(agents, world):
+    _agent_apply(world, agents, 'predator', 'social_need', 'direct')
