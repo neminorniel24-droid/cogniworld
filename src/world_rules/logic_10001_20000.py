@@ -20012,3 +20012,6 @@ def logic_16649(world):
 
 def logic_16650(world):
     _world_apply(world, 'oxygen', 'soil_moisture', 'direct')
+
+def logic_16651(world):
+    _world_apply(world, 'oxygen', 'runoff', 'square')
