@@ -19751,3 +19751,6 @@ def logic_16562(world):
 
 def logic_16563(world):
     _world_apply(world, 'nutrients', 'runoff', 'pulse')
+
+def logic_16564(world):
+    _world_apply(world, 'nutrients', 'wind_x', 'saturation')
