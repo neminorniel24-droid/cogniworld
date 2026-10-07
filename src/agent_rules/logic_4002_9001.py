@@ -7484,3 +7484,6 @@ def logic_6561(agents, world):
 
 def logic_6562(agents, world):
     _agent_apply(world, agents, 'predator', 'confidence', 'direct')
+
+def logic_6563(agents, world):
+    _agent_apply(world, agents, 'carrion', 'confidence', 'direct')
