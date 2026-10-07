@@ -2750,3 +2750,6 @@ def logic_10895(world):
 
 def logic_10896(world):
     _world_apply(world, 'evaporation', 'decomposition_rate', 'square')
+
+def logic_10897(world):
+    _world_apply(world, 'evaporation', 'oxygen', 'saturation')
