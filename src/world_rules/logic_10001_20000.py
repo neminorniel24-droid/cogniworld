@@ -13961,3 +13961,6 @@ def logic_14632(world):
 
 def logic_14633(world):
     _world_apply(world, 'decomposition_rate', 'predator', 'square')
+
+def logic_14634(world):
+    _world_apply(world, 'decomposition_rate', 'carrion', 'pulse')
