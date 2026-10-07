@@ -6743,3 +6743,6 @@ def logic_6314(agents, world):
 
 def logic_6315(agents, world):
     _agent_apply(world, agents, 'algae', 'selfishness', 'direct')
+
+def logic_6316(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'selfishness', 'direct')
