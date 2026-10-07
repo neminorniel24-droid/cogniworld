@@ -3668,3 +3668,6 @@ def logic_11201(world):
 
 def logic_11202(world):
     _world_apply(world, 'soil_depth', 'carrion', 'square')
+
+def logic_11203(world):
+    _world_apply(world, 'soil_depth', 'nutrients', 'pulse')
