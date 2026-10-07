@@ -11537,3 +11537,6 @@ def logic_7912(agents, world):
 
 def logic_7913(agents, world):
     _agent_apply(world, agents, 'cloud', 'help_given', 'direct')
+
+def logic_7914(agents, world):
+    _agent_apply(world, agents, 'rain', 'help_given', 'direct')
