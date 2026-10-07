@@ -42085,3 +42085,10 @@ def logic_36390(agents, world):
     src = _local(world, agents, 'flowers')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.attack_success = _delta(agents.attack_success, delta)
+
+
+def logic_36391(agents, world):
+    """Environmental seed_bank shapes agent strategy_mixing (inverse)."""
+    src = _local(world, agents, 'seed_bank')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.strategy_mixing = _delta(agents.strategy_mixing, delta)
