@@ -468,3 +468,4 @@
 - 20467: integrated cross-system causal rule
 - 20468: integrated cross-system causal rule
 - 20469: integrated cross-system causal rule
+- 20470: integrated cross-system causal rule
