@@ -21380,3 +21380,6 @@ def logic_17105(world):
 
 def logic_17106(world):
     _world_apply(world, 'erosion', 'detritus', 'saturation')
+
+def logic_17107(world):
+    _world_apply(world, 'erosion', 'methane', 'gap')
