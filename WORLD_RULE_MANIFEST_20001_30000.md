@@ -4038,3 +4038,4 @@
 - 24037: integrated cross-system causal rule
 - 24038: integrated cross-system causal rule
 - 24039: integrated cross-system causal rule
+- 24040: integrated cross-system causal rule
