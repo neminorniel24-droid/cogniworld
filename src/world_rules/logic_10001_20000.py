@@ -8009,3 +8009,6 @@ def logic_12648(world):
 
 def logic_12649(world):
     _world_apply(world, 'decomposition_rate', 'wind_y', 'gap')
+
+def logic_12650(world):
+    _world_apply(world, 'decomposition_rate', 'vegetation', 'direct')
