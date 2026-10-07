@@ -2500,3 +2500,4 @@
 - 22499: integrated cross-system causal rule
 - 22500: integrated cross-system causal rule
 - 22501: integrated cross-system causal rule
+- 22502: integrated cross-system causal rule
