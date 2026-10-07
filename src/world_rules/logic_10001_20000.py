@@ -2288,3 +2288,6 @@ def logic_10741(world):
 
 def logic_10742(world):
     _world_apply(world, 'oxygen', 'organic_matter', 'saturation')
+
+def logic_10743(world):
+    _world_apply(world, 'oxygen', 'deadwood', 'gap')
