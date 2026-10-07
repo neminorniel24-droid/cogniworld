@@ -20663,3 +20663,6 @@ def logic_16866(world):
 
 def logic_16867(world):
     _world_apply(world, 'detritus', 'humidity', 'gap')
+
+def logic_16868(world):
+    _world_apply(world, 'detritus', 'cloud', 'direct')
