@@ -20,3 +20,4 @@
 - 20019: integrated cross-system causal rule
 - 20020: integrated cross-system causal rule
 - 20021: integrated cross-system causal rule
+- 20022: integrated cross-system causal rule
