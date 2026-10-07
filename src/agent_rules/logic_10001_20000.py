@@ -665,3 +665,6 @@ def logic_18200(agents, world):
 
 def logic_18201(agents, world):
     _agent_apply(world, agents, 'migration_drive', 'recovery', 'square')
+
+def logic_18202(agents, world):
+    _agent_apply(world, agents, 'exploration_drive', 'recovery', 'square')
