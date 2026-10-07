@@ -17918,3 +17918,6 @@ def logic_15951(world):
 
 def logic_15952(world):
     _world_apply(world, 'temperature', 'predator', 'gap')
+
+def logic_15953(world):
+    _world_apply(world, 'temperature', 'carrion', 'square')
