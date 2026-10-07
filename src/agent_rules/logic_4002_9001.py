@@ -8606,3 +8606,6 @@ def logic_6935(agents, world):
 
 def logic_6936(agents, world):
     _agent_apply(world, agents, 'resource_abundance', 'attack_threshold', 'direct')
+
+def logic_6937(agents, world):
+    _agent_apply(world, agents, 'energy_surplus', 'attack_threshold', 'direct')
