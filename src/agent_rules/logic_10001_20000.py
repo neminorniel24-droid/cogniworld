@@ -338,3 +338,6 @@ def logic_18091(agents, world):
 
 def logic_18092(agents, world):
     _agent_apply(world, agents, 'defection_threshold', 'thermal_stress', 'inverse')
+
+def logic_18093(agents, world):
+    _agent_apply(world, agents, 'oxygen_need', 'thermal_stress', 'inverse')
