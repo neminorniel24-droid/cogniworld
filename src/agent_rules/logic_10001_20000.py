@@ -536,3 +536,6 @@ def logic_18157(agents, world):
 
 def logic_18158(agents, world):
     _agent_apply(world, agents, 'ice', 'infection_risk', 'inverse')
+
+def logic_18159(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'alertness', 'inverse')
