@@ -2732,3 +2732,6 @@ def logic_18889(agents, world):
 
 def logic_18890(agents, world):
     _agent_apply(world, agents, 'reproduction_drive', 'fire_fear', 'feedback')
+
+def logic_18891(agents, world):
+    _agent_apply(world, agents, 'migration_drive', 'fire_fear', 'direct')
