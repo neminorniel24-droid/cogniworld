@@ -13415,3 +13415,6 @@ def logic_8538(agents, world):
 
 def logic_8539(agents, world):
     _agent_apply(world, agents, 'co2', 'cooperation_score', 'direct')
+
+def logic_8540(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'cooperation_score', 'direct')
