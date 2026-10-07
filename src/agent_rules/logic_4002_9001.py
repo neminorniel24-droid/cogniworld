@@ -8444,3 +8444,6 @@ def logic_6881(agents, world):
 
 def logic_6882(agents, world):
     _agent_apply(world, agents, 'reputation', 'empathy', 'direct')
+
+def logic_6883(agents, world):
+    _agent_apply(world, agents, 'help_received', 'empathy', 'direct')
