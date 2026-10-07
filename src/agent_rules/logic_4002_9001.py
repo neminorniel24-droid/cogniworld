@@ -4202,3 +4202,6 @@ def logic_5467(agents, world):
 
 def logic_5468(agents, world):
     _agent_apply(world, agents, 'runoff', 'reputation', 'direct')
+
+def logic_5469(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'reputation', 'direct')
