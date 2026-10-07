@@ -40447,3 +40447,10 @@ def logic_36156(agents, world):
     src = _local(world, agents, 'algae')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.empathy = _delta(agents.empathy, delta)
+
+
+def logic_36157(agents, world):
+    """Environmental organic_matter shapes agent vegetation_expectation (root)."""
+    src = _local(world, agents, 'organic_matter')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.vegetation_expectation = _delta(agents.vegetation_expectation, delta)
