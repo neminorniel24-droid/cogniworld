@@ -296,3 +296,6 @@ def logic_18077(agents, world):
 
 def logic_18078(agents, world):
     _agent_apply(world, agents, 'group_stability', 'health', 'direct')
+
+def logic_18079(agents, world):
+    _agent_apply(world, agents, 'sharing_capacity', 'health', 'direct')
