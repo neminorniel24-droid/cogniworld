@@ -149,3 +149,6 @@ def logic_18028(agents, world):
 
 def logic_18029(agents, world):
     _agent_apply(world, agents, 'root_density', 'thirst', 'direct')
+
+def logic_18030(agents, world):
+    _agent_apply(world, agents, 'wetland', 'thirst', 'direct')
