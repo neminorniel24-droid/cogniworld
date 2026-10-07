@@ -1517,3 +1517,6 @@ def logic_10484(world):
 
 def logic_10485(world):
     _world_apply(world, 'herbivore', 'temperature', 'gap')
+
+def logic_10486(world):
+    _world_apply(world, 'herbivore', 'surface_water', 'direct')
