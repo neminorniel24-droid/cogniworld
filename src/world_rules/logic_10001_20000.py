@@ -9959,3 +9959,6 @@ def logic_13298(world):
 
 def logic_13299(world):
     _world_apply(world, 'wetland', 'soil_carbon', 'direct')
+
+def logic_13300(world):
+    _world_apply(world, 'wetland', 'surface_ice', 'square')
