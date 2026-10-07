@@ -4973,3 +4973,6 @@ def logic_5724(agents, world):
 
 def logic_5725(agents, world):
     _agent_apply(world, agents, 'trust', 'defection', 'direct')
+
+def logic_5726(agents, world):
+    _agent_apply(world, agents, 'reputation', 'defection', 'direct')
