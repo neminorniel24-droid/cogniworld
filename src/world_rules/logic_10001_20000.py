@@ -22898,3 +22898,6 @@ def logic_17611(world):
 
 def logic_17612(world):
     _world_apply(world, 'algae', 'surface_ice', 'pulse')
+
+def logic_17613(world):
+    _world_apply(world, 'organic_matter', 'temperature', 'saturation')
