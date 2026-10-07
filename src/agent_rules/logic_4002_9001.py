@@ -8303,3 +8303,6 @@ def logic_6834(agents, world):
 
 def logic_6835(agents, world):
     _agent_apply(world, agents, 'carrion', 'empathy', 'direct')
+
+def logic_6836(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'empathy', 'direct')
