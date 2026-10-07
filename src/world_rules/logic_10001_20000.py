@@ -4988,3 +4988,6 @@ def logic_11641(world):
 
 def logic_11642(world):
     _world_apply(world, 'algae', 'carrion', 'square')
+
+def logic_11643(world):
+    _world_apply(world, 'algae', 'nutrients', 'pulse')
