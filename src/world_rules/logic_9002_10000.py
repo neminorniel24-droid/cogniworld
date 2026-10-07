@@ -210,3 +210,6 @@ def logic_9045(world):
 
 def logic_9046(world):
     _world_apply(world, 'wetland', 'biodiversity', 'pulse')
+
+def logic_9047(world):
+    _world_apply(world, 'biodiversity', 'habitat_stress', 'threshold')
