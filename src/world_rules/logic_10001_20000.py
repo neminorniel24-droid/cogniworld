@@ -13640,3 +13640,6 @@ def logic_14525(world):
 
 def logic_14526(world):
     _world_apply(world, 'predator', 'organic_matter', 'direct')
+
+def logic_14527(world):
+    _world_apply(world, 'predator', 'deadwood', 'square')
