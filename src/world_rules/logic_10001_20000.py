@@ -7025,3 +7025,6 @@ def logic_12320(world):
 
 def logic_12321(world):
     _world_apply(world, 'wind_x', 'snowpack', 'direct')
+
+def logic_12322(world):
+    _world_apply(world, 'wind_x', 'groundwater', 'square')
