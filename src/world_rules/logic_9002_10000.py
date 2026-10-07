@@ -333,3 +333,6 @@ def logic_9086(world):
 
 def logic_9087(world):
     _world_apply(world, 'temperature', 'wetland', 'threshold')
+
+def logic_9088(world):
+    _world_apply(world, 'temperature', 'carbon_storage', 'saturation')
