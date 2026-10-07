@@ -2192,3 +2192,6 @@ def logic_10709(world):
 
 def logic_10710(world):
     _world_apply(world, 'oxygen', 'soil_moisture', 'pulse')
+
+def logic_10711(world):
+    _world_apply(world, 'oxygen', 'runoff', 'saturation')
