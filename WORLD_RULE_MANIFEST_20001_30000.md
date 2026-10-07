@@ -6494,3 +6494,4 @@
 - 26493: integrated cross-system causal rule
 - 26494: integrated cross-system causal rule
 - 26495: integrated cross-system causal rule
+- 26496: integrated cross-system causal rule
