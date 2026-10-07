@@ -7781,3 +7781,4 @@
 - 27780: integrated cross-system causal rule
 - 27781: integrated cross-system causal rule
 - 27782: integrated cross-system causal rule
+- 27783: integrated cross-system causal rule
