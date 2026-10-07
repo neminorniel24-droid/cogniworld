@@ -5268,3 +5268,4 @@
 - 25267: integrated cross-system causal rule
 - 25268: integrated cross-system causal rule
 - 25269: integrated cross-system causal rule
+- 25270: integrated cross-system causal rule
