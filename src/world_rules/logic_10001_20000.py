@@ -794,3 +794,6 @@ def logic_10243(world):
 
 def logic_10244(world):
     _world_apply(world, 'soil_moisture', 'biodiversity', 'saturation')
+
+def logic_10245(world):
+    _world_apply(world, 'soil_moisture', 'habitat_stress', 'gap')
