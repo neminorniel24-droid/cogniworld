@@ -20102,3 +20102,6 @@ def logic_16679(world):
 
 def logic_16680(world):
     _world_apply(world, 'oxygen', 'salinity', 'saturation')
+
+def logic_16681(world):
+    _world_apply(world, 'oxygen', 'algae', 'direct')
