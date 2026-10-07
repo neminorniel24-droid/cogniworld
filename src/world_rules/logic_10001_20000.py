@@ -9557,3 +9557,6 @@ def logic_13164(world):
 
 def logic_13165(world):
     _world_apply(world, 'erosion', 'flowers', 'gap')
+
+def logic_13166(world):
+    _world_apply(world, 'erosion', 'seed_bank', 'direct')
