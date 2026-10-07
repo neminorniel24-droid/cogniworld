@@ -48000,3 +48000,10 @@ def logic_37235(agents, world):
     src = _local(world, agents, 'predator')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.group_stability = _delta(agents.group_stability, delta)
+
+
+def logic_37236(agents, world):
+    """Environmental carrion shapes agent caution (square)."""
+    src = _local(world, agents, 'carrion')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.caution = _delta(agents.caution, delta)
