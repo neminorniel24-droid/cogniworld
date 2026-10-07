@@ -2018,3 +2018,6 @@ def logic_10651(world):
 
 def logic_10652(world):
     _world_apply(world, 'nutrients', 'salinity', 'pulse')
+
+def logic_10653(world):
+    _world_apply(world, 'nutrients', 'algae', 'saturation')
