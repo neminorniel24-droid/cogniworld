@@ -11114,3 +11114,6 @@ def logic_13683(world):
 
 def logic_13684(world):
     _world_apply(world, 'organic_matter', 'fire_risk', 'saturation')
+
+def logic_13685(world):
+    _world_apply(world, 'organic_matter', 'ash', 'gap')
