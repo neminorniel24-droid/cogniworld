@@ -1913,3 +1913,6 @@ def logic_4704(agents, world):
 
 def logic_4705(agents, world):
     _agent_apply(world, agents, 'trust', 'alertness', 'direct')
+
+def logic_4706(agents, world):
+    _agent_apply(world, agents, 'reputation', 'alertness', 'direct')
