@@ -8753,3 +8753,6 @@ def logic_6984(agents, world):
 
 def logic_6985(agents, world):
     _agent_apply(world, agents, 'soil_depth', 'defection_threshold', 'direct')
+
+def logic_6986(agents, world):
+    _agent_apply(world, agents, 'root_density', 'defection_threshold', 'direct')
