@@ -41644,3 +41644,10 @@ def logic_36327(agents, world):
     src = _local(world, agents, 'biodiversity')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.reproduction_score = _delta(agents.reproduction_score, delta)
+
+
+def logic_36328(agents, world):
+    """Environmental habitat_stress shapes agent self_preservation (square)."""
+    src = _local(world, agents, 'habitat_stress')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.self_preservation = _delta(agents.self_preservation, delta)
