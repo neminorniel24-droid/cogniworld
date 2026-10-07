@@ -19559,3 +19559,6 @@ def logic_16498(world):
 
 def logic_16499(world):
     _world_apply(world, 'predator', 'fire_risk', 'direct')
+
+def logic_16500(world):
+    _world_apply(world, 'predator', 'ash', 'square')
