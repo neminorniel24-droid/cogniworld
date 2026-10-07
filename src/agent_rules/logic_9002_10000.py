@@ -396,3 +396,6 @@ def logic_9306(agents, world):
 
 def logic_9307(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'thirst', 'direct')
+
+def logic_9308(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'thirst', 'direct')
