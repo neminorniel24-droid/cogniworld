@@ -12335,3 +12335,6 @@ def logic_8178(agents, world):
 
 def logic_8179(agents, world):
     _agent_apply(world, agents, 'survival_score', 'last_energy_delta', 'direct')
+
+def logic_8180(agents, world):
+    _agent_apply(world, agents, 'fitness_score', 'last_energy_delta', 'direct')
