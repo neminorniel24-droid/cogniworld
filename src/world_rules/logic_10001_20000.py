@@ -13772,3 +13772,6 @@ def logic_14569(world):
 
 def logic_14570(world):
     _world_apply(world, 'carrion', 'organic_matter', 'direct')
+
+def logic_14571(world):
+    _world_apply(world, 'carrion', 'deadwood', 'square')
