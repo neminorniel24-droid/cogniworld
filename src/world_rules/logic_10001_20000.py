@@ -380,3 +380,6 @@ def logic_10105(world):
 
 def logic_10106(world):
     _world_apply(world, 'humidity', 'photosynthesis_factor', 'saturation')
+
+def logic_10107(world):
+    _world_apply(world, 'humidity', 'ice', 'gap')
