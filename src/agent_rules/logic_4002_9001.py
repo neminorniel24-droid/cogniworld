@@ -341,3 +341,6 @@ def logic_4180(agents, world):
 
 def logic_4181(agents, world):
     _agent_apply(world, agents, 'herbivore', 'thirst', 'direct')
+
+def logic_4182(agents, world):
+    _agent_apply(world, agents, 'predator', 'thirst', 'direct')
