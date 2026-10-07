@@ -23240,3 +23240,6 @@ def logic_17725(world):
 
 def logic_17726(world):
     _world_apply(world, 'pollinators', 'habitat_stress', 'direct')
+
+def logic_17727(world):
+    _world_apply(world, 'pollinators', 'erosion', 'square')
