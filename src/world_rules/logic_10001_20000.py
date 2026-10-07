@@ -6512,3 +6512,6 @@ def logic_12149(world):
 
 def logic_12150(world):
     _world_apply(world, 'cloud', 'organic_matter', 'pulse')
+
+def logic_12151(world):
+    _world_apply(world, 'cloud', 'deadwood', 'saturation')
