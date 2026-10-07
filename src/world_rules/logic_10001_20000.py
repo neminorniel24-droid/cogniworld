@@ -20063,3 +20063,6 @@ def logic_16666(world):
 
 def logic_16667(world):
     _world_apply(world, 'oxygen', 'pathogen_load', 'gap')
+
+def logic_16668(world):
+    _world_apply(world, 'oxygen', 'biodiversity', 'direct')
