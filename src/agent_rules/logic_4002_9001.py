@@ -5270,3 +5270,6 @@ def logic_5823(agents, world):
 
 def logic_5824(agents, world):
     _agent_apply(world, agents, 'methane', 'conflict_pressure', 'direct')
+
+def logic_5825(agents, world):
+    _agent_apply(world, agents, 'pathogen_load', 'conflict_pressure', 'direct')
