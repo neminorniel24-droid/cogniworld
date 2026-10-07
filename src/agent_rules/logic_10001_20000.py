@@ -485,3 +485,6 @@ def logic_18140(agents, world):
 
 def logic_18141(agents, world):
     _agent_apply(world, agents, 'humidity', 'infection_risk', 'inverse')
+
+def logic_18142(agents, world):
+    _agent_apply(world, agents, 'cloud', 'infection_risk', 'inverse')
