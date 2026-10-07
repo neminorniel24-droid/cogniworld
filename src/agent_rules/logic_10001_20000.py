@@ -3911,3 +3911,6 @@ def logic_19282(agents, world):
 
 def logic_19283(agents, world):
     _agent_apply(world, agents, 'pollinators', 'cooperation_score', 'pulse')
+
+def logic_19284(agents, world):
+    _agent_apply(world, agents, 'flowers', 'cooperation_score', 'pulse')
