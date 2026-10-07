@@ -5933,3 +5933,6 @@ def logic_11956(world):
 
 def logic_11957(world):
     _world_apply(world, 'surface_ice', 'evaporation', 'direct')
+
+def logic_11958(world):
+    _world_apply(world, 'surface_ice', 'detritus', 'square')
