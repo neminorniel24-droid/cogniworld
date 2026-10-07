@@ -1838,3 +1838,6 @@ def logic_10591(world):
 
 def logic_10592(world):
     _world_apply(world, 'carrion', 'evaporation', 'gap')
+
+def logic_10593(world):
+    _world_apply(world, 'carrion', 'detritus', 'square')
