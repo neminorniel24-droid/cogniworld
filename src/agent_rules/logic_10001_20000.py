@@ -5060,3 +5060,6 @@ def logic_19665(agents, world):
 
 def logic_19666(agents, world):
     _agent_apply(world, agents, 'vegetation', 'learning_rate', 'gap')
+
+def logic_19667(agents, world):
+    _agent_apply(world, agents, 'biomass', 'learning_rate', 'gap')
