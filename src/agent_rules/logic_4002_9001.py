@@ -3158,3 +3158,6 @@ def logic_5119(agents, world):
 
 def logic_5120(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'exploration_drive', 'direct')
+
+def logic_5121(agents, world):
+    _agent_apply(world, agents, 'payoff', 'exploration_drive', 'direct')
