@@ -7067,3 +7067,6 @@ def logic_12334(world):
 
 def logic_12335(world):
     _world_apply(world, 'wind_y', 'humidity', 'direct')
+
+def logic_12336(world):
+    _world_apply(world, 'wind_y', 'cloud', 'square')
