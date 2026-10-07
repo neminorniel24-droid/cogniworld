@@ -204,3 +204,6 @@ def logic_9043(world):
 
 def logic_9044(world):
     _world_apply(world, 'temperature', 'pathogen_load', 'square')
+
+def logic_9045(world):
+    _world_apply(world, 'surface_water', 'pathogen_load', 'sqrt')
