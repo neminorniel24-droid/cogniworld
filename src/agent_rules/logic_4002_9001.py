@@ -8228,3 +8228,6 @@ def logic_6809(agents, world):
 
 def logic_6810(agents, world):
     _agent_apply(world, agents, 'social_need', 'resource_discovery', 'direct')
+
+def logic_6811(agents, world):
+    _agent_apply(world, agents, 'cooperation', 'resource_discovery', 'direct')
