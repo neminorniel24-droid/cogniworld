@@ -10793,3 +10793,6 @@ def logic_7664(agents, world):
 
 def logic_7665(agents, world):
     _agent_apply(world, agents, 'soil_depth', 'betrayal_memory', 'direct')
+
+def logic_7666(agents, world):
+    _agent_apply(world, agents, 'root_density', 'betrayal_memory', 'direct')
