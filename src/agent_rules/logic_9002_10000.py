@@ -471,3 +471,6 @@ def logic_9331(agents, world):
 
 def logic_9332(agents, world):
     _agent_apply(world, agents, 'local_density', 'thirst', 'direct')
+
+def logic_9333(agents, world):
+    _agent_apply(world, agents, 'strategy_score', 'thirst', 'direct')
