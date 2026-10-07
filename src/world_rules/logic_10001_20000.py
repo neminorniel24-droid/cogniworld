@@ -11990,3 +11990,6 @@ def logic_13975(world):
 
 def logic_13976(world):
     _world_apply(world, 'temperature', 'oxygen', 'square')
+
+def logic_13977(world):
+    _world_apply(world, 'temperature', 'co2', 'saturation')
