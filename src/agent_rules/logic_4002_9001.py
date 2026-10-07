@@ -8519,3 +8519,6 @@ def logic_6906(agents, world):
 
 def logic_6907(agents, world):
     _agent_apply(world, agents, 'co2', 'attack_threshold', 'direct')
+
+def logic_6908(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'attack_threshold', 'direct')
