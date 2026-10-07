@@ -11780,3 +11780,6 @@ def logic_7993(agents, world):
 
 def logic_7994(agents, world):
     _agent_apply(world, agents, 'oxygen', 'local_density', 'direct')
+
+def logic_7995(agents, world):
+    _agent_apply(world, agents, 'co2', 'local_density', 'direct')
