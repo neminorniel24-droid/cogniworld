@@ -6392,3 +6392,6 @@ def logic_12109(world):
 
 def logic_12110(world):
     _world_apply(world, 'humidity', 'seed_bank', 'pulse')
+
+def logic_12111(world):
+    _world_apply(world, 'humidity', 'soil_carbon', 'saturation')
