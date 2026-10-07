@@ -16616,3 +16616,6 @@ def logic_15517(world):
 
 def logic_15518(world):
     _world_apply(world, 'sediment', 'co2', 'square')
+
+def logic_15519(world):
+    _world_apply(world, 'sediment', 'photosynthesis_factor', 'pulse')
