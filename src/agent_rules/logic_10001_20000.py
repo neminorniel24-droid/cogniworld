@@ -569,3 +569,6 @@ def logic_18168(agents, world):
 
 def logic_18169(agents, world):
     _agent_apply(world, agents, 'carbon_storage', 'alertness', 'inverse')
+
+def logic_18170(agents, world):
+    _agent_apply(world, agents, 'fire_risk', 'alertness', 'inverse')
