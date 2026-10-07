@@ -720,3 +720,6 @@ def logic_9414(agents, world):
 
 def logic_9415(agents, world):
     _agent_apply(world, agents, 'biomass', 'health', 'direct')
+
+def logic_9416(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'health', 'direct')
