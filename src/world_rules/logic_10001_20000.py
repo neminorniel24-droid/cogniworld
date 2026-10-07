@@ -15254,3 +15254,6 @@ def logic_15063(world):
 
 def logic_15064(world):
     _world_apply(world, 'habitat_stress', 'cloud', 'direct')
+
+def logic_15065(world):
+    _world_apply(world, 'habitat_stress', 'rain', 'pulse')
