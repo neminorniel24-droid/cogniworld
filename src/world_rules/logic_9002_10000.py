@@ -645,3 +645,6 @@ def logic_9190(world):
 
 def logic_9191(world):
     _world_apply(world, 'cloud', 'vegetation', 'threshold')
+
+def logic_9192(world):
+    _world_apply(world, 'cloud', 'biomass', 'saturation')
