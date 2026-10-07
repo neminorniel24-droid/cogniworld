@@ -40041,3 +40041,10 @@ def logic_36098(agents, world):
     src = _local(world, agents, 'habitat_stress')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.migration_score = _delta(agents.migration_score, delta)
+
+
+def logic_36099(agents, world):
+    """Environmental erosion shapes agent future_payoff_weight (inverse)."""
+    src = _local(world, agents, 'erosion')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.future_payoff_weight = _delta(agents.future_payoff_weight, delta)
