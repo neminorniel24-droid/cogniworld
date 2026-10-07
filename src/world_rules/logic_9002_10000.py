@@ -579,3 +579,6 @@ def logic_9168(world):
 
 def logic_9169(world):
     _world_apply(world, 'humidity', 'wetland', 'reciprocal')
+
+def logic_9170(world):
+    _world_apply(world, 'humidity', 'carbon_storage', 'direct')
