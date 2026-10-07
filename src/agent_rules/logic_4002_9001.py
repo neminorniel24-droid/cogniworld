@@ -10613,3 +10613,6 @@ def logic_7604(agents, world):
 
 def logic_7605(agents, world):
     _agent_apply(world, agents, 'sediment', 'neighbor_health_gap', 'direct')
+
+def logic_7606(agents, world):
+    _agent_apply(world, agents, 'salinity', 'neighbor_health_gap', 'direct')
