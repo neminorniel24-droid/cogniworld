@@ -312,3 +312,6 @@ def logic_9079(world):
 
 def logic_9080(world):
     _world_apply(world, 'temperature', 'detritus', 'saturation')
+
+def logic_9081(world):
+    _world_apply(world, 'temperature', 'methane', 'reciprocal')
