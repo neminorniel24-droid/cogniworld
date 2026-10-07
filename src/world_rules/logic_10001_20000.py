@@ -11129,3 +11129,6 @@ def logic_13688(world):
 
 def logic_13689(world):
     _world_apply(world, 'organic_matter', 'salinity', 'gap')
+
+def logic_13690(world):
+    _world_apply(world, 'organic_matter', 'algae', 'direct')
