@@ -3008,3 +3008,6 @@ def logic_5069(agents, world):
 
 def logic_5070(agents, world):
     _agent_apply(world, agents, 'oxygen', 'exploration_drive', 'direct')
+
+def logic_5071(agents, world):
+    _agent_apply(world, agents, 'co2', 'exploration_drive', 'direct')
