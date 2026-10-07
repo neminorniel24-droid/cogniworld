@@ -10715,3 +10715,6 @@ def logic_13550(world):
 
 def logic_13551(world):
     _world_apply(world, 'sediment', 'carbon_storage', 'saturation')
+
+def logic_13552(world):
+    _world_apply(world, 'sediment', 'fire_risk', 'gap')
