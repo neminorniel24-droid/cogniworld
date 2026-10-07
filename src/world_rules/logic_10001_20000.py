@@ -9545,3 +9545,6 @@ def logic_13160(world):
 
 def logic_13161(world):
     _world_apply(world, 'erosion', 'algae', 'direct')
+
+def logic_13162(world):
+    _world_apply(world, 'erosion', 'organic_matter', 'square')
