@@ -14321,3 +14321,6 @@ def logic_14752(world):
 
 def logic_14753(world):
     _world_apply(world, 'photosynthesis_factor', 'temperature', 'square')
+
+def logic_14754(world):
+    _world_apply(world, 'photosynthesis_factor', 'surface_water', 'pulse')
