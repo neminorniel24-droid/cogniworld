@@ -660,3 +660,6 @@ def logic_9394(agents, world):
 
 def logic_9395(agents, world):
     _agent_apply(world, agents, 'defection', 'hunger', 'direct')
+
+def logic_9396(agents, world):
+    _agent_apply(world, agents, 'trust', 'hunger', 'direct')
