@@ -4880,3 +4880,6 @@ def logic_11605(world):
 
 def logic_11606(world):
     _world_apply(world, 'salinity', 'detritus', 'direct')
+
+def logic_11607(world):
+    _world_apply(world, 'salinity', 'methane', 'square')
