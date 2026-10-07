@@ -10229,3 +10229,6 @@ def logic_13388(world):
 
 def logic_13389(world):
     _world_apply(world, 'ash', 'temperature', 'square')
+
+def logic_13390(world):
+    _world_apply(world, 'ash', 'surface_water', 'pulse')
