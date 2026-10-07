@@ -22640,3 +22640,6 @@ def logic_17525(world):
 
 def logic_17526(world):
     _world_apply(world, 'salinity', 'surface_water', 'direct')
+
+def logic_17527(world):
+    _world_apply(world, 'salinity', 'humidity', 'square')
