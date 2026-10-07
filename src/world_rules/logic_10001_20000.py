@@ -10067,3 +10067,6 @@ def logic_13334(world):
 
 def logic_13335(world):
     _world_apply(world, 'carbon_storage', 'sediment', 'direct')
+
+def logic_13336(world):
+    _world_apply(world, 'carbon_storage', 'salinity', 'square')
