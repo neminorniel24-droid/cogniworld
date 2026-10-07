@@ -251,3 +251,6 @@ def logic_4050(world):
 
 def logic_4051(world):
     _world_apply(world, 'habitat_stress', 'fire_risk', 'inverse')
+
+def logic_4052(world):
+    _world_apply(world, 'vegetation', 'evaporation', 'square')
