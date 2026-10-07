@@ -11588,3 +11588,6 @@ def logic_7929(agents, world):
 
 def logic_7930(agents, world):
     _agent_apply(world, agents, 'evaporation', 'help_given', 'direct')
+
+def logic_7931(agents, world):
+    _agent_apply(world, agents, 'detritus', 'help_given', 'direct')
