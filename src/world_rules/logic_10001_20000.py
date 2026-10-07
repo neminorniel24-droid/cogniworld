@@ -18206,3 +18206,6 @@ def logic_16047(world):
 
 def logic_16048(world):
     _world_apply(world, 'humidity', 'evaporation', 'pulse')
+
+def logic_16049(world):
+    _world_apply(world, 'humidity', 'detritus', 'gap')
