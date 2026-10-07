@@ -40272,3 +40272,10 @@ def logic_36131(agents, world):
     src = _local(world, agents, 'predator')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.oxygen_need = _delta(agents.oxygen_need, delta)
+
+
+def logic_36132(agents, world):
+    """Environmental carrion shapes agent neighbor_energy_gap (square)."""
+    src = _local(world, agents, 'carrion')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.neighbor_energy_gap = _delta(agents.neighbor_energy_gap, delta)
