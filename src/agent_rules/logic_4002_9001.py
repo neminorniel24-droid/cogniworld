@@ -2576,3 +2576,6 @@ def logic_4925(agents, world):
 
 def logic_4926(agents, world):
     _agent_apply(world, agents, 'wind_y', 'reproduction_drive', 'direct')
+
+def logic_4927(agents, world):
+    _agent_apply(world, agents, 'vegetation', 'reproduction_drive', 'direct')
