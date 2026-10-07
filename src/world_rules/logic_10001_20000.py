@@ -3878,3 +3878,6 @@ def logic_11271(world):
 
 def logic_11272(world):
     _world_apply(world, 'root_density', 'pollinators', 'gap')
+
+def logic_11273(world):
+    _world_apply(world, 'root_density', 'flowers', 'square')
