@@ -8438,3 +8438,6 @@ def logic_12791(world):
 
 def logic_12792(world):
     _world_apply(world, 'photosynthesis_factor', 'evaporation', 'gap')
+
+def logic_12793(world):
+    _world_apply(world, 'photosynthesis_factor', 'detritus', 'square')
