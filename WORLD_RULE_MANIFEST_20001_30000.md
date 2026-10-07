@@ -1124,3 +1124,4 @@
 - 21123: integrated cross-system causal rule
 - 21124: integrated cross-system causal rule
 - 21125: integrated cross-system causal rule
+- 21126: integrated cross-system causal rule
