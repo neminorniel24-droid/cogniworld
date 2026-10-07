@@ -14147,3 +14147,6 @@ def logic_14694(world):
 
 def logic_14695(world):
     _world_apply(world, 'oxygen', 'fire_risk', 'direct')
+
+def logic_14696(world):
+    _world_apply(world, 'oxygen', 'ash', 'square')
