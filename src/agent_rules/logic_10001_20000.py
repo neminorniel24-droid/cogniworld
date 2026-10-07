@@ -2705,3 +2705,6 @@ def logic_18880(agents, world):
 
 def logic_18881(agents, world):
     _agent_apply(world, agents, 'health', 'shelter_need', 'feedback')
+
+def logic_18882(agents, world):
+    _agent_apply(world, agents, 'thermal_stress', 'shelter_need', 'feedback')
