@@ -19565,3 +19565,6 @@ def logic_16500(world):
 
 def logic_16501(world):
     _world_apply(world, 'predator', 'snowpack', 'pulse')
+
+def logic_16502(world):
+    _world_apply(world, 'predator', 'groundwater', 'saturation')
