@@ -6428,3 +6428,6 @@ def logic_12121(world):
 
 def logic_12122(world):
     _world_apply(world, 'cloud', 'biomass', 'square')
+
+def logic_12123(world):
+    _world_apply(world, 'cloud', 'herbivore', 'pulse')
