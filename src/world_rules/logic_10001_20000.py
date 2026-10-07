@@ -19874,3 +19874,6 @@ def logic_16603(world):
 
 def logic_16604(world):
     _world_apply(world, 'decomposition_rate', 'cloud', 'saturation')
+
+def logic_16605(world):
+    _world_apply(world, 'decomposition_rate', 'rain', 'gap')
