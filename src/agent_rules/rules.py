@@ -41672,3 +41672,10 @@ def logic_36331(agents, world):
     src = _local(world, agents, 'root_density')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.social_tolerance = _delta(agents.social_tolerance, delta)
+
+
+def logic_36332(agents, world):
+    """Environmental wetland shapes agent competition_pressure (square)."""
+    src = _local(world, agents, 'wetland')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.competition_pressure = _delta(agents.competition_pressure, delta)
