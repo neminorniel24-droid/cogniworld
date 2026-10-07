@@ -8135,3 +8135,6 @@ def logic_12690(world):
 
 def logic_12691(world):
     _world_apply(world, 'oxygen', 'runoff', 'square')
+
+def logic_12692(world):
+    _world_apply(world, 'oxygen', 'wind_x', 'pulse')
