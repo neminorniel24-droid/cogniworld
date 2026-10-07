@@ -2624,3 +2624,6 @@ def logic_4941(agents, world):
 
 def logic_4942(agents, world):
     _agent_apply(world, agents, 'biodiversity', 'reproduction_drive', 'direct')
+
+def logic_4943(agents, world):
+    _agent_apply(world, agents, 'habitat_stress', 'reproduction_drive', 'direct')
