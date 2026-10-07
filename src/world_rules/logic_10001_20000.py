@@ -1832,3 +1832,6 @@ def logic_10589(world):
 
 def logic_10590(world):
     _world_apply(world, 'carrion', 'photosynthesis_factor', 'pulse')
+
+def logic_10591(world):
+    _world_apply(world, 'carrion', 'ice', 'saturation')
