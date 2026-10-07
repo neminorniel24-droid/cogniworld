@@ -2165,3 +2165,6 @@ def logic_18700(agents, world):
 
 def logic_18701(agents, world):
     _agent_apply(world, agents, 'biomass', 'caution', 'reciprocal')
+
+def logic_18702(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'caution', 'reciprocal')
