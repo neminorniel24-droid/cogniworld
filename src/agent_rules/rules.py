@@ -29429,3 +29429,10 @@ def logic_34582(agents, world):
     src = _local(world, agents, 'soil_depth')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_reward = _delta(agents.last_reward, delta)
+
+
+def logic_34583(agents, world):
+    """Environmental root_density shapes agent cooperation_score (inverse)."""
+    src = _local(world, agents, 'root_density')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.cooperation_score = _delta(agents.cooperation_score, delta)
