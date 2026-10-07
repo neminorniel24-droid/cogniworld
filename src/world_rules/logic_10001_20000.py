@@ -23585,3 +23585,6 @@ def logic_17840(world):
 
 def logic_17841(world):
     _world_apply(world, 'soil_carbon', 'wind_y', 'direct')
+
+def logic_17842(world):
+    _world_apply(world, 'soil_carbon', 'vegetation', 'square')
