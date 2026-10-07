@@ -10454,3 +10454,6 @@ def logic_7551(agents, world):
 
 def logic_7552(agents, world):
     _agent_apply(world, agents, 'thirst', 'neighbor_energy_gap', 'direct')
+
+def logic_7553(agents, world):
+    _agent_apply(world, agents, 'hunger', 'neighbor_energy_gap', 'direct')
