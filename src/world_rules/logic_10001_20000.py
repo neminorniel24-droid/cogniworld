@@ -6650,3 +6650,6 @@ def logic_12195(world):
 
 def logic_12196(world):
     _world_apply(world, 'rain', 'pollinators', 'gap')
+
+def logic_12197(world):
+    _world_apply(world, 'rain', 'flowers', 'direct')
