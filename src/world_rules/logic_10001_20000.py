@@ -5636,3 +5636,6 @@ def logic_11857(world):
 
 def logic_11858(world):
     _world_apply(world, 'seed_bank', 'vegetation', 'gap')
+
+def logic_11859(world):
+    _world_apply(world, 'seed_bank', 'biomass', 'direct')
