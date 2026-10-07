@@ -12545,3 +12545,6 @@ def logic_8248(agents, world):
 
 def logic_8249(agents, world):
     _agent_apply(world, agents, 'payoff', 'last_food', 'direct')
+
+def logic_8250(agents, world):
+    _agent_apply(world, agents, 'temperature', 'last_interaction', 'direct')
