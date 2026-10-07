@@ -6021,3 +6021,4 @@
 - 26020: integrated cross-system causal rule
 - 26021: integrated cross-system causal rule
 - 26022: integrated cross-system causal rule
+- 26023: integrated cross-system causal rule
