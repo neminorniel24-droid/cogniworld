@@ -8330,3 +8330,4 @@
 - 28329: integrated cross-system causal rule
 - 28330: integrated cross-system causal rule
 - 28331: integrated cross-system causal rule
+- 28332: integrated cross-system causal rule
