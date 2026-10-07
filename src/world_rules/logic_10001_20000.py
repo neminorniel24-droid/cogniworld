@@ -4043,3 +4043,6 @@ def logic_11326(world):
 
 def logic_11327(world):
     _world_apply(world, 'carbon_storage', 'runoff', 'square')
+
+def logic_11328(world):
+    _world_apply(world, 'carbon_storage', 'wind_x', 'pulse')
