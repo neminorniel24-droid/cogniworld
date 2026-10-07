@@ -18398,3 +18398,6 @@ def logic_16111(world):
 
 def logic_16112(world):
     _world_apply(world, 'cloud', 'pollinators', 'gap')
+
+def logic_16113(world):
+    _world_apply(world, 'cloud', 'flowers', 'square')
