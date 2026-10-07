@@ -15422,3 +15422,6 @@ def logic_15119(world):
 
 def logic_15120(world):
     _world_apply(world, 'erosion', 'decomposition_rate', 'saturation')
+
+def logic_15121(world):
+    _world_apply(world, 'erosion', 'oxygen', 'direct')
