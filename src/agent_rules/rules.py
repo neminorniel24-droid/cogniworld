@@ -32992,3 +32992,10 @@ def logic_35091(agents, world):
     src = _local(world, agents, 'carbon_storage')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.last_interaction = _delta(agents.last_interaction, delta)
+
+
+def logic_35092(agents, world):
+    """Environmental fire_risk shapes agent reciprocity_score (square)."""
+    src = _local(world, agents, 'fire_risk')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.reciprocity_score = _delta(agents.reciprocity_score, delta)
