@@ -35155,3 +35155,10 @@ def logic_35400(agents, world):
     src = _local(world, agents, 'co2')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.payoff = _delta(agents.payoff, delta)
+
+
+def logic_35401(agents, world):
+    """Environmental photosynthesis_factor shapes agent pathogen_risk (root)."""
+    src = _local(world, agents, 'photosynthesis_factor')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.pathogen_risk = _delta(agents.pathogen_risk, delta)
