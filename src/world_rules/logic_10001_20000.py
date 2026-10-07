@@ -21926,3 +21926,6 @@ def logic_17287(world):
 
 def logic_17288(world):
     _world_apply(world, 'carbon_storage', 'soil_depth', 'pulse')
+
+def logic_17289(world):
+    _world_apply(world, 'carbon_storage', 'root_density', 'gap')
