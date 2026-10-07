@@ -62553,3 +62553,10 @@ def logic_39314(agents, world):
     src = _local(world, agents, 'detritus')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.fitness_score = _delta(agents.fitness_score, delta)
+
+
+def logic_39315(agents, world):
+    """Environmental methane shapes agent sharing_score (inverse)."""
+    src = _local(world, agents, 'methane')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.sharing_score = _delta(agents.sharing_score, delta)
