@@ -2315,3 +2315,6 @@ def logic_4838(agents, world):
 
 def logic_4839(agents, world):
     _agent_apply(world, agents, 'cooperation', 'recovery', 'direct')
+
+def logic_4840(agents, world):
+    _agent_apply(world, agents, 'defection', 'recovery', 'direct')
