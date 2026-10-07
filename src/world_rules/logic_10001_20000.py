@@ -7877,3 +7877,6 @@ def logic_12604(world):
 
 def logic_12605(world):
     _world_apply(world, 'nutrients', 'wind_y', 'gap')
+
+def logic_12606(world):
+    _world_apply(world, 'nutrients', 'vegetation', 'direct')
