@@ -22424,3 +22424,6 @@ def logic_17453(world):
 
 def logic_17454(world):
     _world_apply(world, 'groundwater', 'co2', 'gap')
+
+def logic_17455(world):
+    _world_apply(world, 'groundwater', 'photosynthesis_factor', 'direct')
