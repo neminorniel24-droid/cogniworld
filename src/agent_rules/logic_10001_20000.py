@@ -4748,3 +4748,6 @@ def logic_19561(agents, world):
 
 def logic_19562(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'migration_score', 'reciprocal')
+
+def logic_19563(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'migration_score', 'reciprocal')
