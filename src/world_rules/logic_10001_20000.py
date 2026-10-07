@@ -22217,3 +22217,6 @@ def logic_17384(world):
 
 def logic_17385(world):
     _world_apply(world, 'ash', 'algae', 'pulse')
+
+def logic_17386(world):
+    _world_apply(world, 'ash', 'organic_matter', 'saturation')
