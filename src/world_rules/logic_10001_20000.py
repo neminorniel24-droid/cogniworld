@@ -1217,3 +1217,6 @@ def logic_10384(world):
 
 def logic_10385(world):
     _world_apply(world, 'wind_y', 'snowpack', 'pulse')
+
+def logic_10386(world):
+    _world_apply(world, 'wind_y', 'groundwater', 'saturation')
