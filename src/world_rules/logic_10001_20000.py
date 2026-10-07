@@ -2039,3 +2039,6 @@ def logic_10658(world):
 
 def logic_10659(world):
     _world_apply(world, 'nutrients', 'soil_carbon', 'direct')
+
+def logic_10660(world):
+    _world_apply(world, 'nutrients', 'surface_ice', 'square')
