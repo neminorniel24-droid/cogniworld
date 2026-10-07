@@ -4104,3 +4104,4 @@
 - 24103: integrated cross-system causal rule
 - 24104: integrated cross-system causal rule
 - 24105: integrated cross-system causal rule
+- 24106: integrated cross-system causal rule
