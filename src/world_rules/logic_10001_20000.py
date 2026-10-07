@@ -8822,3 +8822,6 @@ def logic_12919(world):
 
 def logic_12920(world):
     _world_apply(world, 'detritus', 'decomposition_rate', 'saturation')
+
+def logic_12921(world):
+    _world_apply(world, 'detritus', 'oxygen', 'direct')
