@@ -61125,3 +61125,10 @@ def logic_39110(agents, world):
     src = _local(world, agents, 'surface_water')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.safety_score = _delta(agents.safety_score, delta)
+
+
+def logic_39111(agents, world):
+    """Environmental humidity shapes agent retaliation_risk (inverse)."""
+    src = _local(world, agents, 'humidity')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.retaliation_risk = _delta(agents.retaliation_risk, delta)
