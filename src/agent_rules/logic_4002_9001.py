@@ -10943,3 +10943,6 @@ def logic_7714(agents, world):
 
 def logic_7715(agents, world):
     _agent_apply(world, agents, 'vegetation', 'conflict_history', 'direct')
+
+def logic_7716(agents, world):
+    _agent_apply(world, agents, 'biomass', 'conflict_history', 'direct')
