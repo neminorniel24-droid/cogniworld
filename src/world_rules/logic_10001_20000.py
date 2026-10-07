@@ -7493,3 +7493,6 @@ def logic_12476(world):
 
 def logic_12477(world):
     _world_apply(world, 'herbivore', 'carrion', 'direct')
+
+def logic_12478(world):
+    _world_apply(world, 'herbivore', 'nutrients', 'square')
