@@ -12446,3 +12446,6 @@ def logic_8215(agents, world):
 
 def logic_8216(agents, world):
     _agent_apply(world, agents, 'groundwater', 'last_food', 'direct')
+
+def logic_8217(agents, world):
+    _agent_apply(world, agents, 'sediment', 'last_food', 'direct')
