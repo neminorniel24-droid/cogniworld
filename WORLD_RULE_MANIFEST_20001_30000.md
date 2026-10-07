@@ -5303,3 +5303,4 @@
 - 25302: integrated cross-system causal rule
 - 25303: integrated cross-system causal rule
 - 25304: integrated cross-system causal rule
+- 25305: integrated cross-system causal rule
