@@ -8765,3 +8765,6 @@ def logic_12900(world):
 
 def logic_12901(world):
     _world_apply(world, 'evaporation', 'flowers', 'pulse')
+
+def logic_12902(world):
+    _world_apply(world, 'evaporation', 'seed_bank', 'saturation')
