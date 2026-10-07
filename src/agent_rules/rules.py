@@ -31564,3 +31564,10 @@ def logic_34887(agents, world):
     src = _local(world, agents, 'biomass')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.local_density = _delta(agents.local_density, delta)
+
+
+def logic_34888(agents, world):
+    """Environmental herbivore shapes agent strategy_score (square)."""
+    src = _local(world, agents, 'herbivore')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.strategy_score = _delta(agents.strategy_score, delta)
