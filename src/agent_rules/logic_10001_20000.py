@@ -5318,3 +5318,6 @@ def logic_19751(agents, world):
 
 def logic_19752(agents, world):
     _agent_apply(world, agents, 'resource_competition', 'payoff', 'feedback')
+
+def logic_19753(agents, world):
+    _agent_apply(world, agents, 'vegetation_expectation', 'payoff', 'feedback')
