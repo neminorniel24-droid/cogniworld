@@ -3497,3 +3497,6 @@ def logic_19144(agents, world):
 
 def logic_19145(agents, world):
     _agent_apply(world, agents, 'pollinators', 'last_reward', 'square')
+
+def logic_19146(agents, world):
+    _agent_apply(world, agents, 'flowers', 'last_reward', 'square')
