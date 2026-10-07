@@ -6050,3 +6050,6 @@ def logic_11995(world):
 
 def logic_11996(world):
     _world_apply(world, 'temperature', 'oxygen', 'gap')
+
+def logic_11997(world):
+    _world_apply(world, 'temperature', 'co2', 'direct')
