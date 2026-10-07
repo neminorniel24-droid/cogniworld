@@ -15362,3 +15362,6 @@ def logic_15099(world):
 
 def logic_15100(world):
     _world_apply(world, 'habitat_stress', 'pollinators', 'square')
+
+def logic_15101(world):
+    _world_apply(world, 'habitat_stress', 'flowers', 'pulse')
