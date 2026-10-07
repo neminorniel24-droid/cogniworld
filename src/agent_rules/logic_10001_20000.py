@@ -587,3 +587,6 @@ def logic_18174(agents, world):
 
 def logic_18175(agents, world):
     _agent_apply(world, agents, 'salinity', 'alertness', 'inverse')
+
+def logic_18176(agents, world):
+    _agent_apply(world, agents, 'algae', 'alertness', 'inverse')
