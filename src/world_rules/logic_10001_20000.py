@@ -1853,3 +1853,6 @@ def logic_10596(world):
 
 def logic_10597(world):
     _world_apply(world, 'carrion', 'habitat_stress', 'direct')
+
+def logic_10598(world):
+    _world_apply(world, 'carrion', 'erosion', 'square')
