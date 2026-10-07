@@ -19040,3 +19040,6 @@ def logic_16325(world):
 
 def logic_16326(world):
     _world_apply(world, 'wind_y', 'groundwater', 'direct')
+
+def logic_16327(world):
+    _world_apply(world, 'wind_y', 'sediment', 'square')
