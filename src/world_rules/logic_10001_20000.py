@@ -974,3 +974,6 @@ def logic_10303(world):
 
 def logic_10304(world):
     _world_apply(world, 'runoff', 'pollinators', 'direct')
+
+def logic_10305(world):
+    _world_apply(world, 'runoff', 'flowers', 'pulse')
