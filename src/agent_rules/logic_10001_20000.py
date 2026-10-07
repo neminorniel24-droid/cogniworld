@@ -1601,3 +1601,6 @@ def logic_18512(agents, world):
 
 def logic_18513(agents, world):
     _agent_apply(world, agents, 'social_need', 'conflict_pressure', 'threshold')
+
+def logic_18514(agents, world):
+    _agent_apply(world, agents, 'neighbor_energy_gap', 'competition_pressure', 'threshold')
