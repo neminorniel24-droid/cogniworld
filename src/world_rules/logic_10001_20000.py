@@ -16214,3 +16214,6 @@ def logic_15383(world):
 
 def logic_15384(world):
     _world_apply(world, 'ash', 'decomposition_rate', 'direct')
+
+def logic_15385(world):
+    _world_apply(world, 'ash', 'oxygen', 'pulse')
