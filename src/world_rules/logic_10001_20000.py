@@ -6887,3 +6887,6 @@ def logic_12274(world):
 
 def logic_12275(world):
     _world_apply(world, 'runoff', 'fire_risk', 'saturation')
+
+def logic_12276(world):
+    _world_apply(world, 'runoff', 'ash', 'gap')
