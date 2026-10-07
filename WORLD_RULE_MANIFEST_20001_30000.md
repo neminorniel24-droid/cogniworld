@@ -8534,3 +8534,4 @@
 - 28533: integrated cross-system causal rule
 - 28534: integrated cross-system causal rule
 - 28535: integrated cross-system causal rule
+- 28536: integrated cross-system causal rule
