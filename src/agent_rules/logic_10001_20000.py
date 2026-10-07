@@ -4079,3 +4079,6 @@ def logic_19338(agents, world):
 
 def logic_19339(agents, world):
     _agent_apply(world, agents, 'vegetation_expectation', 'defection_score', 'threshold')
+
+def logic_19340(agents, world):
+    _agent_apply(world, agents, 'stress', 'defection_score', 'threshold')
