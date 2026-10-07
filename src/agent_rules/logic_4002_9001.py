@@ -8375,3 +8375,6 @@ def logic_6858(agents, world):
 
 def logic_6859(agents, world):
     _agent_apply(world, agents, 'algae', 'empathy', 'direct')
+
+def logic_6860(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'empathy', 'direct')
