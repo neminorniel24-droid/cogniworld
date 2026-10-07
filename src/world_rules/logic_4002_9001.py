@@ -107,3 +107,6 @@ def logic_4002(world):
 
 def logic_4003(world):
     _world_apply(world, 'groundwater', 'surface_water', 'inverse')
+
+def logic_4004(world):
+    _world_apply(world, 'surface_water', 'soil_moisture', 'square')
