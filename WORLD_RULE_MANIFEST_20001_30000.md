@@ -2003,3 +2003,4 @@
 - 22002: integrated cross-system causal rule
 - 22003: integrated cross-system causal rule
 - 22004: integrated cross-system causal rule
+- 22005: integrated cross-system causal rule
