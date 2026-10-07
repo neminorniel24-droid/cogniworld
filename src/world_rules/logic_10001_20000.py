@@ -23057,3 +23057,6 @@ def logic_17664(world):
 
 def logic_17665(world):
     _world_apply(world, 'deadwood', 'wind_y', 'pulse')
+
+def logic_17666(world):
+    _world_apply(world, 'deadwood', 'vegetation', 'saturation')
