@@ -16208,3 +16208,6 @@ def logic_15381(world):
 
 def logic_15382(world):
     _world_apply(world, 'ash', 'carrion', 'saturation')
+
+def logic_15383(world):
+    _world_apply(world, 'ash', 'nutrients', 'gap')
