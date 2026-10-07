@@ -59564,3 +59564,10 @@ def logic_38887(agents, world):
     src = _local(world, agents, 'wind_y')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.cooperation = _delta(agents.cooperation, delta)
+
+
+def logic_38888(agents, world):
+    """Environmental vegetation shapes agent sharing_capacity (square)."""
+    src = _local(world, agents, 'vegetation')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.sharing_capacity = _delta(agents.sharing_capacity, delta)
