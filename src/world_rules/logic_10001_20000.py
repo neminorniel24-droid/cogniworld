@@ -20201,3 +20201,6 @@ def logic_16712(world):
 
 def logic_16713(world):
     _world_apply(world, 'co2', 'habitat_stress', 'square')
+
+def logic_16714(world):
+    _world_apply(world, 'co2', 'erosion', 'pulse')
