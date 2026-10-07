@@ -19814,3 +19814,6 @@ def logic_16583(world):
 
 def logic_16584(world):
     _world_apply(world, 'nutrients', 'root_density', 'direct')
+
+def logic_16585(world):
+    _world_apply(world, 'nutrients', 'wetland', 'pulse')
