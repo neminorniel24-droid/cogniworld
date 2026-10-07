@@ -884,3 +884,6 @@ def logic_18273(agents, world):
 
 def logic_18274(agents, world):
     _agent_apply(world, agents, 'future_payoff_weight', 'migration_drive', 'sqrt')
+
+def logic_18275(agents, world):
+    _agent_apply(world, agents, 'self_preservation', 'migration_drive', 'sqrt')
