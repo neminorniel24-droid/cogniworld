@@ -5720,3 +5720,4 @@
 - 25719: integrated cross-system causal rule
 - 25720: integrated cross-system causal rule
 - 25721: integrated cross-system causal rule
+- 25722: integrated cross-system causal rule
