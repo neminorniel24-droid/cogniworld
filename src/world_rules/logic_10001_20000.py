@@ -8333,3 +8333,6 @@ def logic_12756(world):
 
 def logic_12757(world):
     _world_apply(world, 'co2', 'wetland', 'direct')
+
+def logic_12758(world):
+    _world_apply(world, 'co2', 'carbon_storage', 'square')
