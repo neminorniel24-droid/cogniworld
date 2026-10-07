@@ -1973,3 +1973,6 @@ def logic_10636(world):
 
 def logic_10637(world):
     _world_apply(world, 'nutrients', 'detritus', 'direct')
+
+def logic_10638(world):
+    _world_apply(world, 'nutrients', 'methane', 'square')
