@@ -704,3 +704,6 @@ def logic_10213(world):
 
 def logic_10214(world):
     _world_apply(world, 'rain', 'organic_matter', 'gap')
+
+def logic_10215(world):
+    _world_apply(world, 'rain', 'deadwood', 'direct')
