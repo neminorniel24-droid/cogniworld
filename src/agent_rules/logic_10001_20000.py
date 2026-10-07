@@ -4760,3 +4760,6 @@ def logic_19565(agents, world):
 
 def logic_19566(agents, world):
     _agent_apply(world, agents, 'energy_surplus', 'migration_score', 'reciprocal')
+
+def logic_19567(agents, world):
+    _agent_apply(world, agents, 'ticks_since_food', 'migration_score', 'reciprocal')
