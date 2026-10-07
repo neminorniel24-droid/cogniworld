@@ -3113,3 +3113,6 @@ def logic_11016(world):
 
 def logic_11017(world):
     _world_apply(world, 'pathogen_load', 'rain', 'saturation')
+
+def logic_11018(world):
+    _world_apply(world, 'pathogen_load', 'soil_moisture', 'gap')
