@@ -59326,3 +59326,10 @@ def logic_38853(agents, world):
     src = _local(world, agents, 'evaporation')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.neighbor_health_gap = _delta(agents.neighbor_health_gap, delta)
+
+
+def logic_38854(agents, world):
+    """Environmental detritus shapes agent last_reward (direct)."""
+    src = _local(world, agents, 'detritus')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.last_reward = _delta(agents.last_reward, delta)
