@@ -8756,3 +8756,6 @@ def logic_12897(world):
 
 def logic_12898(world):
     _world_apply(world, 'evaporation', 'organic_matter', 'gap')
+
+def logic_12899(world):
+    _world_apply(world, 'evaporation', 'deadwood', 'direct')
