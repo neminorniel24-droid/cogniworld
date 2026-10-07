@@ -4503,3 +4503,4 @@
 - 24502: integrated cross-system causal rule
 - 24503: integrated cross-system causal rule
 - 24504: integrated cross-system causal rule
+- 24505: integrated cross-system causal rule
