@@ -248,3 +248,6 @@ def logic_4049(world):
 
 def logic_4050(world):
     _world_apply(world, 'surface_water', 'pathogen_load', 'direct')
+
+def logic_4051(world):
+    _world_apply(world, 'habitat_stress', 'fire_risk', 'inverse')
