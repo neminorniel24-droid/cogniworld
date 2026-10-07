@@ -5258,3 +5258,6 @@ def logic_19731(agents, world):
 
 def logic_19732(agents, world):
     _agent_apply(world, agents, 'competition_pressure', 'self_preservation', 'feedback')
+
+def logic_19733(agents, world):
+    _agent_apply(world, agents, 'territoriality', 'self_preservation', 'feedback')
