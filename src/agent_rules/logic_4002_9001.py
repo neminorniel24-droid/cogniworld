@@ -2993,3 +2993,6 @@ def logic_5064(agents, world):
 
 def logic_5065(agents, world):
     _agent_apply(world, agents, 'herbivore', 'exploration_drive', 'direct')
+
+def logic_5066(agents, world):
+    _agent_apply(world, agents, 'predator', 'exploration_drive', 'direct')
