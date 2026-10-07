@@ -11165,3 +11165,6 @@ def logic_7788(agents, world):
 
 def logic_7789(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'cooperation_history', 'direct')
+
+def logic_7790(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'cooperation_history', 'direct')
