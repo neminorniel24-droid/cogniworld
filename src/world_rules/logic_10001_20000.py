@@ -7580,3 +7580,6 @@ def logic_12505(world):
 
 def logic_12506(world):
     _world_apply(world, 'herbivore', 'seed_bank', 'saturation')
+
+def logic_12507(world):
+    _world_apply(world, 'herbivore', 'soil_carbon', 'gap')
