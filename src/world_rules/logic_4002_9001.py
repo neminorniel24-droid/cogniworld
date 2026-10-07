@@ -398,3 +398,6 @@ def logic_4099(world):
 
 def logic_4100(world):
     _world_apply(world, 'fire_risk', 'habitat_stress', 'square')
+
+def logic_4101(world):
+    _world_apply(world, 'habitat_stress', 'vegetation', 'sqrt')
