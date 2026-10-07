@@ -12974,3 +12974,6 @@ def logic_14303(world):
 
 def logic_14304(world):
     _world_apply(world, 'wind_x', 'salinity', 'direct')
+
+def logic_14305(world):
+    _world_apply(world, 'wind_x', 'algae', 'pulse')
