@@ -4502,3 +4502,6 @@ def logic_5567(agents, world):
 
 def logic_5568(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'trust', 'direct')
+
+def logic_5569(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'trust', 'direct')
