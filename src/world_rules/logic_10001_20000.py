@@ -19595,3 +19595,6 @@ def logic_16510(world):
 
 def logic_16511(world):
     _world_apply(world, 'predator', 'soil_carbon', 'saturation')
+
+def logic_16512(world):
+    _world_apply(world, 'predator', 'surface_ice', 'gap')
