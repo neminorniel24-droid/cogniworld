@@ -252,3 +252,6 @@ def logic_9059(world):
 
 def logic_9060(world):
     _world_apply(world, 'wind_x', 'cloud', 'square')
+
+def logic_9061(world):
+    _world_apply(world, 'wind_y', 'cloud', 'sqrt')
