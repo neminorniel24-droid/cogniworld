@@ -4601,3 +4601,6 @@ def logic_11512(world):
 
 def logic_11513(world):
     _world_apply(world, 'groundwater', 'oxygen', 'square')
+
+def logic_11514(world):
+    _world_apply(world, 'groundwater', 'co2', 'pulse')
