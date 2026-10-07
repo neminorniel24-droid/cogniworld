@@ -66116,3 +66116,10 @@ def logic_39823(agents, world):
     src = _local(world, agents, 'biodiversity')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.retaliation_risk = _delta(agents.retaliation_risk, delta)
+
+
+def logic_39824(agents, world):
+    """Environmental habitat_stress shapes agent learning_rate (square)."""
+    src = _local(world, agents, 'habitat_stress')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.learning_rate = _delta(agents.learning_rate, delta)
