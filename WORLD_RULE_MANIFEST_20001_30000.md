@@ -3204,3 +3204,4 @@
 - 23203: integrated cross-system causal rule
 - 23204: integrated cross-system causal rule
 - 23205: integrated cross-system causal rule
+- 23206: integrated cross-system causal rule
