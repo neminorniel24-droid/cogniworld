@@ -3890,3 +3890,4 @@
 - 23889: integrated cross-system causal rule
 - 23890: integrated cross-system causal rule
 - 23891: integrated cross-system causal rule
+- 23892: integrated cross-system causal rule
