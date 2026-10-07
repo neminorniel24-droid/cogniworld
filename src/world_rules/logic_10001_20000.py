@@ -14426,3 +14426,6 @@ def logic_14787(world):
 
 def logic_14788(world):
     _world_apply(world, 'photosynthesis_factor', 'salinity', 'direct')
+
+def logic_14789(world):
+    _world_apply(world, 'photosynthesis_factor', 'algae', 'square')
