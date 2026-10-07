@@ -14120,3 +14120,6 @@ def logic_14685(world):
 
 def logic_14686(world):
     _world_apply(world, 'oxygen', 'methane', 'direct')
+
+def logic_14687(world):
+    _world_apply(world, 'oxygen', 'pathogen_load', 'square')
