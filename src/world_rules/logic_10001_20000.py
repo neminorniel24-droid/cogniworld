@@ -23729,3 +23729,6 @@ def logic_17888(world):
 
 def logic_17889(world):
     _world_apply(world, 'surface_ice', 'predator', 'gap')
+
+def logic_17890(world):
+    _world_apply(world, 'surface_ice', 'carrion', 'direct')
