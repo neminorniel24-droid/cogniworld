@@ -450,3 +450,4 @@
 - 20449: integrated cross-system causal rule
 - 20450: integrated cross-system causal rule
 - 20451: integrated cross-system causal rule
+- 20452: integrated cross-system causal rule
