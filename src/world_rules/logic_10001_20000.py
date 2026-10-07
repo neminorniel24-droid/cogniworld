@@ -3761,3 +3761,6 @@ def logic_11232(world):
 
 def logic_11233(world):
     _world_apply(world, 'root_density', 'temperature', 'square')
+
+def logic_11234(world):
+    _world_apply(world, 'root_density', 'surface_water', 'pulse')
