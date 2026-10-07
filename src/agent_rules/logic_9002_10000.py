@@ -1440,3 +1440,6 @@ def logic_9654(agents, world):
 
 def logic_9655(agents, world):
     _agent_apply(world, agents, 'resource_abundance', 'pathogen_risk', 'direct')
+
+def logic_9656(agents, world):
+    _agent_apply(world, agents, 'energy_surplus', 'pathogen_risk', 'direct')
