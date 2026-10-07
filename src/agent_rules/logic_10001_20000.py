@@ -1091,3 +1091,6 @@ def logic_18342(agents, world):
 
 def logic_18343(agents, world):
     _agent_apply(world, agents, 'stability', 'habitat_stress', 'sqrt')
+
+def logic_18344(agents, world):
+    _agent_apply(world, agents, 'habitat_stress', 'stability', 'sqrt')
