@@ -3533,3 +3533,6 @@ def logic_11156(world):
 
 def logic_11157(world):
     _world_apply(world, 'erosion', 'predator', 'direct')
+
+def logic_11158(world):
+    _world_apply(world, 'erosion', 'carrion', 'square')
