@@ -5558,3 +5558,6 @@ def logic_5919(agents, world):
 
 def logic_5920(agents, world):
     _agent_apply(world, agents, 'thirst', 'competition_pressure', 'direct')
+
+def logic_5921(agents, world):
+    _agent_apply(world, agents, 'hunger', 'competition_pressure', 'direct')
