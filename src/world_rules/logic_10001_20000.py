@@ -12815,3 +12815,6 @@ def logic_14250(world):
 
 def logic_14251(world):
     _world_apply(world, 'runoff', 'soil_depth', 'square')
+
+def logic_14252(world):
+    _world_apply(world, 'runoff', 'root_density', 'pulse')
