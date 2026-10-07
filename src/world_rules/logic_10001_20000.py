@@ -21122,3 +21122,6 @@ def logic_17019(world):
 
 def logic_17020(world):
     _world_apply(world, 'biodiversity', 'pathogen_load', 'square')
+
+def logic_17021(world):
+    _world_apply(world, 'biodiversity', 'habitat_stress', 'pulse')
