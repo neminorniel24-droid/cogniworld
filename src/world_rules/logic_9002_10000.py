@@ -480,3 +480,6 @@ def logic_9135(world):
 
 def logic_9136(world):
     _world_apply(world, 'surface_water', 'deadwood', 'saturation')
+
+def logic_9137(world):
+    _world_apply(world, 'surface_water', 'pollinators', 'reciprocal')
