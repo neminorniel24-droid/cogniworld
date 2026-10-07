@@ -11180,3 +11180,6 @@ def logic_7793(agents, world):
 
 def logic_7794(agents, world):
     _agent_apply(world, agents, 'evaporation', 'cooperation_history', 'direct')
+
+def logic_7795(agents, world):
+    _agent_apply(world, agents, 'detritus', 'cooperation_history', 'direct')
