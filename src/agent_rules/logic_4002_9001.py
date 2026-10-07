@@ -5528,3 +5528,6 @@ def logic_5909(agents, world):
 
 def logic_5910(agents, world):
     _agent_apply(world, agents, 'pollinators', 'competition_pressure', 'direct')
+
+def logic_5911(agents, world):
+    _agent_apply(world, agents, 'flowers', 'competition_pressure', 'direct')
