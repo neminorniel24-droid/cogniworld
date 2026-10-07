@@ -14588,3 +14588,6 @@ def logic_14841(world):
 
 def logic_14842(world):
     _world_apply(world, 'evaporation', 'surface_water', 'square')
+
+def logic_14843(world):
+    _world_apply(world, 'evaporation', 'humidity', 'pulse')
