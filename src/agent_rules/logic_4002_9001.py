@@ -10847,3 +10847,6 @@ def logic_7682(agents, world):
 
 def logic_7683(agents, world):
     _agent_apply(world, agents, 'resource_scarcity', 'betrayal_memory', 'direct')
+
+def logic_7684(agents, world):
+    _agent_apply(world, agents, 'resource_abundance', 'betrayal_memory', 'direct')
