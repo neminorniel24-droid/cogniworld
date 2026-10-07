@@ -46180,3 +46180,10 @@ def logic_36975(agents, world):
     src = _local(world, agents, 'root_density')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.retaliation_risk = _delta(agents.retaliation_risk, delta)
+
+
+def logic_36976(agents, world):
+    """Environmental wetland shapes agent learning_rate (square)."""
+    src = _local(world, agents, 'wetland')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.learning_rate = _delta(agents.learning_rate, delta)
