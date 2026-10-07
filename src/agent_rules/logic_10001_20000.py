@@ -5963,3 +5963,6 @@ def logic_19966(agents, world):
 
 def logic_19967(agents, world):
     _agent_apply(world, agents, 'groundwater', 'recovery', 'square')
+
+def logic_19968(agents, world):
+    _agent_apply(world, agents, 'sediment', 'recovery', 'square')
