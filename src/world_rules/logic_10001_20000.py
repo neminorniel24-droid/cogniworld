@@ -18953,3 +18953,6 @@ def logic_16296(world):
 
 def logic_16297(world):
     _world_apply(world, 'wind_y', 'rain', 'saturation')
+
+def logic_16298(world):
+    _world_apply(world, 'wind_y', 'soil_moisture', 'gap')
