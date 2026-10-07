@@ -9263,3 +9263,6 @@ def logic_7154(agents, world):
 
 def logic_7155(agents, world):
     _agent_apply(world, agents, 'help_received', 'shelter_need', 'direct')
+
+def logic_7156(agents, world):
+    _agent_apply(world, agents, 'help_given', 'shelter_need', 'direct')
