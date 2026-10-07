@@ -33216,3 +33216,10 @@ def logic_35123(agents, world):
     src = _local(world, agents, 'oxygen')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.habitat_stress = _delta(agents.habitat_stress, delta)
+
+
+def logic_35124(agents, world):
+    """Environmental co2 shapes agent conflict_pressure (square)."""
+    src = _local(world, agents, 'co2')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.conflict_pressure = _delta(agents.conflict_pressure, delta)
