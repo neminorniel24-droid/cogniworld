@@ -1619,3 +1619,6 @@ def logic_10518(world):
 
 def logic_10519(world):
     _world_apply(world, 'herbivore', 'sediment', 'pulse')
+
+def logic_10520(world):
+    _world_apply(world, 'herbivore', 'salinity', 'saturation')
