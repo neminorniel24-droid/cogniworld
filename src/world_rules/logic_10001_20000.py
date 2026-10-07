@@ -16922,3 +16922,6 @@ def logic_15619(world):
 
 def logic_15620(world):
     _world_apply(world, 'algae', 'fire_risk', 'square')
+
+def logic_15621(world):
+    _world_apply(world, 'algae', 'ash', 'pulse')
