@@ -20297,3 +20297,6 @@ def logic_16744(world):
 
 def logic_16745(world):
     _world_apply(world, 'photosynthesis_factor', 'predator', 'pulse')
+
+def logic_16746(world):
+    _world_apply(world, 'photosynthesis_factor', 'carrion', 'saturation')
