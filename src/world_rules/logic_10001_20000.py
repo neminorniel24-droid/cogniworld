@@ -1175,3 +1175,6 @@ def logic_10370(world):
 
 def logic_10371(world):
     _world_apply(world, 'wind_y', 'ice', 'square')
+
+def logic_10372(world):
+    _world_apply(world, 'wind_y', 'evaporation', 'pulse')
