@@ -21629,3 +21629,6 @@ def logic_17188(world):
 
 def logic_17189(world):
     _world_apply(world, 'root_density', 'oxygen', 'square')
+
+def logic_17190(world):
+    _world_apply(world, 'root_density', 'co2', 'pulse')
