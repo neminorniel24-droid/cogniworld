@@ -2942,3 +2942,6 @@ def logic_18959(agents, world):
 
 def logic_18960(agents, world):
     _agent_apply(world, agents, 'strategy_persistence', 'stress', 'direct')
+
+def logic_18961(agents, world):
+    _agent_apply(world, agents, 'strategy_mixing', 'stress', 'direct')
