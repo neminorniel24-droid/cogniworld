@@ -5651,3 +5651,6 @@ def logic_5950(agents, world):
 
 def logic_5951(agents, world):
     _agent_apply(world, agents, 'carrion', 'territoriality', 'direct')
+
+def logic_5952(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'territoriality', 'direct')
