@@ -8612,3 +8612,6 @@ def logic_6937(agents, world):
 
 def logic_6938(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'attack_threshold', 'direct')
+
+def logic_6939(agents, world):
+    _agent_apply(world, agents, 'hydration', 'attack_threshold', 'direct')
