@@ -4199,3 +4199,6 @@ def logic_11378(world):
 
 def logic_11379(world):
     _world_apply(world, 'fire_risk', 'nutrients', 'direct')
+
+def logic_11380(world):
+    _world_apply(world, 'fire_risk', 'decomposition_rate', 'square')
