@@ -14069,3 +14069,6 @@ def logic_8756(agents, world):
 
 def logic_8757(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'reciprocity_score', 'direct')
+
+def logic_8758(agents, world):
+    _agent_apply(world, agents, 'ash', 'reciprocity_score', 'direct')
