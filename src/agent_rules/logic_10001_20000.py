@@ -2972,3 +2972,6 @@ def logic_18969(agents, world):
 
 def logic_18970(agents, world):
     _agent_apply(world, agents, 'cloud', 'social_need', 'direct')
+
+def logic_18971(agents, world):
+    _agent_apply(world, agents, 'rain', 'social_need', 'direct')
