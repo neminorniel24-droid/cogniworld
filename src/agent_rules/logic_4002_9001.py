@@ -8288,3 +8288,6 @@ def logic_6829(agents, world):
 
 def logic_6830(agents, world):
     _agent_apply(world, agents, 'wind_y', 'empathy', 'direct')
+
+def logic_6831(agents, world):
+    _agent_apply(world, agents, 'vegetation', 'empathy', 'direct')
