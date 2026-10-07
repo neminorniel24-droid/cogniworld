@@ -2156,3 +2156,6 @@ def logic_18697(agents, world):
 
 def logic_18698(agents, world):
     _agent_apply(world, agents, 'wind_x', 'caution', 'reciprocal')
+
+def logic_18699(agents, world):
+    _agent_apply(world, agents, 'wind_y', 'caution', 'reciprocal')
