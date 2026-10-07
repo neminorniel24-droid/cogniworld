@@ -5933,3 +5933,6 @@ def logic_6044(agents, world):
 
 def logic_6045(agents, world):
     _agent_apply(world, agents, 'deadwood', 'group_stability', 'direct')
+
+def logic_6046(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'group_stability', 'direct')
