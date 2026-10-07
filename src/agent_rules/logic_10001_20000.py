@@ -4490,3 +4490,6 @@ def logic_19475(agents, world):
 
 def logic_19476(agents, world):
     _agent_apply(world, agents, 'resource_competition', 'fitness_score', 'saturation')
+
+def logic_19477(agents, world):
+    _agent_apply(world, agents, 'vegetation_expectation', 'fitness_score', 'saturation')
