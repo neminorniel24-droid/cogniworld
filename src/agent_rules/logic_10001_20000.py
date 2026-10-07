@@ -4322,3 +4322,6 @@ def logic_19419(agents, world):
 
 def logic_19420(agents, world):
     _agent_apply(world, agents, 'deadwood', 'exploration_score', 'threshold')
+
+def logic_19421(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'foraging_score', 'threshold')
