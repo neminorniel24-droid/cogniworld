@@ -10730,3 +10730,6 @@ def logic_7643(agents, world):
 
 def logic_7644(agents, world):
     _agent_apply(world, agents, 'runoff', 'betrayal_memory', 'direct')
+
+def logic_7645(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'betrayal_memory', 'direct')
