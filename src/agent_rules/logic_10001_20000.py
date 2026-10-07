@@ -2678,3 +2678,6 @@ def logic_18871(agents, world):
 
 def logic_18872(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'shelter_need', 'feedback')
+
+def logic_18873(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'shelter_need', 'feedback')
