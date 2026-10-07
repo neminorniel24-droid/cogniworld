@@ -854,3 +854,6 @@ def logic_18263(agents, world):
 
 def logic_18264(agents, world):
     _agent_apply(world, agents, 'attack_success', 'migration_drive', 'square')
+
+def logic_18265(agents, world):
+    _agent_apply(world, agents, 'retaliation_risk', 'migration_drive', 'square')
