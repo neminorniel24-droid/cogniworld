@@ -12191,3 +12191,6 @@ def logic_8130(agents, world):
 
 def logic_8131(agents, world):
     _agent_apply(world, agents, 'co2', 'last_energy_delta', 'direct')
+
+def logic_8132(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'last_energy_delta', 'direct')
