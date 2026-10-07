@@ -296,3 +296,6 @@ def logic_4065(world):
 
 def logic_4066(world):
     _world_apply(world, 'ash', 'soil_carbon', 'direct')
+
+def logic_4067(world):
+    _world_apply(world, 'surface_water', 'salinity', 'inverse')
