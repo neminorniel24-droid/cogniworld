@@ -1938,3 +1938,6 @@ def logic_9820(agents, world):
 
 def logic_9821(agents, world):
     _agent_apply(world, agents, 'wind_y', 'fear', 'direct')
+
+def logic_9822(agents, world):
+    _agent_apply(world, agents, 'vegetation', 'fear', 'direct')
