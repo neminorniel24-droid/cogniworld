@@ -1976,3 +1976,6 @@ def logic_18637(agents, world):
 
 def logic_18638(agents, world):
     _agent_apply(world, agents, 'confidence', 'selfishness', 'reciprocal')
+
+def logic_18639(agents, world):
+    _agent_apply(world, agents, 'strategy_confidence', 'selfishness', 'reciprocal')
