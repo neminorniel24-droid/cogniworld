@@ -1385,3 +1385,6 @@ def logic_18440(agents, world):
 
 def logic_18441(agents, world):
     _agent_apply(world, agents, 'erosion', 'cooperation', 'pulse')
+
+def logic_18442(agents, world):
+    _agent_apply(world, agents, 'soil_depth', 'cooperation', 'pulse')
