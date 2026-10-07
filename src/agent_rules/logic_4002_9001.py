@@ -3233,3 +3233,6 @@ def logic_5144(agents, world):
 
 def logic_5145(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'food_access', 'direct')
+
+def logic_5146(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'food_access', 'direct')
