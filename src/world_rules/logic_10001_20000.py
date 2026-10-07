@@ -13364,3 +13364,6 @@ def logic_14433(world):
 
 def logic_14434(world):
     _world_apply(world, 'biomass', 'groundwater', 'pulse')
+
+def logic_14435(world):
+    _world_apply(world, 'biomass', 'sediment', 'saturation')
