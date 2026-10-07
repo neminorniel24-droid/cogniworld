@@ -3653,3 +3653,6 @@ def logic_19196(agents, world):
 
 def logic_19197(agents, world):
     _agent_apply(world, agents, 'oxygen_need', 'last_food', 'sqrt')
+
+def logic_19198(agents, world):
+    _agent_apply(world, agents, 'shelter_need', 'last_food', 'sqrt')
