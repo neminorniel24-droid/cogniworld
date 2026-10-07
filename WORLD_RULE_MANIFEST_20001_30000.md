@@ -2112,3 +2112,4 @@
 - 22111: integrated cross-system causal rule
 - 22112: integrated cross-system causal rule
 - 22113: integrated cross-system causal rule
+- 22114: integrated cross-system causal rule
