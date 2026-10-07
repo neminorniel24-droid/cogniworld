@@ -1260,3 +1260,4 @@
 - 21259: integrated cross-system causal rule
 - 21260: integrated cross-system causal rule
 - 21261: integrated cross-system causal rule
+- 21262: integrated cross-system causal rule
