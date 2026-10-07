@@ -7000,3 +7000,4 @@
 - 26999: integrated cross-system causal rule
 - 27000: integrated cross-system causal rule
 - 27001: integrated cross-system causal rule
+- 27002: integrated cross-system causal rule
