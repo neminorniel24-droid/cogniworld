@@ -22955,3 +22955,6 @@ def logic_17630(world):
 
 def logic_17631(world):
     _world_apply(world, 'organic_matter', 'photosynthesis_factor', 'saturation')
+
+def logic_17632(world):
+    _world_apply(world, 'organic_matter', 'ice', 'gap')
