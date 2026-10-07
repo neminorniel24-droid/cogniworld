@@ -20600,3 +20600,6 @@ def logic_16845(world):
 
 def logic_16846(world):
     _world_apply(world, 'evaporation', 'erosion', 'direct')
+
+def logic_16847(world):
+    _world_apply(world, 'evaporation', 'soil_depth', 'square')
