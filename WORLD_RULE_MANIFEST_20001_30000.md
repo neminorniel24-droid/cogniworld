@@ -130,3 +130,4 @@
 - 20129: integrated cross-system causal rule
 - 20130: integrated cross-system causal rule
 - 20131: integrated cross-system causal rule
+- 20132: integrated cross-system causal rule
