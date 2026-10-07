@@ -4343,3 +4343,6 @@ def logic_19426(agents, world):
 
 def logic_19427(agents, world):
     _agent_apply(world, agents, 'resource_abundance', 'foraging_score', 'saturation')
+
+def logic_19428(agents, world):
+    _agent_apply(world, agents, 'energy_surplus', 'foraging_score', 'saturation')
