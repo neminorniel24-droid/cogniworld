@@ -3596,3 +3596,6 @@ def logic_19177(agents, world):
 
 def logic_19178(agents, world):
     _agent_apply(world, agents, 'aggression', 'last_energy_delta', 'sqrt')
+
+def logic_19179(agents, world):
+    _agent_apply(world, agents, 'conflict_pressure', 'last_energy_delta', 'sqrt')
