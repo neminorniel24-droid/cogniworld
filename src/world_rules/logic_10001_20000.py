@@ -17066,3 +17066,6 @@ def logic_15667(world):
 
 def logic_15668(world):
     _world_apply(world, 'organic_matter', 'sediment', 'direct')
+
+def logic_15669(world):
+    _world_apply(world, 'organic_matter', 'salinity', 'square')
