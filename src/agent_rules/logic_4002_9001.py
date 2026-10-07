@@ -12578,3 +12578,6 @@ def logic_8259(agents, world):
 
 def logic_8260(agents, world):
     _agent_apply(world, agents, 'biomass', 'last_interaction', 'direct')
+
+def logic_8261(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'last_interaction', 'direct')
