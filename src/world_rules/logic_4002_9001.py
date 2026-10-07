@@ -221,3 +221,6 @@ def logic_4040(world):
 
 def logic_4041(world):
     _world_apply(world, 'photosynthesis_factor', 'vegetation', 'reciprocal')
+
+def logic_4042(world):
+    _world_apply(world, 'salinity', 'vegetation', 'direct')
