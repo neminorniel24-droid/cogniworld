@@ -17888,3 +17888,6 @@ def logic_15941(world):
 
 def logic_15942(world):
     _world_apply(world, 'temperature', 'humidity', 'saturation')
+
+def logic_15943(world):
+    _world_apply(world, 'temperature', 'cloud', 'gap')
