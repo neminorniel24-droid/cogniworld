@@ -44668,3 +44668,10 @@ def logic_36759(agents, world):
     src = _local(world, agents, 'seed_bank')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.defense_score = _delta(agents.defense_score, delta)
+
+
+def logic_36760(agents, world):
+    """Environmental soil_carbon shapes agent memory_update (square)."""
+    src = _local(world, agents, 'soil_carbon')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.memory_update = _delta(agents.memory_update, delta)
