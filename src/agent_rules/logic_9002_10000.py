@@ -1653,3 +1653,6 @@ def logic_9725(agents, world):
 
 def logic_9726(agents, world):
     _agent_apply(world, agents, 'hydration', 'infection_risk', 'direct')
+
+def logic_9727(agents, world):
+    _agent_apply(world, agents, 'thirst', 'infection_risk', 'direct')
