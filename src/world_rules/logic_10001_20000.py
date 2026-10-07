@@ -6134,3 +6134,6 @@ def logic_12023(world):
 
 def logic_12024(world):
     _world_apply(world, 'temperature', 'surface_ice', 'direct')
+
+def logic_12025(world):
+    _world_apply(world, 'surface_water', 'temperature', 'pulse')
