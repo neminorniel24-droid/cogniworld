@@ -17966,3 +17966,6 @@ def logic_15967(world):
 
 def logic_15968(world):
     _world_apply(world, 'temperature', 'root_density', 'pulse')
+
+def logic_15969(world):
+    _world_apply(world, 'temperature', 'wetland', 'gap')
