@@ -64793,3 +64793,10 @@ def logic_39634(agents, world):
     src = _local(world, agents, 'ice')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.hydration = _delta(agents.hydration, delta)
+
+
+def logic_39635(agents, world):
+    """Environmental evaporation shapes agent infection_risk (inverse)."""
+    src = _local(world, agents, 'evaporation')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.infection_risk = _delta(agents.infection_risk, delta)
