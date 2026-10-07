@@ -2621,3 +2621,6 @@ def logic_18852(agents, world):
 
 def logic_18853(agents, world):
     _agent_apply(world, agents, 'biodiversity', 'oxygen_need', 'feedback')
+
+def logic_18854(agents, world):
+    _agent_apply(world, agents, 'habitat_stress', 'oxygen_need', 'feedback')
