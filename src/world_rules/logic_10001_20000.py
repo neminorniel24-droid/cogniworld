@@ -17651,3 +17651,6 @@ def logic_15862(world):
 
 def logic_15863(world):
     _world_apply(world, 'soil_carbon', 'biomass', 'gap')
+
+def logic_15864(world):
+    _world_apply(world, 'soil_carbon', 'herbivore', 'direct')
