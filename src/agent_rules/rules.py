@@ -44661,3 +44661,10 @@ def logic_36758(agents, world):
     src = _local(world, agents, 'flowers')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.exploration_score = _delta(agents.exploration_score, delta)
+
+
+def logic_36759(agents, world):
+    """Environmental seed_bank shapes agent defense_score (inverse)."""
+    src = _local(world, agents, 'seed_bank')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defense_score = _delta(agents.defense_score, delta)
