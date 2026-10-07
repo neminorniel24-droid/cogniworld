@@ -10568,3 +10568,6 @@ def logic_13501(world):
 
 def logic_13502(world):
     _world_apply(world, 'groundwater', 'habitat_stress', 'saturation')
+
+def logic_13503(world):
+    _world_apply(world, 'groundwater', 'erosion', 'gap')
