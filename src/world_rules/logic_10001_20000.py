@@ -9692,3 +9692,6 @@ def logic_13209(world):
 
 def logic_13210(world):
     _world_apply(world, 'soil_depth', 'seed_bank', 'direct')
+
+def logic_13211(world):
+    _world_apply(world, 'soil_depth', 'soil_carbon', 'square')
