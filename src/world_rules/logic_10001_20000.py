@@ -16004,3 +16004,6 @@ def logic_15313(world):
 
 def logic_15314(world):
     _world_apply(world, 'carbon_storage', 'groundwater', 'pulse')
+
+def logic_15315(world):
+    _world_apply(world, 'carbon_storage', 'sediment', 'saturation')
