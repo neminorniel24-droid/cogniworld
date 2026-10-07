@@ -12248,3 +12248,6 @@ def logic_8149(agents, world):
 
 def logic_8150(agents, world):
     _agent_apply(world, agents, 'salinity', 'last_energy_delta', 'direct')
+
+def logic_8151(agents, world):
+    _agent_apply(world, agents, 'algae', 'last_energy_delta', 'direct')
