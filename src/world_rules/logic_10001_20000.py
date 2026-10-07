@@ -4907,3 +4907,6 @@ def logic_11614(world):
 
 def logic_11615(world):
     _world_apply(world, 'salinity', 'carbon_storage', 'direct')
+
+def logic_11616(world):
+    _world_apply(world, 'salinity', 'fire_risk', 'square')
