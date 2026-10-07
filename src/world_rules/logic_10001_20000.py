@@ -13730,3 +13730,6 @@ def logic_14555(world):
 
 def logic_14556(world):
     _world_apply(world, 'carrion', 'biodiversity', 'gap')
+
+def logic_14557(world):
+    _world_apply(world, 'carrion', 'habitat_stress', 'direct')
