@@ -1103,3 +1103,6 @@ def logic_18346(agents, world):
 
 def logic_18347(agents, world):
     _agent_apply(world, agents, 'trust', 'stability', 'sqrt')
+
+def logic_18348(agents, world):
+    _agent_apply(world, agents, 'cooperation', 'stability', 'sqrt')
