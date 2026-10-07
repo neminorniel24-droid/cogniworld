@@ -42288,3 +42288,10 @@ def logic_36419(agents, world):
     src = _local(world, agents, 'biodiversity')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.reproduction_drive = _delta(agents.reproduction_drive, delta)
+
+
+def logic_36420(agents, world):
+    """Environmental habitat_stress shapes agent social_tolerance (square)."""
+    src = _local(world, agents, 'habitat_stress')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.social_tolerance = _delta(agents.social_tolerance, delta)
