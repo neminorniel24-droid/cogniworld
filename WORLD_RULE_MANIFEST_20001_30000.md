@@ -2738,3 +2738,4 @@
 - 22737: integrated cross-system causal rule
 - 22738: integrated cross-system causal rule
 - 22739: integrated cross-system causal rule
+- 22740: integrated cross-system causal rule
