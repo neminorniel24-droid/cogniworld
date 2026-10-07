@@ -6776,3 +6776,6 @@ def logic_6325(agents, world):
 
 def logic_6326(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'selfishness', 'direct')
+
+def logic_6327(agents, world):
+    _agent_apply(world, agents, 'hydration', 'selfishness', 'direct')
