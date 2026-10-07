@@ -9092,3 +9092,6 @@ def logic_7097(agents, world):
 
 def logic_7098(agents, world):
     _agent_apply(world, agents, 'rain', 'shelter_need', 'direct')
+
+def logic_7099(agents, world):
+    _agent_apply(world, agents, 'soil_moisture', 'shelter_need', 'direct')
