@@ -6080,3 +6080,4 @@
 - 26079: integrated cross-system causal rule
 - 26080: integrated cross-system causal rule
 - 26081: integrated cross-system causal rule
+- 26082: integrated cross-system causal rule
