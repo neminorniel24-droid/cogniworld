@@ -9842,3 +9842,6 @@ def logic_13259(world):
 
 def logic_13260(world):
     _world_apply(world, 'wetland', 'cloud', 'square')
+
+def logic_13261(world):
+    _world_apply(world, 'wetland', 'rain', 'pulse')
