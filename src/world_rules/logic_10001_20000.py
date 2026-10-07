@@ -4253,3 +4253,6 @@ def logic_11396(world):
 
 def logic_11397(world):
     _world_apply(world, 'fire_risk', 'snowpack', 'direct')
+
+def logic_11398(world):
+    _world_apply(world, 'fire_risk', 'groundwater', 'square')
