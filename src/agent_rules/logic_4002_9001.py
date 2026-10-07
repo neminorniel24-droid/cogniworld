@@ -9131,3 +9131,6 @@ def logic_7110(agents, world):
 
 def logic_7111(agents, world):
     _agent_apply(world, agents, 'co2', 'shelter_need', 'direct')
+
+def logic_7112(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'shelter_need', 'direct')
