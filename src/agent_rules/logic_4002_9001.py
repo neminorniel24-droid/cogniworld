@@ -7103,3 +7103,6 @@ def logic_6434(agents, world):
 
 def logic_6435(agents, world):
     _agent_apply(world, agents, 'detritus', 'gratitude', 'direct')
+
+def logic_6436(agents, world):
+    _agent_apply(world, agents, 'methane', 'gratitude', 'direct')
