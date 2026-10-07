@@ -11981,3 +11981,6 @@ def logic_8060(agents, world):
 
 def logic_8061(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'last_reward', 'direct')
+
+def logic_8062(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'last_reward', 'direct')
