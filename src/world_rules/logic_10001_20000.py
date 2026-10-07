@@ -16370,3 +16370,6 @@ def logic_15435(world):
 
 def logic_15436(world):
     _world_apply(world, 'snowpack', 'pathogen_load', 'gap')
+
+def logic_15437(world):
+    _world_apply(world, 'snowpack', 'biodiversity', 'direct')
