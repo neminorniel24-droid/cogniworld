@@ -60397,3 +60397,10 @@ def logic_39006(agents, world):
     src = _local(world, agents, 'sediment')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.cooperation_history = _delta(agents.cooperation_history, delta)
+
+
+def logic_39007(agents, world):
+    """Environmental salinity shapes agent last_interaction (inverse)."""
+    src = _local(world, agents, 'salinity')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.last_interaction = _delta(agents.last_interaction, delta)
