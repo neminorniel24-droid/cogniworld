@@ -3630,3 +3630,4 @@
 - 23629: integrated cross-system causal rule
 - 23630: integrated cross-system causal rule
 - 23631: integrated cross-system causal rule
+- 23632: integrated cross-system causal rule
