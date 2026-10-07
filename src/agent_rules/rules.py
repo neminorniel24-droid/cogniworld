@@ -53488,3 +53488,10 @@ def logic_38019(agents, world):
     src = _local(world, agents, 'nutrients')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.self_preservation = _delta(agents.self_preservation, delta)
+
+
+def logic_38020(agents, world):
+    """Environmental decomposition_rate shapes agent dehydration (square)."""
+    src = _local(world, agents, 'decomposition_rate')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.dehydration = _delta(agents.dehydration, delta)
