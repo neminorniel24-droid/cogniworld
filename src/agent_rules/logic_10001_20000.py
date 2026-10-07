@@ -3227,3 +3227,6 @@ def logic_19054(agents, world):
 
 def logic_19055(agents, world):
     _agent_apply(world, agents, 'resource_discovery', 'conflict_history', 'inverse')
+
+def logic_19056(agents, world):
+    _agent_apply(world, agents, 'empathy', 'conflict_history', 'inverse')
