@@ -1967,3 +1967,6 @@ def logic_10634(world):
 
 def logic_10635(world):
     _world_apply(world, 'nutrients', 'ice', 'saturation')
+
+def logic_10636(world):
+    _world_apply(world, 'nutrients', 'evaporation', 'gap')
