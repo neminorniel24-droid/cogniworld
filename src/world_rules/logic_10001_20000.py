@@ -9788,3 +9788,6 @@ def logic_13241(world):
 
 def logic_13242(world):
     _world_apply(world, 'root_density', 'carbon_storage', 'square')
+
+def logic_13243(world):
+    _world_apply(world, 'root_density', 'fire_risk', 'pulse')
