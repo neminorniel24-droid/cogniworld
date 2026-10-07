@@ -3530,3 +3530,6 @@ def logic_19155(agents, world):
 
 def logic_19156(agents, world):
     _agent_apply(world, agents, 'hunger', 'last_reward', 'square')
+
+def logic_19157(agents, world):
+    _agent_apply(world, agents, 'health', 'last_reward', 'square')
