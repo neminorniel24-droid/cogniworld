@@ -6050,3 +6050,6 @@ def logic_6083(agents, world):
 
 def logic_6084(agents, world):
     _agent_apply(world, agents, 'biomass', 'sharing_capacity', 'direct')
+
+def logic_6085(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'sharing_capacity', 'direct')
