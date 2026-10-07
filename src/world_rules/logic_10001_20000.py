@@ -15752,3 +15752,6 @@ def logic_15229(world):
 
 def logic_15230(world):
     _world_apply(world, 'root_density', 'organic_matter', 'pulse')
+
+def logic_15231(world):
+    _world_apply(world, 'root_density', 'deadwood', 'saturation')
