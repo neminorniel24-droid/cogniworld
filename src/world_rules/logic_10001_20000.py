@@ -4580,3 +4580,6 @@ def logic_11505(world):
 
 def logic_11506(world):
     _world_apply(world, 'groundwater', 'vegetation', 'saturation')
+
+def logic_11507(world):
+    _world_apply(world, 'groundwater', 'biomass', 'gap')
