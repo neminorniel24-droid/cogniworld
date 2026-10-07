@@ -7079,3 +7079,6 @@ def logic_12338(world):
 
 def logic_12339(world):
     _world_apply(world, 'wind_y', 'runoff', 'direct')
+
+def logic_12340(world):
+    _world_apply(world, 'wind_y', 'wind_x', 'square')
