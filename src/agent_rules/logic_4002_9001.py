@@ -13946,3 +13946,6 @@ def logic_8715(agents, world):
 
 def logic_8716(agents, world):
     _agent_apply(world, agents, 'defection', 'defection_score', 'direct')
+
+def logic_8717(agents, world):
+    _agent_apply(world, agents, 'trust', 'defection_score', 'direct')
