@@ -26958,3 +26958,10 @@ def logic_34229(agents, world):
     src = _local(world, agents, 'seed_bank')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.migration_score = _delta(agents.migration_score, delta)
+
+
+def logic_34230(agents, world):
+    """Environmental soil_carbon shapes agent future_payoff_weight (direct)."""
+    src = _local(world, agents, 'soil_carbon')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.future_payoff_weight = _delta(agents.future_payoff_weight, delta)
