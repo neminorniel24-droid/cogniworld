@@ -12956,3 +12956,6 @@ def logic_14297(world):
 
 def logic_14298(world):
     _world_apply(world, 'wind_x', 'carbon_storage', 'gap')
+
+def logic_14299(world):
+    _world_apply(world, 'wind_x', 'fire_risk', 'direct')
