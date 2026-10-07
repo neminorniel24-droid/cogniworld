@@ -407,3 +407,6 @@ def logic_4202(agents, world):
 
 def logic_4203(agents, world):
     _agent_apply(world, agents, 'snowpack', 'thirst', 'direct')
+
+def logic_4204(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'thirst', 'direct')
