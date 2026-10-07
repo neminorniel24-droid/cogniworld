@@ -8597,3 +8597,6 @@ def logic_6932(agents, world):
 
 def logic_6933(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'attack_threshold', 'direct')
+
+def logic_6934(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'attack_threshold', 'direct')
