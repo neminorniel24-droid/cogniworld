@@ -3494,3 +3494,6 @@ def logic_19143(agents, world):
 
 def logic_19144(agents, world):
     _agent_apply(world, agents, 'deadwood', 'local_density', 'square')
+
+def logic_19145(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'last_reward', 'square')
