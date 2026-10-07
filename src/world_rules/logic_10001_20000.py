@@ -22397,3 +22397,6 @@ def logic_17444(world):
 
 def logic_17445(world):
     _world_apply(world, 'groundwater', 'wind_y', 'gap')
+
+def logic_17446(world):
+    _world_apply(world, 'groundwater', 'vegetation', 'direct')
