@@ -12587,3 +12587,6 @@ def logic_8262(agents, world):
 
 def logic_8263(agents, world):
     _agent_apply(world, agents, 'carrion', 'last_interaction', 'direct')
+
+def logic_8264(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'last_interaction', 'direct')
