@@ -6920,3 +6920,6 @@ def logic_12285(world):
 
 def logic_12286(world):
     _world_apply(world, 'runoff', 'seed_bank', 'direct')
+
+def logic_12287(world):
+    _world_apply(world, 'runoff', 'soil_carbon', 'square')
