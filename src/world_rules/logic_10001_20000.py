@@ -22121,3 +22121,6 @@ def logic_17352(world):
 
 def logic_17353(world):
     _world_apply(world, 'ash', 'rain', 'square')
+
+def logic_17354(world):
+    _world_apply(world, 'ash', 'soil_moisture', 'pulse')
