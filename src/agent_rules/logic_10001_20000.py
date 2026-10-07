@@ -5213,3 +5213,6 @@ def logic_19716(agents, world):
 
 def logic_19717(agents, world):
     _agent_apply(world, agents, 'metabolic_cost', 'self_preservation', 'feedback')
+
+def logic_19718(agents, world):
+    _agent_apply(world, agents, 'reproduction_drive', 'self_preservation', 'feedback')
