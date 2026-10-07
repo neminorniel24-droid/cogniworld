@@ -8546,3 +8546,6 @@ def logic_6915(agents, world):
 
 def logic_6916(agents, world):
     _agent_apply(world, agents, 'erosion', 'attack_threshold', 'direct')
+
+def logic_6917(agents, world):
+    _agent_apply(world, agents, 'soil_depth', 'attack_threshold', 'direct')
