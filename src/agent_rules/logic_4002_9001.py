@@ -5564,3 +5564,6 @@ def logic_5921(agents, world):
 
 def logic_5922(agents, world):
     _agent_apply(world, agents, 'health', 'competition_pressure', 'direct')
+
+def logic_5923(agents, world):
+    _agent_apply(world, agents, 'stress', 'competition_pressure', 'direct')
