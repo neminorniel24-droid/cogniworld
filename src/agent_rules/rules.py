@@ -52613,3 +52613,10 @@ def logic_37894(agents, world):
     src = _local(world, agents, 'soil_depth')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.migration_drive = _delta(agents.migration_drive, delta)
+
+
+def logic_37895(agents, world):
+    """Environmental root_density shapes agent reputation (inverse)."""
+    src = _local(world, agents, 'root_density')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.reputation = _delta(agents.reputation, delta)
