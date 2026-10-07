@@ -3925,3 +3925,4 @@
 - 23924: integrated cross-system causal rule
 - 23925: integrated cross-system causal rule
 - 23926: integrated cross-system causal rule
+- 23927: integrated cross-system causal rule
