@@ -12773,3 +12773,6 @@ def logic_14236(world):
 
 def logic_14237(world):
     _world_apply(world, 'runoff', 'carrion', 'direct')
+
+def logic_14238(world):
+    _world_apply(world, 'runoff', 'nutrients', 'square')
