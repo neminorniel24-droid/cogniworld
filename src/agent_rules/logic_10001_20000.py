@@ -3203,3 +3203,6 @@ def logic_19046(agents, world):
 
 def logic_19047(agents, world):
     _agent_apply(world, agents, 'social_avoidance', 'conflict_history', 'inverse')
+
+def logic_19048(agents, world):
+    _agent_apply(world, agents, 'selfishness', 'conflict_history', 'inverse')
