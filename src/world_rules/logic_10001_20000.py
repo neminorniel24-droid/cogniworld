@@ -11078,3 +11078,6 @@ def logic_13671(world):
 
 def logic_13672(world):
     _world_apply(world, 'organic_matter', 'ice', 'gap')
+
+def logic_13673(world):
+    _world_apply(world, 'organic_matter', 'evaporation', 'square')
