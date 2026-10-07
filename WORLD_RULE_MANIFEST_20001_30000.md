@@ -957,3 +957,4 @@
 - 20956: integrated cross-system causal rule
 - 20957: integrated cross-system causal rule
 - 20958: integrated cross-system causal rule
+- 20959: integrated cross-system causal rule
