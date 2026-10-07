@@ -11855,3 +11855,6 @@ def logic_8018(agents, world):
 
 def logic_8019(agents, world):
     _agent_apply(world, agents, 'flowers', 'local_density', 'direct')
+
+def logic_8020(agents, world):
+    _agent_apply(world, agents, 'seed_bank', 'local_density', 'direct')
