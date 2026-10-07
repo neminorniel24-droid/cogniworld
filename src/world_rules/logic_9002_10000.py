@@ -378,3 +378,6 @@ def logic_9101(world):
 
 def logic_9102(world):
     _world_apply(world, 'surface_water', 'humidity', 'pulse')
+
+def logic_9103(world):
+    _world_apply(world, 'surface_water', 'cloud', 'threshold')
