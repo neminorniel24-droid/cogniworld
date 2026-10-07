@@ -19376,3 +19376,6 @@ def logic_16437(world):
 
 def logic_16438(world):
     _world_apply(world, 'herbivore', 'nutrients', 'square')
+
+def logic_16439(world):
+    _world_apply(world, 'herbivore', 'decomposition_rate', 'pulse')
