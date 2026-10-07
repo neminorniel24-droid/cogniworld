@@ -18395,3 +18395,6 @@ def logic_16110(world):
 
 def logic_16111(world):
     _world_apply(world, 'cloud', 'deadwood', 'saturation')
+
+def logic_16112(world):
+    _world_apply(world, 'cloud', 'pollinators', 'gap')
