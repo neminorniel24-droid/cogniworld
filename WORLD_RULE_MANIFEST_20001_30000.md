@@ -8494,3 +8494,4 @@
 - 28493: integrated cross-system causal rule
 - 28494: integrated cross-system causal rule
 - 28495: integrated cross-system causal rule
+- 28496: integrated cross-system causal rule
