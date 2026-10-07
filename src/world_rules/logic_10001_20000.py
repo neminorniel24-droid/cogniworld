@@ -23543,3 +23543,6 @@ def logic_17826(world):
 
 def logic_17827(world):
     _world_apply(world, 'seed_bank', 'organic_matter', 'gap')
+
+def logic_17828(world):
+    _world_apply(world, 'seed_bank', 'deadwood', 'direct')
