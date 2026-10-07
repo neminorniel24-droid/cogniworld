@@ -27441,3 +27441,10 @@ def logic_34298(agents, world):
     src = _local(world, agents, 'ice')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.group_stability = _delta(agents.group_stability, delta)
+
+
+def logic_34299(agents, world):
+    """Environmental evaporation shapes agent caution (inverse)."""
+    src = _local(world, agents, 'evaporation')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.caution = _delta(agents.caution, delta)
