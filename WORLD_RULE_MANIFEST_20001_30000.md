@@ -599,3 +599,4 @@
 - 20598: integrated cross-system causal rule
 - 20599: integrated cross-system causal rule
 - 20600: integrated cross-system causal rule
+- 20601: integrated cross-system causal rule
