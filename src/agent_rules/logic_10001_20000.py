@@ -5171,3 +5171,6 @@ def logic_19702(agents, world):
 
 def logic_19703(agents, world):
     _agent_apply(world, agents, 'resource_abundance', 'future_payoff_weight', 'feedback')
+
+def logic_19704(agents, world):
+    _agent_apply(world, agents, 'energy_surplus', 'future_payoff_weight', 'feedback')
