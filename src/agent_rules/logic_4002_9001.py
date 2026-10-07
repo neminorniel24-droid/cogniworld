@@ -8675,3 +8675,6 @@ def logic_6958(agents, world):
 
 def logic_6959(agents, world):
     _agent_apply(world, agents, 'surface_water', 'defection_threshold', 'direct')
+
+def logic_6960(agents, world):
+    _agent_apply(world, agents, 'humidity', 'defection_threshold', 'direct')
