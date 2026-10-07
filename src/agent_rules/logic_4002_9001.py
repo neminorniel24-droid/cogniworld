@@ -1508,3 +1508,6 @@ def logic_4569(agents, world):
 
 def logic_4570(agents, world):
     _agent_apply(world, agents, 'reputation', 'pathogen_risk', 'direct')
+
+def logic_4571(agents, world):
+    _agent_apply(world, agents, 'help_received', 'pathogen_risk', 'direct')
