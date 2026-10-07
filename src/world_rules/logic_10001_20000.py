@@ -21212,3 +21212,6 @@ def logic_17049(world):
 
 def logic_17050(world):
     _world_apply(world, 'habitat_stress', 'vegetation', 'direct')
+
+def logic_17051(world):
+    _world_apply(world, 'habitat_stress', 'biomass', 'square')
