@@ -8060,3 +8060,4 @@
 - 28059: integrated cross-system causal rule
 - 28060: integrated cross-system causal rule
 - 28061: integrated cross-system causal rule
+- 28062: integrated cross-system causal rule
