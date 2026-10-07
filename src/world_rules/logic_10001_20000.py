@@ -19607,3 +19607,6 @@ def logic_16514(world):
 
 def logic_16515(world):
     _world_apply(world, 'carrion', 'humidity', 'saturation')
+
+def logic_16516(world):
+    _world_apply(world, 'carrion', 'cloud', 'gap')
