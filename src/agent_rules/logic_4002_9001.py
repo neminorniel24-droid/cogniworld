@@ -6143,3 +6143,6 @@ def logic_6114(agents, world):
 
 def logic_6115(agents, world):
     _agent_apply(world, agents, 'flowers', 'sharing_capacity', 'direct')
+
+def logic_6116(agents, world):
+    _agent_apply(world, agents, 'seed_bank', 'sharing_capacity', 'direct')
