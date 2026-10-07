@@ -51451,3 +51451,10 @@ def logic_37728(agents, world):
     src = _local(world, agents, 'temperature')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.alertness = _delta(agents.alertness, delta)
+
+
+def logic_37729(agents, world):
+    """Environmental temperature_target shapes agent food_access (root)."""
+    src = _local(world, agents, 'temperature_target')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.food_access = _delta(agents.food_access, delta)
