@@ -37857,3 +37857,10 @@ def logic_35786(agents, world):
     src = _local(world, agents, 'sediment')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.social_avoidance = _delta(agents.social_avoidance, delta)
+
+
+def logic_35787(agents, world):
+    """Environmental salinity shapes agent future_help (inverse)."""
+    src = _local(world, agents, 'salinity')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.future_help = _delta(agents.future_help, delta)
