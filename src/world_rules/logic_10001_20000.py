@@ -22208,3 +22208,6 @@ def logic_17381(world):
 
 def logic_17382(world):
     _world_apply(world, 'ash', 'groundwater', 'saturation')
+
+def logic_17383(world):
+    _world_apply(world, 'ash', 'sediment', 'gap')
