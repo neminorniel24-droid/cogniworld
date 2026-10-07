@@ -2969,3 +2969,6 @@ def logic_5056(agents, world):
 
 def logic_5057(agents, world):
     _agent_apply(world, agents, 'cloud', 'exploration_drive', 'direct')
+
+def logic_5058(agents, world):
+    _agent_apply(world, agents, 'rain', 'exploration_drive', 'direct')
