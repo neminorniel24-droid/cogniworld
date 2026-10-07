@@ -2816,3 +2816,4 @@
 - 22815: integrated cross-system causal rule
 - 22816: integrated cross-system causal rule
 - 22817: integrated cross-system causal rule
+- 22818: integrated cross-system causal rule
