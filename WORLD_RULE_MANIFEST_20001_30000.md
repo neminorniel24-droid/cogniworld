@@ -6550,3 +6550,4 @@
 - 26549: integrated cross-system causal rule
 - 26550: integrated cross-system causal rule
 - 26551: integrated cross-system causal rule
+- 26552: integrated cross-system causal rule
