@@ -5333,3 +5333,6 @@ def logic_11756(world):
 
 def logic_11757(world):
     _world_apply(world, 'deadwood', 'flowers', 'direct')
+
+def logic_11758(world):
+    _world_apply(world, 'deadwood', 'seed_bank', 'square')
