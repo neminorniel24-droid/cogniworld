@@ -9164,3 +9164,6 @@ def logic_13033(world):
 
 def logic_13034(world):
     _world_apply(world, 'pathogen_load', 'seed_bank', 'pulse')
+
+def logic_13035(world):
+    _world_apply(world, 'pathogen_load', 'soil_carbon', 'saturation')
