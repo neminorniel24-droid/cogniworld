@@ -6164,3 +6164,6 @@ def logic_12033(world):
 
 def logic_12034(world):
     _world_apply(world, 'surface_water', 'biomass', 'pulse')
+
+def logic_12035(world):
+    _world_apply(world, 'surface_water', 'herbivore', 'saturation')
