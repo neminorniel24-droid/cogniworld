@@ -6092,3 +6092,6 @@ def logic_6097(agents, world):
 
 def logic_6098(agents, world):
     _agent_apply(world, agents, 'biodiversity', 'sharing_capacity', 'direct')
+
+def logic_6099(agents, world):
+    _agent_apply(world, agents, 'habitat_stress', 'sharing_capacity', 'direct')
