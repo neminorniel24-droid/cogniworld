@@ -7065,3 +7065,4 @@
 - 27064: integrated cross-system causal rule
 - 27065: integrated cross-system causal rule
 - 27066: integrated cross-system causal rule
+- 27067: integrated cross-system causal rule
