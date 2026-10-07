@@ -66249,3 +66249,10 @@ def logic_39842(agents, world):
     src = _local(world, agents, 'soil_carbon')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.selfishness = _delta(agents.selfishness, delta)
+
+
+def logic_39843(agents, world):
+    """Environmental surface_ice shapes agent resource_discovery (inverse)."""
+    src = _local(world, agents, 'surface_ice')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.resource_discovery = _delta(agents.resource_discovery, delta)
