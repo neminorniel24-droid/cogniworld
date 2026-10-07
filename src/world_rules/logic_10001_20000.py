@@ -14792,3 +14792,6 @@ def logic_14909(world):
 
 def logic_14910(world):
     _world_apply(world, 'detritus', 'erosion', 'pulse')
+
+def logic_14911(world):
+    _world_apply(world, 'detritus', 'soil_depth', 'saturation')
