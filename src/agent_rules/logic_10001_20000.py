@@ -2138,3 +2138,6 @@ def logic_18691(agents, world):
 
 def logic_18692(agents, world):
     _agent_apply(world, agents, 'surface_water', 'caution', 'reciprocal')
+
+def logic_18693(agents, world):
+    _agent_apply(world, agents, 'humidity', 'caution', 'reciprocal')
