@@ -4253,3 +4253,6 @@ def logic_19396(agents, world):
 
 def logic_19397(agents, world):
     _agent_apply(world, agents, 'oxygen', 'safety_score', 'threshold')
+
+def logic_19398(agents, world):
+    _agent_apply(world, agents, 'co2', 'safety_score', 'threshold')
