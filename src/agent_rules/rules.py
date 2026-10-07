@@ -47664,3 +47664,10 @@ def logic_37187(agents, world):
     src = _local(world, agents, 'biomass')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.stress = _delta(agents.stress, delta)
+
+
+def logic_37188(agents, world):
+    """Environmental herbivore shapes agent help_received (square)."""
+    src = _local(world, agents, 'herbivore')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.help_received = _delta(agents.help_received, delta)
