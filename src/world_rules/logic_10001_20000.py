@@ -11000,3 +11000,6 @@ def logic_13645(world):
 
 def logic_13646(world):
     _world_apply(world, 'algae', 'organic_matter', 'direct')
+
+def logic_13647(world):
+    _world_apply(world, 'algae', 'deadwood', 'square')
