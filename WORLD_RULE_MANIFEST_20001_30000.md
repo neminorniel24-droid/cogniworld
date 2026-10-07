@@ -1804,3 +1804,4 @@
 - 21803: integrated cross-system causal rule
 - 21804: integrated cross-system causal rule
 - 21805: integrated cross-system causal rule
+- 21806: integrated cross-system causal rule
