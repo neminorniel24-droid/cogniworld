@@ -5840,3 +5840,6 @@ def logic_19925(agents, world):
 
 def logic_19926(agents, world):
     _agent_apply(world, agents, 'strategy_persistence', 'alertness', 'inverse')
+
+def logic_19927(agents, world):
+    _agent_apply(world, agents, 'strategy_mixing', 'alertness', 'inverse')
