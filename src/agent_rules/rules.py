@@ -55854,3 +55854,10 @@ def logic_38357(agents, world):
     src = _local(world, agents, 'carbon_storage')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.neighbor_energy_gap = _delta(agents.neighbor_energy_gap, delta)
+
+
+def logic_38358(agents, world):
+    """Environmental fire_risk shapes agent local_density (direct)."""
+    src = _local(world, agents, 'fire_risk')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.local_density = _delta(agents.local_density, delta)
