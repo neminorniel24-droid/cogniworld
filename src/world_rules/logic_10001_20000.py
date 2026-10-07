@@ -18116,3 +18116,6 @@ def logic_16017(world):
 
 def logic_16018(world):
     _world_apply(world, 'surface_water', 'groundwater', 'gap')
+
+def logic_16019(world):
+    _world_apply(world, 'surface_water', 'sediment', 'direct')
