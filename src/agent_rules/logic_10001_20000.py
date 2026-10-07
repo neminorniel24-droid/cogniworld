@@ -2792,3 +2792,6 @@ def logic_18909(agents, world):
 
 def logic_18910(agents, world):
     _agent_apply(world, agents, 'selfishness', 'resource_competition', 'direct')
+
+def logic_18911(agents, world):
+    _agent_apply(world, agents, 'generosity', 'resource_competition', 'direct')
