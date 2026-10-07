@@ -17717,3 +17717,6 @@ def logic_15884(world):
 
 def logic_15885(world):
     _world_apply(world, 'soil_carbon', 'ash', 'gap')
+
+def logic_15886(world):
+    _world_apply(world, 'soil_carbon', 'snowpack', 'direct')
