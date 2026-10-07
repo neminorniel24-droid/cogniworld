@@ -6800,3 +6800,6 @@ def logic_12245(world):
 
 def logic_12246(world):
     _world_apply(world, 'runoff', 'surface_water', 'direct')
+
+def logic_12247(world):
+    _world_apply(world, 'runoff', 'humidity', 'square')
