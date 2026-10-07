@@ -1109,3 +1109,6 @@ def logic_4436(agents, world):
 
 def logic_4437(agents, world):
     _agent_apply(world, agents, 'local_density', 'thermal_stress', 'direct')
+
+def logic_4438(agents, world):
+    _agent_apply(world, agents, 'strategy_score', 'thermal_stress', 'direct')
