@@ -1005,3 +1005,6 @@ def logic_9509(agents, world):
 
 def logic_9510(agents, world):
     _agent_apply(world, agents, 'algae', 'thermal_stress', 'direct')
+
+def logic_9511(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'thermal_stress', 'direct')
