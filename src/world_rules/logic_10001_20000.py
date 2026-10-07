@@ -10679,3 +10679,6 @@ def logic_13538(world):
 
 def logic_13539(world):
     _world_apply(world, 'sediment', 'photosynthesis_factor', 'direct')
+
+def logic_13540(world):
+    _world_apply(world, 'sediment', 'ice', 'square')
