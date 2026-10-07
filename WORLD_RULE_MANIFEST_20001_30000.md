@@ -2020,3 +2020,4 @@
 - 22019: integrated cross-system causal rule
 - 22020: integrated cross-system causal rule
 - 22021: integrated cross-system causal rule
+- 22022: integrated cross-system causal rule
