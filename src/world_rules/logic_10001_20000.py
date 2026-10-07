@@ -7802,3 +7802,6 @@ def logic_12579(world):
 
 def logic_12580(world):
     _world_apply(world, 'carrion', 'root_density', 'square')
+
+def logic_12581(world):
+    _world_apply(world, 'carrion', 'wetland', 'pulse')
