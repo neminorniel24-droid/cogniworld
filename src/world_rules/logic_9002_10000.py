@@ -417,3 +417,6 @@ def logic_9114(world):
 
 def logic_9115(world):
     _world_apply(world, 'surface_water', 'oxygen', 'inverse')
+
+def logic_9116(world):
+    _world_apply(world, 'surface_water', 'co2', 'square')
