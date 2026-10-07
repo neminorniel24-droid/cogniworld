@@ -48973,3 +48973,10 @@ def logic_37374(agents, world):
     src = _local(world, agents, 'carrion')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.cooperation = _delta(agents.cooperation, delta)
+
+
+def logic_37375(agents, world):
+    """Environmental nutrients shapes agent sharing_capacity (inverse)."""
+    src = _local(world, agents, 'nutrients')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.sharing_capacity = _delta(agents.sharing_capacity, delta)
