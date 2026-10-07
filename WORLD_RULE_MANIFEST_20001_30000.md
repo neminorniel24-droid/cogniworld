@@ -990,3 +990,4 @@
 - 20989: integrated cross-system causal rule
 - 20990: integrated cross-system causal rule
 - 20991: integrated cross-system causal rule
+- 20992: integrated cross-system causal rule
