@@ -6836,3 +6836,6 @@ def logic_12257(world):
 
 def logic_12258(world):
     _world_apply(world, 'runoff', 'nutrients', 'gap')
+
+def logic_12259(world):
+    _world_apply(world, 'runoff', 'decomposition_rate', 'direct')
