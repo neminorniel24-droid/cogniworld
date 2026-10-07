@@ -21185,3 +21185,6 @@ def logic_17040(world):
 
 def logic_17041(world):
     _world_apply(world, 'habitat_stress', 'temperature', 'direct')
+
+def logic_17042(world):
+    _world_apply(world, 'habitat_stress', 'surface_water', 'square')
