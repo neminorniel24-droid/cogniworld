@@ -19661,3 +19661,6 @@ def logic_16532(world):
 
 def logic_16533(world):
     _world_apply(world, 'carrion', 'detritus', 'saturation')
+
+def logic_16534(world):
+    _world_apply(world, 'carrion', 'methane', 'gap')
