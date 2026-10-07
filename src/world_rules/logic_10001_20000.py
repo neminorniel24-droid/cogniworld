@@ -950,3 +950,6 @@ def logic_10295(world):
 
 def logic_10296(world):
     _world_apply(world, 'runoff', 'ash', 'square')
+
+def logic_10297(world):
+    _world_apply(world, 'runoff', 'snowpack', 'saturation')
