@@ -18542,3 +18542,6 @@ def logic_16159(world):
 
 def logic_16160(world):
     _world_apply(world, 'rain', 'surface_ice', 'saturation')
+
+def logic_16161(world):
+    _world_apply(world, 'soil_moisture', 'temperature', 'direct')
