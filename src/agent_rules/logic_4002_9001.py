@@ -10904,3 +10904,6 @@ def logic_7701(agents, world):
 
 def logic_7702(agents, world):
     _agent_apply(world, agents, 'strategy_score', 'betrayal_memory', 'direct')
+
+def logic_7703(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'betrayal_memory', 'direct')
