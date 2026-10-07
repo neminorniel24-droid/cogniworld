@@ -4382,3 +4382,6 @@ def logic_11439(world):
 
 def logic_11440(world):
     _world_apply(world, 'ash', 'fire_risk', 'saturation')
+
+def logic_11441(world):
+    _world_apply(world, 'ash', 'snowpack', 'direct')
