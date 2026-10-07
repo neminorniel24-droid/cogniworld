@@ -5822,3 +5822,6 @@ def logic_11919(world):
 
 def logic_11920(world):
     _world_apply(world, 'soil_carbon', 'soil_depth', 'saturation')
+
+def logic_11921(world):
+    _world_apply(world, 'soil_carbon', 'root_density', 'direct')
