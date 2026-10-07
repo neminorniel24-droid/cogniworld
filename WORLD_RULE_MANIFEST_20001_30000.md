@@ -6058,3 +6058,4 @@
 - 26057: integrated cross-system causal rule
 - 26058: integrated cross-system causal rule
 - 26059: integrated cross-system causal rule
+- 26060: integrated cross-system causal rule
