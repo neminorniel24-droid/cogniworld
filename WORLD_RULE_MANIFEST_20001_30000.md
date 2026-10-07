@@ -9500,3 +9500,4 @@
 - 29499: integrated cross-system causal rule
 - 29500: integrated cross-system causal rule
 - 29501: integrated cross-system causal rule
+- 29502: integrated cross-system causal rule
