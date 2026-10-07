@@ -7679,3 +7679,6 @@ def logic_6626(agents, world):
 
 def logic_6627(agents, world):
     _agent_apply(world, agents, 'vegetation', 'strategy_confidence', 'direct')
+
+def logic_6628(agents, world):
+    _agent_apply(world, agents, 'biomass', 'strategy_confidence', 'direct')
