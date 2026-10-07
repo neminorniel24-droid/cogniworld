@@ -5879,3 +5879,6 @@ def logic_6026(agents, world):
 
 def logic_6027(agents, world):
     _agent_apply(world, agents, 'detritus', 'group_stability', 'direct')
+
+def logic_6028(agents, world):
+    _agent_apply(world, agents, 'methane', 'group_stability', 'direct')
