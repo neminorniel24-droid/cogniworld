@@ -2279,3 +2279,6 @@ def logic_10738(world):
 
 def logic_10739(world):
     _world_apply(world, 'oxygen', 'sediment', 'direct')
+
+def logic_10740(world):
+    _world_apply(world, 'oxygen', 'salinity', 'square')
