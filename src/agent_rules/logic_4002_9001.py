@@ -12149,3 +12149,6 @@ def logic_8116(agents, world):
 
 def logic_8117(agents, world):
     _agent_apply(world, agents, 'cloud', 'last_energy_delta', 'direct')
+
+def logic_8118(agents, world):
+    _agent_apply(world, agents, 'rain', 'last_energy_delta', 'direct')
