@@ -12257,3 +12257,6 @@ def logic_8152(agents, world):
 
 def logic_8153(agents, world):
     _agent_apply(world, agents, 'deadwood', 'last_energy_delta', 'direct')
+
+def logic_8154(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'last_energy_delta', 'direct')
