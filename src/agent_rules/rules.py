@@ -43373,3 +43373,10 @@ def logic_36574(agents, world):
     src = _local(world, agents, 'flowers')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.sharing_capacity = _delta(agents.sharing_capacity, delta)
+
+
+def logic_36575(agents, world):
+    """Environmental seed_bank shapes agent confidence (inverse)."""
+    src = _local(world, agents, 'seed_bank')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.confidence = _delta(agents.confidence, delta)
