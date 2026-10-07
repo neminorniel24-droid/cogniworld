@@ -38151,3 +38151,10 @@ def logic_35828(agents, world):
     src = _local(world, agents, 'fire_risk')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.last_reward = _delta(agents.last_reward, delta)
+
+
+def logic_35829(agents, world):
+    """Environmental ash shapes agent cooperation_score (root)."""
+    src = _local(world, agents, 'ash')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.cooperation_score = _delta(agents.cooperation_score, delta)
