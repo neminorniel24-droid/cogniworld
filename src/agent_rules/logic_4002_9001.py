@@ -3245,3 +3245,6 @@ def logic_5148(agents, world):
 
 def logic_5149(agents, world):
     _agent_apply(world, agents, 'soil_depth', 'food_access', 'direct')
+
+def logic_5150(agents, world):
+    _agent_apply(world, agents, 'root_density', 'food_access', 'direct')
