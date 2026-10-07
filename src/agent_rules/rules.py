@@ -43884,3 +43884,10 @@ def logic_36647(agents, world):
     src = _local(world, agents, 'methane')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.pathogen_risk = _delta(agents.pathogen_risk, delta)
+
+
+def logic_36648(agents, world):
+    """Environmental pathogen_load shapes agent migration_drive (square)."""
+    src = _local(world, agents, 'pathogen_load')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.migration_drive = _delta(agents.migration_drive, delta)
