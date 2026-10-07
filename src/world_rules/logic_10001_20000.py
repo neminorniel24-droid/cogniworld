@@ -15302,3 +15302,6 @@ def logic_15079(world):
 
 def logic_15080(world):
     _world_apply(world, 'habitat_stress', 'ice', 'saturation')
+
+def logic_15081(world):
+    _world_apply(world, 'habitat_stress', 'evaporation', 'direct')
