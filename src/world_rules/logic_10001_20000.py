@@ -22148,3 +22148,6 @@ def logic_17361(world):
 
 def logic_17362(world):
     _world_apply(world, 'ash', 'carrion', 'square')
+
+def logic_17363(world):
+    _world_apply(world, 'ash', 'nutrients', 'pulse')
