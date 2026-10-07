@@ -5948,3 +5948,6 @@ def logic_11961(world):
 
 def logic_11962(world):
     _world_apply(world, 'surface_ice', 'habitat_stress', 'square')
+
+def logic_11963(world):
+    _world_apply(world, 'surface_ice', 'erosion', 'pulse')
