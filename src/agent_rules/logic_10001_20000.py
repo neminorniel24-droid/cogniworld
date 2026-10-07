@@ -5663,3 +5663,6 @@ def logic_19866(agents, world):
 
 def logic_19867(agents, world):
     _agent_apply(world, agents, 'defection', 'dehydration', 'direct')
+
+def logic_19868(agents, world):
+    _agent_apply(world, agents, 'aggression', 'dehydration', 'direct')
