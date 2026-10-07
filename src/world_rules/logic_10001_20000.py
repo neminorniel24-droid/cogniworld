@@ -22787,3 +22787,6 @@ def logic_17574(world):
 
 def logic_17575(world):
     _world_apply(world, 'algae', 'runoff', 'direct')
+
+def logic_17576(world):
+    _world_apply(world, 'algae', 'wind_x', 'square')
