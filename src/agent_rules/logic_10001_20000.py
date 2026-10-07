@@ -2117,3 +2117,6 @@ def logic_18684(agents, world):
 
 def logic_18685(agents, world):
     _agent_apply(world, agents, 'strategy_mixing', 'gratitude', 'reciprocal')
+
+def logic_18686(agents, world):
+    _agent_apply(world, agents, 'learning_rate', 'gratitude', 'reciprocal')
