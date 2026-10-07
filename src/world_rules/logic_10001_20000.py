@@ -3278,3 +3278,6 @@ def logic_11071(world):
 
 def logic_11072(world):
     _world_apply(world, 'biodiversity', 'decomposition_rate', 'gap')
+
+def logic_11073(world):
+    _world_apply(world, 'biodiversity', 'oxygen', 'square')
