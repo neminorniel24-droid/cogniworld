@@ -5117,3 +5117,6 @@ def logic_19684(agents, world):
 
 def logic_19685(agents, world):
     _agent_apply(world, agents, 'root_density', 'memory_update', 'gap')
+
+def logic_19686(agents, world):
+    _agent_apply(world, agents, 'wetland', 'memory_update', 'gap')
