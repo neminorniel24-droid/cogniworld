@@ -7595,3 +7595,6 @@ def logic_12510(world):
 
 def logic_12511(world):
     _world_apply(world, 'predator', 'humidity', 'saturation')
+
+def logic_12512(world):
+    _world_apply(world, 'predator', 'cloud', 'gap')
