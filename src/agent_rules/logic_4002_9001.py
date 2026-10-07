@@ -230,3 +230,6 @@ def logic_4143(agents, world):
 
 def logic_4144(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'hydration', 'direct')
+
+def logic_4145(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'hydration', 'direct')
