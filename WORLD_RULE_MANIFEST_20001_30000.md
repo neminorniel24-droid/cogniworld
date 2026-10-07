@@ -634,3 +634,4 @@
 - 20633: integrated cross-system causal rule
 - 20634: integrated cross-system causal rule
 - 20635: integrated cross-system causal rule
+- 20636: integrated cross-system causal rule
