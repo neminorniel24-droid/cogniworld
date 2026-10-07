@@ -19709,3 +19709,6 @@ def logic_16548(world):
 
 def logic_16549(world):
     _world_apply(world, 'carrion', 'algae', 'square')
+
+def logic_16550(world):
+    _world_apply(world, 'carrion', 'organic_matter', 'pulse')
