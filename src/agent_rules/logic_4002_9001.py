@@ -9542,3 +9542,6 @@ def logic_7247(agents, world):
 
 def logic_7248(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'resource_competition', 'direct')
+
+def logic_7249(agents, world):
+    _agent_apply(world, agents, 'ice', 'resource_competition', 'direct')
