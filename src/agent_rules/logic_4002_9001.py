@@ -3767,3 +3767,6 @@ def logic_5322(agents, world):
 
 def logic_5323(agents, world):
     _agent_apply(world, agents, 'survival_score', 'stability', 'direct')
+
+def logic_5324(agents, world):
+    _agent_apply(world, agents, 'fitness_score', 'stability', 'direct')
