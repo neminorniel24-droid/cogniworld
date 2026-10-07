@@ -13526,3 +13526,6 @@ def logic_14487(world):
 
 def logic_14488(world):
     _world_apply(world, 'herbivore', 'surface_ice', 'pulse')
+
+def logic_14489(world):
+    _world_apply(world, 'predator', 'temperature', 'gap')
