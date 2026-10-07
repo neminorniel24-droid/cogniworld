@@ -20054,3 +20054,6 @@ def logic_16663(world):
 
 def logic_16664(world):
     _world_apply(world, 'oxygen', 'evaporation', 'direct')
+
+def logic_16665(world):
+    _world_apply(world, 'oxygen', 'detritus', 'pulse')
