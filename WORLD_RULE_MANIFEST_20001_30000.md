@@ -8270,3 +8270,4 @@
 - 28269: integrated cross-system causal rule
 - 28270: integrated cross-system causal rule
 - 28271: integrated cross-system causal rule
+- 28272: integrated cross-system causal rule
