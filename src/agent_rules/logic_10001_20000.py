@@ -311,3 +311,6 @@ def logic_18082(agents, world):
 
 def logic_18083(agents, world):
     _agent_apply(world, agents, 'generosity', 'thermal_stress', 'direct')
+
+def logic_18084(agents, world):
+    _agent_apply(world, agents, 'gratitude', 'thermal_stress', 'direct')
