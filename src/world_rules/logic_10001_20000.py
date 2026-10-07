@@ -17027,3 +17027,6 @@ def logic_15654(world):
 
 def logic_15655(world):
     _world_apply(world, 'organic_matter', 'methane', 'direct')
+
+def logic_15656(world):
+    _world_apply(world, 'organic_matter', 'pathogen_load', 'square')
