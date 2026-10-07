@@ -345,3 +345,6 @@ def logic_9090(world):
 
 def logic_9091(world):
     _world_apply(world, 'temperature', 'groundwater', 'inverse')
+
+def logic_9092(world):
+    _world_apply(world, 'temperature', 'sediment', 'square')
