@@ -1880,3 +1880,6 @@ def logic_18605(agents, world):
 
 def logic_18606(agents, world):
     _agent_apply(world, agents, 'thermal_stress', 'help_drive', 'saturation')
+
+def logic_18607(agents, world):
+    _agent_apply(world, agents, 'dehydration', 'help_drive', 'saturation')
