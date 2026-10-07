@@ -6005,3 +6005,6 @@ def logic_11980(world):
 
 def logic_11981(world):
     _world_apply(world, 'temperature', 'surface_water', 'pulse')
+
+def logic_11982(world):
+    _world_apply(world, 'temperature', 'humidity', 'saturation')
