@@ -19358,3 +19358,6 @@ def logic_16431(world):
 
 def logic_16432(world):
     _world_apply(world, 'herbivore', 'wind_x', 'gap')
+
+def logic_16433(world):
+    _world_apply(world, 'herbivore', 'wind_y', 'square')
