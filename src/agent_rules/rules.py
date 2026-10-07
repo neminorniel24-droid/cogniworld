@@ -39138,3 +39138,10 @@ def logic_35969(agents, world):
     src = _local(world, agents, 'groundwater')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.competition_score = _delta(agents.competition_score, delta)
+
+
+def logic_35970(agents, world):
+    """Environmental sediment shapes agent survival_score (direct)."""
+    src = _local(world, agents, 'sediment')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.survival_score = _delta(agents.survival_score, delta)
