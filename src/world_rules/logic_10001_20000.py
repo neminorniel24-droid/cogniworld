@@ -11864,3 +11864,6 @@ def logic_13933(world):
 
 def logic_13934(world):
     _world_apply(world, 'surface_ice', 'co2', 'gap')
+
+def logic_13935(world):
+    _world_apply(world, 'surface_ice', 'photosynthesis_factor', 'direct')
