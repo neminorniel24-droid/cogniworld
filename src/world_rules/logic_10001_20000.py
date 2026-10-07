@@ -21140,3 +21140,6 @@ def logic_17025(world):
 
 def logic_17026(world):
     _world_apply(world, 'biodiversity', 'carbon_storage', 'saturation')
+
+def logic_17027(world):
+    _world_apply(world, 'biodiversity', 'fire_risk', 'gap')
