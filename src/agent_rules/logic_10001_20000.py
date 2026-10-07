@@ -4601,3 +4601,6 @@ def logic_19512(agents, world):
 
 def logic_19513(agents, world):
     _agent_apply(world, agents, 'strategy_mixing', 'attack_success', 'saturation')
+
+def logic_19514(agents, world):
+    _agent_apply(world, agents, 'learning_rate', 'attack_success', 'reciprocal')
