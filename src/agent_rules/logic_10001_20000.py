@@ -2213,3 +2213,6 @@ def logic_18716(agents, world):
 
 def logic_18717(agents, world):
     _agent_apply(world, agents, 'erosion', 'confidence', 'gap')
+
+def logic_18718(agents, world):
+    _agent_apply(world, agents, 'soil_depth', 'confidence', 'gap')
