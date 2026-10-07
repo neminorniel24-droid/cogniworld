@@ -47125,3 +47125,10 @@ def logic_37110(agents, world):
     src = _local(world, agents, 'habitat_stress')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.oxygen_need = _delta(agents.oxygen_need, delta)
+
+
+def logic_37111(agents, world):
+    """Environmental erosion shapes agent neighbor_energy_gap (inverse)."""
+    src = _local(world, agents, 'erosion')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.neighbor_energy_gap = _delta(agents.neighbor_energy_gap, delta)
