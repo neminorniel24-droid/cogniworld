@@ -16724,3 +16724,6 @@ def logic_15553(world):
 
 def logic_15554(world):
     _world_apply(world, 'salinity', 'vegetation', 'pulse')
+
+def logic_15555(world):
+    _world_apply(world, 'salinity', 'biomass', 'saturation')
