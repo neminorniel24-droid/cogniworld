@@ -23372,3 +23372,6 @@ def logic_17769(world):
 
 def logic_17770(world):
     _world_apply(world, 'flowers', 'habitat_stress', 'direct')
+
+def logic_17771(world):
+    _world_apply(world, 'flowers', 'erosion', 'square')
