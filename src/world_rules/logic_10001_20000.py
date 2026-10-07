@@ -4163,3 +4163,6 @@ def logic_11366(world):
 
 def logic_11367(world):
     _world_apply(world, 'fire_risk', 'humidity', 'square')
+
+def logic_11368(world):
+    _world_apply(world, 'fire_risk', 'cloud', 'pulse')
