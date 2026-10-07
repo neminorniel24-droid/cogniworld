@@ -20105,3 +20105,6 @@ def logic_16680(world):
 
 def logic_16681(world):
     _world_apply(world, 'oxygen', 'algae', 'direct')
+
+def logic_16682(world):
+    _world_apply(world, 'oxygen', 'organic_matter', 'square')
