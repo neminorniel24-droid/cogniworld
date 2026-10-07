@@ -4013,3 +4013,6 @@ def logic_5404(agents, world):
 
 def logic_5405(agents, world):
     _agent_apply(world, agents, 'herbivore', 'social_tolerance', 'direct')
+
+def logic_5406(agents, world):
+    _agent_apply(world, agents, 'predator', 'social_tolerance', 'direct')
