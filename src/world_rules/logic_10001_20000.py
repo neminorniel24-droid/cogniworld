@@ -9101,3 +9101,6 @@ def logic_13012(world):
 
 def logic_13013(world):
     _world_apply(world, 'pathogen_load', 'evaporation', 'saturation')
+
+def logic_13014(world):
+    _world_apply(world, 'pathogen_load', 'detritus', 'gap')
