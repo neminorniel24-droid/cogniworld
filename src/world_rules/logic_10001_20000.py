@@ -7583,3 +7583,6 @@ def logic_12506(world):
 
 def logic_12507(world):
     _world_apply(world, 'herbivore', 'soil_carbon', 'gap')
+
+def logic_12508(world):
+    _world_apply(world, 'herbivore', 'surface_ice', 'direct')
