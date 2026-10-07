@@ -737,3 +737,4 @@
 - 20736: integrated cross-system causal rule
 - 20737: integrated cross-system causal rule
 - 20738: integrated cross-system causal rule
+- 20739: integrated cross-system causal rule
