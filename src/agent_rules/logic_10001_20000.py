@@ -827,3 +827,6 @@ def logic_18254(agents, world):
 
 def logic_18255(agents, world):
     _agent_apply(world, agents, 'defection_score', 'reproduction_drive', 'square')
+
+def logic_18256(agents, world):
+    _agent_apply(world, agents, 'reciprocity_score', 'reproduction_drive', 'square')
