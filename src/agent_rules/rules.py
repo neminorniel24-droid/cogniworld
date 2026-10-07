@@ -29653,3 +29653,10 @@ def logic_34614(agents, world):
     src = _local(world, agents, 'carrion')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.food_access = _delta(agents.food_access, delta)
+
+
+def logic_34615(agents, world):
+    """Environmental nutrients shapes agent cooperation (inverse)."""
+    src = _local(world, agents, 'nutrients')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.cooperation = _delta(agents.cooperation, delta)
