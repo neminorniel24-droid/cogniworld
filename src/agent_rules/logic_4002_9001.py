@@ -9746,3 +9746,6 @@ def logic_7315(agents, world):
 
 def logic_7316(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'vegetation_expectation', 'direct')
+
+def logic_7317(agents, world):
+    _agent_apply(world, agents, 'ice', 'vegetation_expectation', 'direct')
