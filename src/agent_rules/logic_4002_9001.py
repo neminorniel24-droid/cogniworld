@@ -4928,3 +4928,6 @@ def logic_5709(agents, world):
 
 def logic_5710(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'defection', 'direct')
+
+def logic_5711(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'defection', 'direct')
