@@ -7874,3 +7874,6 @@ def logic_6691(agents, world):
 
 def logic_6692(agents, world):
     _agent_apply(world, agents, 'runoff', 'future_help', 'direct')
+
+def logic_6693(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'future_help', 'direct')
