@@ -2048,3 +2048,6 @@ def logic_4749(agents, world):
 
 def logic_4750(agents, world):
     _agent_apply(world, agents, 'salinity', 'fear', 'direct')
+
+def logic_4751(agents, world):
+    _agent_apply(world, agents, 'algae', 'fear', 'direct')
