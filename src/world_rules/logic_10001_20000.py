@@ -20126,3 +20126,6 @@ def logic_16687(world):
 
 def logic_16688(world):
     _world_apply(world, 'oxygen', 'surface_ice', 'pulse')
+
+def logic_16689(world):
+    _world_apply(world, 'co2', 'temperature', 'gap')
