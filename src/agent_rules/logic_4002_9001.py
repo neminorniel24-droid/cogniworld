@@ -13382,3 +13382,6 @@ def logic_8527(agents, world):
 
 def logic_8528(agents, world):
     _agent_apply(world, agents, 'runoff', 'cooperation_score', 'direct')
+
+def logic_8529(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'cooperation_score', 'direct')
