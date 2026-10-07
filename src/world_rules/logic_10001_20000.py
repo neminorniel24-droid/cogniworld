@@ -10400,3 +10400,6 @@ def logic_13445(world):
 
 def logic_13446(world):
     _world_apply(world, 'snowpack', 'carrion', 'direct')
+
+def logic_13447(world):
+    _world_apply(world, 'snowpack', 'nutrients', 'square')
