@@ -20228,3 +20228,6 @@ def logic_16721(world):
 
 def logic_16722(world):
     _world_apply(world, 'co2', 'groundwater', 'square')
+
+def logic_16723(world):
+    _world_apply(world, 'co2', 'sediment', 'pulse')
