@@ -12644,3 +12644,6 @@ def logic_14193(world):
 
 def logic_14194(world):
     _world_apply(world, 'soil_moisture', 'nutrients', 'pulse')
+
+def logic_14195(world):
+    _world_apply(world, 'soil_moisture', 'decomposition_rate', 'saturation')
