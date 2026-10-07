@@ -3581,3 +3581,6 @@ def logic_19172(agents, world):
 
 def logic_19173(agents, world):
     _agent_apply(world, agents, 'social_tolerance', 'last_energy_delta', 'sqrt')
+
+def logic_19174(agents, world):
+    _agent_apply(world, agents, 'reputation', 'last_energy_delta', 'sqrt')
