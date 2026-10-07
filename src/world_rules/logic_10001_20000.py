@@ -14660,3 +14660,6 @@ def logic_14865(world):
 
 def logic_14866(world):
     _world_apply(world, 'evaporation', 'erosion', 'saturation')
+
+def logic_14867(world):
+    _world_apply(world, 'evaporation', 'soil_depth', 'gap')
