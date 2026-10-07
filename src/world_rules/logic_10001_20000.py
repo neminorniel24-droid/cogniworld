@@ -8954,3 +8954,6 @@ def logic_12963(world):
 
 def logic_12964(world):
     _world_apply(world, 'methane', 'decomposition_rate', 'saturation')
+
+def logic_12965(world):
+    _world_apply(world, 'methane', 'oxygen', 'gap')
