@@ -10007,3 +10007,6 @@ def logic_13314(world):
 
 def logic_13315(world):
     _world_apply(world, 'carbon_storage', 'nutrients', 'saturation')
+
+def logic_13316(world):
+    _world_apply(world, 'carbon_storage', 'decomposition_rate', 'gap')
