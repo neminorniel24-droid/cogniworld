@@ -13727,3 +13727,6 @@ def logic_8642(agents, world):
 
 def logic_8643(agents, world):
     _agent_apply(world, agents, 'stress', 'competition_score', 'direct')
+
+def logic_8644(agents, world):
+    _agent_apply(world, agents, 'risk_tolerance', 'competition_score', 'direct')
