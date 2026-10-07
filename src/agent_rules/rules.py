@@ -32922,3 +32922,10 @@ def logic_35081(agents, world):
     src = _local(world, agents, 'evaporation')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.reproduction_score = _delta(agents.reproduction_score, delta)
+
+
+def logic_35082(agents, world):
+    """Environmental detritus shapes agent self_preservation (direct)."""
+    src = _local(world, agents, 'detritus')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.self_preservation = _delta(agents.self_preservation, delta)
