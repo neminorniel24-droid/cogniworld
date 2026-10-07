@@ -20591,3 +20591,6 @@ def logic_16842(world):
 
 def logic_16843(world):
     _world_apply(world, 'evaporation', 'pathogen_load', 'pulse')
+
+def logic_16844(world):
+    _world_apply(world, 'evaporation', 'biodiversity', 'saturation')
