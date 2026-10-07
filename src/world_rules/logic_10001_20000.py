@@ -9983,3 +9983,6 @@ def logic_13306(world):
 
 def logic_13307(world):
     _world_apply(world, 'carbon_storage', 'runoff', 'gap')
+
+def logic_13308(world):
+    _world_apply(world, 'carbon_storage', 'wind_x', 'direct')
