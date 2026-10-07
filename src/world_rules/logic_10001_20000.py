@@ -22307,3 +22307,6 @@ def logic_17414(world):
 
 def logic_17415(world):
     _world_apply(world, 'snowpack', 'methane', 'direct')
+
+def logic_17416(world):
+    _world_apply(world, 'snowpack', 'pathogen_load', 'square')
