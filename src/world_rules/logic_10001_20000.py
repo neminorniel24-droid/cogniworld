@@ -13442,3 +13442,6 @@ def logic_14459(world):
 
 def logic_14460(world):
     _world_apply(world, 'herbivore', 'oxygen', 'square')
+
+def logic_14461(world):
+    _world_apply(world, 'herbivore', 'co2', 'pulse')
