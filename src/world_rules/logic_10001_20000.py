@@ -5558,3 +5558,6 @@ def logic_11831(world):
 
 def logic_11832(world):
     _world_apply(world, 'flowers', 'soil_depth', 'gap')
+
+def logic_11833(world):
+    _world_apply(world, 'flowers', 'root_density', 'square')
