@@ -7001,3 +7001,6 @@ def logic_12312(world):
 
 def logic_12313(world):
     _world_apply(world, 'wind_x', 'habitat_stress', 'square')
+
+def logic_12314(world):
+    _world_apply(world, 'wind_x', 'erosion', 'pulse')
