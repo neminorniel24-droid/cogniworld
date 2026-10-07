@@ -8624,3 +8624,6 @@ def logic_6941(agents, world):
 
 def logic_6942(agents, world):
     _agent_apply(world, agents, 'health', 'attack_threshold', 'direct')
+
+def logic_6943(agents, world):
+    _agent_apply(world, agents, 'stress', 'attack_threshold', 'direct')
