@@ -3902,3 +3902,6 @@ def logic_19279(agents, world):
 
 def logic_19280(agents, world):
     _agent_apply(world, agents, 'algae', 'strategy_score', 'pulse')
+
+def logic_19281(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'strategy_score', 'pulse')
