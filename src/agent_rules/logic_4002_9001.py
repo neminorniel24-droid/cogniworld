@@ -10715,3 +10715,6 @@ def logic_7638(agents, world):
 
 def logic_7639(agents, world):
     _agent_apply(world, agents, 'surface_water', 'betrayal_memory', 'direct')
+
+def logic_7640(agents, world):
+    _agent_apply(world, agents, 'humidity', 'betrayal_memory', 'direct')
