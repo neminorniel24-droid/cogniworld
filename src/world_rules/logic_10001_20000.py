@@ -4274,3 +4274,6 @@ def logic_11403(world):
 
 def logic_11404(world):
     _world_apply(world, 'fire_risk', 'pollinators', 'saturation')
+
+def logic_11405(world):
+    _world_apply(world, 'fire_risk', 'flowers', 'gap')
