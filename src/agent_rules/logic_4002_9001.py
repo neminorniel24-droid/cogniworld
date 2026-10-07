@@ -5450,3 +5450,6 @@ def logic_5883(agents, world):
 
 def logic_5884(agents, world):
     _agent_apply(world, agents, 'nutrients', 'competition_pressure', 'direct')
+
+def logic_5885(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'competition_pressure', 'direct')
