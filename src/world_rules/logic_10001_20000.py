@@ -9020,3 +9020,6 @@ def logic_12985(world):
 
 def logic_12986(world):
     _world_apply(world, 'methane', 'organic_matter', 'saturation')
+
+def logic_12987(world):
+    _world_apply(world, 'methane', 'deadwood', 'gap')
