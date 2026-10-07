@@ -34469,3 +34469,10 @@ def logic_35302(agents, world):
     src = _local(world, agents, 'herbivore')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.conflict_pressure = _delta(agents.conflict_pressure, delta)
+
+
+def logic_35303(agents, world):
+    """Environmental predator shapes agent selfishness (inverse)."""
+    src = _local(world, agents, 'predator')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.selfishness = _delta(agents.selfishness, delta)
