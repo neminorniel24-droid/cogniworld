@@ -9293,3 +9293,6 @@ def logic_13076(world):
 
 def logic_13077(world):
     _world_apply(world, 'biodiversity', 'flowers', 'direct')
+
+def logic_13078(world):
+    _world_apply(world, 'biodiversity', 'seed_bank', 'square')
