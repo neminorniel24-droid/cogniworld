@@ -1941,3 +1941,4 @@
 - 21940: integrated cross-system causal rule
 - 21941: integrated cross-system causal rule
 - 21942: integrated cross-system causal rule
+- 21943: integrated cross-system causal rule
