@@ -443,3 +443,6 @@ def logic_4214(agents, world):
 
 def logic_4215(agents, world):
     _agent_apply(world, agents, 'resource_scarcity', 'thirst', 'direct')
+
+def logic_4216(agents, world):
+    _agent_apply(world, agents, 'resource_abundance', 'thirst', 'direct')
