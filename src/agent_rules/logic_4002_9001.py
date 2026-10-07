@@ -11138,3 +11138,6 @@ def logic_7779(agents, world):
 
 def logic_7780(agents, world):
     _agent_apply(world, agents, 'runoff', 'cooperation_history', 'direct')
+
+def logic_7781(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'cooperation_history', 'direct')
