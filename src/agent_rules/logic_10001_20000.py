@@ -3737,3 +3737,6 @@ def logic_19224(agents, world):
 
 def logic_19225(agents, world):
     _agent_apply(world, agents, 'exploration_score', 'risk_tolerance', 'sqrt')
+
+def logic_19226(agents, world):
+    _agent_apply(world, agents, 'foraging_score', 'risk_tolerance', 'sqrt')
