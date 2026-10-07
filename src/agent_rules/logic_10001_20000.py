@@ -4766,3 +4766,6 @@ def logic_19567(agents, world):
 
 def logic_19568(agents, world):
     _agent_apply(world, agents, 'hydration', 'migration_score', 'reciprocal')
+
+def logic_19569(agents, world):
+    _agent_apply(world, agents, 'thirst', 'migration_score', 'reciprocal')
