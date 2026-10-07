@@ -12410,3 +12410,6 @@ def logic_14115(world):
 
 def logic_14116(world):
     _world_apply(world, 'cloud', 'biodiversity', 'gap')
+
+def logic_14117(world):
+    _world_apply(world, 'cloud', 'habitat_stress', 'direct')
