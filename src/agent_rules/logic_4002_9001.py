@@ -14609,3 +14609,6 @@ def logic_8936(agents, world):
 
 def logic_8937(agents, world):
     _agent_apply(world, agents, 'wind_x', 'exploration_score', 'direct')
+
+def logic_8938(agents, world):
+    _agent_apply(world, agents, 'wind_y', 'exploration_score', 'direct')
