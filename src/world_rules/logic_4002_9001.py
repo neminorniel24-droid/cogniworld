@@ -167,3 +167,6 @@ def logic_4022(world):
 
 def logic_4023(world):
     _world_apply(world, 'wetland', 'methane', 'threshold')
+
+def logic_4024(world):
+    _world_apply(world, 'algae', 'organic_matter', 'saturation')
