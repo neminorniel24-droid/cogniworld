@@ -3143,3 +3143,6 @@ def logic_11026(world):
 
 def logic_11027(world):
     _world_apply(world, 'pathogen_load', 'nutrients', 'gap')
+
+def logic_11028(world):
+    _world_apply(world, 'pathogen_load', 'decomposition_rate', 'direct')
