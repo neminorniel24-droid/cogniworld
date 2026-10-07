@@ -14792,3 +14792,6 @@ def logic_8997(agents, world):
 
 def logic_8998(agents, world):
     _agent_apply(world, agents, 'temperature', 'foraging_score', 'direct')
+
+def logic_8999(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'foraging_score', 'direct')
