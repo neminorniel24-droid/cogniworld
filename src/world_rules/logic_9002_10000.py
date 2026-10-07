@@ -423,3 +423,6 @@ def logic_9116(world):
 
 def logic_9117(world):
     _world_apply(world, 'surface_water', 'photosynthesis_factor', 'sqrt')
+
+def logic_9118(world):
+    _world_apply(world, 'surface_water', 'ice', 'pulse')
