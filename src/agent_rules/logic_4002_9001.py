@@ -12734,3 +12734,6 @@ def logic_8311(agents, world):
 
 def logic_8312(agents, world):
     _agent_apply(world, agents, 'help_given', 'last_interaction', 'direct')
+
+def logic_8313(agents, world):
+    _agent_apply(world, agents, 'local_density', 'last_interaction', 'direct')
