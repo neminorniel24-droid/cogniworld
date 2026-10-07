@@ -450,3 +450,6 @@ def logic_9125(world):
 
 def logic_9126(world):
     _world_apply(world, 'surface_water', 'root_density', 'pulse')
+
+def logic_9127(world):
+    _world_apply(world, 'surface_water', 'carbon_storage', 'threshold')
