@@ -22688,3 +22688,6 @@ def logic_17541(world):
 
 def logic_17542(world):
     _world_apply(world, 'salinity', 'co2', 'saturation')
+
+def logic_17543(world):
+    _world_apply(world, 'salinity', 'photosynthesis_factor', 'gap')
