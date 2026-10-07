@@ -1520,3 +1520,6 @@ def logic_4573(agents, world):
 
 def logic_4574(agents, world):
     _agent_apply(world, agents, 'strategy_score', 'pathogen_risk', 'direct')
+
+def logic_4575(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'pathogen_risk', 'direct')
