@@ -14222,3 +14222,6 @@ def logic_8807(agents, world):
 
 def logic_8808(agents, world):
     _agent_apply(world, agents, 'nutrients', 'risk_score', 'direct')
+
+def logic_8809(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'risk_score', 'direct')
