@@ -12671,3 +12671,6 @@ def logic_8290(agents, world):
 
 def logic_8291(agents, world):
     _agent_apply(world, agents, 'flowers', 'last_interaction', 'direct')
+
+def logic_8292(agents, world):
+    _agent_apply(world, agents, 'seed_bank', 'last_interaction', 'direct')
