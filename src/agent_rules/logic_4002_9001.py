@@ -12506,3 +12506,6 @@ def logic_8235(agents, world):
 
 def logic_8236(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'last_food', 'direct')
+
+def logic_8237(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'last_food', 'direct')
