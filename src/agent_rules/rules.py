@@ -60929,3 +60929,10 @@ def logic_39082(agents, world):
     src = _local(world, agents, 'ice')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.betrayal_memory = _delta(agents.betrayal_memory, delta)
+
+
+def logic_39083(agents, world):
+    """Environmental evaporation shapes agent last_energy_delta (inverse)."""
+    src = _local(world, agents, 'evaporation')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.last_energy_delta = _delta(agents.last_energy_delta, delta)
