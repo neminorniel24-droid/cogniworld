@@ -3845,3 +3845,6 @@ def logic_19260(agents, world):
 
 def logic_19261(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'last_action', 'pulse')
+
+def logic_19262(agents, world):
+    _agent_apply(world, agents, 'ice', 'last_action', 'pulse')
