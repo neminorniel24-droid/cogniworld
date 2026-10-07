@@ -5231,3 +5231,6 @@ def logic_5810(agents, world):
 
 def logic_5811(agents, world):
     _agent_apply(world, agents, 'vegetation', 'conflict_pressure', 'direct')
+
+def logic_5812(agents, world):
+    _agent_apply(world, agents, 'biomass', 'conflict_pressure', 'direct')
