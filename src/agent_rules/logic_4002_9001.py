@@ -7478,3 +7478,6 @@ def logic_6559(agents, world):
 
 def logic_6560(agents, world):
     _agent_apply(world, agents, 'biomass', 'confidence', 'direct')
+
+def logic_6561(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'confidence', 'direct')
