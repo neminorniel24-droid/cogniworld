@@ -8282,3 +8282,6 @@ def logic_6827(agents, world):
 
 def logic_6828(agents, world):
     _agent_apply(world, agents, 'runoff', 'empathy', 'direct')
+
+def logic_6829(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'empathy', 'direct')
