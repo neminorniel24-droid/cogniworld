@@ -3680,3 +3680,6 @@ def logic_11205(world):
 
 def logic_11206(world):
     _world_apply(world, 'soil_depth', 'co2', 'direct')
+
+def logic_11207(world):
+    _world_apply(world, 'soil_depth', 'photosynthesis_factor', 'square')
