@@ -23669,3 +23669,6 @@ def logic_17868(world):
 
 def logic_17869(world):
     _world_apply(world, 'soil_carbon', 'salinity', 'square')
+
+def logic_17870(world):
+    _world_apply(world, 'soil_carbon', 'algae', 'pulse')
