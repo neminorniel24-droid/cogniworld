@@ -6440,3 +6440,6 @@ def logic_12125(world):
 
 def logic_12126(world):
     _world_apply(world, 'cloud', 'nutrients', 'direct')
+
+def logic_12127(world):
+    _world_apply(world, 'cloud', 'decomposition_rate', 'square')
