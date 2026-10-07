@@ -13190,3 +13190,6 @@ def logic_8463(agents, world):
 
 def logic_8464(agents, world):
     _agent_apply(world, agents, 'biomass', 'strategy_score', 'direct')
+
+def logic_8465(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'strategy_score', 'direct')
