@@ -49568,3 +49568,10 @@ def logic_37459(agents, world):
     src = _local(world, agents, 'runoff')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.strategy_mixing = _delta(agents.strategy_mixing, delta)
+
+
+def logic_37460(agents, world):
+    """Environmental wind_x shapes agent thirst (square)."""
+    src = _local(world, agents, 'wind_x')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.thirst = _delta(agents.thirst, delta)
