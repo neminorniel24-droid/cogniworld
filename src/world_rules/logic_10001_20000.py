@@ -16652,3 +16652,6 @@ def logic_15529(world):
 
 def logic_15530(world):
     _world_apply(world, 'sediment', 'wetland', 'direct')
+
+def logic_15531(world):
+    _world_apply(world, 'sediment', 'carbon_storage', 'square')
