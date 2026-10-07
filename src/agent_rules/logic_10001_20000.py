@@ -944,3 +944,6 @@ def logic_18293(agents, world):
 
 def logic_18294(agents, world):
     _agent_apply(world, agents, 'co2', 'exploration_drive', 'sqrt')
+
+def logic_18295(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'exploration_drive', 'sqrt')
