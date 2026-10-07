@@ -11870,3 +11870,6 @@ def logic_8023(agents, world):
 
 def logic_8024(agents, world):
     _agent_apply(world, agents, 'resource_abundance', 'local_density', 'direct')
+
+def logic_8025(agents, world):
+    _agent_apply(world, agents, 'energy_surplus', 'local_density', 'direct')
