@@ -4778,3 +4778,6 @@ def logic_19571(agents, world):
 
 def logic_19572(agents, world):
     _agent_apply(world, agents, 'thermal_stress', 'migration_score', 'reciprocal')
+
+def logic_19573(agents, world):
+    _agent_apply(world, agents, 'dehydration', 'migration_score', 'reciprocal')
