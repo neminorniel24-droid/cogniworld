@@ -3878,3 +3878,6 @@ def logic_19271(agents, world):
 
 def logic_19272(agents, world):
     _agent_apply(world, agents, 'wetland', 'strategy_score', 'pulse')
+
+def logic_19273(agents, world):
+    _agent_apply(world, agents, 'carbon_storage', 'strategy_score', 'pulse')
