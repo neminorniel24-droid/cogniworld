@@ -5642,3 +5642,6 @@ def logic_19859(agents, world):
 
 def logic_19860(agents, world):
     _agent_apply(world, agents, 'wealth', 'dehydration', 'direct')
+
+def logic_19861(agents, world):
+    _agent_apply(world, agents, 'stability', 'dehydration', 'direct')
