@@ -15458,3 +15458,6 @@ def logic_15131(world):
 
 def logic_15132(world):
     _world_apply(world, 'erosion', 'root_density', 'pulse')
+
+def logic_15133(world):
+    _world_apply(world, 'erosion', 'wetland', 'saturation')
