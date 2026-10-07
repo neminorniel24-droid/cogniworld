@@ -21170,3 +21170,6 @@ def logic_17035(world):
 
 def logic_17036(world):
     _world_apply(world, 'biodiversity', 'pollinators', 'gap')
+
+def logic_17037(world):
+    _world_apply(world, 'biodiversity', 'flowers', 'direct')
