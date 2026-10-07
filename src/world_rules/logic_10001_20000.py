@@ -20171,3 +20171,6 @@ def logic_16702(world):
 
 def logic_16703(world):
     _world_apply(world, 'co2', 'nutrients', 'gap')
+
+def logic_16704(world):
+    _world_apply(world, 'co2', 'decomposition_rate', 'direct')
