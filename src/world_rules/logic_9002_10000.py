@@ -201,3 +201,6 @@ def logic_9042(world):
 
 def logic_9043(world):
     _world_apply(world, 'biodiversity', 'pathogen_load', 'inverse')
+
+def logic_9044(world):
+    _world_apply(world, 'temperature', 'pathogen_load', 'square')
