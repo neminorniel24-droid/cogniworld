@@ -4916,3 +4916,6 @@ def logic_19617(agents, world):
 
 def logic_19618(agents, world):
     _agent_apply(world, agents, 'neighbor_energy_gap', 'strategy_persistence', 'gap')
+
+def logic_19619(agents, world):
+    _agent_apply(world, agents, 'neighbor_health_gap', 'strategy_persistence', 'gap')
