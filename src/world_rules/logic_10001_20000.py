@@ -9542,3 +9542,6 @@ def logic_13159(world):
 
 def logic_13160(world):
     _world_apply(world, 'erosion', 'salinity', 'saturation')
+
+def logic_13161(world):
+    _world_apply(world, 'erosion', 'algae', 'direct')
