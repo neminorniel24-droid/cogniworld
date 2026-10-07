@@ -11828,3 +11828,6 @@ def logic_8009(agents, world):
 
 def logic_8010(agents, world):
     _agent_apply(world, agents, 'ash', 'local_density', 'direct')
+
+def logic_8011(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'local_density', 'direct')
