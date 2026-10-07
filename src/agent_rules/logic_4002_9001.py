@@ -5666,3 +5666,6 @@ def logic_5955(agents, world):
 
 def logic_5956(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'territoriality', 'direct')
+
+def logic_5957(agents, world):
+    _agent_apply(world, agents, 'ice', 'territoriality', 'direct')
