@@ -816,3 +816,4 @@
 - 20815: integrated cross-system causal rule
 - 20816: integrated cross-system causal rule
 - 20817: integrated cross-system causal rule
+- 20818: integrated cross-system causal rule
