@@ -10298,3 +10298,6 @@ def logic_13411(world):
 
 def logic_13412(world):
     _world_apply(world, 'ash', 'pathogen_load', 'pulse')
+
+def logic_13413(world):
+    _world_apply(world, 'ash', 'biodiversity', 'saturation')
