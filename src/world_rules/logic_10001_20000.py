@@ -1826,3 +1826,6 @@ def logic_10587(world):
 
 def logic_10588(world):
     _world_apply(world, 'carrion', 'oxygen', 'direct')
+
+def logic_10589(world):
+    _world_apply(world, 'carrion', 'co2', 'square')
