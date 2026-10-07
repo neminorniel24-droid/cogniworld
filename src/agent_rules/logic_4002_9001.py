@@ -4403,3 +4403,6 @@ def logic_5534(agents, world):
 
 def logic_5535(agents, world):
     _agent_apply(world, agents, 'soil_moisture', 'trust', 'direct')
+
+def logic_5536(agents, world):
+    _agent_apply(world, agents, 'runoff', 'trust', 'direct')
