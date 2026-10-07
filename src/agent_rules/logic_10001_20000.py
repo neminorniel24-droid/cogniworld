@@ -2150,3 +2150,6 @@ def logic_18695(agents, world):
 
 def logic_18696(agents, world):
     _agent_apply(world, agents, 'soil_moisture', 'caution', 'reciprocal')
+
+def logic_18697(agents, world):
+    _agent_apply(world, agents, 'runoff', 'caution', 'reciprocal')
