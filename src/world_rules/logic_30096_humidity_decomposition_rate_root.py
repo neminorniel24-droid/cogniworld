@@ -1,0 +1,6 @@
+import torch
+
+def apply(world):
+    src = world.humidity
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    world.decomposition_rate = torch.clamp(world.decomposition_rate + delta, -2.0, 2.0)
