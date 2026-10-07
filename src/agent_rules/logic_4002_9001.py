@@ -5708,3 +5708,6 @@ def logic_5969(agents, world):
 
 def logic_5970(agents, world):
     _agent_apply(world, agents, 'ash', 'territoriality', 'direct')
+
+def logic_5971(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'territoriality', 'direct')
