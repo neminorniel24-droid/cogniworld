@@ -290,3 +290,6 @@ def logic_4163(agents, world):
 
 def logic_4164(agents, world):
     _agent_apply(world, agents, 'help_given', 'hydration', 'direct')
+
+def logic_4165(agents, world):
+    _agent_apply(world, agents, 'local_density', 'hydration', 'direct')
