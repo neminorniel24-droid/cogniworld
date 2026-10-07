@@ -353,3 +353,6 @@ def logic_4084(world):
 
 def logic_4085(world):
     _world_apply(world, 'groundwater', 'surface_water', 'sqrt')
+
+def logic_4086(world):
+    _world_apply(world, 'surface_water', 'algae', 'pulse')
