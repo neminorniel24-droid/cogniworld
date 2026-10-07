@@ -4358,3 +4358,6 @@ def logic_11431(world):
 
 def logic_11432(world):
     _world_apply(world, 'ash', 'pathogen_load', 'gap')
+
+def logic_11433(world):
+    _world_apply(world, 'ash', 'biodiversity', 'square')
