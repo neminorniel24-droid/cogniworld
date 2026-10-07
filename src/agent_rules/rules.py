@@ -35638,3 +35638,10 @@ def logic_35469(agents, world):
     src = _local(world, agents, 'pollinators')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.strategy_confidence = _delta(agents.strategy_confidence, delta)
+
+
+def logic_35470(agents, world):
+    """Environmental flowers shapes agent shelter_need (direct)."""
+    src = _local(world, agents, 'flowers')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.shelter_need = _delta(agents.shelter_need, delta)
