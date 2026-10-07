@@ -3908,3 +3908,6 @@ def logic_19281(agents, world):
 
 def logic_19282(agents, world):
     _agent_apply(world, agents, 'deadwood', 'strategy_score', 'pulse')
+
+def logic_19283(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'cooperation_score', 'pulse')
