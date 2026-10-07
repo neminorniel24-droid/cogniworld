@@ -18611,3 +18611,6 @@ def logic_16182(world):
 
 def logic_16183(world):
     _world_apply(world, 'soil_moisture', 'pathogen_load', 'gap')
+
+def logic_16184(world):
+    _world_apply(world, 'soil_moisture', 'biodiversity', 'direct')
