@@ -794,3 +794,6 @@ def logic_18243(agents, world):
 
 def logic_18244(agents, world):
     _agent_apply(world, agents, 'help_given', 'reproduction_drive', 'square')
+
+def logic_18245(agents, world):
+    _agent_apply(world, agents, 'local_density', 'reproduction_drive', 'square')
