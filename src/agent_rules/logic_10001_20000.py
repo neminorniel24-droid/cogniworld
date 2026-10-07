@@ -1403,3 +1403,6 @@ def logic_18446(agents, world):
 
 def logic_18447(agents, world):
     _agent_apply(world, agents, 'ash', 'cooperation', 'threshold')
+
+def logic_18448(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'cooperation', 'threshold')
