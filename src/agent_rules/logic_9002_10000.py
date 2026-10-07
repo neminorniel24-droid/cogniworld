@@ -2127,3 +2127,6 @@ def logic_9883(agents, world):
 
 def logic_9884(agents, world):
     _agent_apply(world, agents, 'cloud', 'recovery', 'direct')
+
+def logic_9885(agents, world):
+    _agent_apply(world, agents, 'rain', 'recovery', 'direct')
