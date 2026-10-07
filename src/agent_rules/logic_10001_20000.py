@@ -2990,3 +2990,6 @@ def logic_18975(agents, world):
 
 def logic_18976(agents, world):
     _agent_apply(world, agents, 'vegetation', 'social_need', 'direct')
+
+def logic_18977(agents, world):
+    _agent_apply(world, agents, 'biomass', 'social_need', 'direct')
