@@ -2810,3 +2810,6 @@ def logic_10915(world):
 
 def logic_10916(world):
     _world_apply(world, 'evaporation', 'salinity', 'gap')
+
+def logic_10917(world):
+    _world_apply(world, 'evaporation', 'algae', 'direct')
