@@ -60362,3 +60362,10 @@ def logic_39001(agents, world):
     src = _local(world, agents, 'carbon_storage')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.social_tolerance = _delta(agents.social_tolerance, delta)
+
+
+def logic_39002(agents, world):
+    """Environmental fire_risk shapes agent competition_pressure (direct)."""
+    src = _local(world, agents, 'fire_risk')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.competition_pressure = _delta(agents.competition_pressure, delta)
