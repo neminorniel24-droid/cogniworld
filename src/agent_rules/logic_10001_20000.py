@@ -2273,3 +2273,6 @@ def logic_18736(agents, world):
 
 def logic_18737(agents, world):
     _agent_apply(world, agents, 'resource_abundance', 'strategy_confidence', 'gap')
+
+def logic_18738(agents, world):
+    _agent_apply(world, agents, 'energy_surplus', 'strategy_confidence', 'gap')
