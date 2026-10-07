@@ -3419,3 +3419,6 @@ def logic_19118(agents, world):
 
 def logic_19119(agents, world):
     _agent_apply(world, agents, 'nutrients', 'help_given', 'square')
+
+def logic_19120(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'help_given', 'square')
