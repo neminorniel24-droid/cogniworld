@@ -779,3 +779,6 @@ def logic_18238(agents, world):
 
 def logic_18239(agents, world):
     _agent_apply(world, agents, 'neighbor_health_gap', 'reproduction_drive', 'square')
+
+def logic_18240(agents, world):
+    _agent_apply(world, agents, 'betrayal_memory', 'reproduction_drive', 'square')
