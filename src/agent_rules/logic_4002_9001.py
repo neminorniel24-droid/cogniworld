@@ -302,3 +302,6 @@ def logic_4167(agents, world):
 
 def logic_4168(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'hydration', 'direct')
+
+def logic_4169(agents, world):
+    _agent_apply(world, agents, 'payoff', 'hydration', 'direct')
