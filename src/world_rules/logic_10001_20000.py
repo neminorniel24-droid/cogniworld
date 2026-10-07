@@ -7460,3 +7460,6 @@ def logic_12465(world):
 
 def logic_12466(world):
     _world_apply(world, 'herbivore', 'surface_water', 'saturation')
+
+def logic_12467(world):
+    _world_apply(world, 'herbivore', 'humidity', 'gap')
