@@ -3503,3 +3503,6 @@ def logic_5234(agents, world):
 
 def logic_5235(agents, world):
     _agent_apply(world, agents, 'resource_scarcity', 'wealth', 'direct')
+
+def logic_5236(agents, world):
+    _agent_apply(world, agents, 'resource_abundance', 'wealth', 'direct')
