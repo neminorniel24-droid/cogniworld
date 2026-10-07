@@ -5378,3 +5378,6 @@ def logic_11771(world):
 
 def logic_11772(world):
     _world_apply(world, 'pollinators', 'herbivore', 'pulse')
+
+def logic_11773(world):
+    _world_apply(world, 'pollinators', 'predator', 'saturation')
