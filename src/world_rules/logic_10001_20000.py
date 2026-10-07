@@ -16256,3 +16256,6 @@ def logic_15397(world):
 
 def logic_15398(world):
     _world_apply(world, 'ash', 'wetland', 'square')
+
+def logic_15399(world):
+    _world_apply(world, 'ash', 'carbon_storage', 'pulse')
