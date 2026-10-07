@@ -5669,3 +5669,6 @@ def logic_19868(agents, world):
 
 def logic_19869(agents, world):
     _agent_apply(world, agents, 'conflict_pressure', 'dehydration', 'direct')
+
+def logic_19870(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'dehydration', 'inverse')
