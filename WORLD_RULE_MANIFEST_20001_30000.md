@@ -4090,3 +4090,4 @@
 - 24089: integrated cross-system causal rule
 - 24090: integrated cross-system causal rule
 - 24091: integrated cross-system causal rule
+- 24092: integrated cross-system causal rule
