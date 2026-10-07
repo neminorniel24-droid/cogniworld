@@ -2268,3 +2268,6 @@ def logic_9930(agents, world):
 
 def logic_9931(agents, world):
     _agent_apply(world, agents, 'thirst', 'recovery', 'direct')
+
+def logic_9932(agents, world):
+    _agent_apply(world, agents, 'hunger', 'recovery', 'direct')
