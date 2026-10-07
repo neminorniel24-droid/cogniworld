@@ -18731,3 +18731,6 @@ def logic_16222(world):
 
 def logic_16223(world):
     _world_apply(world, 'runoff', 'ice', 'gap')
+
+def logic_16224(world):
+    _world_apply(world, 'runoff', 'evaporation', 'direct')
