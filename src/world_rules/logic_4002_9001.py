@@ -260,3 +260,6 @@ def logic_4053(world):
 
 def logic_4054(world):
     _world_apply(world, 'snowpack', 'temperature', 'pulse')
+
+def logic_4055(world):
+    _world_apply(world, 'groundwater', 'soil_moisture', 'threshold')
