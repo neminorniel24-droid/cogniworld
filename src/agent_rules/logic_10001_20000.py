@@ -4721,3 +4721,6 @@ def logic_19552(agents, world):
 
 def logic_19553(agents, world):
     _agent_apply(world, agents, 'groundwater', 'defense_score', 'reciprocal')
+
+def logic_19554(agents, world):
+    _agent_apply(world, agents, 'sediment', 'defense_score', 'reciprocal')
