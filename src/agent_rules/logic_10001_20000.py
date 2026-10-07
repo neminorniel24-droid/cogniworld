@@ -3932,3 +3932,6 @@ def logic_19289(agents, world):
 
 def logic_19290(agents, world):
     _agent_apply(world, agents, 'energy_surplus', 'cooperation_score', 'pulse')
+
+def logic_19291(agents, world):
+    _agent_apply(world, agents, 'ticks_since_food', 'cooperation_score', 'pulse')
