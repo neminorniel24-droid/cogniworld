@@ -3080,3 +3080,6 @@ def logic_19005(agents, world):
 
 def logic_19006(agents, world):
     _agent_apply(world, agents, 'deadwood', 'neighbor_energy_gap', 'inverse')
+
+def logic_19007(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'neighbor_health_gap', 'inverse')
