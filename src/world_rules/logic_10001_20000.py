@@ -17162,3 +17162,6 @@ def logic_15699(world):
 
 def logic_15700(world):
     _world_apply(world, 'deadwood', 'pathogen_load', 'square')
+
+def logic_15701(world):
+    _world_apply(world, 'deadwood', 'biodiversity', 'pulse')
