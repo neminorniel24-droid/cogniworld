@@ -2402,3 +2402,6 @@ def logic_4867(agents, world):
 
 def logic_4868(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'metabolic_cost', 'direct')
+
+def logic_4869(agents, world):
+    _agent_apply(world, agents, 'ice', 'metabolic_cost', 'direct')
