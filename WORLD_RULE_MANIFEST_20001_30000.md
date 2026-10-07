@@ -1186,3 +1186,4 @@
 - 21185: integrated cross-system causal rule
 - 21186: integrated cross-system causal rule
 - 21187: integrated cross-system causal rule
+- 21188: integrated cross-system causal rule
