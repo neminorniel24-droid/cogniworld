@@ -803,3 +803,6 @@ def logic_18246(agents, world):
 
 def logic_18247(agents, world):
     _agent_apply(world, agents, 'last_energy_delta', 'reproduction_drive', 'square')
+
+def logic_18248(agents, world):
+    _agent_apply(world, agents, 'last_food', 'reproduction_drive', 'square')
