@@ -64926,3 +64926,10 @@ def logic_39653(agents, world):
     src = _local(world, agents, 'organic_matter')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.shelter_need = _delta(agents.shelter_need, delta)
+
+
+def logic_39654(agents, world):
+    """Environmental deadwood shapes agent neighbor_health_gap (direct)."""
+    src = _local(world, agents, 'deadwood')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.neighbor_health_gap = _delta(agents.neighbor_health_gap, delta)
