@@ -5930,3 +5930,4 @@
 - 25929: integrated cross-system causal rule
 - 25930: integrated cross-system causal rule
 - 25931: integrated cross-system causal rule
+- 25932: integrated cross-system causal rule
