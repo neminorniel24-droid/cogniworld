@@ -8104,3 +8104,4 @@
 - 28103: integrated cross-system causal rule
 - 28104: integrated cross-system causal rule
 - 28105: integrated cross-system causal rule
+- 28106: integrated cross-system causal rule
