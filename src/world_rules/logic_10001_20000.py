@@ -8789,3 +8789,6 @@ def logic_12908(world):
 
 def logic_12909(world):
     _world_apply(world, 'detritus', 'rain', 'square')
+
+def logic_12910(world):
+    _world_apply(world, 'detritus', 'soil_moisture', 'pulse')
