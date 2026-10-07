@@ -1022,3 +1022,4 @@
 - 21021: integrated cross-system causal rule
 - 21022: integrated cross-system causal rule
 - 21023: integrated cross-system causal rule
+- 21024: integrated cross-system causal rule
