@@ -444,3 +444,6 @@ def logic_9322(agents, world):
 
 def logic_9323(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'thirst', 'direct')
+
+def logic_9324(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'thirst', 'direct')
