@@ -5830,3 +5830,4 @@
 - 25829: integrated cross-system causal rule
 - 25830: integrated cross-system causal rule
 - 25831: integrated cross-system causal rule
+- 25832: integrated cross-system causal rule
