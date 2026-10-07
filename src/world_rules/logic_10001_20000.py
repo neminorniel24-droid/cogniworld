@@ -2510,3 +2510,6 @@ def logic_10815(world):
 
 def logic_10816(world):
     _world_apply(world, 'photosynthesis_factor', 'biodiversity', 'square')
+
+def logic_10817(world):
+    _world_apply(world, 'photosynthesis_factor', 'habitat_stress', 'saturation')
