@@ -14405,3 +14405,6 @@ def logic_8868(agents, world):
 
 def logic_8869(agents, world):
     _agent_apply(world, agents, 'wind_x', 'safety_score', 'direct')
+
+def logic_8870(agents, world):
+    _agent_apply(world, agents, 'wind_y', 'safety_score', 'direct')
