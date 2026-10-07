@@ -449,3 +449,6 @@ def logic_10128(world):
 
 def logic_10129(world):
     _world_apply(world, 'humidity', 'flowers', 'gap')
+
+def logic_10130(world):
+    _world_apply(world, 'humidity', 'seed_bank', 'direct')
