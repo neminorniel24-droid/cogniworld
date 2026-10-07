@@ -2838,3 +2838,4 @@
 - 22837: integrated cross-system causal rule
 - 22838: integrated cross-system causal rule
 - 22839: integrated cross-system causal rule
+- 22840: integrated cross-system causal rule
