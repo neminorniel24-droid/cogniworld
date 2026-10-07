@@ -11798,3 +11798,6 @@ def logic_7999(agents, world):
 
 def logic_8000(agents, world):
     _agent_apply(world, agents, 'methane', 'local_density', 'direct')
+
+def logic_8001(agents, world):
+    _agent_apply(world, agents, 'pathogen_load', 'local_density', 'direct')
