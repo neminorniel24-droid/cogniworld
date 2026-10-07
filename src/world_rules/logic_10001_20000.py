@@ -377,3 +377,6 @@ def logic_10104(world):
 
 def logic_10105(world):
     _world_apply(world, 'humidity', 'co2', 'pulse')
+
+def logic_10106(world):
+    _world_apply(world, 'humidity', 'photosynthesis_factor', 'saturation')
