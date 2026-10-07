@@ -9800,3 +9800,6 @@ def logic_7333(agents, world):
 
 def logic_7334(agents, world):
     _agent_apply(world, agents, 'salinity', 'vegetation_expectation', 'direct')
+
+def logic_7335(agents, world):
+    _agent_apply(world, agents, 'algae', 'vegetation_expectation', 'direct')
