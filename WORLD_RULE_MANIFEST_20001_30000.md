@@ -1570,3 +1570,4 @@
 - 21569: integrated cross-system causal rule
 - 21570: integrated cross-system causal rule
 - 21571: integrated cross-system causal rule
+- 21572: integrated cross-system causal rule
