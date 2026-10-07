@@ -9488,3 +9488,6 @@ def logic_7229(agents, world):
 
 def logic_7230(agents, world):
     _agent_apply(world, agents, 'temperature', 'resource_competition', 'direct')
+
+def logic_7231(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'resource_competition', 'direct')
