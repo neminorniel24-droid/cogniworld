@@ -1010,3 +1010,6 @@ def logic_4403(agents, world):
 
 def logic_4404(agents, world):
     _agent_apply(world, agents, 'carbon_storage', 'thermal_stress', 'direct')
+
+def logic_4405(agents, world):
+    _agent_apply(world, agents, 'fire_risk', 'thermal_stress', 'direct')
