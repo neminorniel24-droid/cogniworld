@@ -9908,3 +9908,6 @@ def logic_7369(agents, world):
 
 def logic_7370(agents, world):
     _agent_apply(world, agents, 'rain', 'stress', 'direct')
+
+def logic_7371(agents, world):
+    _agent_apply(world, agents, 'soil_moisture', 'stress', 'direct')
