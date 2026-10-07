@@ -8507,3 +8507,6 @@ def logic_6902(agents, world):
 
 def logic_6903(agents, world):
     _agent_apply(world, agents, 'carrion', 'attack_threshold', 'direct')
+
+def logic_6904(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'attack_threshold', 'direct')
