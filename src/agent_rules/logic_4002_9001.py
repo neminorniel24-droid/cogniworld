@@ -8540,3 +8540,6 @@ def logic_6913(agents, world):
 
 def logic_6914(agents, world):
     _agent_apply(world, agents, 'biodiversity', 'attack_threshold', 'direct')
+
+def logic_6915(agents, world):
+    _agent_apply(world, agents, 'habitat_stress', 'attack_threshold', 'direct')
