@@ -12950,3 +12950,6 @@ def logic_8383(agents, world):
 
 def logic_8384(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'risk_tolerance', 'direct')
+
+def logic_8385(agents, world):
+    _agent_apply(world, agents, 'payoff', 'risk_tolerance', 'direct')
