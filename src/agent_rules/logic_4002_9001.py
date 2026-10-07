@@ -2981,3 +2981,6 @@ def logic_5060(agents, world):
 
 def logic_5061(agents, world):
     _agent_apply(world, agents, 'wind_x', 'exploration_drive', 'direct')
+
+def logic_5062(agents, world):
+    _agent_apply(world, agents, 'wind_y', 'exploration_drive', 'direct')
