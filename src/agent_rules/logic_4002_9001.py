@@ -4310,3 +4310,6 @@ def logic_5503(agents, world):
 
 def logic_5504(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'reputation', 'direct')
+
+def logic_5505(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'reputation', 'direct')
