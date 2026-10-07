@@ -8623,3 +8623,6 @@ RULES.append(logic_5856)
 
 from .logic_4002_9001 import logic_5857
 RULES.append(logic_5857)
+
+from .logic_4002_9001 import logic_5858
+RULES.append(logic_5858)
