@@ -2945,3 +2945,6 @@ def logic_10960(world):
 
 def logic_10961(world):
     _world_apply(world, 'detritus', 'algae', 'direct')
+
+def logic_10962(world):
+    _world_apply(world, 'detritus', 'organic_matter', 'square')
