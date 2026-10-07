@@ -8507,3 +8507,6 @@ def logic_12814(world):
 
 def logic_12815(world):
     _world_apply(world, 'photosynthesis_factor', 'soil_carbon', 'direct')
+
+def logic_12816(world):
+    _world_apply(world, 'photosynthesis_factor', 'surface_ice', 'square')
