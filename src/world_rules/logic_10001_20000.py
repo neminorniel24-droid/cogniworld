@@ -13967,3 +13967,6 @@ def logic_14634(world):
 
 def logic_14635(world):
     _world_apply(world, 'decomposition_rate', 'nutrients', 'saturation')
+
+def logic_14636(world):
+    _world_apply(world, 'decomposition_rate', 'oxygen', 'gap')
