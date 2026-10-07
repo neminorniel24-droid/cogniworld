@@ -60117,3 +60117,10 @@ def logic_38966(agents, world):
     src = _local(world, agents, 'flowers')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.attack_threshold = _delta(agents.attack_threshold, delta)
+
+
+def logic_38967(agents, world):
+    """Environmental seed_bank shapes agent stress (inverse)."""
+    src = _local(world, agents, 'seed_bank')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.stress = _delta(agents.stress, delta)
