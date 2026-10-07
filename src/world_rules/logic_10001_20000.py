@@ -641,3 +641,6 @@ def logic_10192(world):
 
 def logic_10193(world):
     _world_apply(world, 'rain', 'co2', 'square')
+
+def logic_10194(world):
+    _world_apply(world, 'rain', 'photosynthesis_factor', 'pulse')
