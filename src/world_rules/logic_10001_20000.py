@@ -9284,3 +9284,6 @@ def logic_13073(world):
 
 def logic_13074(world):
     _world_apply(world, 'biodiversity', 'organic_matter', 'pulse')
+
+def logic_13075(world):
+    _world_apply(world, 'biodiversity', 'deadwood', 'saturation')
