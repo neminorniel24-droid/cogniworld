@@ -42253,3 +42253,10 @@ def logic_36414(agents, world):
     src = _local(world, agents, 'ice')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.competition_score = _delta(agents.competition_score, delta)
+
+
+def logic_36415(agents, world):
+    """Environmental evaporation shapes agent survival_score (inverse)."""
+    src = _local(world, agents, 'evaporation')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.survival_score = _delta(agents.survival_score, delta)
