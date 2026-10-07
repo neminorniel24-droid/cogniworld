@@ -368,3 +368,6 @@ def logic_4089(world):
 
 def logic_4090(world):
     _world_apply(world, 'temperature', 'biodiversity', 'direct')
+
+def logic_4091(world):
+    _world_apply(world, 'salinity', 'biodiversity', 'inverse')
