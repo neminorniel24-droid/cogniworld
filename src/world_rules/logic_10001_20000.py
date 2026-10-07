@@ -22040,3 +22040,6 @@ def logic_17325(world):
 
 def logic_17326(world):
     _world_apply(world, 'fire_risk', 'detritus', 'direct')
+
+def logic_17327(world):
+    _world_apply(world, 'fire_risk', 'methane', 'square')
