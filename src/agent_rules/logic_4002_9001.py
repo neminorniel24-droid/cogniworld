@@ -1319,3 +1319,6 @@ def logic_4506(agents, world):
 
 def logic_4507(agents, world):
     _agent_apply(world, agents, 'survival_score', 'dehydration', 'direct')
+
+def logic_4508(agents, world):
+    _agent_apply(world, agents, 'fitness_score', 'dehydration', 'direct')
