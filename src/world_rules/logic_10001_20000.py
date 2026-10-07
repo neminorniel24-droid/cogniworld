@@ -21104,3 +21104,6 @@ def logic_17013(world):
 
 def logic_17014(world):
     _world_apply(world, 'biodiversity', 'co2', 'gap')
+
+def logic_17015(world):
+    _world_apply(world, 'biodiversity', 'photosynthesis_factor', 'direct')
