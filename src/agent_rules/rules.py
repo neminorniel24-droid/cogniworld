@@ -48462,3 +48462,10 @@ def logic_37301(agents, world):
     src = _local(world, agents, 'ash')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.fire_fear = _delta(agents.fire_fear, delta)
+
+
+def logic_37302(agents, world):
+    """Environmental snowpack shapes agent betrayal_memory (direct)."""
+    src = _local(world, agents, 'snowpack')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.betrayal_memory = _delta(agents.betrayal_memory, delta)
