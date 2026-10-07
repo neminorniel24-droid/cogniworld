@@ -33440,3 +33440,10 @@ def logic_35155(agents, world):
     src = _local(world, agents, 'humidity')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.strategy_score = _delta(agents.strategy_score, delta)
+
+
+def logic_35156(agents, world):
+    """Environmental cloud shapes agent exploration_score (square)."""
+    src = _local(world, agents, 'cloud')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.exploration_score = _delta(agents.exploration_score, delta)
