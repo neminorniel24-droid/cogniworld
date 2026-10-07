@@ -13082,3 +13082,6 @@ def logic_8427(agents, world):
 
 def logic_8428(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'last_action', 'direct')
+
+def logic_8429(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'last_action', 'direct')
