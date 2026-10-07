@@ -1064,3 +1064,4 @@
 - 21063: integrated cross-system causal rule
 - 21064: integrated cross-system causal rule
 - 21065: integrated cross-system causal rule
+- 21066: integrated cross-system causal rule
