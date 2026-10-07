@@ -1334,3 +1334,6 @@ def logic_18423(agents, world):
 
 def logic_18424(agents, world):
     _agent_apply(world, agents, 'vegetation', 'trust', 'pulse')
+
+def logic_18425(agents, world):
+    _agent_apply(world, agents, 'biomass', 'trust', 'pulse')
