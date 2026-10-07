@@ -2540,3 +2540,6 @@ def logic_18825(agents, world):
 
 def logic_18826(agents, world):
     _agent_apply(world, agents, 'future_payoff_weight', 'attack_threshold', 'feedback')
+
+def logic_18827(agents, world):
+    _agent_apply(world, agents, 'self_preservation', 'attack_threshold', 'feedback')
