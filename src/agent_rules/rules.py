@@ -39355,3 +39355,10 @@ def logic_36000(agents, world):
     src = _local(world, agents, 'ice')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.wealth = _delta(agents.wealth, delta)
+
+
+def logic_36001(agents, world):
+    """Environmental evaporation shapes agent defection (root)."""
+    src = _local(world, agents, 'evaporation')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.defection = _delta(agents.defection, delta)
