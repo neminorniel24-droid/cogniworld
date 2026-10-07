@@ -4340,3 +4340,6 @@ def logic_11425(world):
 
 def logic_11426(world):
     _world_apply(world, 'ash', 'co2', 'saturation')
+
+def logic_11427(world):
+    _world_apply(world, 'ash', 'photosynthesis_factor', 'gap')
