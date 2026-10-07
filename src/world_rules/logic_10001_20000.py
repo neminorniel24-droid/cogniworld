@@ -11711,3 +11711,6 @@ def logic_13882(world):
 
 def logic_13883(world):
     _world_apply(world, 'soil_carbon', 'biomass', 'pulse')
+
+def logic_13884(world):
+    _world_apply(world, 'soil_carbon', 'herbivore', 'saturation')
