@@ -2846,3 +2846,6 @@ def logic_18927(agents, world):
 
 def logic_18928(agents, world):
     _agent_apply(world, agents, 'neighbor_energy_gap', 'vegetation_expectation', 'direct')
+
+def logic_18929(agents, world):
+    _agent_apply(world, agents, 'neighbor_health_gap', 'vegetation_expectation', 'direct')
