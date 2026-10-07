@@ -7243,3 +7243,4 @@
 - 27242: integrated cross-system causal rule
 - 27243: integrated cross-system causal rule
 - 27244: integrated cross-system causal rule
+- 27245: integrated cross-system causal rule
