@@ -1040,3 +1040,6 @@ def logic_10325(world):
 
 def logic_10326(world):
     _world_apply(world, 'wind_x', 'photosynthesis_factor', 'direct')
+
+def logic_10327(world):
+    _world_apply(world, 'wind_x', 'ice', 'square')
