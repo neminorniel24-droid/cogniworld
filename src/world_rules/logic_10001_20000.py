@@ -7799,3 +7799,6 @@ def logic_12578(world):
 
 def logic_12579(world):
     _world_apply(world, 'carrion', 'soil_depth', 'direct')
+
+def logic_12580(world):
+    _world_apply(world, 'carrion', 'root_density', 'square')
