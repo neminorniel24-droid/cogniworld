@@ -4613,3 +4613,6 @@ def logic_19516(agents, world):
 
 def logic_19517(agents, world):
     _agent_apply(world, agents, 'self_preservation', 'attack_success', 'reciprocal')
+
+def logic_19518(agents, world):
+    _agent_apply(world, agents, 'payoff', 'attack_success', 'reciprocal')
