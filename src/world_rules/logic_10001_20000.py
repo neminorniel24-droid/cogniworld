@@ -8117,3 +8117,6 @@ def logic_12684(world):
 
 def logic_12685(world):
     _world_apply(world, 'oxygen', 'temperature', 'gap')
+
+def logic_12686(world):
+    _world_apply(world, 'oxygen', 'surface_water', 'direct')
