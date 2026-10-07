@@ -12806,3 +12806,6 @@ def logic_14247(world):
 
 def logic_14248(world):
     _world_apply(world, 'runoff', 'biodiversity', 'pulse')
+
+def logic_14249(world):
+    _world_apply(world, 'runoff', 'habitat_stress', 'gap')
