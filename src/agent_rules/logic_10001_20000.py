@@ -2264,3 +2264,6 @@ def logic_18733(agents, world):
 
 def logic_18734(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'strategy_confidence', 'gap')
+
+def logic_18735(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'strategy_confidence', 'gap')
