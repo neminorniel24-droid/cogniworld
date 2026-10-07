@@ -14126,3 +14126,6 @@ def logic_14687(world):
 
 def logic_14688(world):
     _world_apply(world, 'oxygen', 'biodiversity', 'pulse')
+
+def logic_14689(world):
+    _world_apply(world, 'oxygen', 'habitat_stress', 'gap')
