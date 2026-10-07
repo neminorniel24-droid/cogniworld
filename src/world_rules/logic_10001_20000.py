@@ -15851,3 +15851,6 @@ def logic_15262(world):
 
 def logic_15263(world):
     _world_apply(world, 'wetland', 'erosion', 'gap')
+
+def logic_15264(world):
+    _world_apply(world, 'wetland', 'soil_depth', 'direct')
