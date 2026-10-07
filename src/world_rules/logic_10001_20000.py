@@ -22322,3 +22322,6 @@ def logic_17419(world):
 
 def logic_17420(world):
     _world_apply(world, 'snowpack', 'soil_depth', 'square')
+
+def logic_17421(world):
+    _world_apply(world, 'snowpack', 'root_density', 'pulse')
