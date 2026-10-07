@@ -8250,3 +8250,4 @@
 - 28249: integrated cross-system causal rule
 - 28250: integrated cross-system causal rule
 - 28251: integrated cross-system causal rule
+- 28252: integrated cross-system causal rule
