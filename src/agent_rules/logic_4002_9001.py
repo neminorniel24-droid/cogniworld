@@ -13601,3 +13601,6 @@ def logic_8600(agents, world):
 
 def logic_8601(agents, world):
     _agent_apply(world, agents, 'herbivore', 'competition_score', 'direct')
+
+def logic_8602(agents, world):
+    _agent_apply(world, agents, 'predator', 'competition_score', 'direct')
