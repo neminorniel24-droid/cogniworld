@@ -11111,3 +11111,6 @@ def logic_7770(agents, world):
 
 def logic_7771(agents, world):
     _agent_apply(world, agents, 'survival_score', 'conflict_history', 'direct')
+
+def logic_7772(agents, world):
+    _agent_apply(world, agents, 'fitness_score', 'conflict_history', 'direct')
