@@ -11204,3 +11204,6 @@ def logic_13713(world):
 
 def logic_13714(world):
     _world_apply(world, 'deadwood', 'co2', 'pulse')
+
+def logic_13715(world):
+    _world_apply(world, 'deadwood', 'photosynthesis_factor', 'saturation')
