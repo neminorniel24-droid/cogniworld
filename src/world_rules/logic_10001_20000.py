@@ -17186,3 +17186,6 @@ def logic_15707(world):
 
 def logic_15708(world):
     _world_apply(world, 'deadwood', 'fire_risk', 'direct')
+
+def logic_15709(world):
+    _world_apply(world, 'deadwood', 'ash', 'square')
