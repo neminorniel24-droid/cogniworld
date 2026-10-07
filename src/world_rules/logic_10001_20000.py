@@ -5588,3 +5588,6 @@ def logic_11841(world):
 
 def logic_11842(world):
     _world_apply(world, 'flowers', 'algae', 'square')
+
+def logic_11843(world):
+    _world_apply(world, 'flowers', 'organic_matter', 'pulse')
