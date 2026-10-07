@@ -8573,3 +8573,6 @@ def logic_6924(agents, world):
 
 def logic_6925(agents, world):
     _agent_apply(world, agents, 'sediment', 'attack_threshold', 'direct')
+
+def logic_6926(agents, world):
+    _agent_apply(world, agents, 'salinity', 'attack_threshold', 'direct')
