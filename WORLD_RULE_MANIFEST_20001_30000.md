@@ -4523,3 +4523,4 @@
 - 24522: integrated cross-system causal rule
 - 24523: integrated cross-system causal rule
 - 24524: integrated cross-system causal rule
+- 24525: integrated cross-system causal rule
