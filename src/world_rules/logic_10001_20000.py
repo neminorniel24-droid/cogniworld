@@ -12551,3 +12551,6 @@ def logic_14162(world):
 
 def logic_14163(world):
     _world_apply(world, 'rain', 'soil_depth', 'pulse')
+
+def logic_14164(world):
+    _world_apply(world, 'rain', 'root_density', 'saturation')
