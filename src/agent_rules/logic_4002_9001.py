@@ -14603,3 +14603,6 @@ def logic_8934(agents, world):
 
 def logic_8935(agents, world):
     _agent_apply(world, agents, 'soil_moisture', 'exploration_score', 'direct')
+
+def logic_8936(agents, world):
+    _agent_apply(world, agents, 'runoff', 'exploration_score', 'direct')
