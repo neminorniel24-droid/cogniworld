@@ -578,3 +578,6 @@ def logic_4259(agents, world):
 
 def logic_4260(agents, world):
     _agent_apply(world, agents, 'methane', 'hunger', 'direct')
+
+def logic_4261(agents, world):
+    _agent_apply(world, agents, 'pathogen_load', 'hunger', 'direct')
