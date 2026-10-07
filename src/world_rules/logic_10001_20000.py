@@ -23888,3 +23888,6 @@ def logic_17941(world):
 
 def logic_17942(world):
     _world_apply(world, 'temperature', 'methane', 'saturation')
+
+def logic_17943(world):
+    _world_apply(world, 'temperature', 'pathogen_load', 'gap')
