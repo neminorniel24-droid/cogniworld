@@ -51360,3 +51360,10 @@ def logic_37715(agents, world):
     src = _local(world, agents, 'ash')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.pathogen_risk = _delta(agents.pathogen_risk, delta)
+
+
+def logic_37716(agents, world):
+    """Environmental snowpack shapes agent migration_drive (square)."""
+    src = _local(world, agents, 'snowpack')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.migration_drive = _delta(agents.migration_drive, delta)
