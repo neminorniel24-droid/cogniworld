@@ -65143,3 +65143,10 @@ def logic_39684(agents, world):
     src = _local(world, agents, 'pathogen_load')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.strategy_mixing = _delta(agents.strategy_mixing, delta)
+
+
+def logic_39685(agents, world):
+    """Environmental biodiversity shapes agent thirst (root)."""
+    src = _local(world, agents, 'biodiversity')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.thirst = _delta(agents.thirst, delta)
