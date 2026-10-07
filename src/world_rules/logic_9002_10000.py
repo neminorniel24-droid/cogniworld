@@ -663,3 +663,6 @@ def logic_9196(world):
 
 def logic_9197(world):
     _world_apply(world, 'cloud', 'decomposition_rate', 'sqrt')
+
+def logic_9198(world):
+    _world_apply(world, 'cloud', 'oxygen', 'pulse')
