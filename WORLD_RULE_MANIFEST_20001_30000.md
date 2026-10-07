@@ -2174,3 +2174,4 @@
 - 22173: integrated cross-system causal rule
 - 22174: integrated cross-system causal rule
 - 22175: integrated cross-system causal rule
+- 22176: integrated cross-system causal rule
