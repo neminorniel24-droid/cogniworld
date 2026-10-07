@@ -2030,3 +2030,6 @@ def logic_4743(agents, world):
 
 def logic_4744(agents, world):
     _agent_apply(world, agents, 'carbon_storage', 'fear', 'direct')
+
+def logic_4745(agents, world):
+    _agent_apply(world, agents, 'fire_risk', 'fear', 'direct')
