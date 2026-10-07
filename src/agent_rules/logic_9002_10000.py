@@ -1029,3 +1029,6 @@ def logic_9517(agents, world):
 
 def logic_9518(agents, world):
     _agent_apply(world, agents, 'resource_scarcity', 'thermal_stress', 'direct')
+
+def logic_9519(agents, world):
+    _agent_apply(world, agents, 'resource_abundance', 'thermal_stress', 'direct')
