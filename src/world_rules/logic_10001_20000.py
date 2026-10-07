@@ -3263,3 +3263,6 @@ def logic_11066(world):
 
 def logic_11067(world):
     _world_apply(world, 'biodiversity', 'biomass', 'gap')
+
+def logic_11068(world):
+    _world_apply(world, 'biodiversity', 'herbivore', 'direct')
