@@ -10424,3 +10424,6 @@ def logic_7541(agents, world):
 
 def logic_7542(agents, world):
     _agent_apply(world, agents, 'pollinators', 'neighbor_energy_gap', 'direct')
+
+def logic_7543(agents, world):
+    _agent_apply(world, agents, 'flowers', 'neighbor_energy_gap', 'direct')
