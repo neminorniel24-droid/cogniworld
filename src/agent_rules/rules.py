@@ -65003,3 +65003,10 @@ def logic_39664(agents, world):
     src = _local(world, agents, 'cloud')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.selfishness = _delta(agents.selfishness, delta)
+
+
+def logic_39665(agents, world):
+    """Environmental rain shapes agent resource_discovery (root)."""
+    src = _local(world, agents, 'rain')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.resource_discovery = _delta(agents.resource_discovery, delta)
