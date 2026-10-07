@@ -9400,3 +9400,4 @@
 - 29399: integrated cross-system causal rule
 - 29400: integrated cross-system causal rule
 - 29401: integrated cross-system causal rule
+- 29402: integrated cross-system causal rule
