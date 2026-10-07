@@ -3158,3 +3158,6 @@ def logic_11031(world):
 
 def logic_11032(world):
     _world_apply(world, 'pathogen_load', 'ice', 'gap')
+
+def logic_11033(world):
+    _world_apply(world, 'pathogen_load', 'evaporation', 'square')
