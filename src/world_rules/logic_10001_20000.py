@@ -785,3 +785,6 @@ def logic_10240(world):
 
 def logic_10241(world):
     _world_apply(world, 'soil_moisture', 'detritus', 'direct')
+
+def logic_10242(world):
+    _world_apply(world, 'soil_moisture', 'methane', 'square')
