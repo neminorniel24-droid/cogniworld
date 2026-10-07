@@ -374,3 +374,6 @@ def logic_18103(agents, world):
 
 def logic_18104(agents, world):
     _agent_apply(world, agents, 'cooperation_history', 'dehydration', 'inverse')
+
+def logic_18105(agents, world):
+    _agent_apply(world, agents, 'help_received', 'dehydration', 'inverse')
