@@ -15533,3 +15533,6 @@ def logic_15156(world):
 
 def logic_15157(world):
     _world_apply(world, 'soil_depth', 'wind_y', 'direct')
+
+def logic_15158(world):
+    _world_apply(world, 'soil_depth', 'vegetation', 'square')
