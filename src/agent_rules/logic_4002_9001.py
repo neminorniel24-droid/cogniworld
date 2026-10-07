@@ -9218,3 +9218,6 @@ def logic_7139(agents, world):
 
 def logic_7140(agents, world):
     _agent_apply(world, agents, 'resource_abundance', 'shelter_need', 'direct')
+
+def logic_7141(agents, world):
+    _agent_apply(world, agents, 'energy_surplus', 'shelter_need', 'direct')
