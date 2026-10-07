@@ -20291,3 +20291,6 @@ def logic_16742(world):
 
 def logic_16743(world):
     _world_apply(world, 'photosynthesis_factor', 'biomass', 'gap')
+
+def logic_16744(world):
+    _world_apply(world, 'photosynthesis_factor', 'herbivore', 'direct')
