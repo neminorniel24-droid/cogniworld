@@ -1504,3 +1504,4 @@
 - 21503: integrated cross-system causal rule
 - 21504: integrated cross-system causal rule
 - 21505: integrated cross-system causal rule
+- 21506: integrated cross-system causal rule
