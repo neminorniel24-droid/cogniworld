@@ -900,3 +900,4 @@
 - 20899: integrated cross-system causal rule
 - 20900: integrated cross-system causal rule
 - 20901: integrated cross-system causal rule
+- 20902: integrated cross-system causal rule
