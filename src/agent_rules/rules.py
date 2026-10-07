@@ -48133,3 +48133,10 @@ def logic_37254(agents, world):
     src = _local(world, agents, 'fire_risk')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.foraging_score = _delta(agents.foraging_score, delta)
+
+
+def logic_37255(agents, world):
+    """Environmental ash shapes agent migration_score (inverse)."""
+    src = _local(world, agents, 'ash')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.migration_score = _delta(agents.migration_score, delta)
