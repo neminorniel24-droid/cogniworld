@@ -5924,3 +5924,6 @@ def logic_19953(agents, world):
 
 def logic_19954(agents, world):
     _agent_apply(world, agents, 'detritus', 'recovery', 'inverse')
+
+def logic_19955(agents, world):
+    _agent_apply(world, agents, 'methane', 'recovery', 'inverse')
