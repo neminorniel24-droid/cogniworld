@@ -10001,3 +10001,6 @@ def logic_7400(agents, world):
 
 def logic_7401(agents, world):
     _agent_apply(world, agents, 'sediment', 'stress', 'direct')
+
+def logic_7402(agents, world):
+    _agent_apply(world, agents, 'salinity', 'stress', 'direct')
