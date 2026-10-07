@@ -7229,3 +7229,6 @@ def logic_12388(world):
 
 def logic_12389(world):
     _world_apply(world, 'vegetation', 'carrion', 'square')
+
+def logic_12390(world):
+    _world_apply(world, 'vegetation', 'nutrients', 'pulse')
