@@ -1793,3 +1793,6 @@ def logic_10576(world):
 
 def logic_10577(world):
     _world_apply(world, 'carrion', 'rain', 'saturation')
+
+def logic_10578(world):
+    _world_apply(world, 'carrion', 'soil_moisture', 'gap')
