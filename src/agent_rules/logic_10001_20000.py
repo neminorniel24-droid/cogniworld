@@ -3446,3 +3446,6 @@ def logic_19127(agents, world):
 
 def logic_19128(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'local_density', 'square')
+
+def logic_19129(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'local_density', 'square')
