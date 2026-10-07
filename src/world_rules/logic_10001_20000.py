@@ -16823,3 +16823,6 @@ def logic_15586(world):
 
 def logic_15587(world):
     _world_apply(world, 'salinity', 'soil_carbon', 'gap')
+
+def logic_15588(world):
+    _world_apply(world, 'salinity', 'surface_ice', 'direct')
