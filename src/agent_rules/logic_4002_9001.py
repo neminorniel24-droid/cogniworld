@@ -14039,3 +14039,6 @@ def logic_8746(agents, world):
 
 def logic_8747(agents, world):
     _agent_apply(world, agents, 'detritus', 'reciprocity_score', 'direct')
+
+def logic_8748(agents, world):
+    _agent_apply(world, agents, 'methane', 'reciprocity_score', 'direct')
