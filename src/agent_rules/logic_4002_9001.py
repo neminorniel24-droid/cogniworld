@@ -2525,3 +2525,6 @@ def logic_4908(agents, world):
 
 def logic_4909(agents, world):
     _agent_apply(world, agents, 'trust', 'metabolic_cost', 'direct')
+
+def logic_4910(agents, world):
+    _agent_apply(world, agents, 'reputation', 'metabolic_cost', 'direct')
