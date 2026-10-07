@@ -5909,3 +5909,6 @@ def logic_11948(world):
 
 def logic_11949(world):
     _world_apply(world, 'surface_ice', 'predator', 'square')
+
+def logic_11950(world):
+    _world_apply(world, 'surface_ice', 'carrion', 'pulse')
