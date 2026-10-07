@@ -9611,3 +9611,6 @@ def logic_7270(agents, world):
 
 def logic_7271(agents, world):
     _agent_apply(world, agents, 'flowers', 'resource_competition', 'direct')
+
+def logic_7272(agents, world):
+    _agent_apply(world, agents, 'seed_bank', 'resource_competition', 'direct')
