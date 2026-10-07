@@ -8378,3 +8378,6 @@ def logic_6859(agents, world):
 
 def logic_6860(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'empathy', 'direct')
+
+def logic_6861(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'empathy', 'direct')
