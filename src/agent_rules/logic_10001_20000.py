@@ -4205,3 +4205,6 @@ def logic_19380(agents, world):
 
 def logic_19381(agents, world):
     _agent_apply(world, agents, 'temperature', 'safety_score', 'threshold')
+
+def logic_19382(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'safety_score', 'threshold')
