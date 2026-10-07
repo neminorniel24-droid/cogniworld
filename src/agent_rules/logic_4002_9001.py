@@ -8396,3 +8396,6 @@ def logic_6865(agents, world):
 
 def logic_6866(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'empathy', 'direct')
+
+def logic_6867(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'empathy', 'direct')
