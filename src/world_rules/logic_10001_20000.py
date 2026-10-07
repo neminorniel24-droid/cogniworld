@@ -21995,3 +21995,6 @@ def logic_17310(world):
 
 def logic_17311(world):
     _world_apply(world, 'fire_risk', 'runoff', 'saturation')
+
+def logic_17312(world):
+    _world_apply(world, 'fire_risk', 'wind_x', 'gap')
