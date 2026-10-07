@@ -22802,3 +22802,6 @@ def logic_17579(world):
 
 def logic_17580(world):
     _world_apply(world, 'algae', 'herbivore', 'square')
+
+def logic_17581(world):
+    _world_apply(world, 'algae', 'predator', 'pulse')
