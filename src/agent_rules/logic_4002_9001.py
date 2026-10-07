@@ -9212,3 +9212,6 @@ def logic_7137(agents, world):
 
 def logic_7138(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'shelter_need', 'direct')
+
+def logic_7139(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'shelter_need', 'direct')
