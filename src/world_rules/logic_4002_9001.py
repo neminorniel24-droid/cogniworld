@@ -233,3 +233,6 @@ def logic_4044(world):
 
 def logic_4045(world):
     _world_apply(world, 'soil_depth', 'root_density', 'sqrt')
+
+def logic_4046(world):
+    _world_apply(world, 'root_density', 'soil_carbon', 'pulse')
