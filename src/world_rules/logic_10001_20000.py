@@ -2183,3 +2183,6 @@ def logic_10706(world):
 
 def logic_10707(world):
     _world_apply(world, 'oxygen', 'humidity', 'gap')
+
+def logic_10708(world):
+    _world_apply(world, 'oxygen', 'cloud', 'direct')
