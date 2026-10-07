@@ -297,3 +297,6 @@ def logic_9074(world):
 
 def logic_9075(world):
     _world_apply(world, 'temperature', 'nutrients', 'inverse')
+
+def logic_9076(world):
+    _world_apply(world, 'temperature', 'decomposition_rate', 'square')
