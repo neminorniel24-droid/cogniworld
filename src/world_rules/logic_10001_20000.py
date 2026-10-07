@@ -10646,3 +10646,6 @@ def logic_13527(world):
 
 def logic_13528(world):
     _world_apply(world, 'sediment', 'wind_x', 'pulse')
+
+def logic_13529(world):
+    _world_apply(world, 'sediment', 'wind_y', 'gap')
