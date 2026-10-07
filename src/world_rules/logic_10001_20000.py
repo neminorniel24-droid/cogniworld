@@ -11174,3 +11174,6 @@ def logic_13703(world):
 
 def logic_13704(world):
     _world_apply(world, 'deadwood', 'wind_x', 'direct')
+
+def logic_13705(world):
+    _world_apply(world, 'deadwood', 'wind_y', 'pulse')
