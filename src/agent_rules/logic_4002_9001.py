@@ -4439,3 +4439,6 @@ def logic_5546(agents, world):
 
 def logic_5547(agents, world):
     _agent_apply(world, agents, 'co2', 'trust', 'direct')
+
+def logic_5548(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'trust', 'direct')
