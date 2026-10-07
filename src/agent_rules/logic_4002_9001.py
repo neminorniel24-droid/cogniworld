@@ -4241,3 +4241,6 @@ def logic_5480(agents, world):
 
 def logic_5481(agents, world):
     _agent_apply(world, agents, 'ice', 'reputation', 'direct')
+
+def logic_5482(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'reputation', 'direct')
