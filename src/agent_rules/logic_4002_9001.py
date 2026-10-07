@@ -11795,3 +11795,6 @@ def logic_7998(agents, world):
 
 def logic_7999(agents, world):
     _agent_apply(world, agents, 'detritus', 'local_density', 'direct')
+
+def logic_8000(agents, world):
+    _agent_apply(world, agents, 'methane', 'local_density', 'direct')
