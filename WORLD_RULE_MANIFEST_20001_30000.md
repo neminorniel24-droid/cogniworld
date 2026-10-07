@@ -8076,3 +8076,4 @@
 - 28075: integrated cross-system causal rule
 - 28076: integrated cross-system causal rule
 - 28077: integrated cross-system causal rule
+- 28078: integrated cross-system causal rule
