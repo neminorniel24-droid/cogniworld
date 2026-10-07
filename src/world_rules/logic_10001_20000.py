@@ -12203,3 +12203,6 @@ def logic_14046(world):
 
 def logic_14047(world):
     _world_apply(world, 'surface_water', 'soil_carbon', 'square')
+
+def logic_14048(world):
+    _world_apply(world, 'surface_water', 'surface_ice', 'pulse')
