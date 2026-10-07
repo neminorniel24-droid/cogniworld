@@ -3734,3 +3734,6 @@ def logic_5311(agents, world):
 
 def logic_5312(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'stability', 'direct')
+
+def logic_5313(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'stability', 'direct')
