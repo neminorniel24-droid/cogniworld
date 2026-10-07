@@ -12368,3 +12368,6 @@ def logic_14101(world):
 
 def logic_14102(world):
     _world_apply(world, 'cloud', 'biomass', 'saturation')
+
+def logic_14103(world):
+    _world_apply(world, 'cloud', 'herbivore', 'gap')
