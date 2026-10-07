@@ -3017,3 +3017,6 @@ def logic_18984(agents, world):
 
 def logic_18985(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'social_need', 'inverse')
+
+def logic_18986(agents, world):
+    _agent_apply(world, agents, 'ice', 'social_need', 'inverse')
