@@ -6026,3 +6026,6 @@ def logic_11987(world):
 
 def logic_11988(world):
     _world_apply(world, 'temperature', 'wind_y', 'direct')
+
+def logic_11989(world):
+    _world_apply(world, 'temperature', 'vegetation', 'square')
