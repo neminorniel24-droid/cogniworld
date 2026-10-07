@@ -14030,3 +14030,6 @@ def logic_8743(agents, world):
 
 def logic_8744(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'reciprocity_score', 'direct')
+
+def logic_8745(agents, world):
+    _agent_apply(world, agents, 'ice', 'reciprocity_score', 'direct')
