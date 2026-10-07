@@ -17090,3 +17090,6 @@ def logic_15675(world):
 
 def logic_15676(world):
     _world_apply(world, 'organic_matter', 'surface_ice', 'gap')
+
+def logic_15677(world):
+    _world_apply(world, 'deadwood', 'temperature', 'direct')
