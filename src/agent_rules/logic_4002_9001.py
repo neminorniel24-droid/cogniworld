@@ -5606,3 +5606,6 @@ def logic_5935(agents, world):
 
 def logic_5936(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'competition_pressure', 'direct')
+
+def logic_5937(agents, world):
+    _agent_apply(world, agents, 'payoff', 'competition_pressure', 'direct')
