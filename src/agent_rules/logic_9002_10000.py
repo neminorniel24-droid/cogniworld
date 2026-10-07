@@ -2016,3 +2016,6 @@ def logic_9846(agents, world):
 
 def logic_9847(agents, world):
     _agent_apply(world, agents, 'groundwater', 'fear', 'direct')
+
+def logic_9848(agents, world):
+    _agent_apply(world, agents, 'sediment', 'fear', 'direct')
