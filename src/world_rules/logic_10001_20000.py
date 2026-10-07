@@ -21881,3 +21881,6 @@ def logic_17272(world):
 
 def logic_17273(world):
     _world_apply(world, 'carbon_storage', 'predator', 'square')
+
+def logic_17274(world):
+    _world_apply(world, 'carbon_storage', 'carrion', 'pulse')
