@@ -11648,3 +11648,6 @@ def logic_7949(agents, world):
 
 def logic_7950(agents, world):
     _agent_apply(world, agents, 'pollinators', 'help_given', 'direct')
+
+def logic_7951(agents, world):
+    _agent_apply(world, agents, 'flowers', 'help_given', 'direct')
