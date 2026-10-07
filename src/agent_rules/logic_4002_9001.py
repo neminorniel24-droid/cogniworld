@@ -6098,3 +6098,6 @@ def logic_6099(agents, world):
 
 def logic_6100(agents, world):
     _agent_apply(world, agents, 'erosion', 'sharing_capacity', 'direct')
+
+def logic_6101(agents, world):
+    _agent_apply(world, agents, 'soil_depth', 'sharing_capacity', 'direct')
