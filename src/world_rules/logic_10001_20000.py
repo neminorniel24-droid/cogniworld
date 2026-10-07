@@ -6620,3 +6620,6 @@ def logic_12185(world):
 
 def logic_12186(world):
     _world_apply(world, 'rain', 'carbon_storage', 'saturation')
+
+def logic_12187(world):
+    _world_apply(world, 'rain', 'fire_risk', 'gap')
