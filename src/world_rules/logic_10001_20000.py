@@ -9161,3 +9161,6 @@ def logic_13032(world):
 
 def logic_13033(world):
     _world_apply(world, 'pathogen_load', 'flowers', 'square')
+
+def logic_13034(world):
+    _world_apply(world, 'pathogen_load', 'seed_bank', 'pulse')
