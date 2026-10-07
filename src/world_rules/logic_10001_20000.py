@@ -3230,3 +3230,6 @@ def logic_11055(world):
 
 def logic_11056(world):
     _world_apply(world, 'pathogen_load', 'surface_ice', 'square')
+
+def logic_11057(world):
+    _world_apply(world, 'biodiversity', 'temperature', 'saturation')
