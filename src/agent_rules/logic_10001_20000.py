@@ -3554,3 +3554,6 @@ def logic_19163(agents, world):
 
 def logic_19164(agents, world):
     _agent_apply(world, agents, 'recovery', 'last_reward', 'sqrt')
+
+def logic_19165(agents, world):
+    _agent_apply(world, agents, 'metabolic_cost', 'last_energy_delta', 'sqrt')
