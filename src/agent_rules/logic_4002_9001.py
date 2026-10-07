@@ -13268,3 +13268,6 @@ def logic_8489(agents, world):
 
 def logic_8490(agents, world):
     _agent_apply(world, agents, 'salinity', 'strategy_score', 'direct')
+
+def logic_8491(agents, world):
+    _agent_apply(world, agents, 'algae', 'strategy_score', 'direct')
