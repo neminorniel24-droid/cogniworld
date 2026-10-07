@@ -65059,3 +65059,10 @@ def logic_39672(agents, world):
     src = _local(world, agents, 'herbivore')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.payoff = _delta(agents.payoff, delta)
+
+
+def logic_39673(agents, world):
+    """Environmental predator shapes agent pathogen_risk (root)."""
+    src = _local(world, agents, 'predator')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.pathogen_risk = _delta(agents.pathogen_risk, delta)
