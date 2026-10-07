@@ -481,3 +481,4 @@
 - 20480: integrated cross-system causal rule
 - 20481: integrated cross-system causal rule
 - 20482: integrated cross-system causal rule
+- 20483: integrated cross-system causal rule
