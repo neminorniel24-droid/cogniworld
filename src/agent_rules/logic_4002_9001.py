@@ -2189,3 +2189,6 @@ def logic_4796(agents, world):
 
 def logic_4797(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'recovery', 'direct')
+
+def logic_4798(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'recovery', 'direct')
