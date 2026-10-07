@@ -3220,3 +3220,4 @@
 - 23219: integrated cross-system causal rule
 - 23220: integrated cross-system causal rule
 - 23221: integrated cross-system causal rule
+- 23222: integrated cross-system causal rule
