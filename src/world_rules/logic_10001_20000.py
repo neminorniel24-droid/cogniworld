@@ -13595,3 +13595,6 @@ def logic_14510(world):
 
 def logic_14511(world):
     _world_apply(world, 'predator', 'pathogen_load', 'saturation')
+
+def logic_14512(world):
+    _world_apply(world, 'predator', 'biodiversity', 'gap')
