@@ -20705,3 +20705,6 @@ def logic_16880(world):
 
 def logic_16881(world):
     _world_apply(world, 'detritus', 'oxygen', 'direct')
+
+def logic_16882(world):
+    _world_apply(world, 'detritus', 'co2', 'square')
