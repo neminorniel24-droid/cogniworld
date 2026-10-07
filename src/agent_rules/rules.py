@@ -37731,3 +37731,10 @@ def logic_35768(agents, world):
     src = _local(world, agents, 'co2')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.strategy_mixing = _delta(agents.strategy_mixing, delta)
+
+
+def logic_35769(agents, world):
+    """Environmental photosynthesis_factor shapes agent thirst (root)."""
+    src = _local(world, agents, 'photosynthesis_factor')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.thirst = _delta(agents.thirst, delta)
