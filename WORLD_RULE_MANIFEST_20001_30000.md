@@ -5000,3 +5000,4 @@
 - 24999: integrated cross-system causal rule
 - 25000: integrated cross-system causal rule
 - 25001: integrated cross-system causal rule
+- 25002: integrated cross-system causal rule
