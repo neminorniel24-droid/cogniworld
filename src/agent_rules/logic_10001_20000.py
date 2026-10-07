@@ -3491,3 +3491,6 @@ def logic_19142(agents, world):
 
 def logic_19143(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'local_density', 'square')
+
+def logic_19144(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'local_density', 'square')
