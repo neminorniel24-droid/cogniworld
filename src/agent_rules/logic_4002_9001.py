@@ -10718,3 +10718,6 @@ def logic_7639(agents, world):
 
 def logic_7640(agents, world):
     _agent_apply(world, agents, 'humidity', 'betrayal_memory', 'direct')
+
+def logic_7641(agents, world):
+    _agent_apply(world, agents, 'cloud', 'betrayal_memory', 'direct')
