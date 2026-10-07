@@ -1790,3 +1790,6 @@ def logic_10575(world):
 
 def logic_10576(world):
     _world_apply(world, 'carrion', 'cloud', 'square')
+
+def logic_10577(world):
+    _world_apply(world, 'carrion', 'rain', 'saturation')
