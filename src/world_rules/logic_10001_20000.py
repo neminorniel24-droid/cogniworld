@@ -14243,3 +14243,6 @@ def logic_14726(world):
 
 def logic_14727(world):
     _world_apply(world, 'co2', 'ice', 'square')
+
+def logic_14728(world):
+    _world_apply(world, 'co2', 'evaporation', 'pulse')
