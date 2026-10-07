@@ -1955,3 +1955,6 @@ def logic_10630(world):
 
 def logic_10631(world):
     _world_apply(world, 'nutrients', 'decomposition_rate', 'saturation')
+
+def logic_10632(world):
+    _world_apply(world, 'nutrients', 'oxygen', 'gap')
