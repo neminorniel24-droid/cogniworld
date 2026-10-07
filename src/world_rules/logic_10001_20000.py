@@ -4205,3 +4205,6 @@ def logic_11380(world):
 
 def logic_11381(world):
     _world_apply(world, 'fire_risk', 'oxygen', 'pulse')
+
+def logic_11382(world):
+    _world_apply(world, 'fire_risk', 'co2', 'saturation')
