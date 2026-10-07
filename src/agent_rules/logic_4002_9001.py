@@ -6071,3 +6071,6 @@ def logic_6090(agents, world):
 
 def logic_6091(agents, world):
     _agent_apply(world, agents, 'co2', 'sharing_capacity', 'direct')
+
+def logic_6092(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'sharing_capacity', 'direct')
