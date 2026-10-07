@@ -13688,3 +13688,6 @@ def logic_14541(world):
 
 def logic_14542(world):
     _world_apply(world, 'carrion', 'vegetation', 'saturation')
+
+def logic_14543(world):
+    _world_apply(world, 'carrion', 'biomass', 'gap')
