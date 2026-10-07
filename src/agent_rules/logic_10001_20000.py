@@ -3515,3 +3515,6 @@ def logic_19150(agents, world):
 
 def logic_19151(agents, world):
     _agent_apply(world, agents, 'resource_abundance', 'last_reward', 'square')
+
+def logic_19152(agents, world):
+    _agent_apply(world, agents, 'energy_surplus', 'last_reward', 'square')
