@@ -11762,3 +11762,6 @@ def logic_7987(agents, world):
 
 def logic_7988(agents, world):
     _agent_apply(world, agents, 'biomass', 'local_density', 'direct')
+
+def logic_7989(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'local_density', 'direct')
