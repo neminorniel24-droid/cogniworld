@@ -11033,3 +11033,6 @@ def logic_13656(world):
 
 def logic_13657(world):
     _world_apply(world, 'organic_matter', 'rain', 'saturation')
+
+def logic_13658(world):
+    _world_apply(world, 'organic_matter', 'soil_moisture', 'gap')
