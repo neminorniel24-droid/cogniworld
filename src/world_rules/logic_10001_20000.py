@@ -7592,3 +7592,6 @@ def logic_12509(world):
 
 def logic_12510(world):
     _world_apply(world, 'predator', 'surface_water', 'pulse')
+
+def logic_12511(world):
+    _world_apply(world, 'predator', 'humidity', 'saturation')
