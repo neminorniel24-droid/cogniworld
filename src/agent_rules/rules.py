@@ -50912,3 +50912,10 @@ def logic_37651(agents, world):
     src = _local(world, agents, 'nutrients')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.health = _delta(agents.health, delta)
+
+
+def logic_37652(agents, world):
+    """Environmental decomposition_rate shapes agent recovery (square)."""
+    src = _local(world, agents, 'decomposition_rate')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.recovery = _delta(agents.recovery, delta)
