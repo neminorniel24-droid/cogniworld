@@ -8102,3 +8102,6 @@ def logic_12679(world):
 
 def logic_12680(world):
     _world_apply(world, 'decomposition_rate', 'pollinators', 'saturation')
+
+def logic_12681(world):
+    _world_apply(world, 'decomposition_rate', 'flowers', 'direct')
