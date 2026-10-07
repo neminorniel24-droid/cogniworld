@@ -1442,3 +1442,6 @@ def logic_4547(agents, world):
 
 def logic_4548(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'pathogen_risk', 'direct')
+
+def logic_4549(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'pathogen_risk', 'direct')
