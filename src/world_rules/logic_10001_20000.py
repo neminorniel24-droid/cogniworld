@@ -15731,3 +15731,6 @@ def logic_15222(world):
 
 def logic_15223(world):
     _world_apply(world, 'root_density', 'fire_risk', 'gap')
+
+def logic_15224(world):
+    _world_apply(world, 'root_density', 'ash', 'direct')
