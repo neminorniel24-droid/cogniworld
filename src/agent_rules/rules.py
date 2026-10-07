@@ -67152,3 +67152,10 @@ def logic_39971(agents, world):
     src = _local(world, agents, 'groundwater')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.fire_fear = _delta(agents.fire_fear, delta)
+
+
+def logic_39972(agents, world):
+    """Environmental sediment shapes agent betrayal_memory (square)."""
+    src = _local(world, agents, 'sediment')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.betrayal_memory = _delta(agents.betrayal_memory, delta)
