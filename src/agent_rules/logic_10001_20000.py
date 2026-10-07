@@ -3866,3 +3866,6 @@ def logic_19267(agents, world):
 
 def logic_19268(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'strategy_score', 'pulse')
+
+def logic_19269(agents, world):
+    _agent_apply(world, agents, 'erosion', 'strategy_score', 'pulse')
