@@ -809,3 +809,6 @@ def logic_4336(agents, world):
 
 def logic_4337(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'health', 'direct')
+
+def logic_4338(agents, world):
+    _agent_apply(world, agents, 'ash', 'health', 'direct')
