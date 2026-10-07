@@ -3038,3 +3038,6 @@ def logic_18991(agents, world):
 
 def logic_18992(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'neighbor_energy_gap', 'inverse')
+
+def logic_18993(agents, world):
+    _agent_apply(world, agents, 'erosion', 'neighbor_energy_gap', 'inverse')
