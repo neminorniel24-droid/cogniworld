@@ -1695,3 +1695,6 @@ def logic_9739(agents, world):
 
 def logic_9740(agents, world):
     _agent_apply(world, agents, 'local_density', 'infection_risk', 'direct')
+
+def logic_9741(agents, world):
+    _agent_apply(world, agents, 'strategy_score', 'infection_risk', 'direct')
