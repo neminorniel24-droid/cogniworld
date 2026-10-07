@@ -9356,3 +9356,6 @@ def logic_13097(world):
 
 def logic_13098(world):
     _world_apply(world, 'habitat_stress', 'co2', 'gap')
+
+def logic_13099(world):
+    _world_apply(world, 'habitat_stress', 'photosynthesis_factor', 'direct')
