@@ -5813,3 +5813,6 @@ def logic_6004(agents, world):
 
 def logic_6005(agents, world):
     _agent_apply(world, agents, 'payoff', 'territoriality', 'direct')
+
+def logic_6006(agents, world):
+    _agent_apply(world, agents, 'temperature', 'group_stability', 'direct')
