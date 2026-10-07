@@ -2888,3 +2888,6 @@ def logic_5029(agents, world):
 
 def logic_5030(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'migration_drive', 'direct')
+
+def logic_5031(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'migration_drive', 'direct')
