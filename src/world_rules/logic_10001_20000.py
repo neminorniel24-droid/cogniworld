@@ -20300,3 +20300,6 @@ def logic_16745(world):
 
 def logic_16746(world):
     _world_apply(world, 'photosynthesis_factor', 'carrion', 'saturation')
+
+def logic_16747(world):
+    _world_apply(world, 'photosynthesis_factor', 'nutrients', 'gap')
