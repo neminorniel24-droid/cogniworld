@@ -1046,3 +1046,6 @@ def logic_10327(world):
 
 def logic_10328(world):
     _world_apply(world, 'wind_x', 'evaporation', 'pulse')
+
+def logic_10329(world):
+    _world_apply(world, 'wind_x', 'detritus', 'gap')
