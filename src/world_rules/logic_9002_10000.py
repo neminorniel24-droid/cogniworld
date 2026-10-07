@@ -405,3 +405,6 @@ def logic_9110(world):
 
 def logic_9111(world):
     _world_apply(world, 'surface_water', 'predator', 'threshold')
+
+def logic_9112(world):
+    _world_apply(world, 'surface_water', 'carrion', 'saturation')
