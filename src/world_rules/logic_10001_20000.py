@@ -18497,3 +18497,6 @@ def logic_16144(world):
 
 def logic_16145(world):
     _world_apply(world, 'rain', 'wetland', 'pulse')
+
+def logic_16146(world):
+    _world_apply(world, 'rain', 'carbon_storage', 'saturation')
