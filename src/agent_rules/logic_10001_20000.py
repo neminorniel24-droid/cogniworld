@@ -2192,3 +2192,6 @@ def logic_18709(agents, world):
 
 def logic_18710(agents, world):
     _agent_apply(world, agents, 'ice', 'caution', 'reciprocal')
+
+def logic_18711(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'confidence', 'reciprocal')
