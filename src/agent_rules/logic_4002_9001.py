@@ -2528,3 +2528,6 @@ def logic_4909(agents, world):
 
 def logic_4910(agents, world):
     _agent_apply(world, agents, 'reputation', 'metabolic_cost', 'direct')
+
+def logic_4911(agents, world):
+    _agent_apply(world, agents, 'help_received', 'metabolic_cost', 'direct')
