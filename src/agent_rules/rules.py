@@ -51325,3 +51325,10 @@ def logic_37710(agents, world):
     src = _local(world, agents, 'soil_depth')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_food = _delta(agents.last_food, delta)
+
+
+def logic_37711(agents, world):
+    """Environmental root_density shapes agent defection_score (inverse)."""
+    src = _local(world, agents, 'root_density')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defection_score = _delta(agents.defection_score, delta)
