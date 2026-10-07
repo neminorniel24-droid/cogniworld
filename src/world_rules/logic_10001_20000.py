@@ -3416,3 +3416,6 @@ def logic_11117(world):
 
 def logic_11118(world):
     _world_apply(world, 'habitat_stress', 'co2', 'square')
+
+def logic_11119(world):
+    _world_apply(world, 'habitat_stress', 'photosynthesis_factor', 'pulse')
