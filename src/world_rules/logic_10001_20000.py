@@ -1628,3 +1628,6 @@ def logic_10521(world):
 
 def logic_10522(world):
     _world_apply(world, 'herbivore', 'organic_matter', 'square')
+
+def logic_10523(world):
+    _world_apply(world, 'herbivore', 'deadwood', 'pulse')
