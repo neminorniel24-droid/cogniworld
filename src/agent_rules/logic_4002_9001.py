@@ -3806,3 +3806,6 @@ def logic_5335(agents, world):
 
 def logic_5336(agents, world):
     _agent_apply(world, agents, 'biomass', 'habitat_stress', 'direct')
+
+def logic_5337(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'habitat_stress', 'direct')
