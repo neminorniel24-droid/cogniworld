@@ -6130,3 +6130,4 @@
 - 26129: integrated cross-system causal rule
 - 26130: integrated cross-system causal rule
 - 26131: integrated cross-system causal rule
+- 26132: integrated cross-system causal rule
