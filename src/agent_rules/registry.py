@@ -3952,3 +3952,6 @@ RULES.append(logic_4299)
 
 from .logic_4002_9001 import logic_4300
 RULES.append(logic_4300)
+
+from .logic_4002_9001 import logic_4301
+RULES.append(logic_4301)
