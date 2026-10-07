@@ -14012,3 +14012,6 @@ def logic_14649(world):
 
 def logic_14650(world):
     _world_apply(world, 'decomposition_rate', 'carbon_storage', 'direct')
+
+def logic_14651(world):
+    _world_apply(world, 'decomposition_rate', 'fire_risk', 'square')
