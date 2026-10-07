@@ -7037,3 +7037,6 @@ def logic_12324(world):
 
 def logic_12325(world):
     _world_apply(world, 'wind_x', 'algae', 'gap')
+
+def logic_12326(world):
+    _world_apply(world, 'wind_x', 'organic_matter', 'direct')
