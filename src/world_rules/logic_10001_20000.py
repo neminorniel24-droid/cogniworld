@@ -14420,3 +14420,6 @@ def logic_14785(world):
 
 def logic_14786(world):
     _world_apply(world, 'photosynthesis_factor', 'groundwater', 'saturation')
+
+def logic_14787(world):
+    _world_apply(world, 'photosynthesis_factor', 'sediment', 'gap')
