@@ -21605,3 +21605,6 @@ def logic_17180(world):
 
 def logic_17181(world):
     _world_apply(world, 'root_density', 'wind_y', 'pulse')
+
+def logic_17182(world):
+    _world_apply(world, 'root_density', 'vegetation', 'saturation')
