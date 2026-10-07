@@ -6008,3 +6008,6 @@ def logic_11981(world):
 
 def logic_11982(world):
     _world_apply(world, 'temperature', 'humidity', 'saturation')
+
+def logic_11983(world):
+    _world_apply(world, 'temperature', 'cloud', 'gap')
