@@ -16388,3 +16388,6 @@ def logic_15441(world):
 
 def logic_15442(world):
     _world_apply(world, 'snowpack', 'wetland', 'square')
+
+def logic_15443(world):
+    _world_apply(world, 'snowpack', 'carbon_storage', 'pulse')
