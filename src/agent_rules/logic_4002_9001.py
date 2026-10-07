@@ -10892,3 +10892,6 @@ def logic_7697(agents, world):
 
 def logic_7698(agents, world):
     _agent_apply(world, agents, 'reputation', 'betrayal_memory', 'direct')
+
+def logic_7699(agents, world):
+    _agent_apply(world, agents, 'help_received', 'betrayal_memory', 'direct')
