@@ -20594,3 +20594,6 @@ def logic_16843(world):
 
 def logic_16844(world):
     _world_apply(world, 'evaporation', 'biodiversity', 'saturation')
+
+def logic_16845(world):
+    _world_apply(world, 'evaporation', 'habitat_stress', 'gap')
