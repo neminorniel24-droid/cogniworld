@@ -5171,3 +5171,6 @@ def logic_11702(world):
 
 def logic_11703(world):
     _world_apply(world, 'organic_matter', 'carbon_storage', 'gap')
+
+def logic_11704(world):
+    _world_apply(world, 'organic_matter', 'fire_risk', 'direct')
