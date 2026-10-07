@@ -39411,3 +39411,10 @@ def logic_36008(agents, world):
     src = _local(world, agents, 'soil_depth')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.foraging_score = _delta(agents.foraging_score, delta)
+
+
+def logic_36009(agents, world):
+    """Environmental root_density shapes agent migration_score (root)."""
+    src = _local(world, agents, 'root_density')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.migration_score = _delta(agents.migration_score, delta)
