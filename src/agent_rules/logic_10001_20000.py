@@ -5051,3 +5051,6 @@ def logic_19662(agents, world):
 
 def logic_19663(agents, world):
     _agent_apply(world, agents, 'runoff', 'learning_rate', 'gap')
+
+def logic_19664(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'learning_rate', 'gap')
