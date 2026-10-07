@@ -22814,3 +22814,6 @@ def logic_17583(world):
 
 def logic_17584(world):
     _world_apply(world, 'algae', 'decomposition_rate', 'direct')
+
+def logic_17585(world):
+    _world_apply(world, 'algae', 'oxygen', 'pulse')
