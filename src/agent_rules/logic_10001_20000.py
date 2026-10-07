@@ -3833,3 +3833,6 @@ def logic_19256(agents, world):
 
 def logic_19257(agents, world):
     _agent_apply(world, agents, 'nutrients', 'last_action', 'pulse')
+
+def logic_19258(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'last_action', 'pulse')
