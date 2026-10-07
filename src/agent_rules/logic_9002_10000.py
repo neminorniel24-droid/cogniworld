@@ -1182,3 +1182,6 @@ def logic_9568(agents, world):
 
 def logic_9569(agents, world):
     _agent_apply(world, agents, 'root_density', 'dehydration', 'direct')
+
+def logic_9570(agents, world):
+    _agent_apply(world, agents, 'wetland', 'dehydration', 'direct')
