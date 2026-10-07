@@ -2375,3 +2375,6 @@ def logic_10770(world):
 
 def logic_10771(world):
     _world_apply(world, 'co2', 'pathogen_load', 'square')
+
+def logic_10772(world):
+    _world_apply(world, 'co2', 'biodiversity', 'pulse')
