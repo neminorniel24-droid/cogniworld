@@ -3890,3 +3890,6 @@ def logic_5363(agents, world):
 
 def logic_5364(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'habitat_stress', 'direct')
+
+def logic_5365(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'habitat_stress', 'direct')
