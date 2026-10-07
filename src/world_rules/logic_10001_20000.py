@@ -404,3 +404,6 @@ def logic_10113(world):
 
 def logic_10114(world):
     _world_apply(world, 'humidity', 'erosion', 'pulse')
+
+def logic_10115(world):
+    _world_apply(world, 'humidity', 'soil_depth', 'saturation')
