@@ -22490,3 +22490,6 @@ def logic_17475(world):
 
 def logic_17476(world):
     _world_apply(world, 'groundwater', 'pollinators', 'gap')
+
+def logic_17477(world):
+    _world_apply(world, 'groundwater', 'flowers', 'direct')
