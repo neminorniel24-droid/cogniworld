@@ -2417,3 +2417,6 @@ def logic_18784(agents, world):
 
 def logic_18785(agents, world):
     _agent_apply(world, agents, 'fire_fear', 'resource_discovery', 'gap')
+
+def logic_18786(agents, world):
+    _agent_apply(world, agents, 'resource_competition', 'resource_discovery', 'gap')
