@@ -123,3 +123,6 @@ def logic_9016(world):
 
 def logic_9017(world):
     _world_apply(world, 'vegetation', 'organic_matter', 'reciprocal')
+
+def logic_9018(world):
+    _world_apply(world, 'organic_matter', 'soil_carbon', 'direct')
