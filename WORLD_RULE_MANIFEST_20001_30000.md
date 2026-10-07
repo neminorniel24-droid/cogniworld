@@ -292,3 +292,4 @@
 - 20291: integrated cross-system causal rule
 - 20292: integrated cross-system causal rule
 - 20293: integrated cross-system causal rule
+- 20294: integrated cross-system causal rule
