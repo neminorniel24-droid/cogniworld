@@ -17822,3 +17822,6 @@ def logic_15919(world):
 
 def logic_15920(world):
     _world_apply(world, 'surface_ice', 'pathogen_load', 'saturation')
+
+def logic_15921(world):
+    _world_apply(world, 'surface_ice', 'biodiversity', 'direct')
