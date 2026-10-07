@@ -12221,3 +12221,6 @@ def logic_8140(agents, world):
 
 def logic_8141(agents, world):
     _agent_apply(world, agents, 'soil_depth', 'last_energy_delta', 'direct')
+
+def logic_8142(agents, world):
+    _agent_apply(world, agents, 'root_density', 'last_energy_delta', 'direct')
