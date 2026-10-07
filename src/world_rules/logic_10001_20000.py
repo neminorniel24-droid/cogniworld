@@ -11609,3 +11609,6 @@ def logic_13848(world):
 
 def logic_13849(world):
     _world_apply(world, 'seed_bank', 'evaporation', 'gap')
+
+def logic_13850(world):
+    _world_apply(world, 'seed_bank', 'detritus', 'direct')
