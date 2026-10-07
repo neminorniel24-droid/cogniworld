@@ -11165,3 +11165,6 @@ def logic_13700(world):
 
 def logic_13701(world):
     _world_apply(world, 'deadwood', 'rain', 'pulse')
+
+def logic_13702(world):
+    _world_apply(world, 'deadwood', 'soil_moisture', 'saturation')
