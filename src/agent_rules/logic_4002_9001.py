@@ -4481,3 +4481,6 @@ def logic_5560(agents, world):
 
 def logic_5561(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'trust', 'direct')
+
+def logic_5562(agents, world):
+    _agent_apply(world, agents, 'ash', 'trust', 'direct')
