@@ -11228,3 +11228,6 @@ def logic_7809(agents, world):
 
 def logic_7810(agents, world):
     _agent_apply(world, agents, 'salinity', 'cooperation_history', 'direct')
+
+def logic_7811(agents, world):
+    _agent_apply(world, agents, 'algae', 'cooperation_history', 'direct')
