@@ -6638,3 +6638,6 @@ def logic_12191(world):
 
 def logic_12192(world):
     _world_apply(world, 'rain', 'salinity', 'gap')
+
+def logic_12193(world):
+    _world_apply(world, 'rain', 'algae', 'square')
