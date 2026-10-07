@@ -69,3 +69,4 @@
 - 20068: integrated cross-system causal rule
 - 20069: integrated cross-system causal rule
 - 20070: integrated cross-system causal rule
+- 20071: integrated cross-system causal rule
