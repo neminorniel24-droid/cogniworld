@@ -20696,3 +20696,6 @@ def logic_16877(world):
 
 def logic_16878(world):
     _world_apply(world, 'detritus', 'carrion', 'square')
+
+def logic_16879(world):
+    _world_apply(world, 'detritus', 'nutrients', 'pulse')
