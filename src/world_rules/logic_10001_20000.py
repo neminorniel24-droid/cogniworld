@@ -140,3 +140,6 @@ def logic_10025(world):
 
 def logic_10026(world):
     _world_apply(world, 'temperature', 'erosion', 'saturation')
+
+def logic_10027(world):
+    _world_apply(world, 'temperature', 'soil_depth', 'gap')
