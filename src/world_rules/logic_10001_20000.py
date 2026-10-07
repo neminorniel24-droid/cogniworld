@@ -10820,3 +10820,6 @@ def logic_13585(world):
 
 def logic_13586(world):
     _world_apply(world, 'salinity', 'detritus', 'saturation')
+
+def logic_13587(world):
+    _world_apply(world, 'salinity', 'methane', 'gap')
