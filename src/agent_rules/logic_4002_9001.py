@@ -8777,3 +8777,6 @@ def logic_6992(agents, world):
 
 def logic_6993(agents, world):
     _agent_apply(world, agents, 'sediment', 'defection_threshold', 'direct')
+
+def logic_6994(agents, world):
+    _agent_apply(world, agents, 'salinity', 'defection_threshold', 'direct')
