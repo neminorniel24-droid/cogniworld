@@ -3440,3 +3440,6 @@ def logic_19125(agents, world):
 
 def logic_19126(agents, world):
     _agent_apply(world, agents, 'detritus', 'local_density', 'square')
+
+def logic_19127(agents, world):
+    _agent_apply(world, agents, 'methane', 'local_density', 'square')
