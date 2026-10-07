@@ -3608,3 +3608,6 @@ def logic_5269(agents, world):
 
 def logic_5270(agents, world):
     _agent_apply(world, agents, 'predator', 'stability', 'direct')
+
+def logic_5271(agents, world):
+    _agent_apply(world, agents, 'carrion', 'stability', 'direct')
