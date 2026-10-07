@@ -16850,3 +16850,6 @@ def logic_15595(world):
 
 def logic_15596(world):
     _world_apply(world, 'algae', 'wind_x', 'gap')
+
+def logic_15597(world):
+    _world_apply(world, 'algae', 'wind_y', 'direct')
