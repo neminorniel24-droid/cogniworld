@@ -4943,3 +4943,6 @@ def logic_19626(agents, world):
 
 def logic_19627(agents, world):
     _agent_apply(world, agents, 'last_energy_delta', 'strategy_persistence', 'gap')
+
+def logic_19628(agents, world):
+    _agent_apply(world, agents, 'last_food', 'strategy_persistence', 'gap')
