@@ -585,3 +585,6 @@ def logic_9170(world):
 
 def logic_9171(world):
     _world_apply(world, 'humidity', 'fire_risk', 'inverse')
+
+def logic_9172(world):
+    _world_apply(world, 'humidity', 'ash', 'square')
