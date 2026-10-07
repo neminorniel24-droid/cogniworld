@@ -5546,3 +5546,6 @@ def logic_11827(world):
 
 def logic_11828(world):
     _world_apply(world, 'flowers', 'pathogen_load', 'direct')
+
+def logic_11829(world):
+    _world_apply(world, 'flowers', 'biodiversity', 'square')
