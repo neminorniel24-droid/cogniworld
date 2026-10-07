@@ -5087,3 +5087,4 @@
 - 25086: integrated cross-system causal rule
 - 25087: integrated cross-system causal rule
 - 25088: integrated cross-system causal rule
+- 25089: integrated cross-system causal rule
