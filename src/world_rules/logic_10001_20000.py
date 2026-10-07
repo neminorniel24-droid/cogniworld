@@ -21413,3 +21413,6 @@ def logic_17116(world):
 
 def logic_17117(world):
     _world_apply(world, 'erosion', 'snowpack', 'direct')
+
+def logic_17118(world):
+    _world_apply(world, 'erosion', 'groundwater', 'square')
