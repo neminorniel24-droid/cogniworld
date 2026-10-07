@@ -5480,3 +5480,6 @@ def logic_11805(world):
 
 def logic_11806(world):
     _world_apply(world, 'flowers', 'surface_water', 'direct')
+
+def logic_11807(world):
+    _world_apply(world, 'flowers', 'humidity', 'square')
