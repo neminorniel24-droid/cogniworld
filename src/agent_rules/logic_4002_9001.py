@@ -14594,3 +14594,6 @@ def logic_8931(agents, world):
 
 def logic_8932(agents, world):
     _agent_apply(world, agents, 'humidity', 'exploration_score', 'direct')
+
+def logic_8933(agents, world):
+    _agent_apply(world, agents, 'cloud', 'exploration_score', 'direct')
