@@ -21440,3 +21440,6 @@ def logic_17125(world):
 
 def logic_17126(world):
     _world_apply(world, 'erosion', 'seed_bank', 'direct')
+
+def logic_17127(world):
+    _world_apply(world, 'erosion', 'soil_carbon', 'square')
