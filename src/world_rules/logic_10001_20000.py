@@ -5519,3 +5519,6 @@ def logic_11818(world):
 
 def logic_11819(world):
     _world_apply(world, 'flowers', 'nutrients', 'direct')
+
+def logic_11820(world):
+    _world_apply(world, 'flowers', 'decomposition_rate', 'square')
