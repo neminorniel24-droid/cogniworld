@@ -7046,3 +7046,4 @@
 - 27045: integrated cross-system causal rule
 - 27046: integrated cross-system causal rule
 - 27047: integrated cross-system causal rule
+- 27048: integrated cross-system causal rule
