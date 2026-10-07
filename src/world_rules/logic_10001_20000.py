@@ -12128,3 +12128,6 @@ def logic_14021(world):
 
 def logic_14022(world):
     _world_apply(world, 'surface_water', 'photosynthesis_factor', 'saturation')
+
+def logic_14023(world):
+    _world_apply(world, 'surface_water', 'ice', 'gap')
