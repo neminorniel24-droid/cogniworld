@@ -4505,3 +4505,4 @@
 - 24504: integrated cross-system causal rule
 - 24505: integrated cross-system causal rule
 - 24506: integrated cross-system causal rule
+- 24507: integrated cross-system causal rule
