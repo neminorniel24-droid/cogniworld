@@ -9353,3 +9353,6 @@ def logic_13096(world):
 
 def logic_13097(world):
     _world_apply(world, 'habitat_stress', 'oxygen', 'saturation')
+
+def logic_13098(world):
+    _world_apply(world, 'habitat_stress', 'co2', 'gap')
