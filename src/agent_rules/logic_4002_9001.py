@@ -2654,3 +2654,6 @@ def logic_4951(agents, world):
 
 def logic_4952(agents, world):
     _agent_apply(world, agents, 'groundwater', 'reproduction_drive', 'direct')
+
+def logic_4953(agents, world):
+    _agent_apply(world, agents, 'sediment', 'reproduction_drive', 'direct')
