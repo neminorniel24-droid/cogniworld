@@ -1010,3 +1010,6 @@ def logic_18315(agents, world):
 
 def logic_18316(agents, world):
     _agent_apply(world, agents, 'deadwood', 'food_access', 'sqrt')
+
+def logic_18317(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'wealth', 'sqrt')
