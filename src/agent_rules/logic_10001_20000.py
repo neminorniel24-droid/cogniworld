@@ -4526,3 +4526,6 @@ def logic_19487(agents, world):
 
 def logic_19488(agents, world):
     _agent_apply(world, agents, 'last_reward', 'help_score', 'saturation')
+
+def logic_19489(agents, world):
+    _agent_apply(world, agents, 'last_energy_delta', 'help_score', 'saturation')
