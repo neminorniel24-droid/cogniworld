@@ -6572,3 +6572,6 @@ def logic_12169(world):
 
 def logic_12170(world):
     _world_apply(world, 'rain', 'nutrients', 'direct')
+
+def logic_12171(world):
+    _world_apply(world, 'rain', 'decomposition_rate', 'square')
