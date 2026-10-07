@@ -5018,3 +5018,6 @@ def logic_5739(agents, world):
 
 def logic_5740(agents, world):
     _agent_apply(world, agents, 'runoff', 'aggression', 'direct')
+
+def logic_5741(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'aggression', 'direct')
