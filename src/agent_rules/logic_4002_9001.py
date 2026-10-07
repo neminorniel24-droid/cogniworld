@@ -5936,3 +5936,6 @@ def logic_6045(agents, world):
 
 def logic_6046(agents, world):
     _agent_apply(world, agents, 'pollinators', 'group_stability', 'direct')
+
+def logic_6047(agents, world):
+    _agent_apply(world, agents, 'flowers', 'group_stability', 'direct')
