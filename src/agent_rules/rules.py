@@ -41357,3 +41357,10 @@ def logic_36286(agents, world):
     src = _local(world, agents, 'wetland')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_food = _delta(agents.last_food, delta)
+
+
+def logic_36287(agents, world):
+    """Environmental carbon_storage shapes agent defection_score (inverse)."""
+    src = _local(world, agents, 'carbon_storage')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defection_score = _delta(agents.defection_score, delta)
