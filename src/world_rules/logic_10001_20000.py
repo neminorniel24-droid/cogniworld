@@ -2198,3 +2198,6 @@ def logic_10711(world):
 
 def logic_10712(world):
     _world_apply(world, 'oxygen', 'wind_x', 'gap')
+
+def logic_10713(world):
+    _world_apply(world, 'oxygen', 'wind_y', 'square')
