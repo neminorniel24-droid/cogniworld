@@ -19322,3 +19322,6 @@ def logic_16419(world):
 
 def logic_16420(world):
     _world_apply(world, 'biomass', 'pollinators', 'square')
+
+def logic_16421(world):
+    _world_apply(world, 'biomass', 'flowers', 'pulse')
