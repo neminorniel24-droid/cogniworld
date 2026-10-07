@@ -2438,3 +2438,6 @@ def logic_18791(agents, world):
 
 def logic_18792(agents, world):
     _agent_apply(world, agents, 'betrayal_memory', 'empathy', 'gap')
+
+def logic_18793(agents, world):
+    _agent_apply(world, agents, 'conflict_history', 'empathy', 'gap')
