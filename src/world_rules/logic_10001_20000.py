@@ -5477,3 +5477,6 @@ def logic_11804(world):
 
 def logic_11805(world):
     _world_apply(world, 'flowers', 'temperature', 'gap')
+
+def logic_11806(world):
+    _world_apply(world, 'flowers', 'surface_water', 'direct')
