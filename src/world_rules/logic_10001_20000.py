@@ -5960,3 +5960,6 @@ def logic_11965(world):
 
 def logic_11966(world):
     _world_apply(world, 'surface_ice', 'wetland', 'direct')
+
+def logic_11967(world):
+    _world_apply(world, 'surface_ice', 'carbon_storage', 'square')
