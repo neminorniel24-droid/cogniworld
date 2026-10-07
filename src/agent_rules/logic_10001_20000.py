@@ -3779,3 +3779,6 @@ def logic_19238(agents, world):
 
 def logic_19239(agents, world):
     _agent_apply(world, agents, 'memory_update', 'risk_tolerance', 'sqrt')
+
+def logic_19240(agents, world):
+    _agent_apply(world, agents, 'future_payoff_weight', 'risk_tolerance', 'sqrt')
