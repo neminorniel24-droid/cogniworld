@@ -1448,3 +1448,6 @@ def logic_10461(world):
 
 def logic_10462(world):
     _world_apply(world, 'biomass', 'methane', 'saturation')
+
+def logic_10463(world):
+    _world_apply(world, 'biomass', 'pathogen_load', 'gap')
