@@ -13853,3 +13853,6 @@ def logic_14596(world):
 
 def logic_14597(world):
     _world_apply(world, 'nutrients', 'detritus', 'direct')
+
+def logic_14598(world):
+    _world_apply(world, 'nutrients', 'methane', 'square')
