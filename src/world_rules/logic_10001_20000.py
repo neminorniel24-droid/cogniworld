@@ -6890,3 +6890,6 @@ def logic_12275(world):
 
 def logic_12276(world):
     _world_apply(world, 'runoff', 'ash', 'gap')
+
+def logic_12277(world):
+    _world_apply(world, 'runoff', 'snowpack', 'direct')
