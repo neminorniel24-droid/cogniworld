@@ -14603,3 +14603,6 @@ def logic_14846(world):
 
 def logic_14847(world):
     _world_apply(world, 'evaporation', 'runoff', 'square')
+
+def logic_14848(world):
+    _world_apply(world, 'evaporation', 'wind_x', 'pulse')
