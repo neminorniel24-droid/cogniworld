@@ -246,3 +246,6 @@ def logic_9057(world):
 
 def logic_9058(world):
     _world_apply(world, 'temperature', 'surface_ice', 'direct')
+
+def logic_9059(world):
+    _world_apply(world, 'cloud', 'temperature', 'inverse')
