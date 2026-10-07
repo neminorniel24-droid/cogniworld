@@ -60509,3 +60509,10 @@ def logic_39022(agents, world):
     src = _local(world, agents, 'soil_moisture')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.retaliation_risk = _delta(agents.retaliation_risk, delta)
+
+
+def logic_39023(agents, world):
+    """Environmental runoff shapes agent learning_rate (inverse)."""
+    src = _local(world, agents, 'runoff')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.learning_rate = _delta(agents.learning_rate, delta)
