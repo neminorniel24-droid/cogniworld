@@ -17606,3 +17606,6 @@ def logic_15847(world):
 
 def logic_15848(world):
     _world_apply(world, 'seed_bank', 'deadwood', 'pulse')
+
+def logic_15849(world):
+    _world_apply(world, 'seed_bank', 'pollinators', 'gap')
