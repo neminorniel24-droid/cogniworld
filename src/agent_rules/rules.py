@@ -62952,3 +62952,10 @@ def logic_39371(agents, world):
     src = _local(world, agents, 'ash')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.group_stability = _delta(agents.group_stability, delta)
+
+
+def logic_39372(agents, world):
+    """Environmental snowpack shapes agent caution (square)."""
+    src = _local(world, agents, 'snowpack')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.caution = _delta(agents.caution, delta)
