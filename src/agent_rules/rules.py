@@ -52501,3 +52501,10 @@ def logic_37878(agents, world):
     src = _local(world, agents, 'herbivore')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.migration_score = _delta(agents.migration_score, delta)
+
+
+def logic_37879(agents, world):
+    """Environmental predator shapes agent future_payoff_weight (inverse)."""
+    src = _local(world, agents, 'predator')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.future_payoff_weight = _delta(agents.future_payoff_weight, delta)
