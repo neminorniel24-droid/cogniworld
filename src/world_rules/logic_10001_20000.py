@@ -3548,3 +3548,6 @@ def logic_11161(world):
 
 def logic_11162(world):
     _world_apply(world, 'erosion', 'co2', 'square')
+
+def logic_11163(world):
+    _world_apply(world, 'erosion', 'photosynthesis_factor', 'pulse')
