@@ -10058,3 +10058,6 @@ def logic_13331(world):
 
 def logic_13332(world):
     _world_apply(world, 'carbon_storage', 'ash', 'pulse')
+
+def logic_13333(world):
+    _world_apply(world, 'carbon_storage', 'snowpack', 'saturation')
