@@ -12770,3 +12770,6 @@ def logic_8323(agents, world):
 
 def logic_8324(agents, world):
     _agent_apply(world, agents, 'runoff', 'risk_tolerance', 'direct')
+
+def logic_8325(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'risk_tolerance', 'direct')
