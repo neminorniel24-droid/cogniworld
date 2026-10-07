@@ -23471,3 +23471,6 @@ def logic_17802(world):
 
 def logic_17803(world):
     _world_apply(world, 'seed_bank', 'nutrients', 'pulse')
+
+def logic_17804(world):
+    _world_apply(world, 'seed_bank', 'decomposition_rate', 'saturation')
