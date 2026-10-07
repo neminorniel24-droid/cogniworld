@@ -10628,3 +10628,6 @@ def logic_7609(agents, world):
 
 def logic_7610(agents, world):
     _agent_apply(world, agents, 'pollinators', 'neighbor_health_gap', 'direct')
+
+def logic_7611(agents, world):
+    _agent_apply(world, agents, 'flowers', 'neighbor_health_gap', 'direct')
