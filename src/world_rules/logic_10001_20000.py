@@ -4805,3 +4805,6 @@ def logic_11580(world):
 
 def logic_11581(world):
     _world_apply(world, 'sediment', 'flowers', 'pulse')
+
+def logic_11582(world):
+    _world_apply(world, 'sediment', 'seed_bank', 'saturation')
