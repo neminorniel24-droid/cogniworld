@@ -8969,3 +8969,6 @@ def logic_12968(world):
 
 def logic_12969(world):
     _world_apply(world, 'methane', 'evaporation', 'gap')
+
+def logic_12970(world):
+    _world_apply(world, 'methane', 'detritus', 'direct')
