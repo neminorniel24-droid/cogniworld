@@ -633,3 +633,6 @@ def logic_9186(world):
 
 def logic_9187(world):
     _world_apply(world, 'cloud', 'soil_moisture', 'inverse')
+
+def logic_9188(world):
+    _world_apply(world, 'cloud', 'runoff', 'square')
