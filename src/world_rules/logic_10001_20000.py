@@ -6560,3 +6560,6 @@ def logic_12165(world):
 
 def logic_12166(world):
     _world_apply(world, 'rain', 'biomass', 'direct')
+
+def logic_12167(world):
+    _world_apply(world, 'rain', 'herbivore', 'square')
