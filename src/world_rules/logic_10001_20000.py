@@ -19427,3 +19427,6 @@ def logic_16454(world):
 
 def logic_16455(world):
     _world_apply(world, 'herbivore', 'fire_risk', 'direct')
+
+def logic_16456(world):
+    _world_apply(world, 'herbivore', 'ash', 'square')
