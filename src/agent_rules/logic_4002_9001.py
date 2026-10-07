@@ -9884,3 +9884,6 @@ def logic_7361(agents, world):
 
 def logic_7362(agents, world):
     _agent_apply(world, agents, 'strategy_score', 'vegetation_expectation', 'direct')
+
+def logic_7363(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'vegetation_expectation', 'direct')
