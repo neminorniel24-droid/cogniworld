@@ -3962,3 +3962,6 @@ def logic_5387(agents, world):
 
 def logic_5388(agents, world):
     _agent_apply(world, agents, 'help_given', 'habitat_stress', 'direct')
+
+def logic_5389(agents, world):
+    _agent_apply(world, agents, 'local_density', 'habitat_stress', 'direct')
