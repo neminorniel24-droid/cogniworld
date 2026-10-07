@@ -1470,3 +1470,6 @@ def logic_9664(agents, world):
 
 def logic_9665(agents, world):
     _agent_apply(world, agents, 'social_need', 'pathogen_risk', 'direct')
+
+def logic_9666(agents, world):
+    _agent_apply(world, agents, 'cooperation', 'pathogen_risk', 'direct')
