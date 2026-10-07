@@ -13385,3 +13385,6 @@ def logic_14440(world):
 
 def logic_14441(world):
     _world_apply(world, 'biomass', 'flowers', 'direct')
+
+def logic_14442(world):
+    _world_apply(world, 'biomass', 'seed_bank', 'square')
