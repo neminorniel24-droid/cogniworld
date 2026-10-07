@@ -17939,3 +17939,6 @@ def logic_15958(world):
 
 def logic_15959(world):
     _world_apply(world, 'temperature', 'ice', 'pulse')
+
+def logic_15960(world):
+    _world_apply(world, 'temperature', 'evaporation', 'saturation')
