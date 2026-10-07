@@ -10505,3 +10505,6 @@ def logic_7568(agents, world):
 
 def logic_7569(agents, world):
     _agent_apply(world, agents, 'payoff', 'neighbor_energy_gap', 'direct')
+
+def logic_7570(agents, world):
+    _agent_apply(world, agents, 'temperature', 'neighbor_health_gap', 'direct')
