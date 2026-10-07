@@ -4688,3 +4688,6 @@ def logic_11541(world):
 
 def logic_11542(world):
     _world_apply(world, 'sediment', 'surface_water', 'saturation')
+
+def logic_11543(world):
+    _world_apply(world, 'sediment', 'humidity', 'gap')
