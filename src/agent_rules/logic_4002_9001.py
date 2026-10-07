@@ -9971,3 +9971,6 @@ def logic_7390(agents, world):
 
 def logic_7391(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'stress', 'direct')
+
+def logic_7392(agents, world):
+    _agent_apply(world, agents, 'erosion', 'stress', 'direct')
