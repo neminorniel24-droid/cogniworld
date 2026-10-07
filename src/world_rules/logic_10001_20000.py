@@ -8726,3 +8726,6 @@ def logic_12887(world):
 
 def logic_12888(world):
     _world_apply(world, 'evaporation', 'root_density', 'pulse')
+
+def logic_12889(world):
+    _world_apply(world, 'evaporation', 'wetland', 'gap')
