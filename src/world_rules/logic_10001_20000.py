@@ -13769,3 +13769,6 @@ def logic_14568(world):
 
 def logic_14569(world):
     _world_apply(world, 'carrion', 'algae', 'gap')
+
+def logic_14570(world):
+    _world_apply(world, 'carrion', 'organic_matter', 'direct')
