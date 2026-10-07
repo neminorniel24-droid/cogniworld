@@ -18992,3 +18992,6 @@ def logic_16309(world):
 
 def logic_16310(world):
     _world_apply(world, 'wind_y', 'photosynthesis_factor', 'pulse')
+
+def logic_16311(world):
+    _world_apply(world, 'wind_y', 'ice', 'saturation')
