@@ -35764,3 +35764,10 @@ def logic_35487(agents, world):
     src = _local(world, agents, 'predator')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.fitness_score = _delta(agents.fitness_score, delta)
+
+
+def logic_35488(agents, world):
+    """Environmental carrion shapes agent sharing_score (square)."""
+    src = _local(world, agents, 'carrion')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.sharing_score = _delta(agents.sharing_score, delta)
