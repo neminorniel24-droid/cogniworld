@@ -20051,3 +20051,6 @@ def logic_16662(world):
 
 def logic_16663(world):
     _world_apply(world, 'oxygen', 'ice', 'gap')
+
+def logic_16664(world):
+    _world_apply(world, 'oxygen', 'evaporation', 'direct')
