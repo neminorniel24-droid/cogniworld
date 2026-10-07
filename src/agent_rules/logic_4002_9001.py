@@ -5513,3 +5513,6 @@ def logic_5904(agents, world):
 
 def logic_5905(agents, world):
     _agent_apply(world, agents, 'sediment', 'competition_pressure', 'direct')
+
+def logic_5906(agents, world):
+    _agent_apply(world, agents, 'salinity', 'competition_pressure', 'direct')
