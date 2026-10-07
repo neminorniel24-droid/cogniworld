@@ -3383,3 +3383,6 @@ def logic_11106(world):
 
 def logic_11107(world):
     _world_apply(world, 'habitat_stress', 'runoff', 'gap')
+
+def logic_11108(world):
+    _world_apply(world, 'habitat_stress', 'wind_x', 'direct')
