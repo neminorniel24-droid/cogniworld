@@ -20021,3 +20021,6 @@ def logic_16652(world):
 
 def logic_16653(world):
     _world_apply(world, 'oxygen', 'wind_y', 'saturation')
+
+def logic_16654(world):
+    _world_apply(world, 'oxygen', 'vegetation', 'gap')
