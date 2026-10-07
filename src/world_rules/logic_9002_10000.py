@@ -465,3 +465,6 @@ def logic_9130(world):
 
 def logic_9131(world):
     _world_apply(world, 'surface_water', 'groundwater', 'inverse')
+
+def logic_9132(world):
+    _world_apply(world, 'surface_water', 'sediment', 'square')
