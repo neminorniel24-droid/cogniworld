@@ -3731,3 +3731,6 @@ def logic_19222(agents, world):
 
 def logic_19223(agents, world):
     _agent_apply(world, agents, 'risk_score', 'last_interaction', 'sqrt')
+
+def logic_19224(agents, world):
+    _agent_apply(world, agents, 'safety_score', 'risk_tolerance', 'sqrt')
