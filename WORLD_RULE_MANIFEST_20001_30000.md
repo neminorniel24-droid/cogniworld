@@ -220,3 +220,4 @@
 - 20219: integrated cross-system causal rule
 - 20220: integrated cross-system causal rule
 - 20221: integrated cross-system causal rule
+- 20222: integrated cross-system causal rule
