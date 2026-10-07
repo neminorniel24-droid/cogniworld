@@ -1590,3 +1590,4 @@
 - 21589: integrated cross-system causal rule
 - 21590: integrated cross-system causal rule
 - 21591: integrated cross-system causal rule
+- 21592: integrated cross-system causal rule
