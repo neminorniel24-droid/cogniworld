@@ -185,3 +185,6 @@ def logic_10040(world):
 
 def logic_10041(world):
     _world_apply(world, 'temperature', 'flowers', 'direct')
+
+def logic_10042(world):
+    _world_apply(world, 'temperature', 'seed_bank', 'square')
