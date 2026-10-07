@@ -267,3 +267,6 @@ def logic_9064(world):
 
 def logic_9065(world):
     _world_apply(world, 'temperature', 'rain', 'reciprocal')
+
+def logic_9066(world):
+    _world_apply(world, 'temperature', 'soil_moisture', 'direct')
