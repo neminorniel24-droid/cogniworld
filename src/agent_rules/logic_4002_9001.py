@@ -2645,3 +2645,6 @@ def logic_4948(agents, world):
 
 def logic_4949(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'reproduction_drive', 'direct')
+
+def logic_4950(agents, world):
+    _agent_apply(world, agents, 'ash', 'reproduction_drive', 'direct')
