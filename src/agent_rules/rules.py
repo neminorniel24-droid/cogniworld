@@ -35022,3 +35022,10 @@ def logic_35381(agents, world):
     src = _local(world, agents, 'surface_ice')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.shelter_need = _delta(agents.shelter_need, delta)
+
+
+def logic_35382(agents, world):
+    """Environmental temperature shapes agent neighbor_health_gap (direct)."""
+    src = _local(world, agents, 'temperature')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.neighbor_health_gap = _delta(agents.neighbor_health_gap, delta)
