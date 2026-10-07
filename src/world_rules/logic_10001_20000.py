@@ -12332,3 +12332,6 @@ def logic_14089(world):
 
 def logic_14090(world):
     _world_apply(world, 'humidity', 'seed_bank', 'direct')
+
+def logic_14091(world):
+    _world_apply(world, 'humidity', 'soil_carbon', 'square')
