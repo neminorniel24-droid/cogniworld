@@ -7649,3 +7649,6 @@ def logic_12528(world):
 
 def logic_12529(world):
     _world_apply(world, 'predator', 'detritus', 'gap')
+
+def logic_12530(world):
+    _world_apply(world, 'predator', 'methane', 'direct')
