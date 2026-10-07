@@ -1005,3 +1005,4 @@
 - 21004: integrated cross-system causal rule
 - 21005: integrated cross-system causal rule
 - 21006: integrated cross-system causal rule
+- 21007: integrated cross-system causal rule
