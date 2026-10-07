@@ -15515,3 +15515,6 @@ def logic_15150(world):
 
 def logic_15151(world):
     _world_apply(world, 'soil_depth', 'humidity', 'saturation')
+
+def logic_15152(world):
+    _world_apply(world, 'soil_depth', 'cloud', 'gap')
