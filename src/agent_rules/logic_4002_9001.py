@@ -3347,3 +3347,6 @@ def logic_5182(agents, world):
 
 def logic_5183(agents, world):
     _agent_apply(world, agents, 'help_received', 'food_access', 'direct')
+
+def logic_5184(agents, world):
+    _agent_apply(world, agents, 'help_given', 'food_access', 'direct')
