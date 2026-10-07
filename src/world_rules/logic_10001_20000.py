@@ -10637,3 +10637,6 @@ def logic_13524(world):
 
 def logic_13525(world):
     _world_apply(world, 'sediment', 'rain', 'gap')
+
+def logic_13526(world):
+    _world_apply(world, 'sediment', 'soil_moisture', 'direct')
