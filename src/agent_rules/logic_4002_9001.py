@@ -2663,3 +2663,6 @@ def logic_4954(agents, world):
 
 def logic_4955(agents, world):
     _agent_apply(world, agents, 'algae', 'reproduction_drive', 'direct')
+
+def logic_4956(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'reproduction_drive', 'direct')
