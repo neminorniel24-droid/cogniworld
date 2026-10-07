@@ -4019,3 +4019,6 @@ def logic_5406(agents, world):
 
 def logic_5407(agents, world):
     _agent_apply(world, agents, 'carrion', 'social_tolerance', 'direct')
+
+def logic_5408(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'social_tolerance', 'direct')
