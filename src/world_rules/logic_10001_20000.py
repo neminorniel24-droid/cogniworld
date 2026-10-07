@@ -18740,3 +18740,6 @@ def logic_16225(world):
 
 def logic_16226(world):
     _world_apply(world, 'runoff', 'methane', 'saturation')
+
+def logic_16227(world):
+    _world_apply(world, 'runoff', 'pathogen_load', 'gap')
