@@ -4187,3 +4187,6 @@ def logic_19374(agents, world):
 
 def logic_19375(agents, world):
     _agent_apply(world, agents, 'strategy_mixing', 'risk_score', 'threshold')
+
+def logic_19376(agents, world):
+    _agent_apply(world, agents, 'learning_rate', 'risk_score', 'threshold')
