@@ -11774,3 +11774,6 @@ def logic_7991(agents, world):
 
 def logic_7992(agents, world):
     _agent_apply(world, agents, 'nutrients', 'local_density', 'direct')
+
+def logic_7993(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'local_density', 'direct')
