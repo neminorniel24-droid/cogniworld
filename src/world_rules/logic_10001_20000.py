@@ -7739,3 +7739,6 @@ def logic_12558(world):
 
 def logic_12559(world):
     _world_apply(world, 'carrion', 'runoff', 'pulse')
+
+def logic_12560(world):
+    _world_apply(world, 'carrion', 'wind_x', 'saturation')
