@@ -78,3 +78,6 @@ def _agent_apply(world, agents, source, target, mode):
 
 def logic_9002(world):
     _world_apply(world, 'temperature', 'evaporation', 'direct')
+
+def logic_9003(world):
+    _world_apply(world, 'evaporation', 'humidity', 'inverse')
