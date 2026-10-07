@@ -3149,3 +3149,6 @@ def logic_5116(agents, world):
 
 def logic_5117(agents, world):
     _agent_apply(world, agents, 'local_density', 'exploration_drive', 'direct')
+
+def logic_5118(agents, world):
+    _agent_apply(world, agents, 'strategy_score', 'exploration_drive', 'direct')
