@@ -395,3 +395,6 @@ def logic_18110(agents, world):
 
 def logic_18111(agents, world):
     _agent_apply(world, agents, 'last_interaction', 'dehydration', 'inverse')
+
+def logic_18112(agents, world):
+    _agent_apply(world, agents, 'risk_tolerance', 'dehydration', 'inverse')
