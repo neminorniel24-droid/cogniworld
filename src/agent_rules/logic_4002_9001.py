@@ -893,3 +893,6 @@ def logic_4364(agents, world):
 
 def logic_4365(agents, world):
     _agent_apply(world, agents, 'trust', 'health', 'direct')
+
+def logic_4366(agents, world):
+    _agent_apply(world, agents, 'reputation', 'health', 'direct')
