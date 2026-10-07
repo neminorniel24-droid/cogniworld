@@ -1,6 +1,6 @@
 import pytest
 
-from src.day_night import DayNightCycle
+from day_night import DayNightCycle
 
 
 def test_phase_wraps_at_end_of_day():
