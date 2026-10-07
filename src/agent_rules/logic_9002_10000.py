@@ -1509,3 +1509,6 @@ def logic_9677(agents, world):
 
 def logic_9678(agents, world):
     _agent_apply(world, agents, 'surface_water', 'infection_risk', 'direct')
+
+def logic_9679(agents, world):
+    _agent_apply(world, agents, 'humidity', 'infection_risk', 'direct')
