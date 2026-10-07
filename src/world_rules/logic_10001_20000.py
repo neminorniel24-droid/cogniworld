@@ -20330,3 +20330,6 @@ def logic_16755(world):
 
 def logic_16756(world):
     _world_apply(world, 'photosynthesis_factor', 'biodiversity', 'gap')
+
+def logic_16757(world):
+    _world_apply(world, 'photosynthesis_factor', 'habitat_stress', 'direct')
