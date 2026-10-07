@@ -11888,3 +11888,6 @@ def logic_13941(world):
 
 def logic_13942(world):
     _world_apply(world, 'surface_ice', 'habitat_stress', 'saturation')
+
+def logic_13943(world):
+    _world_apply(world, 'surface_ice', 'erosion', 'gap')
