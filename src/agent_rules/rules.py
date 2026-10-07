@@ -39285,3 +39285,10 @@ def logic_35990(agents, world):
     src = _local(world, agents, 'vegetation')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.caution = _delta(agents.caution, delta)
+
+
+def logic_35991(agents, world):
+    """Environmental biomass shapes agent defection_threshold (inverse)."""
+    src = _local(world, agents, 'biomass')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defection_threshold = _delta(agents.defection_threshold, delta)
