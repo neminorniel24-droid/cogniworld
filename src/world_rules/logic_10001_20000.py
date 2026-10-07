@@ -21464,3 +21464,6 @@ def logic_17133(world):
 
 def logic_17134(world):
     _world_apply(world, 'soil_depth', 'soil_moisture', 'gap')
+
+def logic_17135(world):
+    _world_apply(world, 'soil_depth', 'runoff', 'direct')
