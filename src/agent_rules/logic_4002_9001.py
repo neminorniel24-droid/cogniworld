@@ -12602,3 +12602,6 @@ def logic_8267(agents, world):
 
 def logic_8268(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'last_interaction', 'direct')
+
+def logic_8269(agents, world):
+    _agent_apply(world, agents, 'ice', 'last_interaction', 'direct')
