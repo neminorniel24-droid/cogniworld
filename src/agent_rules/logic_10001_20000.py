@@ -1232,3 +1232,6 @@ def logic_18389(agents, world):
 
 def logic_18390(agents, world):
     _agent_apply(world, agents, 'strategy_score', 'social_tolerance', 'pulse')
+
+def logic_18391(agents, world):
+    _agent_apply(world, agents, 'cooperation_score', 'social_tolerance', 'pulse')
