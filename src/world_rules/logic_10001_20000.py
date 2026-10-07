@@ -20369,3 +20369,6 @@ def logic_16768(world):
 
 def logic_16769(world):
     _world_apply(world, 'photosynthesis_factor', 'algae', 'gap')
+
+def logic_16770(world):
+    _world_apply(world, 'photosynthesis_factor', 'organic_matter', 'direct')
