@@ -4205,3 +4205,6 @@ def logic_5468(agents, world):
 
 def logic_5469(agents, world):
     _agent_apply(world, agents, 'wind_x', 'reputation', 'direct')
+
+def logic_5470(agents, world):
+    _agent_apply(world, agents, 'wind_y', 'reputation', 'direct')
