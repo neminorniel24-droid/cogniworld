@@ -2609,3 +2609,6 @@ def logic_10848(world):
 
 def logic_10849(world):
     _world_apply(world, 'ice', 'predator', 'gap')
+
+def logic_10850(world):
+    _world_apply(world, 'ice', 'carrion', 'direct')
