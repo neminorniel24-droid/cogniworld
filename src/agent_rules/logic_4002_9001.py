@@ -2861,3 +2861,6 @@ def logic_5020(agents, world):
 
 def logic_5021(agents, world):
     _agent_apply(world, agents, 'sediment', 'migration_drive', 'direct')
+
+def logic_5022(agents, world):
+    _agent_apply(world, agents, 'salinity', 'migration_drive', 'direct')
