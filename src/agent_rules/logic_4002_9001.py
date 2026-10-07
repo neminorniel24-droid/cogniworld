@@ -12317,3 +12317,6 @@ def logic_8172(agents, world):
 
 def logic_8173(agents, world):
     _agent_apply(world, agents, 'trust', 'last_energy_delta', 'direct')
+
+def logic_8174(agents, world):
+    _agent_apply(world, agents, 'reputation', 'last_energy_delta', 'direct')
