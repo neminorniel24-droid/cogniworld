@@ -5153,3 +5153,6 @@ def logic_19696(agents, world):
 
 def logic_19697(agents, world):
     _agent_apply(world, agents, 'pollinators', 'future_payoff_weight', 'feedback')
+
+def logic_19698(agents, world):
+    _agent_apply(world, agents, 'flowers', 'future_payoff_weight', 'feedback')
