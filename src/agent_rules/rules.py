@@ -55777,3 +55777,10 @@ def logic_38346(agents, world):
     src = _local(world, agents, 'ice')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.risk_tolerance = _delta(agents.risk_tolerance, delta)
+
+
+def logic_38347(agents, world):
+    """Environmental evaporation shapes agent risk_score (inverse)."""
+    src = _local(world, agents, 'evaporation')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.risk_score = _delta(agents.risk_score, delta)
