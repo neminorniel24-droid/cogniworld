@@ -1922,3 +1922,6 @@ def logic_10619(world):
 
 def logic_10620(world):
     _world_apply(world, 'nutrients', 'cloud', 'square')
+
+def logic_10621(world):
+    _world_apply(world, 'nutrients', 'rain', 'pulse')
