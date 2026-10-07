@@ -20342,3 +20342,6 @@ def logic_16759(world):
 
 def logic_16760(world):
     _world_apply(world, 'photosynthesis_factor', 'root_density', 'saturation')
+
+def logic_16761(world):
+    _world_apply(world, 'photosynthesis_factor', 'wetland', 'direct')
