@@ -12776,3 +12776,6 @@ def logic_8325(agents, world):
 
 def logic_8326(agents, world):
     _agent_apply(world, agents, 'wind_y', 'risk_tolerance', 'direct')
+
+def logic_8327(agents, world):
+    _agent_apply(world, agents, 'vegetation', 'risk_tolerance', 'direct')
