@@ -1964,3 +1964,6 @@ def logic_4721(agents, world):
 
 def logic_4722(agents, world):
     _agent_apply(world, agents, 'wind_y', 'fear', 'direct')
+
+def logic_4723(agents, world):
+    _agent_apply(world, agents, 'vegetation', 'fear', 'direct')
