@@ -1052,3 +1052,6 @@ def logic_4417(agents, world):
 
 def logic_4418(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'thermal_stress', 'direct')
+
+def logic_4419(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'thermal_stress', 'direct')
