@@ -1079,3 +1079,6 @@ def logic_18338(agents, world):
 
 def logic_18339(agents, world):
     _agent_apply(world, agents, 'migration_drive', 'stability', 'sqrt')
+
+def logic_18340(agents, world):
+    _agent_apply(world, agents, 'exploration_drive', 'stability', 'sqrt')
