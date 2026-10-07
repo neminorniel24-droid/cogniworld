@@ -8505,3 +8505,4 @@
 - 28504: integrated cross-system causal rule
 - 28505: integrated cross-system causal rule
 - 28506: integrated cross-system causal rule
+- 28507: integrated cross-system causal rule
