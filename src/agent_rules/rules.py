@@ -25432,3 +25432,10 @@ def logic_34011(agents, world):
     src = _local(world, agents, 'wind_y')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.competition_score = _delta(agents.competition_score, delta)
+
+
+def logic_34012(agents, world):
+    """Environmental vegetation shapes agent survival_score (square)."""
+    src = _local(world, agents, 'vegetation')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.survival_score = _delta(agents.survival_score, delta)
