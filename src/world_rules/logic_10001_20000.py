@@ -11348,3 +11348,6 @@ def logic_13761(world):
 
 def logic_13762(world):
     _world_apply(world, 'pollinators', 'detritus', 'square')
+
+def logic_13763(world):
+    _world_apply(world, 'pollinators', 'methane', 'pulse')
