@@ -21434,3 +21434,6 @@ def logic_17123(world):
 
 def logic_17124(world):
     _world_apply(world, 'erosion', 'pollinators', 'saturation')
+
+def logic_17125(world):
+    _world_apply(world, 'erosion', 'flowers', 'gap')
