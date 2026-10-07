@@ -4676,3 +4676,6 @@ def logic_11537(world):
 
 def logic_11538(world):
     _world_apply(world, 'groundwater', 'seed_bank', 'gap')
+
+def logic_11539(world):
+    _world_apply(world, 'groundwater', 'soil_carbon', 'direct')
