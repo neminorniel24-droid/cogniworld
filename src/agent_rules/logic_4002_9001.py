@@ -4214,3 +4214,6 @@ def logic_5471(agents, world):
 
 def logic_5472(agents, world):
     _agent_apply(world, agents, 'biomass', 'reputation', 'direct')
+
+def logic_5473(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'reputation', 'direct')
