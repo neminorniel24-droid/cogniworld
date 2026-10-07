@@ -8861,3 +8861,6 @@ def logic_7020(agents, world):
 
 def logic_7021(agents, world):
     _agent_apply(world, agents, 'local_density', 'defection_threshold', 'direct')
+
+def logic_7022(agents, world):
+    _agent_apply(world, agents, 'strategy_score', 'defection_threshold', 'direct')
