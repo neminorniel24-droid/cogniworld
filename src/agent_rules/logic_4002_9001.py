@@ -1028,3 +1028,6 @@ def logic_4409(agents, world):
 
 def logic_4410(agents, world):
     _agent_apply(world, agents, 'salinity', 'thermal_stress', 'direct')
+
+def logic_4411(agents, world):
+    _agent_apply(world, agents, 'algae', 'thermal_stress', 'direct')
