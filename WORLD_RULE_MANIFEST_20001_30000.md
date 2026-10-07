@@ -324,3 +324,4 @@
 - 20323: integrated cross-system causal rule
 - 20324: integrated cross-system causal rule
 - 20325: integrated cross-system causal rule
+- 20326: integrated cross-system causal rule
