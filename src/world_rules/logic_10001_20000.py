@@ -19841,3 +19841,6 @@ def logic_16592(world):
 
 def logic_16593(world):
     _world_apply(world, 'nutrients', 'algae', 'square')
+
+def logic_16594(world):
+    _world_apply(world, 'nutrients', 'organic_matter', 'pulse')
