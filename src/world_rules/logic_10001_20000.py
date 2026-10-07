@@ -4052,3 +4052,6 @@ def logic_11329(world):
 
 def logic_11330(world):
     _world_apply(world, 'carbon_storage', 'vegetation', 'direct')
+
+def logic_11331(world):
+    _world_apply(world, 'carbon_storage', 'biomass', 'square')
