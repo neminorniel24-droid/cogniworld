@@ -6614,3 +6614,6 @@ def logic_12183(world):
 
 def logic_12184(world):
     _world_apply(world, 'rain', 'root_density', 'direct')
+
+def logic_12185(world):
+    _world_apply(world, 'rain', 'wetland', 'pulse')
