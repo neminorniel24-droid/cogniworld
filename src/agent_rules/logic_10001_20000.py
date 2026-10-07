@@ -2570,3 +2570,6 @@ def logic_18835(agents, world):
 
 def logic_18836(agents, world):
     _agent_apply(world, agents, 'wind_x', 'defection_threshold', 'feedback')
+
+def logic_18837(agents, world):
+    _agent_apply(world, agents, 'wind_y', 'defection_threshold', 'feedback')
