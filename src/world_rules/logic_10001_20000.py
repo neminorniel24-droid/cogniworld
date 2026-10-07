@@ -977,3 +977,6 @@ def logic_10304(world):
 
 def logic_10305(world):
     _world_apply(world, 'runoff', 'flowers', 'pulse')
+
+def logic_10306(world):
+    _world_apply(world, 'runoff', 'seed_bank', 'saturation')
