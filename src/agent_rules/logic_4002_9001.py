@@ -10358,3 +10358,6 @@ def logic_7519(agents, world):
 
 def logic_7520(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'neighbor_energy_gap', 'direct')
+
+def logic_7521(agents, world):
+    _agent_apply(world, agents, 'ice', 'neighbor_energy_gap', 'direct')
