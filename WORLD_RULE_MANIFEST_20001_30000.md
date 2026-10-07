@@ -8650,3 +8650,4 @@
 - 28649: integrated cross-system causal rule
 - 28650: integrated cross-system causal rule
 - 28651: integrated cross-system causal rule
+- 28652: integrated cross-system causal rule
