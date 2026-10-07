@@ -11558,3 +11558,6 @@ def logic_13831(world):
 
 def logic_13832(world):
     _world_apply(world, 'seed_bank', 'cloud', 'gap')
+
+def logic_13833(world):
+    _world_apply(world, 'seed_bank', 'rain', 'square')
