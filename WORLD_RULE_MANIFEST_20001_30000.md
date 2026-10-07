@@ -3704,3 +3704,4 @@
 - 23703: integrated cross-system causal rule
 - 23704: integrated cross-system causal rule
 - 23705: integrated cross-system causal rule
+- 23706: integrated cross-system causal rule
