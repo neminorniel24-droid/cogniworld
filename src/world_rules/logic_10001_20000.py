@@ -12440,3 +12440,6 @@ def logic_14125(world):
 
 def logic_14126(world):
     _world_apply(world, 'cloud', 'groundwater', 'direct')
+
+def logic_14127(world):
+    _world_apply(world, 'cloud', 'sediment', 'square')
