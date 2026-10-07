@@ -11117,3 +11117,6 @@ def logic_13684(world):
 
 def logic_13685(world):
     _world_apply(world, 'organic_matter', 'ash', 'gap')
+
+def logic_13686(world):
+    _world_apply(world, 'organic_matter', 'snowpack', 'direct')
