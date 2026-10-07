@@ -19244,3 +19244,6 @@ def logic_16393(world):
 
 def logic_16394(world):
     _world_apply(world, 'biomass', 'nutrients', 'pulse')
+
+def logic_16395(world):
+    _world_apply(world, 'biomass', 'decomposition_rate', 'saturation')
