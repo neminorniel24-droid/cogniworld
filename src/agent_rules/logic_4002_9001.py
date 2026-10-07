@@ -5753,3 +5753,6 @@ def logic_5984(agents, world):
 
 def logic_5985(agents, world):
     _agent_apply(world, agents, 'energy_surplus', 'territoriality', 'direct')
+
+def logic_5986(agents, world):
+    _agent_apply(world, agents, 'ticks_since_food', 'territoriality', 'direct')
