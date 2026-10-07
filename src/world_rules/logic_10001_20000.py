@@ -10532,3 +10532,6 @@ def logic_13489(world):
 
 def logic_13490(world):
     _world_apply(world, 'groundwater', 'carrion', 'direct')
+
+def logic_13491(world):
+    _world_apply(world, 'groundwater', 'nutrients', 'square')
