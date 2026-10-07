@@ -10271,3 +10271,6 @@ def logic_13402(world):
 
 def logic_13403(world):
     _world_apply(world, 'ash', 'nutrients', 'pulse')
+
+def logic_13404(world):
+    _world_apply(world, 'ash', 'decomposition_rate', 'saturation')
