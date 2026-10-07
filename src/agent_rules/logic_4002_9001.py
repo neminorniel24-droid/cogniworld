@@ -2384,3 +2384,6 @@ def logic_4861(agents, world):
 
 def logic_4862(agents, world):
     _agent_apply(world, agents, 'predator', 'metabolic_cost', 'direct')
+
+def logic_4863(agents, world):
+    _agent_apply(world, agents, 'carrion', 'metabolic_cost', 'direct')
