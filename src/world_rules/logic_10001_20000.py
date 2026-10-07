@@ -11648,3 +11648,6 @@ def logic_13861(world):
 
 def logic_13862(world):
     _world_apply(world, 'seed_bank', 'snowpack', 'saturation')
+
+def logic_13863(world):
+    _world_apply(world, 'seed_bank', 'groundwater', 'gap')
