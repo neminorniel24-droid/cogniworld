@@ -110,3 +110,6 @@ def logic_4003(world):
 
 def logic_4004(world):
     _world_apply(world, 'surface_water', 'soil_moisture', 'square')
+
+def logic_4005(world):
+    _world_apply(world, 'soil_moisture', 'vegetation', 'sqrt')
