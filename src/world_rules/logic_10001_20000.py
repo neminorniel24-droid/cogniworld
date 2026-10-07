@@ -12842,3 +12842,6 @@ def logic_14259(world):
 
 def logic_14260(world):
     _world_apply(world, 'runoff', 'salinity', 'square')
+
+def logic_14261(world):
+    _world_apply(world, 'runoff', 'algae', 'pulse')
