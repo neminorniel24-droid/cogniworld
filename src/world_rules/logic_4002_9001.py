@@ -146,3 +146,6 @@ def logic_4015(world):
 
 def logic_4016(world):
     _world_apply(world, 'humidity', 'evaporation', 'saturation')
+
+def logic_4017(world):
+    _world_apply(world, 'wind_x', 'evaporation', 'reciprocal')
