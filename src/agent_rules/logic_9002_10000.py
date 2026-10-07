@@ -1122,3 +1122,6 @@ def logic_9548(agents, world):
 
 def logic_9549(agents, world):
     _agent_apply(world, agents, 'wind_y', 'dehydration', 'direct')
+
+def logic_9550(agents, world):
+    _agent_apply(world, agents, 'vegetation', 'dehydration', 'direct')
