@@ -8249,3 +8249,6 @@ def logic_12728(world):
 
 def logic_12729(world):
     _world_apply(world, 'co2', 'temperature', 'gap')
+
+def logic_12730(world):
+    _world_apply(world, 'co2', 'surface_water', 'direct')
