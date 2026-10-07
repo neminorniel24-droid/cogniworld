@@ -4325,3 +4325,6 @@ def logic_19420(agents, world):
 
 def logic_19421(agents, world):
     _agent_apply(world, agents, 'pollinators', 'foraging_score', 'threshold')
+
+def logic_19422(agents, world):
+    _agent_apply(world, agents, 'flowers', 'foraging_score', 'threshold')
