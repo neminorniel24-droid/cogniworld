@@ -11771,3 +11771,6 @@ def logic_7990(agents, world):
 
 def logic_7991(agents, world):
     _agent_apply(world, agents, 'carrion', 'local_density', 'direct')
+
+def logic_7992(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'local_density', 'direct')
