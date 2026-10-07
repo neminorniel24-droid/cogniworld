@@ -597,3 +597,6 @@ def logic_9174(world):
 
 def logic_9175(world):
     _world_apply(world, 'humidity', 'sediment', 'threshold')
+
+def logic_9176(world):
+    _world_apply(world, 'humidity', 'salinity', 'saturation')
