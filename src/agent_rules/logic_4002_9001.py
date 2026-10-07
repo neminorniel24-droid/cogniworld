@@ -8873,3 +8873,6 @@ def logic_7024(agents, world):
 
 def logic_7025(agents, world):
     _agent_apply(world, agents, 'payoff', 'defection_threshold', 'direct')
+
+def logic_7026(agents, world):
+    _agent_apply(world, agents, 'temperature', 'oxygen_need', 'direct')
