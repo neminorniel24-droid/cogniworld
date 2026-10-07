@@ -5294,3 +5294,6 @@ def logic_11743(world):
 
 def logic_11744(world):
     _world_apply(world, 'deadwood', 'soil_depth', 'direct')
+
+def logic_11745(world):
+    _world_apply(world, 'deadwood', 'root_density', 'pulse')
