@@ -2894,3 +2894,6 @@ def logic_10943(world):
 
 def logic_10944(world):
     _world_apply(world, 'detritus', 'ice', 'direct')
+
+def logic_10945(world):
+    _world_apply(world, 'detritus', 'evaporation', 'pulse')
