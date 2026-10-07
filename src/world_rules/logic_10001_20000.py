@@ -7778,3 +7778,6 @@ def logic_12571(world):
 
 def logic_12572(world):
     _world_apply(world, 'carrion', 'evaporation', 'pulse')
+
+def logic_12573(world):
+    _world_apply(world, 'carrion', 'detritus', 'saturation')
