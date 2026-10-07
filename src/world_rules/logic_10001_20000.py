@@ -908,3 +908,6 @@ def logic_10281(world):
 
 def logic_10282(world):
     _world_apply(world, 'runoff', 'photosynthesis_factor', 'square')
+
+def logic_10283(world):
+    _world_apply(world, 'runoff', 'ice', 'pulse')
