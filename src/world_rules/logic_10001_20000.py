@@ -13604,3 +13604,6 @@ def logic_14513(world):
 
 def logic_14514(world):
     _world_apply(world, 'predator', 'erosion', 'pulse')
+
+def logic_14515(world):
+    _world_apply(world, 'predator', 'soil_depth', 'saturation')
