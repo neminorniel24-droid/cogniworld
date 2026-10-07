@@ -3675,3 +3675,4 @@
 - 23674: integrated cross-system causal rule
 - 23675: integrated cross-system causal rule
 - 23676: integrated cross-system causal rule
+- 23677: integrated cross-system causal rule
