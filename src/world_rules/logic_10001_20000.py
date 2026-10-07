@@ -4019,3 +4019,6 @@ def logic_11318(world):
 
 def logic_11319(world):
     _world_apply(world, 'wetland', 'soil_carbon', 'pulse')
+
+def logic_11320(world):
+    _world_apply(world, 'wetland', 'surface_ice', 'saturation')
