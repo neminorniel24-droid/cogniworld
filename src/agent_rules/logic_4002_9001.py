@@ -8327,3 +8327,6 @@ def logic_6842(agents, world):
 
 def logic_6843(agents, world):
     _agent_apply(world, agents, 'detritus', 'empathy', 'direct')
+
+def logic_6844(agents, world):
+    _agent_apply(world, agents, 'methane', 'empathy', 'direct')
