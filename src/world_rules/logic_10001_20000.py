@@ -21692,3 +21692,6 @@ def logic_17209(world):
 
 def logic_17210(world):
     _world_apply(world, 'root_density', 'organic_matter', 'direct')
+
+def logic_17211(world):
+    _world_apply(world, 'root_density', 'deadwood', 'square')
