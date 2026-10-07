@@ -5510,3 +5510,4 @@
 - 25509: integrated cross-system causal rule
 - 25510: integrated cross-system causal rule
 - 25511: integrated cross-system causal rule
+- 25512: integrated cross-system causal rule
