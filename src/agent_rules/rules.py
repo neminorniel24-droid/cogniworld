@@ -30871,3 +30871,10 @@ def logic_34788(agents, world):
     src = _local(world, agents, 'cloud')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.attack_success = _delta(agents.attack_success, delta)
+
+
+def logic_34789(agents, world):
+    """Environmental rain shapes agent strategy_mixing (root)."""
+    src = _local(world, agents, 'rain')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.strategy_mixing = _delta(agents.strategy_mixing, delta)
