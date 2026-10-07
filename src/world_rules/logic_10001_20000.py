@@ -8774,3 +8774,6 @@ def logic_12903(world):
 
 def logic_12904(world):
     _world_apply(world, 'evaporation', 'surface_ice', 'direct')
+
+def logic_12905(world):
+    _world_apply(world, 'detritus', 'temperature', 'pulse')
