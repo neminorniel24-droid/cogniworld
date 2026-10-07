@@ -8654,3 +8654,6 @@ def logic_6951(agents, world):
 
 def logic_6952(agents, world):
     _agent_apply(world, agents, 'help_given', 'attack_threshold', 'direct')
+
+def logic_6953(agents, world):
+    _agent_apply(world, agents, 'local_density', 'attack_threshold', 'direct')
