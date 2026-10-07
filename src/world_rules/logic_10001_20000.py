@@ -3896,3 +3896,6 @@ def logic_11277(world):
 
 def logic_11278(world):
     _world_apply(world, 'wetland', 'surface_water', 'square')
+
+def logic_11279(world):
+    _world_apply(world, 'wetland', 'humidity', 'pulse')
