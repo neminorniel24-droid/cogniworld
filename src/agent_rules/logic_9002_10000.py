@@ -2382,3 +2382,6 @@ def logic_9968(agents, world):
 
 def logic_9969(agents, world):
     _agent_apply(world, agents, 'evaporation', 'metabolic_cost', 'direct')
+
+def logic_9970(agents, world):
+    _agent_apply(world, agents, 'detritus', 'metabolic_cost', 'direct')
