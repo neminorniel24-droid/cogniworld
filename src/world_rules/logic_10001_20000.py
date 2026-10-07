@@ -2915,3 +2915,6 @@ def logic_10950(world):
 
 def logic_10951(world):
     _world_apply(world, 'detritus', 'soil_depth', 'saturation')
+
+def logic_10952(world):
+    _world_apply(world, 'detritus', 'root_density', 'gap')
