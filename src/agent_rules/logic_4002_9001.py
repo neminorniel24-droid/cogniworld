@@ -10511,3 +10511,6 @@ def logic_7570(agents, world):
 
 def logic_7571(agents, world):
     _agent_apply(world, agents, 'surface_water', 'neighbor_health_gap', 'direct')
+
+def logic_7572(agents, world):
+    _agent_apply(world, agents, 'humidity', 'neighbor_health_gap', 'direct')
