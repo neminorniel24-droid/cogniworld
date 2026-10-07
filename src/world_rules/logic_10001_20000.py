@@ -2177,3 +2177,6 @@ def logic_10704(world):
 
 def logic_10705(world):
     _world_apply(world, 'oxygen', 'temperature', 'pulse')
+
+def logic_10706(world):
+    _world_apply(world, 'oxygen', 'surface_water', 'saturation')
