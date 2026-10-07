@@ -58598,3 +58598,10 @@ def logic_38749(agents, world):
     src = _local(world, agents, 'wind_y')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.caution = _delta(agents.caution, delta)
+
+
+def logic_38750(agents, world):
+    """Environmental vegetation shapes agent defection_threshold (direct)."""
+    src = _local(world, agents, 'vegetation')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.defection_threshold = _delta(agents.defection_threshold, delta)
