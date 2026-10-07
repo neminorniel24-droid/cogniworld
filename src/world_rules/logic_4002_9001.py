@@ -218,3 +218,6 @@ def logic_4039(world):
 
 def logic_4040(world):
     _world_apply(world, 'co2', 'photosynthesis_factor', 'saturation')
+
+def logic_4041(world):
+    _world_apply(world, 'photosynthesis_factor', 'vegetation', 'reciprocal')
