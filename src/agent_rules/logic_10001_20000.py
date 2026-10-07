@@ -5993,3 +5993,6 @@ def logic_19976(agents, world):
 
 def logic_19977(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'metabolic_cost', 'square')
+
+def logic_19978(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'metabolic_cost', 'square')
