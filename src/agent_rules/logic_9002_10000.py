@@ -804,3 +804,6 @@ def logic_9442(agents, world):
 
 def logic_9443(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'health', 'direct')
+
+def logic_9444(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'health', 'direct')
