@@ -19400,3 +19400,6 @@ def logic_16445(world):
 
 def logic_16446(world):
     _world_apply(world, 'herbivore', 'methane', 'direct')
+
+def logic_16447(world):
+    _world_apply(world, 'herbivore', 'pathogen_load', 'square')
