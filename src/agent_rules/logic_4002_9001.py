@@ -10118,3 +10118,6 @@ def logic_7439(agents, world):
 
 def logic_7440(agents, world):
     _agent_apply(world, agents, 'runoff', 'social_need', 'direct')
+
+def logic_7441(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'social_need', 'direct')
