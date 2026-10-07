@@ -4094,3 +4094,6 @@ def logic_5431(agents, world):
 
 def logic_5432(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'social_tolerance', 'direct')
+
+def logic_5433(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'social_tolerance', 'direct')
