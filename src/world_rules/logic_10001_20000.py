@@ -11012,3 +11012,6 @@ def logic_13649(world):
 
 def logic_13650(world):
     _world_apply(world, 'algae', 'seed_bank', 'direct')
+
+def logic_13651(world):
+    _world_apply(world, 'algae', 'soil_carbon', 'square')
