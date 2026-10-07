@@ -441,3 +441,6 @@ def logic_9122(world):
 
 def logic_9123(world):
     _world_apply(world, 'surface_water', 'habitat_stress', 'inverse')
+
+def logic_9124(world):
+    _world_apply(world, 'surface_water', 'erosion', 'square')
