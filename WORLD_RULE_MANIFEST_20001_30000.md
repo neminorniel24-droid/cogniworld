@@ -8016,3 +8016,4 @@
 - 28015: integrated cross-system causal rule
 - 28016: integrated cross-system causal rule
 - 28017: integrated cross-system causal rule
+- 28018: integrated cross-system causal rule
