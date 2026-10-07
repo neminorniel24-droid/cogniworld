@@ -2219,3 +2219,6 @@ def logic_10718(world):
 
 def logic_10719(world):
     _world_apply(world, 'oxygen', 'nutrients', 'pulse')
+
+def logic_10720(world):
+    _world_apply(world, 'oxygen', 'decomposition_rate', 'saturation')
