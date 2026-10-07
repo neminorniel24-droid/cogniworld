@@ -3431,3 +3431,6 @@ def logic_19122(agents, world):
 
 def logic_19123(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'help_given', 'square')
+
+def logic_19124(agents, world):
+    _agent_apply(world, agents, 'ice', 'help_given', 'square')
