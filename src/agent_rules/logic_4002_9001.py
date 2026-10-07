@@ -12872,3 +12872,6 @@ def logic_8357(agents, world):
 
 def logic_8358(agents, world):
     _agent_apply(world, agents, 'pollinators', 'risk_tolerance', 'direct')
+
+def logic_8359(agents, world):
+    _agent_apply(world, agents, 'flowers', 'risk_tolerance', 'direct')
