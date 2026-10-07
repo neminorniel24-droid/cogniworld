@@ -1460,3 +1460,6 @@ def logic_10465(world):
 
 def logic_10466(world):
     _world_apply(world, 'biomass', 'erosion', 'saturation')
+
+def logic_10467(world):
+    _world_apply(world, 'biomass', 'soil_depth', 'gap')
