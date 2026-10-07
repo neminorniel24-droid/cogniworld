@@ -14552,3 +14552,6 @@ def logic_8917(agents, world):
 
 def logic_8918(agents, world):
     _agent_apply(world, agents, 'social_need', 'safety_score', 'direct')
+
+def logic_8919(agents, world):
+    _agent_apply(world, agents, 'cooperation', 'safety_score', 'direct')
