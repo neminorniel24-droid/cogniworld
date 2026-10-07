@@ -1820,3 +1820,6 @@ def logic_18585(agents, world):
 
 def logic_18586(agents, world):
     _agent_apply(world, agents, 'snowpack', 'sharing_capacity', 'saturation')
+
+def logic_18587(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'sharing_capacity', 'saturation')
