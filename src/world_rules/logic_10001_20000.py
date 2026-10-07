@@ -13160,3 +13160,6 @@ def logic_14365(world):
 
 def logic_14366(world):
     _world_apply(world, 'vegetation', 'biomass', 'direct')
+
+def logic_14367(world):
+    _world_apply(world, 'vegetation', 'herbivore', 'square')
