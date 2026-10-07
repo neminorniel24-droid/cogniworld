@@ -2270,3 +2270,6 @@ def logic_4823(agents, world):
 
 def logic_4824(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'recovery', 'direct')
+
+def logic_4825(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'recovery', 'direct')
