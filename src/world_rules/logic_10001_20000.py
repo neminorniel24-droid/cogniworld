@@ -16187,3 +16187,6 @@ def logic_15374(world):
 
 def logic_15375(world):
     _world_apply(world, 'ash', 'runoff', 'direct')
+
+def logic_15376(world):
+    _world_apply(world, 'ash', 'wind_x', 'square')
