@@ -23789,3 +23789,6 @@ def logic_17908(world):
 
 def logic_17909(world):
     _world_apply(world, 'surface_ice', 'ash', 'square')
+
+def logic_17910(world):
+    _world_apply(world, 'surface_ice', 'snowpack', 'pulse')
