@@ -13487,3 +13487,6 @@ def logic_14474(world):
 
 def logic_14475(world):
     _world_apply(world, 'herbivore', 'fire_risk', 'saturation')
+
+def logic_14476(world):
+    _world_apply(world, 'herbivore', 'ash', 'gap')
