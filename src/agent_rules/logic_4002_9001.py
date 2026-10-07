@@ -13625,3 +13625,6 @@ def logic_8608(agents, world):
 
 def logic_8609(agents, world):
     _agent_apply(world, agents, 'ice', 'competition_score', 'direct')
+
+def logic_8610(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'competition_score', 'direct')
