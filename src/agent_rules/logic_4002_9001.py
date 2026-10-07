@@ -6416,3 +6416,6 @@ def logic_6205(agents, world):
 
 def logic_6206(agents, world):
     _agent_apply(world, agents, 'strategy_score', 'help_drive', 'direct')
+
+def logic_6207(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'help_drive', 'direct')
