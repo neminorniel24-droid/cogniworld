@@ -11930,3 +11930,6 @@ def logic_8043(agents, world):
 
 def logic_8044(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'local_density', 'direct')
+
+def logic_8045(agents, world):
+    _agent_apply(world, agents, 'payoff', 'local_density', 'direct')
