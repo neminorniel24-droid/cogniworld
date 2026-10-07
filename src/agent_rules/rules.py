@@ -44682,3 +44682,10 @@ def logic_36761(agents, world):
     src = _local(world, agents, 'surface_ice')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.health = _delta(agents.health, delta)
+
+
+def logic_36762(agents, world):
+    """Environmental temperature shapes agent recovery (direct)."""
+    src = _local(world, agents, 'temperature')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.recovery = _delta(agents.recovery, delta)
