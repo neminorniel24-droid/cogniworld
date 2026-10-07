@@ -6893,3 +6893,6 @@ def logic_6364(agents, world):
 
 def logic_6365(agents, world):
     _agent_apply(world, agents, 'ice', 'generosity', 'direct')
+
+def logic_6366(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'generosity', 'direct')
