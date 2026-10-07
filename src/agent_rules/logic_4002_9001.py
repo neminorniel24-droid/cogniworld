@@ -5321,3 +5321,6 @@ def logic_5840(agents, world):
 
 def logic_5841(agents, world):
     _agent_apply(world, agents, 'deadwood', 'conflict_pressure', 'direct')
+
+def logic_5842(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'conflict_pressure', 'direct')
