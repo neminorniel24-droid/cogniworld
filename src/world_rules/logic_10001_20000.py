@@ -1712,3 +1712,6 @@ def logic_10549(world):
 
 def logic_10550(world):
     _world_apply(world, 'predator', 'methane', 'pulse')
+
+def logic_10551(world):
+    _world_apply(world, 'predator', 'pathogen_load', 'saturation')
