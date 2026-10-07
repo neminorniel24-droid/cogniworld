@@ -12461,3 +12461,6 @@ def logic_14132(world):
 
 def logic_14133(world):
     _world_apply(world, 'cloud', 'flowers', 'saturation')
+
+def logic_14134(world):
+    _world_apply(world, 'cloud', 'seed_bank', 'gap')
