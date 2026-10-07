@@ -6400,3 +6400,4 @@
 - 26399: integrated cross-system causal rule
 - 26400: integrated cross-system causal rule
 - 26401: integrated cross-system causal rule
+- 26402: integrated cross-system causal rule
