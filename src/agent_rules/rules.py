@@ -31718,3 +31718,10 @@ def logic_34909(agents, world):
     src = _local(world, agents, 'ash')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.generosity = _delta(agents.generosity, delta)
+
+
+def logic_34910(agents, world):
+    """Environmental snowpack shapes agent empathy (direct)."""
+    src = _local(world, agents, 'snowpack')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.empathy = _delta(agents.empathy, delta)
