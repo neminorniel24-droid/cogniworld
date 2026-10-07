@@ -21206,3 +21206,6 @@ def logic_17047(world):
 
 def logic_17048(world):
     _world_apply(world, 'habitat_stress', 'wind_x', 'pulse')
+
+def logic_17049(world):
+    _world_apply(world, 'habitat_stress', 'wind_y', 'gap')
