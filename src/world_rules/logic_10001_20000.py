@@ -17393,3 +17393,6 @@ def logic_15776(world):
 
 def logic_15777(world):
     _world_apply(world, 'flowers', 'predator', 'saturation')
+
+def logic_15778(world):
+    _world_apply(world, 'flowers', 'carrion', 'gap')
