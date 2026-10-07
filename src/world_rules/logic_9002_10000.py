@@ -459,3 +459,6 @@ def logic_9128(world):
 
 def logic_9129(world):
     _world_apply(world, 'surface_water', 'ash', 'reciprocal')
+
+def logic_9130(world):
+    _world_apply(world, 'surface_water', 'snowpack', 'direct')
