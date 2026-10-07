@@ -5230,3 +5230,4 @@
 - 25229: integrated cross-system causal rule
 - 25230: integrated cross-system causal rule
 - 25231: integrated cross-system causal rule
+- 25232: integrated cross-system causal rule
