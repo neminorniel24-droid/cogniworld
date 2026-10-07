@@ -5846,3 +5846,6 @@ def logic_6015(agents, world):
 
 def logic_6016(agents, world):
     _agent_apply(world, agents, 'biomass', 'group_stability', 'direct')
+
+def logic_6017(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'group_stability', 'direct')
