@@ -49253,3 +49253,10 @@ def logic_37414(agents, world):
     src = _local(world, agents, 'wind_x')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.caution = _delta(agents.caution, delta)
+
+
+def logic_37415(agents, world):
+    """Environmental wind_y shapes agent defection_threshold (inverse)."""
+    src = _local(world, agents, 'wind_y')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defection_threshold = _delta(agents.defection_threshold, delta)
