@@ -2675,3 +2675,6 @@ def logic_4958(agents, world):
 
 def logic_4959(agents, world):
     _agent_apply(world, agents, 'flowers', 'reproduction_drive', 'direct')
+
+def logic_4960(agents, world):
+    _agent_apply(world, agents, 'seed_bank', 'reproduction_drive', 'direct')
