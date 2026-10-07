@@ -603,3 +603,6 @@ def logic_9176(world):
 
 def logic_9177(world):
     _world_apply(world, 'humidity', 'algae', 'reciprocal')
+
+def logic_9178(world):
+    _world_apply(world, 'humidity', 'organic_matter', 'direct')
