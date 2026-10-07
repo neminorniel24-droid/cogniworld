@@ -3335,3 +3335,6 @@ def logic_11090(world):
 
 def logic_11091(world):
     _world_apply(world, 'biodiversity', 'sediment', 'square')
+
+def logic_11092(world):
+    _world_apply(world, 'biodiversity', 'salinity', 'pulse')
