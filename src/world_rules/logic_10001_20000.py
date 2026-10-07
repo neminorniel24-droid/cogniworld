@@ -12905,3 +12905,6 @@ def logic_14280(world):
 
 def logic_14281(world):
     _world_apply(world, 'wind_x', 'carrion', 'direct')
+
+def logic_14282(world):
+    _world_apply(world, 'wind_x', 'nutrients', 'square')
