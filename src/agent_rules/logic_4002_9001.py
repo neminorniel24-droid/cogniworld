@@ -12704,3 +12704,6 @@ def logic_8301(agents, world):
 
 def logic_8302(agents, world):
     _agent_apply(world, agents, 'health', 'last_interaction', 'direct')
+
+def logic_8303(agents, world):
+    _agent_apply(world, agents, 'stress', 'last_interaction', 'direct')
