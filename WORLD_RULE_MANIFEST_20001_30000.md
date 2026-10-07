@@ -4080,3 +4080,4 @@
 - 24079: integrated cross-system causal rule
 - 24080: integrated cross-system causal rule
 - 24081: integrated cross-system causal rule
+- 24082: integrated cross-system causal rule
