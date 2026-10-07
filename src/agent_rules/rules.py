@@ -41749,3 +41749,10 @@ def logic_36342(agents, world):
     src = _local(world, agents, 'deadwood')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.infection_risk = _delta(agents.infection_risk, delta)
+
+
+def logic_36343(agents, world):
+    """Environmental pollinators shapes agent exploration_drive (inverse)."""
+    src = _local(world, agents, 'pollinators')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.exploration_drive = _delta(agents.exploration_drive, delta)
