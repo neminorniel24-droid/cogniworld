@@ -10178,3 +10178,6 @@ def logic_7459(agents, world):
 
 def logic_7460(agents, world):
     _agent_apply(world, agents, 'erosion', 'social_need', 'direct')
+
+def logic_7461(agents, world):
+    _agent_apply(world, agents, 'soil_depth', 'social_need', 'direct')
