@@ -212,3 +212,6 @@ def logic_4037(world):
 
 def logic_4038(world):
     _world_apply(world, 'erosion', 'soil_carbon', 'pulse')
+
+def logic_4039(world):
+    _world_apply(world, 'carbon_storage', 'co2', 'threshold')
