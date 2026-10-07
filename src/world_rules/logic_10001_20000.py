@@ -5969,3 +5969,6 @@ def logic_11968(world):
 
 def logic_11969(world):
     _world_apply(world, 'surface_ice', 'ash', 'gap')
+
+def logic_11970(world):
+    _world_apply(world, 'surface_ice', 'snowpack', 'direct')
