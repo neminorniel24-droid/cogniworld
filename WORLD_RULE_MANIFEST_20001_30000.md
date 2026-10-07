@@ -8672,3 +8672,4 @@
 - 28671: integrated cross-system causal rule
 - 28672: integrated cross-system causal rule
 - 28673: integrated cross-system causal rule
+- 28674: integrated cross-system causal rule
