@@ -1539,3 +1539,6 @@ def logic_9687(agents, world):
 
 def logic_9688(agents, world):
     _agent_apply(world, agents, 'herbivore', 'infection_risk', 'direct')
+
+def logic_9689(agents, world):
+    _agent_apply(world, agents, 'predator', 'infection_risk', 'direct')
