@@ -1410,3 +1410,6 @@ def logic_9644(agents, world):
 
 def logic_9645(agents, world):
     _agent_apply(world, agents, 'salinity', 'pathogen_risk', 'direct')
+
+def logic_9646(agents, world):
+    _agent_apply(world, agents, 'algae', 'pathogen_risk', 'direct')
