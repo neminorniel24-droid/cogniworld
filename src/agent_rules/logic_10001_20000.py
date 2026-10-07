@@ -977,3 +977,6 @@ def logic_18304(agents, world):
 
 def logic_18305(agents, world):
     _agent_apply(world, agents, 'root_density', 'food_access', 'sqrt')
+
+def logic_18306(agents, world):
+    _agent_apply(world, agents, 'wetland', 'food_access', 'sqrt')
