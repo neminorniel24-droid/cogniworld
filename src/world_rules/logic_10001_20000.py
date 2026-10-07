@@ -12242,3 +12242,6 @@ def logic_14059(world):
 
 def logic_14060(world):
     _world_apply(world, 'humidity', 'predator', 'square')
+
+def logic_14061(world):
+    _world_apply(world, 'humidity', 'carrion', 'pulse')
