@@ -10013,3 +10013,6 @@ def logic_13316(world):
 
 def logic_13317(world):
     _world_apply(world, 'carbon_storage', 'oxygen', 'direct')
+
+def logic_13318(world):
+    _world_apply(world, 'carbon_storage', 'co2', 'square')
