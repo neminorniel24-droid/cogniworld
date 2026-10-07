@@ -4289,3 +4289,6 @@ def logic_19408(agents, world):
 
 def logic_19409(agents, world):
     _agent_apply(world, agents, 'root_density', 'exploration_score', 'threshold')
+
+def logic_19410(agents, world):
+    _agent_apply(world, agents, 'wetland', 'exploration_score', 'threshold')
