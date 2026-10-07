@@ -4046,3 +4046,6 @@ def logic_19327(agents, world):
 
 def logic_19328(agents, world):
     _agent_apply(world, agents, 'confidence', 'defection_score', 'pulse')
+
+def logic_19329(agents, world):
+    _agent_apply(world, agents, 'strategy_confidence', 'defection_score', 'pulse')
