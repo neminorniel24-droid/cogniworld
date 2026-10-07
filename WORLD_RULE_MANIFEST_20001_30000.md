@@ -5668,3 +5668,4 @@
 - 25667: integrated cross-system causal rule
 - 25668: integrated cross-system causal rule
 - 25669: integrated cross-system causal rule
+- 25670: integrated cross-system causal rule
