@@ -20174,3 +20174,6 @@ def logic_16703(world):
 
 def logic_16704(world):
     _world_apply(world, 'co2', 'decomposition_rate', 'direct')
+
+def logic_16705(world):
+    _world_apply(world, 'co2', 'oxygen', 'pulse')
