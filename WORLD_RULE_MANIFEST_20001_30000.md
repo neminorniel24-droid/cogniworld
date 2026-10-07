@@ -930,3 +930,4 @@
 - 20929: integrated cross-system causal rule
 - 20930: integrated cross-system causal rule
 - 20931: integrated cross-system causal rule
+- 20932: integrated cross-system causal rule
