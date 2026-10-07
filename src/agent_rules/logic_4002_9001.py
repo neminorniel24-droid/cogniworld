@@ -6032,3 +6032,6 @@ def logic_6077(agents, world):
 
 def logic_6078(agents, world):
     _agent_apply(world, agents, 'rain', 'sharing_capacity', 'direct')
+
+def logic_6079(agents, world):
+    _agent_apply(world, agents, 'soil_moisture', 'sharing_capacity', 'direct')
