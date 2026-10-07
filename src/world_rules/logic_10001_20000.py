@@ -17705,3 +17705,6 @@ def logic_15880(world):
 
 def logic_15881(world):
     _world_apply(world, 'soil_carbon', 'root_density', 'direct')
+
+def logic_15882(world):
+    _world_apply(world, 'soil_carbon', 'wetland', 'square')
