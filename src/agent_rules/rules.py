@@ -53502,3 +53502,10 @@ def logic_38021(agents, world):
     src = _local(world, agents, 'oxygen')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.reproduction_drive = _delta(agents.reproduction_drive, delta)
+
+
+def logic_38022(agents, world):
+    """Environmental co2 shapes agent social_tolerance (direct)."""
+    src = _local(world, agents, 'co2')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.social_tolerance = _delta(agents.social_tolerance, delta)
