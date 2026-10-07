@@ -8756,3 +8756,6 @@ def logic_6985(agents, world):
 
 def logic_6986(agents, world):
     _agent_apply(world, agents, 'root_density', 'defection_threshold', 'direct')
+
+def logic_6987(agents, world):
+    _agent_apply(world, agents, 'wetland', 'defection_threshold', 'direct')
