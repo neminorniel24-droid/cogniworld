@@ -13985,3 +13985,6 @@ def logic_14640(world):
 
 def logic_14641(world):
     _world_apply(world, 'decomposition_rate', 'detritus', 'direct')
+
+def logic_14642(world):
+    _world_apply(world, 'decomposition_rate', 'methane', 'square')
