@@ -4337,3 +4337,6 @@ def logic_19424(agents, world):
 
 def logic_19425(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'foraging_score', 'saturation')
+
+def logic_19426(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'foraging_score', 'saturation')
