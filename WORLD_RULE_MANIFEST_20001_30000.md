@@ -2934,3 +2934,4 @@
 - 22933: integrated cross-system causal rule
 - 22934: integrated cross-system causal rule
 - 22935: integrated cross-system causal rule
+- 22936: integrated cross-system causal rule
