@@ -2606,3 +2606,6 @@ def logic_4935(agents, world):
 
 def logic_4936(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'reproduction_drive', 'direct')
+
+def logic_4937(agents, world):
+    _agent_apply(world, agents, 'ice', 'reproduction_drive', 'direct')
