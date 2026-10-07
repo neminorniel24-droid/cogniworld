@@ -572,3 +572,6 @@ def logic_18169(agents, world):
 
 def logic_18170(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'alertness', 'inverse')
+
+def logic_18171(agents, world):
+    _agent_apply(world, agents, 'ash', 'alertness', 'inverse')
