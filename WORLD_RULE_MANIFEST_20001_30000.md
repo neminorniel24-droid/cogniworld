@@ -6190,3 +6190,4 @@
 - 26189: integrated cross-system causal rule
 - 26190: integrated cross-system causal rule
 - 26191: integrated cross-system causal rule
+- 26192: integrated cross-system causal rule
