@@ -5252,3 +5252,6 @@ def logic_11729(world):
 
 def logic_11730(world):
     _world_apply(world, 'deadwood', 'carrion', 'direct')
+
+def logic_11731(world):
+    _world_apply(world, 'deadwood', 'nutrients', 'square')
