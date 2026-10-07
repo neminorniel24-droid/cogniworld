@@ -8560,3 +8560,4 @@
 - 28559: integrated cross-system causal rule
 - 28560: integrated cross-system causal rule
 - 28561: integrated cross-system causal rule
+- 28562: integrated cross-system causal rule
