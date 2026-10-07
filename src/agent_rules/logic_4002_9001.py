@@ -13490,3 +13490,6 @@ def logic_8563(agents, world):
 
 def logic_8564(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'cooperation_score', 'direct')
+
+def logic_8565(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'cooperation_score', 'direct')
