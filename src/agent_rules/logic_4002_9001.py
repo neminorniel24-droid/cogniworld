@@ -12821,3 +12821,6 @@ def logic_8340(agents, world):
 
 def logic_8341(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'risk_tolerance', 'direct')
+
+def logic_8342(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'risk_tolerance', 'direct')
