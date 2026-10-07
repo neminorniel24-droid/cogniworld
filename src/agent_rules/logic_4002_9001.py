@@ -8486,3 +8486,6 @@ def logic_6895(agents, world):
 
 def logic_6896(agents, world):
     _agent_apply(world, agents, 'runoff', 'attack_threshold', 'direct')
+
+def logic_6897(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'attack_threshold', 'direct')
