@@ -12692,3 +12692,6 @@ def logic_8297(agents, world):
 
 def logic_8298(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'last_interaction', 'direct')
+
+def logic_8299(agents, world):
+    _agent_apply(world, agents, 'hydration', 'last_interaction', 'direct')
