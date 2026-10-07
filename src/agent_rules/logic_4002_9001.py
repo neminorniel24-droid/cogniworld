@@ -10364,3 +10364,6 @@ def logic_7521(agents, world):
 
 def logic_7522(agents, world):
     _agent_apply(world, agents, 'evaporation', 'neighbor_energy_gap', 'direct')
+
+def logic_7523(agents, world):
+    _agent_apply(world, agents, 'detritus', 'neighbor_energy_gap', 'direct')
