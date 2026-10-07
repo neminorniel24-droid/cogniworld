@@ -12641,3 +12641,6 @@ def logic_8280(agents, world):
 
 def logic_8281(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'last_interaction', 'direct')
+
+def logic_8282(agents, world):
+    _agent_apply(world, agents, 'ash', 'last_interaction', 'direct')
