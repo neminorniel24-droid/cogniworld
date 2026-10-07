@@ -2771,3 +2771,6 @@ def logic_10902(world):
 
 def logic_10903(world):
     _world_apply(world, 'evaporation', 'pathogen_load', 'gap')
+
+def logic_10904(world):
+    _world_apply(world, 'evaporation', 'biodiversity', 'direct')
