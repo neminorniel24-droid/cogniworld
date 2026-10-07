@@ -8618,3 +8618,6 @@ def logic_12851(world):
 
 def logic_12852(world):
     _world_apply(world, 'ice', 'salinity', 'pulse')
+
+def logic_12853(world):
+    _world_apply(world, 'ice', 'algae', 'saturation')
