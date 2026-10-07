@@ -389,3 +389,6 @@ def logic_4096(world):
 
 def logic_4097(world):
     _world_apply(world, 'decomposition_rate', 'detritus', 'reciprocal')
+
+def logic_4098(world):
+    _world_apply(world, 'pathogen_load', 'biodiversity', 'direct')
