@@ -56687,3 +56687,10 @@ def logic_38476(agents, world):
     src = _local(world, agents, 'herbivore')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.strategy_persistence = _delta(agents.strategy_persistence, delta)
+
+
+def logic_38477(agents, world):
+    """Environmental predator shapes agent hydration (root)."""
+    src = _local(world, agents, 'predator')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.hydration = _delta(agents.hydration, delta)
