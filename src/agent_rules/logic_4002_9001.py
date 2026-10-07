@@ -14471,3 +14471,6 @@ def logic_8890(agents, world):
 
 def logic_8891(agents, world):
     _agent_apply(world, agents, 'wetland', 'safety_score', 'direct')
+
+def logic_8892(agents, world):
+    _agent_apply(world, agents, 'carbon_storage', 'safety_score', 'direct')
