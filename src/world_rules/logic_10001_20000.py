@@ -23870,3 +23870,6 @@ def logic_17935(world):
 
 def logic_17936(world):
     _world_apply(world, 'temperature', 'oxygen', 'square')
+
+def logic_17937(world):
+    _world_apply(world, 'temperature', 'co2', 'saturation')
