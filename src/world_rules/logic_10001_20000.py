@@ -6383,3 +6383,6 @@ def logic_12106(world):
 
 def logic_12107(world):
     _world_apply(world, 'humidity', 'deadwood', 'gap')
+
+def logic_12108(world):
+    _world_apply(world, 'humidity', 'pollinators', 'direct')
