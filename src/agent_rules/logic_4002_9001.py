@@ -2957,3 +2957,6 @@ def logic_5052(agents, world):
 
 def logic_5053(agents, world):
     _agent_apply(world, agents, 'payoff', 'migration_drive', 'direct')
+
+def logic_5054(agents, world):
+    _agent_apply(world, agents, 'temperature', 'exploration_drive', 'direct')
