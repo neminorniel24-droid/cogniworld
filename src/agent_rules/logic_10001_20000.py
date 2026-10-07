@@ -4700,3 +4700,6 @@ def logic_19545(agents, world):
 
 def logic_19546(agents, world):
     _agent_apply(world, agents, 'soil_depth', 'defense_score', 'reciprocal')
+
+def logic_19547(agents, world):
+    _agent_apply(world, agents, 'root_density', 'defense_score', 'reciprocal')
