@@ -8909,3 +8909,6 @@ def logic_7036(agents, world):
 
 def logic_7037(agents, world):
     _agent_apply(world, agents, 'herbivore', 'oxygen_need', 'direct')
+
+def logic_7038(agents, world):
+    _agent_apply(world, agents, 'predator', 'oxygen_need', 'direct')
