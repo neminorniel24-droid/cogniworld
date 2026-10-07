@@ -7607,3 +7607,6 @@ def logic_12514(world):
 
 def logic_12515(world):
     _world_apply(world, 'predator', 'runoff', 'saturation')
+
+def logic_12516(world):
+    _world_apply(world, 'predator', 'wind_x', 'gap')
