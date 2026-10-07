@@ -12236,3 +12236,6 @@ def logic_8145(agents, world):
 
 def logic_8146(agents, world):
     _agent_apply(world, agents, 'ash', 'last_energy_delta', 'direct')
+
+def logic_8147(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'last_energy_delta', 'direct')
