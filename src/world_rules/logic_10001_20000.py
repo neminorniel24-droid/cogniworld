@@ -18356,3 +18356,6 @@ def logic_16097(world):
 
 def logic_16098(world):
     _world_apply(world, 'cloud', 'erosion', 'gap')
+
+def logic_16099(world):
+    _world_apply(world, 'cloud', 'soil_depth', 'direct')
