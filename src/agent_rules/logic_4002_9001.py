@@ -8009,3 +8009,6 @@ def logic_6736(agents, world):
 
 def logic_6737(agents, world):
     _agent_apply(world, agents, 'hunger', 'future_help', 'direct')
+
+def logic_6738(agents, world):
+    _agent_apply(world, agents, 'health', 'future_help', 'direct')
