@@ -5738,3 +5738,6 @@ def logic_5979(agents, world):
 
 def logic_5980(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'territoriality', 'direct')
+
+def logic_5981(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'territoriality', 'direct')
