@@ -716,3 +716,6 @@ def logic_18217(agents, world):
 
 def logic_18218(agents, world):
     _agent_apply(world, agents, 'help_drive', 'metabolic_cost', 'square')
+
+def logic_18219(agents, world):
+    _agent_apply(world, agents, 'social_avoidance', 'metabolic_cost', 'square')
