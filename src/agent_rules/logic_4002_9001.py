@@ -11276,3 +11276,6 @@ def logic_7825(agents, world):
 
 def logic_7826(agents, world):
     _agent_apply(world, agents, 'health', 'cooperation_history', 'direct')
+
+def logic_7827(agents, world):
+    _agent_apply(world, agents, 'stress', 'cooperation_history', 'direct')
