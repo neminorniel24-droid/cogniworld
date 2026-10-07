@@ -22007,3 +22007,6 @@ def logic_17314(world):
 
 def logic_17315(world):
     _world_apply(world, 'fire_risk', 'biomass', 'saturation')
+
+def logic_17316(world):
+    _world_apply(world, 'fire_risk', 'herbivore', 'gap')
