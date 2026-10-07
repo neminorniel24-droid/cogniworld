@@ -19394,3 +19394,6 @@ def logic_16443(world):
 
 def logic_16444(world):
     _world_apply(world, 'herbivore', 'evaporation', 'saturation')
+
+def logic_16445(world):
+    _world_apply(world, 'herbivore', 'detritus', 'gap')
