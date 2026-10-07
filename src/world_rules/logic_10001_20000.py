@@ -2663,3 +2663,6 @@ def logic_10866(world):
 
 def logic_10867(world):
     _world_apply(world, 'ice', 'fire_risk', 'gap')
+
+def logic_10868(world):
+    _world_apply(world, 'ice', 'ash', 'direct')
