@@ -647,3 +647,6 @@ def logic_4282(agents, world):
 
 def logic_4283(agents, world):
     _agent_apply(world, agents, 'resource_scarcity', 'hunger', 'direct')
+
+def logic_4284(agents, world):
+    _agent_apply(world, agents, 'resource_abundance', 'hunger', 'direct')
