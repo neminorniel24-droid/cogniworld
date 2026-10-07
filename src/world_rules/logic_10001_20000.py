@@ -13520,3 +13520,6 @@ def logic_14485(world):
 
 def logic_14486(world):
     _world_apply(world, 'herbivore', 'seed_bank', 'direct')
+
+def logic_14487(world):
+    _world_apply(world, 'herbivore', 'soil_carbon', 'square')
