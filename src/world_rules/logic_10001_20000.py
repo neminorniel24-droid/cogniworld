@@ -2009,3 +2009,6 @@ def logic_10648(world):
 
 def logic_10649(world):
     _world_apply(world, 'nutrients', 'snowpack', 'gap')
+
+def logic_10650(world):
+    _world_apply(world, 'nutrients', 'groundwater', 'direct')
