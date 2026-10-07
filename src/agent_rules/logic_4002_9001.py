@@ -3065,3 +3065,6 @@ def logic_5088(agents, world):
 
 def logic_5089(agents, world):
     _agent_apply(world, agents, 'sediment', 'exploration_drive', 'direct')
+
+def logic_5090(agents, world):
+    _agent_apply(world, agents, 'salinity', 'exploration_drive', 'direct')
