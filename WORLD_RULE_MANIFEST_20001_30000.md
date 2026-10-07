@@ -6034,3 +6034,4 @@
 - 26033: integrated cross-system causal rule
 - 26034: integrated cross-system causal rule
 - 26035: integrated cross-system causal rule
+- 26036: integrated cross-system causal rule
