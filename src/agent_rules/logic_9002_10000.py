@@ -1455,3 +1455,6 @@ def logic_9659(agents, world):
 
 def logic_9660(agents, world):
     _agent_apply(world, agents, 'hunger', 'pathogen_risk', 'direct')
+
+def logic_9661(agents, world):
+    _agent_apply(world, agents, 'health', 'pathogen_risk', 'direct')
