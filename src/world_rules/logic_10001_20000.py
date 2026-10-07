@@ -6167,3 +6167,6 @@ def logic_12034(world):
 
 def logic_12035(world):
     _world_apply(world, 'surface_water', 'herbivore', 'saturation')
+
+def logic_12036(world):
+    _world_apply(world, 'surface_water', 'predator', 'gap')
