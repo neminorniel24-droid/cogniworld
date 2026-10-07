@@ -362,3 +362,6 @@ def logic_10099(world):
 
 def logic_10100(world):
     _world_apply(world, 'humidity', 'predator', 'square')
+
+def logic_10101(world):
+    _world_apply(world, 'humidity', 'carrion', 'pulse')
