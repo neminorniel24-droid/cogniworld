@@ -13538,3 +13538,6 @@ def logic_8579(agents, world):
 
 def logic_8580(agents, world):
     _agent_apply(world, agents, 'defection', 'cooperation_score', 'direct')
+
+def logic_8581(agents, world):
+    _agent_apply(world, agents, 'trust', 'cooperation_score', 'direct')
