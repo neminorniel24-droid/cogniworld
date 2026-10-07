@@ -11321,3 +11321,6 @@ def logic_13752(world):
 
 def logic_13753(world):
     _world_apply(world, 'pollinators', 'predator', 'square')
+
+def logic_13754(world):
+    _world_apply(world, 'pollinators', 'carrion', 'pulse')
