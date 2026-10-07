@@ -3830,3 +3830,6 @@ def logic_5343(agents, world):
 
 def logic_5344(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'habitat_stress', 'direct')
+
+def logic_5345(agents, world):
+    _agent_apply(world, agents, 'ice', 'habitat_stress', 'direct')
