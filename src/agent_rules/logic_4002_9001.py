@@ -11753,3 +11753,6 @@ def logic_7984(agents, world):
 
 def logic_7985(agents, world):
     _agent_apply(world, agents, 'wind_x', 'local_density', 'direct')
+
+def logic_7986(agents, world):
+    _agent_apply(world, agents, 'wind_y', 'local_density', 'direct')
