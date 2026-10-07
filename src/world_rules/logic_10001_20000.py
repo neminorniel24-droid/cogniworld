@@ -6470,3 +6470,6 @@ def logic_12135(world):
 
 def logic_12136(world):
     _world_apply(world, 'cloud', 'biodiversity', 'square')
+
+def logic_12137(world):
+    _world_apply(world, 'cloud', 'habitat_stress', 'saturation')
