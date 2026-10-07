@@ -8579,3 +8579,6 @@ def logic_6926(agents, world):
 
 def logic_6927(agents, world):
     _agent_apply(world, agents, 'algae', 'attack_threshold', 'direct')
+
+def logic_6928(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'attack_threshold', 'direct')
