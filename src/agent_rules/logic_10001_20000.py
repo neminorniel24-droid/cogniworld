@@ -4367,3 +4367,6 @@ def logic_19434(agents, world):
 
 def logic_19435(agents, world):
     _agent_apply(world, agents, 'dehydration', 'foraging_score', 'saturation')
+
+def logic_19436(agents, world):
+    _agent_apply(world, agents, 'pathogen_risk', 'foraging_score', 'saturation')
