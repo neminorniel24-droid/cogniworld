@@ -5213,3 +5213,6 @@ def logic_5804(agents, world):
 
 def logic_5805(agents, world):
     _agent_apply(world, agents, 'cloud', 'conflict_pressure', 'direct')
+
+def logic_5806(agents, world):
+    _agent_apply(world, agents, 'rain', 'conflict_pressure', 'direct')
