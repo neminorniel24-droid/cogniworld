@@ -1622,3 +1622,6 @@ def logic_18519(agents, world):
 
 def logic_18520(agents, world):
     _agent_apply(world, agents, 'help_given', 'competition_pressure', 'threshold')
+
+def logic_18521(agents, world):
+    _agent_apply(world, agents, 'local_density', 'competition_pressure', 'threshold')
