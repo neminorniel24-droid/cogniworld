@@ -41784,3 +41784,10 @@ def logic_36347(agents, world):
     src = _local(world, agents, 'surface_ice')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.defection_threshold = _delta(agents.defection_threshold, delta)
+
+
+def logic_36348(agents, world):
+    """Environmental temperature shapes agent social_need (square)."""
+    src = _local(world, agents, 'temperature')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.social_need = _delta(agents.social_need, delta)
