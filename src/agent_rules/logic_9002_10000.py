@@ -1413,3 +1413,6 @@ def logic_9645(agents, world):
 
 def logic_9646(agents, world):
     _agent_apply(world, agents, 'algae', 'pathogen_risk', 'direct')
+
+def logic_9647(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'pathogen_risk', 'direct')
