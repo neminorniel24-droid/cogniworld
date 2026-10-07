@@ -10418,3 +10418,6 @@ def logic_13451(world):
 
 def logic_13452(world):
     _world_apply(world, 'snowpack', 'ice', 'pulse')
+
+def logic_13453(world):
+    _world_apply(world, 'snowpack', 'evaporation', 'saturation')
