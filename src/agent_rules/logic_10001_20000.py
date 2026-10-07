@@ -5915,3 +5915,6 @@ def logic_19950(agents, world):
 
 def logic_19951(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'fear', 'inverse')
+
+def logic_19952(agents, world):
+    _agent_apply(world, agents, 'ice', 'fear', 'inverse')
