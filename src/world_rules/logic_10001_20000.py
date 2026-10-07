@@ -22961,3 +22961,6 @@ def logic_17632(world):
 
 def logic_17633(world):
     _world_apply(world, 'organic_matter', 'evaporation', 'square')
+
+def logic_17634(world):
+    _world_apply(world, 'organic_matter', 'detritus', 'pulse')
