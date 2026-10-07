@@ -16190,3 +16190,6 @@ def logic_15375(world):
 
 def logic_15376(world):
     _world_apply(world, 'ash', 'wind_x', 'square')
+
+def logic_15377(world):
+    _world_apply(world, 'ash', 'wind_y', 'saturation')
