@@ -3404,3 +3404,6 @@ def logic_5201(agents, world):
 
 def logic_5202(agents, world):
     _agent_apply(world, agents, 'predator', 'wealth', 'direct')
+
+def logic_5203(agents, world):
+    _agent_apply(world, agents, 'carrion', 'wealth', 'direct')
