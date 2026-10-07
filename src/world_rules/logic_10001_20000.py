@@ -13328,3 +13328,6 @@ def logic_14421(world):
 
 def logic_14422(world):
     _world_apply(world, 'biomass', 'methane', 'saturation')
+
+def logic_14423(world):
+    _world_apply(world, 'biomass', 'pathogen_load', 'gap')
