@@ -64443,3 +64443,10 @@ def logic_39584(agents, world):
     src = _local(world, agents, 'decomposition_rate')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.pathogen_risk = _delta(agents.pathogen_risk, delta)
+
+
+def logic_39585(agents, world):
+    """Environmental oxygen shapes agent migration_drive (root)."""
+    src = _local(world, agents, 'oxygen')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.migration_drive = _delta(agents.migration_drive, delta)
