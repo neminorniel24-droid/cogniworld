@@ -14582,3 +14582,6 @@ def logic_14839(world):
 
 def logic_14840(world):
     _world_apply(world, 'ice', 'surface_ice', 'saturation')
+
+def logic_14841(world):
+    _world_apply(world, 'evaporation', 'temperature', 'direct')
