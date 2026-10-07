@@ -7265,3 +7265,6 @@ def logic_12400(world):
 
 def logic_12401(world):
     _world_apply(world, 'vegetation', 'habitat_stress', 'direct')
+
+def logic_12402(world):
+    _world_apply(world, 'vegetation', 'erosion', 'square')
