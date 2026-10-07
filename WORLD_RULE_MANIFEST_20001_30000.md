@@ -7050,3 +7050,4 @@
 - 27049: integrated cross-system causal rule
 - 27050: integrated cross-system causal rule
 - 27051: integrated cross-system causal rule
+- 27052: integrated cross-system causal rule
