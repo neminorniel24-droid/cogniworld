@@ -16916,3 +16916,6 @@ def logic_15617(world):
 
 def logic_15618(world):
     _world_apply(world, 'algae', 'wetland', 'gap')
+
+def logic_15619(world):
+    _world_apply(world, 'algae', 'carbon_storage', 'direct')
