@@ -52928,3 +52928,10 @@ def logic_37939(agents, world):
     src = _local(world, agents, 'erosion')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.last_interaction = _delta(agents.last_interaction, delta)
+
+
+def logic_37940(agents, world):
+    """Environmental soil_depth shapes agent reciprocity_score (square)."""
+    src = _local(world, agents, 'soil_depth')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.reciprocity_score = _delta(agents.reciprocity_score, delta)
