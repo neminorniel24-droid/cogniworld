@@ -19337,3 +19337,6 @@ def logic_16424(world):
 
 def logic_16425(world):
     _world_apply(world, 'herbivore', 'temperature', 'pulse')
+
+def logic_16426(world):
+    _world_apply(world, 'herbivore', 'surface_water', 'saturation')
