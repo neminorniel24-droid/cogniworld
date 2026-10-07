@@ -1625,3 +1625,6 @@ def logic_10520(world):
 
 def logic_10521(world):
     _world_apply(world, 'herbivore', 'algae', 'direct')
+
+def logic_10522(world):
+    _world_apply(world, 'herbivore', 'organic_matter', 'square')
