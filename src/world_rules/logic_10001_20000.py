@@ -16199,3 +16199,6 @@ def logic_15378(world):
 
 def logic_15379(world):
     _world_apply(world, 'ash', 'biomass', 'direct')
+
+def logic_15380(world):
+    _world_apply(world, 'ash', 'herbivore', 'square')
