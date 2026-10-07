@@ -263,3 +263,6 @@ def logic_4154(agents, world):
 
 def logic_4155(agents, world):
     _agent_apply(world, agents, 'stress', 'hydration', 'direct')
+
+def logic_4156(agents, world):
+    _agent_apply(world, agents, 'risk_tolerance', 'hydration', 'direct')
