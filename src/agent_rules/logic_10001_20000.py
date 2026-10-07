@@ -5300,3 +5300,6 @@ def logic_19745(agents, world):
 
 def logic_19746(agents, world):
     _agent_apply(world, agents, 'empathy', 'payoff', 'feedback')
+
+def logic_19747(agents, world):
+    _agent_apply(world, agents, 'attack_threshold', 'payoff', 'feedback')
