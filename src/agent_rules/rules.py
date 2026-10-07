@@ -28274,3 +28274,10 @@ def logic_34417(agents, world):
     src = _local(world, agents, 'temperature_target')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.last_food = _delta(agents.last_food, delta)
+
+
+def logic_34418(agents, world):
+    """Environmental surface_water shapes agent defection_score (direct)."""
+    src = _local(world, agents, 'surface_water')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.defection_score = _delta(agents.defection_score, delta)
