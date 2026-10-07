@@ -43688,3 +43688,10 @@ def logic_36619(agents, world):
     src = _local(world, agents, 'pollinators')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.retaliation_risk = _delta(agents.retaliation_risk, delta)
+
+
+def logic_36620(agents, world):
+    """Environmental flowers shapes agent learning_rate (square)."""
+    src = _local(world, agents, 'flowers')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.learning_rate = _delta(agents.learning_rate, delta)
