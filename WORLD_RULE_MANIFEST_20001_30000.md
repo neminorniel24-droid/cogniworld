@@ -3471,3 +3471,4 @@
 - 23470: integrated cross-system causal rule
 - 23471: integrated cross-system causal rule
 - 23472: integrated cross-system causal rule
+- 23473: integrated cross-system causal rule
