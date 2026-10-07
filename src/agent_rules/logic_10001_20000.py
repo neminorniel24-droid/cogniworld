@@ -2198,3 +2198,6 @@ def logic_18711(agents, world):
 
 def logic_18712(agents, world):
     _agent_apply(world, agents, 'detritus', 'confidence', 'reciprocal')
+
+def logic_18713(agents, world):
+    _agent_apply(world, agents, 'methane', 'confidence', 'gap')
