@@ -2267,3 +2267,6 @@ def logic_18734(agents, world):
 
 def logic_18735(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'strategy_confidence', 'gap')
+
+def logic_18736(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'strategy_confidence', 'gap')
