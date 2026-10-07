@@ -323,3 +323,6 @@ def logic_4074(world):
 
 def logic_4075(world):
     _world_apply(world, 'soil_moisture', 'organic_matter', 'inverse')
+
+def logic_4076(world):
+    _world_apply(world, 'deadwood', 'organic_matter', 'square')
