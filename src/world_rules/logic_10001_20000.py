@@ -7646,3 +7646,6 @@ def logic_12527(world):
 
 def logic_12528(world):
     _world_apply(world, 'predator', 'evaporation', 'pulse')
+
+def logic_12529(world):
+    _world_apply(world, 'predator', 'detritus', 'gap')
