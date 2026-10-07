@@ -155,3 +155,6 @@ def logic_4018(world):
 
 def logic_4019(world):
     _world_apply(world, 'runoff', 'sediment', 'inverse')
+
+def logic_4020(world):
+    _world_apply(world, 'sediment', 'soil_depth', 'square')
