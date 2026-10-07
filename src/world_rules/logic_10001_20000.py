@@ -5249,3 +5249,6 @@ def logic_11728(world):
 
 def logic_11729(world):
     _world_apply(world, 'deadwood', 'predator', 'gap')
+
+def logic_11730(world):
+    _world_apply(world, 'deadwood', 'carrion', 'direct')
