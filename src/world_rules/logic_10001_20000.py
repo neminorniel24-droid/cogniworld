@@ -20504,3 +20504,6 @@ def logic_16813(world):
 
 def logic_16814(world):
     _world_apply(world, 'ice', 'organic_matter', 'gap')
+
+def logic_16815(world):
+    _world_apply(world, 'ice', 'deadwood', 'direct')
