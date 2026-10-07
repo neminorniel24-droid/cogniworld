@@ -12491,3 +12491,6 @@ def logic_8230(agents, world):
 
 def logic_8231(agents, world):
     _agent_apply(world, agents, 'hydration', 'last_food', 'direct')
+
+def logic_8232(agents, world):
+    _agent_apply(world, agents, 'thirst', 'last_food', 'direct')
