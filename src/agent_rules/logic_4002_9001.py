@@ -2870,3 +2870,6 @@ def logic_5023(agents, world):
 
 def logic_5024(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'migration_drive', 'direct')
+
+def logic_5025(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'migration_drive', 'direct')
