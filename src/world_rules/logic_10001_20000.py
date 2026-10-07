@@ -2615,3 +2615,6 @@ def logic_10850(world):
 
 def logic_10851(world):
     _world_apply(world, 'ice', 'nutrients', 'square')
+
+def logic_10852(world):
+    _world_apply(world, 'ice', 'decomposition_rate', 'pulse')
