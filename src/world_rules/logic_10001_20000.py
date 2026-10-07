@@ -2012,3 +2012,6 @@ def logic_10649(world):
 
 def logic_10650(world):
     _world_apply(world, 'nutrients', 'groundwater', 'direct')
+
+def logic_10651(world):
+    _world_apply(world, 'nutrients', 'sediment', 'square')
