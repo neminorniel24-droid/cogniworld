@@ -19787,3 +19787,6 @@ def logic_16574(world):
 
 def logic_16575(world):
     _world_apply(world, 'nutrients', 'ice', 'direct')
+
+def logic_16576(world):
+    _world_apply(world, 'nutrients', 'evaporation', 'square')
