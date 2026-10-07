@@ -57072,3 +57072,10 @@ def logic_38531(agents, world):
     src = _local(world, agents, 'evaporation')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.cooperation = _delta(agents.cooperation, delta)
+
+
+def logic_38532(agents, world):
+    """Environmental detritus shapes agent sharing_capacity (square)."""
+    src = _local(world, agents, 'detritus')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.sharing_capacity = _delta(agents.sharing_capacity, delta)
