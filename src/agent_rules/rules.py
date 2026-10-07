@@ -47034,3 +47034,10 @@ def logic_37097(agents, world):
     src = _local(world, agents, 'predator')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.attack_threshold = _delta(agents.attack_threshold, delta)
+
+
+def logic_37098(agents, world):
+    """Environmental carrion shapes agent stress (direct)."""
+    src = _local(world, agents, 'carrion')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.stress = _delta(agents.stress, delta)
