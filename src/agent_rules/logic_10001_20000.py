@@ -632,3 +632,6 @@ def logic_18189(agents, world):
 
 def logic_18190(agents, world):
     _agent_apply(world, agents, 'hunger', 'fear', 'square')
+
+def logic_18191(agents, world):
+    _agent_apply(world, agents, 'health', 'fear', 'square')
