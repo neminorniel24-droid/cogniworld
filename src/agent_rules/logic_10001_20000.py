@@ -2216,3 +2216,6 @@ def logic_18717(agents, world):
 
 def logic_18718(agents, world):
     _agent_apply(world, agents, 'soil_depth', 'confidence', 'gap')
+
+def logic_18719(agents, world):
+    _agent_apply(world, agents, 'root_density', 'confidence', 'gap')
