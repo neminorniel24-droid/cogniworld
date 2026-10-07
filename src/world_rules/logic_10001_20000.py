@@ -20252,3 +20252,6 @@ def logic_16729(world):
 
 def logic_16730(world):
     _world_apply(world, 'co2', 'seed_bank', 'direct')
+
+def logic_16731(world):
+    _world_apply(world, 'co2', 'soil_carbon', 'square')
