@@ -2852,3 +2852,6 @@ def logic_18929(agents, world):
 
 def logic_18930(agents, world):
     _agent_apply(world, agents, 'betrayal_memory', 'vegetation_expectation', 'direct')
+
+def logic_18931(agents, world):
+    _agent_apply(world, agents, 'conflict_history', 'vegetation_expectation', 'direct')
