@@ -7268,3 +7268,6 @@ def logic_6489(agents, world):
 
 def logic_6490(agents, world):
     _agent_apply(world, agents, 'wind_y', 'caution', 'direct')
+
+def logic_6491(agents, world):
+    _agent_apply(world, agents, 'vegetation', 'caution', 'direct')
