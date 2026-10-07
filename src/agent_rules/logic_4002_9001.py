@@ -1787,3 +1787,6 @@ def logic_4662(agents, world):
 
 def logic_4663(agents, world):
     _agent_apply(world, agents, 'co2', 'alertness', 'direct')
+
+def logic_4664(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'alertness', 'direct')
