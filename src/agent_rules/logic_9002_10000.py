@@ -2262,3 +2262,6 @@ def logic_9928(agents, world):
 
 def logic_9929(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'recovery', 'direct')
+
+def logic_9930(agents, world):
+    _agent_apply(world, agents, 'hydration', 'recovery', 'direct')
