@@ -3797,3 +3797,6 @@ def logic_11244(world):
 
 def logic_11245(world):
     _world_apply(world, 'root_density', 'predator', 'gap')
+
+def logic_11246(world):
+    _world_apply(world, 'root_density', 'carrion', 'direct')
