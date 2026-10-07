@@ -12062,3 +12062,6 @@ def logic_8087(agents, world):
 
 def logic_8088(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'last_reward', 'direct')
+
+def logic_8089(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'last_reward', 'direct')
