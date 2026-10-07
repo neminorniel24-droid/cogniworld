@@ -153,3 +153,6 @@ def logic_9225(agents, world):
 
 def logic_9226(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'hydration', 'direct')
+
+def logic_9227(agents, world):
+    _agent_apply(world, agents, 'erosion', 'hydration', 'direct')
