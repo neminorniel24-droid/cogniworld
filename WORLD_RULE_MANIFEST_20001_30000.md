@@ -3120,3 +3120,4 @@
 - 23119: integrated cross-system causal rule
 - 23120: integrated cross-system causal rule
 - 23121: integrated cross-system causal rule
+- 23122: integrated cross-system causal rule
