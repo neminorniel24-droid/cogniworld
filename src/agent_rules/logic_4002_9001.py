@@ -11105,3 +11105,6 @@ def logic_7768(agents, world):
 
 def logic_7769(agents, world):
     _agent_apply(world, agents, 'local_density', 'conflict_history', 'direct')
+
+def logic_7770(agents, world):
+    _agent_apply(world, agents, 'strategy_score', 'conflict_history', 'direct')
