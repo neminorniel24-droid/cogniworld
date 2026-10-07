@@ -11996,3 +11996,6 @@ def logic_13977(world):
 
 def logic_13978(world):
     _world_apply(world, 'temperature', 'photosynthesis_factor', 'gap')
+
+def logic_13979(world):
+    _world_apply(world, 'temperature', 'ice', 'direct')
