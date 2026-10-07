@@ -1823,3 +1823,6 @@ def logic_10586(world):
 
 def logic_10587(world):
     _world_apply(world, 'carrion', 'decomposition_rate', 'gap')
+
+def logic_10588(world):
+    _world_apply(world, 'carrion', 'oxygen', 'direct')
