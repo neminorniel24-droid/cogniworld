@@ -23528,3 +23528,6 @@ def logic_17821(world):
 
 def logic_17822(world):
     _world_apply(world, 'seed_bank', 'snowpack', 'saturation')
+
+def logic_17823(world):
+    _world_apply(world, 'seed_bank', 'groundwater', 'gap')
