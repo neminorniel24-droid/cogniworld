@@ -3476,3 +3476,6 @@ def logic_11137(world):
 
 def logic_11138(world):
     _world_apply(world, 'habitat_stress', 'organic_matter', 'gap')
+
+def logic_11139(world):
+    _world_apply(world, 'habitat_stress', 'deadwood', 'direct')
