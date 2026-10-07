@@ -10766,3 +10766,6 @@ def logic_7655(agents, world):
 
 def logic_7656(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'betrayal_memory', 'direct')
+
+def logic_7657(agents, world):
+    _agent_apply(world, agents, 'ice', 'betrayal_memory', 'direct')
