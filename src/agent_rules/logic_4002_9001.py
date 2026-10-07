@@ -13667,3 +13667,6 @@ def logic_8622(agents, world):
 
 def logic_8623(agents, world):
     _agent_apply(world, agents, 'snowpack', 'competition_score', 'direct')
+
+def logic_8624(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'competition_score', 'direct')
