@@ -13973,3 +13973,6 @@ def logic_8724(agents, world):
 
 def logic_8725(agents, world):
     _agent_apply(world, agents, 'payoff', 'defection_score', 'direct')
+
+def logic_8726(agents, world):
+    _agent_apply(world, agents, 'temperature', 'reciprocity_score', 'direct')
