@@ -2223,3 +2223,6 @@ def logic_9915(agents, world):
 
 def logic_9916(agents, world):
     _agent_apply(world, agents, 'sediment', 'recovery', 'direct')
+
+def logic_9917(agents, world):
+    _agent_apply(world, agents, 'salinity', 'recovery', 'direct')
