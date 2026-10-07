@@ -23087,3 +23087,6 @@ def logic_17674(world):
 
 def logic_17675(world):
     _world_apply(world, 'deadwood', 'photosynthesis_factor', 'saturation')
+
+def logic_17676(world):
+    _world_apply(world, 'deadwood', 'ice', 'gap')
