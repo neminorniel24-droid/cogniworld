@@ -32705,3 +32705,10 @@ def logic_35050(agents, world):
     src = _local(world, agents, 'sediment')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.attack_threshold = _delta(agents.attack_threshold, delta)
+
+
+def logic_35051(agents, world):
+    """Environmental salinity shapes agent stress (inverse)."""
+    src = _local(world, agents, 'salinity')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.stress = _delta(agents.stress, delta)
