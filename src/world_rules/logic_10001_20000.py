@@ -15074,3 +15074,6 @@ def logic_15003(world):
 
 def logic_15004(world):
     _world_apply(world, 'pathogen_load', 'ash', 'saturation')
+
+def logic_15005(world):
+    _world_apply(world, 'pathogen_load', 'snowpack', 'gap')
