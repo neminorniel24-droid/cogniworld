@@ -51255,3 +51255,10 @@ def logic_37700(agents, world):
     src = _local(world, agents, 'co2')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.migration_score = _delta(agents.migration_score, delta)
+
+
+def logic_37701(agents, world):
+    """Environmental photosynthesis_factor shapes agent future_payoff_weight (root)."""
+    src = _local(world, agents, 'photosynthesis_factor')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.future_payoff_weight = _delta(agents.future_payoff_weight, delta)
