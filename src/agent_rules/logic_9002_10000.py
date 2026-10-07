@@ -450,3 +450,6 @@ def logic_9324(agents, world):
 
 def logic_9325(agents, world):
     _agent_apply(world, agents, 'social_need', 'thirst', 'direct')
+
+def logic_9326(agents, world):
+    _agent_apply(world, agents, 'cooperation', 'thirst', 'direct')
