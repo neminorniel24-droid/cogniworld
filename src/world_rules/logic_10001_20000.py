@@ -11627,3 +11627,6 @@ def logic_13854(world):
 
 def logic_13855(world):
     _world_apply(world, 'seed_bank', 'erosion', 'direct')
+
+def logic_13856(world):
+    _world_apply(world, 'seed_bank', 'soil_depth', 'square')
