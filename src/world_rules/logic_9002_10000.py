@@ -534,3 +534,6 @@ def logic_9153(world):
 
 def logic_9154(world):
     _world_apply(world, 'humidity', 'nutrients', 'direct')
+
+def logic_9155(world):
+    _world_apply(world, 'humidity', 'decomposition_rate', 'inverse')
