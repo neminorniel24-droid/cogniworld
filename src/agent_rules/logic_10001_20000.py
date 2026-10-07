@@ -3449,3 +3449,6 @@ def logic_19128(agents, world):
 
 def logic_19129(agents, world):
     _agent_apply(world, agents, 'biodiversity', 'local_density', 'square')
+
+def logic_19130(agents, world):
+    _agent_apply(world, agents, 'habitat_stress', 'local_density', 'square')
