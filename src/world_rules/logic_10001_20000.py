@@ -10217,3 +10217,6 @@ def logic_13384(world):
 
 def logic_13385(world):
     _world_apply(world, 'fire_risk', 'flowers', 'pulse')
+
+def logic_13386(world):
+    _world_apply(world, 'fire_risk', 'seed_bank', 'saturation')
