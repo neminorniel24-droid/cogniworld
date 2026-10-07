@@ -19613,3 +19613,6 @@ def logic_16516(world):
 
 def logic_16517(world):
     _world_apply(world, 'carrion', 'rain', 'direct')
+
+def logic_16518(world):
+    _world_apply(world, 'carrion', 'soil_moisture', 'square')
