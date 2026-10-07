@@ -42540,3 +42540,10 @@ def logic_36455(agents, world):
     src = _local(world, agents, 'nutrients')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.future_payoff_weight = _delta(agents.future_payoff_weight, delta)
+
+
+def logic_36456(agents, world):
+    """Environmental decomposition_rate shapes agent thermal_stress (square)."""
+    src = _local(world, agents, 'decomposition_rate')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.thermal_stress = _delta(agents.thermal_stress, delta)
