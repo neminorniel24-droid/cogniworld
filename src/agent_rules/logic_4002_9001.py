@@ -2564,3 +2564,6 @@ def logic_4921(agents, world):
 
 def logic_4922(agents, world):
     _agent_apply(world, agents, 'rain', 'reproduction_drive', 'direct')
+
+def logic_4923(agents, world):
+    _agent_apply(world, agents, 'soil_moisture', 'reproduction_drive', 'direct')
