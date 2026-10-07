@@ -22658,3 +22658,6 @@ def logic_17531(world):
 
 def logic_17532(world):
     _world_apply(world, 'salinity', 'wind_x', 'pulse')
+
+def logic_17533(world):
+    _world_apply(world, 'salinity', 'wind_y', 'saturation')
