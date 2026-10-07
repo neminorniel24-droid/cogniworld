@@ -11411,3 +11411,6 @@ def logic_13782(world):
 
 def logic_13783(world):
     _world_apply(world, 'pollinators', 'soil_carbon', 'gap')
+
+def logic_13784(world):
+    _world_apply(world, 'pollinators', 'surface_ice', 'direct')
