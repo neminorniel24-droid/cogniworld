@@ -6008,3 +6008,6 @@ def logic_6069(agents, world):
 
 def logic_6070(agents, world):
     _agent_apply(world, agents, 'strategy_score', 'group_stability', 'direct')
+
+def logic_6071(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'group_stability', 'direct')
