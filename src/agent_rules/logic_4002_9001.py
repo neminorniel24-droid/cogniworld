@@ -12218,3 +12218,6 @@ def logic_8139(agents, world):
 
 def logic_8140(agents, world):
     _agent_apply(world, agents, 'erosion', 'last_energy_delta', 'direct')
+
+def logic_8141(agents, world):
+    _agent_apply(world, agents, 'soil_depth', 'last_energy_delta', 'direct')
