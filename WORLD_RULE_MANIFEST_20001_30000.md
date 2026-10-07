@@ -5541,3 +5541,4 @@
 - 25540: integrated cross-system causal rule
 - 25541: integrated cross-system causal rule
 - 25542: integrated cross-system causal rule
+- 25543: integrated cross-system causal rule
