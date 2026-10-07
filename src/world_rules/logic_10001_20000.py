@@ -21686,3 +21686,6 @@ def logic_17207(world):
 
 def logic_17208(world):
     _world_apply(world, 'root_density', 'salinity', 'pulse')
+
+def logic_17209(world):
+    _world_apply(world, 'root_density', 'algae', 'gap')
