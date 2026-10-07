@@ -19418,3 +19418,6 @@ def logic_16451(world):
 
 def logic_16452(world):
     _world_apply(world, 'herbivore', 'root_density', 'pulse')
+
+def logic_16453(world):
+    _world_apply(world, 'herbivore', 'wetland', 'saturation')
