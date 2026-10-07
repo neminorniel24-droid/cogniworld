@@ -7145,3 +7145,6 @@ def logic_12360(world):
 
 def logic_12361(world):
     _world_apply(world, 'wind_y', 'wetland', 'direct')
+
+def logic_12362(world):
+    _world_apply(world, 'wind_y', 'carbon_storage', 'square')
