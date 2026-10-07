@@ -18113,3 +18113,6 @@ def logic_16016(world):
 
 def logic_16017(world):
     _world_apply(world, 'surface_water', 'snowpack', 'saturation')
+
+def logic_16018(world):
+    _world_apply(world, 'surface_water', 'groundwater', 'gap')
