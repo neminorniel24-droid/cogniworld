@@ -3353,3 +3353,6 @@ def logic_11096(world):
 
 def logic_11097(world):
     _world_apply(world, 'biodiversity', 'flowers', 'saturation')
+
+def logic_11098(world):
+    _world_apply(world, 'biodiversity', 'seed_bank', 'gap')
