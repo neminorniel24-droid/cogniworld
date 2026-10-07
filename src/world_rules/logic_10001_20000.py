@@ -2948,3 +2948,6 @@ def logic_10961(world):
 
 def logic_10962(world):
     _world_apply(world, 'detritus', 'organic_matter', 'square')
+
+def logic_10963(world):
+    _world_apply(world, 'detritus', 'deadwood', 'pulse')
