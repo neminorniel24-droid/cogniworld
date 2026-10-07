@@ -40020,3 +40020,10 @@ def logic_36095(agents, world):
     src = _local(world, agents, 'methane')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.last_reward = _delta(agents.last_reward, delta)
+
+
+def logic_36096(agents, world):
+    """Environmental pathogen_load shapes agent cooperation_score (square)."""
+    src = _local(world, agents, 'pathogen_load')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.cooperation_score = _delta(agents.cooperation_score, delta)
