@@ -3056,3 +3056,6 @@ def logic_5085(agents, world):
 
 def logic_5086(agents, world):
     _agent_apply(world, agents, 'ash', 'exploration_drive', 'direct')
+
+def logic_5087(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'exploration_drive', 'direct')
