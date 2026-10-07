@@ -5957,3 +5957,6 @@ def logic_6052(agents, world):
 
 def logic_6053(agents, world):
     _agent_apply(world, agents, 'energy_surplus', 'group_stability', 'direct')
+
+def logic_6054(agents, world):
+    _agent_apply(world, agents, 'ticks_since_food', 'group_stability', 'direct')
