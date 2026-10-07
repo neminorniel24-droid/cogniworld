@@ -55546,3 +55546,10 @@ def logic_38313(agents, world):
     src = _local(world, agents, 'ash')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.fear = _delta(agents.fear, delta)
+
+
+def logic_38314(agents, world):
+    """Environmental snowpack shapes agent wealth (direct)."""
+    src = _local(world, agents, 'snowpack')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.wealth = _delta(agents.wealth, delta)
