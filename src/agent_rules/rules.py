@@ -46719,3 +46719,10 @@ def logic_37052(agents, world):
     src = _local(world, agents, 'carrion')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.strategy_persistence = _delta(agents.strategy_persistence, delta)
+
+
+def logic_37053(agents, world):
+    """Environmental nutrients shapes agent hydration (root)."""
+    src = _local(world, agents, 'nutrients')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.hydration = _delta(agents.hydration, delta)
