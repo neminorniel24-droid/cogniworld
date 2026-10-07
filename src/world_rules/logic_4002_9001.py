@@ -335,3 +335,6 @@ def logic_4078(world):
 
 def logic_4079(world):
     _world_apply(world, 'predator', 'herbivore', 'threshold')
+
+def logic_4080(world):
+    _world_apply(world, 'vegetation', 'seed_bank', 'saturation')
