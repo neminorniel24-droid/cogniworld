@@ -8888,3 +8888,6 @@ def logic_7029(agents, world):
 
 def logic_7030(agents, world):
     _agent_apply(world, agents, 'rain', 'oxygen_need', 'direct')
+
+def logic_7031(agents, world):
+    _agent_apply(world, agents, 'soil_moisture', 'oxygen_need', 'direct')
