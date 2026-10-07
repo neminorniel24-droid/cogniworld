@@ -6893,3 +6893,6 @@ def logic_12276(world):
 
 def logic_12277(world):
     _world_apply(world, 'runoff', 'snowpack', 'direct')
+
+def logic_12278(world):
+    _world_apply(world, 'runoff', 'groundwater', 'square')
