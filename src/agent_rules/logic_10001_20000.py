@@ -4682,3 +4682,6 @@ def logic_19539(agents, world):
 
 def logic_19540(agents, world):
     _agent_apply(world, agents, 'detritus', 'defense_score', 'reciprocal')
+
+def logic_19541(agents, world):
+    _agent_apply(world, agents, 'methane', 'defense_score', 'reciprocal')
