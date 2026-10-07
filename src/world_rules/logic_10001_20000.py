@@ -4475,3 +4475,6 @@ def logic_11470(world):
 
 def logic_11471(world):
     _world_apply(world, 'snowpack', 'photosynthesis_factor', 'saturation')
+
+def logic_11472(world):
+    _world_apply(world, 'snowpack', 'ice', 'gap')
