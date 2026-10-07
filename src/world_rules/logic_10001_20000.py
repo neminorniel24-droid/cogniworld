@@ -16169,3 +16169,6 @@ def logic_15368(world):
 
 def logic_15369(world):
     _world_apply(world, 'ash', 'temperature', 'gap')
+
+def logic_15370(world):
+    _world_apply(world, 'ash', 'surface_water', 'direct')
