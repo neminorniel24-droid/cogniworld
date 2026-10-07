@@ -2015,3 +2015,6 @@ def logic_18650(agents, world):
 
 def logic_18651(agents, world):
     _agent_apply(world, agents, 'social_need', 'selfishness', 'reciprocal')
+
+def logic_18652(agents, world):
+    _agent_apply(world, agents, 'neighbor_energy_gap', 'generosity', 'reciprocal')
