@@ -23096,3 +23096,6 @@ def logic_17677(world):
 
 def logic_17678(world):
     _world_apply(world, 'deadwood', 'detritus', 'square')
+
+def logic_17679(world):
+    _world_apply(world, 'deadwood', 'methane', 'pulse')
