@@ -878,3 +878,6 @@ def logic_18271(agents, world):
 
 def logic_18272(agents, world):
     _agent_apply(world, agents, 'learning_rate', 'migration_drive', 'sqrt')
+
+def logic_18273(agents, world):
+    _agent_apply(world, agents, 'memory_update', 'migration_drive', 'sqrt')
