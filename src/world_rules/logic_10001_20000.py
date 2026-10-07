@@ -9773,3 +9773,6 @@ def logic_13236(world):
 
 def logic_13237(world):
     _world_apply(world, 'root_density', 'biodiversity', 'direct')
+
+def logic_13238(world):
+    _world_apply(world, 'root_density', 'habitat_stress', 'square')
