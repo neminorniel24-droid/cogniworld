@@ -17000,3 +17000,6 @@ def logic_15645(world):
 
 def logic_15646(world):
     _world_apply(world, 'organic_matter', 'carrion', 'direct')
+
+def logic_15647(world):
+    _world_apply(world, 'organic_matter', 'nutrients', 'square')
