@@ -2111,3 +2111,6 @@ def logic_18682(agents, world):
 
 def logic_18683(agents, world):
     _agent_apply(world, agents, 'sharing_score', 'gratitude', 'reciprocal')
+
+def logic_18684(agents, world):
+    _agent_apply(world, agents, 'strategy_persistence', 'gratitude', 'reciprocal')
