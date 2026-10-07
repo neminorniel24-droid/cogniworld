@@ -2894,3 +2894,6 @@ def logic_18943(agents, world):
 
 def logic_18944(agents, world):
     _agent_apply(world, agents, 'competition_score', 'vegetation_expectation', 'direct')
+
+def logic_18945(agents, world):
+    _agent_apply(world, agents, 'defection_score', 'vegetation_expectation', 'direct')
