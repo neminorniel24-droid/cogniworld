@@ -1272,3 +1272,6 @@ def logic_9598(agents, world):
 
 def logic_9599(agents, world):
     _agent_apply(world, agents, 'defection', 'dehydration', 'direct')
+
+def logic_9600(agents, world):
+    _agent_apply(world, agents, 'trust', 'dehydration', 'direct')
