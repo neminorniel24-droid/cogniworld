@@ -10535,3 +10535,6 @@ def logic_13490(world):
 
 def logic_13491(world):
     _world_apply(world, 'groundwater', 'nutrients', 'square')
+
+def logic_13492(world):
+    _world_apply(world, 'groundwater', 'decomposition_rate', 'pulse')
