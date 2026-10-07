@@ -9770,3 +9770,6 @@ def logic_13235(world):
 
 def logic_13236(world):
     _world_apply(world, 'root_density', 'pathogen_load', 'gap')
+
+def logic_13237(world):
+    _world_apply(world, 'root_density', 'biodiversity', 'direct')
