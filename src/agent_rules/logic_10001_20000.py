@@ -1853,3 +1853,6 @@ def logic_18596(agents, world):
 
 def logic_18597(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'help_drive', 'saturation')
+
+def logic_18598(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'help_drive', 'saturation')
