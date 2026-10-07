@@ -3590,3 +3590,6 @@ def logic_11175(world):
 
 def logic_11176(world):
     _world_apply(world, 'erosion', 'ash', 'square')
+
+def logic_11177(world):
+    _world_apply(world, 'erosion', 'snowpack', 'saturation')
