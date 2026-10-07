@@ -2813,3 +2813,6 @@ def logic_18916(agents, world):
 
 def logic_18917(agents, world):
     _agent_apply(world, agents, 'resource_discovery', 'resource_competition', 'direct')
+
+def logic_18918(agents, world):
+    _agent_apply(world, agents, 'empathy', 'resource_competition', 'direct')
