@@ -2204,3 +2204,6 @@ def logic_18713(agents, world):
 
 def logic_18714(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'confidence', 'gap')
+
+def logic_18715(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'confidence', 'gap')
