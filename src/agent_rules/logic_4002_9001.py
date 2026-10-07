@@ -9713,3 +9713,6 @@ def logic_7304(agents, world):
 
 def logic_7305(agents, world):
     _agent_apply(world, agents, 'wind_x', 'vegetation_expectation', 'direct')
+
+def logic_7306(agents, world):
+    _agent_apply(world, agents, 'wind_y', 'vegetation_expectation', 'direct')
