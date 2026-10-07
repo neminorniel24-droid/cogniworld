@@ -52998,3 +52998,10 @@ def logic_37949(agents, world):
     src = _local(world, agents, 'salinity')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.defection_threshold = _delta(agents.defection_threshold, delta)
+
+
+def logic_37950(agents, world):
+    """Environmental algae shapes agent social_need (direct)."""
+    src = _local(world, agents, 'algae')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.social_need = _delta(agents.social_need, delta)
