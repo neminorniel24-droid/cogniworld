@@ -40580,3 +40580,10 @@ def logic_36175(agents, world):
     src = _local(world, agents, 'biomass')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.learning_rate = _delta(agents.learning_rate, delta)
+
+
+def logic_36176(agents, world):
+    """Environmental herbivore shapes agent hunger (square)."""
+    src = _local(world, agents, 'herbivore')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.hunger = _delta(agents.hunger, delta)
