@@ -2618,3 +2618,6 @@ def logic_4939(agents, world):
 
 def logic_4940(agents, world):
     _agent_apply(world, agents, 'methane', 'reproduction_drive', 'direct')
+
+def logic_4941(agents, world):
+    _agent_apply(world, agents, 'pathogen_load', 'reproduction_drive', 'direct')
