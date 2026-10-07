@@ -8333,3 +8333,6 @@ def logic_6844(agents, world):
 
 def logic_6845(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'empathy', 'direct')
+
+def logic_6846(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'empathy', 'direct')
