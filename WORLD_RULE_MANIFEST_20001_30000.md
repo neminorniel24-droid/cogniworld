@@ -4060,3 +4060,4 @@
 - 24059: integrated cross-system causal rule
 - 24060: integrated cross-system causal rule
 - 24061: integrated cross-system causal rule
+- 24062: integrated cross-system causal rule
