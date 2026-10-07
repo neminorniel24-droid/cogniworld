@@ -2771,3 +2771,6 @@ def logic_4990(agents, world):
 
 def logic_4991(agents, world):
     _agent_apply(world, agents, 'soil_moisture', 'migration_drive', 'direct')
+
+def logic_4992(agents, world):
+    _agent_apply(world, agents, 'runoff', 'migration_drive', 'direct')
