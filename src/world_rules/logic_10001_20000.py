@@ -6320,3 +6320,6 @@ def logic_12085(world):
 
 def logic_12086(world):
     _world_apply(world, 'humidity', 'photosynthesis_factor', 'direct')
+
+def logic_12087(world):
+    _world_apply(world, 'humidity', 'ice', 'square')
