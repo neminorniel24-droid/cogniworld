@@ -16067,3 +16067,6 @@ def logic_15334(world):
 
 def logic_15335(world):
     _world_apply(world, 'fire_risk', 'biomass', 'direct')
+
+def logic_15336(world):
+    _world_apply(world, 'fire_risk', 'herbivore', 'square')
