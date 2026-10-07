@@ -20066,3 +20066,6 @@ def logic_16667(world):
 
 def logic_16668(world):
     _world_apply(world, 'oxygen', 'biodiversity', 'direct')
+
+def logic_16669(world):
+    _world_apply(world, 'oxygen', 'habitat_stress', 'square')
