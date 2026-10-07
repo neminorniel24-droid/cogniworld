@@ -1028,3 +1028,6 @@ def logic_10321(world):
 
 def logic_10322(world):
     _world_apply(world, 'wind_x', 'nutrients', 'square')
+
+def logic_10323(world):
+    _world_apply(world, 'wind_x', 'decomposition_rate', 'pulse')
