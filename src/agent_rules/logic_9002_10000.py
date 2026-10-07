@@ -2313,3 +2313,6 @@ def logic_9945(agents, world):
 
 def logic_9946(agents, world):
     _agent_apply(world, agents, 'survival_score', 'recovery', 'direct')
+
+def logic_9947(agents, world):
+    _agent_apply(world, agents, 'fitness_score', 'recovery', 'direct')
