@@ -401,3 +401,6 @@ def logic_4200(agents, world):
 
 def logic_4201(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'thirst', 'direct')
+
+def logic_4202(agents, world):
+    _agent_apply(world, agents, 'ash', 'thirst', 'direct')
