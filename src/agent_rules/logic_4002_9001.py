@@ -12473,3 +12473,6 @@ def logic_8224(agents, world):
 
 def logic_8225(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'last_food', 'direct')
+
+def logic_8226(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'last_food', 'direct')
