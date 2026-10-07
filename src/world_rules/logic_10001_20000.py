@@ -4460,3 +4460,6 @@ def logic_11465(world):
 
 def logic_11466(world):
     _world_apply(world, 'snowpack', 'carrion', 'saturation')
+
+def logic_11467(world):
+    _world_apply(world, 'snowpack', 'nutrients', 'gap')
