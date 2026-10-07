@@ -12155,3 +12155,6 @@ def logic_8118(agents, world):
 
 def logic_8119(agents, world):
     _agent_apply(world, agents, 'soil_moisture', 'last_energy_delta', 'direct')
+
+def logic_8120(agents, world):
+    _agent_apply(world, agents, 'runoff', 'last_energy_delta', 'direct')
