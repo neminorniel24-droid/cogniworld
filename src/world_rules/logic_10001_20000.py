@@ -13502,3 +13502,6 @@ def logic_14479(world):
 
 def logic_14480(world):
     _world_apply(world, 'herbivore', 'salinity', 'saturation')
+
+def logic_14481(world):
+    _world_apply(world, 'herbivore', 'algae', 'direct')
