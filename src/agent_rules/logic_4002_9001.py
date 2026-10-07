@@ -14762,3 +14762,6 @@ def logic_8987(agents, world):
 
 def logic_8988(agents, world):
     _agent_apply(world, agents, 'defection', 'exploration_score', 'direct')
+
+def logic_8989(agents, world):
+    _agent_apply(world, agents, 'trust', 'exploration_score', 'direct')
