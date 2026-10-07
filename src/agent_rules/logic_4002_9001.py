@@ -13367,3 +13367,6 @@ def logic_8522(agents, world):
 
 def logic_8523(agents, world):
     _agent_apply(world, agents, 'surface_water', 'cooperation_score', 'direct')
+
+def logic_8524(agents, world):
+    _agent_apply(world, agents, 'humidity', 'cooperation_score', 'direct')
