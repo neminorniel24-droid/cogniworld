@@ -7613,3 +7613,6 @@ def logic_12516(world):
 
 def logic_12517(world):
     _world_apply(world, 'predator', 'wind_y', 'direct')
+
+def logic_12518(world):
+    _world_apply(world, 'predator', 'vegetation', 'square')
