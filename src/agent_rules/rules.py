@@ -50632,3 +50632,10 @@ def logic_37611(agents, world):
     src = _local(world, agents, 'evaporation')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.migration_score = _delta(agents.migration_score, delta)
+
+
+def logic_37612(agents, world):
+    """Environmental detritus shapes agent future_payoff_weight (square)."""
+    src = _local(world, agents, 'detritus')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.future_payoff_weight = _delta(agents.future_payoff_weight, delta)
