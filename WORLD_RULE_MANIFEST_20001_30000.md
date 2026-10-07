@@ -6710,3 +6710,4 @@
 - 26709: integrated cross-system causal rule
 - 26710: integrated cross-system causal rule
 - 26711: integrated cross-system causal rule
+- 26712: integrated cross-system causal rule
