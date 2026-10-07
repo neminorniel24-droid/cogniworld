@@ -3818,3 +3818,6 @@ def logic_11251(world):
 
 def logic_11252(world):
     _world_apply(world, 'root_density', 'ice', 'pulse')
+
+def logic_11253(world):
+    _world_apply(world, 'root_density', 'evaporation', 'saturation')
