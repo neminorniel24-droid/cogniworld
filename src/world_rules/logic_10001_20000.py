@@ -15497,3 +15497,6 @@ def logic_15144(world):
 
 def logic_15145(world):
     _world_apply(world, 'erosion', 'flowers', 'pulse')
+
+def logic_15146(world):
+    _world_apply(world, 'erosion', 'seed_bank', 'saturation')
