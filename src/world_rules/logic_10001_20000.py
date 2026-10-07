@@ -20633,3 +20633,6 @@ def logic_16856(world):
 
 def logic_16857(world):
     _world_apply(world, 'evaporation', 'algae', 'saturation')
+
+def logic_16858(world):
+    _world_apply(world, 'evaporation', 'organic_matter', 'gap')
