@@ -7742,3 +7742,6 @@ def logic_12559(world):
 
 def logic_12560(world):
     _world_apply(world, 'carrion', 'wind_x', 'saturation')
+
+def logic_12561(world):
+    _world_apply(world, 'carrion', 'wind_y', 'direct')
