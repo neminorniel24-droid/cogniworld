@@ -3773,3 +3773,6 @@ def logic_19236(agents, world):
 
 def logic_19237(agents, world):
     _agent_apply(world, agents, 'strategy_mixing', 'risk_tolerance', 'sqrt')
+
+def logic_19238(agents, world):
+    _agent_apply(world, agents, 'learning_rate', 'risk_tolerance', 'sqrt')
