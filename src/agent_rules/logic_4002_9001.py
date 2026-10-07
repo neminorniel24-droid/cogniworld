@@ -13442,3 +13442,6 @@ def logic_8547(agents, world):
 
 def logic_8548(agents, world):
     _agent_apply(world, agents, 'erosion', 'cooperation_score', 'direct')
+
+def logic_8549(agents, world):
+    _agent_apply(world, agents, 'soil_depth', 'cooperation_score', 'direct')
