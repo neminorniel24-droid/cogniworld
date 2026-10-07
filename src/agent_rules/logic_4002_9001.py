@@ -3395,3 +3395,6 @@ def logic_5198(agents, world):
 
 def logic_5199(agents, world):
     _agent_apply(world, agents, 'vegetation', 'wealth', 'direct')
+
+def logic_5200(agents, world):
+    _agent_apply(world, agents, 'biomass', 'wealth', 'direct')
