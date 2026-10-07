@@ -4754,3 +4754,6 @@ def logic_19563(agents, world):
 
 def logic_19564(agents, world):
     _agent_apply(world, agents, 'resource_scarcity', 'migration_score', 'reciprocal')
+
+def logic_19565(agents, world):
+    _agent_apply(world, agents, 'resource_abundance', 'migration_score', 'reciprocal')
