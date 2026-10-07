@@ -8521,3 +8521,4 @@
 - 28520: integrated cross-system causal rule
 - 28521: integrated cross-system causal rule
 - 28522: integrated cross-system causal rule
+- 28523: integrated cross-system causal rule
