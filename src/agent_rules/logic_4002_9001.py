@@ -3134,3 +3134,6 @@ def logic_5111(agents, world):
 
 def logic_5112(agents, world):
     _agent_apply(world, agents, 'defection', 'exploration_drive', 'direct')
+
+def logic_5113(agents, world):
+    _agent_apply(world, agents, 'trust', 'exploration_drive', 'direct')
