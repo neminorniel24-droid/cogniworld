@@ -15311,3 +15311,6 @@ def logic_15082(world):
 
 def logic_15083(world):
     _world_apply(world, 'habitat_stress', 'methane', 'pulse')
+
+def logic_15084(world):
+    _world_apply(world, 'habitat_stress', 'pathogen_load', 'saturation')
