@@ -515,3 +515,6 @@ def logic_10150(world):
 
 def logic_10151(world):
     _world_apply(world, 'cloud', 'ice', 'saturation')
+
+def logic_10152(world):
+    _world_apply(world, 'cloud', 'evaporation', 'gap')
