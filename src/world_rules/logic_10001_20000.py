@@ -17597,3 +17597,6 @@ def logic_15844(world):
 
 def logic_15845(world):
     _world_apply(world, 'seed_bank', 'salinity', 'gap')
+
+def logic_15846(world):
+    _world_apply(world, 'seed_bank', 'algae', 'direct')
