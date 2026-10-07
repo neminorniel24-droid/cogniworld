@@ -23144,3 +23144,6 @@ def logic_17693(world):
 
 def logic_17694(world):
     _world_apply(world, 'deadwood', 'algae', 'gap')
+
+def logic_17695(world):
+    _world_apply(world, 'deadwood', 'organic_matter', 'direct')
