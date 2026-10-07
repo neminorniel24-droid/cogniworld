@@ -7958,3 +7958,4 @@
 - 27957: integrated cross-system causal rule
 - 27958: integrated cross-system causal rule
 - 27959: integrated cross-system causal rule
+- 27960: integrated cross-system causal rule
