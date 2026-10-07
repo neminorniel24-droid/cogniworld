@@ -19013,3 +19013,6 @@ def logic_16316(world):
 
 def logic_16317(world):
     _world_apply(world, 'wind_y', 'habitat_stress', 'direct')
+
+def logic_16318(world):
+    _world_apply(world, 'wind_y', 'erosion', 'square')
