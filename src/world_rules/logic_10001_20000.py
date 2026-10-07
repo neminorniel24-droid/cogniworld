@@ -1655,3 +1655,6 @@ def logic_10530(world):
 
 def logic_10531(world):
     _world_apply(world, 'predator', 'humidity', 'square')
+
+def logic_10532(world):
+    _world_apply(world, 'predator', 'cloud', 'pulse')
