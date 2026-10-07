@@ -7500,3 +7500,4 @@
 - 27499: integrated cross-system causal rule
 - 27500: integrated cross-system causal rule
 - 27501: integrated cross-system causal rule
+- 27502: integrated cross-system causal rule
