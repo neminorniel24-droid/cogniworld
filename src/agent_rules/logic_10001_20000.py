@@ -3155,3 +3155,6 @@ def logic_19030(agents, world):
 
 def logic_19031(agents, world):
     _agent_apply(world, agents, 'food_access', 'betrayal_memory', 'inverse')
+
+def logic_19032(agents, world):
+    _agent_apply(world, agents, 'wealth', 'betrayal_memory', 'inverse')
