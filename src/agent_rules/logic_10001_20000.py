@@ -5723,3 +5723,6 @@ def logic_19886(agents, world):
 
 def logic_19887(agents, world):
     _agent_apply(world, agents, 'oxygen_need', 'pathogen_risk', 'inverse')
+
+def logic_19888(agents, world):
+    _agent_apply(world, agents, 'shelter_need', 'pathogen_risk', 'inverse')
