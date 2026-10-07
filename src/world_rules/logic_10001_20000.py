@@ -10610,3 +10610,6 @@ def logic_13515(world):
 
 def logic_13516(world):
     _world_apply(world, 'groundwater', 'pollinators', 'gap')
+
+def logic_13517(world):
+    _world_apply(world, 'groundwater', 'flowers', 'direct')
