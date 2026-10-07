@@ -494,3 +494,6 @@ def logic_10143(world):
 
 def logic_10144(world):
     _world_apply(world, 'cloud', 'predator', 'direct')
+
+def logic_10145(world):
+    _world_apply(world, 'cloud', 'carrion', 'pulse')
