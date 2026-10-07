@@ -5972,3 +5972,6 @@ def logic_19969(agents, world):
 
 def logic_19970(agents, world):
     _agent_apply(world, agents, 'algae', 'recovery', 'square')
+
+def logic_19971(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'recovery', 'square')
