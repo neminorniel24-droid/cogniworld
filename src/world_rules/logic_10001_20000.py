@@ -15296,3 +15296,6 @@ def logic_15077(world):
 
 def logic_15078(world):
     _world_apply(world, 'habitat_stress', 'co2', 'square')
+
+def logic_15079(world):
+    _world_apply(world, 'habitat_stress', 'photosynthesis_factor', 'pulse')
