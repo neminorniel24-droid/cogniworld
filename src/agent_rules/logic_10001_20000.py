@@ -4268,3 +4268,6 @@ def logic_19401(agents, world):
 
 def logic_19402(agents, world):
     _agent_apply(world, agents, 'detritus', 'exploration_score', 'threshold')
+
+def logic_19403(agents, world):
+    _agent_apply(world, agents, 'methane', 'exploration_score', 'threshold')
