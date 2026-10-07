@@ -848,3 +848,6 @@ def logic_4349(agents, world):
 
 def logic_4350(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'health', 'direct')
+
+def logic_4351(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'health', 'direct')
