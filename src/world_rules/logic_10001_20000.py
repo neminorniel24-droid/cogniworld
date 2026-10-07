@@ -9359,3 +9359,6 @@ def logic_13098(world):
 
 def logic_13099(world):
     _world_apply(world, 'habitat_stress', 'photosynthesis_factor', 'direct')
+
+def logic_13100(world):
+    _world_apply(world, 'habitat_stress', 'ice', 'square')
