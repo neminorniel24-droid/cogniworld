@@ -18179,3 +18179,6 @@ def logic_16038(world):
 
 def logic_16039(world):
     _world_apply(world, 'humidity', 'herbivore', 'pulse')
+
+def logic_16040(world):
+    _world_apply(world, 'humidity', 'predator', 'saturation')
