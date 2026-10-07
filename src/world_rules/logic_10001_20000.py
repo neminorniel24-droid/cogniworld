@@ -15158,3 +15158,6 @@ def logic_15031(world):
 
 def logic_15032(world):
     _world_apply(world, 'biodiversity', 'decomposition_rate', 'gap')
+
+def logic_15033(world):
+    _world_apply(world, 'biodiversity', 'oxygen', 'square')
