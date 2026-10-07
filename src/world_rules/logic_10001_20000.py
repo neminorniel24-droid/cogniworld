@@ -22556,3 +22556,6 @@ def logic_17497(world):
 
 def logic_17498(world):
     _world_apply(world, 'sediment', 'co2', 'gap')
+
+def logic_17499(world):
+    _world_apply(world, 'sediment', 'photosynthesis_factor', 'direct')
