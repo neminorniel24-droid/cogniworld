@@ -317,3 +317,6 @@ def logic_10084(world):
 
 def logic_10085(world):
     _world_apply(world, 'surface_water', 'flowers', 'gap')
+
+def logic_10086(world):
+    _world_apply(world, 'surface_water', 'seed_bank', 'direct')
