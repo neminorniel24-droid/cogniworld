@@ -12248,3 +12248,6 @@ def logic_14061(world):
 
 def logic_14062(world):
     _world_apply(world, 'humidity', 'nutrients', 'saturation')
+
+def logic_14063(world):
+    _world_apply(world, 'humidity', 'decomposition_rate', 'gap')
