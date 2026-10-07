@@ -1943,3 +1943,6 @@ def logic_18626(agents, world):
 
 def logic_18627(agents, world):
     _agent_apply(world, agents, 'conflict_pressure', 'social_avoidance', 'reciprocal')
+
+def logic_18628(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'social_avoidance', 'reciprocal')
