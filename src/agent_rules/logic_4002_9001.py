@@ -14276,3 +14276,6 @@ def logic_8825(agents, world):
 
 def logic_8826(agents, world):
     _agent_apply(world, agents, 'ash', 'risk_score', 'direct')
+
+def logic_8827(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'risk_score', 'direct')
