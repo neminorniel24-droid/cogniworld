@@ -4460,3 +4460,6 @@ def logic_5553(agents, world):
 
 def logic_5554(agents, world):
     _agent_apply(world, agents, 'biodiversity', 'trust', 'direct')
+
+def logic_5555(agents, world):
+    _agent_apply(world, agents, 'habitat_stress', 'trust', 'direct')
