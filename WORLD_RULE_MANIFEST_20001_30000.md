@@ -5580,3 +5580,4 @@
 - 25579: integrated cross-system causal rule
 - 25580: integrated cross-system causal rule
 - 25581: integrated cross-system causal rule
+- 25582: integrated cross-system causal rule
