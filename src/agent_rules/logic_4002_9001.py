@@ -12230,3 +12230,6 @@ def logic_8143(agents, world):
 
 def logic_8144(agents, world):
     _agent_apply(world, agents, 'carbon_storage', 'last_energy_delta', 'direct')
+
+def logic_8145(agents, world):
+    _agent_apply(world, agents, 'fire_risk', 'last_energy_delta', 'direct')
