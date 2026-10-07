@@ -23036,3 +23036,6 @@ def logic_17657(world):
 
 def logic_17658(world):
     _world_apply(world, 'deadwood', 'surface_water', 'gap')
+
+def logic_17659(world):
+    _world_apply(world, 'deadwood', 'humidity', 'direct')
