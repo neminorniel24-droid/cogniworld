@@ -24020,3 +24020,6 @@ def logic_17985(world):
 
 def logic_17986(world):
     _world_apply(world, 'surface_water', 'methane', 'saturation')
+
+def logic_17987(world):
+    _world_apply(world, 'surface_water', 'pathogen_load', 'gap')
