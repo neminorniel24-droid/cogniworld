@@ -63974,3 +63974,10 @@ def logic_39517(agents, world):
     src = _local(world, agents, 'pollinators')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.exploration_score = _delta(agents.exploration_score, delta)
+
+
+def logic_39518(agents, world):
+    """Environmental flowers shapes agent defense_score (direct)."""
+    src = _local(world, agents, 'flowers')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.defense_score = _delta(agents.defense_score, delta)
