@@ -16373,3 +16373,6 @@ def logic_15436(world):
 
 def logic_15437(world):
     _world_apply(world, 'snowpack', 'biodiversity', 'direct')
+
+def logic_15438(world):
+    _world_apply(world, 'snowpack', 'habitat_stress', 'square')
