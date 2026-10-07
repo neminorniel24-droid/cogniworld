@@ -20786,3 +20786,6 @@ def logic_16907(world):
 
 def logic_16908(world):
     _world_apply(world, 'detritus', 'surface_ice', 'direct')
+
+def logic_16909(world):
+    _world_apply(world, 'methane', 'temperature', 'square')
