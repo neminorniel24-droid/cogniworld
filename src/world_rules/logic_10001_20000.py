@@ -16352,3 +16352,6 @@ def logic_15429(world):
 
 def logic_15430(world):
     _world_apply(world, 'snowpack', 'co2', 'pulse')
+
+def logic_15431(world):
+    _world_apply(world, 'snowpack', 'photosynthesis_factor', 'saturation')
