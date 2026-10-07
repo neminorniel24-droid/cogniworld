@@ -10382,3 +10382,6 @@ def logic_13439(world):
 
 def logic_13440(world):
     _world_apply(world, 'snowpack', 'wind_x', 'saturation')
+
+def logic_13441(world):
+    _world_apply(world, 'snowpack', 'wind_y', 'direct')
