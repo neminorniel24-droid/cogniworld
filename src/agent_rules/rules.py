@@ -54125,3 +54125,10 @@ def logic_38110(agents, world):
     src = _local(world, agents, 'carrion')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.reproduction_drive = _delta(agents.reproduction_drive, delta)
+
+
+def logic_38111(agents, world):
+    """Environmental nutrients shapes agent social_tolerance (inverse)."""
+    src = _local(world, agents, 'nutrients')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.social_tolerance = _delta(agents.social_tolerance, delta)
