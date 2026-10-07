@@ -14711,3 +14711,6 @@ def logic_8970(agents, world):
 
 def logic_8971(agents, world):
     _agent_apply(world, agents, 'flowers', 'exploration_score', 'direct')
+
+def logic_8972(agents, world):
+    _agent_apply(world, agents, 'seed_bank', 'exploration_score', 'direct')
