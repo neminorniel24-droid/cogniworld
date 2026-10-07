@@ -659,3 +659,4 @@
 - 20658: integrated cross-system causal rule
 - 20659: integrated cross-system causal rule
 - 20660: integrated cross-system causal rule
+- 20661: integrated cross-system causal rule
