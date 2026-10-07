@@ -8948,3 +8948,6 @@ def logic_12961(world):
 
 def logic_12962(world):
     _world_apply(world, 'methane', 'carrion', 'square')
+
+def logic_12963(world):
+    _world_apply(world, 'methane', 'nutrients', 'pulse')
