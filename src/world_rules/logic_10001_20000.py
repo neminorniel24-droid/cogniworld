@@ -7838,3 +7838,6 @@ def logic_12591(world):
 
 def logic_12592(world):
     _world_apply(world, 'carrion', 'pollinators', 'gap')
+
+def logic_12593(world):
+    _world_apply(world, 'carrion', 'flowers', 'square')
