@@ -19652,3 +19652,6 @@ def logic_16529(world):
 
 def logic_16530(world):
     _world_apply(world, 'carrion', 'photosynthesis_factor', 'direct')
+
+def logic_16531(world):
+    _world_apply(world, 'carrion', 'ice', 'square')
