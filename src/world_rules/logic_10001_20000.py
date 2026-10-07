@@ -521,3 +521,6 @@ def logic_10152(world):
 
 def logic_10153(world):
     _world_apply(world, 'cloud', 'detritus', 'square')
+
+def logic_10154(world):
+    _world_apply(world, 'cloud', 'methane', 'pulse')
