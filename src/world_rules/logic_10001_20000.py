@@ -4349,3 +4349,6 @@ def logic_11428(world):
 
 def logic_11429(world):
     _world_apply(world, 'ash', 'evaporation', 'square')
+
+def logic_11430(world):
+    _world_apply(world, 'ash', 'detritus', 'pulse')
