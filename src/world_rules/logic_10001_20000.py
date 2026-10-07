@@ -3650,3 +3650,6 @@ def logic_11195(world):
 
 def logic_11196(world):
     _world_apply(world, 'soil_depth', 'wind_x', 'gap')
+
+def logic_11197(world):
+    _world_apply(world, 'soil_depth', 'wind_y', 'direct')
