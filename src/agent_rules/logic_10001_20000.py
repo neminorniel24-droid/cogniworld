@@ -5006,3 +5006,6 @@ def logic_19647(agents, world):
 
 def logic_19648(agents, world):
     _agent_apply(world, agents, 'reproduction_score', 'strategy_mixing', 'gap')
+
+def logic_19649(agents, world):
+    _agent_apply(world, agents, 'sharing_score', 'strategy_mixing', 'gap')
