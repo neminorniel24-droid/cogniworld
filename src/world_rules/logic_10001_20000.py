@@ -22232,3 +22232,6 @@ def logic_17389(world):
 
 def logic_17390(world):
     _world_apply(world, 'ash', 'seed_bank', 'pulse')
+
+def logic_17391(world):
+    _world_apply(world, 'ash', 'soil_carbon', 'saturation')
