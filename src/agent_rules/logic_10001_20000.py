@@ -3728,3 +3728,6 @@ def logic_19221(agents, world):
 
 def logic_19222(agents, world):
     _agent_apply(world, agents, 'reciprocity_score', 'last_interaction', 'sqrt')
+
+def logic_19223(agents, world):
+    _agent_apply(world, agents, 'risk_score', 'last_interaction', 'sqrt')
