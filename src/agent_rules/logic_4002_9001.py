@@ -12524,3 +12524,6 @@ def logic_8241(agents, world):
 
 def logic_8242(agents, world):
     _agent_apply(world, agents, 'reputation', 'last_food', 'direct')
+
+def logic_8243(agents, world):
+    _agent_apply(world, agents, 'help_received', 'last_food', 'direct')
