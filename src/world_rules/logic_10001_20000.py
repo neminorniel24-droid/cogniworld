@@ -22058,3 +22058,6 @@ def logic_17331(world):
 
 def logic_17332(world):
     _world_apply(world, 'fire_risk', 'soil_depth', 'pulse')
+
+def logic_17333(world):
+    _world_apply(world, 'fire_risk', 'root_density', 'saturation')
