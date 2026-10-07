@@ -13430,3 +13430,6 @@ def logic_8543(agents, world):
 
 def logic_8544(agents, world):
     _agent_apply(world, agents, 'methane', 'cooperation_score', 'direct')
+
+def logic_8545(agents, world):
+    _agent_apply(world, agents, 'pathogen_load', 'cooperation_score', 'direct')
