@@ -8065,3 +8065,4 @@
 - 28064: integrated cross-system causal rule
 - 28065: integrated cross-system causal rule
 - 28066: integrated cross-system causal rule
+- 28067: integrated cross-system causal rule
