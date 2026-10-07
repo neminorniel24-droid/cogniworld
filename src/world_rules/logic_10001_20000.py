@@ -20030,3 +20030,6 @@ def logic_16655(world):
 
 def logic_16656(world):
     _world_apply(world, 'oxygen', 'herbivore', 'square')
+
+def logic_16657(world):
+    _world_apply(world, 'oxygen', 'predator', 'saturation')
