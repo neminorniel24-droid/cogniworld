@@ -2423,3 +2423,6 @@ def logic_4874(agents, world):
 
 def logic_4875(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'metabolic_cost', 'direct')
+
+def logic_4876(agents, world):
+    _agent_apply(world, agents, 'erosion', 'metabolic_cost', 'direct')
