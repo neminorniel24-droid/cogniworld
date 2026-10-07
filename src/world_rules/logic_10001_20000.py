@@ -22805,3 +22805,6 @@ def logic_17580(world):
 
 def logic_17581(world):
     _world_apply(world, 'algae', 'predator', 'pulse')
+
+def logic_17582(world):
+    _world_apply(world, 'algae', 'carrion', 'saturation')
