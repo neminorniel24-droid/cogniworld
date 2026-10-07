@@ -2606,3 +2606,6 @@ def logic_18847(agents, world):
 
 def logic_18848(agents, world):
     _agent_apply(world, agents, 'ice', 'defection_threshold', 'feedback')
+
+def logic_18849(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'oxygen_need', 'feedback')
