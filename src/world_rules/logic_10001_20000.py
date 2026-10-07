@@ -9857,3 +9857,6 @@ def logic_13264(world):
 
 def logic_13265(world):
     _world_apply(world, 'wetland', 'wind_y', 'pulse')
+
+def logic_13266(world):
+    _world_apply(world, 'wetland', 'vegetation', 'saturation')
