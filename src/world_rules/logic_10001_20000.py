@@ -21659,3 +21659,6 @@ def logic_17198(world):
 
 def logic_17199(world):
     _world_apply(world, 'root_density', 'erosion', 'pulse')
+
+def logic_17200(world):
+    _world_apply(world, 'root_density', 'soil_depth', 'saturation')
