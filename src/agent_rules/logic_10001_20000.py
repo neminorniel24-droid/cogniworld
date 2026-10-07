@@ -3560,3 +3560,6 @@ def logic_19165(agents, world):
 
 def logic_19166(agents, world):
     _agent_apply(world, agents, 'reproduction_drive', 'last_energy_delta', 'sqrt')
+
+def logic_19167(agents, world):
+    _agent_apply(world, agents, 'migration_drive', 'last_energy_delta', 'sqrt')
