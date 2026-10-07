@@ -8925,3 +8925,4 @@
 - 28924: integrated cross-system causal rule
 - 28925: integrated cross-system causal rule
 - 28926: integrated cross-system causal rule
+- 28927: integrated cross-system causal rule
