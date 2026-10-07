@@ -2265,3 +2265,6 @@ def logic_9929(agents, world):
 
 def logic_9930(agents, world):
     _agent_apply(world, agents, 'hydration', 'recovery', 'direct')
+
+def logic_9931(agents, world):
+    _agent_apply(world, agents, 'thirst', 'recovery', 'direct')
