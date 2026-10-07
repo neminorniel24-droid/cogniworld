@@ -6302,3 +6302,6 @@ def logic_12079(world):
 
 def logic_12080(world):
     _world_apply(world, 'humidity', 'predator', 'saturation')
+
+def logic_12081(world):
+    _world_apply(world, 'humidity', 'carrion', 'direct')
