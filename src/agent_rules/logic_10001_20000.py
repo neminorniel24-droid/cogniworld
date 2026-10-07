@@ -935,3 +935,6 @@ def logic_18290(agents, world):
 
 def logic_18291(agents, world):
     _agent_apply(world, agents, 'nutrients', 'exploration_drive', 'sqrt')
+
+def logic_18292(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'exploration_drive', 'sqrt')
