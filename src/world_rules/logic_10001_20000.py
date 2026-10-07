@@ -22613,3 +22613,6 @@ def logic_17516(world):
 
 def logic_17517(world):
     _world_apply(world, 'sediment', 'algae', 'direct')
+
+def logic_17518(world):
+    _world_apply(world, 'sediment', 'organic_matter', 'square')
