@@ -8399,3 +8399,6 @@ def logic_12778(world):
 
 def logic_12779(world):
     _world_apply(world, 'photosynthesis_factor', 'runoff', 'direct')
+
+def logic_12780(world):
+    _world_apply(world, 'photosynthesis_factor', 'wind_x', 'square')
