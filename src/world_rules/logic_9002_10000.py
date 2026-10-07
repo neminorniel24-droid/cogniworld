@@ -192,3 +192,6 @@ def logic_9039(world):
 
 def logic_9040(world):
     _world_apply(world, 'salinity', 'vegetation', 'saturation')
+
+def logic_9041(world):
+    _world_apply(world, 'salinity', 'biodiversity', 'reciprocal')
