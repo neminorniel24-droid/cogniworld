@@ -6128,3 +6128,6 @@ def logic_6109(agents, world):
 
 def logic_6110(agents, world):
     _agent_apply(world, agents, 'salinity', 'sharing_capacity', 'direct')
+
+def logic_6111(agents, world):
+    _agent_apply(world, agents, 'algae', 'sharing_capacity', 'direct')
