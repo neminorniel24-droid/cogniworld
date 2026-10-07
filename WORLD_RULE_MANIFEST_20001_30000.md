@@ -72,3 +72,4 @@
 - 20071: integrated cross-system causal rule
 - 20072: integrated cross-system causal rule
 - 20073: integrated cross-system causal rule
+- 20074: integrated cross-system causal rule
