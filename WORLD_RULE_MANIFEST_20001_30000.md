@@ -8904,3 +8904,4 @@
 - 28903: integrated cross-system causal rule
 - 28904: integrated cross-system causal rule
 - 28905: integrated cross-system causal rule
+- 28906: integrated cross-system causal rule
