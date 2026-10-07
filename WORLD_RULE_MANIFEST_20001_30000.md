@@ -120,3 +120,4 @@
 - 20119: integrated cross-system causal rule
 - 20120: integrated cross-system causal rule
 - 20121: integrated cross-system causal rule
+- 20122: integrated cross-system causal rule
