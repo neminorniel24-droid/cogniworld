@@ -3326,3 +3326,6 @@ def logic_11087(world):
 
 def logic_11088(world):
     _world_apply(world, 'biodiversity', 'ash', 'pulse')
+
+def logic_11089(world):
+    _world_apply(world, 'biodiversity', 'snowpack', 'gap')
