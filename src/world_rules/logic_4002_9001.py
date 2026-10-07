@@ -134,3 +134,6 @@ def logic_4011(world):
 
 def logic_4012(world):
     _world_apply(world, 'organic_matter', 'soil_carbon', 'square')
+
+def logic_4013(world):
+    _world_apply(world, 'soil_carbon', 'vegetation', 'sqrt')
