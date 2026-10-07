@@ -9023,3 +9023,6 @@ def logic_12986(world):
 
 def logic_12987(world):
     _world_apply(world, 'methane', 'deadwood', 'gap')
+
+def logic_12988(world):
+    _world_apply(world, 'methane', 'pollinators', 'direct')
