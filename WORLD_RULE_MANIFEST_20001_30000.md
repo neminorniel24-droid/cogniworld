@@ -3601,3 +3601,4 @@
 - 23600: integrated cross-system causal rule
 - 23601: integrated cross-system causal rule
 - 23602: integrated cross-system causal rule
+- 23603: integrated cross-system causal rule
