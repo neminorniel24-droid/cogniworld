@@ -18629,3 +18629,6 @@ def logic_16188(world):
 
 def logic_16189(world):
     _world_apply(world, 'soil_moisture', 'wetland', 'square')
+
+def logic_16190(world):
+    _world_apply(world, 'soil_moisture', 'carbon_storage', 'pulse')
