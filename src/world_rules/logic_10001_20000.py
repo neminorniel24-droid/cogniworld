@@ -1352,3 +1352,6 @@ def logic_10429(world):
 
 def logic_10430(world):
     _world_apply(world, 'vegetation', 'groundwater', 'pulse')
+
+def logic_10431(world):
+    _world_apply(world, 'vegetation', 'sediment', 'saturation')
