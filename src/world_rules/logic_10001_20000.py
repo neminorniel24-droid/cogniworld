@@ -443,3 +443,6 @@ def logic_10126(world):
 
 def logic_10127(world):
     _world_apply(world, 'humidity', 'deadwood', 'square')
+
+def logic_10128(world):
+    _world_apply(world, 'humidity', 'pollinators', 'pulse')
