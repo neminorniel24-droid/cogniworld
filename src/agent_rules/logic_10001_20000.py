@@ -4265,3 +4265,6 @@ def logic_19400(agents, world):
 
 def logic_19401(agents, world):
     _agent_apply(world, agents, 'evaporation', 'exploration_score', 'threshold')
+
+def logic_19402(agents, world):
+    _agent_apply(world, agents, 'detritus', 'exploration_score', 'threshold')
