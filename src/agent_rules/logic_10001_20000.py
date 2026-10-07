@@ -4646,3 +4646,6 @@ def logic_19527(agents, world):
 
 def logic_19528(agents, world):
     _agent_apply(world, agents, 'vegetation', 'retaliation_risk', 'reciprocal')
+
+def logic_19529(agents, world):
+    _agent_apply(world, agents, 'biomass', 'retaliation_risk', 'reciprocal')
