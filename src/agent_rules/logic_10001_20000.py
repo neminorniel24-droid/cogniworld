@@ -3401,3 +3401,6 @@ def logic_19112(agents, world):
 
 def logic_19113(agents, world):
     _agent_apply(world, agents, 'wind_y', 'help_given', 'square')
+
+def logic_19114(agents, world):
+    _agent_apply(world, agents, 'vegetation', 'help_given', 'square')
