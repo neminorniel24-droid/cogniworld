@@ -30178,3 +30178,10 @@ def logic_34689(agents, world):
     src = _local(world, agents, 'seed_bank')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.pathogen_risk = _delta(agents.pathogen_risk, delta)
+
+
+def logic_34690(agents, world):
+    """Environmental soil_carbon shapes agent migration_drive (direct)."""
+    src = _local(world, agents, 'soil_carbon')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.migration_drive = _delta(agents.migration_drive, delta)
