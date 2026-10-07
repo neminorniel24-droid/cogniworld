@@ -1908,3 +1908,6 @@ def logic_9810(agents, world):
 
 def logic_9811(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'alertness', 'direct')
+
+def logic_9812(agents, world):
+    _agent_apply(world, agents, 'payoff', 'alertness', 'direct')
