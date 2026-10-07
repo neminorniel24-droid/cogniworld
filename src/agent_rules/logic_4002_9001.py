@@ -2540,3 +2540,6 @@ def logic_4913(agents, world):
 
 def logic_4914(agents, world):
     _agent_apply(world, agents, 'strategy_score', 'metabolic_cost', 'direct')
+
+def logic_4915(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'metabolic_cost', 'direct')
