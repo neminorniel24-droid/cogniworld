@@ -5834,3 +5834,6 @@ def logic_6011(agents, world):
 
 def logic_6012(agents, world):
     _agent_apply(world, agents, 'runoff', 'group_stability', 'direct')
+
+def logic_6013(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'group_stability', 'direct')
