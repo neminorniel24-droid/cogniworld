@@ -7322,3 +7322,6 @@ def logic_12419(world):
 
 def logic_12420(world):
     _world_apply(world, 'vegetation', 'surface_ice', 'square')
+
+def logic_12421(world):
+    _world_apply(world, 'biomass', 'temperature', 'pulse')
