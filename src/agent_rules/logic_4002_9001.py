@@ -9242,3 +9242,6 @@ def logic_7147(agents, world):
 
 def logic_7148(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'shelter_need', 'direct')
+
+def logic_7149(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'shelter_need', 'direct')
