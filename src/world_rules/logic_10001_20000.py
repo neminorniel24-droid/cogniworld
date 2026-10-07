@@ -15680,3 +15680,6 @@ def logic_15205(world):
 
 def logic_15206(world):
     _world_apply(world, 'root_density', 'carrion', 'direct')
+
+def logic_15207(world):
+    _world_apply(world, 'root_density', 'nutrients', 'square')
