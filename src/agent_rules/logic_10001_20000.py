@@ -1706,3 +1706,6 @@ def logic_18547(agents, world):
 
 def logic_18548(agents, world):
     _agent_apply(world, agents, 'learning_rate', 'territoriality', 'saturation')
+
+def logic_18549(agents, world):
+    _agent_apply(world, agents, 'memory_update', 'territoriality', 'saturation')
