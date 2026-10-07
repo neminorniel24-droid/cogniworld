@@ -22967,3 +22967,6 @@ def logic_17634(world):
 
 def logic_17635(world):
     _world_apply(world, 'organic_matter', 'methane', 'saturation')
+
+def logic_17636(world):
+    _world_apply(world, 'organic_matter', 'pathogen_load', 'gap')
