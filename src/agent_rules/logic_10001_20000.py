@@ -2648,3 +2648,6 @@ def logic_18861(agents, world):
 
 def logic_18862(agents, world):
     _agent_apply(world, agents, 'snowpack', 'oxygen_need', 'feedback')
+
+def logic_18863(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'oxygen_need', 'feedback')
