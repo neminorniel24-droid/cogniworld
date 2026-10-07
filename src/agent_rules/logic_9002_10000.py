@@ -1014,3 +1014,6 @@ def logic_9512(agents, world):
 
 def logic_9513(agents, world):
     _agent_apply(world, agents, 'pollinators', 'thermal_stress', 'direct')
+
+def logic_9514(agents, world):
+    _agent_apply(world, agents, 'flowers', 'thermal_stress', 'direct')
