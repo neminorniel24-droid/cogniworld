@@ -1190,3 +1190,6 @@ def logic_10375(world):
 
 def logic_10376(world):
     _world_apply(world, 'wind_y', 'biodiversity', 'square')
+
+def logic_10377(world):
+    _world_apply(world, 'wind_y', 'habitat_stress', 'saturation')
