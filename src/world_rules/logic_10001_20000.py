@@ -9374,3 +9374,6 @@ def logic_13103(world):
 
 def logic_13104(world):
     _world_apply(world, 'habitat_stress', 'pathogen_load', 'direct')
+
+def logic_13105(world):
+    _world_apply(world, 'habitat_stress', 'biodiversity', 'pulse')
