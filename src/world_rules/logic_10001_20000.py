@@ -9197,3 +9197,6 @@ def logic_13044(world):
 
 def logic_13045(world):
     _world_apply(world, 'biodiversity', 'wind_y', 'gap')
+
+def logic_13046(world):
+    _world_apply(world, 'biodiversity', 'vegetation', 'direct')
