@@ -12167,3 +12167,6 @@ def logic_14034(world):
 
 def logic_14035(world):
     _world_apply(world, 'surface_water', 'fire_risk', 'saturation')
+
+def logic_14036(world):
+    _world_apply(world, 'surface_water', 'ash', 'gap')
