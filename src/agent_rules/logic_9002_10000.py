@@ -726,3 +726,6 @@ def logic_9416(agents, world):
 
 def logic_9417(agents, world):
     _agent_apply(world, agents, 'predator', 'health', 'direct')
+
+def logic_9418(agents, world):
+    _agent_apply(world, agents, 'carrion', 'health', 'direct')
