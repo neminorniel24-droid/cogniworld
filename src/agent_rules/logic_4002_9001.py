@@ -7952,3 +7952,6 @@ def logic_6717(agents, world):
 
 def logic_6718(agents, world):
     _agent_apply(world, agents, 'ash', 'future_help', 'direct')
+
+def logic_6719(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'future_help', 'direct')
