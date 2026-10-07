@@ -60299,3 +60299,10 @@ def logic_38992(agents, world):
     src = _local(world, agents, 'detritus')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.fire_fear = _delta(agents.fire_fear, delta)
+
+
+def logic_38993(agents, world):
+    """Environmental methane shapes agent betrayal_memory (root)."""
+    src = _local(world, agents, 'methane')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.betrayal_memory = _delta(agents.betrayal_memory, delta)
