@@ -17489,3 +17489,6 @@ def logic_15808(world):
 
 def logic_15809(world):
     _world_apply(world, 'seed_bank', 'temperature', 'gap')
+
+def logic_15810(world):
+    _world_apply(world, 'seed_bank', 'surface_water', 'direct')
