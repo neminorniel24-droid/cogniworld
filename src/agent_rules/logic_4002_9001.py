@@ -6122,3 +6122,6 @@ def logic_6107(agents, world):
 
 def logic_6108(agents, world):
     _agent_apply(world, agents, 'groundwater', 'sharing_capacity', 'direct')
+
+def logic_6109(agents, world):
+    _agent_apply(world, agents, 'sediment', 'sharing_capacity', 'direct')
