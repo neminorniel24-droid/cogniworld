@@ -48455,3 +48455,10 @@ def logic_37300(agents, world):
     src = _local(world, agents, 'fire_risk')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.future_help = _delta(agents.future_help, delta)
+
+
+def logic_37301(agents, world):
+    """Environmental ash shapes agent fire_fear (root)."""
+    src = _local(world, agents, 'ash')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.fire_fear = _delta(agents.fire_fear, delta)
