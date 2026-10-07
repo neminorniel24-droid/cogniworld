@@ -2042,3 +2042,6 @@ def logic_18659(agents, world):
 
 def logic_18660(agents, world):
     _agent_apply(world, agents, 'last_reward', 'generosity', 'reciprocal')
+
+def logic_18661(agents, world):
+    _agent_apply(world, agents, 'last_energy_delta', 'generosity', 'reciprocal')
