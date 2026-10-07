@@ -2303,3 +2303,6 @@ def logic_18746(agents, world):
 
 def logic_18747(agents, world):
     _agent_apply(world, agents, 'infection_risk', 'strategy_confidence', 'gap')
+
+def logic_18748(agents, world):
+    _agent_apply(world, agents, 'alertness', 'strategy_confidence', 'gap')
