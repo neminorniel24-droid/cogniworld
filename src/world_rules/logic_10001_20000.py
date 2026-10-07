@@ -20675,3 +20675,6 @@ def logic_16870(world):
 
 def logic_16871(world):
     _world_apply(world, 'detritus', 'runoff', 'saturation')
+
+def logic_16872(world):
+    _world_apply(world, 'detritus', 'wind_x', 'gap')
