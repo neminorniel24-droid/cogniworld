@@ -9530,3 +9530,6 @@ def logic_13155(world):
 
 def logic_13156(world):
     _world_apply(world, 'erosion', 'ash', 'gap')
+
+def logic_13157(world):
+    _world_apply(world, 'erosion', 'snowpack', 'direct')
