@@ -13490,3 +13490,6 @@ def logic_14475(world):
 
 def logic_14476(world):
     _world_apply(world, 'herbivore', 'ash', 'gap')
+
+def logic_14477(world):
+    _world_apply(world, 'herbivore', 'snowpack', 'direct')
