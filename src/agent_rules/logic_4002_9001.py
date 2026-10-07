@@ -10598,3 +10598,6 @@ def logic_7599(agents, world):
 
 def logic_7600(agents, world):
     _agent_apply(world, agents, 'carbon_storage', 'neighbor_health_gap', 'direct')
+
+def logic_7601(agents, world):
+    _agent_apply(world, agents, 'fire_risk', 'neighbor_health_gap', 'direct')
