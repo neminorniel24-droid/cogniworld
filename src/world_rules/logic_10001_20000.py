@@ -10613,3 +10613,6 @@ def logic_13516(world):
 
 def logic_13517(world):
     _world_apply(world, 'groundwater', 'flowers', 'direct')
+
+def logic_13518(world):
+    _world_apply(world, 'groundwater', 'seed_bank', 'square')
