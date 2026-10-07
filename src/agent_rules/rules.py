@@ -57275,3 +57275,10 @@ def logic_38560(agents, world):
     src = _local(world, agents, 'cloud')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.vegetation_expectation = _delta(agents.vegetation_expectation, delta)
+
+
+def logic_38561(agents, world):
+    """Environmental rain shapes agent cooperation_history (root)."""
+    src = _local(world, agents, 'rain')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.cooperation_history = _delta(agents.cooperation_history, delta)
