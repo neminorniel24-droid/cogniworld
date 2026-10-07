@@ -14735,3 +14735,6 @@ def logic_14890(world):
 
 def logic_14891(world):
     _world_apply(world, 'detritus', 'runoff', 'square')
+
+def logic_14892(world):
+    _world_apply(world, 'detritus', 'wind_x', 'pulse')
