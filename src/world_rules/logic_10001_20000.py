@@ -7490,3 +7490,6 @@ def logic_12475(world):
 
 def logic_12476(world):
     _world_apply(world, 'herbivore', 'predator', 'gap')
+
+def logic_12477(world):
+    _world_apply(world, 'herbivore', 'carrion', 'direct')
