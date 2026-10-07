@@ -2369,3 +2369,6 @@ def logic_4856(agents, world):
 
 def logic_4857(agents, world):
     _agent_apply(world, agents, 'wind_x', 'metabolic_cost', 'direct')
+
+def logic_4858(agents, world):
+    _agent_apply(world, agents, 'wind_y', 'metabolic_cost', 'direct')
