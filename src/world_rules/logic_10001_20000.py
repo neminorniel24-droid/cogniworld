@@ -6125,3 +6125,6 @@ def logic_12020(world):
 
 def logic_12021(world):
     _world_apply(world, 'temperature', 'flowers', 'pulse')
+
+def logic_12022(world):
+    _world_apply(world, 'temperature', 'seed_bank', 'saturation')
