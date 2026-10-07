@@ -7385,3 +7385,6 @@ def logic_12440(world):
 
 def logic_12441(world):
     _world_apply(world, 'biomass', 'detritus', 'direct')
+
+def logic_12442(world):
+    _world_apply(world, 'biomass', 'methane', 'square')
