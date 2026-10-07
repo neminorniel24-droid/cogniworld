@@ -12212,3 +12212,6 @@ def logic_8137(agents, world):
 
 def logic_8138(agents, world):
     _agent_apply(world, agents, 'biodiversity', 'last_energy_delta', 'direct')
+
+def logic_8139(agents, world):
+    _agent_apply(world, agents, 'habitat_stress', 'last_energy_delta', 'direct')
