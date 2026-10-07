@@ -9413,3 +9413,6 @@ def logic_7204(agents, world):
 
 def logic_7205(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'fire_fear', 'direct')
+
+def logic_7206(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'fire_fear', 'direct')
