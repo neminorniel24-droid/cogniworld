@@ -4778,3 +4778,4 @@
 - 24777: integrated cross-system causal rule
 - 24778: integrated cross-system causal rule
 - 24779: integrated cross-system causal rule
+- 24780: integrated cross-system causal rule
