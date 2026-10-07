@@ -3770,3 +3770,6 @@ def logic_11235(world):
 
 def logic_11236(world):
     _world_apply(world, 'root_density', 'cloud', 'gap')
+
+def logic_11237(world):
+    _world_apply(world, 'root_density', 'rain', 'direct')
