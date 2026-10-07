@@ -10304,3 +10304,6 @@ def logic_7501(agents, world):
 
 def logic_7502(agents, world):
     _agent_apply(world, agents, 'temperature', 'neighbor_energy_gap', 'direct')
+
+def logic_7503(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'neighbor_energy_gap', 'direct')
