@@ -13880,3 +13880,6 @@ def logic_14605(world):
 
 def logic_14606(world):
     _world_apply(world, 'nutrients', 'carbon_storage', 'direct')
+
+def logic_14607(world):
+    _world_apply(world, 'nutrients', 'fire_risk', 'square')
