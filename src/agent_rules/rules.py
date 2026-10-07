@@ -44346,3 +44346,10 @@ def logic_36713(agents, world):
     src = _local(world, agents, 'seed_bank')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.defection = _delta(agents.defection, delta)
+
+
+def logic_36714(agents, world):
+    """Environmental soil_carbon shapes agent help_drive (direct)."""
+    src = _local(world, agents, 'soil_carbon')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.help_drive = _delta(agents.help_drive, delta)
