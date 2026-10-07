@@ -2891,3 +2891,6 @@ def logic_10942(world):
 
 def logic_10943(world):
     _world_apply(world, 'detritus', 'photosynthesis_factor', 'gap')
+
+def logic_10944(world):
+    _world_apply(world, 'detritus', 'ice', 'direct')
