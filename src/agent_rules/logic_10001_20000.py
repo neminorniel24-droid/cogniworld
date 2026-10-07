@@ -3347,3 +3347,6 @@ def logic_19094(agents, world):
 
 def logic_19095(agents, world):
     _agent_apply(world, agents, 'migration_score', 'help_received', 'square')
+
+def logic_19096(agents, world):
+    _agent_apply(world, agents, 'reproduction_score', 'help_received', 'square')
