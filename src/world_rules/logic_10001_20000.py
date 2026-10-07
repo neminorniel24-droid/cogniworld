@@ -20573,3 +20573,6 @@ def logic_16836(world):
 
 def logic_16837(world):
     _world_apply(world, 'evaporation', 'oxygen', 'direct')
+
+def logic_16838(world):
+    _world_apply(world, 'evaporation', 'co2', 'square')
