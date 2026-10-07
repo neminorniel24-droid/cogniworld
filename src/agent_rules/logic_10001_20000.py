@@ -4082,3 +4082,6 @@ def logic_19339(agents, world):
 
 def logic_19340(agents, world):
     _agent_apply(world, agents, 'stress', 'defection_score', 'threshold')
+
+def logic_19341(agents, world):
+    _agent_apply(world, agents, 'social_need', 'defection_score', 'threshold')
