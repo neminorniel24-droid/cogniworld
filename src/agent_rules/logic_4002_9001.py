@@ -4100,3 +4100,6 @@ def logic_5433(agents, world):
 
 def logic_5434(agents, world):
     _agent_apply(world, agents, 'pollinators', 'social_tolerance', 'direct')
+
+def logic_5435(agents, world):
+    _agent_apply(world, agents, 'flowers', 'social_tolerance', 'direct')
