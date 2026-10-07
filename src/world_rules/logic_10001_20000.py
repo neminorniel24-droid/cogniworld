@@ -22484,3 +22484,6 @@ def logic_17473(world):
 
 def logic_17474(world):
     _world_apply(world, 'groundwater', 'organic_matter', 'pulse')
+
+def logic_17475(world):
+    _world_apply(world, 'groundwater', 'deadwood', 'saturation')
