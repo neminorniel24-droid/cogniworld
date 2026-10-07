@@ -4064,3 +4064,6 @@ def logic_19333(agents, world):
 
 def logic_19334(agents, world):
     _agent_apply(world, agents, 'defection_threshold', 'defection_score', 'pulse')
+
+def logic_19335(agents, world):
+    _agent_apply(world, agents, 'oxygen_need', 'defection_score', 'pulse')
