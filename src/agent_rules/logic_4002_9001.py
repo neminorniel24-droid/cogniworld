@@ -4958,3 +4958,6 @@ def logic_5719(agents, world):
 
 def logic_5720(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'defection', 'direct')
+
+def logic_5721(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'defection', 'direct')
