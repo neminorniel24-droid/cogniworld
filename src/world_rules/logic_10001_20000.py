@@ -5957,3 +5957,6 @@ def logic_11964(world):
 
 def logic_11965(world):
     _world_apply(world, 'surface_ice', 'root_density', 'gap')
+
+def logic_11966(world):
+    _world_apply(world, 'surface_ice', 'wetland', 'direct')
