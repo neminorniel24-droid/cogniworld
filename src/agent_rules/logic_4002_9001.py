@@ -11543,3 +11543,6 @@ def logic_7914(agents, world):
 
 def logic_7915(agents, world):
     _agent_apply(world, agents, 'soil_moisture', 'help_given', 'direct')
+
+def logic_7916(agents, world):
+    _agent_apply(world, agents, 'runoff', 'help_given', 'direct')
