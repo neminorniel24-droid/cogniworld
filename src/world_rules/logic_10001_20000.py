@@ -14864,3 +14864,6 @@ def logic_14933(world):
 
 def logic_14934(world):
     _world_apply(world, 'methane', 'soil_moisture', 'gap')
+
+def logic_14935(world):
+    _world_apply(world, 'methane', 'runoff', 'direct')
