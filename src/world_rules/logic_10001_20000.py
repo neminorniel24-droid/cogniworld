@@ -7700,3 +7700,6 @@ def logic_12545(world):
 
 def logic_12546(world):
     _world_apply(world, 'predator', 'organic_matter', 'saturation')
+
+def logic_12547(world):
+    _world_apply(world, 'predator', 'deadwood', 'gap')
