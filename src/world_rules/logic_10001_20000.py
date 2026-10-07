@@ -13943,3 +13943,6 @@ def logic_14626(world):
 
 def logic_14627(world):
     _world_apply(world, 'decomposition_rate', 'runoff', 'gap')
+
+def logic_14628(world):
+    _world_apply(world, 'decomposition_rate', 'wind_x', 'direct')
