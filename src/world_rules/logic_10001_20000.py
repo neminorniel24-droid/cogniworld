@@ -4610,3 +4610,6 @@ def logic_11515(world):
 
 def logic_11516(world):
     _world_apply(world, 'groundwater', 'ice', 'gap')
+
+def logic_11517(world):
+    _world_apply(world, 'groundwater', 'evaporation', 'direct')
