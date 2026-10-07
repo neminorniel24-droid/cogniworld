@@ -19250,3 +19250,6 @@ def logic_16395(world):
 
 def logic_16396(world):
     _world_apply(world, 'biomass', 'oxygen', 'gap')
+
+def logic_16397(world):
+    _world_apply(world, 'biomass', 'co2', 'direct')
