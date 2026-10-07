@@ -23504,3 +23504,6 @@ def logic_17813(world):
 
 def logic_17814(world):
     _world_apply(world, 'seed_bank', 'habitat_stress', 'gap')
+
+def logic_17815(world):
+    _world_apply(world, 'seed_bank', 'erosion', 'direct')
