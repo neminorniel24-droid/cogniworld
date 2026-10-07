@@ -1772,3 +1772,6 @@ def logic_18569(agents, world):
 
 def logic_18570(agents, world):
     _agent_apply(world, agents, 'co2', 'group_stability', 'saturation')
+
+def logic_18571(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'group_stability', 'saturation')
