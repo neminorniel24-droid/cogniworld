@@ -1895,3 +1895,6 @@ def logic_10610(world):
 
 def logic_10611(world):
     _world_apply(world, 'carrion', 'deadwood', 'square')
+
+def logic_10612(world):
+    _world_apply(world, 'carrion', 'pollinators', 'pulse')
