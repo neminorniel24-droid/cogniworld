@@ -6203,3 +6203,6 @@ def logic_6134(agents, world):
 
 def logic_6135(agents, world):
     _agent_apply(world, agents, 'help_received', 'sharing_capacity', 'direct')
+
+def logic_6136(agents, world):
+    _agent_apply(world, agents, 'help_given', 'sharing_capacity', 'direct')
