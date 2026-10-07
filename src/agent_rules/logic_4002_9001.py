@@ -11744,3 +11744,6 @@ def logic_7981(agents, world):
 
 def logic_7982(agents, world):
     _agent_apply(world, agents, 'rain', 'local_density', 'direct')
+
+def logic_7983(agents, world):
+    _agent_apply(world, agents, 'soil_moisture', 'local_density', 'direct')
