@@ -146,3 +146,6 @@ def logic_10027(world):
 
 def logic_10028(world):
     _world_apply(world, 'temperature', 'root_density', 'direct')
+
+def logic_10029(world):
+    _world_apply(world, 'temperature', 'wetland', 'square')
