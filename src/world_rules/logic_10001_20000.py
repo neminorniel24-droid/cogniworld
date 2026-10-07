@@ -125,3 +125,6 @@ def logic_10020(world):
 
 def logic_10021(world):
     _world_apply(world, 'temperature', 'detritus', 'pulse')
+
+def logic_10022(world):
+    _world_apply(world, 'temperature', 'methane', 'saturation')
