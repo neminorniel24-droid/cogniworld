@@ -300,3 +300,6 @@ def logic_9274(agents, world):
 
 def logic_9275(agents, world):
     _agent_apply(world, agents, 'runoff', 'thirst', 'direct')
+
+def logic_9276(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'thirst', 'direct')
