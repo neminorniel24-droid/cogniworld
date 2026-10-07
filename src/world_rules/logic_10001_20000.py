@@ -20225,3 +20225,6 @@ def logic_16720(world):
 
 def logic_16721(world):
     _world_apply(world, 'co2', 'snowpack', 'direct')
+
+def logic_16722(world):
+    _world_apply(world, 'co2', 'groundwater', 'square')
