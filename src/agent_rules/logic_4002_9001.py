@@ -9176,3 +9176,6 @@ def logic_7125(agents, world):
 
 def logic_7126(agents, world):
     _agent_apply(world, agents, 'ash', 'shelter_need', 'direct')
+
+def logic_7127(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'shelter_need', 'direct')
