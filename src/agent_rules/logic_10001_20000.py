@@ -2480,3 +2480,6 @@ def logic_18805(agents, world):
 
 def logic_18806(agents, world):
     _agent_apply(world, agents, 'competition_score', 'empathy', 'feedback')
+
+def logic_18807(agents, world):
+    _agent_apply(world, agents, 'defection_score', 'empathy', 'feedback')
