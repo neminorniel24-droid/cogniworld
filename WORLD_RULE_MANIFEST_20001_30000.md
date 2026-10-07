@@ -8541,3 +8541,4 @@
 - 28540: integrated cross-system causal rule
 - 28541: integrated cross-system causal rule
 - 28542: integrated cross-system causal rule
+- 28543: integrated cross-system causal rule
