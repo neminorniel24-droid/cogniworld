@@ -1187,3 +1187,6 @@ def logic_10374(world):
 
 def logic_10375(world):
     _world_apply(world, 'wind_y', 'pathogen_load', 'direct')
+
+def logic_10376(world):
+    _world_apply(world, 'wind_y', 'biodiversity', 'square')
