@@ -17003,3 +17003,6 @@ def logic_15646(world):
 
 def logic_15647(world):
     _world_apply(world, 'organic_matter', 'nutrients', 'square')
+
+def logic_15648(world):
+    _world_apply(world, 'organic_matter', 'decomposition_rate', 'pulse')
