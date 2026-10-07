@@ -5030,3 +5030,4 @@
 - 25029: integrated cross-system causal rule
 - 25030: integrated cross-system causal rule
 - 25031: integrated cross-system causal rule
+- 25032: integrated cross-system causal rule
