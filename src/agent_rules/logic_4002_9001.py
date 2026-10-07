@@ -9173,3 +9173,6 @@ def logic_7124(agents, world):
 
 def logic_7125(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'shelter_need', 'direct')
+
+def logic_7126(agents, world):
+    _agent_apply(world, agents, 'ash', 'shelter_need', 'direct')
