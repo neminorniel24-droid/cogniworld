@@ -6959,3 +6959,6 @@ def logic_12298(world):
 
 def logic_12299(world):
     _world_apply(world, 'wind_x', 'herbivore', 'direct')
+
+def logic_12300(world):
+    _world_apply(world, 'wind_x', 'predator', 'square')
