@@ -22403,3 +22403,6 @@ def logic_17446(world):
 
 def logic_17447(world):
     _world_apply(world, 'groundwater', 'biomass', 'square')
+
+def logic_17448(world):
+    _world_apply(world, 'groundwater', 'herbivore', 'pulse')
