@@ -22571,3 +22571,6 @@ def logic_17502(world):
 
 def logic_17503(world):
     _world_apply(world, 'sediment', 'methane', 'gap')
+
+def logic_17504(world):
+    _world_apply(world, 'sediment', 'pathogen_load', 'direct')
