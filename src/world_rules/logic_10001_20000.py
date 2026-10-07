@@ -15827,3 +15827,6 @@ def logic_15254(world):
 
 def logic_15255(world):
     _world_apply(world, 'wetland', 'photosynthesis_factor', 'direct')
+
+def logic_15256(world):
+    _world_apply(world, 'wetland', 'ice', 'square')
