@@ -31865,3 +31865,10 @@ def logic_34930(agents, world):
     src = _local(world, agents, 'wind_x')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.hunger = _delta(agents.hunger, delta)
+
+
+def logic_34931(agents, world):
+    """Environmental wind_y shapes agent fear (inverse)."""
+    src = _local(world, agents, 'wind_y')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.fear = _delta(agents.fear, delta)
