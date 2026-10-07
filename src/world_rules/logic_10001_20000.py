@@ -22016,3 +22016,6 @@ def logic_17317(world):
 
 def logic_17318(world):
     _world_apply(world, 'fire_risk', 'carrion', 'square')
+
+def logic_17319(world):
+    _world_apply(world, 'fire_risk', 'nutrients', 'pulse')
