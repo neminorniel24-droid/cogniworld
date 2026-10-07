@@ -14252,3 +14252,6 @@ def logic_8817(agents, world):
 
 def logic_8818(agents, world):
     _agent_apply(world, agents, 'biodiversity', 'risk_score', 'direct')
+
+def logic_8819(agents, world):
+    _agent_apply(world, agents, 'habitat_stress', 'risk_score', 'direct')
