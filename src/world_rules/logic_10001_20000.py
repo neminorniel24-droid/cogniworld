@@ -18788,3 +18788,6 @@ def logic_16241(world):
 
 def logic_16242(world):
     _world_apply(world, 'runoff', 'organic_matter', 'square')
+
+def logic_16243(world):
+    _world_apply(world, 'runoff', 'deadwood', 'pulse')
