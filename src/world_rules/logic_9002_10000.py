@@ -414,3 +414,6 @@ def logic_9113(world):
 
 def logic_9114(world):
     _world_apply(world, 'surface_water', 'decomposition_rate', 'direct')
+
+def logic_9115(world):
+    _world_apply(world, 'surface_water', 'oxygen', 'inverse')
