@@ -51899,3 +51899,10 @@ def logic_37792(agents, world):
     src = _local(world, agents, 'co2')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.metabolic_cost = _delta(agents.metabolic_cost, delta)
+
+
+def logic_37793(agents, world):
+    """Environmental photosynthesis_factor shapes agent habitat_stress (root)."""
+    src = _local(world, agents, 'photosynthesis_factor')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.habitat_stress = _delta(agents.habitat_stress, delta)
