@@ -3023,3 +3023,6 @@ def logic_5074(agents, world):
 
 def logic_5075(agents, world):
     _agent_apply(world, agents, 'detritus', 'exploration_drive', 'direct')
+
+def logic_5076(agents, world):
+    _agent_apply(world, agents, 'methane', 'exploration_drive', 'direct')
