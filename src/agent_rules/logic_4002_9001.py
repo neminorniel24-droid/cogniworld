@@ -716,3 +716,6 @@ def logic_4305(agents, world):
 
 def logic_4306(agents, world):
     _agent_apply(world, agents, 'temperature', 'health', 'direct')
+
+def logic_4307(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'health', 'direct')
