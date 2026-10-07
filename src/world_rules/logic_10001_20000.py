@@ -2900,3 +2900,6 @@ def logic_10945(world):
 
 def logic_10946(world):
     _world_apply(world, 'detritus', 'methane', 'saturation')
+
+def logic_10947(world):
+    _world_apply(world, 'detritus', 'pathogen_load', 'gap')
