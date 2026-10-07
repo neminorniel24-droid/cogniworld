@@ -41721,3 +41721,10 @@ def logic_36338(agents, world):
     src = _local(world, agents, 'sediment')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.reciprocity_score = _delta(agents.reciprocity_score, delta)
+
+
+def logic_36339(agents, world):
+    """Environmental salinity shapes agent help_score (inverse)."""
+    src = _local(world, agents, 'salinity')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.help_score = _delta(agents.help_score, delta)
