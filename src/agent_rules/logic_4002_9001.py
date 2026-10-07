@@ -4040,3 +4040,6 @@ def logic_5413(agents, world):
 
 def logic_5414(agents, world):
     _agent_apply(world, agents, 'evaporation', 'social_tolerance', 'direct')
+
+def logic_5415(agents, world):
+    _agent_apply(world, agents, 'detritus', 'social_tolerance', 'direct')
