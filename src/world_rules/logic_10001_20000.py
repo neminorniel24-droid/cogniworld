@@ -16982,3 +16982,6 @@ def logic_15639(world):
 
 def logic_15640(world):
     _world_apply(world, 'organic_matter', 'wind_x', 'saturation')
+
+def logic_15641(world):
+    _world_apply(world, 'organic_matter', 'wind_y', 'direct')
