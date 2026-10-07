@@ -432,3 +432,6 @@ def logic_9119(world):
 
 def logic_9120(world):
     _world_apply(world, 'surface_water', 'detritus', 'saturation')
+
+def logic_9121(world):
+    _world_apply(world, 'surface_water', 'methane', 'reciprocal')
