@@ -875,3 +875,6 @@ def logic_18270(agents, world):
 
 def logic_18271(agents, world):
     _agent_apply(world, agents, 'strategy_mixing', 'migration_drive', 'sqrt')
+
+def logic_18272(agents, world):
+    _agent_apply(world, agents, 'learning_rate', 'migration_drive', 'sqrt')
