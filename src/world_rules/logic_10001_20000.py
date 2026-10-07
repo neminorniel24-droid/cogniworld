@@ -6500,3 +6500,6 @@ def logic_12145(world):
 
 def logic_12146(world):
     _world_apply(world, 'cloud', 'groundwater', 'saturation')
+
+def logic_12147(world):
+    _world_apply(world, 'cloud', 'sediment', 'gap')
