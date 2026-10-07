@@ -11090,3 +11090,6 @@ def logic_13675(world):
 
 def logic_13676(world):
     _world_apply(world, 'organic_matter', 'pathogen_load', 'gap')
+
+def logic_13677(world):
+    _world_apply(world, 'organic_matter', 'biodiversity', 'direct')
