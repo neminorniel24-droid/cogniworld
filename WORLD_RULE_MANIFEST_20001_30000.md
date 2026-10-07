@@ -1225,3 +1225,4 @@
 - 21224: integrated cross-system causal rule
 - 21225: integrated cross-system causal rule
 - 21226: integrated cross-system causal rule
+- 21227: integrated cross-system causal rule
