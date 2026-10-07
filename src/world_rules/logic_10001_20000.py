@@ -20036,3 +20036,6 @@ def logic_16657(world):
 
 def logic_16658(world):
     _world_apply(world, 'oxygen', 'carrion', 'gap')
+
+def logic_16659(world):
+    _world_apply(world, 'oxygen', 'nutrients', 'direct')
