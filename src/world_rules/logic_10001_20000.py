@@ -19604,3 +19604,6 @@ def logic_16513(world):
 
 def logic_16514(world):
     _world_apply(world, 'carrion', 'surface_water', 'pulse')
+
+def logic_16515(world):
+    _world_apply(world, 'carrion', 'humidity', 'saturation')
