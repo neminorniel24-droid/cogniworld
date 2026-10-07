@@ -12110,3 +12110,6 @@ def logic_14015(world):
 
 def logic_14016(world):
     _world_apply(world, 'surface_water', 'predator', 'square')
+
+def logic_14017(world):
+    _world_apply(world, 'surface_water', 'carrion', 'saturation')
