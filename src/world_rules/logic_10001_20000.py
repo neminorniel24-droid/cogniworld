@@ -9182,3 +9182,6 @@ def logic_13039(world):
 
 def logic_13040(world):
     _world_apply(world, 'biodiversity', 'cloud', 'saturation')
+
+def logic_13041(world):
+    _world_apply(world, 'biodiversity', 'rain', 'direct')
