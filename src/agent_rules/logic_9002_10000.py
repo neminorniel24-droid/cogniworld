@@ -132,3 +132,6 @@ def logic_9218(agents, world):
 
 def logic_9219(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'hydration', 'direct')
+
+def logic_9220(agents, world):
+    _agent_apply(world, agents, 'ice', 'hydration', 'direct')
