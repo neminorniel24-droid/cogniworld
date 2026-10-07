@@ -3758,3 +3758,6 @@ def logic_19231(agents, world):
 
 def logic_19232(agents, world):
     _agent_apply(world, agents, 'defense_score', 'risk_tolerance', 'sqrt')
+
+def logic_19233(agents, world):
+    _agent_apply(world, agents, 'migration_score', 'risk_tolerance', 'sqrt')
