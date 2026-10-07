@@ -1790,3 +1790,6 @@ def logic_18575(agents, world):
 
 def logic_18576(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'sharing_capacity', 'saturation')
+
+def logic_18577(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'sharing_capacity', 'saturation')
