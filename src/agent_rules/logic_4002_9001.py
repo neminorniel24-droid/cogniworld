@@ -5000,3 +5000,6 @@ def logic_5733(agents, world):
 
 def logic_5734(agents, world):
     _agent_apply(world, agents, 'temperature', 'aggression', 'direct')
+
+def logic_5735(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'aggression', 'direct')
