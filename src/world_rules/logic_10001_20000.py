@@ -9230,3 +9230,6 @@ def logic_13055(world):
 
 def logic_13056(world):
     _world_apply(world, 'biodiversity', 'ice', 'square')
+
+def logic_13057(world):
+    _world_apply(world, 'biodiversity', 'evaporation', 'saturation')
