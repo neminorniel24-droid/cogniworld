@@ -20144,3 +20144,6 @@ def logic_16693(world):
 
 def logic_16694(world):
     _world_apply(world, 'co2', 'soil_moisture', 'gap')
+
+def logic_16695(world):
+    _world_apply(world, 'co2', 'runoff', 'direct')
