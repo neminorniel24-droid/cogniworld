@@ -8063,3 +8063,6 @@ def logic_12666(world):
 
 def logic_12667(world):
     _world_apply(world, 'decomposition_rate', 'soil_depth', 'gap')
+
+def logic_12668(world):
+    _world_apply(world, 'decomposition_rate', 'root_density', 'direct')
