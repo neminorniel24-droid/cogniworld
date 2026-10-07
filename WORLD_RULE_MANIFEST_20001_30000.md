@@ -8370,3 +8370,4 @@
 - 28369: integrated cross-system causal rule
 - 28370: integrated cross-system causal rule
 - 28371: integrated cross-system causal rule
+- 28372: integrated cross-system causal rule
