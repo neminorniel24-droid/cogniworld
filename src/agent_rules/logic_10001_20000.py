@@ -2411,3 +2411,6 @@ def logic_18782(agents, world):
 
 def logic_18783(agents, world):
     _agent_apply(world, agents, 'oxygen_need', 'resource_discovery', 'gap')
+
+def logic_18784(agents, world):
+    _agent_apply(world, agents, 'shelter_need', 'resource_discovery', 'gap')
