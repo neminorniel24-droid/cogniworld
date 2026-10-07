@@ -22625,3 +22625,6 @@ def logic_17520(world):
 
 def logic_17521(world):
     _world_apply(world, 'sediment', 'flowers', 'direct')
+
+def logic_17522(world):
+    _world_apply(world, 'sediment', 'seed_bank', 'square')
