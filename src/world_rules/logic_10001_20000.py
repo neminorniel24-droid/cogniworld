@@ -22004,3 +22004,6 @@ def logic_17313(world):
 
 def logic_17314(world):
     _world_apply(world, 'fire_risk', 'vegetation', 'pulse')
+
+def logic_17315(world):
+    _world_apply(world, 'fire_risk', 'biomass', 'saturation')
