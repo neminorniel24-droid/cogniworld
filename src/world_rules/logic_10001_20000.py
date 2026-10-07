@@ -10670,3 +10670,6 @@ def logic_13535(world):
 
 def logic_13536(world):
     _world_apply(world, 'sediment', 'decomposition_rate', 'square')
+
+def logic_13537(world):
+    _world_apply(world, 'sediment', 'oxygen', 'saturation')
