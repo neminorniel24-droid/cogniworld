@@ -19580,3 +19580,6 @@ def logic_16505(world):
 
 def logic_16506(world):
     _world_apply(world, 'predator', 'organic_matter', 'saturation')
+
+def logic_16507(world):
+    _world_apply(world, 'predator', 'deadwood', 'gap')
