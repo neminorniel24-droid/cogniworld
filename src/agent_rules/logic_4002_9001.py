@@ -1658,3 +1658,6 @@ def logic_4619(agents, world):
 
 def logic_4620(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'infection_risk', 'direct')
+
+def logic_4621(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'infection_risk', 'direct')
