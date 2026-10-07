@@ -4103,3 +4103,6 @@ def logic_19346(agents, world):
 
 def logic_19347(agents, world):
     _agent_apply(world, agents, 'help_received', 'reciprocity_score', 'threshold')
+
+def logic_19348(agents, world):
+    _agent_apply(world, agents, 'help_given', 'reciprocity_score', 'threshold')
