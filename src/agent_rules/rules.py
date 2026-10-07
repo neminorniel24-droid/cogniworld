@@ -53586,3 +53586,10 @@ def logic_38033(agents, world):
     src = _local(world, agents, 'root_density')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.infection_risk = _delta(agents.infection_risk, delta)
+
+
+def logic_38034(agents, world):
+    """Environmental wetland shapes agent exploration_drive (direct)."""
+    src = _local(world, agents, 'wetland')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.exploration_drive = _delta(agents.exploration_drive, delta)
