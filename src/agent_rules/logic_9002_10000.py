@@ -1566,3 +1566,6 @@ def logic_9696(agents, world):
 
 def logic_9697(agents, world):
     _agent_apply(world, agents, 'evaporation', 'infection_risk', 'direct')
+
+def logic_9698(agents, world):
+    _agent_apply(world, agents, 'detritus', 'infection_risk', 'direct')
