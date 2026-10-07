@@ -22343,3 +22343,6 @@ def logic_17426(world):
 
 def logic_17427(world):
     _world_apply(world, 'snowpack', 'sediment', 'gap')
+
+def logic_17428(world):
+    _world_apply(world, 'snowpack', 'salinity', 'direct')
