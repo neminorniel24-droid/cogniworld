@@ -10742,3 +10742,6 @@ def logic_13559(world):
 
 def logic_13560(world):
     _world_apply(world, 'sediment', 'pollinators', 'saturation')
+
+def logic_13561(world):
+    _world_apply(world, 'sediment', 'flowers', 'direct')
