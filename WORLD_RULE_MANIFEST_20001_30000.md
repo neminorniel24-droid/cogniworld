@@ -5604,3 +5604,4 @@
 - 25603: integrated cross-system causal rule
 - 25604: integrated cross-system causal rule
 - 25605: integrated cross-system causal rule
+- 25606: integrated cross-system causal rule
