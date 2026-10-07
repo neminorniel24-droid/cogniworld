@@ -1950,3 +1950,4 @@
 - 21949: integrated cross-system causal rule
 - 21950: integrated cross-system causal rule
 - 21951: integrated cross-system causal rule
+- 21952: integrated cross-system causal rule
