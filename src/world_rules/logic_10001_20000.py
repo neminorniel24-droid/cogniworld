@@ -17039,3 +17039,6 @@ def logic_15658(world):
 
 def logic_15659(world):
     _world_apply(world, 'organic_matter', 'erosion', 'direct')
+
+def logic_15660(world):
+    _world_apply(world, 'organic_matter', 'soil_depth', 'square')
