@@ -12140,3 +12140,6 @@ def logic_14025(world):
 
 def logic_14026(world):
     _world_apply(world, 'surface_water', 'methane', 'saturation')
+
+def logic_14027(world):
+    _world_apply(world, 'surface_water', 'pathogen_load', 'gap')
