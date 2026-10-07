@@ -2429,3 +2429,6 @@ def logic_4876(agents, world):
 
 def logic_4877(agents, world):
     _agent_apply(world, agents, 'soil_depth', 'metabolic_cost', 'direct')
+
+def logic_4878(agents, world):
+    _agent_apply(world, agents, 'root_density', 'metabolic_cost', 'direct')
