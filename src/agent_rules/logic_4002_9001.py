@@ -1292,3 +1292,6 @@ def logic_4497(agents, world):
 
 def logic_4498(agents, world):
     _agent_apply(world, agents, 'social_need', 'dehydration', 'direct')
+
+def logic_4499(agents, world):
+    _agent_apply(world, agents, 'cooperation', 'dehydration', 'direct')
