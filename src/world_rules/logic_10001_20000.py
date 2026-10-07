@@ -15347,3 +15347,6 @@ def logic_15094(world):
 
 def logic_15095(world):
     _world_apply(world, 'habitat_stress', 'sediment', 'direct')
+
+def logic_15096(world):
+    _world_apply(world, 'habitat_stress', 'salinity', 'square')
