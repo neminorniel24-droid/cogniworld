@@ -21053,3 +21053,6 @@ def logic_16996(world):
 
 def logic_16997(world):
     _world_apply(world, 'biodiversity', 'temperature', 'direct')
+
+def logic_16998(world):
+    _world_apply(world, 'biodiversity', 'surface_water', 'square')
