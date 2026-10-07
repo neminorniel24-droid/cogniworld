@@ -12092,3 +12092,6 @@ def logic_14009(world):
 
 def logic_14010(world):
     _world_apply(world, 'surface_water', 'runoff', 'direct')
+
+def logic_14011(world):
+    _world_apply(world, 'surface_water', 'wind_x', 'square')
