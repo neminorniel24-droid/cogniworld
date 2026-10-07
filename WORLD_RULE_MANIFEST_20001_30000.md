@@ -5957,3 +5957,4 @@
 - 25956: integrated cross-system causal rule
 - 25957: integrated cross-system causal rule
 - 25958: integrated cross-system causal rule
+- 25959: integrated cross-system causal rule
