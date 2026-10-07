@@ -6003,3 +6003,4 @@
 - 26002: integrated cross-system causal rule
 - 26003: integrated cross-system causal rule
 - 26004: integrated cross-system causal rule
+- 26005: integrated cross-system causal rule
