@@ -21899,3 +21899,6 @@ def logic_17278(world):
 
 def logic_17279(world):
     _world_apply(world, 'carbon_storage', 'photosynthesis_factor', 'pulse')
+
+def logic_17280(world):
+    _world_apply(world, 'carbon_storage', 'ice', 'saturation')
