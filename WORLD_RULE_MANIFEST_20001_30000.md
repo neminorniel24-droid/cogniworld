@@ -6688,3 +6688,4 @@
 - 26687: integrated cross-system causal rule
 - 26688: integrated cross-system causal rule
 - 26689: integrated cross-system causal rule
+- 26690: integrated cross-system causal rule
