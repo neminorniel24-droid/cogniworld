@@ -65822,3 +65822,10 @@ def logic_39781(agents, world):
     src = _local(world, agents, 'root_density')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.neighbor_energy_gap = _delta(agents.neighbor_energy_gap, delta)
+
+
+def logic_39782(agents, world):
+    """Environmental wetland shapes agent local_density (direct)."""
+    src = _local(world, agents, 'wetland')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.local_density = _delta(agents.local_density, delta)
