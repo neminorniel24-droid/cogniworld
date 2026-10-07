@@ -3485,3 +3485,6 @@ def logic_11140(world):
 
 def logic_11141(world):
     _world_apply(world, 'habitat_stress', 'flowers', 'pulse')
+
+def logic_11142(world):
+    _world_apply(world, 'habitat_stress', 'seed_bank', 'saturation')
