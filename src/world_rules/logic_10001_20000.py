@@ -1757,3 +1757,6 @@ def logic_10564(world):
 
 def logic_10565(world):
     _world_apply(world, 'predator', 'algae', 'gap')
+
+def logic_10566(world):
+    _world_apply(world, 'predator', 'organic_matter', 'direct')
