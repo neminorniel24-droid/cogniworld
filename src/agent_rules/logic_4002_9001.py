@@ -950,3 +950,6 @@ def logic_4383(agents, world):
 
 def logic_4384(agents, world):
     _agent_apply(world, agents, 'biomass', 'thermal_stress', 'direct')
+
+def logic_4385(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'thermal_stress', 'direct')
