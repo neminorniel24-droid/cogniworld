@@ -5780,3 +5780,6 @@ def logic_19905(agents, world):
 
 def logic_19906(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'infection_risk', 'inverse')
+
+def logic_19907(agents, world):
+    _agent_apply(world, agents, 'last_action', 'infection_risk', 'inverse')
