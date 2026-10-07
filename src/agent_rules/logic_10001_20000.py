@@ -1760,3 +1760,6 @@ def logic_18565(agents, world):
 
 def logic_18566(agents, world):
     _agent_apply(world, agents, 'carrion', 'group_stability', 'saturation')
+
+def logic_18567(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'group_stability', 'saturation')
