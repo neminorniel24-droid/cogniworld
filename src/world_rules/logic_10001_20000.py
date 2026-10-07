@@ -18410,3 +18410,6 @@ def logic_16115(world):
 
 def logic_16116(world):
     _world_apply(world, 'cloud', 'surface_ice', 'gap')
+
+def logic_16117(world):
+    _world_apply(world, 'rain', 'temperature', 'direct')
