@@ -16454,3 +16454,6 @@ def logic_15463(world):
 
 def logic_15464(world):
     _world_apply(world, 'groundwater', 'wind_x', 'direct')
+
+def logic_15465(world):
+    _world_apply(world, 'groundwater', 'wind_y', 'pulse')
