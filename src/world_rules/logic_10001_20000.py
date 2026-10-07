@@ -12260,3 +12260,6 @@ def logic_14065(world):
 
 def logic_14066(world):
     _world_apply(world, 'humidity', 'photosynthesis_factor', 'saturation')
+
+def logic_14067(world):
+    _world_apply(world, 'humidity', 'ice', 'gap')
