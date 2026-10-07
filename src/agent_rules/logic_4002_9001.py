@@ -9485,3 +9485,6 @@ def logic_7228(agents, world):
 
 def logic_7229(agents, world):
     _agent_apply(world, agents, 'payoff', 'fire_fear', 'direct')
+
+def logic_7230(agents, world):
+    _agent_apply(world, agents, 'temperature', 'resource_competition', 'direct')
