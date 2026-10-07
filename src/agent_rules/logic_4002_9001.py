@@ -14687,3 +14687,6 @@ def logic_8962(agents, world):
 
 def logic_8963(agents, world):
     _agent_apply(world, agents, 'snowpack', 'exploration_score', 'direct')
+
+def logic_8964(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'exploration_score', 'direct')
