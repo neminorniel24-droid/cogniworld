@@ -342,3 +342,6 @@ def logic_9089(world):
 
 def logic_9090(world):
     _world_apply(world, 'temperature', 'ash', 'direct')
+
+def logic_9091(world):
+    _world_apply(world, 'temperature', 'groundwater', 'inverse')
