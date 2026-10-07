@@ -3290,3 +3290,6 @@ def logic_11075(world):
 
 def logic_11076(world):
     _world_apply(world, 'biodiversity', 'ice', 'gap')
+
+def logic_11077(world):
+    _world_apply(world, 'biodiversity', 'evaporation', 'direct')
