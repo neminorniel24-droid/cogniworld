@@ -13610,3 +13610,6 @@ def logic_8603(agents, world):
 
 def logic_8604(agents, world):
     _agent_apply(world, agents, 'nutrients', 'competition_score', 'direct')
+
+def logic_8605(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'competition_score', 'direct')
