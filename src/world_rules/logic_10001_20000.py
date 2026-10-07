@@ -9098,3 +9098,6 @@ def logic_13011(world):
 
 def logic_13012(world):
     _world_apply(world, 'pathogen_load', 'ice', 'pulse')
+
+def logic_13013(world):
+    _world_apply(world, 'pathogen_load', 'evaporation', 'saturation')
