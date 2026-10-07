@@ -4796,3 +4796,6 @@ def logic_19577(agents, world):
 
 def logic_19578(agents, world):
     _agent_apply(world, agents, 'recovery', 'migration_score', 'reciprocal')
+
+def logic_19579(agents, world):
+    _agent_apply(world, agents, 'metabolic_cost', 'reproduction_score', 'reciprocal')
