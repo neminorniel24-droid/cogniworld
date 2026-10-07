@@ -1520,3 +1520,6 @@ def logic_10485(world):
 
 def logic_10486(world):
     _world_apply(world, 'herbivore', 'surface_water', 'direct')
+
+def logic_10487(world):
+    _world_apply(world, 'herbivore', 'humidity', 'square')
