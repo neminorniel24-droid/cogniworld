@@ -4757,3 +4757,6 @@ def logic_11564(world):
 
 def logic_11565(world):
     _world_apply(world, 'sediment', 'biodiversity', 'gap')
+
+def logic_11566(world):
+    _world_apply(world, 'sediment', 'habitat_stress', 'direct')
