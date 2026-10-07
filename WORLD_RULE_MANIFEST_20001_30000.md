@@ -2070,3 +2070,4 @@
 - 22069: integrated cross-system causal rule
 - 22070: integrated cross-system causal rule
 - 22071: integrated cross-system causal rule
+- 22072: integrated cross-system causal rule
