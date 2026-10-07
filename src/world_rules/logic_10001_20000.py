@@ -9170,3 +9170,6 @@ def logic_13035(world):
 
 def logic_13036(world):
     _world_apply(world, 'pathogen_load', 'surface_ice', 'gap')
+
+def logic_13037(world):
+    _world_apply(world, 'biodiversity', 'temperature', 'direct')
