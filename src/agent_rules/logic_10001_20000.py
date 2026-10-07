@@ -1511,3 +1511,6 @@ def logic_18482(agents, world):
 
 def logic_18483(agents, world):
     _agent_apply(world, agents, 'social_tolerance', 'aggression', 'threshold')
+
+def logic_18484(agents, world):
+    _agent_apply(world, agents, 'reputation', 'aggression', 'threshold')
