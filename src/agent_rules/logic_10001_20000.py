@@ -5855,3 +5855,6 @@ def logic_19930(agents, world):
 
 def logic_19931(agents, world):
     _agent_apply(world, agents, 'self_preservation', 'alertness', 'inverse')
+
+def logic_19932(agents, world):
+    _agent_apply(world, agents, 'payoff', 'alertness', 'inverse')
