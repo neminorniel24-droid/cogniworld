@@ -13745,3 +13745,6 @@ def logic_14560(world):
 
 def logic_14561(world):
     _world_apply(world, 'carrion', 'wetland', 'direct')
+
+def logic_14562(world):
+    _world_apply(world, 'carrion', 'carbon_storage', 'square')
