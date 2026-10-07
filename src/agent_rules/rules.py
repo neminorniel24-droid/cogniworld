@@ -62000,3 +62000,10 @@ def logic_39235(agents, world):
     src = _local(world, agents, 'groundwater')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.help_received = _delta(agents.help_received, delta)
+
+
+def logic_39236(agents, world):
+    """Environmental sediment shapes agent risk_tolerance (square)."""
+    src = _local(world, agents, 'sediment')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.risk_tolerance = _delta(agents.risk_tolerance, delta)
