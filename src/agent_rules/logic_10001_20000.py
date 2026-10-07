@@ -1547,3 +1547,6 @@ def logic_18494(agents, world):
 
 def logic_18495(agents, world):
     _agent_apply(world, agents, 'social_avoidance', 'conflict_pressure', 'threshold')
+
+def logic_18496(agents, world):
+    _agent_apply(world, agents, 'selfishness', 'conflict_pressure', 'threshold')
