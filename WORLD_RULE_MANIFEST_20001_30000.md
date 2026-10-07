@@ -3920,3 +3920,4 @@
 - 23919: integrated cross-system causal rule
 - 23920: integrated cross-system causal rule
 - 23921: integrated cross-system causal rule
+- 23922: integrated cross-system causal rule
