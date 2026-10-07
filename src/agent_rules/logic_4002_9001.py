@@ -4919,3 +4919,6 @@ def logic_5706(agents, world):
 
 def logic_5707(agents, world):
     _agent_apply(world, agents, 'flowers', 'defection', 'direct')
+
+def logic_5708(agents, world):
+    _agent_apply(world, agents, 'seed_bank', 'defection', 'direct')
