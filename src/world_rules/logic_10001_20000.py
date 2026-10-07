@@ -16100,3 +16100,6 @@ def logic_15345(world):
 
 def logic_15346(world):
     _world_apply(world, 'fire_risk', 'detritus', 'saturation')
+
+def logic_15347(world):
+    _world_apply(world, 'fire_risk', 'methane', 'gap')
