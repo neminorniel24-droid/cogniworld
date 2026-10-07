@@ -21470,3 +21470,6 @@ def logic_17135(world):
 
 def logic_17136(world):
     _world_apply(world, 'soil_depth', 'wind_x', 'square')
+
+def logic_17137(world):
+    _world_apply(world, 'soil_depth', 'wind_y', 'saturation')
