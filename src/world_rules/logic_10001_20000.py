@@ -23000,3 +23000,6 @@ def logic_17645(world):
 
 def logic_17646(world):
     _world_apply(world, 'organic_matter', 'snowpack', 'direct')
+
+def logic_17647(world):
+    _world_apply(world, 'organic_matter', 'groundwater', 'square')
