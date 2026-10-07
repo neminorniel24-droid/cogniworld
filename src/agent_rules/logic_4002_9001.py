@@ -3359,3 +3359,6 @@ def logic_5186(agents, world):
 
 def logic_5187(agents, world):
     _agent_apply(world, agents, 'survival_score', 'food_access', 'direct')
+
+def logic_5188(agents, world):
+    _agent_apply(world, agents, 'fitness_score', 'food_access', 'direct')
