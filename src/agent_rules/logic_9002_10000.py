@@ -477,3 +477,6 @@ def logic_9333(agents, world):
 
 def logic_9334(agents, world):
     _agent_apply(world, agents, 'survival_score', 'thirst', 'direct')
+
+def logic_9335(agents, world):
+    _agent_apply(world, agents, 'fitness_score', 'thirst', 'direct')
