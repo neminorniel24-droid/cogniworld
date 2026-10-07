@@ -15701,3 +15701,6 @@ def logic_15212(world):
 
 def logic_15213(world):
     _world_apply(world, 'root_density', 'evaporation', 'saturation')
+
+def logic_15214(world):
+    _world_apply(world, 'root_density', 'detritus', 'gap')
