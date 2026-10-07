@@ -646,3 +646,4 @@
 - 20645: integrated cross-system causal rule
 - 20646: integrated cross-system causal rule
 - 20647: integrated cross-system causal rule
+- 20648: integrated cross-system causal rule
