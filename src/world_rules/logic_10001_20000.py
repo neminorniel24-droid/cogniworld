@@ -14813,3 +14813,6 @@ def logic_14916(world):
 
 def logic_14917(world):
     _world_apply(world, 'detritus', 'snowpack', 'direct')
+
+def logic_14918(world):
+    _world_apply(world, 'detritus', 'groundwater', 'square')
