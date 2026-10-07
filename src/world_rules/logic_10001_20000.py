@@ -10334,3 +10334,6 @@ def logic_13423(world):
 
 def logic_13424(world):
     _world_apply(world, 'ash', 'salinity', 'direct')
+
+def logic_13425(world):
+    _world_apply(world, 'ash', 'algae', 'pulse')
