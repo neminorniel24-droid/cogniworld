@@ -7320,3 +7320,4 @@
 - 27319: integrated cross-system causal rule
 - 27320: integrated cross-system causal rule
 - 27321: integrated cross-system causal rule
+- 27322: integrated cross-system causal rule
