@@ -4166,3 +4166,6 @@ def logic_19367(agents, world):
 
 def logic_19368(agents, world):
     _agent_apply(world, agents, 'attack_success', 'risk_score', 'threshold')
+
+def logic_19369(agents, world):
+    _agent_apply(world, agents, 'retaliation_risk', 'risk_score', 'threshold')
