@@ -809,3 +809,6 @@ def logic_18248(agents, world):
 
 def logic_18249(agents, world):
     _agent_apply(world, agents, 'last_interaction', 'reproduction_drive', 'square')
+
+def logic_18250(agents, world):
+    _agent_apply(world, agents, 'risk_tolerance', 'reproduction_drive', 'square')
