@@ -8720,3 +8720,6 @@ def logic_6973(agents, world):
 
 def logic_6974(agents, world):
     _agent_apply(world, agents, 'oxygen', 'defection_threshold', 'direct')
+
+def logic_6975(agents, world):
+    _agent_apply(world, agents, 'co2', 'defection_threshold', 'direct')
