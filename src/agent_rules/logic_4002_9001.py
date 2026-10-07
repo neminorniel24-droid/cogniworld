@@ -11318,3 +11318,6 @@ def logic_7839(agents, world):
 
 def logic_7840(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'cooperation_history', 'direct')
+
+def logic_7841(agents, world):
+    _agent_apply(world, agents, 'payoff', 'cooperation_history', 'direct')
