@@ -49351,3 +49351,10 @@ def logic_37428(agents, world):
     src = _local(world, agents, 'detritus')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.shelter_need = _delta(agents.shelter_need, delta)
+
+
+def logic_37429(agents, world):
+    """Environmental methane shapes agent neighbor_health_gap (root)."""
+    src = _local(world, agents, 'methane')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.neighbor_health_gap = _delta(agents.neighbor_health_gap, delta)
