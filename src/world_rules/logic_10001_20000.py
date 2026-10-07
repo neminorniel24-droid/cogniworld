@@ -9740,3 +9740,6 @@ def logic_13225(world):
 
 def logic_13226(world):
     _world_apply(world, 'root_density', 'carrion', 'saturation')
+
+def logic_13227(world):
+    _world_apply(world, 'root_density', 'nutrients', 'gap')
