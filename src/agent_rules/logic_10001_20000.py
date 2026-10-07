@@ -986,3 +986,6 @@ def logic_18307(agents, world):
 
 def logic_18308(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'food_access', 'sqrt')
+
+def logic_18309(agents, world):
+    _agent_apply(world, agents, 'ash', 'food_access', 'sqrt')
