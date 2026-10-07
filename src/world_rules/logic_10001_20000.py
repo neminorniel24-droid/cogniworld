@@ -1133,3 +1133,6 @@ def logic_10356(world):
 
 def logic_10357(world):
     _world_apply(world, 'wind_y', 'rain', 'direct')
+
+def logic_10358(world):
+    _world_apply(world, 'wind_y', 'soil_moisture', 'square')
