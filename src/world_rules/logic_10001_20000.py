@@ -21842,3 +21842,6 @@ def logic_17259(world):
 
 def logic_17260(world):
     _world_apply(world, 'wetland', 'surface_ice', 'square')
+
+def logic_17261(world):
+    _world_apply(world, 'carbon_storage', 'temperature', 'pulse')
