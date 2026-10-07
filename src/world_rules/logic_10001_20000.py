@@ -9665,3 +9665,6 @@ def logic_13200(world):
 
 def logic_13201(world):
     _world_apply(world, 'soil_depth', 'snowpack', 'direct')
+
+def logic_13202(world):
+    _world_apply(world, 'soil_depth', 'groundwater', 'square')
