@@ -8306,3 +8306,6 @@ def logic_12747(world):
 
 def logic_12748(world):
     _world_apply(world, 'co2', 'evaporation', 'direct')
+
+def logic_12749(world):
+    _world_apply(world, 'co2', 'detritus', 'square')
