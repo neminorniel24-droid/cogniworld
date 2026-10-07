@@ -13829,3 +13829,6 @@ def logic_8676(agents, world):
 
 def logic_8677(agents, world):
     _agent_apply(world, agents, 'ice', 'defection_score', 'direct')
+
+def logic_8678(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'defection_score', 'direct')
