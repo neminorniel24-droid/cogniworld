@@ -19286,3 +19286,6 @@ def logic_16407(world):
 
 def logic_16408(world):
     _world_apply(world, 'biomass', 'root_density', 'pulse')
+
+def logic_16409(world):
+    _world_apply(world, 'biomass', 'wetland', 'gap')
