@@ -1874,3 +1874,4 @@
 - 21873: integrated cross-system causal rule
 - 21874: integrated cross-system causal rule
 - 21875: integrated cross-system causal rule
+- 21876: integrated cross-system causal rule
