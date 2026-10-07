@@ -7004,3 +7004,4 @@
 - 27003: integrated cross-system causal rule
 - 27004: integrated cross-system causal rule
 - 27005: integrated cross-system causal rule
+- 27006: integrated cross-system causal rule
