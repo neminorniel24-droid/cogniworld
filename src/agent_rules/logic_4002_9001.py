@@ -4433,3 +4433,6 @@ def logic_5544(agents, world):
 
 def logic_5545(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'trust', 'direct')
+
+def logic_5546(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'trust', 'direct')
