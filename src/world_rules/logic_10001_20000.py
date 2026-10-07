@@ -2123,3 +2123,6 @@ def logic_10686(world):
 
 def logic_10687(world):
     _world_apply(world, 'decomposition_rate', 'soil_depth', 'square')
+
+def logic_10688(world):
+    _world_apply(world, 'decomposition_rate', 'root_density', 'pulse')
