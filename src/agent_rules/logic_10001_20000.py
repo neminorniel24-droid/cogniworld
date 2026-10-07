@@ -4313,3 +4313,6 @@ def logic_19416(agents, world):
 
 def logic_19417(agents, world):
     _agent_apply(world, agents, 'salinity', 'exploration_score', 'threshold')
+
+def logic_19418(agents, world):
+    _agent_apply(world, agents, 'algae', 'exploration_score', 'threshold')
