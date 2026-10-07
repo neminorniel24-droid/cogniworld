@@ -15848,3 +15848,6 @@ def logic_15261(world):
 
 def logic_15262(world):
     _world_apply(world, 'wetland', 'habitat_stress', 'saturation')
+
+def logic_15263(world):
+    _world_apply(world, 'wetland', 'erosion', 'gap')
