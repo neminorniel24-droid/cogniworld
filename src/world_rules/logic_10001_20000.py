@@ -311,3 +311,6 @@ def logic_10082(world):
 
 def logic_10083(world):
     _world_apply(world, 'surface_water', 'deadwood', 'pulse')
+
+def logic_10084(world):
+    _world_apply(world, 'surface_water', 'pollinators', 'saturation')
