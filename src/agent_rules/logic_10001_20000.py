@@ -2255,3 +2255,6 @@ def logic_18730(agents, world):
 
 def logic_18731(agents, world):
     _agent_apply(world, agents, 'pollinators', 'strategy_confidence', 'gap')
+
+def logic_18732(agents, world):
+    _agent_apply(world, agents, 'flowers', 'strategy_confidence', 'gap')
