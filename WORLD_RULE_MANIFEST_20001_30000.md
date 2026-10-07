@@ -2221,3 +2221,4 @@
 - 22220: integrated cross-system causal rule
 - 22221: integrated cross-system causal rule
 - 22222: integrated cross-system causal rule
+- 22223: integrated cross-system causal rule
