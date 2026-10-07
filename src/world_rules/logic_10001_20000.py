@@ -6827,3 +6827,6 @@ def logic_12254(world):
 
 def logic_12255(world):
     _world_apply(world, 'runoff', 'herbivore', 'direct')
+
+def logic_12256(world):
+    _world_apply(world, 'runoff', 'predator', 'square')
