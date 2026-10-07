@@ -13187,3 +13187,6 @@ def logic_14374(world):
 
 def logic_14375(world):
     _world_apply(world, 'vegetation', 'ice', 'direct')
+
+def logic_14376(world):
+    _world_apply(world, 'vegetation', 'evaporation', 'square')
