@@ -1763,3 +1763,6 @@ def logic_4654(agents, world):
 
 def logic_4655(agents, world):
     _agent_apply(world, agents, 'vegetation', 'alertness', 'direct')
+
+def logic_4656(agents, world):
+    _agent_apply(world, agents, 'biomass', 'alertness', 'direct')
