@@ -22382,3 +22382,6 @@ def logic_17439(world):
 
 def logic_17440(world):
     _world_apply(world, 'groundwater', 'cloud', 'saturation')
+
+def logic_17441(world):
+    _world_apply(world, 'groundwater', 'rain', 'direct')
