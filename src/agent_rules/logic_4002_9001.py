@@ -5810,3 +5810,6 @@ def logic_6003(agents, world):
 
 def logic_6004(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'territoriality', 'direct')
+
+def logic_6005(agents, world):
+    _agent_apply(world, agents, 'payoff', 'territoriality', 'direct')
