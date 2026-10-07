@@ -9191,3 +9191,4 @@
 - 29190: integrated cross-system causal rule
 - 29191: integrated cross-system causal rule
 - 29192: integrated cross-system causal rule
+- 29193: integrated cross-system causal rule
