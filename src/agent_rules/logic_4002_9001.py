@@ -10853,3 +10853,6 @@ def logic_7684(agents, world):
 
 def logic_7685(agents, world):
     _agent_apply(world, agents, 'energy_surplus', 'betrayal_memory', 'direct')
+
+def logic_7686(agents, world):
+    _agent_apply(world, agents, 'ticks_since_food', 'betrayal_memory', 'direct')
