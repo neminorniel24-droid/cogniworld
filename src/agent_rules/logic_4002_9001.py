@@ -11987,3 +11987,6 @@ def logic_8062(agents, world):
 
 def logic_8063(agents, world):
     _agent_apply(world, agents, 'co2', 'last_reward', 'direct')
+
+def logic_8064(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'last_reward', 'direct')
