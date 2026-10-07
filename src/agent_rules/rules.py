@@ -66417,3 +66417,10 @@ def logic_39866(agents, world):
     src = _local(world, agents, 'detritus')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.cooperation = _delta(agents.cooperation, delta)
+
+
+def logic_39867(agents, world):
+    """Environmental methane shapes agent sharing_capacity (inverse)."""
+    src = _local(world, agents, 'methane')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.sharing_capacity = _delta(agents.sharing_capacity, delta)
