@@ -1884,3 +1884,6 @@ def logic_9802(agents, world):
 
 def logic_9803(agents, world):
     _agent_apply(world, agents, 'defection', 'alertness', 'direct')
+
+def logic_9804(agents, world):
+    _agent_apply(world, agents, 'trust', 'alertness', 'direct')
