@@ -4682,3 +4682,6 @@ def logic_11539(world):
 
 def logic_11540(world):
     _world_apply(world, 'groundwater', 'surface_ice', 'square')
+
+def logic_11541(world):
+    _world_apply(world, 'sediment', 'temperature', 'pulse')
