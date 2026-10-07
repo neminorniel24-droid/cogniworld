@@ -12008,3 +12008,6 @@ def logic_8069(agents, world):
 
 def logic_8070(agents, world):
     _agent_apply(world, agents, 'biodiversity', 'last_reward', 'direct')
+
+def logic_8071(agents, world):
+    _agent_apply(world, agents, 'habitat_stress', 'last_reward', 'direct')
