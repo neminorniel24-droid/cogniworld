@@ -435,3 +435,6 @@ def logic_9120(world):
 
 def logic_9121(world):
     _world_apply(world, 'surface_water', 'methane', 'reciprocal')
+
+def logic_9122(world):
+    _world_apply(world, 'surface_water', 'biodiversity', 'direct')
