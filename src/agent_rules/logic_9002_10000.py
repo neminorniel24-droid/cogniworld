@@ -1794,3 +1794,6 @@ def logic_9772(agents, world):
 
 def logic_9773(agents, world):
     _agent_apply(world, agents, 'root_density', 'alertness', 'direct')
+
+def logic_9774(agents, world):
+    _agent_apply(world, agents, 'wetland', 'alertness', 'direct')
