@@ -1952,3 +1952,6 @@ def logic_10629(world):
 
 def logic_10630(world):
     _world_apply(world, 'nutrients', 'carrion', 'pulse')
+
+def logic_10631(world):
+    _world_apply(world, 'nutrients', 'decomposition_rate', 'saturation')
