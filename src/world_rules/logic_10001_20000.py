@@ -23663,3 +23663,6 @@ def logic_17866(world):
 
 def logic_17867(world):
     _world_apply(world, 'soil_carbon', 'groundwater', 'gap')
+
+def logic_17868(world):
+    _world_apply(world, 'soil_carbon', 'sediment', 'direct')
