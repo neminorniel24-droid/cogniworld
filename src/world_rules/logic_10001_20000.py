@@ -11852,3 +11852,6 @@ def logic_13929(world):
 
 def logic_13930(world):
     _world_apply(world, 'surface_ice', 'carrion', 'direct')
+
+def logic_13931(world):
+    _world_apply(world, 'surface_ice', 'nutrients', 'square')
