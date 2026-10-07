@@ -402,3 +402,6 @@ def logic_9109(world):
 
 def logic_9110(world):
     _world_apply(world, 'surface_water', 'herbivore', 'pulse')
+
+def logic_9111(world):
+    _world_apply(world, 'surface_water', 'predator', 'threshold')
