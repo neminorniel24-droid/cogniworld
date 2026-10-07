@@ -9107,3 +9107,6 @@ def logic_7102(agents, world):
 
 def logic_7103(agents, world):
     _agent_apply(world, agents, 'vegetation', 'shelter_need', 'direct')
+
+def logic_7104(agents, world):
+    _agent_apply(world, agents, 'biomass', 'shelter_need', 'direct')
