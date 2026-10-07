@@ -15880,3 +15880,6 @@ RULES.append(logic_8275)
 
 from .logic_4002_9001 import logic_8276
 RULES.append(logic_8276)
+
+from .logic_4002_9001 import logic_8277
+RULES.append(logic_8277)
