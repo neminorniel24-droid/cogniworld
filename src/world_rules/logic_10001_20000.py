@@ -19691,3 +19691,6 @@ def logic_16542(world):
 
 def logic_16543(world):
     _world_apply(world, 'carrion', 'fire_risk', 'gap')
+
+def logic_16544(world):
+    _world_apply(world, 'carrion', 'ash', 'direct')
