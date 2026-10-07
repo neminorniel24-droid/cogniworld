@@ -6908,3 +6908,6 @@ def logic_12281(world):
 
 def logic_12282(world):
     _world_apply(world, 'runoff', 'organic_matter', 'square')
+
+def logic_12283(world):
+    _world_apply(world, 'runoff', 'deadwood', 'pulse')
