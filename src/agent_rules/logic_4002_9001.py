@@ -1775,3 +1775,6 @@ def logic_4658(agents, world):
 
 def logic_4659(agents, world):
     _agent_apply(world, agents, 'carrion', 'alertness', 'direct')
+
+def logic_4660(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'alertness', 'direct')
