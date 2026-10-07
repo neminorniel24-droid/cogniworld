@@ -4502,3 +4502,6 @@ def logic_11479(world):
 
 def logic_11480(world):
     _world_apply(world, 'snowpack', 'soil_depth', 'saturation')
+
+def logic_11481(world):
+    _world_apply(world, 'snowpack', 'root_density', 'direct')
