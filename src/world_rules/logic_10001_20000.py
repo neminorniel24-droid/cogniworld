@@ -23900,3 +23900,6 @@ def logic_17945(world):
 
 def logic_17946(world):
     _world_apply(world, 'temperature', 'erosion', 'saturation')
+
+def logic_17947(world):
+    _world_apply(world, 'temperature', 'soil_depth', 'gap')
