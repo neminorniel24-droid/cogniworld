@@ -18302,3 +18302,6 @@ def logic_16079(world):
 
 def logic_16080(world):
     _world_apply(world, 'cloud', 'wind_y', 'saturation')
+
+def logic_16081(world):
+    _world_apply(world, 'cloud', 'vegetation', 'direct')
