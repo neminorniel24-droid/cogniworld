@@ -110,3 +110,4 @@
 - 20109: integrated cross-system causal rule
 - 20110: integrated cross-system causal rule
 - 20111: integrated cross-system causal rule
+- 20112: integrated cross-system causal rule
