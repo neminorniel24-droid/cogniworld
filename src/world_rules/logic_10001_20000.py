@@ -11054,3 +11054,6 @@ def logic_13663(world):
 
 def logic_13664(world):
     _world_apply(world, 'organic_matter', 'herbivore', 'direct')
+
+def logic_13665(world):
+    _world_apply(world, 'organic_matter', 'predator', 'pulse')
