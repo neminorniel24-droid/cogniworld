@@ -53068,3 +53068,10 @@ def logic_37959(agents, world):
     src = _local(world, agents, 'temperature_target')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.defection = _delta(agents.defection, delta)
+
+
+def logic_37960(agents, world):
+    """Environmental surface_water shapes agent help_drive (square)."""
+    src = _local(world, agents, 'surface_water')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.help_drive = _delta(agents.help_drive, delta)
