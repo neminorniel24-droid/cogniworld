@@ -48945,3 +48945,10 @@ def logic_37370(agents, world):
     src = _local(world, agents, 'vegetation')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.strategy_mixing = _delta(agents.strategy_mixing, delta)
+
+
+def logic_37371(agents, world):
+    """Environmental biomass shapes agent thirst (inverse)."""
+    src = _local(world, agents, 'biomass')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.thirst = _delta(agents.thirst, delta)
