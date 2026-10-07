@@ -5498,3 +5498,4 @@
 - 25497: integrated cross-system causal rule
 - 25498: integrated cross-system causal rule
 - 25499: integrated cross-system causal rule
+- 25500: integrated cross-system causal rule
