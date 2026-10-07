@@ -7016,3 +7016,6 @@ def logic_12317(world):
 
 def logic_12318(world):
     _world_apply(world, 'wind_x', 'carbon_storage', 'square')
+
+def logic_12319(world):
+    _world_apply(world, 'wind_x', 'fire_risk', 'pulse')
