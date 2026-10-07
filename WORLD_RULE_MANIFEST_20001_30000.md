@@ -5900,3 +5900,4 @@
 - 25899: integrated cross-system causal rule
 - 25900: integrated cross-system causal rule
 - 25901: integrated cross-system causal rule
+- 25902: integrated cross-system causal rule
