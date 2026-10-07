@@ -45655,3 +45655,10 @@ def logic_36900(agents, world):
     src = _local(world, agents, 'temperature')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.future_payoff_weight = _delta(agents.future_payoff_weight, delta)
+
+
+def logic_36901(agents, world):
+    """Environmental temperature_target shapes agent thermal_stress (root)."""
+    src = _local(world, agents, 'temperature_target')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.thermal_stress = _delta(agents.thermal_stress, delta)
