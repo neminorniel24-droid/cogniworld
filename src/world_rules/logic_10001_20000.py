@@ -5066,3 +5066,6 @@ def logic_11667(world):
 
 def logic_11668(world):
     _world_apply(world, 'algae', 'pollinators', 'direct')
+
+def logic_11669(world):
+    _world_apply(world, 'algae', 'flowers', 'square')
