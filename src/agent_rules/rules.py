@@ -39922,3 +39922,10 @@ def logic_36081(agents, world):
     src = _local(world, agents, 'wind_y')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.social_need = _delta(agents.social_need, delta)
+
+
+def logic_36082(agents, world):
+    """Environmental vegetation shapes agent help_given (direct)."""
+    src = _local(world, agents, 'vegetation')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.help_given = _delta(agents.help_given, delta)
