@@ -14357,3 +14357,6 @@ def logic_14764(world):
 
 def logic_14765(world):
     _world_apply(world, 'photosynthesis_factor', 'predator', 'gap')
+
+def logic_14766(world):
+    _world_apply(world, 'photosynthesis_factor', 'carrion', 'direct')
