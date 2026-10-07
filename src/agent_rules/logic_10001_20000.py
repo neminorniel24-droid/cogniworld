@@ -3104,3 +3104,6 @@ def logic_19013(agents, world):
 
 def logic_19014(agents, world):
     _agent_apply(world, agents, 'energy_surplus', 'neighbor_health_gap', 'inverse')
+
+def logic_19015(agents, world):
+    _agent_apply(world, agents, 'ticks_since_food', 'neighbor_health_gap', 'inverse')
