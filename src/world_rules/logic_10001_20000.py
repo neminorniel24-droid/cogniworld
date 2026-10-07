@@ -14270,3 +14270,6 @@ def logic_14735(world):
 
 def logic_14736(world):
     _world_apply(world, 'co2', 'root_density', 'square')
+
+def logic_14737(world):
+    _world_apply(world, 'co2', 'wetland', 'saturation')
