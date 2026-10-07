@@ -9734,3 +9734,6 @@ def logic_7311(agents, world):
 
 def logic_7312(agents, world):
     _agent_apply(world, agents, 'nutrients', 'vegetation_expectation', 'direct')
+
+def logic_7313(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'vegetation_expectation', 'direct')
