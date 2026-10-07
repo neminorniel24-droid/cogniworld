@@ -1919,3 +1919,6 @@ def logic_4706(agents, world):
 
 def logic_4707(agents, world):
     _agent_apply(world, agents, 'help_received', 'alertness', 'direct')
+
+def logic_4708(agents, world):
+    _agent_apply(world, agents, 'help_given', 'alertness', 'direct')
