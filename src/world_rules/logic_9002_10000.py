@@ -528,3 +528,6 @@ def logic_9151(world):
 
 def logic_9152(world):
     _world_apply(world, 'humidity', 'predator', 'saturation')
+
+def logic_9153(world):
+    _world_apply(world, 'humidity', 'carrion', 'reciprocal')
