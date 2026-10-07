@@ -20753,3 +20753,6 @@ def logic_16896(world):
 
 def logic_16897(world):
     _world_apply(world, 'detritus', 'snowpack', 'saturation')
+
+def logic_16898(world):
+    _world_apply(world, 'detritus', 'groundwater', 'gap')
