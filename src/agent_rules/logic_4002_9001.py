@@ -12089,3 +12089,6 @@ def logic_8096(agents, world):
 
 def logic_8097(agents, world):
     _agent_apply(world, agents, 'hunger', 'last_reward', 'direct')
+
+def logic_8098(agents, world):
+    _agent_apply(world, agents, 'health', 'last_reward', 'direct')
