@@ -11873,3 +11873,6 @@ def logic_8024(agents, world):
 
 def logic_8025(agents, world):
     _agent_apply(world, agents, 'energy_surplus', 'local_density', 'direct')
+
+def logic_8026(agents, world):
+    _agent_apply(world, agents, 'ticks_since_food', 'local_density', 'direct')
