@@ -170,3 +170,6 @@ def logic_4023(world):
 
 def logic_4024(world):
     _world_apply(world, 'algae', 'organic_matter', 'saturation')
+
+def logic_4025(world):
+    _world_apply(world, 'flowers', 'pollinators', 'reciprocal')
