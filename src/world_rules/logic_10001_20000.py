@@ -19055,3 +19055,6 @@ def logic_16330(world):
 
 def logic_16331(world):
     _world_apply(world, 'wind_y', 'deadwood', 'square')
+
+def logic_16332(world):
+    _world_apply(world, 'wind_y', 'pollinators', 'pulse')
