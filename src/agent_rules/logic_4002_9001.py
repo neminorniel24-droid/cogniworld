@@ -12803,3 +12803,6 @@ def logic_8334(agents, world):
 
 def logic_8335(agents, world):
     _agent_apply(world, agents, 'co2', 'risk_tolerance', 'direct')
+
+def logic_8336(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'risk_tolerance', 'direct')
