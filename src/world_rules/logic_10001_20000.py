@@ -19352,3 +19352,6 @@ def logic_16429(world):
 
 def logic_16430(world):
     _world_apply(world, 'herbivore', 'soil_moisture', 'pulse')
+
+def logic_16431(world):
+    _world_apply(world, 'herbivore', 'runoff', 'saturation')
