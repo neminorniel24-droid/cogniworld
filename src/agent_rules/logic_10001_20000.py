@@ -5507,3 +5507,6 @@ def logic_19814(agents, world):
 
 def logic_19815(agents, world):
     _agent_apply(world, agents, 'evaporation', 'health', 'direct')
+
+def logic_19816(agents, world):
+    _agent_apply(world, agents, 'detritus', 'health', 'direct')
