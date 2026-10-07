@@ -547,3 +547,4 @@
 - 20546: integrated cross-system causal rule
 - 20547: integrated cross-system causal rule
 - 20548: integrated cross-system causal rule
+- 20549: integrated cross-system causal rule
