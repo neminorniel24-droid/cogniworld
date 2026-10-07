@@ -53880,3 +53880,10 @@ def logic_38075(agents, world):
     src = _local(world, agents, 'biodiversity')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.gratitude = _delta(agents.gratitude, delta)
+
+
+def logic_38076(agents, world):
+    """Environmental habitat_stress shapes agent attack_threshold (square)."""
+    src = _local(world, agents, 'habitat_stress')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.attack_threshold = _delta(agents.attack_threshold, delta)
