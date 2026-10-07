@@ -10238,3 +10238,6 @@ def logic_7479(agents, world):
 
 def logic_7480(agents, world):
     _agent_apply(world, agents, 'resource_abundance', 'social_need', 'direct')
+
+def logic_7481(agents, world):
+    _agent_apply(world, agents, 'energy_surplus', 'social_need', 'direct')
