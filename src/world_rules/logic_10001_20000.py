@@ -2417,3 +2417,6 @@ def logic_10784(world):
 
 def logic_10785(world):
     _world_apply(world, 'co2', 'algae', 'pulse')
+
+def logic_10786(world):
+    _world_apply(world, 'co2', 'organic_matter', 'saturation')
