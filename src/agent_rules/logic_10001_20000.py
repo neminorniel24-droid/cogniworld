@@ -3674,3 +3674,6 @@ def logic_19203(agents, world):
 
 def logic_19204(agents, world):
     _agent_apply(world, agents, 'neighbor_energy_gap', 'last_interaction', 'sqrt')
+
+def logic_19205(agents, world):
+    _agent_apply(world, agents, 'neighbor_health_gap', 'last_interaction', 'sqrt')
