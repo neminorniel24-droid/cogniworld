@@ -6044,3 +6044,6 @@ def logic_11993(world):
 
 def logic_11994(world):
     _world_apply(world, 'temperature', 'nutrients', 'pulse')
+
+def logic_11995(world):
+    _world_apply(world, 'temperature', 'decomposition_rate', 'saturation')
