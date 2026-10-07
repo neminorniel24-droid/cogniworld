@@ -8765,3 +8765,6 @@ def logic_6988(agents, world):
 
 def logic_6989(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'defection_threshold', 'direct')
+
+def logic_6990(agents, world):
+    _agent_apply(world, agents, 'ash', 'defection_threshold', 'direct')
