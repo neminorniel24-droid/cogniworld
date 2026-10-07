@@ -11156,3 +11156,6 @@ def logic_7785(agents, world):
 
 def logic_7786(agents, world):
     _agent_apply(world, agents, 'predator', 'cooperation_history', 'direct')
+
+def logic_7787(agents, world):
+    _agent_apply(world, agents, 'carrion', 'cooperation_history', 'direct')
