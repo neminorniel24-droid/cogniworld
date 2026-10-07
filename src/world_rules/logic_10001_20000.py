@@ -5093,3 +5093,6 @@ def logic_11676(world):
 
 def logic_11677(world):
     _world_apply(world, 'organic_matter', 'rain', 'direct')
+
+def logic_11678(world):
+    _world_apply(world, 'organic_matter', 'soil_moisture', 'square')
