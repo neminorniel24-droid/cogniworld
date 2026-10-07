@@ -3920,3 +3920,6 @@ def logic_19285(agents, world):
 
 def logic_19286(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'cooperation_score', 'pulse')
+
+def logic_19287(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'cooperation_score', 'pulse')
