@@ -2180,3 +2180,6 @@ def logic_18705(agents, world):
 
 def logic_18706(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'caution', 'reciprocal')
+
+def logic_18707(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'caution', 'reciprocal')
