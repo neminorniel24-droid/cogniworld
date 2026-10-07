@@ -4373,3 +4373,6 @@ def logic_5524(agents, world):
 
 def logic_5525(agents, world):
     _agent_apply(world, agents, 'local_density', 'reputation', 'direct')
+
+def logic_5526(agents, world):
+    _agent_apply(world, agents, 'strategy_score', 'reputation', 'direct')
