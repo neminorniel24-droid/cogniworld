@@ -8888,3 +8888,6 @@ def logic_12941(world):
 
 def logic_12942(world):
     _world_apply(world, 'detritus', 'organic_matter', 'saturation')
+
+def logic_12943(world):
+    _world_apply(world, 'detritus', 'deadwood', 'gap')
