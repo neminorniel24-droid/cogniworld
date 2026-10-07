@@ -2510,3 +2510,4 @@
 - 22509: integrated cross-system causal rule
 - 22510: integrated cross-system causal rule
 - 22511: integrated cross-system causal rule
+- 22512: integrated cross-system causal rule
