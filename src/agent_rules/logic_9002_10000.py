@@ -1263,3 +1263,6 @@ def logic_9595(agents, world):
 
 def logic_9596(agents, world):
     _agent_apply(world, agents, 'competition_pressure', 'dehydration', 'direct')
+
+def logic_9597(agents, world):
+    _agent_apply(world, agents, 'social_need', 'dehydration', 'direct')
