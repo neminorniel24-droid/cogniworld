@@ -4862,3 +4862,6 @@ def logic_19599(agents, world):
 
 def logic_19600(agents, world):
     _agent_apply(world, agents, 'selfishness', 'sharing_score', 'reciprocal')
+
+def logic_19601(agents, world):
+    _agent_apply(world, agents, 'generosity', 'sharing_score', 'reciprocal')
