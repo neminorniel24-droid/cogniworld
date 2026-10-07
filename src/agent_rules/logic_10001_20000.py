@@ -3707,3 +3707,6 @@ def logic_19214(agents, world):
 
 def logic_19215(agents, world):
     _agent_apply(world, agents, 'last_interaction', 'risk_tolerance', 'sqrt')
+
+def logic_19216(agents, world):
+    _agent_apply(world, agents, 'risk_tolerance', 'last_interaction', 'sqrt')
