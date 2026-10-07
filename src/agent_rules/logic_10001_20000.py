@@ -839,3 +839,6 @@ def logic_18258(agents, world):
 
 def logic_18259(agents, world):
     _agent_apply(world, agents, 'exploration_score', 'migration_drive', 'square')
+
+def logic_18260(agents, world):
+    _agent_apply(world, agents, 'foraging_score', 'migration_drive', 'square')
