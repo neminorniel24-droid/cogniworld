@@ -3197,3 +3197,6 @@ def logic_5132(agents, world):
 
 def logic_5133(agents, world):
     _agent_apply(world, agents, 'herbivore', 'food_access', 'direct')
+
+def logic_5134(agents, world):
+    _agent_apply(world, agents, 'predator', 'food_access', 'direct')
