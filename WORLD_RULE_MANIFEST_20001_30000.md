@@ -8038,3 +8038,4 @@
 - 28037: integrated cross-system causal rule
 - 28038: integrated cross-system causal rule
 - 28039: integrated cross-system causal rule
+- 28040: integrated cross-system causal rule
