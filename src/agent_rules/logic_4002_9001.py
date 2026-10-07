@@ -7031,3 +7031,6 @@ def logic_6410(agents, world):
 
 def logic_6411(agents, world):
     _agent_apply(world, agents, 'survival_score', 'generosity', 'direct')
+
+def logic_6412(agents, world):
+    _agent_apply(world, agents, 'fitness_score', 'generosity', 'direct')
