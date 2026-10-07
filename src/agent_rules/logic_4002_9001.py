@@ -14138,3 +14138,6 @@ def logic_8779(agents, world):
 
 def logic_8780(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'reciprocity_score', 'direct')
+
+def logic_8781(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'reciprocity_score', 'direct')
