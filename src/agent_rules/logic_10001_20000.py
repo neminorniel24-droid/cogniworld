@@ -5216,3 +5216,6 @@ def logic_19717(agents, world):
 
 def logic_19718(agents, world):
     _agent_apply(world, agents, 'reproduction_drive', 'self_preservation', 'feedback')
+
+def logic_19719(agents, world):
+    _agent_apply(world, agents, 'migration_drive', 'self_preservation', 'feedback')
