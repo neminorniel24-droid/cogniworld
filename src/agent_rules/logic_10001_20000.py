@@ -3335,3 +3335,6 @@ def logic_19090(agents, world):
 
 def logic_19091(agents, world):
     _agent_apply(world, agents, 'help_score', 'help_received', 'square')
+
+def logic_19092(agents, world):
+    _agent_apply(world, agents, 'attack_success', 'help_received', 'square')
