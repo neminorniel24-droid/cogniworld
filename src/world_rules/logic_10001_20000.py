@@ -11570,3 +11570,6 @@ def logic_13835(world):
 
 def logic_13836(world):
     _world_apply(world, 'seed_bank', 'wind_x', 'gap')
+
+def logic_13837(world):
+    _world_apply(world, 'seed_bank', 'wind_y', 'direct')
