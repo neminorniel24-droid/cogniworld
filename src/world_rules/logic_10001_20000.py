@@ -15095,3 +15095,6 @@ def logic_15010(world):
 
 def logic_15011(world):
     _world_apply(world, 'pathogen_load', 'deadwood', 'square')
+
+def logic_15012(world):
+    _world_apply(world, 'pathogen_load', 'pollinators', 'pulse')
