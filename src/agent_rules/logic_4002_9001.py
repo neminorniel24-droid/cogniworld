@@ -1616,3 +1616,6 @@ def logic_4605(agents, world):
 
 def logic_4606(agents, world):
     _agent_apply(world, agents, 'root_density', 'infection_risk', 'direct')
+
+def logic_4607(agents, world):
+    _agent_apply(world, agents, 'wetland', 'infection_risk', 'direct')
