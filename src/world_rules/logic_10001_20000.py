@@ -9218,3 +9218,6 @@ def logic_13051(world):
 
 def logic_13052(world):
     _world_apply(world, 'biodiversity', 'decomposition_rate', 'pulse')
+
+def logic_13053(world):
+    _world_apply(world, 'biodiversity', 'oxygen', 'saturation')
