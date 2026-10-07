@@ -638,3 +638,6 @@ def logic_10191(world):
 
 def logic_10192(world):
     _world_apply(world, 'rain', 'oxygen', 'gap')
+
+def logic_10193(world):
+    _world_apply(world, 'rain', 'co2', 'square')
