@@ -8785,3 +8785,4 @@
 - 28784: integrated cross-system causal rule
 - 28785: integrated cross-system causal rule
 - 28786: integrated cross-system causal rule
+- 28787: integrated cross-system causal rule
