@@ -14552,3 +14552,6 @@ def logic_14829(world):
 
 def logic_14830(world):
     _world_apply(world, 'ice', 'groundwater', 'pulse')
+
+def logic_14831(world):
+    _world_apply(world, 'ice', 'sediment', 'saturation')
