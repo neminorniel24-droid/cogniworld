@@ -2900,3 +2900,6 @@ def logic_18945(agents, world):
 
 def logic_18946(agents, world):
     _agent_apply(world, agents, 'reciprocity_score', 'vegetation_expectation', 'direct')
+
+def logic_18947(agents, world):
+    _agent_apply(world, agents, 'risk_score', 'vegetation_expectation', 'direct')
