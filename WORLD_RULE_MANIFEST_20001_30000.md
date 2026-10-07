@@ -2667,3 +2667,4 @@
 - 22666: integrated cross-system causal rule
 - 22667: integrated cross-system causal rule
 - 22668: integrated cross-system causal rule
+- 22669: integrated cross-system causal rule
