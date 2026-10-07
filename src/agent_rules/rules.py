@@ -63456,3 +63456,10 @@ def logic_39443(agents, world):
     src = _local(world, agents, 'predator')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.self_preservation = _delta(agents.self_preservation, delta)
+
+
+def logic_39444(agents, world):
+    """Environmental carrion shapes agent dehydration (square)."""
+    src = _local(world, agents, 'carrion')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.dehydration = _delta(agents.dehydration, delta)
