@@ -20306,3 +20306,6 @@ def logic_16747(world):
 
 def logic_16748(world):
     _world_apply(world, 'photosynthesis_factor', 'decomposition_rate', 'direct')
+
+def logic_16749(world):
+    _world_apply(world, 'photosynthesis_factor', 'oxygen', 'square')
