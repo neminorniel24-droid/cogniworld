@@ -11024,3 +11024,6 @@ def logic_7741(agents, world):
 
 def logic_7742(agents, world):
     _agent_apply(world, agents, 'salinity', 'conflict_history', 'direct')
+
+def logic_7743(agents, world):
+    _agent_apply(world, agents, 'algae', 'conflict_history', 'direct')
