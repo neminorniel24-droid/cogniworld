@@ -3674,3 +3674,6 @@ def logic_11203(world):
 
 def logic_11204(world):
     _world_apply(world, 'soil_depth', 'decomposition_rate', 'saturation')
+
+def logic_11205(world):
+    _world_apply(world, 'soil_depth', 'oxygen', 'gap')
