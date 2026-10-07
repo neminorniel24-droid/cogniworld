@@ -6503,3 +6503,4 @@
 - 26502: integrated cross-system causal rule
 - 26503: integrated cross-system causal rule
 - 26504: integrated cross-system causal rule
+- 26505: integrated cross-system causal rule
