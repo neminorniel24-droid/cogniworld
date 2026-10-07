@@ -1977,3 +1977,6 @@ def logic_9833(agents, world):
 
 def logic_9834(agents, world):
     _agent_apply(world, agents, 'detritus', 'fear', 'direct')
+
+def logic_9835(agents, world):
+    _agent_apply(world, agents, 'methane', 'fear', 'direct')
