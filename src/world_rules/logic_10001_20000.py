@@ -13586,3 +13586,6 @@ def logic_14507(world):
 
 def logic_14508(world):
     _world_apply(world, 'predator', 'evaporation', 'direct')
+
+def logic_14509(world):
+    _world_apply(world, 'predator', 'detritus', 'square')
