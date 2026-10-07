@@ -21365,3 +21365,6 @@ def logic_17100(world):
 
 def logic_17101(world):
     _world_apply(world, 'erosion', 'oxygen', 'pulse')
+
+def logic_17102(world):
+    _world_apply(world, 'erosion', 'co2', 'saturation')
