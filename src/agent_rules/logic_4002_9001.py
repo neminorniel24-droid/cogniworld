@@ -2036,3 +2036,6 @@ def logic_4745(agents, world):
 
 def logic_4746(agents, world):
     _agent_apply(world, agents, 'ash', 'fear', 'direct')
+
+def logic_4747(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'fear', 'direct')
