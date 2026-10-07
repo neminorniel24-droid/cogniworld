@@ -3053,3 +3053,6 @@ def logic_5084(agents, world):
 
 def logic_5085(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'exploration_drive', 'direct')
+
+def logic_5086(agents, world):
+    _agent_apply(world, agents, 'ash', 'exploration_drive', 'direct')
