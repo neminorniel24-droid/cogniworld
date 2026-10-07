@@ -2555,3 +2555,6 @@ def logic_10830(world):
 
 def logic_10831(world):
     _world_apply(world, 'photosynthesis_factor', 'deadwood', 'saturation')
+
+def logic_10832(world):
+    _world_apply(world, 'photosynthesis_factor', 'pollinators', 'gap')
