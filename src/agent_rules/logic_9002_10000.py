@@ -1323,3 +1323,6 @@ def logic_9615(agents, world):
 
 def logic_9616(agents, world):
     _agent_apply(world, agents, 'wind_x', 'pathogen_risk', 'direct')
+
+def logic_9617(agents, world):
+    _agent_apply(world, agents, 'wind_y', 'pathogen_risk', 'direct')
