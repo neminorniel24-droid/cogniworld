@@ -2503,3 +2503,4 @@
 - 22502: integrated cross-system causal rule
 - 22503: integrated cross-system causal rule
 - 22504: integrated cross-system causal rule
+- 22505: integrated cross-system causal rule
