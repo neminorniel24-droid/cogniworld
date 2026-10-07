@@ -495,3 +495,6 @@ def logic_9339(agents, world):
 
 def logic_9340(agents, world):
     _agent_apply(world, agents, 'cloud', 'hunger', 'direct')
+
+def logic_9341(agents, world):
+    _agent_apply(world, agents, 'rain', 'hunger', 'direct')
