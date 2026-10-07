@@ -4492,3 +4492,4 @@
 - 24491: integrated cross-system causal rule
 - 24492: integrated cross-system causal rule
 - 24493: integrated cross-system causal rule
+- 24494: integrated cross-system causal rule
