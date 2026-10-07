@@ -2567,3 +2567,4 @@
 - 22566: integrated cross-system causal rule
 - 22567: integrated cross-system causal rule
 - 22568: integrated cross-system causal rule
+- 22569: integrated cross-system causal rule
