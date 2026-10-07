@@ -5303,3 +5303,6 @@ def logic_19746(agents, world):
 
 def logic_19747(agents, world):
     _agent_apply(world, agents, 'attack_threshold', 'payoff', 'feedback')
+
+def logic_19748(agents, world):
+    _agent_apply(world, agents, 'defection_threshold', 'payoff', 'feedback')
