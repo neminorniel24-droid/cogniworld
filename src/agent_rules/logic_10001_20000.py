@@ -821,3 +821,6 @@ def logic_18252(agents, world):
 
 def logic_18253(agents, world):
     _agent_apply(world, agents, 'cooperation_score', 'reproduction_drive', 'square')
+
+def logic_18254(agents, world):
+    _agent_apply(world, agents, 'competition_score', 'reproduction_drive', 'square')
