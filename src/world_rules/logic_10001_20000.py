@@ -10148,3 +10148,6 @@ def logic_13361(world):
 
 def logic_13362(world):
     _world_apply(world, 'fire_risk', 'co2', 'square')
+
+def logic_13363(world):
+    _world_apply(world, 'fire_risk', 'photosynthesis_factor', 'pulse')
