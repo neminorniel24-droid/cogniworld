@@ -317,3 +317,6 @@ def logic_4072(world):
 
 def logic_4073(world):
     _world_apply(world, 'surface_ice', 'snowpack', 'reciprocal')
+
+def logic_4074(world):
+    _world_apply(world, 'ice', 'surface_ice', 'direct')
