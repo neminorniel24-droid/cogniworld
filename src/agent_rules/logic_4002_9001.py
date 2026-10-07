@@ -2705,3 +2705,6 @@ def logic_4968(agents, world):
 
 def logic_4969(agents, world):
     _agent_apply(world, agents, 'hunger', 'reproduction_drive', 'direct')
+
+def logic_4970(agents, world):
+    _agent_apply(world, agents, 'health', 'reproduction_drive', 'direct')
