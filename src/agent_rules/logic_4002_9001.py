@@ -13130,3 +13130,6 @@ def logic_8443(agents, world):
 
 def logic_8444(agents, world):
     _agent_apply(world, agents, 'defection', 'last_action', 'direct')
+
+def logic_8445(agents, world):
+    _agent_apply(world, agents, 'trust', 'last_action', 'direct')
