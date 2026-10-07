@@ -13901,3 +13901,6 @@ def logic_8700(agents, world):
 
 def logic_8701(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'defection_score', 'direct')
+
+def logic_8702(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'defection_score', 'direct')
