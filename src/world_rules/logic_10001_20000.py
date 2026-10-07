@@ -8150,3 +8150,6 @@ def logic_12695(world):
 
 def logic_12696(world):
     _world_apply(world, 'oxygen', 'herbivore', 'square')
+
+def logic_12697(world):
+    _world_apply(world, 'oxygen', 'predator', 'saturation')
