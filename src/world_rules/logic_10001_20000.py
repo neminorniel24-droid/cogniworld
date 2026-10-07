@@ -21026,3 +21026,6 @@ def logic_16987(world):
 
 def logic_16988(world):
     _world_apply(world, 'pathogen_load', 'salinity', 'direct')
+
+def logic_16989(world):
+    _world_apply(world, 'pathogen_load', 'algae', 'square')
