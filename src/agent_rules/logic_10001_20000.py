@@ -4382,3 +4382,6 @@ def logic_19439(agents, world):
 
 def logic_19440(agents, world):
     _agent_apply(world, agents, 'recovery', 'foraging_score', 'saturation')
+
+def logic_19441(agents, world):
+    _agent_apply(world, agents, 'metabolic_cost', 'survival_score', 'saturation')
