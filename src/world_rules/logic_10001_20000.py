@@ -21218,3 +21218,6 @@ def logic_17051(world):
 
 def logic_17052(world):
     _world_apply(world, 'habitat_stress', 'herbivore', 'pulse')
+
+def logic_17053(world):
+    _world_apply(world, 'habitat_stress', 'predator', 'saturation')
