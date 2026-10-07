@@ -422,3 +422,6 @@ def logic_4207(agents, world):
 
 def logic_4208(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'thirst', 'direct')
+
+def logic_4209(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'thirst', 'direct')
