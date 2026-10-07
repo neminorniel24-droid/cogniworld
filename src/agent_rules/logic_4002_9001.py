@@ -8795,3 +8795,6 @@ def logic_6998(agents, world):
 
 def logic_6999(agents, world):
     _agent_apply(world, agents, 'flowers', 'defection_threshold', 'direct')
+
+def logic_7000(agents, world):
+    _agent_apply(world, agents, 'seed_bank', 'defection_threshold', 'direct')
