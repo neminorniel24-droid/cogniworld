@@ -6050,3 +6050,6 @@ def logic_19995(agents, world):
 
 def logic_19996(agents, world):
     _agent_apply(world, agents, 'exploration_drive', 'reproduction_drive', 'square')
+
+def logic_19997(agents, world):
+    _agent_apply(world, agents, 'food_access', 'reproduction_drive', 'square')
