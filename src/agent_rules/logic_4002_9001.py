@@ -14282,3 +14282,6 @@ def logic_8827(agents, world):
 
 def logic_8828(agents, world):
     _agent_apply(world, agents, 'groundwater', 'risk_score', 'direct')
+
+def logic_8829(agents, world):
+    _agent_apply(world, agents, 'sediment', 'risk_score', 'direct')
