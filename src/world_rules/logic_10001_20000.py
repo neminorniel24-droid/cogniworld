@@ -1430,3 +1430,6 @@ def logic_10455(world):
 
 def logic_10456(world):
     _world_apply(world, 'biomass', 'oxygen', 'square')
+
+def logic_10457(world):
+    _world_apply(world, 'biomass', 'co2', 'saturation')
