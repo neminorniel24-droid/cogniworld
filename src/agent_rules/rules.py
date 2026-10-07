@@ -48245,3 +48245,10 @@ def logic_37270(agents, world):
     src = _local(world, agents, 'surface_water')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.pathogen_risk = _delta(agents.pathogen_risk, delta)
+
+
+def logic_37271(agents, world):
+    """Environmental humidity shapes agent migration_drive (inverse)."""
+    src = _local(world, agents, 'humidity')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.migration_drive = _delta(agents.migration_drive, delta)
