@@ -905,3 +905,6 @@ def logic_10280(world):
 
 def logic_10281(world):
     _world_apply(world, 'runoff', 'co2', 'direct')
+
+def logic_10282(world):
+    _world_apply(world, 'runoff', 'photosynthesis_factor', 'square')
