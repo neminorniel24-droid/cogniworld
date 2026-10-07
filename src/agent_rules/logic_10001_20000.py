@@ -4973,3 +4973,6 @@ def logic_19636(agents, world):
 
 def logic_19637(agents, world):
     _agent_apply(world, agents, 'risk_score', 'strategy_persistence', 'gap')
+
+def logic_19638(agents, world):
+    _agent_apply(world, agents, 'safety_score', 'strategy_mixing', 'gap')
