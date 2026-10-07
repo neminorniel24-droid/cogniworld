@@ -6062,3 +6062,6 @@ def logic_6087(agents, world):
 
 def logic_6088(agents, world):
     _agent_apply(world, agents, 'nutrients', 'sharing_capacity', 'direct')
+
+def logic_6089(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'sharing_capacity', 'direct')
