@@ -9047,3 +9047,6 @@ def logic_7082(agents, world):
 
 def logic_7083(agents, world):
     _agent_apply(world, agents, 'cooperation', 'oxygen_need', 'direct')
+
+def logic_7084(agents, world):
+    _agent_apply(world, agents, 'defection', 'oxygen_need', 'direct')
