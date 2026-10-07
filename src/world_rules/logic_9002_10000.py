@@ -156,3 +156,6 @@ def logic_9027(world):
 
 def logic_9028(world):
     _world_apply(world, 'carrion', 'nutrients', 'square')
+
+def logic_9029(world):
+    _world_apply(world, 'nutrients', 'vegetation', 'sqrt')
