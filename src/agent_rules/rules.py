@@ -65276,3 +65276,10 @@ def logic_39703(agents, world):
     src = _local(world, agents, 'seed_bank')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.future_help = _delta(agents.future_help, delta)
+
+
+def logic_39704(agents, world):
+    """Environmental soil_carbon shapes agent fire_fear (square)."""
+    src = _local(world, agents, 'soil_carbon')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.fire_fear = _delta(agents.fire_fear, delta)
