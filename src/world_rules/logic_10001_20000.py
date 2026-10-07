@@ -22601,3 +22601,6 @@ def logic_17512(world):
 
 def logic_17513(world):
     _world_apply(world, 'sediment', 'ash', 'square')
+
+def logic_17514(world):
+    _world_apply(world, 'sediment', 'snowpack', 'pulse')
