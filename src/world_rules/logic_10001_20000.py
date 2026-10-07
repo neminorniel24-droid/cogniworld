@@ -10397,3 +10397,6 @@ def logic_13444(world):
 
 def logic_13445(world):
     _world_apply(world, 'snowpack', 'predator', 'gap')
+
+def logic_13446(world):
+    _world_apply(world, 'snowpack', 'carrion', 'direct')
