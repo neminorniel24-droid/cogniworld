@@ -7510,3 +7510,4 @@
 - 27509: integrated cross-system causal rule
 - 27510: integrated cross-system causal rule
 - 27511: integrated cross-system causal rule
+- 27512: integrated cross-system causal rule
