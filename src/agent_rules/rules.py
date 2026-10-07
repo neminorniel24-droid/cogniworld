@@ -49484,3 +49484,10 @@ def logic_37447(agents, world):
     src = _local(world, agents, 'pollinators')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.payoff = _delta(agents.payoff, delta)
+
+
+def logic_37448(agents, world):
+    """Environmental flowers shapes agent pathogen_risk (square)."""
+    src = _local(world, agents, 'flowers')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.pathogen_risk = _delta(agents.pathogen_risk, delta)
