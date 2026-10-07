@@ -20885,3 +20885,6 @@ def logic_16940(world):
 
 def logic_16941(world):
     _world_apply(world, 'methane', 'snowpack', 'pulse')
+
+def logic_16942(world):
+    _world_apply(world, 'methane', 'groundwater', 'saturation')
