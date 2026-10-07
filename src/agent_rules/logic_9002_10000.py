@@ -2028,3 +2028,6 @@ def logic_9850(agents, world):
 
 def logic_9851(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'fear', 'direct')
+
+def logic_9852(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'fear', 'direct')
