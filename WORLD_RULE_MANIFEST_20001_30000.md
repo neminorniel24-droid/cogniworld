@@ -9722,3 +9722,4 @@
 - 29721: integrated cross-system causal rule
 - 29722: integrated cross-system causal rule
 - 29723: integrated cross-system causal rule
+- 29724: integrated cross-system causal rule
