@@ -13325,3 +13325,6 @@ def logic_14420(world):
 
 def logic_14421(world):
     _world_apply(world, 'biomass', 'detritus', 'pulse')
+
+def logic_14422(world):
+    _world_apply(world, 'biomass', 'methane', 'saturation')
