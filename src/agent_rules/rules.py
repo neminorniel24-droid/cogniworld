@@ -32481,3 +32481,10 @@ def logic_35018(agents, world):
     src = _local(world, agents, 'cloud')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.learning_rate = _delta(agents.learning_rate, delta)
+
+
+def logic_35019(agents, world):
+    """Environmental rain shapes agent hunger (inverse)."""
+    src = _local(world, agents, 'rain')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.hunger = _delta(agents.hunger, delta)
