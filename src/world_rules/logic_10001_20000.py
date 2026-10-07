@@ -11360,3 +11360,6 @@ def logic_13765(world):
 
 def logic_13766(world):
     _world_apply(world, 'pollinators', 'habitat_stress', 'direct')
+
+def logic_13767(world):
+    _world_apply(world, 'pollinators', 'erosion', 'square')
