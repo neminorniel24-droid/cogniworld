@@ -3956,3 +3956,6 @@ def logic_11297(world):
 
 def logic_11298(world):
     _world_apply(world, 'wetland', 'detritus', 'gap')
+
+def logic_11299(world):
+    _world_apply(world, 'wetland', 'methane', 'direct')
