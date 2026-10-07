@@ -6272,3 +6272,6 @@ def logic_6157(agents, world):
 
 def logic_6158(agents, world):
     _agent_apply(world, agents, 'oxygen', 'help_drive', 'direct')
+
+def logic_6159(agents, world):
+    _agent_apply(world, agents, 'co2', 'help_drive', 'direct')
