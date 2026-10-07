@@ -43352,3 +43352,10 @@ def logic_36571(agents, world):
     src = _local(world, agents, 'organic_matter')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.alertness = _delta(agents.alertness, delta)
+
+
+def logic_36572(agents, world):
+    """Environmental deadwood shapes agent food_access (square)."""
+    src = _local(world, agents, 'deadwood')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.food_access = _delta(agents.food_access, delta)
