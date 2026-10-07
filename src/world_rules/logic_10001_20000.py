@@ -9764,3 +9764,6 @@ def logic_13233(world):
 
 def logic_13234(world):
     _world_apply(world, 'root_density', 'detritus', 'pulse')
+
+def logic_13235(world):
+    _world_apply(world, 'root_density', 'methane', 'saturation')
