@@ -1094,3 +1094,6 @@ def logic_4431(agents, world):
 
 def logic_4432(agents, world):
     _agent_apply(world, agents, 'defection', 'thermal_stress', 'direct')
+
+def logic_4433(agents, world):
+    _agent_apply(world, agents, 'trust', 'thermal_stress', 'direct')
