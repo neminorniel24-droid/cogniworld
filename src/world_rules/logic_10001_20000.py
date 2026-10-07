@@ -16646,3 +16646,6 @@ def logic_15527(world):
 
 def logic_15528(world):
     _world_apply(world, 'sediment', 'soil_depth', 'pulse')
+
+def logic_15529(world):
+    _world_apply(world, 'sediment', 'root_density', 'gap')
