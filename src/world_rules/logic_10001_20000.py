@@ -14261,3 +14261,6 @@ def logic_14732(world):
 
 def logic_14733(world):
     _world_apply(world, 'co2', 'habitat_stress', 'saturation')
+
+def logic_14734(world):
+    _world_apply(world, 'co2', 'erosion', 'gap')
