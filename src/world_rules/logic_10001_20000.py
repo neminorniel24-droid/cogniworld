@@ -12797,3 +12797,6 @@ def logic_14244(world):
 
 def logic_14245(world):
     _world_apply(world, 'runoff', 'detritus', 'gap')
+
+def logic_14246(world):
+    _world_apply(world, 'runoff', 'methane', 'direct')
