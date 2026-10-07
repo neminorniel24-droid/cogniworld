@@ -8008,3 +8008,4 @@
 - 28007: integrated cross-system causal rule
 - 28008: integrated cross-system causal rule
 - 28009: integrated cross-system causal rule
+- 28010: integrated cross-system causal rule
