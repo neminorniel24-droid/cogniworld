@@ -176,3 +176,6 @@ def logic_18037(agents, world):
 
 def logic_18038(agents, world):
     _agent_apply(world, agents, 'algae', 'thirst', 'direct')
+
+def logic_18039(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'thirst', 'direct')
