@@ -9401,3 +9401,6 @@ def logic_13112(world):
 
 def logic_13113(world):
     _world_apply(world, 'habitat_stress', 'snowpack', 'square')
+
+def logic_13114(world):
+    _world_apply(world, 'habitat_stress', 'groundwater', 'pulse')
