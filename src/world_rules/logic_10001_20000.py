@@ -2705,3 +2705,6 @@ def logic_10880(world):
 
 def logic_10881(world):
     _world_apply(world, 'evaporation', 'temperature', 'direct')
+
+def logic_10882(world):
+    _world_apply(world, 'evaporation', 'surface_water', 'square')
