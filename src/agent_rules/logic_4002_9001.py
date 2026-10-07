@@ -10394,3 +10394,6 @@ def logic_7531(agents, world):
 
 def logic_7532(agents, world):
     _agent_apply(world, agents, 'carbon_storage', 'neighbor_energy_gap', 'direct')
+
+def logic_7533(agents, world):
+    _agent_apply(world, agents, 'fire_risk', 'neighbor_energy_gap', 'direct')
