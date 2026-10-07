@@ -17375,3 +17375,6 @@ def logic_15770(world):
 
 def logic_15771(world):
     _world_apply(world, 'flowers', 'runoff', 'square')
+
+def logic_15772(world):
+    _world_apply(world, 'flowers', 'wind_x', 'pulse')
