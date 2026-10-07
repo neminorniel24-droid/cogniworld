@@ -4502,3 +4502,6 @@ def logic_19479(agents, world):
 
 def logic_19480(agents, world):
     _agent_apply(world, agents, 'neighbor_energy_gap', 'help_score', 'saturation')
+
+def logic_19481(agents, world):
+    _agent_apply(world, agents, 'neighbor_health_gap', 'help_score', 'saturation')
