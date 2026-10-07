@@ -4508,3 +4508,6 @@ def logic_19481(agents, world):
 
 def logic_19482(agents, world):
     _agent_apply(world, agents, 'betrayal_memory', 'help_score', 'saturation')
+
+def logic_19483(agents, world):
+    _agent_apply(world, agents, 'conflict_history', 'help_score', 'saturation')
