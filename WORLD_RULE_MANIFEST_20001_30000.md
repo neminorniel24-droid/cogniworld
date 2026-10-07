@@ -9523,3 +9523,4 @@
 - 29522: integrated cross-system causal rule
 - 29523: integrated cross-system causal rule
 - 29524: integrated cross-system causal rule
+- 29525: integrated cross-system causal rule
