@@ -22280,3 +22280,6 @@ def logic_17405(world):
 
 def logic_17406(world):
     _world_apply(world, 'snowpack', 'carrion', 'direct')
+
+def logic_17407(world):
+    _world_apply(world, 'snowpack', 'nutrients', 'square')
