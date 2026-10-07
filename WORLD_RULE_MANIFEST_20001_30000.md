@@ -8191,3 +8191,4 @@
 - 28190: integrated cross-system causal rule
 - 28191: integrated cross-system causal rule
 - 28192: integrated cross-system causal rule
+- 28193: integrated cross-system causal rule
