@@ -55280,3 +55280,10 @@ def logic_38275(agents, world):
     src = _local(world, agents, 'pollinators')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.recovery = _delta(agents.recovery, delta)
+
+
+def logic_38276(agents, world):
+    """Environmental flowers shapes agent stability (square)."""
+    src = _local(world, agents, 'flowers')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.stability = _delta(agents.stability, delta)
