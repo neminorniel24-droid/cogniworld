@@ -46026,3 +46026,10 @@ def logic_36953(agents, world):
     src = _local(world, agents, 'runoff')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.reproduction_drive = _delta(agents.reproduction_drive, delta)
+
+
+def logic_36954(agents, world):
+    """Environmental wind_x shapes agent social_tolerance (direct)."""
+    src = _local(world, agents, 'wind_x')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.social_tolerance = _delta(agents.social_tolerance, delta)
