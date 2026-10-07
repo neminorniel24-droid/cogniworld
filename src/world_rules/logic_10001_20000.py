@@ -21680,3 +21680,6 @@ def logic_17205(world):
 
 def logic_17206(world):
     _world_apply(world, 'root_density', 'groundwater', 'direct')
+
+def logic_17207(world):
+    _world_apply(world, 'root_density', 'sediment', 'square')
