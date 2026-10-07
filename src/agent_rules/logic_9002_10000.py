@@ -1260,3 +1260,6 @@ def logic_9594(agents, world):
 
 def logic_9595(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'dehydration', 'direct')
+
+def logic_9596(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'dehydration', 'direct')
