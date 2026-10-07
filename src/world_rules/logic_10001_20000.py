@@ -9674,3 +9674,6 @@ def logic_13203(world):
 
 def logic_13204(world):
     _world_apply(world, 'soil_depth', 'salinity', 'saturation')
+
+def logic_13205(world):
+    _world_apply(world, 'soil_depth', 'algae', 'gap')
