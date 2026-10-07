@@ -31109,3 +31109,10 @@ def logic_34822(agents, world):
     src = _local(world, agents, 'algae')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.vegetation_expectation = _delta(agents.vegetation_expectation, delta)
+
+
+def logic_34823(agents, world):
+    """Environmental organic_matter shapes agent cooperation_history (inverse)."""
+    src = _local(world, agents, 'organic_matter')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.cooperation_history = _delta(agents.cooperation_history, delta)
