@@ -12113,3 +12113,6 @@ def logic_14016(world):
 
 def logic_14017(world):
     _world_apply(world, 'surface_water', 'carrion', 'saturation')
+
+def logic_14018(world):
+    _world_apply(world, 'surface_water', 'nutrients', 'gap')
