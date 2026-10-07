@@ -20837,3 +20837,6 @@ def logic_16924(world):
 
 def logic_16925(world):
     _world_apply(world, 'methane', 'oxygen', 'gap')
+
+def logic_16926(world):
+    _world_apply(world, 'methane', 'co2', 'direct')
