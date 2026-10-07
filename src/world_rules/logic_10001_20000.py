@@ -11342,3 +11342,6 @@ def logic_13759(world):
 
 def logic_13760(world):
     _world_apply(world, 'pollinators', 'ice', 'saturation')
+
+def logic_13761(world):
+    _world_apply(world, 'pollinators', 'evaporation', 'direct')
