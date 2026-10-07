@@ -2711,3 +2711,6 @@ def logic_18882(agents, world):
 
 def logic_18883(agents, world):
     _agent_apply(world, agents, 'dehydration', 'shelter_need', 'feedback')
+
+def logic_18884(agents, world):
+    _agent_apply(world, agents, 'pathogen_risk', 'shelter_need', 'feedback')
