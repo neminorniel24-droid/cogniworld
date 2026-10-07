@@ -788,3 +788,6 @@ def logic_10241(world):
 
 def logic_10242(world):
     _world_apply(world, 'soil_moisture', 'methane', 'square')
+
+def logic_10243(world):
+    _world_apply(world, 'soil_moisture', 'pathogen_load', 'pulse')
