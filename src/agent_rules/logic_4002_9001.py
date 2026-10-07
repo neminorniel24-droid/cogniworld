@@ -11342,3 +11342,6 @@ def logic_7847(agents, world):
 
 def logic_7848(agents, world):
     _agent_apply(world, agents, 'runoff', 'help_received', 'direct')
+
+def logic_7849(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'help_received', 'direct')
