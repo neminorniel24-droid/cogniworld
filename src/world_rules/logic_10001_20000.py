@@ -22142,3 +22142,6 @@ def logic_17359(world):
 
 def logic_17360(world):
     _world_apply(world, 'ash', 'herbivore', 'saturation')
+
+def logic_17361(world):
+    _world_apply(world, 'ash', 'predator', 'direct')
