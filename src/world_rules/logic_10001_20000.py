@@ -15020,3 +15020,6 @@ def logic_14985(world):
 
 def logic_14986(world):
     _world_apply(world, 'pathogen_load', 'carrion', 'saturation')
+
+def logic_14987(world):
+    _world_apply(world, 'pathogen_load', 'nutrients', 'gap')
