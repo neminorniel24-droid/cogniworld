@@ -1237,3 +1237,4 @@
 - 21236: integrated cross-system causal rule
 - 21237: integrated cross-system causal rule
 - 21238: integrated cross-system causal rule
+- 21239: integrated cross-system causal rule
