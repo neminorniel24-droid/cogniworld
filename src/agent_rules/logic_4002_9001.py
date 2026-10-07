@@ -2018,3 +2018,6 @@ def logic_4739(agents, world):
 
 def logic_4740(agents, world):
     _agent_apply(world, agents, 'erosion', 'fear', 'direct')
+
+def logic_4741(agents, world):
+    _agent_apply(world, agents, 'soil_depth', 'fear', 'direct')
