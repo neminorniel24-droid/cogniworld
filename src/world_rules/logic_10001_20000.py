@@ -1283,3 +1283,6 @@ def logic_10406(world):
 
 def logic_10407(world):
     _world_apply(world, 'vegetation', 'herbivore', 'square')
+
+def logic_10408(world):
+    _world_apply(world, 'vegetation', 'predator', 'pulse')
