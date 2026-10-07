@@ -5267,3 +5267,6 @@ def logic_11734(world):
 
 def logic_11735(world):
     _world_apply(world, 'deadwood', 'photosynthesis_factor', 'direct')
+
+def logic_11736(world):
+    _world_apply(world, 'deadwood', 'ice', 'square')
