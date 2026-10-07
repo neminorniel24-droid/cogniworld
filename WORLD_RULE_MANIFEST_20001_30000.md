@@ -2141,3 +2141,4 @@
 - 22140: integrated cross-system causal rule
 - 22141: integrated cross-system causal rule
 - 22142: integrated cross-system causal rule
+- 22143: integrated cross-system causal rule
