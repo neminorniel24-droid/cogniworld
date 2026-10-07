@@ -5408,3 +5408,6 @@ def logic_5869(agents, world):
 
 def logic_5870(agents, world):
     _agent_apply(world, agents, 'temperature', 'competition_pressure', 'direct')
+
+def logic_5871(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'competition_pressure', 'direct')
