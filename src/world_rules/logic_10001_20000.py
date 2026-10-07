@@ -23030,3 +23030,6 @@ def logic_17655(world):
 
 def logic_17656(world):
     _world_apply(world, 'organic_matter', 'surface_ice', 'square')
+
+def logic_17657(world):
+    _world_apply(world, 'deadwood', 'temperature', 'saturation')
