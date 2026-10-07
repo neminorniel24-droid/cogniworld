@@ -52956,3 +52956,10 @@ def logic_37943(agents, world):
     src = _local(world, agents, 'carbon_storage')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.hydration = _delta(agents.hydration, delta)
+
+
+def logic_37944(agents, world):
+    """Environmental fire_risk shapes agent infection_risk (square)."""
+    src = _local(world, agents, 'fire_risk')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.infection_risk = _delta(agents.infection_risk, delta)
