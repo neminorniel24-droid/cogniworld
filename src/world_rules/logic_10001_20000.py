@@ -20432,3 +20432,6 @@ def logic_16789(world):
 
 def logic_16790(world):
     _world_apply(world, 'ice', 'carrion', 'pulse')
+
+def logic_16791(world):
+    _world_apply(world, 'ice', 'nutrients', 'saturation')
