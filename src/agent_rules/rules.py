@@ -41616,3 +41616,10 @@ def logic_36323(agents, world):
     src = _local(world, agents, 'evaporation')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.betrayal_memory = _delta(agents.betrayal_memory, delta)
+
+
+def logic_36324(agents, world):
+    """Environmental detritus shapes agent last_energy_delta (square)."""
+    src = _local(world, agents, 'detritus')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.last_energy_delta = _delta(agents.last_energy_delta, delta)
