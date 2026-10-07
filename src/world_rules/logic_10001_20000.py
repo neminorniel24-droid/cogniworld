@@ -18593,3 +18593,6 @@ def logic_16176(world):
 
 def logic_16177(world):
     _world_apply(world, 'soil_moisture', 'co2', 'saturation')
+
+def logic_16178(world):
+    _world_apply(world, 'soil_moisture', 'photosynthesis_factor', 'gap')
