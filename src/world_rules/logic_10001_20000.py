@@ -2813,3 +2813,6 @@ def logic_10916(world):
 
 def logic_10917(world):
     _world_apply(world, 'evaporation', 'algae', 'direct')
+
+def logic_10918(world):
+    _world_apply(world, 'evaporation', 'organic_matter', 'square')
