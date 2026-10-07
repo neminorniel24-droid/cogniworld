@@ -941,3 +941,6 @@ def logic_10292(world):
 
 def logic_10293(world):
     _world_apply(world, 'runoff', 'wetland', 'saturation')
+
+def logic_10294(world):
+    _world_apply(world, 'runoff', 'carbon_storage', 'gap')
