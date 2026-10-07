@@ -1343,3 +1343,6 @@ def logic_18426(agents, world):
 
 def logic_18427(agents, world):
     _agent_apply(world, agents, 'predator', 'trust', 'pulse')
+
+def logic_18428(agents, world):
+    _agent_apply(world, agents, 'carrion', 'trust', 'pulse')
