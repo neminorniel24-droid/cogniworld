@@ -39089,3 +39089,10 @@ def logic_35962(agents, world):
     src = _local(world, agents, 'soil_depth')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.stability = _delta(agents.stability, delta)
+
+
+def logic_35963(agents, world):
+    """Environmental root_density shapes agent aggression (inverse)."""
+    src = _local(world, agents, 'root_density')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.aggression = _delta(agents.aggression, delta)
