@@ -7967,3 +7967,6 @@ def logic_12634(world):
 
 def logic_12635(world):
     _world_apply(world, 'nutrients', 'deadwood', 'saturation')
+
+def logic_12636(world):
+    _world_apply(world, 'nutrients', 'pollinators', 'gap')
