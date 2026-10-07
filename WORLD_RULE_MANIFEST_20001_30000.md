@@ -2205,3 +2205,4 @@
 - 22204: integrated cross-system causal rule
 - 22205: integrated cross-system causal rule
 - 22206: integrated cross-system causal rule
+- 22207: integrated cross-system causal rule
