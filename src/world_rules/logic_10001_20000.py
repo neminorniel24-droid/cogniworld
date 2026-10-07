@@ -22226,3 +22226,6 @@ def logic_17387(world):
 
 def logic_17388(world):
     _world_apply(world, 'ash', 'pollinators', 'direct')
+
+def logic_17389(world):
+    _world_apply(world, 'ash', 'flowers', 'square')
