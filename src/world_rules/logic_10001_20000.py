@@ -14615,3 +14615,6 @@ def logic_14850(world):
 
 def logic_14851(world):
     _world_apply(world, 'evaporation', 'biomass', 'square')
+
+def logic_14852(world):
+    _world_apply(world, 'evaporation', 'herbivore', 'pulse')
