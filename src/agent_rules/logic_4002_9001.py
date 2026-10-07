@@ -11063,3 +11063,6 @@ def logic_7754(agents, world):
 
 def logic_7755(agents, world):
     _agent_apply(world, agents, 'hydration', 'conflict_history', 'direct')
+
+def logic_7756(agents, world):
+    _agent_apply(world, agents, 'thirst', 'conflict_history', 'direct')
