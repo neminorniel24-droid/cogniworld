@@ -5819,3 +5819,6 @@ def logic_19918(agents, world):
 
 def logic_19919(agents, world):
     _agent_apply(world, agents, 'help_score', 'alertness', 'inverse')
+
+def logic_19920(agents, world):
+    _agent_apply(world, agents, 'attack_success', 'alertness', 'inverse')
