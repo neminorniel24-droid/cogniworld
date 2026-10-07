@@ -132,3 +132,6 @@ def logic_9019(world):
 
 def logic_9020(world):
     _world_apply(world, 'fire_risk', 'co2', 'square')
+
+def logic_9021(world):
+    _world_apply(world, 'co2', 'vegetation', 'sqrt')
