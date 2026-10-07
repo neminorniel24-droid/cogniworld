@@ -13511,3 +13511,6 @@ def logic_14482(world):
 
 def logic_14483(world):
     _world_apply(world, 'herbivore', 'deadwood', 'pulse')
+
+def logic_14484(world):
+    _world_apply(world, 'herbivore', 'pollinators', 'saturation')
