@@ -652,3 +652,4 @@
 - 20651: integrated cross-system causal rule
 - 20652: integrated cross-system causal rule
 - 20653: integrated cross-system causal rule
+- 20654: integrated cross-system causal rule
