@@ -5732,3 +5732,6 @@ def logic_19889(agents, world):
 
 def logic_19890(agents, world):
     _agent_apply(world, agents, 'resource_competition', 'pathogen_risk', 'inverse')
+
+def logic_19891(agents, world):
+    _agent_apply(world, agents, 'vegetation_expectation', 'pathogen_risk', 'inverse')
