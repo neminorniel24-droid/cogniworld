@@ -21620,3 +21620,6 @@ def logic_17185(world):
 
 def logic_17186(world):
     _world_apply(world, 'root_density', 'carrion', 'saturation')
+
+def logic_17187(world):
+    _world_apply(world, 'root_density', 'nutrients', 'gap')
