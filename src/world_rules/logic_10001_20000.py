@@ -6569,3 +6569,6 @@ def logic_12168(world):
 
 def logic_12169(world):
     _world_apply(world, 'rain', 'carrion', 'gap')
+
+def logic_12170(world):
+    _world_apply(world, 'rain', 'nutrients', 'direct')
