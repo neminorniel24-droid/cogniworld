@@ -1586,3 +1586,6 @@ def logic_10507(world):
 
 def logic_10508(world):
     _world_apply(world, 'herbivore', 'biodiversity', 'direct')
+
+def logic_10509(world):
+    _world_apply(world, 'herbivore', 'habitat_stress', 'square')
