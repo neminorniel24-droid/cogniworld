@@ -12380,3 +12380,6 @@ def logic_8193(agents, world):
 
 def logic_8194(agents, world):
     _agent_apply(world, agents, 'predator', 'last_food', 'direct')
+
+def logic_8195(agents, world):
+    _agent_apply(world, agents, 'carrion', 'last_food', 'direct')
