@@ -280,3 +280,4 @@
 - 20279: integrated cross-system causal rule
 - 20280: integrated cross-system causal rule
 - 20281: integrated cross-system causal rule
+- 20282: integrated cross-system causal rule
