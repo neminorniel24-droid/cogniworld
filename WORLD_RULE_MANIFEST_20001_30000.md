@@ -7170,3 +7170,4 @@
 - 27169: integrated cross-system causal rule
 - 27170: integrated cross-system causal rule
 - 27171: integrated cross-system causal rule
+- 27172: integrated cross-system causal rule
