@@ -15494,3 +15494,6 @@ def logic_15143(world):
 
 def logic_15144(world):
     _world_apply(world, 'erosion', 'pollinators', 'direct')
+
+def logic_15145(world):
+    _world_apply(world, 'erosion', 'flowers', 'pulse')
