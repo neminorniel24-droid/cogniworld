@@ -15707,3 +15707,6 @@ def logic_15214(world):
 
 def logic_15215(world):
     _world_apply(world, 'root_density', 'methane', 'direct')
+
+def logic_15216(world):
+    _world_apply(world, 'root_density', 'pathogen_load', 'square')
