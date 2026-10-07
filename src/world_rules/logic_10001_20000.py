@@ -19010,3 +19010,6 @@ def logic_16315(world):
 
 def logic_16316(world):
     _world_apply(world, 'wind_y', 'biodiversity', 'gap')
+
+def logic_16317(world):
+    _world_apply(world, 'wind_y', 'habitat_stress', 'direct')
