@@ -9941,3 +9941,6 @@ def logic_7380(agents, world):
 
 def logic_7381(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'stress', 'direct')
+
+def logic_7382(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'stress', 'direct')
