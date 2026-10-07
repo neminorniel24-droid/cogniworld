@@ -5264,3 +5264,6 @@ def logic_19733(agents, world):
 
 def logic_19734(agents, world):
     _agent_apply(world, agents, 'group_stability', 'self_preservation', 'feedback')
+
+def logic_19735(agents, world):
+    _agent_apply(world, agents, 'sharing_capacity', 'self_preservation', 'feedback')
