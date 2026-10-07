@@ -2238,3 +2238,6 @@ def logic_9920(agents, world):
 
 def logic_9921(agents, world):
     _agent_apply(world, agents, 'pollinators', 'recovery', 'direct')
+
+def logic_9922(agents, world):
+    _agent_apply(world, agents, 'flowers', 'recovery', 'direct')
