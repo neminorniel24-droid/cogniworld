@@ -5927,3 +5927,6 @@ def logic_6042(agents, world):
 
 def logic_6043(agents, world):
     _agent_apply(world, agents, 'algae', 'group_stability', 'direct')
+
+def logic_6044(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'group_stability', 'direct')
