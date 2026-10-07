@@ -9803,3 +9803,6 @@ def logic_13246(world):
 
 def logic_13247(world):
     _world_apply(world, 'root_density', 'sediment', 'square')
+
+def logic_13248(world):
+    _world_apply(world, 'root_density', 'salinity', 'pulse')
