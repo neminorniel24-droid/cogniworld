@@ -5468,3 +5468,6 @@ def logic_11801(world):
 
 def logic_11802(world):
     _world_apply(world, 'pollinators', 'seed_bank', 'square')
+
+def logic_11803(world):
+    _world_apply(world, 'pollinators', 'soil_carbon', 'pulse')
