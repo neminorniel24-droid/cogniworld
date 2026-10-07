@@ -5906,3 +5906,6 @@ def logic_6035(agents, world):
 
 def logic_6036(agents, world):
     _agent_apply(world, agents, 'carbon_storage', 'group_stability', 'direct')
+
+def logic_6037(agents, world):
+    _agent_apply(world, agents, 'fire_risk', 'group_stability', 'direct')
