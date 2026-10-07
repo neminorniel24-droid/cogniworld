@@ -3116,3 +3116,6 @@ def logic_5105(agents, world):
 
 def logic_5106(agents, world):
     _agent_apply(world, agents, 'health', 'exploration_drive', 'direct')
+
+def logic_5107(agents, world):
+    _agent_apply(world, agents, 'stress', 'exploration_drive', 'direct')
