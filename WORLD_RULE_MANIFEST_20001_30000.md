@@ -4210,3 +4210,4 @@
 - 24209: integrated cross-system causal rule
 - 24210: integrated cross-system causal rule
 - 24211: integrated cross-system causal rule
+- 24212: integrated cross-system causal rule
