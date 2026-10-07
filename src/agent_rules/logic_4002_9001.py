@@ -7580,3 +7580,6 @@ def logic_6593(agents, world):
 
 def logic_6594(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'confidence', 'direct')
+
+def logic_6595(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'confidence', 'direct')
