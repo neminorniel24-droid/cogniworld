@@ -19292,3 +19292,6 @@ def logic_16409(world):
 
 def logic_16410(world):
     _world_apply(world, 'biomass', 'carbon_storage', 'direct')
+
+def logic_16411(world):
+    _world_apply(world, 'biomass', 'fire_risk', 'square')
