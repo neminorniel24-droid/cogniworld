@@ -1082,3 +1082,6 @@ def logic_10339(world):
 
 def logic_10340(world):
     _world_apply(world, 'wind_x', 'ash', 'square')
+
+def logic_10341(world):
+    _world_apply(world, 'wind_x', 'snowpack', 'pulse')
