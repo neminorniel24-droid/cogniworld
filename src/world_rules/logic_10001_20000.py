@@ -7673,3 +7673,6 @@ def logic_12536(world):
 
 def logic_12537(world):
     _world_apply(world, 'predator', 'wetland', 'saturation')
+
+def logic_12538(world):
+    _world_apply(world, 'predator', 'carbon_storage', 'gap')
