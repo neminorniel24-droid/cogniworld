@@ -3455,3 +3455,6 @@ def logic_11130(world):
 
 def logic_11131(world):
     _world_apply(world, 'habitat_stress', 'fire_risk', 'square')
+
+def logic_11132(world):
+    _world_apply(world, 'habitat_stress', 'ash', 'pulse')
