@@ -4370,3 +4370,6 @@ def logic_5523(agents, world):
 
 def logic_5524(agents, world):
     _agent_apply(world, agents, 'help_given', 'reputation', 'direct')
+
+def logic_5525(agents, world):
+    _agent_apply(world, agents, 'local_density', 'reputation', 'direct')
