@@ -9605,3 +9605,6 @@ def logic_7268(agents, world):
 
 def logic_7269(agents, world):
     _agent_apply(world, agents, 'deadwood', 'resource_competition', 'direct')
+
+def logic_7270(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'resource_competition', 'direct')
