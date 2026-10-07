@@ -4500,3 +4500,4 @@
 - 24499: integrated cross-system causal rule
 - 24500: integrated cross-system causal rule
 - 24501: integrated cross-system causal rule
+- 24502: integrated cross-system causal rule
