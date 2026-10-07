@@ -16151,3 +16151,6 @@ def logic_15362(world):
 
 def logic_15363(world):
     _world_apply(world, 'fire_risk', 'deadwood', 'pulse')
+
+def logic_15364(world):
+    _world_apply(world, 'fire_risk', 'pollinators', 'saturation')
