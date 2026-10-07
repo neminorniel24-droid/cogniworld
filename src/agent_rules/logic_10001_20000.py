@@ -1871,3 +1871,6 @@ def logic_18602(agents, world):
 
 def logic_18603(agents, world):
     _agent_apply(world, agents, 'thirst', 'help_drive', 'saturation')
+
+def logic_18604(agents, world):
+    _agent_apply(world, agents, 'hunger', 'help_drive', 'saturation')
