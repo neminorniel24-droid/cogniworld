@@ -22496,3 +22496,6 @@ def logic_17477(world):
 
 def logic_17478(world):
     _world_apply(world, 'groundwater', 'seed_bank', 'square')
+
+def logic_17479(world):
+    _world_apply(world, 'groundwater', 'soil_carbon', 'pulse')
