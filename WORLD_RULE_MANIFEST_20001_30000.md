@@ -5004,3 +5004,4 @@
 - 25003: integrated cross-system causal rule
 - 25004: integrated cross-system causal rule
 - 25005: integrated cross-system causal rule
+- 25006: integrated cross-system causal rule
