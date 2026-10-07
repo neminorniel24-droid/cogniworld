@@ -4400,3 +4400,4 @@
 - 24399: integrated cross-system causal rule
 - 24400: integrated cross-system causal rule
 - 24401: integrated cross-system causal rule
+- 24402: integrated cross-system causal rule
