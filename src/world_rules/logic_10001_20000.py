@@ -13415,3 +13415,6 @@ def logic_14450(world):
 
 def logic_14451(world):
     _world_apply(world, 'herbivore', 'runoff', 'square')
+
+def logic_14452(world):
+    _world_apply(world, 'herbivore', 'wind_x', 'pulse')
