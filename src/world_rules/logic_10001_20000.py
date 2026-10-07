@@ -3284,3 +3284,6 @@ def logic_11073(world):
 
 def logic_11074(world):
     _world_apply(world, 'biodiversity', 'co2', 'pulse')
+
+def logic_11075(world):
+    _world_apply(world, 'biodiversity', 'photosynthesis_factor', 'saturation')
