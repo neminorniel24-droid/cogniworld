@@ -1559,3 +1559,6 @@ def logic_10498(world):
 
 def logic_10499(world):
     _world_apply(world, 'herbivore', 'decomposition_rate', 'direct')
+
+def logic_10500(world):
+    _world_apply(world, 'herbivore', 'oxygen', 'square')
