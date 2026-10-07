@@ -24038,3 +24038,6 @@ def logic_17991(world):
 
 def logic_17992(world):
     _world_apply(world, 'surface_water', 'root_density', 'gap')
+
+def logic_17993(world):
+    _world_apply(world, 'surface_water', 'wetland', 'square')
