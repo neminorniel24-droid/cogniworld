@@ -16145,3 +16145,6 @@ def logic_15360(world):
 
 def logic_15361(world):
     _world_apply(world, 'fire_risk', 'algae', 'direct')
+
+def logic_15362(world):
+    _world_apply(world, 'fire_risk', 'organic_matter', 'square')
