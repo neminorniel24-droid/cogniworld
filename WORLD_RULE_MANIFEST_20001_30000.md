@@ -802,3 +802,4 @@
 - 20801: integrated cross-system causal rule
 - 20802: integrated cross-system causal rule
 - 20803: integrated cross-system causal rule
+- 20804: integrated cross-system causal rule
