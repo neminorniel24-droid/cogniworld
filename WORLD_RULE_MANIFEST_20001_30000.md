@@ -4704,3 +4704,4 @@
 - 24703: integrated cross-system causal rule
 - 24704: integrated cross-system causal rule
 - 24705: integrated cross-system causal rule
+- 24706: integrated cross-system causal rule
