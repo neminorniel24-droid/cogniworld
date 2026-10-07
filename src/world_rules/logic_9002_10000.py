@@ -189,3 +189,6 @@ def logic_9038(world):
 
 def logic_9039(world):
     _world_apply(world, 'habitat_stress', 'vegetation', 'threshold')
+
+def logic_9040(world):
+    _world_apply(world, 'salinity', 'vegetation', 'saturation')
