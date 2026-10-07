@@ -10865,3 +10865,6 @@ def logic_7688(agents, world):
 
 def logic_7689(agents, world):
     _agent_apply(world, agents, 'hunger', 'betrayal_memory', 'direct')
+
+def logic_7690(agents, world):
+    _agent_apply(world, agents, 'health', 'betrayal_memory', 'direct')
