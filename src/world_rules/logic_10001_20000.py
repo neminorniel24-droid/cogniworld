@@ -13790,3 +13790,6 @@ def logic_14575(world):
 
 def logic_14576(world):
     _world_apply(world, 'carrion', 'surface_ice', 'square')
+
+def logic_14577(world):
+    _world_apply(world, 'nutrients', 'temperature', 'saturation')
