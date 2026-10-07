@@ -8990,3 +8990,6 @@ def logic_12975(world):
 
 def logic_12976(world):
     _world_apply(world, 'methane', 'root_density', 'square')
+
+def logic_12977(world):
+    _world_apply(world, 'methane', 'wetland', 'saturation')
