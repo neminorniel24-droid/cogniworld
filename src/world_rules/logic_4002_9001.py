@@ -365,3 +365,6 @@ def logic_4088(world):
 
 def logic_4089(world):
     _world_apply(world, 'temperature', 'vegetation', 'reciprocal')
+
+def logic_4090(world):
+    _world_apply(world, 'temperature', 'biodiversity', 'direct')
