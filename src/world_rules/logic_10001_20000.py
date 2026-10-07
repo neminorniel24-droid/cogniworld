@@ -10577,3 +10577,6 @@ def logic_13504(world):
 
 def logic_13505(world):
     _world_apply(world, 'groundwater', 'root_density', 'pulse')
+
+def logic_13506(world):
+    _world_apply(world, 'groundwater', 'wetland', 'saturation')
