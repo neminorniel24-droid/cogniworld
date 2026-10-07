@@ -10973,3 +10973,6 @@ def logic_13636(world):
 
 def logic_13637(world):
     _world_apply(world, 'algae', 'root_density', 'direct')
+
+def logic_13638(world):
+    _world_apply(world, 'algae', 'wetland', 'square')
