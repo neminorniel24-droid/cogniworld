@@ -1668,3 +1668,6 @@ def logic_9730(agents, world):
 
 def logic_9731(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'infection_risk', 'direct')
+
+def logic_9732(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'infection_risk', 'direct')
