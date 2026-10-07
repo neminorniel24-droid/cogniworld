@@ -59221,3 +59221,10 @@ def logic_38838(agents, world):
     src = _local(world, agents, 'soil_moisture')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.caution = _delta(agents.caution, delta)
+
+
+def logic_38839(agents, world):
+    """Environmental runoff shapes agent defection_threshold (inverse)."""
+    src = _local(world, agents, 'runoff')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defection_threshold = _delta(agents.defection_threshold, delta)
