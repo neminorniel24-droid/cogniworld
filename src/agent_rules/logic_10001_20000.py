@@ -5336,3 +5336,6 @@ def logic_19757(agents, world):
 
 def logic_19758(agents, world):
     _agent_apply(world, agents, 'betrayal_memory', 'hydration', 'feedback')
+
+def logic_19759(agents, world):
+    _agent_apply(world, agents, 'conflict_history', 'hydration', 'feedback')
