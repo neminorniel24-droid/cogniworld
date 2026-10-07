@@ -8813,3 +8813,6 @@ def logic_12916(world):
 
 def logic_12917(world):
     _world_apply(world, 'detritus', 'predator', 'direct')
+
+def logic_12918(world):
+    _world_apply(world, 'detritus', 'carrion', 'square')
