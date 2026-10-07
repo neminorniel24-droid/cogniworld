@@ -13394,3 +13394,6 @@ def logic_14443(world):
 
 def logic_14444(world):
     _world_apply(world, 'biomass', 'surface_ice', 'saturation')
+
+def logic_14445(world):
+    _world_apply(world, 'herbivore', 'temperature', 'gap')
