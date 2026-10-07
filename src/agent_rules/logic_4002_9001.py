@@ -6395,3 +6395,6 @@ def logic_6198(agents, world):
 
 def logic_6199(agents, world):
     _agent_apply(world, agents, 'cooperation', 'help_drive', 'direct')
+
+def logic_6200(agents, world):
+    _agent_apply(world, agents, 'defection', 'help_drive', 'direct')
