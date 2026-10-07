@@ -11738,3 +11738,6 @@ def logic_7979(agents, world):
 
 def logic_7980(agents, world):
     _agent_apply(world, agents, 'humidity', 'local_density', 'direct')
+
+def logic_7981(agents, world):
+    _agent_apply(world, agents, 'cloud', 'local_density', 'direct')
