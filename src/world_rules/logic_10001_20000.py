@@ -8018,3 +8018,6 @@ def logic_12651(world):
 
 def logic_12652(world):
     _world_apply(world, 'decomposition_rate', 'herbivore', 'pulse')
+
+def logic_12653(world):
+    _world_apply(world, 'decomposition_rate', 'predator', 'saturation')
