@@ -800,3 +800,4 @@
 - 20799: integrated cross-system causal rule
 - 20800: integrated cross-system causal rule
 - 20801: integrated cross-system causal rule
+- 20802: integrated cross-system causal rule
