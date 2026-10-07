@@ -2519,3 +2519,6 @@ def logic_4906(agents, world):
 
 def logic_4907(agents, world):
     _agent_apply(world, agents, 'cooperation', 'metabolic_cost', 'direct')
+
+def logic_4908(agents, world):
+    _agent_apply(world, agents, 'defection', 'metabolic_cost', 'direct')
