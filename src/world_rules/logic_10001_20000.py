@@ -6845,3 +6845,6 @@ def logic_12260(world):
 
 def logic_12261(world):
     _world_apply(world, 'runoff', 'co2', 'pulse')
+
+def logic_12262(world):
+    _world_apply(world, 'runoff', 'photosynthesis_factor', 'saturation')
