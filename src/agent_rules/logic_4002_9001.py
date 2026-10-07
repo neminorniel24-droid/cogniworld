@@ -13844,3 +13844,6 @@ def logic_8681(agents, world):
 
 def logic_8682(agents, world):
     _agent_apply(world, agents, 'biodiversity', 'defection_score', 'direct')
+
+def logic_8683(agents, world):
+    _agent_apply(world, agents, 'habitat_stress', 'defection_score', 'direct')
