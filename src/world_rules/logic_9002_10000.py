@@ -186,3 +186,6 @@ def logic_9037(world):
 
 def logic_9038(world):
     _world_apply(world, 'erosion', 'habitat_stress', 'pulse')
+
+def logic_9039(world):
+    _world_apply(world, 'habitat_stress', 'vegetation', 'threshold')
