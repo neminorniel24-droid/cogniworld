@@ -3664,3 +3664,4 @@
 - 23663: integrated cross-system causal rule
 - 23664: integrated cross-system causal rule
 - 23665: integrated cross-system causal rule
+- 23666: integrated cross-system causal rule
