@@ -2258,3 +2258,6 @@ def logic_4819(agents, world):
 
 def logic_4820(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'recovery', 'direct')
+
+def logic_4821(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'recovery', 'direct')
