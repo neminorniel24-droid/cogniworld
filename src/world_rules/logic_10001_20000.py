@@ -1817,3 +1817,6 @@ def logic_10584(world):
 
 def logic_10585(world):
     _world_apply(world, 'carrion', 'predator', 'pulse')
+
+def logic_10586(world):
+    _world_apply(world, 'carrion', 'nutrients', 'saturation')
