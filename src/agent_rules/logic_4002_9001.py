@@ -14480,3 +14480,6 @@ def logic_8893(agents, world):
 
 def logic_8894(agents, world):
     _agent_apply(world, agents, 'ash', 'safety_score', 'direct')
+
+def logic_8895(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'safety_score', 'direct')
