@@ -16274,3 +16274,6 @@ def logic_15403(world):
 
 def logic_15404(world):
     _world_apply(world, 'ash', 'salinity', 'saturation')
+
+def logic_15405(world):
+    _world_apply(world, 'ash', 'algae', 'gap')
