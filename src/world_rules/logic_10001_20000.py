@@ -20789,3 +20789,6 @@ def logic_16908(world):
 
 def logic_16909(world):
     _world_apply(world, 'methane', 'temperature', 'square')
+
+def logic_16910(world):
+    _world_apply(world, 'methane', 'surface_water', 'pulse')
