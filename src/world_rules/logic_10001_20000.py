@@ -23531,3 +23531,6 @@ def logic_17822(world):
 
 def logic_17823(world):
     _world_apply(world, 'seed_bank', 'groundwater', 'gap')
+
+def logic_17824(world):
+    _world_apply(world, 'seed_bank', 'sediment', 'direct')
