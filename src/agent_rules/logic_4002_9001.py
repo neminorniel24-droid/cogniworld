@@ -12650,3 +12650,6 @@ def logic_8283(agents, world):
 
 def logic_8284(agents, world):
     _agent_apply(world, agents, 'groundwater', 'last_interaction', 'direct')
+
+def logic_8285(agents, world):
+    _agent_apply(world, agents, 'sediment', 'last_interaction', 'direct')
