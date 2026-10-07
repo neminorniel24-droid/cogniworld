@@ -4985,3 +4985,6 @@ def logic_11640(world):
 
 def logic_11641(world):
     _world_apply(world, 'algae', 'predator', 'direct')
+
+def logic_11642(world):
+    _world_apply(world, 'algae', 'carrion', 'square')
