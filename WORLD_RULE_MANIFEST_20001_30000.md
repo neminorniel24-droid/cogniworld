@@ -2872,3 +2872,4 @@
 - 22871: integrated cross-system causal rule
 - 22872: integrated cross-system causal rule
 - 22873: integrated cross-system causal rule
+- 22874: integrated cross-system causal rule
