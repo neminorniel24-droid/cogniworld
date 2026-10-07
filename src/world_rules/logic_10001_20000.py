@@ -6983,3 +6983,6 @@ def logic_12306(world):
 
 def logic_12307(world):
     _world_apply(world, 'wind_x', 'ice', 'gap')
+
+def logic_12308(world):
+    _world_apply(world, 'wind_x', 'evaporation', 'direct')
