@@ -113,3 +113,6 @@ def logic_4004(world):
 
 def logic_4005(world):
     _world_apply(world, 'soil_moisture', 'vegetation', 'sqrt')
+
+def logic_4006(world):
+    _world_apply(world, 'vegetation', 'biomass', 'pulse')
