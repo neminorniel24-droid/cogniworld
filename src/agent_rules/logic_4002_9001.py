@@ -4034,3 +4034,6 @@ def logic_5411(agents, world):
 
 def logic_5412(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'social_tolerance', 'direct')
+
+def logic_5413(agents, world):
+    _agent_apply(world, agents, 'ice', 'social_tolerance', 'direct')
