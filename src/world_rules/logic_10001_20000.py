@@ -584,3 +584,6 @@ def logic_10173(world):
 
 def logic_10174(world):
     _world_apply(world, 'cloud', 'seed_bank', 'gap')
+
+def logic_10175(world):
+    _world_apply(world, 'cloud', 'soil_carbon', 'direct')
