@@ -15653,3 +15653,6 @@ def logic_15196(world):
 
 def logic_15197(world):
     _world_apply(world, 'root_density', 'rain', 'direct')
+
+def logic_15198(world):
+    _world_apply(world, 'root_density', 'soil_moisture', 'square')
