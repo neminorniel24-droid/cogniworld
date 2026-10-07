@@ -200,3 +200,6 @@ def logic_4133(agents, world):
 
 def logic_4134(agents, world):
     _agent_apply(world, agents, 'ash', 'hydration', 'direct')
+
+def logic_4135(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'hydration', 'direct')
