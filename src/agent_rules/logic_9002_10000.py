@@ -180,3 +180,6 @@ def logic_9234(agents, world):
 
 def logic_9235(agents, world):
     _agent_apply(world, agents, 'groundwater', 'hydration', 'direct')
+
+def logic_9236(agents, world):
+    _agent_apply(world, agents, 'sediment', 'hydration', 'direct')
