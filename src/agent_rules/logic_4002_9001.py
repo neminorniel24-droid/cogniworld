@@ -12992,3 +12992,6 @@ def logic_8397(agents, world):
 
 def logic_8398(agents, world):
     _agent_apply(world, agents, 'predator', 'last_action', 'direct')
+
+def logic_8399(agents, world):
+    _agent_apply(world, agents, 'carrion', 'last_action', 'direct')
