@@ -2030,3 +2030,6 @@ def logic_10655(world):
 
 def logic_10656(world):
     _world_apply(world, 'nutrients', 'pollinators', 'square')
+
+def logic_10657(world):
+    _world_apply(world, 'nutrients', 'flowers', 'saturation')
