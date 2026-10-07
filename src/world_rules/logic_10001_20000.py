@@ -668,3 +668,6 @@ def logic_10201(world):
 
 def logic_10202(world):
     _world_apply(world, 'rain', 'erosion', 'square')
+
+def logic_10203(world):
+    _world_apply(world, 'rain', 'soil_depth', 'pulse')
