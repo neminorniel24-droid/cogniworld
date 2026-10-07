@@ -6779,3 +6779,6 @@ def logic_12238(world):
 
 def logic_12239(world):
     _world_apply(world, 'soil_moisture', 'deadwood', 'pulse')
+
+def logic_12240(world):
+    _world_apply(world, 'soil_moisture', 'pollinators', 'saturation')
