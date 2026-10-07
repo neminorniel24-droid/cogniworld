@@ -3086,3 +3086,6 @@ def logic_11007(world):
 
 def logic_11008(world):
     _world_apply(world, 'methane', 'pollinators', 'pulse')
+
+def logic_11009(world):
+    _world_apply(world, 'methane', 'flowers', 'gap')
