@@ -5330,3 +5330,6 @@ def logic_5843(agents, world):
 
 def logic_5844(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'conflict_pressure', 'direct')
+
+def logic_5845(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'conflict_pressure', 'direct')
