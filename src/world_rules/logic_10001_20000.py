@@ -15944,3 +15944,6 @@ def logic_15293(world):
 
 def logic_15294(world):
     _world_apply(world, 'carbon_storage', 'carrion', 'gap')
+
+def logic_15295(world):
+    _world_apply(world, 'carbon_storage', 'nutrients', 'direct')
