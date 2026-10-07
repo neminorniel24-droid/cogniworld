@@ -1301,3 +1301,6 @@ def logic_4500(agents, world):
 
 def logic_4501(agents, world):
     _agent_apply(world, agents, 'trust', 'dehydration', 'direct')
+
+def logic_4502(agents, world):
+    _agent_apply(world, agents, 'reputation', 'dehydration', 'direct')
