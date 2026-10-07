@@ -18386,3 +18386,6 @@ def logic_16107(world):
 
 def logic_16108(world):
     _world_apply(world, 'cloud', 'salinity', 'direct')
+
+def logic_16109(world):
+    _world_apply(world, 'cloud', 'algae', 'square')
