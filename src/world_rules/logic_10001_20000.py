@@ -95,3 +95,6 @@ def logic_10010(world):
 
 def logic_10011(world):
     _world_apply(world, 'temperature', 'herbivore', 'square')
+
+def logic_10012(world):
+    _world_apply(world, 'temperature', 'predator', 'pulse')
