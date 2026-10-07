@@ -12500,3 +12500,6 @@ def logic_8233(agents, world):
 
 def logic_8234(agents, world):
     _agent_apply(world, agents, 'health', 'last_food', 'direct')
+
+def logic_8235(agents, world):
+    _agent_apply(world, agents, 'stress', 'last_food', 'direct')
