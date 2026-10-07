@@ -5513,3 +5513,6 @@ def logic_11816(world):
 
 def logic_11817(world):
     _world_apply(world, 'flowers', 'predator', 'saturation')
+
+def logic_11818(world):
+    _world_apply(world, 'flowers', 'carrion', 'gap')
