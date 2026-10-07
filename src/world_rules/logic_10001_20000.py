@@ -23741,3 +23741,6 @@ def logic_17892(world):
 
 def logic_17893(world):
     _world_apply(world, 'surface_ice', 'oxygen', 'saturation')
+
+def logic_17894(world):
+    _world_apply(world, 'surface_ice', 'co2', 'gap')
