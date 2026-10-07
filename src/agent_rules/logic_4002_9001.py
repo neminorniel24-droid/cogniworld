@@ -10850,3 +10850,6 @@ def logic_7683(agents, world):
 
 def logic_7684(agents, world):
     _agent_apply(world, agents, 'resource_abundance', 'betrayal_memory', 'direct')
+
+def logic_7685(agents, world):
+    _agent_apply(world, agents, 'energy_surplus', 'betrayal_memory', 'direct')
