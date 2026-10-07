@@ -9551,3 +9551,6 @@ def logic_7250(agents, world):
 
 def logic_7251(agents, world):
     _agent_apply(world, agents, 'detritus', 'resource_competition', 'direct')
+
+def logic_7252(agents, world):
+    _agent_apply(world, agents, 'methane', 'resource_competition', 'direct')
