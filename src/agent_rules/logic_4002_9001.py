@@ -7244,3 +7244,6 @@ def logic_6481(agents, world):
 
 def logic_6482(agents, world):
     _agent_apply(world, agents, 'temperature', 'caution', 'direct')
+
+def logic_6483(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'caution', 'direct')
