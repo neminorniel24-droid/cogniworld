@@ -9830,3 +9830,6 @@ def logic_13255(world):
 
 def logic_13256(world):
     _world_apply(world, 'root_density', 'surface_ice', 'square')
+
+def logic_13257(world):
+    _world_apply(world, 'wetland', 'temperature', 'saturation')
