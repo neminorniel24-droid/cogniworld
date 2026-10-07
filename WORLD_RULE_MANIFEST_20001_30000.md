@@ -6050,3 +6050,4 @@
 - 26049: integrated cross-system causal rule
 - 26050: integrated cross-system causal rule
 - 26051: integrated cross-system causal rule
+- 26052: integrated cross-system causal rule
