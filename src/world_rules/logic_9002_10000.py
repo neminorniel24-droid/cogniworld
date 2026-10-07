@@ -198,3 +198,6 @@ def logic_9041(world):
 
 def logic_9042(world):
     _world_apply(world, 'pathogen_load', 'biodiversity', 'direct')
+
+def logic_9043(world):
+    _world_apply(world, 'biodiversity', 'pathogen_load', 'inverse')
