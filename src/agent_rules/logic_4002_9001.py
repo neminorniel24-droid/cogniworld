@@ -10103,3 +10103,6 @@ def logic_7434(agents, world):
 
 def logic_7435(agents, world):
     _agent_apply(world, agents, 'surface_water', 'social_need', 'direct')
+
+def logic_7436(agents, world):
+    _agent_apply(world, agents, 'humidity', 'social_need', 'direct')
