@@ -5102,3 +5102,6 @@ def logic_19679(agents, world):
 
 def logic_19680(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'memory_update', 'gap')
+
+def logic_19681(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'memory_update', 'gap')
