@@ -2198,3 +2198,6 @@ def logic_4799(agents, world):
 
 def logic_4800(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'recovery', 'direct')
+
+def logic_4801(agents, world):
+    _agent_apply(world, agents, 'ice', 'recovery', 'direct')
