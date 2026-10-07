@@ -29205,3 +29205,10 @@ def logic_34550(agents, world):
     src = _local(world, agents, 'flowers')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.reproduction_drive = _delta(agents.reproduction_drive, delta)
+
+
+def logic_34551(agents, world):
+    """Environmental seed_bank shapes agent social_tolerance (inverse)."""
+    src = _local(world, agents, 'seed_bank')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.social_tolerance = _delta(agents.social_tolerance, delta)
