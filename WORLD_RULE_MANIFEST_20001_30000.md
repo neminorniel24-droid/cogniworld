@@ -1541,3 +1541,4 @@
 - 21540: integrated cross-system causal rule
 - 21541: integrated cross-system causal rule
 - 21542: integrated cross-system causal rule
+- 21543: integrated cross-system causal rule
