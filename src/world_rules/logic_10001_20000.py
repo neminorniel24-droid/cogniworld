@@ -2918,3 +2918,6 @@ def logic_10951(world):
 
 def logic_10952(world):
     _world_apply(world, 'detritus', 'root_density', 'gap')
+
+def logic_10953(world):
+    _world_apply(world, 'detritus', 'wetland', 'square')
