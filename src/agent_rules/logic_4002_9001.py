@@ -11999,3 +11999,6 @@ def logic_8066(agents, world):
 
 def logic_8067(agents, world):
     _agent_apply(world, agents, 'detritus', 'last_reward', 'direct')
+
+def logic_8068(agents, world):
+    _agent_apply(world, agents, 'methane', 'last_reward', 'direct')
