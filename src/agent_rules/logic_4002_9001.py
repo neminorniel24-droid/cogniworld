@@ -4082,3 +4082,6 @@ def logic_5427(agents, world):
 
 def logic_5428(agents, world):
     _agent_apply(world, agents, 'groundwater', 'social_tolerance', 'direct')
+
+def logic_5429(agents, world):
+    _agent_apply(world, agents, 'sediment', 'social_tolerance', 'direct')
