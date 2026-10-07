@@ -10808,3 +10808,6 @@ def logic_7669(agents, world):
 
 def logic_7670(agents, world):
     _agent_apply(world, agents, 'ash', 'betrayal_memory', 'direct')
+
+def logic_7671(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'betrayal_memory', 'direct')
