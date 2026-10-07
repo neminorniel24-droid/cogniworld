@@ -14105,3 +14105,6 @@ def logic_14680(world):
 
 def logic_14681(world):
     _world_apply(world, 'oxygen', 'co2', 'direct')
+
+def logic_14682(world):
+    _world_apply(world, 'oxygen', 'photosynthesis_factor', 'square')
