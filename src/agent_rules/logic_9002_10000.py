@@ -2217,3 +2217,6 @@ def logic_9913(agents, world):
 
 def logic_9914(agents, world):
     _agent_apply(world, agents, 'snowpack', 'recovery', 'direct')
+
+def logic_9915(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'recovery', 'direct')
