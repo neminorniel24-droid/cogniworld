@@ -56456,3 +56456,10 @@ def logic_38443(agents, world):
     src = _local(world, agents, 'biodiversity')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.sharing_capacity = _delta(agents.sharing_capacity, delta)
+
+
+def logic_38444(agents, world):
+    """Environmental habitat_stress shapes agent confidence (square)."""
+    src = _local(world, agents, 'habitat_stress')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.confidence = _delta(agents.confidence, delta)
