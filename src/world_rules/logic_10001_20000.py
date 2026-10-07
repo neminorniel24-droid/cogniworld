@@ -4031,3 +4031,6 @@ def logic_11322(world):
 
 def logic_11323(world):
     _world_apply(world, 'carbon_storage', 'humidity', 'pulse')
+
+def logic_11324(world):
+    _world_apply(world, 'carbon_storage', 'cloud', 'saturation')
