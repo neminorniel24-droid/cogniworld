@@ -2765,3 +2765,6 @@ def logic_18900(agents, world):
 
 def logic_18901(agents, world):
     _agent_apply(world, agents, 'defection', 'fire_fear', 'direct')
+
+def logic_18902(agents, world):
+    _agent_apply(world, agents, 'aggression', 'fire_fear', 'direct')
