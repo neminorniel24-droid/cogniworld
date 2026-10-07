@@ -1496,3 +1496,6 @@ def logic_18477(agents, world):
 
 def logic_18478(agents, world):
     _agent_apply(world, agents, 'exploration_drive', 'aggression', 'threshold')
+
+def logic_18479(agents, world):
+    _agent_apply(world, agents, 'food_access', 'aggression', 'threshold')
