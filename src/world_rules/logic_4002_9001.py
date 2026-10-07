@@ -278,3 +278,6 @@ def logic_4059(world):
 
 def logic_4060(world):
     _world_apply(world, 'biodiversity', 'vegetation', 'square')
+
+def logic_4061(world):
+    _world_apply(world, 'algae', 'oxygen', 'sqrt')
