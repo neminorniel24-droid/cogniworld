@@ -55833,3 +55833,10 @@ def logic_38354(agents, world):
     src = _local(world, agents, 'soil_depth')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.sharing_capacity = _delta(agents.sharing_capacity, delta)
+
+
+def logic_38355(agents, world):
+    """Environmental root_density shapes agent confidence (inverse)."""
+    src = _local(world, agents, 'root_density')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.confidence = _delta(agents.confidence, delta)
