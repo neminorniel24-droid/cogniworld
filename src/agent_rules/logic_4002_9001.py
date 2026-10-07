@@ -2609,3 +2609,6 @@ def logic_4936(agents, world):
 
 def logic_4937(agents, world):
     _agent_apply(world, agents, 'ice', 'reproduction_drive', 'direct')
+
+def logic_4938(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'reproduction_drive', 'direct')
