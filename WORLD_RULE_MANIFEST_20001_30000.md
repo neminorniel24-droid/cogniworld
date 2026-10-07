@@ -9704,3 +9704,4 @@
 - 29703: integrated cross-system causal rule
 - 29704: integrated cross-system causal rule
 - 29705: integrated cross-system causal rule
+- 29706: integrated cross-system causal rule
