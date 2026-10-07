@@ -5438,3 +5438,6 @@ def logic_11791(world):
 
 def logic_11792(world):
     _world_apply(world, 'pollinators', 'fire_risk', 'gap')
+
+def logic_11793(world):
+    _world_apply(world, 'pollinators', 'ash', 'square')
