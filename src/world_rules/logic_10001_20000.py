@@ -8153,3 +8153,6 @@ def logic_12696(world):
 
 def logic_12697(world):
     _world_apply(world, 'oxygen', 'predator', 'saturation')
+
+def logic_12698(world):
+    _world_apply(world, 'oxygen', 'carrion', 'gap')
