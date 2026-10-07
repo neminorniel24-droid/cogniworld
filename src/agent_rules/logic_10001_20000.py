@@ -926,3 +926,6 @@ def logic_18287(agents, world):
 
 def logic_18288(agents, world):
     _agent_apply(world, agents, 'herbivore', 'exploration_drive', 'sqrt')
+
+def logic_18289(agents, world):
+    _agent_apply(world, agents, 'predator', 'exploration_drive', 'sqrt')
