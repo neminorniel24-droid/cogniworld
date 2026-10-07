@@ -10103,3 +10103,6 @@ def logic_13346(world):
 
 def logic_13347(world):
     _world_apply(world, 'fire_risk', 'humidity', 'gap')
+
+def logic_13348(world):
+    _world_apply(world, 'fire_risk', 'cloud', 'direct')
