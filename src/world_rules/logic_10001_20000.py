@@ -13400,3 +13400,6 @@ def logic_14445(world):
 
 def logic_14446(world):
     _world_apply(world, 'herbivore', 'surface_water', 'direct')
+
+def logic_14447(world):
+    _world_apply(world, 'herbivore', 'humidity', 'square')
