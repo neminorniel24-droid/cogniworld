@@ -16016,3 +16016,6 @@ def logic_15317(world):
 
 def logic_15318(world):
     _world_apply(world, 'carbon_storage', 'organic_matter', 'square')
+
+def logic_15319(world):
+    _world_apply(world, 'carbon_storage', 'deadwood', 'pulse')
