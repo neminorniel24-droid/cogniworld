@@ -21833,3 +21833,6 @@ def logic_17256(world):
 
 def logic_17257(world):
     _world_apply(world, 'wetland', 'flowers', 'saturation')
+
+def logic_17258(world):
+    _world_apply(world, 'wetland', 'seed_bank', 'gap')
