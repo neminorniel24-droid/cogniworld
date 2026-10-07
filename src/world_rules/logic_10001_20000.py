@@ -18392,3 +18392,6 @@ def logic_16109(world):
 
 def logic_16110(world):
     _world_apply(world, 'cloud', 'organic_matter', 'pulse')
+
+def logic_16111(world):
+    _world_apply(world, 'cloud', 'deadwood', 'saturation')
