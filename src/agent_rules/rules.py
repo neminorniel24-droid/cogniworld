@@ -39376,3 +39376,10 @@ def logic_36003(agents, world):
     src = _local(world, agents, 'methane')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.strategy_confidence = _delta(agents.strategy_confidence, delta)
+
+
+def logic_36004(agents, world):
+    """Environmental pathogen_load shapes agent shelter_need (square)."""
+    src = _local(world, agents, 'pathogen_load')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.shelter_need = _delta(agents.shelter_need, delta)
