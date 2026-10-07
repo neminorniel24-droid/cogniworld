@@ -5165,3 +5165,6 @@ def logic_19700(agents, world):
 
 def logic_19701(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'future_payoff_weight', 'feedback')
+
+def logic_19702(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'future_payoff_weight', 'feedback')
