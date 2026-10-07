@@ -4523,3 +4523,6 @@ def logic_11486(world):
 
 def logic_11487(world):
     _world_apply(world, 'snowpack', 'sediment', 'square')
+
+def logic_11488(world):
+    _world_apply(world, 'snowpack', 'salinity', 'pulse')
