@@ -242,3 +242,6 @@ def logic_10059(world):
 
 def logic_10060(world):
     _world_apply(world, 'surface_water', 'oxygen', 'square')
+
+def logic_10061(world):
+    _world_apply(world, 'surface_water', 'co2', 'pulse')
