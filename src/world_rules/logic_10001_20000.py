@@ -9812,3 +9812,6 @@ def logic_13249(world):
 
 def logic_13250(world):
     _world_apply(world, 'root_density', 'organic_matter', 'direct')
+
+def logic_13251(world):
+    _world_apply(world, 'root_density', 'deadwood', 'square')
