@@ -4343,3 +4343,6 @@ def logic_11426(world):
 
 def logic_11427(world):
     _world_apply(world, 'ash', 'photosynthesis_factor', 'gap')
+
+def logic_11428(world):
+    _world_apply(world, 'ash', 'ice', 'direct')
