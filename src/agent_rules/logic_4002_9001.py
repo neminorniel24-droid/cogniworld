@@ -4178,3 +4178,6 @@ def logic_5459(agents, world):
 
 def logic_5460(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'social_tolerance', 'direct')
+
+def logic_5461(agents, world):
+    _agent_apply(world, agents, 'payoff', 'social_tolerance', 'direct')
