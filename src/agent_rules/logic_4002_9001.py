@@ -9527,3 +9527,6 @@ def logic_7242(agents, world):
 
 def logic_7243(agents, world):
     _agent_apply(world, agents, 'carrion', 'resource_competition', 'direct')
+
+def logic_7244(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'resource_competition', 'direct')
