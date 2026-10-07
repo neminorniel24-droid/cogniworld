@@ -1234,3 +1234,4 @@
 - 21233: integrated cross-system causal rule
 - 21234: integrated cross-system causal rule
 - 21235: integrated cross-system causal rule
+- 21236: integrated cross-system causal rule
