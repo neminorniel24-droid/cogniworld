@@ -4331,3 +4331,6 @@ def logic_11422(world):
 
 def logic_11423(world):
     _world_apply(world, 'ash', 'nutrients', 'gap')
+
+def logic_11424(world):
+    _world_apply(world, 'ash', 'decomposition_rate', 'direct')
