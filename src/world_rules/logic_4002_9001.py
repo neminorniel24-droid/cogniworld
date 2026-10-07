@@ -263,3 +263,6 @@ def logic_4054(world):
 
 def logic_4055(world):
     _world_apply(world, 'groundwater', 'soil_moisture', 'threshold')
+
+def logic_4056(world):
+    _world_apply(world, 'runoff', 'surface_water', 'saturation')
