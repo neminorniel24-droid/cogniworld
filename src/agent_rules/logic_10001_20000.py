@@ -1259,3 +1259,6 @@ def logic_18398(agents, world):
 
 def logic_18399(agents, world):
     _agent_apply(world, agents, 'survival_score', 'reputation', 'pulse')
+
+def logic_18400(agents, world):
+    _agent_apply(world, agents, 'fitness_score', 'reputation', 'pulse')
