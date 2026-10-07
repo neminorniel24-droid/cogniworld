@@ -15359,3 +15359,6 @@ def logic_15098(world):
 
 def logic_15099(world):
     _world_apply(world, 'habitat_stress', 'deadwood', 'direct')
+
+def logic_15100(world):
+    _world_apply(world, 'habitat_stress', 'pollinators', 'square')
