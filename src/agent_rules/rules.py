@@ -57576,3 +57576,10 @@ def logic_38603(agents, world):
     src = _local(world, agents, 'temperature_target')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.sharing_score = _delta(agents.sharing_score, delta)
+
+
+def logic_38604(agents, world):
+    """Environmental surface_water shapes agent payoff (square)."""
+    src = _local(world, agents, 'surface_water')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.payoff = _delta(agents.payoff, delta)
