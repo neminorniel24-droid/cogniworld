@@ -49575,3 +49575,10 @@ def logic_37460(agents, world):
     src = _local(world, agents, 'wind_x')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.thirst = _delta(agents.thirst, delta)
+
+
+def logic_37461(agents, world):
+    """Environmental wind_y shapes agent alertness (root)."""
+    src = _local(world, agents, 'wind_y')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.alertness = _delta(agents.alertness, delta)
