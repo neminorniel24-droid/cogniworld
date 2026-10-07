@@ -4137,3 +4137,4 @@
 - 24136: integrated cross-system causal rule
 - 24137: integrated cross-system causal rule
 - 24138: integrated cross-system causal rule
+- 24139: integrated cross-system causal rule
