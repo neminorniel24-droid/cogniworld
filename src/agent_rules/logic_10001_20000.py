@@ -3701,3 +3701,6 @@ def logic_19212(agents, world):
 
 def logic_19213(agents, world):
     _agent_apply(world, agents, 'last_energy_delta', 'last_interaction', 'sqrt')
+
+def logic_19214(agents, world):
+    _agent_apply(world, agents, 'last_food', 'last_interaction', 'sqrt')
