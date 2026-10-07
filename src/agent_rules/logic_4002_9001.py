@@ -10883,3 +10883,6 @@ def logic_7694(agents, world):
 
 def logic_7695(agents, world):
     _agent_apply(world, agents, 'cooperation', 'betrayal_memory', 'direct')
+
+def logic_7696(agents, world):
+    _agent_apply(world, agents, 'defection', 'betrayal_memory', 'direct')
