@@ -8492,3 +8492,6 @@ def logic_12809(world):
 
 def logic_12810(world):
     _world_apply(world, 'photosynthesis_factor', 'organic_matter', 'direct')
+
+def logic_12811(world):
+    _world_apply(world, 'photosynthesis_factor', 'deadwood', 'square')
