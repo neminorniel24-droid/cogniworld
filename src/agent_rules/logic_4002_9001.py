@@ -13634,3 +13634,6 @@ def logic_8611(agents, world):
 
 def logic_8612(agents, world):
     _agent_apply(world, agents, 'methane', 'competition_score', 'direct')
+
+def logic_8613(agents, world):
+    _agent_apply(world, agents, 'pathogen_load', 'competition_score', 'direct')
