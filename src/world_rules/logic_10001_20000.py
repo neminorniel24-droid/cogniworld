@@ -23885,3 +23885,6 @@ def logic_17940(world):
 
 def logic_17941(world):
     _world_apply(world, 'temperature', 'detritus', 'pulse')
+
+def logic_17942(world):
+    _world_apply(world, 'temperature', 'methane', 'saturation')
