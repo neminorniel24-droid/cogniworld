@@ -63232,3 +63232,10 @@ def logic_39411(agents, world):
     src = _local(world, agents, 'erosion')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.attack_threshold = _delta(agents.attack_threshold, delta)
+
+
+def logic_39412(agents, world):
+    """Environmental soil_depth shapes agent stress (square)."""
+    src = _local(world, agents, 'soil_depth')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.stress = _delta(agents.stress, delta)
