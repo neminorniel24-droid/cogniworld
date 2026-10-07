@@ -12125,3 +12125,6 @@ def logic_14020(world):
 
 def logic_14021(world):
     _world_apply(world, 'surface_water', 'co2', 'pulse')
+
+def logic_14022(world):
+    _world_apply(world, 'surface_water', 'photosynthesis_factor', 'saturation')
