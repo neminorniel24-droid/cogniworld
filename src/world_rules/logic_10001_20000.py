@@ -21308,3 +21308,6 @@ def logic_17081(world):
 
 def logic_17082(world):
     _world_apply(world, 'habitat_stress', 'seed_bank', 'square')
+
+def logic_17083(world):
+    _world_apply(world, 'habitat_stress', 'soil_carbon', 'pulse')
