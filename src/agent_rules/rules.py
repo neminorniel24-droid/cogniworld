@@ -25985,3 +25985,10 @@ def logic_34090(agents, world):
     src = _local(world, agents, 'flowers')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.memory_update = _delta(agents.memory_update, delta)
+
+
+def logic_34091(agents, world):
+    """Environmental seed_bank shapes agent health (inverse)."""
+    src = _local(world, agents, 'seed_bank')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.health = _delta(agents.health, delta)
