@@ -2232,3 +2232,6 @@ def logic_9918(agents, world):
 
 def logic_9919(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'recovery', 'direct')
+
+def logic_9920(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'recovery', 'direct')
