@@ -1370,3 +1370,6 @@ def logic_18435(agents, world):
 
 def logic_18436(agents, world):
     _agent_apply(world, agents, 'detritus', 'cooperation', 'pulse')
+
+def logic_18437(agents, world):
+    _agent_apply(world, agents, 'methane', 'cooperation', 'pulse')
