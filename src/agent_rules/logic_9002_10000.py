@@ -1425,3 +1425,6 @@ def logic_9649(agents, world):
 
 def logic_9650(agents, world):
     _agent_apply(world, agents, 'flowers', 'pathogen_risk', 'direct')
+
+def logic_9651(agents, world):
+    _agent_apply(world, agents, 'seed_bank', 'pathogen_risk', 'direct')
