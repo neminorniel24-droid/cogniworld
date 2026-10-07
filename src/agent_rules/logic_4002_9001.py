@@ -13118,3 +13118,6 @@ def logic_8439(agents, world):
 
 def logic_8440(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'last_action', 'direct')
+
+def logic_8441(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'last_action', 'direct')
