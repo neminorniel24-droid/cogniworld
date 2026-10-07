@@ -600,3 +600,6 @@ def logic_9374(agents, world):
 
 def logic_9375(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'hunger', 'direct')
+
+def logic_9376(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'hunger', 'direct')
