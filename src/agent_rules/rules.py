@@ -26132,3 +26132,10 @@ def logic_34111(agents, world):
     src = _local(world, agents, 'oxygen')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.cooperation_history = _delta(agents.cooperation_history, delta)
+
+
+def logic_34112(agents, world):
+    """Environmental co2 shapes agent last_interaction (square)."""
+    src = _local(world, agents, 'co2')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.last_interaction = _delta(agents.last_interaction, delta)
