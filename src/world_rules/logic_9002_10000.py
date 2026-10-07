@@ -390,3 +390,6 @@ def logic_9105(world):
 
 def logic_9106(world):
     _world_apply(world, 'surface_water', 'wind_x', 'direct')
+
+def logic_9107(world):
+    _world_apply(world, 'surface_water', 'wind_y', 'inverse')
