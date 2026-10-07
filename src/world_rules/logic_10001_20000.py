@@ -4727,3 +4727,6 @@ def logic_11554(world):
 
 def logic_11555(world):
     _world_apply(world, 'sediment', 'nutrients', 'saturation')
+
+def logic_11556(world):
+    _world_apply(world, 'sediment', 'decomposition_rate', 'gap')
