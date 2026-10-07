@@ -8315,3 +8315,6 @@ def logic_6838(agents, world):
 
 def logic_6839(agents, world):
     _agent_apply(world, agents, 'co2', 'empathy', 'direct')
+
+def logic_6840(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'empathy', 'direct')
