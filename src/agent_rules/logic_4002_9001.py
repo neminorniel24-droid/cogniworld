@@ -8114,3 +8114,6 @@ def logic_6771(agents, world):
 
 def logic_6772(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'resource_discovery', 'direct')
+
+def logic_6773(agents, world):
+    _agent_apply(world, agents, 'ice', 'resource_discovery', 'direct')
