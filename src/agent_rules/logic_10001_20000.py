@@ -1832,3 +1832,6 @@ def logic_18589(agents, world):
 
 def logic_18590(agents, world):
     _agent_apply(world, agents, 'algae', 'sharing_capacity', 'saturation')
+
+def logic_18591(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'sharing_capacity', 'saturation')
