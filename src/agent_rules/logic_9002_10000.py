@@ -2289,3 +2289,6 @@ def logic_9937(agents, world):
 
 def logic_9938(agents, world):
     _agent_apply(world, agents, 'cooperation', 'recovery', 'direct')
+
+def logic_9939(agents, world):
+    _agent_apply(world, agents, 'defection', 'recovery', 'direct')
