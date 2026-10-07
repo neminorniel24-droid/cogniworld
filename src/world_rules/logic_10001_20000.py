@@ -11246,3 +11246,6 @@ def logic_13727(world):
 
 def logic_13728(world):
     _world_apply(world, 'deadwood', 'fire_risk', 'pulse')
+
+def logic_13729(world):
+    _world_apply(world, 'deadwood', 'ash', 'gap')
