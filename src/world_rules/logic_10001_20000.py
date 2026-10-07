@@ -14621,3 +14621,6 @@ def logic_14852(world):
 
 def logic_14853(world):
     _world_apply(world, 'evaporation', 'predator', 'saturation')
+
+def logic_14854(world):
+    _world_apply(world, 'evaporation', 'carrion', 'gap')
