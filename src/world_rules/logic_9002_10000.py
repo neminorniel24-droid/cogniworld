@@ -363,3 +363,6 @@ def logic_9096(world):
 
 def logic_9097(world):
     _world_apply(world, 'temperature', 'pollinators', 'reciprocal')
+
+def logic_9098(world):
+    _world_apply(world, 'temperature', 'flowers', 'direct')
