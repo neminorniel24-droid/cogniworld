@@ -16154,3 +16154,6 @@ def logic_15363(world):
 
 def logic_15364(world):
     _world_apply(world, 'fire_risk', 'pollinators', 'saturation')
+
+def logic_15365(world):
+    _world_apply(world, 'fire_risk', 'flowers', 'gap')
