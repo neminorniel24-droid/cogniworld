@@ -14930,3 +14930,6 @@ def logic_14955(world):
 
 def logic_14956(world):
     _world_apply(world, 'methane', 'root_density', 'gap')
+
+def logic_14957(world):
+    _world_apply(world, 'methane', 'wetland', 'direct')
