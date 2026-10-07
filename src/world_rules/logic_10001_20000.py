@@ -7091,3 +7091,6 @@ def logic_12342(world):
 
 def logic_12343(world):
     _world_apply(world, 'wind_y', 'herbivore', 'gap')
+
+def logic_12344(world):
+    _world_apply(world, 'wind_y', 'predator', 'direct')
