@@ -7793,3 +7793,6 @@ def logic_12576(world):
 
 def logic_12577(world):
     _world_apply(world, 'carrion', 'habitat_stress', 'saturation')
+
+def logic_12578(world):
+    _world_apply(world, 'carrion', 'erosion', 'gap')
