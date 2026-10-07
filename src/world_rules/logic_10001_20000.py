@@ -13379,3 +13379,6 @@ def logic_14438(world):
 
 def logic_14439(world):
     _world_apply(world, 'biomass', 'deadwood', 'pulse')
+
+def logic_14440(world):
+    _world_apply(world, 'biomass', 'pollinators', 'saturation')
