@@ -5357,3 +5357,6 @@ def logic_11764(world):
 
 def logic_11765(world):
     _world_apply(world, 'pollinators', 'rain', 'gap')
+
+def logic_11766(world):
+    _world_apply(world, 'pollinators', 'soil_moisture', 'direct')
