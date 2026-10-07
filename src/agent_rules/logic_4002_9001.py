@@ -398,3 +398,6 @@ def logic_4199(agents, world):
 
 def logic_4200(agents, world):
     _agent_apply(world, agents, 'carbon_storage', 'thirst', 'direct')
+
+def logic_4201(agents, world):
+    _agent_apply(world, agents, 'fire_risk', 'thirst', 'direct')
