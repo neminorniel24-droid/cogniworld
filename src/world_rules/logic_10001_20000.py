@@ -4637,3 +4637,6 @@ def logic_11524(world):
 
 def logic_11525(world):
     _world_apply(world, 'groundwater', 'root_density', 'gap')
+
+def logic_11526(world):
+    _world_apply(world, 'groundwater', 'wetland', 'direct')
