@@ -9446,3 +9446,6 @@ def logic_7215(agents, world):
 
 def logic_7216(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'fire_fear', 'direct')
+
+def logic_7217(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'fire_fear', 'direct')
