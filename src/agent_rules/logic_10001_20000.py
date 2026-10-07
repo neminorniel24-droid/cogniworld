@@ -4109,3 +4109,6 @@ def logic_19348(agents, world):
 
 def logic_19349(agents, world):
     _agent_apply(world, agents, 'local_density', 'reciprocity_score', 'threshold')
+
+def logic_19350(agents, world):
+    _agent_apply(world, agents, 'last_reward', 'reciprocity_score', 'threshold')
