@@ -14279,3 +14279,6 @@ def logic_14738(world):
 
 def logic_14739(world):
     _world_apply(world, 'co2', 'fire_risk', 'direct')
+
+def logic_14740(world):
+    _world_apply(world, 'co2', 'ash', 'square')
