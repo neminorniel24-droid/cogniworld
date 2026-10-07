@@ -5423,3 +5423,6 @@ def logic_11786(world):
 
 def logic_11787(world):
     _world_apply(world, 'pollinators', 'erosion', 'gap')
+
+def logic_11788(world):
+    _world_apply(world, 'pollinators', 'soil_depth', 'direct')
