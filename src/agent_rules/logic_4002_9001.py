@@ -8582,3 +8582,6 @@ def logic_6927(agents, world):
 
 def logic_6928(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'attack_threshold', 'direct')
+
+def logic_6929(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'attack_threshold', 'direct')
