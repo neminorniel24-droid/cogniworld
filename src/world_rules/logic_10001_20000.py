@@ -22370,3 +22370,6 @@ def logic_17435(world):
 
 def logic_17436(world):
     _world_apply(world, 'snowpack', 'surface_ice', 'gap')
+
+def logic_17437(world):
+    _world_apply(world, 'groundwater', 'temperature', 'direct')
