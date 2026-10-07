@@ -3458,3 +3458,6 @@ def logic_19131(agents, world):
 
 def logic_19132(agents, world):
     _agent_apply(world, agents, 'soil_depth', 'local_density', 'square')
+
+def logic_19133(agents, world):
+    _agent_apply(world, agents, 'root_density', 'local_density', 'square')
