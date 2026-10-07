@@ -4025,3 +4025,4 @@
 - 24024: integrated cross-system causal rule
 - 24025: integrated cross-system causal rule
 - 24026: integrated cross-system causal rule
+- 24027: integrated cross-system causal rule
