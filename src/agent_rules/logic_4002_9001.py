@@ -9854,3 +9854,6 @@ def logic_7351(agents, world):
 
 def logic_7352(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'vegetation_expectation', 'direct')
+
+def logic_7353(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'vegetation_expectation', 'direct')
