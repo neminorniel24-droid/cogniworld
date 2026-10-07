@@ -741,3 +741,6 @@ def logic_9421(agents, world):
 
 def logic_9422(agents, world):
     _agent_apply(world, agents, 'co2', 'health', 'direct')
+
+def logic_9423(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'health', 'direct')
