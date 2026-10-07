@@ -16184,3 +16184,6 @@ def logic_15373(world):
 
 def logic_15374(world):
     _world_apply(world, 'ash', 'soil_moisture', 'gap')
+
+def logic_15375(world):
+    _world_apply(world, 'ash', 'runoff', 'direct')
