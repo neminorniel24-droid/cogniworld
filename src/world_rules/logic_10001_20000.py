@@ -18362,3 +18362,6 @@ def logic_16099(world):
 
 def logic_16100(world):
     _world_apply(world, 'cloud', 'root_density', 'square')
+
+def logic_16101(world):
+    _world_apply(world, 'cloud', 'wetland', 'pulse')
