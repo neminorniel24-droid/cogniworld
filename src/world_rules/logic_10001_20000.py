@@ -19976,3 +19976,6 @@ def logic_16637(world):
 
 def logic_16638(world):
     _world_apply(world, 'decomposition_rate', 'organic_matter', 'square')
+
+def logic_16639(world):
+    _world_apply(world, 'decomposition_rate', 'deadwood', 'pulse')
