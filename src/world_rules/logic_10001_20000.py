@@ -12980,3 +12980,6 @@ def logic_14305(world):
 
 def logic_14306(world):
     _world_apply(world, 'wind_x', 'organic_matter', 'saturation')
+
+def logic_14307(world):
+    _world_apply(world, 'wind_x', 'deadwood', 'gap')
