@@ -50709,3 +50709,10 @@ def logic_37622(agents, world):
     src = _local(world, agents, 'fire_risk')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.defection_score = _delta(agents.defection_score, delta)
+
+
+def logic_37623(agents, world):
+    """Environmental ash shapes agent fitness_score (inverse)."""
+    src = _local(world, agents, 'ash')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.fitness_score = _delta(agents.fitness_score, delta)
