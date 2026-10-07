@@ -5592,3 +5592,4 @@
 - 25591: integrated cross-system causal rule
 - 25592: integrated cross-system causal rule
 - 25593: integrated cross-system causal rule
+- 25594: integrated cross-system causal rule
