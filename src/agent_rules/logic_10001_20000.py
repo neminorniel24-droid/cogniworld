@@ -3473,3 +3473,6 @@ def logic_19136(agents, world):
 
 def logic_19137(agents, world):
     _agent_apply(world, agents, 'ash', 'local_density', 'square')
+
+def logic_19138(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'local_density', 'square')
