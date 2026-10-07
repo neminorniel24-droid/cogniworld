@@ -2954,3 +2954,6 @@ def logic_10963(world):
 
 def logic_10964(world):
     _world_apply(world, 'detritus', 'pollinators', 'saturation')
+
+def logic_10965(world):
+    _world_apply(world, 'detritus', 'flowers', 'gap')
