@@ -15386,3 +15386,6 @@ def logic_15107(world):
 
 def logic_15108(world):
     _world_apply(world, 'erosion', 'cloud', 'direct')
+
+def logic_15109(world):
+    _world_apply(world, 'erosion', 'rain', 'square')
