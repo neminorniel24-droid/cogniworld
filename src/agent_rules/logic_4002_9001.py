@@ -9815,3 +9815,6 @@ def logic_7338(agents, world):
 
 def logic_7339(agents, world):
     _agent_apply(world, agents, 'flowers', 'vegetation_expectation', 'direct')
+
+def logic_7340(agents, world):
+    _agent_apply(world, agents, 'seed_bank', 'vegetation_expectation', 'direct')
