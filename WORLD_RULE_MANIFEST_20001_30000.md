@@ -257,3 +257,4 @@
 - 20256: integrated cross-system causal rule
 - 20257: integrated cross-system causal rule
 - 20258: integrated cross-system causal rule
+- 20259: integrated cross-system causal rule
