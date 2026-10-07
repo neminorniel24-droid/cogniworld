@@ -2015,3 +2015,6 @@ def logic_10650(world):
 
 def logic_10651(world):
     _world_apply(world, 'nutrients', 'sediment', 'square')
+
+def logic_10652(world):
+    _world_apply(world, 'nutrients', 'salinity', 'pulse')
