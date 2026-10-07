@@ -14744,3 +14744,6 @@ def logic_8981(agents, world):
 
 def logic_8982(agents, world):
     _agent_apply(world, agents, 'health', 'exploration_score', 'direct')
+
+def logic_8983(agents, world):
+    _agent_apply(world, agents, 'stress', 'exploration_score', 'direct')
