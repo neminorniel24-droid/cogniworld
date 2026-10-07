@@ -14774,3 +14774,6 @@ def logic_8991(agents, world):
 
 def logic_8992(agents, world):
     _agent_apply(world, agents, 'help_given', 'exploration_score', 'direct')
+
+def logic_8993(agents, world):
+    _agent_apply(world, agents, 'local_density', 'exploration_score', 'direct')
