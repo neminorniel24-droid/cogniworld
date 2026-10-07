@@ -9224,3 +9224,6 @@ def logic_13053(world):
 
 def logic_13054(world):
     _world_apply(world, 'biodiversity', 'co2', 'gap')
+
+def logic_13055(world):
+    _world_apply(world, 'biodiversity', 'photosynthesis_factor', 'direct')
