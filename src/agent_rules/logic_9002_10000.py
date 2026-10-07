@@ -2400,3 +2400,6 @@ def logic_9974(agents, world):
 
 def logic_9975(agents, world):
     _agent_apply(world, agents, 'erosion', 'metabolic_cost', 'direct')
+
+def logic_9976(agents, world):
+    _agent_apply(world, agents, 'soil_depth', 'metabolic_cost', 'direct')
