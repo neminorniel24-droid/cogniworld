@@ -1346,3 +1346,6 @@ def logic_10427(world):
 
 def logic_10428(world):
     _world_apply(world, 'vegetation', 'ash', 'direct')
+
+def logic_10429(world):
+    _world_apply(world, 'vegetation', 'snowpack', 'square')
