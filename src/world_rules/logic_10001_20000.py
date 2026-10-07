@@ -24002,3 +24002,6 @@ def logic_17979(world):
 
 def logic_17980(world):
     _world_apply(world, 'surface_water', 'oxygen', 'square')
+
+def logic_17981(world):
+    _world_apply(world, 'surface_water', 'co2', 'pulse')
