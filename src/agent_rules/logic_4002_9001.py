@@ -6104,3 +6104,6 @@ def logic_6101(agents, world):
 
 def logic_6102(agents, world):
     _agent_apply(world, agents, 'root_density', 'sharing_capacity', 'direct')
+
+def logic_6103(agents, world):
+    _agent_apply(world, agents, 'wetland', 'sharing_capacity', 'direct')
