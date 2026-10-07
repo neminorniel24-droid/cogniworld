@@ -4745,3 +4745,6 @@ def logic_19560(agents, world):
 
 def logic_19561(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'migration_score', 'reciprocal')
+
+def logic_19562(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'migration_score', 'reciprocal')
