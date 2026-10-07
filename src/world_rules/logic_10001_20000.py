@@ -18764,3 +18764,6 @@ def logic_16233(world):
 
 def logic_16234(world):
     _world_apply(world, 'runoff', 'carbon_storage', 'pulse')
+
+def logic_16235(world):
+    _world_apply(world, 'runoff', 'fire_risk', 'saturation')
