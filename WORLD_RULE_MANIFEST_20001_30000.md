@@ -1930,3 +1930,4 @@
 - 21929: integrated cross-system causal rule
 - 21930: integrated cross-system causal rule
 - 21931: integrated cross-system causal rule
+- 21932: integrated cross-system causal rule
