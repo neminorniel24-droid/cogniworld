@@ -21002,3 +21002,6 @@ def logic_16979(world):
 
 def logic_16980(world):
     _world_apply(world, 'pathogen_load', 'root_density', 'square')
+
+def logic_16981(world):
+    _world_apply(world, 'pathogen_load', 'wetland', 'pulse')
