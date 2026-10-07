@@ -1847,3 +1847,6 @@ def logic_10594(world):
 
 def logic_10595(world):
     _world_apply(world, 'carrion', 'pathogen_load', 'saturation')
+
+def logic_10596(world):
+    _world_apply(world, 'carrion', 'biodiversity', 'gap')
