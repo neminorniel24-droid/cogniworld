@@ -12872,3 +12872,6 @@ def logic_14269(world):
 
 def logic_14270(world):
     _world_apply(world, 'wind_x', 'surface_water', 'pulse')
+
+def logic_14271(world):
+    _world_apply(world, 'wind_x', 'humidity', 'saturation')
