@@ -34518,3 +34518,10 @@ def logic_35309(agents, world):
     src = _local(world, agents, 'photosynthesis_factor')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.fitness_score = _delta(agents.fitness_score, delta)
+
+
+def logic_35310(agents, world):
+    """Environmental ice shapes agent sharing_score (direct)."""
+    src = _local(world, agents, 'ice')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.sharing_score = _delta(agents.sharing_score, delta)
