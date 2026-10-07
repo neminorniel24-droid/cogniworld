@@ -8678,3 +8678,6 @@ def logic_6959(agents, world):
 
 def logic_6960(agents, world):
     _agent_apply(world, agents, 'humidity', 'defection_threshold', 'direct')
+
+def logic_6961(agents, world):
+    _agent_apply(world, agents, 'cloud', 'defection_threshold', 'direct')
