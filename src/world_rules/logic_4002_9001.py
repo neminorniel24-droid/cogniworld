@@ -275,3 +275,6 @@ def logic_4058(world):
 
 def logic_4059(world):
     _world_apply(world, 'wetland', 'biodiversity', 'inverse')
+
+def logic_4060(world):
+    _world_apply(world, 'biodiversity', 'vegetation', 'square')
