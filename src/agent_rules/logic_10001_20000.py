@@ -4013,3 +4013,6 @@ def logic_19316(agents, world):
 
 def logic_19317(agents, world):
     _agent_apply(world, agents, 'conflict_pressure', 'competition_score', 'pulse')
+
+def logic_19318(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'competition_score', 'pulse')
