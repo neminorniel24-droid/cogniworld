@@ -6721,3 +6721,4 @@
 - 26720: integrated cross-system causal rule
 - 26721: integrated cross-system causal rule
 - 26722: integrated cross-system causal rule
+- 26723: integrated cross-system causal rule
