@@ -23879,3 +23879,6 @@ def logic_17938(world):
 
 def logic_17939(world):
     _world_apply(world, 'temperature', 'ice', 'direct')
+
+def logic_17940(world):
+    _world_apply(world, 'temperature', 'evaporation', 'square')
