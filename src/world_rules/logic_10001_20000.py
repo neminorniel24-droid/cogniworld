@@ -4067,3 +4067,6 @@ def logic_11334(world):
 
 def logic_11335(world):
     _world_apply(world, 'carbon_storage', 'nutrients', 'direct')
+
+def logic_11336(world):
+    _world_apply(world, 'carbon_storage', 'decomposition_rate', 'square')
