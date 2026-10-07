@@ -4367,3 +4367,6 @@ def logic_11434(world):
 
 def logic_11435(world):
     _world_apply(world, 'ash', 'erosion', 'saturation')
+
+def logic_11436(world):
+    _world_apply(world, 'ash', 'soil_depth', 'gap')
