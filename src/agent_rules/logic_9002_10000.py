@@ -1989,3 +1989,6 @@ def logic_9837(agents, world):
 
 def logic_9838(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'fear', 'direct')
+
+def logic_9839(agents, world):
+    _agent_apply(world, agents, 'erosion', 'fear', 'direct')
