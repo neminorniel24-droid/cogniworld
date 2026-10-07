@@ -2238,3 +2238,4 @@
 - 22237: integrated cross-system causal rule
 - 22238: integrated cross-system causal rule
 - 22239: integrated cross-system causal rule
+- 22240: integrated cross-system causal rule
