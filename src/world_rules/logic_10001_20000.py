@@ -1523,3 +1523,6 @@ def logic_10486(world):
 
 def logic_10487(world):
     _world_apply(world, 'herbivore', 'humidity', 'square')
+
+def logic_10488(world):
+    _world_apply(world, 'herbivore', 'cloud', 'pulse')
