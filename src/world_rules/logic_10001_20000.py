@@ -4412,3 +4412,6 @@ def logic_11449(world):
 
 def logic_11450(world):
     _world_apply(world, 'ash', 'seed_bank', 'direct')
+
+def logic_11451(world):
+    _world_apply(world, 'ash', 'soil_carbon', 'square')
