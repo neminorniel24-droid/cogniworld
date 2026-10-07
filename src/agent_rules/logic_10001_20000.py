@@ -5249,3 +5249,6 @@ def logic_19728(agents, world):
 
 def logic_19729(agents, world):
     _agent_apply(world, agents, 'defection', 'self_preservation', 'feedback')
+
+def logic_19730(agents, world):
+    _agent_apply(world, agents, 'aggression', 'self_preservation', 'feedback')
