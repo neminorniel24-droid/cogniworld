@@ -14705,3 +14705,6 @@ def logic_8968(agents, world):
 
 def logic_8969(agents, world):
     _agent_apply(world, agents, 'deadwood', 'exploration_score', 'direct')
+
+def logic_8970(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'exploration_score', 'direct')
