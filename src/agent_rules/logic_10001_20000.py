@@ -2738,3 +2738,6 @@ def logic_18891(agents, world):
 
 def logic_18892(agents, world):
     _agent_apply(world, agents, 'exploration_drive', 'fire_fear', 'direct')
+
+def logic_18893(agents, world):
+    _agent_apply(world, agents, 'food_access', 'fire_fear', 'direct')
