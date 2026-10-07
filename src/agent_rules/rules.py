@@ -50408,3 +50408,10 @@ def logic_37579(agents, world):
     src = _local(world, agents, 'groundwater')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.generosity = _delta(agents.generosity, delta)
+
+
+def logic_37580(agents, world):
+    """Environmental sediment shapes agent empathy (square)."""
+    src = _local(world, agents, 'sediment')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.empathy = _delta(agents.empathy, delta)
