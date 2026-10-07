@@ -10655,3 +10655,6 @@ def logic_13530(world):
 
 def logic_13531(world):
     _world_apply(world, 'sediment', 'biomass', 'square')
+
+def logic_13532(world):
+    _world_apply(world, 'sediment', 'herbivore', 'pulse')
