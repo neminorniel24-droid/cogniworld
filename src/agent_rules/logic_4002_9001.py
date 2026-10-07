@@ -9335,3 +9335,6 @@ def logic_7178(agents, world):
 
 def logic_7179(agents, world):
     _agent_apply(world, agents, 'co2', 'fire_fear', 'direct')
+
+def logic_7180(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'fire_fear', 'direct')
