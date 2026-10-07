@@ -14198,3 +14198,6 @@ def logic_8799(agents, world):
 
 def logic_8800(agents, world):
     _agent_apply(world, agents, 'runoff', 'risk_score', 'direct')
+
+def logic_8801(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'risk_score', 'direct')
