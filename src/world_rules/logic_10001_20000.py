@@ -13538,3 +13538,6 @@ def logic_14491(world):
 
 def logic_14492(world):
     _world_apply(world, 'predator', 'cloud', 'pulse')
+
+def logic_14493(world):
+    _world_apply(world, 'predator', 'rain', 'saturation')
