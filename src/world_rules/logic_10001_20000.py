@@ -20216,3 +20216,6 @@ def logic_16717(world):
 
 def logic_16718(world):
     _world_apply(world, 'co2', 'carbon_storage', 'square')
+
+def logic_16719(world):
+    _world_apply(world, 'co2', 'fire_risk', 'pulse')
