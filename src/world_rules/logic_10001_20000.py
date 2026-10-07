@@ -8342,3 +8342,6 @@ def logic_12759(world):
 
 def logic_12760(world):
     _world_apply(world, 'co2', 'ash', 'saturation')
+
+def logic_12761(world):
+    _world_apply(world, 'co2', 'snowpack', 'direct')
