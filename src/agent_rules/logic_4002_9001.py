@@ -9380,3 +9380,6 @@ def logic_7193(agents, world):
 
 def logic_7194(agents, world):
     _agent_apply(world, agents, 'ash', 'fire_fear', 'direct')
+
+def logic_7195(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'fire_fear', 'direct')
