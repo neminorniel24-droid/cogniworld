@@ -2594,3 +2594,6 @@ def logic_4931(agents, world):
 
 def logic_4932(agents, world):
     _agent_apply(world, agents, 'nutrients', 'reproduction_drive', 'direct')
+
+def logic_4933(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'reproduction_drive', 'direct')
