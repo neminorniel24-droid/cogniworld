@@ -13493,3 +13493,6 @@ def logic_14476(world):
 
 def logic_14477(world):
     _world_apply(world, 'herbivore', 'snowpack', 'direct')
+
+def logic_14478(world):
+    _world_apply(world, 'herbivore', 'groundwater', 'square')
