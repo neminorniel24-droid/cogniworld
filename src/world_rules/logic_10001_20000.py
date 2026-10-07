@@ -7688,3 +7688,6 @@ def logic_12541(world):
 
 def logic_12542(world):
     _world_apply(world, 'predator', 'groundwater', 'saturation')
+
+def logic_12543(world):
+    _world_apply(world, 'predator', 'sediment', 'gap')
