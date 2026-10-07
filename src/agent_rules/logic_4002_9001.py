@@ -5672,3 +5672,6 @@ def logic_5957(agents, world):
 
 def logic_5958(agents, world):
     _agent_apply(world, agents, 'evaporation', 'territoriality', 'direct')
+
+def logic_5959(agents, world):
+    _agent_apply(world, agents, 'detritus', 'territoriality', 'direct')
