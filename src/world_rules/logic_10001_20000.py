@@ -23759,3 +23759,6 @@ def logic_17898(world):
 
 def logic_17899(world):
     _world_apply(world, 'surface_ice', 'methane', 'direct')
+
+def logic_17900(world):
+    _world_apply(world, 'surface_ice', 'pathogen_load', 'square')
