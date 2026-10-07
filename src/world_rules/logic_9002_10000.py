@@ -666,3 +666,6 @@ def logic_9197(world):
 
 def logic_9198(world):
     _world_apply(world, 'cloud', 'oxygen', 'pulse')
+
+def logic_9199(world):
+    _world_apply(world, 'cloud', 'co2', 'threshold')
