@@ -311,3 +311,6 @@ def logic_4070(world):
 
 def logic_4071(world):
     _world_apply(world, 'wind_x', 'cloud', 'threshold')
+
+def logic_4072(world):
+    _world_apply(world, 'snowpack', 'surface_ice', 'saturation')
