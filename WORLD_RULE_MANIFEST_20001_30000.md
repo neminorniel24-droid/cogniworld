@@ -2850,3 +2850,4 @@
 - 22849: integrated cross-system causal rule
 - 22850: integrated cross-system causal rule
 - 22851: integrated cross-system causal rule
+- 22852: integrated cross-system causal rule
