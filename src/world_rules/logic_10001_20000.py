@@ -2525,3 +2525,6 @@ def logic_10820(world):
 
 def logic_10821(world):
     _world_apply(world, 'photosynthesis_factor', 'wetland', 'pulse')
+
+def logic_10822(world):
+    _world_apply(world, 'photosynthesis_factor', 'carbon_storage', 'saturation')
