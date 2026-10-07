@@ -5276,3 +5276,6 @@ def logic_19737(agents, world):
 
 def logic_19738(agents, world):
     _agent_apply(world, agents, 'selfishness', 'payoff', 'feedback')
+
+def logic_19739(agents, world):
+    _agent_apply(world, agents, 'generosity', 'payoff', 'feedback')
