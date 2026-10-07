@@ -14594,3 +14594,6 @@ def logic_14843(world):
 
 def logic_14844(world):
     _world_apply(world, 'evaporation', 'cloud', 'saturation')
+
+def logic_14845(world):
+    _world_apply(world, 'evaporation', 'rain', 'gap')
