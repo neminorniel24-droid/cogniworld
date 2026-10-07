@@ -23072,3 +23072,6 @@ def logic_17669(world):
 
 def logic_17670(world):
     _world_apply(world, 'deadwood', 'carrion', 'pulse')
+
+def logic_17671(world):
+    _world_apply(world, 'deadwood', 'nutrients', 'saturation')
