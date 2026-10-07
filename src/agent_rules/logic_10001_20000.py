@@ -1115,3 +1115,6 @@ def logic_18350(agents, world):
 
 def logic_18351(agents, world):
     _agent_apply(world, agents, 'conflict_pressure', 'stability', 'sqrt')
+
+def logic_18352(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'stability', 'sqrt')
