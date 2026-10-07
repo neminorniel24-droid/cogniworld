@@ -500,3 +500,6 @@ def logic_10145(world):
 
 def logic_10146(world):
     _world_apply(world, 'cloud', 'nutrients', 'saturation')
+
+def logic_10147(world):
+    _world_apply(world, 'cloud', 'decomposition_rate', 'gap')
