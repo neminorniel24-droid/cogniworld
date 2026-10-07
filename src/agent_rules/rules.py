@@ -30353,3 +30353,10 @@ def logic_34714(agents, world):
     src = _local(world, agents, 'detritus')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.health = _delta(agents.health, delta)
+
+
+def logic_34715(agents, world):
+    """Environmental methane shapes agent recovery (inverse)."""
+    src = _local(world, agents, 'methane')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.recovery = _delta(agents.recovery, delta)
