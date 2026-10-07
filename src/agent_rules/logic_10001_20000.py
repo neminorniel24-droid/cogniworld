@@ -2879,3 +2879,6 @@ def logic_18938(agents, world):
 
 def logic_18939(agents, world):
     _agent_apply(world, agents, 'last_interaction', 'vegetation_expectation', 'direct')
+
+def logic_18940(agents, world):
+    _agent_apply(world, agents, 'risk_tolerance', 'vegetation_expectation', 'direct')
