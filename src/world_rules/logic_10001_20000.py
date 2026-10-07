@@ -16901,3 +16901,6 @@ def logic_15612(world):
 
 def logic_15613(world):
     _world_apply(world, 'algae', 'biodiversity', 'saturation')
+
+def logic_15614(world):
+    _world_apply(world, 'algae', 'habitat_stress', 'gap')
