@@ -61496,3 +61496,10 @@ def logic_39163(agents, world):
     src = _local(world, agents, 'wind_y')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.memory_update = _delta(agents.memory_update, delta)
+
+
+def logic_39164(agents, world):
+    """Environmental vegetation shapes agent health (square)."""
+    src = _local(world, agents, 'vegetation')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.health = _delta(agents.health, delta)
