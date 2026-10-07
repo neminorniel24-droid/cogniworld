@@ -1580,3 +1580,4 @@
 - 21579: integrated cross-system causal rule
 - 21580: integrated cross-system causal rule
 - 21581: integrated cross-system causal rule
+- 21582: integrated cross-system causal rule
