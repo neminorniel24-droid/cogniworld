@@ -3518,3 +3518,6 @@ def logic_11151(world):
 
 def logic_11152(world):
     _world_apply(world, 'erosion', 'wind_x', 'gap')
+
+def logic_11153(world):
+    _world_apply(world, 'erosion', 'wind_y', 'square')
