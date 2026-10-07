@@ -21650,3 +21650,6 @@ def logic_17195(world):
 
 def logic_17196(world):
     _world_apply(world, 'root_density', 'pathogen_load', 'gap')
+
+def logic_17197(world):
+    _world_apply(world, 'root_density', 'biodiversity', 'direct')
