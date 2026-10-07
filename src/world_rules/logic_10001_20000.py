@@ -16679,3 +16679,6 @@ def logic_15538(world):
 
 def logic_15539(world):
     _world_apply(world, 'sediment', 'deadwood', 'direct')
+
+def logic_15540(world):
+    _world_apply(world, 'sediment', 'pollinators', 'square')
