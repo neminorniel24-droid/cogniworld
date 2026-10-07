@@ -12377,3 +12377,6 @@ def logic_14104(world):
 
 def logic_14105(world):
     _world_apply(world, 'cloud', 'carrion', 'pulse')
+
+def logic_14106(world):
+    _world_apply(world, 'cloud', 'nutrients', 'saturation')
