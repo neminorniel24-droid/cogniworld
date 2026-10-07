@@ -1778,3 +1778,6 @@ def logic_10571(world):
 
 def logic_10572(world):
     _world_apply(world, 'predator', 'surface_ice', 'pulse')
+
+def logic_10573(world):
+    _world_apply(world, 'carrion', 'temperature', 'saturation')
