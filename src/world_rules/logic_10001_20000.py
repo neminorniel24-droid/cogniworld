@@ -12389,3 +12389,6 @@ def logic_14108(world):
 
 def logic_14109(world):
     _world_apply(world, 'cloud', 'co2', 'square')
+
+def logic_14110(world):
+    _world_apply(world, 'cloud', 'photosynthesis_factor', 'pulse')
