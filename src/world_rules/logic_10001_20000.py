@@ -7640,3 +7640,6 @@ def logic_12525(world):
 
 def logic_12526(world):
     _world_apply(world, 'predator', 'photosynthesis_factor', 'direct')
+
+def logic_12527(world):
+    _world_apply(world, 'predator', 'ice', 'square')
