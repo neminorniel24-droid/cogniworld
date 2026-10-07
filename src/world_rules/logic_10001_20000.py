@@ -7763,3 +7763,6 @@ def logic_12566(world):
 
 def logic_12567(world):
     _world_apply(world, 'carrion', 'decomposition_rate', 'square')
+
+def logic_12568(world):
+    _world_apply(world, 'carrion', 'oxygen', 'pulse')
