@@ -2439,3 +2439,6 @@ def logic_9987(agents, world):
 
 def logic_9988(agents, world):
     _agent_apply(world, agents, 'deadwood', 'metabolic_cost', 'direct')
+
+def logic_9989(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'metabolic_cost', 'direct')
