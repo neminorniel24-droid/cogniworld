@@ -1421,3 +1421,6 @@ def logic_18452(agents, world):
 
 def logic_18453(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'cooperation', 'threshold')
+
+def logic_18454(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'cooperation', 'threshold')
