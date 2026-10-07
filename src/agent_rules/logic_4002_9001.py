@@ -2723,3 +2723,6 @@ def logic_4974(agents, world):
 
 def logic_4975(agents, world):
     _agent_apply(world, agents, 'cooperation', 'reproduction_drive', 'direct')
+
+def logic_4976(agents, world):
+    _agent_apply(world, agents, 'defection', 'reproduction_drive', 'direct')
