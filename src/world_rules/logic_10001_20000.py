@@ -17360,3 +17360,6 @@ def logic_15765(world):
 
 def logic_15766(world):
     _world_apply(world, 'flowers', 'surface_water', 'direct')
+
+def logic_15767(world):
+    _world_apply(world, 'flowers', 'humidity', 'square')
