@@ -902,3 +902,4 @@
 - 20901: integrated cross-system causal rule
 - 20902: integrated cross-system causal rule
 - 20903: integrated cross-system causal rule
+- 20904: integrated cross-system causal rule
