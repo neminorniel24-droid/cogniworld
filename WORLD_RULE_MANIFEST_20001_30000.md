@@ -2104,3 +2104,4 @@
 - 22103: integrated cross-system causal rule
 - 22104: integrated cross-system causal rule
 - 22105: integrated cross-system causal rule
+- 22106: integrated cross-system causal rule
