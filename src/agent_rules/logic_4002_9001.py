@@ -146,3 +146,6 @@ def logic_4115(agents, world):
 
 def logic_4116(agents, world):
     _agent_apply(world, agents, 'nutrients', 'hydration', 'direct')
+
+def logic_4117(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'hydration', 'direct')
