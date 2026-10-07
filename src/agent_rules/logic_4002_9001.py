@@ -6287,3 +6287,6 @@ def logic_6162(agents, world):
 
 def logic_6163(agents, world):
     _agent_apply(world, agents, 'detritus', 'help_drive', 'direct')
+
+def logic_6164(agents, world):
+    _agent_apply(world, agents, 'methane', 'help_drive', 'direct')
