@@ -11381,3 +11381,6 @@ def logic_7860(agents, world):
 
 def logic_7861(agents, world):
     _agent_apply(world, agents, 'ice', 'help_received', 'direct')
+
+def logic_7862(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'help_received', 'direct')
