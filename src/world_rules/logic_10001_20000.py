@@ -5090,3 +5090,6 @@ def logic_11675(world):
 
 def logic_11676(world):
     _world_apply(world, 'organic_matter', 'cloud', 'gap')
+
+def logic_11677(world):
+    _world_apply(world, 'organic_matter', 'rain', 'direct')
