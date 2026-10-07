@@ -2117,3 +2117,6 @@ def logic_10684(world):
 
 def logic_10685(world):
     _world_apply(world, 'decomposition_rate', 'habitat_stress', 'gap')
+
+def logic_10686(world):
+    _world_apply(world, 'decomposition_rate', 'erosion', 'direct')
