@@ -8693,3 +8693,6 @@ def logic_12876(world):
 
 def logic_12877(world):
     _world_apply(world, 'evaporation', 'oxygen', 'direct')
+
+def logic_12878(world):
+    _world_apply(world, 'evaporation', 'co2', 'square')
