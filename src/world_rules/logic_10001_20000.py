@@ -23495,3 +23495,6 @@ def logic_17810(world):
 
 def logic_17811(world):
     _world_apply(world, 'seed_bank', 'methane', 'square')
+
+def logic_17812(world):
+    _world_apply(world, 'seed_bank', 'pathogen_load', 'pulse')
