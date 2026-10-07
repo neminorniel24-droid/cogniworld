@@ -1160,3 +1160,6 @@ def logic_10365(world):
 
 def logic_10366(world):
     _world_apply(world, 'wind_y', 'nutrients', 'direct')
+
+def logic_10367(world):
+    _world_apply(world, 'wind_y', 'decomposition_rate', 'square')
