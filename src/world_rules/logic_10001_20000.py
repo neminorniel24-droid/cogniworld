@@ -12185,3 +12185,6 @@ def logic_14040(world):
 
 def logic_14041(world):
     _world_apply(world, 'surface_water', 'algae', 'direct')
+
+def logic_14042(world):
+    _world_apply(world, 'surface_water', 'organic_matter', 'square')
