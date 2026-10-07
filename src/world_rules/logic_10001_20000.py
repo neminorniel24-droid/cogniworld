@@ -14666,3 +14666,6 @@ def logic_14867(world):
 
 def logic_14868(world):
     _world_apply(world, 'evaporation', 'root_density', 'direct')
+
+def logic_14869(world):
+    _world_apply(world, 'evaporation', 'wetland', 'square')
