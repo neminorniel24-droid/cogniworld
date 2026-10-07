@@ -24017,3 +24017,6 @@ def logic_17984(world):
 
 def logic_17985(world):
     _world_apply(world, 'surface_water', 'detritus', 'pulse')
+
+def logic_17986(world):
+    _world_apply(world, 'surface_water', 'methane', 'saturation')
