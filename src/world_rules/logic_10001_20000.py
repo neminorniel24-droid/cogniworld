@@ -1769,3 +1769,6 @@ def logic_10568(world):
 
 def logic_10569(world):
     _world_apply(world, 'predator', 'flowers', 'gap')
+
+def logic_10570(world):
+    _world_apply(world, 'predator', 'seed_bank', 'direct')
