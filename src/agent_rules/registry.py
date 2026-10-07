@@ -50320,3 +50320,5 @@ from .rules import logic_39931
 RULES.append(logic_39931)
 from .rules import logic_39932
 RULES.append(logic_39932)
+from .rules import logic_39933
+RULES.append(logic_39933)
