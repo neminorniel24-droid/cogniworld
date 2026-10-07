@@ -1484,3 +1484,6 @@ def logic_18473(agents, world):
 
 def logic_18474(agents, world):
     _agent_apply(world, agents, 'recovery', 'defection', 'threshold')
+
+def logic_18475(agents, world):
+    _agent_apply(world, agents, 'metabolic_cost', 'aggression', 'threshold')
