@@ -6104,3 +6104,4 @@
 - 26103: integrated cross-system causal rule
 - 26104: integrated cross-system causal rule
 - 26105: integrated cross-system causal rule
+- 26106: integrated cross-system causal rule
