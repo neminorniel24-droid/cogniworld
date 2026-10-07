@@ -100,3 +100,4 @@
 - 20099: integrated cross-system causal rule
 - 20100: integrated cross-system causal rule
 - 20101: integrated cross-system causal rule
+- 20102: integrated cross-system causal rule
