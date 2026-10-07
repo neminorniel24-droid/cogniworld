@@ -8162,3 +8162,6 @@ def logic_6787(agents, world):
 
 def logic_6788(agents, world):
     _agent_apply(world, agents, 'groundwater', 'resource_discovery', 'direct')
+
+def logic_6789(agents, world):
+    _agent_apply(world, agents, 'sediment', 'resource_discovery', 'direct')
