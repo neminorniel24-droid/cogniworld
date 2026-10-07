@@ -20000,3 +20000,6 @@ def logic_16645(world):
 
 def logic_16646(world):
     _world_apply(world, 'oxygen', 'surface_water', 'direct')
+
+def logic_16647(world):
+    _world_apply(world, 'oxygen', 'humidity', 'square')
