@@ -16775,3 +16775,6 @@ def logic_15570(world):
 
 def logic_15571(world):
     _world_apply(world, 'salinity', 'erosion', 'square')
+
+def logic_15572(world):
+    _world_apply(world, 'salinity', 'soil_depth', 'pulse')
