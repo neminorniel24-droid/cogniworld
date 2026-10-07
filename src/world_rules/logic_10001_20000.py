@@ -10955,3 +10955,6 @@ def logic_13630(world):
 
 def logic_13631(world):
     _world_apply(world, 'algae', 'methane', 'saturation')
+
+def logic_13632(world):
+    _world_apply(world, 'algae', 'pathogen_load', 'gap')
