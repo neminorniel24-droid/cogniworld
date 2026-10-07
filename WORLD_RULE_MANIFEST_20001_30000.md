@@ -5050,3 +5050,4 @@
 - 25049: integrated cross-system causal rule
 - 25050: integrated cross-system causal rule
 - 25051: integrated cross-system causal rule
+- 25052: integrated cross-system causal rule
