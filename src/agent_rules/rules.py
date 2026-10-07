@@ -27749,3 +27749,10 @@ def logic_34342(agents, world):
     src = _local(world, agents, 'co2')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.risk_score = _delta(agents.risk_score, delta)
+
+
+def logic_34343(agents, world):
+    """Environmental photosynthesis_factor shapes agent attack_success (inverse)."""
+    src = _local(world, agents, 'photosynthesis_factor')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.attack_success = _delta(agents.attack_success, delta)
