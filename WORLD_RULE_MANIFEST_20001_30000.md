@@ -2685,3 +2685,4 @@
 - 22684: integrated cross-system causal rule
 - 22685: integrated cross-system causal rule
 - 22686: integrated cross-system causal rule
+- 22687: integrated cross-system causal rule
