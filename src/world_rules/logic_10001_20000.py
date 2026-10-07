@@ -8363,3 +8363,6 @@ def logic_12766(world):
 
 def logic_12767(world):
     _world_apply(world, 'co2', 'deadwood', 'square')
+
+def logic_12768(world):
+    _world_apply(world, 'co2', 'pollinators', 'pulse')
