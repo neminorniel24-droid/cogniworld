@@ -6010,3 +6010,4 @@
 - 26009: integrated cross-system causal rule
 - 26010: integrated cross-system causal rule
 - 26011: integrated cross-system causal rule
+- 26012: integrated cross-system causal rule
