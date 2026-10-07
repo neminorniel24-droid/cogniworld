@@ -6182,3 +6182,6 @@ def logic_12039(world):
 
 def logic_12040(world):
     _world_apply(world, 'surface_water', 'oxygen', 'saturation')
+
+def logic_12041(world):
+    _world_apply(world, 'surface_water', 'co2', 'direct')
