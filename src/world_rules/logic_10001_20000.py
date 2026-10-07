@@ -21767,3 +21767,6 @@ def logic_17234(world):
 
 def logic_17235(world):
     _world_apply(world, 'wetland', 'photosynthesis_factor', 'saturation')
+
+def logic_17236(world):
+    _world_apply(world, 'wetland', 'ice', 'gap')
