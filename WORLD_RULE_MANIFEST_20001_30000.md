@@ -6087,3 +6087,4 @@
 - 26086: integrated cross-system causal rule
 - 26087: integrated cross-system causal rule
 - 26088: integrated cross-system causal rule
+- 26089: integrated cross-system causal rule
