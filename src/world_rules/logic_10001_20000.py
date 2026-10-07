@@ -10049,3 +10049,6 @@ def logic_13328(world):
 
 def logic_13329(world):
     _world_apply(world, 'carbon_storage', 'root_density', 'gap')
+
+def logic_13330(world):
+    _world_apply(world, 'carbon_storage', 'wetland', 'direct')
