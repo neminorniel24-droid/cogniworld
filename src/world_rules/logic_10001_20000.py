@@ -1919,3 +1919,6 @@ def logic_10618(world):
 
 def logic_10619(world):
     _world_apply(world, 'nutrients', 'humidity', 'direct')
+
+def logic_10620(world):
+    _world_apply(world, 'nutrients', 'cloud', 'square')
