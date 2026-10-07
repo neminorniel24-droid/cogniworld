@@ -8845,3 +8845,4 @@
 - 28844: integrated cross-system causal rule
 - 28845: integrated cross-system causal rule
 - 28846: integrated cross-system causal rule
+- 28847: integrated cross-system causal rule
