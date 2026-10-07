@@ -2193,3 +2193,6 @@ def logic_9905(agents, world):
 
 def logic_9906(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'recovery', 'direct')
+
+def logic_9907(agents, world):
+    _agent_apply(world, agents, 'erosion', 'recovery', 'direct')
