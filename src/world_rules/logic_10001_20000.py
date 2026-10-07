@@ -13838,3 +13838,6 @@ def logic_14591(world):
 
 def logic_14592(world):
     _world_apply(world, 'nutrients', 'oxygen', 'gap')
+
+def logic_14593(world):
+    _world_apply(world, 'nutrients', 'co2', 'square')
