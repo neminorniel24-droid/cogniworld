@@ -10466,3 +10466,6 @@ def logic_13467(world):
 
 def logic_13468(world):
     _world_apply(world, 'snowpack', 'salinity', 'direct')
+
+def logic_13469(world):
+    _world_apply(world, 'snowpack', 'algae', 'square')
