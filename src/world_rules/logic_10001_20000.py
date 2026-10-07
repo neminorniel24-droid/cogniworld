@@ -2720,3 +2720,6 @@ def logic_10885(world):
 
 def logic_10886(world):
     _world_apply(world, 'evaporation', 'soil_moisture', 'direct')
+
+def logic_10887(world):
+    _world_apply(world, 'evaporation', 'runoff', 'square')
