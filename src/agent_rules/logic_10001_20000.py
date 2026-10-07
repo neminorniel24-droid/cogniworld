@@ -2525,3 +2525,6 @@ def logic_18820(agents, world):
 
 def logic_18821(agents, world):
     _agent_apply(world, agents, 'sharing_score', 'attack_threshold', 'feedback')
+
+def logic_18822(agents, world):
+    _agent_apply(world, agents, 'strategy_persistence', 'attack_threshold', 'feedback')
