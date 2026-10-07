@@ -12104,3 +12104,6 @@ def logic_8101(agents, world):
 
 def logic_8102(agents, world):
     _agent_apply(world, agents, 'social_need', 'last_reward', 'direct')
+
+def logic_8103(agents, world):
+    _agent_apply(world, agents, 'cooperation', 'last_reward', 'direct')
