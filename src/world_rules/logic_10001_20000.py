@@ -21956,3 +21956,6 @@ def logic_17297(world):
 
 def logic_17298(world):
     _world_apply(world, 'carbon_storage', 'organic_matter', 'gap')
+
+def logic_17299(world):
+    _world_apply(world, 'carbon_storage', 'deadwood', 'direct')
