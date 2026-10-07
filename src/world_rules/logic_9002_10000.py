@@ -309,3 +309,6 @@ def logic_9078(world):
 
 def logic_9079(world):
     _world_apply(world, 'temperature', 'ice', 'threshold')
+
+def logic_9080(world):
+    _world_apply(world, 'temperature', 'detritus', 'saturation')
