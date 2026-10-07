@@ -4110,3 +4110,4 @@
 - 24109: integrated cross-system causal rule
 - 24110: integrated cross-system causal rule
 - 24111: integrated cross-system causal rule
+- 24112: integrated cross-system causal rule
