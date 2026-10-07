@@ -11243,3 +11243,6 @@ def logic_13726(world):
 
 def logic_13727(world):
     _world_apply(world, 'deadwood', 'carbon_storage', 'square')
+
+def logic_13728(world):
+    _world_apply(world, 'deadwood', 'fire_risk', 'pulse')
