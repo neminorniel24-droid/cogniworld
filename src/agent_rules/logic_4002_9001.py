@@ -1253,3 +1253,6 @@ def logic_4484(agents, world):
 
 def logic_4485(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'dehydration', 'direct')
+
+def logic_4486(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'dehydration', 'direct')
