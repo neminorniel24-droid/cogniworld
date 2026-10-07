@@ -11504,3 +11504,6 @@ def logic_13813(world):
 
 def logic_13814(world):
     _world_apply(world, 'flowers', 'wetland', 'gap')
+
+def logic_13815(world):
+    _world_apply(world, 'flowers', 'carbon_storage', 'direct')
