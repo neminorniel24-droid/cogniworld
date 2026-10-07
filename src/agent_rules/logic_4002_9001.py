@@ -8465,3 +8465,6 @@ def logic_6888(agents, world):
 
 def logic_6889(agents, world):
     _agent_apply(world, agents, 'payoff', 'empathy', 'direct')
+
+def logic_6890(agents, world):
+    _agent_apply(world, agents, 'temperature', 'attack_threshold', 'direct')
