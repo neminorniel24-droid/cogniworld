@@ -23360,3 +23360,6 @@ def logic_17765(world):
 
 def logic_17766(world):
     _world_apply(world, 'flowers', 'detritus', 'direct')
+
+def logic_17767(world):
+    _world_apply(world, 'flowers', 'methane', 'square')
