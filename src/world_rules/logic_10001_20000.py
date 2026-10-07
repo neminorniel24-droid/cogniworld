@@ -8495,3 +8495,6 @@ def logic_12810(world):
 
 def logic_12811(world):
     _world_apply(world, 'photosynthesis_factor', 'deadwood', 'square')
+
+def logic_12812(world):
+    _world_apply(world, 'photosynthesis_factor', 'pollinators', 'pulse')
