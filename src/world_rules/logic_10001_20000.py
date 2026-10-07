@@ -10874,3 +10874,6 @@ def logic_13603(world):
 
 def logic_13604(world):
     _world_apply(world, 'salinity', 'pollinators', 'saturation')
+
+def logic_13605(world):
+    _world_apply(world, 'salinity', 'flowers', 'gap')
