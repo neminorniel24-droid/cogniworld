@@ -2030,3 +2030,4 @@
 - 22029: integrated cross-system causal rule
 - 22030: integrated cross-system causal rule
 - 22031: integrated cross-system causal rule
+- 22032: integrated cross-system causal rule
