@@ -9992,3 +9992,6 @@ def logic_13309(world):
 
 def logic_13310(world):
     _world_apply(world, 'carbon_storage', 'vegetation', 'pulse')
+
+def logic_13311(world):
+    _world_apply(world, 'carbon_storage', 'biomass', 'saturation')
