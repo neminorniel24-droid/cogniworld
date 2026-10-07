@@ -1701,3 +1701,6 @@ def logic_9741(agents, world):
 
 def logic_9742(agents, world):
     _agent_apply(world, agents, 'survival_score', 'infection_risk', 'direct')
+
+def logic_9743(agents, world):
+    _agent_apply(world, agents, 'fitness_score', 'infection_risk', 'direct')
