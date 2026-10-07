@@ -383,3 +383,6 @@ def logic_18106(agents, world):
 
 def logic_18107(agents, world):
     _agent_apply(world, agents, 'local_density', 'dehydration', 'inverse')
+
+def logic_18108(agents, world):
+    _agent_apply(world, agents, 'last_reward', 'dehydration', 'inverse')
