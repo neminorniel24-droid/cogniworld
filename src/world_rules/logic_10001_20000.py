@@ -2684,3 +2684,6 @@ def logic_10873(world):
 
 def logic_10874(world):
     _world_apply(world, 'ice', 'organic_matter', 'pulse')
+
+def logic_10875(world):
+    _world_apply(world, 'ice', 'deadwood', 'saturation')
