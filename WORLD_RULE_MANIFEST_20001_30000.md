@@ -4945,3 +4945,4 @@
 - 24944: integrated cross-system causal rule
 - 24945: integrated cross-system causal rule
 - 24946: integrated cross-system causal rule
+- 24947: integrated cross-system causal rule
