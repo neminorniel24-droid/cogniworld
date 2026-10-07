@@ -2009,3 +2009,6 @@ def logic_4736(agents, world):
 
 def logic_4737(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'fear', 'direct')
+
+def logic_4738(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'fear', 'direct')
