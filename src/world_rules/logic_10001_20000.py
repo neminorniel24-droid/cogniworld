@@ -21047,3 +21047,6 @@ def logic_16994(world):
 
 def logic_16995(world):
     _world_apply(world, 'pathogen_load', 'soil_carbon', 'saturation')
+
+def logic_16996(world):
+    _world_apply(world, 'pathogen_load', 'surface_ice', 'gap')
