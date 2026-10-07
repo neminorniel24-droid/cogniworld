@@ -9888,3 +9888,4 @@
 - 29887: integrated cross-system causal rule
 - 29888: integrated cross-system causal rule
 - 29889: integrated cross-system causal rule
+- 29890: integrated cross-system causal rule
