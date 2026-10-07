@@ -5222,3 +5222,6 @@ def logic_19719(agents, world):
 
 def logic_19720(agents, world):
     _agent_apply(world, agents, 'exploration_drive', 'self_preservation', 'feedback')
+
+def logic_19721(agents, world):
+    _agent_apply(world, agents, 'food_access', 'self_preservation', 'feedback')
