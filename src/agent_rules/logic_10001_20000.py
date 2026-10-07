@@ -4220,3 +4220,6 @@ def logic_19385(agents, world):
 
 def logic_19386(agents, world):
     _agent_apply(world, agents, 'soil_moisture', 'safety_score', 'threshold')
+
+def logic_19387(agents, world):
+    _agent_apply(world, agents, 'runoff', 'safety_score', 'threshold')
