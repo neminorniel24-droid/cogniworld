@@ -20876,3 +20876,6 @@ def logic_16937(world):
 
 def logic_16938(world):
     _world_apply(world, 'methane', 'carbon_storage', 'gap')
+
+def logic_16939(world):
+    _world_apply(world, 'methane', 'fire_risk', 'direct')
