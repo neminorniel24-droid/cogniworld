@@ -1043,3 +1043,6 @@ def logic_10326(world):
 
 def logic_10327(world):
     _world_apply(world, 'wind_x', 'ice', 'square')
+
+def logic_10328(world):
+    _world_apply(world, 'wind_x', 'evaporation', 'pulse')
