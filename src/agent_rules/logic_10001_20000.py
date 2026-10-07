@@ -4706,3 +4706,6 @@ def logic_19547(agents, world):
 
 def logic_19548(agents, world):
     _agent_apply(world, agents, 'wetland', 'defense_score', 'reciprocal')
+
+def logic_19549(agents, world):
+    _agent_apply(world, agents, 'carbon_storage', 'defense_score', 'reciprocal')
