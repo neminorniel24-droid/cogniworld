@@ -392,3 +392,6 @@ def logic_4097(world):
 
 def logic_4098(world):
     _world_apply(world, 'pathogen_load', 'biodiversity', 'direct')
+
+def logic_4099(world):
+    _world_apply(world, 'biodiversity', 'pathogen_load', 'inverse')
