@@ -4040,3 +4040,6 @@ def logic_19325(agents, world):
 
 def logic_19326(agents, world):
     _agent_apply(world, agents, 'gratitude', 'defection_score', 'pulse')
+
+def logic_19327(agents, world):
+    _agent_apply(world, agents, 'caution', 'defection_score', 'pulse')
