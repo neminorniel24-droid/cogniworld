@@ -114,3 +114,6 @@ def logic_9013(world):
 
 def logic_9014(world):
     _world_apply(world, 'vegetation', 'carbon_storage', 'pulse')
+
+def logic_9015(world):
+    _world_apply(world, 'carbon_storage', 'co2', 'threshold')
