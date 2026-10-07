@@ -2660,3 +2660,4 @@
 - 22659: integrated cross-system causal rule
 - 22660: integrated cross-system causal rule
 - 22661: integrated cross-system causal rule
+- 22662: integrated cross-system causal rule
