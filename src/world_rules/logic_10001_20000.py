@@ -20177,3 +20177,6 @@ def logic_16704(world):
 
 def logic_16705(world):
     _world_apply(world, 'co2', 'oxygen', 'pulse')
+
+def logic_16706(world):
+    _world_apply(world, 'co2', 'photosynthesis_factor', 'saturation')
