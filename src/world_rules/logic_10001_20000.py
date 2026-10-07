@@ -4706,3 +4706,6 @@ def logic_11547(world):
 
 def logic_11548(world):
     _world_apply(world, 'sediment', 'wind_x', 'direct')
+
+def logic_11549(world):
+    _world_apply(world, 'sediment', 'wind_y', 'square')
