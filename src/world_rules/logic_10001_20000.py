@@ -2921,3 +2921,6 @@ def logic_10952(world):
 
 def logic_10953(world):
     _world_apply(world, 'detritus', 'wetland', 'square')
+
+def logic_10954(world):
+    _world_apply(world, 'detritus', 'carbon_storage', 'pulse')
