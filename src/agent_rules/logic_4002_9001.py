@@ -3104,3 +3104,6 @@ def logic_5101(agents, world):
 
 def logic_5102(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'exploration_drive', 'direct')
+
+def logic_5103(agents, world):
+    _agent_apply(world, agents, 'hydration', 'exploration_drive', 'direct')
