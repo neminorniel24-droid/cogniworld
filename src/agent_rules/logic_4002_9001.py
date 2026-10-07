@@ -5654,3 +5654,6 @@ def logic_5951(agents, world):
 
 def logic_5952(agents, world):
     _agent_apply(world, agents, 'nutrients', 'territoriality', 'direct')
+
+def logic_5953(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'territoriality', 'direct')
