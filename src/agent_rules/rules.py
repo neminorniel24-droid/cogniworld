@@ -59088,3 +59088,10 @@ def logic_38819(agents, world):
     src = _local(world, agents, 'ash')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.reproduction_score = _delta(agents.reproduction_score, delta)
+
+
+def logic_38820(agents, world):
+    """Environmental snowpack shapes agent self_preservation (square)."""
+    src = _local(world, agents, 'snowpack')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.self_preservation = _delta(agents.self_preservation, delta)
