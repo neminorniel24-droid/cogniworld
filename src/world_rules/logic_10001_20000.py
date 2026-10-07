@@ -9047,3 +9047,6 @@ def logic_12994(world):
 
 def logic_12995(world):
     _world_apply(world, 'pathogen_load', 'humidity', 'saturation')
+
+def logic_12996(world):
+    _world_apply(world, 'pathogen_load', 'cloud', 'gap')
