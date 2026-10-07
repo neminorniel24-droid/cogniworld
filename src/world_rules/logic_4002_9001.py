@@ -257,3 +257,6 @@ def logic_4052(world):
 
 def logic_4053(world):
     _world_apply(world, 'cloud', 'temperature', 'sqrt')
+
+def logic_4054(world):
+    _world_apply(world, 'snowpack', 'temperature', 'pulse')
