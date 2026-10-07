@@ -23147,3 +23147,6 @@ def logic_17694(world):
 
 def logic_17695(world):
     _world_apply(world, 'deadwood', 'organic_matter', 'direct')
+
+def logic_17696(world):
+    _world_apply(world, 'deadwood', 'pollinators', 'square')
