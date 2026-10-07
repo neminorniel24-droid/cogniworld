@@ -18797,3 +18797,6 @@ def logic_16244(world):
 
 def logic_16245(world):
     _world_apply(world, 'runoff', 'flowers', 'gap')
+
+def logic_16246(world):
+    _world_apply(world, 'runoff', 'seed_bank', 'direct')
