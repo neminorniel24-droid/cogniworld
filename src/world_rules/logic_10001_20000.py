@@ -16076,3 +16076,6 @@ def logic_15337(world):
 
 def logic_15338(world):
     _world_apply(world, 'fire_risk', 'carrion', 'gap')
+
+def logic_15339(world):
+    _world_apply(world, 'fire_risk', 'nutrients', 'direct')
