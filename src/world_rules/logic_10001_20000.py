@@ -17981,3 +17981,6 @@ def logic_15972(world):
 
 def logic_15973(world):
     _world_apply(world, 'temperature', 'snowpack', 'saturation')
+
+def logic_15974(world):
+    _world_apply(world, 'temperature', 'groundwater', 'gap')
