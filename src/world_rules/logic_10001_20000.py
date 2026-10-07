@@ -15998,3 +15998,6 @@ def logic_15311(world):
 
 def logic_15312(world):
     _world_apply(world, 'carbon_storage', 'ash', 'gap')
+
+def logic_15313(world):
+    _world_apply(world, 'carbon_storage', 'snowpack', 'square')
