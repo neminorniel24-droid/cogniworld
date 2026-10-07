@@ -5327,3 +5327,6 @@ def logic_5842(agents, world):
 
 def logic_5843(agents, world):
     _agent_apply(world, agents, 'flowers', 'conflict_pressure', 'direct')
+
+def logic_5844(agents, world):
+    _agent_apply(world, agents, 'seed_bank', 'conflict_pressure', 'direct')
