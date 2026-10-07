@@ -7100,3 +7100,6 @@ def logic_12345(world):
 
 def logic_12346(world):
     _world_apply(world, 'wind_y', 'nutrients', 'saturation')
+
+def logic_12347(world):
+    _world_apply(world, 'wind_y', 'decomposition_rate', 'gap')
