@@ -8825,3 +8825,6 @@ def logic_7008(agents, world):
 
 def logic_7009(agents, world):
     _agent_apply(world, agents, 'hunger', 'defection_threshold', 'direct')
+
+def logic_7010(agents, world):
+    _agent_apply(world, agents, 'health', 'defection_threshold', 'direct')
