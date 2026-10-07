@@ -42498,3 +42498,10 @@ def logic_36449(agents, world):
     src = _local(world, agents, 'wind_y')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.shelter_need = _delta(agents.shelter_need, delta)
+
+
+def logic_36450(agents, world):
+    """Environmental vegetation shapes agent neighbor_health_gap (direct)."""
+    src = _local(world, agents, 'vegetation')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.neighbor_health_gap = _delta(agents.neighbor_health_gap, delta)
