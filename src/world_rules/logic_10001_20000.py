@@ -10100,3 +10100,6 @@ def logic_13345(world):
 
 def logic_13346(world):
     _world_apply(world, 'fire_risk', 'surface_water', 'saturation')
+
+def logic_13347(world):
+    _world_apply(world, 'fire_risk', 'humidity', 'gap')
