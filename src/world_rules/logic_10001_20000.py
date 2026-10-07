@@ -3998,3 +3998,6 @@ def logic_11311(world):
 
 def logic_11312(world):
     _world_apply(world, 'wetland', 'salinity', 'gap')
+
+def logic_11313(world):
+    _world_apply(world, 'wetland', 'algae', 'square')
