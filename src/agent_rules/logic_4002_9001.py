@@ -10028,3 +10028,6 @@ def logic_7409(agents, world):
 
 def logic_7410(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'stress', 'direct')
+
+def logic_7411(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'stress', 'direct')
