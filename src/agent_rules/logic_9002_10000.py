@@ -2250,3 +2250,6 @@ def logic_9924(agents, world):
 
 def logic_9925(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'recovery', 'direct')
+
+def logic_9926(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'recovery', 'direct')
