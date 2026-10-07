@@ -13745,3 +13745,6 @@ def logic_8648(agents, world):
 
 def logic_8649(agents, world):
     _agent_apply(world, agents, 'trust', 'competition_score', 'direct')
+
+def logic_8650(agents, world):
+    _agent_apply(world, agents, 'reputation', 'competition_score', 'direct')
