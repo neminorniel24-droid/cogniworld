@@ -15002,3 +15002,6 @@ def logic_14979(world):
 
 def logic_14980(world):
     _world_apply(world, 'pathogen_load', 'wind_x', 'square')
+
+def logic_14981(world):
+    _world_apply(world, 'pathogen_load', 'wind_y', 'pulse')
