@@ -3512,3 +3512,6 @@ def logic_5237(agents, world):
 
 def logic_5238(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'wealth', 'direct')
+
+def logic_5239(agents, world):
+    _agent_apply(world, agents, 'hydration', 'wealth', 'direct')
