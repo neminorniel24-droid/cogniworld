@@ -54965,3 +54965,10 @@ def logic_38230(agents, world):
     src = _local(world, agents, 'flowers')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.neighbor_health_gap = _delta(agents.neighbor_health_gap, delta)
+
+
+def logic_38231(agents, world):
+    """Environmental seed_bank shapes agent last_reward (inverse)."""
+    src = _local(world, agents, 'seed_bank')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.last_reward = _delta(agents.last_reward, delta)
