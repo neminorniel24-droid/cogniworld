@@ -10238,3 +10238,6 @@ def logic_13391(world):
 
 def logic_13392(world):
     _world_apply(world, 'ash', 'cloud', 'gap')
+
+def logic_13393(world):
+    _world_apply(world, 'ash', 'rain', 'square')
