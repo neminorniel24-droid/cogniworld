@@ -2200,3 +2200,4 @@
 - 22199: integrated cross-system causal rule
 - 22200: integrated cross-system causal rule
 - 22201: integrated cross-system causal rule
+- 22202: integrated cross-system causal rule
