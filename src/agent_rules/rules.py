@@ -45445,3 +45445,10 @@ def logic_36870(agents, world):
     src = _local(world, agents, 'decomposition_rate')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.cooperation_history = _delta(agents.cooperation_history, delta)
+
+
+def logic_36871(agents, world):
+    """Environmental oxygen shapes agent last_interaction (inverse)."""
+    src = _local(world, agents, 'oxygen')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.last_interaction = _delta(agents.last_interaction, delta)
