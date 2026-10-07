@@ -2168,3 +2168,6 @@ def logic_18701(agents, world):
 
 def logic_18702(agents, world):
     _agent_apply(world, agents, 'herbivore', 'caution', 'reciprocal')
+
+def logic_18703(agents, world):
+    _agent_apply(world, agents, 'predator', 'caution', 'reciprocal')
