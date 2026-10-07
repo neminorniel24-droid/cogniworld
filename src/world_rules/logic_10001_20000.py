@@ -7691,3 +7691,6 @@ def logic_12542(world):
 
 def logic_12543(world):
     _world_apply(world, 'predator', 'sediment', 'gap')
+
+def logic_12544(world):
+    _world_apply(world, 'predator', 'salinity', 'direct')
