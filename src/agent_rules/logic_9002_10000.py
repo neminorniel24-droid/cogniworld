@@ -1533,3 +1533,6 @@ def logic_9685(agents, world):
 
 def logic_9686(agents, world):
     _agent_apply(world, agents, 'vegetation', 'infection_risk', 'direct')
+
+def logic_9687(agents, world):
+    _agent_apply(world, agents, 'biomass', 'infection_risk', 'direct')
