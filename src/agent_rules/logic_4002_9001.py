@@ -10571,3 +10571,6 @@ def logic_7590(agents, world):
 
 def logic_7591(agents, world):
     _agent_apply(world, agents, 'detritus', 'neighbor_health_gap', 'direct')
+
+def logic_7592(agents, world):
+    _agent_apply(world, agents, 'methane', 'neighbor_health_gap', 'direct')
