@@ -3662,3 +3662,6 @@ def logic_11199(world):
 
 def logic_11200(world):
     _world_apply(world, 'soil_depth', 'herbivore', 'saturation')
+
+def logic_11201(world):
+    _world_apply(world, 'soil_depth', 'predator', 'direct')
