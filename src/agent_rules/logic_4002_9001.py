@@ -6701,3 +6701,6 @@ def logic_6300(agents, world):
 
 def logic_6301(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'selfishness', 'direct')
+
+def logic_6302(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'selfishness', 'direct')
