@@ -7466,3 +7466,6 @@ def logic_12467(world):
 
 def logic_12468(world):
     _world_apply(world, 'herbivore', 'cloud', 'direct')
+
+def logic_12469(world):
+    _world_apply(world, 'herbivore', 'rain', 'square')
