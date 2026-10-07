@@ -4643,3 +4643,6 @@ def logic_19526(agents, world):
 
 def logic_19527(agents, world):
     _agent_apply(world, agents, 'wind_y', 'retaliation_risk', 'reciprocal')
+
+def logic_19528(agents, world):
+    _agent_apply(world, agents, 'vegetation', 'retaliation_risk', 'reciprocal')
