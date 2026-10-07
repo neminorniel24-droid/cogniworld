@@ -2549,3 +2549,6 @@ def logic_10828(world):
 
 def logic_10829(world):
     _world_apply(world, 'photosynthesis_factor', 'algae', 'square')
+
+def logic_10830(world):
+    _world_apply(world, 'photosynthesis_factor', 'organic_matter', 'pulse')
