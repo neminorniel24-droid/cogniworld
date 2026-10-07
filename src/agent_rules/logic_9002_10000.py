@@ -1221,3 +1221,6 @@ def logic_9581(agents, world):
 
 def logic_9582(agents, world):
     _agent_apply(world, agents, 'flowers', 'dehydration', 'direct')
+
+def logic_9583(agents, world):
+    _agent_apply(world, agents, 'seed_bank', 'dehydration', 'direct')
