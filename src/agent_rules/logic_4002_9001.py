@@ -11846,3 +11846,6 @@ def logic_8015(agents, world):
 
 def logic_8016(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'local_density', 'direct')
+
+def logic_8017(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'local_density', 'direct')
