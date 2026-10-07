@@ -5990,3 +5990,6 @@ def logic_19975(agents, world):
 
 def logic_19976(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'metabolic_cost', 'square')
+
+def logic_19977(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'metabolic_cost', 'square')
