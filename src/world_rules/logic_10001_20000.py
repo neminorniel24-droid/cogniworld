@@ -23903,3 +23903,6 @@ def logic_17946(world):
 
 def logic_17947(world):
     _world_apply(world, 'temperature', 'soil_depth', 'gap')
+
+def logic_17948(world):
+    _world_apply(world, 'temperature', 'root_density', 'direct')
