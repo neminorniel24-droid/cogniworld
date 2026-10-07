@@ -15419,3 +15419,6 @@ def logic_15118(world):
 
 def logic_15119(world):
     _world_apply(world, 'erosion', 'nutrients', 'pulse')
+
+def logic_15120(world):
+    _world_apply(world, 'erosion', 'decomposition_rate', 'saturation')
