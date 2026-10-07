@@ -10640,3 +10640,6 @@ def logic_7613(agents, world):
 
 def logic_7614(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'neighbor_health_gap', 'direct')
+
+def logic_7615(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'neighbor_health_gap', 'direct')
