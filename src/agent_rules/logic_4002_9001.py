@@ -8789,3 +8789,6 @@ def logic_6996(agents, world):
 
 def logic_6997(agents, world):
     _agent_apply(world, agents, 'deadwood', 'defection_threshold', 'direct')
+
+def logic_6998(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'defection_threshold', 'direct')
