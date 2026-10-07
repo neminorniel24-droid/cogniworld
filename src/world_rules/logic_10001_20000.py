@@ -4226,3 +4226,6 @@ def logic_11387(world):
 
 def logic_11388(world):
     _world_apply(world, 'fire_risk', 'pathogen_load', 'direct')
+
+def logic_11389(world):
+    _world_apply(world, 'fire_risk', 'biodiversity', 'square')
