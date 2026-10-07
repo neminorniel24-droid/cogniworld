@@ -11750,3 +11750,6 @@ def logic_7983(agents, world):
 
 def logic_7984(agents, world):
     _agent_apply(world, agents, 'runoff', 'local_density', 'direct')
+
+def logic_7985(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'local_density', 'direct')
