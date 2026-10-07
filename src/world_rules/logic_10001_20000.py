@@ -1184,3 +1184,6 @@ def logic_10373(world):
 
 def logic_10374(world):
     _world_apply(world, 'wind_y', 'methane', 'gap')
+
+def logic_10375(world):
+    _world_apply(world, 'wind_y', 'pathogen_load', 'direct')
