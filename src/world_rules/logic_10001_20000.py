@@ -374,3 +374,6 @@ def logic_10103(world):
 
 def logic_10104(world):
     _world_apply(world, 'humidity', 'oxygen', 'direct')
+
+def logic_10105(world):
+    _world_apply(world, 'humidity', 'co2', 'pulse')
