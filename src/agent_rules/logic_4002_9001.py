@@ -8144,3 +8144,6 @@ def logic_6781(agents, world):
 
 def logic_6782(agents, world):
     _agent_apply(world, agents, 'root_density', 'resource_discovery', 'direct')
+
+def logic_6783(agents, world):
+    _agent_apply(world, agents, 'wetland', 'resource_discovery', 'direct')
