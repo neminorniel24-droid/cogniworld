@@ -1937,3 +1937,6 @@ def logic_4712(agents, world):
 
 def logic_4713(agents, world):
     _agent_apply(world, agents, 'payoff', 'alertness', 'direct')
+
+def logic_4714(agents, world):
+    _agent_apply(world, agents, 'temperature', 'fear', 'direct')
