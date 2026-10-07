@@ -1211,3 +1211,6 @@ def logic_18382(agents, world):
 
 def logic_18383(agents, world):
     _agent_apply(world, agents, 'local_density', 'social_tolerance', 'pulse')
+
+def logic_18384(agents, world):
+    _agent_apply(world, agents, 'last_reward', 'social_tolerance', 'pulse')
