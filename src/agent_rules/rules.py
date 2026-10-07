@@ -57492,3 +57492,10 @@ def logic_38591(agents, world):
     src = _local(world, agents, 'groundwater')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.future_payoff_weight = _delta(agents.future_payoff_weight, delta)
+
+
+def logic_38592(agents, world):
+    """Environmental sediment shapes agent thermal_stress (square)."""
+    src = _local(world, agents, 'sediment')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.thermal_stress = _delta(agents.thermal_stress, delta)
