@@ -4487,3 +4487,6 @@ def logic_11474(world):
 
 def logic_11475(world):
     _world_apply(world, 'snowpack', 'methane', 'saturation')
+
+def logic_11476(world):
+    _world_apply(world, 'snowpack', 'pathogen_load', 'gap')
