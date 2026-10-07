@@ -11918,3 +11918,6 @@ def logic_8039(agents, world):
 
 def logic_8040(agents, world):
     _agent_apply(world, agents, 'help_given', 'local_density', 'direct')
+
+def logic_8041(agents, world):
+    _agent_apply(world, agents, 'local_density', 'local_density', 'direct')
