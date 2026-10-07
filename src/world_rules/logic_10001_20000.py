@@ -8678,3 +8678,6 @@ def logic_12871(world):
 
 def logic_12872(world):
     _world_apply(world, 'evaporation', 'herbivore', 'gap')
+
+def logic_12873(world):
+    _world_apply(world, 'evaporation', 'predator', 'square')
