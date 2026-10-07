@@ -530,3 +530,6 @@ def logic_10155(world):
 
 def logic_10156(world):
     _world_apply(world, 'cloud', 'biodiversity', 'gap')
+
+def logic_10157(world):
+    _world_apply(world, 'cloud', 'habitat_stress', 'direct')
