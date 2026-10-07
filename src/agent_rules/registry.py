@@ -26458,3 +26458,12003 @@ RULES.append(logic_20000)
 
 from .logic_20001_30000 import RULES as GENERATED_RULES_20001_30000
 RULES.extend(GENERATED_RULES_20001_30000)
+from .rules import logic_34001
+RULES.append(logic_34001)
+from .rules import logic_34002
+RULES.append(logic_34002)
+from .rules import logic_34003
+RULES.append(logic_34003)
+from .rules import logic_34004
+RULES.append(logic_34004)
+from .rules import logic_34005
+RULES.append(logic_34005)
+from .rules import logic_34006
+RULES.append(logic_34006)
+from .rules import logic_34007
+RULES.append(logic_34007)
+from .rules import logic_34008
+RULES.append(logic_34008)
+from .rules import logic_34009
+RULES.append(logic_34009)
+from .rules import logic_34010
+RULES.append(logic_34010)
+from .rules import logic_34011
+RULES.append(logic_34011)
+from .rules import logic_34012
+RULES.append(logic_34012)
+from .rules import logic_34013
+RULES.append(logic_34013)
+from .rules import logic_34014
+RULES.append(logic_34014)
+from .rules import logic_34015
+RULES.append(logic_34015)
+from .rules import logic_34016
+RULES.append(logic_34016)
+from .rules import logic_34017
+RULES.append(logic_34017)
+from .rules import logic_34018
+RULES.append(logic_34018)
+from .rules import logic_34019
+RULES.append(logic_34019)
+from .rules import logic_34020
+RULES.append(logic_34020)
+from .rules import logic_34021
+RULES.append(logic_34021)
+from .rules import logic_34022
+RULES.append(logic_34022)
+from .rules import logic_34023
+RULES.append(logic_34023)
+from .rules import logic_34024
+RULES.append(logic_34024)
+from .rules import logic_34025
+RULES.append(logic_34025)
+from .rules import logic_34026
+RULES.append(logic_34026)
+from .rules import logic_34027
+RULES.append(logic_34027)
+from .rules import logic_34028
+RULES.append(logic_34028)
+from .rules import logic_34029
+RULES.append(logic_34029)
+from .rules import logic_34030
+RULES.append(logic_34030)
+from .rules import logic_34031
+RULES.append(logic_34031)
+from .rules import logic_34032
+RULES.append(logic_34032)
+from .rules import logic_34033
+RULES.append(logic_34033)
+from .rules import logic_34034
+RULES.append(logic_34034)
+from .rules import logic_34035
+RULES.append(logic_34035)
+from .rules import logic_34036
+RULES.append(logic_34036)
+from .rules import logic_34037
+RULES.append(logic_34037)
+from .rules import logic_34038
+RULES.append(logic_34038)
+from .rules import logic_34039
+RULES.append(logic_34039)
+from .rules import logic_34040
+RULES.append(logic_34040)
+from .rules import logic_34041
+RULES.append(logic_34041)
+from .rules import logic_34042
+RULES.append(logic_34042)
+from .rules import logic_34043
+RULES.append(logic_34043)
+from .rules import logic_34044
+RULES.append(logic_34044)
+from .rules import logic_34045
+RULES.append(logic_34045)
+from .rules import logic_34046
+RULES.append(logic_34046)
+from .rules import logic_34047
+RULES.append(logic_34047)
+from .rules import logic_34048
+RULES.append(logic_34048)
+from .rules import logic_34049
+RULES.append(logic_34049)
+from .rules import logic_34050
+RULES.append(logic_34050)
+from .rules import logic_34051
+RULES.append(logic_34051)
+from .rules import logic_34052
+RULES.append(logic_34052)
+from .rules import logic_34053
+RULES.append(logic_34053)
+from .rules import logic_34054
+RULES.append(logic_34054)
+from .rules import logic_34055
+RULES.append(logic_34055)
+from .rules import logic_34056
+RULES.append(logic_34056)
+from .rules import logic_34057
+RULES.append(logic_34057)
+from .rules import logic_34058
+RULES.append(logic_34058)
+from .rules import logic_34059
+RULES.append(logic_34059)
+from .rules import logic_34060
+RULES.append(logic_34060)
+from .rules import logic_34061
+RULES.append(logic_34061)
+from .rules import logic_34062
+RULES.append(logic_34062)
+from .rules import logic_34063
+RULES.append(logic_34063)
+from .rules import logic_34064
+RULES.append(logic_34064)
+from .rules import logic_34065
+RULES.append(logic_34065)
+from .rules import logic_34066
+RULES.append(logic_34066)
+from .rules import logic_34067
+RULES.append(logic_34067)
+from .rules import logic_34068
+RULES.append(logic_34068)
+from .rules import logic_34069
+RULES.append(logic_34069)
+from .rules import logic_34070
+RULES.append(logic_34070)
+from .rules import logic_34071
+RULES.append(logic_34071)
+from .rules import logic_34072
+RULES.append(logic_34072)
+from .rules import logic_34073
+RULES.append(logic_34073)
+from .rules import logic_34074
+RULES.append(logic_34074)
+from .rules import logic_34075
+RULES.append(logic_34075)
+from .rules import logic_34076
+RULES.append(logic_34076)
+from .rules import logic_34077
+RULES.append(logic_34077)
+from .rules import logic_34078
+RULES.append(logic_34078)
+from .rules import logic_34079
+RULES.append(logic_34079)
+from .rules import logic_34080
+RULES.append(logic_34080)
+from .rules import logic_34081
+RULES.append(logic_34081)
+from .rules import logic_34082
+RULES.append(logic_34082)
+from .rules import logic_34083
+RULES.append(logic_34083)
+from .rules import logic_34084
+RULES.append(logic_34084)
+from .rules import logic_34085
+RULES.append(logic_34085)
+from .rules import logic_34086
+RULES.append(logic_34086)
+from .rules import logic_34087
+RULES.append(logic_34087)
+from .rules import logic_34088
+RULES.append(logic_34088)
+from .rules import logic_34089
+RULES.append(logic_34089)
+from .rules import logic_34090
+RULES.append(logic_34090)
+from .rules import logic_34091
+RULES.append(logic_34091)
+from .rules import logic_34092
+RULES.append(logic_34092)
+from .rules import logic_34093
+RULES.append(logic_34093)
+from .rules import logic_34094
+RULES.append(logic_34094)
+from .rules import logic_34095
+RULES.append(logic_34095)
+from .rules import logic_34096
+RULES.append(logic_34096)
+from .rules import logic_34097
+RULES.append(logic_34097)
+from .rules import logic_34098
+RULES.append(logic_34098)
+from .rules import logic_34099
+RULES.append(logic_34099)
+from .rules import logic_34100
+RULES.append(logic_34100)
+from .rules import logic_34101
+RULES.append(logic_34101)
+from .rules import logic_34102
+RULES.append(logic_34102)
+from .rules import logic_34103
+RULES.append(logic_34103)
+from .rules import logic_34104
+RULES.append(logic_34104)
+from .rules import logic_34105
+RULES.append(logic_34105)
+from .rules import logic_34106
+RULES.append(logic_34106)
+from .rules import logic_34107
+RULES.append(logic_34107)
+from .rules import logic_34108
+RULES.append(logic_34108)
+from .rules import logic_34109
+RULES.append(logic_34109)
+from .rules import logic_34110
+RULES.append(logic_34110)
+from .rules import logic_34111
+RULES.append(logic_34111)
+from .rules import logic_34112
+RULES.append(logic_34112)
+from .rules import logic_34113
+RULES.append(logic_34113)
+from .rules import logic_34114
+RULES.append(logic_34114)
+from .rules import logic_34115
+RULES.append(logic_34115)
+from .rules import logic_34116
+RULES.append(logic_34116)
+from .rules import logic_34117
+RULES.append(logic_34117)
+from .rules import logic_34118
+RULES.append(logic_34118)
+from .rules import logic_34119
+RULES.append(logic_34119)
+from .rules import logic_34120
+RULES.append(logic_34120)
+from .rules import logic_34121
+RULES.append(logic_34121)
+from .rules import logic_34122
+RULES.append(logic_34122)
+from .rules import logic_34123
+RULES.append(logic_34123)
+from .rules import logic_34124
+RULES.append(logic_34124)
+from .rules import logic_34125
+RULES.append(logic_34125)
+from .rules import logic_34126
+RULES.append(logic_34126)
+from .rules import logic_34127
+RULES.append(logic_34127)
+from .rules import logic_34128
+RULES.append(logic_34128)
+from .rules import logic_34129
+RULES.append(logic_34129)
+from .rules import logic_34130
+RULES.append(logic_34130)
+from .rules import logic_34131
+RULES.append(logic_34131)
+from .rules import logic_34132
+RULES.append(logic_34132)
+from .rules import logic_34133
+RULES.append(logic_34133)
+from .rules import logic_34134
+RULES.append(logic_34134)
+from .rules import logic_34135
+RULES.append(logic_34135)
+from .rules import logic_34136
+RULES.append(logic_34136)
+from .rules import logic_34137
+RULES.append(logic_34137)
+from .rules import logic_34138
+RULES.append(logic_34138)
+from .rules import logic_34139
+RULES.append(logic_34139)
+from .rules import logic_34140
+RULES.append(logic_34140)
+from .rules import logic_34141
+RULES.append(logic_34141)
+from .rules import logic_34142
+RULES.append(logic_34142)
+from .rules import logic_34143
+RULES.append(logic_34143)
+from .rules import logic_34144
+RULES.append(logic_34144)
+from .rules import logic_34145
+RULES.append(logic_34145)
+from .rules import logic_34146
+RULES.append(logic_34146)
+from .rules import logic_34147
+RULES.append(logic_34147)
+from .rules import logic_34148
+RULES.append(logic_34148)
+from .rules import logic_34149
+RULES.append(logic_34149)
+from .rules import logic_34150
+RULES.append(logic_34150)
+from .rules import logic_34151
+RULES.append(logic_34151)
+from .rules import logic_34152
+RULES.append(logic_34152)
+from .rules import logic_34153
+RULES.append(logic_34153)
+from .rules import logic_34154
+RULES.append(logic_34154)
+from .rules import logic_34155
+RULES.append(logic_34155)
+from .rules import logic_34156
+RULES.append(logic_34156)
+from .rules import logic_34157
+RULES.append(logic_34157)
+from .rules import logic_34158
+RULES.append(logic_34158)
+from .rules import logic_34159
+RULES.append(logic_34159)
+from .rules import logic_34160
+RULES.append(logic_34160)
+from .rules import logic_34161
+RULES.append(logic_34161)
+from .rules import logic_34162
+RULES.append(logic_34162)
+from .rules import logic_34163
+RULES.append(logic_34163)
+from .rules import logic_34164
+RULES.append(logic_34164)
+from .rules import logic_34165
+RULES.append(logic_34165)
+from .rules import logic_34166
+RULES.append(logic_34166)
+from .rules import logic_34167
+RULES.append(logic_34167)
+from .rules import logic_34168
+RULES.append(logic_34168)
+from .rules import logic_34169
+RULES.append(logic_34169)
+from .rules import logic_34170
+RULES.append(logic_34170)
+from .rules import logic_34171
+RULES.append(logic_34171)
+from .rules import logic_34172
+RULES.append(logic_34172)
+from .rules import logic_34173
+RULES.append(logic_34173)
+from .rules import logic_34174
+RULES.append(logic_34174)
+from .rules import logic_34175
+RULES.append(logic_34175)
+from .rules import logic_34176
+RULES.append(logic_34176)
+from .rules import logic_34177
+RULES.append(logic_34177)
+from .rules import logic_34178
+RULES.append(logic_34178)
+from .rules import logic_34179
+RULES.append(logic_34179)
+from .rules import logic_34180
+RULES.append(logic_34180)
+from .rules import logic_34181
+RULES.append(logic_34181)
+from .rules import logic_34182
+RULES.append(logic_34182)
+from .rules import logic_34183
+RULES.append(logic_34183)
+from .rules import logic_34184
+RULES.append(logic_34184)
+from .rules import logic_34185
+RULES.append(logic_34185)
+from .rules import logic_34186
+RULES.append(logic_34186)
+from .rules import logic_34187
+RULES.append(logic_34187)
+from .rules import logic_34188
+RULES.append(logic_34188)
+from .rules import logic_34189
+RULES.append(logic_34189)
+from .rules import logic_34190
+RULES.append(logic_34190)
+from .rules import logic_34191
+RULES.append(logic_34191)
+from .rules import logic_34192
+RULES.append(logic_34192)
+from .rules import logic_34193
+RULES.append(logic_34193)
+from .rules import logic_34194
+RULES.append(logic_34194)
+from .rules import logic_34195
+RULES.append(logic_34195)
+from .rules import logic_34196
+RULES.append(logic_34196)
+from .rules import logic_34197
+RULES.append(logic_34197)
+from .rules import logic_34198
+RULES.append(logic_34198)
+from .rules import logic_34199
+RULES.append(logic_34199)
+from .rules import logic_34200
+RULES.append(logic_34200)
+from .rules import logic_34201
+RULES.append(logic_34201)
+from .rules import logic_34202
+RULES.append(logic_34202)
+from .rules import logic_34203
+RULES.append(logic_34203)
+from .rules import logic_34204
+RULES.append(logic_34204)
+from .rules import logic_34205
+RULES.append(logic_34205)
+from .rules import logic_34206
+RULES.append(logic_34206)
+from .rules import logic_34207
+RULES.append(logic_34207)
+from .rules import logic_34208
+RULES.append(logic_34208)
+from .rules import logic_34209
+RULES.append(logic_34209)
+from .rules import logic_34210
+RULES.append(logic_34210)
+from .rules import logic_34211
+RULES.append(logic_34211)
+from .rules import logic_34212
+RULES.append(logic_34212)
+from .rules import logic_34213
+RULES.append(logic_34213)
+from .rules import logic_34214
+RULES.append(logic_34214)
+from .rules import logic_34215
+RULES.append(logic_34215)
+from .rules import logic_34216
+RULES.append(logic_34216)
+from .rules import logic_34217
+RULES.append(logic_34217)
+from .rules import logic_34218
+RULES.append(logic_34218)
+from .rules import logic_34219
+RULES.append(logic_34219)
+from .rules import logic_34220
+RULES.append(logic_34220)
+from .rules import logic_34221
+RULES.append(logic_34221)
+from .rules import logic_34222
+RULES.append(logic_34222)
+from .rules import logic_34223
+RULES.append(logic_34223)
+from .rules import logic_34224
+RULES.append(logic_34224)
+from .rules import logic_34225
+RULES.append(logic_34225)
+from .rules import logic_34226
+RULES.append(logic_34226)
+from .rules import logic_34227
+RULES.append(logic_34227)
+from .rules import logic_34228
+RULES.append(logic_34228)
+from .rules import logic_34229
+RULES.append(logic_34229)
+from .rules import logic_34230
+RULES.append(logic_34230)
+from .rules import logic_34231
+RULES.append(logic_34231)
+from .rules import logic_34232
+RULES.append(logic_34232)
+from .rules import logic_34233
+RULES.append(logic_34233)
+from .rules import logic_34234
+RULES.append(logic_34234)
+from .rules import logic_34235
+RULES.append(logic_34235)
+from .rules import logic_34236
+RULES.append(logic_34236)
+from .rules import logic_34237
+RULES.append(logic_34237)
+from .rules import logic_34238
+RULES.append(logic_34238)
+from .rules import logic_34239
+RULES.append(logic_34239)
+from .rules import logic_34240
+RULES.append(logic_34240)
+from .rules import logic_34241
+RULES.append(logic_34241)
+from .rules import logic_34242
+RULES.append(logic_34242)
+from .rules import logic_34243
+RULES.append(logic_34243)
+from .rules import logic_34244
+RULES.append(logic_34244)
+from .rules import logic_34245
+RULES.append(logic_34245)
+from .rules import logic_34246
+RULES.append(logic_34246)
+from .rules import logic_34247
+RULES.append(logic_34247)
+from .rules import logic_34248
+RULES.append(logic_34248)
+from .rules import logic_34249
+RULES.append(logic_34249)
+from .rules import logic_34250
+RULES.append(logic_34250)
+from .rules import logic_34251
+RULES.append(logic_34251)
+from .rules import logic_34252
+RULES.append(logic_34252)
+from .rules import logic_34253
+RULES.append(logic_34253)
+from .rules import logic_34254
+RULES.append(logic_34254)
+from .rules import logic_34255
+RULES.append(logic_34255)
+from .rules import logic_34256
+RULES.append(logic_34256)
+from .rules import logic_34257
+RULES.append(logic_34257)
+from .rules import logic_34258
+RULES.append(logic_34258)
+from .rules import logic_34259
+RULES.append(logic_34259)
+from .rules import logic_34260
+RULES.append(logic_34260)
+from .rules import logic_34261
+RULES.append(logic_34261)
+from .rules import logic_34262
+RULES.append(logic_34262)
+from .rules import logic_34263
+RULES.append(logic_34263)
+from .rules import logic_34264
+RULES.append(logic_34264)
+from .rules import logic_34265
+RULES.append(logic_34265)
+from .rules import logic_34266
+RULES.append(logic_34266)
+from .rules import logic_34267
+RULES.append(logic_34267)
+from .rules import logic_34268
+RULES.append(logic_34268)
+from .rules import logic_34269
+RULES.append(logic_34269)
+from .rules import logic_34270
+RULES.append(logic_34270)
+from .rules import logic_34271
+RULES.append(logic_34271)
+from .rules import logic_34272
+RULES.append(logic_34272)
+from .rules import logic_34273
+RULES.append(logic_34273)
+from .rules import logic_34274
+RULES.append(logic_34274)
+from .rules import logic_34275
+RULES.append(logic_34275)
+from .rules import logic_34276
+RULES.append(logic_34276)
+from .rules import logic_34277
+RULES.append(logic_34277)
+from .rules import logic_34278
+RULES.append(logic_34278)
+from .rules import logic_34279
+RULES.append(logic_34279)
+from .rules import logic_34280
+RULES.append(logic_34280)
+from .rules import logic_34281
+RULES.append(logic_34281)
+from .rules import logic_34282
+RULES.append(logic_34282)
+from .rules import logic_34283
+RULES.append(logic_34283)
+from .rules import logic_34284
+RULES.append(logic_34284)
+from .rules import logic_34285
+RULES.append(logic_34285)
+from .rules import logic_34286
+RULES.append(logic_34286)
+from .rules import logic_34287
+RULES.append(logic_34287)
+from .rules import logic_34288
+RULES.append(logic_34288)
+from .rules import logic_34289
+RULES.append(logic_34289)
+from .rules import logic_34290
+RULES.append(logic_34290)
+from .rules import logic_34291
+RULES.append(logic_34291)
+from .rules import logic_34292
+RULES.append(logic_34292)
+from .rules import logic_34293
+RULES.append(logic_34293)
+from .rules import logic_34294
+RULES.append(logic_34294)
+from .rules import logic_34295
+RULES.append(logic_34295)
+from .rules import logic_34296
+RULES.append(logic_34296)
+from .rules import logic_34297
+RULES.append(logic_34297)
+from .rules import logic_34298
+RULES.append(logic_34298)
+from .rules import logic_34299
+RULES.append(logic_34299)
+from .rules import logic_34300
+RULES.append(logic_34300)
+from .rules import logic_34301
+RULES.append(logic_34301)
+from .rules import logic_34302
+RULES.append(logic_34302)
+from .rules import logic_34303
+RULES.append(logic_34303)
+from .rules import logic_34304
+RULES.append(logic_34304)
+from .rules import logic_34305
+RULES.append(logic_34305)
+from .rules import logic_34306
+RULES.append(logic_34306)
+from .rules import logic_34307
+RULES.append(logic_34307)
+from .rules import logic_34308
+RULES.append(logic_34308)
+from .rules import logic_34309
+RULES.append(logic_34309)
+from .rules import logic_34310
+RULES.append(logic_34310)
+from .rules import logic_34311
+RULES.append(logic_34311)
+from .rules import logic_34312
+RULES.append(logic_34312)
+from .rules import logic_34313
+RULES.append(logic_34313)
+from .rules import logic_34314
+RULES.append(logic_34314)
+from .rules import logic_34315
+RULES.append(logic_34315)
+from .rules import logic_34316
+RULES.append(logic_34316)
+from .rules import logic_34317
+RULES.append(logic_34317)
+from .rules import logic_34318
+RULES.append(logic_34318)
+from .rules import logic_34319
+RULES.append(logic_34319)
+from .rules import logic_34320
+RULES.append(logic_34320)
+from .rules import logic_34321
+RULES.append(logic_34321)
+from .rules import logic_34322
+RULES.append(logic_34322)
+from .rules import logic_34323
+RULES.append(logic_34323)
+from .rules import logic_34324
+RULES.append(logic_34324)
+from .rules import logic_34325
+RULES.append(logic_34325)
+from .rules import logic_34326
+RULES.append(logic_34326)
+from .rules import logic_34327
+RULES.append(logic_34327)
+from .rules import logic_34328
+RULES.append(logic_34328)
+from .rules import logic_34329
+RULES.append(logic_34329)
+from .rules import logic_34330
+RULES.append(logic_34330)
+from .rules import logic_34331
+RULES.append(logic_34331)
+from .rules import logic_34332
+RULES.append(logic_34332)
+from .rules import logic_34333
+RULES.append(logic_34333)
+from .rules import logic_34334
+RULES.append(logic_34334)
+from .rules import logic_34335
+RULES.append(logic_34335)
+from .rules import logic_34336
+RULES.append(logic_34336)
+from .rules import logic_34337
+RULES.append(logic_34337)
+from .rules import logic_34338
+RULES.append(logic_34338)
+from .rules import logic_34339
+RULES.append(logic_34339)
+from .rules import logic_34340
+RULES.append(logic_34340)
+from .rules import logic_34341
+RULES.append(logic_34341)
+from .rules import logic_34342
+RULES.append(logic_34342)
+from .rules import logic_34343
+RULES.append(logic_34343)
+from .rules import logic_34344
+RULES.append(logic_34344)
+from .rules import logic_34345
+RULES.append(logic_34345)
+from .rules import logic_34346
+RULES.append(logic_34346)
+from .rules import logic_34347
+RULES.append(logic_34347)
+from .rules import logic_34348
+RULES.append(logic_34348)
+from .rules import logic_34349
+RULES.append(logic_34349)
+from .rules import logic_34350
+RULES.append(logic_34350)
+from .rules import logic_34351
+RULES.append(logic_34351)
+from .rules import logic_34352
+RULES.append(logic_34352)
+from .rules import logic_34353
+RULES.append(logic_34353)
+from .rules import logic_34354
+RULES.append(logic_34354)
+from .rules import logic_34355
+RULES.append(logic_34355)
+from .rules import logic_34356
+RULES.append(logic_34356)
+from .rules import logic_34357
+RULES.append(logic_34357)
+from .rules import logic_34358
+RULES.append(logic_34358)
+from .rules import logic_34359
+RULES.append(logic_34359)
+from .rules import logic_34360
+RULES.append(logic_34360)
+from .rules import logic_34361
+RULES.append(logic_34361)
+from .rules import logic_34362
+RULES.append(logic_34362)
+from .rules import logic_34363
+RULES.append(logic_34363)
+from .rules import logic_34364
+RULES.append(logic_34364)
+from .rules import logic_34365
+RULES.append(logic_34365)
+from .rules import logic_34366
+RULES.append(logic_34366)
+from .rules import logic_34367
+RULES.append(logic_34367)
+from .rules import logic_34368
+RULES.append(logic_34368)
+from .rules import logic_34369
+RULES.append(logic_34369)
+from .rules import logic_34370
+RULES.append(logic_34370)
+from .rules import logic_34371
+RULES.append(logic_34371)
+from .rules import logic_34372
+RULES.append(logic_34372)
+from .rules import logic_34373
+RULES.append(logic_34373)
+from .rules import logic_34374
+RULES.append(logic_34374)
+from .rules import logic_34375
+RULES.append(logic_34375)
+from .rules import logic_34376
+RULES.append(logic_34376)
+from .rules import logic_34377
+RULES.append(logic_34377)
+from .rules import logic_34378
+RULES.append(logic_34378)
+from .rules import logic_34379
+RULES.append(logic_34379)
+from .rules import logic_34380
+RULES.append(logic_34380)
+from .rules import logic_34381
+RULES.append(logic_34381)
+from .rules import logic_34382
+RULES.append(logic_34382)
+from .rules import logic_34383
+RULES.append(logic_34383)
+from .rules import logic_34384
+RULES.append(logic_34384)
+from .rules import logic_34385
+RULES.append(logic_34385)
+from .rules import logic_34386
+RULES.append(logic_34386)
+from .rules import logic_34387
+RULES.append(logic_34387)
+from .rules import logic_34388
+RULES.append(logic_34388)
+from .rules import logic_34389
+RULES.append(logic_34389)
+from .rules import logic_34390
+RULES.append(logic_34390)
+from .rules import logic_34391
+RULES.append(logic_34391)
+from .rules import logic_34392
+RULES.append(logic_34392)
+from .rules import logic_34393
+RULES.append(logic_34393)
+from .rules import logic_34394
+RULES.append(logic_34394)
+from .rules import logic_34395
+RULES.append(logic_34395)
+from .rules import logic_34396
+RULES.append(logic_34396)
+from .rules import logic_34397
+RULES.append(logic_34397)
+from .rules import logic_34398
+RULES.append(logic_34398)
+from .rules import logic_34399
+RULES.append(logic_34399)
+from .rules import logic_34400
+RULES.append(logic_34400)
+from .rules import logic_34401
+RULES.append(logic_34401)
+from .rules import logic_34402
+RULES.append(logic_34402)
+from .rules import logic_34403
+RULES.append(logic_34403)
+from .rules import logic_34404
+RULES.append(logic_34404)
+from .rules import logic_34405
+RULES.append(logic_34405)
+from .rules import logic_34406
+RULES.append(logic_34406)
+from .rules import logic_34407
+RULES.append(logic_34407)
+from .rules import logic_34408
+RULES.append(logic_34408)
+from .rules import logic_34409
+RULES.append(logic_34409)
+from .rules import logic_34410
+RULES.append(logic_34410)
+from .rules import logic_34411
+RULES.append(logic_34411)
+from .rules import logic_34412
+RULES.append(logic_34412)
+from .rules import logic_34413
+RULES.append(logic_34413)
+from .rules import logic_34414
+RULES.append(logic_34414)
+from .rules import logic_34415
+RULES.append(logic_34415)
+from .rules import logic_34416
+RULES.append(logic_34416)
+from .rules import logic_34417
+RULES.append(logic_34417)
+from .rules import logic_34418
+RULES.append(logic_34418)
+from .rules import logic_34419
+RULES.append(logic_34419)
+from .rules import logic_34420
+RULES.append(logic_34420)
+from .rules import logic_34421
+RULES.append(logic_34421)
+from .rules import logic_34422
+RULES.append(logic_34422)
+from .rules import logic_34423
+RULES.append(logic_34423)
+from .rules import logic_34424
+RULES.append(logic_34424)
+from .rules import logic_34425
+RULES.append(logic_34425)
+from .rules import logic_34426
+RULES.append(logic_34426)
+from .rules import logic_34427
+RULES.append(logic_34427)
+from .rules import logic_34428
+RULES.append(logic_34428)
+from .rules import logic_34429
+RULES.append(logic_34429)
+from .rules import logic_34430
+RULES.append(logic_34430)
+from .rules import logic_34431
+RULES.append(logic_34431)
+from .rules import logic_34432
+RULES.append(logic_34432)
+from .rules import logic_34433
+RULES.append(logic_34433)
+from .rules import logic_34434
+RULES.append(logic_34434)
+from .rules import logic_34435
+RULES.append(logic_34435)
+from .rules import logic_34436
+RULES.append(logic_34436)
+from .rules import logic_34437
+RULES.append(logic_34437)
+from .rules import logic_34438
+RULES.append(logic_34438)
+from .rules import logic_34439
+RULES.append(logic_34439)
+from .rules import logic_34440
+RULES.append(logic_34440)
+from .rules import logic_34441
+RULES.append(logic_34441)
+from .rules import logic_34442
+RULES.append(logic_34442)
+from .rules import logic_34443
+RULES.append(logic_34443)
+from .rules import logic_34444
+RULES.append(logic_34444)
+from .rules import logic_34445
+RULES.append(logic_34445)
+from .rules import logic_34446
+RULES.append(logic_34446)
+from .rules import logic_34447
+RULES.append(logic_34447)
+from .rules import logic_34448
+RULES.append(logic_34448)
+from .rules import logic_34449
+RULES.append(logic_34449)
+from .rules import logic_34450
+RULES.append(logic_34450)
+from .rules import logic_34451
+RULES.append(logic_34451)
+from .rules import logic_34452
+RULES.append(logic_34452)
+from .rules import logic_34453
+RULES.append(logic_34453)
+from .rules import logic_34454
+RULES.append(logic_34454)
+from .rules import logic_34455
+RULES.append(logic_34455)
+from .rules import logic_34456
+RULES.append(logic_34456)
+from .rules import logic_34457
+RULES.append(logic_34457)
+from .rules import logic_34458
+RULES.append(logic_34458)
+from .rules import logic_34459
+RULES.append(logic_34459)
+from .rules import logic_34460
+RULES.append(logic_34460)
+from .rules import logic_34461
+RULES.append(logic_34461)
+from .rules import logic_34462
+RULES.append(logic_34462)
+from .rules import logic_34463
+RULES.append(logic_34463)
+from .rules import logic_34464
+RULES.append(logic_34464)
+from .rules import logic_34465
+RULES.append(logic_34465)
+from .rules import logic_34466
+RULES.append(logic_34466)
+from .rules import logic_34467
+RULES.append(logic_34467)
+from .rules import logic_34468
+RULES.append(logic_34468)
+from .rules import logic_34469
+RULES.append(logic_34469)
+from .rules import logic_34470
+RULES.append(logic_34470)
+from .rules import logic_34471
+RULES.append(logic_34471)
+from .rules import logic_34472
+RULES.append(logic_34472)
+from .rules import logic_34473
+RULES.append(logic_34473)
+from .rules import logic_34474
+RULES.append(logic_34474)
+from .rules import logic_34475
+RULES.append(logic_34475)
+from .rules import logic_34476
+RULES.append(logic_34476)
+from .rules import logic_34477
+RULES.append(logic_34477)
+from .rules import logic_34478
+RULES.append(logic_34478)
+from .rules import logic_34479
+RULES.append(logic_34479)
+from .rules import logic_34480
+RULES.append(logic_34480)
+from .rules import logic_34481
+RULES.append(logic_34481)
+from .rules import logic_34482
+RULES.append(logic_34482)
+from .rules import logic_34483
+RULES.append(logic_34483)
+from .rules import logic_34484
+RULES.append(logic_34484)
+from .rules import logic_34485
+RULES.append(logic_34485)
+from .rules import logic_34486
+RULES.append(logic_34486)
+from .rules import logic_34487
+RULES.append(logic_34487)
+from .rules import logic_34488
+RULES.append(logic_34488)
+from .rules import logic_34489
+RULES.append(logic_34489)
+from .rules import logic_34490
+RULES.append(logic_34490)
+from .rules import logic_34491
+RULES.append(logic_34491)
+from .rules import logic_34492
+RULES.append(logic_34492)
+from .rules import logic_34493
+RULES.append(logic_34493)
+from .rules import logic_34494
+RULES.append(logic_34494)
+from .rules import logic_34495
+RULES.append(logic_34495)
+from .rules import logic_34496
+RULES.append(logic_34496)
+from .rules import logic_34497
+RULES.append(logic_34497)
+from .rules import logic_34498
+RULES.append(logic_34498)
+from .rules import logic_34499
+RULES.append(logic_34499)
+from .rules import logic_34500
+RULES.append(logic_34500)
+from .rules import logic_34501
+RULES.append(logic_34501)
+from .rules import logic_34502
+RULES.append(logic_34502)
+from .rules import logic_34503
+RULES.append(logic_34503)
+from .rules import logic_34504
+RULES.append(logic_34504)
+from .rules import logic_34505
+RULES.append(logic_34505)
+from .rules import logic_34506
+RULES.append(logic_34506)
+from .rules import logic_34507
+RULES.append(logic_34507)
+from .rules import logic_34508
+RULES.append(logic_34508)
+from .rules import logic_34509
+RULES.append(logic_34509)
+from .rules import logic_34510
+RULES.append(logic_34510)
+from .rules import logic_34511
+RULES.append(logic_34511)
+from .rules import logic_34512
+RULES.append(logic_34512)
+from .rules import logic_34513
+RULES.append(logic_34513)
+from .rules import logic_34514
+RULES.append(logic_34514)
+from .rules import logic_34515
+RULES.append(logic_34515)
+from .rules import logic_34516
+RULES.append(logic_34516)
+from .rules import logic_34517
+RULES.append(logic_34517)
+from .rules import logic_34518
+RULES.append(logic_34518)
+from .rules import logic_34519
+RULES.append(logic_34519)
+from .rules import logic_34520
+RULES.append(logic_34520)
+from .rules import logic_34521
+RULES.append(logic_34521)
+from .rules import logic_34522
+RULES.append(logic_34522)
+from .rules import logic_34523
+RULES.append(logic_34523)
+from .rules import logic_34524
+RULES.append(logic_34524)
+from .rules import logic_34525
+RULES.append(logic_34525)
+from .rules import logic_34526
+RULES.append(logic_34526)
+from .rules import logic_34527
+RULES.append(logic_34527)
+from .rules import logic_34528
+RULES.append(logic_34528)
+from .rules import logic_34529
+RULES.append(logic_34529)
+from .rules import logic_34530
+RULES.append(logic_34530)
+from .rules import logic_34531
+RULES.append(logic_34531)
+from .rules import logic_34532
+RULES.append(logic_34532)
+from .rules import logic_34533
+RULES.append(logic_34533)
+from .rules import logic_34534
+RULES.append(logic_34534)
+from .rules import logic_34535
+RULES.append(logic_34535)
+from .rules import logic_34536
+RULES.append(logic_34536)
+from .rules import logic_34537
+RULES.append(logic_34537)
+from .rules import logic_34538
+RULES.append(logic_34538)
+from .rules import logic_34539
+RULES.append(logic_34539)
+from .rules import logic_34540
+RULES.append(logic_34540)
+from .rules import logic_34541
+RULES.append(logic_34541)
+from .rules import logic_34542
+RULES.append(logic_34542)
+from .rules import logic_34543
+RULES.append(logic_34543)
+from .rules import logic_34544
+RULES.append(logic_34544)
+from .rules import logic_34545
+RULES.append(logic_34545)
+from .rules import logic_34546
+RULES.append(logic_34546)
+from .rules import logic_34547
+RULES.append(logic_34547)
+from .rules import logic_34548
+RULES.append(logic_34548)
+from .rules import logic_34549
+RULES.append(logic_34549)
+from .rules import logic_34550
+RULES.append(logic_34550)
+from .rules import logic_34551
+RULES.append(logic_34551)
+from .rules import logic_34552
+RULES.append(logic_34552)
+from .rules import logic_34553
+RULES.append(logic_34553)
+from .rules import logic_34554
+RULES.append(logic_34554)
+from .rules import logic_34555
+RULES.append(logic_34555)
+from .rules import logic_34556
+RULES.append(logic_34556)
+from .rules import logic_34557
+RULES.append(logic_34557)
+from .rules import logic_34558
+RULES.append(logic_34558)
+from .rules import logic_34559
+RULES.append(logic_34559)
+from .rules import logic_34560
+RULES.append(logic_34560)
+from .rules import logic_34561
+RULES.append(logic_34561)
+from .rules import logic_34562
+RULES.append(logic_34562)
+from .rules import logic_34563
+RULES.append(logic_34563)
+from .rules import logic_34564
+RULES.append(logic_34564)
+from .rules import logic_34565
+RULES.append(logic_34565)
+from .rules import logic_34566
+RULES.append(logic_34566)
+from .rules import logic_34567
+RULES.append(logic_34567)
+from .rules import logic_34568
+RULES.append(logic_34568)
+from .rules import logic_34569
+RULES.append(logic_34569)
+from .rules import logic_34570
+RULES.append(logic_34570)
+from .rules import logic_34571
+RULES.append(logic_34571)
+from .rules import logic_34572
+RULES.append(logic_34572)
+from .rules import logic_34573
+RULES.append(logic_34573)
+from .rules import logic_34574
+RULES.append(logic_34574)
+from .rules import logic_34575
+RULES.append(logic_34575)
+from .rules import logic_34576
+RULES.append(logic_34576)
+from .rules import logic_34577
+RULES.append(logic_34577)
+from .rules import logic_34578
+RULES.append(logic_34578)
+from .rules import logic_34579
+RULES.append(logic_34579)
+from .rules import logic_34580
+RULES.append(logic_34580)
+from .rules import logic_34581
+RULES.append(logic_34581)
+from .rules import logic_34582
+RULES.append(logic_34582)
+from .rules import logic_34583
+RULES.append(logic_34583)
+from .rules import logic_34584
+RULES.append(logic_34584)
+from .rules import logic_34585
+RULES.append(logic_34585)
+from .rules import logic_34586
+RULES.append(logic_34586)
+from .rules import logic_34587
+RULES.append(logic_34587)
+from .rules import logic_34588
+RULES.append(logic_34588)
+from .rules import logic_34589
+RULES.append(logic_34589)
+from .rules import logic_34590
+RULES.append(logic_34590)
+from .rules import logic_34591
+RULES.append(logic_34591)
+from .rules import logic_34592
+RULES.append(logic_34592)
+from .rules import logic_34593
+RULES.append(logic_34593)
+from .rules import logic_34594
+RULES.append(logic_34594)
+from .rules import logic_34595
+RULES.append(logic_34595)
+from .rules import logic_34596
+RULES.append(logic_34596)
+from .rules import logic_34597
+RULES.append(logic_34597)
+from .rules import logic_34598
+RULES.append(logic_34598)
+from .rules import logic_34599
+RULES.append(logic_34599)
+from .rules import logic_34600
+RULES.append(logic_34600)
+from .rules import logic_34601
+RULES.append(logic_34601)
+from .rules import logic_34602
+RULES.append(logic_34602)
+from .rules import logic_34603
+RULES.append(logic_34603)
+from .rules import logic_34604
+RULES.append(logic_34604)
+from .rules import logic_34605
+RULES.append(logic_34605)
+from .rules import logic_34606
+RULES.append(logic_34606)
+from .rules import logic_34607
+RULES.append(logic_34607)
+from .rules import logic_34608
+RULES.append(logic_34608)
+from .rules import logic_34609
+RULES.append(logic_34609)
+from .rules import logic_34610
+RULES.append(logic_34610)
+from .rules import logic_34611
+RULES.append(logic_34611)
+from .rules import logic_34612
+RULES.append(logic_34612)
+from .rules import logic_34613
+RULES.append(logic_34613)
+from .rules import logic_34614
+RULES.append(logic_34614)
+from .rules import logic_34615
+RULES.append(logic_34615)
+from .rules import logic_34616
+RULES.append(logic_34616)
+from .rules import logic_34617
+RULES.append(logic_34617)
+from .rules import logic_34618
+RULES.append(logic_34618)
+from .rules import logic_34619
+RULES.append(logic_34619)
+from .rules import logic_34620
+RULES.append(logic_34620)
+from .rules import logic_34621
+RULES.append(logic_34621)
+from .rules import logic_34622
+RULES.append(logic_34622)
+from .rules import logic_34623
+RULES.append(logic_34623)
+from .rules import logic_34624
+RULES.append(logic_34624)
+from .rules import logic_34625
+RULES.append(logic_34625)
+from .rules import logic_34626
+RULES.append(logic_34626)
+from .rules import logic_34627
+RULES.append(logic_34627)
+from .rules import logic_34628
+RULES.append(logic_34628)
+from .rules import logic_34629
+RULES.append(logic_34629)
+from .rules import logic_34630
+RULES.append(logic_34630)
+from .rules import logic_34631
+RULES.append(logic_34631)
+from .rules import logic_34632
+RULES.append(logic_34632)
+from .rules import logic_34633
+RULES.append(logic_34633)
+from .rules import logic_34634
+RULES.append(logic_34634)
+from .rules import logic_34635
+RULES.append(logic_34635)
+from .rules import logic_34636
+RULES.append(logic_34636)
+from .rules import logic_34637
+RULES.append(logic_34637)
+from .rules import logic_34638
+RULES.append(logic_34638)
+from .rules import logic_34639
+RULES.append(logic_34639)
+from .rules import logic_34640
+RULES.append(logic_34640)
+from .rules import logic_34641
+RULES.append(logic_34641)
+from .rules import logic_34642
+RULES.append(logic_34642)
+from .rules import logic_34643
+RULES.append(logic_34643)
+from .rules import logic_34644
+RULES.append(logic_34644)
+from .rules import logic_34645
+RULES.append(logic_34645)
+from .rules import logic_34646
+RULES.append(logic_34646)
+from .rules import logic_34647
+RULES.append(logic_34647)
+from .rules import logic_34648
+RULES.append(logic_34648)
+from .rules import logic_34649
+RULES.append(logic_34649)
+from .rules import logic_34650
+RULES.append(logic_34650)
+from .rules import logic_34651
+RULES.append(logic_34651)
+from .rules import logic_34652
+RULES.append(logic_34652)
+from .rules import logic_34653
+RULES.append(logic_34653)
+from .rules import logic_34654
+RULES.append(logic_34654)
+from .rules import logic_34655
+RULES.append(logic_34655)
+from .rules import logic_34656
+RULES.append(logic_34656)
+from .rules import logic_34657
+RULES.append(logic_34657)
+from .rules import logic_34658
+RULES.append(logic_34658)
+from .rules import logic_34659
+RULES.append(logic_34659)
+from .rules import logic_34660
+RULES.append(logic_34660)
+from .rules import logic_34661
+RULES.append(logic_34661)
+from .rules import logic_34662
+RULES.append(logic_34662)
+from .rules import logic_34663
+RULES.append(logic_34663)
+from .rules import logic_34664
+RULES.append(logic_34664)
+from .rules import logic_34665
+RULES.append(logic_34665)
+from .rules import logic_34666
+RULES.append(logic_34666)
+from .rules import logic_34667
+RULES.append(logic_34667)
+from .rules import logic_34668
+RULES.append(logic_34668)
+from .rules import logic_34669
+RULES.append(logic_34669)
+from .rules import logic_34670
+RULES.append(logic_34670)
+from .rules import logic_34671
+RULES.append(logic_34671)
+from .rules import logic_34672
+RULES.append(logic_34672)
+from .rules import logic_34673
+RULES.append(logic_34673)
+from .rules import logic_34674
+RULES.append(logic_34674)
+from .rules import logic_34675
+RULES.append(logic_34675)
+from .rules import logic_34676
+RULES.append(logic_34676)
+from .rules import logic_34677
+RULES.append(logic_34677)
+from .rules import logic_34678
+RULES.append(logic_34678)
+from .rules import logic_34679
+RULES.append(logic_34679)
+from .rules import logic_34680
+RULES.append(logic_34680)
+from .rules import logic_34681
+RULES.append(logic_34681)
+from .rules import logic_34682
+RULES.append(logic_34682)
+from .rules import logic_34683
+RULES.append(logic_34683)
+from .rules import logic_34684
+RULES.append(logic_34684)
+from .rules import logic_34685
+RULES.append(logic_34685)
+from .rules import logic_34686
+RULES.append(logic_34686)
+from .rules import logic_34687
+RULES.append(logic_34687)
+from .rules import logic_34688
+RULES.append(logic_34688)
+from .rules import logic_34689
+RULES.append(logic_34689)
+from .rules import logic_34690
+RULES.append(logic_34690)
+from .rules import logic_34691
+RULES.append(logic_34691)
+from .rules import logic_34692
+RULES.append(logic_34692)
+from .rules import logic_34693
+RULES.append(logic_34693)
+from .rules import logic_34694
+RULES.append(logic_34694)
+from .rules import logic_34695
+RULES.append(logic_34695)
+from .rules import logic_34696
+RULES.append(logic_34696)
+from .rules import logic_34697
+RULES.append(logic_34697)
+from .rules import logic_34698
+RULES.append(logic_34698)
+from .rules import logic_34699
+RULES.append(logic_34699)
+from .rules import logic_34700
+RULES.append(logic_34700)
+from .rules import logic_34701
+RULES.append(logic_34701)
+from .rules import logic_34702
+RULES.append(logic_34702)
+from .rules import logic_34703
+RULES.append(logic_34703)
+from .rules import logic_34704
+RULES.append(logic_34704)
+from .rules import logic_34705
+RULES.append(logic_34705)
+from .rules import logic_34706
+RULES.append(logic_34706)
+from .rules import logic_34707
+RULES.append(logic_34707)
+from .rules import logic_34708
+RULES.append(logic_34708)
+from .rules import logic_34709
+RULES.append(logic_34709)
+from .rules import logic_34710
+RULES.append(logic_34710)
+from .rules import logic_34711
+RULES.append(logic_34711)
+from .rules import logic_34712
+RULES.append(logic_34712)
+from .rules import logic_34713
+RULES.append(logic_34713)
+from .rules import logic_34714
+RULES.append(logic_34714)
+from .rules import logic_34715
+RULES.append(logic_34715)
+from .rules import logic_34716
+RULES.append(logic_34716)
+from .rules import logic_34717
+RULES.append(logic_34717)
+from .rules import logic_34718
+RULES.append(logic_34718)
+from .rules import logic_34719
+RULES.append(logic_34719)
+from .rules import logic_34720
+RULES.append(logic_34720)
+from .rules import logic_34721
+RULES.append(logic_34721)
+from .rules import logic_34722
+RULES.append(logic_34722)
+from .rules import logic_34723
+RULES.append(logic_34723)
+from .rules import logic_34724
+RULES.append(logic_34724)
+from .rules import logic_34725
+RULES.append(logic_34725)
+from .rules import logic_34726
+RULES.append(logic_34726)
+from .rules import logic_34727
+RULES.append(logic_34727)
+from .rules import logic_34728
+RULES.append(logic_34728)
+from .rules import logic_34729
+RULES.append(logic_34729)
+from .rules import logic_34730
+RULES.append(logic_34730)
+from .rules import logic_34731
+RULES.append(logic_34731)
+from .rules import logic_34732
+RULES.append(logic_34732)
+from .rules import logic_34733
+RULES.append(logic_34733)
+from .rules import logic_34734
+RULES.append(logic_34734)
+from .rules import logic_34735
+RULES.append(logic_34735)
+from .rules import logic_34736
+RULES.append(logic_34736)
+from .rules import logic_34737
+RULES.append(logic_34737)
+from .rules import logic_34738
+RULES.append(logic_34738)
+from .rules import logic_34739
+RULES.append(logic_34739)
+from .rules import logic_34740
+RULES.append(logic_34740)
+from .rules import logic_34741
+RULES.append(logic_34741)
+from .rules import logic_34742
+RULES.append(logic_34742)
+from .rules import logic_34743
+RULES.append(logic_34743)
+from .rules import logic_34744
+RULES.append(logic_34744)
+from .rules import logic_34745
+RULES.append(logic_34745)
+from .rules import logic_34746
+RULES.append(logic_34746)
+from .rules import logic_34747
+RULES.append(logic_34747)
+from .rules import logic_34748
+RULES.append(logic_34748)
+from .rules import logic_34749
+RULES.append(logic_34749)
+from .rules import logic_34750
+RULES.append(logic_34750)
+from .rules import logic_34751
+RULES.append(logic_34751)
+from .rules import logic_34752
+RULES.append(logic_34752)
+from .rules import logic_34753
+RULES.append(logic_34753)
+from .rules import logic_34754
+RULES.append(logic_34754)
+from .rules import logic_34755
+RULES.append(logic_34755)
+from .rules import logic_34756
+RULES.append(logic_34756)
+from .rules import logic_34757
+RULES.append(logic_34757)
+from .rules import logic_34758
+RULES.append(logic_34758)
+from .rules import logic_34759
+RULES.append(logic_34759)
+from .rules import logic_34760
+RULES.append(logic_34760)
+from .rules import logic_34761
+RULES.append(logic_34761)
+from .rules import logic_34762
+RULES.append(logic_34762)
+from .rules import logic_34763
+RULES.append(logic_34763)
+from .rules import logic_34764
+RULES.append(logic_34764)
+from .rules import logic_34765
+RULES.append(logic_34765)
+from .rules import logic_34766
+RULES.append(logic_34766)
+from .rules import logic_34767
+RULES.append(logic_34767)
+from .rules import logic_34768
+RULES.append(logic_34768)
+from .rules import logic_34769
+RULES.append(logic_34769)
+from .rules import logic_34770
+RULES.append(logic_34770)
+from .rules import logic_34771
+RULES.append(logic_34771)
+from .rules import logic_34772
+RULES.append(logic_34772)
+from .rules import logic_34773
+RULES.append(logic_34773)
+from .rules import logic_34774
+RULES.append(logic_34774)
+from .rules import logic_34775
+RULES.append(logic_34775)
+from .rules import logic_34776
+RULES.append(logic_34776)
+from .rules import logic_34777
+RULES.append(logic_34777)
+from .rules import logic_34778
+RULES.append(logic_34778)
+from .rules import logic_34779
+RULES.append(logic_34779)
+from .rules import logic_34780
+RULES.append(logic_34780)
+from .rules import logic_34781
+RULES.append(logic_34781)
+from .rules import logic_34782
+RULES.append(logic_34782)
+from .rules import logic_34783
+RULES.append(logic_34783)
+from .rules import logic_34784
+RULES.append(logic_34784)
+from .rules import logic_34785
+RULES.append(logic_34785)
+from .rules import logic_34786
+RULES.append(logic_34786)
+from .rules import logic_34787
+RULES.append(logic_34787)
+from .rules import logic_34788
+RULES.append(logic_34788)
+from .rules import logic_34789
+RULES.append(logic_34789)
+from .rules import logic_34790
+RULES.append(logic_34790)
+from .rules import logic_34791
+RULES.append(logic_34791)
+from .rules import logic_34792
+RULES.append(logic_34792)
+from .rules import logic_34793
+RULES.append(logic_34793)
+from .rules import logic_34794
+RULES.append(logic_34794)
+from .rules import logic_34795
+RULES.append(logic_34795)
+from .rules import logic_34796
+RULES.append(logic_34796)
+from .rules import logic_34797
+RULES.append(logic_34797)
+from .rules import logic_34798
+RULES.append(logic_34798)
+from .rules import logic_34799
+RULES.append(logic_34799)
+from .rules import logic_34800
+RULES.append(logic_34800)
+from .rules import logic_34801
+RULES.append(logic_34801)
+from .rules import logic_34802
+RULES.append(logic_34802)
+from .rules import logic_34803
+RULES.append(logic_34803)
+from .rules import logic_34804
+RULES.append(logic_34804)
+from .rules import logic_34805
+RULES.append(logic_34805)
+from .rules import logic_34806
+RULES.append(logic_34806)
+from .rules import logic_34807
+RULES.append(logic_34807)
+from .rules import logic_34808
+RULES.append(logic_34808)
+from .rules import logic_34809
+RULES.append(logic_34809)
+from .rules import logic_34810
+RULES.append(logic_34810)
+from .rules import logic_34811
+RULES.append(logic_34811)
+from .rules import logic_34812
+RULES.append(logic_34812)
+from .rules import logic_34813
+RULES.append(logic_34813)
+from .rules import logic_34814
+RULES.append(logic_34814)
+from .rules import logic_34815
+RULES.append(logic_34815)
+from .rules import logic_34816
+RULES.append(logic_34816)
+from .rules import logic_34817
+RULES.append(logic_34817)
+from .rules import logic_34818
+RULES.append(logic_34818)
+from .rules import logic_34819
+RULES.append(logic_34819)
+from .rules import logic_34820
+RULES.append(logic_34820)
+from .rules import logic_34821
+RULES.append(logic_34821)
+from .rules import logic_34822
+RULES.append(logic_34822)
+from .rules import logic_34823
+RULES.append(logic_34823)
+from .rules import logic_34824
+RULES.append(logic_34824)
+from .rules import logic_34825
+RULES.append(logic_34825)
+from .rules import logic_34826
+RULES.append(logic_34826)
+from .rules import logic_34827
+RULES.append(logic_34827)
+from .rules import logic_34828
+RULES.append(logic_34828)
+from .rules import logic_34829
+RULES.append(logic_34829)
+from .rules import logic_34830
+RULES.append(logic_34830)
+from .rules import logic_34831
+RULES.append(logic_34831)
+from .rules import logic_34832
+RULES.append(logic_34832)
+from .rules import logic_34833
+RULES.append(logic_34833)
+from .rules import logic_34834
+RULES.append(logic_34834)
+from .rules import logic_34835
+RULES.append(logic_34835)
+from .rules import logic_34836
+RULES.append(logic_34836)
+from .rules import logic_34837
+RULES.append(logic_34837)
+from .rules import logic_34838
+RULES.append(logic_34838)
+from .rules import logic_34839
+RULES.append(logic_34839)
+from .rules import logic_34840
+RULES.append(logic_34840)
+from .rules import logic_34841
+RULES.append(logic_34841)
+from .rules import logic_34842
+RULES.append(logic_34842)
+from .rules import logic_34843
+RULES.append(logic_34843)
+from .rules import logic_34844
+RULES.append(logic_34844)
+from .rules import logic_34845
+RULES.append(logic_34845)
+from .rules import logic_34846
+RULES.append(logic_34846)
+from .rules import logic_34847
+RULES.append(logic_34847)
+from .rules import logic_34848
+RULES.append(logic_34848)
+from .rules import logic_34849
+RULES.append(logic_34849)
+from .rules import logic_34850
+RULES.append(logic_34850)
+from .rules import logic_34851
+RULES.append(logic_34851)
+from .rules import logic_34852
+RULES.append(logic_34852)
+from .rules import logic_34853
+RULES.append(logic_34853)
+from .rules import logic_34854
+RULES.append(logic_34854)
+from .rules import logic_34855
+RULES.append(logic_34855)
+from .rules import logic_34856
+RULES.append(logic_34856)
+from .rules import logic_34857
+RULES.append(logic_34857)
+from .rules import logic_34858
+RULES.append(logic_34858)
+from .rules import logic_34859
+RULES.append(logic_34859)
+from .rules import logic_34860
+RULES.append(logic_34860)
+from .rules import logic_34861
+RULES.append(logic_34861)
+from .rules import logic_34862
+RULES.append(logic_34862)
+from .rules import logic_34863
+RULES.append(logic_34863)
+from .rules import logic_34864
+RULES.append(logic_34864)
+from .rules import logic_34865
+RULES.append(logic_34865)
+from .rules import logic_34866
+RULES.append(logic_34866)
+from .rules import logic_34867
+RULES.append(logic_34867)
+from .rules import logic_34868
+RULES.append(logic_34868)
+from .rules import logic_34869
+RULES.append(logic_34869)
+from .rules import logic_34870
+RULES.append(logic_34870)
+from .rules import logic_34871
+RULES.append(logic_34871)
+from .rules import logic_34872
+RULES.append(logic_34872)
+from .rules import logic_34873
+RULES.append(logic_34873)
+from .rules import logic_34874
+RULES.append(logic_34874)
+from .rules import logic_34875
+RULES.append(logic_34875)
+from .rules import logic_34876
+RULES.append(logic_34876)
+from .rules import logic_34877
+RULES.append(logic_34877)
+from .rules import logic_34878
+RULES.append(logic_34878)
+from .rules import logic_34879
+RULES.append(logic_34879)
+from .rules import logic_34880
+RULES.append(logic_34880)
+from .rules import logic_34881
+RULES.append(logic_34881)
+from .rules import logic_34882
+RULES.append(logic_34882)
+from .rules import logic_34883
+RULES.append(logic_34883)
+from .rules import logic_34884
+RULES.append(logic_34884)
+from .rules import logic_34885
+RULES.append(logic_34885)
+from .rules import logic_34886
+RULES.append(logic_34886)
+from .rules import logic_34887
+RULES.append(logic_34887)
+from .rules import logic_34888
+RULES.append(logic_34888)
+from .rules import logic_34889
+RULES.append(logic_34889)
+from .rules import logic_34890
+RULES.append(logic_34890)
+from .rules import logic_34891
+RULES.append(logic_34891)
+from .rules import logic_34892
+RULES.append(logic_34892)
+from .rules import logic_34893
+RULES.append(logic_34893)
+from .rules import logic_34894
+RULES.append(logic_34894)
+from .rules import logic_34895
+RULES.append(logic_34895)
+from .rules import logic_34896
+RULES.append(logic_34896)
+from .rules import logic_34897
+RULES.append(logic_34897)
+from .rules import logic_34898
+RULES.append(logic_34898)
+from .rules import logic_34899
+RULES.append(logic_34899)
+from .rules import logic_34900
+RULES.append(logic_34900)
+from .rules import logic_34901
+RULES.append(logic_34901)
+from .rules import logic_34902
+RULES.append(logic_34902)
+from .rules import logic_34903
+RULES.append(logic_34903)
+from .rules import logic_34904
+RULES.append(logic_34904)
+from .rules import logic_34905
+RULES.append(logic_34905)
+from .rules import logic_34906
+RULES.append(logic_34906)
+from .rules import logic_34907
+RULES.append(logic_34907)
+from .rules import logic_34908
+RULES.append(logic_34908)
+from .rules import logic_34909
+RULES.append(logic_34909)
+from .rules import logic_34910
+RULES.append(logic_34910)
+from .rules import logic_34911
+RULES.append(logic_34911)
+from .rules import logic_34912
+RULES.append(logic_34912)
+from .rules import logic_34913
+RULES.append(logic_34913)
+from .rules import logic_34914
+RULES.append(logic_34914)
+from .rules import logic_34915
+RULES.append(logic_34915)
+from .rules import logic_34916
+RULES.append(logic_34916)
+from .rules import logic_34917
+RULES.append(logic_34917)
+from .rules import logic_34918
+RULES.append(logic_34918)
+from .rules import logic_34919
+RULES.append(logic_34919)
+from .rules import logic_34920
+RULES.append(logic_34920)
+from .rules import logic_34921
+RULES.append(logic_34921)
+from .rules import logic_34922
+RULES.append(logic_34922)
+from .rules import logic_34923
+RULES.append(logic_34923)
+from .rules import logic_34924
+RULES.append(logic_34924)
+from .rules import logic_34925
+RULES.append(logic_34925)
+from .rules import logic_34926
+RULES.append(logic_34926)
+from .rules import logic_34927
+RULES.append(logic_34927)
+from .rules import logic_34928
+RULES.append(logic_34928)
+from .rules import logic_34929
+RULES.append(logic_34929)
+from .rules import logic_34930
+RULES.append(logic_34930)
+from .rules import logic_34931
+RULES.append(logic_34931)
+from .rules import logic_34932
+RULES.append(logic_34932)
+from .rules import logic_34933
+RULES.append(logic_34933)
+from .rules import logic_34934
+RULES.append(logic_34934)
+from .rules import logic_34935
+RULES.append(logic_34935)
+from .rules import logic_34936
+RULES.append(logic_34936)
+from .rules import logic_34937
+RULES.append(logic_34937)
+from .rules import logic_34938
+RULES.append(logic_34938)
+from .rules import logic_34939
+RULES.append(logic_34939)
+from .rules import logic_34940
+RULES.append(logic_34940)
+from .rules import logic_34941
+RULES.append(logic_34941)
+from .rules import logic_34942
+RULES.append(logic_34942)
+from .rules import logic_34943
+RULES.append(logic_34943)
+from .rules import logic_34944
+RULES.append(logic_34944)
+from .rules import logic_34945
+RULES.append(logic_34945)
+from .rules import logic_34946
+RULES.append(logic_34946)
+from .rules import logic_34947
+RULES.append(logic_34947)
+from .rules import logic_34948
+RULES.append(logic_34948)
+from .rules import logic_34949
+RULES.append(logic_34949)
+from .rules import logic_34950
+RULES.append(logic_34950)
+from .rules import logic_34951
+RULES.append(logic_34951)
+from .rules import logic_34952
+RULES.append(logic_34952)
+from .rules import logic_34953
+RULES.append(logic_34953)
+from .rules import logic_34954
+RULES.append(logic_34954)
+from .rules import logic_34955
+RULES.append(logic_34955)
+from .rules import logic_34956
+RULES.append(logic_34956)
+from .rules import logic_34957
+RULES.append(logic_34957)
+from .rules import logic_34958
+RULES.append(logic_34958)
+from .rules import logic_34959
+RULES.append(logic_34959)
+from .rules import logic_34960
+RULES.append(logic_34960)
+from .rules import logic_34961
+RULES.append(logic_34961)
+from .rules import logic_34962
+RULES.append(logic_34962)
+from .rules import logic_34963
+RULES.append(logic_34963)
+from .rules import logic_34964
+RULES.append(logic_34964)
+from .rules import logic_34965
+RULES.append(logic_34965)
+from .rules import logic_34966
+RULES.append(logic_34966)
+from .rules import logic_34967
+RULES.append(logic_34967)
+from .rules import logic_34968
+RULES.append(logic_34968)
+from .rules import logic_34969
+RULES.append(logic_34969)
+from .rules import logic_34970
+RULES.append(logic_34970)
+from .rules import logic_34971
+RULES.append(logic_34971)
+from .rules import logic_34972
+RULES.append(logic_34972)
+from .rules import logic_34973
+RULES.append(logic_34973)
+from .rules import logic_34974
+RULES.append(logic_34974)
+from .rules import logic_34975
+RULES.append(logic_34975)
+from .rules import logic_34976
+RULES.append(logic_34976)
+from .rules import logic_34977
+RULES.append(logic_34977)
+from .rules import logic_34978
+RULES.append(logic_34978)
+from .rules import logic_34979
+RULES.append(logic_34979)
+from .rules import logic_34980
+RULES.append(logic_34980)
+from .rules import logic_34981
+RULES.append(logic_34981)
+from .rules import logic_34982
+RULES.append(logic_34982)
+from .rules import logic_34983
+RULES.append(logic_34983)
+from .rules import logic_34984
+RULES.append(logic_34984)
+from .rules import logic_34985
+RULES.append(logic_34985)
+from .rules import logic_34986
+RULES.append(logic_34986)
+from .rules import logic_34987
+RULES.append(logic_34987)
+from .rules import logic_34988
+RULES.append(logic_34988)
+from .rules import logic_34989
+RULES.append(logic_34989)
+from .rules import logic_34990
+RULES.append(logic_34990)
+from .rules import logic_34991
+RULES.append(logic_34991)
+from .rules import logic_34992
+RULES.append(logic_34992)
+from .rules import logic_34993
+RULES.append(logic_34993)
+from .rules import logic_34994
+RULES.append(logic_34994)
+from .rules import logic_34995
+RULES.append(logic_34995)
+from .rules import logic_34996
+RULES.append(logic_34996)
+from .rules import logic_34997
+RULES.append(logic_34997)
+from .rules import logic_34998
+RULES.append(logic_34998)
+from .rules import logic_34999
+RULES.append(logic_34999)
+from .rules import logic_35000
+RULES.append(logic_35000)
+from .rules import logic_35001
+RULES.append(logic_35001)
+from .rules import logic_35002
+RULES.append(logic_35002)
+from .rules import logic_35003
+RULES.append(logic_35003)
+from .rules import logic_35004
+RULES.append(logic_35004)
+from .rules import logic_35005
+RULES.append(logic_35005)
+from .rules import logic_35006
+RULES.append(logic_35006)
+from .rules import logic_35007
+RULES.append(logic_35007)
+from .rules import logic_35008
+RULES.append(logic_35008)
+from .rules import logic_35009
+RULES.append(logic_35009)
+from .rules import logic_35010
+RULES.append(logic_35010)
+from .rules import logic_35011
+RULES.append(logic_35011)
+from .rules import logic_35012
+RULES.append(logic_35012)
+from .rules import logic_35013
+RULES.append(logic_35013)
+from .rules import logic_35014
+RULES.append(logic_35014)
+from .rules import logic_35015
+RULES.append(logic_35015)
+from .rules import logic_35016
+RULES.append(logic_35016)
+from .rules import logic_35017
+RULES.append(logic_35017)
+from .rules import logic_35018
+RULES.append(logic_35018)
+from .rules import logic_35019
+RULES.append(logic_35019)
+from .rules import logic_35020
+RULES.append(logic_35020)
+from .rules import logic_35021
+RULES.append(logic_35021)
+from .rules import logic_35022
+RULES.append(logic_35022)
+from .rules import logic_35023
+RULES.append(logic_35023)
+from .rules import logic_35024
+RULES.append(logic_35024)
+from .rules import logic_35025
+RULES.append(logic_35025)
+from .rules import logic_35026
+RULES.append(logic_35026)
+from .rules import logic_35027
+RULES.append(logic_35027)
+from .rules import logic_35028
+RULES.append(logic_35028)
+from .rules import logic_35029
+RULES.append(logic_35029)
+from .rules import logic_35030
+RULES.append(logic_35030)
+from .rules import logic_35031
+RULES.append(logic_35031)
+from .rules import logic_35032
+RULES.append(logic_35032)
+from .rules import logic_35033
+RULES.append(logic_35033)
+from .rules import logic_35034
+RULES.append(logic_35034)
+from .rules import logic_35035
+RULES.append(logic_35035)
+from .rules import logic_35036
+RULES.append(logic_35036)
+from .rules import logic_35037
+RULES.append(logic_35037)
+from .rules import logic_35038
+RULES.append(logic_35038)
+from .rules import logic_35039
+RULES.append(logic_35039)
+from .rules import logic_35040
+RULES.append(logic_35040)
+from .rules import logic_35041
+RULES.append(logic_35041)
+from .rules import logic_35042
+RULES.append(logic_35042)
+from .rules import logic_35043
+RULES.append(logic_35043)
+from .rules import logic_35044
+RULES.append(logic_35044)
+from .rules import logic_35045
+RULES.append(logic_35045)
+from .rules import logic_35046
+RULES.append(logic_35046)
+from .rules import logic_35047
+RULES.append(logic_35047)
+from .rules import logic_35048
+RULES.append(logic_35048)
+from .rules import logic_35049
+RULES.append(logic_35049)
+from .rules import logic_35050
+RULES.append(logic_35050)
+from .rules import logic_35051
+RULES.append(logic_35051)
+from .rules import logic_35052
+RULES.append(logic_35052)
+from .rules import logic_35053
+RULES.append(logic_35053)
+from .rules import logic_35054
+RULES.append(logic_35054)
+from .rules import logic_35055
+RULES.append(logic_35055)
+from .rules import logic_35056
+RULES.append(logic_35056)
+from .rules import logic_35057
+RULES.append(logic_35057)
+from .rules import logic_35058
+RULES.append(logic_35058)
+from .rules import logic_35059
+RULES.append(logic_35059)
+from .rules import logic_35060
+RULES.append(logic_35060)
+from .rules import logic_35061
+RULES.append(logic_35061)
+from .rules import logic_35062
+RULES.append(logic_35062)
+from .rules import logic_35063
+RULES.append(logic_35063)
+from .rules import logic_35064
+RULES.append(logic_35064)
+from .rules import logic_35065
+RULES.append(logic_35065)
+from .rules import logic_35066
+RULES.append(logic_35066)
+from .rules import logic_35067
+RULES.append(logic_35067)
+from .rules import logic_35068
+RULES.append(logic_35068)
+from .rules import logic_35069
+RULES.append(logic_35069)
+from .rules import logic_35070
+RULES.append(logic_35070)
+from .rules import logic_35071
+RULES.append(logic_35071)
+from .rules import logic_35072
+RULES.append(logic_35072)
+from .rules import logic_35073
+RULES.append(logic_35073)
+from .rules import logic_35074
+RULES.append(logic_35074)
+from .rules import logic_35075
+RULES.append(logic_35075)
+from .rules import logic_35076
+RULES.append(logic_35076)
+from .rules import logic_35077
+RULES.append(logic_35077)
+from .rules import logic_35078
+RULES.append(logic_35078)
+from .rules import logic_35079
+RULES.append(logic_35079)
+from .rules import logic_35080
+RULES.append(logic_35080)
+from .rules import logic_35081
+RULES.append(logic_35081)
+from .rules import logic_35082
+RULES.append(logic_35082)
+from .rules import logic_35083
+RULES.append(logic_35083)
+from .rules import logic_35084
+RULES.append(logic_35084)
+from .rules import logic_35085
+RULES.append(logic_35085)
+from .rules import logic_35086
+RULES.append(logic_35086)
+from .rules import logic_35087
+RULES.append(logic_35087)
+from .rules import logic_35088
+RULES.append(logic_35088)
+from .rules import logic_35089
+RULES.append(logic_35089)
+from .rules import logic_35090
+RULES.append(logic_35090)
+from .rules import logic_35091
+RULES.append(logic_35091)
+from .rules import logic_35092
+RULES.append(logic_35092)
+from .rules import logic_35093
+RULES.append(logic_35093)
+from .rules import logic_35094
+RULES.append(logic_35094)
+from .rules import logic_35095
+RULES.append(logic_35095)
+from .rules import logic_35096
+RULES.append(logic_35096)
+from .rules import logic_35097
+RULES.append(logic_35097)
+from .rules import logic_35098
+RULES.append(logic_35098)
+from .rules import logic_35099
+RULES.append(logic_35099)
+from .rules import logic_35100
+RULES.append(logic_35100)
+from .rules import logic_35101
+RULES.append(logic_35101)
+from .rules import logic_35102
+RULES.append(logic_35102)
+from .rules import logic_35103
+RULES.append(logic_35103)
+from .rules import logic_35104
+RULES.append(logic_35104)
+from .rules import logic_35105
+RULES.append(logic_35105)
+from .rules import logic_35106
+RULES.append(logic_35106)
+from .rules import logic_35107
+RULES.append(logic_35107)
+from .rules import logic_35108
+RULES.append(logic_35108)
+from .rules import logic_35109
+RULES.append(logic_35109)
+from .rules import logic_35110
+RULES.append(logic_35110)
+from .rules import logic_35111
+RULES.append(logic_35111)
+from .rules import logic_35112
+RULES.append(logic_35112)
+from .rules import logic_35113
+RULES.append(logic_35113)
+from .rules import logic_35114
+RULES.append(logic_35114)
+from .rules import logic_35115
+RULES.append(logic_35115)
+from .rules import logic_35116
+RULES.append(logic_35116)
+from .rules import logic_35117
+RULES.append(logic_35117)
+from .rules import logic_35118
+RULES.append(logic_35118)
+from .rules import logic_35119
+RULES.append(logic_35119)
+from .rules import logic_35120
+RULES.append(logic_35120)
+from .rules import logic_35121
+RULES.append(logic_35121)
+from .rules import logic_35122
+RULES.append(logic_35122)
+from .rules import logic_35123
+RULES.append(logic_35123)
+from .rules import logic_35124
+RULES.append(logic_35124)
+from .rules import logic_35125
+RULES.append(logic_35125)
+from .rules import logic_35126
+RULES.append(logic_35126)
+from .rules import logic_35127
+RULES.append(logic_35127)
+from .rules import logic_35128
+RULES.append(logic_35128)
+from .rules import logic_35129
+RULES.append(logic_35129)
+from .rules import logic_35130
+RULES.append(logic_35130)
+from .rules import logic_35131
+RULES.append(logic_35131)
+from .rules import logic_35132
+RULES.append(logic_35132)
+from .rules import logic_35133
+RULES.append(logic_35133)
+from .rules import logic_35134
+RULES.append(logic_35134)
+from .rules import logic_35135
+RULES.append(logic_35135)
+from .rules import logic_35136
+RULES.append(logic_35136)
+from .rules import logic_35137
+RULES.append(logic_35137)
+from .rules import logic_35138
+RULES.append(logic_35138)
+from .rules import logic_35139
+RULES.append(logic_35139)
+from .rules import logic_35140
+RULES.append(logic_35140)
+from .rules import logic_35141
+RULES.append(logic_35141)
+from .rules import logic_35142
+RULES.append(logic_35142)
+from .rules import logic_35143
+RULES.append(logic_35143)
+from .rules import logic_35144
+RULES.append(logic_35144)
+from .rules import logic_35145
+RULES.append(logic_35145)
+from .rules import logic_35146
+RULES.append(logic_35146)
+from .rules import logic_35147
+RULES.append(logic_35147)
+from .rules import logic_35148
+RULES.append(logic_35148)
+from .rules import logic_35149
+RULES.append(logic_35149)
+from .rules import logic_35150
+RULES.append(logic_35150)
+from .rules import logic_35151
+RULES.append(logic_35151)
+from .rules import logic_35152
+RULES.append(logic_35152)
+from .rules import logic_35153
+RULES.append(logic_35153)
+from .rules import logic_35154
+RULES.append(logic_35154)
+from .rules import logic_35155
+RULES.append(logic_35155)
+from .rules import logic_35156
+RULES.append(logic_35156)
+from .rules import logic_35157
+RULES.append(logic_35157)
+from .rules import logic_35158
+RULES.append(logic_35158)
+from .rules import logic_35159
+RULES.append(logic_35159)
+from .rules import logic_35160
+RULES.append(logic_35160)
+from .rules import logic_35161
+RULES.append(logic_35161)
+from .rules import logic_35162
+RULES.append(logic_35162)
+from .rules import logic_35163
+RULES.append(logic_35163)
+from .rules import logic_35164
+RULES.append(logic_35164)
+from .rules import logic_35165
+RULES.append(logic_35165)
+from .rules import logic_35166
+RULES.append(logic_35166)
+from .rules import logic_35167
+RULES.append(logic_35167)
+from .rules import logic_35168
+RULES.append(logic_35168)
+from .rules import logic_35169
+RULES.append(logic_35169)
+from .rules import logic_35170
+RULES.append(logic_35170)
+from .rules import logic_35171
+RULES.append(logic_35171)
+from .rules import logic_35172
+RULES.append(logic_35172)
+from .rules import logic_35173
+RULES.append(logic_35173)
+from .rules import logic_35174
+RULES.append(logic_35174)
+from .rules import logic_35175
+RULES.append(logic_35175)
+from .rules import logic_35176
+RULES.append(logic_35176)
+from .rules import logic_35177
+RULES.append(logic_35177)
+from .rules import logic_35178
+RULES.append(logic_35178)
+from .rules import logic_35179
+RULES.append(logic_35179)
+from .rules import logic_35180
+RULES.append(logic_35180)
+from .rules import logic_35181
+RULES.append(logic_35181)
+from .rules import logic_35182
+RULES.append(logic_35182)
+from .rules import logic_35183
+RULES.append(logic_35183)
+from .rules import logic_35184
+RULES.append(logic_35184)
+from .rules import logic_35185
+RULES.append(logic_35185)
+from .rules import logic_35186
+RULES.append(logic_35186)
+from .rules import logic_35187
+RULES.append(logic_35187)
+from .rules import logic_35188
+RULES.append(logic_35188)
+from .rules import logic_35189
+RULES.append(logic_35189)
+from .rules import logic_35190
+RULES.append(logic_35190)
+from .rules import logic_35191
+RULES.append(logic_35191)
+from .rules import logic_35192
+RULES.append(logic_35192)
+from .rules import logic_35193
+RULES.append(logic_35193)
+from .rules import logic_35194
+RULES.append(logic_35194)
+from .rules import logic_35195
+RULES.append(logic_35195)
+from .rules import logic_35196
+RULES.append(logic_35196)
+from .rules import logic_35197
+RULES.append(logic_35197)
+from .rules import logic_35198
+RULES.append(logic_35198)
+from .rules import logic_35199
+RULES.append(logic_35199)
+from .rules import logic_35200
+RULES.append(logic_35200)
+from .rules import logic_35201
+RULES.append(logic_35201)
+from .rules import logic_35202
+RULES.append(logic_35202)
+from .rules import logic_35203
+RULES.append(logic_35203)
+from .rules import logic_35204
+RULES.append(logic_35204)
+from .rules import logic_35205
+RULES.append(logic_35205)
+from .rules import logic_35206
+RULES.append(logic_35206)
+from .rules import logic_35207
+RULES.append(logic_35207)
+from .rules import logic_35208
+RULES.append(logic_35208)
+from .rules import logic_35209
+RULES.append(logic_35209)
+from .rules import logic_35210
+RULES.append(logic_35210)
+from .rules import logic_35211
+RULES.append(logic_35211)
+from .rules import logic_35212
+RULES.append(logic_35212)
+from .rules import logic_35213
+RULES.append(logic_35213)
+from .rules import logic_35214
+RULES.append(logic_35214)
+from .rules import logic_35215
+RULES.append(logic_35215)
+from .rules import logic_35216
+RULES.append(logic_35216)
+from .rules import logic_35217
+RULES.append(logic_35217)
+from .rules import logic_35218
+RULES.append(logic_35218)
+from .rules import logic_35219
+RULES.append(logic_35219)
+from .rules import logic_35220
+RULES.append(logic_35220)
+from .rules import logic_35221
+RULES.append(logic_35221)
+from .rules import logic_35222
+RULES.append(logic_35222)
+from .rules import logic_35223
+RULES.append(logic_35223)
+from .rules import logic_35224
+RULES.append(logic_35224)
+from .rules import logic_35225
+RULES.append(logic_35225)
+from .rules import logic_35226
+RULES.append(logic_35226)
+from .rules import logic_35227
+RULES.append(logic_35227)
+from .rules import logic_35228
+RULES.append(logic_35228)
+from .rules import logic_35229
+RULES.append(logic_35229)
+from .rules import logic_35230
+RULES.append(logic_35230)
+from .rules import logic_35231
+RULES.append(logic_35231)
+from .rules import logic_35232
+RULES.append(logic_35232)
+from .rules import logic_35233
+RULES.append(logic_35233)
+from .rules import logic_35234
+RULES.append(logic_35234)
+from .rules import logic_35235
+RULES.append(logic_35235)
+from .rules import logic_35236
+RULES.append(logic_35236)
+from .rules import logic_35237
+RULES.append(logic_35237)
+from .rules import logic_35238
+RULES.append(logic_35238)
+from .rules import logic_35239
+RULES.append(logic_35239)
+from .rules import logic_35240
+RULES.append(logic_35240)
+from .rules import logic_35241
+RULES.append(logic_35241)
+from .rules import logic_35242
+RULES.append(logic_35242)
+from .rules import logic_35243
+RULES.append(logic_35243)
+from .rules import logic_35244
+RULES.append(logic_35244)
+from .rules import logic_35245
+RULES.append(logic_35245)
+from .rules import logic_35246
+RULES.append(logic_35246)
+from .rules import logic_35247
+RULES.append(logic_35247)
+from .rules import logic_35248
+RULES.append(logic_35248)
+from .rules import logic_35249
+RULES.append(logic_35249)
+from .rules import logic_35250
+RULES.append(logic_35250)
+from .rules import logic_35251
+RULES.append(logic_35251)
+from .rules import logic_35252
+RULES.append(logic_35252)
+from .rules import logic_35253
+RULES.append(logic_35253)
+from .rules import logic_35254
+RULES.append(logic_35254)
+from .rules import logic_35255
+RULES.append(logic_35255)
+from .rules import logic_35256
+RULES.append(logic_35256)
+from .rules import logic_35257
+RULES.append(logic_35257)
+from .rules import logic_35258
+RULES.append(logic_35258)
+from .rules import logic_35259
+RULES.append(logic_35259)
+from .rules import logic_35260
+RULES.append(logic_35260)
+from .rules import logic_35261
+RULES.append(logic_35261)
+from .rules import logic_35262
+RULES.append(logic_35262)
+from .rules import logic_35263
+RULES.append(logic_35263)
+from .rules import logic_35264
+RULES.append(logic_35264)
+from .rules import logic_35265
+RULES.append(logic_35265)
+from .rules import logic_35266
+RULES.append(logic_35266)
+from .rules import logic_35267
+RULES.append(logic_35267)
+from .rules import logic_35268
+RULES.append(logic_35268)
+from .rules import logic_35269
+RULES.append(logic_35269)
+from .rules import logic_35270
+RULES.append(logic_35270)
+from .rules import logic_35271
+RULES.append(logic_35271)
+from .rules import logic_35272
+RULES.append(logic_35272)
+from .rules import logic_35273
+RULES.append(logic_35273)
+from .rules import logic_35274
+RULES.append(logic_35274)
+from .rules import logic_35275
+RULES.append(logic_35275)
+from .rules import logic_35276
+RULES.append(logic_35276)
+from .rules import logic_35277
+RULES.append(logic_35277)
+from .rules import logic_35278
+RULES.append(logic_35278)
+from .rules import logic_35279
+RULES.append(logic_35279)
+from .rules import logic_35280
+RULES.append(logic_35280)
+from .rules import logic_35281
+RULES.append(logic_35281)
+from .rules import logic_35282
+RULES.append(logic_35282)
+from .rules import logic_35283
+RULES.append(logic_35283)
+from .rules import logic_35284
+RULES.append(logic_35284)
+from .rules import logic_35285
+RULES.append(logic_35285)
+from .rules import logic_35286
+RULES.append(logic_35286)
+from .rules import logic_35287
+RULES.append(logic_35287)
+from .rules import logic_35288
+RULES.append(logic_35288)
+from .rules import logic_35289
+RULES.append(logic_35289)
+from .rules import logic_35290
+RULES.append(logic_35290)
+from .rules import logic_35291
+RULES.append(logic_35291)
+from .rules import logic_35292
+RULES.append(logic_35292)
+from .rules import logic_35293
+RULES.append(logic_35293)
+from .rules import logic_35294
+RULES.append(logic_35294)
+from .rules import logic_35295
+RULES.append(logic_35295)
+from .rules import logic_35296
+RULES.append(logic_35296)
+from .rules import logic_35297
+RULES.append(logic_35297)
+from .rules import logic_35298
+RULES.append(logic_35298)
+from .rules import logic_35299
+RULES.append(logic_35299)
+from .rules import logic_35300
+RULES.append(logic_35300)
+from .rules import logic_35301
+RULES.append(logic_35301)
+from .rules import logic_35302
+RULES.append(logic_35302)
+from .rules import logic_35303
+RULES.append(logic_35303)
+from .rules import logic_35304
+RULES.append(logic_35304)
+from .rules import logic_35305
+RULES.append(logic_35305)
+from .rules import logic_35306
+RULES.append(logic_35306)
+from .rules import logic_35307
+RULES.append(logic_35307)
+from .rules import logic_35308
+RULES.append(logic_35308)
+from .rules import logic_35309
+RULES.append(logic_35309)
+from .rules import logic_35310
+RULES.append(logic_35310)
+from .rules import logic_35311
+RULES.append(logic_35311)
+from .rules import logic_35312
+RULES.append(logic_35312)
+from .rules import logic_35313
+RULES.append(logic_35313)
+from .rules import logic_35314
+RULES.append(logic_35314)
+from .rules import logic_35315
+RULES.append(logic_35315)
+from .rules import logic_35316
+RULES.append(logic_35316)
+from .rules import logic_35317
+RULES.append(logic_35317)
+from .rules import logic_35318
+RULES.append(logic_35318)
+from .rules import logic_35319
+RULES.append(logic_35319)
+from .rules import logic_35320
+RULES.append(logic_35320)
+from .rules import logic_35321
+RULES.append(logic_35321)
+from .rules import logic_35322
+RULES.append(logic_35322)
+from .rules import logic_35323
+RULES.append(logic_35323)
+from .rules import logic_35324
+RULES.append(logic_35324)
+from .rules import logic_35325
+RULES.append(logic_35325)
+from .rules import logic_35326
+RULES.append(logic_35326)
+from .rules import logic_35327
+RULES.append(logic_35327)
+from .rules import logic_35328
+RULES.append(logic_35328)
+from .rules import logic_35329
+RULES.append(logic_35329)
+from .rules import logic_35330
+RULES.append(logic_35330)
+from .rules import logic_35331
+RULES.append(logic_35331)
+from .rules import logic_35332
+RULES.append(logic_35332)
+from .rules import logic_35333
+RULES.append(logic_35333)
+from .rules import logic_35334
+RULES.append(logic_35334)
+from .rules import logic_35335
+RULES.append(logic_35335)
+from .rules import logic_35336
+RULES.append(logic_35336)
+from .rules import logic_35337
+RULES.append(logic_35337)
+from .rules import logic_35338
+RULES.append(logic_35338)
+from .rules import logic_35339
+RULES.append(logic_35339)
+from .rules import logic_35340
+RULES.append(logic_35340)
+from .rules import logic_35341
+RULES.append(logic_35341)
+from .rules import logic_35342
+RULES.append(logic_35342)
+from .rules import logic_35343
+RULES.append(logic_35343)
+from .rules import logic_35344
+RULES.append(logic_35344)
+from .rules import logic_35345
+RULES.append(logic_35345)
+from .rules import logic_35346
+RULES.append(logic_35346)
+from .rules import logic_35347
+RULES.append(logic_35347)
+from .rules import logic_35348
+RULES.append(logic_35348)
+from .rules import logic_35349
+RULES.append(logic_35349)
+from .rules import logic_35350
+RULES.append(logic_35350)
+from .rules import logic_35351
+RULES.append(logic_35351)
+from .rules import logic_35352
+RULES.append(logic_35352)
+from .rules import logic_35353
+RULES.append(logic_35353)
+from .rules import logic_35354
+RULES.append(logic_35354)
+from .rules import logic_35355
+RULES.append(logic_35355)
+from .rules import logic_35356
+RULES.append(logic_35356)
+from .rules import logic_35357
+RULES.append(logic_35357)
+from .rules import logic_35358
+RULES.append(logic_35358)
+from .rules import logic_35359
+RULES.append(logic_35359)
+from .rules import logic_35360
+RULES.append(logic_35360)
+from .rules import logic_35361
+RULES.append(logic_35361)
+from .rules import logic_35362
+RULES.append(logic_35362)
+from .rules import logic_35363
+RULES.append(logic_35363)
+from .rules import logic_35364
+RULES.append(logic_35364)
+from .rules import logic_35365
+RULES.append(logic_35365)
+from .rules import logic_35366
+RULES.append(logic_35366)
+from .rules import logic_35367
+RULES.append(logic_35367)
+from .rules import logic_35368
+RULES.append(logic_35368)
+from .rules import logic_35369
+RULES.append(logic_35369)
+from .rules import logic_35370
+RULES.append(logic_35370)
+from .rules import logic_35371
+RULES.append(logic_35371)
+from .rules import logic_35372
+RULES.append(logic_35372)
+from .rules import logic_35373
+RULES.append(logic_35373)
+from .rules import logic_35374
+RULES.append(logic_35374)
+from .rules import logic_35375
+RULES.append(logic_35375)
+from .rules import logic_35376
+RULES.append(logic_35376)
+from .rules import logic_35377
+RULES.append(logic_35377)
+from .rules import logic_35378
+RULES.append(logic_35378)
+from .rules import logic_35379
+RULES.append(logic_35379)
+from .rules import logic_35380
+RULES.append(logic_35380)
+from .rules import logic_35381
+RULES.append(logic_35381)
+from .rules import logic_35382
+RULES.append(logic_35382)
+from .rules import logic_35383
+RULES.append(logic_35383)
+from .rules import logic_35384
+RULES.append(logic_35384)
+from .rules import logic_35385
+RULES.append(logic_35385)
+from .rules import logic_35386
+RULES.append(logic_35386)
+from .rules import logic_35387
+RULES.append(logic_35387)
+from .rules import logic_35388
+RULES.append(logic_35388)
+from .rules import logic_35389
+RULES.append(logic_35389)
+from .rules import logic_35390
+RULES.append(logic_35390)
+from .rules import logic_35391
+RULES.append(logic_35391)
+from .rules import logic_35392
+RULES.append(logic_35392)
+from .rules import logic_35393
+RULES.append(logic_35393)
+from .rules import logic_35394
+RULES.append(logic_35394)
+from .rules import logic_35395
+RULES.append(logic_35395)
+from .rules import logic_35396
+RULES.append(logic_35396)
+from .rules import logic_35397
+RULES.append(logic_35397)
+from .rules import logic_35398
+RULES.append(logic_35398)
+from .rules import logic_35399
+RULES.append(logic_35399)
+from .rules import logic_35400
+RULES.append(logic_35400)
+from .rules import logic_35401
+RULES.append(logic_35401)
+from .rules import logic_35402
+RULES.append(logic_35402)
+from .rules import logic_35403
+RULES.append(logic_35403)
+from .rules import logic_35404
+RULES.append(logic_35404)
+from .rules import logic_35405
+RULES.append(logic_35405)
+from .rules import logic_35406
+RULES.append(logic_35406)
+from .rules import logic_35407
+RULES.append(logic_35407)
+from .rules import logic_35408
+RULES.append(logic_35408)
+from .rules import logic_35409
+RULES.append(logic_35409)
+from .rules import logic_35410
+RULES.append(logic_35410)
+from .rules import logic_35411
+RULES.append(logic_35411)
+from .rules import logic_35412
+RULES.append(logic_35412)
+from .rules import logic_35413
+RULES.append(logic_35413)
+from .rules import logic_35414
+RULES.append(logic_35414)
+from .rules import logic_35415
+RULES.append(logic_35415)
+from .rules import logic_35416
+RULES.append(logic_35416)
+from .rules import logic_35417
+RULES.append(logic_35417)
+from .rules import logic_35418
+RULES.append(logic_35418)
+from .rules import logic_35419
+RULES.append(logic_35419)
+from .rules import logic_35420
+RULES.append(logic_35420)
+from .rules import logic_35421
+RULES.append(logic_35421)
+from .rules import logic_35422
+RULES.append(logic_35422)
+from .rules import logic_35423
+RULES.append(logic_35423)
+from .rules import logic_35424
+RULES.append(logic_35424)
+from .rules import logic_35425
+RULES.append(logic_35425)
+from .rules import logic_35426
+RULES.append(logic_35426)
+from .rules import logic_35427
+RULES.append(logic_35427)
+from .rules import logic_35428
+RULES.append(logic_35428)
+from .rules import logic_35429
+RULES.append(logic_35429)
+from .rules import logic_35430
+RULES.append(logic_35430)
+from .rules import logic_35431
+RULES.append(logic_35431)
+from .rules import logic_35432
+RULES.append(logic_35432)
+from .rules import logic_35433
+RULES.append(logic_35433)
+from .rules import logic_35434
+RULES.append(logic_35434)
+from .rules import logic_35435
+RULES.append(logic_35435)
+from .rules import logic_35436
+RULES.append(logic_35436)
+from .rules import logic_35437
+RULES.append(logic_35437)
+from .rules import logic_35438
+RULES.append(logic_35438)
+from .rules import logic_35439
+RULES.append(logic_35439)
+from .rules import logic_35440
+RULES.append(logic_35440)
+from .rules import logic_35441
+RULES.append(logic_35441)
+from .rules import logic_35442
+RULES.append(logic_35442)
+from .rules import logic_35443
+RULES.append(logic_35443)
+from .rules import logic_35444
+RULES.append(logic_35444)
+from .rules import logic_35445
+RULES.append(logic_35445)
+from .rules import logic_35446
+RULES.append(logic_35446)
+from .rules import logic_35447
+RULES.append(logic_35447)
+from .rules import logic_35448
+RULES.append(logic_35448)
+from .rules import logic_35449
+RULES.append(logic_35449)
+from .rules import logic_35450
+RULES.append(logic_35450)
+from .rules import logic_35451
+RULES.append(logic_35451)
+from .rules import logic_35452
+RULES.append(logic_35452)
+from .rules import logic_35453
+RULES.append(logic_35453)
+from .rules import logic_35454
+RULES.append(logic_35454)
+from .rules import logic_35455
+RULES.append(logic_35455)
+from .rules import logic_35456
+RULES.append(logic_35456)
+from .rules import logic_35457
+RULES.append(logic_35457)
+from .rules import logic_35458
+RULES.append(logic_35458)
+from .rules import logic_35459
+RULES.append(logic_35459)
+from .rules import logic_35460
+RULES.append(logic_35460)
+from .rules import logic_35461
+RULES.append(logic_35461)
+from .rules import logic_35462
+RULES.append(logic_35462)
+from .rules import logic_35463
+RULES.append(logic_35463)
+from .rules import logic_35464
+RULES.append(logic_35464)
+from .rules import logic_35465
+RULES.append(logic_35465)
+from .rules import logic_35466
+RULES.append(logic_35466)
+from .rules import logic_35467
+RULES.append(logic_35467)
+from .rules import logic_35468
+RULES.append(logic_35468)
+from .rules import logic_35469
+RULES.append(logic_35469)
+from .rules import logic_35470
+RULES.append(logic_35470)
+from .rules import logic_35471
+RULES.append(logic_35471)
+from .rules import logic_35472
+RULES.append(logic_35472)
+from .rules import logic_35473
+RULES.append(logic_35473)
+from .rules import logic_35474
+RULES.append(logic_35474)
+from .rules import logic_35475
+RULES.append(logic_35475)
+from .rules import logic_35476
+RULES.append(logic_35476)
+from .rules import logic_35477
+RULES.append(logic_35477)
+from .rules import logic_35478
+RULES.append(logic_35478)
+from .rules import logic_35479
+RULES.append(logic_35479)
+from .rules import logic_35480
+RULES.append(logic_35480)
+from .rules import logic_35481
+RULES.append(logic_35481)
+from .rules import logic_35482
+RULES.append(logic_35482)
+from .rules import logic_35483
+RULES.append(logic_35483)
+from .rules import logic_35484
+RULES.append(logic_35484)
+from .rules import logic_35485
+RULES.append(logic_35485)
+from .rules import logic_35486
+RULES.append(logic_35486)
+from .rules import logic_35487
+RULES.append(logic_35487)
+from .rules import logic_35488
+RULES.append(logic_35488)
+from .rules import logic_35489
+RULES.append(logic_35489)
+from .rules import logic_35490
+RULES.append(logic_35490)
+from .rules import logic_35491
+RULES.append(logic_35491)
+from .rules import logic_35492
+RULES.append(logic_35492)
+from .rules import logic_35493
+RULES.append(logic_35493)
+from .rules import logic_35494
+RULES.append(logic_35494)
+from .rules import logic_35495
+RULES.append(logic_35495)
+from .rules import logic_35496
+RULES.append(logic_35496)
+from .rules import logic_35497
+RULES.append(logic_35497)
+from .rules import logic_35498
+RULES.append(logic_35498)
+from .rules import logic_35499
+RULES.append(logic_35499)
+from .rules import logic_35500
+RULES.append(logic_35500)
+from .rules import logic_35501
+RULES.append(logic_35501)
+from .rules import logic_35502
+RULES.append(logic_35502)
+from .rules import logic_35503
+RULES.append(logic_35503)
+from .rules import logic_35504
+RULES.append(logic_35504)
+from .rules import logic_35505
+RULES.append(logic_35505)
+from .rules import logic_35506
+RULES.append(logic_35506)
+from .rules import logic_35507
+RULES.append(logic_35507)
+from .rules import logic_35508
+RULES.append(logic_35508)
+from .rules import logic_35509
+RULES.append(logic_35509)
+from .rules import logic_35510
+RULES.append(logic_35510)
+from .rules import logic_35511
+RULES.append(logic_35511)
+from .rules import logic_35512
+RULES.append(logic_35512)
+from .rules import logic_35513
+RULES.append(logic_35513)
+from .rules import logic_35514
+RULES.append(logic_35514)
+from .rules import logic_35515
+RULES.append(logic_35515)
+from .rules import logic_35516
+RULES.append(logic_35516)
+from .rules import logic_35517
+RULES.append(logic_35517)
+from .rules import logic_35518
+RULES.append(logic_35518)
+from .rules import logic_35519
+RULES.append(logic_35519)
+from .rules import logic_35520
+RULES.append(logic_35520)
+from .rules import logic_35521
+RULES.append(logic_35521)
+from .rules import logic_35522
+RULES.append(logic_35522)
+from .rules import logic_35523
+RULES.append(logic_35523)
+from .rules import logic_35524
+RULES.append(logic_35524)
+from .rules import logic_35525
+RULES.append(logic_35525)
+from .rules import logic_35526
+RULES.append(logic_35526)
+from .rules import logic_35527
+RULES.append(logic_35527)
+from .rules import logic_35528
+RULES.append(logic_35528)
+from .rules import logic_35529
+RULES.append(logic_35529)
+from .rules import logic_35530
+RULES.append(logic_35530)
+from .rules import logic_35531
+RULES.append(logic_35531)
+from .rules import logic_35532
+RULES.append(logic_35532)
+from .rules import logic_35533
+RULES.append(logic_35533)
+from .rules import logic_35534
+RULES.append(logic_35534)
+from .rules import logic_35535
+RULES.append(logic_35535)
+from .rules import logic_35536
+RULES.append(logic_35536)
+from .rules import logic_35537
+RULES.append(logic_35537)
+from .rules import logic_35538
+RULES.append(logic_35538)
+from .rules import logic_35539
+RULES.append(logic_35539)
+from .rules import logic_35540
+RULES.append(logic_35540)
+from .rules import logic_35541
+RULES.append(logic_35541)
+from .rules import logic_35542
+RULES.append(logic_35542)
+from .rules import logic_35543
+RULES.append(logic_35543)
+from .rules import logic_35544
+RULES.append(logic_35544)
+from .rules import logic_35545
+RULES.append(logic_35545)
+from .rules import logic_35546
+RULES.append(logic_35546)
+from .rules import logic_35547
+RULES.append(logic_35547)
+from .rules import logic_35548
+RULES.append(logic_35548)
+from .rules import logic_35549
+RULES.append(logic_35549)
+from .rules import logic_35550
+RULES.append(logic_35550)
+from .rules import logic_35551
+RULES.append(logic_35551)
+from .rules import logic_35552
+RULES.append(logic_35552)
+from .rules import logic_35553
+RULES.append(logic_35553)
+from .rules import logic_35554
+RULES.append(logic_35554)
+from .rules import logic_35555
+RULES.append(logic_35555)
+from .rules import logic_35556
+RULES.append(logic_35556)
+from .rules import logic_35557
+RULES.append(logic_35557)
+from .rules import logic_35558
+RULES.append(logic_35558)
+from .rules import logic_35559
+RULES.append(logic_35559)
+from .rules import logic_35560
+RULES.append(logic_35560)
+from .rules import logic_35561
+RULES.append(logic_35561)
+from .rules import logic_35562
+RULES.append(logic_35562)
+from .rules import logic_35563
+RULES.append(logic_35563)
+from .rules import logic_35564
+RULES.append(logic_35564)
+from .rules import logic_35565
+RULES.append(logic_35565)
+from .rules import logic_35566
+RULES.append(logic_35566)
+from .rules import logic_35567
+RULES.append(logic_35567)
+from .rules import logic_35568
+RULES.append(logic_35568)
+from .rules import logic_35569
+RULES.append(logic_35569)
+from .rules import logic_35570
+RULES.append(logic_35570)
+from .rules import logic_35571
+RULES.append(logic_35571)
+from .rules import logic_35572
+RULES.append(logic_35572)
+from .rules import logic_35573
+RULES.append(logic_35573)
+from .rules import logic_35574
+RULES.append(logic_35574)
+from .rules import logic_35575
+RULES.append(logic_35575)
+from .rules import logic_35576
+RULES.append(logic_35576)
+from .rules import logic_35577
+RULES.append(logic_35577)
+from .rules import logic_35578
+RULES.append(logic_35578)
+from .rules import logic_35579
+RULES.append(logic_35579)
+from .rules import logic_35580
+RULES.append(logic_35580)
+from .rules import logic_35581
+RULES.append(logic_35581)
+from .rules import logic_35582
+RULES.append(logic_35582)
+from .rules import logic_35583
+RULES.append(logic_35583)
+from .rules import logic_35584
+RULES.append(logic_35584)
+from .rules import logic_35585
+RULES.append(logic_35585)
+from .rules import logic_35586
+RULES.append(logic_35586)
+from .rules import logic_35587
+RULES.append(logic_35587)
+from .rules import logic_35588
+RULES.append(logic_35588)
+from .rules import logic_35589
+RULES.append(logic_35589)
+from .rules import logic_35590
+RULES.append(logic_35590)
+from .rules import logic_35591
+RULES.append(logic_35591)
+from .rules import logic_35592
+RULES.append(logic_35592)
+from .rules import logic_35593
+RULES.append(logic_35593)
+from .rules import logic_35594
+RULES.append(logic_35594)
+from .rules import logic_35595
+RULES.append(logic_35595)
+from .rules import logic_35596
+RULES.append(logic_35596)
+from .rules import logic_35597
+RULES.append(logic_35597)
+from .rules import logic_35598
+RULES.append(logic_35598)
+from .rules import logic_35599
+RULES.append(logic_35599)
+from .rules import logic_35600
+RULES.append(logic_35600)
+from .rules import logic_35601
+RULES.append(logic_35601)
+from .rules import logic_35602
+RULES.append(logic_35602)
+from .rules import logic_35603
+RULES.append(logic_35603)
+from .rules import logic_35604
+RULES.append(logic_35604)
+from .rules import logic_35605
+RULES.append(logic_35605)
+from .rules import logic_35606
+RULES.append(logic_35606)
+from .rules import logic_35607
+RULES.append(logic_35607)
+from .rules import logic_35608
+RULES.append(logic_35608)
+from .rules import logic_35609
+RULES.append(logic_35609)
+from .rules import logic_35610
+RULES.append(logic_35610)
+from .rules import logic_35611
+RULES.append(logic_35611)
+from .rules import logic_35612
+RULES.append(logic_35612)
+from .rules import logic_35613
+RULES.append(logic_35613)
+from .rules import logic_35614
+RULES.append(logic_35614)
+from .rules import logic_35615
+RULES.append(logic_35615)
+from .rules import logic_35616
+RULES.append(logic_35616)
+from .rules import logic_35617
+RULES.append(logic_35617)
+from .rules import logic_35618
+RULES.append(logic_35618)
+from .rules import logic_35619
+RULES.append(logic_35619)
+from .rules import logic_35620
+RULES.append(logic_35620)
+from .rules import logic_35621
+RULES.append(logic_35621)
+from .rules import logic_35622
+RULES.append(logic_35622)
+from .rules import logic_35623
+RULES.append(logic_35623)
+from .rules import logic_35624
+RULES.append(logic_35624)
+from .rules import logic_35625
+RULES.append(logic_35625)
+from .rules import logic_35626
+RULES.append(logic_35626)
+from .rules import logic_35627
+RULES.append(logic_35627)
+from .rules import logic_35628
+RULES.append(logic_35628)
+from .rules import logic_35629
+RULES.append(logic_35629)
+from .rules import logic_35630
+RULES.append(logic_35630)
+from .rules import logic_35631
+RULES.append(logic_35631)
+from .rules import logic_35632
+RULES.append(logic_35632)
+from .rules import logic_35633
+RULES.append(logic_35633)
+from .rules import logic_35634
+RULES.append(logic_35634)
+from .rules import logic_35635
+RULES.append(logic_35635)
+from .rules import logic_35636
+RULES.append(logic_35636)
+from .rules import logic_35637
+RULES.append(logic_35637)
+from .rules import logic_35638
+RULES.append(logic_35638)
+from .rules import logic_35639
+RULES.append(logic_35639)
+from .rules import logic_35640
+RULES.append(logic_35640)
+from .rules import logic_35641
+RULES.append(logic_35641)
+from .rules import logic_35642
+RULES.append(logic_35642)
+from .rules import logic_35643
+RULES.append(logic_35643)
+from .rules import logic_35644
+RULES.append(logic_35644)
+from .rules import logic_35645
+RULES.append(logic_35645)
+from .rules import logic_35646
+RULES.append(logic_35646)
+from .rules import logic_35647
+RULES.append(logic_35647)
+from .rules import logic_35648
+RULES.append(logic_35648)
+from .rules import logic_35649
+RULES.append(logic_35649)
+from .rules import logic_35650
+RULES.append(logic_35650)
+from .rules import logic_35651
+RULES.append(logic_35651)
+from .rules import logic_35652
+RULES.append(logic_35652)
+from .rules import logic_35653
+RULES.append(logic_35653)
+from .rules import logic_35654
+RULES.append(logic_35654)
+from .rules import logic_35655
+RULES.append(logic_35655)
+from .rules import logic_35656
+RULES.append(logic_35656)
+from .rules import logic_35657
+RULES.append(logic_35657)
+from .rules import logic_35658
+RULES.append(logic_35658)
+from .rules import logic_35659
+RULES.append(logic_35659)
+from .rules import logic_35660
+RULES.append(logic_35660)
+from .rules import logic_35661
+RULES.append(logic_35661)
+from .rules import logic_35662
+RULES.append(logic_35662)
+from .rules import logic_35663
+RULES.append(logic_35663)
+from .rules import logic_35664
+RULES.append(logic_35664)
+from .rules import logic_35665
+RULES.append(logic_35665)
+from .rules import logic_35666
+RULES.append(logic_35666)
+from .rules import logic_35667
+RULES.append(logic_35667)
+from .rules import logic_35668
+RULES.append(logic_35668)
+from .rules import logic_35669
+RULES.append(logic_35669)
+from .rules import logic_35670
+RULES.append(logic_35670)
+from .rules import logic_35671
+RULES.append(logic_35671)
+from .rules import logic_35672
+RULES.append(logic_35672)
+from .rules import logic_35673
+RULES.append(logic_35673)
+from .rules import logic_35674
+RULES.append(logic_35674)
+from .rules import logic_35675
+RULES.append(logic_35675)
+from .rules import logic_35676
+RULES.append(logic_35676)
+from .rules import logic_35677
+RULES.append(logic_35677)
+from .rules import logic_35678
+RULES.append(logic_35678)
+from .rules import logic_35679
+RULES.append(logic_35679)
+from .rules import logic_35680
+RULES.append(logic_35680)
+from .rules import logic_35681
+RULES.append(logic_35681)
+from .rules import logic_35682
+RULES.append(logic_35682)
+from .rules import logic_35683
+RULES.append(logic_35683)
+from .rules import logic_35684
+RULES.append(logic_35684)
+from .rules import logic_35685
+RULES.append(logic_35685)
+from .rules import logic_35686
+RULES.append(logic_35686)
+from .rules import logic_35687
+RULES.append(logic_35687)
+from .rules import logic_35688
+RULES.append(logic_35688)
+from .rules import logic_35689
+RULES.append(logic_35689)
+from .rules import logic_35690
+RULES.append(logic_35690)
+from .rules import logic_35691
+RULES.append(logic_35691)
+from .rules import logic_35692
+RULES.append(logic_35692)
+from .rules import logic_35693
+RULES.append(logic_35693)
+from .rules import logic_35694
+RULES.append(logic_35694)
+from .rules import logic_35695
+RULES.append(logic_35695)
+from .rules import logic_35696
+RULES.append(logic_35696)
+from .rules import logic_35697
+RULES.append(logic_35697)
+from .rules import logic_35698
+RULES.append(logic_35698)
+from .rules import logic_35699
+RULES.append(logic_35699)
+from .rules import logic_35700
+RULES.append(logic_35700)
+from .rules import logic_35701
+RULES.append(logic_35701)
+from .rules import logic_35702
+RULES.append(logic_35702)
+from .rules import logic_35703
+RULES.append(logic_35703)
+from .rules import logic_35704
+RULES.append(logic_35704)
+from .rules import logic_35705
+RULES.append(logic_35705)
+from .rules import logic_35706
+RULES.append(logic_35706)
+from .rules import logic_35707
+RULES.append(logic_35707)
+from .rules import logic_35708
+RULES.append(logic_35708)
+from .rules import logic_35709
+RULES.append(logic_35709)
+from .rules import logic_35710
+RULES.append(logic_35710)
+from .rules import logic_35711
+RULES.append(logic_35711)
+from .rules import logic_35712
+RULES.append(logic_35712)
+from .rules import logic_35713
+RULES.append(logic_35713)
+from .rules import logic_35714
+RULES.append(logic_35714)
+from .rules import logic_35715
+RULES.append(logic_35715)
+from .rules import logic_35716
+RULES.append(logic_35716)
+from .rules import logic_35717
+RULES.append(logic_35717)
+from .rules import logic_35718
+RULES.append(logic_35718)
+from .rules import logic_35719
+RULES.append(logic_35719)
+from .rules import logic_35720
+RULES.append(logic_35720)
+from .rules import logic_35721
+RULES.append(logic_35721)
+from .rules import logic_35722
+RULES.append(logic_35722)
+from .rules import logic_35723
+RULES.append(logic_35723)
+from .rules import logic_35724
+RULES.append(logic_35724)
+from .rules import logic_35725
+RULES.append(logic_35725)
+from .rules import logic_35726
+RULES.append(logic_35726)
+from .rules import logic_35727
+RULES.append(logic_35727)
+from .rules import logic_35728
+RULES.append(logic_35728)
+from .rules import logic_35729
+RULES.append(logic_35729)
+from .rules import logic_35730
+RULES.append(logic_35730)
+from .rules import logic_35731
+RULES.append(logic_35731)
+from .rules import logic_35732
+RULES.append(logic_35732)
+from .rules import logic_35733
+RULES.append(logic_35733)
+from .rules import logic_35734
+RULES.append(logic_35734)
+from .rules import logic_35735
+RULES.append(logic_35735)
+from .rules import logic_35736
+RULES.append(logic_35736)
+from .rules import logic_35737
+RULES.append(logic_35737)
+from .rules import logic_35738
+RULES.append(logic_35738)
+from .rules import logic_35739
+RULES.append(logic_35739)
+from .rules import logic_35740
+RULES.append(logic_35740)
+from .rules import logic_35741
+RULES.append(logic_35741)
+from .rules import logic_35742
+RULES.append(logic_35742)
+from .rules import logic_35743
+RULES.append(logic_35743)
+from .rules import logic_35744
+RULES.append(logic_35744)
+from .rules import logic_35745
+RULES.append(logic_35745)
+from .rules import logic_35746
+RULES.append(logic_35746)
+from .rules import logic_35747
+RULES.append(logic_35747)
+from .rules import logic_35748
+RULES.append(logic_35748)
+from .rules import logic_35749
+RULES.append(logic_35749)
+from .rules import logic_35750
+RULES.append(logic_35750)
+from .rules import logic_35751
+RULES.append(logic_35751)
+from .rules import logic_35752
+RULES.append(logic_35752)
+from .rules import logic_35753
+RULES.append(logic_35753)
+from .rules import logic_35754
+RULES.append(logic_35754)
+from .rules import logic_35755
+RULES.append(logic_35755)
+from .rules import logic_35756
+RULES.append(logic_35756)
+from .rules import logic_35757
+RULES.append(logic_35757)
+from .rules import logic_35758
+RULES.append(logic_35758)
+from .rules import logic_35759
+RULES.append(logic_35759)
+from .rules import logic_35760
+RULES.append(logic_35760)
+from .rules import logic_35761
+RULES.append(logic_35761)
+from .rules import logic_35762
+RULES.append(logic_35762)
+from .rules import logic_35763
+RULES.append(logic_35763)
+from .rules import logic_35764
+RULES.append(logic_35764)
+from .rules import logic_35765
+RULES.append(logic_35765)
+from .rules import logic_35766
+RULES.append(logic_35766)
+from .rules import logic_35767
+RULES.append(logic_35767)
+from .rules import logic_35768
+RULES.append(logic_35768)
+from .rules import logic_35769
+RULES.append(logic_35769)
+from .rules import logic_35770
+RULES.append(logic_35770)
+from .rules import logic_35771
+RULES.append(logic_35771)
+from .rules import logic_35772
+RULES.append(logic_35772)
+from .rules import logic_35773
+RULES.append(logic_35773)
+from .rules import logic_35774
+RULES.append(logic_35774)
+from .rules import logic_35775
+RULES.append(logic_35775)
+from .rules import logic_35776
+RULES.append(logic_35776)
+from .rules import logic_35777
+RULES.append(logic_35777)
+from .rules import logic_35778
+RULES.append(logic_35778)
+from .rules import logic_35779
+RULES.append(logic_35779)
+from .rules import logic_35780
+RULES.append(logic_35780)
+from .rules import logic_35781
+RULES.append(logic_35781)
+from .rules import logic_35782
+RULES.append(logic_35782)
+from .rules import logic_35783
+RULES.append(logic_35783)
+from .rules import logic_35784
+RULES.append(logic_35784)
+from .rules import logic_35785
+RULES.append(logic_35785)
+from .rules import logic_35786
+RULES.append(logic_35786)
+from .rules import logic_35787
+RULES.append(logic_35787)
+from .rules import logic_35788
+RULES.append(logic_35788)
+from .rules import logic_35789
+RULES.append(logic_35789)
+from .rules import logic_35790
+RULES.append(logic_35790)
+from .rules import logic_35791
+RULES.append(logic_35791)
+from .rules import logic_35792
+RULES.append(logic_35792)
+from .rules import logic_35793
+RULES.append(logic_35793)
+from .rules import logic_35794
+RULES.append(logic_35794)
+from .rules import logic_35795
+RULES.append(logic_35795)
+from .rules import logic_35796
+RULES.append(logic_35796)
+from .rules import logic_35797
+RULES.append(logic_35797)
+from .rules import logic_35798
+RULES.append(logic_35798)
+from .rules import logic_35799
+RULES.append(logic_35799)
+from .rules import logic_35800
+RULES.append(logic_35800)
+from .rules import logic_35801
+RULES.append(logic_35801)
+from .rules import logic_35802
+RULES.append(logic_35802)
+from .rules import logic_35803
+RULES.append(logic_35803)
+from .rules import logic_35804
+RULES.append(logic_35804)
+from .rules import logic_35805
+RULES.append(logic_35805)
+from .rules import logic_35806
+RULES.append(logic_35806)
+from .rules import logic_35807
+RULES.append(logic_35807)
+from .rules import logic_35808
+RULES.append(logic_35808)
+from .rules import logic_35809
+RULES.append(logic_35809)
+from .rules import logic_35810
+RULES.append(logic_35810)
+from .rules import logic_35811
+RULES.append(logic_35811)
+from .rules import logic_35812
+RULES.append(logic_35812)
+from .rules import logic_35813
+RULES.append(logic_35813)
+from .rules import logic_35814
+RULES.append(logic_35814)
+from .rules import logic_35815
+RULES.append(logic_35815)
+from .rules import logic_35816
+RULES.append(logic_35816)
+from .rules import logic_35817
+RULES.append(logic_35817)
+from .rules import logic_35818
+RULES.append(logic_35818)
+from .rules import logic_35819
+RULES.append(logic_35819)
+from .rules import logic_35820
+RULES.append(logic_35820)
+from .rules import logic_35821
+RULES.append(logic_35821)
+from .rules import logic_35822
+RULES.append(logic_35822)
+from .rules import logic_35823
+RULES.append(logic_35823)
+from .rules import logic_35824
+RULES.append(logic_35824)
+from .rules import logic_35825
+RULES.append(logic_35825)
+from .rules import logic_35826
+RULES.append(logic_35826)
+from .rules import logic_35827
+RULES.append(logic_35827)
+from .rules import logic_35828
+RULES.append(logic_35828)
+from .rules import logic_35829
+RULES.append(logic_35829)
+from .rules import logic_35830
+RULES.append(logic_35830)
+from .rules import logic_35831
+RULES.append(logic_35831)
+from .rules import logic_35832
+RULES.append(logic_35832)
+from .rules import logic_35833
+RULES.append(logic_35833)
+from .rules import logic_35834
+RULES.append(logic_35834)
+from .rules import logic_35835
+RULES.append(logic_35835)
+from .rules import logic_35836
+RULES.append(logic_35836)
+from .rules import logic_35837
+RULES.append(logic_35837)
+from .rules import logic_35838
+RULES.append(logic_35838)
+from .rules import logic_35839
+RULES.append(logic_35839)
+from .rules import logic_35840
+RULES.append(logic_35840)
+from .rules import logic_35841
+RULES.append(logic_35841)
+from .rules import logic_35842
+RULES.append(logic_35842)
+from .rules import logic_35843
+RULES.append(logic_35843)
+from .rules import logic_35844
+RULES.append(logic_35844)
+from .rules import logic_35845
+RULES.append(logic_35845)
+from .rules import logic_35846
+RULES.append(logic_35846)
+from .rules import logic_35847
+RULES.append(logic_35847)
+from .rules import logic_35848
+RULES.append(logic_35848)
+from .rules import logic_35849
+RULES.append(logic_35849)
+from .rules import logic_35850
+RULES.append(logic_35850)
+from .rules import logic_35851
+RULES.append(logic_35851)
+from .rules import logic_35852
+RULES.append(logic_35852)
+from .rules import logic_35853
+RULES.append(logic_35853)
+from .rules import logic_35854
+RULES.append(logic_35854)
+from .rules import logic_35855
+RULES.append(logic_35855)
+from .rules import logic_35856
+RULES.append(logic_35856)
+from .rules import logic_35857
+RULES.append(logic_35857)
+from .rules import logic_35858
+RULES.append(logic_35858)
+from .rules import logic_35859
+RULES.append(logic_35859)
+from .rules import logic_35860
+RULES.append(logic_35860)
+from .rules import logic_35861
+RULES.append(logic_35861)
+from .rules import logic_35862
+RULES.append(logic_35862)
+from .rules import logic_35863
+RULES.append(logic_35863)
+from .rules import logic_35864
+RULES.append(logic_35864)
+from .rules import logic_35865
+RULES.append(logic_35865)
+from .rules import logic_35866
+RULES.append(logic_35866)
+from .rules import logic_35867
+RULES.append(logic_35867)
+from .rules import logic_35868
+RULES.append(logic_35868)
+from .rules import logic_35869
+RULES.append(logic_35869)
+from .rules import logic_35870
+RULES.append(logic_35870)
+from .rules import logic_35871
+RULES.append(logic_35871)
+from .rules import logic_35872
+RULES.append(logic_35872)
+from .rules import logic_35873
+RULES.append(logic_35873)
+from .rules import logic_35874
+RULES.append(logic_35874)
+from .rules import logic_35875
+RULES.append(logic_35875)
+from .rules import logic_35876
+RULES.append(logic_35876)
+from .rules import logic_35877
+RULES.append(logic_35877)
+from .rules import logic_35878
+RULES.append(logic_35878)
+from .rules import logic_35879
+RULES.append(logic_35879)
+from .rules import logic_35880
+RULES.append(logic_35880)
+from .rules import logic_35881
+RULES.append(logic_35881)
+from .rules import logic_35882
+RULES.append(logic_35882)
+from .rules import logic_35883
+RULES.append(logic_35883)
+from .rules import logic_35884
+RULES.append(logic_35884)
+from .rules import logic_35885
+RULES.append(logic_35885)
+from .rules import logic_35886
+RULES.append(logic_35886)
+from .rules import logic_35887
+RULES.append(logic_35887)
+from .rules import logic_35888
+RULES.append(logic_35888)
+from .rules import logic_35889
+RULES.append(logic_35889)
+from .rules import logic_35890
+RULES.append(logic_35890)
+from .rules import logic_35891
+RULES.append(logic_35891)
+from .rules import logic_35892
+RULES.append(logic_35892)
+from .rules import logic_35893
+RULES.append(logic_35893)
+from .rules import logic_35894
+RULES.append(logic_35894)
+from .rules import logic_35895
+RULES.append(logic_35895)
+from .rules import logic_35896
+RULES.append(logic_35896)
+from .rules import logic_35897
+RULES.append(logic_35897)
+from .rules import logic_35898
+RULES.append(logic_35898)
+from .rules import logic_35899
+RULES.append(logic_35899)
+from .rules import logic_35900
+RULES.append(logic_35900)
+from .rules import logic_35901
+RULES.append(logic_35901)
+from .rules import logic_35902
+RULES.append(logic_35902)
+from .rules import logic_35903
+RULES.append(logic_35903)
+from .rules import logic_35904
+RULES.append(logic_35904)
+from .rules import logic_35905
+RULES.append(logic_35905)
+from .rules import logic_35906
+RULES.append(logic_35906)
+from .rules import logic_35907
+RULES.append(logic_35907)
+from .rules import logic_35908
+RULES.append(logic_35908)
+from .rules import logic_35909
+RULES.append(logic_35909)
+from .rules import logic_35910
+RULES.append(logic_35910)
+from .rules import logic_35911
+RULES.append(logic_35911)
+from .rules import logic_35912
+RULES.append(logic_35912)
+from .rules import logic_35913
+RULES.append(logic_35913)
+from .rules import logic_35914
+RULES.append(logic_35914)
+from .rules import logic_35915
+RULES.append(logic_35915)
+from .rules import logic_35916
+RULES.append(logic_35916)
+from .rules import logic_35917
+RULES.append(logic_35917)
+from .rules import logic_35918
+RULES.append(logic_35918)
+from .rules import logic_35919
+RULES.append(logic_35919)
+from .rules import logic_35920
+RULES.append(logic_35920)
+from .rules import logic_35921
+RULES.append(logic_35921)
+from .rules import logic_35922
+RULES.append(logic_35922)
+from .rules import logic_35923
+RULES.append(logic_35923)
+from .rules import logic_35924
+RULES.append(logic_35924)
+from .rules import logic_35925
+RULES.append(logic_35925)
+from .rules import logic_35926
+RULES.append(logic_35926)
+from .rules import logic_35927
+RULES.append(logic_35927)
+from .rules import logic_35928
+RULES.append(logic_35928)
+from .rules import logic_35929
+RULES.append(logic_35929)
+from .rules import logic_35930
+RULES.append(logic_35930)
+from .rules import logic_35931
+RULES.append(logic_35931)
+from .rules import logic_35932
+RULES.append(logic_35932)
+from .rules import logic_35933
+RULES.append(logic_35933)
+from .rules import logic_35934
+RULES.append(logic_35934)
+from .rules import logic_35935
+RULES.append(logic_35935)
+from .rules import logic_35936
+RULES.append(logic_35936)
+from .rules import logic_35937
+RULES.append(logic_35937)
+from .rules import logic_35938
+RULES.append(logic_35938)
+from .rules import logic_35939
+RULES.append(logic_35939)
+from .rules import logic_35940
+RULES.append(logic_35940)
+from .rules import logic_35941
+RULES.append(logic_35941)
+from .rules import logic_35942
+RULES.append(logic_35942)
+from .rules import logic_35943
+RULES.append(logic_35943)
+from .rules import logic_35944
+RULES.append(logic_35944)
+from .rules import logic_35945
+RULES.append(logic_35945)
+from .rules import logic_35946
+RULES.append(logic_35946)
+from .rules import logic_35947
+RULES.append(logic_35947)
+from .rules import logic_35948
+RULES.append(logic_35948)
+from .rules import logic_35949
+RULES.append(logic_35949)
+from .rules import logic_35950
+RULES.append(logic_35950)
+from .rules import logic_35951
+RULES.append(logic_35951)
+from .rules import logic_35952
+RULES.append(logic_35952)
+from .rules import logic_35953
+RULES.append(logic_35953)
+from .rules import logic_35954
+RULES.append(logic_35954)
+from .rules import logic_35955
+RULES.append(logic_35955)
+from .rules import logic_35956
+RULES.append(logic_35956)
+from .rules import logic_35957
+RULES.append(logic_35957)
+from .rules import logic_35958
+RULES.append(logic_35958)
+from .rules import logic_35959
+RULES.append(logic_35959)
+from .rules import logic_35960
+RULES.append(logic_35960)
+from .rules import logic_35961
+RULES.append(logic_35961)
+from .rules import logic_35962
+RULES.append(logic_35962)
+from .rules import logic_35963
+RULES.append(logic_35963)
+from .rules import logic_35964
+RULES.append(logic_35964)
+from .rules import logic_35965
+RULES.append(logic_35965)
+from .rules import logic_35966
+RULES.append(logic_35966)
+from .rules import logic_35967
+RULES.append(logic_35967)
+from .rules import logic_35968
+RULES.append(logic_35968)
+from .rules import logic_35969
+RULES.append(logic_35969)
+from .rules import logic_35970
+RULES.append(logic_35970)
+from .rules import logic_35971
+RULES.append(logic_35971)
+from .rules import logic_35972
+RULES.append(logic_35972)
+from .rules import logic_35973
+RULES.append(logic_35973)
+from .rules import logic_35974
+RULES.append(logic_35974)
+from .rules import logic_35975
+RULES.append(logic_35975)
+from .rules import logic_35976
+RULES.append(logic_35976)
+from .rules import logic_35977
+RULES.append(logic_35977)
+from .rules import logic_35978
+RULES.append(logic_35978)
+from .rules import logic_35979
+RULES.append(logic_35979)
+from .rules import logic_35980
+RULES.append(logic_35980)
+from .rules import logic_35981
+RULES.append(logic_35981)
+from .rules import logic_35982
+RULES.append(logic_35982)
+from .rules import logic_35983
+RULES.append(logic_35983)
+from .rules import logic_35984
+RULES.append(logic_35984)
+from .rules import logic_35985
+RULES.append(logic_35985)
+from .rules import logic_35986
+RULES.append(logic_35986)
+from .rules import logic_35987
+RULES.append(logic_35987)
+from .rules import logic_35988
+RULES.append(logic_35988)
+from .rules import logic_35989
+RULES.append(logic_35989)
+from .rules import logic_35990
+RULES.append(logic_35990)
+from .rules import logic_35991
+RULES.append(logic_35991)
+from .rules import logic_35992
+RULES.append(logic_35992)
+from .rules import logic_35993
+RULES.append(logic_35993)
+from .rules import logic_35994
+RULES.append(logic_35994)
+from .rules import logic_35995
+RULES.append(logic_35995)
+from .rules import logic_35996
+RULES.append(logic_35996)
+from .rules import logic_35997
+RULES.append(logic_35997)
+from .rules import logic_35998
+RULES.append(logic_35998)
+from .rules import logic_35999
+RULES.append(logic_35999)
+from .rules import logic_36000
+RULES.append(logic_36000)
+from .rules import logic_36001
+RULES.append(logic_36001)
+from .rules import logic_36002
+RULES.append(logic_36002)
+from .rules import logic_36003
+RULES.append(logic_36003)
+from .rules import logic_36004
+RULES.append(logic_36004)
+from .rules import logic_36005
+RULES.append(logic_36005)
+from .rules import logic_36006
+RULES.append(logic_36006)
+from .rules import logic_36007
+RULES.append(logic_36007)
+from .rules import logic_36008
+RULES.append(logic_36008)
+from .rules import logic_36009
+RULES.append(logic_36009)
+from .rules import logic_36010
+RULES.append(logic_36010)
+from .rules import logic_36011
+RULES.append(logic_36011)
+from .rules import logic_36012
+RULES.append(logic_36012)
+from .rules import logic_36013
+RULES.append(logic_36013)
+from .rules import logic_36014
+RULES.append(logic_36014)
+from .rules import logic_36015
+RULES.append(logic_36015)
+from .rules import logic_36016
+RULES.append(logic_36016)
+from .rules import logic_36017
+RULES.append(logic_36017)
+from .rules import logic_36018
+RULES.append(logic_36018)
+from .rules import logic_36019
+RULES.append(logic_36019)
+from .rules import logic_36020
+RULES.append(logic_36020)
+from .rules import logic_36021
+RULES.append(logic_36021)
+from .rules import logic_36022
+RULES.append(logic_36022)
+from .rules import logic_36023
+RULES.append(logic_36023)
+from .rules import logic_36024
+RULES.append(logic_36024)
+from .rules import logic_36025
+RULES.append(logic_36025)
+from .rules import logic_36026
+RULES.append(logic_36026)
+from .rules import logic_36027
+RULES.append(logic_36027)
+from .rules import logic_36028
+RULES.append(logic_36028)
+from .rules import logic_36029
+RULES.append(logic_36029)
+from .rules import logic_36030
+RULES.append(logic_36030)
+from .rules import logic_36031
+RULES.append(logic_36031)
+from .rules import logic_36032
+RULES.append(logic_36032)
+from .rules import logic_36033
+RULES.append(logic_36033)
+from .rules import logic_36034
+RULES.append(logic_36034)
+from .rules import logic_36035
+RULES.append(logic_36035)
+from .rules import logic_36036
+RULES.append(logic_36036)
+from .rules import logic_36037
+RULES.append(logic_36037)
+from .rules import logic_36038
+RULES.append(logic_36038)
+from .rules import logic_36039
+RULES.append(logic_36039)
+from .rules import logic_36040
+RULES.append(logic_36040)
+from .rules import logic_36041
+RULES.append(logic_36041)
+from .rules import logic_36042
+RULES.append(logic_36042)
+from .rules import logic_36043
+RULES.append(logic_36043)
+from .rules import logic_36044
+RULES.append(logic_36044)
+from .rules import logic_36045
+RULES.append(logic_36045)
+from .rules import logic_36046
+RULES.append(logic_36046)
+from .rules import logic_36047
+RULES.append(logic_36047)
+from .rules import logic_36048
+RULES.append(logic_36048)
+from .rules import logic_36049
+RULES.append(logic_36049)
+from .rules import logic_36050
+RULES.append(logic_36050)
+from .rules import logic_36051
+RULES.append(logic_36051)
+from .rules import logic_36052
+RULES.append(logic_36052)
+from .rules import logic_36053
+RULES.append(logic_36053)
+from .rules import logic_36054
+RULES.append(logic_36054)
+from .rules import logic_36055
+RULES.append(logic_36055)
+from .rules import logic_36056
+RULES.append(logic_36056)
+from .rules import logic_36057
+RULES.append(logic_36057)
+from .rules import logic_36058
+RULES.append(logic_36058)
+from .rules import logic_36059
+RULES.append(logic_36059)
+from .rules import logic_36060
+RULES.append(logic_36060)
+from .rules import logic_36061
+RULES.append(logic_36061)
+from .rules import logic_36062
+RULES.append(logic_36062)
+from .rules import logic_36063
+RULES.append(logic_36063)
+from .rules import logic_36064
+RULES.append(logic_36064)
+from .rules import logic_36065
+RULES.append(logic_36065)
+from .rules import logic_36066
+RULES.append(logic_36066)
+from .rules import logic_36067
+RULES.append(logic_36067)
+from .rules import logic_36068
+RULES.append(logic_36068)
+from .rules import logic_36069
+RULES.append(logic_36069)
+from .rules import logic_36070
+RULES.append(logic_36070)
+from .rules import logic_36071
+RULES.append(logic_36071)
+from .rules import logic_36072
+RULES.append(logic_36072)
+from .rules import logic_36073
+RULES.append(logic_36073)
+from .rules import logic_36074
+RULES.append(logic_36074)
+from .rules import logic_36075
+RULES.append(logic_36075)
+from .rules import logic_36076
+RULES.append(logic_36076)
+from .rules import logic_36077
+RULES.append(logic_36077)
+from .rules import logic_36078
+RULES.append(logic_36078)
+from .rules import logic_36079
+RULES.append(logic_36079)
+from .rules import logic_36080
+RULES.append(logic_36080)
+from .rules import logic_36081
+RULES.append(logic_36081)
+from .rules import logic_36082
+RULES.append(logic_36082)
+from .rules import logic_36083
+RULES.append(logic_36083)
+from .rules import logic_36084
+RULES.append(logic_36084)
+from .rules import logic_36085
+RULES.append(logic_36085)
+from .rules import logic_36086
+RULES.append(logic_36086)
+from .rules import logic_36087
+RULES.append(logic_36087)
+from .rules import logic_36088
+RULES.append(logic_36088)
+from .rules import logic_36089
+RULES.append(logic_36089)
+from .rules import logic_36090
+RULES.append(logic_36090)
+from .rules import logic_36091
+RULES.append(logic_36091)
+from .rules import logic_36092
+RULES.append(logic_36092)
+from .rules import logic_36093
+RULES.append(logic_36093)
+from .rules import logic_36094
+RULES.append(logic_36094)
+from .rules import logic_36095
+RULES.append(logic_36095)
+from .rules import logic_36096
+RULES.append(logic_36096)
+from .rules import logic_36097
+RULES.append(logic_36097)
+from .rules import logic_36098
+RULES.append(logic_36098)
+from .rules import logic_36099
+RULES.append(logic_36099)
+from .rules import logic_36100
+RULES.append(logic_36100)
+from .rules import logic_36101
+RULES.append(logic_36101)
+from .rules import logic_36102
+RULES.append(logic_36102)
+from .rules import logic_36103
+RULES.append(logic_36103)
+from .rules import logic_36104
+RULES.append(logic_36104)
+from .rules import logic_36105
+RULES.append(logic_36105)
+from .rules import logic_36106
+RULES.append(logic_36106)
+from .rules import logic_36107
+RULES.append(logic_36107)
+from .rules import logic_36108
+RULES.append(logic_36108)
+from .rules import logic_36109
+RULES.append(logic_36109)
+from .rules import logic_36110
+RULES.append(logic_36110)
+from .rules import logic_36111
+RULES.append(logic_36111)
+from .rules import logic_36112
+RULES.append(logic_36112)
+from .rules import logic_36113
+RULES.append(logic_36113)
+from .rules import logic_36114
+RULES.append(logic_36114)
+from .rules import logic_36115
+RULES.append(logic_36115)
+from .rules import logic_36116
+RULES.append(logic_36116)
+from .rules import logic_36117
+RULES.append(logic_36117)
+from .rules import logic_36118
+RULES.append(logic_36118)
+from .rules import logic_36119
+RULES.append(logic_36119)
+from .rules import logic_36120
+RULES.append(logic_36120)
+from .rules import logic_36121
+RULES.append(logic_36121)
+from .rules import logic_36122
+RULES.append(logic_36122)
+from .rules import logic_36123
+RULES.append(logic_36123)
+from .rules import logic_36124
+RULES.append(logic_36124)
+from .rules import logic_36125
+RULES.append(logic_36125)
+from .rules import logic_36126
+RULES.append(logic_36126)
+from .rules import logic_36127
+RULES.append(logic_36127)
+from .rules import logic_36128
+RULES.append(logic_36128)
+from .rules import logic_36129
+RULES.append(logic_36129)
+from .rules import logic_36130
+RULES.append(logic_36130)
+from .rules import logic_36131
+RULES.append(logic_36131)
+from .rules import logic_36132
+RULES.append(logic_36132)
+from .rules import logic_36133
+RULES.append(logic_36133)
+from .rules import logic_36134
+RULES.append(logic_36134)
+from .rules import logic_36135
+RULES.append(logic_36135)
+from .rules import logic_36136
+RULES.append(logic_36136)
+from .rules import logic_36137
+RULES.append(logic_36137)
+from .rules import logic_36138
+RULES.append(logic_36138)
+from .rules import logic_36139
+RULES.append(logic_36139)
+from .rules import logic_36140
+RULES.append(logic_36140)
+from .rules import logic_36141
+RULES.append(logic_36141)
+from .rules import logic_36142
+RULES.append(logic_36142)
+from .rules import logic_36143
+RULES.append(logic_36143)
+from .rules import logic_36144
+RULES.append(logic_36144)
+from .rules import logic_36145
+RULES.append(logic_36145)
+from .rules import logic_36146
+RULES.append(logic_36146)
+from .rules import logic_36147
+RULES.append(logic_36147)
+from .rules import logic_36148
+RULES.append(logic_36148)
+from .rules import logic_36149
+RULES.append(logic_36149)
+from .rules import logic_36150
+RULES.append(logic_36150)
+from .rules import logic_36151
+RULES.append(logic_36151)
+from .rules import logic_36152
+RULES.append(logic_36152)
+from .rules import logic_36153
+RULES.append(logic_36153)
+from .rules import logic_36154
+RULES.append(logic_36154)
+from .rules import logic_36155
+RULES.append(logic_36155)
+from .rules import logic_36156
+RULES.append(logic_36156)
+from .rules import logic_36157
+RULES.append(logic_36157)
+from .rules import logic_36158
+RULES.append(logic_36158)
+from .rules import logic_36159
+RULES.append(logic_36159)
+from .rules import logic_36160
+RULES.append(logic_36160)
+from .rules import logic_36161
+RULES.append(logic_36161)
+from .rules import logic_36162
+RULES.append(logic_36162)
+from .rules import logic_36163
+RULES.append(logic_36163)
+from .rules import logic_36164
+RULES.append(logic_36164)
+from .rules import logic_36165
+RULES.append(logic_36165)
+from .rules import logic_36166
+RULES.append(logic_36166)
+from .rules import logic_36167
+RULES.append(logic_36167)
+from .rules import logic_36168
+RULES.append(logic_36168)
+from .rules import logic_36169
+RULES.append(logic_36169)
+from .rules import logic_36170
+RULES.append(logic_36170)
+from .rules import logic_36171
+RULES.append(logic_36171)
+from .rules import logic_36172
+RULES.append(logic_36172)
+from .rules import logic_36173
+RULES.append(logic_36173)
+from .rules import logic_36174
+RULES.append(logic_36174)
+from .rules import logic_36175
+RULES.append(logic_36175)
+from .rules import logic_36176
+RULES.append(logic_36176)
+from .rules import logic_36177
+RULES.append(logic_36177)
+from .rules import logic_36178
+RULES.append(logic_36178)
+from .rules import logic_36179
+RULES.append(logic_36179)
+from .rules import logic_36180
+RULES.append(logic_36180)
+from .rules import logic_36181
+RULES.append(logic_36181)
+from .rules import logic_36182
+RULES.append(logic_36182)
+from .rules import logic_36183
+RULES.append(logic_36183)
+from .rules import logic_36184
+RULES.append(logic_36184)
+from .rules import logic_36185
+RULES.append(logic_36185)
+from .rules import logic_36186
+RULES.append(logic_36186)
+from .rules import logic_36187
+RULES.append(logic_36187)
+from .rules import logic_36188
+RULES.append(logic_36188)
+from .rules import logic_36189
+RULES.append(logic_36189)
+from .rules import logic_36190
+RULES.append(logic_36190)
+from .rules import logic_36191
+RULES.append(logic_36191)
+from .rules import logic_36192
+RULES.append(logic_36192)
+from .rules import logic_36193
+RULES.append(logic_36193)
+from .rules import logic_36194
+RULES.append(logic_36194)
+from .rules import logic_36195
+RULES.append(logic_36195)
+from .rules import logic_36196
+RULES.append(logic_36196)
+from .rules import logic_36197
+RULES.append(logic_36197)
+from .rules import logic_36198
+RULES.append(logic_36198)
+from .rules import logic_36199
+RULES.append(logic_36199)
+from .rules import logic_36200
+RULES.append(logic_36200)
+from .rules import logic_36201
+RULES.append(logic_36201)
+from .rules import logic_36202
+RULES.append(logic_36202)
+from .rules import logic_36203
+RULES.append(logic_36203)
+from .rules import logic_36204
+RULES.append(logic_36204)
+from .rules import logic_36205
+RULES.append(logic_36205)
+from .rules import logic_36206
+RULES.append(logic_36206)
+from .rules import logic_36207
+RULES.append(logic_36207)
+from .rules import logic_36208
+RULES.append(logic_36208)
+from .rules import logic_36209
+RULES.append(logic_36209)
+from .rules import logic_36210
+RULES.append(logic_36210)
+from .rules import logic_36211
+RULES.append(logic_36211)
+from .rules import logic_36212
+RULES.append(logic_36212)
+from .rules import logic_36213
+RULES.append(logic_36213)
+from .rules import logic_36214
+RULES.append(logic_36214)
+from .rules import logic_36215
+RULES.append(logic_36215)
+from .rules import logic_36216
+RULES.append(logic_36216)
+from .rules import logic_36217
+RULES.append(logic_36217)
+from .rules import logic_36218
+RULES.append(logic_36218)
+from .rules import logic_36219
+RULES.append(logic_36219)
+from .rules import logic_36220
+RULES.append(logic_36220)
+from .rules import logic_36221
+RULES.append(logic_36221)
+from .rules import logic_36222
+RULES.append(logic_36222)
+from .rules import logic_36223
+RULES.append(logic_36223)
+from .rules import logic_36224
+RULES.append(logic_36224)
+from .rules import logic_36225
+RULES.append(logic_36225)
+from .rules import logic_36226
+RULES.append(logic_36226)
+from .rules import logic_36227
+RULES.append(logic_36227)
+from .rules import logic_36228
+RULES.append(logic_36228)
+from .rules import logic_36229
+RULES.append(logic_36229)
+from .rules import logic_36230
+RULES.append(logic_36230)
+from .rules import logic_36231
+RULES.append(logic_36231)
+from .rules import logic_36232
+RULES.append(logic_36232)
+from .rules import logic_36233
+RULES.append(logic_36233)
+from .rules import logic_36234
+RULES.append(logic_36234)
+from .rules import logic_36235
+RULES.append(logic_36235)
+from .rules import logic_36236
+RULES.append(logic_36236)
+from .rules import logic_36237
+RULES.append(logic_36237)
+from .rules import logic_36238
+RULES.append(logic_36238)
+from .rules import logic_36239
+RULES.append(logic_36239)
+from .rules import logic_36240
+RULES.append(logic_36240)
+from .rules import logic_36241
+RULES.append(logic_36241)
+from .rules import logic_36242
+RULES.append(logic_36242)
+from .rules import logic_36243
+RULES.append(logic_36243)
+from .rules import logic_36244
+RULES.append(logic_36244)
+from .rules import logic_36245
+RULES.append(logic_36245)
+from .rules import logic_36246
+RULES.append(logic_36246)
+from .rules import logic_36247
+RULES.append(logic_36247)
+from .rules import logic_36248
+RULES.append(logic_36248)
+from .rules import logic_36249
+RULES.append(logic_36249)
+from .rules import logic_36250
+RULES.append(logic_36250)
+from .rules import logic_36251
+RULES.append(logic_36251)
+from .rules import logic_36252
+RULES.append(logic_36252)
+from .rules import logic_36253
+RULES.append(logic_36253)
+from .rules import logic_36254
+RULES.append(logic_36254)
+from .rules import logic_36255
+RULES.append(logic_36255)
+from .rules import logic_36256
+RULES.append(logic_36256)
+from .rules import logic_36257
+RULES.append(logic_36257)
+from .rules import logic_36258
+RULES.append(logic_36258)
+from .rules import logic_36259
+RULES.append(logic_36259)
+from .rules import logic_36260
+RULES.append(logic_36260)
+from .rules import logic_36261
+RULES.append(logic_36261)
+from .rules import logic_36262
+RULES.append(logic_36262)
+from .rules import logic_36263
+RULES.append(logic_36263)
+from .rules import logic_36264
+RULES.append(logic_36264)
+from .rules import logic_36265
+RULES.append(logic_36265)
+from .rules import logic_36266
+RULES.append(logic_36266)
+from .rules import logic_36267
+RULES.append(logic_36267)
+from .rules import logic_36268
+RULES.append(logic_36268)
+from .rules import logic_36269
+RULES.append(logic_36269)
+from .rules import logic_36270
+RULES.append(logic_36270)
+from .rules import logic_36271
+RULES.append(logic_36271)
+from .rules import logic_36272
+RULES.append(logic_36272)
+from .rules import logic_36273
+RULES.append(logic_36273)
+from .rules import logic_36274
+RULES.append(logic_36274)
+from .rules import logic_36275
+RULES.append(logic_36275)
+from .rules import logic_36276
+RULES.append(logic_36276)
+from .rules import logic_36277
+RULES.append(logic_36277)
+from .rules import logic_36278
+RULES.append(logic_36278)
+from .rules import logic_36279
+RULES.append(logic_36279)
+from .rules import logic_36280
+RULES.append(logic_36280)
+from .rules import logic_36281
+RULES.append(logic_36281)
+from .rules import logic_36282
+RULES.append(logic_36282)
+from .rules import logic_36283
+RULES.append(logic_36283)
+from .rules import logic_36284
+RULES.append(logic_36284)
+from .rules import logic_36285
+RULES.append(logic_36285)
+from .rules import logic_36286
+RULES.append(logic_36286)
+from .rules import logic_36287
+RULES.append(logic_36287)
+from .rules import logic_36288
+RULES.append(logic_36288)
+from .rules import logic_36289
+RULES.append(logic_36289)
+from .rules import logic_36290
+RULES.append(logic_36290)
+from .rules import logic_36291
+RULES.append(logic_36291)
+from .rules import logic_36292
+RULES.append(logic_36292)
+from .rules import logic_36293
+RULES.append(logic_36293)
+from .rules import logic_36294
+RULES.append(logic_36294)
+from .rules import logic_36295
+RULES.append(logic_36295)
+from .rules import logic_36296
+RULES.append(logic_36296)
+from .rules import logic_36297
+RULES.append(logic_36297)
+from .rules import logic_36298
+RULES.append(logic_36298)
+from .rules import logic_36299
+RULES.append(logic_36299)
+from .rules import logic_36300
+RULES.append(logic_36300)
+from .rules import logic_36301
+RULES.append(logic_36301)
+from .rules import logic_36302
+RULES.append(logic_36302)
+from .rules import logic_36303
+RULES.append(logic_36303)
+from .rules import logic_36304
+RULES.append(logic_36304)
+from .rules import logic_36305
+RULES.append(logic_36305)
+from .rules import logic_36306
+RULES.append(logic_36306)
+from .rules import logic_36307
+RULES.append(logic_36307)
+from .rules import logic_36308
+RULES.append(logic_36308)
+from .rules import logic_36309
+RULES.append(logic_36309)
+from .rules import logic_36310
+RULES.append(logic_36310)
+from .rules import logic_36311
+RULES.append(logic_36311)
+from .rules import logic_36312
+RULES.append(logic_36312)
+from .rules import logic_36313
+RULES.append(logic_36313)
+from .rules import logic_36314
+RULES.append(logic_36314)
+from .rules import logic_36315
+RULES.append(logic_36315)
+from .rules import logic_36316
+RULES.append(logic_36316)
+from .rules import logic_36317
+RULES.append(logic_36317)
+from .rules import logic_36318
+RULES.append(logic_36318)
+from .rules import logic_36319
+RULES.append(logic_36319)
+from .rules import logic_36320
+RULES.append(logic_36320)
+from .rules import logic_36321
+RULES.append(logic_36321)
+from .rules import logic_36322
+RULES.append(logic_36322)
+from .rules import logic_36323
+RULES.append(logic_36323)
+from .rules import logic_36324
+RULES.append(logic_36324)
+from .rules import logic_36325
+RULES.append(logic_36325)
+from .rules import logic_36326
+RULES.append(logic_36326)
+from .rules import logic_36327
+RULES.append(logic_36327)
+from .rules import logic_36328
+RULES.append(logic_36328)
+from .rules import logic_36329
+RULES.append(logic_36329)
+from .rules import logic_36330
+RULES.append(logic_36330)
+from .rules import logic_36331
+RULES.append(logic_36331)
+from .rules import logic_36332
+RULES.append(logic_36332)
+from .rules import logic_36333
+RULES.append(logic_36333)
+from .rules import logic_36334
+RULES.append(logic_36334)
+from .rules import logic_36335
+RULES.append(logic_36335)
+from .rules import logic_36336
+RULES.append(logic_36336)
+from .rules import logic_36337
+RULES.append(logic_36337)
+from .rules import logic_36338
+RULES.append(logic_36338)
+from .rules import logic_36339
+RULES.append(logic_36339)
+from .rules import logic_36340
+RULES.append(logic_36340)
+from .rules import logic_36341
+RULES.append(logic_36341)
+from .rules import logic_36342
+RULES.append(logic_36342)
+from .rules import logic_36343
+RULES.append(logic_36343)
+from .rules import logic_36344
+RULES.append(logic_36344)
+from .rules import logic_36345
+RULES.append(logic_36345)
+from .rules import logic_36346
+RULES.append(logic_36346)
+from .rules import logic_36347
+RULES.append(logic_36347)
+from .rules import logic_36348
+RULES.append(logic_36348)
+from .rules import logic_36349
+RULES.append(logic_36349)
+from .rules import logic_36350
+RULES.append(logic_36350)
+from .rules import logic_36351
+RULES.append(logic_36351)
+from .rules import logic_36352
+RULES.append(logic_36352)
+from .rules import logic_36353
+RULES.append(logic_36353)
+from .rules import logic_36354
+RULES.append(logic_36354)
+from .rules import logic_36355
+RULES.append(logic_36355)
+from .rules import logic_36356
+RULES.append(logic_36356)
+from .rules import logic_36357
+RULES.append(logic_36357)
+from .rules import logic_36358
+RULES.append(logic_36358)
+from .rules import logic_36359
+RULES.append(logic_36359)
+from .rules import logic_36360
+RULES.append(logic_36360)
+from .rules import logic_36361
+RULES.append(logic_36361)
+from .rules import logic_36362
+RULES.append(logic_36362)
+from .rules import logic_36363
+RULES.append(logic_36363)
+from .rules import logic_36364
+RULES.append(logic_36364)
+from .rules import logic_36365
+RULES.append(logic_36365)
+from .rules import logic_36366
+RULES.append(logic_36366)
+from .rules import logic_36367
+RULES.append(logic_36367)
+from .rules import logic_36368
+RULES.append(logic_36368)
+from .rules import logic_36369
+RULES.append(logic_36369)
+from .rules import logic_36370
+RULES.append(logic_36370)
+from .rules import logic_36371
+RULES.append(logic_36371)
+from .rules import logic_36372
+RULES.append(logic_36372)
+from .rules import logic_36373
+RULES.append(logic_36373)
+from .rules import logic_36374
+RULES.append(logic_36374)
+from .rules import logic_36375
+RULES.append(logic_36375)
+from .rules import logic_36376
+RULES.append(logic_36376)
+from .rules import logic_36377
+RULES.append(logic_36377)
+from .rules import logic_36378
+RULES.append(logic_36378)
+from .rules import logic_36379
+RULES.append(logic_36379)
+from .rules import logic_36380
+RULES.append(logic_36380)
+from .rules import logic_36381
+RULES.append(logic_36381)
+from .rules import logic_36382
+RULES.append(logic_36382)
+from .rules import logic_36383
+RULES.append(logic_36383)
+from .rules import logic_36384
+RULES.append(logic_36384)
+from .rules import logic_36385
+RULES.append(logic_36385)
+from .rules import logic_36386
+RULES.append(logic_36386)
+from .rules import logic_36387
+RULES.append(logic_36387)
+from .rules import logic_36388
+RULES.append(logic_36388)
+from .rules import logic_36389
+RULES.append(logic_36389)
+from .rules import logic_36390
+RULES.append(logic_36390)
+from .rules import logic_36391
+RULES.append(logic_36391)
+from .rules import logic_36392
+RULES.append(logic_36392)
+from .rules import logic_36393
+RULES.append(logic_36393)
+from .rules import logic_36394
+RULES.append(logic_36394)
+from .rules import logic_36395
+RULES.append(logic_36395)
+from .rules import logic_36396
+RULES.append(logic_36396)
+from .rules import logic_36397
+RULES.append(logic_36397)
+from .rules import logic_36398
+RULES.append(logic_36398)
+from .rules import logic_36399
+RULES.append(logic_36399)
+from .rules import logic_36400
+RULES.append(logic_36400)
+from .rules import logic_36401
+RULES.append(logic_36401)
+from .rules import logic_36402
+RULES.append(logic_36402)
+from .rules import logic_36403
+RULES.append(logic_36403)
+from .rules import logic_36404
+RULES.append(logic_36404)
+from .rules import logic_36405
+RULES.append(logic_36405)
+from .rules import logic_36406
+RULES.append(logic_36406)
+from .rules import logic_36407
+RULES.append(logic_36407)
+from .rules import logic_36408
+RULES.append(logic_36408)
+from .rules import logic_36409
+RULES.append(logic_36409)
+from .rules import logic_36410
+RULES.append(logic_36410)
+from .rules import logic_36411
+RULES.append(logic_36411)
+from .rules import logic_36412
+RULES.append(logic_36412)
+from .rules import logic_36413
+RULES.append(logic_36413)
+from .rules import logic_36414
+RULES.append(logic_36414)
+from .rules import logic_36415
+RULES.append(logic_36415)
+from .rules import logic_36416
+RULES.append(logic_36416)
+from .rules import logic_36417
+RULES.append(logic_36417)
+from .rules import logic_36418
+RULES.append(logic_36418)
+from .rules import logic_36419
+RULES.append(logic_36419)
+from .rules import logic_36420
+RULES.append(logic_36420)
+from .rules import logic_36421
+RULES.append(logic_36421)
+from .rules import logic_36422
+RULES.append(logic_36422)
+from .rules import logic_36423
+RULES.append(logic_36423)
+from .rules import logic_36424
+RULES.append(logic_36424)
+from .rules import logic_36425
+RULES.append(logic_36425)
+from .rules import logic_36426
+RULES.append(logic_36426)
+from .rules import logic_36427
+RULES.append(logic_36427)
+from .rules import logic_36428
+RULES.append(logic_36428)
+from .rules import logic_36429
+RULES.append(logic_36429)
+from .rules import logic_36430
+RULES.append(logic_36430)
+from .rules import logic_36431
+RULES.append(logic_36431)
+from .rules import logic_36432
+RULES.append(logic_36432)
+from .rules import logic_36433
+RULES.append(logic_36433)
+from .rules import logic_36434
+RULES.append(logic_36434)
+from .rules import logic_36435
+RULES.append(logic_36435)
+from .rules import logic_36436
+RULES.append(logic_36436)
+from .rules import logic_36437
+RULES.append(logic_36437)
+from .rules import logic_36438
+RULES.append(logic_36438)
+from .rules import logic_36439
+RULES.append(logic_36439)
+from .rules import logic_36440
+RULES.append(logic_36440)
+from .rules import logic_36441
+RULES.append(logic_36441)
+from .rules import logic_36442
+RULES.append(logic_36442)
+from .rules import logic_36443
+RULES.append(logic_36443)
+from .rules import logic_36444
+RULES.append(logic_36444)
+from .rules import logic_36445
+RULES.append(logic_36445)
+from .rules import logic_36446
+RULES.append(logic_36446)
+from .rules import logic_36447
+RULES.append(logic_36447)
+from .rules import logic_36448
+RULES.append(logic_36448)
+from .rules import logic_36449
+RULES.append(logic_36449)
+from .rules import logic_36450
+RULES.append(logic_36450)
+from .rules import logic_36451
+RULES.append(logic_36451)
+from .rules import logic_36452
+RULES.append(logic_36452)
+from .rules import logic_36453
+RULES.append(logic_36453)
+from .rules import logic_36454
+RULES.append(logic_36454)
+from .rules import logic_36455
+RULES.append(logic_36455)
+from .rules import logic_36456
+RULES.append(logic_36456)
+from .rules import logic_36457
+RULES.append(logic_36457)
+from .rules import logic_36458
+RULES.append(logic_36458)
+from .rules import logic_36459
+RULES.append(logic_36459)
+from .rules import logic_36460
+RULES.append(logic_36460)
+from .rules import logic_36461
+RULES.append(logic_36461)
+from .rules import logic_36462
+RULES.append(logic_36462)
+from .rules import logic_36463
+RULES.append(logic_36463)
+from .rules import logic_36464
+RULES.append(logic_36464)
+from .rules import logic_36465
+RULES.append(logic_36465)
+from .rules import logic_36466
+RULES.append(logic_36466)
+from .rules import logic_36467
+RULES.append(logic_36467)
+from .rules import logic_36468
+RULES.append(logic_36468)
+from .rules import logic_36469
+RULES.append(logic_36469)
+from .rules import logic_36470
+RULES.append(logic_36470)
+from .rules import logic_36471
+RULES.append(logic_36471)
+from .rules import logic_36472
+RULES.append(logic_36472)
+from .rules import logic_36473
+RULES.append(logic_36473)
+from .rules import logic_36474
+RULES.append(logic_36474)
+from .rules import logic_36475
+RULES.append(logic_36475)
+from .rules import logic_36476
+RULES.append(logic_36476)
+from .rules import logic_36477
+RULES.append(logic_36477)
+from .rules import logic_36478
+RULES.append(logic_36478)
+from .rules import logic_36479
+RULES.append(logic_36479)
+from .rules import logic_36480
+RULES.append(logic_36480)
+from .rules import logic_36481
+RULES.append(logic_36481)
+from .rules import logic_36482
+RULES.append(logic_36482)
+from .rules import logic_36483
+RULES.append(logic_36483)
+from .rules import logic_36484
+RULES.append(logic_36484)
+from .rules import logic_36485
+RULES.append(logic_36485)
+from .rules import logic_36486
+RULES.append(logic_36486)
+from .rules import logic_36487
+RULES.append(logic_36487)
+from .rules import logic_36488
+RULES.append(logic_36488)
+from .rules import logic_36489
+RULES.append(logic_36489)
+from .rules import logic_36490
+RULES.append(logic_36490)
+from .rules import logic_36491
+RULES.append(logic_36491)
+from .rules import logic_36492
+RULES.append(logic_36492)
+from .rules import logic_36493
+RULES.append(logic_36493)
+from .rules import logic_36494
+RULES.append(logic_36494)
+from .rules import logic_36495
+RULES.append(logic_36495)
+from .rules import logic_36496
+RULES.append(logic_36496)
+from .rules import logic_36497
+RULES.append(logic_36497)
+from .rules import logic_36498
+RULES.append(logic_36498)
+from .rules import logic_36499
+RULES.append(logic_36499)
+from .rules import logic_36500
+RULES.append(logic_36500)
+from .rules import logic_36501
+RULES.append(logic_36501)
+from .rules import logic_36502
+RULES.append(logic_36502)
+from .rules import logic_36503
+RULES.append(logic_36503)
+from .rules import logic_36504
+RULES.append(logic_36504)
+from .rules import logic_36505
+RULES.append(logic_36505)
+from .rules import logic_36506
+RULES.append(logic_36506)
+from .rules import logic_36507
+RULES.append(logic_36507)
+from .rules import logic_36508
+RULES.append(logic_36508)
+from .rules import logic_36509
+RULES.append(logic_36509)
+from .rules import logic_36510
+RULES.append(logic_36510)
+from .rules import logic_36511
+RULES.append(logic_36511)
+from .rules import logic_36512
+RULES.append(logic_36512)
+from .rules import logic_36513
+RULES.append(logic_36513)
+from .rules import logic_36514
+RULES.append(logic_36514)
+from .rules import logic_36515
+RULES.append(logic_36515)
+from .rules import logic_36516
+RULES.append(logic_36516)
+from .rules import logic_36517
+RULES.append(logic_36517)
+from .rules import logic_36518
+RULES.append(logic_36518)
+from .rules import logic_36519
+RULES.append(logic_36519)
+from .rules import logic_36520
+RULES.append(logic_36520)
+from .rules import logic_36521
+RULES.append(logic_36521)
+from .rules import logic_36522
+RULES.append(logic_36522)
+from .rules import logic_36523
+RULES.append(logic_36523)
+from .rules import logic_36524
+RULES.append(logic_36524)
+from .rules import logic_36525
+RULES.append(logic_36525)
+from .rules import logic_36526
+RULES.append(logic_36526)
+from .rules import logic_36527
+RULES.append(logic_36527)
+from .rules import logic_36528
+RULES.append(logic_36528)
+from .rules import logic_36529
+RULES.append(logic_36529)
+from .rules import logic_36530
+RULES.append(logic_36530)
+from .rules import logic_36531
+RULES.append(logic_36531)
+from .rules import logic_36532
+RULES.append(logic_36532)
+from .rules import logic_36533
+RULES.append(logic_36533)
+from .rules import logic_36534
+RULES.append(logic_36534)
+from .rules import logic_36535
+RULES.append(logic_36535)
+from .rules import logic_36536
+RULES.append(logic_36536)
+from .rules import logic_36537
+RULES.append(logic_36537)
+from .rules import logic_36538
+RULES.append(logic_36538)
+from .rules import logic_36539
+RULES.append(logic_36539)
+from .rules import logic_36540
+RULES.append(logic_36540)
+from .rules import logic_36541
+RULES.append(logic_36541)
+from .rules import logic_36542
+RULES.append(logic_36542)
+from .rules import logic_36543
+RULES.append(logic_36543)
+from .rules import logic_36544
+RULES.append(logic_36544)
+from .rules import logic_36545
+RULES.append(logic_36545)
+from .rules import logic_36546
+RULES.append(logic_36546)
+from .rules import logic_36547
+RULES.append(logic_36547)
+from .rules import logic_36548
+RULES.append(logic_36548)
+from .rules import logic_36549
+RULES.append(logic_36549)
+from .rules import logic_36550
+RULES.append(logic_36550)
+from .rules import logic_36551
+RULES.append(logic_36551)
+from .rules import logic_36552
+RULES.append(logic_36552)
+from .rules import logic_36553
+RULES.append(logic_36553)
+from .rules import logic_36554
+RULES.append(logic_36554)
+from .rules import logic_36555
+RULES.append(logic_36555)
+from .rules import logic_36556
+RULES.append(logic_36556)
+from .rules import logic_36557
+RULES.append(logic_36557)
+from .rules import logic_36558
+RULES.append(logic_36558)
+from .rules import logic_36559
+RULES.append(logic_36559)
+from .rules import logic_36560
+RULES.append(logic_36560)
+from .rules import logic_36561
+RULES.append(logic_36561)
+from .rules import logic_36562
+RULES.append(logic_36562)
+from .rules import logic_36563
+RULES.append(logic_36563)
+from .rules import logic_36564
+RULES.append(logic_36564)
+from .rules import logic_36565
+RULES.append(logic_36565)
+from .rules import logic_36566
+RULES.append(logic_36566)
+from .rules import logic_36567
+RULES.append(logic_36567)
+from .rules import logic_36568
+RULES.append(logic_36568)
+from .rules import logic_36569
+RULES.append(logic_36569)
+from .rules import logic_36570
+RULES.append(logic_36570)
+from .rules import logic_36571
+RULES.append(logic_36571)
+from .rules import logic_36572
+RULES.append(logic_36572)
+from .rules import logic_36573
+RULES.append(logic_36573)
+from .rules import logic_36574
+RULES.append(logic_36574)
+from .rules import logic_36575
+RULES.append(logic_36575)
+from .rules import logic_36576
+RULES.append(logic_36576)
+from .rules import logic_36577
+RULES.append(logic_36577)
+from .rules import logic_36578
+RULES.append(logic_36578)
+from .rules import logic_36579
+RULES.append(logic_36579)
+from .rules import logic_36580
+RULES.append(logic_36580)
+from .rules import logic_36581
+RULES.append(logic_36581)
+from .rules import logic_36582
+RULES.append(logic_36582)
+from .rules import logic_36583
+RULES.append(logic_36583)
+from .rules import logic_36584
+RULES.append(logic_36584)
+from .rules import logic_36585
+RULES.append(logic_36585)
+from .rules import logic_36586
+RULES.append(logic_36586)
+from .rules import logic_36587
+RULES.append(logic_36587)
+from .rules import logic_36588
+RULES.append(logic_36588)
+from .rules import logic_36589
+RULES.append(logic_36589)
+from .rules import logic_36590
+RULES.append(logic_36590)
+from .rules import logic_36591
+RULES.append(logic_36591)
+from .rules import logic_36592
+RULES.append(logic_36592)
+from .rules import logic_36593
+RULES.append(logic_36593)
+from .rules import logic_36594
+RULES.append(logic_36594)
+from .rules import logic_36595
+RULES.append(logic_36595)
+from .rules import logic_36596
+RULES.append(logic_36596)
+from .rules import logic_36597
+RULES.append(logic_36597)
+from .rules import logic_36598
+RULES.append(logic_36598)
+from .rules import logic_36599
+RULES.append(logic_36599)
+from .rules import logic_36600
+RULES.append(logic_36600)
+from .rules import logic_36601
+RULES.append(logic_36601)
+from .rules import logic_36602
+RULES.append(logic_36602)
+from .rules import logic_36603
+RULES.append(logic_36603)
+from .rules import logic_36604
+RULES.append(logic_36604)
+from .rules import logic_36605
+RULES.append(logic_36605)
+from .rules import logic_36606
+RULES.append(logic_36606)
+from .rules import logic_36607
+RULES.append(logic_36607)
+from .rules import logic_36608
+RULES.append(logic_36608)
+from .rules import logic_36609
+RULES.append(logic_36609)
+from .rules import logic_36610
+RULES.append(logic_36610)
+from .rules import logic_36611
+RULES.append(logic_36611)
+from .rules import logic_36612
+RULES.append(logic_36612)
+from .rules import logic_36613
+RULES.append(logic_36613)
+from .rules import logic_36614
+RULES.append(logic_36614)
+from .rules import logic_36615
+RULES.append(logic_36615)
+from .rules import logic_36616
+RULES.append(logic_36616)
+from .rules import logic_36617
+RULES.append(logic_36617)
+from .rules import logic_36618
+RULES.append(logic_36618)
+from .rules import logic_36619
+RULES.append(logic_36619)
+from .rules import logic_36620
+RULES.append(logic_36620)
+from .rules import logic_36621
+RULES.append(logic_36621)
+from .rules import logic_36622
+RULES.append(logic_36622)
+from .rules import logic_36623
+RULES.append(logic_36623)
+from .rules import logic_36624
+RULES.append(logic_36624)
+from .rules import logic_36625
+RULES.append(logic_36625)
+from .rules import logic_36626
+RULES.append(logic_36626)
+from .rules import logic_36627
+RULES.append(logic_36627)
+from .rules import logic_36628
+RULES.append(logic_36628)
+from .rules import logic_36629
+RULES.append(logic_36629)
+from .rules import logic_36630
+RULES.append(logic_36630)
+from .rules import logic_36631
+RULES.append(logic_36631)
+from .rules import logic_36632
+RULES.append(logic_36632)
+from .rules import logic_36633
+RULES.append(logic_36633)
+from .rules import logic_36634
+RULES.append(logic_36634)
+from .rules import logic_36635
+RULES.append(logic_36635)
+from .rules import logic_36636
+RULES.append(logic_36636)
+from .rules import logic_36637
+RULES.append(logic_36637)
+from .rules import logic_36638
+RULES.append(logic_36638)
+from .rules import logic_36639
+RULES.append(logic_36639)
+from .rules import logic_36640
+RULES.append(logic_36640)
+from .rules import logic_36641
+RULES.append(logic_36641)
+from .rules import logic_36642
+RULES.append(logic_36642)
+from .rules import logic_36643
+RULES.append(logic_36643)
+from .rules import logic_36644
+RULES.append(logic_36644)
+from .rules import logic_36645
+RULES.append(logic_36645)
+from .rules import logic_36646
+RULES.append(logic_36646)
+from .rules import logic_36647
+RULES.append(logic_36647)
+from .rules import logic_36648
+RULES.append(logic_36648)
+from .rules import logic_36649
+RULES.append(logic_36649)
+from .rules import logic_36650
+RULES.append(logic_36650)
+from .rules import logic_36651
+RULES.append(logic_36651)
+from .rules import logic_36652
+RULES.append(logic_36652)
+from .rules import logic_36653
+RULES.append(logic_36653)
+from .rules import logic_36654
+RULES.append(logic_36654)
+from .rules import logic_36655
+RULES.append(logic_36655)
+from .rules import logic_36656
+RULES.append(logic_36656)
+from .rules import logic_36657
+RULES.append(logic_36657)
+from .rules import logic_36658
+RULES.append(logic_36658)
+from .rules import logic_36659
+RULES.append(logic_36659)
+from .rules import logic_36660
+RULES.append(logic_36660)
+from .rules import logic_36661
+RULES.append(logic_36661)
+from .rules import logic_36662
+RULES.append(logic_36662)
+from .rules import logic_36663
+RULES.append(logic_36663)
+from .rules import logic_36664
+RULES.append(logic_36664)
+from .rules import logic_36665
+RULES.append(logic_36665)
+from .rules import logic_36666
+RULES.append(logic_36666)
+from .rules import logic_36667
+RULES.append(logic_36667)
+from .rules import logic_36668
+RULES.append(logic_36668)
+from .rules import logic_36669
+RULES.append(logic_36669)
+from .rules import logic_36670
+RULES.append(logic_36670)
+from .rules import logic_36671
+RULES.append(logic_36671)
+from .rules import logic_36672
+RULES.append(logic_36672)
+from .rules import logic_36673
+RULES.append(logic_36673)
+from .rules import logic_36674
+RULES.append(logic_36674)
+from .rules import logic_36675
+RULES.append(logic_36675)
+from .rules import logic_36676
+RULES.append(logic_36676)
+from .rules import logic_36677
+RULES.append(logic_36677)
+from .rules import logic_36678
+RULES.append(logic_36678)
+from .rules import logic_36679
+RULES.append(logic_36679)
+from .rules import logic_36680
+RULES.append(logic_36680)
+from .rules import logic_36681
+RULES.append(logic_36681)
+from .rules import logic_36682
+RULES.append(logic_36682)
+from .rules import logic_36683
+RULES.append(logic_36683)
+from .rules import logic_36684
+RULES.append(logic_36684)
+from .rules import logic_36685
+RULES.append(logic_36685)
+from .rules import logic_36686
+RULES.append(logic_36686)
+from .rules import logic_36687
+RULES.append(logic_36687)
+from .rules import logic_36688
+RULES.append(logic_36688)
+from .rules import logic_36689
+RULES.append(logic_36689)
+from .rules import logic_36690
+RULES.append(logic_36690)
+from .rules import logic_36691
+RULES.append(logic_36691)
+from .rules import logic_36692
+RULES.append(logic_36692)
+from .rules import logic_36693
+RULES.append(logic_36693)
+from .rules import logic_36694
+RULES.append(logic_36694)
+from .rules import logic_36695
+RULES.append(logic_36695)
+from .rules import logic_36696
+RULES.append(logic_36696)
+from .rules import logic_36697
+RULES.append(logic_36697)
+from .rules import logic_36698
+RULES.append(logic_36698)
+from .rules import logic_36699
+RULES.append(logic_36699)
+from .rules import logic_36700
+RULES.append(logic_36700)
+from .rules import logic_36701
+RULES.append(logic_36701)
+from .rules import logic_36702
+RULES.append(logic_36702)
+from .rules import logic_36703
+RULES.append(logic_36703)
+from .rules import logic_36704
+RULES.append(logic_36704)
+from .rules import logic_36705
+RULES.append(logic_36705)
+from .rules import logic_36706
+RULES.append(logic_36706)
+from .rules import logic_36707
+RULES.append(logic_36707)
+from .rules import logic_36708
+RULES.append(logic_36708)
+from .rules import logic_36709
+RULES.append(logic_36709)
+from .rules import logic_36710
+RULES.append(logic_36710)
+from .rules import logic_36711
+RULES.append(logic_36711)
+from .rules import logic_36712
+RULES.append(logic_36712)
+from .rules import logic_36713
+RULES.append(logic_36713)
+from .rules import logic_36714
+RULES.append(logic_36714)
+from .rules import logic_36715
+RULES.append(logic_36715)
+from .rules import logic_36716
+RULES.append(logic_36716)
+from .rules import logic_36717
+RULES.append(logic_36717)
+from .rules import logic_36718
+RULES.append(logic_36718)
+from .rules import logic_36719
+RULES.append(logic_36719)
+from .rules import logic_36720
+RULES.append(logic_36720)
+from .rules import logic_36721
+RULES.append(logic_36721)
+from .rules import logic_36722
+RULES.append(logic_36722)
+from .rules import logic_36723
+RULES.append(logic_36723)
+from .rules import logic_36724
+RULES.append(logic_36724)
+from .rules import logic_36725
+RULES.append(logic_36725)
+from .rules import logic_36726
+RULES.append(logic_36726)
+from .rules import logic_36727
+RULES.append(logic_36727)
+from .rules import logic_36728
+RULES.append(logic_36728)
+from .rules import logic_36729
+RULES.append(logic_36729)
+from .rules import logic_36730
+RULES.append(logic_36730)
+from .rules import logic_36731
+RULES.append(logic_36731)
+from .rules import logic_36732
+RULES.append(logic_36732)
+from .rules import logic_36733
+RULES.append(logic_36733)
+from .rules import logic_36734
+RULES.append(logic_36734)
+from .rules import logic_36735
+RULES.append(logic_36735)
+from .rules import logic_36736
+RULES.append(logic_36736)
+from .rules import logic_36737
+RULES.append(logic_36737)
+from .rules import logic_36738
+RULES.append(logic_36738)
+from .rules import logic_36739
+RULES.append(logic_36739)
+from .rules import logic_36740
+RULES.append(logic_36740)
+from .rules import logic_36741
+RULES.append(logic_36741)
+from .rules import logic_36742
+RULES.append(logic_36742)
+from .rules import logic_36743
+RULES.append(logic_36743)
+from .rules import logic_36744
+RULES.append(logic_36744)
+from .rules import logic_36745
+RULES.append(logic_36745)
+from .rules import logic_36746
+RULES.append(logic_36746)
+from .rules import logic_36747
+RULES.append(logic_36747)
+from .rules import logic_36748
+RULES.append(logic_36748)
+from .rules import logic_36749
+RULES.append(logic_36749)
+from .rules import logic_36750
+RULES.append(logic_36750)
+from .rules import logic_36751
+RULES.append(logic_36751)
+from .rules import logic_36752
+RULES.append(logic_36752)
+from .rules import logic_36753
+RULES.append(logic_36753)
+from .rules import logic_36754
+RULES.append(logic_36754)
+from .rules import logic_36755
+RULES.append(logic_36755)
+from .rules import logic_36756
+RULES.append(logic_36756)
+from .rules import logic_36757
+RULES.append(logic_36757)
+from .rules import logic_36758
+RULES.append(logic_36758)
+from .rules import logic_36759
+RULES.append(logic_36759)
+from .rules import logic_36760
+RULES.append(logic_36760)
+from .rules import logic_36761
+RULES.append(logic_36761)
+from .rules import logic_36762
+RULES.append(logic_36762)
+from .rules import logic_36763
+RULES.append(logic_36763)
+from .rules import logic_36764
+RULES.append(logic_36764)
+from .rules import logic_36765
+RULES.append(logic_36765)
+from .rules import logic_36766
+RULES.append(logic_36766)
+from .rules import logic_36767
+RULES.append(logic_36767)
+from .rules import logic_36768
+RULES.append(logic_36768)
+from .rules import logic_36769
+RULES.append(logic_36769)
+from .rules import logic_36770
+RULES.append(logic_36770)
+from .rules import logic_36771
+RULES.append(logic_36771)
+from .rules import logic_36772
+RULES.append(logic_36772)
+from .rules import logic_36773
+RULES.append(logic_36773)
+from .rules import logic_36774
+RULES.append(logic_36774)
+from .rules import logic_36775
+RULES.append(logic_36775)
+from .rules import logic_36776
+RULES.append(logic_36776)
+from .rules import logic_36777
+RULES.append(logic_36777)
+from .rules import logic_36778
+RULES.append(logic_36778)
+from .rules import logic_36779
+RULES.append(logic_36779)
+from .rules import logic_36780
+RULES.append(logic_36780)
+from .rules import logic_36781
+RULES.append(logic_36781)
+from .rules import logic_36782
+RULES.append(logic_36782)
+from .rules import logic_36783
+RULES.append(logic_36783)
+from .rules import logic_36784
+RULES.append(logic_36784)
+from .rules import logic_36785
+RULES.append(logic_36785)
+from .rules import logic_36786
+RULES.append(logic_36786)
+from .rules import logic_36787
+RULES.append(logic_36787)
+from .rules import logic_36788
+RULES.append(logic_36788)
+from .rules import logic_36789
+RULES.append(logic_36789)
+from .rules import logic_36790
+RULES.append(logic_36790)
+from .rules import logic_36791
+RULES.append(logic_36791)
+from .rules import logic_36792
+RULES.append(logic_36792)
+from .rules import logic_36793
+RULES.append(logic_36793)
+from .rules import logic_36794
+RULES.append(logic_36794)
+from .rules import logic_36795
+RULES.append(logic_36795)
+from .rules import logic_36796
+RULES.append(logic_36796)
+from .rules import logic_36797
+RULES.append(logic_36797)
+from .rules import logic_36798
+RULES.append(logic_36798)
+from .rules import logic_36799
+RULES.append(logic_36799)
+from .rules import logic_36800
+RULES.append(logic_36800)
+from .rules import logic_36801
+RULES.append(logic_36801)
+from .rules import logic_36802
+RULES.append(logic_36802)
+from .rules import logic_36803
+RULES.append(logic_36803)
+from .rules import logic_36804
+RULES.append(logic_36804)
+from .rules import logic_36805
+RULES.append(logic_36805)
+from .rules import logic_36806
+RULES.append(logic_36806)
+from .rules import logic_36807
+RULES.append(logic_36807)
+from .rules import logic_36808
+RULES.append(logic_36808)
+from .rules import logic_36809
+RULES.append(logic_36809)
+from .rules import logic_36810
+RULES.append(logic_36810)
+from .rules import logic_36811
+RULES.append(logic_36811)
+from .rules import logic_36812
+RULES.append(logic_36812)
+from .rules import logic_36813
+RULES.append(logic_36813)
+from .rules import logic_36814
+RULES.append(logic_36814)
+from .rules import logic_36815
+RULES.append(logic_36815)
+from .rules import logic_36816
+RULES.append(logic_36816)
+from .rules import logic_36817
+RULES.append(logic_36817)
+from .rules import logic_36818
+RULES.append(logic_36818)
+from .rules import logic_36819
+RULES.append(logic_36819)
+from .rules import logic_36820
+RULES.append(logic_36820)
+from .rules import logic_36821
+RULES.append(logic_36821)
+from .rules import logic_36822
+RULES.append(logic_36822)
+from .rules import logic_36823
+RULES.append(logic_36823)
+from .rules import logic_36824
+RULES.append(logic_36824)
+from .rules import logic_36825
+RULES.append(logic_36825)
+from .rules import logic_36826
+RULES.append(logic_36826)
+from .rules import logic_36827
+RULES.append(logic_36827)
+from .rules import logic_36828
+RULES.append(logic_36828)
+from .rules import logic_36829
+RULES.append(logic_36829)
+from .rules import logic_36830
+RULES.append(logic_36830)
+from .rules import logic_36831
+RULES.append(logic_36831)
+from .rules import logic_36832
+RULES.append(logic_36832)
+from .rules import logic_36833
+RULES.append(logic_36833)
+from .rules import logic_36834
+RULES.append(logic_36834)
+from .rules import logic_36835
+RULES.append(logic_36835)
+from .rules import logic_36836
+RULES.append(logic_36836)
+from .rules import logic_36837
+RULES.append(logic_36837)
+from .rules import logic_36838
+RULES.append(logic_36838)
+from .rules import logic_36839
+RULES.append(logic_36839)
+from .rules import logic_36840
+RULES.append(logic_36840)
+from .rules import logic_36841
+RULES.append(logic_36841)
+from .rules import logic_36842
+RULES.append(logic_36842)
+from .rules import logic_36843
+RULES.append(logic_36843)
+from .rules import logic_36844
+RULES.append(logic_36844)
+from .rules import logic_36845
+RULES.append(logic_36845)
+from .rules import logic_36846
+RULES.append(logic_36846)
+from .rules import logic_36847
+RULES.append(logic_36847)
+from .rules import logic_36848
+RULES.append(logic_36848)
+from .rules import logic_36849
+RULES.append(logic_36849)
+from .rules import logic_36850
+RULES.append(logic_36850)
+from .rules import logic_36851
+RULES.append(logic_36851)
+from .rules import logic_36852
+RULES.append(logic_36852)
+from .rules import logic_36853
+RULES.append(logic_36853)
+from .rules import logic_36854
+RULES.append(logic_36854)
+from .rules import logic_36855
+RULES.append(logic_36855)
+from .rules import logic_36856
+RULES.append(logic_36856)
+from .rules import logic_36857
+RULES.append(logic_36857)
+from .rules import logic_36858
+RULES.append(logic_36858)
+from .rules import logic_36859
+RULES.append(logic_36859)
+from .rules import logic_36860
+RULES.append(logic_36860)
+from .rules import logic_36861
+RULES.append(logic_36861)
+from .rules import logic_36862
+RULES.append(logic_36862)
+from .rules import logic_36863
+RULES.append(logic_36863)
+from .rules import logic_36864
+RULES.append(logic_36864)
+from .rules import logic_36865
+RULES.append(logic_36865)
+from .rules import logic_36866
+RULES.append(logic_36866)
+from .rules import logic_36867
+RULES.append(logic_36867)
+from .rules import logic_36868
+RULES.append(logic_36868)
+from .rules import logic_36869
+RULES.append(logic_36869)
+from .rules import logic_36870
+RULES.append(logic_36870)
+from .rules import logic_36871
+RULES.append(logic_36871)
+from .rules import logic_36872
+RULES.append(logic_36872)
+from .rules import logic_36873
+RULES.append(logic_36873)
+from .rules import logic_36874
+RULES.append(logic_36874)
+from .rules import logic_36875
+RULES.append(logic_36875)
+from .rules import logic_36876
+RULES.append(logic_36876)
+from .rules import logic_36877
+RULES.append(logic_36877)
+from .rules import logic_36878
+RULES.append(logic_36878)
+from .rules import logic_36879
+RULES.append(logic_36879)
+from .rules import logic_36880
+RULES.append(logic_36880)
+from .rules import logic_36881
+RULES.append(logic_36881)
+from .rules import logic_36882
+RULES.append(logic_36882)
+from .rules import logic_36883
+RULES.append(logic_36883)
+from .rules import logic_36884
+RULES.append(logic_36884)
+from .rules import logic_36885
+RULES.append(logic_36885)
+from .rules import logic_36886
+RULES.append(logic_36886)
+from .rules import logic_36887
+RULES.append(logic_36887)
+from .rules import logic_36888
+RULES.append(logic_36888)
+from .rules import logic_36889
+RULES.append(logic_36889)
+from .rules import logic_36890
+RULES.append(logic_36890)
+from .rules import logic_36891
+RULES.append(logic_36891)
+from .rules import logic_36892
+RULES.append(logic_36892)
+from .rules import logic_36893
+RULES.append(logic_36893)
+from .rules import logic_36894
+RULES.append(logic_36894)
+from .rules import logic_36895
+RULES.append(logic_36895)
+from .rules import logic_36896
+RULES.append(logic_36896)
+from .rules import logic_36897
+RULES.append(logic_36897)
+from .rules import logic_36898
+RULES.append(logic_36898)
+from .rules import logic_36899
+RULES.append(logic_36899)
+from .rules import logic_36900
+RULES.append(logic_36900)
+from .rules import logic_36901
+RULES.append(logic_36901)
+from .rules import logic_36902
+RULES.append(logic_36902)
+from .rules import logic_36903
+RULES.append(logic_36903)
+from .rules import logic_36904
+RULES.append(logic_36904)
+from .rules import logic_36905
+RULES.append(logic_36905)
+from .rules import logic_36906
+RULES.append(logic_36906)
+from .rules import logic_36907
+RULES.append(logic_36907)
+from .rules import logic_36908
+RULES.append(logic_36908)
+from .rules import logic_36909
+RULES.append(logic_36909)
+from .rules import logic_36910
+RULES.append(logic_36910)
+from .rules import logic_36911
+RULES.append(logic_36911)
+from .rules import logic_36912
+RULES.append(logic_36912)
+from .rules import logic_36913
+RULES.append(logic_36913)
+from .rules import logic_36914
+RULES.append(logic_36914)
+from .rules import logic_36915
+RULES.append(logic_36915)
+from .rules import logic_36916
+RULES.append(logic_36916)
+from .rules import logic_36917
+RULES.append(logic_36917)
+from .rules import logic_36918
+RULES.append(logic_36918)
+from .rules import logic_36919
+RULES.append(logic_36919)
+from .rules import logic_36920
+RULES.append(logic_36920)
+from .rules import logic_36921
+RULES.append(logic_36921)
+from .rules import logic_36922
+RULES.append(logic_36922)
+from .rules import logic_36923
+RULES.append(logic_36923)
+from .rules import logic_36924
+RULES.append(logic_36924)
+from .rules import logic_36925
+RULES.append(logic_36925)
+from .rules import logic_36926
+RULES.append(logic_36926)
+from .rules import logic_36927
+RULES.append(logic_36927)
+from .rules import logic_36928
+RULES.append(logic_36928)
+from .rules import logic_36929
+RULES.append(logic_36929)
+from .rules import logic_36930
+RULES.append(logic_36930)
+from .rules import logic_36931
+RULES.append(logic_36931)
+from .rules import logic_36932
+RULES.append(logic_36932)
+from .rules import logic_36933
+RULES.append(logic_36933)
+from .rules import logic_36934
+RULES.append(logic_36934)
+from .rules import logic_36935
+RULES.append(logic_36935)
+from .rules import logic_36936
+RULES.append(logic_36936)
+from .rules import logic_36937
+RULES.append(logic_36937)
+from .rules import logic_36938
+RULES.append(logic_36938)
+from .rules import logic_36939
+RULES.append(logic_36939)
+from .rules import logic_36940
+RULES.append(logic_36940)
+from .rules import logic_36941
+RULES.append(logic_36941)
+from .rules import logic_36942
+RULES.append(logic_36942)
+from .rules import logic_36943
+RULES.append(logic_36943)
+from .rules import logic_36944
+RULES.append(logic_36944)
+from .rules import logic_36945
+RULES.append(logic_36945)
+from .rules import logic_36946
+RULES.append(logic_36946)
+from .rules import logic_36947
+RULES.append(logic_36947)
+from .rules import logic_36948
+RULES.append(logic_36948)
+from .rules import logic_36949
+RULES.append(logic_36949)
+from .rules import logic_36950
+RULES.append(logic_36950)
+from .rules import logic_36951
+RULES.append(logic_36951)
+from .rules import logic_36952
+RULES.append(logic_36952)
+from .rules import logic_36953
+RULES.append(logic_36953)
+from .rules import logic_36954
+RULES.append(logic_36954)
+from .rules import logic_36955
+RULES.append(logic_36955)
+from .rules import logic_36956
+RULES.append(logic_36956)
+from .rules import logic_36957
+RULES.append(logic_36957)
+from .rules import logic_36958
+RULES.append(logic_36958)
+from .rules import logic_36959
+RULES.append(logic_36959)
+from .rules import logic_36960
+RULES.append(logic_36960)
+from .rules import logic_36961
+RULES.append(logic_36961)
+from .rules import logic_36962
+RULES.append(logic_36962)
+from .rules import logic_36963
+RULES.append(logic_36963)
+from .rules import logic_36964
+RULES.append(logic_36964)
+from .rules import logic_36965
+RULES.append(logic_36965)
+from .rules import logic_36966
+RULES.append(logic_36966)
+from .rules import logic_36967
+RULES.append(logic_36967)
+from .rules import logic_36968
+RULES.append(logic_36968)
+from .rules import logic_36969
+RULES.append(logic_36969)
+from .rules import logic_36970
+RULES.append(logic_36970)
+from .rules import logic_36971
+RULES.append(logic_36971)
+from .rules import logic_36972
+RULES.append(logic_36972)
+from .rules import logic_36973
+RULES.append(logic_36973)
+from .rules import logic_36974
+RULES.append(logic_36974)
+from .rules import logic_36975
+RULES.append(logic_36975)
+from .rules import logic_36976
+RULES.append(logic_36976)
+from .rules import logic_36977
+RULES.append(logic_36977)
+from .rules import logic_36978
+RULES.append(logic_36978)
+from .rules import logic_36979
+RULES.append(logic_36979)
+from .rules import logic_36980
+RULES.append(logic_36980)
+from .rules import logic_36981
+RULES.append(logic_36981)
+from .rules import logic_36982
+RULES.append(logic_36982)
+from .rules import logic_36983
+RULES.append(logic_36983)
+from .rules import logic_36984
+RULES.append(logic_36984)
+from .rules import logic_36985
+RULES.append(logic_36985)
+from .rules import logic_36986
+RULES.append(logic_36986)
+from .rules import logic_36987
+RULES.append(logic_36987)
+from .rules import logic_36988
+RULES.append(logic_36988)
+from .rules import logic_36989
+RULES.append(logic_36989)
+from .rules import logic_36990
+RULES.append(logic_36990)
+from .rules import logic_36991
+RULES.append(logic_36991)
+from .rules import logic_36992
+RULES.append(logic_36992)
+from .rules import logic_36993
+RULES.append(logic_36993)
+from .rules import logic_36994
+RULES.append(logic_36994)
+from .rules import logic_36995
+RULES.append(logic_36995)
+from .rules import logic_36996
+RULES.append(logic_36996)
+from .rules import logic_36997
+RULES.append(logic_36997)
+from .rules import logic_36998
+RULES.append(logic_36998)
+from .rules import logic_36999
+RULES.append(logic_36999)
+from .rules import logic_37000
+RULES.append(logic_37000)
+from .rules import logic_37001
+RULES.append(logic_37001)
+from .rules import logic_37002
+RULES.append(logic_37002)
+from .rules import logic_37003
+RULES.append(logic_37003)
+from .rules import logic_37004
+RULES.append(logic_37004)
+from .rules import logic_37005
+RULES.append(logic_37005)
+from .rules import logic_37006
+RULES.append(logic_37006)
+from .rules import logic_37007
+RULES.append(logic_37007)
+from .rules import logic_37008
+RULES.append(logic_37008)
+from .rules import logic_37009
+RULES.append(logic_37009)
+from .rules import logic_37010
+RULES.append(logic_37010)
+from .rules import logic_37011
+RULES.append(logic_37011)
+from .rules import logic_37012
+RULES.append(logic_37012)
+from .rules import logic_37013
+RULES.append(logic_37013)
+from .rules import logic_37014
+RULES.append(logic_37014)
+from .rules import logic_37015
+RULES.append(logic_37015)
+from .rules import logic_37016
+RULES.append(logic_37016)
+from .rules import logic_37017
+RULES.append(logic_37017)
+from .rules import logic_37018
+RULES.append(logic_37018)
+from .rules import logic_37019
+RULES.append(logic_37019)
+from .rules import logic_37020
+RULES.append(logic_37020)
+from .rules import logic_37021
+RULES.append(logic_37021)
+from .rules import logic_37022
+RULES.append(logic_37022)
+from .rules import logic_37023
+RULES.append(logic_37023)
+from .rules import logic_37024
+RULES.append(logic_37024)
+from .rules import logic_37025
+RULES.append(logic_37025)
+from .rules import logic_37026
+RULES.append(logic_37026)
+from .rules import logic_37027
+RULES.append(logic_37027)
+from .rules import logic_37028
+RULES.append(logic_37028)
+from .rules import logic_37029
+RULES.append(logic_37029)
+from .rules import logic_37030
+RULES.append(logic_37030)
+from .rules import logic_37031
+RULES.append(logic_37031)
+from .rules import logic_37032
+RULES.append(logic_37032)
+from .rules import logic_37033
+RULES.append(logic_37033)
+from .rules import logic_37034
+RULES.append(logic_37034)
+from .rules import logic_37035
+RULES.append(logic_37035)
+from .rules import logic_37036
+RULES.append(logic_37036)
+from .rules import logic_37037
+RULES.append(logic_37037)
+from .rules import logic_37038
+RULES.append(logic_37038)
+from .rules import logic_37039
+RULES.append(logic_37039)
+from .rules import logic_37040
+RULES.append(logic_37040)
+from .rules import logic_37041
+RULES.append(logic_37041)
+from .rules import logic_37042
+RULES.append(logic_37042)
+from .rules import logic_37043
+RULES.append(logic_37043)
+from .rules import logic_37044
+RULES.append(logic_37044)
+from .rules import logic_37045
+RULES.append(logic_37045)
+from .rules import logic_37046
+RULES.append(logic_37046)
+from .rules import logic_37047
+RULES.append(logic_37047)
+from .rules import logic_37048
+RULES.append(logic_37048)
+from .rules import logic_37049
+RULES.append(logic_37049)
+from .rules import logic_37050
+RULES.append(logic_37050)
+from .rules import logic_37051
+RULES.append(logic_37051)
+from .rules import logic_37052
+RULES.append(logic_37052)
+from .rules import logic_37053
+RULES.append(logic_37053)
+from .rules import logic_37054
+RULES.append(logic_37054)
+from .rules import logic_37055
+RULES.append(logic_37055)
+from .rules import logic_37056
+RULES.append(logic_37056)
+from .rules import logic_37057
+RULES.append(logic_37057)
+from .rules import logic_37058
+RULES.append(logic_37058)
+from .rules import logic_37059
+RULES.append(logic_37059)
+from .rules import logic_37060
+RULES.append(logic_37060)
+from .rules import logic_37061
+RULES.append(logic_37061)
+from .rules import logic_37062
+RULES.append(logic_37062)
+from .rules import logic_37063
+RULES.append(logic_37063)
+from .rules import logic_37064
+RULES.append(logic_37064)
+from .rules import logic_37065
+RULES.append(logic_37065)
+from .rules import logic_37066
+RULES.append(logic_37066)
+from .rules import logic_37067
+RULES.append(logic_37067)
+from .rules import logic_37068
+RULES.append(logic_37068)
+from .rules import logic_37069
+RULES.append(logic_37069)
+from .rules import logic_37070
+RULES.append(logic_37070)
+from .rules import logic_37071
+RULES.append(logic_37071)
+from .rules import logic_37072
+RULES.append(logic_37072)
+from .rules import logic_37073
+RULES.append(logic_37073)
+from .rules import logic_37074
+RULES.append(logic_37074)
+from .rules import logic_37075
+RULES.append(logic_37075)
+from .rules import logic_37076
+RULES.append(logic_37076)
+from .rules import logic_37077
+RULES.append(logic_37077)
+from .rules import logic_37078
+RULES.append(logic_37078)
+from .rules import logic_37079
+RULES.append(logic_37079)
+from .rules import logic_37080
+RULES.append(logic_37080)
+from .rules import logic_37081
+RULES.append(logic_37081)
+from .rules import logic_37082
+RULES.append(logic_37082)
+from .rules import logic_37083
+RULES.append(logic_37083)
+from .rules import logic_37084
+RULES.append(logic_37084)
+from .rules import logic_37085
+RULES.append(logic_37085)
+from .rules import logic_37086
+RULES.append(logic_37086)
+from .rules import logic_37087
+RULES.append(logic_37087)
+from .rules import logic_37088
+RULES.append(logic_37088)
+from .rules import logic_37089
+RULES.append(logic_37089)
+from .rules import logic_37090
+RULES.append(logic_37090)
+from .rules import logic_37091
+RULES.append(logic_37091)
+from .rules import logic_37092
+RULES.append(logic_37092)
+from .rules import logic_37093
+RULES.append(logic_37093)
+from .rules import logic_37094
+RULES.append(logic_37094)
+from .rules import logic_37095
+RULES.append(logic_37095)
+from .rules import logic_37096
+RULES.append(logic_37096)
+from .rules import logic_37097
+RULES.append(logic_37097)
+from .rules import logic_37098
+RULES.append(logic_37098)
+from .rules import logic_37099
+RULES.append(logic_37099)
+from .rules import logic_37100
+RULES.append(logic_37100)
+from .rules import logic_37101
+RULES.append(logic_37101)
+from .rules import logic_37102
+RULES.append(logic_37102)
+from .rules import logic_37103
+RULES.append(logic_37103)
+from .rules import logic_37104
+RULES.append(logic_37104)
+from .rules import logic_37105
+RULES.append(logic_37105)
+from .rules import logic_37106
+RULES.append(logic_37106)
+from .rules import logic_37107
+RULES.append(logic_37107)
+from .rules import logic_37108
+RULES.append(logic_37108)
+from .rules import logic_37109
+RULES.append(logic_37109)
+from .rules import logic_37110
+RULES.append(logic_37110)
+from .rules import logic_37111
+RULES.append(logic_37111)
+from .rules import logic_37112
+RULES.append(logic_37112)
+from .rules import logic_37113
+RULES.append(logic_37113)
+from .rules import logic_37114
+RULES.append(logic_37114)
+from .rules import logic_37115
+RULES.append(logic_37115)
+from .rules import logic_37116
+RULES.append(logic_37116)
+from .rules import logic_37117
+RULES.append(logic_37117)
+from .rules import logic_37118
+RULES.append(logic_37118)
+from .rules import logic_37119
+RULES.append(logic_37119)
+from .rules import logic_37120
+RULES.append(logic_37120)
+from .rules import logic_37121
+RULES.append(logic_37121)
+from .rules import logic_37122
+RULES.append(logic_37122)
+from .rules import logic_37123
+RULES.append(logic_37123)
+from .rules import logic_37124
+RULES.append(logic_37124)
+from .rules import logic_37125
+RULES.append(logic_37125)
+from .rules import logic_37126
+RULES.append(logic_37126)
+from .rules import logic_37127
+RULES.append(logic_37127)
+from .rules import logic_37128
+RULES.append(logic_37128)
+from .rules import logic_37129
+RULES.append(logic_37129)
+from .rules import logic_37130
+RULES.append(logic_37130)
+from .rules import logic_37131
+RULES.append(logic_37131)
+from .rules import logic_37132
+RULES.append(logic_37132)
+from .rules import logic_37133
+RULES.append(logic_37133)
+from .rules import logic_37134
+RULES.append(logic_37134)
+from .rules import logic_37135
+RULES.append(logic_37135)
+from .rules import logic_37136
+RULES.append(logic_37136)
+from .rules import logic_37137
+RULES.append(logic_37137)
+from .rules import logic_37138
+RULES.append(logic_37138)
+from .rules import logic_37139
+RULES.append(logic_37139)
+from .rules import logic_37140
+RULES.append(logic_37140)
+from .rules import logic_37141
+RULES.append(logic_37141)
+from .rules import logic_37142
+RULES.append(logic_37142)
+from .rules import logic_37143
+RULES.append(logic_37143)
+from .rules import logic_37144
+RULES.append(logic_37144)
+from .rules import logic_37145
+RULES.append(logic_37145)
+from .rules import logic_37146
+RULES.append(logic_37146)
+from .rules import logic_37147
+RULES.append(logic_37147)
+from .rules import logic_37148
+RULES.append(logic_37148)
+from .rules import logic_37149
+RULES.append(logic_37149)
+from .rules import logic_37150
+RULES.append(logic_37150)
+from .rules import logic_37151
+RULES.append(logic_37151)
+from .rules import logic_37152
+RULES.append(logic_37152)
+from .rules import logic_37153
+RULES.append(logic_37153)
+from .rules import logic_37154
+RULES.append(logic_37154)
+from .rules import logic_37155
+RULES.append(logic_37155)
+from .rules import logic_37156
+RULES.append(logic_37156)
+from .rules import logic_37157
+RULES.append(logic_37157)
+from .rules import logic_37158
+RULES.append(logic_37158)
+from .rules import logic_37159
+RULES.append(logic_37159)
+from .rules import logic_37160
+RULES.append(logic_37160)
+from .rules import logic_37161
+RULES.append(logic_37161)
+from .rules import logic_37162
+RULES.append(logic_37162)
+from .rules import logic_37163
+RULES.append(logic_37163)
+from .rules import logic_37164
+RULES.append(logic_37164)
+from .rules import logic_37165
+RULES.append(logic_37165)
+from .rules import logic_37166
+RULES.append(logic_37166)
+from .rules import logic_37167
+RULES.append(logic_37167)
+from .rules import logic_37168
+RULES.append(logic_37168)
+from .rules import logic_37169
+RULES.append(logic_37169)
+from .rules import logic_37170
+RULES.append(logic_37170)
+from .rules import logic_37171
+RULES.append(logic_37171)
+from .rules import logic_37172
+RULES.append(logic_37172)
+from .rules import logic_37173
+RULES.append(logic_37173)
+from .rules import logic_37174
+RULES.append(logic_37174)
+from .rules import logic_37175
+RULES.append(logic_37175)
+from .rules import logic_37176
+RULES.append(logic_37176)
+from .rules import logic_37177
+RULES.append(logic_37177)
+from .rules import logic_37178
+RULES.append(logic_37178)
+from .rules import logic_37179
+RULES.append(logic_37179)
+from .rules import logic_37180
+RULES.append(logic_37180)
+from .rules import logic_37181
+RULES.append(logic_37181)
+from .rules import logic_37182
+RULES.append(logic_37182)
+from .rules import logic_37183
+RULES.append(logic_37183)
+from .rules import logic_37184
+RULES.append(logic_37184)
+from .rules import logic_37185
+RULES.append(logic_37185)
+from .rules import logic_37186
+RULES.append(logic_37186)
+from .rules import logic_37187
+RULES.append(logic_37187)
+from .rules import logic_37188
+RULES.append(logic_37188)
+from .rules import logic_37189
+RULES.append(logic_37189)
+from .rules import logic_37190
+RULES.append(logic_37190)
+from .rules import logic_37191
+RULES.append(logic_37191)
+from .rules import logic_37192
+RULES.append(logic_37192)
+from .rules import logic_37193
+RULES.append(logic_37193)
+from .rules import logic_37194
+RULES.append(logic_37194)
+from .rules import logic_37195
+RULES.append(logic_37195)
+from .rules import logic_37196
+RULES.append(logic_37196)
+from .rules import logic_37197
+RULES.append(logic_37197)
+from .rules import logic_37198
+RULES.append(logic_37198)
+from .rules import logic_37199
+RULES.append(logic_37199)
+from .rules import logic_37200
+RULES.append(logic_37200)
+from .rules import logic_37201
+RULES.append(logic_37201)
+from .rules import logic_37202
+RULES.append(logic_37202)
+from .rules import logic_37203
+RULES.append(logic_37203)
+from .rules import logic_37204
+RULES.append(logic_37204)
+from .rules import logic_37205
+RULES.append(logic_37205)
+from .rules import logic_37206
+RULES.append(logic_37206)
+from .rules import logic_37207
+RULES.append(logic_37207)
+from .rules import logic_37208
+RULES.append(logic_37208)
+from .rules import logic_37209
+RULES.append(logic_37209)
+from .rules import logic_37210
+RULES.append(logic_37210)
+from .rules import logic_37211
+RULES.append(logic_37211)
+from .rules import logic_37212
+RULES.append(logic_37212)
+from .rules import logic_37213
+RULES.append(logic_37213)
+from .rules import logic_37214
+RULES.append(logic_37214)
+from .rules import logic_37215
+RULES.append(logic_37215)
+from .rules import logic_37216
+RULES.append(logic_37216)
+from .rules import logic_37217
+RULES.append(logic_37217)
+from .rules import logic_37218
+RULES.append(logic_37218)
+from .rules import logic_37219
+RULES.append(logic_37219)
+from .rules import logic_37220
+RULES.append(logic_37220)
+from .rules import logic_37221
+RULES.append(logic_37221)
+from .rules import logic_37222
+RULES.append(logic_37222)
+from .rules import logic_37223
+RULES.append(logic_37223)
+from .rules import logic_37224
+RULES.append(logic_37224)
+from .rules import logic_37225
+RULES.append(logic_37225)
+from .rules import logic_37226
+RULES.append(logic_37226)
+from .rules import logic_37227
+RULES.append(logic_37227)
+from .rules import logic_37228
+RULES.append(logic_37228)
+from .rules import logic_37229
+RULES.append(logic_37229)
+from .rules import logic_37230
+RULES.append(logic_37230)
+from .rules import logic_37231
+RULES.append(logic_37231)
+from .rules import logic_37232
+RULES.append(logic_37232)
+from .rules import logic_37233
+RULES.append(logic_37233)
+from .rules import logic_37234
+RULES.append(logic_37234)
+from .rules import logic_37235
+RULES.append(logic_37235)
+from .rules import logic_37236
+RULES.append(logic_37236)
+from .rules import logic_37237
+RULES.append(logic_37237)
+from .rules import logic_37238
+RULES.append(logic_37238)
+from .rules import logic_37239
+RULES.append(logic_37239)
+from .rules import logic_37240
+RULES.append(logic_37240)
+from .rules import logic_37241
+RULES.append(logic_37241)
+from .rules import logic_37242
+RULES.append(logic_37242)
+from .rules import logic_37243
+RULES.append(logic_37243)
+from .rules import logic_37244
+RULES.append(logic_37244)
+from .rules import logic_37245
+RULES.append(logic_37245)
+from .rules import logic_37246
+RULES.append(logic_37246)
+from .rules import logic_37247
+RULES.append(logic_37247)
+from .rules import logic_37248
+RULES.append(logic_37248)
+from .rules import logic_37249
+RULES.append(logic_37249)
+from .rules import logic_37250
+RULES.append(logic_37250)
+from .rules import logic_37251
+RULES.append(logic_37251)
+from .rules import logic_37252
+RULES.append(logic_37252)
+from .rules import logic_37253
+RULES.append(logic_37253)
+from .rules import logic_37254
+RULES.append(logic_37254)
+from .rules import logic_37255
+RULES.append(logic_37255)
+from .rules import logic_37256
+RULES.append(logic_37256)
+from .rules import logic_37257
+RULES.append(logic_37257)
+from .rules import logic_37258
+RULES.append(logic_37258)
+from .rules import logic_37259
+RULES.append(logic_37259)
+from .rules import logic_37260
+RULES.append(logic_37260)
+from .rules import logic_37261
+RULES.append(logic_37261)
+from .rules import logic_37262
+RULES.append(logic_37262)
+from .rules import logic_37263
+RULES.append(logic_37263)
+from .rules import logic_37264
+RULES.append(logic_37264)
+from .rules import logic_37265
+RULES.append(logic_37265)
+from .rules import logic_37266
+RULES.append(logic_37266)
+from .rules import logic_37267
+RULES.append(logic_37267)
+from .rules import logic_37268
+RULES.append(logic_37268)
+from .rules import logic_37269
+RULES.append(logic_37269)
+from .rules import logic_37270
+RULES.append(logic_37270)
+from .rules import logic_37271
+RULES.append(logic_37271)
+from .rules import logic_37272
+RULES.append(logic_37272)
+from .rules import logic_37273
+RULES.append(logic_37273)
+from .rules import logic_37274
+RULES.append(logic_37274)
+from .rules import logic_37275
+RULES.append(logic_37275)
+from .rules import logic_37276
+RULES.append(logic_37276)
+from .rules import logic_37277
+RULES.append(logic_37277)
+from .rules import logic_37278
+RULES.append(logic_37278)
+from .rules import logic_37279
+RULES.append(logic_37279)
+from .rules import logic_37280
+RULES.append(logic_37280)
+from .rules import logic_37281
+RULES.append(logic_37281)
+from .rules import logic_37282
+RULES.append(logic_37282)
+from .rules import logic_37283
+RULES.append(logic_37283)
+from .rules import logic_37284
+RULES.append(logic_37284)
+from .rules import logic_37285
+RULES.append(logic_37285)
+from .rules import logic_37286
+RULES.append(logic_37286)
+from .rules import logic_37287
+RULES.append(logic_37287)
+from .rules import logic_37288
+RULES.append(logic_37288)
+from .rules import logic_37289
+RULES.append(logic_37289)
+from .rules import logic_37290
+RULES.append(logic_37290)
+from .rules import logic_37291
+RULES.append(logic_37291)
+from .rules import logic_37292
+RULES.append(logic_37292)
+from .rules import logic_37293
+RULES.append(logic_37293)
+from .rules import logic_37294
+RULES.append(logic_37294)
+from .rules import logic_37295
+RULES.append(logic_37295)
+from .rules import logic_37296
+RULES.append(logic_37296)
+from .rules import logic_37297
+RULES.append(logic_37297)
+from .rules import logic_37298
+RULES.append(logic_37298)
+from .rules import logic_37299
+RULES.append(logic_37299)
+from .rules import logic_37300
+RULES.append(logic_37300)
+from .rules import logic_37301
+RULES.append(logic_37301)
+from .rules import logic_37302
+RULES.append(logic_37302)
+from .rules import logic_37303
+RULES.append(logic_37303)
+from .rules import logic_37304
+RULES.append(logic_37304)
+from .rules import logic_37305
+RULES.append(logic_37305)
+from .rules import logic_37306
+RULES.append(logic_37306)
+from .rules import logic_37307
+RULES.append(logic_37307)
+from .rules import logic_37308
+RULES.append(logic_37308)
+from .rules import logic_37309
+RULES.append(logic_37309)
+from .rules import logic_37310
+RULES.append(logic_37310)
+from .rules import logic_37311
+RULES.append(logic_37311)
+from .rules import logic_37312
+RULES.append(logic_37312)
+from .rules import logic_37313
+RULES.append(logic_37313)
+from .rules import logic_37314
+RULES.append(logic_37314)
+from .rules import logic_37315
+RULES.append(logic_37315)
+from .rules import logic_37316
+RULES.append(logic_37316)
+from .rules import logic_37317
+RULES.append(logic_37317)
+from .rules import logic_37318
+RULES.append(logic_37318)
+from .rules import logic_37319
+RULES.append(logic_37319)
+from .rules import logic_37320
+RULES.append(logic_37320)
+from .rules import logic_37321
+RULES.append(logic_37321)
+from .rules import logic_37322
+RULES.append(logic_37322)
+from .rules import logic_37323
+RULES.append(logic_37323)
+from .rules import logic_37324
+RULES.append(logic_37324)
+from .rules import logic_37325
+RULES.append(logic_37325)
+from .rules import logic_37326
+RULES.append(logic_37326)
+from .rules import logic_37327
+RULES.append(logic_37327)
+from .rules import logic_37328
+RULES.append(logic_37328)
+from .rules import logic_37329
+RULES.append(logic_37329)
+from .rules import logic_37330
+RULES.append(logic_37330)
+from .rules import logic_37331
+RULES.append(logic_37331)
+from .rules import logic_37332
+RULES.append(logic_37332)
+from .rules import logic_37333
+RULES.append(logic_37333)
+from .rules import logic_37334
+RULES.append(logic_37334)
+from .rules import logic_37335
+RULES.append(logic_37335)
+from .rules import logic_37336
+RULES.append(logic_37336)
+from .rules import logic_37337
+RULES.append(logic_37337)
+from .rules import logic_37338
+RULES.append(logic_37338)
+from .rules import logic_37339
+RULES.append(logic_37339)
+from .rules import logic_37340
+RULES.append(logic_37340)
+from .rules import logic_37341
+RULES.append(logic_37341)
+from .rules import logic_37342
+RULES.append(logic_37342)
+from .rules import logic_37343
+RULES.append(logic_37343)
+from .rules import logic_37344
+RULES.append(logic_37344)
+from .rules import logic_37345
+RULES.append(logic_37345)
+from .rules import logic_37346
+RULES.append(logic_37346)
+from .rules import logic_37347
+RULES.append(logic_37347)
+from .rules import logic_37348
+RULES.append(logic_37348)
+from .rules import logic_37349
+RULES.append(logic_37349)
+from .rules import logic_37350
+RULES.append(logic_37350)
+from .rules import logic_37351
+RULES.append(logic_37351)
+from .rules import logic_37352
+RULES.append(logic_37352)
+from .rules import logic_37353
+RULES.append(logic_37353)
+from .rules import logic_37354
+RULES.append(logic_37354)
+from .rules import logic_37355
+RULES.append(logic_37355)
+from .rules import logic_37356
+RULES.append(logic_37356)
+from .rules import logic_37357
+RULES.append(logic_37357)
+from .rules import logic_37358
+RULES.append(logic_37358)
+from .rules import logic_37359
+RULES.append(logic_37359)
+from .rules import logic_37360
+RULES.append(logic_37360)
+from .rules import logic_37361
+RULES.append(logic_37361)
+from .rules import logic_37362
+RULES.append(logic_37362)
+from .rules import logic_37363
+RULES.append(logic_37363)
+from .rules import logic_37364
+RULES.append(logic_37364)
+from .rules import logic_37365
+RULES.append(logic_37365)
+from .rules import logic_37366
+RULES.append(logic_37366)
+from .rules import logic_37367
+RULES.append(logic_37367)
+from .rules import logic_37368
+RULES.append(logic_37368)
+from .rules import logic_37369
+RULES.append(logic_37369)
+from .rules import logic_37370
+RULES.append(logic_37370)
+from .rules import logic_37371
+RULES.append(logic_37371)
+from .rules import logic_37372
+RULES.append(logic_37372)
+from .rules import logic_37373
+RULES.append(logic_37373)
+from .rules import logic_37374
+RULES.append(logic_37374)
+from .rules import logic_37375
+RULES.append(logic_37375)
+from .rules import logic_37376
+RULES.append(logic_37376)
+from .rules import logic_37377
+RULES.append(logic_37377)
+from .rules import logic_37378
+RULES.append(logic_37378)
+from .rules import logic_37379
+RULES.append(logic_37379)
+from .rules import logic_37380
+RULES.append(logic_37380)
+from .rules import logic_37381
+RULES.append(logic_37381)
+from .rules import logic_37382
+RULES.append(logic_37382)
+from .rules import logic_37383
+RULES.append(logic_37383)
+from .rules import logic_37384
+RULES.append(logic_37384)
+from .rules import logic_37385
+RULES.append(logic_37385)
+from .rules import logic_37386
+RULES.append(logic_37386)
+from .rules import logic_37387
+RULES.append(logic_37387)
+from .rules import logic_37388
+RULES.append(logic_37388)
+from .rules import logic_37389
+RULES.append(logic_37389)
+from .rules import logic_37390
+RULES.append(logic_37390)
+from .rules import logic_37391
+RULES.append(logic_37391)
+from .rules import logic_37392
+RULES.append(logic_37392)
+from .rules import logic_37393
+RULES.append(logic_37393)
+from .rules import logic_37394
+RULES.append(logic_37394)
+from .rules import logic_37395
+RULES.append(logic_37395)
+from .rules import logic_37396
+RULES.append(logic_37396)
+from .rules import logic_37397
+RULES.append(logic_37397)
+from .rules import logic_37398
+RULES.append(logic_37398)
+from .rules import logic_37399
+RULES.append(logic_37399)
+from .rules import logic_37400
+RULES.append(logic_37400)
+from .rules import logic_37401
+RULES.append(logic_37401)
+from .rules import logic_37402
+RULES.append(logic_37402)
+from .rules import logic_37403
+RULES.append(logic_37403)
+from .rules import logic_37404
+RULES.append(logic_37404)
+from .rules import logic_37405
+RULES.append(logic_37405)
+from .rules import logic_37406
+RULES.append(logic_37406)
+from .rules import logic_37407
+RULES.append(logic_37407)
+from .rules import logic_37408
+RULES.append(logic_37408)
+from .rules import logic_37409
+RULES.append(logic_37409)
+from .rules import logic_37410
+RULES.append(logic_37410)
+from .rules import logic_37411
+RULES.append(logic_37411)
+from .rules import logic_37412
+RULES.append(logic_37412)
+from .rules import logic_37413
+RULES.append(logic_37413)
+from .rules import logic_37414
+RULES.append(logic_37414)
+from .rules import logic_37415
+RULES.append(logic_37415)
+from .rules import logic_37416
+RULES.append(logic_37416)
+from .rules import logic_37417
+RULES.append(logic_37417)
+from .rules import logic_37418
+RULES.append(logic_37418)
+from .rules import logic_37419
+RULES.append(logic_37419)
+from .rules import logic_37420
+RULES.append(logic_37420)
+from .rules import logic_37421
+RULES.append(logic_37421)
+from .rules import logic_37422
+RULES.append(logic_37422)
+from .rules import logic_37423
+RULES.append(logic_37423)
+from .rules import logic_37424
+RULES.append(logic_37424)
+from .rules import logic_37425
+RULES.append(logic_37425)
+from .rules import logic_37426
+RULES.append(logic_37426)
+from .rules import logic_37427
+RULES.append(logic_37427)
+from .rules import logic_37428
+RULES.append(logic_37428)
+from .rules import logic_37429
+RULES.append(logic_37429)
+from .rules import logic_37430
+RULES.append(logic_37430)
+from .rules import logic_37431
+RULES.append(logic_37431)
+from .rules import logic_37432
+RULES.append(logic_37432)
+from .rules import logic_37433
+RULES.append(logic_37433)
+from .rules import logic_37434
+RULES.append(logic_37434)
+from .rules import logic_37435
+RULES.append(logic_37435)
+from .rules import logic_37436
+RULES.append(logic_37436)
+from .rules import logic_37437
+RULES.append(logic_37437)
+from .rules import logic_37438
+RULES.append(logic_37438)
+from .rules import logic_37439
+RULES.append(logic_37439)
+from .rules import logic_37440
+RULES.append(logic_37440)
+from .rules import logic_37441
+RULES.append(logic_37441)
+from .rules import logic_37442
+RULES.append(logic_37442)
+from .rules import logic_37443
+RULES.append(logic_37443)
+from .rules import logic_37444
+RULES.append(logic_37444)
+from .rules import logic_37445
+RULES.append(logic_37445)
+from .rules import logic_37446
+RULES.append(logic_37446)
+from .rules import logic_37447
+RULES.append(logic_37447)
+from .rules import logic_37448
+RULES.append(logic_37448)
+from .rules import logic_37449
+RULES.append(logic_37449)
+from .rules import logic_37450
+RULES.append(logic_37450)
+from .rules import logic_37451
+RULES.append(logic_37451)
+from .rules import logic_37452
+RULES.append(logic_37452)
+from .rules import logic_37453
+RULES.append(logic_37453)
+from .rules import logic_37454
+RULES.append(logic_37454)
+from .rules import logic_37455
+RULES.append(logic_37455)
+from .rules import logic_37456
+RULES.append(logic_37456)
+from .rules import logic_37457
+RULES.append(logic_37457)
+from .rules import logic_37458
+RULES.append(logic_37458)
+from .rules import logic_37459
+RULES.append(logic_37459)
+from .rules import logic_37460
+RULES.append(logic_37460)
+from .rules import logic_37461
+RULES.append(logic_37461)
+from .rules import logic_37462
+RULES.append(logic_37462)
+from .rules import logic_37463
+RULES.append(logic_37463)
+from .rules import logic_37464
+RULES.append(logic_37464)
+from .rules import logic_37465
+RULES.append(logic_37465)
+from .rules import logic_37466
+RULES.append(logic_37466)
+from .rules import logic_37467
+RULES.append(logic_37467)
+from .rules import logic_37468
+RULES.append(logic_37468)
+from .rules import logic_37469
+RULES.append(logic_37469)
+from .rules import logic_37470
+RULES.append(logic_37470)
+from .rules import logic_37471
+RULES.append(logic_37471)
+from .rules import logic_37472
+RULES.append(logic_37472)
+from .rules import logic_37473
+RULES.append(logic_37473)
+from .rules import logic_37474
+RULES.append(logic_37474)
+from .rules import logic_37475
+RULES.append(logic_37475)
+from .rules import logic_37476
+RULES.append(logic_37476)
+from .rules import logic_37477
+RULES.append(logic_37477)
+from .rules import logic_37478
+RULES.append(logic_37478)
+from .rules import logic_37479
+RULES.append(logic_37479)
+from .rules import logic_37480
+RULES.append(logic_37480)
+from .rules import logic_37481
+RULES.append(logic_37481)
+from .rules import logic_37482
+RULES.append(logic_37482)
+from .rules import logic_37483
+RULES.append(logic_37483)
+from .rules import logic_37484
+RULES.append(logic_37484)
+from .rules import logic_37485
+RULES.append(logic_37485)
+from .rules import logic_37486
+RULES.append(logic_37486)
+from .rules import logic_37487
+RULES.append(logic_37487)
+from .rules import logic_37488
+RULES.append(logic_37488)
+from .rules import logic_37489
+RULES.append(logic_37489)
+from .rules import logic_37490
+RULES.append(logic_37490)
+from .rules import logic_37491
+RULES.append(logic_37491)
+from .rules import logic_37492
+RULES.append(logic_37492)
+from .rules import logic_37493
+RULES.append(logic_37493)
+from .rules import logic_37494
+RULES.append(logic_37494)
+from .rules import logic_37495
+RULES.append(logic_37495)
+from .rules import logic_37496
+RULES.append(logic_37496)
+from .rules import logic_37497
+RULES.append(logic_37497)
+from .rules import logic_37498
+RULES.append(logic_37498)
+from .rules import logic_37499
+RULES.append(logic_37499)
+from .rules import logic_37500
+RULES.append(logic_37500)
+from .rules import logic_37501
+RULES.append(logic_37501)
+from .rules import logic_37502
+RULES.append(logic_37502)
+from .rules import logic_37503
+RULES.append(logic_37503)
+from .rules import logic_37504
+RULES.append(logic_37504)
+from .rules import logic_37505
+RULES.append(logic_37505)
+from .rules import logic_37506
+RULES.append(logic_37506)
+from .rules import logic_37507
+RULES.append(logic_37507)
+from .rules import logic_37508
+RULES.append(logic_37508)
+from .rules import logic_37509
+RULES.append(logic_37509)
+from .rules import logic_37510
+RULES.append(logic_37510)
+from .rules import logic_37511
+RULES.append(logic_37511)
+from .rules import logic_37512
+RULES.append(logic_37512)
+from .rules import logic_37513
+RULES.append(logic_37513)
+from .rules import logic_37514
+RULES.append(logic_37514)
+from .rules import logic_37515
+RULES.append(logic_37515)
+from .rules import logic_37516
+RULES.append(logic_37516)
+from .rules import logic_37517
+RULES.append(logic_37517)
+from .rules import logic_37518
+RULES.append(logic_37518)
+from .rules import logic_37519
+RULES.append(logic_37519)
+from .rules import logic_37520
+RULES.append(logic_37520)
+from .rules import logic_37521
+RULES.append(logic_37521)
+from .rules import logic_37522
+RULES.append(logic_37522)
+from .rules import logic_37523
+RULES.append(logic_37523)
+from .rules import logic_37524
+RULES.append(logic_37524)
+from .rules import logic_37525
+RULES.append(logic_37525)
+from .rules import logic_37526
+RULES.append(logic_37526)
+from .rules import logic_37527
+RULES.append(logic_37527)
+from .rules import logic_37528
+RULES.append(logic_37528)
+from .rules import logic_37529
+RULES.append(logic_37529)
+from .rules import logic_37530
+RULES.append(logic_37530)
+from .rules import logic_37531
+RULES.append(logic_37531)
+from .rules import logic_37532
+RULES.append(logic_37532)
+from .rules import logic_37533
+RULES.append(logic_37533)
+from .rules import logic_37534
+RULES.append(logic_37534)
+from .rules import logic_37535
+RULES.append(logic_37535)
+from .rules import logic_37536
+RULES.append(logic_37536)
+from .rules import logic_37537
+RULES.append(logic_37537)
+from .rules import logic_37538
+RULES.append(logic_37538)
+from .rules import logic_37539
+RULES.append(logic_37539)
+from .rules import logic_37540
+RULES.append(logic_37540)
+from .rules import logic_37541
+RULES.append(logic_37541)
+from .rules import logic_37542
+RULES.append(logic_37542)
+from .rules import logic_37543
+RULES.append(logic_37543)
+from .rules import logic_37544
+RULES.append(logic_37544)
+from .rules import logic_37545
+RULES.append(logic_37545)
+from .rules import logic_37546
+RULES.append(logic_37546)
+from .rules import logic_37547
+RULES.append(logic_37547)
+from .rules import logic_37548
+RULES.append(logic_37548)
+from .rules import logic_37549
+RULES.append(logic_37549)
+from .rules import logic_37550
+RULES.append(logic_37550)
+from .rules import logic_37551
+RULES.append(logic_37551)
+from .rules import logic_37552
+RULES.append(logic_37552)
+from .rules import logic_37553
+RULES.append(logic_37553)
+from .rules import logic_37554
+RULES.append(logic_37554)
+from .rules import logic_37555
+RULES.append(logic_37555)
+from .rules import logic_37556
+RULES.append(logic_37556)
+from .rules import logic_37557
+RULES.append(logic_37557)
+from .rules import logic_37558
+RULES.append(logic_37558)
+from .rules import logic_37559
+RULES.append(logic_37559)
+from .rules import logic_37560
+RULES.append(logic_37560)
+from .rules import logic_37561
+RULES.append(logic_37561)
+from .rules import logic_37562
+RULES.append(logic_37562)
+from .rules import logic_37563
+RULES.append(logic_37563)
+from .rules import logic_37564
+RULES.append(logic_37564)
+from .rules import logic_37565
+RULES.append(logic_37565)
+from .rules import logic_37566
+RULES.append(logic_37566)
+from .rules import logic_37567
+RULES.append(logic_37567)
+from .rules import logic_37568
+RULES.append(logic_37568)
+from .rules import logic_37569
+RULES.append(logic_37569)
+from .rules import logic_37570
+RULES.append(logic_37570)
+from .rules import logic_37571
+RULES.append(logic_37571)
+from .rules import logic_37572
+RULES.append(logic_37572)
+from .rules import logic_37573
+RULES.append(logic_37573)
+from .rules import logic_37574
+RULES.append(logic_37574)
+from .rules import logic_37575
+RULES.append(logic_37575)
+from .rules import logic_37576
+RULES.append(logic_37576)
+from .rules import logic_37577
+RULES.append(logic_37577)
+from .rules import logic_37578
+RULES.append(logic_37578)
+from .rules import logic_37579
+RULES.append(logic_37579)
+from .rules import logic_37580
+RULES.append(logic_37580)
+from .rules import logic_37581
+RULES.append(logic_37581)
+from .rules import logic_37582
+RULES.append(logic_37582)
+from .rules import logic_37583
+RULES.append(logic_37583)
+from .rules import logic_37584
+RULES.append(logic_37584)
+from .rules import logic_37585
+RULES.append(logic_37585)
+from .rules import logic_37586
+RULES.append(logic_37586)
+from .rules import logic_37587
+RULES.append(logic_37587)
+from .rules import logic_37588
+RULES.append(logic_37588)
+from .rules import logic_37589
+RULES.append(logic_37589)
+from .rules import logic_37590
+RULES.append(logic_37590)
+from .rules import logic_37591
+RULES.append(logic_37591)
+from .rules import logic_37592
+RULES.append(logic_37592)
+from .rules import logic_37593
+RULES.append(logic_37593)
+from .rules import logic_37594
+RULES.append(logic_37594)
+from .rules import logic_37595
+RULES.append(logic_37595)
+from .rules import logic_37596
+RULES.append(logic_37596)
+from .rules import logic_37597
+RULES.append(logic_37597)
+from .rules import logic_37598
+RULES.append(logic_37598)
+from .rules import logic_37599
+RULES.append(logic_37599)
+from .rules import logic_37600
+RULES.append(logic_37600)
+from .rules import logic_37601
+RULES.append(logic_37601)
+from .rules import logic_37602
+RULES.append(logic_37602)
+from .rules import logic_37603
+RULES.append(logic_37603)
+from .rules import logic_37604
+RULES.append(logic_37604)
+from .rules import logic_37605
+RULES.append(logic_37605)
+from .rules import logic_37606
+RULES.append(logic_37606)
+from .rules import logic_37607
+RULES.append(logic_37607)
+from .rules import logic_37608
+RULES.append(logic_37608)
+from .rules import logic_37609
+RULES.append(logic_37609)
+from .rules import logic_37610
+RULES.append(logic_37610)
+from .rules import logic_37611
+RULES.append(logic_37611)
+from .rules import logic_37612
+RULES.append(logic_37612)
+from .rules import logic_37613
+RULES.append(logic_37613)
+from .rules import logic_37614
+RULES.append(logic_37614)
+from .rules import logic_37615
+RULES.append(logic_37615)
+from .rules import logic_37616
+RULES.append(logic_37616)
+from .rules import logic_37617
+RULES.append(logic_37617)
+from .rules import logic_37618
+RULES.append(logic_37618)
+from .rules import logic_37619
+RULES.append(logic_37619)
+from .rules import logic_37620
+RULES.append(logic_37620)
+from .rules import logic_37621
+RULES.append(logic_37621)
+from .rules import logic_37622
+RULES.append(logic_37622)
+from .rules import logic_37623
+RULES.append(logic_37623)
+from .rules import logic_37624
+RULES.append(logic_37624)
+from .rules import logic_37625
+RULES.append(logic_37625)
+from .rules import logic_37626
+RULES.append(logic_37626)
+from .rules import logic_37627
+RULES.append(logic_37627)
+from .rules import logic_37628
+RULES.append(logic_37628)
+from .rules import logic_37629
+RULES.append(logic_37629)
+from .rules import logic_37630
+RULES.append(logic_37630)
+from .rules import logic_37631
+RULES.append(logic_37631)
+from .rules import logic_37632
+RULES.append(logic_37632)
+from .rules import logic_37633
+RULES.append(logic_37633)
+from .rules import logic_37634
+RULES.append(logic_37634)
+from .rules import logic_37635
+RULES.append(logic_37635)
+from .rules import logic_37636
+RULES.append(logic_37636)
+from .rules import logic_37637
+RULES.append(logic_37637)
+from .rules import logic_37638
+RULES.append(logic_37638)
+from .rules import logic_37639
+RULES.append(logic_37639)
+from .rules import logic_37640
+RULES.append(logic_37640)
+from .rules import logic_37641
+RULES.append(logic_37641)
+from .rules import logic_37642
+RULES.append(logic_37642)
+from .rules import logic_37643
+RULES.append(logic_37643)
+from .rules import logic_37644
+RULES.append(logic_37644)
+from .rules import logic_37645
+RULES.append(logic_37645)
+from .rules import logic_37646
+RULES.append(logic_37646)
+from .rules import logic_37647
+RULES.append(logic_37647)
+from .rules import logic_37648
+RULES.append(logic_37648)
+from .rules import logic_37649
+RULES.append(logic_37649)
+from .rules import logic_37650
+RULES.append(logic_37650)
+from .rules import logic_37651
+RULES.append(logic_37651)
+from .rules import logic_37652
+RULES.append(logic_37652)
+from .rules import logic_37653
+RULES.append(logic_37653)
+from .rules import logic_37654
+RULES.append(logic_37654)
+from .rules import logic_37655
+RULES.append(logic_37655)
+from .rules import logic_37656
+RULES.append(logic_37656)
+from .rules import logic_37657
+RULES.append(logic_37657)
+from .rules import logic_37658
+RULES.append(logic_37658)
+from .rules import logic_37659
+RULES.append(logic_37659)
+from .rules import logic_37660
+RULES.append(logic_37660)
+from .rules import logic_37661
+RULES.append(logic_37661)
+from .rules import logic_37662
+RULES.append(logic_37662)
+from .rules import logic_37663
+RULES.append(logic_37663)
+from .rules import logic_37664
+RULES.append(logic_37664)
+from .rules import logic_37665
+RULES.append(logic_37665)
+from .rules import logic_37666
+RULES.append(logic_37666)
+from .rules import logic_37667
+RULES.append(logic_37667)
+from .rules import logic_37668
+RULES.append(logic_37668)
+from .rules import logic_37669
+RULES.append(logic_37669)
+from .rules import logic_37670
+RULES.append(logic_37670)
+from .rules import logic_37671
+RULES.append(logic_37671)
+from .rules import logic_37672
+RULES.append(logic_37672)
+from .rules import logic_37673
+RULES.append(logic_37673)
+from .rules import logic_37674
+RULES.append(logic_37674)
+from .rules import logic_37675
+RULES.append(logic_37675)
+from .rules import logic_37676
+RULES.append(logic_37676)
+from .rules import logic_37677
+RULES.append(logic_37677)
+from .rules import logic_37678
+RULES.append(logic_37678)
+from .rules import logic_37679
+RULES.append(logic_37679)
+from .rules import logic_37680
+RULES.append(logic_37680)
+from .rules import logic_37681
+RULES.append(logic_37681)
+from .rules import logic_37682
+RULES.append(logic_37682)
+from .rules import logic_37683
+RULES.append(logic_37683)
+from .rules import logic_37684
+RULES.append(logic_37684)
+from .rules import logic_37685
+RULES.append(logic_37685)
+from .rules import logic_37686
+RULES.append(logic_37686)
+from .rules import logic_37687
+RULES.append(logic_37687)
+from .rules import logic_37688
+RULES.append(logic_37688)
+from .rules import logic_37689
+RULES.append(logic_37689)
+from .rules import logic_37690
+RULES.append(logic_37690)
+from .rules import logic_37691
+RULES.append(logic_37691)
+from .rules import logic_37692
+RULES.append(logic_37692)
+from .rules import logic_37693
+RULES.append(logic_37693)
+from .rules import logic_37694
+RULES.append(logic_37694)
+from .rules import logic_37695
+RULES.append(logic_37695)
+from .rules import logic_37696
+RULES.append(logic_37696)
+from .rules import logic_37697
+RULES.append(logic_37697)
+from .rules import logic_37698
+RULES.append(logic_37698)
+from .rules import logic_37699
+RULES.append(logic_37699)
+from .rules import logic_37700
+RULES.append(logic_37700)
+from .rules import logic_37701
+RULES.append(logic_37701)
+from .rules import logic_37702
+RULES.append(logic_37702)
+from .rules import logic_37703
+RULES.append(logic_37703)
+from .rules import logic_37704
+RULES.append(logic_37704)
+from .rules import logic_37705
+RULES.append(logic_37705)
+from .rules import logic_37706
+RULES.append(logic_37706)
+from .rules import logic_37707
+RULES.append(logic_37707)
+from .rules import logic_37708
+RULES.append(logic_37708)
+from .rules import logic_37709
+RULES.append(logic_37709)
+from .rules import logic_37710
+RULES.append(logic_37710)
+from .rules import logic_37711
+RULES.append(logic_37711)
+from .rules import logic_37712
+RULES.append(logic_37712)
+from .rules import logic_37713
+RULES.append(logic_37713)
+from .rules import logic_37714
+RULES.append(logic_37714)
+from .rules import logic_37715
+RULES.append(logic_37715)
+from .rules import logic_37716
+RULES.append(logic_37716)
+from .rules import logic_37717
+RULES.append(logic_37717)
+from .rules import logic_37718
+RULES.append(logic_37718)
+from .rules import logic_37719
+RULES.append(logic_37719)
+from .rules import logic_37720
+RULES.append(logic_37720)
+from .rules import logic_37721
+RULES.append(logic_37721)
+from .rules import logic_37722
+RULES.append(logic_37722)
+from .rules import logic_37723
+RULES.append(logic_37723)
+from .rules import logic_37724
+RULES.append(logic_37724)
+from .rules import logic_37725
+RULES.append(logic_37725)
+from .rules import logic_37726
+RULES.append(logic_37726)
+from .rules import logic_37727
+RULES.append(logic_37727)
+from .rules import logic_37728
+RULES.append(logic_37728)
+from .rules import logic_37729
+RULES.append(logic_37729)
+from .rules import logic_37730
+RULES.append(logic_37730)
+from .rules import logic_37731
+RULES.append(logic_37731)
+from .rules import logic_37732
+RULES.append(logic_37732)
+from .rules import logic_37733
+RULES.append(logic_37733)
+from .rules import logic_37734
+RULES.append(logic_37734)
+from .rules import logic_37735
+RULES.append(logic_37735)
+from .rules import logic_37736
+RULES.append(logic_37736)
+from .rules import logic_37737
+RULES.append(logic_37737)
+from .rules import logic_37738
+RULES.append(logic_37738)
+from .rules import logic_37739
+RULES.append(logic_37739)
+from .rules import logic_37740
+RULES.append(logic_37740)
+from .rules import logic_37741
+RULES.append(logic_37741)
+from .rules import logic_37742
+RULES.append(logic_37742)
+from .rules import logic_37743
+RULES.append(logic_37743)
+from .rules import logic_37744
+RULES.append(logic_37744)
+from .rules import logic_37745
+RULES.append(logic_37745)
+from .rules import logic_37746
+RULES.append(logic_37746)
+from .rules import logic_37747
+RULES.append(logic_37747)
+from .rules import logic_37748
+RULES.append(logic_37748)
+from .rules import logic_37749
+RULES.append(logic_37749)
+from .rules import logic_37750
+RULES.append(logic_37750)
+from .rules import logic_37751
+RULES.append(logic_37751)
+from .rules import logic_37752
+RULES.append(logic_37752)
+from .rules import logic_37753
+RULES.append(logic_37753)
+from .rules import logic_37754
+RULES.append(logic_37754)
+from .rules import logic_37755
+RULES.append(logic_37755)
+from .rules import logic_37756
+RULES.append(logic_37756)
+from .rules import logic_37757
+RULES.append(logic_37757)
+from .rules import logic_37758
+RULES.append(logic_37758)
+from .rules import logic_37759
+RULES.append(logic_37759)
+from .rules import logic_37760
+RULES.append(logic_37760)
+from .rules import logic_37761
+RULES.append(logic_37761)
+from .rules import logic_37762
+RULES.append(logic_37762)
+from .rules import logic_37763
+RULES.append(logic_37763)
+from .rules import logic_37764
+RULES.append(logic_37764)
+from .rules import logic_37765
+RULES.append(logic_37765)
+from .rules import logic_37766
+RULES.append(logic_37766)
+from .rules import logic_37767
+RULES.append(logic_37767)
+from .rules import logic_37768
+RULES.append(logic_37768)
+from .rules import logic_37769
+RULES.append(logic_37769)
+from .rules import logic_37770
+RULES.append(logic_37770)
+from .rules import logic_37771
+RULES.append(logic_37771)
+from .rules import logic_37772
+RULES.append(logic_37772)
+from .rules import logic_37773
+RULES.append(logic_37773)
+from .rules import logic_37774
+RULES.append(logic_37774)
+from .rules import logic_37775
+RULES.append(logic_37775)
+from .rules import logic_37776
+RULES.append(logic_37776)
+from .rules import logic_37777
+RULES.append(logic_37777)
+from .rules import logic_37778
+RULES.append(logic_37778)
+from .rules import logic_37779
+RULES.append(logic_37779)
+from .rules import logic_37780
+RULES.append(logic_37780)
+from .rules import logic_37781
+RULES.append(logic_37781)
+from .rules import logic_37782
+RULES.append(logic_37782)
+from .rules import logic_37783
+RULES.append(logic_37783)
+from .rules import logic_37784
+RULES.append(logic_37784)
+from .rules import logic_37785
+RULES.append(logic_37785)
+from .rules import logic_37786
+RULES.append(logic_37786)
+from .rules import logic_37787
+RULES.append(logic_37787)
+from .rules import logic_37788
+RULES.append(logic_37788)
+from .rules import logic_37789
+RULES.append(logic_37789)
+from .rules import logic_37790
+RULES.append(logic_37790)
+from .rules import logic_37791
+RULES.append(logic_37791)
+from .rules import logic_37792
+RULES.append(logic_37792)
+from .rules import logic_37793
+RULES.append(logic_37793)
+from .rules import logic_37794
+RULES.append(logic_37794)
+from .rules import logic_37795
+RULES.append(logic_37795)
+from .rules import logic_37796
+RULES.append(logic_37796)
+from .rules import logic_37797
+RULES.append(logic_37797)
+from .rules import logic_37798
+RULES.append(logic_37798)
+from .rules import logic_37799
+RULES.append(logic_37799)
+from .rules import logic_37800
+RULES.append(logic_37800)
+from .rules import logic_37801
+RULES.append(logic_37801)
+from .rules import logic_37802
+RULES.append(logic_37802)
+from .rules import logic_37803
+RULES.append(logic_37803)
+from .rules import logic_37804
+RULES.append(logic_37804)
+from .rules import logic_37805
+RULES.append(logic_37805)
+from .rules import logic_37806
+RULES.append(logic_37806)
+from .rules import logic_37807
+RULES.append(logic_37807)
+from .rules import logic_37808
+RULES.append(logic_37808)
+from .rules import logic_37809
+RULES.append(logic_37809)
+from .rules import logic_37810
+RULES.append(logic_37810)
+from .rules import logic_37811
+RULES.append(logic_37811)
+from .rules import logic_37812
+RULES.append(logic_37812)
+from .rules import logic_37813
+RULES.append(logic_37813)
+from .rules import logic_37814
+RULES.append(logic_37814)
+from .rules import logic_37815
+RULES.append(logic_37815)
+from .rules import logic_37816
+RULES.append(logic_37816)
+from .rules import logic_37817
+RULES.append(logic_37817)
+from .rules import logic_37818
+RULES.append(logic_37818)
+from .rules import logic_37819
+RULES.append(logic_37819)
+from .rules import logic_37820
+RULES.append(logic_37820)
+from .rules import logic_37821
+RULES.append(logic_37821)
+from .rules import logic_37822
+RULES.append(logic_37822)
+from .rules import logic_37823
+RULES.append(logic_37823)
+from .rules import logic_37824
+RULES.append(logic_37824)
+from .rules import logic_37825
+RULES.append(logic_37825)
+from .rules import logic_37826
+RULES.append(logic_37826)
+from .rules import logic_37827
+RULES.append(logic_37827)
+from .rules import logic_37828
+RULES.append(logic_37828)
+from .rules import logic_37829
+RULES.append(logic_37829)
+from .rules import logic_37830
+RULES.append(logic_37830)
+from .rules import logic_37831
+RULES.append(logic_37831)
+from .rules import logic_37832
+RULES.append(logic_37832)
+from .rules import logic_37833
+RULES.append(logic_37833)
+from .rules import logic_37834
+RULES.append(logic_37834)
+from .rules import logic_37835
+RULES.append(logic_37835)
+from .rules import logic_37836
+RULES.append(logic_37836)
+from .rules import logic_37837
+RULES.append(logic_37837)
+from .rules import logic_37838
+RULES.append(logic_37838)
+from .rules import logic_37839
+RULES.append(logic_37839)
+from .rules import logic_37840
+RULES.append(logic_37840)
+from .rules import logic_37841
+RULES.append(logic_37841)
+from .rules import logic_37842
+RULES.append(logic_37842)
+from .rules import logic_37843
+RULES.append(logic_37843)
+from .rules import logic_37844
+RULES.append(logic_37844)
+from .rules import logic_37845
+RULES.append(logic_37845)
+from .rules import logic_37846
+RULES.append(logic_37846)
+from .rules import logic_37847
+RULES.append(logic_37847)
+from .rules import logic_37848
+RULES.append(logic_37848)
+from .rules import logic_37849
+RULES.append(logic_37849)
+from .rules import logic_37850
+RULES.append(logic_37850)
+from .rules import logic_37851
+RULES.append(logic_37851)
+from .rules import logic_37852
+RULES.append(logic_37852)
+from .rules import logic_37853
+RULES.append(logic_37853)
+from .rules import logic_37854
+RULES.append(logic_37854)
+from .rules import logic_37855
+RULES.append(logic_37855)
+from .rules import logic_37856
+RULES.append(logic_37856)
+from .rules import logic_37857
+RULES.append(logic_37857)
+from .rules import logic_37858
+RULES.append(logic_37858)
+from .rules import logic_37859
+RULES.append(logic_37859)
+from .rules import logic_37860
+RULES.append(logic_37860)
+from .rules import logic_37861
+RULES.append(logic_37861)
+from .rules import logic_37862
+RULES.append(logic_37862)
+from .rules import logic_37863
+RULES.append(logic_37863)
+from .rules import logic_37864
+RULES.append(logic_37864)
+from .rules import logic_37865
+RULES.append(logic_37865)
+from .rules import logic_37866
+RULES.append(logic_37866)
+from .rules import logic_37867
+RULES.append(logic_37867)
+from .rules import logic_37868
+RULES.append(logic_37868)
+from .rules import logic_37869
+RULES.append(logic_37869)
+from .rules import logic_37870
+RULES.append(logic_37870)
+from .rules import logic_37871
+RULES.append(logic_37871)
+from .rules import logic_37872
+RULES.append(logic_37872)
+from .rules import logic_37873
+RULES.append(logic_37873)
+from .rules import logic_37874
+RULES.append(logic_37874)
+from .rules import logic_37875
+RULES.append(logic_37875)
+from .rules import logic_37876
+RULES.append(logic_37876)
+from .rules import logic_37877
+RULES.append(logic_37877)
+from .rules import logic_37878
+RULES.append(logic_37878)
+from .rules import logic_37879
+RULES.append(logic_37879)
+from .rules import logic_37880
+RULES.append(logic_37880)
+from .rules import logic_37881
+RULES.append(logic_37881)
+from .rules import logic_37882
+RULES.append(logic_37882)
+from .rules import logic_37883
+RULES.append(logic_37883)
+from .rules import logic_37884
+RULES.append(logic_37884)
+from .rules import logic_37885
+RULES.append(logic_37885)
+from .rules import logic_37886
+RULES.append(logic_37886)
+from .rules import logic_37887
+RULES.append(logic_37887)
+from .rules import logic_37888
+RULES.append(logic_37888)
+from .rules import logic_37889
+RULES.append(logic_37889)
+from .rules import logic_37890
+RULES.append(logic_37890)
+from .rules import logic_37891
+RULES.append(logic_37891)
+from .rules import logic_37892
+RULES.append(logic_37892)
+from .rules import logic_37893
+RULES.append(logic_37893)
+from .rules import logic_37894
+RULES.append(logic_37894)
+from .rules import logic_37895
+RULES.append(logic_37895)
+from .rules import logic_37896
+RULES.append(logic_37896)
+from .rules import logic_37897
+RULES.append(logic_37897)
+from .rules import logic_37898
+RULES.append(logic_37898)
+from .rules import logic_37899
+RULES.append(logic_37899)
+from .rules import logic_37900
+RULES.append(logic_37900)
+from .rules import logic_37901
+RULES.append(logic_37901)
+from .rules import logic_37902
+RULES.append(logic_37902)
+from .rules import logic_37903
+RULES.append(logic_37903)
+from .rules import logic_37904
+RULES.append(logic_37904)
+from .rules import logic_37905
+RULES.append(logic_37905)
+from .rules import logic_37906
+RULES.append(logic_37906)
+from .rules import logic_37907
+RULES.append(logic_37907)
+from .rules import logic_37908
+RULES.append(logic_37908)
+from .rules import logic_37909
+RULES.append(logic_37909)
+from .rules import logic_37910
+RULES.append(logic_37910)
+from .rules import logic_37911
+RULES.append(logic_37911)
+from .rules import logic_37912
+RULES.append(logic_37912)
+from .rules import logic_37913
+RULES.append(logic_37913)
+from .rules import logic_37914
+RULES.append(logic_37914)
+from .rules import logic_37915
+RULES.append(logic_37915)
+from .rules import logic_37916
+RULES.append(logic_37916)
+from .rules import logic_37917
+RULES.append(logic_37917)
+from .rules import logic_37918
+RULES.append(logic_37918)
+from .rules import logic_37919
+RULES.append(logic_37919)
+from .rules import logic_37920
+RULES.append(logic_37920)
+from .rules import logic_37921
+RULES.append(logic_37921)
+from .rules import logic_37922
+RULES.append(logic_37922)
+from .rules import logic_37923
+RULES.append(logic_37923)
+from .rules import logic_37924
+RULES.append(logic_37924)
+from .rules import logic_37925
+RULES.append(logic_37925)
+from .rules import logic_37926
+RULES.append(logic_37926)
+from .rules import logic_37927
+RULES.append(logic_37927)
+from .rules import logic_37928
+RULES.append(logic_37928)
+from .rules import logic_37929
+RULES.append(logic_37929)
+from .rules import logic_37930
+RULES.append(logic_37930)
+from .rules import logic_37931
+RULES.append(logic_37931)
+from .rules import logic_37932
+RULES.append(logic_37932)
+from .rules import logic_37933
+RULES.append(logic_37933)
+from .rules import logic_37934
+RULES.append(logic_37934)
+from .rules import logic_37935
+RULES.append(logic_37935)
+from .rules import logic_37936
+RULES.append(logic_37936)
+from .rules import logic_37937
+RULES.append(logic_37937)
+from .rules import logic_37938
+RULES.append(logic_37938)
+from .rules import logic_37939
+RULES.append(logic_37939)
+from .rules import logic_37940
+RULES.append(logic_37940)
+from .rules import logic_37941
+RULES.append(logic_37941)
+from .rules import logic_37942
+RULES.append(logic_37942)
+from .rules import logic_37943
+RULES.append(logic_37943)
+from .rules import logic_37944
+RULES.append(logic_37944)
+from .rules import logic_37945
+RULES.append(logic_37945)
+from .rules import logic_37946
+RULES.append(logic_37946)
+from .rules import logic_37947
+RULES.append(logic_37947)
+from .rules import logic_37948
+RULES.append(logic_37948)
+from .rules import logic_37949
+RULES.append(logic_37949)
+from .rules import logic_37950
+RULES.append(logic_37950)
+from .rules import logic_37951
+RULES.append(logic_37951)
+from .rules import logic_37952
+RULES.append(logic_37952)
+from .rules import logic_37953
+RULES.append(logic_37953)
+from .rules import logic_37954
+RULES.append(logic_37954)
+from .rules import logic_37955
+RULES.append(logic_37955)
+from .rules import logic_37956
+RULES.append(logic_37956)
+from .rules import logic_37957
+RULES.append(logic_37957)
+from .rules import logic_37958
+RULES.append(logic_37958)
+from .rules import logic_37959
+RULES.append(logic_37959)
+from .rules import logic_37960
+RULES.append(logic_37960)
+from .rules import logic_37961
+RULES.append(logic_37961)
+from .rules import logic_37962
+RULES.append(logic_37962)
+from .rules import logic_37963
+RULES.append(logic_37963)
+from .rules import logic_37964
+RULES.append(logic_37964)
+from .rules import logic_37965
+RULES.append(logic_37965)
+from .rules import logic_37966
+RULES.append(logic_37966)
+from .rules import logic_37967
+RULES.append(logic_37967)
+from .rules import logic_37968
+RULES.append(logic_37968)
+from .rules import logic_37969
+RULES.append(logic_37969)
+from .rules import logic_37970
+RULES.append(logic_37970)
+from .rules import logic_37971
+RULES.append(logic_37971)
+from .rules import logic_37972
+RULES.append(logic_37972)
+from .rules import logic_37973
+RULES.append(logic_37973)
+from .rules import logic_37974
+RULES.append(logic_37974)
+from .rules import logic_37975
+RULES.append(logic_37975)
+from .rules import logic_37976
+RULES.append(logic_37976)
+from .rules import logic_37977
+RULES.append(logic_37977)
+from .rules import logic_37978
+RULES.append(logic_37978)
+from .rules import logic_37979
+RULES.append(logic_37979)
+from .rules import logic_37980
+RULES.append(logic_37980)
+from .rules import logic_37981
+RULES.append(logic_37981)
+from .rules import logic_37982
+RULES.append(logic_37982)
+from .rules import logic_37983
+RULES.append(logic_37983)
+from .rules import logic_37984
+RULES.append(logic_37984)
+from .rules import logic_37985
+RULES.append(logic_37985)
+from .rules import logic_37986
+RULES.append(logic_37986)
+from .rules import logic_37987
+RULES.append(logic_37987)
+from .rules import logic_37988
+RULES.append(logic_37988)
+from .rules import logic_37989
+RULES.append(logic_37989)
+from .rules import logic_37990
+RULES.append(logic_37990)
+from .rules import logic_37991
+RULES.append(logic_37991)
+from .rules import logic_37992
+RULES.append(logic_37992)
+from .rules import logic_37993
+RULES.append(logic_37993)
+from .rules import logic_37994
+RULES.append(logic_37994)
+from .rules import logic_37995
+RULES.append(logic_37995)
+from .rules import logic_37996
+RULES.append(logic_37996)
+from .rules import logic_37997
+RULES.append(logic_37997)
+from .rules import logic_37998
+RULES.append(logic_37998)
+from .rules import logic_37999
+RULES.append(logic_37999)
+from .rules import logic_38000
+RULES.append(logic_38000)
+from .rules import logic_38001
+RULES.append(logic_38001)
+from .rules import logic_38002
+RULES.append(logic_38002)
+from .rules import logic_38003
+RULES.append(logic_38003)
+from .rules import logic_38004
+RULES.append(logic_38004)
+from .rules import logic_38005
+RULES.append(logic_38005)
+from .rules import logic_38006
+RULES.append(logic_38006)
+from .rules import logic_38007
+RULES.append(logic_38007)
+from .rules import logic_38008
+RULES.append(logic_38008)
+from .rules import logic_38009
+RULES.append(logic_38009)
+from .rules import logic_38010
+RULES.append(logic_38010)
+from .rules import logic_38011
+RULES.append(logic_38011)
+from .rules import logic_38012
+RULES.append(logic_38012)
+from .rules import logic_38013
+RULES.append(logic_38013)
+from .rules import logic_38014
+RULES.append(logic_38014)
+from .rules import logic_38015
+RULES.append(logic_38015)
+from .rules import logic_38016
+RULES.append(logic_38016)
+from .rules import logic_38017
+RULES.append(logic_38017)
+from .rules import logic_38018
+RULES.append(logic_38018)
+from .rules import logic_38019
+RULES.append(logic_38019)
+from .rules import logic_38020
+RULES.append(logic_38020)
+from .rules import logic_38021
+RULES.append(logic_38021)
+from .rules import logic_38022
+RULES.append(logic_38022)
+from .rules import logic_38023
+RULES.append(logic_38023)
+from .rules import logic_38024
+RULES.append(logic_38024)
+from .rules import logic_38025
+RULES.append(logic_38025)
+from .rules import logic_38026
+RULES.append(logic_38026)
+from .rules import logic_38027
+RULES.append(logic_38027)
+from .rules import logic_38028
+RULES.append(logic_38028)
+from .rules import logic_38029
+RULES.append(logic_38029)
+from .rules import logic_38030
+RULES.append(logic_38030)
+from .rules import logic_38031
+RULES.append(logic_38031)
+from .rules import logic_38032
+RULES.append(logic_38032)
+from .rules import logic_38033
+RULES.append(logic_38033)
+from .rules import logic_38034
+RULES.append(logic_38034)
+from .rules import logic_38035
+RULES.append(logic_38035)
+from .rules import logic_38036
+RULES.append(logic_38036)
+from .rules import logic_38037
+RULES.append(logic_38037)
+from .rules import logic_38038
+RULES.append(logic_38038)
+from .rules import logic_38039
+RULES.append(logic_38039)
+from .rules import logic_38040
+RULES.append(logic_38040)
+from .rules import logic_38041
+RULES.append(logic_38041)
+from .rules import logic_38042
+RULES.append(logic_38042)
+from .rules import logic_38043
+RULES.append(logic_38043)
+from .rules import logic_38044
+RULES.append(logic_38044)
+from .rules import logic_38045
+RULES.append(logic_38045)
+from .rules import logic_38046
+RULES.append(logic_38046)
+from .rules import logic_38047
+RULES.append(logic_38047)
+from .rules import logic_38048
+RULES.append(logic_38048)
+from .rules import logic_38049
+RULES.append(logic_38049)
+from .rules import logic_38050
+RULES.append(logic_38050)
+from .rules import logic_38051
+RULES.append(logic_38051)
+from .rules import logic_38052
+RULES.append(logic_38052)
+from .rules import logic_38053
+RULES.append(logic_38053)
+from .rules import logic_38054
+RULES.append(logic_38054)
+from .rules import logic_38055
+RULES.append(logic_38055)
+from .rules import logic_38056
+RULES.append(logic_38056)
+from .rules import logic_38057
+RULES.append(logic_38057)
+from .rules import logic_38058
+RULES.append(logic_38058)
+from .rules import logic_38059
+RULES.append(logic_38059)
+from .rules import logic_38060
+RULES.append(logic_38060)
+from .rules import logic_38061
+RULES.append(logic_38061)
+from .rules import logic_38062
+RULES.append(logic_38062)
+from .rules import logic_38063
+RULES.append(logic_38063)
+from .rules import logic_38064
+RULES.append(logic_38064)
+from .rules import logic_38065
+RULES.append(logic_38065)
+from .rules import logic_38066
+RULES.append(logic_38066)
+from .rules import logic_38067
+RULES.append(logic_38067)
+from .rules import logic_38068
+RULES.append(logic_38068)
+from .rules import logic_38069
+RULES.append(logic_38069)
+from .rules import logic_38070
+RULES.append(logic_38070)
+from .rules import logic_38071
+RULES.append(logic_38071)
+from .rules import logic_38072
+RULES.append(logic_38072)
+from .rules import logic_38073
+RULES.append(logic_38073)
+from .rules import logic_38074
+RULES.append(logic_38074)
+from .rules import logic_38075
+RULES.append(logic_38075)
+from .rules import logic_38076
+RULES.append(logic_38076)
+from .rules import logic_38077
+RULES.append(logic_38077)
+from .rules import logic_38078
+RULES.append(logic_38078)
+from .rules import logic_38079
+RULES.append(logic_38079)
+from .rules import logic_38080
+RULES.append(logic_38080)
+from .rules import logic_38081
+RULES.append(logic_38081)
+from .rules import logic_38082
+RULES.append(logic_38082)
+from .rules import logic_38083
+RULES.append(logic_38083)
+from .rules import logic_38084
+RULES.append(logic_38084)
+from .rules import logic_38085
+RULES.append(logic_38085)
+from .rules import logic_38086
+RULES.append(logic_38086)
+from .rules import logic_38087
+RULES.append(logic_38087)
+from .rules import logic_38088
+RULES.append(logic_38088)
+from .rules import logic_38089
+RULES.append(logic_38089)
+from .rules import logic_38090
+RULES.append(logic_38090)
+from .rules import logic_38091
+RULES.append(logic_38091)
+from .rules import logic_38092
+RULES.append(logic_38092)
+from .rules import logic_38093
+RULES.append(logic_38093)
+from .rules import logic_38094
+RULES.append(logic_38094)
+from .rules import logic_38095
+RULES.append(logic_38095)
+from .rules import logic_38096
+RULES.append(logic_38096)
+from .rules import logic_38097
+RULES.append(logic_38097)
+from .rules import logic_38098
+RULES.append(logic_38098)
+from .rules import logic_38099
+RULES.append(logic_38099)
+from .rules import logic_38100
+RULES.append(logic_38100)
+from .rules import logic_38101
+RULES.append(logic_38101)
+from .rules import logic_38102
+RULES.append(logic_38102)
+from .rules import logic_38103
+RULES.append(logic_38103)
+from .rules import logic_38104
+RULES.append(logic_38104)
+from .rules import logic_38105
+RULES.append(logic_38105)
+from .rules import logic_38106
+RULES.append(logic_38106)
+from .rules import logic_38107
+RULES.append(logic_38107)
+from .rules import logic_38108
+RULES.append(logic_38108)
+from .rules import logic_38109
+RULES.append(logic_38109)
+from .rules import logic_38110
+RULES.append(logic_38110)
+from .rules import logic_38111
+RULES.append(logic_38111)
+from .rules import logic_38112
+RULES.append(logic_38112)
+from .rules import logic_38113
+RULES.append(logic_38113)
+from .rules import logic_38114
+RULES.append(logic_38114)
+from .rules import logic_38115
+RULES.append(logic_38115)
+from .rules import logic_38116
+RULES.append(logic_38116)
+from .rules import logic_38117
+RULES.append(logic_38117)
+from .rules import logic_38118
+RULES.append(logic_38118)
+from .rules import logic_38119
+RULES.append(logic_38119)
+from .rules import logic_38120
+RULES.append(logic_38120)
+from .rules import logic_38121
+RULES.append(logic_38121)
+from .rules import logic_38122
+RULES.append(logic_38122)
+from .rules import logic_38123
+RULES.append(logic_38123)
+from .rules import logic_38124
+RULES.append(logic_38124)
+from .rules import logic_38125
+RULES.append(logic_38125)
+from .rules import logic_38126
+RULES.append(logic_38126)
+from .rules import logic_38127
+RULES.append(logic_38127)
+from .rules import logic_38128
+RULES.append(logic_38128)
+from .rules import logic_38129
+RULES.append(logic_38129)
+from .rules import logic_38130
+RULES.append(logic_38130)
+from .rules import logic_38131
+RULES.append(logic_38131)
+from .rules import logic_38132
+RULES.append(logic_38132)
+from .rules import logic_38133
+RULES.append(logic_38133)
+from .rules import logic_38134
+RULES.append(logic_38134)
+from .rules import logic_38135
+RULES.append(logic_38135)
+from .rules import logic_38136
+RULES.append(logic_38136)
+from .rules import logic_38137
+RULES.append(logic_38137)
+from .rules import logic_38138
+RULES.append(logic_38138)
+from .rules import logic_38139
+RULES.append(logic_38139)
+from .rules import logic_38140
+RULES.append(logic_38140)
+from .rules import logic_38141
+RULES.append(logic_38141)
+from .rules import logic_38142
+RULES.append(logic_38142)
+from .rules import logic_38143
+RULES.append(logic_38143)
+from .rules import logic_38144
+RULES.append(logic_38144)
+from .rules import logic_38145
+RULES.append(logic_38145)
+from .rules import logic_38146
+RULES.append(logic_38146)
+from .rules import logic_38147
+RULES.append(logic_38147)
+from .rules import logic_38148
+RULES.append(logic_38148)
+from .rules import logic_38149
+RULES.append(logic_38149)
+from .rules import logic_38150
+RULES.append(logic_38150)
+from .rules import logic_38151
+RULES.append(logic_38151)
+from .rules import logic_38152
+RULES.append(logic_38152)
+from .rules import logic_38153
+RULES.append(logic_38153)
+from .rules import logic_38154
+RULES.append(logic_38154)
+from .rules import logic_38155
+RULES.append(logic_38155)
+from .rules import logic_38156
+RULES.append(logic_38156)
+from .rules import logic_38157
+RULES.append(logic_38157)
+from .rules import logic_38158
+RULES.append(logic_38158)
+from .rules import logic_38159
+RULES.append(logic_38159)
+from .rules import logic_38160
+RULES.append(logic_38160)
+from .rules import logic_38161
+RULES.append(logic_38161)
+from .rules import logic_38162
+RULES.append(logic_38162)
+from .rules import logic_38163
+RULES.append(logic_38163)
+from .rules import logic_38164
+RULES.append(logic_38164)
+from .rules import logic_38165
+RULES.append(logic_38165)
+from .rules import logic_38166
+RULES.append(logic_38166)
+from .rules import logic_38167
+RULES.append(logic_38167)
+from .rules import logic_38168
+RULES.append(logic_38168)
+from .rules import logic_38169
+RULES.append(logic_38169)
+from .rules import logic_38170
+RULES.append(logic_38170)
+from .rules import logic_38171
+RULES.append(logic_38171)
+from .rules import logic_38172
+RULES.append(logic_38172)
+from .rules import logic_38173
+RULES.append(logic_38173)
+from .rules import logic_38174
+RULES.append(logic_38174)
+from .rules import logic_38175
+RULES.append(logic_38175)
+from .rules import logic_38176
+RULES.append(logic_38176)
+from .rules import logic_38177
+RULES.append(logic_38177)
+from .rules import logic_38178
+RULES.append(logic_38178)
+from .rules import logic_38179
+RULES.append(logic_38179)
+from .rules import logic_38180
+RULES.append(logic_38180)
+from .rules import logic_38181
+RULES.append(logic_38181)
+from .rules import logic_38182
+RULES.append(logic_38182)
+from .rules import logic_38183
+RULES.append(logic_38183)
+from .rules import logic_38184
+RULES.append(logic_38184)
+from .rules import logic_38185
+RULES.append(logic_38185)
+from .rules import logic_38186
+RULES.append(logic_38186)
+from .rules import logic_38187
+RULES.append(logic_38187)
+from .rules import logic_38188
+RULES.append(logic_38188)
+from .rules import logic_38189
+RULES.append(logic_38189)
+from .rules import logic_38190
+RULES.append(logic_38190)
+from .rules import logic_38191
+RULES.append(logic_38191)
+from .rules import logic_38192
+RULES.append(logic_38192)
+from .rules import logic_38193
+RULES.append(logic_38193)
+from .rules import logic_38194
+RULES.append(logic_38194)
+from .rules import logic_38195
+RULES.append(logic_38195)
+from .rules import logic_38196
+RULES.append(logic_38196)
+from .rules import logic_38197
+RULES.append(logic_38197)
+from .rules import logic_38198
+RULES.append(logic_38198)
+from .rules import logic_38199
+RULES.append(logic_38199)
+from .rules import logic_38200
+RULES.append(logic_38200)
+from .rules import logic_38201
+RULES.append(logic_38201)
+from .rules import logic_38202
+RULES.append(logic_38202)
+from .rules import logic_38203
+RULES.append(logic_38203)
+from .rules import logic_38204
+RULES.append(logic_38204)
+from .rules import logic_38205
+RULES.append(logic_38205)
+from .rules import logic_38206
+RULES.append(logic_38206)
+from .rules import logic_38207
+RULES.append(logic_38207)
+from .rules import logic_38208
+RULES.append(logic_38208)
+from .rules import logic_38209
+RULES.append(logic_38209)
+from .rules import logic_38210
+RULES.append(logic_38210)
+from .rules import logic_38211
+RULES.append(logic_38211)
+from .rules import logic_38212
+RULES.append(logic_38212)
+from .rules import logic_38213
+RULES.append(logic_38213)
+from .rules import logic_38214
+RULES.append(logic_38214)
+from .rules import logic_38215
+RULES.append(logic_38215)
+from .rules import logic_38216
+RULES.append(logic_38216)
+from .rules import logic_38217
+RULES.append(logic_38217)
+from .rules import logic_38218
+RULES.append(logic_38218)
+from .rules import logic_38219
+RULES.append(logic_38219)
+from .rules import logic_38220
+RULES.append(logic_38220)
+from .rules import logic_38221
+RULES.append(logic_38221)
+from .rules import logic_38222
+RULES.append(logic_38222)
+from .rules import logic_38223
+RULES.append(logic_38223)
+from .rules import logic_38224
+RULES.append(logic_38224)
+from .rules import logic_38225
+RULES.append(logic_38225)
+from .rules import logic_38226
+RULES.append(logic_38226)
+from .rules import logic_38227
+RULES.append(logic_38227)
+from .rules import logic_38228
+RULES.append(logic_38228)
+from .rules import logic_38229
+RULES.append(logic_38229)
+from .rules import logic_38230
+RULES.append(logic_38230)
+from .rules import logic_38231
+RULES.append(logic_38231)
+from .rules import logic_38232
+RULES.append(logic_38232)
+from .rules import logic_38233
+RULES.append(logic_38233)
+from .rules import logic_38234
+RULES.append(logic_38234)
+from .rules import logic_38235
+RULES.append(logic_38235)
+from .rules import logic_38236
+RULES.append(logic_38236)
+from .rules import logic_38237
+RULES.append(logic_38237)
+from .rules import logic_38238
+RULES.append(logic_38238)
+from .rules import logic_38239
+RULES.append(logic_38239)
+from .rules import logic_38240
+RULES.append(logic_38240)
+from .rules import logic_38241
+RULES.append(logic_38241)
+from .rules import logic_38242
+RULES.append(logic_38242)
+from .rules import logic_38243
+RULES.append(logic_38243)
+from .rules import logic_38244
+RULES.append(logic_38244)
+from .rules import logic_38245
+RULES.append(logic_38245)
+from .rules import logic_38246
+RULES.append(logic_38246)
+from .rules import logic_38247
+RULES.append(logic_38247)
+from .rules import logic_38248
+RULES.append(logic_38248)
+from .rules import logic_38249
+RULES.append(logic_38249)
+from .rules import logic_38250
+RULES.append(logic_38250)
+from .rules import logic_38251
+RULES.append(logic_38251)
+from .rules import logic_38252
+RULES.append(logic_38252)
+from .rules import logic_38253
+RULES.append(logic_38253)
+from .rules import logic_38254
+RULES.append(logic_38254)
+from .rules import logic_38255
+RULES.append(logic_38255)
+from .rules import logic_38256
+RULES.append(logic_38256)
+from .rules import logic_38257
+RULES.append(logic_38257)
+from .rules import logic_38258
+RULES.append(logic_38258)
+from .rules import logic_38259
+RULES.append(logic_38259)
+from .rules import logic_38260
+RULES.append(logic_38260)
+from .rules import logic_38261
+RULES.append(logic_38261)
+from .rules import logic_38262
+RULES.append(logic_38262)
+from .rules import logic_38263
+RULES.append(logic_38263)
+from .rules import logic_38264
+RULES.append(logic_38264)
+from .rules import logic_38265
+RULES.append(logic_38265)
+from .rules import logic_38266
+RULES.append(logic_38266)
+from .rules import logic_38267
+RULES.append(logic_38267)
+from .rules import logic_38268
+RULES.append(logic_38268)
+from .rules import logic_38269
+RULES.append(logic_38269)
+from .rules import logic_38270
+RULES.append(logic_38270)
+from .rules import logic_38271
+RULES.append(logic_38271)
+from .rules import logic_38272
+RULES.append(logic_38272)
+from .rules import logic_38273
+RULES.append(logic_38273)
+from .rules import logic_38274
+RULES.append(logic_38274)
+from .rules import logic_38275
+RULES.append(logic_38275)
+from .rules import logic_38276
+RULES.append(logic_38276)
+from .rules import logic_38277
+RULES.append(logic_38277)
+from .rules import logic_38278
+RULES.append(logic_38278)
+from .rules import logic_38279
+RULES.append(logic_38279)
+from .rules import logic_38280
+RULES.append(logic_38280)
+from .rules import logic_38281
+RULES.append(logic_38281)
+from .rules import logic_38282
+RULES.append(logic_38282)
+from .rules import logic_38283
+RULES.append(logic_38283)
+from .rules import logic_38284
+RULES.append(logic_38284)
+from .rules import logic_38285
+RULES.append(logic_38285)
+from .rules import logic_38286
+RULES.append(logic_38286)
+from .rules import logic_38287
+RULES.append(logic_38287)
+from .rules import logic_38288
+RULES.append(logic_38288)
+from .rules import logic_38289
+RULES.append(logic_38289)
+from .rules import logic_38290
+RULES.append(logic_38290)
+from .rules import logic_38291
+RULES.append(logic_38291)
+from .rules import logic_38292
+RULES.append(logic_38292)
+from .rules import logic_38293
+RULES.append(logic_38293)
+from .rules import logic_38294
+RULES.append(logic_38294)
+from .rules import logic_38295
+RULES.append(logic_38295)
+from .rules import logic_38296
+RULES.append(logic_38296)
+from .rules import logic_38297
+RULES.append(logic_38297)
+from .rules import logic_38298
+RULES.append(logic_38298)
+from .rules import logic_38299
+RULES.append(logic_38299)
+from .rules import logic_38300
+RULES.append(logic_38300)
+from .rules import logic_38301
+RULES.append(logic_38301)
+from .rules import logic_38302
+RULES.append(logic_38302)
+from .rules import logic_38303
+RULES.append(logic_38303)
+from .rules import logic_38304
+RULES.append(logic_38304)
+from .rules import logic_38305
+RULES.append(logic_38305)
+from .rules import logic_38306
+RULES.append(logic_38306)
+from .rules import logic_38307
+RULES.append(logic_38307)
+from .rules import logic_38308
+RULES.append(logic_38308)
+from .rules import logic_38309
+RULES.append(logic_38309)
+from .rules import logic_38310
+RULES.append(logic_38310)
+from .rules import logic_38311
+RULES.append(logic_38311)
+from .rules import logic_38312
+RULES.append(logic_38312)
+from .rules import logic_38313
+RULES.append(logic_38313)
+from .rules import logic_38314
+RULES.append(logic_38314)
+from .rules import logic_38315
+RULES.append(logic_38315)
+from .rules import logic_38316
+RULES.append(logic_38316)
+from .rules import logic_38317
+RULES.append(logic_38317)
+from .rules import logic_38318
+RULES.append(logic_38318)
+from .rules import logic_38319
+RULES.append(logic_38319)
+from .rules import logic_38320
+RULES.append(logic_38320)
+from .rules import logic_38321
+RULES.append(logic_38321)
+from .rules import logic_38322
+RULES.append(logic_38322)
+from .rules import logic_38323
+RULES.append(logic_38323)
+from .rules import logic_38324
+RULES.append(logic_38324)
+from .rules import logic_38325
+RULES.append(logic_38325)
+from .rules import logic_38326
+RULES.append(logic_38326)
+from .rules import logic_38327
+RULES.append(logic_38327)
+from .rules import logic_38328
+RULES.append(logic_38328)
+from .rules import logic_38329
+RULES.append(logic_38329)
+from .rules import logic_38330
+RULES.append(logic_38330)
+from .rules import logic_38331
+RULES.append(logic_38331)
+from .rules import logic_38332
+RULES.append(logic_38332)
+from .rules import logic_38333
+RULES.append(logic_38333)
+from .rules import logic_38334
+RULES.append(logic_38334)
+from .rules import logic_38335
+RULES.append(logic_38335)
+from .rules import logic_38336
+RULES.append(logic_38336)
+from .rules import logic_38337
+RULES.append(logic_38337)
+from .rules import logic_38338
+RULES.append(logic_38338)
+from .rules import logic_38339
+RULES.append(logic_38339)
+from .rules import logic_38340
+RULES.append(logic_38340)
+from .rules import logic_38341
+RULES.append(logic_38341)
+from .rules import logic_38342
+RULES.append(logic_38342)
+from .rules import logic_38343
+RULES.append(logic_38343)
+from .rules import logic_38344
+RULES.append(logic_38344)
+from .rules import logic_38345
+RULES.append(logic_38345)
+from .rules import logic_38346
+RULES.append(logic_38346)
+from .rules import logic_38347
+RULES.append(logic_38347)
+from .rules import logic_38348
+RULES.append(logic_38348)
+from .rules import logic_38349
+RULES.append(logic_38349)
+from .rules import logic_38350
+RULES.append(logic_38350)
+from .rules import logic_38351
+RULES.append(logic_38351)
+from .rules import logic_38352
+RULES.append(logic_38352)
+from .rules import logic_38353
+RULES.append(logic_38353)
+from .rules import logic_38354
+RULES.append(logic_38354)
+from .rules import logic_38355
+RULES.append(logic_38355)
+from .rules import logic_38356
+RULES.append(logic_38356)
+from .rules import logic_38357
+RULES.append(logic_38357)
+from .rules import logic_38358
+RULES.append(logic_38358)
+from .rules import logic_38359
+RULES.append(logic_38359)
+from .rules import logic_38360
+RULES.append(logic_38360)
+from .rules import logic_38361
+RULES.append(logic_38361)
+from .rules import logic_38362
+RULES.append(logic_38362)
+from .rules import logic_38363
+RULES.append(logic_38363)
+from .rules import logic_38364
+RULES.append(logic_38364)
+from .rules import logic_38365
+RULES.append(logic_38365)
+from .rules import logic_38366
+RULES.append(logic_38366)
+from .rules import logic_38367
+RULES.append(logic_38367)
+from .rules import logic_38368
+RULES.append(logic_38368)
+from .rules import logic_38369
+RULES.append(logic_38369)
+from .rules import logic_38370
+RULES.append(logic_38370)
+from .rules import logic_38371
+RULES.append(logic_38371)
+from .rules import logic_38372
+RULES.append(logic_38372)
+from .rules import logic_38373
+RULES.append(logic_38373)
+from .rules import logic_38374
+RULES.append(logic_38374)
+from .rules import logic_38375
+RULES.append(logic_38375)
+from .rules import logic_38376
+RULES.append(logic_38376)
+from .rules import logic_38377
+RULES.append(logic_38377)
+from .rules import logic_38378
+RULES.append(logic_38378)
+from .rules import logic_38379
+RULES.append(logic_38379)
+from .rules import logic_38380
+RULES.append(logic_38380)
+from .rules import logic_38381
+RULES.append(logic_38381)
+from .rules import logic_38382
+RULES.append(logic_38382)
+from .rules import logic_38383
+RULES.append(logic_38383)
+from .rules import logic_38384
+RULES.append(logic_38384)
+from .rules import logic_38385
+RULES.append(logic_38385)
+from .rules import logic_38386
+RULES.append(logic_38386)
+from .rules import logic_38387
+RULES.append(logic_38387)
+from .rules import logic_38388
+RULES.append(logic_38388)
+from .rules import logic_38389
+RULES.append(logic_38389)
+from .rules import logic_38390
+RULES.append(logic_38390)
+from .rules import logic_38391
+RULES.append(logic_38391)
+from .rules import logic_38392
+RULES.append(logic_38392)
+from .rules import logic_38393
+RULES.append(logic_38393)
+from .rules import logic_38394
+RULES.append(logic_38394)
+from .rules import logic_38395
+RULES.append(logic_38395)
+from .rules import logic_38396
+RULES.append(logic_38396)
+from .rules import logic_38397
+RULES.append(logic_38397)
+from .rules import logic_38398
+RULES.append(logic_38398)
+from .rules import logic_38399
+RULES.append(logic_38399)
+from .rules import logic_38400
+RULES.append(logic_38400)
+from .rules import logic_38401
+RULES.append(logic_38401)
+from .rules import logic_38402
+RULES.append(logic_38402)
+from .rules import logic_38403
+RULES.append(logic_38403)
+from .rules import logic_38404
+RULES.append(logic_38404)
+from .rules import logic_38405
+RULES.append(logic_38405)
+from .rules import logic_38406
+RULES.append(logic_38406)
+from .rules import logic_38407
+RULES.append(logic_38407)
+from .rules import logic_38408
+RULES.append(logic_38408)
+from .rules import logic_38409
+RULES.append(logic_38409)
+from .rules import logic_38410
+RULES.append(logic_38410)
+from .rules import logic_38411
+RULES.append(logic_38411)
+from .rules import logic_38412
+RULES.append(logic_38412)
+from .rules import logic_38413
+RULES.append(logic_38413)
+from .rules import logic_38414
+RULES.append(logic_38414)
+from .rules import logic_38415
+RULES.append(logic_38415)
+from .rules import logic_38416
+RULES.append(logic_38416)
+from .rules import logic_38417
+RULES.append(logic_38417)
+from .rules import logic_38418
+RULES.append(logic_38418)
+from .rules import logic_38419
+RULES.append(logic_38419)
+from .rules import logic_38420
+RULES.append(logic_38420)
+from .rules import logic_38421
+RULES.append(logic_38421)
+from .rules import logic_38422
+RULES.append(logic_38422)
+from .rules import logic_38423
+RULES.append(logic_38423)
+from .rules import logic_38424
+RULES.append(logic_38424)
+from .rules import logic_38425
+RULES.append(logic_38425)
+from .rules import logic_38426
+RULES.append(logic_38426)
+from .rules import logic_38427
+RULES.append(logic_38427)
+from .rules import logic_38428
+RULES.append(logic_38428)
+from .rules import logic_38429
+RULES.append(logic_38429)
+from .rules import logic_38430
+RULES.append(logic_38430)
+from .rules import logic_38431
+RULES.append(logic_38431)
+from .rules import logic_38432
+RULES.append(logic_38432)
+from .rules import logic_38433
+RULES.append(logic_38433)
+from .rules import logic_38434
+RULES.append(logic_38434)
+from .rules import logic_38435
+RULES.append(logic_38435)
+from .rules import logic_38436
+RULES.append(logic_38436)
+from .rules import logic_38437
+RULES.append(logic_38437)
+from .rules import logic_38438
+RULES.append(logic_38438)
+from .rules import logic_38439
+RULES.append(logic_38439)
+from .rules import logic_38440
+RULES.append(logic_38440)
+from .rules import logic_38441
+RULES.append(logic_38441)
+from .rules import logic_38442
+RULES.append(logic_38442)
+from .rules import logic_38443
+RULES.append(logic_38443)
+from .rules import logic_38444
+RULES.append(logic_38444)
+from .rules import logic_38445
+RULES.append(logic_38445)
+from .rules import logic_38446
+RULES.append(logic_38446)
+from .rules import logic_38447
+RULES.append(logic_38447)
+from .rules import logic_38448
+RULES.append(logic_38448)
+from .rules import logic_38449
+RULES.append(logic_38449)
+from .rules import logic_38450
+RULES.append(logic_38450)
+from .rules import logic_38451
+RULES.append(logic_38451)
+from .rules import logic_38452
+RULES.append(logic_38452)
+from .rules import logic_38453
+RULES.append(logic_38453)
+from .rules import logic_38454
+RULES.append(logic_38454)
+from .rules import logic_38455
+RULES.append(logic_38455)
+from .rules import logic_38456
+RULES.append(logic_38456)
+from .rules import logic_38457
+RULES.append(logic_38457)
+from .rules import logic_38458
+RULES.append(logic_38458)
+from .rules import logic_38459
+RULES.append(logic_38459)
+from .rules import logic_38460
+RULES.append(logic_38460)
+from .rules import logic_38461
+RULES.append(logic_38461)
+from .rules import logic_38462
+RULES.append(logic_38462)
+from .rules import logic_38463
+RULES.append(logic_38463)
+from .rules import logic_38464
+RULES.append(logic_38464)
+from .rules import logic_38465
+RULES.append(logic_38465)
+from .rules import logic_38466
+RULES.append(logic_38466)
+from .rules import logic_38467
+RULES.append(logic_38467)
+from .rules import logic_38468
+RULES.append(logic_38468)
+from .rules import logic_38469
+RULES.append(logic_38469)
+from .rules import logic_38470
+RULES.append(logic_38470)
+from .rules import logic_38471
+RULES.append(logic_38471)
+from .rules import logic_38472
+RULES.append(logic_38472)
+from .rules import logic_38473
+RULES.append(logic_38473)
+from .rules import logic_38474
+RULES.append(logic_38474)
+from .rules import logic_38475
+RULES.append(logic_38475)
+from .rules import logic_38476
+RULES.append(logic_38476)
+from .rules import logic_38477
+RULES.append(logic_38477)
+from .rules import logic_38478
+RULES.append(logic_38478)
+from .rules import logic_38479
+RULES.append(logic_38479)
+from .rules import logic_38480
+RULES.append(logic_38480)
+from .rules import logic_38481
+RULES.append(logic_38481)
+from .rules import logic_38482
+RULES.append(logic_38482)
+from .rules import logic_38483
+RULES.append(logic_38483)
+from .rules import logic_38484
+RULES.append(logic_38484)
+from .rules import logic_38485
+RULES.append(logic_38485)
+from .rules import logic_38486
+RULES.append(logic_38486)
+from .rules import logic_38487
+RULES.append(logic_38487)
+from .rules import logic_38488
+RULES.append(logic_38488)
+from .rules import logic_38489
+RULES.append(logic_38489)
+from .rules import logic_38490
+RULES.append(logic_38490)
+from .rules import logic_38491
+RULES.append(logic_38491)
+from .rules import logic_38492
+RULES.append(logic_38492)
+from .rules import logic_38493
+RULES.append(logic_38493)
+from .rules import logic_38494
+RULES.append(logic_38494)
+from .rules import logic_38495
+RULES.append(logic_38495)
+from .rules import logic_38496
+RULES.append(logic_38496)
+from .rules import logic_38497
+RULES.append(logic_38497)
+from .rules import logic_38498
+RULES.append(logic_38498)
+from .rules import logic_38499
+RULES.append(logic_38499)
+from .rules import logic_38500
+RULES.append(logic_38500)
+from .rules import logic_38501
+RULES.append(logic_38501)
+from .rules import logic_38502
+RULES.append(logic_38502)
+from .rules import logic_38503
+RULES.append(logic_38503)
+from .rules import logic_38504
+RULES.append(logic_38504)
+from .rules import logic_38505
+RULES.append(logic_38505)
+from .rules import logic_38506
+RULES.append(logic_38506)
+from .rules import logic_38507
+RULES.append(logic_38507)
+from .rules import logic_38508
+RULES.append(logic_38508)
+from .rules import logic_38509
+RULES.append(logic_38509)
+from .rules import logic_38510
+RULES.append(logic_38510)
+from .rules import logic_38511
+RULES.append(logic_38511)
+from .rules import logic_38512
+RULES.append(logic_38512)
+from .rules import logic_38513
+RULES.append(logic_38513)
+from .rules import logic_38514
+RULES.append(logic_38514)
+from .rules import logic_38515
+RULES.append(logic_38515)
+from .rules import logic_38516
+RULES.append(logic_38516)
+from .rules import logic_38517
+RULES.append(logic_38517)
+from .rules import logic_38518
+RULES.append(logic_38518)
+from .rules import logic_38519
+RULES.append(logic_38519)
+from .rules import logic_38520
+RULES.append(logic_38520)
+from .rules import logic_38521
+RULES.append(logic_38521)
+from .rules import logic_38522
+RULES.append(logic_38522)
+from .rules import logic_38523
+RULES.append(logic_38523)
+from .rules import logic_38524
+RULES.append(logic_38524)
+from .rules import logic_38525
+RULES.append(logic_38525)
+from .rules import logic_38526
+RULES.append(logic_38526)
+from .rules import logic_38527
+RULES.append(logic_38527)
+from .rules import logic_38528
+RULES.append(logic_38528)
+from .rules import logic_38529
+RULES.append(logic_38529)
+from .rules import logic_38530
+RULES.append(logic_38530)
+from .rules import logic_38531
+RULES.append(logic_38531)
+from .rules import logic_38532
+RULES.append(logic_38532)
+from .rules import logic_38533
+RULES.append(logic_38533)
+from .rules import logic_38534
+RULES.append(logic_38534)
+from .rules import logic_38535
+RULES.append(logic_38535)
+from .rules import logic_38536
+RULES.append(logic_38536)
+from .rules import logic_38537
+RULES.append(logic_38537)
+from .rules import logic_38538
+RULES.append(logic_38538)
+from .rules import logic_38539
+RULES.append(logic_38539)
+from .rules import logic_38540
+RULES.append(logic_38540)
+from .rules import logic_38541
+RULES.append(logic_38541)
+from .rules import logic_38542
+RULES.append(logic_38542)
+from .rules import logic_38543
+RULES.append(logic_38543)
+from .rules import logic_38544
+RULES.append(logic_38544)
+from .rules import logic_38545
+RULES.append(logic_38545)
+from .rules import logic_38546
+RULES.append(logic_38546)
+from .rules import logic_38547
+RULES.append(logic_38547)
+from .rules import logic_38548
+RULES.append(logic_38548)
+from .rules import logic_38549
+RULES.append(logic_38549)
+from .rules import logic_38550
+RULES.append(logic_38550)
+from .rules import logic_38551
+RULES.append(logic_38551)
+from .rules import logic_38552
+RULES.append(logic_38552)
+from .rules import logic_38553
+RULES.append(logic_38553)
+from .rules import logic_38554
+RULES.append(logic_38554)
+from .rules import logic_38555
+RULES.append(logic_38555)
+from .rules import logic_38556
+RULES.append(logic_38556)
+from .rules import logic_38557
+RULES.append(logic_38557)
+from .rules import logic_38558
+RULES.append(logic_38558)
+from .rules import logic_38559
+RULES.append(logic_38559)
+from .rules import logic_38560
+RULES.append(logic_38560)
+from .rules import logic_38561
+RULES.append(logic_38561)
+from .rules import logic_38562
+RULES.append(logic_38562)
+from .rules import logic_38563
+RULES.append(logic_38563)
+from .rules import logic_38564
+RULES.append(logic_38564)
+from .rules import logic_38565
+RULES.append(logic_38565)
+from .rules import logic_38566
+RULES.append(logic_38566)
+from .rules import logic_38567
+RULES.append(logic_38567)
+from .rules import logic_38568
+RULES.append(logic_38568)
+from .rules import logic_38569
+RULES.append(logic_38569)
+from .rules import logic_38570
+RULES.append(logic_38570)
+from .rules import logic_38571
+RULES.append(logic_38571)
+from .rules import logic_38572
+RULES.append(logic_38572)
+from .rules import logic_38573
+RULES.append(logic_38573)
+from .rules import logic_38574
+RULES.append(logic_38574)
+from .rules import logic_38575
+RULES.append(logic_38575)
+from .rules import logic_38576
+RULES.append(logic_38576)
+from .rules import logic_38577
+RULES.append(logic_38577)
+from .rules import logic_38578
+RULES.append(logic_38578)
+from .rules import logic_38579
+RULES.append(logic_38579)
+from .rules import logic_38580
+RULES.append(logic_38580)
+from .rules import logic_38581
+RULES.append(logic_38581)
+from .rules import logic_38582
+RULES.append(logic_38582)
+from .rules import logic_38583
+RULES.append(logic_38583)
+from .rules import logic_38584
+RULES.append(logic_38584)
+from .rules import logic_38585
+RULES.append(logic_38585)
+from .rules import logic_38586
+RULES.append(logic_38586)
+from .rules import logic_38587
+RULES.append(logic_38587)
+from .rules import logic_38588
+RULES.append(logic_38588)
+from .rules import logic_38589
+RULES.append(logic_38589)
+from .rules import logic_38590
+RULES.append(logic_38590)
+from .rules import logic_38591
+RULES.append(logic_38591)
+from .rules import logic_38592
+RULES.append(logic_38592)
+from .rules import logic_38593
+RULES.append(logic_38593)
+from .rules import logic_38594
+RULES.append(logic_38594)
+from .rules import logic_38595
+RULES.append(logic_38595)
+from .rules import logic_38596
+RULES.append(logic_38596)
+from .rules import logic_38597
+RULES.append(logic_38597)
+from .rules import logic_38598
+RULES.append(logic_38598)
+from .rules import logic_38599
+RULES.append(logic_38599)
+from .rules import logic_38600
+RULES.append(logic_38600)
+from .rules import logic_38601
+RULES.append(logic_38601)
+from .rules import logic_38602
+RULES.append(logic_38602)
+from .rules import logic_38603
+RULES.append(logic_38603)
+from .rules import logic_38604
+RULES.append(logic_38604)
+from .rules import logic_38605
+RULES.append(logic_38605)
+from .rules import logic_38606
+RULES.append(logic_38606)
+from .rules import logic_38607
+RULES.append(logic_38607)
+from .rules import logic_38608
+RULES.append(logic_38608)
+from .rules import logic_38609
+RULES.append(logic_38609)
+from .rules import logic_38610
+RULES.append(logic_38610)
+from .rules import logic_38611
+RULES.append(logic_38611)
+from .rules import logic_38612
+RULES.append(logic_38612)
+from .rules import logic_38613
+RULES.append(logic_38613)
+from .rules import logic_38614
+RULES.append(logic_38614)
+from .rules import logic_38615
+RULES.append(logic_38615)
+from .rules import logic_38616
+RULES.append(logic_38616)
+from .rules import logic_38617
+RULES.append(logic_38617)
+from .rules import logic_38618
+RULES.append(logic_38618)
+from .rules import logic_38619
+RULES.append(logic_38619)
+from .rules import logic_38620
+RULES.append(logic_38620)
+from .rules import logic_38621
+RULES.append(logic_38621)
+from .rules import logic_38622
+RULES.append(logic_38622)
+from .rules import logic_38623
+RULES.append(logic_38623)
+from .rules import logic_38624
+RULES.append(logic_38624)
+from .rules import logic_38625
+RULES.append(logic_38625)
+from .rules import logic_38626
+RULES.append(logic_38626)
+from .rules import logic_38627
+RULES.append(logic_38627)
+from .rules import logic_38628
+RULES.append(logic_38628)
+from .rules import logic_38629
+RULES.append(logic_38629)
+from .rules import logic_38630
+RULES.append(logic_38630)
+from .rules import logic_38631
+RULES.append(logic_38631)
+from .rules import logic_38632
+RULES.append(logic_38632)
+from .rules import logic_38633
+RULES.append(logic_38633)
+from .rules import logic_38634
+RULES.append(logic_38634)
+from .rules import logic_38635
+RULES.append(logic_38635)
+from .rules import logic_38636
+RULES.append(logic_38636)
+from .rules import logic_38637
+RULES.append(logic_38637)
+from .rules import logic_38638
+RULES.append(logic_38638)
+from .rules import logic_38639
+RULES.append(logic_38639)
+from .rules import logic_38640
+RULES.append(logic_38640)
+from .rules import logic_38641
+RULES.append(logic_38641)
+from .rules import logic_38642
+RULES.append(logic_38642)
+from .rules import logic_38643
+RULES.append(logic_38643)
+from .rules import logic_38644
+RULES.append(logic_38644)
+from .rules import logic_38645
+RULES.append(logic_38645)
+from .rules import logic_38646
+RULES.append(logic_38646)
+from .rules import logic_38647
+RULES.append(logic_38647)
+from .rules import logic_38648
+RULES.append(logic_38648)
+from .rules import logic_38649
+RULES.append(logic_38649)
+from .rules import logic_38650
+RULES.append(logic_38650)
+from .rules import logic_38651
+RULES.append(logic_38651)
+from .rules import logic_38652
+RULES.append(logic_38652)
+from .rules import logic_38653
+RULES.append(logic_38653)
+from .rules import logic_38654
+RULES.append(logic_38654)
+from .rules import logic_38655
+RULES.append(logic_38655)
+from .rules import logic_38656
+RULES.append(logic_38656)
+from .rules import logic_38657
+RULES.append(logic_38657)
+from .rules import logic_38658
+RULES.append(logic_38658)
+from .rules import logic_38659
+RULES.append(logic_38659)
+from .rules import logic_38660
+RULES.append(logic_38660)
+from .rules import logic_38661
+RULES.append(logic_38661)
+from .rules import logic_38662
+RULES.append(logic_38662)
+from .rules import logic_38663
+RULES.append(logic_38663)
+from .rules import logic_38664
+RULES.append(logic_38664)
+from .rules import logic_38665
+RULES.append(logic_38665)
+from .rules import logic_38666
+RULES.append(logic_38666)
+from .rules import logic_38667
+RULES.append(logic_38667)
+from .rules import logic_38668
+RULES.append(logic_38668)
+from .rules import logic_38669
+RULES.append(logic_38669)
+from .rules import logic_38670
+RULES.append(logic_38670)
+from .rules import logic_38671
+RULES.append(logic_38671)
+from .rules import logic_38672
+RULES.append(logic_38672)
+from .rules import logic_38673
+RULES.append(logic_38673)
+from .rules import logic_38674
+RULES.append(logic_38674)
+from .rules import logic_38675
+RULES.append(logic_38675)
+from .rules import logic_38676
+RULES.append(logic_38676)
+from .rules import logic_38677
+RULES.append(logic_38677)
+from .rules import logic_38678
+RULES.append(logic_38678)
+from .rules import logic_38679
+RULES.append(logic_38679)
+from .rules import logic_38680
+RULES.append(logic_38680)
+from .rules import logic_38681
+RULES.append(logic_38681)
+from .rules import logic_38682
+RULES.append(logic_38682)
+from .rules import logic_38683
+RULES.append(logic_38683)
+from .rules import logic_38684
+RULES.append(logic_38684)
+from .rules import logic_38685
+RULES.append(logic_38685)
+from .rules import logic_38686
+RULES.append(logic_38686)
+from .rules import logic_38687
+RULES.append(logic_38687)
+from .rules import logic_38688
+RULES.append(logic_38688)
+from .rules import logic_38689
+RULES.append(logic_38689)
+from .rules import logic_38690
+RULES.append(logic_38690)
+from .rules import logic_38691
+RULES.append(logic_38691)
+from .rules import logic_38692
+RULES.append(logic_38692)
+from .rules import logic_38693
+RULES.append(logic_38693)
+from .rules import logic_38694
+RULES.append(logic_38694)
+from .rules import logic_38695
+RULES.append(logic_38695)
+from .rules import logic_38696
+RULES.append(logic_38696)
+from .rules import logic_38697
+RULES.append(logic_38697)
+from .rules import logic_38698
+RULES.append(logic_38698)
+from .rules import logic_38699
+RULES.append(logic_38699)
+from .rules import logic_38700
+RULES.append(logic_38700)
+from .rules import logic_38701
+RULES.append(logic_38701)
+from .rules import logic_38702
+RULES.append(logic_38702)
+from .rules import logic_38703
+RULES.append(logic_38703)
+from .rules import logic_38704
+RULES.append(logic_38704)
+from .rules import logic_38705
+RULES.append(logic_38705)
+from .rules import logic_38706
+RULES.append(logic_38706)
+from .rules import logic_38707
+RULES.append(logic_38707)
+from .rules import logic_38708
+RULES.append(logic_38708)
+from .rules import logic_38709
+RULES.append(logic_38709)
+from .rules import logic_38710
+RULES.append(logic_38710)
+from .rules import logic_38711
+RULES.append(logic_38711)
+from .rules import logic_38712
+RULES.append(logic_38712)
+from .rules import logic_38713
+RULES.append(logic_38713)
+from .rules import logic_38714
+RULES.append(logic_38714)
+from .rules import logic_38715
+RULES.append(logic_38715)
+from .rules import logic_38716
+RULES.append(logic_38716)
+from .rules import logic_38717
+RULES.append(logic_38717)
+from .rules import logic_38718
+RULES.append(logic_38718)
+from .rules import logic_38719
+RULES.append(logic_38719)
+from .rules import logic_38720
+RULES.append(logic_38720)
+from .rules import logic_38721
+RULES.append(logic_38721)
+from .rules import logic_38722
+RULES.append(logic_38722)
+from .rules import logic_38723
+RULES.append(logic_38723)
+from .rules import logic_38724
+RULES.append(logic_38724)
+from .rules import logic_38725
+RULES.append(logic_38725)
+from .rules import logic_38726
+RULES.append(logic_38726)
+from .rules import logic_38727
+RULES.append(logic_38727)
+from .rules import logic_38728
+RULES.append(logic_38728)
+from .rules import logic_38729
+RULES.append(logic_38729)
+from .rules import logic_38730
+RULES.append(logic_38730)
+from .rules import logic_38731
+RULES.append(logic_38731)
+from .rules import logic_38732
+RULES.append(logic_38732)
+from .rules import logic_38733
+RULES.append(logic_38733)
+from .rules import logic_38734
+RULES.append(logic_38734)
+from .rules import logic_38735
+RULES.append(logic_38735)
+from .rules import logic_38736
+RULES.append(logic_38736)
+from .rules import logic_38737
+RULES.append(logic_38737)
+from .rules import logic_38738
+RULES.append(logic_38738)
+from .rules import logic_38739
+RULES.append(logic_38739)
+from .rules import logic_38740
+RULES.append(logic_38740)
+from .rules import logic_38741
+RULES.append(logic_38741)
+from .rules import logic_38742
+RULES.append(logic_38742)
+from .rules import logic_38743
+RULES.append(logic_38743)
+from .rules import logic_38744
+RULES.append(logic_38744)
+from .rules import logic_38745
+RULES.append(logic_38745)
+from .rules import logic_38746
+RULES.append(logic_38746)
+from .rules import logic_38747
+RULES.append(logic_38747)
+from .rules import logic_38748
+RULES.append(logic_38748)
+from .rules import logic_38749
+RULES.append(logic_38749)
+from .rules import logic_38750
+RULES.append(logic_38750)
+from .rules import logic_38751
+RULES.append(logic_38751)
+from .rules import logic_38752
+RULES.append(logic_38752)
+from .rules import logic_38753
+RULES.append(logic_38753)
+from .rules import logic_38754
+RULES.append(logic_38754)
+from .rules import logic_38755
+RULES.append(logic_38755)
+from .rules import logic_38756
+RULES.append(logic_38756)
+from .rules import logic_38757
+RULES.append(logic_38757)
+from .rules import logic_38758
+RULES.append(logic_38758)
+from .rules import logic_38759
+RULES.append(logic_38759)
+from .rules import logic_38760
+RULES.append(logic_38760)
+from .rules import logic_38761
+RULES.append(logic_38761)
+from .rules import logic_38762
+RULES.append(logic_38762)
+from .rules import logic_38763
+RULES.append(logic_38763)
+from .rules import logic_38764
+RULES.append(logic_38764)
+from .rules import logic_38765
+RULES.append(logic_38765)
+from .rules import logic_38766
+RULES.append(logic_38766)
+from .rules import logic_38767
+RULES.append(logic_38767)
+from .rules import logic_38768
+RULES.append(logic_38768)
+from .rules import logic_38769
+RULES.append(logic_38769)
+from .rules import logic_38770
+RULES.append(logic_38770)
+from .rules import logic_38771
+RULES.append(logic_38771)
+from .rules import logic_38772
+RULES.append(logic_38772)
+from .rules import logic_38773
+RULES.append(logic_38773)
+from .rules import logic_38774
+RULES.append(logic_38774)
+from .rules import logic_38775
+RULES.append(logic_38775)
+from .rules import logic_38776
+RULES.append(logic_38776)
+from .rules import logic_38777
+RULES.append(logic_38777)
+from .rules import logic_38778
+RULES.append(logic_38778)
+from .rules import logic_38779
+RULES.append(logic_38779)
+from .rules import logic_38780
+RULES.append(logic_38780)
+from .rules import logic_38781
+RULES.append(logic_38781)
+from .rules import logic_38782
+RULES.append(logic_38782)
+from .rules import logic_38783
+RULES.append(logic_38783)
+from .rules import logic_38784
+RULES.append(logic_38784)
+from .rules import logic_38785
+RULES.append(logic_38785)
+from .rules import logic_38786
+RULES.append(logic_38786)
+from .rules import logic_38787
+RULES.append(logic_38787)
+from .rules import logic_38788
+RULES.append(logic_38788)
+from .rules import logic_38789
+RULES.append(logic_38789)
+from .rules import logic_38790
+RULES.append(logic_38790)
+from .rules import logic_38791
+RULES.append(logic_38791)
+from .rules import logic_38792
+RULES.append(logic_38792)
+from .rules import logic_38793
+RULES.append(logic_38793)
+from .rules import logic_38794
+RULES.append(logic_38794)
+from .rules import logic_38795
+RULES.append(logic_38795)
+from .rules import logic_38796
+RULES.append(logic_38796)
+from .rules import logic_38797
+RULES.append(logic_38797)
+from .rules import logic_38798
+RULES.append(logic_38798)
+from .rules import logic_38799
+RULES.append(logic_38799)
+from .rules import logic_38800
+RULES.append(logic_38800)
+from .rules import logic_38801
+RULES.append(logic_38801)
+from .rules import logic_38802
+RULES.append(logic_38802)
+from .rules import logic_38803
+RULES.append(logic_38803)
+from .rules import logic_38804
+RULES.append(logic_38804)
+from .rules import logic_38805
+RULES.append(logic_38805)
+from .rules import logic_38806
+RULES.append(logic_38806)
+from .rules import logic_38807
+RULES.append(logic_38807)
+from .rules import logic_38808
+RULES.append(logic_38808)
+from .rules import logic_38809
+RULES.append(logic_38809)
+from .rules import logic_38810
+RULES.append(logic_38810)
+from .rules import logic_38811
+RULES.append(logic_38811)
+from .rules import logic_38812
+RULES.append(logic_38812)
+from .rules import logic_38813
+RULES.append(logic_38813)
+from .rules import logic_38814
+RULES.append(logic_38814)
+from .rules import logic_38815
+RULES.append(logic_38815)
+from .rules import logic_38816
+RULES.append(logic_38816)
+from .rules import logic_38817
+RULES.append(logic_38817)
+from .rules import logic_38818
+RULES.append(logic_38818)
+from .rules import logic_38819
+RULES.append(logic_38819)
+from .rules import logic_38820
+RULES.append(logic_38820)
+from .rules import logic_38821
+RULES.append(logic_38821)
+from .rules import logic_38822
+RULES.append(logic_38822)
+from .rules import logic_38823
+RULES.append(logic_38823)
+from .rules import logic_38824
+RULES.append(logic_38824)
+from .rules import logic_38825
+RULES.append(logic_38825)
+from .rules import logic_38826
+RULES.append(logic_38826)
+from .rules import logic_38827
+RULES.append(logic_38827)
+from .rules import logic_38828
+RULES.append(logic_38828)
+from .rules import logic_38829
+RULES.append(logic_38829)
+from .rules import logic_38830
+RULES.append(logic_38830)
+from .rules import logic_38831
+RULES.append(logic_38831)
+from .rules import logic_38832
+RULES.append(logic_38832)
+from .rules import logic_38833
+RULES.append(logic_38833)
+from .rules import logic_38834
+RULES.append(logic_38834)
+from .rules import logic_38835
+RULES.append(logic_38835)
+from .rules import logic_38836
+RULES.append(logic_38836)
+from .rules import logic_38837
+RULES.append(logic_38837)
+from .rules import logic_38838
+RULES.append(logic_38838)
+from .rules import logic_38839
+RULES.append(logic_38839)
+from .rules import logic_38840
+RULES.append(logic_38840)
+from .rules import logic_38841
+RULES.append(logic_38841)
+from .rules import logic_38842
+RULES.append(logic_38842)
+from .rules import logic_38843
+RULES.append(logic_38843)
+from .rules import logic_38844
+RULES.append(logic_38844)
+from .rules import logic_38845
+RULES.append(logic_38845)
+from .rules import logic_38846
+RULES.append(logic_38846)
+from .rules import logic_38847
+RULES.append(logic_38847)
+from .rules import logic_38848
+RULES.append(logic_38848)
+from .rules import logic_38849
+RULES.append(logic_38849)
+from .rules import logic_38850
+RULES.append(logic_38850)
+from .rules import logic_38851
+RULES.append(logic_38851)
+from .rules import logic_38852
+RULES.append(logic_38852)
+from .rules import logic_38853
+RULES.append(logic_38853)
+from .rules import logic_38854
+RULES.append(logic_38854)
+from .rules import logic_38855
+RULES.append(logic_38855)
+from .rules import logic_38856
+RULES.append(logic_38856)
+from .rules import logic_38857
+RULES.append(logic_38857)
+from .rules import logic_38858
+RULES.append(logic_38858)
+from .rules import logic_38859
+RULES.append(logic_38859)
+from .rules import logic_38860
+RULES.append(logic_38860)
+from .rules import logic_38861
+RULES.append(logic_38861)
+from .rules import logic_38862
+RULES.append(logic_38862)
+from .rules import logic_38863
+RULES.append(logic_38863)
+from .rules import logic_38864
+RULES.append(logic_38864)
+from .rules import logic_38865
+RULES.append(logic_38865)
+from .rules import logic_38866
+RULES.append(logic_38866)
+from .rules import logic_38867
+RULES.append(logic_38867)
+from .rules import logic_38868
+RULES.append(logic_38868)
+from .rules import logic_38869
+RULES.append(logic_38869)
+from .rules import logic_38870
+RULES.append(logic_38870)
+from .rules import logic_38871
+RULES.append(logic_38871)
+from .rules import logic_38872
+RULES.append(logic_38872)
+from .rules import logic_38873
+RULES.append(logic_38873)
+from .rules import logic_38874
+RULES.append(logic_38874)
+from .rules import logic_38875
+RULES.append(logic_38875)
+from .rules import logic_38876
+RULES.append(logic_38876)
+from .rules import logic_38877
+RULES.append(logic_38877)
+from .rules import logic_38878
+RULES.append(logic_38878)
+from .rules import logic_38879
+RULES.append(logic_38879)
+from .rules import logic_38880
+RULES.append(logic_38880)
+from .rules import logic_38881
+RULES.append(logic_38881)
+from .rules import logic_38882
+RULES.append(logic_38882)
+from .rules import logic_38883
+RULES.append(logic_38883)
+from .rules import logic_38884
+RULES.append(logic_38884)
+from .rules import logic_38885
+RULES.append(logic_38885)
+from .rules import logic_38886
+RULES.append(logic_38886)
+from .rules import logic_38887
+RULES.append(logic_38887)
+from .rules import logic_38888
+RULES.append(logic_38888)
+from .rules import logic_38889
+RULES.append(logic_38889)
+from .rules import logic_38890
+RULES.append(logic_38890)
+from .rules import logic_38891
+RULES.append(logic_38891)
+from .rules import logic_38892
+RULES.append(logic_38892)
+from .rules import logic_38893
+RULES.append(logic_38893)
+from .rules import logic_38894
+RULES.append(logic_38894)
+from .rules import logic_38895
+RULES.append(logic_38895)
+from .rules import logic_38896
+RULES.append(logic_38896)
+from .rules import logic_38897
+RULES.append(logic_38897)
+from .rules import logic_38898
+RULES.append(logic_38898)
+from .rules import logic_38899
+RULES.append(logic_38899)
+from .rules import logic_38900
+RULES.append(logic_38900)
+from .rules import logic_38901
+RULES.append(logic_38901)
+from .rules import logic_38902
+RULES.append(logic_38902)
+from .rules import logic_38903
+RULES.append(logic_38903)
+from .rules import logic_38904
+RULES.append(logic_38904)
+from .rules import logic_38905
+RULES.append(logic_38905)
+from .rules import logic_38906
+RULES.append(logic_38906)
+from .rules import logic_38907
+RULES.append(logic_38907)
+from .rules import logic_38908
+RULES.append(logic_38908)
+from .rules import logic_38909
+RULES.append(logic_38909)
+from .rules import logic_38910
+RULES.append(logic_38910)
+from .rules import logic_38911
+RULES.append(logic_38911)
+from .rules import logic_38912
+RULES.append(logic_38912)
+from .rules import logic_38913
+RULES.append(logic_38913)
+from .rules import logic_38914
+RULES.append(logic_38914)
+from .rules import logic_38915
+RULES.append(logic_38915)
+from .rules import logic_38916
+RULES.append(logic_38916)
+from .rules import logic_38917
+RULES.append(logic_38917)
+from .rules import logic_38918
+RULES.append(logic_38918)
+from .rules import logic_38919
+RULES.append(logic_38919)
+from .rules import logic_38920
+RULES.append(logic_38920)
+from .rules import logic_38921
+RULES.append(logic_38921)
+from .rules import logic_38922
+RULES.append(logic_38922)
+from .rules import logic_38923
+RULES.append(logic_38923)
+from .rules import logic_38924
+RULES.append(logic_38924)
+from .rules import logic_38925
+RULES.append(logic_38925)
+from .rules import logic_38926
+RULES.append(logic_38926)
+from .rules import logic_38927
+RULES.append(logic_38927)
+from .rules import logic_38928
+RULES.append(logic_38928)
+from .rules import logic_38929
+RULES.append(logic_38929)
+from .rules import logic_38930
+RULES.append(logic_38930)
+from .rules import logic_38931
+RULES.append(logic_38931)
+from .rules import logic_38932
+RULES.append(logic_38932)
+from .rules import logic_38933
+RULES.append(logic_38933)
+from .rules import logic_38934
+RULES.append(logic_38934)
+from .rules import logic_38935
+RULES.append(logic_38935)
+from .rules import logic_38936
+RULES.append(logic_38936)
+from .rules import logic_38937
+RULES.append(logic_38937)
+from .rules import logic_38938
+RULES.append(logic_38938)
+from .rules import logic_38939
+RULES.append(logic_38939)
+from .rules import logic_38940
+RULES.append(logic_38940)
+from .rules import logic_38941
+RULES.append(logic_38941)
+from .rules import logic_38942
+RULES.append(logic_38942)
+from .rules import logic_38943
+RULES.append(logic_38943)
+from .rules import logic_38944
+RULES.append(logic_38944)
+from .rules import logic_38945
+RULES.append(logic_38945)
+from .rules import logic_38946
+RULES.append(logic_38946)
+from .rules import logic_38947
+RULES.append(logic_38947)
+from .rules import logic_38948
+RULES.append(logic_38948)
+from .rules import logic_38949
+RULES.append(logic_38949)
+from .rules import logic_38950
+RULES.append(logic_38950)
+from .rules import logic_38951
+RULES.append(logic_38951)
+from .rules import logic_38952
+RULES.append(logic_38952)
+from .rules import logic_38953
+RULES.append(logic_38953)
+from .rules import logic_38954
+RULES.append(logic_38954)
+from .rules import logic_38955
+RULES.append(logic_38955)
+from .rules import logic_38956
+RULES.append(logic_38956)
+from .rules import logic_38957
+RULES.append(logic_38957)
+from .rules import logic_38958
+RULES.append(logic_38958)
+from .rules import logic_38959
+RULES.append(logic_38959)
+from .rules import logic_38960
+RULES.append(logic_38960)
+from .rules import logic_38961
+RULES.append(logic_38961)
+from .rules import logic_38962
+RULES.append(logic_38962)
+from .rules import logic_38963
+RULES.append(logic_38963)
+from .rules import logic_38964
+RULES.append(logic_38964)
+from .rules import logic_38965
+RULES.append(logic_38965)
+from .rules import logic_38966
+RULES.append(logic_38966)
+from .rules import logic_38967
+RULES.append(logic_38967)
+from .rules import logic_38968
+RULES.append(logic_38968)
+from .rules import logic_38969
+RULES.append(logic_38969)
+from .rules import logic_38970
+RULES.append(logic_38970)
+from .rules import logic_38971
+RULES.append(logic_38971)
+from .rules import logic_38972
+RULES.append(logic_38972)
+from .rules import logic_38973
+RULES.append(logic_38973)
+from .rules import logic_38974
+RULES.append(logic_38974)
+from .rules import logic_38975
+RULES.append(logic_38975)
+from .rules import logic_38976
+RULES.append(logic_38976)
+from .rules import logic_38977
+RULES.append(logic_38977)
+from .rules import logic_38978
+RULES.append(logic_38978)
+from .rules import logic_38979
+RULES.append(logic_38979)
+from .rules import logic_38980
+RULES.append(logic_38980)
+from .rules import logic_38981
+RULES.append(logic_38981)
+from .rules import logic_38982
+RULES.append(logic_38982)
+from .rules import logic_38983
+RULES.append(logic_38983)
+from .rules import logic_38984
+RULES.append(logic_38984)
+from .rules import logic_38985
+RULES.append(logic_38985)
+from .rules import logic_38986
+RULES.append(logic_38986)
+from .rules import logic_38987
+RULES.append(logic_38987)
+from .rules import logic_38988
+RULES.append(logic_38988)
+from .rules import logic_38989
+RULES.append(logic_38989)
+from .rules import logic_38990
+RULES.append(logic_38990)
+from .rules import logic_38991
+RULES.append(logic_38991)
+from .rules import logic_38992
+RULES.append(logic_38992)
+from .rules import logic_38993
+RULES.append(logic_38993)
+from .rules import logic_38994
+RULES.append(logic_38994)
+from .rules import logic_38995
+RULES.append(logic_38995)
+from .rules import logic_38996
+RULES.append(logic_38996)
+from .rules import logic_38997
+RULES.append(logic_38997)
+from .rules import logic_38998
+RULES.append(logic_38998)
+from .rules import logic_38999
+RULES.append(logic_38999)
+from .rules import logic_39000
+RULES.append(logic_39000)
+from .rules import logic_39001
+RULES.append(logic_39001)
+from .rules import logic_39002
+RULES.append(logic_39002)
+from .rules import logic_39003
+RULES.append(logic_39003)
+from .rules import logic_39004
+RULES.append(logic_39004)
+from .rules import logic_39005
+RULES.append(logic_39005)
+from .rules import logic_39006
+RULES.append(logic_39006)
+from .rules import logic_39007
+RULES.append(logic_39007)
+from .rules import logic_39008
+RULES.append(logic_39008)
+from .rules import logic_39009
+RULES.append(logic_39009)
+from .rules import logic_39010
+RULES.append(logic_39010)
+from .rules import logic_39011
+RULES.append(logic_39011)
+from .rules import logic_39012
+RULES.append(logic_39012)
+from .rules import logic_39013
+RULES.append(logic_39013)
+from .rules import logic_39014
+RULES.append(logic_39014)
+from .rules import logic_39015
+RULES.append(logic_39015)
+from .rules import logic_39016
+RULES.append(logic_39016)
+from .rules import logic_39017
+RULES.append(logic_39017)
+from .rules import logic_39018
+RULES.append(logic_39018)
+from .rules import logic_39019
+RULES.append(logic_39019)
+from .rules import logic_39020
+RULES.append(logic_39020)
+from .rules import logic_39021
+RULES.append(logic_39021)
+from .rules import logic_39022
+RULES.append(logic_39022)
+from .rules import logic_39023
+RULES.append(logic_39023)
+from .rules import logic_39024
+RULES.append(logic_39024)
+from .rules import logic_39025
+RULES.append(logic_39025)
+from .rules import logic_39026
+RULES.append(logic_39026)
+from .rules import logic_39027
+RULES.append(logic_39027)
+from .rules import logic_39028
+RULES.append(logic_39028)
+from .rules import logic_39029
+RULES.append(logic_39029)
+from .rules import logic_39030
+RULES.append(logic_39030)
+from .rules import logic_39031
+RULES.append(logic_39031)
+from .rules import logic_39032
+RULES.append(logic_39032)
+from .rules import logic_39033
+RULES.append(logic_39033)
+from .rules import logic_39034
+RULES.append(logic_39034)
+from .rules import logic_39035
+RULES.append(logic_39035)
+from .rules import logic_39036
+RULES.append(logic_39036)
+from .rules import logic_39037
+RULES.append(logic_39037)
+from .rules import logic_39038
+RULES.append(logic_39038)
+from .rules import logic_39039
+RULES.append(logic_39039)
+from .rules import logic_39040
+RULES.append(logic_39040)
+from .rules import logic_39041
+RULES.append(logic_39041)
+from .rules import logic_39042
+RULES.append(logic_39042)
+from .rules import logic_39043
+RULES.append(logic_39043)
+from .rules import logic_39044
+RULES.append(logic_39044)
+from .rules import logic_39045
+RULES.append(logic_39045)
+from .rules import logic_39046
+RULES.append(logic_39046)
+from .rules import logic_39047
+RULES.append(logic_39047)
+from .rules import logic_39048
+RULES.append(logic_39048)
+from .rules import logic_39049
+RULES.append(logic_39049)
+from .rules import logic_39050
+RULES.append(logic_39050)
+from .rules import logic_39051
+RULES.append(logic_39051)
+from .rules import logic_39052
+RULES.append(logic_39052)
+from .rules import logic_39053
+RULES.append(logic_39053)
+from .rules import logic_39054
+RULES.append(logic_39054)
+from .rules import logic_39055
+RULES.append(logic_39055)
+from .rules import logic_39056
+RULES.append(logic_39056)
+from .rules import logic_39057
+RULES.append(logic_39057)
+from .rules import logic_39058
+RULES.append(logic_39058)
+from .rules import logic_39059
+RULES.append(logic_39059)
+from .rules import logic_39060
+RULES.append(logic_39060)
+from .rules import logic_39061
+RULES.append(logic_39061)
+from .rules import logic_39062
+RULES.append(logic_39062)
+from .rules import logic_39063
+RULES.append(logic_39063)
+from .rules import logic_39064
+RULES.append(logic_39064)
+from .rules import logic_39065
+RULES.append(logic_39065)
+from .rules import logic_39066
+RULES.append(logic_39066)
+from .rules import logic_39067
+RULES.append(logic_39067)
+from .rules import logic_39068
+RULES.append(logic_39068)
+from .rules import logic_39069
+RULES.append(logic_39069)
+from .rules import logic_39070
+RULES.append(logic_39070)
+from .rules import logic_39071
+RULES.append(logic_39071)
+from .rules import logic_39072
+RULES.append(logic_39072)
+from .rules import logic_39073
+RULES.append(logic_39073)
+from .rules import logic_39074
+RULES.append(logic_39074)
+from .rules import logic_39075
+RULES.append(logic_39075)
+from .rules import logic_39076
+RULES.append(logic_39076)
+from .rules import logic_39077
+RULES.append(logic_39077)
+from .rules import logic_39078
+RULES.append(logic_39078)
+from .rules import logic_39079
+RULES.append(logic_39079)
+from .rules import logic_39080
+RULES.append(logic_39080)
+from .rules import logic_39081
+RULES.append(logic_39081)
+from .rules import logic_39082
+RULES.append(logic_39082)
+from .rules import logic_39083
+RULES.append(logic_39083)
+from .rules import logic_39084
+RULES.append(logic_39084)
+from .rules import logic_39085
+RULES.append(logic_39085)
+from .rules import logic_39086
+RULES.append(logic_39086)
+from .rules import logic_39087
+RULES.append(logic_39087)
+from .rules import logic_39088
+RULES.append(logic_39088)
+from .rules import logic_39089
+RULES.append(logic_39089)
+from .rules import logic_39090
+RULES.append(logic_39090)
+from .rules import logic_39091
+RULES.append(logic_39091)
+from .rules import logic_39092
+RULES.append(logic_39092)
+from .rules import logic_39093
+RULES.append(logic_39093)
+from .rules import logic_39094
+RULES.append(logic_39094)
+from .rules import logic_39095
+RULES.append(logic_39095)
+from .rules import logic_39096
+RULES.append(logic_39096)
+from .rules import logic_39097
+RULES.append(logic_39097)
+from .rules import logic_39098
+RULES.append(logic_39098)
+from .rules import logic_39099
+RULES.append(logic_39099)
+from .rules import logic_39100
+RULES.append(logic_39100)
+from .rules import logic_39101
+RULES.append(logic_39101)
+from .rules import logic_39102
+RULES.append(logic_39102)
+from .rules import logic_39103
+RULES.append(logic_39103)
+from .rules import logic_39104
+RULES.append(logic_39104)
+from .rules import logic_39105
+RULES.append(logic_39105)
+from .rules import logic_39106
+RULES.append(logic_39106)
+from .rules import logic_39107
+RULES.append(logic_39107)
+from .rules import logic_39108
+RULES.append(logic_39108)
+from .rules import logic_39109
+RULES.append(logic_39109)
+from .rules import logic_39110
+RULES.append(logic_39110)
+from .rules import logic_39111
+RULES.append(logic_39111)
+from .rules import logic_39112
+RULES.append(logic_39112)
+from .rules import logic_39113
+RULES.append(logic_39113)
+from .rules import logic_39114
+RULES.append(logic_39114)
+from .rules import logic_39115
+RULES.append(logic_39115)
+from .rules import logic_39116
+RULES.append(logic_39116)
+from .rules import logic_39117
+RULES.append(logic_39117)
+from .rules import logic_39118
+RULES.append(logic_39118)
+from .rules import logic_39119
+RULES.append(logic_39119)
+from .rules import logic_39120
+RULES.append(logic_39120)
+from .rules import logic_39121
+RULES.append(logic_39121)
+from .rules import logic_39122
+RULES.append(logic_39122)
+from .rules import logic_39123
+RULES.append(logic_39123)
+from .rules import logic_39124
+RULES.append(logic_39124)
+from .rules import logic_39125
+RULES.append(logic_39125)
+from .rules import logic_39126
+RULES.append(logic_39126)
+from .rules import logic_39127
+RULES.append(logic_39127)
+from .rules import logic_39128
+RULES.append(logic_39128)
+from .rules import logic_39129
+RULES.append(logic_39129)
+from .rules import logic_39130
+RULES.append(logic_39130)
+from .rules import logic_39131
+RULES.append(logic_39131)
+from .rules import logic_39132
+RULES.append(logic_39132)
+from .rules import logic_39133
+RULES.append(logic_39133)
+from .rules import logic_39134
+RULES.append(logic_39134)
+from .rules import logic_39135
+RULES.append(logic_39135)
+from .rules import logic_39136
+RULES.append(logic_39136)
+from .rules import logic_39137
+RULES.append(logic_39137)
+from .rules import logic_39138
+RULES.append(logic_39138)
+from .rules import logic_39139
+RULES.append(logic_39139)
+from .rules import logic_39140
+RULES.append(logic_39140)
+from .rules import logic_39141
+RULES.append(logic_39141)
+from .rules import logic_39142
+RULES.append(logic_39142)
+from .rules import logic_39143
+RULES.append(logic_39143)
+from .rules import logic_39144
+RULES.append(logic_39144)
+from .rules import logic_39145
+RULES.append(logic_39145)
+from .rules import logic_39146
+RULES.append(logic_39146)
+from .rules import logic_39147
+RULES.append(logic_39147)
+from .rules import logic_39148
+RULES.append(logic_39148)
+from .rules import logic_39149
+RULES.append(logic_39149)
+from .rules import logic_39150
+RULES.append(logic_39150)
+from .rules import logic_39151
+RULES.append(logic_39151)
+from .rules import logic_39152
+RULES.append(logic_39152)
+from .rules import logic_39153
+RULES.append(logic_39153)
+from .rules import logic_39154
+RULES.append(logic_39154)
+from .rules import logic_39155
+RULES.append(logic_39155)
+from .rules import logic_39156
+RULES.append(logic_39156)
+from .rules import logic_39157
+RULES.append(logic_39157)
+from .rules import logic_39158
+RULES.append(logic_39158)
+from .rules import logic_39159
+RULES.append(logic_39159)
+from .rules import logic_39160
+RULES.append(logic_39160)
+from .rules import logic_39161
+RULES.append(logic_39161)
+from .rules import logic_39162
+RULES.append(logic_39162)
+from .rules import logic_39163
+RULES.append(logic_39163)
+from .rules import logic_39164
+RULES.append(logic_39164)
+from .rules import logic_39165
+RULES.append(logic_39165)
+from .rules import logic_39166
+RULES.append(logic_39166)
+from .rules import logic_39167
+RULES.append(logic_39167)
+from .rules import logic_39168
+RULES.append(logic_39168)
+from .rules import logic_39169
+RULES.append(logic_39169)
+from .rules import logic_39170
+RULES.append(logic_39170)
+from .rules import logic_39171
+RULES.append(logic_39171)
+from .rules import logic_39172
+RULES.append(logic_39172)
+from .rules import logic_39173
+RULES.append(logic_39173)
+from .rules import logic_39174
+RULES.append(logic_39174)
+from .rules import logic_39175
+RULES.append(logic_39175)
+from .rules import logic_39176
+RULES.append(logic_39176)
+from .rules import logic_39177
+RULES.append(logic_39177)
+from .rules import logic_39178
+RULES.append(logic_39178)
+from .rules import logic_39179
+RULES.append(logic_39179)
+from .rules import logic_39180
+RULES.append(logic_39180)
+from .rules import logic_39181
+RULES.append(logic_39181)
+from .rules import logic_39182
+RULES.append(logic_39182)
+from .rules import logic_39183
+RULES.append(logic_39183)
+from .rules import logic_39184
+RULES.append(logic_39184)
+from .rules import logic_39185
+RULES.append(logic_39185)
+from .rules import logic_39186
+RULES.append(logic_39186)
+from .rules import logic_39187
+RULES.append(logic_39187)
+from .rules import logic_39188
+RULES.append(logic_39188)
+from .rules import logic_39189
+RULES.append(logic_39189)
+from .rules import logic_39190
+RULES.append(logic_39190)
+from .rules import logic_39191
+RULES.append(logic_39191)
+from .rules import logic_39192
+RULES.append(logic_39192)
+from .rules import logic_39193
+RULES.append(logic_39193)
+from .rules import logic_39194
+RULES.append(logic_39194)
+from .rules import logic_39195
+RULES.append(logic_39195)
+from .rules import logic_39196
+RULES.append(logic_39196)
+from .rules import logic_39197
+RULES.append(logic_39197)
+from .rules import logic_39198
+RULES.append(logic_39198)
+from .rules import logic_39199
+RULES.append(logic_39199)
+from .rules import logic_39200
+RULES.append(logic_39200)
+from .rules import logic_39201
+RULES.append(logic_39201)
+from .rules import logic_39202
+RULES.append(logic_39202)
+from .rules import logic_39203
+RULES.append(logic_39203)
+from .rules import logic_39204
+RULES.append(logic_39204)
+from .rules import logic_39205
+RULES.append(logic_39205)
+from .rules import logic_39206
+RULES.append(logic_39206)
+from .rules import logic_39207
+RULES.append(logic_39207)
+from .rules import logic_39208
+RULES.append(logic_39208)
+from .rules import logic_39209
+RULES.append(logic_39209)
+from .rules import logic_39210
+RULES.append(logic_39210)
+from .rules import logic_39211
+RULES.append(logic_39211)
+from .rules import logic_39212
+RULES.append(logic_39212)
+from .rules import logic_39213
+RULES.append(logic_39213)
+from .rules import logic_39214
+RULES.append(logic_39214)
+from .rules import logic_39215
+RULES.append(logic_39215)
+from .rules import logic_39216
+RULES.append(logic_39216)
+from .rules import logic_39217
+RULES.append(logic_39217)
+from .rules import logic_39218
+RULES.append(logic_39218)
+from .rules import logic_39219
+RULES.append(logic_39219)
+from .rules import logic_39220
+RULES.append(logic_39220)
+from .rules import logic_39221
+RULES.append(logic_39221)
+from .rules import logic_39222
+RULES.append(logic_39222)
+from .rules import logic_39223
+RULES.append(logic_39223)
+from .rules import logic_39224
+RULES.append(logic_39224)
+from .rules import logic_39225
+RULES.append(logic_39225)
+from .rules import logic_39226
+RULES.append(logic_39226)
+from .rules import logic_39227
+RULES.append(logic_39227)
+from .rules import logic_39228
+RULES.append(logic_39228)
+from .rules import logic_39229
+RULES.append(logic_39229)
+from .rules import logic_39230
+RULES.append(logic_39230)
+from .rules import logic_39231
+RULES.append(logic_39231)
+from .rules import logic_39232
+RULES.append(logic_39232)
+from .rules import logic_39233
+RULES.append(logic_39233)
+from .rules import logic_39234
+RULES.append(logic_39234)
+from .rules import logic_39235
+RULES.append(logic_39235)
+from .rules import logic_39236
+RULES.append(logic_39236)
+from .rules import logic_39237
+RULES.append(logic_39237)
+from .rules import logic_39238
+RULES.append(logic_39238)
+from .rules import logic_39239
+RULES.append(logic_39239)
+from .rules import logic_39240
+RULES.append(logic_39240)
+from .rules import logic_39241
+RULES.append(logic_39241)
+from .rules import logic_39242
+RULES.append(logic_39242)
+from .rules import logic_39243
+RULES.append(logic_39243)
+from .rules import logic_39244
+RULES.append(logic_39244)
+from .rules import logic_39245
+RULES.append(logic_39245)
+from .rules import logic_39246
+RULES.append(logic_39246)
+from .rules import logic_39247
+RULES.append(logic_39247)
+from .rules import logic_39248
+RULES.append(logic_39248)
+from .rules import logic_39249
+RULES.append(logic_39249)
+from .rules import logic_39250
+RULES.append(logic_39250)
+from .rules import logic_39251
+RULES.append(logic_39251)
+from .rules import logic_39252
+RULES.append(logic_39252)
+from .rules import logic_39253
+RULES.append(logic_39253)
+from .rules import logic_39254
+RULES.append(logic_39254)
+from .rules import logic_39255
+RULES.append(logic_39255)
+from .rules import logic_39256
+RULES.append(logic_39256)
+from .rules import logic_39257
+RULES.append(logic_39257)
+from .rules import logic_39258
+RULES.append(logic_39258)
+from .rules import logic_39259
+RULES.append(logic_39259)
+from .rules import logic_39260
+RULES.append(logic_39260)
+from .rules import logic_39261
+RULES.append(logic_39261)
+from .rules import logic_39262
+RULES.append(logic_39262)
+from .rules import logic_39263
+RULES.append(logic_39263)
+from .rules import logic_39264
+RULES.append(logic_39264)
+from .rules import logic_39265
+RULES.append(logic_39265)
+from .rules import logic_39266
+RULES.append(logic_39266)
+from .rules import logic_39267
+RULES.append(logic_39267)
+from .rules import logic_39268
+RULES.append(logic_39268)
+from .rules import logic_39269
+RULES.append(logic_39269)
+from .rules import logic_39270
+RULES.append(logic_39270)
+from .rules import logic_39271
+RULES.append(logic_39271)
+from .rules import logic_39272
+RULES.append(logic_39272)
+from .rules import logic_39273
+RULES.append(logic_39273)
+from .rules import logic_39274
+RULES.append(logic_39274)
+from .rules import logic_39275
+RULES.append(logic_39275)
+from .rules import logic_39276
+RULES.append(logic_39276)
+from .rules import logic_39277
+RULES.append(logic_39277)
+from .rules import logic_39278
+RULES.append(logic_39278)
+from .rules import logic_39279
+RULES.append(logic_39279)
+from .rules import logic_39280
+RULES.append(logic_39280)
+from .rules import logic_39281
+RULES.append(logic_39281)
+from .rules import logic_39282
+RULES.append(logic_39282)
+from .rules import logic_39283
+RULES.append(logic_39283)
+from .rules import logic_39284
+RULES.append(logic_39284)
+from .rules import logic_39285
+RULES.append(logic_39285)
+from .rules import logic_39286
+RULES.append(logic_39286)
+from .rules import logic_39287
+RULES.append(logic_39287)
+from .rules import logic_39288
+RULES.append(logic_39288)
+from .rules import logic_39289
+RULES.append(logic_39289)
+from .rules import logic_39290
+RULES.append(logic_39290)
+from .rules import logic_39291
+RULES.append(logic_39291)
+from .rules import logic_39292
+RULES.append(logic_39292)
+from .rules import logic_39293
+RULES.append(logic_39293)
+from .rules import logic_39294
+RULES.append(logic_39294)
+from .rules import logic_39295
+RULES.append(logic_39295)
+from .rules import logic_39296
+RULES.append(logic_39296)
+from .rules import logic_39297
+RULES.append(logic_39297)
+from .rules import logic_39298
+RULES.append(logic_39298)
+from .rules import logic_39299
+RULES.append(logic_39299)
+from .rules import logic_39300
+RULES.append(logic_39300)
+from .rules import logic_39301
+RULES.append(logic_39301)
+from .rules import logic_39302
+RULES.append(logic_39302)
+from .rules import logic_39303
+RULES.append(logic_39303)
+from .rules import logic_39304
+RULES.append(logic_39304)
+from .rules import logic_39305
+RULES.append(logic_39305)
+from .rules import logic_39306
+RULES.append(logic_39306)
+from .rules import logic_39307
+RULES.append(logic_39307)
+from .rules import logic_39308
+RULES.append(logic_39308)
+from .rules import logic_39309
+RULES.append(logic_39309)
+from .rules import logic_39310
+RULES.append(logic_39310)
+from .rules import logic_39311
+RULES.append(logic_39311)
+from .rules import logic_39312
+RULES.append(logic_39312)
+from .rules import logic_39313
+RULES.append(logic_39313)
+from .rules import logic_39314
+RULES.append(logic_39314)
+from .rules import logic_39315
+RULES.append(logic_39315)
+from .rules import logic_39316
+RULES.append(logic_39316)
+from .rules import logic_39317
+RULES.append(logic_39317)
+from .rules import logic_39318
+RULES.append(logic_39318)
+from .rules import logic_39319
+RULES.append(logic_39319)
+from .rules import logic_39320
+RULES.append(logic_39320)
+from .rules import logic_39321
+RULES.append(logic_39321)
+from .rules import logic_39322
+RULES.append(logic_39322)
+from .rules import logic_39323
+RULES.append(logic_39323)
+from .rules import logic_39324
+RULES.append(logic_39324)
+from .rules import logic_39325
+RULES.append(logic_39325)
+from .rules import logic_39326
+RULES.append(logic_39326)
+from .rules import logic_39327
+RULES.append(logic_39327)
+from .rules import logic_39328
+RULES.append(logic_39328)
+from .rules import logic_39329
+RULES.append(logic_39329)
+from .rules import logic_39330
+RULES.append(logic_39330)
+from .rules import logic_39331
+RULES.append(logic_39331)
+from .rules import logic_39332
+RULES.append(logic_39332)
+from .rules import logic_39333
+RULES.append(logic_39333)
+from .rules import logic_39334
+RULES.append(logic_39334)
+from .rules import logic_39335
+RULES.append(logic_39335)
+from .rules import logic_39336
+RULES.append(logic_39336)
+from .rules import logic_39337
+RULES.append(logic_39337)
+from .rules import logic_39338
+RULES.append(logic_39338)
+from .rules import logic_39339
+RULES.append(logic_39339)
+from .rules import logic_39340
+RULES.append(logic_39340)
+from .rules import logic_39341
+RULES.append(logic_39341)
+from .rules import logic_39342
+RULES.append(logic_39342)
+from .rules import logic_39343
+RULES.append(logic_39343)
+from .rules import logic_39344
+RULES.append(logic_39344)
+from .rules import logic_39345
+RULES.append(logic_39345)
+from .rules import logic_39346
+RULES.append(logic_39346)
+from .rules import logic_39347
+RULES.append(logic_39347)
+from .rules import logic_39348
+RULES.append(logic_39348)
+from .rules import logic_39349
+RULES.append(logic_39349)
+from .rules import logic_39350
+RULES.append(logic_39350)
+from .rules import logic_39351
+RULES.append(logic_39351)
+from .rules import logic_39352
+RULES.append(logic_39352)
+from .rules import logic_39353
+RULES.append(logic_39353)
+from .rules import logic_39354
+RULES.append(logic_39354)
+from .rules import logic_39355
+RULES.append(logic_39355)
+from .rules import logic_39356
+RULES.append(logic_39356)
+from .rules import logic_39357
+RULES.append(logic_39357)
+from .rules import logic_39358
+RULES.append(logic_39358)
+from .rules import logic_39359
+RULES.append(logic_39359)
+from .rules import logic_39360
+RULES.append(logic_39360)
+from .rules import logic_39361
+RULES.append(logic_39361)
+from .rules import logic_39362
+RULES.append(logic_39362)
+from .rules import logic_39363
+RULES.append(logic_39363)
+from .rules import logic_39364
+RULES.append(logic_39364)
+from .rules import logic_39365
+RULES.append(logic_39365)
+from .rules import logic_39366
+RULES.append(logic_39366)
+from .rules import logic_39367
+RULES.append(logic_39367)
+from .rules import logic_39368
+RULES.append(logic_39368)
+from .rules import logic_39369
+RULES.append(logic_39369)
+from .rules import logic_39370
+RULES.append(logic_39370)
+from .rules import logic_39371
+RULES.append(logic_39371)
+from .rules import logic_39372
+RULES.append(logic_39372)
+from .rules import logic_39373
+RULES.append(logic_39373)
+from .rules import logic_39374
+RULES.append(logic_39374)
+from .rules import logic_39375
+RULES.append(logic_39375)
+from .rules import logic_39376
+RULES.append(logic_39376)
+from .rules import logic_39377
+RULES.append(logic_39377)
+from .rules import logic_39378
+RULES.append(logic_39378)
+from .rules import logic_39379
+RULES.append(logic_39379)
+from .rules import logic_39380
+RULES.append(logic_39380)
+from .rules import logic_39381
+RULES.append(logic_39381)
+from .rules import logic_39382
+RULES.append(logic_39382)
+from .rules import logic_39383
+RULES.append(logic_39383)
+from .rules import logic_39384
+RULES.append(logic_39384)
+from .rules import logic_39385
+RULES.append(logic_39385)
+from .rules import logic_39386
+RULES.append(logic_39386)
+from .rules import logic_39387
+RULES.append(logic_39387)
+from .rules import logic_39388
+RULES.append(logic_39388)
+from .rules import logic_39389
+RULES.append(logic_39389)
+from .rules import logic_39390
+RULES.append(logic_39390)
+from .rules import logic_39391
+RULES.append(logic_39391)
+from .rules import logic_39392
+RULES.append(logic_39392)
+from .rules import logic_39393
+RULES.append(logic_39393)
+from .rules import logic_39394
+RULES.append(logic_39394)
+from .rules import logic_39395
+RULES.append(logic_39395)
+from .rules import logic_39396
+RULES.append(logic_39396)
+from .rules import logic_39397
+RULES.append(logic_39397)
+from .rules import logic_39398
+RULES.append(logic_39398)
+from .rules import logic_39399
+RULES.append(logic_39399)
+from .rules import logic_39400
+RULES.append(logic_39400)
+from .rules import logic_39401
+RULES.append(logic_39401)
+from .rules import logic_39402
+RULES.append(logic_39402)
+from .rules import logic_39403
+RULES.append(logic_39403)
+from .rules import logic_39404
+RULES.append(logic_39404)
+from .rules import logic_39405
+RULES.append(logic_39405)
+from .rules import logic_39406
+RULES.append(logic_39406)
+from .rules import logic_39407
+RULES.append(logic_39407)
+from .rules import logic_39408
+RULES.append(logic_39408)
+from .rules import logic_39409
+RULES.append(logic_39409)
+from .rules import logic_39410
+RULES.append(logic_39410)
+from .rules import logic_39411
+RULES.append(logic_39411)
+from .rules import logic_39412
+RULES.append(logic_39412)
+from .rules import logic_39413
+RULES.append(logic_39413)
+from .rules import logic_39414
+RULES.append(logic_39414)
+from .rules import logic_39415
+RULES.append(logic_39415)
+from .rules import logic_39416
+RULES.append(logic_39416)
+from .rules import logic_39417
+RULES.append(logic_39417)
+from .rules import logic_39418
+RULES.append(logic_39418)
+from .rules import logic_39419
+RULES.append(logic_39419)
+from .rules import logic_39420
+RULES.append(logic_39420)
+from .rules import logic_39421
+RULES.append(logic_39421)
+from .rules import logic_39422
+RULES.append(logic_39422)
+from .rules import logic_39423
+RULES.append(logic_39423)
+from .rules import logic_39424
+RULES.append(logic_39424)
+from .rules import logic_39425
+RULES.append(logic_39425)
+from .rules import logic_39426
+RULES.append(logic_39426)
+from .rules import logic_39427
+RULES.append(logic_39427)
+from .rules import logic_39428
+RULES.append(logic_39428)
+from .rules import logic_39429
+RULES.append(logic_39429)
+from .rules import logic_39430
+RULES.append(logic_39430)
+from .rules import logic_39431
+RULES.append(logic_39431)
+from .rules import logic_39432
+RULES.append(logic_39432)
+from .rules import logic_39433
+RULES.append(logic_39433)
+from .rules import logic_39434
+RULES.append(logic_39434)
+from .rules import logic_39435
+RULES.append(logic_39435)
+from .rules import logic_39436
+RULES.append(logic_39436)
+from .rules import logic_39437
+RULES.append(logic_39437)
+from .rules import logic_39438
+RULES.append(logic_39438)
+from .rules import logic_39439
+RULES.append(logic_39439)
+from .rules import logic_39440
+RULES.append(logic_39440)
+from .rules import logic_39441
+RULES.append(logic_39441)
+from .rules import logic_39442
+RULES.append(logic_39442)
+from .rules import logic_39443
+RULES.append(logic_39443)
+from .rules import logic_39444
+RULES.append(logic_39444)
+from .rules import logic_39445
+RULES.append(logic_39445)
+from .rules import logic_39446
+RULES.append(logic_39446)
+from .rules import logic_39447
+RULES.append(logic_39447)
+from .rules import logic_39448
+RULES.append(logic_39448)
+from .rules import logic_39449
+RULES.append(logic_39449)
+from .rules import logic_39450
+RULES.append(logic_39450)
+from .rules import logic_39451
+RULES.append(logic_39451)
+from .rules import logic_39452
+RULES.append(logic_39452)
+from .rules import logic_39453
+RULES.append(logic_39453)
+from .rules import logic_39454
+RULES.append(logic_39454)
+from .rules import logic_39455
+RULES.append(logic_39455)
+from .rules import logic_39456
+RULES.append(logic_39456)
+from .rules import logic_39457
+RULES.append(logic_39457)
+from .rules import logic_39458
+RULES.append(logic_39458)
+from .rules import logic_39459
+RULES.append(logic_39459)
+from .rules import logic_39460
+RULES.append(logic_39460)
+from .rules import logic_39461
+RULES.append(logic_39461)
+from .rules import logic_39462
+RULES.append(logic_39462)
+from .rules import logic_39463
+RULES.append(logic_39463)
+from .rules import logic_39464
+RULES.append(logic_39464)
+from .rules import logic_39465
+RULES.append(logic_39465)
+from .rules import logic_39466
+RULES.append(logic_39466)
+from .rules import logic_39467
+RULES.append(logic_39467)
+from .rules import logic_39468
+RULES.append(logic_39468)
+from .rules import logic_39469
+RULES.append(logic_39469)
+from .rules import logic_39470
+RULES.append(logic_39470)
+from .rules import logic_39471
+RULES.append(logic_39471)
+from .rules import logic_39472
+RULES.append(logic_39472)
+from .rules import logic_39473
+RULES.append(logic_39473)
+from .rules import logic_39474
+RULES.append(logic_39474)
+from .rules import logic_39475
+RULES.append(logic_39475)
+from .rules import logic_39476
+RULES.append(logic_39476)
+from .rules import logic_39477
+RULES.append(logic_39477)
+from .rules import logic_39478
+RULES.append(logic_39478)
+from .rules import logic_39479
+RULES.append(logic_39479)
+from .rules import logic_39480
+RULES.append(logic_39480)
+from .rules import logic_39481
+RULES.append(logic_39481)
+from .rules import logic_39482
+RULES.append(logic_39482)
+from .rules import logic_39483
+RULES.append(logic_39483)
+from .rules import logic_39484
+RULES.append(logic_39484)
+from .rules import logic_39485
+RULES.append(logic_39485)
+from .rules import logic_39486
+RULES.append(logic_39486)
+from .rules import logic_39487
+RULES.append(logic_39487)
+from .rules import logic_39488
+RULES.append(logic_39488)
+from .rules import logic_39489
+RULES.append(logic_39489)
+from .rules import logic_39490
+RULES.append(logic_39490)
+from .rules import logic_39491
+RULES.append(logic_39491)
+from .rules import logic_39492
+RULES.append(logic_39492)
+from .rules import logic_39493
+RULES.append(logic_39493)
+from .rules import logic_39494
+RULES.append(logic_39494)
+from .rules import logic_39495
+RULES.append(logic_39495)
+from .rules import logic_39496
+RULES.append(logic_39496)
+from .rules import logic_39497
+RULES.append(logic_39497)
+from .rules import logic_39498
+RULES.append(logic_39498)
+from .rules import logic_39499
+RULES.append(logic_39499)
+from .rules import logic_39500
+RULES.append(logic_39500)
+from .rules import logic_39501
+RULES.append(logic_39501)
+from .rules import logic_39502
+RULES.append(logic_39502)
+from .rules import logic_39503
+RULES.append(logic_39503)
+from .rules import logic_39504
+RULES.append(logic_39504)
+from .rules import logic_39505
+RULES.append(logic_39505)
+from .rules import logic_39506
+RULES.append(logic_39506)
+from .rules import logic_39507
+RULES.append(logic_39507)
+from .rules import logic_39508
+RULES.append(logic_39508)
+from .rules import logic_39509
+RULES.append(logic_39509)
+from .rules import logic_39510
+RULES.append(logic_39510)
+from .rules import logic_39511
+RULES.append(logic_39511)
+from .rules import logic_39512
+RULES.append(logic_39512)
+from .rules import logic_39513
+RULES.append(logic_39513)
+from .rules import logic_39514
+RULES.append(logic_39514)
+from .rules import logic_39515
+RULES.append(logic_39515)
+from .rules import logic_39516
+RULES.append(logic_39516)
+from .rules import logic_39517
+RULES.append(logic_39517)
+from .rules import logic_39518
+RULES.append(logic_39518)
+from .rules import logic_39519
+RULES.append(logic_39519)
+from .rules import logic_39520
+RULES.append(logic_39520)
+from .rules import logic_39521
+RULES.append(logic_39521)
+from .rules import logic_39522
+RULES.append(logic_39522)
+from .rules import logic_39523
+RULES.append(logic_39523)
+from .rules import logic_39524
+RULES.append(logic_39524)
+from .rules import logic_39525
+RULES.append(logic_39525)
+from .rules import logic_39526
+RULES.append(logic_39526)
+from .rules import logic_39527
+RULES.append(logic_39527)
+from .rules import logic_39528
+RULES.append(logic_39528)
+from .rules import logic_39529
+RULES.append(logic_39529)
+from .rules import logic_39530
+RULES.append(logic_39530)
+from .rules import logic_39531
+RULES.append(logic_39531)
+from .rules import logic_39532
+RULES.append(logic_39532)
+from .rules import logic_39533
+RULES.append(logic_39533)
+from .rules import logic_39534
+RULES.append(logic_39534)
+from .rules import logic_39535
+RULES.append(logic_39535)
+from .rules import logic_39536
+RULES.append(logic_39536)
+from .rules import logic_39537
+RULES.append(logic_39537)
+from .rules import logic_39538
+RULES.append(logic_39538)
+from .rules import logic_39539
+RULES.append(logic_39539)
+from .rules import logic_39540
+RULES.append(logic_39540)
+from .rules import logic_39541
+RULES.append(logic_39541)
+from .rules import logic_39542
+RULES.append(logic_39542)
+from .rules import logic_39543
+RULES.append(logic_39543)
+from .rules import logic_39544
+RULES.append(logic_39544)
+from .rules import logic_39545
+RULES.append(logic_39545)
+from .rules import logic_39546
+RULES.append(logic_39546)
+from .rules import logic_39547
+RULES.append(logic_39547)
+from .rules import logic_39548
+RULES.append(logic_39548)
+from .rules import logic_39549
+RULES.append(logic_39549)
+from .rules import logic_39550
+RULES.append(logic_39550)
+from .rules import logic_39551
+RULES.append(logic_39551)
+from .rules import logic_39552
+RULES.append(logic_39552)
+from .rules import logic_39553
+RULES.append(logic_39553)
+from .rules import logic_39554
+RULES.append(logic_39554)
+from .rules import logic_39555
+RULES.append(logic_39555)
+from .rules import logic_39556
+RULES.append(logic_39556)
+from .rules import logic_39557
+RULES.append(logic_39557)
+from .rules import logic_39558
+RULES.append(logic_39558)
+from .rules import logic_39559
+RULES.append(logic_39559)
+from .rules import logic_39560
+RULES.append(logic_39560)
+from .rules import logic_39561
+RULES.append(logic_39561)
+from .rules import logic_39562
+RULES.append(logic_39562)
+from .rules import logic_39563
+RULES.append(logic_39563)
+from .rules import logic_39564
+RULES.append(logic_39564)
+from .rules import logic_39565
+RULES.append(logic_39565)
+from .rules import logic_39566
+RULES.append(logic_39566)
+from .rules import logic_39567
+RULES.append(logic_39567)
+from .rules import logic_39568
+RULES.append(logic_39568)
+from .rules import logic_39569
+RULES.append(logic_39569)
+from .rules import logic_39570
+RULES.append(logic_39570)
+from .rules import logic_39571
+RULES.append(logic_39571)
+from .rules import logic_39572
+RULES.append(logic_39572)
+from .rules import logic_39573
+RULES.append(logic_39573)
+from .rules import logic_39574
+RULES.append(logic_39574)
+from .rules import logic_39575
+RULES.append(logic_39575)
+from .rules import logic_39576
+RULES.append(logic_39576)
+from .rules import logic_39577
+RULES.append(logic_39577)
+from .rules import logic_39578
+RULES.append(logic_39578)
+from .rules import logic_39579
+RULES.append(logic_39579)
+from .rules import logic_39580
+RULES.append(logic_39580)
+from .rules import logic_39581
+RULES.append(logic_39581)
+from .rules import logic_39582
+RULES.append(logic_39582)
+from .rules import logic_39583
+RULES.append(logic_39583)
+from .rules import logic_39584
+RULES.append(logic_39584)
+from .rules import logic_39585
+RULES.append(logic_39585)
+from .rules import logic_39586
+RULES.append(logic_39586)
+from .rules import logic_39587
+RULES.append(logic_39587)
+from .rules import logic_39588
+RULES.append(logic_39588)
+from .rules import logic_39589
+RULES.append(logic_39589)
+from .rules import logic_39590
+RULES.append(logic_39590)
+from .rules import logic_39591
+RULES.append(logic_39591)
+from .rules import logic_39592
+RULES.append(logic_39592)
+from .rules import logic_39593
+RULES.append(logic_39593)
+from .rules import logic_39594
+RULES.append(logic_39594)
+from .rules import logic_39595
+RULES.append(logic_39595)
+from .rules import logic_39596
+RULES.append(logic_39596)
+from .rules import logic_39597
+RULES.append(logic_39597)
+from .rules import logic_39598
+RULES.append(logic_39598)
+from .rules import logic_39599
+RULES.append(logic_39599)
+from .rules import logic_39600
+RULES.append(logic_39600)
+from .rules import logic_39601
+RULES.append(logic_39601)
+from .rules import logic_39602
+RULES.append(logic_39602)
+from .rules import logic_39603
+RULES.append(logic_39603)
+from .rules import logic_39604
+RULES.append(logic_39604)
+from .rules import logic_39605
+RULES.append(logic_39605)
+from .rules import logic_39606
+RULES.append(logic_39606)
+from .rules import logic_39607
+RULES.append(logic_39607)
+from .rules import logic_39608
+RULES.append(logic_39608)
+from .rules import logic_39609
+RULES.append(logic_39609)
+from .rules import logic_39610
+RULES.append(logic_39610)
+from .rules import logic_39611
+RULES.append(logic_39611)
+from .rules import logic_39612
+RULES.append(logic_39612)
+from .rules import logic_39613
+RULES.append(logic_39613)
+from .rules import logic_39614
+RULES.append(logic_39614)
+from .rules import logic_39615
+RULES.append(logic_39615)
+from .rules import logic_39616
+RULES.append(logic_39616)
+from .rules import logic_39617
+RULES.append(logic_39617)
+from .rules import logic_39618
+RULES.append(logic_39618)
+from .rules import logic_39619
+RULES.append(logic_39619)
+from .rules import logic_39620
+RULES.append(logic_39620)
+from .rules import logic_39621
+RULES.append(logic_39621)
+from .rules import logic_39622
+RULES.append(logic_39622)
+from .rules import logic_39623
+RULES.append(logic_39623)
+from .rules import logic_39624
+RULES.append(logic_39624)
+from .rules import logic_39625
+RULES.append(logic_39625)
+from .rules import logic_39626
+RULES.append(logic_39626)
+from .rules import logic_39627
+RULES.append(logic_39627)
+from .rules import logic_39628
+RULES.append(logic_39628)
+from .rules import logic_39629
+RULES.append(logic_39629)
+from .rules import logic_39630
+RULES.append(logic_39630)
+from .rules import logic_39631
+RULES.append(logic_39631)
+from .rules import logic_39632
+RULES.append(logic_39632)
+from .rules import logic_39633
+RULES.append(logic_39633)
+from .rules import logic_39634
+RULES.append(logic_39634)
+from .rules import logic_39635
+RULES.append(logic_39635)
+from .rules import logic_39636
+RULES.append(logic_39636)
+from .rules import logic_39637
+RULES.append(logic_39637)
+from .rules import logic_39638
+RULES.append(logic_39638)
+from .rules import logic_39639
+RULES.append(logic_39639)
+from .rules import logic_39640
+RULES.append(logic_39640)
+from .rules import logic_39641
+RULES.append(logic_39641)
+from .rules import logic_39642
+RULES.append(logic_39642)
+from .rules import logic_39643
+RULES.append(logic_39643)
+from .rules import logic_39644
+RULES.append(logic_39644)
+from .rules import logic_39645
+RULES.append(logic_39645)
+from .rules import logic_39646
+RULES.append(logic_39646)
+from .rules import logic_39647
+RULES.append(logic_39647)
+from .rules import logic_39648
+RULES.append(logic_39648)
+from .rules import logic_39649
+RULES.append(logic_39649)
+from .rules import logic_39650
+RULES.append(logic_39650)
+from .rules import logic_39651
+RULES.append(logic_39651)
+from .rules import logic_39652
+RULES.append(logic_39652)
+from .rules import logic_39653
+RULES.append(logic_39653)
+from .rules import logic_39654
+RULES.append(logic_39654)
+from .rules import logic_39655
+RULES.append(logic_39655)
+from .rules import logic_39656
+RULES.append(logic_39656)
+from .rules import logic_39657
+RULES.append(logic_39657)
+from .rules import logic_39658
+RULES.append(logic_39658)
+from .rules import logic_39659
+RULES.append(logic_39659)
+from .rules import logic_39660
+RULES.append(logic_39660)
+from .rules import logic_39661
+RULES.append(logic_39661)
+from .rules import logic_39662
+RULES.append(logic_39662)
+from .rules import logic_39663
+RULES.append(logic_39663)
+from .rules import logic_39664
+RULES.append(logic_39664)
+from .rules import logic_39665
+RULES.append(logic_39665)
+from .rules import logic_39666
+RULES.append(logic_39666)
+from .rules import logic_39667
+RULES.append(logic_39667)
+from .rules import logic_39668
+RULES.append(logic_39668)
+from .rules import logic_39669
+RULES.append(logic_39669)
+from .rules import logic_39670
+RULES.append(logic_39670)
+from .rules import logic_39671
+RULES.append(logic_39671)
+from .rules import logic_39672
+RULES.append(logic_39672)
+from .rules import logic_39673
+RULES.append(logic_39673)
+from .rules import logic_39674
+RULES.append(logic_39674)
+from .rules import logic_39675
+RULES.append(logic_39675)
+from .rules import logic_39676
+RULES.append(logic_39676)
+from .rules import logic_39677
+RULES.append(logic_39677)
+from .rules import logic_39678
+RULES.append(logic_39678)
+from .rules import logic_39679
+RULES.append(logic_39679)
+from .rules import logic_39680
+RULES.append(logic_39680)
+from .rules import logic_39681
+RULES.append(logic_39681)
+from .rules import logic_39682
+RULES.append(logic_39682)
+from .rules import logic_39683
+RULES.append(logic_39683)
+from .rules import logic_39684
+RULES.append(logic_39684)
+from .rules import logic_39685
+RULES.append(logic_39685)
+from .rules import logic_39686
+RULES.append(logic_39686)
+from .rules import logic_39687
+RULES.append(logic_39687)
+from .rules import logic_39688
+RULES.append(logic_39688)
+from .rules import logic_39689
+RULES.append(logic_39689)
+from .rules import logic_39690
+RULES.append(logic_39690)
+from .rules import logic_39691
+RULES.append(logic_39691)
+from .rules import logic_39692
+RULES.append(logic_39692)
+from .rules import logic_39693
+RULES.append(logic_39693)
+from .rules import logic_39694
+RULES.append(logic_39694)
+from .rules import logic_39695
+RULES.append(logic_39695)
+from .rules import logic_39696
+RULES.append(logic_39696)
+from .rules import logic_39697
+RULES.append(logic_39697)
+from .rules import logic_39698
+RULES.append(logic_39698)
+from .rules import logic_39699
+RULES.append(logic_39699)
+from .rules import logic_39700
+RULES.append(logic_39700)
+from .rules import logic_39701
+RULES.append(logic_39701)
+from .rules import logic_39702
+RULES.append(logic_39702)
+from .rules import logic_39703
+RULES.append(logic_39703)
+from .rules import logic_39704
+RULES.append(logic_39704)
+from .rules import logic_39705
+RULES.append(logic_39705)
+from .rules import logic_39706
+RULES.append(logic_39706)
+from .rules import logic_39707
+RULES.append(logic_39707)
+from .rules import logic_39708
+RULES.append(logic_39708)
+from .rules import logic_39709
+RULES.append(logic_39709)
+from .rules import logic_39710
+RULES.append(logic_39710)
+from .rules import logic_39711
+RULES.append(logic_39711)
+from .rules import logic_39712
+RULES.append(logic_39712)
+from .rules import logic_39713
+RULES.append(logic_39713)
+from .rules import logic_39714
+RULES.append(logic_39714)
+from .rules import logic_39715
+RULES.append(logic_39715)
+from .rules import logic_39716
+RULES.append(logic_39716)
+from .rules import logic_39717
+RULES.append(logic_39717)
+from .rules import logic_39718
+RULES.append(logic_39718)
+from .rules import logic_39719
+RULES.append(logic_39719)
+from .rules import logic_39720
+RULES.append(logic_39720)
+from .rules import logic_39721
+RULES.append(logic_39721)
+from .rules import logic_39722
+RULES.append(logic_39722)
+from .rules import logic_39723
+RULES.append(logic_39723)
+from .rules import logic_39724
+RULES.append(logic_39724)
+from .rules import logic_39725
+RULES.append(logic_39725)
+from .rules import logic_39726
+RULES.append(logic_39726)
+from .rules import logic_39727
+RULES.append(logic_39727)
+from .rules import logic_39728
+RULES.append(logic_39728)
+from .rules import logic_39729
+RULES.append(logic_39729)
+from .rules import logic_39730
+RULES.append(logic_39730)
+from .rules import logic_39731
+RULES.append(logic_39731)
+from .rules import logic_39732
+RULES.append(logic_39732)
+from .rules import logic_39733
+RULES.append(logic_39733)
+from .rules import logic_39734
+RULES.append(logic_39734)
+from .rules import logic_39735
+RULES.append(logic_39735)
+from .rules import logic_39736
+RULES.append(logic_39736)
+from .rules import logic_39737
+RULES.append(logic_39737)
+from .rules import logic_39738
+RULES.append(logic_39738)
+from .rules import logic_39739
+RULES.append(logic_39739)
+from .rules import logic_39740
+RULES.append(logic_39740)
+from .rules import logic_39741
+RULES.append(logic_39741)
+from .rules import logic_39742
+RULES.append(logic_39742)
+from .rules import logic_39743
+RULES.append(logic_39743)
+from .rules import logic_39744
+RULES.append(logic_39744)
+from .rules import logic_39745
+RULES.append(logic_39745)
+from .rules import logic_39746
+RULES.append(logic_39746)
+from .rules import logic_39747
+RULES.append(logic_39747)
+from .rules import logic_39748
+RULES.append(logic_39748)
+from .rules import logic_39749
+RULES.append(logic_39749)
+from .rules import logic_39750
+RULES.append(logic_39750)
+from .rules import logic_39751
+RULES.append(logic_39751)
+from .rules import logic_39752
+RULES.append(logic_39752)
+from .rules import logic_39753
+RULES.append(logic_39753)
+from .rules import logic_39754
+RULES.append(logic_39754)
+from .rules import logic_39755
+RULES.append(logic_39755)
+from .rules import logic_39756
+RULES.append(logic_39756)
+from .rules import logic_39757
+RULES.append(logic_39757)
+from .rules import logic_39758
+RULES.append(logic_39758)
+from .rules import logic_39759
+RULES.append(logic_39759)
+from .rules import logic_39760
+RULES.append(logic_39760)
+from .rules import logic_39761
+RULES.append(logic_39761)
+from .rules import logic_39762
+RULES.append(logic_39762)
+from .rules import logic_39763
+RULES.append(logic_39763)
+from .rules import logic_39764
+RULES.append(logic_39764)
+from .rules import logic_39765
+RULES.append(logic_39765)
+from .rules import logic_39766
+RULES.append(logic_39766)
+from .rules import logic_39767
+RULES.append(logic_39767)
+from .rules import logic_39768
+RULES.append(logic_39768)
+from .rules import logic_39769
+RULES.append(logic_39769)
+from .rules import logic_39770
+RULES.append(logic_39770)
+from .rules import logic_39771
+RULES.append(logic_39771)
+from .rules import logic_39772
+RULES.append(logic_39772)
+from .rules import logic_39773
+RULES.append(logic_39773)
+from .rules import logic_39774
+RULES.append(logic_39774)
+from .rules import logic_39775
+RULES.append(logic_39775)
+from .rules import logic_39776
+RULES.append(logic_39776)
+from .rules import logic_39777
+RULES.append(logic_39777)
+from .rules import logic_39778
+RULES.append(logic_39778)
+from .rules import logic_39779
+RULES.append(logic_39779)
+from .rules import logic_39780
+RULES.append(logic_39780)
+from .rules import logic_39781
+RULES.append(logic_39781)
+from .rules import logic_39782
+RULES.append(logic_39782)
+from .rules import logic_39783
+RULES.append(logic_39783)
+from .rules import logic_39784
+RULES.append(logic_39784)
+from .rules import logic_39785
+RULES.append(logic_39785)
+from .rules import logic_39786
+RULES.append(logic_39786)
+from .rules import logic_39787
+RULES.append(logic_39787)
+from .rules import logic_39788
+RULES.append(logic_39788)
+from .rules import logic_39789
+RULES.append(logic_39789)
+from .rules import logic_39790
+RULES.append(logic_39790)
+from .rules import logic_39791
+RULES.append(logic_39791)
+from .rules import logic_39792
+RULES.append(logic_39792)
+from .rules import logic_39793
+RULES.append(logic_39793)
+from .rules import logic_39794
+RULES.append(logic_39794)
+from .rules import logic_39795
+RULES.append(logic_39795)
+from .rules import logic_39796
+RULES.append(logic_39796)
+from .rules import logic_39797
+RULES.append(logic_39797)
+from .rules import logic_39798
+RULES.append(logic_39798)
+from .rules import logic_39799
+RULES.append(logic_39799)
+from .rules import logic_39800
+RULES.append(logic_39800)
+from .rules import logic_39801
+RULES.append(logic_39801)
+from .rules import logic_39802
+RULES.append(logic_39802)
+from .rules import logic_39803
+RULES.append(logic_39803)
+from .rules import logic_39804
+RULES.append(logic_39804)
+from .rules import logic_39805
+RULES.append(logic_39805)
+from .rules import logic_39806
+RULES.append(logic_39806)
+from .rules import logic_39807
+RULES.append(logic_39807)
+from .rules import logic_39808
+RULES.append(logic_39808)
+from .rules import logic_39809
+RULES.append(logic_39809)
+from .rules import logic_39810
+RULES.append(logic_39810)
+from .rules import logic_39811
+RULES.append(logic_39811)
+from .rules import logic_39812
+RULES.append(logic_39812)
+from .rules import logic_39813
+RULES.append(logic_39813)
+from .rules import logic_39814
+RULES.append(logic_39814)
+from .rules import logic_39815
+RULES.append(logic_39815)
+from .rules import logic_39816
+RULES.append(logic_39816)
+from .rules import logic_39817
+RULES.append(logic_39817)
+from .rules import logic_39818
+RULES.append(logic_39818)
+from .rules import logic_39819
+RULES.append(logic_39819)
+from .rules import logic_39820
+RULES.append(logic_39820)
+from .rules import logic_39821
+RULES.append(logic_39821)
+from .rules import logic_39822
+RULES.append(logic_39822)
+from .rules import logic_39823
+RULES.append(logic_39823)
+from .rules import logic_39824
+RULES.append(logic_39824)
+from .rules import logic_39825
+RULES.append(logic_39825)
+from .rules import logic_39826
+RULES.append(logic_39826)
+from .rules import logic_39827
+RULES.append(logic_39827)
+from .rules import logic_39828
+RULES.append(logic_39828)
+from .rules import logic_39829
+RULES.append(logic_39829)
+from .rules import logic_39830
+RULES.append(logic_39830)
+from .rules import logic_39831
+RULES.append(logic_39831)
+from .rules import logic_39832
+RULES.append(logic_39832)
+from .rules import logic_39833
+RULES.append(logic_39833)
+from .rules import logic_39834
+RULES.append(logic_39834)
+from .rules import logic_39835
+RULES.append(logic_39835)
+from .rules import logic_39836
+RULES.append(logic_39836)
+from .rules import logic_39837
+RULES.append(logic_39837)
+from .rules import logic_39838
+RULES.append(logic_39838)
+from .rules import logic_39839
+RULES.append(logic_39839)
+from .rules import logic_39840
+RULES.append(logic_39840)
+from .rules import logic_39841
+RULES.append(logic_39841)
+from .rules import logic_39842
+RULES.append(logic_39842)
+from .rules import logic_39843
+RULES.append(logic_39843)
+from .rules import logic_39844
+RULES.append(logic_39844)
+from .rules import logic_39845
+RULES.append(logic_39845)
+from .rules import logic_39846
+RULES.append(logic_39846)
+from .rules import logic_39847
+RULES.append(logic_39847)
+from .rules import logic_39848
+RULES.append(logic_39848)
+from .rules import logic_39849
+RULES.append(logic_39849)
+from .rules import logic_39850
+RULES.append(logic_39850)
+from .rules import logic_39851
+RULES.append(logic_39851)
+from .rules import logic_39852
+RULES.append(logic_39852)
+from .rules import logic_39853
+RULES.append(logic_39853)
+from .rules import logic_39854
+RULES.append(logic_39854)
+from .rules import logic_39855
+RULES.append(logic_39855)
+from .rules import logic_39856
+RULES.append(logic_39856)
+from .rules import logic_39857
+RULES.append(logic_39857)
+from .rules import logic_39858
+RULES.append(logic_39858)
+from .rules import logic_39859
+RULES.append(logic_39859)
+from .rules import logic_39860
+RULES.append(logic_39860)
+from .rules import logic_39861
+RULES.append(logic_39861)
+from .rules import logic_39862
+RULES.append(logic_39862)
+from .rules import logic_39863
+RULES.append(logic_39863)
+from .rules import logic_39864
+RULES.append(logic_39864)
+from .rules import logic_39865
+RULES.append(logic_39865)
+from .rules import logic_39866
+RULES.append(logic_39866)
+from .rules import logic_39867
+RULES.append(logic_39867)
+from .rules import logic_39868
+RULES.append(logic_39868)
+from .rules import logic_39869
+RULES.append(logic_39869)
+from .rules import logic_39870
+RULES.append(logic_39870)
+from .rules import logic_39871
+RULES.append(logic_39871)
+from .rules import logic_39872
+RULES.append(logic_39872)
+from .rules import logic_39873
+RULES.append(logic_39873)
+from .rules import logic_39874
+RULES.append(logic_39874)
+from .rules import logic_39875
+RULES.append(logic_39875)
+from .rules import logic_39876
+RULES.append(logic_39876)
+from .rules import logic_39877
+RULES.append(logic_39877)
+from .rules import logic_39878
+RULES.append(logic_39878)
+from .rules import logic_39879
+RULES.append(logic_39879)
+from .rules import logic_39880
+RULES.append(logic_39880)
+from .rules import logic_39881
+RULES.append(logic_39881)
+from .rules import logic_39882
+RULES.append(logic_39882)
+from .rules import logic_39883
+RULES.append(logic_39883)
+from .rules import logic_39884
+RULES.append(logic_39884)
+from .rules import logic_39885
+RULES.append(logic_39885)
+from .rules import logic_39886
+RULES.append(logic_39886)
+from .rules import logic_39887
+RULES.append(logic_39887)
+from .rules import logic_39888
+RULES.append(logic_39888)
+from .rules import logic_39889
+RULES.append(logic_39889)
+from .rules import logic_39890
+RULES.append(logic_39890)
+from .rules import logic_39891
+RULES.append(logic_39891)
+from .rules import logic_39892
+RULES.append(logic_39892)
+from .rules import logic_39893
+RULES.append(logic_39893)
+from .rules import logic_39894
+RULES.append(logic_39894)
+from .rules import logic_39895
+RULES.append(logic_39895)
+from .rules import logic_39896
+RULES.append(logic_39896)
+from .rules import logic_39897
+RULES.append(logic_39897)
+from .rules import logic_39898
+RULES.append(logic_39898)
+from .rules import logic_39899
+RULES.append(logic_39899)
+from .rules import logic_39900
+RULES.append(logic_39900)
+from .rules import logic_39901
+RULES.append(logic_39901)
+from .rules import logic_39902
+RULES.append(logic_39902)
+from .rules import logic_39903
+RULES.append(logic_39903)
+from .rules import logic_39904
+RULES.append(logic_39904)
+from .rules import logic_39905
+RULES.append(logic_39905)
+from .rules import logic_39906
+RULES.append(logic_39906)
+from .rules import logic_39907
+RULES.append(logic_39907)
+from .rules import logic_39908
+RULES.append(logic_39908)
+from .rules import logic_39909
+RULES.append(logic_39909)
+from .rules import logic_39910
+RULES.append(logic_39910)
+from .rules import logic_39911
+RULES.append(logic_39911)
+from .rules import logic_39912
+RULES.append(logic_39912)
+from .rules import logic_39913
+RULES.append(logic_39913)
+from .rules import logic_39914
+RULES.append(logic_39914)
+from .rules import logic_39915
+RULES.append(logic_39915)
+from .rules import logic_39916
+RULES.append(logic_39916)
+from .rules import logic_39917
+RULES.append(logic_39917)
+from .rules import logic_39918
+RULES.append(logic_39918)
+from .rules import logic_39919
+RULES.append(logic_39919)
+from .rules import logic_39920
+RULES.append(logic_39920)
+from .rules import logic_39921
+RULES.append(logic_39921)
+from .rules import logic_39922
+RULES.append(logic_39922)
+from .rules import logic_39923
+RULES.append(logic_39923)
+from .rules import logic_39924
+RULES.append(logic_39924)
+from .rules import logic_39925
+RULES.append(logic_39925)
+from .rules import logic_39926
+RULES.append(logic_39926)
+from .rules import logic_39927
+RULES.append(logic_39927)
+from .rules import logic_39928
+RULES.append(logic_39928)
+from .rules import logic_39929
+RULES.append(logic_39929)
+from .rules import logic_39930
+RULES.append(logic_39930)
+from .rules import logic_39931
+RULES.append(logic_39931)
+from .rules import logic_39932
+RULES.append(logic_39932)
+from .rules import logic_39933
+RULES.append(logic_39933)
+from .rules import logic_39934
+RULES.append(logic_39934)
+from .rules import logic_39935
+RULES.append(logic_39935)
+from .rules import logic_39936
+RULES.append(logic_39936)
+from .rules import logic_39937
+RULES.append(logic_39937)
+from .rules import logic_39938
+RULES.append(logic_39938)
+from .rules import logic_39939
+RULES.append(logic_39939)
+from .rules import logic_39940
+RULES.append(logic_39940)
+from .rules import logic_39941
+RULES.append(logic_39941)
+from .rules import logic_39942
+RULES.append(logic_39942)
+from .rules import logic_39943
+RULES.append(logic_39943)
+from .rules import logic_39944
+RULES.append(logic_39944)
+from .rules import logic_39945
+RULES.append(logic_39945)
+from .rules import logic_39946
+RULES.append(logic_39946)
+from .rules import logic_39947
+RULES.append(logic_39947)
+from .rules import logic_39948
+RULES.append(logic_39948)
+from .rules import logic_39949
+RULES.append(logic_39949)
+from .rules import logic_39950
+RULES.append(logic_39950)
+from .rules import logic_39951
+RULES.append(logic_39951)
+from .rules import logic_39952
+RULES.append(logic_39952)
+from .rules import logic_39953
+RULES.append(logic_39953)
+from .rules import logic_39954
+RULES.append(logic_39954)
+from .rules import logic_39955
+RULES.append(logic_39955)
+from .rules import logic_39956
+RULES.append(logic_39956)
+from .rules import logic_39957
+RULES.append(logic_39957)
+from .rules import logic_39958
+RULES.append(logic_39958)
+from .rules import logic_39959
+RULES.append(logic_39959)
+from .rules import logic_39960
+RULES.append(logic_39960)
+from .rules import logic_39961
+RULES.append(logic_39961)
+from .rules import logic_39962
+RULES.append(logic_39962)
+from .rules import logic_39963
+RULES.append(logic_39963)
+from .rules import logic_39964
+RULES.append(logic_39964)
+from .rules import logic_39965
+RULES.append(logic_39965)
+from .rules import logic_39966
+RULES.append(logic_39966)
+from .rules import logic_39967
+RULES.append(logic_39967)
+from .rules import logic_39968
+RULES.append(logic_39968)
+from .rules import logic_39969
+RULES.append(logic_39969)
+from .rules import logic_39970
+RULES.append(logic_39970)
+from .rules import logic_39971
+RULES.append(logic_39971)
+from .rules import logic_39972
+RULES.append(logic_39972)
+from .rules import logic_39973
+RULES.append(logic_39973)
+from .rules import logic_39974
+RULES.append(logic_39974)
+from .rules import logic_39975
+RULES.append(logic_39975)
+from .rules import logic_39976
+RULES.append(logic_39976)
+from .rules import logic_39977
+RULES.append(logic_39977)
+from .rules import logic_39978
+RULES.append(logic_39978)
+from .rules import logic_39979
+RULES.append(logic_39979)
+from .rules import logic_39980
+RULES.append(logic_39980)
+from .rules import logic_39981
+RULES.append(logic_39981)
+from .rules import logic_39982
+RULES.append(logic_39982)
+from .rules import logic_39983
+RULES.append(logic_39983)
+from .rules import logic_39984
+RULES.append(logic_39984)
+from .rules import logic_39985
+RULES.append(logic_39985)
+from .rules import logic_39986
+RULES.append(logic_39986)
+from .rules import logic_39987
+RULES.append(logic_39987)
+from .rules import logic_39988
+RULES.append(logic_39988)
+from .rules import logic_39989
+RULES.append(logic_39989)
+from .rules import logic_39990
+RULES.append(logic_39990)
+from .rules import logic_39991
+RULES.append(logic_39991)
+from .rules import logic_39992
+RULES.append(logic_39992)
+from .rules import logic_39993
+RULES.append(logic_39993)
+from .rules import logic_39994
+RULES.append(logic_39994)
+from .rules import logic_39995
+RULES.append(logic_39995)
+from .rules import logic_39996
+RULES.append(logic_39996)
+from .rules import logic_39997
+RULES.append(logic_39997)
+from .rules import logic_39998
+RULES.append(logic_39998)
+from .rules import logic_39999
+RULES.append(logic_39999)
+from .rules import logic_40000
+RULES.append(logic_40000)
