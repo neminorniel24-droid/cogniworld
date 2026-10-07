@@ -16205,3 +16205,6 @@ def logic_15380(world):
 
 def logic_15381(world):
     _world_apply(world, 'ash', 'predator', 'pulse')
+
+def logic_15382(world):
+    _world_apply(world, 'ash', 'carrion', 'saturation')
