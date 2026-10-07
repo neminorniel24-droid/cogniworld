@@ -20003,3 +20003,6 @@ def logic_16646(world):
 
 def logic_16647(world):
     _world_apply(world, 'oxygen', 'humidity', 'square')
+
+def logic_16648(world):
+    _world_apply(world, 'oxygen', 'cloud', 'pulse')
