@@ -23540,3 +23540,6 @@ def logic_17825(world):
 
 def logic_17826(world):
     _world_apply(world, 'seed_bank', 'algae', 'saturation')
+
+def logic_17827(world):
+    _world_apply(world, 'seed_bank', 'organic_matter', 'gap')
