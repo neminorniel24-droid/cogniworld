@@ -21011,3 +21011,6 @@ def logic_16982(world):
 
 def logic_16983(world):
     _world_apply(world, 'pathogen_load', 'fire_risk', 'gap')
+
+def logic_16984(world):
+    _world_apply(world, 'pathogen_load', 'ash', 'direct')
