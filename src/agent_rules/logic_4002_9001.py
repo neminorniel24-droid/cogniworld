@@ -12035,3 +12035,6 @@ def logic_8078(agents, world):
 
 def logic_8079(agents, world):
     _agent_apply(world, agents, 'snowpack', 'last_reward', 'direct')
+
+def logic_8080(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'last_reward', 'direct')
