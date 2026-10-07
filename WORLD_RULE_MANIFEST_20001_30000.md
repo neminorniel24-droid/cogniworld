@@ -8222,3 +8222,4 @@
 - 28221: integrated cross-system causal rule
 - 28222: integrated cross-system causal rule
 - 28223: integrated cross-system causal rule
+- 28224: integrated cross-system causal rule
