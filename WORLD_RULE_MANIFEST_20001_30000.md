@@ -6591,3 +6591,4 @@
 - 26590: integrated cross-system causal rule
 - 26591: integrated cross-system causal rule
 - 26592: integrated cross-system causal rule
+- 26593: integrated cross-system causal rule
