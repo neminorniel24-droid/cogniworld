@@ -2705,3 +2705,4 @@
 - 22704: integrated cross-system causal rule
 - 22705: integrated cross-system causal rule
 - 22706: integrated cross-system causal rule
+- 22707: integrated cross-system causal rule
