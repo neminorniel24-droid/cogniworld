@@ -2588,3 +2588,6 @@ def logic_4929(agents, world):
 
 def logic_4930(agents, world):
     _agent_apply(world, agents, 'predator', 'reproduction_drive', 'direct')
+
+def logic_4931(agents, world):
+    _agent_apply(world, agents, 'carrion', 'reproduction_drive', 'direct')
