@@ -9278,3 +9278,6 @@ def logic_7159(agents, world):
 
 def logic_7160(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'shelter_need', 'direct')
+
+def logic_7161(agents, world):
+    _agent_apply(world, agents, 'payoff', 'shelter_need', 'direct')
