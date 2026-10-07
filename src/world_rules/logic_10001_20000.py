@@ -968,3 +968,6 @@ def logic_10301(world):
 
 def logic_10302(world):
     _world_apply(world, 'runoff', 'organic_matter', 'saturation')
+
+def logic_10303(world):
+    _world_apply(world, 'runoff', 'deadwood', 'gap')
