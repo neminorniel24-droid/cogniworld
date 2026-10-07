@@ -9285,3 +9285,4 @@
 - 29284: integrated cross-system causal rule
 - 29285: integrated cross-system causal rule
 - 29286: integrated cross-system causal rule
+- 29287: integrated cross-system causal rule
