@@ -500,3 +500,4 @@
 - 20499: integrated cross-system causal rule
 - 20500: integrated cross-system causal rule
 - 20501: integrated cross-system causal rule
+- 20502: integrated cross-system causal rule
