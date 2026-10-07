@@ -3692,3 +3692,6 @@ def logic_19209(agents, world):
 
 def logic_19210(agents, world):
     _agent_apply(world, agents, 'help_given', 'last_interaction', 'sqrt')
+
+def logic_19211(agents, world):
+    _agent_apply(world, agents, 'local_density', 'last_interaction', 'sqrt')
