@@ -3548,3 +3548,6 @@ def logic_19161(agents, world):
 
 def logic_19162(agents, world):
     _agent_apply(world, agents, 'alertness', 'last_reward', 'sqrt')
+
+def logic_19163(agents, world):
+    _agent_apply(world, agents, 'fear', 'last_reward', 'sqrt')
