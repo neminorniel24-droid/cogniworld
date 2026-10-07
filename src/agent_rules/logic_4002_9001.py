@@ -3602,3 +3602,6 @@ def logic_5267(agents, world):
 
 def logic_5268(agents, world):
     _agent_apply(world, agents, 'biomass', 'stability', 'direct')
+
+def logic_5269(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'stability', 'direct')
