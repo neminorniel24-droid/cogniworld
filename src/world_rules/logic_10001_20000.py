@@ -20660,3 +20660,6 @@ def logic_16865(world):
 
 def logic_16866(world):
     _world_apply(world, 'detritus', 'surface_water', 'saturation')
+
+def logic_16867(world):
+    _world_apply(world, 'detritus', 'humidity', 'gap')
