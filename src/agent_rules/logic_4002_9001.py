@@ -12308,3 +12308,6 @@ def logic_8169(agents, world):
 
 def logic_8170(agents, world):
     _agent_apply(world, agents, 'social_need', 'last_energy_delta', 'direct')
+
+def logic_8171(agents, world):
+    _agent_apply(world, agents, 'cooperation', 'last_energy_delta', 'direct')
