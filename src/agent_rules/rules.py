@@ -65640,3 +65640,10 @@ def logic_39755(agents, world):
     src = _local(world, agents, 'humidity')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.resource_competition = _delta(agents.resource_competition, delta)
+
+
+def logic_39756(agents, world):
+    """Environmental cloud shapes agent conflict_history (square)."""
+    src = _local(world, agents, 'cloud')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.conflict_history = _delta(agents.conflict_history, delta)
