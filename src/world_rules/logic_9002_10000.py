@@ -396,3 +396,6 @@ def logic_9107(world):
 
 def logic_9108(world):
     _world_apply(world, 'surface_water', 'vegetation', 'square')
+
+def logic_9109(world):
+    _world_apply(world, 'surface_water', 'biomass', 'sqrt')
