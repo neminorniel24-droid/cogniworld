@@ -266,3 +266,6 @@ def logic_4055(world):
 
 def logic_4056(world):
     _world_apply(world, 'runoff', 'surface_water', 'saturation')
+
+def logic_4057(world):
+    _world_apply(world, 'soil_moisture', 'groundwater', 'reciprocal')
