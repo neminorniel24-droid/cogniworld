@@ -4793,3 +4793,6 @@ def logic_19576(agents, world):
 
 def logic_19577(agents, world):
     _agent_apply(world, agents, 'fear', 'migration_score', 'reciprocal')
+
+def logic_19578(agents, world):
+    _agent_apply(world, agents, 'recovery', 'migration_score', 'reciprocal')
