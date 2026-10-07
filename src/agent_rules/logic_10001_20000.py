@@ -1439,3 +1439,6 @@ def logic_18458(agents, world):
 
 def logic_18459(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'defection', 'threshold')
+
+def logic_18460(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'defection', 'threshold')
