@@ -32348,3 +32348,10 @@ def logic_34999(agents, world):
     src = _local(world, agents, 'carbon_storage')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.empathy = _delta(agents.empathy, delta)
+
+
+def logic_35000(agents, world):
+    """Environmental fire_risk shapes agent vegetation_expectation (square)."""
+    src = _local(world, agents, 'fire_risk')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.vegetation_expectation = _delta(agents.vegetation_expectation, delta)
