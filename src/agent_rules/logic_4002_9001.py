@@ -13307,3 +13307,6 @@ def logic_8502(agents, world):
 
 def logic_8503(agents, world):
     _agent_apply(world, agents, 'hydration', 'strategy_score', 'direct')
+
+def logic_8504(agents, world):
+    _agent_apply(world, agents, 'thirst', 'strategy_score', 'direct')
