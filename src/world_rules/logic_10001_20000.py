@@ -17552,3 +17552,6 @@ def logic_15829(world):
 
 def logic_15830(world):
     _world_apply(world, 'seed_bank', 'detritus', 'pulse')
+
+def logic_15831(world):
+    _world_apply(world, 'seed_bank', 'methane', 'saturation')
