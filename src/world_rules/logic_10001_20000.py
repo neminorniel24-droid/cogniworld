@@ -545,3 +545,6 @@ def logic_10160(world):
 
 def logic_10161(world):
     _world_apply(world, 'cloud', 'wetland', 'direct')
+
+def logic_10162(world):
+    _world_apply(world, 'cloud', 'carbon_storage', 'square')
