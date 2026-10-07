@@ -2873,3 +2873,6 @@ def logic_10936(world):
 
 def logic_10937(world):
     _world_apply(world, 'detritus', 'predator', 'saturation')
+
+def logic_10938(world):
+    _world_apply(world, 'detritus', 'carrion', 'gap')
