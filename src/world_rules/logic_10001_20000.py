@@ -14570,3 +14570,6 @@ def logic_14835(world):
 
 def logic_14836(world):
     _world_apply(world, 'ice', 'pollinators', 'gap')
+
+def logic_14837(world):
+    _world_apply(world, 'ice', 'flowers', 'direct')
