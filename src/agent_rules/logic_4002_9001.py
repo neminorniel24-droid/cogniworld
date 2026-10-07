@@ -14621,3 +14621,6 @@ def logic_8940(agents, world):
 
 def logic_8941(agents, world):
     _agent_apply(world, agents, 'herbivore', 'exploration_score', 'direct')
+
+def logic_8942(agents, world):
+    _agent_apply(world, agents, 'predator', 'exploration_score', 'direct')
