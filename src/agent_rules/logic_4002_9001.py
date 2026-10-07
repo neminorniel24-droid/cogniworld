@@ -3812,3 +3812,6 @@ def logic_5337(agents, world):
 
 def logic_5338(agents, world):
     _agent_apply(world, agents, 'predator', 'habitat_stress', 'direct')
+
+def logic_5339(agents, world):
+    _agent_apply(world, agents, 'carrion', 'habitat_stress', 'direct')
