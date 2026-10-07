@@ -9896,3 +9896,6 @@ def logic_13277(world):
 
 def logic_13278(world):
     _world_apply(world, 'wetland', 'detritus', 'square')
+
+def logic_13279(world):
+    _world_apply(world, 'wetland', 'methane', 'pulse')
