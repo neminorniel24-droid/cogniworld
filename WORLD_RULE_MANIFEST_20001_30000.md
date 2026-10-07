@@ -7605,3 +7605,4 @@
 - 27604: integrated cross-system causal rule
 - 27605: integrated cross-system causal rule
 - 27606: integrated cross-system causal rule
+- 27607: integrated cross-system causal rule
