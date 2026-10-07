@@ -7046,3 +7046,6 @@ def logic_6415(agents, world):
 
 def logic_6416(agents, world):
     _agent_apply(world, agents, 'humidity', 'gratitude', 'direct')
+
+def logic_6417(agents, world):
+    _agent_apply(world, agents, 'cloud', 'gratitude', 'direct')
