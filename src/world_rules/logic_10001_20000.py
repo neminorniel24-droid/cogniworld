@@ -14840,3 +14840,6 @@ def logic_14925(world):
 
 def logic_14926(world):
     _world_apply(world, 'detritus', 'seed_bank', 'direct')
+
+def logic_14927(world):
+    _world_apply(world, 'detritus', 'soil_carbon', 'square')
