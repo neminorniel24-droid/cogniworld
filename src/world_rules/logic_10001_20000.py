@@ -22181,3 +22181,6 @@ def logic_17372(world):
 
 def logic_17373(world):
     _world_apply(world, 'ash', 'biodiversity', 'saturation')
+
+def logic_17374(world):
+    _world_apply(world, 'ash', 'habitat_stress', 'gap')
