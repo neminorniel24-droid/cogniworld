@@ -2073,3 +2073,6 @@ def logic_9865(agents, world):
 
 def logic_9866(agents, world):
     _agent_apply(world, agents, 'stress', 'fear', 'direct')
+
+def logic_9867(agents, world):
+    _agent_apply(world, agents, 'risk_tolerance', 'fear', 'direct')
