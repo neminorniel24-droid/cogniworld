@@ -6602,3 +6602,6 @@ def logic_12179(world):
 
 def logic_12180(world):
     _world_apply(world, 'rain', 'biodiversity', 'square')
+
+def logic_12181(world):
+    _world_apply(world, 'rain', 'habitat_stress', 'pulse')
