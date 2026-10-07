@@ -21893,3 +21893,6 @@ def logic_17276(world):
 
 def logic_17277(world):
     _world_apply(world, 'carbon_storage', 'oxygen', 'direct')
+
+def logic_17278(world):
+    _world_apply(world, 'carbon_storage', 'co2', 'square')
