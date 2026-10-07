@@ -6541,3 +6541,4 @@
 - 26540: integrated cross-system causal rule
 - 26541: integrated cross-system causal rule
 - 26542: integrated cross-system causal rule
+- 26543: integrated cross-system causal rule
