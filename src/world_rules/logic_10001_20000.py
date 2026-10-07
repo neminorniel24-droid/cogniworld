@@ -4760,3 +4760,6 @@ def logic_11565(world):
 
 def logic_11566(world):
     _world_apply(world, 'sediment', 'habitat_stress', 'direct')
+
+def logic_11567(world):
+    _world_apply(world, 'sediment', 'erosion', 'square')
