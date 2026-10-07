@@ -10538,3 +10538,6 @@ def logic_7579(agents, world):
 
 def logic_7580(agents, world):
     _agent_apply(world, agents, 'biomass', 'neighbor_health_gap', 'direct')
+
+def logic_7581(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'neighbor_health_gap', 'direct')
