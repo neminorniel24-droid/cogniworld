@@ -8120,3 +8120,4 @@
 - 28119: integrated cross-system causal rule
 - 28120: integrated cross-system causal rule
 - 28121: integrated cross-system causal rule
+- 28122: integrated cross-system causal rule
