@@ -4304,3 +4304,6 @@ def logic_5501(agents, world):
 
 def logic_5502(agents, world):
     _agent_apply(world, agents, 'pollinators', 'reputation', 'direct')
+
+def logic_5503(agents, world):
+    _agent_apply(world, agents, 'flowers', 'reputation', 'direct')
