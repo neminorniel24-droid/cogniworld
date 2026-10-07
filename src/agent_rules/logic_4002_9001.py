@@ -2960,3 +2960,6 @@ def logic_5053(agents, world):
 
 def logic_5054(agents, world):
     _agent_apply(world, agents, 'temperature', 'exploration_drive', 'direct')
+
+def logic_5055(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'exploration_drive', 'direct')
