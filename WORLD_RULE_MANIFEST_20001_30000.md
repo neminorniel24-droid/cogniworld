@@ -1945,3 +1945,4 @@
 - 21944: integrated cross-system causal rule
 - 21945: integrated cross-system causal rule
 - 21946: integrated cross-system causal rule
+- 21947: integrated cross-system causal rule
