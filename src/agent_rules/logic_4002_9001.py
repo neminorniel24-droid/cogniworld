@@ -4118,3 +4118,6 @@ def logic_5439(agents, world):
 
 def logic_5440(agents, world):
     _agent_apply(world, agents, 'resource_abundance', 'social_tolerance', 'direct')
+
+def logic_5441(agents, world):
+    _agent_apply(world, agents, 'energy_surplus', 'social_tolerance', 'direct')
