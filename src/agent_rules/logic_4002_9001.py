@@ -3398,3 +3398,6 @@ def logic_5199(agents, world):
 
 def logic_5200(agents, world):
     _agent_apply(world, agents, 'biomass', 'wealth', 'direct')
+
+def logic_5201(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'wealth', 'direct')
