@@ -2864,3 +2864,6 @@ def logic_10933(world):
 
 def logic_10934(world):
     _world_apply(world, 'detritus', 'vegetation', 'gap')
+
+def logic_10935(world):
+    _world_apply(world, 'detritus', 'biomass', 'direct')
