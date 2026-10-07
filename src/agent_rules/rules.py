@@ -25712,3 +25712,10 @@ def logic_34051(agents, world):
     src = _local(world, agents, 'humidity')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.migration_score = _delta(agents.migration_score, delta)
+
+
+def logic_34052(agents, world):
+    """Environmental cloud shapes agent future_payoff_weight (square)."""
+    src = _local(world, agents, 'cloud')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.future_payoff_weight = _delta(agents.future_payoff_weight, delta)
