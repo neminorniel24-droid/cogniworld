@@ -179,3 +179,6 @@ def logic_4026(world):
 
 def logic_4027(world):
     _world_apply(world, 'seed_bank', 'vegetation', 'inverse')
+
+def logic_4028(world):
+    _world_apply(world, 'deadwood', 'decomposition_rate', 'square')
