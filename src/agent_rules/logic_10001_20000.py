@@ -4805,3 +4805,6 @@ def logic_19580(agents, world):
 
 def logic_19581(agents, world):
     _agent_apply(world, agents, 'migration_drive', 'reproduction_score', 'reciprocal')
+
+def logic_19582(agents, world):
+    _agent_apply(world, agents, 'exploration_drive', 'reproduction_score', 'reciprocal')
