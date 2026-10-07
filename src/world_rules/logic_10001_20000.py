@@ -4373,3 +4373,6 @@ def logic_11436(world):
 
 def logic_11437(world):
     _world_apply(world, 'ash', 'root_density', 'direct')
+
+def logic_11438(world):
+    _world_apply(world, 'ash', 'wetland', 'square')
