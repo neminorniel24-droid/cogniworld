@@ -8330,3 +8330,6 @@ def logic_12755(world):
 
 def logic_12756(world):
     _world_apply(world, 'co2', 'root_density', 'gap')
+
+def logic_12757(world):
+    _world_apply(world, 'co2', 'wetland', 'direct')
