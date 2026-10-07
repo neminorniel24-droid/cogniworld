@@ -22319,3 +22319,6 @@ def logic_17418(world):
 
 def logic_17419(world):
     _world_apply(world, 'snowpack', 'erosion', 'direct')
+
+def logic_17420(world):
+    _world_apply(world, 'snowpack', 'soil_depth', 'square')
