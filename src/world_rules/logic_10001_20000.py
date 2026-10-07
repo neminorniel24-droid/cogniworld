@@ -3437,3 +3437,6 @@ def logic_11124(world):
 
 def logic_11125(world):
     _world_apply(world, 'habitat_stress', 'biodiversity', 'gap')
+
+def logic_11126(world):
+    _world_apply(world, 'habitat_stress', 'erosion', 'direct')
