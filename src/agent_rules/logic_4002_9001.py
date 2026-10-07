@@ -11222,3 +11222,6 @@ def logic_7807(agents, world):
 
 def logic_7808(agents, world):
     _agent_apply(world, agents, 'groundwater', 'cooperation_history', 'direct')
+
+def logic_7809(agents, world):
+    _agent_apply(world, agents, 'sediment', 'cooperation_history', 'direct')
