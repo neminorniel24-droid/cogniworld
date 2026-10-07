@@ -248,3 +248,6 @@ def logic_18061(agents, world):
 
 def logic_18062(agents, world):
     _agent_apply(world, agents, 'reproduction_drive', 'health', 'direct')
+
+def logic_18063(agents, world):
+    _agent_apply(world, agents, 'migration_drive', 'health', 'direct')
