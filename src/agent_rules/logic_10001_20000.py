@@ -5771,3 +5771,6 @@ def logic_19902(agents, world):
 
 def logic_19903(agents, world):
     _agent_apply(world, agents, 'last_energy_delta', 'infection_risk', 'inverse')
+
+def logic_19904(agents, world):
+    _agent_apply(world, agents, 'last_food', 'infection_risk', 'inverse')
