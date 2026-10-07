@@ -1994,3 +1994,6 @@ def logic_10643(world):
 
 def logic_10644(world):
     _world_apply(world, 'nutrients', 'root_density', 'saturation')
+
+def logic_10645(world):
+    _world_apply(world, 'nutrients', 'wetland', 'gap')
