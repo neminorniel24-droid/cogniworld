@@ -3398,3 +3398,6 @@ def logic_11111(world):
 
 def logic_11112(world):
     _world_apply(world, 'habitat_stress', 'herbivore', 'gap')
+
+def logic_11113(world):
+    _world_apply(world, 'habitat_stress', 'predator', 'square')
