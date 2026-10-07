@@ -1142,3 +1142,6 @@ def logic_4447(agents, world):
 
 def logic_4448(agents, world):
     _agent_apply(world, agents, 'runoff', 'dehydration', 'direct')
+
+def logic_4449(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'dehydration', 'direct')
