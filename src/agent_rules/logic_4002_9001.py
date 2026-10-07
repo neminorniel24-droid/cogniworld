@@ -2744,3 +2744,6 @@ def logic_4981(agents, world):
 
 def logic_4982(agents, world):
     _agent_apply(world, agents, 'strategy_score', 'reproduction_drive', 'direct')
+
+def logic_4983(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'reproduction_drive', 'direct')
