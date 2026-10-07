@@ -2276,3 +2276,6 @@ def logic_10737(world):
 
 def logic_10738(world):
     _world_apply(world, 'oxygen', 'groundwater', 'gap')
+
+def logic_10739(world):
+    _world_apply(world, 'oxygen', 'sediment', 'direct')
