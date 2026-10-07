@@ -11339,3 +11339,6 @@ def logic_13758(world):
 
 def logic_13759(world):
     _world_apply(world, 'pollinators', 'photosynthesis_factor', 'pulse')
+
+def logic_13760(world):
+    _world_apply(world, 'pollinators', 'ice', 'saturation')
