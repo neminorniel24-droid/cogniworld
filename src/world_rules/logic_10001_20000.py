@@ -4577,3 +4577,6 @@ def logic_11504(world):
 
 def logic_11505(world):
     _world_apply(world, 'groundwater', 'wind_y', 'pulse')
+
+def logic_11506(world):
+    _world_apply(world, 'groundwater', 'vegetation', 'saturation')
