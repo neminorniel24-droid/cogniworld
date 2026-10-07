@@ -2408,3 +2408,6 @@ def logic_18781(agents, world):
 
 def logic_18782(agents, world):
     _agent_apply(world, agents, 'defection_threshold', 'resource_discovery', 'gap')
+
+def logic_18783(agents, world):
+    _agent_apply(world, agents, 'oxygen_need', 'resource_discovery', 'gap')
