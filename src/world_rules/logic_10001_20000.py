@@ -3884,3 +3884,6 @@ def logic_11273(world):
 
 def logic_11274(world):
     _world_apply(world, 'root_density', 'seed_bank', 'pulse')
+
+def logic_11275(world):
+    _world_apply(world, 'root_density', 'soil_carbon', 'saturation')
