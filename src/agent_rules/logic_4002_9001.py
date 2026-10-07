@@ -12593,3 +12593,6 @@ def logic_8264(agents, world):
 
 def logic_8265(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'last_interaction', 'direct')
+
+def logic_8266(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'last_interaction', 'direct')
