@@ -21017,3 +21017,6 @@ def logic_16984(world):
 
 def logic_16985(world):
     _world_apply(world, 'pathogen_load', 'snowpack', 'pulse')
+
+def logic_16986(world):
+    _world_apply(world, 'pathogen_load', 'groundwater', 'saturation')
