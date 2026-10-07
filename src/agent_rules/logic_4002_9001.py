@@ -12326,3 +12326,6 @@ def logic_8175(agents, world):
 
 def logic_8176(agents, world):
     _agent_apply(world, agents, 'help_given', 'last_energy_delta', 'direct')
+
+def logic_8177(agents, world):
+    _agent_apply(world, agents, 'local_density', 'last_energy_delta', 'direct')
