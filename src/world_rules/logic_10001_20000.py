@@ -8900,3 +8900,6 @@ def logic_12945(world):
 
 def logic_12946(world):
     _world_apply(world, 'detritus', 'seed_bank', 'saturation')
+
+def logic_12947(world):
+    _world_apply(world, 'detritus', 'soil_carbon', 'gap')
