@@ -14165,3 +14165,6 @@ def logic_14700(world):
 
 def logic_14701(world):
     _world_apply(world, 'oxygen', 'algae', 'pulse')
+
+def logic_14702(world):
+    _world_apply(world, 'oxygen', 'organic_matter', 'saturation')
