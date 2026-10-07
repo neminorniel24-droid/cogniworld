@@ -16379,3 +16379,6 @@ def logic_15438(world):
 
 def logic_15439(world):
     _world_apply(world, 'snowpack', 'erosion', 'pulse')
+
+def logic_15440(world):
+    _world_apply(world, 'snowpack', 'soil_depth', 'saturation')
