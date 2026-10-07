@@ -1424,3 +1424,6 @@ def logic_18453(agents, world):
 
 def logic_18454(agents, world):
     _agent_apply(world, agents, 'deadwood', 'cooperation', 'threshold')
+
+def logic_18455(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'defection', 'threshold')
