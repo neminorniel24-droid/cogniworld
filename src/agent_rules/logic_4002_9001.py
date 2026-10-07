@@ -1085,3 +1085,6 @@ def logic_4428(agents, world):
 
 def logic_4429(agents, world):
     _agent_apply(world, agents, 'competition_pressure', 'thermal_stress', 'direct')
+
+def logic_4430(agents, world):
+    _agent_apply(world, agents, 'social_need', 'thermal_stress', 'direct')
