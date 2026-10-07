@@ -5588,3 +5588,6 @@ def logic_19841(agents, world):
 
 def logic_19842(agents, world):
     _agent_apply(world, agents, 'energy_surplus', 'thermal_stress', 'direct')
+
+def logic_19843(agents, world):
+    _agent_apply(world, agents, 'ticks_since_food', 'thermal_stress', 'direct')
