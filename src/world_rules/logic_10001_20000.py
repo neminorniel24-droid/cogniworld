@@ -17180,3 +17180,6 @@ def logic_15705(world):
 
 def logic_15706(world):
     _world_apply(world, 'deadwood', 'wetland', 'saturation')
+
+def logic_15707(world):
+    _world_apply(world, 'deadwood', 'carbon_storage', 'gap')
