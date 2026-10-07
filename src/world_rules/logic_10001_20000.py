@@ -20882,3 +20882,6 @@ def logic_16939(world):
 
 def logic_16940(world):
     _world_apply(world, 'methane', 'ash', 'square')
+
+def logic_16941(world):
+    _world_apply(world, 'methane', 'snowpack', 'pulse')
