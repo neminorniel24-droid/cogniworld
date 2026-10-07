@@ -7022,3 +7022,6 @@ def logic_6407(agents, world):
 
 def logic_6408(agents, world):
     _agent_apply(world, agents, 'help_given', 'generosity', 'direct')
+
+def logic_6409(agents, world):
+    _agent_apply(world, agents, 'local_density', 'generosity', 'direct')
