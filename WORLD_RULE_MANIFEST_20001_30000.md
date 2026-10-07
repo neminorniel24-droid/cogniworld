@@ -910,3 +910,4 @@
 - 20909: integrated cross-system causal rule
 - 20910: integrated cross-system causal rule
 - 20911: integrated cross-system causal rule
+- 20912: integrated cross-system causal rule
