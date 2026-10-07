@@ -11345,3 +11345,6 @@ def logic_13760(world):
 
 def logic_13761(world):
     _world_apply(world, 'pollinators', 'evaporation', 'direct')
+
+def logic_13762(world):
+    _world_apply(world, 'pollinators', 'detritus', 'square')
