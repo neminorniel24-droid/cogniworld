@@ -4838,3 +4838,6 @@ def logic_5679(agents, world):
 
 def logic_5680(agents, world):
     _agent_apply(world, agents, 'nutrients', 'defection', 'direct')
+
+def logic_5681(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'defection', 'direct')
