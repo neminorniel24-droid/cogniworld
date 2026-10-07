@@ -1640,3 +1640,6 @@ def logic_10525(world):
 
 def logic_10526(world):
     _world_apply(world, 'herbivore', 'seed_bank', 'direct')
+
+def logic_10527(world):
+    _world_apply(world, 'herbivore', 'soil_carbon', 'square')
