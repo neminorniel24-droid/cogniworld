@@ -19799,3 +19799,6 @@ def logic_16578(world):
 
 def logic_16579(world):
     _world_apply(world, 'nutrients', 'pathogen_load', 'direct')
+
+def logic_16580(world):
+    _world_apply(world, 'nutrients', 'biodiversity', 'square')
