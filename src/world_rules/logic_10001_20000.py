@@ -8846,3 +8846,6 @@ def logic_12927(world):
 
 def logic_12928(world):
     _world_apply(world, 'detritus', 'biodiversity', 'pulse')
+
+def logic_12929(world):
+    _world_apply(world, 'detritus', 'habitat_stress', 'gap')
