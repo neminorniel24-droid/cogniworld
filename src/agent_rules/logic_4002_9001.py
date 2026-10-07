@@ -8249,3 +8249,6 @@ def logic_6816(agents, world):
 
 def logic_6817(agents, world):
     _agent_apply(world, agents, 'local_density', 'resource_discovery', 'direct')
+
+def logic_6818(agents, world):
+    _agent_apply(world, agents, 'strategy_score', 'resource_discovery', 'direct')
