@@ -15839,3 +15839,6 @@ def logic_15258(world):
 
 def logic_15259(world):
     _world_apply(world, 'wetland', 'methane', 'direct')
+
+def logic_15260(world):
+    _world_apply(world, 'wetland', 'pathogen_load', 'square')
