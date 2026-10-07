@@ -12488,3 +12488,6 @@ def logic_8229(agents, world):
 
 def logic_8230(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'last_food', 'direct')
+
+def logic_8231(agents, world):
+    _agent_apply(world, agents, 'hydration', 'last_food', 'direct')
