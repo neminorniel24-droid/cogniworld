@@ -3506,3 +3506,6 @@ def logic_19147(agents, world):
 
 def logic_19148(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'last_reward', 'square')
+
+def logic_19149(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'last_reward', 'square')
