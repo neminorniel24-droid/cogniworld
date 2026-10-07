@@ -1019,3 +1019,6 @@ def logic_4406(agents, world):
 
 def logic_4407(agents, world):
     _agent_apply(world, agents, 'snowpack', 'thermal_stress', 'direct')
+
+def logic_4408(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'thermal_stress', 'direct')
