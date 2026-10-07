@@ -1931,3 +1931,6 @@ def logic_18622(agents, world):
 
 def logic_18623(agents, world):
     _agent_apply(world, agents, 'trust', 'social_avoidance', 'saturation')
+
+def logic_18624(agents, world):
+    _agent_apply(world, agents, 'cooperation', 'social_avoidance', 'reciprocal')
