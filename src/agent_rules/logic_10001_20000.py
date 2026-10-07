@@ -5867,3 +5867,6 @@ def logic_19934(agents, world):
 
 def logic_19935(agents, world):
     _agent_apply(world, agents, 'humidity', 'fear', 'inverse')
+
+def logic_19936(agents, world):
+    _agent_apply(world, agents, 'cloud', 'fear', 'inverse')
