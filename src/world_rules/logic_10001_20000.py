@@ -20744,3 +20744,6 @@ def logic_16893(world):
 
 def logic_16894(world):
     _world_apply(world, 'detritus', 'carbon_storage', 'gap')
+
+def logic_16895(world):
+    _world_apply(world, 'detritus', 'fire_risk', 'direct')
