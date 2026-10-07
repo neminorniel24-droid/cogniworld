@@ -8111,3 +8111,4 @@
 - 28110: integrated cross-system causal rule
 - 28111: integrated cross-system causal rule
 - 28112: integrated cross-system causal rule
+- 28113: integrated cross-system causal rule
