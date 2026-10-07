@@ -12980,3 +12980,6 @@ def logic_8393(agents, world):
 
 def logic_8394(agents, world):
     _agent_apply(world, agents, 'wind_y', 'last_action', 'direct')
+
+def logic_8395(agents, world):
+    _agent_apply(world, agents, 'vegetation', 'last_action', 'direct')
