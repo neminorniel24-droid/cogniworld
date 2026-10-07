@@ -141,3 +141,6 @@ def logic_9022(world):
 
 def logic_9023(world):
     _world_apply(world, 'vegetation', 'biomass', 'threshold')
+
+def logic_9024(world):
+    _world_apply(world, 'biomass', 'herbivore', 'saturation')
