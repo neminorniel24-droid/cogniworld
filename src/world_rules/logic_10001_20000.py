@@ -22871,3 +22871,6 @@ def logic_17602(world):
 
 def logic_17603(world):
     _world_apply(world, 'algae', 'groundwater', 'pulse')
+
+def logic_17604(world):
+    _world_apply(world, 'algae', 'sediment', 'saturation')
