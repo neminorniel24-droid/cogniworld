@@ -4330,3 +4330,4 @@
 - 24329: integrated cross-system causal rule
 - 24330: integrated cross-system causal rule
 - 24331: integrated cross-system causal rule
+- 24332: integrated cross-system causal rule
