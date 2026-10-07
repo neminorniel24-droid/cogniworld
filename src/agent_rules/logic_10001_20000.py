@@ -992,3 +992,6 @@ def logic_18309(agents, world):
 
 def logic_18310(agents, world):
     _agent_apply(world, agents, 'snowpack', 'food_access', 'sqrt')
+
+def logic_18311(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'food_access', 'sqrt')
