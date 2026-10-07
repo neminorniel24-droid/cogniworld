@@ -21092,3 +21092,6 @@ def logic_17009(world):
 
 def logic_17010(world):
     _world_apply(world, 'biodiversity', 'carrion', 'direct')
+
+def logic_17011(world):
+    _world_apply(world, 'biodiversity', 'nutrients', 'square')
