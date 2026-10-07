@@ -3368,3 +3368,6 @@ def logic_11101(world):
 
 def logic_11102(world):
     _world_apply(world, 'habitat_stress', 'surface_water', 'saturation')
+
+def logic_11103(world):
+    _world_apply(world, 'habitat_stress', 'humidity', 'gap')
