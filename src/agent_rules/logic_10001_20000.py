@@ -2552,3 +2552,6 @@ def logic_18829(agents, world):
 
 def logic_18830(agents, world):
     _agent_apply(world, agents, 'surface_water', 'defection_threshold', 'feedback')
+
+def logic_18831(agents, world):
+    _agent_apply(world, agents, 'humidity', 'defection_threshold', 'feedback')
