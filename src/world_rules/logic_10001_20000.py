@@ -15935,3 +15935,6 @@ def logic_15290(world):
 
 def logic_15291(world):
     _world_apply(world, 'carbon_storage', 'biomass', 'square')
+
+def logic_15292(world):
+    _world_apply(world, 'carbon_storage', 'herbivore', 'pulse')
