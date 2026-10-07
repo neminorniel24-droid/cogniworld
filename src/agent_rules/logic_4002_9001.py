@@ -12302,3 +12302,6 @@ def logic_8167(agents, world):
 
 def logic_8168(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'last_energy_delta', 'direct')
+
+def logic_8169(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'last_energy_delta', 'direct')
