@@ -8546,3 +8546,6 @@ def logic_12827(world):
 
 def logic_12828(world):
     _world_apply(world, 'ice', 'herbivore', 'direct')
+
+def logic_12829(world):
+    _world_apply(world, 'ice', 'predator', 'square')
