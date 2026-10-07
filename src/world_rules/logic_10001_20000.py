@@ -19031,3 +19031,6 @@ def logic_16322(world):
 
 def logic_16323(world):
     _world_apply(world, 'wind_y', 'fire_risk', 'pulse')
+
+def logic_16324(world):
+    _world_apply(world, 'wind_y', 'ash', 'saturation')
