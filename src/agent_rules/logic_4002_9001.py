@@ -8615,3 +8615,6 @@ def logic_6938(agents, world):
 
 def logic_6939(agents, world):
     _agent_apply(world, agents, 'hydration', 'attack_threshold', 'direct')
+
+def logic_6940(agents, world):
+    _agent_apply(world, agents, 'thirst', 'attack_threshold', 'direct')
