@@ -15152,3 +15152,6 @@ def logic_15029(world):
 
 def logic_15030(world):
     _world_apply(world, 'biodiversity', 'carrion', 'pulse')
+
+def logic_15031(world):
+    _world_apply(world, 'biodiversity', 'nutrients', 'saturation')
