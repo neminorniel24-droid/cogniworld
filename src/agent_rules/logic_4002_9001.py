@@ -10373,3 +10373,6 @@ def logic_7524(agents, world):
 
 def logic_7525(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'neighbor_energy_gap', 'direct')
+
+def logic_7526(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'neighbor_energy_gap', 'direct')
