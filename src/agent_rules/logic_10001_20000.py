@@ -4880,3 +4880,6 @@ def logic_19605(agents, world):
 
 def logic_19606(agents, world):
     _agent_apply(world, agents, 'future_help', 'sharing_score', 'gap')
+
+def logic_19607(agents, world):
+    _agent_apply(world, agents, 'resource_discovery', 'sharing_score', 'gap')
