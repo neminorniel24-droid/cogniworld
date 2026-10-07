@@ -2690,3 +2690,6 @@ def logic_18875(agents, world):
 
 def logic_18876(agents, world):
     _agent_apply(world, agents, 'energy_surplus', 'shelter_need', 'feedback')
+
+def logic_18877(agents, world):
+    _agent_apply(world, agents, 'ticks_since_food', 'shelter_need', 'feedback')
