@@ -1313,3 +1313,6 @@ def logic_18416(agents, world):
 
 def logic_18417(agents, world):
     _agent_apply(world, agents, 'humidity', 'trust', 'pulse')
+
+def logic_18418(agents, world):
+    _agent_apply(world, agents, 'cloud', 'trust', 'pulse')
