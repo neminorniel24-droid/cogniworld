@@ -87,3 +87,6 @@ def logic_9004(world):
 
 def logic_9005(world):
     _world_apply(world, 'cloud', 'rain', 'sqrt')
+
+def logic_9006(world):
+    _world_apply(world, 'rain', 'surface_water', 'pulse')
