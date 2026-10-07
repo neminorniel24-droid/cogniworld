@@ -7814,3 +7814,6 @@ def logic_12583(world):
 
 def logic_12584(world):
     _world_apply(world, 'carrion', 'ash', 'direct')
+
+def logic_12585(world):
+    _world_apply(world, 'carrion', 'snowpack', 'pulse')
