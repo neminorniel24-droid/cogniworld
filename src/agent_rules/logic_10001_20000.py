@@ -5225,3 +5225,6 @@ def logic_19720(agents, world):
 
 def logic_19721(agents, world):
     _agent_apply(world, agents, 'food_access', 'self_preservation', 'feedback')
+
+def logic_19722(agents, world):
+    _agent_apply(world, agents, 'wealth', 'self_preservation', 'feedback')
