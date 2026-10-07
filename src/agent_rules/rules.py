@@ -33769,3 +33769,10 @@ def logic_35202(agents, world):
     src = _local(world, agents, 'cloud')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.strategy_confidence = _delta(agents.strategy_confidence, delta)
+
+
+def logic_35203(agents, world):
+    """Environmental rain shapes agent shelter_need (inverse)."""
+    src = _local(world, agents, 'rain')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.shelter_need = _delta(agents.shelter_need, delta)
