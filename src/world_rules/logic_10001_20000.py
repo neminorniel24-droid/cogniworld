@@ -8696,3 +8696,6 @@ def logic_12877(world):
 
 def logic_12878(world):
     _world_apply(world, 'evaporation', 'co2', 'square')
+
+def logic_12879(world):
+    _world_apply(world, 'evaporation', 'photosynthesis_factor', 'pulse')
