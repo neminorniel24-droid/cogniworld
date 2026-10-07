@@ -809,3 +809,6 @@ def logic_10248(world):
 
 def logic_10249(world):
     _world_apply(world, 'soil_moisture', 'wetland', 'gap')
+
+def logic_10250(world):
+    _world_apply(world, 'soil_moisture', 'carbon_storage', 'direct')
