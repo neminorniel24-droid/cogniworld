@@ -9950,3 +9950,6 @@ def logic_13295(world):
 
 def logic_13296(world):
     _world_apply(world, 'wetland', 'pollinators', 'square')
+
+def logic_13297(world):
+    _world_apply(world, 'wetland', 'flowers', 'saturation')
