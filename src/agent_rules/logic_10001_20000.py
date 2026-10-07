@@ -4850,3 +4850,6 @@ def logic_19595(agents, world):
 
 def logic_19596(agents, world):
     _agent_apply(world, agents, 'group_stability', 'reproduction_score', 'reciprocal')
+
+def logic_19597(agents, world):
+    _agent_apply(world, agents, 'sharing_capacity', 'reproduction_score', 'reciprocal')
