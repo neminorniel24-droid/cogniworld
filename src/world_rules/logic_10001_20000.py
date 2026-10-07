@@ -6110,3 +6110,6 @@ def logic_12015(world):
 
 def logic_12016(world):
     _world_apply(world, 'temperature', 'salinity', 'square')
+
+def logic_12017(world):
+    _world_apply(world, 'temperature', 'algae', 'saturation')
