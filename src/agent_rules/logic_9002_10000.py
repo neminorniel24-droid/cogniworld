@@ -2316,3 +2316,6 @@ def logic_9946(agents, world):
 
 def logic_9947(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'recovery', 'direct')
+
+def logic_9948(agents, world):
+    _agent_apply(world, agents, 'payoff', 'recovery', 'direct')
