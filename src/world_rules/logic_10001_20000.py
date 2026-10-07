@@ -1898,3 +1898,6 @@ def logic_10611(world):
 
 def logic_10612(world):
     _world_apply(world, 'carrion', 'pollinators', 'pulse')
+
+def logic_10613(world):
+    _world_apply(world, 'carrion', 'flowers', 'saturation')
