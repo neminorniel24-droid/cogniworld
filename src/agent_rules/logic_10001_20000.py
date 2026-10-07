@@ -1808,3 +1808,6 @@ def logic_18581(agents, world):
 
 def logic_18582(agents, world):
     _agent_apply(world, agents, 'wetland', 'sharing_capacity', 'saturation')
+
+def logic_18583(agents, world):
+    _agent_apply(world, agents, 'carbon_storage', 'sharing_capacity', 'saturation')
