@@ -4010,3 +4010,6 @@ def logic_5403(agents, world):
 
 def logic_5404(agents, world):
     _agent_apply(world, agents, 'biomass', 'social_tolerance', 'direct')
+
+def logic_5405(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'social_tolerance', 'direct')
