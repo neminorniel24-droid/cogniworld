@@ -308,3 +308,6 @@ def logic_4069(world):
 
 def logic_4070(world):
     _world_apply(world, 'wind_y', 'cloud', 'pulse')
+
+def logic_4071(world):
+    _world_apply(world, 'wind_x', 'cloud', 'threshold')
