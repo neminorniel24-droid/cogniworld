@@ -8150,3 +8150,4 @@
 - 28149: integrated cross-system causal rule
 - 28150: integrated cross-system causal rule
 - 28151: integrated cross-system causal rule
+- 28152: integrated cross-system causal rule
