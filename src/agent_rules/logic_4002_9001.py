@@ -11951,3 +11951,6 @@ def logic_8050(agents, world):
 
 def logic_8051(agents, world):
     _agent_apply(world, agents, 'soil_moisture', 'last_reward', 'direct')
+
+def logic_8052(agents, world):
+    _agent_apply(world, agents, 'runoff', 'last_reward', 'direct')
