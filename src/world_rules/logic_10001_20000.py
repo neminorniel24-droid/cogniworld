@@ -16340,3 +16340,6 @@ def logic_15425(world):
 
 def logic_15426(world):
     _world_apply(world, 'snowpack', 'carrion', 'saturation')
+
+def logic_15427(world):
+    _world_apply(world, 'snowpack', 'nutrients', 'gap')
