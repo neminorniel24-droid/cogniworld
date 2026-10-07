@@ -13103,3 +13103,6 @@ def logic_8434(agents, world):
 
 def logic_8435(agents, world):
     _agent_apply(world, agents, 'hydration', 'last_action', 'direct')
+
+def logic_8436(agents, world):
+    _agent_apply(world, agents, 'thirst', 'last_action', 'direct')
