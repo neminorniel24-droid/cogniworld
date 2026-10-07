@@ -11795,3 +11795,6 @@ def logic_13910(world):
 
 def logic_13911(world):
     _world_apply(world, 'soil_carbon', 'organic_matter', 'saturation')
+
+def logic_13912(world):
+    _world_apply(world, 'soil_carbon', 'deadwood', 'gap')
