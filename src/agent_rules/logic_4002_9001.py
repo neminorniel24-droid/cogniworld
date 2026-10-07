@@ -8453,3 +8453,6 @@ def logic_6884(agents, world):
 
 def logic_6885(agents, world):
     _agent_apply(world, agents, 'local_density', 'empathy', 'direct')
+
+def logic_6886(agents, world):
+    _agent_apply(world, agents, 'strategy_score', 'empathy', 'direct')
