@@ -1907,3 +1907,6 @@ def logic_10614(world):
 
 def logic_10615(world):
     _world_apply(world, 'carrion', 'soil_carbon', 'direct')
+
+def logic_10616(world):
+    _world_apply(world, 'carrion', 'surface_ice', 'square')
