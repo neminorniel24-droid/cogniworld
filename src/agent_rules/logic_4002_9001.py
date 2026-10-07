@@ -3584,3 +3584,6 @@ def logic_5261(agents, world):
 
 def logic_5262(agents, world):
     _agent_apply(world, agents, 'rain', 'stability', 'direct')
+
+def logic_5263(agents, world):
+    _agent_apply(world, agents, 'soil_moisture', 'stability', 'direct')
