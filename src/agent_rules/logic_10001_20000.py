@@ -4271,3 +4271,6 @@ def logic_19402(agents, world):
 
 def logic_19403(agents, world):
     _agent_apply(world, agents, 'methane', 'exploration_score', 'threshold')
+
+def logic_19404(agents, world):
+    _agent_apply(world, agents, 'pathogen_load', 'exploration_score', 'threshold')
