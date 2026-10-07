@@ -21407,3 +21407,6 @@ def logic_17114(world):
 
 def logic_17115(world):
     _world_apply(world, 'erosion', 'fire_risk', 'saturation')
+
+def logic_17116(world):
+    _world_apply(world, 'erosion', 'ash', 'gap')
