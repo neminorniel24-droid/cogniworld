@@ -362,3 +362,6 @@ def logic_4087(world):
 
 def logic_4088(world):
     _world_apply(world, 'algae', 'surface_water', 'saturation')
+
+def logic_4089(world):
+    _world_apply(world, 'temperature', 'vegetation', 'reciprocal')
