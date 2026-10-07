@@ -18053,3 +18053,6 @@ def logic_15996(world):
 
 def logic_15997(world):
     _world_apply(world, 'surface_water', 'carrion', 'direct')
+
+def logic_15998(world):
+    _world_apply(world, 'surface_water', 'nutrients', 'square')
