@@ -206,3 +206,6 @@ def logic_10047(world):
 
 def logic_10048(world):
     _world_apply(world, 'surface_water', 'rain', 'pulse')
+
+def logic_10049(world):
+    _world_apply(world, 'surface_water', 'soil_moisture', 'gap')
