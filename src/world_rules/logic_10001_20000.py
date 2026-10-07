@@ -21227,3 +21227,6 @@ def logic_17054(world):
 
 def logic_17055(world):
     _world_apply(world, 'habitat_stress', 'nutrients', 'direct')
+
+def logic_17056(world):
+    _world_apply(world, 'habitat_stress', 'decomposition_rate', 'square')
