@@ -45501,3 +45501,10 @@ def logic_36878(agents, world):
     src = _local(world, agents, 'pathogen_load')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.trust = _delta(agents.trust, delta)
+
+
+def logic_36879(agents, world):
+    """Environmental biodiversity shapes agent group_stability (inverse)."""
+    src = _local(world, agents, 'biodiversity')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.group_stability = _delta(agents.group_stability, delta)
