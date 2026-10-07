@@ -3770,3 +3770,6 @@ def logic_19235(agents, world):
 
 def logic_19236(agents, world):
     _agent_apply(world, agents, 'strategy_persistence', 'risk_tolerance', 'sqrt')
+
+def logic_19237(agents, world):
+    _agent_apply(world, agents, 'strategy_mixing', 'risk_tolerance', 'sqrt')
