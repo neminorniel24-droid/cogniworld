@@ -6401,3 +6401,6 @@ def logic_6200(agents, world):
 
 def logic_6201(agents, world):
     _agent_apply(world, agents, 'trust', 'help_drive', 'direct')
+
+def logic_6202(agents, world):
+    _agent_apply(world, agents, 'reputation', 'help_drive', 'direct')
