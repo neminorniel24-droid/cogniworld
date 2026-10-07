@@ -533,3 +533,6 @@ def logic_4244(agents, world):
 
 def logic_4245(agents, world):
     _agent_apply(world, agents, 'wind_x', 'hunger', 'direct')
+
+def logic_4246(agents, world):
+    _agent_apply(world, agents, 'wind_y', 'hunger', 'direct')
