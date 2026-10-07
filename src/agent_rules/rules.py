@@ -56155,3 +56155,10 @@ def logic_38400(agents, world):
     src = _local(world, agents, 'soil_depth')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.learning_rate = _delta(agents.learning_rate, delta)
+
+
+def logic_38401(agents, world):
+    """Environmental root_density shapes agent hunger (root)."""
+    src = _local(world, agents, 'root_density')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.hunger = _delta(agents.hunger, delta)
