@@ -2270,3 +2270,6 @@ def logic_10735(world):
 
 def logic_10736(world):
     _world_apply(world, 'oxygen', 'ash', 'square')
+
+def logic_10737(world):
+    _world_apply(world, 'oxygen', 'snowpack', 'saturation')
