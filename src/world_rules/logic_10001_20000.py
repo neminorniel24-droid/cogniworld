@@ -10970,3 +10970,6 @@ def logic_13635(world):
 
 def logic_13636(world):
     _world_apply(world, 'algae', 'soil_depth', 'gap')
+
+def logic_13637(world):
+    _world_apply(world, 'algae', 'root_density', 'direct')
