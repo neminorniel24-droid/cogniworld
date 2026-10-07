@@ -14675,3 +14675,6 @@ def logic_8958(agents, world):
 
 def logic_8959(agents, world):
     _agent_apply(world, agents, 'wetland', 'exploration_score', 'direct')
+
+def logic_8960(agents, world):
+    _agent_apply(world, agents, 'carbon_storage', 'exploration_score', 'direct')
