@@ -4061,3 +4061,6 @@ def logic_19332(agents, world):
 
 def logic_19333(agents, world):
     _agent_apply(world, agents, 'attack_threshold', 'defection_score', 'pulse')
+
+def logic_19334(agents, world):
+    _agent_apply(world, agents, 'defection_threshold', 'defection_score', 'pulse')
