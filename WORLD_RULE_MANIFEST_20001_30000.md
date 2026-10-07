@@ -4622,3 +4622,4 @@
 - 24621: integrated cross-system causal rule
 - 24622: integrated cross-system causal rule
 - 24623: integrated cross-system causal rule
+- 24624: integrated cross-system causal rule
