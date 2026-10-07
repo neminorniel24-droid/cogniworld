@@ -3029,3 +3029,6 @@ def logic_5076(agents, world):
 
 def logic_5077(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'exploration_drive', 'direct')
+
+def logic_5078(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'exploration_drive', 'direct')
