@@ -57,3 +57,4 @@
 - 20056: integrated cross-system causal rule
 - 20057: integrated cross-system causal rule
 - 20058: integrated cross-system causal rule
+- 20059: integrated cross-system causal rule
