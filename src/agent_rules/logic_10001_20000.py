@@ -515,3 +515,6 @@ def logic_18150(agents, world):
 
 def logic_18151(agents, world):
     _agent_apply(world, agents, 'predator', 'infection_risk', 'inverse')
+
+def logic_18152(agents, world):
+    _agent_apply(world, agents, 'carrion', 'infection_risk', 'inverse')
