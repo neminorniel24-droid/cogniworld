@@ -21983,3 +21983,6 @@ def logic_17306(world):
 
 def logic_17307(world):
     _world_apply(world, 'fire_risk', 'humidity', 'gap')
+
+def logic_17308(world):
+    _world_apply(world, 'fire_risk', 'cloud', 'direct')
