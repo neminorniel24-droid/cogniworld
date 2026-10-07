@@ -2420,3 +2420,6 @@ def logic_10785(world):
 
 def logic_10786(world):
     _world_apply(world, 'co2', 'organic_matter', 'saturation')
+
+def logic_10787(world):
+    _world_apply(world, 'co2', 'deadwood', 'gap')
