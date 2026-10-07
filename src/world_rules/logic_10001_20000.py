@@ -9827,3 +9827,6 @@ def logic_13254(world):
 
 def logic_13255(world):
     _world_apply(world, 'root_density', 'soil_carbon', 'direct')
+
+def logic_13256(world):
+    _world_apply(world, 'root_density', 'surface_ice', 'square')
