@@ -9692,3 +9692,6 @@ def logic_7297(agents, world):
 
 def logic_7298(agents, world):
     _agent_apply(world, agents, 'temperature', 'vegetation_expectation', 'direct')
+
+def logic_7299(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'vegetation_expectation', 'direct')
