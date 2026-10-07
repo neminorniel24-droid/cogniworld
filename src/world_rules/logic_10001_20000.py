@@ -4277,3 +4277,6 @@ def logic_11404(world):
 
 def logic_11405(world):
     _world_apply(world, 'fire_risk', 'flowers', 'gap')
+
+def logic_11406(world):
+    _world_apply(world, 'fire_risk', 'seed_bank', 'direct')
