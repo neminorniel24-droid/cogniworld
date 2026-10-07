@@ -86,3 +86,6 @@ def logic_10007(world):
 
 def logic_10008(world):
     _world_apply(world, 'temperature', 'wind_y', 'pulse')
+
+def logic_10009(world):
+    _world_apply(world, 'temperature', 'vegetation', 'gap')
