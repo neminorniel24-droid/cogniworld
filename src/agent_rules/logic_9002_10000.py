@@ -1941,3 +1941,6 @@ def logic_9821(agents, world):
 
 def logic_9822(agents, world):
     _agent_apply(world, agents, 'vegetation', 'fear', 'direct')
+
+def logic_9823(agents, world):
+    _agent_apply(world, agents, 'biomass', 'fear', 'direct')
