@@ -3443,3 +3443,6 @@ def logic_11126(world):
 
 def logic_11127(world):
     _world_apply(world, 'habitat_stress', 'soil_depth', 'square')
+
+def logic_11128(world):
+    _world_apply(world, 'habitat_stress', 'root_density', 'pulse')
