@@ -54993,3 +54993,10 @@ def logic_38234(agents, world):
     src = _local(world, agents, 'temperature')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.migration_score = _delta(agents.migration_score, delta)
+
+
+def logic_38235(agents, world):
+    """Environmental temperature_target shapes agent future_payoff_weight (inverse)."""
+    src = _local(world, agents, 'temperature_target')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.future_payoff_weight = _delta(agents.future_payoff_weight, delta)
