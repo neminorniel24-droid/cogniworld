@@ -10277,3 +10277,6 @@ def logic_7492(agents, world):
 
 def logic_7493(agents, world):
     _agent_apply(world, agents, 'trust', 'social_need', 'direct')
+
+def logic_7494(agents, world):
+    _agent_apply(world, agents, 'reputation', 'social_need', 'direct')
