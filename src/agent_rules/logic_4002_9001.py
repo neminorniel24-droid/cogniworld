@@ -11825,3 +11825,6 @@ def logic_8008(agents, world):
 
 def logic_8009(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'local_density', 'direct')
+
+def logic_8010(agents, world):
+    _agent_apply(world, agents, 'ash', 'local_density', 'direct')
