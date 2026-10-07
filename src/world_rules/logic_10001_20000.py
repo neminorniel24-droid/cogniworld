@@ -2534,3 +2534,6 @@ def logic_10823(world):
 
 def logic_10824(world):
     _world_apply(world, 'photosynthesis_factor', 'ash', 'direct')
+
+def logic_10825(world):
+    _world_apply(world, 'photosynthesis_factor', 'snowpack', 'pulse')
