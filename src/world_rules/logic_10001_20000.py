@@ -2939,3 +2939,6 @@ def logic_10958(world):
 
 def logic_10959(world):
     _world_apply(world, 'detritus', 'sediment', 'pulse')
+
+def logic_10960(world):
+    _world_apply(world, 'detritus', 'salinity', 'saturation')
