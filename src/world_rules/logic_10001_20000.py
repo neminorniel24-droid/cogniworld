@@ -2000,3 +2000,6 @@ def logic_10645(world):
 
 def logic_10646(world):
     _world_apply(world, 'nutrients', 'carbon_storage', 'direct')
+
+def logic_10647(world):
+    _world_apply(world, 'nutrients', 'fire_risk', 'square')
