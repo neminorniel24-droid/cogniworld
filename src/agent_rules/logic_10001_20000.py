@@ -4670,3 +4670,6 @@ def logic_19535(agents, world):
 
 def logic_19536(agents, world):
     _agent_apply(world, agents, 'co2', 'retaliation_risk', 'reciprocal')
+
+def logic_19537(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'retaliation_risk', 'reciprocal')
