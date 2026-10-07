@@ -4850,3 +4850,6 @@ def logic_5683(agents, world):
 
 def logic_5684(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'defection', 'direct')
+
+def logic_5685(agents, world):
+    _agent_apply(world, agents, 'ice', 'defection', 'direct')
