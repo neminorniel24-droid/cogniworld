@@ -10799,3 +10799,6 @@ def logic_13578(world):
 
 def logic_13579(world):
     _world_apply(world, 'salinity', 'nutrients', 'direct')
+
+def logic_13580(world):
+    _world_apply(world, 'salinity', 'decomposition_rate', 'square')
