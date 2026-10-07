@@ -5447,3 +5447,6 @@ def logic_5882(agents, world):
 
 def logic_5883(agents, world):
     _agent_apply(world, agents, 'carrion', 'competition_pressure', 'direct')
+
+def logic_5884(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'competition_pressure', 'direct')
