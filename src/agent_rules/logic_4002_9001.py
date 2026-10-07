@@ -12605,3 +12605,6 @@ def logic_8268(agents, world):
 
 def logic_8269(agents, world):
     _agent_apply(world, agents, 'ice', 'last_interaction', 'direct')
+
+def logic_8270(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'last_interaction', 'direct')
