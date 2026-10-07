@@ -9281,3 +9281,6 @@ def logic_7160(agents, world):
 
 def logic_7161(agents, world):
     _agent_apply(world, agents, 'payoff', 'shelter_need', 'direct')
+
+def logic_7162(agents, world):
+    _agent_apply(world, agents, 'temperature', 'fire_fear', 'direct')
