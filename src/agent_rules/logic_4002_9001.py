@@ -6719,3 +6719,6 @@ def logic_6306(agents, world):
 
 def logic_6307(agents, world):
     _agent_apply(world, agents, 'wetland', 'selfishness', 'direct')
+
+def logic_6308(agents, world):
+    _agent_apply(world, agents, 'carbon_storage', 'selfishness', 'direct')
