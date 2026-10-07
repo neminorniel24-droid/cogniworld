@@ -4718,3 +4718,4 @@
 - 24717: integrated cross-system causal rule
 - 24718: integrated cross-system causal rule
 - 24719: integrated cross-system causal rule
+- 24720: integrated cross-system causal rule
