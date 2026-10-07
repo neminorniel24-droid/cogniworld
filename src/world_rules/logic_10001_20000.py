@@ -17435,3 +17435,6 @@ def logic_15790(world):
 
 def logic_15791(world):
     _world_apply(world, 'flowers', 'erosion', 'saturation')
+
+def logic_15792(world):
+    _world_apply(world, 'flowers', 'soil_depth', 'gap')
