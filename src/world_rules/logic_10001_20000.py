@@ -19328,3 +19328,6 @@ def logic_16421(world):
 
 def logic_16422(world):
     _world_apply(world, 'biomass', 'seed_bank', 'saturation')
+
+def logic_16423(world):
+    _world_apply(world, 'biomass', 'soil_carbon', 'gap')
