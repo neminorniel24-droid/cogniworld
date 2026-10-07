@@ -3560,3 +3560,6 @@ def logic_5253(agents, world):
 
 def logic_5254(agents, world):
     _agent_apply(world, agents, 'strategy_score', 'wealth', 'direct')
+
+def logic_5255(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'wealth', 'direct')
