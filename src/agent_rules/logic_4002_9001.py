@@ -11783,3 +11783,6 @@ def logic_7994(agents, world):
 
 def logic_7995(agents, world):
     _agent_apply(world, agents, 'co2', 'local_density', 'direct')
+
+def logic_7996(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'local_density', 'direct')
