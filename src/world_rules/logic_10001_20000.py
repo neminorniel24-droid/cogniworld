@@ -23774,3 +23774,6 @@ def logic_17903(world):
 
 def logic_17904(world):
     _world_apply(world, 'surface_ice', 'soil_depth', 'direct')
+
+def logic_17905(world):
+    _world_apply(world, 'surface_ice', 'root_density', 'pulse')
