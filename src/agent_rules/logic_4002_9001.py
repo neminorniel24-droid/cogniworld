@@ -2015,3 +2015,6 @@ def logic_4738(agents, world):
 
 def logic_4739(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'fear', 'direct')
+
+def logic_4740(agents, world):
+    _agent_apply(world, agents, 'erosion', 'fear', 'direct')
