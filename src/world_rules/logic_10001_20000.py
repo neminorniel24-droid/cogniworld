@@ -21230,3 +21230,6 @@ def logic_17055(world):
 
 def logic_17056(world):
     _world_apply(world, 'habitat_stress', 'decomposition_rate', 'square')
+
+def logic_17057(world):
+    _world_apply(world, 'habitat_stress', 'oxygen', 'saturation')
