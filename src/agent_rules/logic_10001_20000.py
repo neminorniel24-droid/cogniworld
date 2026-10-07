@@ -2564,3 +2564,6 @@ def logic_18833(agents, world):
 
 def logic_18834(agents, world):
     _agent_apply(world, agents, 'soil_moisture', 'defection_threshold', 'feedback')
+
+def logic_18835(agents, world):
+    _agent_apply(world, agents, 'runoff', 'defection_threshold', 'feedback')
