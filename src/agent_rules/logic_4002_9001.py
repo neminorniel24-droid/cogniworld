@@ -13910,3 +13910,6 @@ def logic_8703(agents, world):
 
 def logic_8704(agents, world):
     _agent_apply(world, agents, 'resource_abundance', 'defection_score', 'direct')
+
+def logic_8705(agents, world):
+    _agent_apply(world, agents, 'energy_surplus', 'defection_score', 'direct')
