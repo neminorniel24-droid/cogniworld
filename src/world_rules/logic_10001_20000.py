@@ -21782,3 +21782,6 @@ def logic_17239(world):
 
 def logic_17240(world):
     _world_apply(world, 'wetland', 'pathogen_load', 'saturation')
+
+def logic_17241(world):
+    _world_apply(world, 'wetland', 'biodiversity', 'direct')
