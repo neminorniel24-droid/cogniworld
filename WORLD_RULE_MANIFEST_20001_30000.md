@@ -7109,3 +7109,4 @@
 - 27108: integrated cross-system causal rule
 - 27109: integrated cross-system causal rule
 - 27110: integrated cross-system causal rule
+- 27111: integrated cross-system causal rule
