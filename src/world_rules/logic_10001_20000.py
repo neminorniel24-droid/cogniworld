@@ -11618,3 +11618,6 @@ def logic_13851(world):
 
 def logic_13852(world):
     _world_apply(world, 'seed_bank', 'pathogen_load', 'pulse')
+
+def logic_13853(world):
+    _world_apply(world, 'seed_bank', 'biodiversity', 'saturation')
