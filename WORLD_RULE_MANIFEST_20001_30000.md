@@ -430,3 +430,4 @@
 - 20429: integrated cross-system causal rule
 - 20430: integrated cross-system causal rule
 - 20431: integrated cross-system causal rule
+- 20432: integrated cross-system causal rule
