@@ -2852,3 +2852,6 @@ def logic_5017(agents, world):
 
 def logic_5018(agents, world):
     _agent_apply(world, agents, 'ash', 'migration_drive', 'direct')
+
+def logic_5019(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'migration_drive', 'direct')
