@@ -4652,3 +4652,6 @@ def logic_5617(agents, world):
 
 def logic_5618(agents, world):
     _agent_apply(world, agents, 'evaporation', 'cooperation', 'direct')
+
+def logic_5619(agents, world):
+    _agent_apply(world, agents, 'detritus', 'cooperation', 'direct')
