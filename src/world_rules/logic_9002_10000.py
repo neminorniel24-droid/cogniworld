@@ -669,3 +669,6 @@ def logic_9198(world):
 
 def logic_9199(world):
     _world_apply(world, 'cloud', 'co2', 'threshold')
+
+def logic_9200(world):
+    _world_apply(world, 'cloud', 'photosynthesis_factor', 'saturation')
