@@ -2126,3 +2126,6 @@ def logic_10687(world):
 
 def logic_10688(world):
     _world_apply(world, 'decomposition_rate', 'root_density', 'pulse')
+
+def logic_10689(world):
+    _world_apply(world, 'decomposition_rate', 'wetland', 'gap')
