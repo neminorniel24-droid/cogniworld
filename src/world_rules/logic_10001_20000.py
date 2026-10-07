@@ -13454,3 +13454,6 @@ def logic_14463(world):
 
 def logic_14464(world):
     _world_apply(world, 'herbivore', 'evaporation', 'direct')
+
+def logic_14465(world):
+    _world_apply(world, 'herbivore', 'detritus', 'pulse')
