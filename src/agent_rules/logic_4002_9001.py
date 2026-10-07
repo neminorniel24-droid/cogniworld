@@ -10622,3 +10622,6 @@ def logic_7607(agents, world):
 
 def logic_7608(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'neighbor_health_gap', 'direct')
+
+def logic_7609(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'neighbor_health_gap', 'direct')
