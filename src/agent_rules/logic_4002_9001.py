@@ -5795,3 +5795,6 @@ def logic_5998(agents, world):
 
 def logic_5999(agents, world):
     _agent_apply(world, agents, 'help_received', 'territoriality', 'direct')
+
+def logic_6000(agents, world):
+    _agent_apply(world, agents, 'help_given', 'territoriality', 'direct')
