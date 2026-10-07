@@ -64366,3 +64366,10 @@ def logic_39573(agents, world):
     src = _local(world, agents, 'rain')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.habitat_stress = _delta(agents.habitat_stress, delta)
+
+
+def logic_39574(agents, world):
+    """Environmental soil_moisture shapes agent conflict_pressure (direct)."""
+    src = _local(world, agents, 'soil_moisture')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.conflict_pressure = _delta(agents.conflict_pressure, delta)
