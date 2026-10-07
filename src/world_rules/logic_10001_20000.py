@@ -8501,3 +8501,6 @@ def logic_12812(world):
 
 def logic_12813(world):
     _world_apply(world, 'photosynthesis_factor', 'flowers', 'saturation')
+
+def logic_12814(world):
+    _world_apply(world, 'photosynthesis_factor', 'seed_bank', 'gap')
