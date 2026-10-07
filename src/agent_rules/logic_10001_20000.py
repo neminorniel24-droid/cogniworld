@@ -2774,3 +2774,6 @@ def logic_18903(agents, world):
 
 def logic_18904(agents, world):
     _agent_apply(world, agents, 'competition_pressure', 'fire_fear', 'direct')
+
+def logic_18905(agents, world):
+    _agent_apply(world, agents, 'territoriality', 'fire_fear', 'direct')
