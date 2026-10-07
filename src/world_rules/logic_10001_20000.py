@@ -20114,3 +20114,6 @@ def logic_16683(world):
 
 def logic_16684(world):
     _world_apply(world, 'oxygen', 'pollinators', 'saturation')
+
+def logic_16685(world):
+    _world_apply(world, 'oxygen', 'flowers', 'gap')
