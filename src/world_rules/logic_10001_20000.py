@@ -5420,3 +5420,6 @@ def logic_11785(world):
 
 def logic_11786(world):
     _world_apply(world, 'pollinators', 'habitat_stress', 'saturation')
+
+def logic_11787(world):
+    _world_apply(world, 'pollinators', 'erosion', 'gap')
