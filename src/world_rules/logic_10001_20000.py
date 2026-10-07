@@ -20507,3 +20507,6 @@ def logic_16814(world):
 
 def logic_16815(world):
     _world_apply(world, 'ice', 'deadwood', 'direct')
+
+def logic_16816(world):
+    _world_apply(world, 'ice', 'pollinators', 'square')
