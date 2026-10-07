@@ -8885,3 +8885,6 @@ def logic_12940(world):
 
 def logic_12941(world):
     _world_apply(world, 'detritus', 'algae', 'pulse')
+
+def logic_12942(world):
+    _world_apply(world, 'detritus', 'organic_matter', 'saturation')
