@@ -5123,3 +5123,6 @@ def logic_19686(agents, world):
 
 def logic_19687(agents, world):
     _agent_apply(world, agents, 'carbon_storage', 'memory_update', 'gap')
+
+def logic_19688(agents, world):
+    _agent_apply(world, agents, 'fire_risk', 'memory_update', 'gap')
