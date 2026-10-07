@@ -21110,3 +21110,6 @@ def logic_17015(world):
 
 def logic_17016(world):
     _world_apply(world, 'biodiversity', 'ice', 'square')
+
+def logic_17017(world):
+    _world_apply(world, 'biodiversity', 'evaporation', 'saturation')
