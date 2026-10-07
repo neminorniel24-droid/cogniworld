@@ -2333,3 +2333,6 @@ def logic_4844(agents, world):
 
 def logic_4845(agents, world):
     _agent_apply(world, agents, 'local_density', 'recovery', 'direct')
+
+def logic_4846(agents, world):
+    _agent_apply(world, agents, 'strategy_score', 'recovery', 'direct')
