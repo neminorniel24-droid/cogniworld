@@ -17615,3 +17615,6 @@ def logic_15850(world):
 
 def logic_15851(world):
     _world_apply(world, 'seed_bank', 'soil_carbon', 'square')
+
+def logic_15852(world):
+    _world_apply(world, 'seed_bank', 'surface_ice', 'pulse')
