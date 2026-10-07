@@ -14360,3 +14360,6 @@ def logic_14765(world):
 
 def logic_14766(world):
     _world_apply(world, 'photosynthesis_factor', 'carrion', 'direct')
+
+def logic_14767(world):
+    _world_apply(world, 'photosynthesis_factor', 'nutrients', 'square')
