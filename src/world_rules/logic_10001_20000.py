@@ -23387,3 +23387,6 @@ def logic_17774(world):
 
 def logic_17775(world):
     _world_apply(world, 'flowers', 'carbon_storage', 'direct')
+
+def logic_17776(world):
+    _world_apply(world, 'flowers', 'fire_risk', 'square')
