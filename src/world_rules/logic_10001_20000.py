@@ -5273,3 +5273,6 @@ def logic_11736(world):
 
 def logic_11737(world):
     _world_apply(world, 'deadwood', 'evaporation', 'saturation')
+
+def logic_11738(world):
+    _world_apply(world, 'deadwood', 'detritus', 'gap')
