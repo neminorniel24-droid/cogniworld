@@ -7826,3 +7826,6 @@ def logic_12587(world):
 
 def logic_12588(world):
     _world_apply(world, 'carrion', 'salinity', 'direct')
+
+def logic_12589(world):
+    _world_apply(world, 'carrion', 'algae', 'square')
