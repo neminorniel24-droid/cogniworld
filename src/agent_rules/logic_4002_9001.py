@@ -14759,3 +14759,6 @@ def logic_8986(agents, world):
 
 def logic_8987(agents, world):
     _agent_apply(world, agents, 'cooperation', 'exploration_score', 'direct')
+
+def logic_8988(agents, world):
+    _agent_apply(world, agents, 'defection', 'exploration_score', 'direct')
