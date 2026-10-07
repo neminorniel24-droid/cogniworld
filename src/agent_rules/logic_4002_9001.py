@@ -6338,3 +6338,6 @@ def logic_6179(agents, world):
 
 def logic_6180(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'help_drive', 'direct')
+
+def logic_6181(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'help_drive', 'direct')
