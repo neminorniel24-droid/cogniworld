@@ -61174,3 +61174,10 @@ def logic_39117(agents, world):
     src = _local(world, agents, 'wind_y')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.help_drive = _delta(agents.help_drive, delta)
+
+
+def logic_39118(agents, world):
+    """Environmental vegetation shapes agent strategy_confidence (direct)."""
+    src = _local(world, agents, 'vegetation')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.strategy_confidence = _delta(agents.strategy_confidence, delta)
