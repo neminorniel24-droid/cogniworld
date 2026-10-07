@@ -360,3 +360,6 @@ def logic_9095(world):
 
 def logic_9096(world):
     _world_apply(world, 'temperature', 'deadwood', 'saturation')
+
+def logic_9097(world):
+    _world_apply(world, 'temperature', 'pollinators', 'reciprocal')
