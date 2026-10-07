@@ -2534,3 +2534,6 @@ def logic_4911(agents, world):
 
 def logic_4912(agents, world):
     _agent_apply(world, agents, 'help_given', 'metabolic_cost', 'direct')
+
+def logic_4913(agents, world):
+    _agent_apply(world, agents, 'local_density', 'metabolic_cost', 'direct')
