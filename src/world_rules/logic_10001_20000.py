@@ -4001,3 +4001,6 @@ def logic_11312(world):
 
 def logic_11313(world):
     _world_apply(world, 'wetland', 'algae', 'square')
+
+def logic_11314(world):
+    _world_apply(world, 'wetland', 'organic_matter', 'pulse')
