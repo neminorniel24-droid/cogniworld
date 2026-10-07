@@ -1056,3 +1056,6 @@ def logic_9526(agents, world):
 
 def logic_9527(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'thermal_stress', 'direct')
+
+def logic_9528(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'thermal_stress', 'direct')
