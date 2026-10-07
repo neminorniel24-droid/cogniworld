@@ -1700,3 +1700,6 @@ def logic_18545(agents, world):
 
 def logic_18546(agents, world):
     _agent_apply(world, agents, 'strategy_persistence', 'territoriality', 'saturation')
+
+def logic_18547(agents, world):
+    _agent_apply(world, agents, 'strategy_mixing', 'territoriality', 'saturation')
