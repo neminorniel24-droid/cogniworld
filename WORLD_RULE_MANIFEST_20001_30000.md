@@ -1337,3 +1337,4 @@
 - 21336: integrated cross-system causal rule
 - 21337: integrated cross-system causal rule
 - 21338: integrated cross-system causal rule
+- 21339: integrated cross-system causal rule
