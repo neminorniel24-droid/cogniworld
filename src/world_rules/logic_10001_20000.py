@@ -269,3 +269,6 @@ def logic_10068(world):
 
 def logic_10069(world):
     _world_apply(world, 'surface_water', 'habitat_stress', 'square')
+
+def logic_10070(world):
+    _world_apply(world, 'surface_water', 'erosion', 'pulse')
