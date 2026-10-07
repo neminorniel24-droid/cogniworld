@@ -243,3 +243,6 @@ def logic_9056(world):
 
 def logic_9057(world):
     _world_apply(world, 'temperature', 'snowpack', 'reciprocal')
+
+def logic_9058(world):
+    _world_apply(world, 'temperature', 'surface_ice', 'direct')
