@@ -4247,3 +4247,6 @@ def logic_19394(agents, world):
 
 def logic_19395(agents, world):
     _agent_apply(world, agents, 'nutrients', 'safety_score', 'threshold')
+
+def logic_19396(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'safety_score', 'threshold')
