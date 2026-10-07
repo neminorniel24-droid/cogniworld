@@ -275,3 +275,6 @@ def logic_18070(agents, world):
 
 def logic_18071(agents, world):
     _agent_apply(world, agents, 'trust', 'health', 'direct')
+
+def logic_18072(agents, world):
+    _agent_apply(world, agents, 'cooperation', 'health', 'direct')
