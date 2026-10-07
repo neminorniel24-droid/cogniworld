@@ -21953,3 +21953,6 @@ def logic_17296(world):
 
 def logic_17297(world):
     _world_apply(world, 'carbon_storage', 'algae', 'saturation')
+
+def logic_17298(world):
+    _world_apply(world, 'carbon_storage', 'organic_matter', 'gap')
