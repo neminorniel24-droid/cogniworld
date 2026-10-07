@@ -587,3 +587,6 @@ def logic_4262(agents, world):
 
 def logic_4263(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'hunger', 'direct')
+
+def logic_4264(agents, world):
+    _agent_apply(world, agents, 'erosion', 'hunger', 'direct')
