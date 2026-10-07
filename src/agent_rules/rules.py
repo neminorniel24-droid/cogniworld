@@ -62112,3 +62112,10 @@ def logic_39251(agents, world):
     src = _local(world, agents, 'rain')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.defense_score = _delta(agents.defense_score, delta)
+
+
+def logic_39252(agents, world):
+    """Environmental soil_moisture shapes agent memory_update (square)."""
+    src = _local(world, agents, 'soil_moisture')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.memory_update = _delta(agents.memory_update, delta)
