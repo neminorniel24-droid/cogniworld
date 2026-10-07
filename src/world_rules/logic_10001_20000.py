@@ -20183,3 +20183,6 @@ def logic_16706(world):
 
 def logic_16707(world):
     _world_apply(world, 'co2', 'ice', 'gap')
+
+def logic_16708(world):
+    _world_apply(world, 'co2', 'evaporation', 'direct')
