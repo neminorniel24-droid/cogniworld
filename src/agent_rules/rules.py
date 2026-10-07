@@ -38277,3 +38277,10 @@ def logic_35846(agents, world):
     src = _local(world, agents, 'cloud')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.pathogen_risk = _delta(agents.pathogen_risk, delta)
+
+
+def logic_35847(agents, world):
+    """Environmental rain shapes agent migration_drive (inverse)."""
+    src = _local(world, agents, 'rain')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.migration_drive = _delta(agents.migration_drive, delta)
