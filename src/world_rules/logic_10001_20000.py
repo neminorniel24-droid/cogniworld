@@ -3002,3 +3002,6 @@ def logic_10979(world):
 
 def logic_10980(world):
     _world_apply(world, 'methane', 'herbivore', 'square')
+
+def logic_10981(world):
+    _world_apply(world, 'methane', 'predator', 'pulse')
