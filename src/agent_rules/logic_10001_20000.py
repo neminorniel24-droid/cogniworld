@@ -3425,3 +3425,6 @@ def logic_19120(agents, world):
 
 def logic_19121(agents, world):
     _agent_apply(world, agents, 'oxygen', 'help_given', 'square')
+
+def logic_19122(agents, world):
+    _agent_apply(world, agents, 'co2', 'help_given', 'square')
