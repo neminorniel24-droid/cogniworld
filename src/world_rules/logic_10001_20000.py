@@ -19334,3 +19334,6 @@ def logic_16423(world):
 
 def logic_16424(world):
     _world_apply(world, 'biomass', 'surface_ice', 'direct')
+
+def logic_16425(world):
+    _world_apply(world, 'herbivore', 'temperature', 'pulse')
