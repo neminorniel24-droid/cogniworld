@@ -52298,3 +52298,10 @@ def logic_37849(agents, world):
     src = _local(world, agents, 'root_density')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.cooperation_history = _delta(agents.cooperation_history, delta)
+
+
+def logic_37850(agents, world):
+    """Environmental wetland shapes agent last_interaction (direct)."""
+    src = _local(world, agents, 'wetland')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.last_interaction = _delta(agents.last_interaction, delta)
