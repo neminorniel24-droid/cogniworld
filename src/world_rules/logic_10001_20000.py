@@ -6533,3 +6533,6 @@ def logic_12156(world):
 
 def logic_12157(world):
     _world_apply(world, 'rain', 'temperature', 'direct')
+
+def logic_12158(world):
+    _world_apply(world, 'rain', 'surface_water', 'square')
