@@ -815,3 +815,6 @@ def logic_18250(agents, world):
 
 def logic_18251(agents, world):
     _agent_apply(world, agents, 'last_action', 'reproduction_drive', 'square')
+
+def logic_18252(agents, world):
+    _agent_apply(world, agents, 'strategy_score', 'reproduction_drive', 'square')
