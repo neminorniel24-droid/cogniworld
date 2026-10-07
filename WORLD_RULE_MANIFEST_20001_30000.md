@@ -2245,3 +2245,4 @@
 - 22244: integrated cross-system causal rule
 - 22245: integrated cross-system causal rule
 - 22246: integrated cross-system causal rule
+- 22247: integrated cross-system causal rule
