@@ -15854,3 +15854,6 @@ def logic_15263(world):
 
 def logic_15264(world):
     _world_apply(world, 'wetland', 'soil_depth', 'direct')
+
+def logic_15265(world):
+    _world_apply(world, 'wetland', 'root_density', 'pulse')
