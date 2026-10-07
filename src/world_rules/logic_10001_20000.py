@@ -22220,3 +22220,6 @@ def logic_17385(world):
 
 def logic_17386(world):
     _world_apply(world, 'ash', 'organic_matter', 'saturation')
+
+def logic_17387(world):
+    _world_apply(world, 'ash', 'deadwood', 'gap')
