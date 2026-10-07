@@ -23570,3 +23570,6 @@ def logic_17835(world):
 
 def logic_17836(world):
     _world_apply(world, 'soil_carbon', 'cloud', 'gap')
+
+def logic_17837(world):
+    _world_apply(world, 'soil_carbon', 'rain', 'direct')
