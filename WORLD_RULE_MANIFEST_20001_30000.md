@@ -3792,3 +3792,4 @@
 - 23791: integrated cross-system causal rule
 - 23792: integrated cross-system causal rule
 - 23793: integrated cross-system causal rule
+- 23794: integrated cross-system causal rule
