@@ -48469,3 +48469,10 @@ def logic_37302(agents, world):
     src = _local(world, agents, 'snowpack')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.betrayal_memory = _delta(agents.betrayal_memory, delta)
+
+
+def logic_37303(agents, world):
+    """Environmental groundwater shapes agent last_energy_delta (inverse)."""
+    src = _local(world, agents, 'groundwater')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.last_energy_delta = _delta(agents.last_energy_delta, delta)
