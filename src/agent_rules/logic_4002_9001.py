@@ -11147,3 +11147,6 @@ def logic_7782(agents, world):
 
 def logic_7783(agents, world):
     _agent_apply(world, agents, 'vegetation', 'cooperation_history', 'direct')
+
+def logic_7784(agents, world):
+    _agent_apply(world, agents, 'biomass', 'cooperation_history', 'direct')
