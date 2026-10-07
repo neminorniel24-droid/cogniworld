@@ -3353,3 +3353,6 @@ def logic_19096(agents, world):
 
 def logic_19097(agents, world):
     _agent_apply(world, agents, 'sharing_score', 'help_received', 'square')
+
+def logic_19098(agents, world):
+    _agent_apply(world, agents, 'strategy_persistence', 'help_received', 'square')
