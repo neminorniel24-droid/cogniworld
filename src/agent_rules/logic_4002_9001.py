@@ -2060,3 +2060,6 @@ def logic_4753(agents, world):
 
 def logic_4754(agents, world):
     _agent_apply(world, agents, 'pollinators', 'fear', 'direct')
+
+def logic_4755(agents, world):
+    _agent_apply(world, agents, 'flowers', 'fear', 'direct')
