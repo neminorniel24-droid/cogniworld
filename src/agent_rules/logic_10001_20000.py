@@ -2735,3 +2735,6 @@ def logic_18890(agents, world):
 
 def logic_18891(agents, world):
     _agent_apply(world, agents, 'migration_drive', 'fire_fear', 'direct')
+
+def logic_18892(agents, world):
+    _agent_apply(world, agents, 'exploration_drive', 'fire_fear', 'direct')
