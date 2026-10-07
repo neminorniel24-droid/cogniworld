@@ -11408,3 +11408,6 @@ def logic_13781(world):
 
 def logic_13782(world):
     _world_apply(world, 'pollinators', 'seed_bank', 'saturation')
+
+def logic_13783(world):
+    _world_apply(world, 'pollinators', 'soil_carbon', 'gap')
