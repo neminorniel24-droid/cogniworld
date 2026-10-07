@@ -572,3 +572,6 @@ def logic_10169(world):
 
 def logic_10170(world):
     _world_apply(world, 'cloud', 'organic_matter', 'direct')
+
+def logic_10171(world):
+    _world_apply(world, 'cloud', 'deadwood', 'square')
