@@ -20072,3 +20072,6 @@ def logic_16669(world):
 
 def logic_16670(world):
     _world_apply(world, 'oxygen', 'erosion', 'pulse')
+
+def logic_16671(world):
+    _world_apply(world, 'oxygen', 'soil_depth', 'saturation')
