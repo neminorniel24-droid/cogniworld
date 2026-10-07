@@ -3014,3 +3014,6 @@ def logic_5071(agents, world):
 
 def logic_5072(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'exploration_drive', 'direct')
+
+def logic_5073(agents, world):
+    _agent_apply(world, agents, 'ice', 'exploration_drive', 'direct')
