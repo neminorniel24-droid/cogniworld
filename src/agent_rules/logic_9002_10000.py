@@ -1728,3 +1728,6 @@ def logic_9750(agents, world):
 
 def logic_9751(agents, world):
     _agent_apply(world, agents, 'runoff', 'alertness', 'direct')
+
+def logic_9752(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'alertness', 'direct')
