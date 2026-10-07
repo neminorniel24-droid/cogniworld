@@ -32005,3 +32005,10 @@ def logic_34950(agents, world):
     src = _local(world, agents, 'soil_depth')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.conflict_history = _delta(agents.conflict_history, delta)
+
+
+def logic_34951(agents, world):
+    """Environmental root_density shapes agent last_food (inverse)."""
+    src = _local(world, agents, 'root_density')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.last_food = _delta(agents.last_food, delta)
