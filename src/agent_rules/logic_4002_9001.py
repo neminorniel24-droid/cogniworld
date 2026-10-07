@@ -2378,3 +2378,6 @@ def logic_4859(agents, world):
 
 def logic_4860(agents, world):
     _agent_apply(world, agents, 'biomass', 'metabolic_cost', 'direct')
+
+def logic_4861(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'metabolic_cost', 'direct')
