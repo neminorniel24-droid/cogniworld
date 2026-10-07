@@ -6038,3 +6038,6 @@ def logic_6079(agents, world):
 
 def logic_6080(agents, world):
     _agent_apply(world, agents, 'runoff', 'sharing_capacity', 'direct')
+
+def logic_6081(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'sharing_capacity', 'direct')
