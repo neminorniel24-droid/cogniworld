@@ -586,3 +586,4 @@
 - 20585: integrated cross-system causal rule
 - 20586: integrated cross-system causal rule
 - 20587: integrated cross-system causal rule
+- 20588: integrated cross-system causal rule
