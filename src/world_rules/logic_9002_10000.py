@@ -660,3 +660,6 @@ def logic_9195(world):
 
 def logic_9196(world):
     _world_apply(world, 'cloud', 'nutrients', 'square')
+
+def logic_9197(world):
+    _world_apply(world, 'cloud', 'decomposition_rate', 'sqrt')
