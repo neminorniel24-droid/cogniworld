@@ -5987,3 +5987,6 @@ def logic_11974(world):
 
 def logic_11975(world):
     _world_apply(world, 'surface_ice', 'organic_matter', 'direct')
+
+def logic_11976(world):
+    _world_apply(world, 'surface_ice', 'deadwood', 'square')
