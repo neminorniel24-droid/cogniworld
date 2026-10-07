@@ -65857,3 +65857,10 @@ def logic_39786(agents, world):
     src = _local(world, agents, 'snowpack')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.memory_update = _delta(agents.memory_update, delta)
+
+
+def logic_39787(agents, world):
+    """Environmental groundwater shapes agent health (inverse)."""
+    src = _local(world, agents, 'groundwater')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.health = _delta(agents.health, delta)
