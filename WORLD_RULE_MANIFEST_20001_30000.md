@@ -2420,3 +2420,4 @@
 - 22419: integrated cross-system causal rule
 - 22420: integrated cross-system causal rule
 - 22421: integrated cross-system causal rule
+- 22422: integrated cross-system causal rule
