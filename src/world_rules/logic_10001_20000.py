@@ -18137,3 +18137,6 @@ def logic_16024(world):
 
 def logic_16025(world):
     _world_apply(world, 'surface_water', 'flowers', 'pulse')
+
+def logic_16026(world):
+    _world_apply(world, 'surface_water', 'seed_bank', 'saturation')
