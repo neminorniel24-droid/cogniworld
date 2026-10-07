@@ -21779,3 +21779,6 @@ def logic_17238(world):
 
 def logic_17239(world):
     _world_apply(world, 'wetland', 'methane', 'pulse')
+
+def logic_17240(world):
+    _world_apply(world, 'wetland', 'pathogen_load', 'saturation')
