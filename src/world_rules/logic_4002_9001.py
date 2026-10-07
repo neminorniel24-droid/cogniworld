@@ -137,3 +137,6 @@ def logic_4012(world):
 
 def logic_4013(world):
     _world_apply(world, 'soil_carbon', 'vegetation', 'sqrt')
+
+def logic_4014(world):
+    _world_apply(world, 'decomposition_rate', 'nutrients', 'pulse')
