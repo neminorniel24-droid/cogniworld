@@ -7628,3 +7628,6 @@ def logic_12521(world):
 
 def logic_12522(world):
     _world_apply(world, 'predator', 'nutrients', 'square')
+
+def logic_12523(world):
+    _world_apply(world, 'predator', 'decomposition_rate', 'pulse')
