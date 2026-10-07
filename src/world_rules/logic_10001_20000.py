@@ -2843,3 +2843,6 @@ def logic_10926(world):
 
 def logic_10927(world):
     _world_apply(world, 'detritus', 'humidity', 'square')
+
+def logic_10928(world):
+    _world_apply(world, 'detritus', 'cloud', 'pulse')
