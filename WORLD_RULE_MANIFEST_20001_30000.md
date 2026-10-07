@@ -4724,3 +4724,4 @@
 - 24723: integrated cross-system causal rule
 - 24724: integrated cross-system causal rule
 - 24725: integrated cross-system causal rule
+- 24726: integrated cross-system causal rule
