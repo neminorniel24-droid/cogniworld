@@ -5162,3 +5162,6 @@ def logic_19699(agents, world):
 
 def logic_19700(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'future_payoff_weight', 'feedback')
+
+def logic_19701(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'future_payoff_weight', 'feedback')
