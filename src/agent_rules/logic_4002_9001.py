@@ -10466,3 +10466,6 @@ def logic_7555(agents, world):
 
 def logic_7556(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'neighbor_energy_gap', 'direct')
+
+def logic_7557(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'neighbor_energy_gap', 'direct')
