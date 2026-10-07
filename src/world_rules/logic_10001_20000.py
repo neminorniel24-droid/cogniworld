@@ -560,3 +560,6 @@ def logic_10165(world):
 
 def logic_10166(world):
     _world_apply(world, 'cloud', 'groundwater', 'direct')
+
+def logic_10167(world):
+    _world_apply(world, 'cloud', 'sediment', 'square')
