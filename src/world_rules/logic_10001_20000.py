@@ -21023,3 +21023,6 @@ def logic_16986(world):
 
 def logic_16987(world):
     _world_apply(world, 'pathogen_load', 'sediment', 'gap')
+
+def logic_16988(world):
+    _world_apply(world, 'pathogen_load', 'salinity', 'direct')
