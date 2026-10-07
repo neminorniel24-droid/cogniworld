@@ -2603,3 +2603,6 @@ def logic_4934(agents, world):
 
 def logic_4935(agents, world):
     _agent_apply(world, agents, 'co2', 'reproduction_drive', 'direct')
+
+def logic_4936(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'reproduction_drive', 'direct')
