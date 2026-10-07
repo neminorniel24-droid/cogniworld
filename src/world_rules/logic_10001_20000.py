@@ -1754,3 +1754,6 @@ def logic_10563(world):
 
 def logic_10564(world):
     _world_apply(world, 'predator', 'salinity', 'saturation')
+
+def logic_10565(world):
+    _world_apply(world, 'predator', 'algae', 'gap')
