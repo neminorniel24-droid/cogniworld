@@ -8840,3 +8840,6 @@ def logic_12925(world):
 
 def logic_12926(world):
     _world_apply(world, 'detritus', 'methane', 'direct')
+
+def logic_12927(world):
+    _world_apply(world, 'detritus', 'pathogen_load', 'square')
