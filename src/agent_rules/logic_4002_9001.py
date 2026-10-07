@@ -3365,3 +3365,6 @@ def logic_5188(agents, world):
 
 def logic_5189(agents, world):
     _agent_apply(world, agents, 'payoff', 'food_access', 'direct')
+
+def logic_5190(agents, world):
+    _agent_apply(world, agents, 'temperature', 'wealth', 'direct')
