@@ -12635,3 +12635,6 @@ def logic_14190(world):
 
 def logic_14191(world):
     _world_apply(world, 'soil_moisture', 'herbivore', 'saturation')
+
+def logic_14192(world):
+    _world_apply(world, 'soil_moisture', 'predator', 'gap')
