@@ -7834,3 +7834,4 @@
 - 27833: integrated cross-system causal rule
 - 27834: integrated cross-system causal rule
 - 27835: integrated cross-system causal rule
+- 27836: integrated cross-system causal rule
