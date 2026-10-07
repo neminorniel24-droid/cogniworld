@@ -7007,3 +7007,6 @@ def logic_12314(world):
 
 def logic_12315(world):
     _world_apply(world, 'wind_x', 'soil_depth', 'saturation')
+
+def logic_12316(world):
+    _world_apply(world, 'wind_x', 'root_density', 'gap')
