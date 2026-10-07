@@ -158,3 +158,6 @@ def logic_4019(world):
 
 def logic_4020(world):
     _world_apply(world, 'sediment', 'soil_depth', 'square')
+
+def logic_4021(world):
+    _world_apply(world, 'fire_risk', 'ash', 'sqrt')
