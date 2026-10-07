@@ -3692,3 +3692,6 @@ def logic_11209(world):
 
 def logic_11210(world):
     _world_apply(world, 'soil_depth', 'detritus', 'direct')
+
+def logic_11211(world):
+    _world_apply(world, 'soil_depth', 'methane', 'square')
