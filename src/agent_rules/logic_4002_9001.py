@@ -14294,3 +14294,6 @@ def logic_8831(agents, world):
 
 def logic_8832(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'risk_score', 'direct')
+
+def logic_8833(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'risk_score', 'direct')
