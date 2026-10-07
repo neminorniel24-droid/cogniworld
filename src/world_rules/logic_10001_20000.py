@@ -14669,3 +14669,6 @@ def logic_14868(world):
 
 def logic_14869(world):
     _world_apply(world, 'evaporation', 'wetland', 'square')
+
+def logic_14870(world):
+    _world_apply(world, 'evaporation', 'carbon_storage', 'pulse')
