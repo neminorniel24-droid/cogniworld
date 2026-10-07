@@ -4583,3 +4583,6 @@ def logic_11506(world):
 
 def logic_11507(world):
     _world_apply(world, 'groundwater', 'biomass', 'gap')
+
+def logic_11508(world):
+    _world_apply(world, 'groundwater', 'herbivore', 'direct')
