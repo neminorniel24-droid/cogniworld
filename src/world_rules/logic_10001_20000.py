@@ -2234,3 +2234,6 @@ def logic_10723(world):
 
 def logic_10724(world):
     _world_apply(world, 'oxygen', 'evaporation', 'saturation')
+
+def logic_10725(world):
+    _world_apply(world, 'oxygen', 'detritus', 'gap')
