@@ -5417,3 +5417,6 @@ def logic_19784(agents, world):
 
 def logic_19785(agents, world):
     _agent_apply(world, agents, 'migration_score', 'thirst', 'direct')
+
+def logic_19786(agents, world):
+    _agent_apply(world, agents, 'reproduction_score', 'thirst', 'direct')
