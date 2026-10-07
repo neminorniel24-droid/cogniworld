@@ -1821,3 +1821,6 @@ def logic_9781(agents, world):
 
 def logic_9782(agents, world):
     _agent_apply(world, agents, 'algae', 'alertness', 'direct')
+
+def logic_9783(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'alertness', 'direct')
