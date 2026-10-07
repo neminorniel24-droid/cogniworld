@@ -310,3 +310,4 @@
 - 20309: integrated cross-system causal rule
 - 20310: integrated cross-system causal rule
 - 20311: integrated cross-system causal rule
+- 20312: integrated cross-system causal rule
