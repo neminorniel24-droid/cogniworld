@@ -5774,3 +5774,6 @@ def logic_5991(agents, world):
 
 def logic_5992(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'territoriality', 'direct')
+
+def logic_5993(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'territoriality', 'direct')
