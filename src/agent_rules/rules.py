@@ -58297,3 +58297,10 @@ def logic_38706(agents, world):
     src = _local(world, agents, 'herbivore')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.thirst = _delta(agents.thirst, delta)
+
+
+def logic_38707(agents, world):
+    """Environmental predator shapes agent alertness (inverse)."""
+    src = _local(world, agents, 'predator')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.alertness = _delta(agents.alertness, delta)
