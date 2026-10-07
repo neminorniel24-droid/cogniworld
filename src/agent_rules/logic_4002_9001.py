@@ -14786,3 +14786,6 @@ def logic_8995(agents, world):
 
 def logic_8996(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'exploration_score', 'direct')
+
+def logic_8997(agents, world):
+    _agent_apply(world, agents, 'payoff', 'exploration_score', 'direct')
