@@ -64597,3 +64597,10 @@ def logic_39606(agents, world):
     src = _local(world, agents, 'algae')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.exploration_score = _delta(agents.exploration_score, delta)
+
+
+def logic_39607(agents, world):
+    """Environmental organic_matter shapes agent defense_score (inverse)."""
+    src = _local(world, agents, 'organic_matter')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defense_score = _delta(agents.defense_score, delta)
