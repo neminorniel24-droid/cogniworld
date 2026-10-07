@@ -1404,3 +1404,6 @@ def logic_9642(agents, world):
 
 def logic_9643(agents, world):
     _agent_apply(world, agents, 'groundwater', 'pathogen_risk', 'direct')
+
+def logic_9644(agents, world):
+    _agent_apply(world, agents, 'sediment', 'pathogen_risk', 'direct')
