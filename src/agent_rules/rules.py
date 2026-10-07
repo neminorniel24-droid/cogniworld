@@ -57513,3 +57513,10 @@ def logic_38594(agents, world):
     src = _local(world, agents, 'algae')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.habitat_stress = _delta(agents.habitat_stress, delta)
+
+
+def logic_38595(agents, world):
+    """Environmental organic_matter shapes agent conflict_pressure (inverse)."""
+    src = _local(world, agents, 'organic_matter')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.conflict_pressure = _delta(agents.conflict_pressure, delta)
