@@ -128,3 +128,6 @@ def logic_4009(world):
 
 def logic_4010(world):
     _world_apply(world, 'carrion', 'nutrients', 'direct')
+
+def logic_4011(world):
+    _world_apply(world, 'nutrients', 'vegetation', 'inverse')
