@@ -15089,3 +15089,6 @@ def logic_15008(world):
 
 def logic_15009(world):
     _world_apply(world, 'pathogen_load', 'algae', 'gap')
+
+def logic_15010(world):
+    _world_apply(world, 'pathogen_load', 'organic_matter', 'direct')
