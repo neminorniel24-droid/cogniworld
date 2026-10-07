@@ -8849,3 +8849,6 @@ def logic_12928(world):
 
 def logic_12929(world):
     _world_apply(world, 'detritus', 'habitat_stress', 'gap')
+
+def logic_12930(world):
+    _world_apply(world, 'detritus', 'erosion', 'direct')
