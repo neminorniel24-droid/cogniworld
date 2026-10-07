@@ -15332,3 +15332,6 @@ def logic_15089(world):
 
 def logic_15090(world):
     _world_apply(world, 'habitat_stress', 'carbon_storage', 'direct')
+
+def logic_15091(world):
+    _world_apply(world, 'habitat_stress', 'fire_risk', 'square')
