@@ -8555,3 +8555,6 @@ def logic_12830(world):
 
 def logic_12831(world):
     _world_apply(world, 'ice', 'nutrients', 'saturation')
+
+def logic_12832(world):
+    _world_apply(world, 'ice', 'decomposition_rate', 'gap')
