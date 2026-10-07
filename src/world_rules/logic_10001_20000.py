@@ -14636,3 +14636,6 @@ def logic_14857(world):
 
 def logic_14858(world):
     _world_apply(world, 'evaporation', 'co2', 'gap')
+
+def logic_14859(world):
+    _world_apply(world, 'evaporation', 'photosynthesis_factor', 'direct')
