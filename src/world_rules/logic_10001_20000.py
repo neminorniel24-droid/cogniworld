@@ -2042,3 +2042,6 @@ def logic_10659(world):
 
 def logic_10660(world):
     _world_apply(world, 'nutrients', 'surface_ice', 'square')
+
+def logic_10661(world):
+    _world_apply(world, 'decomposition_rate', 'temperature', 'pulse')
