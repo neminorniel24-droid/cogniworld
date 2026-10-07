@@ -30164,3 +30164,10 @@ def logic_34687(agents, world):
     src = _local(world, agents, 'pollinators')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.sharing_score = _delta(agents.sharing_score, delta)
+
+
+def logic_34688(agents, world):
+    """Environmental flowers shapes agent payoff (square)."""
+    src = _local(world, agents, 'flowers')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.payoff = _delta(agents.payoff, delta)
