@@ -6341,3 +6341,4 @@
 - 26340: integrated cross-system causal rule
 - 26341: integrated cross-system causal rule
 - 26342: integrated cross-system causal rule
+- 26343: integrated cross-system causal rule
