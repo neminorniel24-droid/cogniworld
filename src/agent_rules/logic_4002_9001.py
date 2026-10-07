@@ -3098,3 +3098,6 @@ def logic_5099(agents, world):
 
 def logic_5100(agents, world):
     _agent_apply(world, agents, 'resource_abundance', 'exploration_drive', 'direct')
+
+def logic_5101(agents, world):
+    _agent_apply(world, agents, 'energy_surplus', 'exploration_drive', 'direct')
