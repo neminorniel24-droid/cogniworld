@@ -8831,3 +8831,6 @@ def logic_12922(world):
 
 def logic_12923(world):
     _world_apply(world, 'detritus', 'photosynthesis_factor', 'pulse')
+
+def logic_12924(world):
+    _world_apply(world, 'detritus', 'ice', 'saturation')
