@@ -1901,3 +1901,6 @@ def logic_4700(agents, world):
 
 def logic_4701(agents, world):
     _agent_apply(world, agents, 'competition_pressure', 'alertness', 'direct')
+
+def logic_4702(agents, world):
+    _agent_apply(world, agents, 'social_need', 'alertness', 'direct')
