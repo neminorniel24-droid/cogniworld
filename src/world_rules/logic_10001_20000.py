@@ -1772,3 +1772,6 @@ def logic_10569(world):
 
 def logic_10570(world):
     _world_apply(world, 'predator', 'seed_bank', 'direct')
+
+def logic_10571(world):
+    _world_apply(world, 'predator', 'soil_carbon', 'square')
