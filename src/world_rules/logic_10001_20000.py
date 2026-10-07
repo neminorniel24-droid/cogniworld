@@ -9860,3 +9860,6 @@ def logic_13265(world):
 
 def logic_13266(world):
     _world_apply(world, 'wetland', 'vegetation', 'saturation')
+
+def logic_13267(world):
+    _world_apply(world, 'wetland', 'biomass', 'gap')
