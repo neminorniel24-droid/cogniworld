@@ -408,3 +408,6 @@ def logic_9111(world):
 
 def logic_9112(world):
     _world_apply(world, 'surface_water', 'carrion', 'saturation')
+
+def logic_9113(world):
+    _world_apply(world, 'surface_water', 'nutrients', 'reciprocal')
