@@ -4870,3 +4870,4 @@
 - 24869: integrated cross-system causal rule
 - 24870: integrated cross-system causal rule
 - 24871: integrated cross-system causal rule
+- 24872: integrated cross-system causal rule
