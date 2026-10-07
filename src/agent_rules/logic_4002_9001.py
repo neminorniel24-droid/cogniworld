@@ -9122,3 +9122,6 @@ def logic_7107(agents, world):
 
 def logic_7108(agents, world):
     _agent_apply(world, agents, 'nutrients', 'shelter_need', 'direct')
+
+def logic_7109(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'shelter_need', 'direct')
