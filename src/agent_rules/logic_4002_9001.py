@@ -12140,3 +12140,6 @@ def logic_8113(agents, world):
 
 def logic_8114(agents, world):
     _agent_apply(world, agents, 'temperature', 'last_energy_delta', 'direct')
+
+def logic_8115(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'last_energy_delta', 'direct')
