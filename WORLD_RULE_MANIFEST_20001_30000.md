@@ -821,3 +821,4 @@
 - 20820: integrated cross-system causal rule
 - 20821: integrated cross-system causal rule
 - 20822: integrated cross-system causal rule
+- 20823: integrated cross-system causal rule
