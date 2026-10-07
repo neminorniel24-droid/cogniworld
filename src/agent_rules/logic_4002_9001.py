@@ -917,3 +917,6 @@ def logic_4372(agents, world):
 
 def logic_4373(agents, world):
     _agent_apply(world, agents, 'payoff', 'health', 'direct')
+
+def logic_4374(agents, world):
+    _agent_apply(world, agents, 'temperature', 'thermal_stress', 'direct')
