@@ -887,3 +887,6 @@ def logic_10274(world):
 
 def logic_10275(world):
     _world_apply(world, 'runoff', 'herbivore', 'saturation')
+
+def logic_10276(world):
+    _world_apply(world, 'runoff', 'predator', 'gap')
