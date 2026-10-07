@@ -5600,3 +5600,6 @@ def logic_11845(world):
 
 def logic_11846(world):
     _world_apply(world, 'flowers', 'seed_bank', 'direct')
+
+def logic_11847(world):
+    _world_apply(world, 'flowers', 'soil_carbon', 'square')
