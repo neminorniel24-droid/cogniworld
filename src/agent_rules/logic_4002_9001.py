@@ -11159,3 +11159,6 @@ def logic_7786(agents, world):
 
 def logic_7787(agents, world):
     _agent_apply(world, agents, 'carrion', 'cooperation_history', 'direct')
+
+def logic_7788(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'cooperation_history', 'direct')
