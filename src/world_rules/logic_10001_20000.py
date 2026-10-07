@@ -7931,3 +7931,6 @@ def logic_12622(world):
 
 def logic_12623(world):
     _world_apply(world, 'nutrients', 'soil_depth', 'gap')
+
+def logic_12624(world):
+    _world_apply(world, 'nutrients', 'root_density', 'direct')
