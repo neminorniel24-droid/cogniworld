@@ -14018,3 +14018,6 @@ def logic_8739(agents, world):
 
 def logic_8740(agents, world):
     _agent_apply(world, agents, 'nutrients', 'reciprocity_score', 'direct')
+
+def logic_8741(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'reciprocity_score', 'direct')
