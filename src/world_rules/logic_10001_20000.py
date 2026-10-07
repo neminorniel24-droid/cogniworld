@@ -18059,3 +18059,6 @@ def logic_15998(world):
 
 def logic_15999(world):
     _world_apply(world, 'surface_water', 'decomposition_rate', 'pulse')
+
+def logic_16000(world):
+    _world_apply(world, 'surface_water', 'oxygen', 'saturation')
