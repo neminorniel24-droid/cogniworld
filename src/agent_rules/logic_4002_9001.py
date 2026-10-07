@@ -6002,3 +6002,6 @@ def logic_6067(agents, world):
 
 def logic_6068(agents, world):
     _agent_apply(world, agents, 'help_given', 'group_stability', 'direct')
+
+def logic_6069(agents, world):
+    _agent_apply(world, agents, 'local_density', 'group_stability', 'direct')
