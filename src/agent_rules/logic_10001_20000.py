@@ -5330,3 +5330,6 @@ def logic_19755(agents, world):
 
 def logic_19756(agents, world):
     _agent_apply(world, agents, 'neighbor_energy_gap', 'hydration', 'feedback')
+
+def logic_19757(agents, world):
+    _agent_apply(world, agents, 'neighbor_health_gap', 'hydration', 'feedback')
