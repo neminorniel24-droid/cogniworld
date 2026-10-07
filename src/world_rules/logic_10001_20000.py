@@ -6467,3 +6467,6 @@ def logic_12134(world):
 
 def logic_12135(world):
     _world_apply(world, 'cloud', 'pathogen_load', 'direct')
+
+def logic_12136(world):
+    _world_apply(world, 'cloud', 'biodiversity', 'square')
