@@ -13400,3 +13400,6 @@ def logic_8533(agents, world):
 
 def logic_8534(agents, world):
     _agent_apply(world, agents, 'predator', 'cooperation_score', 'direct')
+
+def logic_8535(agents, world):
+    _agent_apply(world, agents, 'carrion', 'cooperation_score', 'direct')
