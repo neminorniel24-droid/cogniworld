@@ -3518,3 +3518,6 @@ def logic_5239(agents, world):
 
 def logic_5240(agents, world):
     _agent_apply(world, agents, 'thirst', 'wealth', 'direct')
+
+def logic_5241(agents, world):
+    _agent_apply(world, agents, 'hunger', 'wealth', 'direct')
