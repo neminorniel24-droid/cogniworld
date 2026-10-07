@@ -1130,3 +1130,4 @@
 - 21129: integrated cross-system causal rule
 - 21130: integrated cross-system causal rule
 - 21131: integrated cross-system causal rule
+- 21132: integrated cross-system causal rule
