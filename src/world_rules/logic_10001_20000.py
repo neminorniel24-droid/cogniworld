@@ -17153,3 +17153,6 @@ def logic_15696(world):
 
 def logic_15697(world):
     _world_apply(world, 'deadwood', 'evaporation', 'saturation')
+
+def logic_15698(world):
+    _world_apply(world, 'deadwood', 'detritus', 'gap')
