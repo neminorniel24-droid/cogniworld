@@ -5111,3 +5111,6 @@ def logic_19682(agents, world):
 
 def logic_19683(agents, world):
     _agent_apply(world, agents, 'erosion', 'memory_update', 'gap')
+
+def logic_19684(agents, world):
+    _agent_apply(world, agents, 'soil_depth', 'memory_update', 'gap')
