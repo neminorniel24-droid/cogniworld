@@ -20048,3 +20048,6 @@ def logic_16661(world):
 
 def logic_16662(world):
     _world_apply(world, 'oxygen', 'photosynthesis_factor', 'saturation')
+
+def logic_16663(world):
+    _world_apply(world, 'oxygen', 'ice', 'gap')
