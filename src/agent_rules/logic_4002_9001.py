@@ -5552,3 +5552,6 @@ def logic_5917(agents, world):
 
 def logic_5918(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'competition_pressure', 'direct')
+
+def logic_5919(agents, world):
+    _agent_apply(world, agents, 'hydration', 'competition_pressure', 'direct')
