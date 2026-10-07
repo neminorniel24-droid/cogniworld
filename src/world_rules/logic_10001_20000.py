@@ -14753,3 +14753,6 @@ def logic_14896(world):
 
 def logic_14897(world):
     _world_apply(world, 'detritus', 'predator', 'saturation')
+
+def logic_14898(world):
+    _world_apply(world, 'detritus', 'carrion', 'gap')
