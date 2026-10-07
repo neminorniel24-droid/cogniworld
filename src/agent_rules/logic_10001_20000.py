@@ -2840,3 +2840,6 @@ def logic_18925(agents, world):
 
 def logic_18926(agents, world):
     _agent_apply(world, agents, 'stress', 'resource_competition', 'direct')
+
+def logic_18927(agents, world):
+    _agent_apply(world, agents, 'social_need', 'resource_competition', 'direct')
