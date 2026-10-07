@@ -1634,3 +1634,6 @@ def logic_10523(world):
 
 def logic_10524(world):
     _world_apply(world, 'herbivore', 'pollinators', 'saturation')
+
+def logic_10525(world):
+    _world_apply(world, 'herbivore', 'flowers', 'gap')
