@@ -765,3 +765,4 @@
 - 20764: integrated cross-system causal rule
 - 20765: integrated cross-system causal rule
 - 20766: integrated cross-system causal rule
+- 20767: integrated cross-system causal rule
