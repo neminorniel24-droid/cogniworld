@@ -25740,3 +25740,10 @@ def logic_34055(agents, world):
     src = _local(world, agents, 'runoff')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.habitat_stress = _delta(agents.habitat_stress, delta)
+
+
+def logic_34056(agents, world):
+    """Environmental wind_x shapes agent conflict_pressure (square)."""
+    src = _local(world, agents, 'wind_x')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.conflict_pressure = _delta(agents.conflict_pressure, delta)
