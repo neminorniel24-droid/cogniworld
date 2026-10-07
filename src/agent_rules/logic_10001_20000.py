@@ -1145,3 +1145,6 @@ def logic_18360(agents, world):
 
 def logic_18361(agents, world):
     _agent_apply(world, agents, 'caution', 'habitat_stress', 'pulse')
+
+def logic_18362(agents, world):
+    _agent_apply(world, agents, 'confidence', 'habitat_stress', 'pulse')
