@@ -11966,3 +11966,6 @@ def logic_13967(world):
 
 def logic_13968(world):
     _world_apply(world, 'temperature', 'wind_y', 'pulse')
+
+def logic_13969(world):
+    _world_apply(world, 'temperature', 'vegetation', 'gap')
