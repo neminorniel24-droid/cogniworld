@@ -1988,3 +1988,6 @@ def logic_4729(agents, world):
 
 def logic_4730(agents, world):
     _agent_apply(world, agents, 'oxygen', 'fear', 'direct')
+
+def logic_4731(agents, world):
+    _agent_apply(world, agents, 'co2', 'fear', 'direct')
