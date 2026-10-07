@@ -1921,3 +1921,4 @@
 - 21920: integrated cross-system causal rule
 - 21921: integrated cross-system causal rule
 - 21922: integrated cross-system causal rule
+- 21923: integrated cross-system causal rule
