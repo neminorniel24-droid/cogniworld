@@ -7543,3 +7543,4 @@
 - 27542: integrated cross-system causal rule
 - 27543: integrated cross-system causal rule
 - 27544: integrated cross-system causal rule
+- 27545: integrated cross-system causal rule
