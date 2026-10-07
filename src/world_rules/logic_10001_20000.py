@@ -17102,3 +17102,6 @@ def logic_15679(world):
 
 def logic_15680(world):
     _world_apply(world, 'deadwood', 'cloud', 'saturation')
+
+def logic_15681(world):
+    _world_apply(world, 'deadwood', 'rain', 'direct')
