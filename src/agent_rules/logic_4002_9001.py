@@ -10337,3 +10337,6 @@ def logic_7512(agents, world):
 
 def logic_7513(agents, world):
     _agent_apply(world, agents, 'herbivore', 'neighbor_energy_gap', 'direct')
+
+def logic_7514(agents, world):
+    _agent_apply(world, agents, 'predator', 'neighbor_energy_gap', 'direct')
