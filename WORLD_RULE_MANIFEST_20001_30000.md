@@ -186,3 +186,4 @@
 - 20185: integrated cross-system causal rule
 - 20186: integrated cross-system causal rule
 - 20187: integrated cross-system causal rule
+- 20188: integrated cross-system causal rule
