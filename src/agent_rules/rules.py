@@ -33020,3 +33020,10 @@ def logic_35095(agents, world):
     src = _local(world, agents, 'groundwater')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.hydration = _delta(agents.hydration, delta)
+
+
+def logic_35096(agents, world):
+    """Environmental sediment shapes agent infection_risk (square)."""
+    src = _local(world, agents, 'sediment')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.infection_risk = _delta(agents.infection_risk, delta)
