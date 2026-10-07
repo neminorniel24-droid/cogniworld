@@ -9365,3 +9365,6 @@ def logic_7188(agents, world):
 
 def logic_7189(agents, world):
     _agent_apply(world, agents, 'soil_depth', 'fire_fear', 'direct')
+
+def logic_7190(agents, world):
+    _agent_apply(world, agents, 'root_density', 'fire_fear', 'direct')
