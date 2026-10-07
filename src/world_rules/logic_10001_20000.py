@@ -10694,3 +10694,6 @@ def logic_13543(world):
 
 def logic_13544(world):
     _world_apply(world, 'sediment', 'pathogen_load', 'direct')
+
+def logic_13545(world):
+    _world_apply(world, 'sediment', 'biodiversity', 'pulse')
