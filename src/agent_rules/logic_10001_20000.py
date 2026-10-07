@@ -1256,3 +1256,6 @@ def logic_18397(agents, world):
 
 def logic_18398(agents, world):
     _agent_apply(world, agents, 'foraging_score', 'reputation', 'pulse')
+
+def logic_18399(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'reputation', 'pulse')
