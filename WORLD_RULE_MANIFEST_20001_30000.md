@@ -5288,3 +5288,4 @@
 - 25287: integrated cross-system causal rule
 - 25288: integrated cross-system causal rule
 - 25289: integrated cross-system causal rule
+- 25290: integrated cross-system causal rule
