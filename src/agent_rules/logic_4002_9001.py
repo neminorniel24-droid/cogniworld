@@ -13595,3 +13595,6 @@ def logic_8598(agents, world):
 
 def logic_8599(agents, world):
     _agent_apply(world, agents, 'vegetation', 'competition_score', 'direct')
+
+def logic_8600(agents, world):
+    _agent_apply(world, agents, 'biomass', 'competition_score', 'direct')
