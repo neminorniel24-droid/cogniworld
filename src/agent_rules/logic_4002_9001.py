@@ -14633,3 +14633,6 @@ def logic_8944(agents, world):
 
 def logic_8945(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'exploration_score', 'direct')
+
+def logic_8946(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'exploration_score', 'direct')
