@@ -7757,3 +7757,6 @@ def logic_12564(world):
 
 def logic_12565(world):
     _world_apply(world, 'carrion', 'predator', 'gap')
+
+def logic_12566(world):
+    _world_apply(world, 'carrion', 'nutrients', 'direct')
