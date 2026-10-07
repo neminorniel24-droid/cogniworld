@@ -51276,3 +51276,10 @@ def logic_37703(agents, world):
     src = _local(world, agents, 'evaporation')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.metabolic_cost = _delta(agents.metabolic_cost, delta)
+
+
+def logic_37704(agents, world):
+    """Environmental detritus shapes agent habitat_stress (square)."""
+    src = _local(world, agents, 'detritus')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.habitat_stress = _delta(agents.habitat_stress, delta)
