@@ -19253,3 +19253,6 @@ def logic_16396(world):
 
 def logic_16397(world):
     _world_apply(world, 'biomass', 'co2', 'direct')
+
+def logic_16398(world):
+    _world_apply(world, 'biomass', 'photosynthesis_factor', 'square')
