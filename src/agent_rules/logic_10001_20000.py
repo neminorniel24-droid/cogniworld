@@ -5720,3 +5720,6 @@ def logic_19885(agents, world):
 
 def logic_19886(agents, world):
     _agent_apply(world, agents, 'defection_threshold', 'pathogen_risk', 'inverse')
+
+def logic_19887(agents, world):
+    _agent_apply(world, agents, 'oxygen_need', 'pathogen_risk', 'inverse')
