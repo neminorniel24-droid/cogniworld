@@ -10445,3 +10445,6 @@ def logic_7548(agents, world):
 
 def logic_7549(agents, world):
     _agent_apply(world, agents, 'energy_surplus', 'neighbor_energy_gap', 'direct')
+
+def logic_7550(agents, world):
+    _agent_apply(world, agents, 'ticks_since_food', 'neighbor_energy_gap', 'direct')
