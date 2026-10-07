@@ -37521,3 +37521,10 @@ def logic_35738(agents, world):
     src = _local(world, agents, 'snowpack')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.neighbor_health_gap = _delta(agents.neighbor_health_gap, delta)
+
+
+def logic_35739(agents, world):
+    """Environmental groundwater shapes agent last_reward (inverse)."""
+    src = _local(world, agents, 'groundwater')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.last_reward = _delta(agents.last_reward, delta)
