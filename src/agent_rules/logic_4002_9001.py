@@ -10817,3 +10817,6 @@ def logic_7672(agents, world):
 
 def logic_7673(agents, world):
     _agent_apply(world, agents, 'sediment', 'betrayal_memory', 'direct')
+
+def logic_7674(agents, world):
+    _agent_apply(world, agents, 'salinity', 'betrayal_memory', 'direct')
