@@ -10811,3 +10811,6 @@ def logic_13582(world):
 
 def logic_13583(world):
     _world_apply(world, 'salinity', 'photosynthesis_factor', 'gap')
+
+def logic_13584(world):
+    _world_apply(world, 'salinity', 'ice', 'direct')
