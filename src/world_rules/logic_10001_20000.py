@@ -7214,3 +7214,6 @@ def logic_12383(world):
 
 def logic_12384(world):
     _world_apply(world, 'vegetation', 'wind_x', 'direct')
+
+def logic_12385(world):
+    _world_apply(world, 'vegetation', 'wind_y', 'pulse')
