@@ -684,3 +684,6 @@ def logic_9402(agents, world):
 
 def logic_9403(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'hunger', 'direct')
+
+def logic_9404(agents, world):
+    _agent_apply(world, agents, 'payoff', 'hunger', 'direct')
