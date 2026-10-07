@@ -43254,3 +43254,10 @@ def logic_36557(agents, world):
     src = _local(world, agents, 'biodiversity')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.payoff = _delta(agents.payoff, delta)
+
+
+def logic_36558(agents, world):
+    """Environmental habitat_stress shapes agent pathogen_risk (direct)."""
+    src = _local(world, agents, 'habitat_stress')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.pathogen_risk = _delta(agents.pathogen_risk, delta)
