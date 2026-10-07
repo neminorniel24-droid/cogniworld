@@ -5300,3 +5300,6 @@ def logic_11745(world):
 
 def logic_11746(world):
     _world_apply(world, 'deadwood', 'wetland', 'saturation')
+
+def logic_11747(world):
+    _world_apply(world, 'deadwood', 'carbon_storage', 'gap')
