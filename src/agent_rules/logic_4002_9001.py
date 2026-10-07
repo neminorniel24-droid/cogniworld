@@ -5243,3 +5243,6 @@ def logic_5814(agents, world):
 
 def logic_5815(agents, world):
     _agent_apply(world, agents, 'carrion', 'conflict_pressure', 'direct')
+
+def logic_5816(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'conflict_pressure', 'direct')
