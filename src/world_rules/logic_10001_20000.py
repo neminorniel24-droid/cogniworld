@@ -8033,3 +8033,6 @@ def logic_12656(world):
 
 def logic_12657(world):
     _world_apply(world, 'decomposition_rate', 'co2', 'saturation')
+
+def logic_12658(world):
+    _world_apply(world, 'decomposition_rate', 'photosynthesis_factor', 'gap')
