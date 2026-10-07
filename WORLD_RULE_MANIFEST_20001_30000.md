@@ -6577,3 +6577,4 @@
 - 26576: integrated cross-system causal rule
 - 26577: integrated cross-system causal rule
 - 26578: integrated cross-system causal rule
+- 26579: integrated cross-system causal rule
