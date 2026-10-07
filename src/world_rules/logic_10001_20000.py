@@ -9146,3 +9146,6 @@ def logic_13027(world):
 
 def logic_13028(world):
     _world_apply(world, 'pathogen_load', 'salinity', 'direct')
+
+def logic_13029(world):
+    _world_apply(world, 'pathogen_load', 'algae', 'square')
