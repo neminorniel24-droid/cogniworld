@@ -2504,3 +2504,6 @@ def logic_4901(agents, world):
 
 def logic_4902(agents, world):
     _agent_apply(world, agents, 'health', 'metabolic_cost', 'direct')
+
+def logic_4903(agents, world):
+    _agent_apply(world, agents, 'stress', 'metabolic_cost', 'direct')
