@@ -3722,3 +3722,6 @@ def logic_19219(agents, world):
 
 def logic_19220(agents, world):
     _agent_apply(world, agents, 'competition_score', 'last_interaction', 'sqrt')
+
+def logic_19221(agents, world):
+    _agent_apply(world, agents, 'defection_score', 'last_interaction', 'sqrt')
