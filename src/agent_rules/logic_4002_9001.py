@@ -2936,3 +2936,6 @@ def logic_5045(agents, world):
 
 def logic_5046(agents, world):
     _agent_apply(world, agents, 'reputation', 'migration_drive', 'direct')
+
+def logic_5047(agents, world):
+    _agent_apply(world, agents, 'help_received', 'migration_drive', 'direct')
