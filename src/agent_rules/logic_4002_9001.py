@@ -4790,3 +4790,6 @@ def logic_5663(agents, world):
 
 def logic_5664(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'cooperation', 'direct')
+
+def logic_5665(agents, world):
+    _agent_apply(world, agents, 'payoff', 'cooperation', 'direct')
