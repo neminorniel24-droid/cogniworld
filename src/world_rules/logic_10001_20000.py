@@ -18176,3 +18176,6 @@ def logic_16037(world):
 
 def logic_16038(world):
     _world_apply(world, 'humidity', 'biomass', 'square')
+
+def logic_16039(world):
+    _world_apply(world, 'humidity', 'herbivore', 'pulse')
