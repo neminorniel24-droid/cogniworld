@@ -7928,3 +7928,6 @@ def logic_6709(agents, world):
 
 def logic_6710(agents, world):
     _agent_apply(world, agents, 'biodiversity', 'future_help', 'direct')
+
+def logic_6711(agents, world):
+    _agent_apply(world, agents, 'habitat_stress', 'future_help', 'direct')
