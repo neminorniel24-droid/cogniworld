@@ -4341,3 +4341,4 @@
 - 24340: integrated cross-system causal rule
 - 24341: integrated cross-system causal rule
 - 24342: integrated cross-system causal rule
+- 24343: integrated cross-system causal rule
