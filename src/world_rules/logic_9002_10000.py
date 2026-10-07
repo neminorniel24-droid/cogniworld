@@ -321,3 +321,6 @@ def logic_9082(world):
 
 def logic_9083(world):
     _world_apply(world, 'temperature', 'habitat_stress', 'inverse')
+
+def logic_9084(world):
+    _world_apply(world, 'temperature', 'erosion', 'square')
