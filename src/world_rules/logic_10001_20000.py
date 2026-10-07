@@ -11273,3 +11273,6 @@ def logic_13736(world):
 
 def logic_13737(world):
     _world_apply(world, 'deadwood', 'flowers', 'saturation')
+
+def logic_13738(world):
+    _world_apply(world, 'deadwood', 'seed_bank', 'gap')
