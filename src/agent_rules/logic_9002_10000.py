@@ -1089,3 +1089,6 @@ def logic_9537(agents, world):
 
 def logic_9538(agents, world):
     _agent_apply(world, agents, 'survival_score', 'thermal_stress', 'direct')
+
+def logic_9539(agents, world):
+    _agent_apply(world, agents, 'fitness_score', 'thermal_stress', 'direct')
