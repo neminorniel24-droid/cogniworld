@@ -12200,3 +12200,6 @@ def logic_14045(world):
 
 def logic_14046(world):
     _world_apply(world, 'surface_water', 'seed_bank', 'direct')
+
+def logic_14047(world):
+    _world_apply(world, 'surface_water', 'soil_carbon', 'square')
