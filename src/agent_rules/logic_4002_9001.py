@@ -8834,3 +8834,6 @@ def logic_7011(agents, world):
 
 def logic_7012(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'defection_threshold', 'direct')
+
+def logic_7013(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'defection_threshold', 'direct')
