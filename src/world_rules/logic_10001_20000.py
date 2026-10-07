@@ -5309,3 +5309,6 @@ def logic_11748(world):
 
 def logic_11749(world):
     _world_apply(world, 'deadwood', 'ash', 'square')
+
+def logic_11750(world):
+    _world_apply(world, 'deadwood', 'snowpack', 'pulse')
