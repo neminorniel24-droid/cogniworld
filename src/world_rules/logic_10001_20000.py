@@ -12746,3 +12746,6 @@ def logic_14227(world):
 
 def logic_14228(world):
     _world_apply(world, 'runoff', 'cloud', 'direct')
+
+def logic_14229(world):
+    _world_apply(world, 'runoff', 'rain', 'square')
