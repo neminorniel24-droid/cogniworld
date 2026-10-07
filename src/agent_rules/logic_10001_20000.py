@@ -2951,3 +2951,6 @@ def logic_18962(agents, world):
 
 def logic_18963(agents, world):
     _agent_apply(world, agents, 'memory_update', 'stress', 'direct')
+
+def logic_18964(agents, world):
+    _agent_apply(world, agents, 'future_payoff_weight', 'stress', 'direct')
