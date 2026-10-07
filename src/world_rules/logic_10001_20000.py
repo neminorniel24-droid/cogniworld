@@ -4211,3 +4211,6 @@ def logic_11382(world):
 
 def logic_11383(world):
     _world_apply(world, 'fire_risk', 'photosynthesis_factor', 'gap')
+
+def logic_11384(world):
+    _world_apply(world, 'fire_risk', 'ice', 'direct')
