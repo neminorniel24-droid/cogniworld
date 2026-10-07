@@ -8270,3 +8270,6 @@ def logic_12735(world):
 
 def logic_12736(world):
     _world_apply(world, 'co2', 'wind_x', 'square')
+
+def logic_12737(world):
+    _world_apply(world, 'co2', 'wind_y', 'saturation')
