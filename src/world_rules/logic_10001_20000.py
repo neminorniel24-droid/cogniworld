@@ -14195,3 +14195,6 @@ def logic_14710(world):
 
 def logic_14711(world):
     _world_apply(world, 'co2', 'humidity', 'saturation')
+
+def logic_14712(world):
+    _world_apply(world, 'co2', 'cloud', 'gap')
