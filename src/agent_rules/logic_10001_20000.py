@@ -731,3 +731,6 @@ def logic_18222(agents, world):
 
 def logic_18223(agents, world):
     _agent_apply(world, agents, 'caution', 'metabolic_cost', 'square')
+
+def logic_18224(agents, world):
+    _agent_apply(world, agents, 'confidence', 'metabolic_cost', 'square')
