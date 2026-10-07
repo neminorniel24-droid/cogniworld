@@ -7352,3 +7352,6 @@ def logic_6517(agents, world):
 
 def logic_6518(agents, world):
     _agent_apply(world, agents, 'salinity', 'caution', 'direct')
+
+def logic_6519(agents, world):
+    _agent_apply(world, agents, 'algae', 'caution', 'direct')
