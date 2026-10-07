@@ -657,3 +657,6 @@ def logic_9194(world):
 
 def logic_9195(world):
     _world_apply(world, 'cloud', 'carrion', 'inverse')
+
+def logic_9196(world):
+    _world_apply(world, 'cloud', 'nutrients', 'square')
