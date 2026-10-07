@@ -3530,3 +3530,4 @@
 - 23529: integrated cross-system causal rule
 - 23530: integrated cross-system causal rule
 - 23531: integrated cross-system causal rule
+- 23532: integrated cross-system causal rule
