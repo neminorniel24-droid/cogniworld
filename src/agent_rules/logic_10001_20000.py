@@ -3647,3 +3647,6 @@ def logic_19194(agents, world):
 
 def logic_19195(agents, world):
     _agent_apply(world, agents, 'attack_threshold', 'last_food', 'sqrt')
+
+def logic_19196(agents, world):
+    _agent_apply(world, agents, 'defection_threshold', 'last_food', 'sqrt')
