@@ -11972,3 +11972,6 @@ def logic_8057(agents, world):
 
 def logic_8058(agents, world):
     _agent_apply(world, agents, 'predator', 'last_reward', 'direct')
+
+def logic_8059(agents, world):
+    _agent_apply(world, agents, 'carrion', 'last_reward', 'direct')
