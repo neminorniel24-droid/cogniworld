@@ -13160,3 +13160,6 @@ def logic_8453(agents, world):
 
 def logic_8454(agents, world):
     _agent_apply(world, agents, 'temperature', 'strategy_score', 'direct')
+
+def logic_8455(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'strategy_score', 'direct')
