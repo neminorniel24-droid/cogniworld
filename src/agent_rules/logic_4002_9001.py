@@ -14303,3 +14303,6 @@ def logic_8834(agents, world):
 
 def logic_8835(agents, world):
     _agent_apply(world, agents, 'flowers', 'risk_score', 'direct')
+
+def logic_8836(agents, world):
+    _agent_apply(world, agents, 'seed_bank', 'risk_score', 'direct')
