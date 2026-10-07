@@ -14573,3 +14573,6 @@ def logic_8924(agents, world):
 
 def logic_8925(agents, world):
     _agent_apply(world, agents, 'local_density', 'safety_score', 'direct')
+
+def logic_8926(agents, world):
+    _agent_apply(world, agents, 'strategy_score', 'safety_score', 'direct')
