@@ -10973,3 +10973,6 @@ def logic_7724(agents, world):
 
 def logic_7725(agents, world):
     _agent_apply(world, agents, 'ice', 'conflict_history', 'direct')
+
+def logic_7726(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'conflict_history', 'direct')
