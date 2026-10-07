@@ -14438,3 +14438,6 @@ def logic_14791(world):
 
 def logic_14792(world):
     _world_apply(world, 'photosynthesis_factor', 'pollinators', 'gap')
+
+def logic_14793(world):
+    _world_apply(world, 'photosynthesis_factor', 'flowers', 'square')
