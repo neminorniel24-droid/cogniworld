@@ -3566,3 +3566,6 @@ def logic_5255(agents, world):
 
 def logic_5256(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'wealth', 'direct')
+
+def logic_5257(agents, world):
+    _agent_apply(world, agents, 'payoff', 'wealth', 'direct')
