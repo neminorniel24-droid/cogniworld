@@ -1640,3 +1640,6 @@ def logic_18525(agents, world):
 
 def logic_18526(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'competition_pressure', 'threshold')
+
+def logic_18527(agents, world):
+    _agent_apply(world, agents, 'last_action', 'competition_pressure', 'threshold')
