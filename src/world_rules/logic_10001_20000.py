@@ -16502,3 +16502,6 @@ def logic_15479(world):
 
 def logic_15480(world):
     _world_apply(world, 'groundwater', 'pathogen_load', 'saturation')
+
+def logic_15481(world):
+    _world_apply(world, 'groundwater', 'biodiversity', 'direct')
