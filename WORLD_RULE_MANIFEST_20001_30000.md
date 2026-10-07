@@ -1558,3 +1558,4 @@
 - 21557: integrated cross-system causal rule
 - 21558: integrated cross-system causal rule
 - 21559: integrated cross-system causal rule
+- 21560: integrated cross-system causal rule
