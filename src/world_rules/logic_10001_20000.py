@@ -20093,3 +20093,6 @@ def logic_16676(world):
 
 def logic_16677(world):
     _world_apply(world, 'oxygen', 'snowpack', 'direct')
+
+def logic_16678(world):
+    _world_apply(world, 'oxygen', 'groundwater', 'square')
