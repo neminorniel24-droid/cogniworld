@@ -8294,3 +8294,6 @@ def logic_12743(world):
 
 def logic_12744(world):
     _world_apply(world, 'co2', 'decomposition_rate', 'direct')
+
+def logic_12745(world):
+    _world_apply(world, 'co2', 'oxygen', 'pulse')
