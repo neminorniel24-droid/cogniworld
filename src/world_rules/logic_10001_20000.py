@@ -10307,3 +10307,6 @@ def logic_13414(world):
 
 def logic_13415(world):
     _world_apply(world, 'ash', 'erosion', 'direct')
+
+def logic_13416(world):
+    _world_apply(world, 'ash', 'soil_depth', 'square')
