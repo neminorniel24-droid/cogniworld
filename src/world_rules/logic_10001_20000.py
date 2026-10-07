@@ -5786,3 +5786,6 @@ def logic_11907(world):
 
 def logic_11908(world):
     _world_apply(world, 'soil_carbon', 'decomposition_rate', 'direct')
+
+def logic_11909(world):
+    _world_apply(world, 'soil_carbon', 'oxygen', 'square')
