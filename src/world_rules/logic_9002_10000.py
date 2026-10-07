@@ -255,3 +255,6 @@ def logic_9060(world):
 
 def logic_9061(world):
     _world_apply(world, 'wind_y', 'cloud', 'sqrt')
+
+def logic_9062(world):
+    _world_apply(world, 'temperature', 'surface_water', 'pulse')
