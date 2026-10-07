@@ -1720,3 +1720,4 @@
 - 21719: integrated cross-system causal rule
 - 21720: integrated cross-system causal rule
 - 21721: integrated cross-system causal rule
+- 21722: integrated cross-system causal rule
