@@ -2828,3 +2828,6 @@ def logic_10921(world):
 
 def logic_10922(world):
     _world_apply(world, 'evaporation', 'seed_bank', 'square')
+
+def logic_10923(world):
+    _world_apply(world, 'evaporation', 'soil_carbon', 'pulse')
