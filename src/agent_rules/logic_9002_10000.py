@@ -1767,3 +1767,6 @@ def logic_9763(agents, world):
 
 def logic_9764(agents, world):
     _agent_apply(world, agents, 'ice', 'alertness', 'direct')
+
+def logic_9765(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'alertness', 'direct')
