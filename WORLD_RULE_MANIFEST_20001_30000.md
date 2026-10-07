@@ -1276,3 +1276,4 @@
 - 21275: integrated cross-system causal rule
 - 21276: integrated cross-system causal rule
 - 21277: integrated cross-system causal rule
+- 21278: integrated cross-system causal rule
