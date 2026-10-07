@@ -752,3 +752,6 @@ def logic_4317(agents, world):
 
 def logic_4318(agents, world):
     _agent_apply(world, agents, 'predator', 'health', 'direct')
+
+def logic_4319(agents, world):
+    _agent_apply(world, agents, 'carrion', 'health', 'direct')
