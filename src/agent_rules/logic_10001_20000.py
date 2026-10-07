@@ -3683,3 +3683,6 @@ def logic_19206(agents, world):
 
 def logic_19207(agents, world):
     _agent_apply(world, agents, 'conflict_history', 'last_interaction', 'sqrt')
+
+def logic_19208(agents, world):
+    _agent_apply(world, agents, 'cooperation_history', 'last_interaction', 'sqrt')
