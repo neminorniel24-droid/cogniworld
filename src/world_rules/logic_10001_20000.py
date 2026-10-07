@@ -15290,3 +15290,6 @@ def logic_15075(world):
 
 def logic_15076(world):
     _world_apply(world, 'habitat_stress', 'decomposition_rate', 'gap')
+
+def logic_15077(world):
+    _world_apply(world, 'habitat_stress', 'oxygen', 'direct')
