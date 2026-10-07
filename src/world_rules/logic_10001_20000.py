@@ -17828,3 +17828,6 @@ def logic_15921(world):
 
 def logic_15922(world):
     _world_apply(world, 'surface_ice', 'habitat_stress', 'square')
+
+def logic_15923(world):
+    _world_apply(world, 'surface_ice', 'erosion', 'pulse')
