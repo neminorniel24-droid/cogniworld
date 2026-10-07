@@ -4067,3 +4067,4 @@
 - 24066: integrated cross-system causal rule
 - 24067: integrated cross-system causal rule
 - 24068: integrated cross-system causal rule
+- 24069: integrated cross-system causal rule
