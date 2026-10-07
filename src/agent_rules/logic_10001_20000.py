@@ -2336,3 +2336,6 @@ def logic_18757(agents, world):
 
 def logic_18758(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'future_help', 'gap')
+
+def logic_18759(agents, world):
+    _agent_apply(world, agents, 'social_tolerance', 'future_help', 'gap')
