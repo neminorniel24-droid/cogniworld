@@ -11969,3 +11969,6 @@ def logic_13968(world):
 
 def logic_13969(world):
     _world_apply(world, 'temperature', 'vegetation', 'gap')
+
+def logic_13970(world):
+    _world_apply(world, 'temperature', 'biomass', 'direct')
