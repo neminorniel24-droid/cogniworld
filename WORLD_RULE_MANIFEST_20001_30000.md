@@ -8964,3 +8964,4 @@
 - 28963: integrated cross-system causal rule
 - 28964: integrated cross-system causal rule
 - 28965: integrated cross-system causal rule
+- 28966: integrated cross-system causal rule
