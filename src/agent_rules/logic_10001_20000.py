@@ -182,3 +182,6 @@ def logic_18039(agents, world):
 
 def logic_18040(agents, world):
     _agent_apply(world, agents, 'deadwood', 'thirst', 'direct')
+
+def logic_18041(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'hunger', 'direct')
