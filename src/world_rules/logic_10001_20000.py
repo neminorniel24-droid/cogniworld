@@ -3494,3 +3494,6 @@ def logic_11143(world):
 
 def logic_11144(world):
     _world_apply(world, 'habitat_stress', 'surface_ice', 'direct')
+
+def logic_11145(world):
+    _world_apply(world, 'erosion', 'temperature', 'pulse')
