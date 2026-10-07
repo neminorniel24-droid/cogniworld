@@ -6134,3 +6134,6 @@ def logic_6111(agents, world):
 
 def logic_6112(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'sharing_capacity', 'direct')
+
+def logic_6113(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'sharing_capacity', 'direct')
