@@ -20999,3 +20999,6 @@ def logic_16978(world):
 
 def logic_16979(world):
     _world_apply(world, 'pathogen_load', 'soil_depth', 'direct')
+
+def logic_16980(world):
+    _world_apply(world, 'pathogen_load', 'root_density', 'square')
