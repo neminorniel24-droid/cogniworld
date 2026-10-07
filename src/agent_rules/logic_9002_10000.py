@@ -2304,3 +2304,6 @@ def logic_9942(agents, world):
 
 def logic_9943(agents, world):
     _agent_apply(world, agents, 'help_given', 'recovery', 'direct')
+
+def logic_9944(agents, world):
+    _agent_apply(world, agents, 'local_density', 'recovery', 'direct')
