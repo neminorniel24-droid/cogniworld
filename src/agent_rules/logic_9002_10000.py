@@ -2142,3 +2142,6 @@ def logic_9888(agents, world):
 
 def logic_9889(agents, world):
     _agent_apply(world, agents, 'wind_y', 'recovery', 'direct')
+
+def logic_9890(agents, world):
+    _agent_apply(world, agents, 'vegetation', 'recovery', 'direct')
