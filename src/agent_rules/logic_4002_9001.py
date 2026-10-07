@@ -9428,3 +9428,6 @@ def logic_7209(agents, world):
 
 def logic_7210(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'fire_fear', 'direct')
+
+def logic_7211(agents, world):
+    _agent_apply(world, agents, 'hydration', 'fire_fear', 'direct')
