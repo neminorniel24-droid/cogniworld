@@ -9764,3 +9764,6 @@ def logic_7321(agents, world):
 
 def logic_7322(agents, world):
     _agent_apply(world, agents, 'biodiversity', 'vegetation_expectation', 'direct')
+
+def logic_7323(agents, world):
+    _agent_apply(world, agents, 'habitat_stress', 'vegetation_expectation', 'direct')
