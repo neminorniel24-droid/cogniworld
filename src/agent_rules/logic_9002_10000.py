@@ -1080,3 +1080,6 @@ def logic_9534(agents, world):
 
 def logic_9535(agents, world):
     _agent_apply(world, agents, 'help_given', 'thermal_stress', 'direct')
+
+def logic_9536(agents, world):
+    _agent_apply(world, agents, 'local_density', 'thermal_stress', 'direct')
