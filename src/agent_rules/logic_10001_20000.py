@@ -896,3 +896,6 @@ def logic_18277(agents, world):
 
 def logic_18278(agents, world):
     _agent_apply(world, agents, 'surface_water', 'exploration_drive', 'sqrt')
+
+def logic_18279(agents, world):
+    _agent_apply(world, agents, 'humidity', 'exploration_drive', 'sqrt')
