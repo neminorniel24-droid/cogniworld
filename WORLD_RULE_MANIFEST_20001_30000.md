@@ -2764,3 +2764,4 @@
 - 22763: integrated cross-system causal rule
 - 22764: integrated cross-system causal rule
 - 22765: integrated cross-system causal rule
+- 22766: integrated cross-system causal rule
