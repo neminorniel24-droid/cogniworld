@@ -20738,3 +20738,6 @@ def logic_16891(world):
 
 def logic_16892(world):
     _world_apply(world, 'detritus', 'root_density', 'pulse')
+
+def logic_16893(world):
+    _world_apply(world, 'detritus', 'wetland', 'saturation')
