@@ -104,3 +104,6 @@ def _agent_apply(world, agents, source, target, mode):
 
 def logic_4002(world):
     _world_apply(world, 'rain', 'surface_water', 'direct')
+
+def logic_4003(world):
+    _world_apply(world, 'groundwater', 'surface_water', 'inverse')
