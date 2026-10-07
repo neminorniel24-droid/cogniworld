@@ -12500,3 +12500,6 @@ def logic_14145(world):
 
 def logic_14146(world):
     _world_apply(world, 'rain', 'biomass', 'saturation')
+
+def logic_14147(world):
+    _world_apply(world, 'rain', 'herbivore', 'gap')
