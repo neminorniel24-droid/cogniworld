@@ -6251,3 +6251,6 @@ def logic_12062(world):
 
 def logic_12063(world):
     _world_apply(world, 'surface_water', 'deadwood', 'gap')
+
+def logic_12064(world):
+    _world_apply(world, 'surface_water', 'pollinators', 'direct')
