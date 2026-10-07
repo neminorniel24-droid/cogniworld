@@ -398,3 +398,6 @@ def logic_10111(world):
 
 def logic_10112(world):
     _world_apply(world, 'humidity', 'biodiversity', 'gap')
+
+def logic_10113(world):
+    _world_apply(world, 'humidity', 'habitat_stress', 'square')
