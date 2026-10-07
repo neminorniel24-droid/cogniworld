@@ -11351,3 +11351,6 @@ def logic_13762(world):
 
 def logic_13763(world):
     _world_apply(world, 'pollinators', 'methane', 'pulse')
+
+def logic_13764(world):
+    _world_apply(world, 'pollinators', 'pathogen_load', 'saturation')
