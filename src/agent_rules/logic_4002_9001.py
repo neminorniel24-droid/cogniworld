@@ -2798,3 +2798,6 @@ def logic_4999(agents, world):
 
 def logic_5000(agents, world):
     _agent_apply(world, agents, 'nutrients', 'migration_drive', 'direct')
+
+def logic_5001(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'migration_drive', 'direct')
