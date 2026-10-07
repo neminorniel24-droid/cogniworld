@@ -1610,3 +1610,6 @@ def logic_18515(agents, world):
 
 def logic_18516(agents, world):
     _agent_apply(world, agents, 'betrayal_memory', 'competition_pressure', 'threshold')
+
+def logic_18517(agents, world):
+    _agent_apply(world, agents, 'conflict_history', 'competition_pressure', 'threshold')
