@@ -890,3 +890,6 @@ def logic_18275(agents, world):
 
 def logic_18276(agents, world):
     _agent_apply(world, agents, 'payoff', 'migration_drive', 'sqrt')
+
+def logic_18277(agents, world):
+    _agent_apply(world, agents, 'temperature', 'exploration_drive', 'sqrt')
