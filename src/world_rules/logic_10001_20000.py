@@ -23936,3 +23936,6 @@ def logic_17957(world):
 
 def logic_17958(world):
     _world_apply(world, 'temperature', 'organic_matter', 'square')
+
+def logic_17959(world):
+    _world_apply(world, 'temperature', 'deadwood', 'pulse')
