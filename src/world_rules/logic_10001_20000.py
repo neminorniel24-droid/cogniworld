@@ -19370,3 +19370,6 @@ def logic_16435(world):
 
 def logic_16436(world):
     _world_apply(world, 'herbivore', 'predator', 'gap')
+
+def logic_16437(world):
+    _world_apply(world, 'herbivore', 'carrion', 'direct')
