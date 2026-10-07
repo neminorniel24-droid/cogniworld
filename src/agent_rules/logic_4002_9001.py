@@ -140,3 +140,6 @@ def logic_4113(agents, world):
 
 def logic_4114(agents, world):
     _agent_apply(world, agents, 'predator', 'hydration', 'direct')
+
+def logic_4115(agents, world):
+    _agent_apply(world, agents, 'carrion', 'hydration', 'direct')
