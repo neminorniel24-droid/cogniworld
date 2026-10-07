@@ -18932,3 +18932,6 @@ def logic_16289(world):
 
 def logic_16290(world):
     _world_apply(world, 'wind_x', 'seed_bank', 'direct')
+
+def logic_16291(world):
+    _world_apply(world, 'wind_x', 'soil_carbon', 'square')
