@@ -561,3 +561,6 @@ def logic_9162(world):
 
 def logic_9163(world):
     _world_apply(world, 'humidity', 'pathogen_load', 'inverse')
+
+def logic_9164(world):
+    _world_apply(world, 'humidity', 'biodiversity', 'square')
