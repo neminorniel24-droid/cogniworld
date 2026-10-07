@@ -11927,3 +11927,6 @@ def logic_8042(agents, world):
 
 def logic_8043(agents, world):
     _agent_apply(world, agents, 'survival_score', 'local_density', 'direct')
+
+def logic_8044(agents, world):
+    _agent_apply(world, agents, 'fitness_score', 'local_density', 'direct')
