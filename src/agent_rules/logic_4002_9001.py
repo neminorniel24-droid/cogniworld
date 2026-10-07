@@ -13496,3 +13496,6 @@ def logic_8565(agents, world):
 
 def logic_8566(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'cooperation_score', 'direct')
+
+def logic_8567(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'cooperation_score', 'direct')
