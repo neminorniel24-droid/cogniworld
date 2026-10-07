@@ -3794,3 +3794,6 @@ def logic_11243(world):
 
 def logic_11244(world):
     _world_apply(world, 'root_density', 'herbivore', 'saturation')
+
+def logic_11245(world):
+    _world_apply(world, 'root_density', 'predator', 'gap')
