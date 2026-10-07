@@ -22283,3 +22283,6 @@ def logic_17406(world):
 
 def logic_17407(world):
     _world_apply(world, 'snowpack', 'nutrients', 'square')
+
+def logic_17408(world):
+    _world_apply(world, 'snowpack', 'decomposition_rate', 'pulse')
