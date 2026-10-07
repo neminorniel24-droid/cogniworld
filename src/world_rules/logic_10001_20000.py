@@ -19589,3 +19589,6 @@ def logic_16508(world):
 
 def logic_16509(world):
     _world_apply(world, 'predator', 'flowers', 'square')
+
+def logic_16510(world):
+    _world_apply(world, 'predator', 'seed_bank', 'pulse')
