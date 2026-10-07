@@ -17891,3 +17891,6 @@ def logic_15942(world):
 
 def logic_15943(world):
     _world_apply(world, 'temperature', 'cloud', 'gap')
+
+def logic_15944(world):
+    _world_apply(world, 'temperature', 'rain', 'direct')
