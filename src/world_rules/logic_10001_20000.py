@@ -8228,3 +8228,6 @@ def logic_12721(world):
 
 def logic_12722(world):
     _world_apply(world, 'oxygen', 'organic_matter', 'square')
+
+def logic_12723(world):
+    _world_apply(world, 'oxygen', 'deadwood', 'pulse')
