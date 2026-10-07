@@ -8408,3 +8408,6 @@ def logic_12781(world):
 
 def logic_12782(world):
     _world_apply(world, 'photosynthesis_factor', 'vegetation', 'saturation')
+
+def logic_12783(world):
+    _world_apply(world, 'photosynthesis_factor', 'biomass', 'gap')
