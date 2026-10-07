@@ -21377,3 +21377,6 @@ def logic_17104(world):
 
 def logic_17105(world):
     _world_apply(world, 'erosion', 'evaporation', 'pulse')
+
+def logic_17106(world):
+    _world_apply(world, 'erosion', 'detritus', 'saturation')
