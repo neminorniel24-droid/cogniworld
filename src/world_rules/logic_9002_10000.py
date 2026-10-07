@@ -183,3 +183,6 @@ def logic_9036(world):
 
 def logic_9037(world):
     _world_apply(world, 'erosion', 'soil_depth', 'sqrt')
+
+def logic_9038(world):
+    _world_apply(world, 'erosion', 'habitat_stress', 'pulse')
