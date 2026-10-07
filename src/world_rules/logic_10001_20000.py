@@ -15053,3 +15053,6 @@ def logic_14996(world):
 
 def logic_14997(world):
     _world_apply(world, 'pathogen_load', 'habitat_stress', 'direct')
+
+def logic_14998(world):
+    _world_apply(world, 'pathogen_load', 'erosion', 'square')
