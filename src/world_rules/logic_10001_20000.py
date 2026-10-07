@@ -7664,3 +7664,6 @@ def logic_12533(world):
 
 def logic_12534(world):
     _world_apply(world, 'predator', 'erosion', 'gap')
+
+def logic_12535(world):
+    _world_apply(world, 'predator', 'soil_depth', 'direct')
