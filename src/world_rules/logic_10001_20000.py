@@ -5858,3 +5858,6 @@ def logic_11931(world):
 
 def logic_11932(world):
     _world_apply(world, 'soil_carbon', 'deadwood', 'pulse')
+
+def logic_11933(world):
+    _world_apply(world, 'soil_carbon', 'pollinators', 'saturation')
