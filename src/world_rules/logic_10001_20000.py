@@ -21209,3 +21209,6 @@ def logic_17048(world):
 
 def logic_17049(world):
     _world_apply(world, 'habitat_stress', 'wind_y', 'gap')
+
+def logic_17050(world):
+    _world_apply(world, 'habitat_stress', 'vegetation', 'direct')
