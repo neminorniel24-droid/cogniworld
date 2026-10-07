@@ -254,3 +254,6 @@ def logic_4051(world):
 
 def logic_4052(world):
     _world_apply(world, 'vegetation', 'evaporation', 'square')
+
+def logic_4053(world):
+    _world_apply(world, 'cloud', 'temperature', 'sqrt')
