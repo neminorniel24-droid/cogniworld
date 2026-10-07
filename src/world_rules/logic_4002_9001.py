@@ -161,3 +161,6 @@ def logic_4020(world):
 
 def logic_4021(world):
     _world_apply(world, 'fire_risk', 'ash', 'sqrt')
+
+def logic_4022(world):
+    _world_apply(world, 'ash', 'nutrients', 'pulse')
