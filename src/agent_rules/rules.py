@@ -37675,3 +37675,10 @@ def logic_35760(agents, world):
     src = _local(world, agents, 'vegetation')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.territoriality = _delta(agents.territoriality, delta)
+
+
+def logic_35761(agents, world):
+    """Environmental biomass shapes agent gratitude (root)."""
+    src = _local(world, agents, 'biomass')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.gratitude = _delta(agents.gratitude, delta)
