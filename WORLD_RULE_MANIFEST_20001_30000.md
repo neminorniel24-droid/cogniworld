@@ -2930,3 +2930,4 @@
 - 22929: integrated cross-system causal rule
 - 22930: integrated cross-system causal rule
 - 22931: integrated cross-system causal rule
+- 22932: integrated cross-system causal rule
