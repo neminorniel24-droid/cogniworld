@@ -8610,3 +8610,4 @@
 - 28609: integrated cross-system causal rule
 - 28610: integrated cross-system causal rule
 - 28611: integrated cross-system causal rule
+- 28612: integrated cross-system causal rule
