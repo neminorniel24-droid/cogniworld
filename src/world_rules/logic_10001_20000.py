@@ -1067,3 +1067,6 @@ def logic_10334(world):
 
 def logic_10335(world):
     _world_apply(world, 'wind_x', 'soil_depth', 'direct')
+
+def logic_10336(world):
+    _world_apply(world, 'wind_x', 'root_density', 'square')
