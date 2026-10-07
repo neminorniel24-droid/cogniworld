@@ -7520,3 +7520,6 @@ def logic_12485(world):
 
 def logic_12486(world):
     _world_apply(world, 'herbivore', 'methane', 'direct')
+
+def logic_12487(world):
+    _world_apply(world, 'herbivore', 'pathogen_load', 'square')
