@@ -7024,3 +7024,4 @@
 - 27023: integrated cross-system causal rule
 - 27024: integrated cross-system causal rule
 - 27025: integrated cross-system causal rule
+- 27026: integrated cross-system causal rule
