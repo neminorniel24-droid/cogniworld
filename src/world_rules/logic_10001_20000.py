@@ -2129,3 +2129,6 @@ def logic_10688(world):
 
 def logic_10689(world):
     _world_apply(world, 'decomposition_rate', 'wetland', 'gap')
+
+def logic_10690(world):
+    _world_apply(world, 'decomposition_rate', 'carbon_storage', 'direct')
