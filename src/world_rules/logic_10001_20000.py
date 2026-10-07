@@ -8231,3 +8231,6 @@ def logic_12722(world):
 
 def logic_12723(world):
     _world_apply(world, 'oxygen', 'deadwood', 'pulse')
+
+def logic_12724(world):
+    _world_apply(world, 'oxygen', 'pollinators', 'saturation')
