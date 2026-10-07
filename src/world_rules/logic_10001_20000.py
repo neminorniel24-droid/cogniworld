@@ -8633,3 +8633,6 @@ def logic_12856(world):
 
 def logic_12857(world):
     _world_apply(world, 'ice', 'flowers', 'saturation')
+
+def logic_12858(world):
+    _world_apply(world, 'ice', 'seed_bank', 'gap')
