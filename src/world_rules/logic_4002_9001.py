@@ -347,3 +347,6 @@ def logic_4082(world):
 
 def logic_4083(world):
     _world_apply(world, 'rain', 'wetland', 'inverse')
+
+def logic_4084(world):
+    _world_apply(world, 'runoff', 'wetland', 'square')
