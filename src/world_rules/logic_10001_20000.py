@@ -308,3 +308,6 @@ def logic_10081(world):
 
 def logic_10082(world):
     _world_apply(world, 'surface_water', 'organic_matter', 'square')
+
+def logic_10083(world):
+    _world_apply(world, 'surface_water', 'deadwood', 'pulse')
