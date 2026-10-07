@@ -4193,3 +4193,6 @@ def logic_11376(world):
 
 def logic_11377(world):
     _world_apply(world, 'fire_risk', 'predator', 'saturation')
+
+def logic_11378(world):
+    _world_apply(world, 'fire_risk', 'carrion', 'gap')
