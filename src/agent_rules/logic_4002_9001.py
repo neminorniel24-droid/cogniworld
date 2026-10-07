@@ -14672,3 +14672,6 @@ def logic_8957(agents, world):
 
 def logic_8958(agents, world):
     _agent_apply(world, agents, 'root_density', 'exploration_score', 'direct')
+
+def logic_8959(agents, world):
+    _agent_apply(world, agents, 'wetland', 'exploration_score', 'direct')
