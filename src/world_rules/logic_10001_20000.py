@@ -16121,3 +16121,6 @@ def logic_15352(world):
 
 def logic_15353(world):
     _world_apply(world, 'fire_risk', 'root_density', 'square')
+
+def logic_15354(world):
+    _world_apply(world, 'fire_risk', 'wetland', 'pulse')
