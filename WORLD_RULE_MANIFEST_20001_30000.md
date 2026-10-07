@@ -7165,3 +7165,4 @@
 - 27164: integrated cross-system causal rule
 - 27165: integrated cross-system causal rule
 - 27166: integrated cross-system causal rule
+- 27167: integrated cross-system causal rule
