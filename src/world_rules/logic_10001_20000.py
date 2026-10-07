@@ -5507,3 +5507,6 @@ def logic_11814(world):
 
 def logic_11815(world):
     _world_apply(world, 'flowers', 'biomass', 'direct')
+
+def logic_11816(world):
+    _world_apply(world, 'flowers', 'herbivore', 'square')
