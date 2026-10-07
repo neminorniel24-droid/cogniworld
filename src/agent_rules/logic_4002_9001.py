@@ -11954,3 +11954,6 @@ def logic_8051(agents, world):
 
 def logic_8052(agents, world):
     _agent_apply(world, agents, 'runoff', 'last_reward', 'direct')
+
+def logic_8053(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'last_reward', 'direct')
