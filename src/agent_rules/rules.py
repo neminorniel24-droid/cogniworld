@@ -37920,3 +37920,10 @@ def logic_35795(agents, world):
     src = _local(world, agents, 'surface_ice')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.dehydration = _delta(agents.dehydration, delta)
+
+
+def logic_35796(agents, world):
+    """Environmental temperature shapes agent reproduction_drive (square)."""
+    src = _local(world, agents, 'temperature')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.reproduction_drive = _delta(agents.reproduction_drive, delta)
