@@ -116,3 +116,6 @@ def logic_4005(world):
 
 def logic_4006(world):
     _world_apply(world, 'vegetation', 'biomass', 'pulse')
+
+def logic_4007(world):
+    _world_apply(world, 'biomass', 'herbivore', 'threshold')
