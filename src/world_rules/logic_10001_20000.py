@@ -17012,3 +17012,6 @@ def logic_15649(world):
 
 def logic_15650(world):
     _world_apply(world, 'organic_matter', 'co2', 'direct')
+
+def logic_15651(world):
+    _world_apply(world, 'organic_matter', 'photosynthesis_factor', 'square')
