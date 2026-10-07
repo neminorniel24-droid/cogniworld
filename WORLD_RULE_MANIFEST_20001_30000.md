@@ -9002,3 +9002,4 @@
 - 29001: integrated cross-system causal rule
 - 29002: integrated cross-system causal rule
 - 29003: integrated cross-system causal rule
+- 29004: integrated cross-system causal rule
