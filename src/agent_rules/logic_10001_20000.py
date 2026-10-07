@@ -1004,3 +1004,6 @@ def logic_18313(agents, world):
 
 def logic_18314(agents, world):
     _agent_apply(world, agents, 'algae', 'food_access', 'sqrt')
+
+def logic_18315(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'food_access', 'sqrt')
