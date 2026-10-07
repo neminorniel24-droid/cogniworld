@@ -326,3 +326,6 @@ def logic_4075(world):
 
 def logic_4076(world):
     _world_apply(world, 'deadwood', 'organic_matter', 'square')
+
+def logic_4077(world):
+    _world_apply(world, 'carrion', 'organic_matter', 'sqrt')
