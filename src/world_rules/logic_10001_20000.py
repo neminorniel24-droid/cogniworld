@@ -22760,3 +22760,6 @@ def logic_17565(world):
 
 def logic_17566(world):
     _world_apply(world, 'salinity', 'seed_bank', 'direct')
+
+def logic_17567(world):
+    _world_apply(world, 'salinity', 'soil_carbon', 'square')
