@@ -15539,3 +15539,6 @@ def logic_15158(world):
 
 def logic_15159(world):
     _world_apply(world, 'soil_depth', 'biomass', 'pulse')
+
+def logic_15160(world):
+    _world_apply(world, 'soil_depth', 'herbivore', 'saturation')
