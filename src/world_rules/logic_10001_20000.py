@@ -14867,3 +14867,6 @@ def logic_14934(world):
 
 def logic_14935(world):
     _world_apply(world, 'methane', 'runoff', 'direct')
+
+def logic_14936(world):
+    _world_apply(world, 'methane', 'wind_x', 'square')
