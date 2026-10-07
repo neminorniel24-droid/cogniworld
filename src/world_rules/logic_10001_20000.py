@@ -5660,3 +5660,6 @@ def logic_11865(world):
 
 def logic_11866(world):
     _world_apply(world, 'seed_bank', 'co2', 'saturation')
+
+def logic_11867(world):
+    _world_apply(world, 'seed_bank', 'photosynthesis_factor', 'gap')
