@@ -12443,3 +12443,6 @@ def logic_14126(world):
 
 def logic_14127(world):
     _world_apply(world, 'cloud', 'sediment', 'square')
+
+def logic_14128(world):
+    _world_apply(world, 'cloud', 'salinity', 'pulse')
