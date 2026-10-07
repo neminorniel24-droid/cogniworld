@@ -4061,3 +4061,6 @@ def logic_11332(world):
 
 def logic_11333(world):
     _world_apply(world, 'carbon_storage', 'predator', 'saturation')
+
+def logic_11334(world):
+    _world_apply(world, 'carbon_storage', 'carrion', 'gap')
