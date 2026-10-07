@@ -57142,3 +57142,10 @@ def logic_38541(agents, world):
     src = _local(world, agents, 'carbon_storage')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.health = _delta(agents.health, delta)
+
+
+def logic_38542(agents, world):
+    """Environmental fire_risk shapes agent recovery (direct)."""
+    src = _local(world, agents, 'fire_risk')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.recovery = _delta(agents.recovery, delta)
