@@ -1121,3 +1121,6 @@ def logic_18352(agents, world):
 
 def logic_18353(agents, world):
     _agent_apply(world, agents, 'territoriality', 'stability', 'sqrt')
+
+def logic_18354(agents, world):
+    _agent_apply(world, agents, 'group_stability', 'stability', 'sqrt')
