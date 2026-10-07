@@ -8609,3 +8609,6 @@ def logic_12848(world):
 
 def logic_12849(world):
     _world_apply(world, 'ice', 'snowpack', 'gap')
+
+def logic_12850(world):
+    _world_apply(world, 'ice', 'groundwater', 'direct')
