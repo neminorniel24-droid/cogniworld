@@ -15104,3 +15104,6 @@ def logic_15013(world):
 
 def logic_15014(world):
     _world_apply(world, 'pathogen_load', 'seed_bank', 'gap')
+
+def logic_15015(world):
+    _world_apply(world, 'pathogen_load', 'soil_carbon', 'direct')
