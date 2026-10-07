@@ -15710,3 +15710,6 @@ def logic_15215(world):
 
 def logic_15216(world):
     _world_apply(world, 'root_density', 'pathogen_load', 'square')
+
+def logic_15217(world):
+    _world_apply(world, 'root_density', 'biodiversity', 'saturation')
