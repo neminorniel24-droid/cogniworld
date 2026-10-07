@@ -13463,3 +13463,6 @@ def logic_8554(agents, world):
 
 def logic_8555(agents, world):
     _agent_apply(world, agents, 'snowpack', 'cooperation_score', 'direct')
+
+def logic_8556(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'cooperation_score', 'direct')
