@@ -1982,3 +1982,6 @@ def logic_4727(agents, world):
 
 def logic_4728(agents, world):
     _agent_apply(world, agents, 'nutrients', 'fear', 'direct')
+
+def logic_4729(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'fear', 'direct')
