@@ -16520,3 +16520,6 @@ def logic_15485(world):
 
 def logic_15486(world):
     _world_apply(world, 'groundwater', 'wetland', 'direct')
+
+def logic_15487(world):
+    _world_apply(world, 'groundwater', 'carbon_storage', 'square')
