@@ -5723,3 +5723,6 @@ def logic_11886(world):
 
 def logic_11887(world):
     _world_apply(world, 'seed_bank', 'organic_matter', 'square')
+
+def logic_11888(world):
+    _world_apply(world, 'seed_bank', 'deadwood', 'pulse')
