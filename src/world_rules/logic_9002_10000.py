@@ -444,3 +444,6 @@ def logic_9123(world):
 
 def logic_9124(world):
     _world_apply(world, 'surface_water', 'erosion', 'square')
+
+def logic_9125(world):
+    _world_apply(world, 'surface_water', 'soil_depth', 'sqrt')
