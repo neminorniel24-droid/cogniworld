@@ -11288,3 +11288,6 @@ def logic_7829(agents, world):
 
 def logic_7830(agents, world):
     _agent_apply(world, agents, 'social_need', 'cooperation_history', 'direct')
+
+def logic_7831(agents, world):
+    _agent_apply(world, agents, 'cooperation', 'cooperation_history', 'direct')
