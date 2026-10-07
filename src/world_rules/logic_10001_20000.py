@@ -4076,3 +4076,6 @@ def logic_11337(world):
 
 def logic_11338(world):
     _world_apply(world, 'carbon_storage', 'co2', 'gap')
+
+def logic_11339(world):
+    _world_apply(world, 'carbon_storage', 'photosynthesis_factor', 'direct')
