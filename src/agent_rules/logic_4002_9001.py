@@ -3338,3 +3338,6 @@ def logic_5179(agents, world):
 
 def logic_5180(agents, world):
     _agent_apply(world, agents, 'defection', 'food_access', 'direct')
+
+def logic_5181(agents, world):
+    _agent_apply(world, agents, 'trust', 'food_access', 'direct')
