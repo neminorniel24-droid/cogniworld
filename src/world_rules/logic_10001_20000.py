@@ -20270,3 +20270,6 @@ def logic_16735(world):
 
 def logic_16736(world):
     _world_apply(world, 'photosynthesis_factor', 'cloud', 'square')
+
+def logic_16737(world):
+    _world_apply(world, 'photosynthesis_factor', 'rain', 'saturation')
