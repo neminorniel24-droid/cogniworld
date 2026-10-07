@@ -5744,3 +5744,6 @@ def logic_5981(agents, world):
 
 def logic_5982(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'territoriality', 'direct')
+
+def logic_5983(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'territoriality', 'direct')
