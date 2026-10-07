@@ -1929,3 +1929,6 @@ def logic_9817(agents, world):
 
 def logic_9818(agents, world):
     _agent_apply(world, agents, 'soil_moisture', 'fear', 'direct')
+
+def logic_9819(agents, world):
+    _agent_apply(world, agents, 'runoff', 'fear', 'direct')
