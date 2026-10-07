@@ -8768,3 +8768,6 @@ def logic_12901(world):
 
 def logic_12902(world):
     _world_apply(world, 'evaporation', 'seed_bank', 'saturation')
+
+def logic_12903(world):
+    _world_apply(world, 'evaporation', 'soil_carbon', 'gap')
