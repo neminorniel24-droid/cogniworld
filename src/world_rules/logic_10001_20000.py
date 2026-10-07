@@ -2024,3 +2024,6 @@ def logic_10653(world):
 
 def logic_10654(world):
     _world_apply(world, 'nutrients', 'organic_matter', 'gap')
+
+def logic_10655(world):
+    _world_apply(world, 'nutrients', 'deadwood', 'direct')
