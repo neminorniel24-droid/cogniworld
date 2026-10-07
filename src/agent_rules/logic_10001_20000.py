@@ -5513,3 +5513,6 @@ def logic_19816(agents, world):
 
 def logic_19817(agents, world):
     _agent_apply(world, agents, 'methane', 'health', 'direct')
+
+def logic_19818(agents, world):
+    _agent_apply(world, agents, 'pathogen_load', 'health', 'direct')
