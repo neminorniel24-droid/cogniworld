@@ -876,3 +876,6 @@ def logic_9466(agents, world):
 
 def logic_9467(agents, world):
     _agent_apply(world, agents, 'help_given', 'health', 'direct')
+
+def logic_9468(agents, world):
+    _agent_apply(world, agents, 'local_density', 'health', 'direct')
