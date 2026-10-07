@@ -7478,3 +7478,6 @@ def logic_12471(world):
 
 def logic_12472(world):
     _world_apply(world, 'herbivore', 'wind_x', 'gap')
+
+def logic_12473(world):
+    _world_apply(world, 'herbivore', 'wind_y', 'square')
