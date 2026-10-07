@@ -12122,3 +12122,6 @@ def logic_14019(world):
 
 def logic_14020(world):
     _world_apply(world, 'surface_water', 'oxygen', 'square')
+
+def logic_14021(world):
+    _world_apply(world, 'surface_water', 'co2', 'pulse')
