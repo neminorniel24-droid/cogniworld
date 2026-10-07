@@ -25915,3 +25915,10 @@ def logic_34080(agents, world):
     src = _local(world, agents, 'fire_risk')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.food_access = _delta(agents.food_access, delta)
+
+
+def logic_34081(agents, world):
+    """Environmental ash shapes agent cooperation (root)."""
+    src = _local(world, agents, 'ash')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.cooperation = _delta(agents.cooperation, delta)
