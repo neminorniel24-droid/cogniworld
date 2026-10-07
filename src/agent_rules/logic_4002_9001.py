@@ -5630,3 +5630,6 @@ def logic_5943(agents, world):
 
 def logic_5944(agents, world):
     _agent_apply(world, agents, 'runoff', 'territoriality', 'direct')
+
+def logic_5945(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'territoriality', 'direct')
