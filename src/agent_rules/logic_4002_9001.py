@@ -14414,3 +14414,6 @@ def logic_8871(agents, world):
 
 def logic_8872(agents, world):
     _agent_apply(world, agents, 'biomass', 'safety_score', 'direct')
+
+def logic_8873(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'safety_score', 'direct')
