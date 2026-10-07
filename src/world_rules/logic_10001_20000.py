@@ -13358,3 +13358,6 @@ def logic_14431(world):
 
 def logic_14432(world):
     _world_apply(world, 'biomass', 'ash', 'gap')
+
+def logic_14433(world):
+    _world_apply(world, 'biomass', 'snowpack', 'square')
