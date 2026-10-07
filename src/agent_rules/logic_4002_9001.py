@@ -6590,3 +6590,6 @@ def logic_6263(agents, world):
 
 def logic_6264(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'social_avoidance', 'direct')
+
+def logic_6265(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'social_avoidance', 'direct')
