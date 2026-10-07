@@ -12224,3 +12224,6 @@ def logic_14053(world):
 
 def logic_14054(world):
     _world_apply(world, 'humidity', 'runoff', 'gap')
+
+def logic_14055(world):
+    _world_apply(world, 'humidity', 'wind_x', 'direct')
