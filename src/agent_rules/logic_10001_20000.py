@@ -3479,3 +3479,6 @@ def logic_19138(agents, world):
 
 def logic_19139(agents, world):
     _agent_apply(world, agents, 'groundwater', 'local_density', 'square')
+
+def logic_19140(agents, world):
+    _agent_apply(world, agents, 'sediment', 'local_density', 'square')
