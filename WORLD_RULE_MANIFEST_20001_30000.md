@@ -2521,3 +2521,4 @@
 - 22520: integrated cross-system causal rule
 - 22521: integrated cross-system causal rule
 - 22522: integrated cross-system causal rule
+- 22523: integrated cross-system causal rule
