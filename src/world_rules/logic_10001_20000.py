@@ -18260,3 +18260,6 @@ def logic_16065(world):
 
 def logic_16066(world):
     _world_apply(world, 'humidity', 'organic_matter', 'saturation')
+
+def logic_16067(world):
+    _world_apply(world, 'humidity', 'deadwood', 'gap')
