@@ -17573,3 +17573,6 @@ def logic_15836(world):
 
 def logic_15837(world):
     _world_apply(world, 'seed_bank', 'root_density', 'direct')
+
+def logic_15838(world):
+    _world_apply(world, 'seed_bank', 'wetland', 'square')
