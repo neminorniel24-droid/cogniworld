@@ -624,3 +624,6 @@ def logic_9183(world):
 
 def logic_9184(world):
     _world_apply(world, 'humidity', 'surface_ice', 'saturation')
+
+def logic_9185(world):
+    _world_apply(world, 'cloud', 'surface_water', 'reciprocal')
