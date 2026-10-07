@@ -300,3 +300,6 @@ def logic_9075(world):
 
 def logic_9076(world):
     _world_apply(world, 'temperature', 'decomposition_rate', 'square')
+
+def logic_9077(world):
+    _world_apply(world, 'temperature', 'oxygen', 'sqrt')
