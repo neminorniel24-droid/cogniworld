@@ -474,3 +474,6 @@ def logic_9133(world):
 
 def logic_9134(world):
     _world_apply(world, 'surface_water', 'algae', 'pulse')
+
+def logic_9135(world):
+    _world_apply(world, 'surface_water', 'organic_matter', 'threshold')
