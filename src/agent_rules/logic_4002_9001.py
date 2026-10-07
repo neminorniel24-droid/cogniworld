@@ -12095,3 +12095,6 @@ def logic_8098(agents, world):
 
 def logic_8099(agents, world):
     _agent_apply(world, agents, 'stress', 'last_reward', 'direct')
+
+def logic_8100(agents, world):
+    _agent_apply(world, agents, 'risk_tolerance', 'last_reward', 'direct')
