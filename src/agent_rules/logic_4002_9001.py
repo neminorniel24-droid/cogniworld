@@ -1925,3 +1925,6 @@ def logic_4708(agents, world):
 
 def logic_4709(agents, world):
     _agent_apply(world, agents, 'local_density', 'alertness', 'direct')
+
+def logic_4710(agents, world):
+    _agent_apply(world, agents, 'strategy_score', 'alertness', 'direct')
