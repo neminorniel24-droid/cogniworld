@@ -5234,3 +5234,6 @@ def logic_19723(agents, world):
 
 def logic_19724(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'self_preservation', 'feedback')
+
+def logic_19725(agents, world):
+    _agent_apply(world, agents, 'social_tolerance', 'self_preservation', 'feedback')
