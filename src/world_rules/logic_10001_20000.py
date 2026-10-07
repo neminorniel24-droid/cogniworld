@@ -22652,3 +22652,6 @@ def logic_17529(world):
 
 def logic_17530(world):
     _world_apply(world, 'salinity', 'soil_moisture', 'direct')
+
+def logic_17531(world):
+    _world_apply(world, 'salinity', 'runoff', 'square')
