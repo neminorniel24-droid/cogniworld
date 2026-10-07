@@ -7913,3 +7913,6 @@ def logic_12616(world):
 
 def logic_12617(world):
     _world_apply(world, 'nutrients', 'detritus', 'saturation')
+
+def logic_12618(world):
+    _world_apply(world, 'nutrients', 'methane', 'gap')
