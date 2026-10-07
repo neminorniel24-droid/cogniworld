@@ -4790,3 +4790,6 @@ def logic_19575(agents, world):
 
 def logic_19576(agents, world):
     _agent_apply(world, agents, 'alertness', 'migration_score', 'reciprocal')
+
+def logic_19577(agents, world):
+    _agent_apply(world, agents, 'fear', 'migration_score', 'reciprocal')
