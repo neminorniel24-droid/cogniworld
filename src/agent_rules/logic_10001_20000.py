@@ -5414,3 +5414,6 @@ def logic_19783(agents, world):
 
 def logic_19784(agents, world):
     _agent_apply(world, agents, 'defense_score', 'thirst', 'direct')
+
+def logic_19785(agents, world):
+    _agent_apply(world, agents, 'migration_score', 'thirst', 'direct')
