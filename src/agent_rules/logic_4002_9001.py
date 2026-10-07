@@ -8603,3 +8603,6 @@ def logic_6934(agents, world):
 
 def logic_6935(agents, world):
     _agent_apply(world, agents, 'resource_scarcity', 'attack_threshold', 'direct')
+
+def logic_6936(agents, world):
+    _agent_apply(world, agents, 'resource_abundance', 'attack_threshold', 'direct')
