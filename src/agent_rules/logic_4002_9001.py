@@ -2006,3 +2006,6 @@ def logic_4735(agents, world):
 
 def logic_4736(agents, world):
     _agent_apply(world, agents, 'methane', 'fear', 'direct')
+
+def logic_4737(agents, world):
+    _agent_apply(world, agents, 'pathogen_load', 'fear', 'direct')
