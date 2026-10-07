@@ -5540,3 +5540,6 @@ def logic_11825(world):
 
 def logic_11826(world):
     _world_apply(world, 'flowers', 'detritus', 'saturation')
+
+def logic_11827(world):
+    _world_apply(world, 'flowers', 'methane', 'gap')
