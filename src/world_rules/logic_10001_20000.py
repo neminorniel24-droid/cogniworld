@@ -10268,3 +10268,6 @@ def logic_13401(world):
 
 def logic_13402(world):
     _world_apply(world, 'ash', 'carrion', 'square')
+
+def logic_13403(world):
+    _world_apply(world, 'ash', 'nutrients', 'pulse')
