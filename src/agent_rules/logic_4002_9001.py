@@ -7655,3 +7655,6 @@ def logic_6618(agents, world):
 
 def logic_6619(agents, world):
     _agent_apply(world, agents, 'surface_water', 'strategy_confidence', 'direct')
+
+def logic_6620(agents, world):
+    _agent_apply(world, agents, 'humidity', 'strategy_confidence', 'direct')
