@@ -962,3 +962,6 @@ def logic_4387(agents, world):
 
 def logic_4388(agents, world):
     _agent_apply(world, agents, 'nutrients', 'thermal_stress', 'direct')
+
+def logic_4389(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'thermal_stress', 'direct')
