@@ -1007,3 +1007,6 @@ def logic_4402(agents, world):
 
 def logic_4403(agents, world):
     _agent_apply(world, agents, 'wetland', 'thermal_stress', 'direct')
+
+def logic_4404(agents, world):
+    _agent_apply(world, agents, 'carbon_storage', 'thermal_stress', 'direct')
