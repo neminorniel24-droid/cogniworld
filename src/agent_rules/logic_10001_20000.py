@@ -2600,3 +2600,6 @@ def logic_18845(agents, world):
 
 def logic_18846(agents, world):
     _agent_apply(world, agents, 'co2', 'defection_threshold', 'feedback')
+
+def logic_18847(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'defection_threshold', 'feedback')
