@@ -9533,3 +9533,6 @@ def logic_7244(agents, world):
 
 def logic_7245(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'resource_competition', 'direct')
+
+def logic_7246(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'resource_competition', 'direct')
