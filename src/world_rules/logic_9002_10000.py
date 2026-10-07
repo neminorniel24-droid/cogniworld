@@ -234,3 +234,6 @@ def logic_9053(world):
 
 def logic_9054(world):
     _world_apply(world, 'surface_ice', 'surface_water', 'pulse')
+
+def logic_9055(world):
+    _world_apply(world, 'ice', 'surface_ice', 'threshold')
