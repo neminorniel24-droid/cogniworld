@@ -7508,3 +7508,6 @@ def logic_12481(world):
 
 def logic_12482(world):
     _world_apply(world, 'herbivore', 'photosynthesis_factor', 'square')
+
+def logic_12483(world):
+    _world_apply(world, 'herbivore', 'ice', 'pulse')
