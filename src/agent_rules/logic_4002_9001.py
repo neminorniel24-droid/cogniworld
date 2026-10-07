@@ -12158,3 +12158,6 @@ def logic_8119(agents, world):
 
 def logic_8120(agents, world):
     _agent_apply(world, agents, 'runoff', 'last_energy_delta', 'direct')
+
+def logic_8121(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'last_energy_delta', 'direct')
