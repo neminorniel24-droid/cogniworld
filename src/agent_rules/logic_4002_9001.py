@@ -12878,3 +12878,6 @@ def logic_8359(agents, world):
 
 def logic_8360(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'risk_tolerance', 'direct')
+
+def logic_8361(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'risk_tolerance', 'direct')
