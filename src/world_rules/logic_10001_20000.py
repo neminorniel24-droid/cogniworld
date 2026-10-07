@@ -10979,3 +10979,6 @@ def logic_13638(world):
 
 def logic_13639(world):
     _world_apply(world, 'algae', 'carbon_storage', 'pulse')
+
+def logic_13640(world):
+    _world_apply(world, 'algae', 'fire_risk', 'saturation')
