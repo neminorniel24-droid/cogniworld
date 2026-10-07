@@ -16493,3 +16493,6 @@ def logic_15476(world):
 
 def logic_15477(world):
     _world_apply(world, 'groundwater', 'evaporation', 'direct')
+
+def logic_15478(world):
+    _world_apply(world, 'groundwater', 'detritus', 'square')
