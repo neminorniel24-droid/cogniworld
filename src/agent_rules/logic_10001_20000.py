@@ -2486,3 +2486,6 @@ def logic_18807(agents, world):
 
 def logic_18808(agents, world):
     _agent_apply(world, agents, 'reciprocity_score', 'empathy', 'feedback')
+
+def logic_18809(agents, world):
+    _agent_apply(world, agents, 'risk_score', 'empathy', 'feedback')
