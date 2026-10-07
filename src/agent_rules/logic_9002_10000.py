@@ -390,3 +390,6 @@ def logic_9304(agents, world):
 
 def logic_9305(agents, world):
     _agent_apply(world, agents, 'salinity', 'thirst', 'direct')
+
+def logic_9306(agents, world):
+    _agent_apply(world, agents, 'algae', 'thirst', 'direct')
