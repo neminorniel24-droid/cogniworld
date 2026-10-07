@@ -3524,3 +3524,6 @@ def logic_5241(agents, world):
 
 def logic_5242(agents, world):
     _agent_apply(world, agents, 'health', 'wealth', 'direct')
+
+def logic_5243(agents, world):
+    _agent_apply(world, agents, 'stress', 'wealth', 'direct')
