@@ -14072,3 +14072,6 @@ def logic_14669(world):
 
 def logic_14670(world):
     _world_apply(world, 'oxygen', 'soil_moisture', 'pulse')
+
+def logic_14671(world):
+    _world_apply(world, 'oxygen', 'runoff', 'saturation')
