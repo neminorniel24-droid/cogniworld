@@ -273,3 +273,6 @@ def logic_9265(agents, world):
 
 def logic_9266(agents, world):
     _agent_apply(world, agents, 'survival_score', 'hydration', 'direct')
+
+def logic_9267(agents, world):
+    _agent_apply(world, agents, 'fitness_score', 'hydration', 'direct')
