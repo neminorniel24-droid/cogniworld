@@ -9599,3 +9599,6 @@ def logic_13178(world):
 
 def logic_13179(world):
     _world_apply(world, 'soil_depth', 'biomass', 'direct')
+
+def logic_13180(world):
+    _world_apply(world, 'soil_depth', 'herbivore', 'square')
