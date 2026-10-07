@@ -3902,3 +3902,6 @@ def logic_5367(agents, world):
 
 def logic_5368(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'habitat_stress', 'direct')
+
+def logic_5369(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'habitat_stress', 'direct')
