@@ -3074,3 +3074,6 @@ def logic_19003(agents, world):
 
 def logic_19004(agents, world):
     _agent_apply(world, agents, 'algae', 'neighbor_energy_gap', 'inverse')
+
+def logic_19005(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'neighbor_energy_gap', 'inverse')
