@@ -86,3 +86,6 @@ def logic_18007(agents, world):
 
 def logic_18008(agents, world):
     _agent_apply(world, agents, 'wind_x', 'hydration', 'direct')
+
+def logic_18009(agents, world):
+    _agent_apply(world, agents, 'wind_y', 'hydration', 'direct')
