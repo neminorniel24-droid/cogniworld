@@ -17450,3 +17450,6 @@ def logic_15795(world):
 
 def logic_15796(world):
     _world_apply(world, 'flowers', 'fire_risk', 'gap')
+
+def logic_15797(world):
+    _world_apply(world, 'flowers', 'ash', 'direct')
