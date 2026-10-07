@@ -5267,3 +5267,6 @@ def logic_19734(agents, world):
 
 def logic_19735(agents, world):
     _agent_apply(world, agents, 'sharing_capacity', 'self_preservation', 'feedback')
+
+def logic_19736(agents, world):
+    _agent_apply(world, agents, 'help_drive', 'payoff', 'feedback')
