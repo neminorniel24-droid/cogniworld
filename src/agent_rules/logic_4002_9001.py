@@ -2045,3 +2045,6 @@ def logic_4748(agents, world):
 
 def logic_4749(agents, world):
     _agent_apply(world, agents, 'sediment', 'fear', 'direct')
+
+def logic_4750(agents, world):
+    _agent_apply(world, agents, 'salinity', 'fear', 'direct')
