@@ -60908,3 +60908,10 @@ def logic_39079(agents, world):
     src = _local(world, agents, 'oxygen')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.social_avoidance = _delta(agents.social_avoidance, delta)
+
+
+def logic_39080(agents, world):
+    """Environmental co2 shapes agent future_help (square)."""
+    src = _local(world, agents, 'co2')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.future_help = _delta(agents.future_help, delta)
