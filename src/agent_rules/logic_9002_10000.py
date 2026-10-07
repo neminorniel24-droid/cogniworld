@@ -2229,3 +2229,6 @@ def logic_9917(agents, world):
 
 def logic_9918(agents, world):
     _agent_apply(world, agents, 'algae', 'recovery', 'direct')
+
+def logic_9919(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'recovery', 'direct')
