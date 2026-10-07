@@ -22487,3 +22487,6 @@ def logic_17474(world):
 
 def logic_17475(world):
     _world_apply(world, 'groundwater', 'deadwood', 'saturation')
+
+def logic_17476(world):
+    _world_apply(world, 'groundwater', 'pollinators', 'gap')
