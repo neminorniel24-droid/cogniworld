@@ -489,3 +489,6 @@ def logic_9138(world):
 
 def logic_9139(world):
     _world_apply(world, 'surface_water', 'seed_bank', 'inverse')
+
+def logic_9140(world):
+    _world_apply(world, 'surface_water', 'soil_carbon', 'square')
