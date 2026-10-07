@@ -8705,3 +8705,4 @@
 - 28704: integrated cross-system causal rule
 - 28705: integrated cross-system causal rule
 - 28706: integrated cross-system causal rule
+- 28707: integrated cross-system causal rule
