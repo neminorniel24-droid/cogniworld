@@ -7121,3 +7121,4 @@
 - 27120: integrated cross-system causal rule
 - 27121: integrated cross-system causal rule
 - 27122: integrated cross-system causal rule
+- 27123: integrated cross-system causal rule
