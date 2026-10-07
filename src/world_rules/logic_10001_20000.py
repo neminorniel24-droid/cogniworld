@@ -1730,3 +1730,6 @@ def logic_10555(world):
 
 def logic_10556(world):
     _world_apply(world, 'predator', 'root_density', 'gap')
+
+def logic_10557(world):
+    _world_apply(world, 'predator', 'wetland', 'direct')
