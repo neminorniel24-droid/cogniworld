@@ -1493,3 +1493,6 @@ def logic_10476(world):
 
 def logic_10477(world):
     _world_apply(world, 'biomass', 'algae', 'direct')
+
+def logic_10478(world):
+    _world_apply(world, 'biomass', 'organic_matter', 'square')
