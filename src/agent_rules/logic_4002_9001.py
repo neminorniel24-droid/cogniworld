@@ -11702,3 +11702,6 @@ def logic_7967(agents, world):
 
 def logic_7968(agents, world):
     _agent_apply(world, agents, 'defection', 'help_given', 'direct')
+
+def logic_7969(agents, world):
+    _agent_apply(world, agents, 'trust', 'help_given', 'direct')
