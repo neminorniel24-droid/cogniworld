@@ -12485,3 +12485,6 @@ def logic_8228(agents, world):
 
 def logic_8229(agents, world):
     _agent_apply(world, agents, 'energy_surplus', 'last_food', 'direct')
+
+def logic_8230(agents, world):
+    _agent_apply(world, agents, 'ticks_since_food', 'last_food', 'direct')
