@@ -3233,3 +3233,6 @@ def logic_19056(agents, world):
 
 def logic_19057(agents, world):
     _agent_apply(world, agents, 'attack_threshold', 'conflict_history', 'inverse')
+
+def logic_19058(agents, world):
+    _agent_apply(world, agents, 'defection_threshold', 'conflict_history', 'inverse')
