@@ -1943,3 +1943,6 @@ def logic_10626(world):
 
 def logic_10627(world):
     _world_apply(world, 'nutrients', 'biomass', 'gap')
+
+def logic_10628(world):
+    _world_apply(world, 'nutrients', 'herbivore', 'direct')
