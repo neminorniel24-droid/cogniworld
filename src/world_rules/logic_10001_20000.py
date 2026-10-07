@@ -9548,3 +9548,6 @@ def logic_13161(world):
 
 def logic_13162(world):
     _world_apply(world, 'erosion', 'organic_matter', 'square')
+
+def logic_13163(world):
+    _world_apply(world, 'erosion', 'deadwood', 'pulse')
