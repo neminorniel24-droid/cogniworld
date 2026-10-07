@@ -365,3 +365,6 @@ def logic_18100(agents, world):
 
 def logic_18101(agents, world):
     _agent_apply(world, agents, 'neighbor_health_gap', 'dehydration', 'inverse')
+
+def logic_18102(agents, world):
+    _agent_apply(world, agents, 'betrayal_memory', 'dehydration', 'inverse')
