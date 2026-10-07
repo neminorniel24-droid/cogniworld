@@ -5711,3 +5711,6 @@ def logic_11882(world):
 
 def logic_11883(world):
     _world_apply(world, 'seed_bank', 'groundwater', 'pulse')
+
+def logic_11884(world):
+    _world_apply(world, 'seed_bank', 'sediment', 'saturation')
