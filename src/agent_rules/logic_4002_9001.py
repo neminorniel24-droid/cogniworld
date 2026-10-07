@@ -5534,3 +5534,6 @@ def logic_5911(agents, world):
 
 def logic_5912(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'competition_pressure', 'direct')
+
+def logic_5913(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'competition_pressure', 'direct')
