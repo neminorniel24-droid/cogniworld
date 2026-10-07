@@ -867,3 +867,4 @@
 - 20866: integrated cross-system causal rule
 - 20867: integrated cross-system causal rule
 - 20868: integrated cross-system causal rule
+- 20869: integrated cross-system causal rule
