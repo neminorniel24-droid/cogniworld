@@ -12551,3 +12551,6 @@ def logic_8250(agents, world):
 
 def logic_8251(agents, world):
     _agent_apply(world, agents, 'surface_water', 'last_interaction', 'direct')
+
+def logic_8252(agents, world):
+    _agent_apply(world, agents, 'humidity', 'last_interaction', 'direct')
