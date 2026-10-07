@@ -41140,3 +41140,10 @@ def logic_36255(agents, world):
     src = _local(world, agents, 'surface_ice')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.trust = _delta(agents.trust, delta)
+
+
+def logic_36256(agents, world):
+    """Environmental temperature shapes agent group_stability (square)."""
+    src = _local(world, agents, 'temperature')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.group_stability = _delta(agents.group_stability, delta)
