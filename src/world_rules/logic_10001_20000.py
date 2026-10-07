@@ -2090,3 +2090,6 @@ def logic_10675(world):
 
 def logic_10676(world):
     _world_apply(world, 'decomposition_rate', 'oxygen', 'gap')
+
+def logic_10677(world):
+    _world_apply(world, 'decomposition_rate', 'co2', 'direct')
