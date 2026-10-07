@@ -12290,3 +12290,6 @@ def logic_8163(agents, world):
 
 def logic_8164(agents, world):
     _agent_apply(world, agents, 'thirst', 'last_energy_delta', 'direct')
+
+def logic_8165(agents, world):
+    _agent_apply(world, agents, 'hunger', 'last_energy_delta', 'direct')
