@@ -2816,3 +2816,6 @@ def logic_5005(agents, world):
 
 def logic_5006(agents, world):
     _agent_apply(world, agents, 'evaporation', 'migration_drive', 'direct')
+
+def logic_5007(agents, world):
+    _agent_apply(world, agents, 'detritus', 'migration_drive', 'direct')
