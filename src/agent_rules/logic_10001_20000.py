@@ -4307,3 +4307,6 @@ def logic_19414(agents, world):
 
 def logic_19415(agents, world):
     _agent_apply(world, agents, 'groundwater', 'exploration_score', 'threshold')
+
+def logic_19416(agents, world):
+    _agent_apply(world, agents, 'sediment', 'exploration_score', 'threshold')
