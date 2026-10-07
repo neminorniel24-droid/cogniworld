@@ -23423,3 +23423,6 @@ def logic_17786(world):
 
 def logic_17787(world):
     _world_apply(world, 'flowers', 'soil_carbon', 'gap')
+
+def logic_17788(world):
+    _world_apply(world, 'flowers', 'surface_ice', 'direct')
