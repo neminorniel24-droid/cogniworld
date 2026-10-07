@@ -16877,3 +16877,6 @@ def logic_15604(world):
 
 def logic_15605(world):
     _world_apply(world, 'algae', 'oxygen', 'gap')
+
+def logic_15606(world):
+    _world_apply(world, 'algae', 'co2', 'direct')
