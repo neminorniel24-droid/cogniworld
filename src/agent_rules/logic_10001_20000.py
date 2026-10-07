@@ -4892,3 +4892,6 @@ def logic_19609(agents, world):
 
 def logic_19610(agents, world):
     _agent_apply(world, agents, 'defection_threshold', 'sharing_score', 'gap')
+
+def logic_19611(agents, world):
+    _agent_apply(world, agents, 'oxygen_need', 'sharing_score', 'gap')
