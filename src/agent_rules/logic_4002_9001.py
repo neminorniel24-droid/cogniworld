@@ -14351,3 +14351,6 @@ def logic_8850(agents, world):
 
 def logic_8851(agents, world):
     _agent_apply(world, agents, 'cooperation', 'risk_score', 'direct')
+
+def logic_8852(agents, world):
+    _agent_apply(world, agents, 'defection', 'risk_score', 'direct')
