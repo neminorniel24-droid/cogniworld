@@ -3500,3 +3500,6 @@ def logic_19145(agents, world):
 
 def logic_19146(agents, world):
     _agent_apply(world, agents, 'flowers', 'last_reward', 'square')
+
+def logic_19147(agents, world):
+    _agent_apply(world, agents, 'seed_bank', 'last_reward', 'square')
