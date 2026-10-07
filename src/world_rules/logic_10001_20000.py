@@ -5627,3 +5627,6 @@ def logic_11854(world):
 
 def logic_11855(world):
     _world_apply(world, 'seed_bank', 'runoff', 'direct')
+
+def logic_11856(world):
+    _world_apply(world, 'seed_bank', 'wind_x', 'square')
