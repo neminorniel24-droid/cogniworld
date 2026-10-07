@@ -8552,3 +8552,6 @@ def logic_6917(agents, world):
 
 def logic_6918(agents, world):
     _agent_apply(world, agents, 'root_density', 'attack_threshold', 'direct')
+
+def logic_6919(agents, world):
+    _agent_apply(world, agents, 'wetland', 'attack_threshold', 'direct')
