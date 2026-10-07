@@ -209,3 +209,6 @@ def logic_4036(world):
 
 def logic_4037(world):
     _world_apply(world, 'fire_risk', 'deadwood', 'sqrt')
+
+def logic_4038(world):
+    _world_apply(world, 'erosion', 'soil_carbon', 'pulse')
