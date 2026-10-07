@@ -1430,3 +1430,6 @@ def logic_18455(agents, world):
 
 def logic_18456(agents, world):
     _agent_apply(world, agents, 'flowers', 'defection', 'threshold')
+
+def logic_18457(agents, world):
+    _agent_apply(world, agents, 'seed_bank', 'defection', 'threshold')
