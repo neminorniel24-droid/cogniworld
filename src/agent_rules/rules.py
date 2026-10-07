@@ -29331,3 +29331,10 @@ def logic_34568(agents, world):
     src = _local(world, agents, 'carrion')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.social_need = _delta(agents.social_need, delta)
+
+
+def logic_34569(agents, world):
+    """Environmental nutrients shapes agent help_given (root)."""
+    src = _local(world, agents, 'nutrients')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.help_given = _delta(agents.help_given, delta)
