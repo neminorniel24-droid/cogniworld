@@ -10799,3 +10799,6 @@ def logic_7666(agents, world):
 
 def logic_7667(agents, world):
     _agent_apply(world, agents, 'wetland', 'betrayal_memory', 'direct')
+
+def logic_7668(agents, world):
+    _agent_apply(world, agents, 'carbon_storage', 'betrayal_memory', 'direct')
