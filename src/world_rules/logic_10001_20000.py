@@ -4325,3 +4325,6 @@ def logic_11420(world):
 
 def logic_11421(world):
     _world_apply(world, 'ash', 'predator', 'pulse')
+
+def logic_11422(world):
+    _world_apply(world, 'ash', 'carrion', 'saturation')
