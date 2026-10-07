@@ -15425,3 +15425,6 @@ def logic_15120(world):
 
 def logic_15121(world):
     _world_apply(world, 'erosion', 'oxygen', 'direct')
+
+def logic_15122(world):
+    _world_apply(world, 'erosion', 'co2', 'square')
