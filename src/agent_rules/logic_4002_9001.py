@@ -3413,3 +3413,6 @@ def logic_5204(agents, world):
 
 def logic_5205(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'wealth', 'direct')
+
+def logic_5206(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'wealth', 'direct')
