@@ -6458,3 +6458,6 @@ def logic_12131(world):
 
 def logic_12132(world):
     _world_apply(world, 'cloud', 'evaporation', 'pulse')
+
+def logic_12133(world):
+    _world_apply(world, 'cloud', 'detritus', 'saturation')
