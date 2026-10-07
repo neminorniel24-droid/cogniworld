@@ -8096,3 +8096,6 @@ def logic_6765(agents, world):
 
 def logic_6766(agents, world):
     _agent_apply(world, agents, 'predator', 'resource_discovery', 'direct')
+
+def logic_6767(agents, world):
+    _agent_apply(world, agents, 'carrion', 'resource_discovery', 'direct')
