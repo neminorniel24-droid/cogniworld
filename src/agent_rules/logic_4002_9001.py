@@ -5729,3 +5729,6 @@ def logic_5976(agents, world):
 
 def logic_5977(agents, world):
     _agent_apply(world, agents, 'deadwood', 'territoriality', 'direct')
+
+def logic_5978(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'territoriality', 'direct')
