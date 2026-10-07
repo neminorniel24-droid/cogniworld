@@ -1688,3 +1688,6 @@ def logic_18541(agents, world):
 
 def logic_18542(agents, world):
     _agent_apply(world, agents, 'defense_score', 'territoriality', 'saturation')
+
+def logic_18543(agents, world):
+    _agent_apply(world, agents, 'migration_score', 'territoriality', 'saturation')
