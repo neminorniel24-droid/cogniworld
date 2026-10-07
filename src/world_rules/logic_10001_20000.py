@@ -20258,3 +20258,6 @@ def logic_16731(world):
 
 def logic_16732(world):
     _world_apply(world, 'co2', 'surface_ice', 'pulse')
+
+def logic_16733(world):
+    _world_apply(world, 'photosynthesis_factor', 'temperature', 'saturation')
