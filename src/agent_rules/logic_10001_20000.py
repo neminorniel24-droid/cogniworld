@@ -326,3 +326,6 @@ def logic_18087(agents, world):
 
 def logic_18088(agents, world):
     _agent_apply(world, agents, 'future_help', 'thermal_stress', 'direct')
+
+def logic_18089(agents, world):
+    _agent_apply(world, agents, 'resource_discovery', 'thermal_stress', 'direct')
