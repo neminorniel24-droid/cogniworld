@@ -7540,3 +7540,4 @@
 - 27539: integrated cross-system causal rule
 - 27540: integrated cross-system causal rule
 - 27541: integrated cross-system causal rule
+- 27542: integrated cross-system causal rule
