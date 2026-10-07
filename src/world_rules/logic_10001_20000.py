@@ -92,3 +92,6 @@ def logic_10009(world):
 
 def logic_10010(world):
     _world_apply(world, 'temperature', 'biomass', 'direct')
+
+def logic_10011(world):
+    _world_apply(world, 'temperature', 'herbivore', 'square')
