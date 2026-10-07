@@ -5194,3 +5194,4 @@
 - 25193: integrated cross-system causal rule
 - 25194: integrated cross-system causal rule
 - 25195: integrated cross-system causal rule
+- 25196: integrated cross-system causal rule
