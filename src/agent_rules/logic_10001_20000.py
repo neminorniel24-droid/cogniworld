@@ -3092,3 +3092,6 @@ def logic_19009(agents, world):
 
 def logic_19010(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'neighbor_health_gap', 'inverse')
+
+def logic_19011(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'neighbor_health_gap', 'inverse')
