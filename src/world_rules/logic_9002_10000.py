@@ -315,3 +315,6 @@ def logic_9080(world):
 
 def logic_9081(world):
     _world_apply(world, 'temperature', 'methane', 'reciprocal')
+
+def logic_9082(world):
+    _world_apply(world, 'temperature', 'biodiversity', 'direct')
