@@ -5348,3 +5348,6 @@ def logic_5849(agents, world):
 
 def logic_5850(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'conflict_pressure', 'direct')
+
+def logic_5851(agents, world):
+    _agent_apply(world, agents, 'hydration', 'conflict_pressure', 'direct')
