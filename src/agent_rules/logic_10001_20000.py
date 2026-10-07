@@ -2126,3 +2126,6 @@ def logic_18687(agents, world):
 
 def logic_18688(agents, world):
     _agent_apply(world, agents, 'future_payoff_weight', 'gratitude', 'reciprocal')
+
+def logic_18689(agents, world):
+    _agent_apply(world, agents, 'self_preservation', 'gratitude', 'reciprocal')
