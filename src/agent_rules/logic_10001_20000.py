@@ -560,3 +560,6 @@ def logic_18165(agents, world):
 
 def logic_18166(agents, world):
     _agent_apply(world, agents, 'soil_depth', 'alertness', 'inverse')
+
+def logic_18167(agents, world):
+    _agent_apply(world, agents, 'root_density', 'alertness', 'inverse')
