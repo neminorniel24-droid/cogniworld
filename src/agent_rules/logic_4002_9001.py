@@ -12653,3 +12653,6 @@ def logic_8284(agents, world):
 
 def logic_8285(agents, world):
     _agent_apply(world, agents, 'sediment', 'last_interaction', 'direct')
+
+def logic_8286(agents, world):
+    _agent_apply(world, agents, 'salinity', 'last_interaction', 'direct')
