@@ -7502,3 +7502,6 @@ def logic_12479(world):
 
 def logic_12480(world):
     _world_apply(world, 'herbivore', 'oxygen', 'saturation')
+
+def logic_12481(world):
+    _world_apply(world, 'herbivore', 'co2', 'direct')
