@@ -3770,3 +3770,6 @@ def logic_5323(agents, world):
 
 def logic_5324(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'stability', 'direct')
+
+def logic_5325(agents, world):
+    _agent_apply(world, agents, 'payoff', 'stability', 'direct')
