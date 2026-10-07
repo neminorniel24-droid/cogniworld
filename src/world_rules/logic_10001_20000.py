@@ -2450,3 +2450,6 @@ def logic_10795(world):
 
 def logic_10796(world):
     _world_apply(world, 'photosynthesis_factor', 'cloud', 'gap')
+
+def logic_10797(world):
+    _world_apply(world, 'photosynthesis_factor', 'rain', 'direct')
