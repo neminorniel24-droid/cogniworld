@@ -692,3 +692,4 @@
 - 20691: integrated cross-system causal rule
 - 20692: integrated cross-system causal rule
 - 20693: integrated cross-system causal rule
+- 20694: integrated cross-system causal rule
