@@ -17126,3 +17126,6 @@ def logic_15687(world):
 
 def logic_15688(world):
     _world_apply(world, 'deadwood', 'herbivore', 'pulse')
+
+def logic_15689(world):
+    _world_apply(world, 'deadwood', 'predator', 'gap')
