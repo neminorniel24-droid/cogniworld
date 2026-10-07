@@ -2945,3 +2945,6 @@ def logic_5048(agents, world):
 
 def logic_5049(agents, world):
     _agent_apply(world, agents, 'local_density', 'migration_drive', 'direct')
+
+def logic_5050(agents, world):
+    _agent_apply(world, agents, 'strategy_score', 'migration_drive', 'direct')
