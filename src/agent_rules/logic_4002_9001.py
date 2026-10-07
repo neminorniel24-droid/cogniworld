@@ -6644,3 +6644,6 @@ def logic_6281(agents, world):
 
 def logic_6282(agents, world):
     _agent_apply(world, agents, 'rain', 'selfishness', 'direct')
+
+def logic_6283(agents, world):
+    _agent_apply(world, agents, 'soil_moisture', 'selfishness', 'direct')
