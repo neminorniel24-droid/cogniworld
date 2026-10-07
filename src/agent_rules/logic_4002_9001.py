@@ -13592,3 +13592,6 @@ def logic_8597(agents, world):
 
 def logic_8598(agents, world):
     _agent_apply(world, agents, 'wind_y', 'competition_score', 'direct')
+
+def logic_8599(agents, world):
+    _agent_apply(world, agents, 'vegetation', 'competition_score', 'direct')
