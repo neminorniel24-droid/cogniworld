@@ -4112,3 +4112,6 @@ def logic_11349(world):
 
 def logic_11350(world):
     _world_apply(world, 'carbon_storage', 'wetland', 'pulse')
+
+def logic_11351(world):
+    _world_apply(world, 'carbon_storage', 'fire_risk', 'saturation')
