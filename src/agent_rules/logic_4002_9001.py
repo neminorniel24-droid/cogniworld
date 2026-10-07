@@ -13922,3 +13922,6 @@ def logic_8707(agents, world):
 
 def logic_8708(agents, world):
     _agent_apply(world, agents, 'thirst', 'defection_score', 'direct')
+
+def logic_8709(agents, world):
+    _agent_apply(world, agents, 'hunger', 'defection_score', 'direct')
