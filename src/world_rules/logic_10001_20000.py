@@ -1325,3 +1325,6 @@ def logic_10420(world):
 
 def logic_10421(world):
     _world_apply(world, 'vegetation', 'habitat_stress', 'pulse')
+
+def logic_10422(world):
+    _world_apply(world, 'vegetation', 'erosion', 'saturation')
