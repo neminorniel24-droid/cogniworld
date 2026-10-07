@@ -8010,3 +8010,4 @@
 - 28009: integrated cross-system causal rule
 - 28010: integrated cross-system causal rule
 - 28011: integrated cross-system causal rule
+- 28012: integrated cross-system causal rule
