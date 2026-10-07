@@ -22880,3 +22880,6 @@ def logic_17605(world):
 
 def logic_17606(world):
     _world_apply(world, 'algae', 'organic_matter', 'direct')
+
+def logic_17607(world):
+    _world_apply(world, 'algae', 'deadwood', 'square')
