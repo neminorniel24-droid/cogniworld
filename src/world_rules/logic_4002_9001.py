@@ -338,3 +338,6 @@ def logic_4079(world):
 
 def logic_4080(world):
     _world_apply(world, 'vegetation', 'seed_bank', 'saturation')
+
+def logic_4081(world):
+    _world_apply(world, 'flowers', 'seed_bank', 'reciprocal')
