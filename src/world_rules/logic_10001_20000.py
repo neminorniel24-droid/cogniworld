@@ -13877,3 +13877,6 @@ def logic_14604(world):
 
 def logic_14605(world):
     _world_apply(world, 'nutrients', 'wetland', 'gap')
+
+def logic_14606(world):
+    _world_apply(world, 'nutrients', 'carbon_storage', 'direct')
