@@ -13256,3 +13256,6 @@ def logic_8485(agents, world):
 
 def logic_8486(agents, world):
     _agent_apply(world, agents, 'ash', 'strategy_score', 'direct')
+
+def logic_8487(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'strategy_score', 'direct')
