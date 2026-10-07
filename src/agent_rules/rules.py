@@ -37612,3 +37612,10 @@ def logic_35751(agents, world):
     src = _local(world, agents, 'temperature_target')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.conflict_history = _delta(agents.conflict_history, delta)
+
+
+def logic_35752(agents, world):
+    """Environmental surface_water shapes agent last_food (square)."""
+    src = _local(world, agents, 'surface_water')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.last_food = _delta(agents.last_food, delta)
