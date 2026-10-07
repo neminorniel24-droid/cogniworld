@@ -9158,3 +9158,6 @@ def logic_13031(world):
 
 def logic_13032(world):
     _world_apply(world, 'pathogen_load', 'pollinators', 'gap')
+
+def logic_13033(world):
+    _world_apply(world, 'pathogen_load', 'flowers', 'square')
