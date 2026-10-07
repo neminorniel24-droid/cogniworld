@@ -1781,3 +1781,6 @@ def logic_4660(agents, world):
 
 def logic_4661(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'alertness', 'direct')
+
+def logic_4662(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'alertness', 'direct')
