@@ -9440,3 +9440,6 @@ def logic_13125(world):
 
 def logic_13126(world):
     _world_apply(world, 'erosion', 'surface_water', 'direct')
+
+def logic_13127(world):
+    _world_apply(world, 'erosion', 'humidity', 'square')
