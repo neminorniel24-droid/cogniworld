@@ -13904,3 +13904,6 @@ def logic_8701(agents, world):
 
 def logic_8702(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'defection_score', 'direct')
+
+def logic_8703(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'defection_score', 'direct')
