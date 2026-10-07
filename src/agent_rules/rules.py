@@ -30052,3 +30052,10 @@ def logic_34671(agents, world):
     src = _local(world, agents, 'biodiversity')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.last_reward = _delta(agents.last_reward, delta)
+
+
+def logic_34672(agents, world):
+    """Environmental habitat_stress shapes agent cooperation_score (square)."""
+    src = _local(world, agents, 'habitat_stress')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.cooperation_score = _delta(agents.cooperation_score, delta)
