@@ -3491,3 +3491,6 @@ def logic_11142(world):
 
 def logic_11143(world):
     _world_apply(world, 'habitat_stress', 'soil_carbon', 'gap')
+
+def logic_11144(world):
+    _world_apply(world, 'habitat_stress', 'surface_ice', 'direct')
