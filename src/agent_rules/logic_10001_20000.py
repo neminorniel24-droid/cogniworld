@@ -2402,3 +2402,6 @@ def logic_18779(agents, world):
 
 def logic_18780(agents, world):
     _agent_apply(world, agents, 'empathy', 'resource_discovery', 'gap')
+
+def logic_18781(agents, world):
+    _agent_apply(world, agents, 'attack_threshold', 'resource_discovery', 'gap')
