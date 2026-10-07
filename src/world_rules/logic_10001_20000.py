@@ -15665,3 +15665,6 @@ def logic_15200(world):
 
 def logic_15201(world):
     _world_apply(world, 'root_density', 'wind_y', 'direct')
+
+def logic_15202(world):
+    _world_apply(world, 'root_density', 'vegetation', 'square')
