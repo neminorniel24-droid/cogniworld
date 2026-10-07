@@ -2282,3 +2282,6 @@ def logic_18739(agents, world):
 
 def logic_18740(agents, world):
     _agent_apply(world, agents, 'hydration', 'strategy_confidence', 'gap')
+
+def logic_18741(agents, world):
+    _agent_apply(world, agents, 'thirst', 'strategy_confidence', 'gap')
