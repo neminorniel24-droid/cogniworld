@@ -2174,3 +2174,6 @@ def logic_18703(agents, world):
 
 def logic_18704(agents, world):
     _agent_apply(world, agents, 'carrion', 'caution', 'reciprocal')
+
+def logic_18705(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'caution', 'reciprocal')
