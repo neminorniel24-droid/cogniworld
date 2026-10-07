@@ -219,3 +219,6 @@ def logic_9048(world):
 
 def logic_9049(world):
     _world_apply(world, 'oxygen', 'pathogen_load', 'reciprocal')
+
+def logic_9050(world):
+    _world_apply(world, 'fire_risk', 'habitat_stress', 'direct')
