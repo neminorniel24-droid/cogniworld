@@ -4940,3 +4940,6 @@ def logic_11625(world):
 
 def logic_11626(world):
     _world_apply(world, 'salinity', 'seed_bank', 'saturation')
+
+def logic_11627(world):
+    _world_apply(world, 'salinity', 'soil_carbon', 'gap')
