@@ -17600,3 +17600,6 @@ def logic_15845(world):
 
 def logic_15846(world):
     _world_apply(world, 'seed_bank', 'algae', 'direct')
+
+def logic_15847(world):
+    _world_apply(world, 'seed_bank', 'organic_matter', 'square')
