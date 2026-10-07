@@ -2660,3 +2660,6 @@ def logic_10865(world):
 
 def logic_10866(world):
     _world_apply(world, 'ice', 'carbon_storage', 'saturation')
+
+def logic_10867(world):
+    _world_apply(world, 'ice', 'fire_risk', 'gap')
