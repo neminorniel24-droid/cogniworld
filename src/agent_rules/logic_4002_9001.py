@@ -8156,3 +8156,6 @@ def logic_6785(agents, world):
 
 def logic_6786(agents, world):
     _agent_apply(world, agents, 'ash', 'resource_discovery', 'direct')
+
+def logic_6787(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'resource_discovery', 'direct')
