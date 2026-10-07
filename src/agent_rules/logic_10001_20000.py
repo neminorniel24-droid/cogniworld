@@ -5273,3 +5273,6 @@ def logic_19736(agents, world):
 
 def logic_19737(agents, world):
     _agent_apply(world, agents, 'social_avoidance', 'payoff', 'feedback')
+
+def logic_19738(agents, world):
+    _agent_apply(world, agents, 'selfishness', 'payoff', 'feedback')
