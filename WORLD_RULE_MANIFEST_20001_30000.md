@@ -3840,3 +3840,4 @@
 - 23839: integrated cross-system causal rule
 - 23840: integrated cross-system causal rule
 - 23841: integrated cross-system causal rule
+- 23842: integrated cross-system causal rule
