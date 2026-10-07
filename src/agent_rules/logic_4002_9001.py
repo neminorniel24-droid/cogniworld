@@ -13682,3 +13682,6 @@ def logic_8627(agents, world):
 
 def logic_8628(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'competition_score', 'direct')
+
+def logic_8629(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'competition_score', 'direct')
