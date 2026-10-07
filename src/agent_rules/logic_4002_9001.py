@@ -8252,3 +8252,6 @@ def logic_6817(agents, world):
 
 def logic_6818(agents, world):
     _agent_apply(world, agents, 'strategy_score', 'resource_discovery', 'direct')
+
+def logic_6819(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'resource_discovery', 'direct')
