@@ -2330,3 +2330,6 @@ def logic_18755(agents, world):
 
 def logic_18756(agents, world):
     _agent_apply(world, agents, 'wealth', 'future_help', 'gap')
+
+def logic_18757(agents, world):
+    _agent_apply(world, agents, 'stability', 'future_help', 'gap')
