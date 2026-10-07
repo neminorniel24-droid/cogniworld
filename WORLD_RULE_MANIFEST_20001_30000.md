@@ -7186,3 +7186,4 @@
 - 27185: integrated cross-system causal rule
 - 27186: integrated cross-system causal rule
 - 27187: integrated cross-system causal rule
+- 27188: integrated cross-system causal rule
