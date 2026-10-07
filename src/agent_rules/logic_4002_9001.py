@@ -11897,3 +11897,6 @@ def logic_8032(agents, world):
 
 def logic_8033(agents, world):
     _agent_apply(world, agents, 'competition_pressure', 'local_density', 'direct')
+
+def logic_8034(agents, world):
+    _agent_apply(world, agents, 'social_need', 'local_density', 'direct')
