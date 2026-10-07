@@ -11096,3 +11096,6 @@ def logic_7765(agents, world):
 
 def logic_7766(agents, world):
     _agent_apply(world, agents, 'reputation', 'conflict_history', 'direct')
+
+def logic_7767(agents, world):
+    _agent_apply(world, agents, 'help_received', 'conflict_history', 'direct')
