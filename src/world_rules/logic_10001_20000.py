@@ -5882,3 +5882,6 @@ def logic_11939(world):
 
 def logic_11940(world):
     _world_apply(world, 'surface_ice', 'cloud', 'square')
+
+def logic_11941(world):
+    _world_apply(world, 'surface_ice', 'rain', 'pulse')
