@@ -3854,3 +3854,6 @@ def logic_11263(world):
 
 def logic_11264(world):
     _world_apply(world, 'root_density', 'ash', 'direct')
+
+def logic_11265(world):
+    _world_apply(world, 'root_density', 'snowpack', 'pulse')
