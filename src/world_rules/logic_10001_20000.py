@@ -1691,3 +1691,6 @@ def logic_10542(world):
 
 def logic_10543(world):
     _world_apply(world, 'predator', 'decomposition_rate', 'gap')
+
+def logic_10544(world):
+    _world_apply(world, 'predator', 'oxygen', 'direct')
