@@ -383,3 +383,6 @@ def logic_4094(world):
 
 def logic_4095(world):
     _world_apply(world, 'soil_carbon', 'carbon_storage', 'threshold')
+
+def logic_4096(world):
+    _world_apply(world, 'detritus', 'decomposition_rate', 'saturation')
