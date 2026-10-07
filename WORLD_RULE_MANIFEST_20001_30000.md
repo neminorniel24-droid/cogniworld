@@ -3659,3 +3659,4 @@
 - 23658: integrated cross-system causal rule
 - 23659: integrated cross-system causal rule
 - 23660: integrated cross-system causal rule
+- 23661: integrated cross-system causal rule
