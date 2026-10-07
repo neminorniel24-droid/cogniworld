@@ -60614,3 +60614,10 @@ def logic_39037(agents, world):
     src = _local(world, agents, 'evaporation')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.thermal_stress = _delta(agents.thermal_stress, delta)
+
+
+def logic_39038(agents, world):
+    """Environmental detritus shapes agent metabolic_cost (direct)."""
+    src = _local(world, agents, 'detritus')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.metabolic_cost = _delta(agents.metabolic_cost, delta)
