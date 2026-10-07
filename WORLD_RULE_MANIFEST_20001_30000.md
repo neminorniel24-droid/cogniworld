@@ -2750,3 +2750,4 @@
 - 22749: integrated cross-system causal rule
 - 22750: integrated cross-system causal rule
 - 22751: integrated cross-system causal rule
+- 22752: integrated cross-system causal rule
