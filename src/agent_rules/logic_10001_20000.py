@@ -368,3 +368,6 @@ def logic_18101(agents, world):
 
 def logic_18102(agents, world):
     _agent_apply(world, agents, 'betrayal_memory', 'dehydration', 'inverse')
+
+def logic_18103(agents, world):
+    _agent_apply(world, agents, 'conflict_history', 'dehydration', 'inverse')
