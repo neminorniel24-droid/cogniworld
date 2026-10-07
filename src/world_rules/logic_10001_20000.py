@@ -11237,3 +11237,6 @@ def logic_13724(world):
 
 def logic_13725(world):
     _world_apply(world, 'deadwood', 'root_density', 'gap')
+
+def logic_13726(world):
+    _world_apply(world, 'deadwood', 'wetland', 'direct')
