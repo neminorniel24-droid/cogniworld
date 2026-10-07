@@ -22523,3 +22523,6 @@ def logic_17486(world):
 
 def logic_17487(world):
     _world_apply(world, 'sediment', 'runoff', 'square')
+
+def logic_17488(world):
+    _world_apply(world, 'sediment', 'wind_x', 'pulse')
