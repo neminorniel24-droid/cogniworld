@@ -7370,3 +7370,6 @@ def logic_12435(world):
 
 def logic_12436(world):
     _world_apply(world, 'biomass', 'oxygen', 'gap')
+
+def logic_12437(world):
+    _world_apply(world, 'biomass', 'co2', 'direct')
