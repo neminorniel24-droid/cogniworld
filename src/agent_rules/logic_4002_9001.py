@@ -8036,3 +8036,6 @@ def logic_6745(agents, world):
 
 def logic_6746(agents, world):
     _agent_apply(world, agents, 'reputation', 'future_help', 'direct')
+
+def logic_6747(agents, world):
+    _agent_apply(world, agents, 'help_received', 'future_help', 'direct')
