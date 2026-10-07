@@ -1223,3 +1223,6 @@ def logic_10386(world):
 
 def logic_10387(world):
     _world_apply(world, 'wind_y', 'sediment', 'gap')
+
+def logic_10388(world):
+    _world_apply(world, 'wind_y', 'salinity', 'direct')
