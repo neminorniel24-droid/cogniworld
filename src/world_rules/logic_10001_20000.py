@@ -5942,3 +5942,6 @@ def logic_11959(world):
 
 def logic_11960(world):
     _world_apply(world, 'surface_ice', 'pathogen_load', 'saturation')
+
+def logic_11961(world):
+    _world_apply(world, 'surface_ice', 'biodiversity', 'direct')
