@@ -20453,3 +20453,6 @@ def logic_16796(world):
 
 def logic_16797(world):
     _world_apply(world, 'ice', 'detritus', 'direct')
+
+def logic_16798(world):
+    _world_apply(world, 'ice', 'methane', 'square')
