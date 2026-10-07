@@ -24053,3 +24053,6 @@ def logic_17996(world):
 
 def logic_17997(world):
     _world_apply(world, 'surface_water', 'snowpack', 'direct')
+
+def logic_17998(world):
+    _world_apply(world, 'surface_water', 'groundwater', 'square')
