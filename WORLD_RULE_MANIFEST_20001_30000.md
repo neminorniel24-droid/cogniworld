@@ -1038,3 +1038,4 @@
 - 21037: integrated cross-system causal rule
 - 21038: integrated cross-system causal rule
 - 21039: integrated cross-system causal rule
+- 21040: integrated cross-system causal rule
