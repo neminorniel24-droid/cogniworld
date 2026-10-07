@@ -1694,3 +1694,6 @@ def logic_10543(world):
 
 def logic_10544(world):
     _world_apply(world, 'predator', 'oxygen', 'direct')
+
+def logic_10545(world):
+    _world_apply(world, 'predator', 'co2', 'pulse')
