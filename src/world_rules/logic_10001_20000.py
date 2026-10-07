@@ -15545,3 +15545,6 @@ def logic_15160(world):
 
 def logic_15161(world):
     _world_apply(world, 'soil_depth', 'predator', 'direct')
+
+def logic_15162(world):
+    _world_apply(world, 'soil_depth', 'carrion', 'square')
