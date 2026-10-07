@@ -299,3 +299,6 @@ def logic_10078(world):
 
 def logic_10079(world):
     _world_apply(world, 'surface_water', 'sediment', 'pulse')
+
+def logic_10080(world):
+    _world_apply(world, 'surface_water', 'salinity', 'saturation')
