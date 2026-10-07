@@ -596,3 +596,6 @@ def logic_18177(agents, world):
 
 def logic_18178(agents, world):
     _agent_apply(world, agents, 'deadwood', 'alertness', 'inverse')
+
+def logic_18179(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'fear', 'square')
