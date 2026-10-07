@@ -16235,3 +16235,6 @@ def logic_15390(world):
 
 def logic_15391(world):
     _world_apply(world, 'ash', 'methane', 'saturation')
+
+def logic_15392(world):
+    _world_apply(world, 'ash', 'pathogen_load', 'gap')
