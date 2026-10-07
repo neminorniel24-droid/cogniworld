@@ -362,3 +362,6 @@ def logic_4187(agents, world):
 
 def logic_4188(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'thirst', 'direct')
+
+def logic_4189(agents, world):
+    _agent_apply(world, agents, 'ice', 'thirst', 'direct')
