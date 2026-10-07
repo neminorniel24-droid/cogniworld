@@ -10145,3 +10145,6 @@ def logic_7448(agents, world):
 
 def logic_7449(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'social_need', 'direct')
+
+def logic_7450(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'social_need', 'direct')
