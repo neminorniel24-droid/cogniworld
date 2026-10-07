@@ -1418,3 +1418,6 @@ def logic_18451(agents, world):
 
 def logic_18452(agents, world):
     _agent_apply(world, agents, 'algae', 'cooperation', 'threshold')
+
+def logic_18453(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'cooperation', 'threshold')
