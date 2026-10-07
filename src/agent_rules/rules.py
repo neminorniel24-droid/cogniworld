@@ -44087,3 +44087,10 @@ def logic_36676(agents, world):
     src = _local(world, agents, 'soil_moisture')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.social_avoidance = _delta(agents.social_avoidance, delta)
+
+
+def logic_36677(agents, world):
+    """Environmental runoff shapes agent future_help (root)."""
+    src = _local(world, agents, 'runoff')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.future_help = _delta(agents.future_help, delta)
