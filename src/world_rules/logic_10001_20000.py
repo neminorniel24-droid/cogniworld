@@ -9032,3 +9032,6 @@ def logic_12989(world):
 
 def logic_12990(world):
     _world_apply(world, 'methane', 'seed_bank', 'pulse')
+
+def logic_12991(world):
+    _world_apply(world, 'methane', 'soil_carbon', 'saturation')
