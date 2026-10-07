@@ -4247,3 +4247,6 @@ def logic_5482(agents, world):
 
 def logic_5483(agents, world):
     _agent_apply(world, agents, 'detritus', 'reputation', 'direct')
+
+def logic_5484(agents, world):
+    _agent_apply(world, agents, 'methane', 'reputation', 'direct')
