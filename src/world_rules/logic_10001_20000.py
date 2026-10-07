@@ -17123,3 +17123,6 @@ def logic_15686(world):
 
 def logic_15687(world):
     _world_apply(world, 'deadwood', 'biomass', 'square')
+
+def logic_15688(world):
+    _world_apply(world, 'deadwood', 'herbivore', 'pulse')
