@@ -3764,3 +3764,6 @@ def logic_19233(agents, world):
 
 def logic_19234(agents, world):
     _agent_apply(world, agents, 'reproduction_score', 'risk_tolerance', 'sqrt')
+
+def logic_19235(agents, world):
+    _agent_apply(world, agents, 'sharing_score', 'risk_tolerance', 'sqrt')
