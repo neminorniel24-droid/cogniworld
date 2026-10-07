@@ -2328,3 +2328,6 @@ def logic_9950(agents, world):
 
 def logic_9951(agents, world):
     _agent_apply(world, agents, 'humidity', 'metabolic_cost', 'direct')
+
+def logic_9952(agents, world):
+    _agent_apply(world, agents, 'cloud', 'metabolic_cost', 'direct')
