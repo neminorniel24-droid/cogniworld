@@ -2939,3 +2939,6 @@ def logic_18958(agents, world):
 
 def logic_18959(agents, world):
     _agent_apply(world, agents, 'sharing_score', 'stress', 'direct')
+
+def logic_18960(agents, world):
+    _agent_apply(world, agents, 'strategy_persistence', 'stress', 'direct')
