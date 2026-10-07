@@ -14606,3 +14606,6 @@ def logic_8935(agents, world):
 
 def logic_8936(agents, world):
     _agent_apply(world, agents, 'runoff', 'exploration_score', 'direct')
+
+def logic_8937(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'exploration_score', 'direct')
