@@ -11102,3 +11102,6 @@ def logic_13679(world):
 
 def logic_13680(world):
     _world_apply(world, 'organic_matter', 'soil_depth', 'saturation')
+
+def logic_13681(world):
+    _world_apply(world, 'organic_matter', 'root_density', 'direct')
