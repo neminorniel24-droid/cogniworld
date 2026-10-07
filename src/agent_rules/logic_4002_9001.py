@@ -3821,3 +3821,6 @@ def logic_5340(agents, world):
 
 def logic_5341(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'habitat_stress', 'direct')
+
+def logic_5342(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'habitat_stress', 'direct')
