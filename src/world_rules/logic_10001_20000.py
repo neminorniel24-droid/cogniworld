@@ -16364,3 +16364,6 @@ def logic_15433(world):
 
 def logic_15434(world):
     _world_apply(world, 'snowpack', 'detritus', 'pulse')
+
+def logic_15435(world):
+    _world_apply(world, 'snowpack', 'methane', 'saturation')
