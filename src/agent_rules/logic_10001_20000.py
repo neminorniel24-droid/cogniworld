@@ -2018,3 +2018,6 @@ def logic_18651(agents, world):
 
 def logic_18652(agents, world):
     _agent_apply(world, agents, 'neighbor_energy_gap', 'generosity', 'reciprocal')
+
+def logic_18653(agents, world):
+    _agent_apply(world, agents, 'neighbor_health_gap', 'generosity', 'reciprocal')
