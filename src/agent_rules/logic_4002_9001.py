@@ -4271,3 +4271,6 @@ def logic_5490(agents, world):
 
 def logic_5491(agents, world):
     _agent_apply(world, agents, 'wetland', 'reputation', 'direct')
+
+def logic_5492(agents, world):
+    _agent_apply(world, agents, 'carbon_storage', 'reputation', 'direct')
