@@ -106,3 +106,4 @@
 - 20105: integrated cross-system causal rule
 - 20106: integrated cross-system causal rule
 - 20107: integrated cross-system causal rule
+- 20108: integrated cross-system causal rule
