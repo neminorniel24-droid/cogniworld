@@ -4670,3 +4670,6 @@ def logic_11535(world):
 
 def logic_11536(world):
     _world_apply(world, 'groundwater', 'pollinators', 'square')
+
+def logic_11537(world):
+    _world_apply(world, 'groundwater', 'flowers', 'saturation')
