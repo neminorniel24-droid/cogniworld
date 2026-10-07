@@ -1892,3 +1892,6 @@ def logic_18609(agents, world):
 
 def logic_18610(agents, world):
     _agent_apply(world, agents, 'alertness', 'help_drive', 'saturation')
+
+def logic_18611(agents, world):
+    _agent_apply(world, agents, 'fear', 'help_drive', 'saturation')
