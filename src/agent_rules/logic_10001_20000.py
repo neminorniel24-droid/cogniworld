@@ -4580,3 +4580,6 @@ def logic_19505(agents, world):
 
 def logic_19506(agents, world):
     _agent_apply(world, agents, 'attack_success', 'retaliation_risk', 'saturation')
+
+def logic_19507(agents, world):
+    _agent_apply(world, agents, 'retaliation_risk', 'attack_success', 'saturation')
