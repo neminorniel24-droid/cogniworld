@@ -9767,3 +9767,6 @@ def logic_13234(world):
 
 def logic_13235(world):
     _world_apply(world, 'root_density', 'methane', 'saturation')
+
+def logic_13236(world):
+    _world_apply(world, 'root_density', 'pathogen_load', 'gap')
