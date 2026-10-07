@@ -7582,3 +7582,4 @@
 - 27581: integrated cross-system causal rule
 - 27582: integrated cross-system causal rule
 - 27583: integrated cross-system causal rule
+- 27584: integrated cross-system causal rule
