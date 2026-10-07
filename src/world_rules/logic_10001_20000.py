@@ -365,3 +365,6 @@ def logic_10100(world):
 
 def logic_10101(world):
     _world_apply(world, 'humidity', 'carrion', 'pulse')
+
+def logic_10102(world):
+    _world_apply(world, 'humidity', 'nutrients', 'saturation')
