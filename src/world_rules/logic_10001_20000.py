@@ -7238,3 +7238,6 @@ def logic_12391(world):
 
 def logic_12392(world):
     _world_apply(world, 'vegetation', 'oxygen', 'gap')
+
+def logic_12393(world):
+    _world_apply(world, 'vegetation', 'co2', 'square')
