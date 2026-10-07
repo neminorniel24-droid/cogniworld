@@ -2878,3 +2878,4 @@
 - 22877: integrated cross-system causal rule
 - 22878: integrated cross-system causal rule
 - 22879: integrated cross-system causal rule
+- 22880: integrated cross-system causal rule
