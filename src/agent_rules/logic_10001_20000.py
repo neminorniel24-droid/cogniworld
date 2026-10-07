@@ -2147,3 +2147,6 @@ def logic_18694(agents, world):
 
 def logic_18695(agents, world):
     _agent_apply(world, agents, 'rain', 'caution', 'reciprocal')
+
+def logic_18696(agents, world):
+    _agent_apply(world, agents, 'soil_moisture', 'caution', 'reciprocal')
