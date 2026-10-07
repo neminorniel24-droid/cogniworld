@@ -11198,3 +11198,6 @@ def logic_13711(world):
 
 def logic_13712(world):
     _world_apply(world, 'deadwood', 'decomposition_rate', 'gap')
+
+def logic_13713(world):
+    _world_apply(world, 'deadwood', 'oxygen', 'square')
