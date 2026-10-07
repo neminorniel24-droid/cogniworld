@@ -2327,3 +2327,6 @@ def logic_18754(agents, world):
 
 def logic_18755(agents, world):
     _agent_apply(world, agents, 'food_access', 'future_help', 'gap')
+
+def logic_18756(agents, world):
+    _agent_apply(world, agents, 'wealth', 'future_help', 'gap')
