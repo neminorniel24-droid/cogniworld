@@ -471,3 +471,6 @@ def logic_9132(world):
 
 def logic_9133(world):
     _world_apply(world, 'surface_water', 'salinity', 'sqrt')
+
+def logic_9134(world):
+    _world_apply(world, 'surface_water', 'algae', 'pulse')
