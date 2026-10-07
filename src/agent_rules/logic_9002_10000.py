@@ -1620,3 +1620,6 @@ def logic_9714(agents, world):
 
 def logic_9715(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'infection_risk', 'direct')
+
+def logic_9716(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'infection_risk', 'direct')
