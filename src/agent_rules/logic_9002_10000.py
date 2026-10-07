@@ -1923,3 +1923,6 @@ def logic_9815(agents, world):
 
 def logic_9816(agents, world):
     _agent_apply(world, agents, 'cloud', 'fear', 'direct')
+
+def logic_9817(agents, world):
+    _agent_apply(world, agents, 'rain', 'fear', 'direct')
