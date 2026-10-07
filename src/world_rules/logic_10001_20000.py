@@ -19535,3 +19535,6 @@ def logic_16490(world):
 
 def logic_16491(world):
     _world_apply(world, 'predator', 'pathogen_load', 'square')
+
+def logic_16492(world):
+    _world_apply(world, 'predator', 'biodiversity', 'pulse')
