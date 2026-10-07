@@ -986,3 +986,6 @@ def logic_10307(world):
 
 def logic_10308(world):
     _world_apply(world, 'runoff', 'surface_ice', 'direct')
+
+def logic_10309(world):
+    _world_apply(world, 'wind_x', 'temperature', 'square')
