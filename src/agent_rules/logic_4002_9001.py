@@ -13244,3 +13244,6 @@ def logic_8481(agents, world):
 
 def logic_8482(agents, world):
     _agent_apply(world, agents, 'root_density', 'strategy_score', 'direct')
+
+def logic_8483(agents, world):
+    _agent_apply(world, agents, 'wetland', 'strategy_score', 'direct')
