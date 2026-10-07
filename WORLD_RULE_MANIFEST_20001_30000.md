@@ -2380,3 +2380,4 @@
 - 22379: integrated cross-system causal rule
 - 22380: integrated cross-system causal rule
 - 22381: integrated cross-system causal rule
+- 22382: integrated cross-system causal rule
