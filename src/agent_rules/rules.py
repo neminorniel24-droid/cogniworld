@@ -46033,3 +46033,10 @@ def logic_36954(agents, world):
     src = _local(world, agents, 'wind_x')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.social_tolerance = _delta(agents.social_tolerance, delta)
+
+
+def logic_36955(agents, world):
+    """Environmental wind_y shapes agent competition_pressure (inverse)."""
+    src = _local(world, agents, 'wind_y')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.competition_pressure = _delta(agents.competition_pressure, delta)
