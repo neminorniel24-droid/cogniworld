@@ -1592,3 +1592,4 @@
 - 21591: integrated cross-system causal rule
 - 21592: integrated cross-system causal rule
 - 21593: integrated cross-system causal rule
+- 21594: integrated cross-system causal rule
