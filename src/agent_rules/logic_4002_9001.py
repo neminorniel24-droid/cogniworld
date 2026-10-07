@@ -3452,3 +3452,6 @@ def logic_5217(agents, world):
 
 def logic_5218(agents, world):
     _agent_apply(world, agents, 'root_density', 'wealth', 'direct')
+
+def logic_5219(agents, world):
+    _agent_apply(world, agents, 'wetland', 'wealth', 'direct')
