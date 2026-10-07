@@ -10430,3 +10430,6 @@ def logic_7543(agents, world):
 
 def logic_7544(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'neighbor_energy_gap', 'direct')
+
+def logic_7545(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'neighbor_energy_gap', 'direct')
