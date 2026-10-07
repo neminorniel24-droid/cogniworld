@@ -1898,3 +1898,6 @@ def logic_18611(agents, world):
 
 def logic_18612(agents, world):
     _agent_apply(world, agents, 'recovery', 'help_drive', 'saturation')
+
+def logic_18613(agents, world):
+    _agent_apply(world, agents, 'metabolic_cost', 'social_avoidance', 'saturation')
