@@ -14393,3 +14393,6 @@ def logic_8864(agents, world):
 
 def logic_8865(agents, world):
     _agent_apply(world, agents, 'cloud', 'safety_score', 'direct')
+
+def logic_8866(agents, world):
+    _agent_apply(world, agents, 'rain', 'safety_score', 'direct')
