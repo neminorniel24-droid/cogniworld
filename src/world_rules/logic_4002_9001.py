@@ -191,3 +191,6 @@ def logic_4030(world):
 
 def logic_4031(world):
     _world_apply(world, 'cloud', 'rain', 'threshold')
+
+def logic_4032(world):
+    _world_apply(world, 'rain', 'groundwater', 'saturation')
