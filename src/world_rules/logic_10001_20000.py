@@ -2258,3 +2258,6 @@ def logic_10731(world):
 
 def logic_10732(world):
     _world_apply(world, 'oxygen', 'root_density', 'pulse')
+
+def logic_10733(world):
+    _world_apply(world, 'oxygen', 'wetland', 'saturation')
