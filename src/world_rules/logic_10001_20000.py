@@ -15212,3 +15212,6 @@ def logic_15049(world):
 
 def logic_15050(world):
     _world_apply(world, 'biodiversity', 'groundwater', 'direct')
+
+def logic_15051(world):
+    _world_apply(world, 'biodiversity', 'sediment', 'square')
