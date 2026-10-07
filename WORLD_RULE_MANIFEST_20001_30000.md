@@ -9920,3 +9920,4 @@
 - 29919: integrated cross-system causal rule
 - 29920: integrated cross-system causal rule
 - 29921: integrated cross-system causal rule
+- 29922: integrated cross-system causal rule
