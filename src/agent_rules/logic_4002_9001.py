@@ -12467,3 +12467,6 @@ def logic_8222(agents, world):
 
 def logic_8223(agents, world):
     _agent_apply(world, agents, 'flowers', 'last_food', 'direct')
+
+def logic_8224(agents, world):
+    _agent_apply(world, agents, 'seed_bank', 'last_food', 'direct')
