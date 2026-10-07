@@ -15446,3 +15446,6 @@ def logic_15127(world):
 
 def logic_15128(world):
     _world_apply(world, 'erosion', 'pathogen_load', 'pulse')
+
+def logic_15129(world):
+    _world_apply(world, 'erosion', 'biodiversity', 'gap')
