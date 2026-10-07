@@ -20756,3 +20756,6 @@ def logic_16897(world):
 
 def logic_16898(world):
     _world_apply(world, 'detritus', 'groundwater', 'gap')
+
+def logic_16899(world):
+    _world_apply(world, 'detritus', 'sediment', 'direct')
