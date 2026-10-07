@@ -9932,3 +9932,6 @@ def logic_13289(world):
 
 def logic_13290(world):
     _world_apply(world, 'wetland', 'groundwater', 'direct')
+
+def logic_13291(world):
+    _world_apply(world, 'wetland', 'sediment', 'square')
