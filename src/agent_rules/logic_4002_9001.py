@@ -5039,3 +5039,6 @@ def logic_5746(agents, world):
 
 def logic_5747(agents, world):
     _agent_apply(world, agents, 'carrion', 'aggression', 'direct')
+
+def logic_5748(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'aggression', 'direct')
