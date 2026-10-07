@@ -5519,3 +5519,6 @@ def logic_5906(agents, world):
 
 def logic_5907(agents, world):
     _agent_apply(world, agents, 'algae', 'competition_pressure', 'direct')
+
+def logic_5908(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'competition_pressure', 'direct')
