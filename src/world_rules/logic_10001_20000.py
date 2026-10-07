@@ -7526,3 +7526,6 @@ def logic_12487(world):
 
 def logic_12488(world):
     _world_apply(world, 'herbivore', 'biodiversity', 'pulse')
+
+def logic_12489(world):
+    _world_apply(world, 'herbivore', 'habitat_stress', 'gap')
