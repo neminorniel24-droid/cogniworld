@@ -3884,3 +3884,6 @@ def logic_19273(agents, world):
 
 def logic_19274(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'strategy_score', 'pulse')
+
+def logic_19275(agents, world):
+    _agent_apply(world, agents, 'ash', 'strategy_score', 'pulse')
