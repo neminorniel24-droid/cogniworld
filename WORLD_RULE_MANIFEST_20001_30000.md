@@ -3060,3 +3060,4 @@
 - 23059: integrated cross-system causal rule
 - 23060: integrated cross-system causal rule
 - 23061: integrated cross-system causal rule
+- 23062: integrated cross-system causal rule
