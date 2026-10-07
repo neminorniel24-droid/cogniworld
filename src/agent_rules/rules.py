@@ -57149,3 +57149,10 @@ def logic_38542(agents, world):
     src = _local(world, agents, 'fire_risk')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.recovery = _delta(agents.recovery, delta)
+
+
+def logic_38543(agents, world):
+    """Environmental ash shapes agent stability (inverse)."""
+    src = _local(world, agents, 'ash')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.stability = _delta(agents.stability, delta)
