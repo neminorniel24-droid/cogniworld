@@ -2186,3 +2186,6 @@ def logic_18707(agents, world):
 
 def logic_18708(agents, world):
     _agent_apply(world, agents, 'co2', 'caution', 'reciprocal')
+
+def logic_18709(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'caution', 'reciprocal')
