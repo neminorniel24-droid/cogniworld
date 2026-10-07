@@ -29961,3 +29961,10 @@ def logic_34658(agents, world):
     src = _local(world, agents, 'herbivore')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.help_given = _delta(agents.help_given, delta)
+
+
+def logic_34659(agents, world):
+    """Environmental predator shapes agent last_action (inverse)."""
+    src = _local(world, agents, 'predator')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.last_action = _delta(agents.last_action, delta)
