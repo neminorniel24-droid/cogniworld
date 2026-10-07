@@ -12935,3 +12935,6 @@ def logic_8378(agents, world):
 
 def logic_8379(agents, world):
     _agent_apply(world, agents, 'help_received', 'risk_tolerance', 'direct')
+
+def logic_8380(agents, world):
+    _agent_apply(world, agents, 'help_given', 'risk_tolerance', 'direct')
