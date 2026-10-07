@@ -15035,3 +15035,6 @@ def logic_14990(world):
 
 def logic_14991(world):
     _world_apply(world, 'pathogen_load', 'photosynthesis_factor', 'saturation')
+
+def logic_14992(world):
+    _world_apply(world, 'pathogen_load', 'ice', 'gap')
