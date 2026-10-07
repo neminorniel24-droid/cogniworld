@@ -12398,3 +12398,6 @@ def logic_14111(world):
 
 def logic_14112(world):
     _world_apply(world, 'cloud', 'evaporation', 'gap')
+
+def logic_14113(world):
+    _world_apply(world, 'cloud', 'detritus', 'square')
