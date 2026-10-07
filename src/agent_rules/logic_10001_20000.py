@@ -2534,3 +2534,6 @@ def logic_18823(agents, world):
 
 def logic_18824(agents, world):
     _agent_apply(world, agents, 'learning_rate', 'attack_threshold', 'feedback')
+
+def logic_18825(agents, world):
+    _agent_apply(world, agents, 'memory_update', 'attack_threshold', 'feedback')
