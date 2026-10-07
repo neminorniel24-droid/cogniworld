@@ -23957,3 +23957,6 @@ def logic_17964(world):
 
 def logic_17965(world):
     _world_apply(world, 'surface_water', 'temperature', 'gap')
+
+def logic_17966(world):
+    _world_apply(world, 'surface_water', 'humidity', 'direct')
