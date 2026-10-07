@@ -30332,3 +30332,10 @@ def logic_34711(agents, world):
     src = _local(world, agents, 'photosynthesis_factor')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.exploration_score = _delta(agents.exploration_score, delta)
+
+
+def logic_34712(agents, world):
+    """Environmental ice shapes agent defense_score (square)."""
+    src = _local(world, agents, 'ice')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.defense_score = _delta(agents.defense_score, delta)
