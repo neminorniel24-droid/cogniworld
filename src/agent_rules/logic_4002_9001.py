@@ -2228,3 +2228,6 @@ def logic_4809(agents, world):
 
 def logic_4810(agents, world):
     _agent_apply(world, agents, 'root_density', 'recovery', 'direct')
+
+def logic_4811(agents, world):
+    _agent_apply(world, agents, 'wetland', 'recovery', 'direct')
