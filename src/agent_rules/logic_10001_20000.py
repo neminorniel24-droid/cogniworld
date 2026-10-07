@@ -3725,3 +3725,6 @@ def logic_19220(agents, world):
 
 def logic_19221(agents, world):
     _agent_apply(world, agents, 'defection_score', 'last_interaction', 'sqrt')
+
+def logic_19222(agents, world):
+    _agent_apply(world, agents, 'reciprocity_score', 'last_interaction', 'sqrt')
