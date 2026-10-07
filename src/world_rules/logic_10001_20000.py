@@ -13982,3 +13982,6 @@ def logic_14639(world):
 
 def logic_14640(world):
     _world_apply(world, 'decomposition_rate', 'evaporation', 'saturation')
+
+def logic_14641(world):
+    _world_apply(world, 'decomposition_rate', 'detritus', 'direct')
