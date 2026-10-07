@@ -2108,3 +2108,6 @@ def logic_4769(agents, world):
 
 def logic_4770(agents, world):
     _agent_apply(world, agents, 'social_need', 'fear', 'direct')
+
+def logic_4771(agents, world):
+    _agent_apply(world, agents, 'cooperation', 'fear', 'direct')
