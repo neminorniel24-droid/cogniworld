@@ -4748,3 +4748,6 @@ def logic_11561(world):
 
 def logic_11562(world):
     _world_apply(world, 'sediment', 'detritus', 'square')
+
+def logic_11563(world):
+    _world_apply(world, 'sediment', 'methane', 'pulse')
