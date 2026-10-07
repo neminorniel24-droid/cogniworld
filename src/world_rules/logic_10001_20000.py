@@ -7901,3 +7901,6 @@ def logic_12612(world):
 
 def logic_12613(world):
     _world_apply(world, 'nutrients', 'co2', 'saturation')
+
+def logic_12614(world):
+    _world_apply(world, 'nutrients', 'photosynthesis_factor', 'gap')
