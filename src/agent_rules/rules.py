@@ -54489,3 +54489,10 @@ def logic_38162(agents, world):
     src = _local(world, agents, 'ice')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.reputation = _delta(agents.reputation, delta)
+
+
+def logic_38163(agents, world):
+    """Environmental evaporation shapes agent territoriality (inverse)."""
+    src = _local(world, agents, 'evaporation')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.territoriality = _delta(agents.territoriality, delta)
