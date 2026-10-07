@@ -2660,3 +2660,6 @@ def logic_4953(agents, world):
 
 def logic_4954(agents, world):
     _agent_apply(world, agents, 'salinity', 'reproduction_drive', 'direct')
+
+def logic_4955(agents, world):
+    _agent_apply(world, agents, 'algae', 'reproduction_drive', 'direct')
