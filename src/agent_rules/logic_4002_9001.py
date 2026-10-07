@@ -1112,3 +1112,6 @@ def logic_4437(agents, world):
 
 def logic_4438(agents, world):
     _agent_apply(world, agents, 'strategy_score', 'thermal_stress', 'direct')
+
+def logic_4439(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'thermal_stress', 'direct')
