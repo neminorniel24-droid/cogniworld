@@ -17933,3 +17933,6 @@ def logic_15956(world):
 
 def logic_15957(world):
     _world_apply(world, 'temperature', 'co2', 'direct')
+
+def logic_15958(world):
+    _world_apply(world, 'temperature', 'photosynthesis_factor', 'square')
