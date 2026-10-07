@@ -21614,3 +21614,6 @@ def logic_17183(world):
 
 def logic_17184(world):
     _world_apply(world, 'root_density', 'herbivore', 'direct')
+
+def logic_17185(world):
+    _world_apply(world, 'root_density', 'predator', 'pulse')
