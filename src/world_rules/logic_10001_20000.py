@@ -18062,3 +18062,6 @@ def logic_15999(world):
 
 def logic_16000(world):
     _world_apply(world, 'surface_water', 'oxygen', 'saturation')
+
+def logic_16001(world):
+    _world_apply(world, 'surface_water', 'co2', 'direct')
