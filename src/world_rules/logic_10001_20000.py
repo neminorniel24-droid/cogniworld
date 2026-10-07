@@ -18929,3 +18929,6 @@ def logic_16288(world):
 
 def logic_16289(world):
     _world_apply(world, 'wind_x', 'flowers', 'gap')
+
+def logic_16290(world):
+    _world_apply(world, 'wind_x', 'seed_bank', 'direct')
