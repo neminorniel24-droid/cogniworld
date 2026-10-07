@@ -15479,3 +15479,6 @@ def logic_15138(world):
 
 def logic_15139(world):
     _world_apply(world, 'erosion', 'sediment', 'direct')
+
+def logic_15140(world):
+    _world_apply(world, 'erosion', 'salinity', 'square')
