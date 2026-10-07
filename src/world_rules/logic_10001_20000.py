@@ -4214,3 +4214,6 @@ def logic_11383(world):
 
 def logic_11384(world):
     _world_apply(world, 'fire_risk', 'ice', 'direct')
+
+def logic_11385(world):
+    _world_apply(world, 'fire_risk', 'evaporation', 'pulse')
