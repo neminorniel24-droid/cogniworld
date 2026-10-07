@@ -20969,3 +20969,6 @@ def logic_16968(world):
 
 def logic_16969(world):
     _world_apply(world, 'pathogen_load', 'oxygen', 'gap')
+
+def logic_16970(world):
+    _world_apply(world, 'pathogen_load', 'co2', 'direct')
