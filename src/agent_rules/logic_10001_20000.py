@@ -3002,3 +3002,6 @@ def logic_18979(agents, world):
 
 def logic_18980(agents, world):
     _agent_apply(world, agents, 'carrion', 'social_need', 'inverse')
+
+def logic_18981(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'social_need', 'inverse')
