@@ -281,3 +281,6 @@ def logic_4060(world):
 
 def logic_4061(world):
     _world_apply(world, 'algae', 'oxygen', 'sqrt')
+
+def logic_4062(world):
+    _world_apply(world, 'photosynthesis_factor', 'oxygen', 'pulse')
