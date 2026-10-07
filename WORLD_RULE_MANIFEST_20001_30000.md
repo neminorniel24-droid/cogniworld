@@ -3048,3 +3048,4 @@
 - 23047: integrated cross-system causal rule
 - 23048: integrated cross-system causal rule
 - 23049: integrated cross-system causal rule
+- 23050: integrated cross-system causal rule
