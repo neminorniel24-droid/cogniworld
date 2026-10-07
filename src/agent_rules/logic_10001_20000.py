@@ -4736,3 +4736,6 @@ def logic_19557(agents, world):
 
 def logic_19558(agents, world):
     _agent_apply(world, agents, 'deadwood', 'defense_score', 'reciprocal')
+
+def logic_19559(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'migration_score', 'reciprocal')
