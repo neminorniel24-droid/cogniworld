@@ -5000,3 +5000,6 @@ def logic_11645(world):
 
 def logic_11646(world):
     _world_apply(world, 'algae', 'co2', 'direct')
+
+def logic_11647(world):
+    _world_apply(world, 'algae', 'photosynthesis_factor', 'square')
