@@ -14171,3 +14171,6 @@ def logic_14702(world):
 
 def logic_14703(world):
     _world_apply(world, 'oxygen', 'deadwood', 'gap')
+
+def logic_14704(world):
+    _world_apply(world, 'oxygen', 'pollinators', 'direct')
