@@ -3551,3 +3551,6 @@ def logic_11162(world):
 
 def logic_11163(world):
     _world_apply(world, 'erosion', 'photosynthesis_factor', 'pulse')
+
+def logic_11164(world):
+    _world_apply(world, 'erosion', 'ice', 'saturation')
