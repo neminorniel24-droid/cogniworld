@@ -4895,3 +4895,6 @@ def logic_5698(agents, world):
 
 def logic_5699(agents, world):
     _agent_apply(world, agents, 'snowpack', 'defection', 'direct')
+
+def logic_5700(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'defection', 'direct')
