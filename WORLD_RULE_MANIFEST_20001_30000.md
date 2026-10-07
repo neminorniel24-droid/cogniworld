@@ -9594,3 +9594,4 @@
 - 29593: integrated cross-system causal rule
 - 29594: integrated cross-system causal rule
 - 29595: integrated cross-system causal rule
+- 29596: integrated cross-system causal rule
