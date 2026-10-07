@@ -8270,3 +8270,6 @@ def logic_6823(agents, world):
 
 def logic_6824(agents, world):
     _agent_apply(world, agents, 'humidity', 'empathy', 'direct')
+
+def logic_6825(agents, world):
+    _agent_apply(world, agents, 'cloud', 'empathy', 'direct')
