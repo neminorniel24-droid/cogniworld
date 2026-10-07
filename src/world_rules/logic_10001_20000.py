@@ -8360,3 +8360,6 @@ def logic_12765(world):
 
 def logic_12766(world):
     _world_apply(world, 'co2', 'organic_matter', 'direct')
+
+def logic_12767(world):
+    _world_apply(world, 'co2', 'deadwood', 'square')
