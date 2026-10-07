@@ -17930,3 +17930,6 @@ def logic_15955(world):
 
 def logic_15956(world):
     _world_apply(world, 'temperature', 'oxygen', 'gap')
+
+def logic_15957(world):
+    _world_apply(world, 'temperature', 'co2', 'direct')
