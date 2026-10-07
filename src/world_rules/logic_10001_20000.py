@@ -17729,3 +17729,6 @@ def logic_15888(world):
 
 def logic_15889(world):
     _world_apply(world, 'soil_carbon', 'salinity', 'gap')
+
+def logic_15890(world):
+    _world_apply(world, 'soil_carbon', 'algae', 'direct')
