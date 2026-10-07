@@ -8240,3 +8240,6 @@ def logic_12725(world):
 
 def logic_12726(world):
     _world_apply(world, 'oxygen', 'seed_bank', 'direct')
+
+def logic_12727(world):
+    _world_apply(world, 'oxygen', 'soil_carbon', 'square')
