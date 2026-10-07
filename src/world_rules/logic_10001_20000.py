@@ -12176,3 +12176,6 @@ def logic_14037(world):
 
 def logic_14038(world):
     _world_apply(world, 'surface_water', 'groundwater', 'square')
+
+def logic_14039(world):
+    _world_apply(world, 'surface_water', 'sediment', 'pulse')
