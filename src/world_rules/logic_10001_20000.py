@@ -17819,3 +17819,6 @@ def logic_15918(world):
 
 def logic_15919(world):
     _world_apply(world, 'surface_ice', 'methane', 'pulse')
+
+def logic_15920(world):
+    _world_apply(world, 'surface_ice', 'pathogen_load', 'saturation')
