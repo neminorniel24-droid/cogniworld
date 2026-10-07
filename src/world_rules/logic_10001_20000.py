@@ -13475,3 +13475,6 @@ def logic_14470(world):
 
 def logic_14471(world):
     _world_apply(world, 'herbivore', 'soil_depth', 'saturation')
+
+def logic_14472(world):
+    _world_apply(world, 'herbivore', 'root_density', 'gap')
