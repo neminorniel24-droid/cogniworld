@@ -80,3 +80,4 @@
 - 20079: integrated cross-system causal rule
 - 20080: integrated cross-system causal rule
 - 20081: integrated cross-system causal rule
+- 20082: integrated cross-system causal rule
