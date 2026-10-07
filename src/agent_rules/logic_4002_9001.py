@@ -2024,3 +2024,6 @@ def logic_4741(agents, world):
 
 def logic_4742(agents, world):
     _agent_apply(world, agents, 'root_density', 'fear', 'direct')
+
+def logic_4743(agents, world):
+    _agent_apply(world, agents, 'wetland', 'fear', 'direct')
