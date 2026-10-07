@@ -824,3 +824,6 @@ def logic_10253(world):
 
 def logic_10254(world):
     _world_apply(world, 'soil_moisture', 'groundwater', 'gap')
+
+def logic_10255(world):
+    _world_apply(world, 'soil_moisture', 'sediment', 'direct')
