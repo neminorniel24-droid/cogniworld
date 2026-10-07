@@ -21059,3 +21059,6 @@ def logic_16998(world):
 
 def logic_16999(world):
     _world_apply(world, 'biodiversity', 'humidity', 'pulse')
+
+def logic_17000(world):
+    _world_apply(world, 'biodiversity', 'cloud', 'saturation')
