@@ -2000,3 +2000,6 @@ def logic_4733(agents, world):
 
 def logic_4734(agents, world):
     _agent_apply(world, agents, 'evaporation', 'fear', 'direct')
+
+def logic_4735(agents, world):
+    _agent_apply(world, agents, 'detritus', 'fear', 'direct')
