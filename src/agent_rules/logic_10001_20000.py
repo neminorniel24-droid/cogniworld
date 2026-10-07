@@ -3326,3 +3326,6 @@ def logic_19087(agents, world):
 
 def logic_19088(agents, world):
     _agent_apply(world, agents, 'foraging_score', 'help_received', 'square')
+
+def logic_19089(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'help_received', 'square')
