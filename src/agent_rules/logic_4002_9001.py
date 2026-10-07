@@ -14636,3 +14636,6 @@ def logic_8945(agents, world):
 
 def logic_8946(agents, world):
     _agent_apply(world, agents, 'oxygen', 'exploration_score', 'direct')
+
+def logic_8947(agents, world):
+    _agent_apply(world, agents, 'co2', 'exploration_score', 'direct')
