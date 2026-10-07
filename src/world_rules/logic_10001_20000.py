@@ -19118,3 +19118,6 @@ def logic_16351(world):
 
 def logic_16352(world):
     _world_apply(world, 'vegetation', 'oxygen', 'gap')
+
+def logic_16353(world):
+    _world_apply(world, 'vegetation', 'co2', 'square')
