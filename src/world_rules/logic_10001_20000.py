@@ -2726,3 +2726,6 @@ def logic_10887(world):
 
 def logic_10888(world):
     _world_apply(world, 'evaporation', 'wind_x', 'pulse')
+
+def logic_10889(world):
+    _world_apply(world, 'evaporation', 'wind_y', 'gap')
