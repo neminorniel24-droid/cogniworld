@@ -8771,3 +8771,6 @@ def logic_12902(world):
 
 def logic_12903(world):
     _world_apply(world, 'evaporation', 'soil_carbon', 'gap')
+
+def logic_12904(world):
+    _world_apply(world, 'evaporation', 'surface_ice', 'direct')
