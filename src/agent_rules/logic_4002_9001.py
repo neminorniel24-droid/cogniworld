@@ -575,3 +575,6 @@ def logic_4258(agents, world):
 
 def logic_4259(agents, world):
     _agent_apply(world, agents, 'detritus', 'hunger', 'direct')
+
+def logic_4260(agents, world):
+    _agent_apply(world, agents, 'methane', 'hunger', 'direct')
