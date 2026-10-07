@@ -16202,3 +16202,6 @@ def logic_15379(world):
 
 def logic_15380(world):
     _world_apply(world, 'ash', 'herbivore', 'square')
+
+def logic_15381(world):
+    _world_apply(world, 'ash', 'predator', 'pulse')
