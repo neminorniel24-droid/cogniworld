@@ -7004,3 +7004,6 @@ def logic_6401(agents, world):
 
 def logic_6402(agents, world):
     _agent_apply(world, agents, 'social_need', 'generosity', 'direct')
+
+def logic_6403(agents, world):
+    _agent_apply(world, agents, 'cooperation', 'generosity', 'direct')
