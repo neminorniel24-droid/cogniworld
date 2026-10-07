@@ -5018,3 +5018,6 @@ def logic_11651(world):
 
 def logic_11652(world):
     _world_apply(world, 'algae', 'pathogen_load', 'pulse')
+
+def logic_11653(world):
+    _world_apply(world, 'algae', 'biodiversity', 'saturation')
