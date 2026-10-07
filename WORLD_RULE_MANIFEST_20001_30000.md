@@ -360,3 +360,4 @@
 - 20359: integrated cross-system causal rule
 - 20360: integrated cross-system causal rule
 - 20361: integrated cross-system causal rule
+- 20362: integrated cross-system causal rule
