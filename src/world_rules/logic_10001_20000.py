@@ -11030,3 +11030,6 @@ def logic_13655(world):
 
 def logic_13656(world):
     _world_apply(world, 'organic_matter', 'cloud', 'square')
+
+def logic_13657(world):
+    _world_apply(world, 'organic_matter', 'rain', 'saturation')
