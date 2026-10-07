@@ -4388,3 +4388,6 @@ def logic_5529(agents, world):
 
 def logic_5530(agents, world):
     _agent_apply(world, agents, 'temperature', 'trust', 'direct')
+
+def logic_5531(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'trust', 'direct')
