@@ -2045,3 +2045,6 @@ def logic_10660(world):
 
 def logic_10661(world):
     _world_apply(world, 'decomposition_rate', 'temperature', 'pulse')
+
+def logic_10662(world):
+    _world_apply(world, 'decomposition_rate', 'surface_water', 'saturation')
