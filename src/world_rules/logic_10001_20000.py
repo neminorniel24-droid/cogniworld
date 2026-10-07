@@ -13736,3 +13736,6 @@ def logic_14557(world):
 
 def logic_14558(world):
     _world_apply(world, 'carrion', 'erosion', 'square')
+
+def logic_14559(world):
+    _world_apply(world, 'carrion', 'soil_depth', 'pulse')
