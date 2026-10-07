@@ -3839,3 +3839,6 @@ def logic_19258(agents, world):
 
 def logic_19259(agents, world):
     _agent_apply(world, agents, 'oxygen', 'last_action', 'pulse')
+
+def logic_19260(agents, world):
+    _agent_apply(world, agents, 'co2', 'last_action', 'pulse')
