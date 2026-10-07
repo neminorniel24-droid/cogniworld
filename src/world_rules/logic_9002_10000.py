@@ -477,3 +477,6 @@ def logic_9134(world):
 
 def logic_9135(world):
     _world_apply(world, 'surface_water', 'organic_matter', 'threshold')
+
+def logic_9136(world):
+    _world_apply(world, 'surface_water', 'deadwood', 'saturation')
