@@ -8747,3 +8747,6 @@ def logic_12894(world):
 
 def logic_12895(world):
     _world_apply(world, 'evaporation', 'sediment', 'direct')
+
+def logic_12896(world):
+    _world_apply(world, 'evaporation', 'salinity', 'square')
