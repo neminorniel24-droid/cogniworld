@@ -482,3 +482,6 @@ def logic_10139(world):
 
 def logic_10140(world):
     _world_apply(world, 'cloud', 'wind_y', 'square')
+
+def logic_10141(world):
+    _world_apply(world, 'cloud', 'vegetation', 'pulse')
