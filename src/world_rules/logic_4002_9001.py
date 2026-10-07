@@ -395,3 +395,6 @@ def logic_4098(world):
 
 def logic_4099(world):
     _world_apply(world, 'biodiversity', 'pathogen_load', 'inverse')
+
+def logic_4100(world):
+    _world_apply(world, 'fire_risk', 'habitat_stress', 'square')
