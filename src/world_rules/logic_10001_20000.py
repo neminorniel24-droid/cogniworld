@@ -23366,3 +23366,6 @@ def logic_17767(world):
 
 def logic_17768(world):
     _world_apply(world, 'flowers', 'pathogen_load', 'pulse')
+
+def logic_17769(world):
+    _world_apply(world, 'flowers', 'biodiversity', 'gap')
