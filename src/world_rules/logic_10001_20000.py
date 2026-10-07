@@ -10946,3 +10946,6 @@ def logic_13627(world):
 
 def logic_13628(world):
     _world_apply(world, 'algae', 'ice', 'direct')
+
+def logic_13629(world):
+    _world_apply(world, 'algae', 'evaporation', 'square')
