@@ -9863,3 +9863,6 @@ def logic_7354(agents, world):
 
 def logic_7355(agents, world):
     _agent_apply(world, agents, 'cooperation', 'vegetation_expectation', 'direct')
+
+def logic_7356(agents, world):
+    _agent_apply(world, agents, 'defection', 'vegetation_expectation', 'direct')
