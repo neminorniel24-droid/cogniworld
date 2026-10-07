@@ -18758,3 +18758,6 @@ def logic_16231(world):
 
 def logic_16232(world):
     _world_apply(world, 'runoff', 'root_density', 'gap')
+
+def logic_16233(world):
+    _world_apply(world, 'runoff', 'wetland', 'square')
