@@ -5843,3 +5843,6 @@ def logic_6014(agents, world):
 
 def logic_6015(agents, world):
     _agent_apply(world, agents, 'vegetation', 'group_stability', 'direct')
+
+def logic_6016(agents, world):
+    _agent_apply(world, agents, 'biomass', 'group_stability', 'direct')
