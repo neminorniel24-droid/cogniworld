@@ -8030,3 +8030,6 @@ def logic_6743(agents, world):
 
 def logic_6744(agents, world):
     _agent_apply(world, agents, 'defection', 'future_help', 'direct')
+
+def logic_6745(agents, world):
+    _agent_apply(world, agents, 'trust', 'future_help', 'direct')
