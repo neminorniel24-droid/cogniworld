@@ -4790,3 +4790,6 @@ def logic_11575(world):
 
 def logic_11576(world):
     _world_apply(world, 'sediment', 'salinity', 'square')
+
+def logic_11577(world):
+    _world_apply(world, 'sediment', 'algae', 'saturation')
