@@ -8120,3 +8120,6 @@ def logic_12685(world):
 
 def logic_12686(world):
     _world_apply(world, 'oxygen', 'surface_water', 'direct')
+
+def logic_12687(world):
+    _world_apply(world, 'oxygen', 'humidity', 'square')
