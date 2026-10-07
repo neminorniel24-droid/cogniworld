@@ -28113,3 +28113,10 @@ def logic_34394(agents, world):
     src = _local(world, agents, 'pathogen_load')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.retaliation_risk = _delta(agents.retaliation_risk, delta)
+
+
+def logic_34395(agents, world):
+    """Environmental biodiversity shapes agent learning_rate (inverse)."""
+    src = _local(world, agents, 'biodiversity')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.learning_rate = _delta(agents.learning_rate, delta)
