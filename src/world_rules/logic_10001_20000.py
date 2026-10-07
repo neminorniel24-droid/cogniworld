@@ -18608,3 +18608,6 @@ def logic_16181(world):
 
 def logic_16182(world):
     _world_apply(world, 'soil_moisture', 'methane', 'saturation')
+
+def logic_16183(world):
+    _world_apply(world, 'soil_moisture', 'pathogen_load', 'gap')
