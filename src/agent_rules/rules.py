@@ -63470,3 +63470,10 @@ def logic_39445(agents, world):
     src = _local(world, agents, 'nutrients')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.reproduction_drive = _delta(agents.reproduction_drive, delta)
+
+
+def logic_39446(agents, world):
+    """Environmental decomposition_rate shapes agent social_tolerance (direct)."""
+    src = _local(world, agents, 'decomposition_rate')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.social_tolerance = _delta(agents.social_tolerance, delta)
