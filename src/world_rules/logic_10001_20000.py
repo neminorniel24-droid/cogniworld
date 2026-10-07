@@ -23882,3 +23882,6 @@ def logic_17939(world):
 
 def logic_17940(world):
     _world_apply(world, 'temperature', 'evaporation', 'square')
+
+def logic_17941(world):
+    _world_apply(world, 'temperature', 'detritus', 'pulse')
