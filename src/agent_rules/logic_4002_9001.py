@@ -14105,3 +14105,6 @@ def logic_8768(agents, world):
 
 def logic_8769(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'reciprocity_score', 'direct')
+
+def logic_8770(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'reciprocity_score', 'direct')
