@@ -7904,3 +7904,4 @@
 - 27903: integrated cross-system causal rule
 - 27904: integrated cross-system causal rule
 - 27905: integrated cross-system causal rule
+- 27906: integrated cross-system causal rule
