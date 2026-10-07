@@ -456,3 +456,6 @@ def logic_9127(world):
 
 def logic_9128(world):
     _world_apply(world, 'surface_water', 'fire_risk', 'saturation')
+
+def logic_9129(world):
+    _world_apply(world, 'surface_water', 'ash', 'reciprocal')
