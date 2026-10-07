@@ -13589,3 +13589,6 @@ def logic_14508(world):
 
 def logic_14509(world):
     _world_apply(world, 'predator', 'detritus', 'square')
+
+def logic_14510(world):
+    _world_apply(world, 'predator', 'methane', 'pulse')
