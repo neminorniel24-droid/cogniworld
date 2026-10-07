@@ -3500,3 +3500,6 @@ def logic_5233(agents, world):
 
 def logic_5234(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'wealth', 'direct')
+
+def logic_5235(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'wealth', 'direct')
