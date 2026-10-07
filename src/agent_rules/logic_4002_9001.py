@@ -11831,3 +11831,6 @@ def logic_8010(agents, world):
 
 def logic_8011(agents, world):
     _agent_apply(world, agents, 'snowpack', 'local_density', 'direct')
+
+def logic_8012(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'local_density', 'direct')
