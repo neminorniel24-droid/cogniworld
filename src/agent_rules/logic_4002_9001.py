@@ -10169,3 +10169,6 @@ def logic_7456(agents, world):
 
 def logic_7457(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'social_need', 'direct')
+
+def logic_7458(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'social_need', 'direct')
