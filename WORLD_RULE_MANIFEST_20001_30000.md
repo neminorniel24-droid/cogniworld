@@ -4338,3 +4338,4 @@
 - 24337: integrated cross-system causal rule
 - 24338: integrated cross-system causal rule
 - 24339: integrated cross-system causal rule
+- 24340: integrated cross-system causal rule
