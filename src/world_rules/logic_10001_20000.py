@@ -3428,3 +3428,6 @@ def logic_11121(world):
 
 def logic_11122(world):
     _world_apply(world, 'habitat_stress', 'detritus', 'square')
+
+def logic_11123(world):
+    _world_apply(world, 'habitat_stress', 'methane', 'pulse')
