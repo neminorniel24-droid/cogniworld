@@ -37045,3 +37045,10 @@ def logic_35670(agents, world):
     src = _local(world, agents, 'herbivore')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.reputation = _delta(agents.reputation, delta)
+
+
+def logic_35671(agents, world):
+    """Environmental predator shapes agent territoriality (inverse)."""
+    src = _local(world, agents, 'predator')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.territoriality = _delta(agents.territoriality, delta)
