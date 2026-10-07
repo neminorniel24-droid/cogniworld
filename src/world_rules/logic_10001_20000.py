@@ -5225,3 +5225,6 @@ def logic_11720(world):
 
 def logic_11721(world):
     _world_apply(world, 'deadwood', 'rain', 'direct')
+
+def logic_11722(world):
+    _world_apply(world, 'deadwood', 'soil_moisture', 'square')
