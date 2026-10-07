@@ -10844,3 +10844,6 @@ def logic_7681(agents, world):
 
 def logic_7682(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'betrayal_memory', 'direct')
+
+def logic_7683(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'betrayal_memory', 'direct')
