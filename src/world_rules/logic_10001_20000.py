@@ -1946,3 +1946,6 @@ def logic_10627(world):
 
 def logic_10628(world):
     _world_apply(world, 'nutrients', 'herbivore', 'direct')
+
+def logic_10629(world):
+    _world_apply(world, 'nutrients', 'predator', 'square')
