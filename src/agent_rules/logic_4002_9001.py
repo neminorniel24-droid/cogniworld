@@ -8594,3 +8594,6 @@ def logic_6931(agents, world):
 
 def logic_6932(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'attack_threshold', 'direct')
+
+def logic_6933(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'attack_threshold', 'direct')
