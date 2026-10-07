@@ -3140,3 +3140,6 @@ def logic_19025(agents, world):
 
 def logic_19026(agents, world):
     _agent_apply(world, agents, 'recovery', 'neighbor_health_gap', 'inverse')
+
+def logic_19027(agents, world):
+    _agent_apply(world, agents, 'metabolic_cost', 'betrayal_memory', 'inverse')
