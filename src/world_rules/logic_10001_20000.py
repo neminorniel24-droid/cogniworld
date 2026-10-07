@@ -866,3 +866,6 @@ def logic_10267(world):
 
 def logic_10268(world):
     _world_apply(world, 'runoff', 'cloud', 'direct')
+
+def logic_10269(world):
+    _world_apply(world, 'runoff', 'rain', 'square')
