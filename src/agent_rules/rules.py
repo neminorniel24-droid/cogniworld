@@ -51913,3 +51913,10 @@ def logic_37794(agents, world):
     src = _local(world, agents, 'ice')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.conflict_pressure = _delta(agents.conflict_pressure, delta)
+
+
+def logic_37795(agents, world):
+    """Environmental evaporation shapes agent selfishness (inverse)."""
+    src = _local(world, agents, 'evaporation')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.selfishness = _delta(agents.selfishness, delta)
