@@ -1412,3 +1412,6 @@ def logic_18449(agents, world):
 
 def logic_18450(agents, world):
     _agent_apply(world, agents, 'sediment', 'cooperation', 'threshold')
+
+def logic_18451(agents, world):
+    _agent_apply(world, agents, 'salinity', 'cooperation', 'threshold')
