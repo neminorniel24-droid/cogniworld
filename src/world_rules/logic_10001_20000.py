@@ -4946,3 +4946,6 @@ def logic_11627(world):
 
 def logic_11628(world):
     _world_apply(world, 'salinity', 'surface_ice', 'direct')
+
+def logic_11629(world):
+    _world_apply(world, 'algae', 'temperature', 'square')
