@@ -5078,3 +5078,6 @@ def logic_19671(agents, world):
 
 def logic_19672(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'learning_rate', 'gap')
+
+def logic_19673(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'learning_rate', 'gap')
