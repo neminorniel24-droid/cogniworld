@@ -3980,3 +3980,6 @@ def logic_5393(agents, world):
 
 def logic_5394(agents, world):
     _agent_apply(world, agents, 'temperature', 'social_tolerance', 'direct')
+
+def logic_5395(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'social_tolerance', 'direct')
