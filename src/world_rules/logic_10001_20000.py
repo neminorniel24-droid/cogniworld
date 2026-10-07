@@ -1928,3 +1928,6 @@ def logic_10621(world):
 
 def logic_10622(world):
     _world_apply(world, 'nutrients', 'soil_moisture', 'saturation')
+
+def logic_10623(world):
+    _world_apply(world, 'nutrients', 'runoff', 'gap')
