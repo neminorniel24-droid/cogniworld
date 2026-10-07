@@ -21611,3 +21611,6 @@ def logic_17182(world):
 
 def logic_17183(world):
     _world_apply(world, 'root_density', 'biomass', 'gap')
+
+def logic_17184(world):
+    _world_apply(world, 'root_density', 'herbivore', 'direct')
