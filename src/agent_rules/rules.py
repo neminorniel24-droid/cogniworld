@@ -41518,3 +41518,10 @@ def logic_36309(agents, world):
     src = _local(world, agents, 'runoff')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.oxygen_need = _delta(agents.oxygen_need, delta)
+
+
+def logic_36310(agents, world):
+    """Environmental wind_x shapes agent neighbor_energy_gap (direct)."""
+    src = _local(world, agents, 'wind_x')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.neighbor_energy_gap = _delta(agents.neighbor_energy_gap, delta)
