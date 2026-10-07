@@ -53089,3 +53089,10 @@ def logic_37962(agents, world):
     src = _local(world, agents, 'cloud')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.shelter_need = _delta(agents.shelter_need, delta)
+
+
+def logic_37963(agents, world):
+    """Environmental rain shapes agent neighbor_health_gap (inverse)."""
+    src = _local(world, agents, 'rain')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.neighbor_health_gap = _delta(agents.neighbor_health_gap, delta)
