@@ -2010,3 +2010,6 @@ def logic_9844(agents, world):
 
 def logic_9845(agents, world):
     _agent_apply(world, agents, 'ash', 'fear', 'direct')
+
+def logic_9846(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'fear', 'direct')
