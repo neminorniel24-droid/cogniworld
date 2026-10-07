@@ -13670,3 +13670,6 @@ def logic_14535(world):
 
 def logic_14536(world):
     _world_apply(world, 'carrion', 'cloud', 'square')
+
+def logic_14537(world):
+    _world_apply(world, 'carrion', 'rain', 'saturation')
