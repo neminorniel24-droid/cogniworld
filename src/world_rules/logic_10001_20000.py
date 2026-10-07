@@ -10094,3 +10094,6 @@ def logic_13343(world):
 
 def logic_13344(world):
     _world_apply(world, 'carbon_storage', 'surface_ice', 'direct')
+
+def logic_13345(world):
+    _world_apply(world, 'fire_risk', 'temperature', 'pulse')
