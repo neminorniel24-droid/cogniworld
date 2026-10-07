@@ -7649,3 +7649,6 @@ def logic_6616(agents, world):
 
 def logic_6617(agents, world):
     _agent_apply(world, agents, 'payoff', 'confidence', 'direct')
+
+def logic_6618(agents, world):
+    _agent_apply(world, agents, 'temperature', 'strategy_confidence', 'direct')
