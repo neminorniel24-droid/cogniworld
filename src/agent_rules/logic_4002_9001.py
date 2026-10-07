@@ -13622,3 +13622,6 @@ def logic_8607(agents, world):
 
 def logic_8608(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'competition_score', 'direct')
+
+def logic_8609(agents, world):
+    _agent_apply(world, agents, 'ice', 'competition_score', 'direct')
