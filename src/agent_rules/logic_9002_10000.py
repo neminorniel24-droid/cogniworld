@@ -90,3 +90,6 @@ def logic_9204(agents, world):
 
 def logic_9205(agents, world):
     _agent_apply(world, agents, 'rain', 'hydration', 'direct')
+
+def logic_9206(agents, world):
+    _agent_apply(world, agents, 'soil_moisture', 'hydration', 'direct')
