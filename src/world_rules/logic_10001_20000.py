@@ -16544,3 +16544,6 @@ def logic_15493(world):
 
 def logic_15494(world):
     _world_apply(world, 'groundwater', 'organic_matter', 'gap')
+
+def logic_15495(world):
+    _world_apply(world, 'groundwater', 'deadwood', 'direct')
