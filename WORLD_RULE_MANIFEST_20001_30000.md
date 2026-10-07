@@ -5046,3 +5046,4 @@
 - 25045: integrated cross-system causal rule
 - 25046: integrated cross-system causal rule
 - 25047: integrated cross-system causal rule
+- 25048: integrated cross-system causal rule
