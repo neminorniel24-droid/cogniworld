@@ -10622,3 +10622,6 @@ def logic_13519(world):
 
 def logic_13520(world):
     _world_apply(world, 'groundwater', 'surface_ice', 'saturation')
+
+def logic_13521(world):
+    _world_apply(world, 'sediment', 'temperature', 'direct')
