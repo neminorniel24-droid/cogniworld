@@ -46089,3 +46089,10 @@ def logic_36962(agents, world):
     src = _local(world, agents, 'decomposition_rate')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.help_score = _delta(agents.help_score, delta)
+
+
+def logic_36963(agents, world):
+    """Environmental oxygen shapes agent strategy_persistence (inverse)."""
+    src = _local(world, agents, 'oxygen')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.strategy_persistence = _delta(agents.strategy_persistence, delta)
