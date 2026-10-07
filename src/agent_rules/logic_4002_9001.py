@@ -6524,3 +6524,6 @@ def logic_6241(agents, world):
 
 def logic_6242(agents, world):
     _agent_apply(world, agents, 'ash', 'social_avoidance', 'direct')
+
+def logic_6243(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'social_avoidance', 'direct')
