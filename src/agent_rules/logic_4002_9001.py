@@ -13466,3 +13466,6 @@ def logic_8555(agents, world):
 
 def logic_8556(agents, world):
     _agent_apply(world, agents, 'groundwater', 'cooperation_score', 'direct')
+
+def logic_8557(agents, world):
+    _agent_apply(world, agents, 'sediment', 'cooperation_score', 'direct')
