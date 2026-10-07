@@ -8705,3 +8705,6 @@ def logic_12880(world):
 
 def logic_12881(world):
     _world_apply(world, 'evaporation', 'detritus', 'direct')
+
+def logic_12882(world):
+    _world_apply(world, 'evaporation', 'methane', 'square')
