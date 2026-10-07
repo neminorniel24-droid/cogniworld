@@ -22019,3 +22019,6 @@ def logic_17318(world):
 
 def logic_17319(world):
     _world_apply(world, 'fire_risk', 'nutrients', 'pulse')
+
+def logic_17320(world):
+    _world_apply(world, 'fire_risk', 'decomposition_rate', 'saturation')
