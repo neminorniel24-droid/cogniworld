@@ -10952,3 +10952,6 @@ def logic_7717(agents, world):
 
 def logic_7718(agents, world):
     _agent_apply(world, agents, 'predator', 'conflict_history', 'direct')
+
+def logic_7719(agents, world):
+    _agent_apply(world, agents, 'carrion', 'conflict_history', 'direct')
