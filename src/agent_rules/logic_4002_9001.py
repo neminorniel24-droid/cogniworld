@@ -12344,3 +12344,6 @@ def logic_8181(agents, world):
 
 def logic_8182(agents, world):
     _agent_apply(world, agents, 'temperature', 'last_food', 'direct')
+
+def logic_8183(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'last_food', 'direct')
