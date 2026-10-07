@@ -1730,3 +1730,6 @@ def logic_18555(agents, world):
 
 def logic_18556(agents, world):
     _agent_apply(world, agents, 'cloud', 'group_stability', 'saturation')
+
+def logic_18557(agents, world):
+    _agent_apply(world, agents, 'rain', 'group_stability', 'saturation')
