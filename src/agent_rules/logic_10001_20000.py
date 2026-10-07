@@ -1109,3 +1109,6 @@ def logic_18348(agents, world):
 
 def logic_18349(agents, world):
     _agent_apply(world, agents, 'defection', 'stability', 'sqrt')
+
+def logic_18350(agents, world):
+    _agent_apply(world, agents, 'aggression', 'stability', 'sqrt')
