@@ -1574,3 +1574,6 @@ def logic_18503(agents, world):
 
 def logic_18504(agents, world):
     _agent_apply(world, agents, 'empathy', 'conflict_pressure', 'threshold')
+
+def logic_18505(agents, world):
+    _agent_apply(world, agents, 'attack_threshold', 'conflict_pressure', 'threshold')
