@@ -2972,3 +2972,6 @@ def logic_10969(world):
 
 def logic_10970(world):
     _world_apply(world, 'methane', 'surface_water', 'direct')
+
+def logic_10971(world):
+    _world_apply(world, 'methane', 'humidity', 'square')
