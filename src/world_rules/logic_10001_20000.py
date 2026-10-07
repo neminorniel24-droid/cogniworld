@@ -13583,3 +13583,6 @@ def logic_14506(world):
 
 def logic_14507(world):
     _world_apply(world, 'predator', 'ice', 'gap')
+
+def logic_14508(world):
+    _world_apply(world, 'predator', 'evaporation', 'direct')
