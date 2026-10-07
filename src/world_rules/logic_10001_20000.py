@@ -12281,3 +12281,6 @@ def logic_14072(world):
 
 def logic_14073(world):
     _world_apply(world, 'humidity', 'habitat_stress', 'square')
+
+def logic_14074(world):
+    _world_apply(world, 'humidity', 'erosion', 'pulse')
