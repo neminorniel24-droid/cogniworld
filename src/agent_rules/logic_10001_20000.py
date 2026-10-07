@@ -2807,3 +2807,6 @@ def logic_18914(agents, world):
 
 def logic_18915(agents, world):
     _agent_apply(world, agents, 'strategy_confidence', 'resource_competition', 'direct')
+
+def logic_18916(agents, world):
+    _agent_apply(world, agents, 'future_help', 'resource_competition', 'direct')
