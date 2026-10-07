@@ -16433,3 +16433,6 @@ def logic_15456(world):
 
 def logic_15457(world):
     _world_apply(world, 'groundwater', 'temperature', 'saturation')
+
+def logic_15458(world):
+    _world_apply(world, 'groundwater', 'surface_water', 'gap')
