@@ -96,3 +96,6 @@ def logic_9007(world):
 
 def logic_9008(world):
     _world_apply(world, 'soil_moisture', 'groundwater', 'saturation')
+
+def logic_9009(world):
+    _world_apply(world, 'groundwater', 'surface_water', 'reciprocal')
