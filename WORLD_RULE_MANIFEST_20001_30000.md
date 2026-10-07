@@ -7523,3 +7523,4 @@
 - 27522: integrated cross-system causal rule
 - 27523: integrated cross-system causal rule
 - 27524: integrated cross-system causal rule
+- 27525: integrated cross-system causal rule
