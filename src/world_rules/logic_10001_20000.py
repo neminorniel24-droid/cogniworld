@@ -3422,3 +3422,6 @@ def logic_11119(world):
 
 def logic_11120(world):
     _world_apply(world, 'habitat_stress', 'ice', 'saturation')
+
+def logic_11121(world):
+    _world_apply(world, 'habitat_stress', 'evaporation', 'direct')
