@@ -14507,3 +14507,6 @@ def logic_14814(world):
 
 def logic_14815(world):
     _world_apply(world, 'ice', 'photosynthesis_factor', 'direct')
+
+def logic_14816(world):
+    _world_apply(world, 'ice', 'evaporation', 'square')
