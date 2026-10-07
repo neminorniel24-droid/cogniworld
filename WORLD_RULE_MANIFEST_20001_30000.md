@@ -46,3 +46,4 @@
 - 20045: integrated cross-system causal rule
 - 20046: integrated cross-system causal rule
 - 20047: integrated cross-system causal rule
+- 20048: integrated cross-system causal rule
