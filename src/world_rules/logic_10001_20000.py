@@ -13679,3 +13679,6 @@ def logic_14538(world):
 
 def logic_14539(world):
     _world_apply(world, 'carrion', 'runoff', 'direct')
+
+def logic_14540(world):
+    _world_apply(world, 'carrion', 'wind_x', 'square')
