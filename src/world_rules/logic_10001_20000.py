@@ -18371,3 +18371,6 @@ def logic_16102(world):
 
 def logic_16103(world):
     _world_apply(world, 'cloud', 'fire_risk', 'gap')
+
+def logic_16104(world):
+    _world_apply(world, 'cloud', 'ash', 'direct')
