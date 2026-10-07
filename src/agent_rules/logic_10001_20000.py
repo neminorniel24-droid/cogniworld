@@ -764,3 +764,6 @@ def logic_18233(agents, world):
 
 def logic_18234(agents, world):
     _agent_apply(world, agents, 'resource_competition', 'metabolic_cost', 'square')
+
+def logic_18235(agents, world):
+    _agent_apply(world, agents, 'vegetation_expectation', 'metabolic_cost', 'square')
