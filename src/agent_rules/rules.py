@@ -33580,3 +33580,10 @@ def logic_35175(agents, world):
     src = _local(world, agents, 'methane')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.competition_pressure = _delta(agents.competition_pressure, delta)
+
+
+def logic_35176(agents, world):
+    """Environmental pathogen_load shapes agent generosity (square)."""
+    src = _local(world, agents, 'pathogen_load')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.generosity = _delta(agents.generosity, delta)
