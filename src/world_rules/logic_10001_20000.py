@@ -16220,3 +16220,6 @@ def logic_15385(world):
 
 def logic_15386(world):
     _world_apply(world, 'ash', 'co2', 'saturation')
+
+def logic_15387(world):
+    _world_apply(world, 'ash', 'photosynthesis_factor', 'gap')
