@@ -67257,3 +67257,10 @@ def logic_39986(agents, world):
     src = _local(world, agents, 'cloud')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_interaction = _delta(agents.last_interaction, delta)
+
+
+def logic_39987(agents, world):
+    """Environmental rain shapes agent reciprocity_score (inverse)."""
+    src = _local(world, agents, 'rain')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.reciprocity_score = _delta(agents.reciprocity_score, delta)
