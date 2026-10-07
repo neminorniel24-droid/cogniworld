@@ -180,3 +180,6 @@ def logic_9035(world):
 
 def logic_9036(world):
     _world_apply(world, 'root_density', 'soil_carbon', 'square')
+
+def logic_9037(world):
+    _world_apply(world, 'erosion', 'soil_depth', 'sqrt')
