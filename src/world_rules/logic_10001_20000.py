@@ -17324,3 +17324,6 @@ def logic_15753(world):
 
 def logic_15754(world):
     _world_apply(world, 'pollinators', 'snowpack', 'pulse')
+
+def logic_15755(world):
+    _world_apply(world, 'pollinators', 'groundwater', 'saturation')
