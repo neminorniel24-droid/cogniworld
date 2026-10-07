@@ -10130,3 +10130,6 @@ def logic_13355(world):
 
 def logic_13356(world):
     _world_apply(world, 'fire_risk', 'herbivore', 'gap')
+
+def logic_13357(world):
+    _world_apply(world, 'fire_risk', 'predator', 'direct')
