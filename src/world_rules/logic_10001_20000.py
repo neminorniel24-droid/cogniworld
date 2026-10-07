@@ -542,3 +542,6 @@ def logic_10159(world):
 
 def logic_10160(world):
     _world_apply(world, 'cloud', 'root_density', 'saturation')
+
+def logic_10161(world):
+    _world_apply(world, 'cloud', 'wetland', 'direct')
