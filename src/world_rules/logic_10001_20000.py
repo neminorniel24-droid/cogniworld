@@ -19268,3 +19268,6 @@ def logic_16401(world):
 
 def logic_16402(world):
     _world_apply(world, 'biomass', 'methane', 'square')
+
+def logic_16403(world):
+    _world_apply(world, 'biomass', 'pathogen_load', 'pulse')
