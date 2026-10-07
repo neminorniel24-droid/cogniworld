@@ -4775,3 +4775,6 @@ def logic_11570(world):
 
 def logic_11571(world):
     _world_apply(world, 'sediment', 'carbon_storage', 'square')
+
+def logic_11572(world):
+    _world_apply(world, 'sediment', 'fire_risk', 'pulse')
