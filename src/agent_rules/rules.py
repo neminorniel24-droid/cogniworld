@@ -42302,3 +42302,10 @@ def logic_36421(agents, world):
     src = _local(world, agents, 'erosion')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.competition_pressure = _delta(agents.competition_pressure, delta)
+
+
+def logic_36422(agents, world):
+    """Environmental soil_depth shapes agent generosity (direct)."""
+    src = _local(world, agents, 'soil_depth')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.generosity = _delta(agents.generosity, delta)
