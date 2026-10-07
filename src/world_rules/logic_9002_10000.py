@@ -303,3 +303,6 @@ def logic_9076(world):
 
 def logic_9077(world):
     _world_apply(world, 'temperature', 'oxygen', 'sqrt')
+
+def logic_9078(world):
+    _world_apply(world, 'temperature', 'co2', 'pulse')
