@@ -5747,3 +5747,6 @@ def logic_19894(agents, world):
 
 def logic_19895(agents, world):
     _agent_apply(world, agents, 'neighbor_health_gap', 'infection_risk', 'inverse')
+
+def logic_19896(agents, world):
+    _agent_apply(world, agents, 'betrayal_memory', 'infection_risk', 'inverse')
