@@ -37864,3 +37864,10 @@ def logic_35787(agents, world):
     src = _local(world, agents, 'salinity')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.future_help = _delta(agents.future_help, delta)
+
+
+def logic_35788(agents, world):
+    """Environmental algae shapes agent fire_fear (square)."""
+    src = _local(world, agents, 'algae')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.fire_fear = _delta(agents.fire_fear, delta)
