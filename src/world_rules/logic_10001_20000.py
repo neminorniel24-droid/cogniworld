@@ -10589,3 +10589,6 @@ def logic_13508(world):
 
 def logic_13509(world):
     _world_apply(world, 'groundwater', 'ash', 'square')
+
+def logic_13510(world):
+    _world_apply(world, 'groundwater', 'snowpack', 'pulse')
