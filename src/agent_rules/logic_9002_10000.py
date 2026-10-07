@@ -1113,3 +1113,6 @@ def logic_9545(agents, world):
 
 def logic_9546(agents, world):
     _agent_apply(world, agents, 'soil_moisture', 'dehydration', 'direct')
+
+def logic_9547(agents, world):
+    _agent_apply(world, agents, 'runoff', 'dehydration', 'direct')
