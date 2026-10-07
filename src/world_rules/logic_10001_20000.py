@@ -13529,3 +13529,6 @@ def logic_14488(world):
 
 def logic_14489(world):
     _world_apply(world, 'predator', 'temperature', 'gap')
+
+def logic_14490(world):
+    _world_apply(world, 'predator', 'surface_water', 'direct')
