@@ -7088,3 +7088,6 @@ def logic_12341(world):
 
 def logic_12342(world):
     _world_apply(world, 'wind_y', 'biomass', 'saturation')
+
+def logic_12343(world):
+    _world_apply(world, 'wind_y', 'herbivore', 'gap')
