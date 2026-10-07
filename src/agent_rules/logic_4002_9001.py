@@ -9221,3 +9221,6 @@ def logic_7140(agents, world):
 
 def logic_7141(agents, world):
     _agent_apply(world, agents, 'energy_surplus', 'shelter_need', 'direct')
+
+def logic_7142(agents, world):
+    _agent_apply(world, agents, 'ticks_since_food', 'shelter_need', 'direct')
