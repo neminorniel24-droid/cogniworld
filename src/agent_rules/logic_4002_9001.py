@@ -8711,3 +8711,6 @@ def logic_6970(agents, world):
 
 def logic_6971(agents, world):
     _agent_apply(world, agents, 'carrion', 'defection_threshold', 'direct')
+
+def logic_6972(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'defection_threshold', 'direct')
