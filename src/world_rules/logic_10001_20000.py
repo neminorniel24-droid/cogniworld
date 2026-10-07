@@ -16064,3 +16064,6 @@ def logic_15333(world):
 
 def logic_15334(world):
     _world_apply(world, 'fire_risk', 'vegetation', 'gap')
+
+def logic_15335(world):
+    _world_apply(world, 'fire_risk', 'biomass', 'direct')
