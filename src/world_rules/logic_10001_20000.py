@@ -1670,3 +1670,6 @@ def logic_10535(world):
 
 def logic_10536(world):
     _world_apply(world, 'predator', 'wind_x', 'square')
+
+def logic_10537(world):
+    _world_apply(world, 'predator', 'wind_y', 'saturation')
