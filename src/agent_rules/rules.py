@@ -58381,3 +58381,10 @@ def logic_38718(agents, world):
     src = _local(world, agents, 'pathogen_load')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.memory_update = _delta(agents.memory_update, delta)
+
+
+def logic_38719(agents, world):
+    """Environmental biodiversity shapes agent health (inverse)."""
+    src = _local(world, agents, 'biodiversity')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.health = _delta(agents.health, delta)
