@@ -8285,3 +8285,6 @@ def logic_12740(world):
 
 def logic_12741(world):
     _world_apply(world, 'co2', 'predator', 'pulse')
+
+def logic_12742(world):
+    _world_apply(world, 'co2', 'carrion', 'saturation')
