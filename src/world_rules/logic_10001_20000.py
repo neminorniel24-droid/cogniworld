@@ -17021,3 +17021,6 @@ def logic_15652(world):
 
 def logic_15653(world):
     _world_apply(world, 'organic_matter', 'evaporation', 'saturation')
+
+def logic_15654(world):
+    _world_apply(world, 'organic_matter', 'detritus', 'gap')
