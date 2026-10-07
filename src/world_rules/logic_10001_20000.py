@@ -18962,3 +18962,6 @@ def logic_16299(world):
 
 def logic_16300(world):
     _world_apply(world, 'wind_y', 'wind_x', 'square')
+
+def logic_16301(world):
+    _world_apply(world, 'wind_y', 'vegetation', 'pulse')
