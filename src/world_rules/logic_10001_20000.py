@@ -15284,3 +15284,6 @@ def logic_15073(world):
 
 def logic_15074(world):
     _world_apply(world, 'habitat_stress', 'carrion', 'pulse')
+
+def logic_15075(world):
+    _world_apply(world, 'habitat_stress', 'nutrients', 'saturation')
