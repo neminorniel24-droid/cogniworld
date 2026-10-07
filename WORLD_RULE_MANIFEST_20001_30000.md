@@ -6026,3 +6026,4 @@
 - 26025: integrated cross-system causal rule
 - 26026: integrated cross-system causal rule
 - 26027: integrated cross-system causal rule
+- 26028: integrated cross-system causal rule
