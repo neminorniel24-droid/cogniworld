@@ -2141,3 +2141,6 @@ def logic_10692(world):
 
 def logic_10693(world):
     _world_apply(world, 'decomposition_rate', 'snowpack', 'saturation')
+
+def logic_10694(world):
+    _world_apply(world, 'decomposition_rate', 'groundwater', 'gap')
