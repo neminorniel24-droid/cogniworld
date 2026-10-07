@@ -1457,3 +1457,6 @@ def logic_10464(world):
 
 def logic_10465(world):
     _world_apply(world, 'biomass', 'habitat_stress', 'pulse')
+
+def logic_10466(world):
+    _world_apply(world, 'biomass', 'erosion', 'saturation')
