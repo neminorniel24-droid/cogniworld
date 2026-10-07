@@ -2771,3 +2771,4 @@
 - 22770: integrated cross-system causal rule
 - 22771: integrated cross-system causal rule
 - 22772: integrated cross-system causal rule
+- 22773: integrated cross-system causal rule
