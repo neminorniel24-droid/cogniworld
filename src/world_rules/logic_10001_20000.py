@@ -10778,3 +10778,6 @@ def logic_13571(world):
 
 def logic_13572(world):
     _world_apply(world, 'salinity', 'wind_x', 'pulse')
+
+def logic_13573(world):
+    _world_apply(world, 'salinity', 'wind_y', 'saturation')
