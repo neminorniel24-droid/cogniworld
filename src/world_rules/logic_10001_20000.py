@@ -9200,3 +9200,6 @@ def logic_13045(world):
 
 def logic_13046(world):
     _world_apply(world, 'biodiversity', 'vegetation', 'direct')
+
+def logic_13047(world):
+    _world_apply(world, 'biodiversity', 'biomass', 'square')
