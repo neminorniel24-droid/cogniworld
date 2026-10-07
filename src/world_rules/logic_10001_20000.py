@@ -10136,3 +10136,6 @@ def logic_13357(world):
 
 def logic_13358(world):
     _world_apply(world, 'fire_risk', 'carrion', 'square')
+
+def logic_13359(world):
+    _world_apply(world, 'fire_risk', 'nutrients', 'pulse')
