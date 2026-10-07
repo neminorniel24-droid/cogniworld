@@ -1541,3 +1541,6 @@ def logic_18492(agents, world):
 
 def logic_18493(agents, world):
     _agent_apply(world, agents, 'sharing_capacity', 'aggression', 'threshold')
+
+def logic_18494(agents, world):
+    _agent_apply(world, agents, 'help_drive', 'conflict_pressure', 'threshold')
