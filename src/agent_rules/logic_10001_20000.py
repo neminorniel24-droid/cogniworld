@@ -3134,3 +3134,6 @@ def logic_19023(agents, world):
 
 def logic_19024(agents, world):
     _agent_apply(world, agents, 'alertness', 'neighbor_health_gap', 'inverse')
+
+def logic_19025(agents, world):
+    _agent_apply(world, agents, 'fear', 'neighbor_health_gap', 'inverse')
