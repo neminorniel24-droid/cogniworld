@@ -617,3 +617,6 @@ def logic_10184(world):
 
 def logic_10185(world):
     _world_apply(world, 'rain', 'vegetation', 'pulse')
+
+def logic_10186(world):
+    _world_apply(world, 'rain', 'biomass', 'saturation')
