@@ -14117,3 +14117,6 @@ def logic_14684(world):
 
 def logic_14685(world):
     _world_apply(world, 'oxygen', 'detritus', 'gap')
+
+def logic_14686(world):
+    _world_apply(world, 'oxygen', 'methane', 'direct')
