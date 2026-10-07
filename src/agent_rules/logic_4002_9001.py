@@ -14009,3 +14009,6 @@ def logic_8736(agents, world):
 
 def logic_8737(agents, world):
     _agent_apply(world, agents, 'herbivore', 'reciprocity_score', 'direct')
+
+def logic_8738(agents, world):
+    _agent_apply(world, agents, 'predator', 'reciprocity_score', 'direct')
