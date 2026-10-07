@@ -52305,3 +52305,10 @@ def logic_37850(agents, world):
     src = _local(world, agents, 'wetland')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_interaction = _delta(agents.last_interaction, delta)
+
+
+def logic_37851(agents, world):
+    """Environmental carbon_storage shapes agent reciprocity_score (inverse)."""
+    src = _local(world, agents, 'carbon_storage')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.reciprocity_score = _delta(agents.reciprocity_score, delta)
