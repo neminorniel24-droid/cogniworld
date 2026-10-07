@@ -19880,3 +19880,6 @@ def logic_16605(world):
 
 def logic_16606(world):
     _world_apply(world, 'decomposition_rate', 'soil_moisture', 'direct')
+
+def logic_16607(world):
+    _world_apply(world, 'decomposition_rate', 'runoff', 'square')
