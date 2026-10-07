@@ -305,3 +305,6 @@ def logic_4068(world):
 
 def logic_4069(world):
     _world_apply(world, 'temperature', 'humidity', 'sqrt')
+
+def logic_4070(world):
+    _world_apply(world, 'wind_y', 'cloud', 'pulse')
