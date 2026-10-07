@@ -3548,3 +3548,6 @@ def logic_5249(agents, world):
 
 def logic_5250(agents, world):
     _agent_apply(world, agents, 'reputation', 'wealth', 'direct')
+
+def logic_5251(agents, world):
+    _agent_apply(world, agents, 'help_received', 'wealth', 'direct')
