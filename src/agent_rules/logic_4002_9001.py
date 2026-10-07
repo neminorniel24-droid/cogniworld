@@ -8633,3 +8633,6 @@ def logic_6944(agents, world):
 
 def logic_6945(agents, world):
     _agent_apply(world, agents, 'competition_pressure', 'attack_threshold', 'direct')
+
+def logic_6946(agents, world):
+    _agent_apply(world, agents, 'social_need', 'attack_threshold', 'direct')
