@@ -20318,3 +20318,6 @@ def logic_16751(world):
 
 def logic_16752(world):
     _world_apply(world, 'photosynthesis_factor', 'evaporation', 'gap')
+
+def logic_16753(world):
+    _world_apply(world, 'photosynthesis_factor', 'detritus', 'square')
