@@ -23720,3 +23720,6 @@ def logic_17885(world):
 
 def logic_17886(world):
     _world_apply(world, 'surface_ice', 'vegetation', 'direct')
+
+def logic_17887(world):
+    _world_apply(world, 'surface_ice', 'biomass', 'square')
