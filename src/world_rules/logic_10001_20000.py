@@ -23891,3 +23891,6 @@ def logic_17942(world):
 
 def logic_17943(world):
     _world_apply(world, 'temperature', 'pathogen_load', 'gap')
+
+def logic_17944(world):
+    _world_apply(world, 'temperature', 'biodiversity', 'direct')
