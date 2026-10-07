@@ -3986,3 +3986,4 @@
 - 23985: integrated cross-system causal rule
 - 23986: integrated cross-system causal rule
 - 23987: integrated cross-system causal rule
+- 23988: integrated cross-system causal rule
