@@ -10442,3 +10442,6 @@ def logic_13459(world):
 
 def logic_13460(world):
     _world_apply(world, 'snowpack', 'soil_depth', 'square')
+
+def logic_13461(world):
+    _world_apply(world, 'snowpack', 'root_density', 'pulse')
