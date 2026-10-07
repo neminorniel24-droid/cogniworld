@@ -39628,3 +39628,10 @@ def logic_36039(agents, world):
     src = _local(world, agents, 'predator')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.cooperation = _delta(agents.cooperation, delta)
+
+
+def logic_36040(agents, world):
+    """Environmental carrion shapes agent sharing_capacity (square)."""
+    src = _local(world, agents, 'carrion')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.sharing_capacity = _delta(agents.sharing_capacity, delta)
