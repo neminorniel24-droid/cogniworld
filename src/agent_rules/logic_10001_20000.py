@@ -188,3 +188,6 @@ def logic_18041(agents, world):
 
 def logic_18042(agents, world):
     _agent_apply(world, agents, 'flowers', 'hunger', 'direct')
+
+def logic_18043(agents, world):
+    _agent_apply(world, agents, 'seed_bank', 'hunger', 'direct')
