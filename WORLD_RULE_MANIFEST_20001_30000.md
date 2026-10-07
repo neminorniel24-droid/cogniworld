@@ -9045,3 +9045,4 @@
 - 29044: integrated cross-system causal rule
 - 29045: integrated cross-system causal rule
 - 29046: integrated cross-system causal rule
+- 29047: integrated cross-system causal rule
