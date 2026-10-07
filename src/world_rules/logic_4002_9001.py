@@ -290,3 +290,6 @@ def logic_4063(world):
 
 def logic_4064(world):
     _world_apply(world, 'methane', 'co2', 'saturation')
+
+def logic_4065(world):
+    _world_apply(world, 'fire_risk', 'co2', 'reciprocal')
