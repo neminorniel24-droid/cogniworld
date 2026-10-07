@@ -6368,3 +6368,6 @@ def logic_6189(agents, world):
 
 def logic_6190(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'help_drive', 'direct')
+
+def logic_6191(agents, world):
+    _agent_apply(world, agents, 'hydration', 'help_drive', 'direct')
