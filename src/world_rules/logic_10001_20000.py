@@ -4040,3 +4040,6 @@ def logic_11325(world):
 
 def logic_11326(world):
     _world_apply(world, 'carbon_storage', 'soil_moisture', 'direct')
+
+def logic_11327(world):
+    _world_apply(world, 'carbon_storage', 'runoff', 'square')
