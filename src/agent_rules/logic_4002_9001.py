@@ -5699,3 +5699,6 @@ def logic_5966(agents, world):
 
 def logic_5967(agents, world):
     _agent_apply(world, agents, 'wetland', 'territoriality', 'direct')
+
+def logic_5968(agents, world):
+    _agent_apply(world, agents, 'carbon_storage', 'territoriality', 'direct')
