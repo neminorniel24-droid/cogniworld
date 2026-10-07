@@ -11495,3 +11495,6 @@ def logic_13810(world):
 
 def logic_13811(world):
     _world_apply(world, 'flowers', 'erosion', 'square')
+
+def logic_13812(world):
+    _world_apply(world, 'flowers', 'soil_depth', 'pulse')
