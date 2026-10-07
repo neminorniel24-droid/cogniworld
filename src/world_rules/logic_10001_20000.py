@@ -9905,3 +9905,6 @@ def logic_13280(world):
 
 def logic_13281(world):
     _world_apply(world, 'wetland', 'biodiversity', 'direct')
+
+def logic_13282(world):
+    _world_apply(world, 'wetland', 'habitat_stress', 'square')
