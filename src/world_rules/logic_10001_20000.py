@@ -23018,3 +23018,6 @@ def logic_17651(world):
 
 def logic_17652(world):
     _world_apply(world, 'organic_matter', 'pollinators', 'pulse')
+
+def logic_17653(world):
+    _world_apply(world, 'organic_matter', 'flowers', 'saturation')
