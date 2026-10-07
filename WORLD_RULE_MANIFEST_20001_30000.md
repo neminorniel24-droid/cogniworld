@@ -8085,3 +8085,4 @@
 - 28084: integrated cross-system causal rule
 - 28085: integrated cross-system causal rule
 - 28086: integrated cross-system causal rule
+- 28087: integrated cross-system causal rule
