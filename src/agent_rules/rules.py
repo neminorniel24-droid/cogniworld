@@ -37283,3 +37283,10 @@ def logic_35704(agents, world):
     src = _local(world, agents, 'temperature')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.reproduction_score = _delta(agents.reproduction_score, delta)
+
+
+def logic_35705(agents, world):
+    """Environmental temperature_target shapes agent self_preservation (root)."""
+    src = _local(world, agents, 'temperature_target')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.self_preservation = _delta(agents.self_preservation, delta)
