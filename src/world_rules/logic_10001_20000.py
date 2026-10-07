@@ -20564,3 +20564,6 @@ def logic_16833(world):
 
 def logic_16834(world):
     _world_apply(world, 'evaporation', 'carrion', 'pulse')
+
+def logic_16835(world):
+    _world_apply(world, 'evaporation', 'nutrients', 'saturation')
