@@ -23486,3 +23486,6 @@ def logic_17807(world):
 
 def logic_17808(world):
     _world_apply(world, 'seed_bank', 'ice', 'pulse')
+
+def logic_17809(world):
+    _world_apply(world, 'seed_bank', 'evaporation', 'gap')
