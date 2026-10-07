@@ -45004,3 +45004,10 @@ def logic_36807(agents, world):
     src = _local(world, agents, 'surface_ice')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.last_reward = _delta(agents.last_reward, delta)
+
+
+def logic_36808(agents, world):
+    """Environmental temperature shapes agent cooperation_score (square)."""
+    src = _local(world, agents, 'temperature')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.cooperation_score = _delta(agents.cooperation_score, delta)
