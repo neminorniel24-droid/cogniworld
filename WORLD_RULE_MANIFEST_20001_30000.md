@@ -2785,3 +2785,4 @@
 - 22784: integrated cross-system causal rule
 - 22785: integrated cross-system causal rule
 - 22786: integrated cross-system causal rule
+- 22787: integrated cross-system causal rule
