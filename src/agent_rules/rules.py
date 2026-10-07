@@ -49785,3 +49785,10 @@ def logic_37490(agents, world):
     src = _local(world, agents, 'algae')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.generosity = _delta(agents.generosity, delta)
+
+
+def logic_37491(agents, world):
+    """Environmental organic_matter shapes agent empathy (inverse)."""
+    src = _local(world, agents, 'organic_matter')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.empathy = _delta(agents.empathy, delta)
