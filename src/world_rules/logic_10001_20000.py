@@ -22778,3 +22778,6 @@ def logic_17571(world):
 
 def logic_17572(world):
     _world_apply(world, 'algae', 'cloud', 'pulse')
+
+def logic_17573(world):
+    _world_apply(world, 'algae', 'rain', 'saturation')
