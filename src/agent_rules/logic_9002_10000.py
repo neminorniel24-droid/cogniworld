@@ -1953,3 +1953,6 @@ def logic_9825(agents, world):
 
 def logic_9826(agents, world):
     _agent_apply(world, agents, 'carrion', 'fear', 'direct')
+
+def logic_9827(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'fear', 'direct')
