@@ -11717,3 +11717,6 @@ def logic_13884(world):
 
 def logic_13885(world):
     _world_apply(world, 'soil_carbon', 'predator', 'gap')
+
+def logic_13886(world):
+    _world_apply(world, 'soil_carbon', 'carrion', 'direct')
