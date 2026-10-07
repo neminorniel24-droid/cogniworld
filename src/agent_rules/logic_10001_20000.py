@@ -4280,3 +4280,6 @@ def logic_19405(agents, world):
 
 def logic_19406(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'exploration_score', 'threshold')
+
+def logic_19407(agents, world):
+    _agent_apply(world, agents, 'erosion', 'exploration_score', 'threshold')
