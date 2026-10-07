@@ -17270,3 +17270,6 @@ def logic_15735(world):
 
 def logic_15736(world):
     _world_apply(world, 'pollinators', 'decomposition_rate', 'square')
+
+def logic_15737(world):
+    _world_apply(world, 'pollinators', 'oxygen', 'saturation')
