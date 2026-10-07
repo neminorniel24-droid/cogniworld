@@ -3371,3 +3371,6 @@ def logic_19102(agents, world):
 
 def logic_19103(agents, world):
     _agent_apply(world, agents, 'self_preservation', 'help_received', 'square')
+
+def logic_19104(agents, world):
+    _agent_apply(world, agents, 'payoff', 'help_received', 'square')
