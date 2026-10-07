@@ -3314,3 +3314,6 @@ def logic_19083(agents, world):
 
 def logic_19084(agents, world):
     _agent_apply(world, agents, 'reciprocity_score', 'cooperation_history', 'square')
+
+def logic_19085(agents, world):
+    _agent_apply(world, agents, 'risk_score', 'cooperation_history', 'square')
