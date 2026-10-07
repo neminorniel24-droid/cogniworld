@@ -5693,3 +5693,6 @@ def logic_19876(agents, world):
 
 def logic_19877(agents, world):
     _agent_apply(world, agents, 'generosity', 'pathogen_risk', 'inverse')
+
+def logic_19878(agents, world):
+    _agent_apply(world, agents, 'gratitude', 'pathogen_risk', 'inverse')
