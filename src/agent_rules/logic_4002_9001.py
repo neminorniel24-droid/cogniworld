@@ -4412,3 +4412,6 @@ def logic_5537(agents, world):
 
 def logic_5538(agents, world):
     _agent_apply(world, agents, 'wind_y', 'trust', 'direct')
+
+def logic_5539(agents, world):
+    _agent_apply(world, agents, 'vegetation', 'trust', 'direct')
