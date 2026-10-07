@@ -108,3 +108,6 @@ def logic_9011(world):
 
 def logic_9012(world):
     _world_apply(world, 'temperature', 'photosynthesis_factor', 'square')
+
+def logic_9013(world):
+    _world_apply(world, 'photosynthesis_factor', 'vegetation', 'sqrt')
