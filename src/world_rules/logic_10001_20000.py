@@ -17690,3 +17690,6 @@ def logic_15875(world):
 
 def logic_15876(world):
     _world_apply(world, 'soil_carbon', 'pathogen_load', 'gap')
+
+def logic_15877(world):
+    _world_apply(world, 'soil_carbon', 'biodiversity', 'direct')
