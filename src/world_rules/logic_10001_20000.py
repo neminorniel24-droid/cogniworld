@@ -18341,3 +18341,6 @@ def logic_16092(world):
 
 def logic_16093(world):
     _world_apply(world, 'cloud', 'detritus', 'saturation')
+
+def logic_16094(world):
+    _world_apply(world, 'cloud', 'methane', 'gap')
