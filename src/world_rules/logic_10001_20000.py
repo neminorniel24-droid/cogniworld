@@ -3464,3 +3464,6 @@ def logic_11133(world):
 
 def logic_11134(world):
     _world_apply(world, 'habitat_stress', 'groundwater', 'gap')
+
+def logic_11135(world):
+    _world_apply(world, 'habitat_stress', 'sediment', 'direct')
