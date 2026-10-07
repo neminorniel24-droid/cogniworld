@@ -19037,3 +19037,6 @@ def logic_16324(world):
 
 def logic_16325(world):
     _world_apply(world, 'wind_y', 'snowpack', 'gap')
+
+def logic_16326(world):
+    _world_apply(world, 'wind_y', 'groundwater', 'direct')
