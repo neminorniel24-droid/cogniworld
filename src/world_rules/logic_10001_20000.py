@@ -11984,3 +11984,6 @@ def logic_13973(world):
 
 def logic_13974(world):
     _world_apply(world, 'temperature', 'nutrients', 'gap')
+
+def logic_13975(world):
+    _world_apply(world, 'temperature', 'decomposition_rate', 'direct')
