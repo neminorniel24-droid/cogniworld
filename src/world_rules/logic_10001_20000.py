@@ -17015,3 +17015,6 @@ def logic_15650(world):
 
 def logic_15651(world):
     _world_apply(world, 'organic_matter', 'photosynthesis_factor', 'square')
+
+def logic_15652(world):
+    _world_apply(world, 'organic_matter', 'ice', 'pulse')
