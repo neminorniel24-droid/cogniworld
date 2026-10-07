@@ -669,3 +669,4 @@
 - 20668: integrated cross-system causal rule
 - 20669: integrated cross-system causal rule
 - 20670: integrated cross-system causal rule
+- 20671: integrated cross-system causal rule
