@@ -6095,3 +6095,6 @@ def logic_12010(world):
 
 def logic_12011(world):
     _world_apply(world, 'temperature', 'fire_risk', 'square')
+
+def logic_12012(world):
+    _world_apply(world, 'temperature', 'ash', 'pulse')
