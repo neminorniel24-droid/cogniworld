@@ -5239,3 +5239,4 @@
 - 25238: integrated cross-system causal rule
 - 25239: integrated cross-system causal rule
 - 25240: integrated cross-system causal rule
+- 25241: integrated cross-system causal rule
