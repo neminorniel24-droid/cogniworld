@@ -4880,3 +4880,6 @@ def logic_5693(agents, world):
 
 def logic_5694(agents, world):
     _agent_apply(world, agents, 'root_density', 'defection', 'direct')
+
+def logic_5695(agents, world):
+    _agent_apply(world, agents, 'wetland', 'defection', 'direct')
