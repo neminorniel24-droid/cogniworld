@@ -507,3 +507,6 @@ def logic_9144(world):
 
 def logic_9145(world):
     _world_apply(world, 'humidity', 'soil_moisture', 'reciprocal')
+
+def logic_9146(world):
+    _world_apply(world, 'humidity', 'runoff', 'direct')
