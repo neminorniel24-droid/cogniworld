@@ -1025,3 +1025,6 @@ def logic_10320(world):
 
 def logic_10321(world):
     _world_apply(world, 'wind_x', 'carrion', 'direct')
+
+def logic_10322(world):
+    _world_apply(world, 'wind_x', 'nutrients', 'square')
