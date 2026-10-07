@@ -14999,3 +14999,6 @@ def logic_14978(world):
 
 def logic_14979(world):
     _world_apply(world, 'pathogen_load', 'runoff', 'direct')
+
+def logic_14980(world):
+    _world_apply(world, 'pathogen_load', 'wind_x', 'square')
