@@ -11360,3 +11360,6 @@ def logic_7853(agents, world):
 
 def logic_7854(agents, world):
     _agent_apply(world, agents, 'predator', 'help_received', 'direct')
+
+def logic_7855(agents, world):
+    _agent_apply(world, agents, 'carrion', 'help_received', 'direct')
