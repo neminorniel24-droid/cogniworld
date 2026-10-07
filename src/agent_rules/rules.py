@@ -52270,3 +52270,10 @@ def logic_37845(agents, world):
     src = _local(world, agents, 'biodiversity')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.competition_pressure = _delta(agents.competition_pressure, delta)
+
+
+def logic_37846(agents, world):
+    """Environmental habitat_stress shapes agent generosity (direct)."""
+    src = _local(world, agents, 'habitat_stress')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.generosity = _delta(agents.generosity, delta)
