@@ -13199,3 +13199,6 @@ def logic_8466(agents, world):
 
 def logic_8467(agents, world):
     _agent_apply(world, agents, 'carrion', 'strategy_score', 'direct')
+
+def logic_8468(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'strategy_score', 'direct')
