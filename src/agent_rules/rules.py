@@ -31935,3 +31935,10 @@ def logic_34940(agents, world):
     src = _local(world, agents, 'co2')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.foraging_score = _delta(agents.foraging_score, delta)
+
+
+def logic_34941(agents, world):
+    """Environmental photosynthesis_factor shapes agent migration_score (root)."""
+    src = _local(world, agents, 'photosynthesis_factor')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.migration_score = _delta(agents.migration_score, delta)
