@@ -536,3 +536,6 @@ def logic_4245(agents, world):
 
 def logic_4246(agents, world):
     _agent_apply(world, agents, 'wind_y', 'hunger', 'direct')
+
+def logic_4247(agents, world):
+    _agent_apply(world, agents, 'vegetation', 'hunger', 'direct')
