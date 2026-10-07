@@ -101,3 +101,6 @@ def _agent_apply(world, agents, source, target, mode):
         d = s
     new_signal = t + RATE * (d - t)
     setattr(agents, target, torch.logit(new_signal.clamp(1e-5, 1 - 1e-5)))
+
+def logic_4102(agents, world):
+    _agent_apply(world, agents, 'temperature', 'hydration', 'direct')
