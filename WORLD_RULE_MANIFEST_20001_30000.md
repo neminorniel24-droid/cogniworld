@@ -8871,3 +8871,4 @@
 - 28870: integrated cross-system causal rule
 - 28871: integrated cross-system causal rule
 - 28872: integrated cross-system causal rule
+- 28873: integrated cross-system causal rule
