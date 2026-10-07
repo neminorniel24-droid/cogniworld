@@ -5237,3 +5237,6 @@ def logic_5812(agents, world):
 
 def logic_5813(agents, world):
     _agent_apply(world, agents, 'herbivore', 'conflict_pressure', 'direct')
+
+def logic_5814(agents, world):
+    _agent_apply(world, agents, 'predator', 'conflict_pressure', 'direct')
