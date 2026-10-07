@@ -13937,3 +13937,6 @@ def logic_14624(world):
 
 def logic_14625(world):
     _world_apply(world, 'decomposition_rate', 'rain', 'pulse')
+
+def logic_14626(world):
+    _world_apply(world, 'decomposition_rate', 'soil_moisture', 'saturation')
