@@ -2609,3 +2609,6 @@ def logic_18848(agents, world):
 
 def logic_18849(agents, world):
     _agent_apply(world, agents, 'evaporation', 'oxygen_need', 'feedback')
+
+def logic_18850(agents, world):
+    _agent_apply(world, agents, 'detritus', 'oxygen_need', 'feedback')
