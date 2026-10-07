@@ -13586,3 +13586,6 @@ def logic_8595(agents, world):
 
 def logic_8596(agents, world):
     _agent_apply(world, agents, 'runoff', 'competition_score', 'direct')
+
+def logic_8597(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'competition_score', 'direct')
