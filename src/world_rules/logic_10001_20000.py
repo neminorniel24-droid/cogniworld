@@ -1022,3 +1022,6 @@ def logic_10319(world):
 
 def logic_10320(world):
     _world_apply(world, 'wind_x', 'predator', 'saturation')
+
+def logic_10321(world):
+    _world_apply(world, 'wind_x', 'carrion', 'direct')
