@@ -3746,3 +3746,6 @@ def logic_11227(world):
 
 def logic_11228(world):
     _world_apply(world, 'soil_depth', 'pollinators', 'direct')
+
+def logic_11229(world):
+    _world_apply(world, 'soil_depth', 'flowers', 'square')
