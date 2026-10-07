@@ -12401,3 +12401,6 @@ def logic_14112(world):
 
 def logic_14113(world):
     _world_apply(world, 'cloud', 'detritus', 'square')
+
+def logic_14114(world):
+    _world_apply(world, 'cloud', 'methane', 'pulse')
