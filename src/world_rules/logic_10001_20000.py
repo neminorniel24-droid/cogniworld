@@ -23336,3 +23336,6 @@ def logic_17757(world):
 
 def logic_17758(world):
     _world_apply(world, 'flowers', 'carrion', 'square')
+
+def logic_17759(world):
+    _world_apply(world, 'flowers', 'nutrients', 'pulse')
