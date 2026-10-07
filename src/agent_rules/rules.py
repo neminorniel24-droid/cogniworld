@@ -56036,3 +56036,10 @@ def logic_38383(agents, world):
     src = _local(world, agents, 'biomass')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.cooperation_history = _delta(agents.cooperation_history, delta)
+
+
+def logic_38384(agents, world):
+    """Environmental herbivore shapes agent last_interaction (square)."""
+    src = _local(world, agents, 'herbivore')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.last_interaction = _delta(agents.last_interaction, delta)
