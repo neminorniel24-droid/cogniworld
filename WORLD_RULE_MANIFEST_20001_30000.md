@@ -10,3 +10,4 @@
 - 20009: integrated cross-system causal rule
 - 20010: integrated cross-system causal rule
 - 20011: integrated cross-system causal rule
+- 20012: integrated cross-system causal rule
