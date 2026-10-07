@@ -2593,3 +2593,4 @@
 - 22592: integrated cross-system causal rule
 - 22593: integrated cross-system causal rule
 - 22594: integrated cross-system causal rule
+- 22595: integrated cross-system causal rule
