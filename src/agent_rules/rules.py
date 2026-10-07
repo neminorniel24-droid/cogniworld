@@ -61965,3 +61965,10 @@ def logic_39230(agents, world):
     src = _local(world, agents, 'wetland')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.reputation = _delta(agents.reputation, delta)
+
+
+def logic_39231(agents, world):
+    """Environmental carbon_storage shapes agent territoriality (inverse)."""
+    src = _local(world, agents, 'carbon_storage')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.territoriality = _delta(agents.territoriality, delta)
