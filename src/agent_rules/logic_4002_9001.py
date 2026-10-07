@@ -3965,3 +3965,6 @@ def logic_5388(agents, world):
 
 def logic_5389(agents, world):
     _agent_apply(world, agents, 'local_density', 'habitat_stress', 'direct')
+
+def logic_5390(agents, world):
+    _agent_apply(world, agents, 'strategy_score', 'habitat_stress', 'direct')
