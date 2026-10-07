@@ -1286,3 +1286,6 @@ def logic_18407(agents, world):
 
 def logic_18408(agents, world):
     _agent_apply(world, agents, 'strategy_persistence', 'reputation', 'pulse')
+
+def logic_18409(agents, world):
+    _agent_apply(world, agents, 'strategy_mixing', 'reputation', 'pulse')
