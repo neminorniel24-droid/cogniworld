@@ -14702,3 +14702,6 @@ def logic_14879(world):
 
 def logic_14880(world):
     _world_apply(world, 'evaporation', 'pollinators', 'saturation')
+
+def logic_14881(world):
+    _world_apply(world, 'evaporation', 'flowers', 'direct')
