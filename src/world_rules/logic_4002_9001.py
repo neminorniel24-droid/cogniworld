@@ -245,3 +245,6 @@ def logic_4048(world):
 
 def logic_4049(world):
     _world_apply(world, 'temperature', 'pathogen_load', 'reciprocal')
+
+def logic_4050(world):
+    _world_apply(world, 'surface_water', 'pathogen_load', 'direct')
