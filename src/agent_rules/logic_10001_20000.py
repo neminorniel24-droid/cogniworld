@@ -3578,3 +3578,6 @@ def logic_19171(agents, world):
 
 def logic_19172(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'last_energy_delta', 'sqrt')
+
+def logic_19173(agents, world):
+    _agent_apply(world, agents, 'social_tolerance', 'last_energy_delta', 'sqrt')
