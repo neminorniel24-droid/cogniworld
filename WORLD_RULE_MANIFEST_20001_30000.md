@@ -9258,3 +9258,4 @@
 - 29257: integrated cross-system causal rule
 - 29258: integrated cross-system causal rule
 - 29259: integrated cross-system causal rule
+- 29260: integrated cross-system causal rule
