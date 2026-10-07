@@ -19670,3 +19670,6 @@ def logic_16535(world):
 
 def logic_16536(world):
     _world_apply(world, 'carrion', 'biodiversity', 'square')
+
+def logic_16537(world):
+    _world_apply(world, 'carrion', 'habitat_stress', 'saturation')
