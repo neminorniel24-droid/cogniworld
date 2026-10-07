@@ -22676,3 +22676,6 @@ def logic_17537(world):
 
 def logic_17538(world):
     _world_apply(world, 'salinity', 'carrion', 'gap')
+
+def logic_17539(world):
+    _world_apply(world, 'salinity', 'nutrients', 'direct')
