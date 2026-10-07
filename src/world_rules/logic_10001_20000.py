@@ -8471,3 +8471,6 @@ def logic_12802(world):
 
 def logic_12803(world):
     _world_apply(world, 'photosynthesis_factor', 'fire_risk', 'pulse')
+
+def logic_12804(world):
+    _world_apply(world, 'photosynthesis_factor', 'ash', 'saturation')
