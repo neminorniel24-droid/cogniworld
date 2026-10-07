@@ -35092,3 +35092,10 @@ def logic_35391(agents, world):
     src = _local(world, agents, 'wind_y')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.conflict_pressure = _delta(agents.conflict_pressure, delta)
+
+
+def logic_35392(agents, world):
+    """Environmental vegetation shapes agent selfishness (square)."""
+    src = _local(world, agents, 'vegetation')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.selfishness = _delta(agents.selfishness, delta)
