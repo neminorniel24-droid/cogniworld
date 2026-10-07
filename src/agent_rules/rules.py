@@ -56253,3 +56253,10 @@ def logic_38414(agents, world):
     src = _local(world, agents, 'flowers')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.thermal_stress = _delta(agents.thermal_stress, delta)
+
+
+def logic_38415(agents, world):
+    """Environmental seed_bank shapes agent metabolic_cost (inverse)."""
+    src = _local(world, agents, 'seed_bank')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.metabolic_cost = _delta(agents.metabolic_cost, delta)
