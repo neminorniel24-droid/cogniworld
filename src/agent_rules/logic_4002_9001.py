@@ -1793,3 +1793,6 @@ def logic_4664(agents, world):
 
 def logic_4665(agents, world):
     _agent_apply(world, agents, 'ice', 'alertness', 'direct')
+
+def logic_4666(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'alertness', 'direct')
