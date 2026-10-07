@@ -5228,3 +5228,6 @@ def logic_5809(agents, world):
 
 def logic_5810(agents, world):
     _agent_apply(world, agents, 'wind_y', 'conflict_pressure', 'direct')
+
+def logic_5811(agents, world):
+    _agent_apply(world, agents, 'vegetation', 'conflict_pressure', 'direct')
