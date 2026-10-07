@@ -3452,3 +3452,6 @@ def logic_19129(agents, world):
 
 def logic_19130(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'local_density', 'square')
+
+def logic_19131(agents, world):
+    _agent_apply(world, agents, 'erosion', 'local_density', 'square')
