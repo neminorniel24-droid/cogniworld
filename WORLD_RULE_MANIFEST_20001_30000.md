@@ -9504,3 +9504,4 @@
 - 29503: integrated cross-system causal rule
 - 29504: integrated cross-system causal rule
 - 29505: integrated cross-system causal rule
+- 29506: integrated cross-system causal rule
