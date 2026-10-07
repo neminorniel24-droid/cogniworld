@@ -9668,3 +9668,6 @@ def logic_7289(agents, world):
 
 def logic_7290(agents, world):
     _agent_apply(world, agents, 'reputation', 'resource_competition', 'direct')
+
+def logic_7291(agents, world):
+    _agent_apply(world, agents, 'help_received', 'resource_competition', 'direct')
