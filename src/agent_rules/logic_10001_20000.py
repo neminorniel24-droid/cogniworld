@@ -1715,3 +1715,6 @@ def logic_18550(agents, world):
 
 def logic_18551(agents, world):
     _agent_apply(world, agents, 'self_preservation', 'territoriality', 'saturation')
+
+def logic_18552(agents, world):
+    _agent_apply(world, agents, 'payoff', 'territoriality', 'saturation')
