@@ -330,3 +330,6 @@ def logic_9085(world):
 
 def logic_9086(world):
     _world_apply(world, 'temperature', 'root_density', 'pulse')
+
+def logic_9087(world):
+    _world_apply(world, 'temperature', 'wetland', 'threshold')
