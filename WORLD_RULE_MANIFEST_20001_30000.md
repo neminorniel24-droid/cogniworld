@@ -1400,3 +1400,4 @@
 - 21399: integrated cross-system causal rule
 - 21400: integrated cross-system causal rule
 - 21401: integrated cross-system causal rule
+- 21402: integrated cross-system causal rule
