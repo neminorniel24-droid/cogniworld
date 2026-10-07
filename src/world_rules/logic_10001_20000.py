@@ -8138,3 +8138,6 @@ def logic_12691(world):
 
 def logic_12692(world):
     _world_apply(world, 'oxygen', 'wind_x', 'pulse')
+
+def logic_12693(world):
+    _world_apply(world, 'oxygen', 'wind_y', 'saturation')
