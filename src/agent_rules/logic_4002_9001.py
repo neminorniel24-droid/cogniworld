@@ -1625,3 +1625,6 @@ def logic_4608(agents, world):
 
 def logic_4609(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'infection_risk', 'direct')
+
+def logic_4610(agents, world):
+    _agent_apply(world, agents, 'ash', 'infection_risk', 'direct')
