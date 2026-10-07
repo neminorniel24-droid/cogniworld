@@ -470,3 +470,6 @@ def logic_18135(agents, world):
 
 def logic_18136(agents, world):
     _agent_apply(world, agents, 'future_payoff_weight', 'pathogen_risk', 'inverse')
+
+def logic_18137(agents, world):
+    _agent_apply(world, agents, 'self_preservation', 'pathogen_risk', 'inverse')
