@@ -1664,3 +1664,6 @@ def logic_10533(world):
 
 def logic_10534(world):
     _world_apply(world, 'predator', 'soil_moisture', 'gap')
+
+def logic_10535(world):
+    _world_apply(world, 'predator', 'runoff', 'direct')
