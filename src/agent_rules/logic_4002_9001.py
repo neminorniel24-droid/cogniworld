@@ -7853,3 +7853,6 @@ def logic_6684(agents, world):
 
 def logic_6685(agents, world):
     _agent_apply(world, agents, 'payoff', 'strategy_confidence', 'direct')
+
+def logic_6686(agents, world):
+    _agent_apply(world, agents, 'temperature', 'future_help', 'direct')
