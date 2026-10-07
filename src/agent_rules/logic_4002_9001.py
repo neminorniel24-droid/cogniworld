@@ -12398,3 +12398,6 @@ def logic_8199(agents, world):
 
 def logic_8200(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'last_food', 'direct')
+
+def logic_8201(agents, world):
+    _agent_apply(world, agents, 'ice', 'last_food', 'direct')
