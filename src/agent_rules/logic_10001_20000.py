@@ -4808,3 +4808,6 @@ def logic_19581(agents, world):
 
 def logic_19582(agents, world):
     _agent_apply(world, agents, 'exploration_drive', 'reproduction_score', 'reciprocal')
+
+def logic_19583(agents, world):
+    _agent_apply(world, agents, 'food_access', 'reproduction_score', 'reciprocal')
