@@ -10340,3 +10340,6 @@ def logic_13425(world):
 
 def logic_13426(world):
     _world_apply(world, 'ash', 'organic_matter', 'saturation')
+
+def logic_13427(world):
+    _world_apply(world, 'ash', 'deadwood', 'gap')
