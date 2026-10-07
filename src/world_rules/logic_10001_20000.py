@@ -23972,3 +23972,6 @@ def logic_17969(world):
 
 def logic_17970(world):
     _world_apply(world, 'surface_water', 'runoff', 'direct')
+
+def logic_17971(world):
+    _world_apply(world, 'surface_water', 'wind_x', 'square')
