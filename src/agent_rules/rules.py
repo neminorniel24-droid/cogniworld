@@ -37024,3 +37024,10 @@ def logic_35667(agents, world):
     src = _local(world, agents, 'wind_y')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.payoff = _delta(agents.payoff, delta)
+
+
+def logic_35668(agents, world):
+    """Environmental vegetation shapes agent pathogen_risk (square)."""
+    src = _local(world, agents, 'vegetation')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.pathogen_risk = _delta(agents.pathogen_risk, delta)
