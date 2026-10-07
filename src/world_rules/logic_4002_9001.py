@@ -152,3 +152,6 @@ def logic_4017(world):
 
 def logic_4018(world):
     _world_apply(world, 'snowpack', 'runoff', 'direct')
+
+def logic_4019(world):
+    _world_apply(world, 'runoff', 'sediment', 'inverse')
