@@ -10118,3 +10118,6 @@ def logic_13351(world):
 
 def logic_13352(world):
     _world_apply(world, 'fire_risk', 'wind_x', 'gap')
+
+def logic_13353(world):
+    _world_apply(world, 'fire_risk', 'wind_y', 'square')
