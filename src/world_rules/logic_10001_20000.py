@@ -8612,3 +8612,6 @@ def logic_12849(world):
 
 def logic_12850(world):
     _world_apply(world, 'ice', 'groundwater', 'direct')
+
+def logic_12851(world):
+    _world_apply(world, 'ice', 'sediment', 'square')
