@@ -3668,3 +3668,6 @@ def logic_5289(agents, world):
 
 def logic_5290(agents, world):
     _agent_apply(world, agents, 'ash', 'stability', 'direct')
+
+def logic_5291(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'stability', 'direct')
