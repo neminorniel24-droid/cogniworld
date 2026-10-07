@@ -2930,3 +2930,6 @@ def logic_18955(agents, world):
 
 def logic_18956(agents, world):
     _agent_apply(world, agents, 'defense_score', 'stress', 'direct')
+
+def logic_18957(agents, world):
+    _agent_apply(world, agents, 'migration_score', 'stress', 'direct')
