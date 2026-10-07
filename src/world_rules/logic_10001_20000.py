@@ -5525,3 +5525,6 @@ def logic_11820(world):
 
 def logic_11821(world):
     _world_apply(world, 'flowers', 'oxygen', 'pulse')
+
+def logic_11822(world):
+    _world_apply(world, 'flowers', 'co2', 'saturation')
