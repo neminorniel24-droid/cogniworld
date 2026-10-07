@@ -2246,3 +2246,6 @@ def logic_18727(agents, world):
 
 def logic_18728(agents, world):
     _agent_apply(world, agents, 'algae', 'confidence', 'gap')
+
+def logic_18729(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'confidence', 'gap')
