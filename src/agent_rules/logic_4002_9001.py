@@ -12779,3 +12779,6 @@ def logic_8326(agents, world):
 
 def logic_8327(agents, world):
     _agent_apply(world, agents, 'vegetation', 'risk_tolerance', 'direct')
+
+def logic_8328(agents, world):
+    _agent_apply(world, agents, 'biomass', 'risk_tolerance', 'direct')
