@@ -19385,3 +19385,6 @@ def logic_16440(world):
 
 def logic_16441(world):
     _world_apply(world, 'herbivore', 'co2', 'direct')
+
+def logic_16442(world):
+    _world_apply(world, 'herbivore', 'photosynthesis_factor', 'square')
