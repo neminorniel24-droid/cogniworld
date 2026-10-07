@@ -22481,3 +22481,6 @@ def logic_17472(world):
 
 def logic_17473(world):
     _world_apply(world, 'groundwater', 'algae', 'square')
+
+def logic_17474(world):
+    _world_apply(world, 'groundwater', 'organic_matter', 'pulse')
