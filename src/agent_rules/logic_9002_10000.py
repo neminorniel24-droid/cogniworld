@@ -1902,3 +1902,6 @@ def logic_9808(agents, world):
 
 def logic_9809(agents, world):
     _agent_apply(world, agents, 'strategy_score', 'alertness', 'direct')
+
+def logic_9810(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'alertness', 'direct')
