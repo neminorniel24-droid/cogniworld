@@ -1718,3 +1718,6 @@ def logic_10551(world):
 
 def logic_10552(world):
     _world_apply(world, 'predator', 'biodiversity', 'gap')
+
+def logic_10553(world):
+    _world_apply(world, 'predator', 'habitat_stress', 'square')
