@@ -6599,3 +6599,6 @@ def logic_6266(agents, world):
 
 def logic_6267(agents, world):
     _agent_apply(world, agents, 'cooperation', 'social_avoidance', 'direct')
+
+def logic_6268(agents, world):
+    _agent_apply(world, agents, 'defection', 'social_avoidance', 'direct')
