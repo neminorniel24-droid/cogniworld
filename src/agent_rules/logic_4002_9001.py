@@ -6218,3 +6218,6 @@ def logic_6139(agents, world):
 
 def logic_6140(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'sharing_capacity', 'direct')
+
+def logic_6141(agents, world):
+    _agent_apply(world, agents, 'payoff', 'sharing_capacity', 'direct')
