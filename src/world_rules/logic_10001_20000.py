@@ -4364,3 +4364,6 @@ def logic_11433(world):
 
 def logic_11434(world):
     _world_apply(world, 'ash', 'habitat_stress', 'pulse')
+
+def logic_11435(world):
+    _world_apply(world, 'ash', 'erosion', 'saturation')
