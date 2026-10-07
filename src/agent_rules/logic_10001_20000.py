@@ -4118,3 +4118,6 @@ def logic_19351(agents, world):
 
 def logic_19352(agents, world):
     _agent_apply(world, agents, 'last_food', 'reciprocity_score', 'threshold')
+
+def logic_19353(agents, world):
+    _agent_apply(world, agents, 'last_interaction', 'reciprocity_score', 'threshold')
