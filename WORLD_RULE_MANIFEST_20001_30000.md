@@ -7261,3 +7261,4 @@
 - 27260: integrated cross-system causal rule
 - 27261: integrated cross-system causal rule
 - 27262: integrated cross-system causal rule
+- 27263: integrated cross-system causal rule
