@@ -2423,3 +2423,6 @@ def logic_18786(agents, world):
 
 def logic_18787(agents, world):
     _agent_apply(world, agents, 'vegetation_expectation', 'resource_discovery', 'gap')
+
+def logic_18788(agents, world):
+    _agent_apply(world, agents, 'stress', 'resource_discovery', 'gap')
