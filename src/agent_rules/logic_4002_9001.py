@@ -10007,3 +10007,6 @@ def logic_7402(agents, world):
 
 def logic_7403(agents, world):
     _agent_apply(world, agents, 'algae', 'stress', 'direct')
+
+def logic_7404(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'stress', 'direct')
