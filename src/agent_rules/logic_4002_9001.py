@@ -11546,3 +11546,6 @@ def logic_7915(agents, world):
 
 def logic_7916(agents, world):
     _agent_apply(world, agents, 'runoff', 'help_given', 'direct')
+
+def logic_7917(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'help_given', 'direct')
