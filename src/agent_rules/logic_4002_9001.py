@@ -8645,3 +8645,6 @@ def logic_6948(agents, world):
 
 def logic_6949(agents, world):
     _agent_apply(world, agents, 'trust', 'attack_threshold', 'direct')
+
+def logic_6950(agents, world):
+    _agent_apply(world, agents, 'reputation', 'attack_threshold', 'direct')
