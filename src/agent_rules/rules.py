@@ -49358,3 +49358,10 @@ def logic_37429(agents, world):
     src = _local(world, agents, 'methane')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.neighbor_health_gap = _delta(agents.neighbor_health_gap, delta)
+
+
+def logic_37430(agents, world):
+    """Environmental pathogen_load shapes agent last_reward (direct)."""
+    src = _local(world, agents, 'pathogen_load')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.last_reward = _delta(agents.last_reward, delta)
