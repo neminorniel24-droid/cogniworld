@@ -7415,3 +7415,6 @@ def logic_12450(world):
 
 def logic_12451(world):
     _world_apply(world, 'biomass', 'fire_risk', 'square')
+
+def logic_12452(world):
+    _world_apply(world, 'biomass', 'ash', 'pulse')
