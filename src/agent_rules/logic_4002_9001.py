@@ -8531,3 +8531,6 @@ def logic_6910(agents, world):
 
 def logic_6911(agents, world):
     _agent_apply(world, agents, 'detritus', 'attack_threshold', 'direct')
+
+def logic_6912(agents, world):
+    _agent_apply(world, agents, 'methane', 'attack_threshold', 'direct')
