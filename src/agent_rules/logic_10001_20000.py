@@ -4229,3 +4229,6 @@ def logic_19388(agents, world):
 
 def logic_19389(agents, world):
     _agent_apply(world, agents, 'wind_y', 'safety_score', 'threshold')
+
+def logic_19390(agents, world):
+    _agent_apply(world, agents, 'vegetation', 'safety_score', 'threshold')
