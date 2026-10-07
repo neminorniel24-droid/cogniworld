@@ -4235,3 +4235,6 @@ def logic_19390(agents, world):
 
 def logic_19391(agents, world):
     _agent_apply(world, agents, 'biomass', 'safety_score', 'threshold')
+
+def logic_19392(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'safety_score', 'threshold')
