@@ -11174,3 +11174,6 @@ def logic_7791(agents, world):
 
 def logic_7792(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'cooperation_history', 'direct')
+
+def logic_7793(agents, world):
+    _agent_apply(world, agents, 'ice', 'cooperation_history', 'direct')
