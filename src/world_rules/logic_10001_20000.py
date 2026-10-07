@@ -20810,3 +20810,6 @@ def logic_16915(world):
 
 def logic_16916(world):
     _world_apply(world, 'methane', 'wind_x', 'gap')
+
+def logic_16917(world):
+    _world_apply(world, 'methane', 'wind_y', 'direct')
