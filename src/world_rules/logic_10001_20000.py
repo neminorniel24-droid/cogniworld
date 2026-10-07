@@ -18182,3 +18182,6 @@ def logic_16039(world):
 
 def logic_16040(world):
     _world_apply(world, 'humidity', 'predator', 'saturation')
+
+def logic_16041(world):
+    _world_apply(world, 'humidity', 'carrion', 'direct')
