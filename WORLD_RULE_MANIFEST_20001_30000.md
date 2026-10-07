@@ -722,3 +722,4 @@
 - 20721: integrated cross-system causal rule
 - 20722: integrated cross-system causal rule
 - 20723: integrated cross-system causal rule
+- 20724: integrated cross-system causal rule
