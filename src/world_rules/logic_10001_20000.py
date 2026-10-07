@@ -16961,3 +16961,6 @@ def logic_15632(world):
 
 def logic_15633(world):
     _world_apply(world, 'organic_matter', 'temperature', 'square')
+
+def logic_15634(world):
+    _world_apply(world, 'organic_matter', 'surface_water', 'pulse')
