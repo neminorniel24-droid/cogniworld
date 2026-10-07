@@ -3800,3 +3800,4 @@
 - 23799: integrated cross-system causal rule
 - 23800: integrated cross-system causal rule
 - 23801: integrated cross-system causal rule
+- 23802: integrated cross-system causal rule
