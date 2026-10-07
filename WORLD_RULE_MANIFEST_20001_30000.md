@@ -606,3 +606,4 @@
 - 20605: integrated cross-system causal rule
 - 20606: integrated cross-system causal rule
 - 20607: integrated cross-system causal rule
+- 20608: integrated cross-system causal rule
