@@ -8786,3 +8786,6 @@ def logic_6995(agents, world):
 
 def logic_6996(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'defection_threshold', 'direct')
+
+def logic_6997(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'defection_threshold', 'direct')
