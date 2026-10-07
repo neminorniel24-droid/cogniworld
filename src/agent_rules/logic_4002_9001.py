@@ -10787,3 +10787,6 @@ def logic_7662(agents, world):
 
 def logic_7663(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'betrayal_memory', 'direct')
+
+def logic_7664(agents, world):
+    _agent_apply(world, agents, 'erosion', 'betrayal_memory', 'direct')
