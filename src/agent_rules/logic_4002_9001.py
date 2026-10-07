@@ -8921,3 +8921,6 @@ def logic_7040(agents, world):
 
 def logic_7041(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'oxygen_need', 'direct')
+
+def logic_7042(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'oxygen_need', 'direct')
