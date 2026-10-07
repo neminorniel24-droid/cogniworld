@@ -64072,3 +64072,10 @@ def logic_39531(agents, world):
     src = _local(world, agents, 'wind_y')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.reproduction_score = _delta(agents.reproduction_score, delta)
+
+
+def logic_39532(agents, world):
+    """Environmental vegetation shapes agent self_preservation (square)."""
+    src = _local(world, agents, 'vegetation')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.self_preservation = _delta(agents.self_preservation, delta)
