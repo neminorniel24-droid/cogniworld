@@ -894,3 +894,4 @@
 - 20893: integrated cross-system causal rule
 - 20894: integrated cross-system causal rule
 - 20895: integrated cross-system causal rule
+- 20896: integrated cross-system causal rule
