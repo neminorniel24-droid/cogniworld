@@ -5090,3 +5090,6 @@ def logic_19675(agents, world):
 
 def logic_19676(agents, world):
     _agent_apply(world, agents, 'ice', 'learning_rate', 'gap')
+
+def logic_19677(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'memory_update', 'gap')
