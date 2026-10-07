@@ -2951,3 +2951,6 @@ def logic_10962(world):
 
 def logic_10963(world):
     _world_apply(world, 'detritus', 'deadwood', 'pulse')
+
+def logic_10964(world):
+    _world_apply(world, 'detritus', 'pollinators', 'saturation')
