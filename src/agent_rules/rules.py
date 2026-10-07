@@ -53600,3 +53600,10 @@ def logic_38035(agents, world):
     src = _local(world, agents, 'carbon_storage')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.trust = _delta(agents.trust, delta)
+
+
+def logic_38036(agents, world):
+    """Environmental fire_risk shapes agent group_stability (square)."""
+    src = _local(world, agents, 'fire_risk')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.group_stability = _delta(agents.group_stability, delta)
