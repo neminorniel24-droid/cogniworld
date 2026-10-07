@@ -1415,3 +1415,6 @@ def logic_18450(agents, world):
 
 def logic_18451(agents, world):
     _agent_apply(world, agents, 'salinity', 'cooperation', 'threshold')
+
+def logic_18452(agents, world):
+    _agent_apply(world, agents, 'algae', 'cooperation', 'threshold')
