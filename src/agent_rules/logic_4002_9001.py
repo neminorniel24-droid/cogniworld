@@ -6461,3 +6461,6 @@ def logic_6220(agents, world):
 
 def logic_6221(agents, world):
     _agent_apply(world, agents, 'herbivore', 'social_avoidance', 'direct')
+
+def logic_6222(agents, world):
+    _agent_apply(world, agents, 'predator', 'social_avoidance', 'direct')
