@@ -5237,3 +5237,6 @@ def logic_11724(world):
 
 def logic_11725(world):
     _world_apply(world, 'deadwood', 'wind_y', 'gap')
+
+def logic_11726(world):
+    _world_apply(world, 'deadwood', 'vegetation', 'direct')
