@@ -15491,3 +15491,6 @@ def logic_15142(world):
 
 def logic_15143(world):
     _world_apply(world, 'erosion', 'deadwood', 'gap')
+
+def logic_15144(world):
+    _world_apply(world, 'erosion', 'pollinators', 'direct')
