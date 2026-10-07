@@ -1202,3 +1202,6 @@ def logic_10379(world):
 
 def logic_10380(world):
     _world_apply(world, 'wind_y', 'root_density', 'square')
+
+def logic_10381(world):
+    _world_apply(world, 'wind_y', 'wetland', 'pulse')
