@@ -1046,3 +1046,6 @@ def logic_4415(agents, world):
 
 def logic_4416(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'thermal_stress', 'direct')
+
+def logic_4417(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'thermal_stress', 'direct')
