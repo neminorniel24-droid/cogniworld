@@ -1,0 +1,6 @@
+import torch
+
+def apply(world):
+    src = world.sediment
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    world.biodiversity = torch.clamp(world.biodiversity + delta, -2.0, 2.0)
