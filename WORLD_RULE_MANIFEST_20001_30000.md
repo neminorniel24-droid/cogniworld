@@ -391,3 +391,4 @@
 - 20390: integrated cross-system causal rule
 - 20391: integrated cross-system causal rule
 - 20392: integrated cross-system causal rule
+- 20393: integrated cross-system causal rule
