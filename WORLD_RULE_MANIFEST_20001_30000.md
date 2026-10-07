@@ -7934,3 +7934,4 @@
 - 27933: integrated cross-system causal rule
 - 27934: integrated cross-system causal rule
 - 27935: integrated cross-system causal rule
+- 27936: integrated cross-system causal rule
