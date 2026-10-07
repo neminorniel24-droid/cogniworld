@@ -12053,3 +12053,6 @@ def logic_13996(world):
 
 def logic_13997(world):
     _world_apply(world, 'temperature', 'algae', 'direct')
+
+def logic_13998(world):
+    _world_apply(world, 'temperature', 'organic_matter', 'square')
