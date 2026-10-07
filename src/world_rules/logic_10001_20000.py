@@ -14945,3 +14945,6 @@ def logic_14960(world):
 
 def logic_14961(world):
     _world_apply(world, 'methane', 'snowpack', 'direct')
+
+def logic_14962(world):
+    _world_apply(world, 'methane', 'groundwater', 'square')
