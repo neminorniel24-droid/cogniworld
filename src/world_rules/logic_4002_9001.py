@@ -149,3 +149,6 @@ def logic_4016(world):
 
 def logic_4017(world):
     _world_apply(world, 'wind_x', 'evaporation', 'reciprocal')
+
+def logic_4018(world):
+    _world_apply(world, 'snowpack', 'runoff', 'direct')
