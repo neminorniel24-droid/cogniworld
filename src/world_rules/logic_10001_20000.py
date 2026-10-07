@@ -21398,3 +21398,6 @@ def logic_17111(world):
 
 def logic_17112(world):
     _world_apply(world, 'erosion', 'root_density', 'gap')
+
+def logic_17113(world):
+    _world_apply(world, 'erosion', 'wetland', 'square')
