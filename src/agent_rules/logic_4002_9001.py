@@ -7529,3 +7529,6 @@ def logic_6576(agents, world):
 
 def logic_6577(agents, world):
     _agent_apply(world, agents, 'soil_depth', 'confidence', 'direct')
+
+def logic_6578(agents, world):
+    _agent_apply(world, agents, 'root_density', 'confidence', 'direct')
