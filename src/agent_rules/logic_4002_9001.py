@@ -3350,3 +3350,6 @@ def logic_5183(agents, world):
 
 def logic_5184(agents, world):
     _agent_apply(world, agents, 'help_given', 'food_access', 'direct')
+
+def logic_5185(agents, world):
+    _agent_apply(world, agents, 'local_density', 'food_access', 'direct')
