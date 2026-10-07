@@ -6212,3 +6212,6 @@ def logic_12049(world):
 
 def logic_12050(world):
     _world_apply(world, 'surface_water', 'erosion', 'direct')
+
+def logic_12051(world):
+    _world_apply(world, 'surface_water', 'soil_depth', 'square')
