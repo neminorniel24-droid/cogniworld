@@ -35981,3 +35981,10 @@ def logic_35518(agents, world):
     src = _local(world, agents, 'soil_carbon')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.aggression = _delta(agents.aggression, delta)
+
+
+def logic_35519(agents, world):
+    """Environmental surface_ice shapes agent social_avoidance (inverse)."""
+    src = _local(world, agents, 'surface_ice')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.social_avoidance = _delta(agents.social_avoidance, delta)
