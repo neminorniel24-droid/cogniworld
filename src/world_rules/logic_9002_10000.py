@@ -153,3 +153,6 @@ def logic_9026(world):
 
 def logic_9027(world):
     _world_apply(world, 'predator', 'carrion', 'inverse')
+
+def logic_9028(world):
+    _world_apply(world, 'carrion', 'nutrients', 'square')
