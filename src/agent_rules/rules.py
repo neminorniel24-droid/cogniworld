@@ -32425,3 +32425,10 @@ def logic_35010(agents, world):
     src = _local(world, agents, 'flowers')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.group_stability = _delta(agents.group_stability, delta)
+
+
+def logic_35011(agents, world):
+    """Environmental seed_bank shapes agent caution (inverse)."""
+    src = _local(world, agents, 'seed_bank')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.caution = _delta(agents.caution, delta)
