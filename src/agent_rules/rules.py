@@ -35939,3 +35939,10 @@ def logic_35512(agents, world):
     src = _local(world, agents, 'algae')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.exploration_score = _delta(agents.exploration_score, delta)
+
+
+def logic_35513(agents, world):
+    """Environmental organic_matter shapes agent defense_score (root)."""
+    src = _local(world, agents, 'organic_matter')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.defense_score = _delta(agents.defense_score, delta)
