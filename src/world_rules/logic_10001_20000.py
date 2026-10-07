@@ -10220,3 +10220,6 @@ def logic_13385(world):
 
 def logic_13386(world):
     _world_apply(world, 'fire_risk', 'seed_bank', 'saturation')
+
+def logic_13387(world):
+    _world_apply(world, 'fire_risk', 'soil_carbon', 'gap')
