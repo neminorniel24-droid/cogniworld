@@ -11090,3 +11090,6 @@ def logic_7763(agents, world):
 
 def logic_7764(agents, world):
     _agent_apply(world, agents, 'defection', 'conflict_history', 'direct')
+
+def logic_7765(agents, world):
+    _agent_apply(world, agents, 'trust', 'conflict_history', 'direct')
