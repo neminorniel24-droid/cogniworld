@@ -9623,3 +9623,6 @@ def logic_13186(world):
 
 def logic_13187(world):
     _world_apply(world, 'soil_depth', 'photosynthesis_factor', 'gap')
+
+def logic_13188(world):
+    _world_apply(world, 'soil_depth', 'ice', 'direct')
