@@ -2010,3 +2010,4 @@
 - 22009: integrated cross-system causal rule
 - 22010: integrated cross-system causal rule
 - 22011: integrated cross-system causal rule
+- 22012: integrated cross-system causal rule
