@@ -10838,3 +10838,6 @@ def logic_7679(agents, world):
 
 def logic_7680(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'betrayal_memory', 'direct')
+
+def logic_7681(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'betrayal_memory', 'direct')
