@@ -22049,3 +22049,6 @@ def logic_17328(world):
 
 def logic_17329(world):
     _world_apply(world, 'fire_risk', 'biodiversity', 'gap')
+
+def logic_17330(world):
+    _world_apply(world, 'fire_risk', 'habitat_stress', 'direct')
