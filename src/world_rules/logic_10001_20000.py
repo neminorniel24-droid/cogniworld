@@ -12851,3 +12851,6 @@ def logic_14262(world):
 
 def logic_14263(world):
     _world_apply(world, 'runoff', 'deadwood', 'gap')
+
+def logic_14264(world):
+    _world_apply(world, 'runoff', 'pollinators', 'direct')
