@@ -1400,3 +1400,6 @@ def logic_18445(agents, world):
 
 def logic_18446(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'cooperation', 'threshold')
+
+def logic_18447(agents, world):
+    _agent_apply(world, agents, 'ash', 'cooperation', 'threshold')
