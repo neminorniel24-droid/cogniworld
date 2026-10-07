@@ -12305,3 +12305,6 @@ def logic_14080(world):
 
 def logic_14081(world):
     _world_apply(world, 'humidity', 'snowpack', 'direct')
+
+def logic_14082(world):
+    _world_apply(world, 'humidity', 'groundwater', 'square')
