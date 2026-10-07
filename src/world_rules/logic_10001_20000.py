@@ -4808,3 +4808,6 @@ def logic_11581(world):
 
 def logic_11582(world):
     _world_apply(world, 'sediment', 'seed_bank', 'saturation')
+
+def logic_11583(world):
+    _world_apply(world, 'sediment', 'soil_carbon', 'gap')
