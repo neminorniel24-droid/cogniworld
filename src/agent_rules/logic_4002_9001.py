@@ -12722,3 +12722,6 @@ def logic_8307(agents, world):
 
 def logic_8308(agents, world):
     _agent_apply(world, agents, 'defection', 'last_interaction', 'direct')
+
+def logic_8309(agents, world):
+    _agent_apply(world, agents, 'trust', 'last_interaction', 'direct')
