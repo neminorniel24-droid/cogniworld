@@ -7325,3 +7325,6 @@ def logic_12420(world):
 
 def logic_12421(world):
     _world_apply(world, 'biomass', 'temperature', 'pulse')
+
+def logic_12422(world):
+    _world_apply(world, 'biomass', 'surface_water', 'saturation')
