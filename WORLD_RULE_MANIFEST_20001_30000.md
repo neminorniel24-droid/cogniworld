@@ -1116,3 +1116,4 @@
 - 21115: integrated cross-system causal rule
 - 21116: integrated cross-system causal rule
 - 21117: integrated cross-system causal rule
+- 21118: integrated cross-system causal rule
