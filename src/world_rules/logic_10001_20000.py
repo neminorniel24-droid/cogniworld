@@ -19910,3 +19910,6 @@ def logic_16615(world):
 
 def logic_16616(world):
     _world_apply(world, 'decomposition_rate', 'oxygen', 'square')
+
+def logic_16617(world):
+    _world_apply(world, 'decomposition_rate', 'co2', 'saturation')
