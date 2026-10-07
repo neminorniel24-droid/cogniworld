@@ -2048,3 +2048,6 @@ def logic_18661(agents, world):
 
 def logic_18662(agents, world):
     _agent_apply(world, agents, 'last_food', 'generosity', 'reciprocal')
+
+def logic_18663(agents, world):
+    _agent_apply(world, agents, 'last_interaction', 'generosity', 'reciprocal')
