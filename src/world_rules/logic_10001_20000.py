@@ -21428,3 +21428,6 @@ def logic_17121(world):
 
 def logic_17122(world):
     _world_apply(world, 'erosion', 'organic_matter', 'square')
+
+def logic_17123(world):
+    _world_apply(world, 'erosion', 'deadwood', 'pulse')
