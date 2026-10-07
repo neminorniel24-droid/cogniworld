@@ -5399,3 +5399,6 @@ def logic_19778(agents, world):
 
 def logic_19779(agents, world):
     _agent_apply(world, agents, 'survival_score', 'thirst', 'feedback')
+
+def logic_19780(agents, world):
+    _agent_apply(world, agents, 'fitness_score', 'thirst', 'feedback')
