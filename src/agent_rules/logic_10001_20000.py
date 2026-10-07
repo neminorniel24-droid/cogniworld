@@ -1712,3 +1712,6 @@ def logic_18549(agents, world):
 
 def logic_18550(agents, world):
     _agent_apply(world, agents, 'future_payoff_weight', 'territoriality', 'saturation')
+
+def logic_18551(agents, world):
+    _agent_apply(world, agents, 'self_preservation', 'territoriality', 'saturation')
