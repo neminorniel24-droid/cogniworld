@@ -51388,3 +51388,10 @@ def logic_37719(agents, world):
     src = _local(world, agents, 'salinity')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.gratitude = _delta(agents.gratitude, delta)
+
+
+def logic_37720(agents, world):
+    """Environmental algae shapes agent attack_threshold (square)."""
+    src = _local(world, agents, 'algae')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.attack_threshold = _delta(agents.attack_threshold, delta)
