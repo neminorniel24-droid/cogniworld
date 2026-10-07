@@ -7715,3 +7715,6 @@ def logic_12550(world):
 
 def logic_12551(world):
     _world_apply(world, 'predator', 'soil_carbon', 'saturation')
+
+def logic_12552(world):
+    _world_apply(world, 'predator', 'surface_ice', 'gap')
