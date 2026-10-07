@@ -8069,3 +8069,4 @@
 - 28068: integrated cross-system causal rule
 - 28069: integrated cross-system causal rule
 - 28070: integrated cross-system causal rule
+- 28071: integrated cross-system causal rule
