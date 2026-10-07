@@ -5723,3 +5723,6 @@ def logic_5974(agents, world):
 
 def logic_5975(agents, world):
     _agent_apply(world, agents, 'algae', 'territoriality', 'direct')
+
+def logic_5976(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'territoriality', 'direct')
