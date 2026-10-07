@@ -22799,3 +22799,6 @@ def logic_17578(world):
 
 def logic_17579(world):
     _world_apply(world, 'algae', 'biomass', 'direct')
+
+def logic_17580(world):
+    _world_apply(world, 'algae', 'herbivore', 'square')
