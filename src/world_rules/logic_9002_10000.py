@@ -222,3 +222,6 @@ def logic_9049(world):
 
 def logic_9050(world):
     _world_apply(world, 'fire_risk', 'habitat_stress', 'direct')
+
+def logic_9051(world):
+    _world_apply(world, 'habitat_stress', 'fire_risk', 'inverse')
