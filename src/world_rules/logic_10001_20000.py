@@ -17492,3 +17492,6 @@ def logic_15809(world):
 
 def logic_15810(world):
     _world_apply(world, 'seed_bank', 'surface_water', 'direct')
+
+def logic_15811(world):
+    _world_apply(world, 'seed_bank', 'humidity', 'square')
