@@ -14750,3 +14750,6 @@ def logic_8983(agents, world):
 
 def logic_8984(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'exploration_score', 'direct')
+
+def logic_8985(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'exploration_score', 'direct')
