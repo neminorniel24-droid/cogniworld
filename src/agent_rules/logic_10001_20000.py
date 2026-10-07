@@ -533,3 +533,6 @@ def logic_18156(agents, world):
 
 def logic_18157(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'infection_risk', 'inverse')
+
+def logic_18158(agents, world):
+    _agent_apply(world, agents, 'ice', 'infection_risk', 'inverse')
