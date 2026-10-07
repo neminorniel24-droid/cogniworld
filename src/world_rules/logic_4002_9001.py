@@ -122,3 +122,6 @@ def logic_4007(world):
 
 def logic_4008(world):
     _world_apply(world, 'herbivore', 'predator', 'saturation')
+
+def logic_4009(world):
+    _world_apply(world, 'predator', 'carrion', 'reciprocal')
