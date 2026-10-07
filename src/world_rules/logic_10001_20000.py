@@ -13436,3 +13436,6 @@ def logic_14457(world):
 
 def logic_14458(world):
     _world_apply(world, 'herbivore', 'nutrients', 'gap')
+
+def logic_14459(world):
+    _world_apply(world, 'herbivore', 'decomposition_rate', 'direct')
