@@ -13217,3 +13217,6 @@ def logic_8472(agents, world):
 
 def logic_8473(agents, world):
     _agent_apply(world, agents, 'ice', 'strategy_score', 'direct')
+
+def logic_8474(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'strategy_score', 'direct')
