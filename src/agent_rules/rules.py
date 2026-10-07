@@ -47090,3 +47090,10 @@ def logic_37105(agents, world):
     src = _local(world, agents, 'evaporation')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.alertness = _delta(agents.alertness, delta)
+
+
+def logic_37106(agents, world):
+    """Environmental detritus shapes agent food_access (direct)."""
+    src = _local(world, agents, 'detritus')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.food_access = _delta(agents.food_access, delta)
