@@ -5423,3 +5423,6 @@ def logic_19786(agents, world):
 
 def logic_19787(agents, world):
     _agent_apply(world, agents, 'sharing_score', 'thirst', 'direct')
+
+def logic_19788(agents, world):
+    _agent_apply(world, agents, 'strategy_persistence', 'thirst', 'direct')
