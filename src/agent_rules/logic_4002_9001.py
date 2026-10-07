@@ -3143,3 +3143,6 @@ def logic_5114(agents, world):
 
 def logic_5115(agents, world):
     _agent_apply(world, agents, 'help_received', 'exploration_drive', 'direct')
+
+def logic_5116(agents, world):
+    _agent_apply(world, agents, 'help_given', 'exploration_drive', 'direct')
