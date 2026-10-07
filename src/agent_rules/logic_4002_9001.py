@@ -10160,3 +10160,6 @@ def logic_7453(agents, world):
 
 def logic_7454(agents, world):
     _agent_apply(world, agents, 'evaporation', 'social_need', 'direct')
+
+def logic_7455(agents, world):
+    _agent_apply(world, agents, 'detritus', 'social_need', 'direct')
