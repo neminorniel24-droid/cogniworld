@@ -6974,3 +6974,6 @@ def logic_12303(world):
 
 def logic_12304(world):
     _world_apply(world, 'wind_x', 'oxygen', 'direct')
+
+def logic_12305(world):
+    _world_apply(world, 'wind_x', 'co2', 'pulse')
