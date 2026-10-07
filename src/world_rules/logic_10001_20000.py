@@ -14990,3 +14990,6 @@ def logic_14975(world):
 
 def logic_14976(world):
     _world_apply(world, 'pathogen_load', 'cloud', 'square')
+
+def logic_14977(world):
+    _world_apply(world, 'pathogen_load', 'rain', 'saturation')
