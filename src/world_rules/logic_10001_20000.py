@@ -3179,3 +3179,6 @@ def logic_11038(world):
 
 def logic_11039(world):
     _world_apply(world, 'pathogen_load', 'soil_depth', 'pulse')
+
+def logic_11040(world):
+    _world_apply(world, 'pathogen_load', 'root_density', 'saturation')
