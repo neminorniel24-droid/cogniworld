@@ -12557,3 +12557,6 @@ def logic_8252(agents, world):
 
 def logic_8253(agents, world):
     _agent_apply(world, agents, 'cloud', 'last_interaction', 'direct')
+
+def logic_8254(agents, world):
+    _agent_apply(world, agents, 'rain', 'last_interaction', 'direct')
