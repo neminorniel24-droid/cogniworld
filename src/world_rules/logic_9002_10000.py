@@ -165,3 +165,6 @@ def logic_9030(world):
 
 def logic_9031(world):
     _world_apply(world, 'decomposition_rate', 'nutrients', 'threshold')
+
+def logic_9032(world):
+    _world_apply(world, 'rain', 'runoff', 'saturation')
