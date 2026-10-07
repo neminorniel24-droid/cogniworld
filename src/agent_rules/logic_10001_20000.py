@@ -5900,3 +5900,6 @@ def logic_19945(agents, world):
 
 def logic_19946(agents, world):
     _agent_apply(world, agents, 'carrion', 'fear', 'inverse')
+
+def logic_19947(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'fear', 'inverse')
