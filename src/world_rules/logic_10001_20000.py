@@ -22061,3 +22061,6 @@ def logic_17332(world):
 
 def logic_17333(world):
     _world_apply(world, 'fire_risk', 'root_density', 'saturation')
+
+def logic_17334(world):
+    _world_apply(world, 'fire_risk', 'wetland', 'gap')
