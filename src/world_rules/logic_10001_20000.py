@@ -19430,3 +19430,6 @@ def logic_16455(world):
 
 def logic_16456(world):
     _world_apply(world, 'herbivore', 'ash', 'square')
+
+def logic_16457(world):
+    _world_apply(world, 'herbivore', 'snowpack', 'saturation')
