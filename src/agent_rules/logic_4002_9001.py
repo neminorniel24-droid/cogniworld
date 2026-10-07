@@ -1838,3 +1838,6 @@ def logic_4679(agents, world):
 
 def logic_4680(agents, world):
     _agent_apply(world, agents, 'groundwater', 'alertness', 'direct')
+
+def logic_4681(agents, world):
+    _agent_apply(world, agents, 'sediment', 'alertness', 'direct')
