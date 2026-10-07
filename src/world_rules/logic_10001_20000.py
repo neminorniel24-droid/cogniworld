@@ -21938,3 +21938,6 @@ def logic_17291(world):
 
 def logic_17292(world):
     _world_apply(world, 'carbon_storage', 'ash', 'pulse')
+
+def logic_17293(world):
+    _world_apply(world, 'carbon_storage', 'snowpack', 'saturation')
