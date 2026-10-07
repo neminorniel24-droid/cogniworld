@@ -1503,3 +1503,6 @@ def logic_9675(agents, world):
 
 def logic_9676(agents, world):
     _agent_apply(world, agents, 'payoff', 'pathogen_risk', 'direct')
+
+def logic_9677(agents, world):
+    _agent_apply(world, agents, 'temperature', 'infection_risk', 'direct')
