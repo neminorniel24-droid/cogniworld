@@ -2633,3 +2633,6 @@ def logic_10856(world):
 
 def logic_10857(world):
     _world_apply(world, 'ice', 'detritus', 'saturation')
+
+def logic_10858(world):
+    _world_apply(world, 'ice', 'methane', 'gap')
