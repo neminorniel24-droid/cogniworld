@@ -287,3 +287,6 @@ def logic_4062(world):
 
 def logic_4063(world):
     _world_apply(world, 'co2', 'vegetation', 'threshold')
+
+def logic_4064(world):
+    _world_apply(world, 'methane', 'co2', 'saturation')
