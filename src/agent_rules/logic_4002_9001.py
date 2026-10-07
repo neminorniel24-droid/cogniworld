@@ -4235,3 +4235,6 @@ def logic_5478(agents, world):
 
 def logic_5479(agents, world):
     _agent_apply(world, agents, 'co2', 'reputation', 'direct')
+
+def logic_5480(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'reputation', 'direct')
