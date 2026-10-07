@@ -622,3 +622,4 @@
 - 20621: integrated cross-system causal rule
 - 20622: integrated cross-system causal rule
 - 20623: integrated cross-system causal rule
+- 20624: integrated cross-system causal rule
