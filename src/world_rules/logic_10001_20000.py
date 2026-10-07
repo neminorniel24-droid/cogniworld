@@ -21320,3 +21320,6 @@ def logic_17085(world):
 
 def logic_17086(world):
     _world_apply(world, 'erosion', 'surface_water', 'direct')
+
+def logic_17087(world):
+    _world_apply(world, 'erosion', 'humidity', 'square')
