@@ -15674,3 +15674,6 @@ def logic_15203(world):
 
 def logic_15204(world):
     _world_apply(world, 'root_density', 'herbivore', 'saturation')
+
+def logic_15205(world):
+    _world_apply(world, 'root_density', 'predator', 'gap')
