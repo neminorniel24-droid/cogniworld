@@ -2516,3 +2516,6 @@ def logic_4905(agents, world):
 
 def logic_4906(agents, world):
     _agent_apply(world, agents, 'social_need', 'metabolic_cost', 'direct')
+
+def logic_4907(agents, world):
+    _agent_apply(world, agents, 'cooperation', 'metabolic_cost', 'direct')
