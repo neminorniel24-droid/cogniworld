@@ -60887,3 +60887,10 @@ def logic_39076(agents, world):
     src = _local(world, agents, 'carrion')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.recovery = _delta(agents.recovery, delta)
+
+
+def logic_39077(agents, world):
+    """Environmental nutrients shapes agent stability (root)."""
+    src = _local(world, agents, 'nutrients')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.stability = _delta(agents.stability, delta)
