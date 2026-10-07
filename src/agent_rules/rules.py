@@ -31249,3 +31249,10 @@ def logic_34842(agents, world):
     src = _local(world, agents, 'herbivore')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.fear = _delta(agents.fear, delta)
+
+
+def logic_34843(agents, world):
+    """Environmental predator shapes agent wealth (inverse)."""
+    src = _local(world, agents, 'predator')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.wealth = _delta(agents.wealth, delta)
