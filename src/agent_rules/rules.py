@@ -35148,3 +35148,10 @@ def logic_35399(agents, world):
     src = _local(world, agents, 'oxygen')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.sharing_score = _delta(agents.sharing_score, delta)
+
+
+def logic_35400(agents, world):
+    """Environmental co2 shapes agent payoff (square)."""
+    src = _local(world, agents, 'co2')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.payoff = _delta(agents.payoff, delta)
