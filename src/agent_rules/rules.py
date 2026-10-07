@@ -43513,3 +43513,10 @@ def logic_36594(agents, world):
     src = _local(world, agents, 'decomposition_rate')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.reproduction_score = _delta(agents.reproduction_score, delta)
+
+
+def logic_36595(agents, world):
+    """Environmental oxygen shapes agent self_preservation (inverse)."""
+    src = _local(world, agents, 'oxygen')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.self_preservation = _delta(agents.self_preservation, delta)
