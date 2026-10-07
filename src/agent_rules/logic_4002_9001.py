@@ -5900,3 +5900,6 @@ def logic_6033(agents, world):
 
 def logic_6034(agents, world):
     _agent_apply(world, agents, 'root_density', 'group_stability', 'direct')
+
+def logic_6035(agents, world):
+    _agent_apply(world, agents, 'wetland', 'group_stability', 'direct')
