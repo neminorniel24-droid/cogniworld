@@ -8114,3 +8114,6 @@ def logic_12683(world):
 
 def logic_12684(world):
     _world_apply(world, 'decomposition_rate', 'surface_ice', 'saturation')
+
+def logic_12685(world):
+    _world_apply(world, 'oxygen', 'temperature', 'gap')
