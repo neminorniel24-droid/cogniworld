@@ -13661,3 +13661,6 @@ def logic_8620(agents, world):
 
 def logic_8621(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'competition_score', 'direct')
+
+def logic_8622(agents, world):
+    _agent_apply(world, agents, 'ash', 'competition_score', 'direct')
