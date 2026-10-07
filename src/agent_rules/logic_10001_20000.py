@@ -4034,3 +4034,6 @@ def logic_19323(agents, world):
 
 def logic_19324(agents, world):
     _agent_apply(world, agents, 'selfishness', 'defection_score', 'pulse')
+
+def logic_19325(agents, world):
+    _agent_apply(world, agents, 'generosity', 'defection_score', 'pulse')
