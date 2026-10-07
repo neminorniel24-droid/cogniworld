@@ -18650,3 +18650,6 @@ def logic_16195(world):
 
 def logic_16196(world):
     _world_apply(world, 'soil_moisture', 'salinity', 'gap')
+
+def logic_16197(world):
+    _world_apply(world, 'soil_moisture', 'algae', 'direct')
