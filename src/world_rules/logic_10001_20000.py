@@ -1964,3 +1964,6 @@ def logic_10633(world):
 
 def logic_10634(world):
     _world_apply(world, 'nutrients', 'photosynthesis_factor', 'pulse')
+
+def logic_10635(world):
+    _world_apply(world, 'nutrients', 'ice', 'saturation')
