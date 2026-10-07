@@ -9974,3 +9974,6 @@ def logic_13303(world):
 
 def logic_13304(world):
     _world_apply(world, 'carbon_storage', 'cloud', 'direct')
+
+def logic_13305(world):
+    _world_apply(world, 'carbon_storage', 'rain', 'pulse')
