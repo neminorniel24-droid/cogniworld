@@ -1913,3 +1913,6 @@ def logic_10616(world):
 
 def logic_10617(world):
     _world_apply(world, 'nutrients', 'temperature', 'saturation')
+
+def logic_10618(world):
+    _world_apply(world, 'nutrients', 'surface_water', 'gap')
