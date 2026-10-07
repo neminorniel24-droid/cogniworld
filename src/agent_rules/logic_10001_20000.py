@@ -2591,3 +2591,6 @@ def logic_18842(agents, world):
 
 def logic_18843(agents, world):
     _agent_apply(world, agents, 'nutrients', 'defection_threshold', 'feedback')
+
+def logic_18844(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'defection_threshold', 'feedback')
