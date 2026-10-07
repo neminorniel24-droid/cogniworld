@@ -8510,3 +8510,6 @@ def logic_12815(world):
 
 def logic_12816(world):
     _world_apply(world, 'photosynthesis_factor', 'surface_ice', 'square')
+
+def logic_12817(world):
+    _world_apply(world, 'ice', 'temperature', 'saturation')
