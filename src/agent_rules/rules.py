@@ -67229,3 +67229,10 @@ def logic_39982(agents, world):
     src = _local(world, agents, 'temperature')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.generosity = _delta(agents.generosity, delta)
+
+
+def logic_39983(agents, world):
+    """Environmental temperature_target shapes agent empathy (inverse)."""
+    src = _local(world, agents, 'temperature_target')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.empathy = _delta(agents.empathy, delta)
