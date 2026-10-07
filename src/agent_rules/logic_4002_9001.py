@@ -5660,3 +5660,6 @@ def logic_5953(agents, world):
 
 def logic_5954(agents, world):
     _agent_apply(world, agents, 'oxygen', 'territoriality', 'direct')
+
+def logic_5955(agents, world):
+    _agent_apply(world, agents, 'co2', 'territoriality', 'direct')
