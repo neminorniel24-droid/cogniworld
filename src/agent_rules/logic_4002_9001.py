@@ -5705,3 +5705,6 @@ def logic_5968(agents, world):
 
 def logic_5969(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'territoriality', 'direct')
+
+def logic_5970(agents, world):
+    _agent_apply(world, agents, 'ash', 'territoriality', 'direct')
