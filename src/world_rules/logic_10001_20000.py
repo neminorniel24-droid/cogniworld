@@ -22169,3 +22169,6 @@ def logic_17368(world):
 
 def logic_17369(world):
     _world_apply(world, 'ash', 'evaporation', 'gap')
+
+def logic_17370(world):
+    _world_apply(world, 'ash', 'detritus', 'direct')
