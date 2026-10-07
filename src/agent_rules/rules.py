@@ -35603,3 +35603,10 @@ def logic_35464(agents, world):
     src = _local(world, agents, 'sediment')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.hunger = _delta(agents.hunger, delta)
+
+
+def logic_35465(agents, world):
+    """Environmental salinity shapes agent fear (root)."""
+    src = _local(world, agents, 'salinity')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.fear = _delta(agents.fear, delta)
