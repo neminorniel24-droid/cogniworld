@@ -6248,3 +6248,6 @@ def logic_12061(world):
 
 def logic_12062(world):
     _world_apply(world, 'surface_water', 'organic_matter', 'saturation')
+
+def logic_12063(world):
+    _world_apply(world, 'surface_water', 'deadwood', 'gap')
