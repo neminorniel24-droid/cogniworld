@@ -11666,3 +11666,6 @@ def logic_13867(world):
 
 def logic_13868(world):
     _world_apply(world, 'seed_bank', 'deadwood', 'direct')
+
+def logic_13869(world):
+    _world_apply(world, 'seed_bank', 'pollinators', 'square')
