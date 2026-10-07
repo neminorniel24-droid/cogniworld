@@ -63834,3 +63834,10 @@ def logic_39497(agents, world):
     src = _local(world, agents, 'evaporation')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.reputation = _delta(agents.reputation, delta)
+
+
+def logic_39498(agents, world):
+    """Environmental detritus shapes agent territoriality (direct)."""
+    src = _local(world, agents, 'detritus')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.territoriality = _delta(agents.territoriality, delta)
