@@ -5915,3 +5915,6 @@ def logic_6038(agents, world):
 
 def logic_6039(agents, world):
     _agent_apply(world, agents, 'snowpack', 'group_stability', 'direct')
+
+def logic_6040(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'group_stability', 'direct')
