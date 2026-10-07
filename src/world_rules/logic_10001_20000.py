@@ -11123,3 +11123,6 @@ def logic_13686(world):
 
 def logic_13687(world):
     _world_apply(world, 'organic_matter', 'groundwater', 'square')
+
+def logic_13688(world):
+    _world_apply(world, 'organic_matter', 'sediment', 'pulse')
