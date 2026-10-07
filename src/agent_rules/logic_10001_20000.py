@@ -548,3 +548,6 @@ def logic_18161(agents, world):
 
 def logic_18162(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'alertness', 'inverse')
+
+def logic_18163(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'alertness', 'inverse')
