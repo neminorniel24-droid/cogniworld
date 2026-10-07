@@ -1356,3 +1356,6 @@ def logic_9626(agents, world):
 
 def logic_9627(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'pathogen_risk', 'direct')
+
+def logic_9628(agents, world):
+    _agent_apply(world, agents, 'ice', 'pathogen_risk', 'direct')
