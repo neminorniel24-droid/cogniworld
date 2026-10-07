@@ -788,3 +788,6 @@ def logic_18241(agents, world):
 
 def logic_18242(agents, world):
     _agent_apply(world, agents, 'cooperation_history', 'reproduction_drive', 'square')
+
+def logic_18243(agents, world):
+    _agent_apply(world, agents, 'help_received', 'reproduction_drive', 'square')
