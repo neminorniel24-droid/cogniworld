@@ -14693,3 +14693,6 @@ def logic_14876(world):
 
 def logic_14877(world):
     _world_apply(world, 'evaporation', 'algae', 'direct')
+
+def logic_14878(world):
+    _world_apply(world, 'evaporation', 'organic_matter', 'square')
