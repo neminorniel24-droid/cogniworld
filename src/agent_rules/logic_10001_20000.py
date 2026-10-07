@@ -4088,3 +4088,6 @@ def logic_19341(agents, world):
 
 def logic_19342(agents, world):
     _agent_apply(world, agents, 'neighbor_energy_gap', 'reciprocity_score', 'threshold')
+
+def logic_19343(agents, world):
+    _agent_apply(world, agents, 'neighbor_health_gap', 'reciprocity_score', 'threshold')
