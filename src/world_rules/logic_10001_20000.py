@@ -6122,3 +6122,6 @@ def logic_12019(world):
 
 def logic_12020(world):
     _world_apply(world, 'temperature', 'pollinators', 'square')
+
+def logic_12021(world):
+    _world_apply(world, 'temperature', 'flowers', 'pulse')
