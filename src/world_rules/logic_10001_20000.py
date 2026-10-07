@@ -21506,3 +21506,6 @@ def logic_17147(world):
 
 def logic_17148(world):
     _world_apply(world, 'soil_depth', 'ice', 'direct')
+
+def logic_17149(world):
+    _world_apply(world, 'soil_depth', 'evaporation', 'square')
