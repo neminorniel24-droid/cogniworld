@@ -12560,3 +12560,6 @@ def logic_8253(agents, world):
 
 def logic_8254(agents, world):
     _agent_apply(world, agents, 'rain', 'last_interaction', 'direct')
+
+def logic_8255(agents, world):
+    _agent_apply(world, agents, 'soil_moisture', 'last_interaction', 'direct')
