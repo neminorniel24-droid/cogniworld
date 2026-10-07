@@ -5978,3 +5978,6 @@ def logic_19971(agents, world):
 
 def logic_19972(agents, world):
     _agent_apply(world, agents, 'deadwood', 'recovery', 'square')
+
+def logic_19973(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'metabolic_cost', 'square')
