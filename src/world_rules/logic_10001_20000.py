@@ -4868,3 +4868,6 @@ def logic_11601(world):
 
 def logic_11602(world):
     _world_apply(world, 'salinity', 'co2', 'square')
+
+def logic_11603(world):
+    _world_apply(world, 'salinity', 'photosynthesis_factor', 'pulse')
