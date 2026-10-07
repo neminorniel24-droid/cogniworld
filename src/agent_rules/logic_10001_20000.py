@@ -5129,3 +5129,6 @@ def logic_19688(agents, world):
 
 def logic_19689(agents, world):
     _agent_apply(world, agents, 'ash', 'memory_update', 'gap')
+
+def logic_19690(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'memory_update', 'gap')
