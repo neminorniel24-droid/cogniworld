@@ -9479,3 +9479,6 @@ def logic_13138(world):
 
 def logic_13139(world):
     _world_apply(world, 'erosion', 'nutrients', 'direct')
+
+def logic_13140(world):
+    _world_apply(world, 'erosion', 'decomposition_rate', 'square')
