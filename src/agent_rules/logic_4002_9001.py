@@ -12662,3 +12662,6 @@ def logic_8287(agents, world):
 
 def logic_8288(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'last_interaction', 'direct')
+
+def logic_8289(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'last_interaction', 'direct')
