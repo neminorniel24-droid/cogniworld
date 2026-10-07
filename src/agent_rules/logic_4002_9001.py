@@ -1232,3 +1232,6 @@ def logic_4477(agents, world):
 
 def logic_4478(agents, world):
     _agent_apply(world, agents, 'salinity', 'dehydration', 'direct')
+
+def logic_4479(agents, world):
+    _agent_apply(world, agents, 'algae', 'dehydration', 'direct')
