@@ -1382,3 +1382,6 @@ def logic_10439(world):
 
 def logic_10440(world):
     _world_apply(world, 'vegetation', 'surface_ice', 'saturation')
+
+def logic_10441(world):
+    _world_apply(world, 'biomass', 'temperature', 'direct')
