@@ -17084,3 +17084,6 @@ def logic_15673(world):
 
 def logic_15674(world):
     _world_apply(world, 'organic_matter', 'seed_bank', 'pulse')
+
+def logic_15675(world):
+    _world_apply(world, 'organic_matter', 'soil_carbon', 'saturation')
