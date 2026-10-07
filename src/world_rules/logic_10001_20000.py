@@ -10085,3 +10085,6 @@ def logic_13340(world):
 
 def logic_13341(world):
     _world_apply(world, 'carbon_storage', 'flowers', 'pulse')
+
+def logic_13342(world):
+    _world_apply(world, 'carbon_storage', 'seed_bank', 'saturation')
