@@ -291,3 +291,6 @@ def logic_9072(world):
 
 def logic_9073(world):
     _world_apply(world, 'temperature', 'predator', 'reciprocal')
+
+def logic_9074(world):
+    _world_apply(world, 'temperature', 'carrion', 'direct')
