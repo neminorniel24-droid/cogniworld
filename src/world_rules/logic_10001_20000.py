@@ -17903,3 +17903,6 @@ def logic_15946(world):
 
 def logic_15947(world):
     _world_apply(world, 'temperature', 'wind_x', 'gap')
+
+def logic_15948(world):
+    _world_apply(world, 'temperature', 'wind_y', 'direct')
