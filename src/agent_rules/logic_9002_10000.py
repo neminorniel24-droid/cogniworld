@@ -699,3 +699,6 @@ def logic_9407(agents, world):
 
 def logic_9408(agents, world):
     _agent_apply(world, agents, 'cloud', 'health', 'direct')
+
+def logic_9409(agents, world):
+    _agent_apply(world, agents, 'rain', 'health', 'direct')
