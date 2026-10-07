@@ -23855,3 +23855,6 @@ def logic_17930(world):
 
 def logic_17931(world):
     _world_apply(world, 'temperature', 'herbivore', 'square')
+
+def logic_17932(world):
+    _world_apply(world, 'temperature', 'predator', 'pulse')
