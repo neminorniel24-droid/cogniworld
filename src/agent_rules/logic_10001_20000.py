@@ -4586,3 +4586,6 @@ def logic_19507(agents, world):
 
 def logic_19508(agents, world):
     _agent_apply(world, agents, 'defense_score', 'attack_success', 'saturation')
+
+def logic_19509(agents, world):
+    _agent_apply(world, agents, 'migration_score', 'attack_success', 'saturation')
