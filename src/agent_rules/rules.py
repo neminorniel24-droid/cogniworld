@@ -39257,3 +39257,10 @@ def logic_35986(agents, world):
     src = _local(world, agents, 'soil_moisture')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.infection_risk = _delta(agents.infection_risk, delta)
+
+
+def logic_35987(agents, world):
+    """Environmental runoff shapes agent exploration_drive (inverse)."""
+    src = _local(world, agents, 'runoff')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.exploration_drive = _delta(agents.exploration_drive, delta)
