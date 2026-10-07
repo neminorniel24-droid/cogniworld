@@ -9464,3 +9464,6 @@ def logic_13133(world):
 
 def logic_13134(world):
     _world_apply(world, 'erosion', 'vegetation', 'gap')
+
+def logic_13135(world):
+    _world_apply(world, 'erosion', 'biomass', 'direct')
