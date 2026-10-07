@@ -479,3 +479,6 @@ def logic_4226(agents, world):
 
 def logic_4227(agents, world):
     _agent_apply(world, agents, 'cooperation', 'thirst', 'direct')
+
+def logic_4228(agents, world):
+    _agent_apply(world, agents, 'defection', 'thirst', 'direct')
