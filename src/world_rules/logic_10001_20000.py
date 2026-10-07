@@ -18125,3 +18125,6 @@ def logic_16020(world):
 
 def logic_16021(world):
     _world_apply(world, 'surface_water', 'algae', 'pulse')
+
+def logic_16022(world):
+    _world_apply(world, 'surface_water', 'organic_matter', 'saturation')
