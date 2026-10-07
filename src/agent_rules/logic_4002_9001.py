@@ -11789,3 +11789,6 @@ def logic_7996(agents, world):
 
 def logic_7997(agents, world):
     _agent_apply(world, agents, 'ice', 'local_density', 'direct')
+
+def logic_7998(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'local_density', 'direct')
