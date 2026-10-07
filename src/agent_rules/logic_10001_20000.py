@@ -3905,3 +3905,6 @@ def logic_19280(agents, world):
 
 def logic_19281(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'strategy_score', 'pulse')
+
+def logic_19282(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'strategy_score', 'pulse')
