@@ -1682,3 +1682,6 @@ def logic_18539(agents, world):
 
 def logic_18540(agents, world):
     _agent_apply(world, agents, 'attack_success', 'territoriality', 'saturation')
+
+def logic_18541(agents, world):
+    _agent_apply(world, agents, 'retaliation_risk', 'territoriality', 'saturation')
