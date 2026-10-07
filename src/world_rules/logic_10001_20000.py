@@ -16814,3 +16814,6 @@ def logic_15583(world):
 
 def logic_15584(world):
     _world_apply(world, 'salinity', 'pollinators', 'direct')
+
+def logic_15585(world):
+    _world_apply(world, 'salinity', 'flowers', 'pulse')
