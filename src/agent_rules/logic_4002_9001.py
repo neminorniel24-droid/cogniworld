@@ -14042,3 +14042,6 @@ def logic_8747(agents, world):
 
 def logic_8748(agents, world):
     _agent_apply(world, agents, 'methane', 'reciprocity_score', 'direct')
+
+def logic_8749(agents, world):
+    _agent_apply(world, agents, 'pathogen_load', 'reciprocity_score', 'direct')
