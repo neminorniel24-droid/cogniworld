@@ -13481,3 +13481,6 @@ def logic_8560(agents, world):
 
 def logic_8561(agents, world):
     _agent_apply(world, agents, 'deadwood', 'cooperation_score', 'direct')
+
+def logic_8562(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'cooperation_score', 'direct')
