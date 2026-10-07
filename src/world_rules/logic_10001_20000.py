@@ -7469,3 +7469,6 @@ def logic_12468(world):
 
 def logic_12469(world):
     _world_apply(world, 'herbivore', 'rain', 'square')
+
+def logic_12470(world):
+    _world_apply(world, 'herbivore', 'soil_moisture', 'pulse')
