@@ -1901,3 +1901,6 @@ def logic_18612(agents, world):
 
 def logic_18613(agents, world):
     _agent_apply(world, agents, 'metabolic_cost', 'social_avoidance', 'saturation')
+
+def logic_18614(agents, world):
+    _agent_apply(world, agents, 'reproduction_drive', 'social_avoidance', 'saturation')
