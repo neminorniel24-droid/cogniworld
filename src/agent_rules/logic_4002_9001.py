@@ -9269,3 +9269,6 @@ def logic_7156(agents, world):
 
 def logic_7157(agents, world):
     _agent_apply(world, agents, 'local_density', 'shelter_need', 'direct')
+
+def logic_7158(agents, world):
+    _agent_apply(world, agents, 'strategy_score', 'shelter_need', 'direct')
