@@ -5246,3 +5246,6 @@ def logic_19727(agents, world):
 
 def logic_19728(agents, world):
     _agent_apply(world, agents, 'cooperation', 'self_preservation', 'feedback')
+
+def logic_19729(agents, world):
+    _agent_apply(world, agents, 'defection', 'self_preservation', 'feedback')
