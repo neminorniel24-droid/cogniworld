@@ -1287,3 +1287,6 @@ def logic_9603(agents, world):
 
 def logic_9604(agents, world):
     _agent_apply(world, agents, 'local_density', 'dehydration', 'direct')
+
+def logic_9605(agents, world):
+    _agent_apply(world, agents, 'strategy_score', 'dehydration', 'direct')
