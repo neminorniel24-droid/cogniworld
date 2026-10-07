@@ -980,3 +980,6 @@ def logic_10305(world):
 
 def logic_10306(world):
     _world_apply(world, 'runoff', 'seed_bank', 'saturation')
+
+def logic_10307(world):
+    _world_apply(world, 'runoff', 'soil_carbon', 'gap')
