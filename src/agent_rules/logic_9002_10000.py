@@ -1380,3 +1380,6 @@ def logic_9634(agents, world):
 
 def logic_9635(agents, world):
     _agent_apply(world, agents, 'erosion', 'pathogen_risk', 'direct')
+
+def logic_9636(agents, world):
+    _agent_apply(world, agents, 'soil_depth', 'pathogen_risk', 'direct')
