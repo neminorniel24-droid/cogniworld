@@ -14123,3 +14123,6 @@ def logic_14686(world):
 
 def logic_14687(world):
     _world_apply(world, 'oxygen', 'pathogen_load', 'square')
+
+def logic_14688(world):
+    _world_apply(world, 'oxygen', 'biodiversity', 'pulse')
