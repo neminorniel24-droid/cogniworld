@@ -4814,3 +4814,6 @@ def logic_5671(agents, world):
 
 def logic_5672(agents, world):
     _agent_apply(world, agents, 'runoff', 'defection', 'direct')
+
+def logic_5673(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'defection', 'direct')
