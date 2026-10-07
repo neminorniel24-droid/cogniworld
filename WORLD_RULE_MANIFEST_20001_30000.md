@@ -1047,3 +1047,4 @@
 - 21046: integrated cross-system causal rule
 - 21047: integrated cross-system causal rule
 - 21048: integrated cross-system causal rule
+- 21049: integrated cross-system causal rule
