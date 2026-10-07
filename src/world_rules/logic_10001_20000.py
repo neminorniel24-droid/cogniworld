@@ -11216,3 +11216,6 @@ def logic_13717(world):
 
 def logic_13718(world):
     _world_apply(world, 'deadwood', 'detritus', 'square')
+
+def logic_13719(world):
+    _world_apply(world, 'deadwood', 'methane', 'pulse')
