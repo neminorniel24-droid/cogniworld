@@ -12311,3 +12311,6 @@ def logic_8170(agents, world):
 
 def logic_8171(agents, world):
     _agent_apply(world, agents, 'cooperation', 'last_energy_delta', 'direct')
+
+def logic_8172(agents, world):
+    _agent_apply(world, agents, 'defection', 'last_energy_delta', 'direct')
