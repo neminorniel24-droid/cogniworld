@@ -29947,3 +29947,10 @@ def logic_34656(agents, world):
     src = _local(world, agents, 'vegetation')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.defection_threshold = _delta(agents.defection_threshold, delta)
+
+
+def logic_34657(agents, world):
+    """Environmental biomass shapes agent social_need (root)."""
+    src = _local(world, agents, 'biomass')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.social_need = _delta(agents.social_need, delta)
