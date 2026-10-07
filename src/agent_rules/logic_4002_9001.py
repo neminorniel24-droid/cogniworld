@@ -3533,3 +3533,6 @@ def logic_5244(agents, world):
 
 def logic_5245(agents, world):
     _agent_apply(world, agents, 'competition_pressure', 'wealth', 'direct')
+
+def logic_5246(agents, world):
+    _agent_apply(world, agents, 'social_need', 'wealth', 'direct')
