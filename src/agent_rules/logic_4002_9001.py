@@ -10742,3 +10742,6 @@ def logic_7647(agents, world):
 
 def logic_7648(agents, world):
     _agent_apply(world, agents, 'biomass', 'betrayal_memory', 'direct')
+
+def logic_7649(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'betrayal_memory', 'direct')
