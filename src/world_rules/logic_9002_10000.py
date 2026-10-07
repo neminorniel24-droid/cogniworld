@@ -426,3 +426,6 @@ def logic_9117(world):
 
 def logic_9118(world):
     _world_apply(world, 'surface_water', 'ice', 'pulse')
+
+def logic_9119(world):
+    _world_apply(world, 'surface_water', 'evaporation', 'threshold')
