@@ -23627,3 +23627,6 @@ def logic_17854(world):
 
 def logic_17855(world):
     _world_apply(world, 'soil_carbon', 'methane', 'direct')
+
+def logic_17856(world):
+    _world_apply(world, 'soil_carbon', 'pathogen_load', 'square')
