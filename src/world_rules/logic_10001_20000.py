@@ -6185,3 +6185,6 @@ def logic_12040(world):
 
 def logic_12041(world):
     _world_apply(world, 'surface_water', 'co2', 'direct')
+
+def logic_12042(world):
+    _world_apply(world, 'surface_water', 'photosynthesis_factor', 'square')
