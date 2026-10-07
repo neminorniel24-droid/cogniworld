@@ -7748,3 +7748,6 @@ def logic_12561(world):
 
 def logic_12562(world):
     _world_apply(world, 'carrion', 'vegetation', 'square')
+
+def logic_12563(world):
+    _world_apply(world, 'carrion', 'biomass', 'pulse')
