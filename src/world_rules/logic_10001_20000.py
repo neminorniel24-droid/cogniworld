@@ -8651,3 +8651,6 @@ def logic_12862(world):
 
 def logic_12863(world):
     _world_apply(world, 'evaporation', 'humidity', 'gap')
+
+def logic_12864(world):
+    _world_apply(world, 'evaporation', 'cloud', 'direct')
