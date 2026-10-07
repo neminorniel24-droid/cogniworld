@@ -2873,3 +2873,6 @@ def logic_5024(agents, world):
 
 def logic_5025(agents, world):
     _agent_apply(world, agents, 'deadwood', 'migration_drive', 'direct')
+
+def logic_5026(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'migration_drive', 'direct')
