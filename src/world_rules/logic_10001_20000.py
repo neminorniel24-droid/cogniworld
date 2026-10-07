@@ -18578,3 +18578,6 @@ def logic_16171(world):
 
 def logic_16172(world):
     _world_apply(world, 'soil_moisture', 'predator', 'pulse')
+
+def logic_16173(world):
+    _world_apply(world, 'soil_moisture', 'carrion', 'saturation')
