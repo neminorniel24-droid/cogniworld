@@ -52088,3 +52088,10 @@ def logic_37819(agents, world):
     src = _local(world, agents, 'surface_ice')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.cooperation = _delta(agents.cooperation, delta)
+
+
+def logic_37820(agents, world):
+    """Environmental temperature shapes agent sharing_capacity (square)."""
+    src = _local(world, agents, 'temperature')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.sharing_capacity = _delta(agents.sharing_capacity, delta)
