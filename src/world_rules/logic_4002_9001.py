@@ -284,3 +284,6 @@ def logic_4061(world):
 
 def logic_4062(world):
     _world_apply(world, 'photosynthesis_factor', 'oxygen', 'pulse')
+
+def logic_4063(world):
+    _world_apply(world, 'co2', 'vegetation', 'threshold')
