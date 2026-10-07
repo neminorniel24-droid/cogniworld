@@ -4298,3 +4298,6 @@ def logic_19411(agents, world):
 
 def logic_19412(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'exploration_score', 'threshold')
+
+def logic_19413(agents, world):
+    _agent_apply(world, agents, 'ash', 'exploration_score', 'threshold')
