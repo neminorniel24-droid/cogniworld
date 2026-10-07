@@ -11369,3 +11369,6 @@ def logic_13768(world):
 
 def logic_13769(world):
     _world_apply(world, 'pollinators', 'root_density', 'gap')
+
+def logic_13770(world):
+    _world_apply(world, 'pollinators', 'wetland', 'direct')
