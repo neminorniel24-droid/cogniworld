@@ -276,3 +276,6 @@ def logic_9067(world):
 
 def logic_9068(world):
     _world_apply(world, 'temperature', 'wind_x', 'square')
+
+def logic_9069(world):
+    _world_apply(world, 'temperature', 'wind_y', 'sqrt')
