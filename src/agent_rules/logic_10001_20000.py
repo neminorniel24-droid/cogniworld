@@ -3611,3 +3611,6 @@ def logic_19182(agents, world):
 
 def logic_19183(agents, world):
     _agent_apply(world, agents, 'sharing_capacity', 'last_energy_delta', 'sqrt')
+
+def logic_19184(agents, world):
+    _agent_apply(world, agents, 'help_drive', 'last_food', 'sqrt')
