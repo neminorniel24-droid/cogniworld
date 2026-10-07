@@ -33979,3 +33979,10 @@ def logic_35232(agents, world):
     src = _local(world, agents, 'snowpack')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.risk_score = _delta(agents.risk_score, delta)
+
+
+def logic_35233(agents, world):
+    """Environmental groundwater shapes agent attack_success (root)."""
+    src = _local(world, agents, 'groundwater')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.attack_success = _delta(agents.attack_success, delta)
