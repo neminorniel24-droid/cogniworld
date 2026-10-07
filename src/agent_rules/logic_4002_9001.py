@@ -3686,3 +3686,6 @@ def logic_5295(agents, world):
 
 def logic_5296(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'stability', 'direct')
+
+def logic_5297(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'stability', 'direct')
