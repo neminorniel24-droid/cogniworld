@@ -26244,3 +26244,10 @@ def logic_34127(agents, world):
     src = _local(world, agents, 'ash')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.retaliation_risk = _delta(agents.retaliation_risk, delta)
+
+
+def logic_34128(agents, world):
+    """Environmental snowpack shapes agent learning_rate (square)."""
+    src = _local(world, agents, 'snowpack')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.learning_rate = _delta(agents.learning_rate, delta)
