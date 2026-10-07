@@ -11150,3 +11150,6 @@ def logic_13695(world):
 
 def logic_13696(world):
     _world_apply(world, 'organic_matter', 'surface_ice', 'square')
+
+def logic_13697(world):
+    _world_apply(world, 'deadwood', 'temperature', 'saturation')
