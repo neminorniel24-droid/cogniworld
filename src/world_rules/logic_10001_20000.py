@@ -15590,3 +15590,6 @@ def logic_15175(world):
 
 def logic_15176(world):
     _world_apply(world, 'soil_depth', 'root_density', 'square')
+
+def logic_15177(world):
+    _world_apply(world, 'soil_depth', 'wetland', 'saturation')
