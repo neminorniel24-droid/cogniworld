@@ -170,3 +170,6 @@ def logic_10035(world):
 
 def logic_10036(world):
     _world_apply(world, 'temperature', 'salinity', 'gap')
+
+def logic_10037(world):
+    _world_apply(world, 'temperature', 'algae', 'direct')
