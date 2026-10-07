@@ -5492,3 +5492,6 @@ def logic_11809(world):
 
 def logic_11810(world):
     _world_apply(world, 'flowers', 'soil_moisture', 'direct')
+
+def logic_11811(world):
+    _world_apply(world, 'flowers', 'runoff', 'square')
