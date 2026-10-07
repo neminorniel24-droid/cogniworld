@@ -12776,3 +12776,6 @@ def logic_14237(world):
 
 def logic_14238(world):
     _world_apply(world, 'runoff', 'nutrients', 'square')
+
+def logic_14239(world):
+    _world_apply(world, 'runoff', 'decomposition_rate', 'pulse')
