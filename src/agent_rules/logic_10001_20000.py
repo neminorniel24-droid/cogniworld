@@ -1766,3 +1766,6 @@ def logic_18567(agents, world):
 
 def logic_18568(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'group_stability', 'saturation')
+
+def logic_18569(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'group_stability', 'saturation')
