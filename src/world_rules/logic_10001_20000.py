@@ -21383,3 +21383,6 @@ def logic_17106(world):
 
 def logic_17107(world):
     _world_apply(world, 'erosion', 'methane', 'gap')
+
+def logic_17108(world):
+    _world_apply(world, 'erosion', 'pathogen_load', 'direct')
