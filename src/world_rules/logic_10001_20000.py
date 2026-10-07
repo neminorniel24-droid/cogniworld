@@ -15812,3 +15812,6 @@ def logic_15249(world):
 
 def logic_15250(world):
     _world_apply(world, 'wetland', 'carrion', 'direct')
+
+def logic_15251(world):
+    _world_apply(world, 'wetland', 'nutrients', 'square')
