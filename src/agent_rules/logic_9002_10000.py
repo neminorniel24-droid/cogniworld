@@ -1983,3 +1983,6 @@ def logic_9835(agents, world):
 
 def logic_9836(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'fear', 'direct')
+
+def logic_9837(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'fear', 'direct')
