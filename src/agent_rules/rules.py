@@ -57842,3 +57842,10 @@ def logic_38641(agents, world):
     src = _local(world, agents, 'organic_matter')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.reproduction_score = _delta(agents.reproduction_score, delta)
+
+
+def logic_38642(agents, world):
+    """Environmental deadwood shapes agent self_preservation (direct)."""
+    src = _local(world, agents, 'deadwood')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.self_preservation = _delta(agents.self_preservation, delta)
