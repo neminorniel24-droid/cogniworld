@@ -590,3 +590,6 @@ def logic_10175(world):
 
 def logic_10176(world):
     _world_apply(world, 'cloud', 'surface_ice', 'square')
+
+def logic_10177(world):
+    _world_apply(world, 'rain', 'temperature', 'saturation')
