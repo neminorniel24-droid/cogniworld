@@ -14420,3 +14420,6 @@ def logic_8873(agents, world):
 
 def logic_8874(agents, world):
     _agent_apply(world, agents, 'predator', 'safety_score', 'direct')
+
+def logic_8875(agents, world):
+    _agent_apply(world, agents, 'carrion', 'safety_score', 'direct')
