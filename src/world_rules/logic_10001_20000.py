@@ -3632,3 +3632,6 @@ def logic_11189(world):
 
 def logic_11190(world):
     _world_apply(world, 'soil_depth', 'surface_water', 'pulse')
+
+def logic_11191(world):
+    _world_apply(world, 'soil_depth', 'humidity', 'saturation')
