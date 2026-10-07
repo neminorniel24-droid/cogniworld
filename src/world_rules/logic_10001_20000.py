@@ -5198,3 +5198,6 @@ def logic_11711(world):
 
 def logic_11712(world):
     _world_apply(world, 'organic_matter', 'pollinators', 'gap')
+
+def logic_11713(world):
+    _world_apply(world, 'organic_matter', 'flowers', 'square')
