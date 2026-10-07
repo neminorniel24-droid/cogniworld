@@ -90,3 +90,6 @@ def logic_9005(world):
 
 def logic_9006(world):
     _world_apply(world, 'rain', 'surface_water', 'pulse')
+
+def logic_9007(world):
+    _world_apply(world, 'surface_water', 'soil_moisture', 'threshold')
