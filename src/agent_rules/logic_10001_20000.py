@@ -5141,3 +5141,6 @@ def logic_19692(agents, world):
 
 def logic_19693(agents, world):
     _agent_apply(world, agents, 'salinity', 'memory_update', 'feedback')
+
+def logic_19694(agents, world):
+    _agent_apply(world, agents, 'algae', 'memory_update', 'feedback')
