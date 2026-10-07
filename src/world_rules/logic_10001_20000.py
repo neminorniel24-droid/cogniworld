@@ -20765,3 +20765,6 @@ def logic_16900(world):
 
 def logic_16901(world):
     _world_apply(world, 'detritus', 'algae', 'pulse')
+
+def logic_16902(world):
+    _world_apply(world, 'detritus', 'organic_matter', 'saturation')
