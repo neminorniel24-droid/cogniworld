@@ -11786,3 +11786,6 @@ def logic_7995(agents, world):
 
 def logic_7996(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'local_density', 'direct')
+
+def logic_7997(agents, world):
+    _agent_apply(world, agents, 'ice', 'local_density', 'direct')
