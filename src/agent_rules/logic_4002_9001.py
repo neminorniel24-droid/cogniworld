@@ -12362,3 +12362,6 @@ def logic_8187(agents, world):
 
 def logic_8188(agents, world):
     _agent_apply(world, agents, 'runoff', 'last_food', 'direct')
+
+def logic_8189(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'last_food', 'direct')
