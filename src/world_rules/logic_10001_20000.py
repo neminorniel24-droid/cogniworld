@@ -4169,3 +4169,6 @@ def logic_11368(world):
 
 def logic_11369(world):
     _world_apply(world, 'fire_risk', 'rain', 'gap')
+
+def logic_11370(world):
+    _world_apply(world, 'fire_risk', 'soil_moisture', 'direct')
