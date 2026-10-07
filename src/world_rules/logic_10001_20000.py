@@ -2909,3 +2909,6 @@ def logic_10948(world):
 
 def logic_10949(world):
     _world_apply(world, 'detritus', 'habitat_stress', 'square')
+
+def logic_10950(world):
+    _world_apply(world, 'detritus', 'erosion', 'pulse')
