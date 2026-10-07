@@ -21677,3 +21677,6 @@ def logic_17204(world):
 
 def logic_17205(world):
     _world_apply(world, 'root_density', 'snowpack', 'gap')
+
+def logic_17206(world):
+    _world_apply(world, 'root_density', 'groundwater', 'direct')
