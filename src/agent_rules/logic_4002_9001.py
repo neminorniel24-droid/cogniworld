@@ -13280,3 +13280,6 @@ def logic_8493(agents, world):
 
 def logic_8494(agents, world):
     _agent_apply(world, agents, 'pollinators', 'strategy_score', 'direct')
+
+def logic_8495(agents, world):
+    _agent_apply(world, agents, 'flowers', 'strategy_score', 'direct')
