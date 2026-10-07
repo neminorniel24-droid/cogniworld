@@ -12713,3 +12713,6 @@ def logic_8304(agents, world):
 
 def logic_8305(agents, world):
     _agent_apply(world, agents, 'competition_pressure', 'last_interaction', 'direct')
+
+def logic_8306(agents, world):
+    _agent_apply(world, agents, 'social_need', 'last_interaction', 'direct')
