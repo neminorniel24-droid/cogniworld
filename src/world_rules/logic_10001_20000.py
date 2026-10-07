@@ -19571,3 +19571,6 @@ def logic_16502(world):
 
 def logic_16503(world):
     _world_apply(world, 'predator', 'sediment', 'gap')
+
+def logic_16504(world):
+    _world_apply(world, 'predator', 'salinity', 'direct')
