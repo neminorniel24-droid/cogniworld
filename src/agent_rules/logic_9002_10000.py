@@ -1893,3 +1893,6 @@ def logic_9805(agents, world):
 
 def logic_9806(agents, world):
     _agent_apply(world, agents, 'help_received', 'alertness', 'direct')
+
+def logic_9807(agents, world):
+    _agent_apply(world, agents, 'help_given', 'alertness', 'direct')
