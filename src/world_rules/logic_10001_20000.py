@@ -22001,3 +22001,6 @@ def logic_17312(world):
 
 def logic_17313(world):
     _world_apply(world, 'fire_risk', 'wind_y', 'square')
+
+def logic_17314(world):
+    _world_apply(world, 'fire_risk', 'vegetation', 'pulse')
