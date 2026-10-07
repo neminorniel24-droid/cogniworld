@@ -42407,3 +42407,10 @@ def logic_36436(agents, world):
     src = _local(world, agents, 'flowers')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.defection_threshold = _delta(agents.defection_threshold, delta)
+
+
+def logic_36437(agents, world):
+    """Environmental seed_bank shapes agent social_need (root)."""
+    src = _local(world, agents, 'seed_bank')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.social_need = _delta(agents.social_need, delta)
