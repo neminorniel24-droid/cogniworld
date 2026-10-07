@@ -2849,3 +2849,6 @@ def logic_10928(world):
 
 def logic_10929(world):
     _world_apply(world, 'detritus', 'rain', 'gap')
+
+def logic_10930(world):
+    _world_apply(world, 'detritus', 'soil_moisture', 'direct')
