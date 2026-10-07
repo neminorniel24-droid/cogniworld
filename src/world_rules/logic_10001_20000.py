@@ -3536,3 +3536,6 @@ def logic_11157(world):
 
 def logic_11158(world):
     _world_apply(world, 'erosion', 'carrion', 'square')
+
+def logic_11159(world):
+    _world_apply(world, 'erosion', 'nutrients', 'pulse')
