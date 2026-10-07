@@ -23012,3 +23012,6 @@ def logic_17649(world):
 
 def logic_17650(world):
     _world_apply(world, 'organic_matter', 'algae', 'direct')
+
+def logic_17651(world):
+    _world_apply(world, 'organic_matter', 'deadwood', 'square')
