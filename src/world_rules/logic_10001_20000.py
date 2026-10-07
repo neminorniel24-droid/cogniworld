@@ -4118,3 +4118,6 @@ def logic_11351(world):
 
 def logic_11352(world):
     _world_apply(world, 'carbon_storage', 'ash', 'gap')
+
+def logic_11353(world):
+    _world_apply(world, 'carbon_storage', 'snowpack', 'square')
