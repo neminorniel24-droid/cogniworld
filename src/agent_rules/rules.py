@@ -65185,3 +65185,10 @@ def logic_39690(agents, world):
     src = _local(world, agents, 'wetland')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.confidence = _delta(agents.confidence, delta)
+
+
+def logic_39691(agents, world):
+    """Environmental carbon_storage shapes agent oxygen_need (inverse)."""
+    src = _local(world, agents, 'carbon_storage')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.oxygen_need = _delta(agents.oxygen_need, delta)
