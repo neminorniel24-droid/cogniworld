@@ -12815,3 +12815,6 @@ def logic_8338(agents, world):
 
 def logic_8339(agents, world):
     _agent_apply(world, agents, 'detritus', 'risk_tolerance', 'direct')
+
+def logic_8340(agents, world):
+    _agent_apply(world, agents, 'methane', 'risk_tolerance', 'direct')
