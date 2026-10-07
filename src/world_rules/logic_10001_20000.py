@@ -17111,3 +17111,6 @@ def logic_15682(world):
 
 def logic_15683(world):
     _world_apply(world, 'deadwood', 'runoff', 'pulse')
+
+def logic_15684(world):
+    _world_apply(world, 'deadwood', 'wind_x', 'saturation')
