@@ -2762,3 +2762,6 @@ def logic_4987(agents, world):
 
 def logic_4988(agents, world):
     _agent_apply(world, agents, 'humidity', 'migration_drive', 'direct')
+
+def logic_4989(agents, world):
+    _agent_apply(world, agents, 'cloud', 'migration_drive', 'direct')
