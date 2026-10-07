@@ -13457,3 +13457,6 @@ def logic_14464(world):
 
 def logic_14465(world):
     _world_apply(world, 'herbivore', 'detritus', 'pulse')
+
+def logic_14466(world):
+    _world_apply(world, 'herbivore', 'methane', 'saturation')
