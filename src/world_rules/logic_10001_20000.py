@@ -5663,3 +5663,6 @@ def logic_11866(world):
 
 def logic_11867(world):
     _world_apply(world, 'seed_bank', 'photosynthesis_factor', 'gap')
+
+def logic_11868(world):
+    _world_apply(world, 'seed_bank', 'ice', 'direct')
