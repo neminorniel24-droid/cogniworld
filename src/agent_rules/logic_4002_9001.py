@@ -4028,3 +4028,6 @@ def logic_5409(agents, world):
 
 def logic_5410(agents, world):
     _agent_apply(world, agents, 'oxygen', 'social_tolerance', 'direct')
+
+def logic_5411(agents, world):
+    _agent_apply(world, agents, 'co2', 'social_tolerance', 'direct')
