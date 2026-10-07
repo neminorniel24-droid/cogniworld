@@ -3932,3 +3932,6 @@ def logic_11289(world):
 
 def logic_11290(world):
     _world_apply(world, 'wetland', 'carrion', 'direct')
+
+def logic_11291(world):
+    _world_apply(world, 'wetland', 'nutrients', 'square')
