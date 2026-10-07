@@ -4016,3 +4016,6 @@ def logic_11317(world):
 
 def logic_11318(world):
     _world_apply(world, 'wetland', 'seed_bank', 'square')
+
+def logic_11319(world):
+    _world_apply(world, 'wetland', 'soil_carbon', 'pulse')
