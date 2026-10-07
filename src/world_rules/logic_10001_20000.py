@@ -4463,3 +4463,6 @@ def logic_11466(world):
 
 def logic_11467(world):
     _world_apply(world, 'snowpack', 'nutrients', 'gap')
+
+def logic_11468(world):
+    _world_apply(world, 'snowpack', 'decomposition_rate', 'direct')
