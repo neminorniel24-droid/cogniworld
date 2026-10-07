@@ -429,3 +429,6 @@ def logic_9118(world):
 
 def logic_9119(world):
     _world_apply(world, 'surface_water', 'evaporation', 'threshold')
+
+def logic_9120(world):
+    _world_apply(world, 'surface_water', 'detritus', 'saturation')
