@@ -12533,3 +12533,6 @@ def logic_8244(agents, world):
 
 def logic_8245(agents, world):
     _agent_apply(world, agents, 'local_density', 'last_food', 'direct')
+
+def logic_8246(agents, world):
+    _agent_apply(world, agents, 'strategy_score', 'last_food', 'direct')
