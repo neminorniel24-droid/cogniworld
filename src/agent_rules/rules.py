@@ -56344,3 +56344,10 @@ def logic_38427(agents, world):
     src = _local(world, agents, 'wind_y')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.pathogen_risk = _delta(agents.pathogen_risk, delta)
+
+
+def logic_38428(agents, world):
+    """Environmental vegetation shapes agent migration_drive (square)."""
+    src = _local(world, agents, 'vegetation')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.migration_drive = _delta(agents.migration_drive, delta)
