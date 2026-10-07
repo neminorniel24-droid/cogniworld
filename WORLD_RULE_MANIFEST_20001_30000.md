@@ -302,3 +302,4 @@
 - 20301: integrated cross-system causal rule
 - 20302: integrated cross-system causal rule
 - 20303: integrated cross-system causal rule
+- 20304: integrated cross-system causal rule
