@@ -20669,3 +20669,6 @@ def logic_16868(world):
 
 def logic_16869(world):
     _world_apply(world, 'detritus', 'rain', 'square')
+
+def logic_16870(world):
+    _world_apply(world, 'detritus', 'soil_moisture', 'pulse')
