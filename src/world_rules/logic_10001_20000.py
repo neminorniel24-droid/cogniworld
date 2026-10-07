@@ -4769,3 +4769,6 @@ def logic_11568(world):
 
 def logic_11569(world):
     _world_apply(world, 'sediment', 'root_density', 'gap')
+
+def logic_11570(world):
+    _world_apply(world, 'sediment', 'wetland', 'direct')
