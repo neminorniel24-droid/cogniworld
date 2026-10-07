@@ -164,3 +164,6 @@ def logic_4021(world):
 
 def logic_4022(world):
     _world_apply(world, 'ash', 'nutrients', 'pulse')
+
+def logic_4023(world):
+    _world_apply(world, 'wetland', 'methane', 'threshold')
