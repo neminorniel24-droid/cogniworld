@@ -6120,3 +6120,4 @@
 - 26119: integrated cross-system causal rule
 - 26120: integrated cross-system causal rule
 - 26121: integrated cross-system causal rule
+- 26122: integrated cross-system causal rule
