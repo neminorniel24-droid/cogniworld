@@ -500,3 +500,6 @@ def logic_4233(agents, world):
 
 def logic_4234(agents, world):
     _agent_apply(world, agents, 'strategy_score', 'thirst', 'direct')
+
+def logic_4235(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'thirst', 'direct')
