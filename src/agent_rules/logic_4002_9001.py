@@ -12386,3 +12386,6 @@ def logic_8195(agents, world):
 
 def logic_8196(agents, world):
     _agent_apply(world, agents, 'nutrients', 'last_food', 'direct')
+
+def logic_8197(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'last_food', 'direct')
