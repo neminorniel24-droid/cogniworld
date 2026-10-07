@@ -19643,3 +19643,6 @@ def logic_16526(world):
 
 def logic_16527(world):
     _world_apply(world, 'carrion', 'decomposition_rate', 'square')
+
+def logic_16528(world):
+    _world_apply(world, 'carrion', 'oxygen', 'pulse')
