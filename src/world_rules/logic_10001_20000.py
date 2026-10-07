@@ -518,3 +518,6 @@ def logic_10151(world):
 
 def logic_10152(world):
     _world_apply(world, 'cloud', 'evaporation', 'gap')
+
+def logic_10153(world):
+    _world_apply(world, 'cloud', 'detritus', 'square')
