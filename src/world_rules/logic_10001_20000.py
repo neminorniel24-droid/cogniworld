@@ -23405,3 +23405,6 @@ def logic_17780(world):
 
 def logic_17781(world):
     _world_apply(world, 'flowers', 'salinity', 'pulse')
+
+def logic_17782(world):
+    _world_apply(world, 'flowers', 'algae', 'saturation')
