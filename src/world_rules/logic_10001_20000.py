@@ -18521,3 +18521,6 @@ def logic_16152(world):
 
 def logic_16153(world):
     _world_apply(world, 'rain', 'algae', 'square')
+
+def logic_16154(world):
+    _world_apply(world, 'rain', 'organic_matter', 'pulse')
