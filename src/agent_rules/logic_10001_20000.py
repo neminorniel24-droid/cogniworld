@@ -3194,3 +3194,6 @@ def logic_19043(agents, world):
 
 def logic_19044(agents, world):
     _agent_apply(world, agents, 'group_stability', 'betrayal_memory', 'inverse')
+
+def logic_19045(agents, world):
+    _agent_apply(world, agents, 'sharing_capacity', 'betrayal_memory', 'inverse')
