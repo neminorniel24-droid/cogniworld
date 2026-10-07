@@ -15698,3 +15698,6 @@ def logic_15211(world):
 
 def logic_15212(world):
     _world_apply(world, 'root_density', 'ice', 'pulse')
+
+def logic_15213(world):
+    _world_apply(world, 'root_density', 'evaporation', 'saturation')
