@@ -13073,3 +13073,6 @@ def logic_8424(agents, world):
 
 def logic_8425(agents, world):
     _agent_apply(world, agents, 'deadwood', 'last_action', 'direct')
+
+def logic_8426(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'last_action', 'direct')
