@@ -3254,3 +3254,6 @@ def logic_11063(world):
 
 def logic_11064(world):
     _world_apply(world, 'biodiversity', 'wind_x', 'direct')
+
+def logic_11065(world):
+    _world_apply(world, 'biodiversity', 'wind_y', 'pulse')
