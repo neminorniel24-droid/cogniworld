@@ -6080,3 +6080,6 @@ def logic_6093(agents, world):
 
 def logic_6094(agents, world):
     _agent_apply(world, agents, 'evaporation', 'sharing_capacity', 'direct')
+
+def logic_6095(agents, world):
+    _agent_apply(world, agents, 'detritus', 'sharing_capacity', 'direct')
