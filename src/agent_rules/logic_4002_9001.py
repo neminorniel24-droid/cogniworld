@@ -8801,3 +8801,6 @@ def logic_7000(agents, world):
 
 def logic_7001(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'defection_threshold', 'direct')
+
+def logic_7002(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'defection_threshold', 'direct')
