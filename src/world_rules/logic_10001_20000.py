@@ -23522,3 +23522,6 @@ def logic_17819(world):
 
 def logic_17820(world):
     _world_apply(world, 'seed_bank', 'fire_risk', 'square')
+
+def logic_17821(world):
+    _world_apply(world, 'seed_bank', 'ash', 'pulse')
