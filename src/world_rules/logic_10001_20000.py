@@ -22412,3 +22412,6 @@ def logic_17449(world):
 
 def logic_17450(world):
     _world_apply(world, 'groundwater', 'carrion', 'direct')
+
+def logic_17451(world):
+    _world_apply(world, 'groundwater', 'nutrients', 'square')
