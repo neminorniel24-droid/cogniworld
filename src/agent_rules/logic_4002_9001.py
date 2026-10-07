@@ -13700,3 +13700,6 @@ def logic_8633(agents, world):
 
 def logic_8634(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'competition_score', 'direct')
+
+def logic_8635(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'competition_score', 'direct')
