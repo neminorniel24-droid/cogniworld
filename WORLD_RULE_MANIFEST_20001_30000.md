@@ -4192,3 +4192,4 @@
 - 24191: integrated cross-system causal rule
 - 24192: integrated cross-system causal rule
 - 24193: integrated cross-system causal rule
+- 24194: integrated cross-system causal rule
