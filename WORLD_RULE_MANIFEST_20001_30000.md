@@ -176,3 +176,4 @@
 - 20175: integrated cross-system causal rule
 - 20176: integrated cross-system causal rule
 - 20177: integrated cross-system causal rule
+- 20178: integrated cross-system causal rule
