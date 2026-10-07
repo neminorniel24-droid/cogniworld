@@ -1578,3 +1578,6 @@ def logic_9700(agents, world):
 
 def logic_9701(agents, world):
     _agent_apply(world, agents, 'biodiversity', 'infection_risk', 'direct')
+
+def logic_9702(agents, world):
+    _agent_apply(world, agents, 'habitat_stress', 'infection_risk', 'direct')
