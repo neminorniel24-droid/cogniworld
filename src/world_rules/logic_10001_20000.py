@@ -4451,3 +4451,6 @@ def logic_11462(world):
 
 def logic_11463(world):
     _world_apply(world, 'snowpack', 'biomass', 'gap')
+
+def logic_11464(world):
+    _world_apply(world, 'snowpack', 'herbivore', 'direct')
