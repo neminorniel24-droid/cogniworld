@@ -9242,3 +9242,4 @@
 - 29241: integrated cross-system causal rule
 - 29242: integrated cross-system causal rule
 - 29243: integrated cross-system causal rule
+- 29244: integrated cross-system causal rule
