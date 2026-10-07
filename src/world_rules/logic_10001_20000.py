@@ -2882,3 +2882,6 @@ def logic_10939(world):
 
 def logic_10940(world):
     _world_apply(world, 'detritus', 'decomposition_rate', 'square')
+
+def logic_10941(world):
+    _world_apply(world, 'detritus', 'oxygen', 'pulse')
