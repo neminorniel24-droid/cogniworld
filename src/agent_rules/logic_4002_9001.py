@@ -13202,3 +13202,6 @@ def logic_8467(agents, world):
 
 def logic_8468(agents, world):
     _agent_apply(world, agents, 'nutrients', 'strategy_score', 'direct')
+
+def logic_8469(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'strategy_score', 'direct')
