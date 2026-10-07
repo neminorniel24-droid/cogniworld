@@ -19808,3 +19808,6 @@ def logic_16581(world):
 
 def logic_16582(world):
     _world_apply(world, 'nutrients', 'erosion', 'saturation')
+
+def logic_16583(world):
+    _world_apply(world, 'nutrients', 'soil_depth', 'gap')
