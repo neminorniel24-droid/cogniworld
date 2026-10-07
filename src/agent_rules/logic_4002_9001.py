@@ -4295,3 +4295,6 @@ def logic_5498(agents, world):
 
 def logic_5499(agents, world):
     _agent_apply(world, agents, 'algae', 'reputation', 'direct')
+
+def logic_5500(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'reputation', 'direct')
