@@ -7304,3 +7304,6 @@ def logic_12413(world):
 
 def logic_12414(world):
     _world_apply(world, 'vegetation', 'organic_matter', 'gap')
+
+def logic_12415(world):
+    _world_apply(world, 'vegetation', 'deadwood', 'direct')
