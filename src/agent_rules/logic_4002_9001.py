@@ -4589,3 +4589,6 @@ def logic_5596(agents, world):
 
 def logic_5597(agents, world):
     _agent_apply(world, agents, 'payoff', 'trust', 'direct')
+
+def logic_5598(agents, world):
+    _agent_apply(world, agents, 'temperature', 'cooperation', 'direct')
