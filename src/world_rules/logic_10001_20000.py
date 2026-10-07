@@ -17501,3 +17501,6 @@ def logic_15812(world):
 
 def logic_15813(world):
     _world_apply(world, 'seed_bank', 'rain', 'saturation')
+
+def logic_15814(world):
+    _world_apply(world, 'seed_bank', 'soil_moisture', 'gap')
