@@ -11912,3 +11912,6 @@ def logic_8037(agents, world):
 
 def logic_8038(agents, world):
     _agent_apply(world, agents, 'reputation', 'local_density', 'direct')
+
+def logic_8039(agents, world):
+    _agent_apply(world, agents, 'help_received', 'local_density', 'direct')
