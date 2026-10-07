@@ -3395,3 +3395,6 @@ def logic_19110(agents, world):
 
 def logic_19111(agents, world):
     _agent_apply(world, agents, 'runoff', 'help_given', 'square')
+
+def logic_19112(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'help_given', 'square')
