@@ -17411,3 +17411,6 @@ def logic_15782(world):
 
 def logic_15783(world):
     _world_apply(world, 'flowers', 'photosynthesis_factor', 'gap')
+
+def logic_15784(world):
+    _world_apply(world, 'flowers', 'ice', 'direct')
