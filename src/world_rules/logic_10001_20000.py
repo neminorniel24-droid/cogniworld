@@ -18449,3 +18449,6 @@ def logic_16128(world):
 
 def logic_16129(world):
     _world_apply(world, 'rain', 'carrion', 'gap')
+
+def logic_16130(world):
+    _world_apply(world, 'rain', 'nutrients', 'direct')
