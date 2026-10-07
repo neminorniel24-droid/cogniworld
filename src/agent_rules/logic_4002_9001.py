@@ -7790,3 +7790,6 @@ def logic_6663(agents, world):
 
 def logic_6664(agents, world):
     _agent_apply(world, agents, 'resource_abundance', 'strategy_confidence', 'direct')
+
+def logic_6665(agents, world):
+    _agent_apply(world, agents, 'energy_surplus', 'strategy_confidence', 'direct')
