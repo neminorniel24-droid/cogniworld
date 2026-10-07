@@ -23123,3 +23123,6 @@ def logic_17686(world):
 
 def logic_17687(world):
     _world_apply(world, 'deadwood', 'carbon_storage', 'square')
+
+def logic_17688(world):
+    _world_apply(world, 'deadwood', 'fire_risk', 'pulse')
