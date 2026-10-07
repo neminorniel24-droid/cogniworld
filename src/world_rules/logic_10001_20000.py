@@ -16337,3 +16337,6 @@ def logic_15424(world):
 
 def logic_15425(world):
     _world_apply(world, 'snowpack', 'predator', 'pulse')
+
+def logic_15426(world):
+    _world_apply(world, 'snowpack', 'carrion', 'saturation')
