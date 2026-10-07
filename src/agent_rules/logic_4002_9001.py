@@ -860,3 +860,6 @@ def logic_4353(agents, world):
 
 def logic_4354(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'health', 'direct')
+
+def logic_4355(agents, world):
+    _agent_apply(world, agents, 'hydration', 'health', 'direct')
