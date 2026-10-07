@@ -14516,3 +14516,6 @@ def logic_14817(world):
 
 def logic_14818(world):
     _world_apply(world, 'ice', 'methane', 'gap')
+
+def logic_14819(world):
+    _world_apply(world, 'ice', 'pathogen_load', 'direct')
