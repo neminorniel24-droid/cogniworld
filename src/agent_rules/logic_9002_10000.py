@@ -1713,3 +1713,6 @@ def logic_9745(agents, world):
 
 def logic_9746(agents, world):
     _agent_apply(world, agents, 'surface_water', 'alertness', 'direct')
+
+def logic_9747(agents, world):
+    _agent_apply(world, agents, 'humidity', 'alertness', 'direct')
