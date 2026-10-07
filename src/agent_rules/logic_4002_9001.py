@@ -13397,3 +13397,6 @@ def logic_8532(agents, world):
 
 def logic_8533(agents, world):
     _agent_apply(world, agents, 'herbivore', 'cooperation_score', 'direct')
+
+def logic_8534(agents, world):
+    _agent_apply(world, agents, 'predator', 'cooperation_score', 'direct')
