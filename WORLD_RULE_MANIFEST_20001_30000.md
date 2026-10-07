@@ -1320,3 +1320,4 @@
 - 21319: integrated cross-system causal rule
 - 21320: integrated cross-system causal rule
 - 21321: integrated cross-system causal rule
+- 21322: integrated cross-system causal rule
