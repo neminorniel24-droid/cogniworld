@@ -2789,3 +2789,6 @@ def logic_4996(agents, world):
 
 def logic_4997(agents, world):
     _agent_apply(world, agents, 'herbivore', 'migration_drive', 'direct')
+
+def logic_4998(agents, world):
+    _agent_apply(world, agents, 'predator', 'migration_drive', 'direct')
