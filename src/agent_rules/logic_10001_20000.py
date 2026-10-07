@@ -4142,3 +4142,6 @@ def logic_19359(agents, world):
 
 def logic_19360(agents, world):
     _agent_apply(world, agents, 'reciprocity_score', 'risk_score', 'threshold')
+
+def logic_19361(agents, world):
+    _agent_apply(world, agents, 'risk_score', 'reciprocity_score', 'threshold')
