@@ -3266,3 +3266,6 @@ def logic_5155(agents, world):
 
 def logic_5156(agents, world):
     _agent_apply(world, agents, 'groundwater', 'food_access', 'direct')
+
+def logic_5157(agents, world):
+    _agent_apply(world, agents, 'sediment', 'food_access', 'direct')
