@@ -48077,3 +48077,10 @@ def logic_37246(agents, world):
     src = _local(world, agents, 'pathogen_load')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.wealth = _delta(agents.wealth, delta)
+
+
+def logic_37247(agents, world):
+    """Environmental biodiversity shapes agent defection (inverse)."""
+    src = _local(world, agents, 'biodiversity')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defection = _delta(agents.defection, delta)
