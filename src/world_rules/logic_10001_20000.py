@@ -21587,3 +21587,6 @@ def logic_17174(world):
 
 def logic_17175(world):
     _world_apply(world, 'root_density', 'humidity', 'direct')
+
+def logic_17176(world):
+    _world_apply(world, 'root_density', 'cloud', 'square')
