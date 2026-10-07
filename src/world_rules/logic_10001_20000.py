@@ -9980,3 +9980,6 @@ def logic_13305(world):
 
 def logic_13306(world):
     _world_apply(world, 'carbon_storage', 'soil_moisture', 'saturation')
+
+def logic_13307(world):
+    _world_apply(world, 'carbon_storage', 'runoff', 'gap')
