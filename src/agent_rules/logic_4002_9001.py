@@ -2840,3 +2840,6 @@ def logic_5013(agents, world):
 
 def logic_5014(agents, world):
     _agent_apply(world, agents, 'root_density', 'migration_drive', 'direct')
+
+def logic_5015(agents, world):
+    _agent_apply(world, agents, 'wetland', 'migration_drive', 'direct')
