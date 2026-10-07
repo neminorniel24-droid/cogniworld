@@ -356,3 +356,6 @@ def logic_10097(world):
 
 def logic_10098(world):
     _world_apply(world, 'humidity', 'biomass', 'gap')
+
+def logic_10099(world):
+    _world_apply(world, 'humidity', 'herbivore', 'direct')
