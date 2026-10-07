@@ -2001,3 +2001,6 @@ def logic_9841(agents, world):
 
 def logic_9842(agents, world):
     _agent_apply(world, agents, 'wetland', 'fear', 'direct')
+
+def logic_9843(agents, world):
+    _agent_apply(world, agents, 'carbon_storage', 'fear', 'direct')
