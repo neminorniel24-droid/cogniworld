@@ -4910,3 +4910,6 @@ def logic_19615(agents, world):
 
 def logic_19616(agents, world):
     _agent_apply(world, agents, 'stress', 'sharing_score', 'gap')
+
+def logic_19617(agents, world):
+    _agent_apply(world, agents, 'social_need', 'sharing_score', 'gap')
