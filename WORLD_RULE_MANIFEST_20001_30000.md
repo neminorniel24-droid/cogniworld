@@ -8737,3 +8737,4 @@
 - 28736: integrated cross-system causal rule
 - 28737: integrated cross-system causal rule
 - 28738: integrated cross-system causal rule
+- 28739: integrated cross-system causal rule
