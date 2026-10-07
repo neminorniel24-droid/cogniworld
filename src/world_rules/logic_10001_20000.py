@@ -13433,3 +13433,6 @@ def logic_14456(world):
 
 def logic_14457(world):
     _world_apply(world, 'herbivore', 'carrion', 'saturation')
+
+def logic_14458(world):
+    _world_apply(world, 'herbivore', 'nutrients', 'gap')
