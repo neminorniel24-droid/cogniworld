@@ -299,3 +299,6 @@ def logic_4066(world):
 
 def logic_4067(world):
     _world_apply(world, 'surface_water', 'salinity', 'inverse')
+
+def logic_4068(world):
+    _world_apply(world, 'evaporation', 'humidity', 'square')
