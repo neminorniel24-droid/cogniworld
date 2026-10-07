@@ -840,3 +840,4 @@
 - 20839: integrated cross-system causal rule
 - 20840: integrated cross-system causal rule
 - 20841: integrated cross-system causal rule
+- 20842: integrated cross-system causal rule
