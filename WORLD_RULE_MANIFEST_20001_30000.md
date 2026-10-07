@@ -1904,3 +1904,4 @@
 - 21903: integrated cross-system causal rule
 - 21904: integrated cross-system causal rule
 - 21905: integrated cross-system causal rule
+- 21906: integrated cross-system causal rule
