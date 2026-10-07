@@ -692,3 +692,6 @@ def logic_18209(agents, world):
 
 def logic_18210(agents, world):
     _agent_apply(world, agents, 'cooperation', 'recovery', 'square')
+
+def logic_18211(agents, world):
+    _agent_apply(world, agents, 'defection', 'recovery', 'square')
