@@ -1995,3 +1995,6 @@ def logic_9839(agents, world):
 
 def logic_9840(agents, world):
     _agent_apply(world, agents, 'soil_depth', 'fear', 'direct')
+
+def logic_9841(agents, world):
+    _agent_apply(world, agents, 'root_density', 'fear', 'direct')
