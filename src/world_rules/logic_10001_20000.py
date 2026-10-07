@@ -21221,3 +21221,6 @@ def logic_17052(world):
 
 def logic_17053(world):
     _world_apply(world, 'habitat_stress', 'predator', 'saturation')
+
+def logic_17054(world):
+    _world_apply(world, 'habitat_stress', 'carrion', 'gap')
