@@ -3872,3 +3872,6 @@ def logic_19269(agents, world):
 
 def logic_19270(agents, world):
     _agent_apply(world, agents, 'soil_depth', 'strategy_score', 'pulse')
+
+def logic_19271(agents, world):
+    _agent_apply(world, agents, 'root_density', 'strategy_score', 'pulse')
