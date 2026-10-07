@@ -13649,3 +13649,6 @@ def logic_8616(agents, world):
 
 def logic_8617(agents, world):
     _agent_apply(world, agents, 'soil_depth', 'competition_score', 'direct')
+
+def logic_8618(agents, world):
+    _agent_apply(world, agents, 'root_density', 'competition_score', 'direct')
