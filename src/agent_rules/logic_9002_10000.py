@@ -2022,3 +2022,6 @@ def logic_9848(agents, world):
 
 def logic_9849(agents, world):
     _agent_apply(world, agents, 'salinity', 'fear', 'direct')
+
+def logic_9850(agents, world):
+    _agent_apply(world, agents, 'algae', 'fear', 'direct')
