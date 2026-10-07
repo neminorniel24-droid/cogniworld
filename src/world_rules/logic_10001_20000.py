@@ -5912,3 +5912,6 @@ def logic_11949(world):
 
 def logic_11950(world):
     _world_apply(world, 'surface_ice', 'carrion', 'pulse')
+
+def logic_11951(world):
+    _world_apply(world, 'surface_ice', 'nutrients', 'saturation')
