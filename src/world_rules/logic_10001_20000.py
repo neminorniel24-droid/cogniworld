@@ -23603,3 +23603,6 @@ def logic_17846(world):
 
 def logic_17847(world):
     _world_apply(world, 'soil_carbon', 'nutrients', 'square')
+
+def logic_17848(world):
+    _world_apply(world, 'soil_carbon', 'decomposition_rate', 'pulse')
