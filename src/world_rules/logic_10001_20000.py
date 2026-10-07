@@ -7658,3 +7658,6 @@ def logic_12531(world):
 
 def logic_12532(world):
     _world_apply(world, 'predator', 'biodiversity', 'pulse')
+
+def logic_12533(world):
+    _world_apply(world, 'predator', 'habitat_stress', 'saturation')
