@@ -12317,3 +12317,6 @@ def logic_14084(world):
 
 def logic_14085(world):
     _world_apply(world, 'humidity', 'algae', 'gap')
+
+def logic_14086(world):
+    _world_apply(world, 'humidity', 'organic_matter', 'direct')
