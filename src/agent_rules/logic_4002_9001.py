@@ -9752,3 +9752,6 @@ def logic_7317(agents, world):
 
 def logic_7318(agents, world):
     _agent_apply(world, agents, 'evaporation', 'vegetation_expectation', 'direct')
+
+def logic_7319(agents, world):
+    _agent_apply(world, agents, 'detritus', 'vegetation_expectation', 'direct')
