@@ -7286,3 +7286,6 @@ def logic_12407(world):
 
 def logic_12408(world):
     _world_apply(world, 'vegetation', 'ash', 'pulse')
+
+def logic_12409(world):
+    _world_apply(world, 'vegetation', 'snowpack', 'gap')
