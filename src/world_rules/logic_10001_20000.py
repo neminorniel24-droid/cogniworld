@@ -19412,3 +19412,6 @@ def logic_16449(world):
 
 def logic_16450(world):
     _world_apply(world, 'herbivore', 'erosion', 'direct')
+
+def logic_16451(world):
+    _world_apply(world, 'herbivore', 'soil_depth', 'square')
