@@ -8480,3 +8480,6 @@ def logic_6893(agents, world):
 
 def logic_6894(agents, world):
     _agent_apply(world, agents, 'rain', 'attack_threshold', 'direct')
+
+def logic_6895(agents, world):
+    _agent_apply(world, agents, 'soil_moisture', 'attack_threshold', 'direct')
