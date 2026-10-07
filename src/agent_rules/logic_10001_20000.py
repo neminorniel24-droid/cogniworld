@@ -3782,3 +3782,6 @@ def logic_19239(agents, world):
 
 def logic_19240(agents, world):
     _agent_apply(world, agents, 'future_payoff_weight', 'risk_tolerance', 'sqrt')
+
+def logic_19241(agents, world):
+    _agent_apply(world, agents, 'self_preservation', 'risk_tolerance', 'sqrt')
