@@ -17525,3 +17525,6 @@ def logic_15820(world):
 
 def logic_15821(world):
     _world_apply(world, 'seed_bank', 'predator', 'pulse')
+
+def logic_15822(world):
+    _world_apply(world, 'seed_bank', 'carrion', 'saturation')
