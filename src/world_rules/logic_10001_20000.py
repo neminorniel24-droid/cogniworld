@@ -22172,3 +22172,6 @@ def logic_17369(world):
 
 def logic_17370(world):
     _world_apply(world, 'ash', 'detritus', 'direct')
+
+def logic_17371(world):
+    _world_apply(world, 'ash', 'methane', 'square')
