@@ -22865,3 +22865,6 @@ def logic_17600(world):
 
 def logic_17601(world):
     _world_apply(world, 'algae', 'ash', 'direct')
+
+def logic_17602(world):
+    _world_apply(world, 'algae', 'snowpack', 'square')
