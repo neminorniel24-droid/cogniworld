@@ -22592,3 +22592,6 @@ def logic_17509(world):
 
 def logic_17510(world):
     _world_apply(world, 'sediment', 'wetland', 'pulse')
+
+def logic_17511(world):
+    _world_apply(world, 'sediment', 'carbon_storage', 'saturation')
