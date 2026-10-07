@@ -144,3 +144,6 @@ def logic_9023(world):
 
 def logic_9024(world):
     _world_apply(world, 'biomass', 'herbivore', 'saturation')
+
+def logic_9025(world):
+    _world_apply(world, 'herbivore', 'predator', 'reciprocal')
