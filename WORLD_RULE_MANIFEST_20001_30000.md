@@ -2192,3 +2192,4 @@
 - 22191: integrated cross-system causal rule
 - 22192: integrated cross-system causal rule
 - 22193: integrated cross-system causal rule
+- 22194: integrated cross-system causal rule
