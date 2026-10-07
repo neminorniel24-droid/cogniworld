@@ -37451,3 +37451,10 @@ def logic_35728(agents, world):
     src = _local(world, agents, 'pathogen_load')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.safety_score = _delta(agents.safety_score, delta)
+
+
+def logic_35729(agents, world):
+    """Environmental biodiversity shapes agent retaliation_risk (root)."""
+    src = _local(world, agents, 'biodiversity')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.retaliation_risk = _delta(agents.retaliation_risk, delta)
