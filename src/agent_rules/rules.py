@@ -52851,3 +52851,10 @@ def logic_37928(agents, world):
     src = _local(world, agents, 'decomposition_rate')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.survival_score = _delta(agents.survival_score, delta)
+
+
+def logic_37929(agents, world):
+    """Environmental oxygen shapes agent reproduction_score (root)."""
+    src = _local(world, agents, 'oxygen')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.reproduction_score = _delta(agents.reproduction_score, delta)
