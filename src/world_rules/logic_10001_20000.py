@@ -5840,3 +5840,6 @@ def logic_11925(world):
 
 def logic_11926(world):
     _world_apply(world, 'soil_carbon', 'snowpack', 'direct')
+
+def logic_11927(world):
+    _world_apply(world, 'soil_carbon', 'groundwater', 'square')
