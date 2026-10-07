@@ -5804,3 +5804,4 @@
 - 25803: integrated cross-system causal rule
 - 25804: integrated cross-system causal rule
 - 25805: integrated cross-system causal rule
+- 25806: integrated cross-system causal rule
