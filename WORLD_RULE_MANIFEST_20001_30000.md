@@ -2730,3 +2730,4 @@
 - 22729: integrated cross-system causal rule
 - 22730: integrated cross-system causal rule
 - 22731: integrated cross-system causal rule
+- 22732: integrated cross-system causal rule
