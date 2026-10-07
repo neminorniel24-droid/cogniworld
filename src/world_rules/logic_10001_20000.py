@@ -20123,3 +20123,6 @@ def logic_16686(world):
 
 def logic_16687(world):
     _world_apply(world, 'oxygen', 'soil_carbon', 'square')
+
+def logic_16688(world):
+    _world_apply(world, 'oxygen', 'surface_ice', 'pulse')
