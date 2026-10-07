@@ -10208,3 +10208,6 @@ def logic_13381(world):
 
 def logic_13382(world):
     _world_apply(world, 'fire_risk', 'organic_matter', 'saturation')
+
+def logic_13383(world):
+    _world_apply(world, 'fire_risk', 'deadwood', 'gap')
