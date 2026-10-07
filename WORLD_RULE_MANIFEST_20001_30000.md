@@ -5021,3 +5021,4 @@
 - 25020: integrated cross-system causal rule
 - 25021: integrated cross-system causal rule
 - 25022: integrated cross-system causal rule
+- 25023: integrated cross-system causal rule
