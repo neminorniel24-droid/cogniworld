@@ -20684,3 +20684,6 @@ def logic_16873(world):
 
 def logic_16874(world):
     _world_apply(world, 'detritus', 'vegetation', 'pulse')
+
+def logic_16875(world):
+    _world_apply(world, 'detritus', 'biomass', 'saturation')
