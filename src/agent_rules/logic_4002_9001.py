@@ -4691,3 +4691,6 @@ def logic_5630(agents, world):
 
 def logic_5631(agents, world):
     _agent_apply(world, agents, 'snowpack', 'cooperation', 'direct')
+
+def logic_5632(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'cooperation', 'direct')
