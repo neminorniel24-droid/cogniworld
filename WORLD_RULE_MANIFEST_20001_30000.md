@@ -9150,3 +9150,4 @@
 - 29149: integrated cross-system causal rule
 - 29150: integrated cross-system causal rule
 - 29151: integrated cross-system causal rule
+- 29152: integrated cross-system causal rule
