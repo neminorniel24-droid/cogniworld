@@ -12467,3 +12467,6 @@ def logic_14134(world):
 
 def logic_14135(world):
     _world_apply(world, 'cloud', 'soil_carbon', 'direct')
+
+def logic_14136(world):
+    _world_apply(world, 'cloud', 'surface_ice', 'square')
