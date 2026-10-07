@@ -12851,3 +12851,6 @@ def logic_8350(agents, world):
 
 def logic_8351(agents, world):
     _agent_apply(world, agents, 'snowpack', 'risk_tolerance', 'direct')
+
+def logic_8352(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'risk_tolerance', 'direct')
