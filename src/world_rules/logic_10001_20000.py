@@ -20984,3 +20984,6 @@ def logic_16973(world):
 
 def logic_16974(world):
     _world_apply(world, 'pathogen_load', 'detritus', 'gap')
+
+def logic_16975(world):
+    _world_apply(world, 'pathogen_load', 'methane', 'direct')
