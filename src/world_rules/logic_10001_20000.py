@@ -11477,3 +11477,6 @@ def logic_13804(world):
 
 def logic_13805(world):
     _world_apply(world, 'flowers', 'evaporation', 'gap')
+
+def logic_13806(world):
+    _world_apply(world, 'flowers', 'detritus', 'direct')
