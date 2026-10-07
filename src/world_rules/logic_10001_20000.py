@@ -9923,3 +9923,6 @@ def logic_13286(world):
 
 def logic_13287(world):
     _world_apply(world, 'wetland', 'fire_risk', 'square')
+
+def logic_13288(world):
+    _world_apply(world, 'wetland', 'ash', 'pulse')
