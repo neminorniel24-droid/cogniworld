@@ -7850,3 +7850,6 @@ def logic_6683(agents, world):
 
 def logic_6684(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'strategy_confidence', 'direct')
+
+def logic_6685(agents, world):
+    _agent_apply(world, agents, 'payoff', 'strategy_confidence', 'direct')
