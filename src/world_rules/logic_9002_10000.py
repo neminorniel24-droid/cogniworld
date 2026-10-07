@@ -159,3 +159,6 @@ def logic_9028(world):
 
 def logic_9029(world):
     _world_apply(world, 'nutrients', 'vegetation', 'sqrt')
+
+def logic_9030(world):
+    _world_apply(world, 'deadwood', 'decomposition_rate', 'pulse')
