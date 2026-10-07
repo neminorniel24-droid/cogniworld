@@ -8687,3 +8687,6 @@ def logic_6962(agents, world):
 
 def logic_6963(agents, world):
     _agent_apply(world, agents, 'soil_moisture', 'defection_threshold', 'direct')
+
+def logic_6964(agents, world):
+    _agent_apply(world, agents, 'runoff', 'defection_threshold', 'direct')
