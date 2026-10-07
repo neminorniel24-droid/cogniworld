@@ -4499,3 +4499,6 @@ def logic_19478(agents, world):
 
 def logic_19479(agents, world):
     _agent_apply(world, agents, 'social_need', 'fitness_score', 'saturation')
+
+def logic_19480(agents, world):
+    _agent_apply(world, agents, 'neighbor_energy_gap', 'help_score', 'saturation')
