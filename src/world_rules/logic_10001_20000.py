@@ -21800,3 +21800,6 @@ def logic_17245(world):
 
 def logic_17246(world):
     _world_apply(world, 'wetland', 'carbon_storage', 'direct')
+
+def logic_17247(world):
+    _world_apply(world, 'wetland', 'fire_risk', 'square')
