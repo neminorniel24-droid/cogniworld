@@ -8102,3 +8102,6 @@ def logic_6767(agents, world):
 
 def logic_6768(agents, world):
     _agent_apply(world, agents, 'nutrients', 'resource_discovery', 'direct')
+
+def logic_6769(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'resource_discovery', 'direct')
