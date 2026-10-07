@@ -5787,3 +5787,4 @@
 - 25786: integrated cross-system causal rule
 - 25787: integrated cross-system causal rule
 - 25788: integrated cross-system causal rule
+- 25789: integrated cross-system causal rule
