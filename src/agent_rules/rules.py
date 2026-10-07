@@ -35673,3 +35673,10 @@ def logic_35474(agents, world):
     src = _local(world, agents, 'temperature')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.foraging_score = _delta(agents.foraging_score, delta)
+
+
+def logic_35475(agents, world):
+    """Environmental temperature_target shapes agent migration_score (inverse)."""
+    src = _local(world, agents, 'temperature_target')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.migration_score = _delta(agents.migration_score, delta)
