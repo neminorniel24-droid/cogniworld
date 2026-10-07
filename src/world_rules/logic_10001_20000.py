@@ -8078,3 +8078,6 @@ def logic_12671(world):
 
 def logic_12672(world):
     _world_apply(world, 'decomposition_rate', 'ash', 'gap')
+
+def logic_12673(world):
+    _world_apply(world, 'decomposition_rate', 'snowpack', 'square')
