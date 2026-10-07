@@ -1034,3 +1034,6 @@ def logic_18323(agents, world):
 
 def logic_18324(agents, world):
     _agent_apply(world, agents, 'energy_surplus', 'wealth', 'sqrt')
+
+def logic_18325(agents, world):
+    _agent_apply(world, agents, 'ticks_since_food', 'wealth', 'sqrt')
