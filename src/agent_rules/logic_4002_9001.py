@@ -10406,3 +10406,6 @@ def logic_7535(agents, world):
 
 def logic_7536(agents, world):
     _agent_apply(world, agents, 'groundwater', 'neighbor_energy_gap', 'direct')
+
+def logic_7537(agents, world):
+    _agent_apply(world, agents, 'sediment', 'neighbor_energy_gap', 'direct')
