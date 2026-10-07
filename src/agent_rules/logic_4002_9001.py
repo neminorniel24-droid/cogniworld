@@ -11108,3 +11108,6 @@ def logic_7769(agents, world):
 
 def logic_7770(agents, world):
     _agent_apply(world, agents, 'strategy_score', 'conflict_history', 'direct')
+
+def logic_7771(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'conflict_history', 'direct')
