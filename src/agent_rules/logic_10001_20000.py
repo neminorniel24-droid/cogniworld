@@ -4604,3 +4604,6 @@ def logic_19513(agents, world):
 
 def logic_19514(agents, world):
     _agent_apply(world, agents, 'learning_rate', 'attack_success', 'reciprocal')
+
+def logic_19515(agents, world):
+    _agent_apply(world, agents, 'memory_update', 'attack_success', 'reciprocal')
