@@ -7574,3 +7574,6 @@ def logic_12503(world):
 
 def logic_12504(world):
     _world_apply(world, 'herbivore', 'pollinators', 'direct')
+
+def logic_12505(world):
+    _world_apply(world, 'herbivore', 'flowers', 'pulse')
