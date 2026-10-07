@@ -871,3 +871,4 @@
 - 20870: integrated cross-system causal rule
 - 20871: integrated cross-system causal rule
 - 20872: integrated cross-system causal rule
+- 20873: integrated cross-system causal rule
