@@ -3053,3 +3053,6 @@ def logic_10996(world):
 
 def logic_10997(world):
     _world_apply(world, 'methane', 'wetland', 'direct')
+
+def logic_10998(world):
+    _world_apply(world, 'methane', 'carbon_storage', 'square')
