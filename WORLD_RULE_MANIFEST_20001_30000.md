@@ -64,3 +64,4 @@
 - 20063: integrated cross-system causal rule
 - 20064: integrated cross-system causal rule
 - 20065: integrated cross-system causal rule
+- 20066: integrated cross-system causal rule
