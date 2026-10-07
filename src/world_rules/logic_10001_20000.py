@@ -13712,3 +13712,6 @@ def logic_14549(world):
 
 def logic_14550(world):
     _world_apply(world, 'carrion', 'photosynthesis_factor', 'pulse')
+
+def logic_14551(world):
+    _world_apply(world, 'carrion', 'ice', 'saturation')
