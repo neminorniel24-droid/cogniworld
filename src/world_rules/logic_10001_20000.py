@@ -17060,3 +17060,6 @@ def logic_15665(world):
 
 def logic_15666(world):
     _world_apply(world, 'organic_matter', 'snowpack', 'saturation')
+
+def logic_15667(world):
+    _world_apply(world, 'organic_matter', 'groundwater', 'gap')
