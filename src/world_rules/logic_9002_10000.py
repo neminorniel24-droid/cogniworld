@@ -492,3 +492,6 @@ def logic_9139(world):
 
 def logic_9140(world):
     _world_apply(world, 'surface_water', 'soil_carbon', 'square')
+
+def logic_9141(world):
+    _world_apply(world, 'surface_water', 'surface_ice', 'sqrt')
