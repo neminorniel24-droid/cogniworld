@@ -11063,3 +11063,6 @@ def logic_13666(world):
 
 def logic_13667(world):
     _world_apply(world, 'organic_matter', 'nutrients', 'gap')
+
+def logic_13668(world):
+    _world_apply(world, 'organic_matter', 'decomposition_rate', 'direct')
