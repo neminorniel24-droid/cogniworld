@@ -13157,3 +13157,6 @@ def logic_14364(world):
 
 def logic_14365(world):
     _world_apply(world, 'vegetation', 'wind_y', 'gap')
+
+def logic_14366(world):
+    _world_apply(world, 'vegetation', 'biomass', 'direct')
