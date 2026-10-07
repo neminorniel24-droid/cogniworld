@@ -8369,3 +8369,6 @@ def logic_6856(agents, world):
 
 def logic_6857(agents, world):
     _agent_apply(world, agents, 'sediment', 'empathy', 'direct')
+
+def logic_6858(agents, world):
+    _agent_apply(world, agents, 'salinity', 'empathy', 'direct')
