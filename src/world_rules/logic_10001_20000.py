@@ -23750,3 +23750,6 @@ def logic_17895(world):
 
 def logic_17896(world):
     _world_apply(world, 'surface_ice', 'ice', 'square')
+
+def logic_17897(world):
+    _world_apply(world, 'surface_ice', 'evaporation', 'saturation')
