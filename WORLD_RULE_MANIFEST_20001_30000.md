@@ -2000,3 +2000,4 @@
 - 21999: integrated cross-system causal rule
 - 22000: integrated cross-system causal rule
 - 22001: integrated cross-system causal rule
+- 22002: integrated cross-system causal rule
