@@ -26972,3 +26972,10 @@ def logic_34231(agents, world):
     src = _local(world, agents, 'surface_ice')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.thermal_stress = _delta(agents.thermal_stress, delta)
+
+
+def logic_34232(agents, world):
+    """Environmental temperature shapes agent metabolic_cost (square)."""
+    src = _local(world, agents, 'temperature')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.metabolic_cost = _delta(agents.metabolic_cost, delta)
