@@ -2345,3 +2345,6 @@ def logic_10760(world):
 
 def logic_10761(world):
     _world_apply(world, 'co2', 'predator', 'direct')
+
+def logic_10762(world):
+    _world_apply(world, 'co2', 'carrion', 'square')
