@@ -48889,3 +48889,10 @@ def logic_37362(agents, world):
     src = _local(world, agents, 'surface_water')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.territoriality = _delta(agents.territoriality, delta)
+
+
+def logic_37363(agents, world):
+    """Environmental humidity shapes agent gratitude (inverse)."""
+    src = _local(world, agents, 'humidity')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.gratitude = _delta(agents.gratitude, delta)
