@@ -1968,3 +1968,6 @@ def logic_9830(agents, world):
 
 def logic_9831(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'fear', 'direct')
+
+def logic_9832(agents, world):
+    _agent_apply(world, agents, 'ice', 'fear', 'direct')
