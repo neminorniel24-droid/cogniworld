@@ -3443,3 +3443,6 @@ def logic_5214(agents, world):
 
 def logic_5215(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'wealth', 'direct')
+
+def logic_5216(agents, world):
+    _agent_apply(world, agents, 'erosion', 'wealth', 'direct')
