@@ -12380,3 +12380,6 @@ def logic_14105(world):
 
 def logic_14106(world):
     _world_apply(world, 'cloud', 'nutrients', 'saturation')
+
+def logic_14107(world):
+    _world_apply(world, 'cloud', 'decomposition_rate', 'gap')
