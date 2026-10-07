@@ -1142,3 +1142,6 @@ def logic_10359(world):
 
 def logic_10360(world):
     _world_apply(world, 'wind_y', 'wind_x', 'saturation')
+
+def logic_10361(world):
+    _world_apply(world, 'wind_y', 'vegetation', 'direct')
