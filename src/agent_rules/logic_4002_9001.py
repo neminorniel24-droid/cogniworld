@@ -7781,3 +7781,6 @@ def logic_6660(agents, world):
 
 def logic_6661(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'strategy_confidence', 'direct')
+
+def logic_6662(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'strategy_confidence', 'direct')
