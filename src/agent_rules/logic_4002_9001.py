@@ -11906,3 +11906,6 @@ def logic_8035(agents, world):
 
 def logic_8036(agents, world):
     _agent_apply(world, agents, 'defection', 'local_density', 'direct')
+
+def logic_8037(agents, world):
+    _agent_apply(world, agents, 'trust', 'local_density', 'direct')
