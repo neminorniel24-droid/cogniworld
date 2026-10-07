@@ -1964,3 +1964,4 @@
 - 21963: integrated cross-system causal rule
 - 21964: integrated cross-system causal rule
 - 21965: integrated cross-system causal rule
+- 21966: integrated cross-system causal rule
