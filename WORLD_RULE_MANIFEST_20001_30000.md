@@ -1247,3 +1247,4 @@
 - 21246: integrated cross-system causal rule
 - 21247: integrated cross-system causal rule
 - 21248: integrated cross-system causal rule
+- 21249: integrated cross-system causal rule
