@@ -37416,3 +37416,10 @@ def logic_35723(agents, world):
     src = _local(world, agents, 'photosynthesis_factor')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.caution = _delta(agents.caution, delta)
+
+
+def logic_35724(agents, world):
+    """Environmental ice shapes agent defection_threshold (square)."""
+    src = _local(world, agents, 'ice')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.defection_threshold = _delta(agents.defection_threshold, delta)
