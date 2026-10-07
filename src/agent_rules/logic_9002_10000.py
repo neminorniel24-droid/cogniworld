@@ -903,3 +903,6 @@ def logic_9475(agents, world):
 
 def logic_9476(agents, world):
     _agent_apply(world, agents, 'cloud', 'thermal_stress', 'direct')
+
+def logic_9477(agents, world):
+    _agent_apply(world, agents, 'rain', 'thermal_stress', 'direct')
