@@ -17915,3 +17915,6 @@ def logic_15950(world):
 
 def logic_15951(world):
     _world_apply(world, 'temperature', 'herbivore', 'saturation')
+
+def logic_15952(world):
+    _world_apply(world, 'temperature', 'predator', 'gap')
