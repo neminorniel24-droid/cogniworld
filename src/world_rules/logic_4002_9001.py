@@ -356,3 +356,6 @@ def logic_4085(world):
 
 def logic_4086(world):
     _world_apply(world, 'surface_water', 'algae', 'pulse')
+
+def logic_4087(world):
+    _world_apply(world, 'nutrients', 'algae', 'threshold')
