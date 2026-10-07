@@ -1571,3 +1571,6 @@ def logic_10502(world):
 
 def logic_10503(world):
     _world_apply(world, 'herbivore', 'ice', 'gap')
+
+def logic_10504(world):
+    _world_apply(world, 'herbivore', 'evaporation', 'direct')
