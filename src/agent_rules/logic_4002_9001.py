@@ -2891,3 +2891,6 @@ def logic_5030(agents, world):
 
 def logic_5031(agents, world):
     _agent_apply(world, agents, 'resource_scarcity', 'migration_drive', 'direct')
+
+def logic_5032(agents, world):
+    _agent_apply(world, agents, 'resource_abundance', 'migration_drive', 'direct')
