@@ -143,3 +143,6 @@ def logic_4014(world):
 
 def logic_4015(world):
     _world_apply(world, 'temperature', 'evaporation', 'threshold')
+
+def logic_4016(world):
+    _world_apply(world, 'humidity', 'evaporation', 'saturation')
