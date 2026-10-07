@@ -5354,3 +5354,6 @@ def logic_5851(agents, world):
 
 def logic_5852(agents, world):
     _agent_apply(world, agents, 'thirst', 'conflict_pressure', 'direct')
+
+def logic_5853(agents, world):
+    _agent_apply(world, agents, 'hunger', 'conflict_pressure', 'direct')
