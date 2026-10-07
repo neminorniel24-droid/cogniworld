@@ -6437,3 +6437,6 @@ def logic_12124(world):
 
 def logic_12125(world):
     _world_apply(world, 'cloud', 'carrion', 'gap')
+
+def logic_12126(world):
+    _world_apply(world, 'cloud', 'nutrients', 'direct')
