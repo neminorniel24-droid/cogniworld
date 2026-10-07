@@ -7238,3 +7238,4 @@
 - 27237: integrated cross-system causal rule
 - 27238: integrated cross-system causal rule
 - 27239: integrated cross-system causal rule
+- 27240: integrated cross-system causal rule
