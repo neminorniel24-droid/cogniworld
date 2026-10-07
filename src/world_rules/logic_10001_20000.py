@@ -15098,3 +15098,6 @@ def logic_15011(world):
 
 def logic_15012(world):
     _world_apply(world, 'pathogen_load', 'pollinators', 'pulse')
+
+def logic_15013(world):
+    _world_apply(world, 'pathogen_load', 'flowers', 'saturation')
