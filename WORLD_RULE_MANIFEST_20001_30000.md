@@ -5110,3 +5110,4 @@
 - 25109: integrated cross-system causal rule
 - 25110: integrated cross-system causal rule
 - 25111: integrated cross-system causal rule
+- 25112: integrated cross-system causal rule
