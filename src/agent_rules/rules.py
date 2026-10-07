@@ -26741,3 +26741,10 @@ def logic_34198(agents, world):
     src = _local(world, agents, 'herbivore')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.empathy = _delta(agents.empathy, delta)
+
+
+def logic_34199(agents, world):
+    """Environmental predator shapes agent vegetation_expectation (inverse)."""
+    src = _local(world, agents, 'predator')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.vegetation_expectation = _delta(agents.vegetation_expectation, delta)
