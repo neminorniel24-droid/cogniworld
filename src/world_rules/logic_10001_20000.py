@@ -2159,3 +2159,6 @@ def logic_10698(world):
 
 def logic_10699(world):
     _world_apply(world, 'decomposition_rate', 'deadwood', 'direct')
+
+def logic_10700(world):
+    _world_apply(world, 'decomposition_rate', 'pollinators', 'square')
