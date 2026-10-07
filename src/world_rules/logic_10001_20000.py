@@ -18050,3 +18050,6 @@ def logic_15995(world):
 
 def logic_15996(world):
     _world_apply(world, 'surface_water', 'predator', 'gap')
+
+def logic_15997(world):
+    _world_apply(world, 'surface_water', 'carrion', 'direct')
