@@ -11120,3 +11120,6 @@ def logic_7773(agents, world):
 
 def logic_7774(agents, world):
     _agent_apply(world, agents, 'temperature', 'cooperation_history', 'direct')
+
+def logic_7775(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'cooperation_history', 'direct')
