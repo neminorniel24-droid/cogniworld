@@ -67075,3 +67075,10 @@ def logic_39960(agents, world):
     src = _local(world, agents, 'pathogen_load')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.local_density = _delta(agents.local_density, delta)
+
+
+def logic_39961(agents, world):
+    """Environmental biodiversity shapes agent strategy_score (root)."""
+    src = _local(world, agents, 'biodiversity')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.strategy_score = _delta(agents.strategy_score, delta)
