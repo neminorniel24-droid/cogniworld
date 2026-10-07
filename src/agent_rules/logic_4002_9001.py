@@ -13982,3 +13982,6 @@ def logic_8727(agents, world):
 
 def logic_8728(agents, world):
     _agent_apply(world, agents, 'humidity', 'reciprocity_score', 'direct')
+
+def logic_8729(agents, world):
+    _agent_apply(world, agents, 'cloud', 'reciprocity_score', 'direct')
