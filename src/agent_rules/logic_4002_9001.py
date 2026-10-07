@@ -9341,3 +9341,6 @@ def logic_7180(agents, world):
 
 def logic_7181(agents, world):
     _agent_apply(world, agents, 'ice', 'fire_fear', 'direct')
+
+def logic_7182(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'fire_fear', 'direct')
