@@ -58430,3 +58430,10 @@ def logic_38725(agents, world):
     src = _local(world, agents, 'carbon_storage')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.fire_fear = _delta(agents.fire_fear, delta)
+
+
+def logic_38726(agents, world):
+    """Environmental fire_risk shapes agent betrayal_memory (direct)."""
+    src = _local(world, agents, 'fire_risk')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.betrayal_memory = _delta(agents.betrayal_memory, delta)
