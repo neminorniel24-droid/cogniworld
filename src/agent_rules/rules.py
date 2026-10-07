@@ -38305,3 +38305,10 @@ def logic_35850(agents, world):
     src = _local(world, agents, 'wind_x')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.gratitude = _delta(agents.gratitude, delta)
+
+
+def logic_35851(agents, world):
+    """Environmental wind_y shapes agent attack_threshold (inverse)."""
+    src = _local(world, agents, 'wind_y')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.attack_threshold = _delta(agents.attack_threshold, delta)
