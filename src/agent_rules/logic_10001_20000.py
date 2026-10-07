@@ -113,3 +113,6 @@ def logic_18016(agents, world):
 
 def logic_18017(agents, world):
     _agent_apply(world, agents, 'oxygen', 'hydration', 'direct')
+
+def logic_18018(agents, world):
+    _agent_apply(world, agents, 'co2', 'hydration', 'direct')
