@@ -12653,3 +12653,6 @@ def logic_14196(world):
 
 def logic_14197(world):
     _world_apply(world, 'soil_moisture', 'co2', 'direct')
+
+def logic_14198(world):
+    _world_apply(world, 'soil_moisture', 'photosynthesis_factor', 'square')
