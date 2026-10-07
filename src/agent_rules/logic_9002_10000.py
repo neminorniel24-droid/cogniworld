@@ -1239,3 +1239,6 @@ def logic_9587(agents, world):
 
 def logic_9588(agents, world):
     _agent_apply(world, agents, 'energy_surplus', 'dehydration', 'direct')
+
+def logic_9589(agents, world):
+    _agent_apply(world, agents, 'ticks_since_food', 'dehydration', 'direct')
