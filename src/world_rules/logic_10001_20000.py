@@ -9425,3 +9425,6 @@ def logic_13120(world):
 
 def logic_13121(world):
     _world_apply(world, 'habitat_stress', 'flowers', 'direct')
+
+def logic_13122(world):
+    _world_apply(world, 'habitat_stress', 'seed_bank', 'square')
