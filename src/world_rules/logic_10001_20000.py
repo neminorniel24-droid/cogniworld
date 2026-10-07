@@ -155,3 +155,6 @@ def logic_10030(world):
 
 def logic_10031(world):
     _world_apply(world, 'temperature', 'fire_risk', 'saturation')
+
+def logic_10032(world):
+    _world_apply(world, 'temperature', 'ash', 'gap')
