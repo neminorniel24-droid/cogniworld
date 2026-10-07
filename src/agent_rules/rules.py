@@ -34651,3 +34651,10 @@ def logic_35328(agents, world):
     src = _local(world, agents, 'algae')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.sharing_capacity = _delta(agents.sharing_capacity, delta)
+
+
+def logic_35329(agents, world):
+    """Environmental organic_matter shapes agent confidence (root)."""
+    src = _local(world, agents, 'organic_matter')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.confidence = _delta(agents.confidence, delta)
