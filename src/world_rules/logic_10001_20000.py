@@ -3638,3 +3638,6 @@ def logic_11191(world):
 
 def logic_11192(world):
     _world_apply(world, 'soil_depth', 'cloud', 'gap')
+
+def logic_11193(world):
+    _world_apply(world, 'soil_depth', 'rain', 'square')
