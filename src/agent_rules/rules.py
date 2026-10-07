@@ -29632,3 +29632,10 @@ def logic_34611(agents, world):
     src = _local(world, agents, 'biomass')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.strategy_mixing = _delta(agents.strategy_mixing, delta)
+
+
+def logic_34612(agents, world):
+    """Environmental herbivore shapes agent thirst (square)."""
+    src = _local(world, agents, 'herbivore')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.thirst = _delta(agents.thirst, delta)
