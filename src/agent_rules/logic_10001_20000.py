@@ -464,3 +464,6 @@ def logic_18133(agents, world):
 
 def logic_18134(agents, world):
     _agent_apply(world, agents, 'learning_rate', 'pathogen_risk', 'inverse')
+
+def logic_18135(agents, world):
+    _agent_apply(world, agents, 'memory_update', 'pathogen_risk', 'inverse')
