@@ -113,3 +113,6 @@ def logic_10016(world):
 
 def logic_10017(world):
     _world_apply(world, 'temperature', 'co2', 'saturation')
+
+def logic_10018(world):
+    _world_apply(world, 'temperature', 'photosynthesis_factor', 'gap')
