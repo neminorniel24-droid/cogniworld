@@ -18719,3 +18719,6 @@ def logic_16218(world):
 
 def logic_16219(world):
     _world_apply(world, 'runoff', 'decomposition_rate', 'direct')
+
+def logic_16220(world):
+    _world_apply(world, 'runoff', 'oxygen', 'square')
