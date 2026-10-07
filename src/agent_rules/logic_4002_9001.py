@@ -4544,3 +4544,6 @@ def logic_5581(agents, world):
 
 def logic_5582(agents, world):
     _agent_apply(world, agents, 'health', 'trust', 'direct')
+
+def logic_5583(agents, world):
+    _agent_apply(world, agents, 'stress', 'trust', 'direct')
