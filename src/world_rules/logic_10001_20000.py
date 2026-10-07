@@ -9422,3 +9422,6 @@ def logic_13119(world):
 
 def logic_13120(world):
     _world_apply(world, 'habitat_stress', 'pollinators', 'saturation')
+
+def logic_13121(world):
+    _world_apply(world, 'habitat_stress', 'flowers', 'direct')
