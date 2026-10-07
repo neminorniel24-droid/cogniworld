@@ -6200,3 +6200,6 @@ def logic_12045(world):
 
 def logic_12046(world):
     _world_apply(world, 'surface_water', 'methane', 'direct')
+
+def logic_12047(world):
+    _world_apply(world, 'surface_water', 'pathogen_load', 'square')
