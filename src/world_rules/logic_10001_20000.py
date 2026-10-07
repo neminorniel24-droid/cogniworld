@@ -8663,3 +8663,6 @@ def logic_12866(world):
 
 def logic_12867(world):
     _world_apply(world, 'evaporation', 'runoff', 'gap')
+
+def logic_12868(world):
+    _world_apply(world, 'evaporation', 'wind_x', 'direct')
