@@ -4380,3 +4380,4 @@
 - 24379: integrated cross-system causal rule
 - 24380: integrated cross-system causal rule
 - 24381: integrated cross-system causal rule
+- 24382: integrated cross-system causal rule
