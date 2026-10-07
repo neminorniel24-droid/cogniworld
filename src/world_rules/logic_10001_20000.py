@@ -13625,3 +13625,6 @@ def logic_14520(world):
 
 def logic_14521(world):
     _world_apply(world, 'predator', 'snowpack', 'direct')
+
+def logic_14522(world):
+    _world_apply(world, 'predator', 'groundwater', 'square')
