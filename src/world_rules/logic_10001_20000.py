@@ -5396,3 +5396,6 @@ def logic_11777(world):
 
 def logic_11778(world):
     _world_apply(world, 'pollinators', 'co2', 'gap')
+
+def logic_11779(world):
+    _world_apply(world, 'pollinators', 'photosynthesis_factor', 'direct')
