@@ -20090,3 +20090,6 @@ def logic_16675(world):
 
 def logic_16676(world):
     _world_apply(world, 'oxygen', 'ash', 'gap')
+
+def logic_16677(world):
+    _world_apply(world, 'oxygen', 'snowpack', 'direct')
