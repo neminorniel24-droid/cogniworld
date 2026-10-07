@@ -10136,3 +10136,6 @@ def logic_7445(agents, world):
 
 def logic_7446(agents, world):
     _agent_apply(world, agents, 'predator', 'social_need', 'direct')
+
+def logic_7447(agents, world):
+    _agent_apply(world, agents, 'carrion', 'social_need', 'direct')
