@@ -22349,3 +22349,6 @@ def logic_17428(world):
 
 def logic_17429(world):
     _world_apply(world, 'snowpack', 'algae', 'square')
+
+def logic_17430(world):
+    _world_apply(world, 'snowpack', 'organic_matter', 'pulse')
