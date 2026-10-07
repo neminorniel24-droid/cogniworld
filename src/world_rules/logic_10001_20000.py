@@ -21200,3 +21200,6 @@ def logic_17045(world):
 
 def logic_17046(world):
     _world_apply(world, 'habitat_stress', 'soil_moisture', 'direct')
+
+def logic_17047(world):
+    _world_apply(world, 'habitat_stress', 'runoff', 'square')
