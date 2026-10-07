@@ -294,3 +294,6 @@ def logic_9073(world):
 
 def logic_9074(world):
     _world_apply(world, 'temperature', 'carrion', 'direct')
+
+def logic_9075(world):
+    _world_apply(world, 'temperature', 'nutrients', 'inverse')
