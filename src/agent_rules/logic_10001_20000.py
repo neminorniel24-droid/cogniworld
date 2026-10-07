@@ -3821,3 +3821,6 @@ def logic_19252(agents, world):
 
 def logic_19253(agents, world):
     _agent_apply(world, agents, 'biomass', 'last_action', 'pulse')
+
+def logic_19254(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'last_action', 'pulse')
