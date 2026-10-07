@@ -23534,3 +23534,6 @@ def logic_17823(world):
 
 def logic_17824(world):
     _world_apply(world, 'seed_bank', 'sediment', 'direct')
+
+def logic_17825(world):
+    _world_apply(world, 'seed_bank', 'salinity', 'pulse')
