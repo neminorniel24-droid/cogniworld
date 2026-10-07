@@ -7421,3 +7421,6 @@ def logic_6540(agents, world):
 
 def logic_6541(agents, world):
     _agent_apply(world, agents, 'trust', 'caution', 'direct')
+
+def logic_6542(agents, world):
+    _agent_apply(world, agents, 'reputation', 'caution', 'direct')
