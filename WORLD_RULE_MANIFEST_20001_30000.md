@@ -6694,3 +6694,4 @@
 - 26693: integrated cross-system causal rule
 - 26694: integrated cross-system causal rule
 - 26695: integrated cross-system causal rule
+- 26696: integrated cross-system causal rule
