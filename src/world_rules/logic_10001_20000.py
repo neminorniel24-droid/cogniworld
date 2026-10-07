@@ -3299,3 +3299,6 @@ def logic_11078(world):
 
 def logic_11079(world):
     _world_apply(world, 'biodiversity', 'methane', 'pulse')
+
+def logic_11080(world):
+    _world_apply(world, 'biodiversity', 'pathogen_load', 'saturation')
