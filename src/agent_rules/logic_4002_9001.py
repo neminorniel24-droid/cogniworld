@@ -12176,3 +12176,6 @@ def logic_8125(agents, world):
 
 def logic_8126(agents, world):
     _agent_apply(world, agents, 'predator', 'last_energy_delta', 'direct')
+
+def logic_8127(agents, world):
+    _agent_apply(world, agents, 'carrion', 'last_energy_delta', 'direct')
