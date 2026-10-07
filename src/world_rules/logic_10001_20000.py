@@ -21878,3 +21878,6 @@ def logic_17271(world):
 
 def logic_17272(world):
     _world_apply(world, 'carbon_storage', 'herbivore', 'gap')
+
+def logic_17273(world):
+    _world_apply(world, 'carbon_storage', 'predator', 'square')
