@@ -6806,3 +6806,6 @@ def logic_6335(agents, world):
 
 def logic_6336(agents, world):
     _agent_apply(world, agents, 'defection', 'selfishness', 'direct')
+
+def logic_6337(agents, world):
+    _agent_apply(world, agents, 'trust', 'selfishness', 'direct')
