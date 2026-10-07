@@ -359,3 +359,6 @@ def logic_10098(world):
 
 def logic_10099(world):
     _world_apply(world, 'humidity', 'herbivore', 'direct')
+
+def logic_10100(world):
+    _world_apply(world, 'humidity', 'predator', 'square')
