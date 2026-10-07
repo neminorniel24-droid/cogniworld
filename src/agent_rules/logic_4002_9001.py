@@ -5360,3 +5360,6 @@ def logic_5853(agents, world):
 
 def logic_5854(agents, world):
     _agent_apply(world, agents, 'health', 'conflict_pressure', 'direct')
+
+def logic_5855(agents, world):
+    _agent_apply(world, agents, 'stress', 'conflict_pressure', 'direct')
