@@ -222,3 +222,6 @@ def logic_9248(agents, world):
 
 def logic_9249(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'hydration', 'direct')
+
+def logic_9250(agents, world):
+    _agent_apply(world, agents, 'hydration', 'hydration', 'direct')
