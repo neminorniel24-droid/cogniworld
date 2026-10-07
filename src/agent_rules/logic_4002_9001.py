@@ -1334,3 +1334,6 @@ def logic_4511(agents, world):
 
 def logic_4512(agents, world):
     _agent_apply(world, agents, 'humidity', 'pathogen_risk', 'direct')
+
+def logic_4513(agents, world):
+    _agent_apply(world, agents, 'cloud', 'pathogen_risk', 'direct')
