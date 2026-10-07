@@ -13031,3 +13031,6 @@ def logic_14322(world):
 
 def logic_14323(world):
     _world_apply(world, 'wind_y', 'herbivore', 'pulse')
+
+def logic_14324(world):
+    _world_apply(world, 'wind_y', 'predator', 'saturation')
