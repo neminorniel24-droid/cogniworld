@@ -16592,3 +16592,6 @@ def logic_15509(world):
 
 def logic_15510(world):
     _world_apply(world, 'sediment', 'vegetation', 'pulse')
+
+def logic_15511(world):
+    _world_apply(world, 'sediment', 'biomass', 'saturation')
