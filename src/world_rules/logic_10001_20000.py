@@ -10142,3 +10142,6 @@ def logic_13359(world):
 
 def logic_13360(world):
     _world_apply(world, 'fire_risk', 'decomposition_rate', 'saturation')
+
+def logic_13361(world):
+    _world_apply(world, 'fire_risk', 'oxygen', 'direct')
