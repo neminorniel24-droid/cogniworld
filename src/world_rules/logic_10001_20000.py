@@ -1568,3 +1568,6 @@ def logic_10501(world):
 
 def logic_10502(world):
     _world_apply(world, 'herbivore', 'photosynthesis_factor', 'saturation')
+
+def logic_10503(world):
+    _world_apply(world, 'herbivore', 'ice', 'gap')
