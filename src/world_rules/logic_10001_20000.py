@@ -17057,3 +17057,6 @@ def logic_15664(world):
 
 def logic_15665(world):
     _world_apply(world, 'organic_matter', 'ash', 'pulse')
+
+def logic_15666(world):
+    _world_apply(world, 'organic_matter', 'snowpack', 'saturation')
