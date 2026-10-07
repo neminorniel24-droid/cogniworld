@@ -6500,3 +6500,6 @@ def logic_6233(agents, world):
 
 def logic_6234(agents, world):
     _agent_apply(world, agents, 'biodiversity', 'social_avoidance', 'direct')
+
+def logic_6235(agents, world):
+    _agent_apply(world, agents, 'habitat_stress', 'social_avoidance', 'direct')
