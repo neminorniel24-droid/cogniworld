@@ -608,3 +608,6 @@ def logic_10181(world):
 
 def logic_10182(world):
     _world_apply(world, 'rain', 'runoff', 'saturation')
+
+def logic_10183(world):
+    _world_apply(world, 'rain', 'wind_x', 'gap')
