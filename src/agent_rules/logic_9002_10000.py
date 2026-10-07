@@ -1830,3 +1830,6 @@ def logic_9784(agents, world):
 
 def logic_9785(agents, world):
     _agent_apply(world, agents, 'pollinators', 'alertness', 'direct')
+
+def logic_9786(agents, world):
+    _agent_apply(world, agents, 'flowers', 'alertness', 'direct')
