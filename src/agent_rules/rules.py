@@ -65150,3 +65150,10 @@ def logic_39685(agents, world):
     src = _local(world, agents, 'biodiversity')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.thirst = _delta(agents.thirst, delta)
+
+
+def logic_39686(agents, world):
+    """Environmental habitat_stress shapes agent alertness (direct)."""
+    src = _local(world, agents, 'habitat_stress')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.alertness = _delta(agents.alertness, delta)
