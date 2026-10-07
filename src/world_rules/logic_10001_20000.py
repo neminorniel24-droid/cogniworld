@@ -14378,3 +14378,6 @@ def logic_14771(world):
 
 def logic_14772(world):
     _world_apply(world, 'photosynthesis_factor', 'evaporation', 'pulse')
+
+def logic_14773(world):
+    _world_apply(world, 'photosynthesis_factor', 'detritus', 'saturation')
