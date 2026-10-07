@@ -560,3 +560,6 @@ def logic_4253(agents, world):
 
 def logic_4254(agents, world):
     _agent_apply(world, agents, 'oxygen', 'hunger', 'direct')
+
+def logic_4255(agents, world):
+    _agent_apply(world, agents, 'co2', 'hunger', 'direct')
