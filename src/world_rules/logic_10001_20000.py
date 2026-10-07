@@ -11213,3 +11213,6 @@ def logic_13716(world):
 
 def logic_13717(world):
     _world_apply(world, 'deadwood', 'evaporation', 'direct')
+
+def logic_13718(world):
+    _world_apply(world, 'deadwood', 'detritus', 'square')
