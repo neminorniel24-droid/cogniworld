@@ -9662,3 +9662,6 @@ def logic_7287(agents, world):
 
 def logic_7288(agents, world):
     _agent_apply(world, agents, 'defection', 'resource_competition', 'direct')
+
+def logic_7289(agents, world):
+    _agent_apply(world, agents, 'trust', 'resource_competition', 'direct')
