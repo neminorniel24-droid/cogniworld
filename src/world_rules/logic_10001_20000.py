@@ -11105,3 +11105,6 @@ def logic_13680(world):
 
 def logic_13681(world):
     _world_apply(world, 'organic_matter', 'root_density', 'direct')
+
+def logic_13682(world):
+    _world_apply(world, 'organic_matter', 'wetland', 'square')
