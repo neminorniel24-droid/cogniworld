@@ -386,3 +386,6 @@ def logic_4095(world):
 
 def logic_4096(world):
     _world_apply(world, 'detritus', 'decomposition_rate', 'saturation')
+
+def logic_4097(world):
+    _world_apply(world, 'decomposition_rate', 'detritus', 'reciprocal')
