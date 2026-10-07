@@ -1220,3 +1220,6 @@ def logic_18385(agents, world):
 
 def logic_18386(agents, world):
     _agent_apply(world, agents, 'last_food', 'social_tolerance', 'pulse')
+
+def logic_18387(agents, world):
+    _agent_apply(world, agents, 'last_interaction', 'social_tolerance', 'pulse')
