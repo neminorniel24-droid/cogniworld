@@ -17144,3 +17144,6 @@ def logic_15693(world):
 
 def logic_15694(world):
     _world_apply(world, 'deadwood', 'co2', 'gap')
+
+def logic_15695(world):
+    _world_apply(world, 'deadwood', 'photosynthesis_factor', 'direct')
