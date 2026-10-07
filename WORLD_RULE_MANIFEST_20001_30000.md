@@ -4016,3 +4016,4 @@
 - 24015: integrated cross-system causal rule
 - 24016: integrated cross-system causal rule
 - 24017: integrated cross-system causal rule
+- 24018: integrated cross-system causal rule
