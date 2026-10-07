@@ -2003,3 +2003,6 @@ def logic_18646(agents, world):
 
 def logic_18647(agents, world):
     _agent_apply(world, agents, 'fire_fear', 'selfishness', 'reciprocal')
+
+def logic_18648(agents, world):
+    _agent_apply(world, agents, 'resource_competition', 'selfishness', 'reciprocal')
