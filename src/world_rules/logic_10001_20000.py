@@ -290,3 +290,6 @@ def logic_10075(world):
 
 def logic_10076(world):
     _world_apply(world, 'surface_water', 'ash', 'gap')
+
+def logic_10077(world):
+    _world_apply(world, 'surface_water', 'snowpack', 'direct')
