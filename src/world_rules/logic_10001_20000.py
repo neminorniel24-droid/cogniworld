@@ -11234,3 +11234,6 @@ def logic_13723(world):
 
 def logic_13724(world):
     _world_apply(world, 'deadwood', 'soil_depth', 'saturation')
+
+def logic_13725(world):
+    _world_apply(world, 'deadwood', 'root_density', 'gap')
