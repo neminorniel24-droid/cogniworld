@@ -5630,3 +5630,6 @@ def logic_11855(world):
 
 def logic_11856(world):
     _world_apply(world, 'seed_bank', 'wind_x', 'square')
+
+def logic_11857(world):
+    _world_apply(world, 'seed_bank', 'wind_y', 'saturation')
