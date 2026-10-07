@@ -239,3 +239,6 @@ def logic_4046(world):
 
 def logic_4047(world):
     _world_apply(world, 'oxygen', 'health', 'threshold')
+
+def logic_4048(world):
+    _world_apply(world, 'pathogen_load', 'infection_risk', 'saturation')
