@@ -18005,3 +18005,6 @@ def logic_15980(world):
 
 def logic_15981(world):
     _world_apply(world, 'temperature', 'flowers', 'pulse')
+
+def logic_15982(world):
+    _world_apply(world, 'temperature', 'seed_bank', 'saturation')
