@@ -22436,3 +22436,6 @@ def logic_17457(world):
 
 def logic_17458(world):
     _world_apply(world, 'groundwater', 'detritus', 'gap')
+
+def logic_17459(world):
+    _world_apply(world, 'groundwater', 'methane', 'direct')
