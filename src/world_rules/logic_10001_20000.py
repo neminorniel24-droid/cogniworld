@@ -15968,3 +15968,6 @@ def logic_15301(world):
 
 def logic_15302(world):
     _world_apply(world, 'carbon_storage', 'detritus', 'saturation')
+
+def logic_15303(world):
+    _world_apply(world, 'carbon_storage', 'methane', 'gap')
