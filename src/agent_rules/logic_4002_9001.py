@@ -2804,3 +2804,6 @@ def logic_5001(agents, world):
 
 def logic_5002(agents, world):
     _agent_apply(world, agents, 'oxygen', 'migration_drive', 'direct')
+
+def logic_5003(agents, world):
+    _agent_apply(world, agents, 'co2', 'migration_drive', 'direct')
