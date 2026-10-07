@@ -392,3 +392,6 @@ def logic_10109(world):
 
 def logic_10110(world):
     _world_apply(world, 'humidity', 'methane', 'pulse')
+
+def logic_10111(world):
+    _world_apply(world, 'humidity', 'pathogen_load', 'saturation')
