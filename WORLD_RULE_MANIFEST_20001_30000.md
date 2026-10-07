@@ -9070,3 +9070,4 @@
 - 29069: integrated cross-system causal rule
 - 29070: integrated cross-system causal rule
 - 29071: integrated cross-system causal rule
+- 29072: integrated cross-system causal rule
