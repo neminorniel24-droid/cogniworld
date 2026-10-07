@@ -7136,3 +7136,6 @@ def logic_12357(world):
 
 def logic_12358(world):
     _world_apply(world, 'wind_y', 'erosion', 'square')
+
+def logic_12359(world):
+    _world_apply(world, 'wind_y', 'soil_depth', 'pulse')
