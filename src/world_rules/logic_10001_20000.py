@@ -14777,3 +14777,6 @@ def logic_14904(world):
 
 def logic_14905(world):
     _world_apply(world, 'detritus', 'evaporation', 'pulse')
+
+def logic_14906(world):
+    _world_apply(world, 'detritus', 'methane', 'saturation')
