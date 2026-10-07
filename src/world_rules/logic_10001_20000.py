@@ -14018,3 +14018,6 @@ def logic_14651(world):
 
 def logic_14652(world):
     _world_apply(world, 'decomposition_rate', 'ash', 'pulse')
+
+def logic_14653(world):
+    _world_apply(world, 'decomposition_rate', 'snowpack', 'saturation')
