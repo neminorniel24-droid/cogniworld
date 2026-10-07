@@ -5672,3 +5672,6 @@ def logic_19869(agents, world):
 
 def logic_19870(agents, world):
     _agent_apply(world, agents, 'competition_pressure', 'dehydration', 'inverse')
+
+def logic_19871(agents, world):
+    _agent_apply(world, agents, 'territoriality', 'dehydration', 'inverse')
