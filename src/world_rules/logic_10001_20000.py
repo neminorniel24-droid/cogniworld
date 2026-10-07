@@ -21293,3 +21293,6 @@ def logic_17076(world):
 
 def logic_17077(world):
     _world_apply(world, 'habitat_stress', 'algae', 'direct')
+
+def logic_17078(world):
+    _world_apply(world, 'habitat_stress', 'organic_matter', 'square')
