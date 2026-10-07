@@ -1761,3 +1761,6 @@ def logic_9761(agents, world):
 
 def logic_9762(agents, world):
     _agent_apply(world, agents, 'co2', 'alertness', 'direct')
+
+def logic_9763(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'alertness', 'direct')
