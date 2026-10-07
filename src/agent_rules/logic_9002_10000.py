@@ -1353,3 +1353,6 @@ def logic_9625(agents, world):
 
 def logic_9626(agents, world):
     _agent_apply(world, agents, 'co2', 'pathogen_risk', 'direct')
+
+def logic_9627(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'pathogen_risk', 'direct')
