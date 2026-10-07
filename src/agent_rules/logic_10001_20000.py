@@ -2249,3 +2249,6 @@ def logic_18728(agents, world):
 
 def logic_18729(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'confidence', 'gap')
+
+def logic_18730(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'confidence', 'gap')
