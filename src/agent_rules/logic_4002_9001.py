@@ -7415,3 +7415,6 @@ def logic_6538(agents, world):
 
 def logic_6539(agents, world):
     _agent_apply(world, agents, 'cooperation', 'caution', 'direct')
+
+def logic_6540(agents, world):
+    _agent_apply(world, agents, 'defection', 'caution', 'direct')
