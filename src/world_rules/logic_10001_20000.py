@@ -14129,3 +14129,6 @@ def logic_14688(world):
 
 def logic_14689(world):
     _world_apply(world, 'oxygen', 'habitat_stress', 'gap')
+
+def logic_14690(world):
+    _world_apply(world, 'oxygen', 'erosion', 'direct')
