@@ -7017,3 +7017,4 @@
 - 27016: integrated cross-system causal rule
 - 27017: integrated cross-system causal rule
 - 27018: integrated cross-system causal rule
+- 27019: integrated cross-system causal rule
