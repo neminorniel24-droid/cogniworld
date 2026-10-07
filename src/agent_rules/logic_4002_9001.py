@@ -4430,3 +4430,6 @@ def logic_5543(agents, world):
 
 def logic_5544(agents, world):
     _agent_apply(world, agents, 'nutrients', 'trust', 'direct')
+
+def logic_5545(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'trust', 'direct')
