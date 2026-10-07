@@ -23294,3 +23294,6 @@ def logic_17743(world):
 
 def logic_17744(world):
     _world_apply(world, 'pollinators', 'surface_ice', 'direct')
+
+def logic_17745(world):
+    _world_apply(world, 'flowers', 'temperature', 'pulse')
