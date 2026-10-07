@@ -3986,3 +3986,6 @@ def logic_19307(agents, world):
 
 def logic_19308(agents, world):
     _agent_apply(world, agents, 'wealth', 'competition_score', 'pulse')
+
+def logic_19309(agents, world):
+    _agent_apply(world, agents, 'stability', 'competition_score', 'pulse')
