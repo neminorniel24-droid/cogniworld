@@ -410,3 +410,6 @@ def logic_4203(agents, world):
 
 def logic_4204(agents, world):
     _agent_apply(world, agents, 'groundwater', 'thirst', 'direct')
+
+def logic_4205(agents, world):
+    _agent_apply(world, agents, 'sediment', 'thirst', 'direct')
