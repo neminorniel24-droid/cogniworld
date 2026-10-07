@@ -1922,3 +1922,6 @@ def logic_18619(agents, world):
 
 def logic_18620(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'social_avoidance', 'saturation')
+
+def logic_18621(agents, world):
+    _agent_apply(world, agents, 'social_tolerance', 'social_avoidance', 'saturation')
