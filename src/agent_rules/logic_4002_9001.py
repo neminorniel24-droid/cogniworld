@@ -8501,3 +8501,6 @@ def logic_6900(agents, world):
 
 def logic_6901(agents, world):
     _agent_apply(world, agents, 'herbivore', 'attack_threshold', 'direct')
+
+def logic_6902(agents, world):
+    _agent_apply(world, agents, 'predator', 'attack_threshold', 'direct')
