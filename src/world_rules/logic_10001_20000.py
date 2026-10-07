@@ -21161,3 +21161,6 @@ def logic_17032(world):
 
 def logic_17033(world):
     _world_apply(world, 'biodiversity', 'algae', 'square')
+
+def logic_17034(world):
+    _world_apply(world, 'biodiversity', 'organic_matter', 'pulse')
