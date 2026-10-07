@@ -960,3 +960,6 @@ def logic_9494(agents, world):
 
 def logic_9495(agents, world):
     _agent_apply(world, agents, 'methane', 'thermal_stress', 'direct')
+
+def logic_9496(agents, world):
+    _agent_apply(world, agents, 'pathogen_load', 'thermal_stress', 'direct')
