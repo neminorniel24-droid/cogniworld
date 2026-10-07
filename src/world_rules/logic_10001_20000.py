@@ -19463,3 +19463,6 @@ def logic_16466(world):
 
 def logic_16467(world):
     _world_apply(world, 'herbivore', 'soil_carbon', 'gap')
+
+def logic_16468(world):
+    _world_apply(world, 'herbivore', 'surface_ice', 'direct')
