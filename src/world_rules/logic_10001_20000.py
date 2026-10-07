@@ -12452,3 +12452,6 @@ def logic_14129(world):
 
 def logic_14130(world):
     _world_apply(world, 'cloud', 'organic_matter', 'direct')
+
+def logic_14131(world):
+    _world_apply(world, 'cloud', 'deadwood', 'square')
