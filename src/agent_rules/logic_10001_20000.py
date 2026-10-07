@@ -443,3 +443,6 @@ def logic_18126(agents, world):
 
 def logic_18127(agents, world):
     _agent_apply(world, agents, 'retaliation_risk', 'pathogen_risk', 'inverse')
+
+def logic_18128(agents, world):
+    _agent_apply(world, agents, 'defense_score', 'pathogen_risk', 'inverse')
