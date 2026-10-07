@@ -10460,3 +10460,6 @@ def logic_7553(agents, world):
 
 def logic_7554(agents, world):
     _agent_apply(world, agents, 'health', 'neighbor_energy_gap', 'direct')
+
+def logic_7555(agents, world):
+    _agent_apply(world, agents, 'stress', 'neighbor_energy_gap', 'direct')
