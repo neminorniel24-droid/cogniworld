@@ -5969,3 +5969,6 @@ def logic_19968(agents, world):
 
 def logic_19969(agents, world):
     _agent_apply(world, agents, 'salinity', 'recovery', 'square')
+
+def logic_19970(agents, world):
+    _agent_apply(world, agents, 'algae', 'recovery', 'square')
