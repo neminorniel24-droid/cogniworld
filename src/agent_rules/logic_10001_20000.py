@@ -3113,3 +3113,6 @@ def logic_19016(agents, world):
 
 def logic_19017(agents, world):
     _agent_apply(world, agents, 'thirst', 'neighbor_health_gap', 'inverse')
+
+def logic_19018(agents, world):
+    _agent_apply(world, agents, 'hunger', 'neighbor_health_gap', 'inverse')
