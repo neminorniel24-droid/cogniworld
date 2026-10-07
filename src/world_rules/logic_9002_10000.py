@@ -168,3 +168,6 @@ def logic_9031(world):
 
 def logic_9032(world):
     _world_apply(world, 'rain', 'runoff', 'saturation')
+
+def logic_9033(world):
+    _world_apply(world, 'runoff', 'sediment', 'reciprocal')
