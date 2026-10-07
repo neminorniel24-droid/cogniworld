@@ -16892,3 +16892,6 @@ def logic_15609(world):
 
 def logic_15610(world):
     _world_apply(world, 'algae', 'detritus', 'direct')
+
+def logic_15611(world):
+    _world_apply(world, 'algae', 'methane', 'square')
