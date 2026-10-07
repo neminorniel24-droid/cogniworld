@@ -2666,3 +2666,6 @@ def logic_4955(agents, world):
 
 def logic_4956(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'reproduction_drive', 'direct')
+
+def logic_4957(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'reproduction_drive', 'direct')
