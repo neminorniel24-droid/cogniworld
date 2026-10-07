@@ -4322,3 +4322,4 @@
 - 24321: integrated cross-system causal rule
 - 24322: integrated cross-system causal rule
 - 24323: integrated cross-system causal rule
+- 24324: integrated cross-system causal rule
