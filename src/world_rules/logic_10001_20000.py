@@ -6992,3 +6992,6 @@ def logic_12309(world):
 
 def logic_12310(world):
     _world_apply(world, 'wind_x', 'methane', 'pulse')
+
+def logic_12311(world):
+    _world_apply(world, 'wind_x', 'pathogen_load', 'saturation')
