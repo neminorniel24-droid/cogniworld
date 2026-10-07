@@ -1809,3 +1809,6 @@ def logic_9777(agents, world):
 
 def logic_9778(agents, world):
     _agent_apply(world, agents, 'snowpack', 'alertness', 'direct')
+
+def logic_9779(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'alertness', 'direct')
