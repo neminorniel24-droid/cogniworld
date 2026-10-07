@@ -4910,3 +4910,6 @@ def logic_11615(world):
 
 def logic_11616(world):
     _world_apply(world, 'salinity', 'fire_risk', 'square')
+
+def logic_11617(world):
+    _world_apply(world, 'salinity', 'ash', 'saturation')
