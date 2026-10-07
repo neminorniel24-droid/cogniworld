@@ -11858,3 +11858,6 @@ def logic_8019(agents, world):
 
 def logic_8020(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'local_density', 'direct')
+
+def logic_8021(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'local_density', 'direct')
