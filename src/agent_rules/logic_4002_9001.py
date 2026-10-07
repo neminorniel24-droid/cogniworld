@@ -902,3 +902,6 @@ def logic_4367(agents, world):
 
 def logic_4368(agents, world):
     _agent_apply(world, agents, 'help_given', 'health', 'direct')
+
+def logic_4369(agents, world):
+    _agent_apply(world, agents, 'local_density', 'health', 'direct')
