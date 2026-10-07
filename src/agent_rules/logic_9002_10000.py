@@ -546,3 +546,6 @@ def logic_9356(agents, world):
 
 def logic_9357(agents, world):
     _agent_apply(world, agents, 'evaporation', 'hunger', 'direct')
+
+def logic_9358(agents, world):
+    _agent_apply(world, agents, 'detritus', 'hunger', 'direct')
