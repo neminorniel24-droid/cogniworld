@@ -5033,3 +5033,6 @@ def logic_19656(agents, world):
 
 def logic_19657(agents, world):
     _agent_apply(world, agents, 'temperature', 'learning_rate', 'gap')
+
+def logic_19658(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'learning_rate', 'gap')
