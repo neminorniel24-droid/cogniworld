@@ -21884,3 +21884,6 @@ def logic_17273(world):
 
 def logic_17274(world):
     _world_apply(world, 'carbon_storage', 'carrion', 'pulse')
+
+def logic_17275(world):
+    _world_apply(world, 'carbon_storage', 'nutrients', 'saturation')
