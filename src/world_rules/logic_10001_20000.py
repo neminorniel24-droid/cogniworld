@@ -15131,3 +15131,6 @@ def logic_15022(world):
 
 def logic_15023(world):
     _world_apply(world, 'biodiversity', 'runoff', 'gap')
+
+def logic_15024(world):
+    _world_apply(world, 'biodiversity', 'wind_x', 'direct')
