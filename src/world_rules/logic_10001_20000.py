@@ -1052,3 +1052,6 @@ def logic_10329(world):
 
 def logic_10330(world):
     _world_apply(world, 'wind_x', 'methane', 'direct')
+
+def logic_10331(world):
+    _world_apply(world, 'wind_x', 'pathogen_load', 'square')
