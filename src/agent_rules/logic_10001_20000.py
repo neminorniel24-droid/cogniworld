@@ -4223,3 +4223,6 @@ def logic_19386(agents, world):
 
 def logic_19387(agents, world):
     _agent_apply(world, agents, 'runoff', 'safety_score', 'threshold')
+
+def logic_19388(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'safety_score', 'threshold')
