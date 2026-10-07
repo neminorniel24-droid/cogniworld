@@ -22919,3 +22919,6 @@ def logic_17618(world):
 
 def logic_17619(world):
     _world_apply(world, 'organic_matter', 'runoff', 'direct')
+
+def logic_17620(world):
+    _world_apply(world, 'organic_matter', 'wind_x', 'square')
