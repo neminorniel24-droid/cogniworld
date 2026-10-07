@@ -18323,3 +18323,6 @@ def logic_16086(world):
 
 def logic_16087(world):
     _world_apply(world, 'cloud', 'decomposition_rate', 'square')
+
+def logic_16088(world):
+    _world_apply(world, 'cloud', 'oxygen', 'pulse')
