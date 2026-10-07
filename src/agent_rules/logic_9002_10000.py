@@ -2424,3 +2424,6 @@ def logic_9982(agents, world):
 
 def logic_9983(agents, world):
     _agent_apply(world, agents, 'groundwater', 'metabolic_cost', 'direct')
+
+def logic_9984(agents, world):
+    _agent_apply(world, agents, 'sediment', 'metabolic_cost', 'direct')
