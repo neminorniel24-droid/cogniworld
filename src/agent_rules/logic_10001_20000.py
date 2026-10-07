@@ -1907,3 +1907,6 @@ def logic_18614(agents, world):
 
 def logic_18615(agents, world):
     _agent_apply(world, agents, 'migration_drive', 'social_avoidance', 'saturation')
+
+def logic_18616(agents, world):
+    _agent_apply(world, agents, 'exploration_drive', 'social_avoidance', 'saturation')
