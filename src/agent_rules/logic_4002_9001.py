@@ -12848,3 +12848,6 @@ def logic_8349(agents, world):
 
 def logic_8350(agents, world):
     _agent_apply(world, agents, 'ash', 'risk_tolerance', 'direct')
+
+def logic_8351(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'risk_tolerance', 'direct')
