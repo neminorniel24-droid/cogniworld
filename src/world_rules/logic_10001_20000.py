@@ -7631,3 +7631,6 @@ def logic_12522(world):
 
 def logic_12523(world):
     _world_apply(world, 'predator', 'decomposition_rate', 'pulse')
+
+def logic_12524(world):
+    _world_apply(world, 'predator', 'oxygen', 'saturation')
