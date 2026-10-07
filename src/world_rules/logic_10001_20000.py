@@ -24014,3 +24014,6 @@ def logic_17983(world):
 
 def logic_17984(world):
     _world_apply(world, 'surface_water', 'evaporation', 'direct')
+
+def logic_17985(world):
+    _world_apply(world, 'surface_water', 'detritus', 'pulse')
