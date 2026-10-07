@@ -3137,3 +3137,6 @@ def logic_11024(world):
 
 def logic_11025(world):
     _world_apply(world, 'pathogen_load', 'predator', 'pulse')
+
+def logic_11026(world):
+    _world_apply(world, 'pathogen_load', 'carrion', 'saturation')
