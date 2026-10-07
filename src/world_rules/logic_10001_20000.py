@@ -5270,3 +5270,6 @@ def logic_11735(world):
 
 def logic_11736(world):
     _world_apply(world, 'deadwood', 'ice', 'square')
+
+def logic_11737(world):
+    _world_apply(world, 'deadwood', 'evaporation', 'saturation')
