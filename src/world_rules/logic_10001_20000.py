@@ -21950,3 +21950,6 @@ def logic_17295(world):
 
 def logic_17296(world):
     _world_apply(world, 'carbon_storage', 'salinity', 'square')
+
+def logic_17297(world):
+    _world_apply(world, 'carbon_storage', 'algae', 'saturation')
