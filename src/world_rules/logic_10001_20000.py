@@ -19220,3 +19220,6 @@ def logic_16385(world):
 
 def logic_16386(world):
     _world_apply(world, 'biomass', 'soil_moisture', 'saturation')
+
+def logic_16387(world):
+    _world_apply(world, 'biomass', 'runoff', 'gap')
