@@ -8090,3 +8090,6 @@ def logic_6763(agents, world):
 
 def logic_6764(agents, world):
     _agent_apply(world, agents, 'biomass', 'resource_discovery', 'direct')
+
+def logic_6765(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'resource_discovery', 'direct')
