@@ -40986,3 +40986,10 @@ def logic_36233(agents, world):
     src = _local(world, agents, 'methane')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.fire_fear = _delta(agents.fire_fear, delta)
+
+
+def logic_36234(agents, world):
+    """Environmental pathogen_load shapes agent betrayal_memory (direct)."""
+    src = _local(world, agents, 'pathogen_load')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.betrayal_memory = _delta(agents.betrayal_memory, delta)
