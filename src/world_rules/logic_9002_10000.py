@@ -138,3 +138,6 @@ def logic_9021(world):
 
 def logic_9022(world):
     _world_apply(world, 'soil_moisture', 'vegetation', 'pulse')
+
+def logic_9023(world):
+    _world_apply(world, 'vegetation', 'biomass', 'threshold')
