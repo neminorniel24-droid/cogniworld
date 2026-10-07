@@ -7730,3 +7730,6 @@ def logic_12555(world):
 
 def logic_12556(world):
     _world_apply(world, 'carrion', 'cloud', 'gap')
+
+def logic_12557(world):
+    _world_apply(world, 'carrion', 'rain', 'direct')
