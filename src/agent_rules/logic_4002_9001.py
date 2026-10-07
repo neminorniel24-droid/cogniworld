@@ -707,3 +707,6 @@ def logic_4302(agents, world):
 
 def logic_4303(agents, world):
     _agent_apply(world, agents, 'survival_score', 'hunger', 'direct')
+
+def logic_4304(agents, world):
+    _agent_apply(world, agents, 'fitness_score', 'hunger', 'direct')
