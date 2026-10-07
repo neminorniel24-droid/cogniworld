@@ -7988,3 +7988,6 @@ def logic_12641(world):
 
 def logic_12642(world):
     _world_apply(world, 'decomposition_rate', 'surface_water', 'square')
+
+def logic_12643(world):
+    _world_apply(world, 'decomposition_rate', 'humidity', 'pulse')
