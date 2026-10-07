@@ -16583,3 +16583,6 @@ def logic_15506(world):
 
 def logic_15507(world):
     _world_apply(world, 'sediment', 'runoff', 'gap')
+
+def logic_15508(world):
+    _world_apply(world, 'sediment', 'wind_x', 'direct')
