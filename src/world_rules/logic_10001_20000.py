@@ -12836,3 +12836,6 @@ def logic_14257(world):
 
 def logic_14258(world):
     _world_apply(world, 'runoff', 'groundwater', 'gap')
+
+def logic_14259(world):
+    _world_apply(world, 'runoff', 'sediment', 'direct')
