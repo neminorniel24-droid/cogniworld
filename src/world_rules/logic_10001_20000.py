@@ -22253,3 +22253,6 @@ def logic_17396(world):
 
 def logic_17397(world):
     _world_apply(world, 'snowpack', 'rain', 'direct')
+
+def logic_17398(world):
+    _world_apply(world, 'snowpack', 'soil_moisture', 'square')
