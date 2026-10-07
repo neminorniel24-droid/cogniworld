@@ -12356,3 +12356,6 @@ def logic_14097(world):
 
 def logic_14098(world):
     _world_apply(world, 'cloud', 'runoff', 'gap')
+
+def logic_14099(world):
+    _world_apply(world, 'cloud', 'wind_x', 'direct')
