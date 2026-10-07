@@ -4002,3 +4002,4 @@
 - 24001: integrated cross-system causal rule
 - 24002: integrated cross-system causal rule
 - 24003: integrated cross-system causal rule
+- 24004: integrated cross-system causal rule
