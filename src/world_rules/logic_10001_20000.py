@@ -9551,3 +9551,6 @@ def logic_13162(world):
 
 def logic_13163(world):
     _world_apply(world, 'erosion', 'deadwood', 'pulse')
+
+def logic_13164(world):
+    _world_apply(world, 'erosion', 'pollinators', 'saturation')
