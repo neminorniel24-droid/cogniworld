@@ -6308,3 +6308,6 @@ def logic_6169(agents, world):
 
 def logic_6170(agents, world):
     _agent_apply(world, agents, 'root_density', 'help_drive', 'direct')
+
+def logic_6171(agents, world):
+    _agent_apply(world, agents, 'wetland', 'help_drive', 'direct')
