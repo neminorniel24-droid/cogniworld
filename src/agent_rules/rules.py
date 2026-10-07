@@ -50800,3 +50800,10 @@ def logic_37635(agents, world):
     src = _local(world, agents, 'surface_ice')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.risk_score = _delta(agents.risk_score, delta)
+
+
+def logic_37636(agents, world):
+    """Environmental temperature shapes agent attack_success (square)."""
+    src = _local(world, agents, 'temperature')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.attack_success = _delta(agents.attack_success, delta)
