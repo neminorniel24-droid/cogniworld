@@ -15239,3 +15239,6 @@ def logic_15058(world):
 
 def logic_15059(world):
     _world_apply(world, 'biodiversity', 'soil_carbon', 'direct')
+
+def logic_15060(world):
+    _world_apply(world, 'biodiversity', 'surface_ice', 'square')
