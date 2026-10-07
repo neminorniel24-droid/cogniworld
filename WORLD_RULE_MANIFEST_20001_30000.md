@@ -5984,3 +5984,4 @@
 - 25983: integrated cross-system causal rule
 - 25984: integrated cross-system causal rule
 - 25985: integrated cross-system causal rule
+- 25986: integrated cross-system causal rule
