@@ -1775,3 +1775,6 @@ def logic_10570(world):
 
 def logic_10571(world):
     _world_apply(world, 'predator', 'soil_carbon', 'square')
+
+def logic_10572(world):
+    _world_apply(world, 'predator', 'surface_ice', 'pulse')
