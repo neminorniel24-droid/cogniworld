@@ -4838,3 +4838,6 @@ def logic_11591(world):
 
 def logic_11592(world):
     _world_apply(world, 'salinity', 'wind_x', 'gap')
+
+def logic_11593(world):
+    _world_apply(world, 'salinity', 'wind_y', 'square')
