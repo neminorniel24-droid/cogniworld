@@ -40804,3 +40804,10 @@ def logic_36207(agents, world):
     src = _local(world, agents, 'seed_bank')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.attack_threshold = _delta(agents.attack_threshold, delta)
+
+
+def logic_36208(agents, world):
+    """Environmental soil_carbon shapes agent stress (square)."""
+    src = _local(world, agents, 'soil_carbon')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.stress = _delta(agents.stress, delta)
