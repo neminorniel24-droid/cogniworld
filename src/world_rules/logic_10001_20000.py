@@ -15659,3 +15659,6 @@ def logic_15198(world):
 
 def logic_15199(world):
     _world_apply(world, 'root_density', 'runoff', 'pulse')
+
+def logic_15200(world):
+    _world_apply(world, 'root_density', 'wind_x', 'saturation')
