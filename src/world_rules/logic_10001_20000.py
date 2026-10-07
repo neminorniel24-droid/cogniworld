@@ -7886,3 +7886,6 @@ def logic_12607(world):
 
 def logic_12608(world):
     _world_apply(world, 'nutrients', 'herbivore', 'pulse')
+
+def logic_12609(world):
+    _world_apply(world, 'nutrients', 'predator', 'gap')
