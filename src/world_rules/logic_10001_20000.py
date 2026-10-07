@@ -1541,3 +1541,6 @@ def logic_10492(world):
 
 def logic_10493(world):
     _world_apply(world, 'herbivore', 'wind_y', 'saturation')
+
+def logic_10494(world):
+    _world_apply(world, 'herbivore', 'vegetation', 'gap')
