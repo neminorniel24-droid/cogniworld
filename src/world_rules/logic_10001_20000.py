@@ -10691,3 +10691,6 @@ def logic_13542(world):
 
 def logic_13543(world):
     _world_apply(world, 'sediment', 'methane', 'gap')
+
+def logic_13544(world):
+    _world_apply(world, 'sediment', 'pathogen_load', 'direct')

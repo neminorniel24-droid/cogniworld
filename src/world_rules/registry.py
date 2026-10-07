@@ -17104,3 +17104,6 @@ RULES.append(logic_13542)
 
 from .logic_10001_20000 import logic_13543
 RULES.append(logic_13543)
+
+from .logic_10001_20000 import logic_13544
+RULES.append(logic_13544)
