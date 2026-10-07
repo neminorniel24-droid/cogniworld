@@ -1658,3 +1658,6 @@ def logic_18531(agents, world):
 
 def logic_18532(agents, world):
     _agent_apply(world, agents, 'reciprocity_score', 'competition_pressure', 'threshold')
+
+def logic_18533(agents, world):
+    _agent_apply(world, agents, 'risk_score', 'competition_pressure', 'threshold')
