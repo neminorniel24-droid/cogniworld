@@ -11543,3 +11543,6 @@ def logic_13826(world):
 
 def logic_13827(world):
     _world_apply(world, 'flowers', 'soil_carbon', 'gap')
+
+def logic_13828(world):
+    _world_apply(world, 'flowers', 'surface_ice', 'direct')
