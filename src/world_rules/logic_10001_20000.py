@@ -8708,3 +8708,6 @@ def logic_12881(world):
 
 def logic_12882(world):
     _world_apply(world, 'evaporation', 'methane', 'square')
+
+def logic_12883(world):
+    _world_apply(world, 'evaporation', 'pathogen_load', 'pulse')
