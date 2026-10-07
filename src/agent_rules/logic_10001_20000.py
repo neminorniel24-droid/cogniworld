@@ -5405,3 +5405,6 @@ def logic_19780(agents, world):
 
 def logic_19781(agents, world):
     _agent_apply(world, agents, 'help_score', 'thirst', 'direct')
+
+def logic_19782(agents, world):
+    _agent_apply(world, agents, 'attack_success', 'thirst', 'direct')
