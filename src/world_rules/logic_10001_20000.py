@@ -21350,3 +21350,6 @@ def logic_17095(world):
 
 def logic_17096(world):
     _world_apply(world, 'erosion', 'herbivore', 'square')
+
+def logic_17097(world):
+    _world_apply(world, 'erosion', 'predator', 'saturation')
