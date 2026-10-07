@@ -5405,3 +5405,6 @@ def logic_11780(world):
 
 def logic_11781(world):
     _world_apply(world, 'pollinators', 'evaporation', 'pulse')
+
+def logic_11782(world):
+    _world_apply(world, 'pollinators', 'detritus', 'saturation')
