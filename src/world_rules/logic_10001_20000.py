@@ -6254,3 +6254,6 @@ def logic_12063(world):
 
 def logic_12064(world):
     _world_apply(world, 'surface_water', 'pollinators', 'direct')
+
+def logic_12065(world):
+    _world_apply(world, 'surface_water', 'flowers', 'pulse')
