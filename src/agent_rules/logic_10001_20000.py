@@ -4286,3 +4286,6 @@ def logic_19407(agents, world):
 
 def logic_19408(agents, world):
     _agent_apply(world, agents, 'soil_depth', 'exploration_score', 'threshold')
+
+def logic_19409(agents, world):
+    _agent_apply(world, agents, 'root_density', 'exploration_score', 'threshold')
