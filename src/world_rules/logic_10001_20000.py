@@ -14030,3 +14030,6 @@ def logic_14655(world):
 
 def logic_14656(world):
     _world_apply(world, 'decomposition_rate', 'salinity', 'square')
+
+def logic_14657(world):
+    _world_apply(world, 'decomposition_rate', 'algae', 'saturation')
