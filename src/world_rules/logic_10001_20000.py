@@ -21050,3 +21050,6 @@ def logic_16995(world):
 
 def logic_16996(world):
     _world_apply(world, 'pathogen_load', 'surface_ice', 'gap')
+
+def logic_16997(world):
+    _world_apply(world, 'biodiversity', 'temperature', 'direct')
