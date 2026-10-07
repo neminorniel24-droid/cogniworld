@@ -20168,3 +20168,6 @@ def logic_16701(world):
 
 def logic_16702(world):
     _world_apply(world, 'co2', 'carrion', 'saturation')
+
+def logic_16703(world):
+    _world_apply(world, 'co2', 'nutrients', 'gap')
