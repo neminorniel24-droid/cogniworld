@@ -10664,3 +10664,6 @@ def logic_13533(world):
 
 def logic_13534(world):
     _world_apply(world, 'sediment', 'carrion', 'gap')
+
+def logic_13535(world):
+    _world_apply(world, 'sediment', 'nutrients', 'direct')
