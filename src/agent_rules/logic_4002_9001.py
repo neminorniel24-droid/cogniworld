@@ -4148,3 +4148,6 @@ def logic_5449(agents, world):
 
 def logic_5450(agents, world):
     _agent_apply(world, agents, 'social_need', 'social_tolerance', 'direct')
+
+def logic_5451(agents, world):
+    _agent_apply(world, agents, 'cooperation', 'social_tolerance', 'direct')
