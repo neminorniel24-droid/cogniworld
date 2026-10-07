@@ -2999,3 +2999,6 @@ def logic_18978(agents, world):
 
 def logic_18979(agents, world):
     _agent_apply(world, agents, 'predator', 'social_need', 'direct')
+
+def logic_18980(agents, world):
+    _agent_apply(world, agents, 'carrion', 'social_need', 'inverse')
