@@ -543,3 +543,6 @@ def logic_9156(world):
 
 def logic_9157(world):
     _world_apply(world, 'humidity', 'co2', 'sqrt')
+
+def logic_9158(world):
+    _world_apply(world, 'humidity', 'photosynthesis_factor', 'pulse')
