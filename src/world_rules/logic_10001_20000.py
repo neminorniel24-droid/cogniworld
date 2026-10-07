@@ -20279,3 +20279,6 @@ def logic_16738(world):
 
 def logic_16739(world):
     _world_apply(world, 'photosynthesis_factor', 'runoff', 'direct')
+
+def logic_16740(world):
+    _world_apply(world, 'photosynthesis_factor', 'wind_x', 'square')
