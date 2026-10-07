@@ -938,3 +938,6 @@ def logic_18291(agents, world):
 
 def logic_18292(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'exploration_drive', 'sqrt')
+
+def logic_18293(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'exploration_drive', 'sqrt')
