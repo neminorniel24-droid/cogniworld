@@ -1028,3 +1028,6 @@ def logic_18321(agents, world):
 
 def logic_18322(agents, world):
     _agent_apply(world, agents, 'resource_scarcity', 'wealth', 'sqrt')
+
+def logic_18323(agents, world):
+    _agent_apply(world, agents, 'resource_abundance', 'wealth', 'sqrt')
