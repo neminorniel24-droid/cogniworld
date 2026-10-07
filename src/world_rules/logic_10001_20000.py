@@ -9971,3 +9971,6 @@ def logic_13302(world):
 
 def logic_13303(world):
     _world_apply(world, 'carbon_storage', 'humidity', 'gap')
+
+def logic_13304(world):
+    _world_apply(world, 'carbon_storage', 'cloud', 'direct')
