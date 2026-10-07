@@ -2957,3 +2957,6 @@ def logic_10964(world):
 
 def logic_10965(world):
     _world_apply(world, 'detritus', 'flowers', 'gap')
+
+def logic_10966(world):
+    _world_apply(world, 'detritus', 'seed_bank', 'direct')
