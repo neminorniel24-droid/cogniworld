@@ -2003,3 +2003,6 @@ def logic_10646(world):
 
 def logic_10647(world):
     _world_apply(world, 'nutrients', 'fire_risk', 'square')
+
+def logic_10648(world):
+    _world_apply(world, 'nutrients', 'ash', 'pulse')
