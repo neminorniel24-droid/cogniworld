@@ -2744,3 +2744,6 @@ def logic_18893(agents, world):
 
 def logic_18894(agents, world):
     _agent_apply(world, agents, 'wealth', 'fire_fear', 'direct')
+
+def logic_18895(agents, world):
+    _agent_apply(world, agents, 'stability', 'fire_fear', 'direct')
