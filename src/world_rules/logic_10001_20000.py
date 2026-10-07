@@ -4652,3 +4652,6 @@ def logic_11529(world):
 
 def logic_11530(world):
     _world_apply(world, 'groundwater', 'snowpack', 'direct')
+
+def logic_11531(world):
+    _world_apply(world, 'groundwater', 'sediment', 'square')
