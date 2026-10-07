@@ -9077,3 +9077,6 @@ def logic_13004(world):
 
 def logic_13005(world):
     _world_apply(world, 'pathogen_load', 'predator', 'gap')
+
+def logic_13006(world):
+    _world_apply(world, 'pathogen_load', 'carrion', 'direct')
