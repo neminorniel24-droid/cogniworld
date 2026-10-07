@@ -4736,3 +4736,6 @@ def logic_5645(agents, world):
 
 def logic_5646(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'cooperation', 'direct')
+
+def logic_5647(agents, world):
+    _agent_apply(world, agents, 'hydration', 'cooperation', 'direct')
