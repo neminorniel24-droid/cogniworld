@@ -10016,3 +10016,6 @@ def logic_13317(world):
 
 def logic_13318(world):
     _world_apply(world, 'carbon_storage', 'co2', 'square')
+
+def logic_13319(world):
+    _world_apply(world, 'carbon_storage', 'photosynthesis_factor', 'pulse')
