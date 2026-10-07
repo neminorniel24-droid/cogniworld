@@ -10370,3 +10370,6 @@ def logic_13435(world):
 
 def logic_13436(world):
     _world_apply(world, 'snowpack', 'cloud', 'gap')
+
+def logic_13437(world):
+    _world_apply(world, 'snowpack', 'rain', 'direct')
