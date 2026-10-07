@@ -14054,3 +14054,6 @@ def logic_8751(agents, world):
 
 def logic_8752(agents, world):
     _agent_apply(world, agents, 'erosion', 'reciprocity_score', 'direct')
+
+def logic_8753(agents, world):
+    _agent_apply(world, agents, 'soil_depth', 'reciprocity_score', 'direct')
