@@ -3545,3 +3545,4 @@
 - 23544: integrated cross-system causal rule
 - 23545: integrated cross-system causal rule
 - 23546: integrated cross-system causal rule
+- 23547: integrated cross-system causal rule
