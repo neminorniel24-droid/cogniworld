@@ -13823,3 +13823,6 @@ def logic_8674(agents, world):
 
 def logic_8675(agents, world):
     _agent_apply(world, agents, 'co2', 'defection_score', 'direct')
+
+def logic_8676(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'defection_score', 'direct')
