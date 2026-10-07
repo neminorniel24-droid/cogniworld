@@ -7514,3 +7514,6 @@ def logic_12483(world):
 
 def logic_12484(world):
     _world_apply(world, 'herbivore', 'evaporation', 'saturation')
+
+def logic_12485(world):
+    _world_apply(world, 'herbivore', 'detritus', 'gap')
