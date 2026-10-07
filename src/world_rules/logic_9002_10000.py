@@ -195,3 +195,6 @@ def logic_9040(world):
 
 def logic_9041(world):
     _world_apply(world, 'salinity', 'biodiversity', 'reciprocal')
+
+def logic_9042(world):
+    _world_apply(world, 'pathogen_load', 'biodiversity', 'direct')
