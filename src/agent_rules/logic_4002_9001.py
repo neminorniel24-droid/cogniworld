@@ -14681,3 +14681,6 @@ def logic_8960(agents, world):
 
 def logic_8961(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'exploration_score', 'direct')
+
+def logic_8962(agents, world):
+    _agent_apply(world, agents, 'ash', 'exploration_score', 'direct')
