@@ -21905,3 +21905,6 @@ def logic_17280(world):
 
 def logic_17281(world):
     _world_apply(world, 'carbon_storage', 'evaporation', 'direct')
+
+def logic_17282(world):
+    _world_apply(world, 'carbon_storage', 'detritus', 'square')
