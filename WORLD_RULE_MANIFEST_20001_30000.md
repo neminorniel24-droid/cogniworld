@@ -490,3 +490,4 @@
 - 20489: integrated cross-system causal rule
 - 20490: integrated cross-system causal rule
 - 20491: integrated cross-system causal rule
+- 20492: integrated cross-system causal rule
