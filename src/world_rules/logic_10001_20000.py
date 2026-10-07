@@ -503,3 +503,6 @@ def logic_10146(world):
 
 def logic_10147(world):
     _world_apply(world, 'cloud', 'decomposition_rate', 'gap')
+
+def logic_10148(world):
+    _world_apply(world, 'cloud', 'oxygen', 'direct')
