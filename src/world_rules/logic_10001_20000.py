@@ -5666,3 +5666,6 @@ def logic_11867(world):
 
 def logic_11868(world):
     _world_apply(world, 'seed_bank', 'ice', 'direct')
+
+def logic_11869(world):
+    _world_apply(world, 'seed_bank', 'evaporation', 'square')
