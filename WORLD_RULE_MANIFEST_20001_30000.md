@@ -4710,3 +4710,4 @@
 - 24709: integrated cross-system causal rule
 - 24710: integrated cross-system causal rule
 - 24711: integrated cross-system causal rule
+- 24712: integrated cross-system causal rule
