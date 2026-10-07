@@ -4796,3 +4796,6 @@ def logic_5665(agents, world):
 
 def logic_5666(agents, world):
     _agent_apply(world, agents, 'temperature', 'defection', 'direct')
+
+def logic_5667(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'defection', 'direct')
