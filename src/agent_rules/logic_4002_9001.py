@@ -269,3 +269,6 @@ def logic_4156(agents, world):
 
 def logic_4157(agents, world):
     _agent_apply(world, agents, 'competition_pressure', 'hydration', 'direct')
+
+def logic_4158(agents, world):
+    _agent_apply(world, agents, 'social_need', 'hydration', 'direct')
