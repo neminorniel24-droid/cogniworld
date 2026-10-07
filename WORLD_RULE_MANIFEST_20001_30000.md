@@ -8025,3 +8025,4 @@
 - 28024: integrated cross-system causal rule
 - 28025: integrated cross-system causal rule
 - 28026: integrated cross-system causal rule
+- 28027: integrated cross-system causal rule
