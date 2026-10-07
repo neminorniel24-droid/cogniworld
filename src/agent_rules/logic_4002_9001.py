@@ -2987,3 +2987,6 @@ def logic_5062(agents, world):
 
 def logic_5063(agents, world):
     _agent_apply(world, agents, 'vegetation', 'exploration_drive', 'direct')
+
+def logic_5064(agents, world):
+    _agent_apply(world, agents, 'biomass', 'exploration_drive', 'direct')
