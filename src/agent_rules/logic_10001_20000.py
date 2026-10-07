@@ -1670,3 +1670,6 @@ def logic_18535(agents, world):
 
 def logic_18536(agents, world):
     _agent_apply(world, agents, 'foraging_score', 'territoriality', 'saturation')
+
+def logic_18537(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'territoriality', 'saturation')
