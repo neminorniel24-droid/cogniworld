@@ -54041,3 +54041,10 @@ def logic_38098(agents, world):
     src = _local(world, agents, 'surface_water')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.stability = _delta(agents.stability, delta)
+
+
+def logic_38099(agents, world):
+    """Environmental humidity shapes agent aggression (inverse)."""
+    src = _local(world, agents, 'humidity')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.aggression = _delta(agents.aggression, delta)
