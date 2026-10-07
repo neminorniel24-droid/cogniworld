@@ -15716,3 +15716,6 @@ def logic_15217(world):
 
 def logic_15218(world):
     _world_apply(world, 'root_density', 'habitat_stress', 'gap')
+
+def logic_15219(world):
+    _world_apply(world, 'root_density', 'erosion', 'direct')
