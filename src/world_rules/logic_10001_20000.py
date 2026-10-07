@@ -20483,3 +20483,6 @@ def logic_16806(world):
 
 def logic_16807(world):
     _world_apply(world, 'ice', 'fire_risk', 'square')
+
+def logic_16808(world):
+    _world_apply(world, 'ice', 'ash', 'pulse')
