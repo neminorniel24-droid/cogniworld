@@ -3221,3 +3221,6 @@ def logic_11052(world):
 
 def logic_11053(world):
     _world_apply(world, 'pathogen_load', 'flowers', 'saturation')
+
+def logic_11054(world):
+    _world_apply(world, 'pathogen_load', 'seed_bank', 'gap')
