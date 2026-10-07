@@ -173,3 +173,6 @@ def logic_4024(world):
 
 def logic_4025(world):
     _world_apply(world, 'flowers', 'pollinators', 'reciprocal')
+
+def logic_4026(world):
+    _world_apply(world, 'pollinators', 'flowers', 'direct')
