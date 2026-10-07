@@ -9227,3 +9227,6 @@ def logic_13054(world):
 
 def logic_13055(world):
     _world_apply(world, 'biodiversity', 'photosynthesis_factor', 'direct')
+
+def logic_13056(world):
+    _world_apply(world, 'biodiversity', 'ice', 'square')
