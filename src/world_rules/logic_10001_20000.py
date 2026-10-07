@@ -20084,3 +20084,6 @@ def logic_16673(world):
 
 def logic_16674(world):
     _world_apply(world, 'oxygen', 'carbon_storage', 'pulse')
+
+def logic_16675(world):
+    _world_apply(world, 'oxygen', 'fire_risk', 'saturation')
