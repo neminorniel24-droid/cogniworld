@@ -2680,3 +2680,4 @@
 - 22679: integrated cross-system causal rule
 - 22680: integrated cross-system causal rule
 - 22681: integrated cross-system causal rule
+- 22682: integrated cross-system causal rule
