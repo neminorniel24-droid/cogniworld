@@ -10319,3 +10319,6 @@ def logic_13418(world):
 
 def logic_13419(world):
     _world_apply(world, 'ash', 'carbon_storage', 'direct')
+
+def logic_13420(world):
+    _world_apply(world, 'ash', 'fire_risk', 'square')
