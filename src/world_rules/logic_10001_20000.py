@@ -16346,3 +16346,6 @@ def logic_15427(world):
 
 def logic_15428(world):
     _world_apply(world, 'snowpack', 'decomposition_rate', 'direct')
+
+def logic_15429(world):
+    _world_apply(world, 'snowpack', 'oxygen', 'square')
