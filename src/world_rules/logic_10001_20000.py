@@ -13757,3 +13757,6 @@ def logic_14564(world):
 
 def logic_14565(world):
     _world_apply(world, 'carrion', 'snowpack', 'gap')
+
+def logic_14566(world):
+    _world_apply(world, 'carrion', 'groundwater', 'direct')
