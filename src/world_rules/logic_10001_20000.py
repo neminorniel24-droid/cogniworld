@@ -8183,3 +8183,6 @@ def logic_12706(world):
 
 def logic_12707(world):
     _world_apply(world, 'oxygen', 'pathogen_load', 'gap')
+
+def logic_12708(world):
+    _world_apply(world, 'oxygen', 'biodiversity', 'direct')
