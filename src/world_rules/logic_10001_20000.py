@@ -1787,3 +1787,6 @@ def logic_10574(world):
 
 def logic_10575(world):
     _world_apply(world, 'carrion', 'humidity', 'direct')
+
+def logic_10576(world):
+    _world_apply(world, 'carrion', 'cloud', 'square')
