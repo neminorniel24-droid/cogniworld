@@ -5837,3 +5837,6 @@ def logic_19924(agents, world):
 
 def logic_19925(agents, world):
     _agent_apply(world, agents, 'sharing_score', 'alertness', 'inverse')
+
+def logic_19926(agents, world):
+    _agent_apply(world, agents, 'strategy_persistence', 'alertness', 'inverse')
