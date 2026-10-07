@@ -20042,3 +20042,6 @@ def logic_16659(world):
 
 def logic_16660(world):
     _world_apply(world, 'oxygen', 'decomposition_rate', 'square')
+
+def logic_16661(world):
+    _world_apply(world, 'oxygen', 'co2', 'pulse')
