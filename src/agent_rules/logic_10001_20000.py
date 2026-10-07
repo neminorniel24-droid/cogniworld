@@ -1073,3 +1073,6 @@ def logic_18336(agents, world):
 
 def logic_18337(agents, world):
     _agent_apply(world, agents, 'metabolic_cost', 'stability', 'sqrt')
+
+def logic_18338(agents, world):
+    _agent_apply(world, agents, 'reproduction_drive', 'stability', 'sqrt')
