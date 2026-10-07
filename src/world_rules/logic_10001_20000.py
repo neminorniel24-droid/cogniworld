@@ -8081,3 +8081,6 @@ def logic_12672(world):
 
 def logic_12673(world):
     _world_apply(world, 'decomposition_rate', 'snowpack', 'square')
+
+def logic_12674(world):
+    _world_apply(world, 'decomposition_rate', 'groundwater', 'pulse')
