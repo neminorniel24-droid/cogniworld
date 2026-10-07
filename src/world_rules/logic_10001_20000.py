@@ -19865,3 +19865,6 @@ def logic_16600(world):
 
 def logic_16601(world):
     _world_apply(world, 'decomposition_rate', 'temperature', 'direct')
+
+def logic_16602(world):
+    _world_apply(world, 'decomposition_rate', 'surface_water', 'square')
