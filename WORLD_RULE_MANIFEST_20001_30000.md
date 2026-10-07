@@ -2210,3 +2210,4 @@
 - 22209: integrated cross-system causal rule
 - 22210: integrated cross-system causal rule
 - 22211: integrated cross-system causal rule
+- 22212: integrated cross-system causal rule
