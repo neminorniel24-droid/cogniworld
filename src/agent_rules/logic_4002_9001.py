@@ -734,3 +734,6 @@ def logic_4311(agents, world):
 
 def logic_4312(agents, world):
     _agent_apply(world, agents, 'runoff', 'health', 'direct')
+
+def logic_4313(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'health', 'direct')
