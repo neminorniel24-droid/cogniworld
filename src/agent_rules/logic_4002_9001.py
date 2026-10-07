@@ -9494,3 +9494,6 @@ def logic_7231(agents, world):
 
 def logic_7232(agents, world):
     _agent_apply(world, agents, 'humidity', 'resource_competition', 'direct')
+
+def logic_7233(agents, world):
+    _agent_apply(world, agents, 'cloud', 'resource_competition', 'direct')
