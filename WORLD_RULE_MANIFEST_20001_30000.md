@@ -8021,3 +8021,4 @@
 - 28020: integrated cross-system causal rule
 - 28021: integrated cross-system causal rule
 - 28022: integrated cross-system causal rule
+- 28023: integrated cross-system causal rule
