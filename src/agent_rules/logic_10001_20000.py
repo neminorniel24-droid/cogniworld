@@ -5660,3 +5660,6 @@ def logic_19865(agents, world):
 
 def logic_19866(agents, world):
     _agent_apply(world, agents, 'cooperation', 'dehydration', 'direct')
+
+def logic_19867(agents, world):
+    _agent_apply(world, agents, 'defection', 'dehydration', 'direct')
