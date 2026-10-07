@@ -1583,3 +1583,6 @@ def logic_10506(world):
 
 def logic_10507(world):
     _world_apply(world, 'herbivore', 'pathogen_load', 'gap')
+
+def logic_10508(world):
+    _world_apply(world, 'herbivore', 'biodiversity', 'direct')
