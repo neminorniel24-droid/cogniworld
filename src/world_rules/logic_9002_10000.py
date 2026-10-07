@@ -279,3 +279,6 @@ def logic_9068(world):
 
 def logic_9069(world):
     _world_apply(world, 'temperature', 'wind_y', 'sqrt')
+
+def logic_9070(world):
+    _world_apply(world, 'temperature', 'vegetation', 'pulse')
