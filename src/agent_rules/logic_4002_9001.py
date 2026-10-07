@@ -8210,3 +8210,6 @@ def logic_6803(agents, world):
 
 def logic_6804(agents, world):
     _agent_apply(world, agents, 'thirst', 'resource_discovery', 'direct')
+
+def logic_6805(agents, world):
+    _agent_apply(world, agents, 'hunger', 'resource_discovery', 'direct')
