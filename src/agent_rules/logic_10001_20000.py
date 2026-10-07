@@ -4385,3 +4385,6 @@ def logic_19440(agents, world):
 
 def logic_19441(agents, world):
     _agent_apply(world, agents, 'metabolic_cost', 'survival_score', 'saturation')
+
+def logic_19442(agents, world):
+    _agent_apply(world, agents, 'reproduction_drive', 'survival_score', 'saturation')
