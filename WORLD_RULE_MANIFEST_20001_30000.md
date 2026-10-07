@@ -5570,3 +5570,4 @@
 - 25569: integrated cross-system causal rule
 - 25570: integrated cross-system causal rule
 - 25571: integrated cross-system causal rule
+- 25572: integrated cross-system causal rule
