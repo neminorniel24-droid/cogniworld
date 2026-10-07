@@ -171,3 +171,6 @@ def logic_9032(world):
 
 def logic_9033(world):
     _world_apply(world, 'runoff', 'sediment', 'reciprocal')
+
+def logic_9034(world):
+    _world_apply(world, 'sediment', 'soil_depth', 'direct')
