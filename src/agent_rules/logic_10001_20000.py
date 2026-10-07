@@ -353,3 +353,6 @@ def logic_18096(agents, world):
 
 def logic_18097(agents, world):
     _agent_apply(world, agents, 'vegetation_expectation', 'thermal_stress', 'inverse')
+
+def logic_18098(agents, world):
+    _agent_apply(world, agents, 'stress', 'thermal_stress', 'inverse')
