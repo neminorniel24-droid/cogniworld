@@ -9662,3 +9662,6 @@ def logic_13199(world):
 
 def logic_13200(world):
     _world_apply(world, 'soil_depth', 'ash', 'saturation')
+
+def logic_13201(world):
+    _world_apply(world, 'soil_depth', 'snowpack', 'direct')
