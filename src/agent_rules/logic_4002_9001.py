@@ -5186,3 +5186,6 @@ def logic_5795(agents, world):
 
 def logic_5796(agents, world):
     _agent_apply(world, agents, 'help_given', 'aggression', 'direct')
+
+def logic_5797(agents, world):
+    _agent_apply(world, agents, 'local_density', 'aggression', 'direct')
