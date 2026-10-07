@@ -14240,3 +14240,6 @@ def logic_14725(world):
 
 def logic_14726(world):
     _world_apply(world, 'co2', 'photosynthesis_factor', 'direct')
+
+def logic_14727(world):
+    _world_apply(world, 'co2', 'ice', 'square')
