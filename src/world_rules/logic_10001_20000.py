@@ -1589,3 +1589,6 @@ def logic_10508(world):
 
 def logic_10509(world):
     _world_apply(world, 'herbivore', 'habitat_stress', 'square')
+
+def logic_10510(world):
+    _world_apply(world, 'herbivore', 'erosion', 'pulse')
