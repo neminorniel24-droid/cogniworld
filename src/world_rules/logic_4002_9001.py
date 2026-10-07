@@ -236,3 +236,6 @@ def logic_4045(world):
 
 def logic_4046(world):
     _world_apply(world, 'root_density', 'soil_carbon', 'pulse')
+
+def logic_4047(world):
+    _world_apply(world, 'oxygen', 'health', 'threshold')
