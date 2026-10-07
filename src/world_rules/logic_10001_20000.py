@@ -5108,3 +5108,6 @@ def logic_11681(world):
 
 def logic_11682(world):
     _world_apply(world, 'organic_matter', 'vegetation', 'square')
+
+def logic_11683(world):
+    _world_apply(world, 'organic_matter', 'biomass', 'pulse')
