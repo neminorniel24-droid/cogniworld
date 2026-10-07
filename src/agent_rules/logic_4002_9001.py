@@ -7433,3 +7433,6 @@ def logic_6544(agents, world):
 
 def logic_6545(agents, world):
     _agent_apply(world, agents, 'local_density', 'caution', 'direct')
+
+def logic_6546(agents, world):
+    _agent_apply(world, agents, 'strategy_score', 'caution', 'direct')
