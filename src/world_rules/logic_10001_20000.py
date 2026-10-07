@@ -6410,3 +6410,6 @@ def logic_12115(world):
 
 def logic_12116(world):
     _world_apply(world, 'cloud', 'rain', 'gap')
+
+def logic_12117(world):
+    _world_apply(world, 'cloud', 'soil_moisture', 'direct')
