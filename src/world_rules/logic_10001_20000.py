@@ -10343,3 +10343,6 @@ def logic_13426(world):
 
 def logic_13427(world):
     _world_apply(world, 'ash', 'deadwood', 'gap')
+
+def logic_13428(world):
+    _world_apply(world, 'ash', 'pollinators', 'direct')
