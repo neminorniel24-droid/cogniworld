@@ -3152,3 +3152,6 @@ def logic_5117(agents, world):
 
 def logic_5118(agents, world):
     _agent_apply(world, agents, 'strategy_score', 'exploration_drive', 'direct')
+
+def logic_5119(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'exploration_drive', 'direct')
