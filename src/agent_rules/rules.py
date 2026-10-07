@@ -38704,3 +38704,10 @@ def logic_35907(agents, world):
     src = _local(world, agents, 'photosynthesis_factor')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.retaliation_risk = _delta(agents.retaliation_risk, delta)
+
+
+def logic_35908(agents, world):
+    """Environmental ice shapes agent learning_rate (square)."""
+    src = _local(world, agents, 'ice')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.learning_rate = _delta(agents.learning_rate, delta)
