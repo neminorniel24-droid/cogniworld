@@ -7382,3 +7382,4 @@
 - 27381: integrated cross-system causal rule
 - 27382: integrated cross-system causal rule
 - 27383: integrated cross-system causal rule
+- 27384: integrated cross-system causal rule
