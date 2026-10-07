@@ -4025,3 +4025,6 @@ def logic_11320(world):
 
 def logic_11321(world):
     _world_apply(world, 'carbon_storage', 'temperature', 'direct')
+
+def logic_11322(world):
+    _world_apply(world, 'carbon_storage', 'surface_water', 'square')
