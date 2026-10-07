@@ -13832,3 +13832,6 @@ def logic_14589(world):
 
 def logic_14590(world):
     _world_apply(world, 'nutrients', 'carrion', 'pulse')
+
+def logic_14591(world):
+    _world_apply(world, 'nutrients', 'decomposition_rate', 'saturation')
