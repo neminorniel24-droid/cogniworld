@@ -5750,3 +5750,6 @@ def logic_11895(world):
 
 def logic_11896(world):
     _world_apply(world, 'soil_carbon', 'cloud', 'square')
+
+def logic_11897(world):
+    _world_apply(world, 'soil_carbon', 'rain', 'saturation')
