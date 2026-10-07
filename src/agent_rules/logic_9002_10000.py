@@ -1776,3 +1776,6 @@ def logic_9766(agents, world):
 
 def logic_9767(agents, world):
     _agent_apply(world, agents, 'methane', 'alertness', 'direct')
+
+def logic_9768(agents, world):
+    _agent_apply(world, agents, 'pathogen_load', 'alertness', 'direct')
