@@ -7200,3 +7200,4 @@
 - 27199: integrated cross-system causal rule
 - 27200: integrated cross-system causal rule
 - 27201: integrated cross-system causal rule
+- 27202: integrated cross-system causal rule
