@@ -5573,3 +5573,6 @@ def logic_11836(world):
 
 def logic_11837(world):
     _world_apply(world, 'flowers', 'ash', 'direct')
+
+def logic_11838(world):
+    _world_apply(world, 'flowers', 'snowpack', 'square')
