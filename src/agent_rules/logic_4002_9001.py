@@ -14000,3 +14000,6 @@ def logic_8733(agents, world):
 
 def logic_8734(agents, world):
     _agent_apply(world, agents, 'wind_y', 'reciprocity_score', 'direct')
+
+def logic_8735(agents, world):
+    _agent_apply(world, agents, 'vegetation', 'reciprocity_score', 'direct')
