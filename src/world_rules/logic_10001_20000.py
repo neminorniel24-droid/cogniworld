@@ -14585,3 +14585,6 @@ def logic_14840(world):
 
 def logic_14841(world):
     _world_apply(world, 'evaporation', 'temperature', 'direct')
+
+def logic_14842(world):
+    _world_apply(world, 'evaporation', 'surface_water', 'square')
