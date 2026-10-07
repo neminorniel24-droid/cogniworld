@@ -2732,3 +2732,6 @@ def logic_4977(agents, world):
 
 def logic_4978(agents, world):
     _agent_apply(world, agents, 'reputation', 'reproduction_drive', 'direct')
+
+def logic_4979(agents, world):
+    _agent_apply(world, agents, 'help_received', 'reproduction_drive', 'direct')
