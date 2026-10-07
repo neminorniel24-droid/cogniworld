@@ -19007,3 +19007,6 @@ def logic_16314(world):
 
 def logic_16315(world):
     _world_apply(world, 'wind_y', 'pathogen_load', 'saturation')
+
+def logic_16316(world):
+    _world_apply(world, 'wind_y', 'biodiversity', 'gap')
