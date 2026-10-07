@@ -17498,3 +17498,6 @@ def logic_15811(world):
 
 def logic_15812(world):
     _world_apply(world, 'seed_bank', 'cloud', 'pulse')
+
+def logic_15813(world):
+    _world_apply(world, 'seed_bank', 'rain', 'saturation')
