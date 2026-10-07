@@ -5420,3 +5420,6 @@ def logic_5873(agents, world):
 
 def logic_5874(agents, world):
     _agent_apply(world, agents, 'rain', 'competition_pressure', 'direct')
+
+def logic_5875(agents, world):
+    _agent_apply(world, agents, 'soil_moisture', 'competition_pressure', 'direct')
