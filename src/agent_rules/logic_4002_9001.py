@@ -4844,3 +4844,6 @@ def logic_5681(agents, world):
 
 def logic_5682(agents, world):
     _agent_apply(world, agents, 'oxygen', 'defection', 'direct')
+
+def logic_5683(agents, world):
+    _agent_apply(world, agents, 'co2', 'defection', 'direct')
