@@ -18746,3 +18746,6 @@ def logic_16227(world):
 
 def logic_16228(world):
     _world_apply(world, 'runoff', 'biodiversity', 'direct')
+
+def logic_16229(world):
+    _world_apply(world, 'runoff', 'habitat_stress', 'square')
