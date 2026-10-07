@@ -12491,3 +12491,6 @@ def logic_14142(world):
 
 def logic_14143(world):
     _world_apply(world, 'rain', 'wind_x', 'gap')
+
+def logic_14144(world):
+    _world_apply(world, 'rain', 'wind_y', 'direct')
