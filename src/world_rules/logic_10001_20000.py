@@ -6905,3 +6905,6 @@ def logic_12280(world):
 
 def logic_12281(world):
     _world_apply(world, 'runoff', 'algae', 'direct')
+
+def logic_12282(world):
+    _world_apply(world, 'runoff', 'organic_matter', 'square')
