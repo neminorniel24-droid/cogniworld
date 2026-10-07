@@ -914,3 +914,6 @@ def logic_10283(world):
 
 def logic_10284(world):
     _world_apply(world, 'runoff', 'evaporation', 'saturation')
+
+def logic_10285(world):
+    _world_apply(world, 'runoff', 'detritus', 'gap')
