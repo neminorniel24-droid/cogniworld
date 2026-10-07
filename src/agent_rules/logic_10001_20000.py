@@ -4397,3 +4397,6 @@ def logic_19444(agents, world):
 
 def logic_19445(agents, world):
     _agent_apply(world, agents, 'food_access', 'survival_score', 'saturation')
+
+def logic_19446(agents, world):
+    _agent_apply(world, agents, 'wealth', 'survival_score', 'saturation')
