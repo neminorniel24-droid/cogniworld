@@ -2415,3 +2415,6 @@ def logic_9979(agents, world):
 
 def logic_9980(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'metabolic_cost', 'direct')
+
+def logic_9981(agents, world):
+    _agent_apply(world, agents, 'ash', 'metabolic_cost', 'direct')
