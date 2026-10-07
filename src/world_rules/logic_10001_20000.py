@@ -9344,3 +9344,6 @@ def logic_13093(world):
 
 def logic_13094(world):
     _world_apply(world, 'habitat_stress', 'carrion', 'gap')
+
+def logic_13095(world):
+    _world_apply(world, 'habitat_stress', 'nutrients', 'direct')
