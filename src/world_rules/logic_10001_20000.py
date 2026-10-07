@@ -8690,3 +8690,6 @@ def logic_12875(world):
 
 def logic_12876(world):
     _world_apply(world, 'evaporation', 'decomposition_rate', 'gap')
+
+def logic_12877(world):
+    _world_apply(world, 'evaporation', 'oxygen', 'direct')
