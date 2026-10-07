@@ -36772,3 +36772,10 @@ def logic_35631(agents, world):
     src = _local(world, agents, 'photosynthesis_factor')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.exploration_drive = _delta(agents.exploration_drive, delta)
+
+
+def logic_35632(agents, world):
+    """Environmental ice shapes agent trust (square)."""
+    src = _local(world, agents, 'ice')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.trust = _delta(agents.trust, delta)
