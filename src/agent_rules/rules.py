@@ -29226,3 +29226,10 @@ def logic_34553(agents, world):
     src = _local(world, agents, 'surface_ice')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.generosity = _delta(agents.generosity, delta)
+
+
+def logic_34554(agents, world):
+    """Environmental temperature shapes agent empathy (direct)."""
+    src = _local(world, agents, 'temperature')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.empathy = _delta(agents.empathy, delta)
