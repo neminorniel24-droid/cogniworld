@@ -38445,3 +38445,10 @@ def logic_35870(agents, world):
     src = _local(world, agents, 'soil_depth')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.memory_update = _delta(agents.memory_update, delta)
+
+
+def logic_35871(agents, world):
+    """Environmental root_density shapes agent health (inverse)."""
+    src = _local(world, agents, 'root_density')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.health = _delta(agents.health, delta)
