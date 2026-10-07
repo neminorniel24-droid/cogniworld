@@ -22727,3 +22727,6 @@ def logic_17554(world):
 
 def logic_17555(world):
     _world_apply(world, 'salinity', 'carbon_storage', 'saturation')
+
+def logic_17556(world):
+    _world_apply(world, 'salinity', 'fire_risk', 'gap')
