@@ -6890,3 +6890,4 @@
 - 26889: integrated cross-system causal rule
 - 26890: integrated cross-system causal rule
 - 26891: integrated cross-system causal rule
+- 26892: integrated cross-system causal rule
