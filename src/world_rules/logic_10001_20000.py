@@ -1874,3 +1874,6 @@ def logic_10603(world):
 
 def logic_10604(world):
     _world_apply(world, 'carrion', 'ash', 'saturation')
+
+def logic_10605(world):
+    _world_apply(world, 'carrion', 'snowpack', 'gap')
