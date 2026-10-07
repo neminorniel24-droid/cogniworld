@@ -6149,3 +6149,6 @@ def logic_6116(agents, world):
 
 def logic_6117(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'sharing_capacity', 'direct')
+
+def logic_6118(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'sharing_capacity', 'direct')
