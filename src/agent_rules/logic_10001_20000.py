@@ -578,3 +578,6 @@ def logic_18171(agents, world):
 
 def logic_18172(agents, world):
     _agent_apply(world, agents, 'snowpack', 'alertness', 'inverse')
+
+def logic_18173(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'alertness', 'inverse')
