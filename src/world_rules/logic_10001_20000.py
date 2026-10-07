@@ -16907,3 +16907,6 @@ def logic_15614(world):
 
 def logic_15615(world):
     _world_apply(world, 'algae', 'erosion', 'direct')
+
+def logic_15616(world):
+    _world_apply(world, 'algae', 'soil_depth', 'square')
