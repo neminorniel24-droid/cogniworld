@@ -12530,3 +12530,6 @@ def logic_14155(world):
 
 def logic_14156(world):
     _world_apply(world, 'rain', 'evaporation', 'gap')
+
+def logic_14157(world):
+    _world_apply(world, 'rain', 'detritus', 'direct')
