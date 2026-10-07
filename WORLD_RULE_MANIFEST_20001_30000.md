@@ -967,3 +967,4 @@
 - 20966: integrated cross-system causal rule
 - 20967: integrated cross-system causal rule
 - 20968: integrated cross-system causal rule
+- 20969: integrated cross-system causal rule
