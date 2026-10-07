@@ -850,3 +850,4 @@
 - 20849: integrated cross-system causal rule
 - 20850: integrated cross-system causal rule
 - 20851: integrated cross-system causal rule
+- 20852: integrated cross-system causal rule
