@@ -14189,3 +14189,6 @@ def logic_14708(world):
 
 def logic_14709(world):
     _world_apply(world, 'co2', 'temperature', 'square')
+
+def logic_14710(world):
+    _world_apply(world, 'co2', 'surface_water', 'pulse')
