@@ -80,3 +80,6 @@ def logic_10005(world):
 
 def logic_10006(world):
     _world_apply(world, 'temperature', 'runoff', 'direct')
+
+def logic_10007(world):
+    _world_apply(world, 'temperature', 'wind_x', 'square')
