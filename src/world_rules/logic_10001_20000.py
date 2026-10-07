@@ -107,3 +107,6 @@ def logic_10014(world):
 
 def logic_10015(world):
     _world_apply(world, 'temperature', 'decomposition_rate', 'direct')
+
+def logic_10016(world):
+    _world_apply(world, 'temperature', 'oxygen', 'square')
