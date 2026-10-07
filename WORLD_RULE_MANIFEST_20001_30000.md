@@ -7810,3 +7810,4 @@
 - 27809: integrated cross-system causal rule
 - 27810: integrated cross-system causal rule
 - 27811: integrated cross-system causal rule
+- 27812: integrated cross-system causal rule
