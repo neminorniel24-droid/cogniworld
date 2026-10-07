@@ -125,3 +125,6 @@ def logic_18020(agents, world):
 
 def logic_18021(agents, world):
     _agent_apply(world, agents, 'evaporation', 'thirst', 'direct')
+
+def logic_18022(agents, world):
+    _agent_apply(world, agents, 'detritus', 'thirst', 'direct')
