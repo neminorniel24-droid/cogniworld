@@ -7310,3 +7310,4 @@
 - 27309: integrated cross-system causal rule
 - 27310: integrated cross-system causal rule
 - 27311: integrated cross-system causal rule
+- 27312: integrated cross-system causal rule
