@@ -2807,3 +2807,6 @@ def logic_5002(agents, world):
 
 def logic_5003(agents, world):
     _agent_apply(world, agents, 'co2', 'migration_drive', 'direct')
+
+def logic_5004(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'migration_drive', 'direct')
