@@ -20165,3 +20165,6 @@ def logic_16700(world):
 
 def logic_16701(world):
     _world_apply(world, 'co2', 'predator', 'pulse')
+
+def logic_16702(world):
+    _world_apply(world, 'co2', 'carrion', 'saturation')
