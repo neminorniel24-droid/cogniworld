@@ -5810,3 +5810,6 @@ def logic_19915(agents, world):
 
 def logic_19916(agents, world):
     _agent_apply(world, agents, 'foraging_score', 'alertness', 'inverse')
+
+def logic_19917(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'alertness', 'inverse')
