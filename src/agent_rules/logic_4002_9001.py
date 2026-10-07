@@ -5831,3 +5831,6 @@ def logic_6010(agents, world):
 
 def logic_6011(agents, world):
     _agent_apply(world, agents, 'soil_moisture', 'group_stability', 'direct')
+
+def logic_6012(agents, world):
+    _agent_apply(world, agents, 'runoff', 'group_stability', 'direct')
