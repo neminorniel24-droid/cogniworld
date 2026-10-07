@@ -8640,3 +8640,4 @@
 - 28639: integrated cross-system causal rule
 - 28640: integrated cross-system causal rule
 - 28641: integrated cross-system causal rule
+- 28642: integrated cross-system causal rule
