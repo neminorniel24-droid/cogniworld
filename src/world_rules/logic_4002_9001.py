@@ -344,3 +344,6 @@ def logic_4081(world):
 
 def logic_4082(world):
     _world_apply(world, 'pollinators', 'seed_bank', 'direct')
+
+def logic_4083(world):
+    _world_apply(world, 'rain', 'wetland', 'inverse')
