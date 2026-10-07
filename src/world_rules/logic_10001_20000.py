@@ -4553,3 +4553,6 @@ def logic_11496(world):
 
 def logic_11497(world):
     _world_apply(world, 'groundwater', 'temperature', 'saturation')
+
+def logic_11498(world):
+    _world_apply(world, 'groundwater', 'surface_water', 'gap')
