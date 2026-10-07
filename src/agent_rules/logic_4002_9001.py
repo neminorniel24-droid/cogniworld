@@ -10400,3 +10400,6 @@ def logic_7533(agents, world):
 
 def logic_7534(agents, world):
     _agent_apply(world, agents, 'ash', 'neighbor_energy_gap', 'direct')
+
+def logic_7535(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'neighbor_energy_gap', 'direct')
