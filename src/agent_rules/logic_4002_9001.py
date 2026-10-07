@@ -347,3 +347,6 @@ def logic_4182(agents, world):
 
 def logic_4183(agents, world):
     _agent_apply(world, agents, 'carrion', 'thirst', 'direct')
+
+def logic_4184(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'thirst', 'direct')
