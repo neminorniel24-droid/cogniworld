@@ -3920,3 +3920,6 @@ def logic_11285(world):
 
 def logic_11286(world):
     _world_apply(world, 'wetland', 'vegetation', 'direct')
+
+def logic_11287(world):
+    _world_apply(world, 'wetland', 'biomass', 'square')
