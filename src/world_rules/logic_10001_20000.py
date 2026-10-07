@@ -2933,3 +2933,6 @@ def logic_10956(world):
 
 def logic_10957(world):
     _world_apply(world, 'detritus', 'snowpack', 'direct')
+
+def logic_10958(world):
+    _world_apply(world, 'detritus', 'groundwater', 'square')
