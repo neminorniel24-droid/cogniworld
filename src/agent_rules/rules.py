@@ -65878,3 +65878,10 @@ def logic_39789(agents, world):
     src = _local(world, agents, 'salinity')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.stability = _delta(agents.stability, delta)
+
+
+def logic_39790(agents, world):
+    """Environmental algae shapes agent aggression (direct)."""
+    src = _local(world, agents, 'algae')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.aggression = _delta(agents.aggression, delta)
