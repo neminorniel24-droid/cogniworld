@@ -19502,3 +19502,6 @@ def logic_16479(world):
 
 def logic_16480(world):
     _world_apply(world, 'predator', 'herbivore', 'saturation')
+
+def logic_16481(world):
+    _world_apply(world, 'predator', 'carrion', 'direct')
