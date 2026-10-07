@@ -11849,3 +11849,6 @@ def logic_8016(agents, world):
 
 def logic_8017(agents, world):
     _agent_apply(world, agents, 'deadwood', 'local_density', 'direct')
+
+def logic_8018(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'local_density', 'direct')
