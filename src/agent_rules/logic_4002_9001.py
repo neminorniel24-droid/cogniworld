@@ -11864,3 +11864,6 @@ def logic_8021(agents, world):
 
 def logic_8022(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'local_density', 'direct')
+
+def logic_8023(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'local_density', 'direct')
