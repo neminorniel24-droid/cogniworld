@@ -3221,3 +3221,6 @@ def logic_5140(agents, world):
 
 def logic_5141(agents, world):
     _agent_apply(world, agents, 'ice', 'food_access', 'direct')
+
+def logic_5142(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'food_access', 'direct')
