@@ -14135,3 +14135,6 @@ def logic_14690(world):
 
 def logic_14691(world):
     _world_apply(world, 'oxygen', 'soil_depth', 'square')
+
+def logic_14692(world):
+    _world_apply(world, 'oxygen', 'root_density', 'pulse')
