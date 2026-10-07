@@ -20960,3 +20960,6 @@ def logic_16965(world):
 
 def logic_16966(world):
     _world_apply(world, 'pathogen_load', 'carrion', 'direct')
+
+def logic_16967(world):
+    _world_apply(world, 'pathogen_load', 'nutrients', 'square')
