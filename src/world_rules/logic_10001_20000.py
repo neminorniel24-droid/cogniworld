@@ -3986,3 +3986,6 @@ def logic_11307(world):
 
 def logic_11308(world):
     _world_apply(world, 'wetland', 'ash', 'direct')
+
+def logic_11309(world):
+    _world_apply(world, 'wetland', 'snowpack', 'square')
