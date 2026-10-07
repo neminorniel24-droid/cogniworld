@@ -13760,3 +13760,6 @@ def logic_14565(world):
 
 def logic_14566(world):
     _world_apply(world, 'carrion', 'groundwater', 'direct')
+
+def logic_14567(world):
+    _world_apply(world, 'carrion', 'sediment', 'square')
