@@ -1202,3 +1202,6 @@ def logic_18379(agents, world):
 
 def logic_18380(agents, world):
     _agent_apply(world, agents, 'cooperation_history', 'social_tolerance', 'pulse')
+
+def logic_18381(agents, world):
+    _agent_apply(world, agents, 'help_received', 'social_tolerance', 'pulse')
