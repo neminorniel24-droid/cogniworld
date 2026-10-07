@@ -284,3 +284,6 @@ def logic_18073(agents, world):
 
 def logic_18074(agents, world):
     _agent_apply(world, agents, 'aggression', 'health', 'direct')
+
+def logic_18075(agents, world):
+    _agent_apply(world, agents, 'conflict_pressure', 'health', 'direct')
