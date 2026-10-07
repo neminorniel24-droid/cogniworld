@@ -7298,3 +7298,4 @@
 - 27297: integrated cross-system causal rule
 - 27298: integrated cross-system causal rule
 - 27299: integrated cross-system causal rule
+- 27300: integrated cross-system causal rule
