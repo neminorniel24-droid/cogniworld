@@ -2135,3 +2135,6 @@ def logic_4778(agents, world):
 
 def logic_4779(agents, world):
     _agent_apply(world, agents, 'survival_score', 'fear', 'direct')
+
+def logic_4780(agents, world):
+    _agent_apply(world, agents, 'fitness_score', 'fear', 'direct')
