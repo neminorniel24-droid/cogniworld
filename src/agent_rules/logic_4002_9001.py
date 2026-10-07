@@ -7799,3 +7799,6 @@ def logic_6666(agents, world):
 
 def logic_6667(agents, world):
     _agent_apply(world, agents, 'hydration', 'strategy_confidence', 'direct')
+
+def logic_6668(agents, world):
+    _agent_apply(world, agents, 'thirst', 'strategy_confidence', 'direct')
