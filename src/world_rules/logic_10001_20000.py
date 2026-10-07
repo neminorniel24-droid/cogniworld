@@ -2879,3 +2879,6 @@ def logic_10938(world):
 
 def logic_10939(world):
     _world_apply(world, 'detritus', 'nutrients', 'direct')
+
+def logic_10940(world):
+    _world_apply(world, 'detritus', 'decomposition_rate', 'square')
