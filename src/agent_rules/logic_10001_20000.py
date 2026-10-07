@@ -4460,3 +4460,6 @@ def logic_19465(agents, world):
 
 def logic_19466(agents, world):
     _agent_apply(world, agents, 'confidence', 'fitness_score', 'saturation')
+
+def logic_19467(agents, world):
+    _agent_apply(world, agents, 'strategy_confidence', 'fitness_score', 'saturation')
