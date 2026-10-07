@@ -2648,3 +2648,6 @@ def logic_4949(agents, world):
 
 def logic_4950(agents, world):
     _agent_apply(world, agents, 'ash', 'reproduction_drive', 'direct')
+
+def logic_4951(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'reproduction_drive', 'direct')
