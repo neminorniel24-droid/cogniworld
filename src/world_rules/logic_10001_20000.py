@@ -22772,3 +22772,6 @@ def logic_17569(world):
 
 def logic_17570(world):
     _world_apply(world, 'algae', 'surface_water', 'direct')
+
+def logic_17571(world):
+    _world_apply(world, 'algae', 'humidity', 'square')
