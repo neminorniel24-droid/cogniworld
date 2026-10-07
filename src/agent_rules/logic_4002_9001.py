@@ -9509,3 +9509,6 @@ def logic_7236(agents, world):
 
 def logic_7237(agents, world):
     _agent_apply(world, agents, 'wind_x', 'resource_competition', 'direct')
+
+def logic_7238(agents, world):
+    _agent_apply(world, agents, 'wind_y', 'resource_competition', 'direct')
