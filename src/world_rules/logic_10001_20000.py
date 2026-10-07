@@ -20798,3 +20798,6 @@ def logic_16911(world):
 
 def logic_16912(world):
     _world_apply(world, 'methane', 'cloud', 'gap')
+
+def logic_16913(world):
+    _world_apply(world, 'methane', 'rain', 'square')
