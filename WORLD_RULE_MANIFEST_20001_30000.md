@@ -6702,3 +6702,4 @@
 - 26701: integrated cross-system causal rule
 - 26702: integrated cross-system causal rule
 - 26703: integrated cross-system causal rule
+- 26704: integrated cross-system causal rule
