@@ -1613,3 +1613,6 @@ def logic_10516(world):
 
 def logic_10517(world):
     _world_apply(world, 'herbivore', 'snowpack', 'direct')
+
+def logic_10518(world):
+    _world_apply(world, 'herbivore', 'groundwater', 'square')
