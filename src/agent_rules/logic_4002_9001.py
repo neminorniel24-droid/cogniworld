@@ -2327,3 +2327,6 @@ def logic_4842(agents, world):
 
 def logic_4843(agents, world):
     _agent_apply(world, agents, 'help_received', 'recovery', 'direct')
+
+def logic_4844(agents, world):
+    _agent_apply(world, agents, 'help_given', 'recovery', 'direct')
