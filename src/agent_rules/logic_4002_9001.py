@@ -14723,3 +14723,6 @@ def logic_8974(agents, world):
 
 def logic_8975(agents, world):
     _agent_apply(world, agents, 'resource_scarcity', 'exploration_score', 'direct')
+
+def logic_8976(agents, world):
+    _agent_apply(world, agents, 'resource_abundance', 'exploration_score', 'direct')
