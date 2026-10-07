@@ -21278,3 +21278,6 @@ def logic_17071(world):
 
 def logic_17072(world):
     _world_apply(world, 'habitat_stress', 'ash', 'gap')
+
+def logic_17073(world):
+    _world_apply(world, 'habitat_stress', 'snowpack', 'square')
