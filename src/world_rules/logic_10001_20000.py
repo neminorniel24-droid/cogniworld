@@ -21326,3 +21326,6 @@ def logic_17087(world):
 
 def logic_17088(world):
     _world_apply(world, 'erosion', 'cloud', 'pulse')
+
+def logic_17089(world):
+    _world_apply(world, 'erosion', 'rain', 'gap')
