@@ -8180,3 +8180,6 @@ def logic_12705(world):
 
 def logic_12706(world):
     _world_apply(world, 'oxygen', 'methane', 'saturation')
+
+def logic_12707(world):
+    _world_apply(world, 'oxygen', 'pathogen_load', 'gap')
