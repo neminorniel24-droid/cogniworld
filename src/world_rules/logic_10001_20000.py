@@ -21632,3 +21632,6 @@ def logic_17189(world):
 
 def logic_17190(world):
     _world_apply(world, 'root_density', 'co2', 'pulse')
+
+def logic_17191(world):
+    _world_apply(world, 'root_density', 'photosynthesis_factor', 'saturation')
