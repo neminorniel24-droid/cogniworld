@@ -7328,3 +7328,6 @@ def logic_6509(agents, world):
 
 def logic_6510(agents, world):
     _agent_apply(world, agents, 'root_density', 'caution', 'direct')
+
+def logic_6511(agents, world):
+    _agent_apply(world, agents, 'wetland', 'caution', 'direct')
