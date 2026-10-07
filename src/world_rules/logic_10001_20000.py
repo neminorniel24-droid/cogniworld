@@ -14927,3 +14927,6 @@ def logic_14954(world):
 
 def logic_14955(world):
     _world_apply(world, 'methane', 'soil_depth', 'saturation')
+
+def logic_14956(world):
+    _world_apply(world, 'methane', 'root_density', 'gap')
