@@ -21020,3 +21020,6 @@ def logic_16985(world):
 
 def logic_16986(world):
     _world_apply(world, 'pathogen_load', 'groundwater', 'saturation')
+
+def logic_16987(world):
+    _world_apply(world, 'pathogen_load', 'sediment', 'gap')
