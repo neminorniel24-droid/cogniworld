@@ -58703,3 +58703,10 @@ def logic_38764(agents, world):
     src = _local(world, agents, 'pathogen_load')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.neighbor_health_gap = _delta(agents.neighbor_health_gap, delta)
+
+
+def logic_38765(agents, world):
+    """Environmental biodiversity shapes agent last_reward (root)."""
+    src = _local(world, agents, 'biodiversity')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.last_reward = _delta(agents.last_reward, delta)
