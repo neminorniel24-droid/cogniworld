@@ -3586,3 +3586,4 @@
 - 23585: integrated cross-system causal rule
 - 23586: integrated cross-system causal rule
 - 23587: integrated cross-system causal rule
+- 23588: integrated cross-system causal rule
