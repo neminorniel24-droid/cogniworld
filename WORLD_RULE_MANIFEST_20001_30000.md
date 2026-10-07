@@ -2120,3 +2120,4 @@
 - 22119: integrated cross-system causal rule
 - 22120: integrated cross-system causal rule
 - 22121: integrated cross-system causal rule
+- 22122: integrated cross-system causal rule
