@@ -182,3 +182,6 @@ def logic_10039(world):
 
 def logic_10040(world):
     _world_apply(world, 'temperature', 'pollinators', 'saturation')
+
+def logic_10041(world):
+    _world_apply(world, 'temperature', 'flowers', 'direct')
