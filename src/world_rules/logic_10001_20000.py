@@ -1733,3 +1733,6 @@ def logic_10556(world):
 
 def logic_10557(world):
     _world_apply(world, 'predator', 'wetland', 'direct')
+
+def logic_10558(world):
+    _world_apply(world, 'predator', 'carbon_storage', 'square')
