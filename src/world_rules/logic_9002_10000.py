@@ -237,3 +237,6 @@ def logic_9054(world):
 
 def logic_9055(world):
     _world_apply(world, 'ice', 'surface_ice', 'threshold')
+
+def logic_9056(world):
+    _world_apply(world, 'surface_ice', 'snowpack', 'saturation')
