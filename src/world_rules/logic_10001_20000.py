@@ -65,3 +65,6 @@ def _agent_apply(world, agents, source, target, mode):
 
 def logic_10001(world):
     _world_apply(world, 'temperature', 'surface_water', 'direct')
+
+def logic_10002(world):
+    _world_apply(world, 'temperature', 'humidity', 'square')
