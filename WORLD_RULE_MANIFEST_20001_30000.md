@@ -9520,3 +9520,4 @@
 - 29519: integrated cross-system causal rule
 - 29520: integrated cross-system causal rule
 - 29521: integrated cross-system causal rule
+- 29522: integrated cross-system causal rule
