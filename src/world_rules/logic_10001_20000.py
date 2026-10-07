@@ -20777,3 +20777,6 @@ def logic_16904(world):
 
 def logic_16905(world):
     _world_apply(world, 'detritus', 'flowers', 'pulse')
+
+def logic_16906(world):
+    _world_apply(world, 'detritus', 'seed_bank', 'saturation')
