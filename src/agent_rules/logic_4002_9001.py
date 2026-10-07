@@ -10472,3 +10472,6 @@ def logic_7557(agents, world):
 
 def logic_7558(agents, world):
     _agent_apply(world, agents, 'social_need', 'neighbor_energy_gap', 'direct')
+
+def logic_7559(agents, world):
+    _agent_apply(world, agents, 'cooperation', 'neighbor_energy_gap', 'direct')
