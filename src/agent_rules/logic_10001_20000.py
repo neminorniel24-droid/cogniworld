@@ -3008,3 +3008,6 @@ def logic_18981(agents, world):
 
 def logic_18982(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'social_need', 'inverse')
+
+def logic_18983(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'social_need', 'inverse')
