@@ -8393,3 +8393,6 @@ def logic_6864(agents, world):
 
 def logic_6865(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'empathy', 'direct')
+
+def logic_6866(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'empathy', 'direct')
