@@ -13313,3 +13313,6 @@ def logic_14416(world):
 
 def logic_14417(world):
     _world_apply(world, 'biomass', 'co2', 'saturation')
+
+def logic_14418(world):
+    _world_apply(world, 'biomass', 'photosynthesis_factor', 'gap')
