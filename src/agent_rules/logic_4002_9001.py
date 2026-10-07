@@ -7802,3 +7802,6 @@ def logic_6667(agents, world):
 
 def logic_6668(agents, world):
     _agent_apply(world, agents, 'thirst', 'strategy_confidence', 'direct')
+
+def logic_6669(agents, world):
+    _agent_apply(world, agents, 'hunger', 'strategy_confidence', 'direct')
