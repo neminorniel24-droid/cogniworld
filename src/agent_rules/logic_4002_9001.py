@@ -11072,3 +11072,6 @@ def logic_7757(agents, world):
 
 def logic_7758(agents, world):
     _agent_apply(world, agents, 'health', 'conflict_history', 'direct')
+
+def logic_7759(agents, world):
+    _agent_apply(world, agents, 'stress', 'conflict_history', 'direct')
