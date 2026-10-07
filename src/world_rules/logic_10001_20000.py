@@ -3023,3 +3023,6 @@ def logic_10986(world):
 
 def logic_10987(world):
     _world_apply(world, 'methane', 'photosynthesis_factor', 'gap')
+
+def logic_10988(world):
+    _world_apply(world, 'methane', 'ice', 'direct')
