@@ -7670,3 +7670,6 @@ def logic_12535(world):
 
 def logic_12536(world):
     _world_apply(world, 'predator', 'root_density', 'square')
+
+def logic_12537(world):
+    _world_apply(world, 'predator', 'wetland', 'saturation')
