@@ -1565,3 +1565,6 @@ def logic_10500(world):
 
 def logic_10501(world):
     _world_apply(world, 'herbivore', 'co2', 'pulse')
+
+def logic_10502(world):
+    _world_apply(world, 'herbivore', 'photosynthesis_factor', 'saturation')
