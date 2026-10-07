@@ -3164,3 +3164,6 @@ def logic_5121(agents, world):
 
 def logic_5122(agents, world):
     _agent_apply(world, agents, 'temperature', 'food_access', 'direct')
+
+def logic_5123(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'food_access', 'direct')
