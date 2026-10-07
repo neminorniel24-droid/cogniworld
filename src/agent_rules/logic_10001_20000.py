@@ -5675,3 +5675,6 @@ def logic_19870(agents, world):
 
 def logic_19871(agents, world):
     _agent_apply(world, agents, 'territoriality', 'dehydration', 'inverse')
+
+def logic_19872(agents, world):
+    _agent_apply(world, agents, 'group_stability', 'dehydration', 'inverse')
