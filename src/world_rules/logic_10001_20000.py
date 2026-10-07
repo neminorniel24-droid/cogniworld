@@ -9041,3 +9041,6 @@ def logic_12992(world):
 
 def logic_12993(world):
     _world_apply(world, 'pathogen_load', 'temperature', 'square')
+
+def logic_12994(world):
+    _world_apply(world, 'pathogen_load', 'surface_water', 'pulse')
