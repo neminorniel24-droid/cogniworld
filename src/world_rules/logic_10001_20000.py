@@ -20207,3 +20207,6 @@ def logic_16714(world):
 
 def logic_16715(world):
     _world_apply(world, 'co2', 'soil_depth', 'saturation')
+
+def logic_16716(world):
+    _world_apply(world, 'co2', 'root_density', 'gap')
