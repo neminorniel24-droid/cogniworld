@@ -8664,3 +8664,4 @@
 - 28663: integrated cross-system causal rule
 - 28664: integrated cross-system causal rule
 - 28665: integrated cross-system causal rule
+- 28666: integrated cross-system causal rule
