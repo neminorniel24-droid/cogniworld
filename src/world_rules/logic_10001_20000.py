@@ -7550,3 +7550,6 @@ def logic_12495(world):
 
 def logic_12496(world):
     _world_apply(world, 'herbivore', 'ash', 'square')
+
+def logic_12497(world):
+    _world_apply(world, 'herbivore', 'snowpack', 'saturation')
