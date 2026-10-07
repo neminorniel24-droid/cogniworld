@@ -14720,3 +14720,6 @@ def logic_14885(world):
 
 def logic_14886(world):
     _world_apply(world, 'detritus', 'surface_water', 'direct')
+
+def logic_14887(world):
+    _world_apply(world, 'detritus', 'humidity', 'square')
