@@ -8468,3 +8468,4 @@
 - 28467: integrated cross-system causal rule
 - 28468: integrated cross-system causal rule
 - 28469: integrated cross-system causal rule
+- 28470: integrated cross-system causal rule
