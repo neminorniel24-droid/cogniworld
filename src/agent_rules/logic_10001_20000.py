@@ -2588,3 +2588,6 @@ def logic_18841(agents, world):
 
 def logic_18842(agents, world):
     _agent_apply(world, agents, 'carrion', 'defection_threshold', 'feedback')
+
+def logic_18843(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'defection_threshold', 'feedback')
