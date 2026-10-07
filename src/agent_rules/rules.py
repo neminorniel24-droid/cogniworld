@@ -49141,3 +49141,10 @@ def logic_37398(agents, world):
     src = _local(world, agents, 'algae')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.reproduction_drive = _delta(agents.reproduction_drive, delta)
+
+
+def logic_37399(agents, world):
+    """Environmental organic_matter shapes agent social_tolerance (inverse)."""
+    src = _local(world, agents, 'organic_matter')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.social_tolerance = _delta(agents.social_tolerance, delta)
