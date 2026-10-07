@@ -320,3 +320,6 @@ def logic_4073(world):
 
 def logic_4074(world):
     _world_apply(world, 'ice', 'surface_ice', 'direct')
+
+def logic_4075(world):
+    _world_apply(world, 'soil_moisture', 'organic_matter', 'inverse')
