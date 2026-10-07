@@ -21317,3 +21317,6 @@ def logic_17084(world):
 
 def logic_17085(world):
     _world_apply(world, 'erosion', 'temperature', 'gap')
+
+def logic_17086(world):
+    _world_apply(world, 'erosion', 'surface_water', 'direct')
