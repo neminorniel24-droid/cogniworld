@@ -20465,3 +20465,6 @@ def logic_16800(world):
 
 def logic_16801(world):
     _world_apply(world, 'ice', 'habitat_stress', 'direct')
+
+def logic_16802(world):
+    _world_apply(world, 'ice', 'erosion', 'square')
