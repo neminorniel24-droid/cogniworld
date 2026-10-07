@@ -1730,3 +1730,6 @@ def logic_4643(agents, world):
 
 def logic_4644(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'infection_risk', 'direct')
+
+def logic_4645(agents, world):
+    _agent_apply(world, agents, 'payoff', 'infection_risk', 'direct')
