@@ -4688,3 +4688,6 @@ def logic_19541(agents, world):
 
 def logic_19542(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'defense_score', 'reciprocal')
+
+def logic_19543(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'defense_score', 'reciprocal')
