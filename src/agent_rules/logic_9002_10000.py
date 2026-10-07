@@ -1722,3 +1722,6 @@ def logic_9748(agents, world):
 
 def logic_9749(agents, world):
     _agent_apply(world, agents, 'rain', 'alertness', 'direct')
+
+def logic_9750(agents, world):
+    _agent_apply(world, agents, 'soil_moisture', 'alertness', 'direct')
