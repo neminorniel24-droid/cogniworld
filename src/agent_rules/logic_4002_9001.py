@@ -2414,3 +2414,6 @@ def logic_4871(agents, world):
 
 def logic_4872(agents, world):
     _agent_apply(world, agents, 'methane', 'metabolic_cost', 'direct')
+
+def logic_4873(agents, world):
+    _agent_apply(world, agents, 'pathogen_load', 'metabolic_cost', 'direct')
