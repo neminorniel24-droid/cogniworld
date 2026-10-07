@@ -5069,3 +5069,6 @@ def logic_19668(agents, world):
 
 def logic_19669(agents, world):
     _agent_apply(world, agents, 'predator', 'learning_rate', 'gap')
+
+def logic_19670(agents, world):
+    _agent_apply(world, agents, 'carrion', 'learning_rate', 'gap')
