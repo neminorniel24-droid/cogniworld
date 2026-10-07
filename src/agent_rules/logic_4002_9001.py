@@ -1577,3 +1577,6 @@ def logic_4592(agents, world):
 
 def logic_4593(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'infection_risk', 'direct')
+
+def logic_4594(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'infection_risk', 'direct')
