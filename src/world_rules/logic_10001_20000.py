@@ -9494,3 +9494,6 @@ def logic_13143(world):
 
 def logic_13144(world):
     _world_apply(world, 'erosion', 'ice', 'direct')
+
+def logic_13145(world):
+    _world_apply(world, 'erosion', 'evaporation', 'pulse')
