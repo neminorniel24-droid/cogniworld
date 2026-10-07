@@ -182,3 +182,6 @@ def logic_4027(world):
 
 def logic_4028(world):
     _world_apply(world, 'deadwood', 'decomposition_rate', 'square')
+
+def logic_4029(world):
+    _world_apply(world, 'surface_ice', 'surface_water', 'sqrt')
