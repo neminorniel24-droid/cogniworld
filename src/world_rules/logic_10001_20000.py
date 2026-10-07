@@ -13445,3 +13445,6 @@ def logic_14460(world):
 
 def logic_14461(world):
     _world_apply(world, 'herbivore', 'co2', 'pulse')
+
+def logic_14462(world):
+    _world_apply(world, 'herbivore', 'photosynthesis_factor', 'saturation')
