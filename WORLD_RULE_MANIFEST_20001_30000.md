@@ -8287,3 +8287,4 @@
 - 28286: integrated cross-system causal rule
 - 28287: integrated cross-system causal rule
 - 28288: integrated cross-system causal rule
+- 28289: integrated cross-system causal rule
