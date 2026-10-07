@@ -67019,3 +67019,10 @@ def logic_39952(agents, world):
     src = _local(world, agents, 'decomposition_rate')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.thirst = _delta(agents.thirst, delta)
+
+
+def logic_39953(agents, world):
+    """Environmental oxygen shapes agent alertness (root)."""
+    src = _local(world, agents, 'oxygen')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.alertness = _delta(agents.alertness, delta)
