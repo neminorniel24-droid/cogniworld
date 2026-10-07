@@ -13004,3 +13004,6 @@ def logic_8401(agents, world):
 
 def logic_8402(agents, world):
     _agent_apply(world, agents, 'oxygen', 'last_action', 'direct')
+
+def logic_8403(agents, world):
+    _agent_apply(world, agents, 'co2', 'last_action', 'direct')
