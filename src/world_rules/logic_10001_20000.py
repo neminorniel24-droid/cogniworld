@@ -692,3 +692,6 @@ def logic_10209(world):
 
 def logic_10210(world):
     _world_apply(world, 'rain', 'groundwater', 'direct')
+
+def logic_10211(world):
+    _world_apply(world, 'rain', 'sediment', 'square')
