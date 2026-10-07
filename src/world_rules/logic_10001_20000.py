@@ -2600,3 +2600,6 @@ def logic_10845(world):
 
 def logic_10846(world):
     _world_apply(world, 'ice', 'vegetation', 'direct')
+
+def logic_10847(world):
+    _world_apply(world, 'ice', 'biomass', 'square')
