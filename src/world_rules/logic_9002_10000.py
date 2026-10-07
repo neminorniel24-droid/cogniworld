@@ -357,3 +357,6 @@ def logic_9094(world):
 
 def logic_9095(world):
     _world_apply(world, 'temperature', 'organic_matter', 'threshold')
+
+def logic_9096(world):
+    _world_apply(world, 'temperature', 'deadwood', 'saturation')
