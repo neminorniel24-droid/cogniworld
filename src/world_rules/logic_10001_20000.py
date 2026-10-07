@@ -11573,3 +11573,6 @@ def logic_13836(world):
 
 def logic_13837(world):
     _world_apply(world, 'seed_bank', 'wind_y', 'direct')
+
+def logic_13838(world):
+    _world_apply(world, 'seed_bank', 'vegetation', 'square')
