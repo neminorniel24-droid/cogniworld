@@ -14600,3 +14600,6 @@ def logic_14845(world):
 
 def logic_14846(world):
     _world_apply(world, 'evaporation', 'soil_moisture', 'direct')
+
+def logic_14847(world):
+    _world_apply(world, 'evaporation', 'runoff', 'square')
