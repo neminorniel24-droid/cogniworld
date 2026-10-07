@@ -11039,3 +11039,6 @@ def logic_13658(world):
 
 def logic_13659(world):
     _world_apply(world, 'organic_matter', 'runoff', 'direct')
+
+def logic_13660(world):
+    _world_apply(world, 'organic_matter', 'wind_x', 'square')
