@@ -1796,3 +1796,6 @@ def logic_4665(agents, world):
 
 def logic_4666(agents, world):
     _agent_apply(world, agents, 'evaporation', 'alertness', 'direct')
+
+def logic_4667(agents, world):
+    _agent_apply(world, agents, 'detritus', 'alertness', 'direct')
