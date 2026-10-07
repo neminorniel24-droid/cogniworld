@@ -13439,3 +13439,6 @@ def logic_8546(agents, world):
 
 def logic_8547(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'cooperation_score', 'direct')
+
+def logic_8548(agents, world):
+    _agent_apply(world, agents, 'erosion', 'cooperation_score', 'direct')
