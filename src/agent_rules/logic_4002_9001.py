@@ -8510,3 +8510,6 @@ def logic_6903(agents, world):
 
 def logic_6904(agents, world):
     _agent_apply(world, agents, 'nutrients', 'attack_threshold', 'direct')
+
+def logic_6905(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'attack_threshold', 'direct')
