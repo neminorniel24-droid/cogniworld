@@ -203,3 +203,6 @@ def logic_4034(world):
 
 def logic_4035(world):
     _world_apply(world, 'fire_risk', 'vegetation', 'inverse')
+
+def logic_4036(world):
+    _world_apply(world, 'fire_risk', 'biomass', 'square')
