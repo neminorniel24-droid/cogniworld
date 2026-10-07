@@ -7016,3 +7016,6 @@ def logic_6405(agents, world):
 
 def logic_6406(agents, world):
     _agent_apply(world, agents, 'reputation', 'generosity', 'direct')
+
+def logic_6407(agents, world):
+    _agent_apply(world, agents, 'help_received', 'generosity', 'direct')
