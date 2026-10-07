@@ -22304,3 +22304,6 @@ def logic_17413(world):
 
 def logic_17414(world):
     _world_apply(world, 'snowpack', 'detritus', 'gap')
+
+def logic_17415(world):
+    _world_apply(world, 'snowpack', 'methane', 'direct')
