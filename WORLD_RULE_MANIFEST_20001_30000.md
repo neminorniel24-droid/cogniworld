@@ -711,3 +711,4 @@
 - 20710: integrated cross-system causal rule
 - 20711: integrated cross-system causal rule
 - 20712: integrated cross-system causal rule
+- 20713: integrated cross-system causal rule
