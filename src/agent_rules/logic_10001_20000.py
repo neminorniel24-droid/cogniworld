@@ -5027,3 +5027,6 @@ def logic_19654(agents, world):
 
 def logic_19655(agents, world):
     _agent_apply(world, agents, 'self_preservation', 'strategy_mixing', 'gap')
+
+def logic_19656(agents, world):
+    _agent_apply(world, agents, 'payoff', 'strategy_mixing', 'gap')
