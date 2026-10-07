@@ -15128,3 +15128,6 @@ def logic_15021(world):
 
 def logic_15022(world):
     _world_apply(world, 'biodiversity', 'soil_moisture', 'saturation')
+
+def logic_15023(world):
+    _world_apply(world, 'biodiversity', 'runoff', 'gap')
