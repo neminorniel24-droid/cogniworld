@@ -21848,3 +21848,6 @@ def logic_17261(world):
 
 def logic_17262(world):
     _world_apply(world, 'carbon_storage', 'surface_water', 'saturation')
+
+def logic_17263(world):
+    _world_apply(world, 'carbon_storage', 'humidity', 'gap')
