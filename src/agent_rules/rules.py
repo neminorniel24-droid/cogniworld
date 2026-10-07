@@ -31368,3 +31368,10 @@ def logic_34859(agents, world):
     src = _local(world, agents, 'root_density')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.resource_discovery = _delta(agents.resource_discovery, delta)
+
+
+def logic_34860(agents, world):
+    """Environmental wetland shapes agent resource_competition (square)."""
+    src = _local(world, agents, 'wetland')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.resource_competition = _delta(agents.resource_competition, delta)
