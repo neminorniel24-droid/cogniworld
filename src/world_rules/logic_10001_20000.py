@@ -4400,3 +4400,6 @@ def logic_11445(world):
 
 def logic_11446(world):
     _world_apply(world, 'ash', 'organic_matter', 'direct')
+
+def logic_11447(world):
+    _world_apply(world, 'ash', 'deadwood', 'square')
