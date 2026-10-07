@@ -12191,3 +12191,6 @@ def logic_14042(world):
 
 def logic_14043(world):
     _world_apply(world, 'surface_water', 'deadwood', 'pulse')
+
+def logic_14044(world):
+    _world_apply(world, 'surface_water', 'pollinators', 'saturation')
