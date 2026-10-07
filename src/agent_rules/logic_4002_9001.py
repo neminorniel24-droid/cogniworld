@@ -6818,3 +6818,6 @@ def logic_6339(agents, world):
 
 def logic_6340(agents, world):
     _agent_apply(world, agents, 'help_given', 'selfishness', 'direct')
+
+def logic_6341(agents, world):
+    _agent_apply(world, agents, 'local_density', 'selfishness', 'direct')
