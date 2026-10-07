@@ -3038,3 +3038,6 @@ def logic_5079(agents, world):
 
 def logic_5080(agents, world):
     _agent_apply(world, agents, 'erosion', 'exploration_drive', 'direct')
+
+def logic_5081(agents, world):
+    _agent_apply(world, agents, 'soil_depth', 'exploration_drive', 'direct')
