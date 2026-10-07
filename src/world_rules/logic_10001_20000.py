@@ -22451,3 +22451,6 @@ def logic_17462(world):
 
 def logic_17463(world):
     _world_apply(world, 'groundwater', 'erosion', 'gap')
+
+def logic_17464(world):
+    _world_apply(world, 'groundwater', 'soil_depth', 'direct')
