@@ -10313,3 +10313,6 @@ def logic_13416(world):
 
 def logic_13417(world):
     _world_apply(world, 'ash', 'root_density', 'saturation')
+
+def logic_13418(world):
+    _world_apply(world, 'ash', 'wetland', 'gap')
