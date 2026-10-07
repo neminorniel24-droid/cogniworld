@@ -42456,3 +42456,10 @@ def logic_36443(agents, world):
     src = _local(world, agents, 'humidity')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.hunger = _delta(agents.hunger, delta)
+
+
+def logic_36444(agents, world):
+    """Environmental cloud shapes agent fear (square)."""
+    src = _local(world, agents, 'cloud')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.fear = _delta(agents.fear, delta)
