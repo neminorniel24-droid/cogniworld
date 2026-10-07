@@ -8414,3 +8414,6 @@ def logic_12783(world):
 
 def logic_12784(world):
     _world_apply(world, 'photosynthesis_factor', 'herbivore', 'direct')
+
+def logic_12785(world):
+    _world_apply(world, 'photosynthesis_factor', 'predator', 'pulse')
