@@ -12308,3 +12308,6 @@ def logic_14081(world):
 
 def logic_14082(world):
     _world_apply(world, 'humidity', 'groundwater', 'square')
+
+def logic_14083(world):
+    _world_apply(world, 'humidity', 'sediment', 'pulse')
