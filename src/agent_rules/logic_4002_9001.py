@@ -8990,3 +8990,6 @@ def logic_7063(agents, world):
 
 def logic_7064(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'oxygen_need', 'direct')
+
+def logic_7065(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'oxygen_need', 'direct')
