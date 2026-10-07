@@ -11984,3 +11984,6 @@ def logic_8061(agents, world):
 
 def logic_8062(agents, world):
     _agent_apply(world, agents, 'oxygen', 'last_reward', 'direct')
+
+def logic_8063(agents, world):
+    _agent_apply(world, agents, 'co2', 'last_reward', 'direct')
