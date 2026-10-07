@@ -7511,3 +7511,6 @@ def logic_12482(world):
 
 def logic_12483(world):
     _world_apply(world, 'herbivore', 'ice', 'pulse')
+
+def logic_12484(world):
+    _world_apply(world, 'herbivore', 'evaporation', 'saturation')
