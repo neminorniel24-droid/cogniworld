@@ -14186,3 +14186,6 @@ def logic_14707(world):
 
 def logic_14708(world):
     _world_apply(world, 'oxygen', 'surface_ice', 'direct')
+
+def logic_14709(world):
+    _world_apply(world, 'co2', 'temperature', 'square')
