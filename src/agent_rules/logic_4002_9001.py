@@ -3635,3 +3635,6 @@ def logic_5278(agents, world):
 
 def logic_5279(agents, world):
     _agent_apply(world, agents, 'detritus', 'stability', 'direct')
+
+def logic_5280(agents, world):
+    _agent_apply(world, agents, 'methane', 'stability', 'direct')
