@@ -21233,3 +21233,6 @@ def logic_17056(world):
 
 def logic_17057(world):
     _world_apply(world, 'habitat_stress', 'oxygen', 'saturation')
+
+def logic_17058(world):
+    _world_apply(world, 'habitat_stress', 'co2', 'gap')
