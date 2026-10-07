@@ -23987,3 +23987,6 @@ def logic_17974(world):
 
 def logic_17975(world):
     _world_apply(world, 'surface_water', 'herbivore', 'direct')
+
+def logic_17976(world):
+    _world_apply(world, 'surface_water', 'predator', 'square')
