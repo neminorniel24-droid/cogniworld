@@ -11696,3 +11696,6 @@ def logic_7965(agents, world):
 
 def logic_7966(agents, world):
     _agent_apply(world, agents, 'social_need', 'help_given', 'direct')
+
+def logic_7967(agents, world):
+    _agent_apply(world, agents, 'cooperation', 'help_given', 'direct')
