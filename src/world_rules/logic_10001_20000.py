@@ -14150,3 +14150,6 @@ def logic_14695(world):
 
 def logic_14696(world):
     _world_apply(world, 'oxygen', 'ash', 'square')
+
+def logic_14697(world):
+    _world_apply(world, 'oxygen', 'snowpack', 'saturation')
