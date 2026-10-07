@@ -20135,3 +20135,6 @@ def logic_16690(world):
 
 def logic_16691(world):
     _world_apply(world, 'co2', 'humidity', 'square')
+
+def logic_16692(world):
+    _world_apply(world, 'co2', 'cloud', 'pulse')
