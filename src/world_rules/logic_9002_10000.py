@@ -531,3 +531,6 @@ def logic_9152(world):
 
 def logic_9153(world):
     _world_apply(world, 'humidity', 'carrion', 'reciprocal')
+
+def logic_9154(world):
+    _world_apply(world, 'humidity', 'nutrients', 'direct')
