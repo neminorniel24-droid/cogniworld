@@ -13661,3 +13661,6 @@ def logic_14532(world):
 
 def logic_14533(world):
     _world_apply(world, 'carrion', 'temperature', 'saturation')
+
+def logic_14534(world):
+    _world_apply(world, 'carrion', 'surface_water', 'gap')
