@@ -194,3 +194,4 @@
 - 20193: integrated cross-system causal rule
 - 20194: integrated cross-system causal rule
 - 20195: integrated cross-system causal rule
+- 20196: integrated cross-system causal rule
