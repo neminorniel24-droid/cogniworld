@@ -929,3 +929,6 @@ def logic_10288(world):
 
 def logic_10289(world):
     _world_apply(world, 'runoff', 'habitat_stress', 'gap')
+
+def logic_10290(world):
+    _world_apply(world, 'runoff', 'erosion', 'direct')
