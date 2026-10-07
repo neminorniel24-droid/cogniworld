@@ -10031,3 +10031,6 @@ def logic_13322(world):
 
 def logic_13323(world):
     _world_apply(world, 'carbon_storage', 'methane', 'pulse')
+
+def logic_13324(world):
+    _world_apply(world, 'carbon_storage', 'pathogen_load', 'saturation')
