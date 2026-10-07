@@ -23312,3 +23312,6 @@ def logic_17749(world):
 
 def logic_17750(world):
     _world_apply(world, 'flowers', 'soil_moisture', 'pulse')
+
+def logic_17751(world):
+    _world_apply(world, 'flowers', 'runoff', 'saturation')
