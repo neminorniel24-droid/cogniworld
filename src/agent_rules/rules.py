@@ -58220,3 +58220,10 @@ def logic_38695(agents, world):
     src = _local(world, agents, 'temperature_target')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.migration_drive = _delta(agents.migration_drive, delta)
+
+
+def logic_38696(agents, world):
+    """Environmental surface_water shapes agent reputation (square)."""
+    src = _local(world, agents, 'surface_water')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.reputation = _delta(agents.reputation, delta)
