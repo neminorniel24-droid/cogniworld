@@ -3839,3 +3839,6 @@ def logic_5346(agents, world):
 
 def logic_5347(agents, world):
     _agent_apply(world, agents, 'detritus', 'habitat_stress', 'direct')
+
+def logic_5348(agents, world):
+    _agent_apply(world, agents, 'methane', 'habitat_stress', 'direct')
