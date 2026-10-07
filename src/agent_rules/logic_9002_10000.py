@@ -1932,3 +1932,6 @@ def logic_9818(agents, world):
 
 def logic_9819(agents, world):
     _agent_apply(world, agents, 'runoff', 'fear', 'direct')
+
+def logic_9820(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'fear', 'direct')
