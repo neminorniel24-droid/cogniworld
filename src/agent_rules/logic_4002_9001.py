@@ -14444,3 +14444,6 @@ def logic_8881(agents, world):
 
 def logic_8882(agents, world):
     _agent_apply(world, agents, 'evaporation', 'safety_score', 'direct')
+
+def logic_8883(agents, world):
+    _agent_apply(world, agents, 'detritus', 'safety_score', 'direct')
