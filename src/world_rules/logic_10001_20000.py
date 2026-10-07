@@ -1748,3 +1748,6 @@ def logic_10561(world):
 
 def logic_10562(world):
     _world_apply(world, 'predator', 'groundwater', 'square')
+
+def logic_10563(world):
+    _world_apply(world, 'predator', 'sediment', 'pulse')
