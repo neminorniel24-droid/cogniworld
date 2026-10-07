@@ -468,3 +468,6 @@ def logic_9330(agents, world):
 
 def logic_9331(agents, world):
     _agent_apply(world, agents, 'help_given', 'thirst', 'direct')
+
+def logic_9332(agents, world):
+    _agent_apply(world, agents, 'local_density', 'thirst', 'direct')
