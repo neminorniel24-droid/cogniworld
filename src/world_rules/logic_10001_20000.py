@@ -6434,3 +6434,6 @@ def logic_12123(world):
 
 def logic_12124(world):
     _world_apply(world, 'cloud', 'predator', 'saturation')
+
+def logic_12125(world):
+    _world_apply(world, 'cloud', 'carrion', 'gap')
