@@ -3038,3 +3038,6 @@ def logic_10991(world):
 
 def logic_10992(world):
     _world_apply(world, 'methane', 'biodiversity', 'gap')
+
+def logic_10993(world):
+    _world_apply(world, 'methane', 'habitat_stress', 'square')
