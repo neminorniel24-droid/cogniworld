@@ -5537,3 +5537,6 @@ def logic_5912(agents, world):
 
 def logic_5913(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'competition_pressure', 'direct')
+
+def logic_5914(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'competition_pressure', 'direct')
