@@ -221,3 +221,6 @@ def logic_10052(world):
 
 def logic_10053(world):
     _world_apply(world, 'surface_water', 'vegetation', 'saturation')
+
+def logic_10054(world):
+    _world_apply(world, 'surface_water', 'biomass', 'gap')
