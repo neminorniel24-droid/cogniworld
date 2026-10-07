@@ -18146,3 +18146,6 @@ def logic_16027(world):
 
 def logic_16028(world):
     _world_apply(world, 'surface_water', 'surface_ice', 'direct')
+
+def logic_16029(world):
+    _world_apply(world, 'humidity', 'temperature', 'square')
