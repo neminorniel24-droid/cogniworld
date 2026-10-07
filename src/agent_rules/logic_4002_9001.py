@@ -9302,3 +9302,6 @@ def logic_7167(agents, world):
 
 def logic_7168(agents, world):
     _agent_apply(world, agents, 'runoff', 'fire_fear', 'direct')
+
+def logic_7169(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'fire_fear', 'direct')
