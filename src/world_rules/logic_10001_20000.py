@@ -23813,3 +23813,6 @@ def logic_17916(world):
 
 def logic_17917(world):
     _world_apply(world, 'surface_ice', 'pollinators', 'direct')
+
+def logic_17918(world):
+    _world_apply(world, 'surface_ice', 'flowers', 'square')
