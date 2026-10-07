@@ -9320,3 +9320,6 @@ def logic_13085(world):
 
 def logic_13086(world):
     _world_apply(world, 'habitat_stress', 'soil_moisture', 'direct')
+
+def logic_13087(world):
+    _world_apply(world, 'habitat_stress', 'runoff', 'square')
