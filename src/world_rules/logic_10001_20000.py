@@ -7766,3 +7766,6 @@ def logic_12567(world):
 
 def logic_12568(world):
     _world_apply(world, 'carrion', 'oxygen', 'pulse')
+
+def logic_12569(world):
+    _world_apply(world, 'carrion', 'co2', 'gap')
