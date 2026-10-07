@@ -12404,3 +12404,6 @@ def logic_14113(world):
 
 def logic_14114(world):
     _world_apply(world, 'cloud', 'methane', 'pulse')
+
+def logic_14115(world):
+    _world_apply(world, 'cloud', 'pathogen_load', 'saturation')
