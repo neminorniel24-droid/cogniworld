@@ -5324,3 +5324,6 @@ def logic_19753(agents, world):
 
 def logic_19754(agents, world):
     _agent_apply(world, agents, 'stress', 'payoff', 'feedback')
+
+def logic_19755(agents, world):
+    _agent_apply(world, agents, 'social_need', 'payoff', 'feedback')
