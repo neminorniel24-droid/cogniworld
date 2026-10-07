@@ -39796,3 +39796,10 @@ def logic_36063(agents, world):
     src = _local(world, agents, 'salinity')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.reproduction_drive = _delta(agents.reproduction_drive, delta)
+
+
+def logic_36064(agents, world):
+    """Environmental algae shapes agent social_tolerance (square)."""
+    src = _local(world, agents, 'algae')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.social_tolerance = _delta(agents.social_tolerance, delta)
