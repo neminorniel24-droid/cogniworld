@@ -20906,3 +20906,6 @@ def logic_16947(world):
 
 def logic_16948(world):
     _world_apply(world, 'methane', 'pollinators', 'direct')
+
+def logic_16949(world):
+    _world_apply(world, 'methane', 'flowers', 'square')
