@@ -3809,3 +3809,6 @@ def logic_11248(world):
 
 def logic_11249(world):
     _world_apply(world, 'root_density', 'oxygen', 'gap')
+
+def logic_11250(world):
+    _world_apply(world, 'root_density', 'co2', 'direct')
