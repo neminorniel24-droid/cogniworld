@@ -3425,3 +3425,6 @@ def logic_5208(agents, world):
 
 def logic_5209(agents, world):
     _agent_apply(world, agents, 'ice', 'wealth', 'direct')
+
+def logic_5210(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'wealth', 'direct')
