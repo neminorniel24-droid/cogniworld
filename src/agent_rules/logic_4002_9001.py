@@ -3875,3 +3875,6 @@ def logic_5358(agents, world):
 
 def logic_5359(agents, world):
     _agent_apply(world, agents, 'snowpack', 'habitat_stress', 'direct')
+
+def logic_5360(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'habitat_stress', 'direct')
