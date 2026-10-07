@@ -5855,3 +5855,6 @@ def logic_6018(agents, world):
 
 def logic_6019(agents, world):
     _agent_apply(world, agents, 'carrion', 'group_stability', 'direct')
+
+def logic_6020(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'group_stability', 'direct')
