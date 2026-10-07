@@ -2408,3 +2408,6 @@ def logic_4869(agents, world):
 
 def logic_4870(agents, world):
     _agent_apply(world, agents, 'evaporation', 'metabolic_cost', 'direct')
+
+def logic_4871(agents, world):
+    _agent_apply(world, agents, 'detritus', 'metabolic_cost', 'direct')
