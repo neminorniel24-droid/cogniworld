@@ -53950,3 +53950,10 @@ def logic_38085(agents, world):
     src = _local(world, agents, 'groundwater')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.food_access = _delta(agents.food_access, delta)
+
+
+def logic_38086(agents, world):
+    """Environmental sediment shapes agent cooperation (direct)."""
+    src = _local(world, agents, 'sediment')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.cooperation = _delta(agents.cooperation, delta)
