@@ -13412,3 +13412,6 @@ def logic_14449(world):
 
 def logic_14450(world):
     _world_apply(world, 'herbivore', 'soil_moisture', 'direct')
+
+def logic_14451(world):
+    _world_apply(world, 'herbivore', 'runoff', 'square')
