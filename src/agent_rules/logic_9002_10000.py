@@ -2445,3 +2445,6 @@ def logic_9989(agents, world):
 
 def logic_9990(agents, world):
     _agent_apply(world, agents, 'flowers', 'metabolic_cost', 'direct')
+
+def logic_9991(agents, world):
+    _agent_apply(world, agents, 'seed_bank', 'metabolic_cost', 'direct')
