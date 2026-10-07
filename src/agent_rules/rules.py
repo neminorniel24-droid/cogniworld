@@ -30423,3 +30423,10 @@ def logic_34724(agents, world):
     src = _local(world, agents, 'fire_risk')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.survival_score = _delta(agents.survival_score, delta)
+
+
+def logic_34725(agents, world):
+    """Environmental ash shapes agent reproduction_score (root)."""
+    src = _local(world, agents, 'ash')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.reproduction_score = _delta(agents.reproduction_score, delta)
