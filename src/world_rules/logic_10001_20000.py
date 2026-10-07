@@ -14441,3 +14441,6 @@ def logic_14792(world):
 
 def logic_14793(world):
     _world_apply(world, 'photosynthesis_factor', 'flowers', 'square')
+
+def logic_14794(world):
+    _world_apply(world, 'photosynthesis_factor', 'seed_bank', 'pulse')
