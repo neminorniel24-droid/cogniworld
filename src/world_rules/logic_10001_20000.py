@@ -11810,3 +11810,6 @@ def logic_13915(world):
 
 def logic_13916(world):
     _world_apply(world, 'soil_carbon', 'surface_ice', 'gap')
+
+def logic_13917(world):
+    _world_apply(world, 'surface_ice', 'temperature', 'direct')
