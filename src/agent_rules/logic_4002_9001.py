@@ -13352,3 +13352,6 @@ def logic_8517(agents, world):
 
 def logic_8518(agents, world):
     _agent_apply(world, agents, 'strategy_score', 'strategy_score', 'direct')
+
+def logic_8519(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'strategy_score', 'direct')
