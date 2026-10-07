@@ -51241,3 +51241,10 @@ def logic_37698(agents, world):
     src = _local(world, agents, 'decomposition_rate')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.cooperation_score = _delta(agents.cooperation_score, delta)
+
+
+def logic_37699(agents, world):
+    """Environmental oxygen shapes agent foraging_score (inverse)."""
+    src = _local(world, agents, 'oxygen')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.foraging_score = _delta(agents.foraging_score, delta)
