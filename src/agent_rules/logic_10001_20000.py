@@ -1913,3 +1913,6 @@ def logic_18616(agents, world):
 
 def logic_18617(agents, world):
     _agent_apply(world, agents, 'food_access', 'social_avoidance', 'saturation')
+
+def logic_18618(agents, world):
+    _agent_apply(world, agents, 'wealth', 'social_avoidance', 'saturation')
