@@ -5276,3 +5276,6 @@ def logic_11737(world):
 
 def logic_11738(world):
     _world_apply(world, 'deadwood', 'detritus', 'gap')
+
+def logic_11739(world):
+    _world_apply(world, 'deadwood', 'methane', 'direct')
