@@ -1196,3 +1196,6 @@ def logic_18377(agents, world):
 
 def logic_18378(agents, world):
     _agent_apply(world, agents, 'betrayal_memory', 'social_tolerance', 'pulse')
+
+def logic_18379(agents, world):
+    _agent_apply(world, agents, 'conflict_history', 'social_tolerance', 'pulse')
