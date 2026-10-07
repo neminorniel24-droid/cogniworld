@@ -2654,3 +2654,6 @@ def logic_10863(world):
 
 def logic_10864(world):
     _world_apply(world, 'ice', 'root_density', 'direct')
+
+def logic_10865(world):
+    _world_apply(world, 'ice', 'wetland', 'pulse')
