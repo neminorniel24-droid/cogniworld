@@ -2178,3 +2178,6 @@ def logic_9900(agents, world):
 
 def logic_9901(agents, world):
     _agent_apply(world, agents, 'evaporation', 'recovery', 'direct')
+
+def logic_9902(agents, world):
+    _agent_apply(world, agents, 'detritus', 'recovery', 'direct')
