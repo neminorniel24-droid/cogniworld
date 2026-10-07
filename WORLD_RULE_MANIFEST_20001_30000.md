@@ -3826,3 +3826,4 @@
 - 23825: integrated cross-system causal rule
 - 23826: integrated cross-system causal rule
 - 23827: integrated cross-system causal rule
+- 23828: integrated cross-system causal rule
