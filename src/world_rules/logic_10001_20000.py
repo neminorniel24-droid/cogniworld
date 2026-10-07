@@ -13427,3 +13427,6 @@ def logic_14454(world):
 
 def logic_14455(world):
     _world_apply(world, 'herbivore', 'biomass', 'direct')
+
+def logic_14456(world):
+    _world_apply(world, 'herbivore', 'predator', 'square')
