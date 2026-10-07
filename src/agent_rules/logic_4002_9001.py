@@ -12053,3 +12053,6 @@ def logic_8084(agents, world):
 
 def logic_8085(agents, world):
     _agent_apply(world, agents, 'deadwood', 'last_reward', 'direct')
+
+def logic_8086(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'last_reward', 'direct')
