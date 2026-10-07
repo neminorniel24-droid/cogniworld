@@ -4892,3 +4892,6 @@ def logic_11609(world):
 
 def logic_11610(world):
     _world_apply(world, 'salinity', 'habitat_stress', 'direct')
+
+def logic_11611(world):
+    _world_apply(world, 'salinity', 'erosion', 'square')
