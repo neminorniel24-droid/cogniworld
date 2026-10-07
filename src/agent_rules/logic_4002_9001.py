@@ -5381,3 +5381,6 @@ def logic_5860(agents, world):
 
 def logic_5861(agents, world):
     _agent_apply(world, agents, 'trust', 'conflict_pressure', 'direct')
+
+def logic_5862(agents, world):
+    _agent_apply(world, agents, 'reputation', 'conflict_pressure', 'direct')
