@@ -10325,3 +10325,6 @@ def logic_7508(agents, world):
 
 def logic_7509(agents, world):
     _agent_apply(world, agents, 'wind_x', 'neighbor_energy_gap', 'direct')
+
+def logic_7510(agents, world):
+    _agent_apply(world, agents, 'wind_y', 'neighbor_energy_gap', 'direct')
