@@ -2930,3 +2930,6 @@ def logic_5043(agents, world):
 
 def logic_5044(agents, world):
     _agent_apply(world, agents, 'defection', 'migration_drive', 'direct')
+
+def logic_5045(agents, world):
+    _agent_apply(world, agents, 'trust', 'migration_drive', 'direct')
