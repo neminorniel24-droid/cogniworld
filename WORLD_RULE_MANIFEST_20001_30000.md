@@ -1069,3 +1069,4 @@
 - 21068: integrated cross-system causal rule
 - 21069: integrated cross-system causal rule
 - 21070: integrated cross-system causal rule
+- 21071: integrated cross-system causal rule
