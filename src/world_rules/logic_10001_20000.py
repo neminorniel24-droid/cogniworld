@@ -9365,3 +9365,6 @@ def logic_13100(world):
 
 def logic_13101(world):
     _world_apply(world, 'habitat_stress', 'evaporation', 'pulse')
+
+def logic_13102(world):
+    _world_apply(world, 'habitat_stress', 'detritus', 'saturation')
