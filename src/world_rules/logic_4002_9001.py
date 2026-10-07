@@ -269,3 +269,6 @@ def logic_4056(world):
 
 def logic_4057(world):
     _world_apply(world, 'soil_moisture', 'groundwater', 'reciprocal')
+
+def logic_4058(world):
+    _world_apply(world, 'erosion', 'sediment', 'direct')
