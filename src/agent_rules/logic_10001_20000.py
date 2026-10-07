@@ -1283,3 +1283,6 @@ def logic_18406(agents, world):
 
 def logic_18407(agents, world):
     _agent_apply(world, agents, 'sharing_score', 'reputation', 'pulse')
+
+def logic_18408(agents, world):
+    _agent_apply(world, agents, 'strategy_persistence', 'reputation', 'pulse')
