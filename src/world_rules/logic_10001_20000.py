@@ -23195,3 +23195,6 @@ def logic_17710(world):
 
 def logic_17711(world):
     _world_apply(world, 'pollinators', 'biomass', 'saturation')
+
+def logic_17712(world):
+    _world_apply(world, 'pollinators', 'herbivore', 'gap')
