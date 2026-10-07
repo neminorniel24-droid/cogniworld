@@ -11798,3 +11798,6 @@ def logic_13911(world):
 
 def logic_13912(world):
     _world_apply(world, 'soil_carbon', 'deadwood', 'gap')
+
+def logic_13913(world):
+    _world_apply(world, 'soil_carbon', 'pollinators', 'square')
