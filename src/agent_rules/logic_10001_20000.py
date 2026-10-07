@@ -5834,3 +5834,6 @@ def logic_19923(agents, world):
 
 def logic_19924(agents, world):
     _agent_apply(world, agents, 'reproduction_score', 'alertness', 'inverse')
+
+def logic_19925(agents, world):
+    _agent_apply(world, agents, 'sharing_score', 'alertness', 'inverse')
