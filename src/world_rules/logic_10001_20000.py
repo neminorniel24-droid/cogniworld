@@ -23912,3 +23912,6 @@ def logic_17949(world):
 
 def logic_17950(world):
     _world_apply(world, 'temperature', 'carbon_storage', 'pulse')
+
+def logic_17951(world):
+    _world_apply(world, 'temperature', 'fire_risk', 'saturation')
