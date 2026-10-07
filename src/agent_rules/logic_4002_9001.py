@@ -13361,3 +13361,6 @@ def logic_8520(agents, world):
 
 def logic_8521(agents, world):
     _agent_apply(world, agents, 'payoff', 'strategy_score', 'direct')
+
+def logic_8522(agents, world):
+    _agent_apply(world, agents, 'temperature', 'cooperation_score', 'direct')
