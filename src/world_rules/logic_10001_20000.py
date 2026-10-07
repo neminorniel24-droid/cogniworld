@@ -5003,3 +5003,6 @@ def logic_11646(world):
 
 def logic_11647(world):
     _world_apply(world, 'algae', 'photosynthesis_factor', 'square')
+
+def logic_11648(world):
+    _world_apply(world, 'algae', 'ice', 'pulse')
