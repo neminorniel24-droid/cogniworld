@@ -13931,3 +13931,6 @@ def logic_14622(world):
 
 def logic_14623(world):
     _world_apply(world, 'decomposition_rate', 'humidity', 'gap')
+
+def logic_14624(world):
+    _world_apply(world, 'decomposition_rate', 'cloud', 'direct')
