@@ -11009,3 +11009,6 @@ def logic_7736(agents, world):
 
 def logic_7737(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'conflict_history', 'direct')
+
+def logic_7738(agents, world):
+    _agent_apply(world, agents, 'ash', 'conflict_history', 'direct')
