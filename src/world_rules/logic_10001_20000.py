@@ -7892,3 +7892,6 @@ def logic_12609(world):
 
 def logic_12610(world):
     _world_apply(world, 'nutrients', 'carrion', 'direct')
+
+def logic_12611(world):
+    _world_apply(world, 'nutrients', 'decomposition_rate', 'square')
