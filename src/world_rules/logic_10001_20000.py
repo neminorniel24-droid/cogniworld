@@ -21035,3 +21035,6 @@ def logic_16990(world):
 
 def logic_16991(world):
     _world_apply(world, 'pathogen_load', 'deadwood', 'saturation')
+
+def logic_16992(world):
+    _world_apply(world, 'pathogen_load', 'pollinators', 'gap')
