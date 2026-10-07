@@ -21131,3 +21131,6 @@ def logic_17022(world):
 
 def logic_17023(world):
     _world_apply(world, 'biodiversity', 'soil_depth', 'gap')
+
+def logic_17024(world):
+    _world_apply(world, 'biodiversity', 'root_density', 'direct')
