@@ -2870,3 +2870,6 @@ def logic_10935(world):
 
 def logic_10936(world):
     _world_apply(world, 'detritus', 'herbivore', 'square')
+
+def logic_10937(world):
+    _world_apply(world, 'detritus', 'predator', 'saturation')
