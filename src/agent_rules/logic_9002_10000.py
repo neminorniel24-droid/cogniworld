@@ -810,3 +810,6 @@ def logic_9444(agents, world):
 
 def logic_9445(agents, world):
     _agent_apply(world, agents, 'pollinators', 'health', 'direct')
+
+def logic_9446(agents, world):
+    _agent_apply(world, agents, 'flowers', 'health', 'direct')
