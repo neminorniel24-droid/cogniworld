@@ -947,3 +947,6 @@ def logic_18294(agents, world):
 
 def logic_18295(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'exploration_drive', 'sqrt')
+
+def logic_18296(agents, world):
+    _agent_apply(world, agents, 'ice', 'exploration_drive', 'sqrt')
