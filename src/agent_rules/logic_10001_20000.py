@@ -1592,3 +1592,6 @@ def logic_18509(agents, world):
 
 def logic_18510(agents, world):
     _agent_apply(world, agents, 'resource_competition', 'conflict_pressure', 'threshold')
+
+def logic_18511(agents, world):
+    _agent_apply(world, agents, 'vegetation_expectation', 'conflict_pressure', 'threshold')
