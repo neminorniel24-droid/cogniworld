@@ -3037,3 +3037,4 @@
 - 23036: integrated cross-system causal rule
 - 23037: integrated cross-system causal rule
 - 23038: integrated cross-system causal rule
+- 23039: integrated cross-system causal rule
