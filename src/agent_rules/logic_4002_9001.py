@@ -4079,3 +4079,6 @@ def logic_5426(agents, world):
 
 def logic_5427(agents, world):
     _agent_apply(world, agents, 'snowpack', 'social_tolerance', 'direct')
+
+def logic_5428(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'social_tolerance', 'direct')
