@@ -59501,3 +59501,10 @@ def logic_38878(agents, world):
     src = _local(world, agents, 'temperature')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.stress = _delta(agents.stress, delta)
+
+
+def logic_38879(agents, world):
+    """Environmental temperature_target shapes agent help_received (inverse)."""
+    src = _local(world, agents, 'temperature_target')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.help_received = _delta(agents.help_received, delta)
