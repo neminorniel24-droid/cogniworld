@@ -41490,3 +41490,10 @@ def logic_36305(agents, world):
     src = _local(world, agents, 'humidity')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.food_access = _delta(agents.food_access, delta)
+
+
+def logic_36306(agents, world):
+    """Environmental cloud shapes agent cooperation (direct)."""
+    src = _local(world, agents, 'cloud')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.cooperation = _delta(agents.cooperation, delta)
