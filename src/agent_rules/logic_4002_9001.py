@@ -14120,3 +14120,6 @@ def logic_8773(agents, world):
 
 def logic_8774(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'reciprocity_score', 'direct')
+
+def logic_8775(agents, world):
+    _agent_apply(world, agents, 'hydration', 'reciprocity_score', 'direct')
