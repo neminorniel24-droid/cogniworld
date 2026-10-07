@@ -3629,3 +3629,6 @@ def logic_5276(agents, world):
 
 def logic_5277(agents, world):
     _agent_apply(world, agents, 'ice', 'stability', 'direct')
+
+def logic_5278(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'stability', 'direct')
