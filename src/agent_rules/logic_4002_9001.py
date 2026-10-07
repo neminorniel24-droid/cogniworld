@@ -11966,3 +11966,6 @@ def logic_8055(agents, world):
 
 def logic_8056(agents, world):
     _agent_apply(world, agents, 'biomass', 'last_reward', 'direct')
+
+def logic_8057(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'last_reward', 'direct')
