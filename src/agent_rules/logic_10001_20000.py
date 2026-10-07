@@ -3290,3 +3290,6 @@ def logic_19075(agents, world):
 
 def logic_19076(agents, world):
     _agent_apply(world, agents, 'last_food', 'cooperation_history', 'square')
+
+def logic_19077(agents, world):
+    _agent_apply(world, agents, 'last_interaction', 'cooperation_history', 'square')
