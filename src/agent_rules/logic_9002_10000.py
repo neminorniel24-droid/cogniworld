@@ -1950,3 +1950,6 @@ def logic_9824(agents, world):
 
 def logic_9825(agents, world):
     _agent_apply(world, agents, 'predator', 'fear', 'direct')
+
+def logic_9826(agents, world):
+    _agent_apply(world, agents, 'carrion', 'fear', 'direct')
