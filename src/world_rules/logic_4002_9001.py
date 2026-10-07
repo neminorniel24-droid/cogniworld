@@ -197,3 +197,6 @@ def logic_4032(world):
 
 def logic_4033(world):
     _world_apply(world, 'groundwater', 'wetland', 'reciprocal')
+
+def logic_4034(world):
+    _world_apply(world, 'wetland', 'surface_water', 'direct')
