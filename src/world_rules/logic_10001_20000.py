@@ -20234,3 +20234,6 @@ def logic_16723(world):
 
 def logic_16724(world):
     _world_apply(world, 'co2', 'salinity', 'saturation')
+
+def logic_16725(world):
+    _world_apply(world, 'co2', 'algae', 'gap')
