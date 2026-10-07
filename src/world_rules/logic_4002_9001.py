@@ -188,3 +188,6 @@ def logic_4029(world):
 
 def logic_4030(world):
     _world_apply(world, 'ice', 'surface_water', 'pulse')
+
+def logic_4031(world):
+    _world_apply(world, 'cloud', 'rain', 'threshold')
