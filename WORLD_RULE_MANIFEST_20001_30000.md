@@ -2616,3 +2616,4 @@
 - 22615: integrated cross-system causal rule
 - 22616: integrated cross-system causal rule
 - 22617: integrated cross-system causal rule
+- 22618: integrated cross-system causal rule
