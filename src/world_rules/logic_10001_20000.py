@@ -20213,3 +20213,6 @@ def logic_16716(world):
 
 def logic_16717(world):
     _world_apply(world, 'co2', 'wetland', 'direct')
+
+def logic_16718(world):
+    _world_apply(world, 'co2', 'carbon_storage', 'square')
