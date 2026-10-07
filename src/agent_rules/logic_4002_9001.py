@@ -12812,3 +12812,6 @@ def logic_8337(agents, world):
 
 def logic_8338(agents, world):
     _agent_apply(world, agents, 'evaporation', 'risk_tolerance', 'direct')
+
+def logic_8339(agents, world):
+    _agent_apply(world, agents, 'detritus', 'risk_tolerance', 'direct')
