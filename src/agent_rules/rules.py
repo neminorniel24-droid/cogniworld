@@ -31214,3 +31214,10 @@ def logic_34837(agents, world):
     src = _local(world, agents, 'runoff')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.last_action = _delta(agents.last_action, delta)
+
+
+def logic_34838(agents, world):
+    """Environmental wind_x shapes agent safety_score (direct)."""
+    src = _local(world, agents, 'wind_x')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.safety_score = _delta(agents.safety_score, delta)
