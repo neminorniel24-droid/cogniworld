@@ -1343,3 +1343,6 @@ def logic_4514(agents, world):
 
 def logic_4515(agents, world):
     _agent_apply(world, agents, 'soil_moisture', 'pathogen_risk', 'direct')
+
+def logic_4516(agents, world):
+    _agent_apply(world, agents, 'runoff', 'pathogen_risk', 'direct')
