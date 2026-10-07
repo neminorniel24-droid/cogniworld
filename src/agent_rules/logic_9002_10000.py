@@ -1197,3 +1197,6 @@ def logic_9573(agents, world):
 
 def logic_9574(agents, world):
     _agent_apply(world, agents, 'snowpack', 'dehydration', 'direct')
+
+def logic_9575(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'dehydration', 'direct')
