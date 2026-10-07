@@ -1955,3 +1955,6 @@ def logic_4718(agents, world):
 
 def logic_4719(agents, world):
     _agent_apply(world, agents, 'soil_moisture', 'fear', 'direct')
+
+def logic_4720(agents, world):
+    _agent_apply(world, agents, 'runoff', 'fear', 'direct')
