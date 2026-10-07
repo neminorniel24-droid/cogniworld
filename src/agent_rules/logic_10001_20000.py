@@ -3050,3 +3050,6 @@ def logic_18995(agents, world):
 
 def logic_18996(agents, world):
     _agent_apply(world, agents, 'wetland', 'neighbor_energy_gap', 'inverse')
+
+def logic_18997(agents, world):
+    _agent_apply(world, agents, 'carbon_storage', 'neighbor_energy_gap', 'inverse')
