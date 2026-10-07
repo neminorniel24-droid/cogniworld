@@ -14051,3 +14051,6 @@ def logic_14662(world):
 
 def logic_14663(world):
     _world_apply(world, 'decomposition_rate', 'soil_carbon', 'gap')
+
+def logic_14664(world):
+    _world_apply(world, 'decomposition_rate', 'surface_ice', 'direct')
