@@ -12575,3 +12575,6 @@ def logic_8258(agents, world):
 
 def logic_8259(agents, world):
     _agent_apply(world, agents, 'vegetation', 'last_interaction', 'direct')
+
+def logic_8260(agents, world):
+    _agent_apply(world, agents, 'biomass', 'last_interaction', 'direct')
