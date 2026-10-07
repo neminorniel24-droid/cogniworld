@@ -1016,3 +1016,6 @@ def logic_10317(world):
 
 def logic_10318(world):
     _world_apply(world, 'wind_x', 'biomass', 'square')
+
+def logic_10319(world):
+    _world_apply(world, 'wind_x', 'herbivore', 'pulse')
