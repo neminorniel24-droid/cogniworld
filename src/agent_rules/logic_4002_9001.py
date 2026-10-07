@@ -3791,3 +3791,6 @@ def logic_5330(agents, world):
 
 def logic_5331(agents, world):
     _agent_apply(world, agents, 'soil_moisture', 'habitat_stress', 'direct')
+
+def logic_5332(agents, world):
+    _agent_apply(world, agents, 'runoff', 'habitat_stress', 'direct')
