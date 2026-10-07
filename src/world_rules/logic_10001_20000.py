@@ -11858,3 +11858,6 @@ def logic_13931(world):
 
 def logic_13932(world):
     _world_apply(world, 'surface_ice', 'decomposition_rate', 'pulse')
+
+def logic_13933(world):
+    _world_apply(world, 'surface_ice', 'oxygen', 'saturation')
