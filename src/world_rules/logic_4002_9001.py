@@ -194,3 +194,6 @@ def logic_4031(world):
 
 def logic_4032(world):
     _world_apply(world, 'rain', 'groundwater', 'saturation')
+
+def logic_4033(world):
+    _world_apply(world, 'groundwater', 'wetland', 'reciprocal')
