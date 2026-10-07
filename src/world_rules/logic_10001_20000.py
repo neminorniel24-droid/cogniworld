@@ -22202,3 +22202,6 @@ def logic_17379(world):
 
 def logic_17380(world):
     _world_apply(world, 'ash', 'fire_risk', 'square')
+
+def logic_17381(world):
+    _world_apply(world, 'ash', 'snowpack', 'pulse')
