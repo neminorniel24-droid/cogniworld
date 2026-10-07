@@ -14111,3 +14111,6 @@ def logic_8770(agents, world):
 
 def logic_8771(agents, world):
     _agent_apply(world, agents, 'resource_scarcity', 'reciprocity_score', 'direct')
+
+def logic_8772(agents, world):
+    _agent_apply(world, agents, 'resource_abundance', 'reciprocity_score', 'direct')
