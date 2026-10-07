@@ -13265,3 +13265,6 @@ def logic_14400(world):
 
 def logic_14401(world):
     _world_apply(world, 'biomass', 'temperature', 'direct')
+
+def logic_14402(world):
+    _world_apply(world, 'biomass', 'surface_water', 'square')
