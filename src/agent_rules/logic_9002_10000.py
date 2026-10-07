@@ -420,3 +420,6 @@ def logic_9314(agents, world):
 
 def logic_9315(agents, world):
     _agent_apply(world, agents, 'resource_abundance', 'thirst', 'direct')
+
+def logic_9316(agents, world):
+    _agent_apply(world, agents, 'energy_surplus', 'thirst', 'direct')
