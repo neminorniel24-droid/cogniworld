@@ -2009,3 +2009,6 @@ def logic_18648(agents, world):
 
 def logic_18649(agents, world):
     _agent_apply(world, agents, 'vegetation_expectation', 'selfishness', 'reciprocal')
+
+def logic_18650(agents, world):
+    _agent_apply(world, agents, 'stress', 'selfishness', 'reciprocal')
