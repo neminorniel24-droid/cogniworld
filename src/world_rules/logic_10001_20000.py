@@ -4142,3 +4142,6 @@ def logic_11359(world):
 
 def logic_11360(world):
     _world_apply(world, 'carbon_storage', 'pollinators', 'saturation')
+
+def logic_11361(world):
+    _world_apply(world, 'carbon_storage', 'flowers', 'direct')
