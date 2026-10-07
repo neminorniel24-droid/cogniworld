@@ -9390,3 +9390,4 @@
 - 29389: integrated cross-system causal rule
 - 29390: integrated cross-system causal rule
 - 29391: integrated cross-system causal rule
+- 29392: integrated cross-system causal rule
