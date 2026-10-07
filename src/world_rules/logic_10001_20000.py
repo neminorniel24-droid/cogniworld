@@ -22553,3 +22553,6 @@ def logic_17496(world):
 
 def logic_17497(world):
     _world_apply(world, 'sediment', 'oxygen', 'saturation')
+
+def logic_17498(world):
+    _world_apply(world, 'sediment', 'co2', 'gap')
