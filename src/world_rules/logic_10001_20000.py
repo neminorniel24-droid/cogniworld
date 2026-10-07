@@ -19694,3 +19694,6 @@ def logic_16543(world):
 
 def logic_16544(world):
     _world_apply(world, 'carrion', 'ash', 'direct')
+
+def logic_16545(world):
+    _world_apply(world, 'carrion', 'snowpack', 'pulse')
