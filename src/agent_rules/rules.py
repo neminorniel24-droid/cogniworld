@@ -50247,3 +50247,10 @@ def logic_37556(agents, world):
     src = _local(world, agents, 'herbivore')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.neighbor_energy_gap = _delta(agents.neighbor_energy_gap, delta)
+
+
+def logic_37557(agents, world):
+    """Environmental predator shapes agent local_density (root)."""
+    src = _local(world, agents, 'predator')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.local_density = _delta(agents.local_density, delta)
