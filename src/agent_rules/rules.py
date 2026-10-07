@@ -63225,3 +63225,10 @@ def logic_39410(agents, world):
     src = _local(world, agents, 'habitat_stress')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.gratitude = _delta(agents.gratitude, delta)
+
+
+def logic_39411(agents, world):
+    """Environmental erosion shapes agent attack_threshold (inverse)."""
+    src = _local(world, agents, 'erosion')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.attack_threshold = _delta(agents.attack_threshold, delta)
