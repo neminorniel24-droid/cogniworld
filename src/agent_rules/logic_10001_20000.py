@@ -3032,3 +3032,6 @@ def logic_18989(agents, world):
 
 def logic_18990(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'neighbor_energy_gap', 'inverse')
+
+def logic_18991(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'neighbor_energy_gap', 'inverse')
