@@ -500,3 +500,6 @@ def logic_18145(agents, world):
 
 def logic_18146(agents, world):
     _agent_apply(world, agents, 'wind_x', 'infection_risk', 'inverse')
+
+def logic_18147(agents, world):
+    _agent_apply(world, agents, 'wind_y', 'infection_risk', 'inverse')
