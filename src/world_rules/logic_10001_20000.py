@@ -9755,3 +9755,6 @@ def logic_13230(world):
 
 def logic_13231(world):
     _world_apply(world, 'root_density', 'photosynthesis_factor', 'saturation')
+
+def logic_13232(world):
+    _world_apply(world, 'root_density', 'ice', 'gap')
