@@ -59417,3 +59417,10 @@ def logic_38866(agents, world):
     src = _local(world, agents, 'snowpack')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.conflict_history = _delta(agents.conflict_history, delta)
+
+
+def logic_38867(agents, world):
+    """Environmental groundwater shapes agent last_food (inverse)."""
+    src = _local(world, agents, 'groundwater')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.last_food = _delta(agents.last_food, delta)
