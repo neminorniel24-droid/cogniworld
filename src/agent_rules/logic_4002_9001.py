@@ -1985,3 +1985,6 @@ def logic_4728(agents, world):
 
 def logic_4729(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'fear', 'direct')
+
+def logic_4730(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'fear', 'direct')
