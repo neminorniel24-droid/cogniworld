@@ -161,3 +161,6 @@ def logic_18032(agents, world):
 
 def logic_18033(agents, world):
     _agent_apply(world, agents, 'ash', 'thirst', 'direct')
+
+def logic_18034(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'thirst', 'direct')
