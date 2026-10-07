@@ -1988,3 +1988,6 @@ def logic_18641(agents, world):
 
 def logic_18642(agents, world):
     _agent_apply(world, agents, 'empathy', 'selfishness', 'reciprocal')
+
+def logic_18643(agents, world):
+    _agent_apply(world, agents, 'attack_threshold', 'selfishness', 'reciprocal')
