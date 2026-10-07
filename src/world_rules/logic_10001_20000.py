@@ -8480,3 +8480,6 @@ def logic_12805(world):
 
 def logic_12806(world):
     _world_apply(world, 'photosynthesis_factor', 'groundwater', 'direct')
+
+def logic_12807(world):
+    _world_apply(world, 'photosynthesis_factor', 'sediment', 'square')
