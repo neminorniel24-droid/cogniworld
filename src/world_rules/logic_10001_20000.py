@@ -9491,3 +9491,6 @@ def logic_13142(world):
 
 def logic_13143(world):
     _world_apply(world, 'erosion', 'photosynthesis_factor', 'gap')
+
+def logic_13144(world):
+    _world_apply(world, 'erosion', 'ice', 'direct')
