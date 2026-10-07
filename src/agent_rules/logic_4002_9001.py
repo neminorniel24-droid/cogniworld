@@ -13523,3 +13523,6 @@ def logic_8574(agents, world):
 
 def logic_8575(agents, world):
     _agent_apply(world, agents, 'stress', 'cooperation_score', 'direct')
+
+def logic_8576(agents, world):
+    _agent_apply(world, agents, 'risk_tolerance', 'cooperation_score', 'direct')
