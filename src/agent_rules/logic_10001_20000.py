@@ -1778,3 +1778,6 @@ def logic_18571(agents, world):
 
 def logic_18572(agents, world):
     _agent_apply(world, agents, 'ice', 'group_stability', 'saturation')
+
+def logic_18573(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'sharing_capacity', 'saturation')
