@@ -914,3 +914,6 @@ def logic_18283(agents, world):
 
 def logic_18284(agents, world):
     _agent_apply(world, agents, 'wind_x', 'exploration_drive', 'sqrt')
+
+def logic_18285(agents, world):
+    _agent_apply(world, agents, 'wind_y', 'exploration_drive', 'sqrt')
