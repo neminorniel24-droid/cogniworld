@@ -18077,3 +18077,6 @@ def logic_16004(world):
 
 def logic_16005(world):
     _world_apply(world, 'surface_water', 'detritus', 'gap')
+
+def logic_16006(world):
+    _world_apply(world, 'surface_water', 'methane', 'direct')
