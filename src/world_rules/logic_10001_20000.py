@@ -5570,3 +5570,6 @@ def logic_11835(world):
 
 def logic_11836(world):
     _world_apply(world, 'flowers', 'fire_risk', 'gap')
+
+def logic_11837(world):
+    _world_apply(world, 'flowers', 'ash', 'direct')
