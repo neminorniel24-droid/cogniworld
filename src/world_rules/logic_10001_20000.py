@@ -3077,3 +3077,6 @@ def logic_11004(world):
 
 def logic_11005(world):
     _world_apply(world, 'methane', 'algae', 'gap')
+
+def logic_11006(world):
+    _world_apply(world, 'methane', 'organic_matter', 'direct')
