@@ -5768,3 +5768,6 @@ def logic_5989(agents, world):
 
 def logic_5990(agents, world):
     _agent_apply(world, agents, 'health', 'territoriality', 'direct')
+
+def logic_5991(agents, world):
+    _agent_apply(world, agents, 'stress', 'territoriality', 'direct')
