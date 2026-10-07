@@ -6038,3 +6038,6 @@ def logic_11991(world):
 
 def logic_11992(world):
     _world_apply(world, 'temperature', 'predator', 'gap')
+
+def logic_11993(world):
+    _world_apply(world, 'temperature', 'carrion', 'square')
