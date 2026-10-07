@@ -513,3 +513,6 @@ def logic_9146(world):
 
 def logic_9147(world):
     _world_apply(world, 'humidity', 'wind_x', 'inverse')
+
+def logic_9148(world):
+    _world_apply(world, 'humidity', 'wind_y', 'square')
