@@ -1055,3 +1055,6 @@ def logic_18330(agents, world):
 
 def logic_18331(agents, world):
     _agent_apply(world, agents, 'dehydration', 'wealth', 'sqrt')
+
+def logic_18332(agents, world):
+    _agent_apply(world, agents, 'pathogen_risk', 'wealth', 'sqrt')
