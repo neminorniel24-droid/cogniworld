@@ -6593,3 +6593,6 @@ def logic_12176(world):
 
 def logic_12177(world):
     _world_apply(world, 'rain', 'detritus', 'saturation')
+
+def logic_12178(world):
+    _world_apply(world, 'rain', 'methane', 'gap')
