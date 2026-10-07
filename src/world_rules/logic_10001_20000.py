@@ -8453,3 +8453,6 @@ def logic_12796(world):
 
 def logic_12797(world):
     _world_apply(world, 'photosynthesis_factor', 'habitat_stress', 'direct')
+
+def logic_12798(world):
+    _world_apply(world, 'photosynthesis_factor', 'erosion', 'square')
