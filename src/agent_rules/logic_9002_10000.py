@@ -402,3 +402,6 @@ def logic_9308(agents, world):
 
 def logic_9309(agents, world):
     _agent_apply(world, agents, 'pollinators', 'thirst', 'direct')
+
+def logic_9310(agents, world):
+    _agent_apply(world, agents, 'flowers', 'thirst', 'direct')
