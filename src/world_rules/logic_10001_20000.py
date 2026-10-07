@@ -22478,3 +22478,6 @@ def logic_17471(world):
 
 def logic_17472(world):
     _world_apply(world, 'groundwater', 'salinity', 'gap')
+
+def logic_17473(world):
+    _world_apply(world, 'groundwater', 'algae', 'square')
