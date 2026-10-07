@@ -5255,3 +5255,6 @@ def logic_11730(world):
 
 def logic_11731(world):
     _world_apply(world, 'deadwood', 'nutrients', 'square')
+
+def logic_11732(world):
+    _world_apply(world, 'deadwood', 'decomposition_rate', 'pulse')
