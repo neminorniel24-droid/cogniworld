@@ -1532,3 +1532,6 @@ def logic_18489(agents, world):
 
 def logic_18490(agents, world):
     _agent_apply(world, agents, 'competition_pressure', 'aggression', 'threshold')
+
+def logic_18491(agents, world):
+    _agent_apply(world, agents, 'territoriality', 'aggression', 'threshold')
