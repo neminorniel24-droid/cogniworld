@@ -22460,3 +22460,6 @@ def logic_17465(world):
 
 def logic_17466(world):
     _world_apply(world, 'groundwater', 'wetland', 'saturation')
+
+def logic_17467(world):
+    _world_apply(world, 'groundwater', 'carbon_storage', 'gap')
