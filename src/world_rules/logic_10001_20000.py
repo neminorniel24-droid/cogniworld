@@ -19022,3 +19022,6 @@ def logic_16319(world):
 
 def logic_16320(world):
     _world_apply(world, 'wind_y', 'root_density', 'saturation')
+
+def logic_16321(world):
+    _world_apply(world, 'wind_y', 'wetland', 'direct')
