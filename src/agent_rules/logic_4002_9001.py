@@ -12611,3 +12611,6 @@ def logic_8270(agents, world):
 
 def logic_8271(agents, world):
     _agent_apply(world, agents, 'detritus', 'last_interaction', 'direct')
+
+def logic_8272(agents, world):
+    _agent_apply(world, agents, 'methane', 'last_interaction', 'direct')
