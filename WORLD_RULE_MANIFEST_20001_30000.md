@@ -141,3 +141,4 @@
 - 20140: integrated cross-system causal rule
 - 20141: integrated cross-system causal rule
 - 20142: integrated cross-system causal rule
+- 20143: integrated cross-system causal rule
