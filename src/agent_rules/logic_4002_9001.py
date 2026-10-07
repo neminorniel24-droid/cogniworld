@@ -5468,3 +5468,6 @@ def logic_5889(agents, world):
 
 def logic_5890(agents, world):
     _agent_apply(world, agents, 'evaporation', 'competition_pressure', 'direct')
+
+def logic_5891(agents, world):
+    _agent_apply(world, agents, 'detritus', 'competition_pressure', 'direct')
