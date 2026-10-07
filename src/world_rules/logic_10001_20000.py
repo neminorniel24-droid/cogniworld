@@ -2927,3 +2927,6 @@ def logic_10954(world):
 
 def logic_10955(world):
     _world_apply(world, 'detritus', 'fire_risk', 'saturation')
+
+def logic_10956(world):
+    _world_apply(world, 'detritus', 'ash', 'gap')
