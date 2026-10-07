@@ -9023,3 +9023,6 @@ def logic_7074(agents, world):
 
 def logic_7075(agents, world):
     _agent_apply(world, agents, 'hydration', 'oxygen_need', 'direct')
+
+def logic_7076(agents, world):
+    _agent_apply(world, agents, 'thirst', 'oxygen_need', 'direct')
