@@ -117,3 +117,6 @@ def logic_9014(world):
 
 def logic_9015(world):
     _world_apply(world, 'carbon_storage', 'co2', 'threshold')
+
+def logic_9016(world):
+    _world_apply(world, 'co2', 'photosynthesis_factor', 'saturation')
