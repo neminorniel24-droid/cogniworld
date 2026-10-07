@@ -43485,3 +43485,10 @@ def logic_36590(agents, world):
     src = _local(world, agents, 'herbivore')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.betrayal_memory = _delta(agents.betrayal_memory, delta)
+
+
+def logic_36591(agents, world):
+    """Environmental predator shapes agent last_energy_delta (inverse)."""
+    src = _local(world, agents, 'predator')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.last_energy_delta = _delta(agents.last_energy_delta, delta)
