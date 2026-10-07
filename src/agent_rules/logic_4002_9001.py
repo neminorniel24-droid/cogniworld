@@ -3089,3 +3089,6 @@ def logic_5096(agents, world):
 
 def logic_5097(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'exploration_drive', 'direct')
+
+def logic_5098(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'exploration_drive', 'direct')
