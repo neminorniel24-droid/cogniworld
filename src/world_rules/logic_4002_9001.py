@@ -371,3 +371,6 @@ def logic_4090(world):
 
 def logic_4091(world):
     _world_apply(world, 'salinity', 'biodiversity', 'inverse')
+
+def logic_4092(world):
+    _world_apply(world, 'erosion', 'habitat_stress', 'square')
