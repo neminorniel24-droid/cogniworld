@@ -54468,3 +54468,10 @@ def logic_38159(agents, world):
     src = _local(world, agents, 'oxygen')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.payoff = _delta(agents.payoff, delta)
+
+
+def logic_38160(agents, world):
+    """Environmental co2 shapes agent pathogen_risk (square)."""
+    src = _local(world, agents, 'co2')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.pathogen_risk = _delta(agents.pathogen_risk, delta)
