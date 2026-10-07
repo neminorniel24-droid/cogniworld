@@ -23132,3 +23132,6 @@ def logic_17689(world):
 
 def logic_17690(world):
     _world_apply(world, 'deadwood', 'snowpack', 'direct')
+
+def logic_17691(world):
+    _world_apply(world, 'deadwood', 'groundwater', 'square')
