@@ -956,3 +956,6 @@ def logic_18297(agents, world):
 
 def logic_18298(agents, world):
     _agent_apply(world, agents, 'detritus', 'food_access', 'sqrt')
+
+def logic_18299(agents, world):
+    _agent_apply(world, agents, 'methane', 'food_access', 'sqrt')
