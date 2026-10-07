@@ -5750,3 +5750,6 @@ def logic_5983(agents, world):
 
 def logic_5984(agents, world):
     _agent_apply(world, agents, 'resource_abundance', 'territoriality', 'direct')
+
+def logic_5985(agents, world):
+    _agent_apply(world, agents, 'energy_surplus', 'territoriality', 'direct')
