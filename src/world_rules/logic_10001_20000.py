@@ -857,3 +857,6 @@ def logic_10264(world):
 
 def logic_10265(world):
     _world_apply(world, 'runoff', 'temperature', 'pulse')
+
+def logic_10266(world):
+    _world_apply(world, 'runoff', 'surface_water', 'saturation')
