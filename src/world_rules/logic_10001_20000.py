@@ -10514,3 +10514,6 @@ def logic_13483(world):
 
 def logic_13484(world):
     _world_apply(world, 'groundwater', 'wind_x', 'saturation')
+
+def logic_13485(world):
+    _world_apply(world, 'groundwater', 'wind_y', 'gap')
