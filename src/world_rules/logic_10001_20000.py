@@ -21743,3 +21743,6 @@ def logic_17226(world):
 
 def logic_17227(world):
     _world_apply(world, 'wetland', 'biomass', 'gap')
+
+def logic_17228(world):
+    _world_apply(world, 'wetland', 'herbivore', 'direct')
