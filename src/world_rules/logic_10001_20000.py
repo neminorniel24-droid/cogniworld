@@ -10304,3 +10304,6 @@ def logic_13413(world):
 
 def logic_13414(world):
     _world_apply(world, 'ash', 'habitat_stress', 'gap')
+
+def logic_13415(world):
+    _world_apply(world, 'ash', 'erosion', 'direct')
