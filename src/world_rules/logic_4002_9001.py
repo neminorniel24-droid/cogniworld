@@ -176,3 +176,6 @@ def logic_4025(world):
 
 def logic_4026(world):
     _world_apply(world, 'pollinators', 'flowers', 'direct')
+
+def logic_4027(world):
+    _world_apply(world, 'seed_bank', 'vegetation', 'inverse')
