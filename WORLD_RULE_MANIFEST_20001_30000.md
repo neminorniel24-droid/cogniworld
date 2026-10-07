@@ -90,3 +90,4 @@
 - 20089: integrated cross-system causal rule
 - 20090: integrated cross-system causal rule
 - 20091: integrated cross-system causal rule
+- 20092: integrated cross-system causal rule
