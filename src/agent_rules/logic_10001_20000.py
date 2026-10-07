@@ -4331,3 +4331,6 @@ def logic_19422(agents, world):
 
 def logic_19423(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'foraging_score', 'threshold')
+
+def logic_19424(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'foraging_score', 'threshold')
