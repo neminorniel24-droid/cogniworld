@@ -5783,3 +5783,6 @@ def logic_5994(agents, world):
 
 def logic_5995(agents, world):
     _agent_apply(world, agents, 'cooperation', 'territoriality', 'direct')
+
+def logic_5996(agents, world):
+    _agent_apply(world, agents, 'defection', 'territoriality', 'direct')
