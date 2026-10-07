@@ -9935,3 +9935,6 @@ def logic_7378(agents, world):
 
 def logic_7379(agents, world):
     _agent_apply(world, agents, 'carrion', 'stress', 'direct')
+
+def logic_7380(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'stress', 'direct')
