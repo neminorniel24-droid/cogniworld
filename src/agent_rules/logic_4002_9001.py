@@ -5114,3 +5114,6 @@ def logic_5771(agents, world):
 
 def logic_5772(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'aggression', 'direct')
+
+def logic_5773(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'aggression', 'direct')
