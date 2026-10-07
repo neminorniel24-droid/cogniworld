@@ -8408,3 +8408,6 @@ def logic_6869(agents, world):
 
 def logic_6870(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'empathy', 'direct')
+
+def logic_6871(agents, world):
+    _agent_apply(world, agents, 'hydration', 'empathy', 'direct')
