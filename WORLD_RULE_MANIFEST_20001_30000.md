@@ -7505,3 +7505,4 @@
 - 27504: integrated cross-system causal rule
 - 27505: integrated cross-system causal rule
 - 27506: integrated cross-system causal rule
+- 27507: integrated cross-system causal rule
