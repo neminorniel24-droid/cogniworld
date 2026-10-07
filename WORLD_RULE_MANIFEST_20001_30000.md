@@ -520,3 +520,4 @@
 - 20519: integrated cross-system causal rule
 - 20520: integrated cross-system causal rule
 - 20521: integrated cross-system causal rule
+- 20522: integrated cross-system causal rule
