@@ -6068,3 +6068,6 @@ def logic_12001(world):
 
 def logic_12002(world):
     _world_apply(world, 'temperature', 'methane', 'square')
+
+def logic_12003(world):
+    _world_apply(world, 'temperature', 'pathogen_load', 'pulse')
