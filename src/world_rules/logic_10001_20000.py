@@ -1601,3 +1601,6 @@ def logic_10512(world):
 
 def logic_10513(world):
     _world_apply(world, 'herbivore', 'wetland', 'square')
+
+def logic_10514(world):
+    _world_apply(world, 'herbivore', 'carbon_storage', 'pulse')
