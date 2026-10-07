@@ -19574,3 +19574,6 @@ def logic_16503(world):
 
 def logic_16504(world):
     _world_apply(world, 'predator', 'salinity', 'direct')
+
+def logic_16505(world):
+    _world_apply(world, 'predator', 'algae', 'pulse')
