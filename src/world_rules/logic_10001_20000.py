@@ -4028,3 +4028,6 @@ def logic_11321(world):
 
 def logic_11322(world):
     _world_apply(world, 'carbon_storage', 'surface_water', 'square')
+
+def logic_11323(world):
+    _world_apply(world, 'carbon_storage', 'humidity', 'pulse')
