@@ -581,3 +581,6 @@ def logic_18172(agents, world):
 
 def logic_18173(agents, world):
     _agent_apply(world, agents, 'groundwater', 'alertness', 'inverse')
+
+def logic_18174(agents, world):
+    _agent_apply(world, agents, 'sediment', 'alertness', 'inverse')
