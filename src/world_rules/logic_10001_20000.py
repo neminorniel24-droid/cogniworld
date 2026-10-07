@@ -12992,3 +12992,6 @@ def logic_14309(world):
 
 def logic_14310(world):
     _world_apply(world, 'wind_x', 'seed_bank', 'pulse')
+
+def logic_14311(world):
+    _world_apply(world, 'wind_x', 'soil_carbon', 'saturation')
