@@ -3080,3 +3080,6 @@ def logic_11005(world):
 
 def logic_11006(world):
     _world_apply(world, 'methane', 'organic_matter', 'direct')
+
+def logic_11007(world):
+    _world_apply(world, 'methane', 'deadwood', 'square')
