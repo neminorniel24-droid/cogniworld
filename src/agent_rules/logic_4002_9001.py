@@ -2444,3 +2444,6 @@ def logic_4881(agents, world):
 
 def logic_4882(agents, world):
     _agent_apply(world, agents, 'ash', 'metabolic_cost', 'direct')
+
+def logic_4883(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'metabolic_cost', 'direct')
