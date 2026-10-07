@@ -2938,3 +2938,4 @@
 - 22937: integrated cross-system causal rule
 - 22938: integrated cross-system causal rule
 - 22939: integrated cross-system causal rule
+- 22940: integrated cross-system causal rule
