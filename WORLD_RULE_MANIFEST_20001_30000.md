@@ -37,3 +37,4 @@
 - 20036: integrated cross-system causal rule
 - 20037: integrated cross-system causal rule
 - 20038: integrated cross-system causal rule
+- 20039: integrated cross-system causal rule
