@@ -14798,3 +14798,6 @@ def logic_8999(agents, world):
 
 def logic_9000(agents, world):
     _agent_apply(world, agents, 'humidity', 'foraging_score', 'direct')
+
+def logic_9001(agents, world):
+    _agent_apply(world, agents, 'cloud', 'foraging_score', 'direct')
