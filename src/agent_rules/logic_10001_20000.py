@@ -3809,3 +3809,6 @@ def logic_19248(agents, world):
 
 def logic_19249(agents, world):
     _agent_apply(world, agents, 'runoff', 'last_action', 'pulse')
+
+def logic_19250(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'last_action', 'pulse')
