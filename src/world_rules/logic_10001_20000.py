@@ -2699,3 +2699,6 @@ def logic_10878(world):
 
 def logic_10879(world):
     _world_apply(world, 'ice', 'soil_carbon', 'pulse')
+
+def logic_10880(world):
+    _world_apply(world, 'ice', 'surface_ice', 'saturation')
