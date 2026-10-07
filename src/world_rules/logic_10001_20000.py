@@ -16268,3 +16268,6 @@ def logic_15401(world):
 
 def logic_15402(world):
     _world_apply(world, 'ash', 'groundwater', 'square')
+
+def logic_15403(world):
+    _world_apply(world, 'ash', 'sediment', 'pulse')
