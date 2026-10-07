@@ -2294,3 +2294,6 @@ def logic_10743(world):
 
 def logic_10744(world):
     _world_apply(world, 'oxygen', 'pollinators', 'direct')
+
+def logic_10745(world):
+    _world_apply(world, 'oxygen', 'flowers', 'pulse')
