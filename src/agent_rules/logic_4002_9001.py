@@ -4511,3 +4511,6 @@ def logic_5570(agents, world):
 
 def logic_5571(agents, world):
     _agent_apply(world, agents, 'flowers', 'trust', 'direct')
+
+def logic_5572(agents, world):
+    _agent_apply(world, agents, 'seed_bank', 'trust', 'direct')
