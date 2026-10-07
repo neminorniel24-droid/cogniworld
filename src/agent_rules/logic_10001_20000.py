@@ -5354,3 +5354,6 @@ def logic_19763(agents, world):
 
 def logic_19764(agents, world):
     _agent_apply(world, agents, 'last_reward', 'hydration', 'feedback')
+
+def logic_19765(agents, world):
+    _agent_apply(world, agents, 'last_energy_delta', 'hydration', 'feedback')
