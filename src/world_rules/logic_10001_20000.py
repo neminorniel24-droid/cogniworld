@@ -7556,3 +7556,6 @@ def logic_12497(world):
 
 def logic_12498(world):
     _world_apply(world, 'herbivore', 'groundwater', 'gap')
+
+def logic_12499(world):
+    _world_apply(world, 'herbivore', 'sediment', 'direct')
