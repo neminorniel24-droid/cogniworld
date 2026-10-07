@@ -2103,3 +2103,6 @@ def logic_9875(agents, world):
 
 def logic_9876(agents, world):
     _agent_apply(world, agents, 'local_density', 'fear', 'direct')
+
+def logic_9877(agents, world):
+    _agent_apply(world, agents, 'strategy_score', 'fear', 'direct')
