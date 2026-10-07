@@ -10091,3 +10091,6 @@ def logic_13342(world):
 
 def logic_13343(world):
     _world_apply(world, 'carbon_storage', 'soil_carbon', 'gap')
+
+def logic_13344(world):
+    _world_apply(world, 'carbon_storage', 'surface_ice', 'direct')
