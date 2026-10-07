@@ -588,3 +588,6 @@ def logic_9171(world):
 
 def logic_9172(world):
     _world_apply(world, 'humidity', 'ash', 'square')
+
+def logic_9173(world):
+    _world_apply(world, 'humidity', 'snowpack', 'sqrt')
