@@ -2321,3 +2321,6 @@ def logic_18752(agents, world):
 
 def logic_18753(agents, world):
     _agent_apply(world, agents, 'migration_drive', 'future_help', 'gap')
+
+def logic_18754(agents, world):
+    _agent_apply(world, agents, 'exploration_drive', 'future_help', 'gap')
