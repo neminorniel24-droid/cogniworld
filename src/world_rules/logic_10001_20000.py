@@ -71,3 +71,6 @@ def logic_10002(world):
 
 def logic_10003(world):
     _world_apply(world, 'temperature', 'cloud', 'pulse')
+
+def logic_10004(world):
+    _world_apply(world, 'temperature', 'rain', 'saturation')
