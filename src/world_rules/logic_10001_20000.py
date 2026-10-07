@@ -13571,3 +13571,6 @@ def logic_14502(world):
 
 def logic_14503(world):
     _world_apply(world, 'predator', 'decomposition_rate', 'gap')
+
+def logic_14504(world):
+    _world_apply(world, 'predator', 'oxygen', 'direct')
