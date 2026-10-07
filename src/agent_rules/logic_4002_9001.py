@@ -1526,3 +1526,6 @@ def logic_4575(agents, world):
 
 def logic_4576(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'pathogen_risk', 'direct')
+
+def logic_4577(agents, world):
+    _agent_apply(world, agents, 'payoff', 'pathogen_risk', 'direct')
