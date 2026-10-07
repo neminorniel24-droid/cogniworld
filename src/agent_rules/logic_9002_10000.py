@@ -894,3 +894,6 @@ def logic_9472(agents, world):
 
 def logic_9473(agents, world):
     _agent_apply(world, agents, 'temperature', 'thermal_stress', 'direct')
+
+def logic_9474(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'thermal_stress', 'direct')
