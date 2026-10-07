@@ -164,3 +164,6 @@ def logic_4121(agents, world):
 
 def logic_4122(agents, world):
     _agent_apply(world, agents, 'evaporation', 'hydration', 'direct')
+
+def logic_4123(agents, world):
+    _agent_apply(world, agents, 'detritus', 'hydration', 'direct')
