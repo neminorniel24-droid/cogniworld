@@ -11765,3 +11765,6 @@ def logic_7988(agents, world):
 
 def logic_7989(agents, world):
     _agent_apply(world, agents, 'herbivore', 'local_density', 'direct')
+
+def logic_7990(agents, world):
+    _agent_apply(world, agents, 'predator', 'local_density', 'direct')
