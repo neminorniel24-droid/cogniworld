@@ -58633,3 +58633,10 @@ def logic_38754(agents, world):
     src = _local(world, agents, 'carrion')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.safety_score = _delta(agents.safety_score, delta)
+
+
+def logic_38755(agents, world):
+    """Environmental nutrients shapes agent retaliation_risk (inverse)."""
+    src = _local(world, agents, 'nutrients')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.retaliation_risk = _delta(agents.retaliation_risk, delta)
