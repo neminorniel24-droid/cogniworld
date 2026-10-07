@@ -6059,3 +6059,6 @@ def logic_19998(agents, world):
 
 def logic_19999(agents, world):
     _agent_apply(world, agents, 'stability', 'reproduction_drive', 'square')
+
+def logic_20000(agents, world):
+    _agent_apply(world, agents, 'habitat_stress', 'reproduction_drive', 'square')
