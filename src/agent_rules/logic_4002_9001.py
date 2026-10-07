@@ -4532,3 +4532,6 @@ def logic_5577(agents, world):
 
 def logic_5578(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'trust', 'direct')
+
+def logic_5579(agents, world):
+    _agent_apply(world, agents, 'hydration', 'trust', 'direct')
