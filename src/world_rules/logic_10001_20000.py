@@ -4430,3 +4430,6 @@ def logic_11455(world):
 
 def logic_11456(world):
     _world_apply(world, 'snowpack', 'cloud', 'square')
+
+def logic_11457(world):
+    _world_apply(world, 'snowpack', 'rain', 'saturation')
