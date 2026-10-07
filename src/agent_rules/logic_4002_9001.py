@@ -9182,3 +9182,6 @@ def logic_7127(agents, world):
 
 def logic_7128(agents, world):
     _agent_apply(world, agents, 'groundwater', 'shelter_need', 'direct')
+
+def logic_7129(agents, world):
+    _agent_apply(world, agents, 'sediment', 'shelter_need', 'direct')
