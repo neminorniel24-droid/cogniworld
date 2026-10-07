@@ -9353,3 +9353,6 @@ def logic_7184(agents, world):
 
 def logic_7185(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'fire_fear', 'direct')
+
+def logic_7186(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'fire_fear', 'direct')
