@@ -1607,3 +1607,6 @@ def logic_10514(world):
 
 def logic_10515(world):
     _world_apply(world, 'herbivore', 'fire_risk', 'saturation')
+
+def logic_10516(world):
+    _world_apply(world, 'herbivore', 'ash', 'gap')
