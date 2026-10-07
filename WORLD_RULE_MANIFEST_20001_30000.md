@@ -2450,3 +2450,4 @@
 - 22449: integrated cross-system causal rule
 - 22450: integrated cross-system causal rule
 - 22451: integrated cross-system causal rule
+- 22452: integrated cross-system causal rule
