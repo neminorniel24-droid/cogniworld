@@ -12968,3 +12968,6 @@ def logic_14301(world):
 
 def logic_14302(world):
     _world_apply(world, 'wind_x', 'groundwater', 'saturation')
+
+def logic_14303(world):
+    _world_apply(world, 'wind_x', 'sediment', 'gap')
