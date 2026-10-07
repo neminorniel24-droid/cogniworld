@@ -4454,3 +4454,6 @@ def logic_11463(world):
 
 def logic_11464(world):
     _world_apply(world, 'snowpack', 'herbivore', 'direct')
+
+def logic_11465(world):
+    _world_apply(world, 'snowpack', 'predator', 'pulse')
