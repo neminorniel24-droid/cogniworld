@@ -10448,3 +10448,6 @@ def logic_7549(agents, world):
 
 def logic_7550(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'neighbor_energy_gap', 'direct')
+
+def logic_7551(agents, world):
+    _agent_apply(world, agents, 'hydration', 'neighbor_energy_gap', 'direct')
