@@ -8777,3 +8777,6 @@ def logic_12904(world):
 
 def logic_12905(world):
     _world_apply(world, 'detritus', 'temperature', 'pulse')
+
+def logic_12906(world):
+    _world_apply(world, 'detritus', 'surface_water', 'saturation')
