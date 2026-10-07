@@ -13955,3 +13955,6 @@ def logic_8718(agents, world):
 
 def logic_8719(agents, world):
     _agent_apply(world, agents, 'help_received', 'defection_score', 'direct')
+
+def logic_8720(agents, world):
+    _agent_apply(world, agents, 'help_given', 'defection_score', 'direct')
