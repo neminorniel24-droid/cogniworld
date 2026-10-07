@@ -15080,3 +15080,6 @@ def logic_15005(world):
 
 def logic_15006(world):
     _world_apply(world, 'pathogen_load', 'groundwater', 'direct')
+
+def logic_15007(world):
+    _world_apply(world, 'pathogen_load', 'sediment', 'square')
