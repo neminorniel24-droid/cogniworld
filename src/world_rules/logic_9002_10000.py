@@ -393,3 +393,6 @@ def logic_9106(world):
 
 def logic_9107(world):
     _world_apply(world, 'surface_water', 'wind_y', 'inverse')
+
+def logic_9108(world):
+    _world_apply(world, 'surface_water', 'vegetation', 'square')
