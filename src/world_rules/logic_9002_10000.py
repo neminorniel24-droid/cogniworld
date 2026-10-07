@@ -387,3 +387,6 @@ def logic_9104(world):
 
 def logic_9105(world):
     _world_apply(world, 'surface_water', 'runoff', 'reciprocal')
+
+def logic_9106(world):
+    _world_apply(world, 'surface_water', 'wind_x', 'direct')
