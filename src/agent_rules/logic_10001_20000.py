@@ -1292,3 +1292,6 @@ def logic_18409(agents, world):
 
 def logic_18410(agents, world):
     _agent_apply(world, agents, 'learning_rate', 'reputation', 'pulse')
+
+def logic_18411(agents, world):
+    _agent_apply(world, agents, 'memory_update', 'reputation', 'pulse')
