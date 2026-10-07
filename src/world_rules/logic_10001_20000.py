@@ -3413,3 +3413,6 @@ def logic_11116(world):
 
 def logic_11117(world):
     _world_apply(world, 'habitat_stress', 'oxygen', 'direct')
+
+def logic_11118(world):
+    _world_apply(world, 'habitat_stress', 'co2', 'square')
