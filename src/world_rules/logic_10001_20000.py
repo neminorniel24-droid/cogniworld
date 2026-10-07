@@ -11459,3 +11459,6 @@ def logic_13798(world):
 
 def logic_13799(world):
     _world_apply(world, 'flowers', 'nutrients', 'pulse')
+
+def logic_13800(world):
+    _world_apply(world, 'flowers', 'decomposition_rate', 'saturation')
