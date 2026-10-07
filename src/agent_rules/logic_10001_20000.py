@@ -848,3 +848,6 @@ def logic_18261(agents, world):
 
 def logic_18262(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'migration_drive', 'square')
+
+def logic_18263(agents, world):
+    _agent_apply(world, agents, 'help_score', 'migration_drive', 'square')
