@@ -473,3 +473,4 @@
 - 20472: integrated cross-system causal rule
 - 20473: integrated cross-system causal rule
 - 20474: integrated cross-system causal rule
+- 20475: integrated cross-system causal rule
