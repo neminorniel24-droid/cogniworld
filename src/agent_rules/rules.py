@@ -60789,3 +60789,10 @@ def logic_39062(agents, world):
     src = _local(world, agents, 'temperature')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.thirst = _delta(agents.thirst, delta)
+
+
+def logic_39063(agents, world):
+    """Environmental temperature_target shapes agent alertness (inverse)."""
+    src = _local(world, agents, 'temperature_target')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.alertness = _delta(agents.alertness, delta)
