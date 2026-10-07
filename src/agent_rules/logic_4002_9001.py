@@ -4340,3 +4340,6 @@ def logic_5513(agents, world):
 
 def logic_5514(agents, world):
     _agent_apply(world, agents, 'health', 'reputation', 'direct')
+
+def logic_5515(agents, world):
+    _agent_apply(world, agents, 'stress', 'reputation', 'direct')
