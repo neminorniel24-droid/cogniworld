@@ -1154,3 +1154,6 @@ def logic_10363(world):
 
 def logic_10364(world):
     _world_apply(world, 'wind_y', 'predator', 'saturation')
+
+def logic_10365(world):
+    _world_apply(world, 'wind_y', 'carrion', 'gap')
