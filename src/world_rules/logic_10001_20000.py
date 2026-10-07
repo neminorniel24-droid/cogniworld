@@ -1292,3 +1292,6 @@ def logic_10409(world):
 
 def logic_10410(world):
     _world_apply(world, 'vegetation', 'nutrients', 'direct')
+
+def logic_10411(world):
+    _world_apply(world, 'vegetation', 'decomposition_rate', 'square')
