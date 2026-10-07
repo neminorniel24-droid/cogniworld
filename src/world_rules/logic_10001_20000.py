@@ -4337,3 +4337,6 @@ def logic_11424(world):
 
 def logic_11425(world):
     _world_apply(world, 'ash', 'oxygen', 'pulse')
+
+def logic_11426(world):
+    _world_apply(world, 'ash', 'co2', 'saturation')
