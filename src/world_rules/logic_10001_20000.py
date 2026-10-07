@@ -10880,3 +10880,6 @@ def logic_13605(world):
 
 def logic_13606(world):
     _world_apply(world, 'salinity', 'seed_bank', 'direct')
+
+def logic_13607(world):
+    _world_apply(world, 'salinity', 'soil_carbon', 'square')
