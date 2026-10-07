@@ -3875,3 +3875,6 @@ def logic_11270(world):
 
 def logic_11271(world):
     _world_apply(world, 'root_density', 'deadwood', 'saturation')
+
+def logic_11272(world):
+    _world_apply(world, 'root_density', 'pollinators', 'gap')
