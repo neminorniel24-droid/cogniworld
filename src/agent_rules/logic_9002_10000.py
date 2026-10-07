@@ -1365,3 +1365,6 @@ def logic_9629(agents, world):
 
 def logic_9630(agents, world):
     _agent_apply(world, agents, 'detritus', 'pathogen_risk', 'direct')
+
+def logic_9631(agents, world):
+    _agent_apply(world, agents, 'methane', 'pathogen_risk', 'direct')
