@@ -19091,3 +19091,6 @@ def logic_16342(world):
 
 def logic_16343(world):
     _world_apply(world, 'vegetation', 'runoff', 'gap')
+
+def logic_16344(world):
+    _world_apply(world, 'vegetation', 'wind_x', 'direct')
