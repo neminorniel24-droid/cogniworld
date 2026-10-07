@@ -2123,3 +2123,6 @@ def logic_18686(agents, world):
 
 def logic_18687(agents, world):
     _agent_apply(world, agents, 'memory_update', 'gratitude', 'reciprocal')
+
+def logic_18688(agents, world):
+    _agent_apply(world, agents, 'future_payoff_weight', 'gratitude', 'reciprocal')
