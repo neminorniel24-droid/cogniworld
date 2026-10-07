@@ -18365,3 +18365,6 @@ def logic_16100(world):
 
 def logic_16101(world):
     _world_apply(world, 'cloud', 'wetland', 'pulse')
+
+def logic_16102(world):
+    _world_apply(world, 'cloud', 'carbon_storage', 'saturation')
