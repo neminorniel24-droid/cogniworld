@@ -1700,3 +1700,6 @@ def logic_10545(world):
 
 def logic_10546(world):
     _world_apply(world, 'predator', 'photosynthesis_factor', 'saturation')
+
+def logic_10547(world):
+    _world_apply(world, 'predator', 'ice', 'gap')
