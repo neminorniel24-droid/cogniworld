@@ -8828,3 +8828,6 @@ def logic_7009(agents, world):
 
 def logic_7010(agents, world):
     _agent_apply(world, agents, 'health', 'defection_threshold', 'direct')
+
+def logic_7011(agents, world):
+    _agent_apply(world, agents, 'stress', 'defection_threshold', 'direct')
