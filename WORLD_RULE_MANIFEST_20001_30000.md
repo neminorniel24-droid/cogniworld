@@ -7945,3 +7945,4 @@
 - 27944: integrated cross-system causal rule
 - 27945: integrated cross-system causal rule
 - 27946: integrated cross-system causal rule
+- 27947: integrated cross-system causal rule
