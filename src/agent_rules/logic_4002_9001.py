@@ -6014,3 +6014,6 @@ def logic_6071(agents, world):
 
 def logic_6072(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'group_stability', 'direct')
+
+def logic_6073(agents, world):
+    _agent_apply(world, agents, 'payoff', 'group_stability', 'direct')
