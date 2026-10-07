@@ -4595,3 +4595,6 @@ def logic_11510(world):
 
 def logic_11511(world):
     _world_apply(world, 'groundwater', 'nutrients', 'saturation')
+
+def logic_11512(world):
+    _world_apply(world, 'groundwater', 'decomposition_rate', 'gap')
