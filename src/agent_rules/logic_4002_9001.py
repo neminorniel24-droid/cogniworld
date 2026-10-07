@@ -10832,3 +10832,6 @@ def logic_7677(agents, world):
 
 def logic_7678(agents, world):
     _agent_apply(world, agents, 'pollinators', 'betrayal_memory', 'direct')
+
+def logic_7679(agents, world):
+    _agent_apply(world, agents, 'flowers', 'betrayal_memory', 'direct')
