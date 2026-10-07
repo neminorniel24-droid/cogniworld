@@ -5849,3 +5849,6 @@ def logic_19928(agents, world):
 
 def logic_19929(agents, world):
     _agent_apply(world, agents, 'memory_update', 'alertness', 'inverse')
+
+def logic_19930(agents, world):
+    _agent_apply(world, agents, 'future_payoff_weight', 'alertness', 'inverse')
