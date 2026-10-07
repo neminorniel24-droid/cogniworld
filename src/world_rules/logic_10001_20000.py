@@ -18326,3 +18326,6 @@ def logic_16087(world):
 
 def logic_16088(world):
     _world_apply(world, 'cloud', 'oxygen', 'pulse')
+
+def logic_16089(world):
+    _world_apply(world, 'cloud', 'co2', 'gap')
