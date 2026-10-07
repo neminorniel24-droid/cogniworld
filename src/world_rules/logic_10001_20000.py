@@ -5114,3 +5114,6 @@ def logic_11683(world):
 
 def logic_11684(world):
     _world_apply(world, 'organic_matter', 'herbivore', 'saturation')
+
+def logic_11685(world):
+    _world_apply(world, 'organic_matter', 'predator', 'gap')
