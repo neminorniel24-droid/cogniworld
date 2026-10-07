@@ -19343,3 +19343,6 @@ def logic_16426(world):
 
 def logic_16427(world):
     _world_apply(world, 'herbivore', 'humidity', 'gap')
+
+def logic_16428(world):
+    _world_apply(world, 'herbivore', 'cloud', 'direct')
