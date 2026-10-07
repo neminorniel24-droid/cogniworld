@@ -17864,3 +17864,6 @@ def logic_15933(world):
 
 def logic_15934(world):
     _world_apply(world, 'surface_ice', 'algae', 'gap')
+
+def logic_15935(world):
+    _world_apply(world, 'surface_ice', 'organic_matter', 'direct')
