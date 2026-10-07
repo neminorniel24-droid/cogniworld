@@ -5933,3 +5933,6 @@ def logic_19956(agents, world):
 
 def logic_19957(agents, world):
     _agent_apply(world, agents, 'biodiversity', 'recovery', 'inverse')
+
+def logic_19958(agents, world):
+    _agent_apply(world, agents, 'habitat_stress', 'recovery', 'inverse')
