@@ -2057,3 +2057,4 @@
 - 22056: integrated cross-system causal rule
 - 22057: integrated cross-system causal rule
 - 22058: integrated cross-system causal rule
+- 22059: integrated cross-system causal rule
