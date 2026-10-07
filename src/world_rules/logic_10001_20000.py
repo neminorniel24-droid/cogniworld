@@ -1883,3 +1883,6 @@ def logic_10606(world):
 
 def logic_10607(world):
     _world_apply(world, 'carrion', 'sediment', 'square')
+
+def logic_10608(world):
+    _world_apply(world, 'carrion', 'salinity', 'pulse')
