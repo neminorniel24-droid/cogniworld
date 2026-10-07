@@ -2019,3 +2019,6 @@ def logic_9847(agents, world):
 
 def logic_9848(agents, world):
     _agent_apply(world, agents, 'sediment', 'fear', 'direct')
+
+def logic_9849(agents, world):
+    _agent_apply(world, agents, 'salinity', 'fear', 'direct')
