@@ -11234,3 +11234,6 @@ def logic_7811(agents, world):
 
 def logic_7812(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'cooperation_history', 'direct')
+
+def logic_7813(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'cooperation_history', 'direct')
