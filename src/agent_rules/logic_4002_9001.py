@@ -8528,3 +8528,6 @@ def logic_6909(agents, world):
 
 def logic_6910(agents, world):
     _agent_apply(world, agents, 'evaporation', 'attack_threshold', 'direct')
+
+def logic_6911(agents, world):
+    _agent_apply(world, agents, 'detritus', 'attack_threshold', 'direct')
