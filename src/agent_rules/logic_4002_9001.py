@@ -5471,3 +5471,6 @@ def logic_5890(agents, world):
 
 def logic_5891(agents, world):
     _agent_apply(world, agents, 'detritus', 'competition_pressure', 'direct')
+
+def logic_5892(agents, world):
+    _agent_apply(world, agents, 'methane', 'competition_pressure', 'direct')
