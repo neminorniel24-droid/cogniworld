@@ -1532,3 +1532,4 @@
 - 21531: integrated cross-system causal rule
 - 21532: integrated cross-system causal rule
 - 21533: integrated cross-system causal rule
+- 21534: integrated cross-system causal rule
