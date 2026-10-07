@@ -7960,3 +7960,4 @@
 - 27959: integrated cross-system causal rule
 - 27960: integrated cross-system causal rule
 - 27961: integrated cross-system causal rule
+- 27962: integrated cross-system causal rule
