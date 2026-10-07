@@ -6083,3 +6083,6 @@ def logic_12006(world):
 
 def logic_12007(world):
     _world_apply(world, 'temperature', 'soil_depth', 'square')
+
+def logic_12008(world):
+    _world_apply(world, 'temperature', 'root_density', 'pulse')
