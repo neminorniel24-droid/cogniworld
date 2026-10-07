@@ -3938,3 +3938,6 @@ def logic_5379(agents, world):
 
 def logic_5380(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'habitat_stress', 'direct')
+
+def logic_5381(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'habitat_stress', 'direct')
