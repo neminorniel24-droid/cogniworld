@@ -8393,3 +8393,6 @@ def logic_12776(world):
 
 def logic_12777(world):
     _world_apply(world, 'photosynthesis_factor', 'rain', 'saturation')
+
+def logic_12778(world):
+    _world_apply(world, 'photosynthesis_factor', 'soil_moisture', 'gap')
