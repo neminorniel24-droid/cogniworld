@@ -48896,3 +48896,10 @@ def logic_37363(agents, world):
     src = _local(world, agents, 'humidity')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.gratitude = _delta(agents.gratitude, delta)
+
+
+def logic_37364(agents, world):
+    """Environmental cloud shapes agent attack_threshold (square)."""
+    src = _local(world, agents, 'cloud')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.attack_threshold = _delta(agents.attack_threshold, delta)
