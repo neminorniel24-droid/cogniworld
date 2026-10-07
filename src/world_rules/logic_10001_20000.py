@@ -13004,3 +13004,6 @@ def logic_14313(world):
 
 def logic_14314(world):
     _world_apply(world, 'wind_y', 'surface_water', 'pulse')
+
+def logic_14315(world):
+    _world_apply(world, 'wind_y', 'humidity', 'saturation')
