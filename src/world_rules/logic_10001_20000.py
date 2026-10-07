@@ -9680,3 +9680,6 @@ def logic_13205(world):
 
 def logic_13206(world):
     _world_apply(world, 'soil_depth', 'organic_matter', 'direct')
+
+def logic_13207(world):
+    _world_apply(world, 'soil_depth', 'deadwood', 'square')
