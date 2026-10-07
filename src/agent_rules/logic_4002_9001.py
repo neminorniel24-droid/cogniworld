@@ -10067,3 +10067,6 @@ def logic_7422(agents, world):
 
 def logic_7423(agents, world):
     _agent_apply(world, agents, 'cooperation', 'stress', 'direct')
+
+def logic_7424(agents, world):
+    _agent_apply(world, agents, 'defection', 'stress', 'direct')
