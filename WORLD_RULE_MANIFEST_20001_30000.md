@@ -2416,3 +2416,4 @@
 - 22415: integrated cross-system causal rule
 - 22416: integrated cross-system causal rule
 - 22417: integrated cross-system causal rule
+- 22418: integrated cross-system causal rule
