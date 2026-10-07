@@ -7706,3 +7706,6 @@ def logic_12547(world):
 
 def logic_12548(world):
     _world_apply(world, 'predator', 'pollinators', 'direct')
+
+def logic_12549(world):
+    _world_apply(world, 'predator', 'flowers', 'square')
