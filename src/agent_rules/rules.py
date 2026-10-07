@@ -64121,3 +64121,10 @@ def logic_39538(agents, world):
     src = _local(world, agents, 'decomposition_rate')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.empathy = _delta(agents.empathy, delta)
+
+
+def logic_39539(agents, world):
+    """Environmental oxygen shapes agent vegetation_expectation (inverse)."""
+    src = _local(world, agents, 'oxygen')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.vegetation_expectation = _delta(agents.vegetation_expectation, delta)
