@@ -7058,3 +7058,6 @@ def logic_6419(agents, world):
 
 def logic_6420(agents, world):
     _agent_apply(world, agents, 'runoff', 'gratitude', 'direct')
+
+def logic_6421(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'gratitude', 'direct')
