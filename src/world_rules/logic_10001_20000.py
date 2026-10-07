@@ -2738,3 +2738,6 @@ def logic_10891(world):
 
 def logic_10892(world):
     _world_apply(world, 'evaporation', 'herbivore', 'pulse')
+
+def logic_10893(world):
+    _world_apply(world, 'evaporation', 'predator', 'saturation')
