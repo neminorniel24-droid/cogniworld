@@ -7301,3 +7301,6 @@ def logic_6500(agents, world):
 
 def logic_6501(agents, world):
     _agent_apply(world, agents, 'ice', 'caution', 'direct')
+
+def logic_6502(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'caution', 'direct')
