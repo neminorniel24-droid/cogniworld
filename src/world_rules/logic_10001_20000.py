@@ -575,3 +575,6 @@ def logic_10170(world):
 
 def logic_10171(world):
     _world_apply(world, 'cloud', 'deadwood', 'square')
+
+def logic_10172(world):
+    _world_apply(world, 'cloud', 'pollinators', 'pulse')
