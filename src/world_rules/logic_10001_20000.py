@@ -16277,3 +16277,6 @@ def logic_15404(world):
 
 def logic_15405(world):
     _world_apply(world, 'ash', 'algae', 'gap')
+
+def logic_15406(world):
+    _world_apply(world, 'ash', 'organic_matter', 'direct')
