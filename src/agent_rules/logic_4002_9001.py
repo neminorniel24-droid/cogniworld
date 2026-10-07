@@ -13235,3 +13235,6 @@ def logic_8478(agents, world):
 
 def logic_8479(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'strategy_score', 'direct')
+
+def logic_8480(agents, world):
+    _agent_apply(world, agents, 'erosion', 'strategy_score', 'direct')
