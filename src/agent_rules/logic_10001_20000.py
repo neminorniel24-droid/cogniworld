@@ -4433,3 +4433,6 @@ def logic_19456(agents, world):
 
 def logic_19457(agents, world):
     _agent_apply(world, agents, 'territoriality', 'survival_score', 'saturation')
+
+def logic_19458(agents, world):
+    _agent_apply(world, agents, 'group_stability', 'survival_score', 'saturation')
