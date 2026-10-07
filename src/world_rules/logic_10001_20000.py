@@ -17834,3 +17834,6 @@ def logic_15923(world):
 
 def logic_15924(world):
     _world_apply(world, 'surface_ice', 'soil_depth', 'saturation')
+
+def logic_15925(world):
+    _world_apply(world, 'surface_ice', 'root_density', 'gap')
