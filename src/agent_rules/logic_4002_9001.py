@@ -6320,3 +6320,6 @@ def logic_6173(agents, world):
 
 def logic_6174(agents, world):
     _agent_apply(world, agents, 'ash', 'help_drive', 'direct')
+
+def logic_6175(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'help_drive', 'direct')
