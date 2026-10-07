@@ -16553,3 +16553,6 @@ def logic_15496(world):
 
 def logic_15497(world):
     _world_apply(world, 'groundwater', 'flowers', 'saturation')
+
+def logic_15498(world):
+    _world_apply(world, 'groundwater', 'seed_bank', 'gap')
