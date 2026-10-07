@@ -57499,3 +57499,10 @@ def logic_38592(agents, world):
     src = _local(world, agents, 'sediment')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.thermal_stress = _delta(agents.thermal_stress, delta)
+
+
+def logic_38593(agents, world):
+    """Environmental salinity shapes agent metabolic_cost (root)."""
+    src = _local(world, agents, 'salinity')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.metabolic_cost = _delta(agents.metabolic_cost, delta)
