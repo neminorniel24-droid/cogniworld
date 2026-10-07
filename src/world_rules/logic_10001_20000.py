@@ -713,3 +713,6 @@ def logic_10216(world):
 
 def logic_10217(world):
     _world_apply(world, 'rain', 'flowers', 'saturation')
+
+def logic_10218(world):
+    _world_apply(world, 'rain', 'seed_bank', 'gap')
