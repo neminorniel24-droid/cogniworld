@@ -2885,3 +2885,6 @@ def logic_10940(world):
 
 def logic_10941(world):
     _world_apply(world, 'detritus', 'oxygen', 'pulse')
+
+def logic_10942(world):
+    _world_apply(world, 'detritus', 'co2', 'saturation')
