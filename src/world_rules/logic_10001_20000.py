@@ -15443,3 +15443,6 @@ def logic_15126(world):
 
 def logic_15127(world):
     _world_apply(world, 'erosion', 'methane', 'square')
+
+def logic_15128(world):
+    _world_apply(world, 'erosion', 'pathogen_load', 'pulse')
