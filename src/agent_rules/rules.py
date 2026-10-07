@@ -59284,3 +59284,10 @@ def logic_38847(agents, world):
     src = _local(world, agents, 'nutrients')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.fear = _delta(agents.fear, delta)
+
+
+def logic_38848(agents, world):
+    """Environmental decomposition_rate shapes agent wealth (square)."""
+    src = _local(world, agents, 'decomposition_rate')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.wealth = _delta(agents.wealth, delta)
