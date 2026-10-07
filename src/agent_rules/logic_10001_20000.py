@@ -2750,3 +2750,6 @@ def logic_18895(agents, world):
 
 def logic_18896(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'fire_fear', 'direct')
+
+def logic_18897(agents, world):
+    _agent_apply(world, agents, 'social_tolerance', 'fire_fear', 'direct')
