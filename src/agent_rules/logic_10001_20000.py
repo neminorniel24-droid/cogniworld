@@ -1124,3 +1124,6 @@ def logic_18353(agents, world):
 
 def logic_18354(agents, world):
     _agent_apply(world, agents, 'group_stability', 'stability', 'sqrt')
+
+def logic_18355(agents, world):
+    _agent_apply(world, agents, 'sharing_capacity', 'stability', 'sqrt')
