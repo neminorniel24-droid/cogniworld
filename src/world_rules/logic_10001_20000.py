@@ -13388,3 +13388,6 @@ def logic_14441(world):
 
 def logic_14442(world):
     _world_apply(world, 'biomass', 'seed_bank', 'square')
+
+def logic_14443(world):
+    _world_apply(world, 'biomass', 'soil_carbon', 'pulse')
