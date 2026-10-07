@@ -3248,3 +3248,6 @@ def logic_19061(agents, world):
 
 def logic_19062(agents, world):
     _agent_apply(world, agents, 'resource_competition', 'conflict_history', 'inverse')
+
+def logic_19063(agents, world):
+    _agent_apply(world, agents, 'vegetation_expectation', 'conflict_history', 'inverse')
