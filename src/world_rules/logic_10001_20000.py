@@ -2768,3 +2768,6 @@ def logic_10901(world):
 
 def logic_10902(world):
     _world_apply(world, 'evaporation', 'methane', 'saturation')
+
+def logic_10903(world):
+    _world_apply(world, 'evaporation', 'pathogen_load', 'gap')
