@@ -2834,3 +2834,6 @@ def logic_18923(agents, world):
 
 def logic_18924(agents, world):
     _agent_apply(world, agents, 'resource_competition', 'vegetation_expectation', 'direct')
+
+def logic_18925(agents, world):
+    _agent_apply(world, agents, 'vegetation_expectation', 'resource_competition', 'direct')
