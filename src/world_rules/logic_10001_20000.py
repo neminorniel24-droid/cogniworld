@@ -23996,3 +23996,6 @@ def logic_17977(world):
 
 def logic_17978(world):
     _world_apply(world, 'surface_water', 'nutrients', 'gap')
+
+def logic_17979(world):
+    _world_apply(world, 'surface_water', 'decomposition_rate', 'direct')
