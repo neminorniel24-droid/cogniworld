@@ -14222,3 +14222,6 @@ def logic_14719(world):
 
 def logic_14720(world):
     _world_apply(world, 'co2', 'herbivore', 'saturation')
+
+def logic_14721(world):
+    _world_apply(world, 'co2', 'predator', 'direct')
