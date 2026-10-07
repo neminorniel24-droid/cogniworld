@@ -22187,3 +22187,6 @@ def logic_17374(world):
 
 def logic_17375(world):
     _world_apply(world, 'ash', 'erosion', 'direct')
+
+def logic_17376(world):
+    _world_apply(world, 'ash', 'soil_depth', 'square')
