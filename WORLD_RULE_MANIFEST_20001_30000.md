@@ -3881,3 +3881,4 @@
 - 23880: integrated cross-system causal rule
 - 23881: integrated cross-system causal rule
 - 23882: integrated cross-system causal rule
+- 23883: integrated cross-system causal rule
