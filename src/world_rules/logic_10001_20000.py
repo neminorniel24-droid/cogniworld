@@ -23276,3 +23276,6 @@ def logic_17737(world):
 
 def logic_17738(world):
     _world_apply(world, 'pollinators', 'algae', 'gap')
+
+def logic_17739(world):
+    _world_apply(world, 'pollinators', 'organic_matter', 'direct')
