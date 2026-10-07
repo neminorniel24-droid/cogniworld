@@ -5918,3 +5918,6 @@ def logic_6039(agents, world):
 
 def logic_6040(agents, world):
     _agent_apply(world, agents, 'groundwater', 'group_stability', 'direct')
+
+def logic_6041(agents, world):
+    _agent_apply(world, agents, 'sediment', 'group_stability', 'direct')
