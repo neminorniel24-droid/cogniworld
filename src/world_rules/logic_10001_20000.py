@@ -20150,3 +20150,6 @@ def logic_16695(world):
 
 def logic_16696(world):
     _world_apply(world, 'co2', 'wind_x', 'square')
+
+def logic_16697(world):
+    _world_apply(world, 'co2', 'wind_y', 'saturation')
