@@ -9581,3 +9581,6 @@ def logic_7260(agents, world):
 
 def logic_7261(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'resource_competition', 'direct')
+
+def logic_7262(agents, world):
+    _agent_apply(world, agents, 'ash', 'resource_competition', 'direct')
