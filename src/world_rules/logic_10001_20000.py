@@ -13247,3 +13247,6 @@ def logic_14394(world):
 
 def logic_14395(world):
     _world_apply(world, 'vegetation', 'deadwood', 'saturation')
+
+def logic_14396(world):
+    _world_apply(world, 'vegetation', 'pollinators', 'gap')
