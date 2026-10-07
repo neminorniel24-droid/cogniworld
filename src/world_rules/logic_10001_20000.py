@@ -15800,3 +15800,6 @@ def logic_15245(world):
 
 def logic_15246(world):
     _world_apply(world, 'wetland', 'vegetation', 'direct')
+
+def logic_15247(world):
+    _world_apply(world, 'wetland', 'biomass', 'square')
