@@ -4550,3 +4550,6 @@ def logic_19495(agents, world):
 
 def logic_19496(agents, world):
     _agent_apply(world, agents, 'competition_score', 'help_score', 'saturation')
+
+def logic_19497(agents, world):
+    _agent_apply(world, agents, 'defection_score', 'help_score', 'saturation')
