@@ -16523,3 +16523,6 @@ def logic_15486(world):
 
 def logic_15487(world):
     _world_apply(world, 'groundwater', 'carbon_storage', 'square')
+
+def logic_15488(world):
+    _world_apply(world, 'groundwater', 'fire_risk', 'pulse')
