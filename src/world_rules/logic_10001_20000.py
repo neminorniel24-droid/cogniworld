@@ -15320,3 +15320,6 @@ def logic_15085(world):
 
 def logic_15086(world):
     _world_apply(world, 'habitat_stress', 'erosion', 'direct')
+
+def logic_15087(world):
+    _world_apply(world, 'habitat_stress', 'soil_depth', 'square')
