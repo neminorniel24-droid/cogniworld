@@ -263,3 +263,6 @@ def logic_10066(world):
 
 def logic_10067(world):
     _world_apply(world, 'surface_water', 'pathogen_load', 'gap')
+
+def logic_10068(world):
+    _world_apply(world, 'surface_water', 'biodiversity', 'direct')
