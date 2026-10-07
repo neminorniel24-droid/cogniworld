@@ -5534,3 +5534,6 @@ def logic_11823(world):
 
 def logic_11824(world):
     _world_apply(world, 'flowers', 'ice', 'direct')
+
+def logic_11825(world):
+    _world_apply(world, 'flowers', 'evaporation', 'pulse')
