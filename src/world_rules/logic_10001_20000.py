@@ -3800,3 +3800,6 @@ def logic_11245(world):
 
 def logic_11246(world):
     _world_apply(world, 'root_density', 'carrion', 'direct')
+
+def logic_11247(world):
+    _world_apply(world, 'root_density', 'nutrients', 'square')
