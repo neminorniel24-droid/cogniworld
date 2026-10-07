@@ -35694,3 +35694,10 @@ def logic_35477(agents, world):
     src = _local(world, agents, 'humidity')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.thermal_stress = _delta(agents.thermal_stress, delta)
+
+
+def logic_35478(agents, world):
+    """Environmental cloud shapes agent metabolic_cost (direct)."""
+    src = _local(world, agents, 'cloud')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.metabolic_cost = _delta(agents.metabolic_cost, delta)
