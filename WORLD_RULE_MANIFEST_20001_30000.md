@@ -3104,3 +3104,4 @@
 - 23103: integrated cross-system causal rule
 - 23104: integrated cross-system causal rule
 - 23105: integrated cross-system causal rule
+- 23106: integrated cross-system causal rule
