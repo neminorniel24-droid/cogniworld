@@ -38368,3 +38368,10 @@ def logic_35859(agents, world):
     src = _local(world, agents, 'oxygen')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.alertness = _delta(agents.alertness, delta)
+
+
+def logic_35860(agents, world):
+    """Environmental co2 shapes agent food_access (square)."""
+    src = _local(world, agents, 'co2')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.food_access = _delta(agents.food_access, delta)
