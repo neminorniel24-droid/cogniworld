@@ -3521,3 +3521,6 @@ def logic_19152(agents, world):
 
 def logic_19153(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'last_reward', 'square')
+
+def logic_19154(agents, world):
+    _agent_apply(world, agents, 'hydration', 'last_reward', 'square')
