@@ -19703,3 +19703,6 @@ def logic_16546(world):
 
 def logic_16547(world):
     _world_apply(world, 'carrion', 'sediment', 'gap')
+
+def logic_16548(world):
+    _world_apply(world, 'carrion', 'salinity', 'direct')
