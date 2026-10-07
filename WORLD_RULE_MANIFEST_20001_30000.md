@@ -9800,3 +9800,4 @@
 - 29799: integrated cross-system causal rule
 - 29800: integrated cross-system causal rule
 - 29801: integrated cross-system causal rule
+- 29802: integrated cross-system causal rule
