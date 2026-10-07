@@ -2016,3 +2016,4 @@
 - 22015: integrated cross-system causal rule
 - 22016: integrated cross-system causal rule
 - 22017: integrated cross-system causal rule
+- 22018: integrated cross-system causal rule
