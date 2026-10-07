@@ -5429,3 +5429,6 @@ def logic_19788(agents, world):
 
 def logic_19789(agents, world):
     _agent_apply(world, agents, 'strategy_mixing', 'thirst', 'direct')
+
+def logic_19790(agents, world):
+    _agent_apply(world, agents, 'learning_rate', 'thirst', 'direct')
