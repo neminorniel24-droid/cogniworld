@@ -242,3 +242,6 @@ def logic_4047(world):
 
 def logic_4048(world):
     _world_apply(world, 'pathogen_load', 'infection_risk', 'saturation')
+
+def logic_4049(world):
+    _world_apply(world, 'temperature', 'pathogen_load', 'reciprocal')
