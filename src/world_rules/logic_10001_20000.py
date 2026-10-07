@@ -12950,3 +12950,6 @@ def logic_14295(world):
 
 def logic_14296(world):
     _world_apply(world, 'wind_x', 'root_density', 'square')
+
+def logic_14297(world):
+    _world_apply(world, 'wind_x', 'wetland', 'saturation')
