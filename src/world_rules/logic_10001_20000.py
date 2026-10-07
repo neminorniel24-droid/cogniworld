@@ -14975,3 +14975,6 @@ def logic_14970(world):
 
 def logic_14971(world):
     _world_apply(world, 'methane', 'soil_carbon', 'square')
+
+def logic_14972(world):
+    _world_apply(world, 'methane', 'surface_ice', 'pulse')
