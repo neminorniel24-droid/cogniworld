@@ -22259,3 +22259,6 @@ def logic_17398(world):
 
 def logic_17399(world):
     _world_apply(world, 'snowpack', 'runoff', 'pulse')
+
+def logic_17400(world):
+    _world_apply(world, 'snowpack', 'wind_x', 'saturation')
