@@ -6345,3 +6345,4 @@
 - 26344: integrated cross-system causal rule
 - 26345: integrated cross-system causal rule
 - 26346: integrated cross-system causal rule
+- 26347: integrated cross-system causal rule
