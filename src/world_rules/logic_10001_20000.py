@@ -22538,3 +22538,6 @@ def logic_17491(world):
 
 def logic_17492(world):
     _world_apply(world, 'sediment', 'herbivore', 'pulse')
+
+def logic_17493(world):
+    _world_apply(world, 'sediment', 'predator', 'saturation')
