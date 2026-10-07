@@ -6272,3 +6272,6 @@ def logic_12069(world):
 
 def logic_12070(world):
     _world_apply(world, 'humidity', 'surface_water', 'pulse')
+
+def logic_12071(world):
+    _world_apply(world, 'humidity', 'cloud', 'saturation')
