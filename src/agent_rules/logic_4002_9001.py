@@ -13790,3 +13790,6 @@ def logic_8663(agents, world):
 
 def logic_8664(agents, world):
     _agent_apply(world, agents, 'runoff', 'defection_score', 'direct')
+
+def logic_8665(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'defection_score', 'direct')
