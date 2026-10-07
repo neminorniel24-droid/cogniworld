@@ -3659,3 +3659,6 @@ def logic_5286(agents, world):
 
 def logic_5287(agents, world):
     _agent_apply(world, agents, 'wetland', 'stability', 'direct')
+
+def logic_5288(agents, world):
+    _agent_apply(world, agents, 'carbon_storage', 'stability', 'direct')
