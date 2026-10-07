@@ -17417,3 +17417,6 @@ def logic_15784(world):
 
 def logic_15785(world):
     _world_apply(world, 'flowers', 'evaporation', 'pulse')
+
+def logic_15786(world):
+    _world_apply(world, 'flowers', 'detritus', 'saturation')
