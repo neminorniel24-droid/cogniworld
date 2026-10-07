@@ -7057,3 +7057,4 @@
 - 27056: integrated cross-system causal rule
 - 27057: integrated cross-system causal rule
 - 27058: integrated cross-system causal rule
+- 27059: integrated cross-system causal rule
