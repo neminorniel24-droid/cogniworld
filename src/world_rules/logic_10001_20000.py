@@ -22733,3 +22733,6 @@ def logic_17556(world):
 
 def logic_17557(world):
     _world_apply(world, 'salinity', 'ash', 'direct')
+
+def logic_17558(world):
+    _world_apply(world, 'salinity', 'snowpack', 'square')
