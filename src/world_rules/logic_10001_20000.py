@@ -19946,3 +19946,6 @@ def logic_16627(world):
 
 def logic_16628(world):
     _world_apply(world, 'decomposition_rate', 'root_density', 'direct')
+
+def logic_16629(world):
+    _world_apply(world, 'decomposition_rate', 'wetland', 'square')
