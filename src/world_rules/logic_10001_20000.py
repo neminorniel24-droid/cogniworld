@@ -2990,3 +2990,6 @@ def logic_10975(world):
 
 def logic_10976(world):
     _world_apply(world, 'methane', 'wind_x', 'square')
+
+def logic_10977(world):
+    _world_apply(world, 'methane', 'wind_y', 'saturation')
