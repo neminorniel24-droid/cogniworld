@@ -20717,3 +20717,6 @@ def logic_16884(world):
 
 def logic_16885(world):
     _world_apply(world, 'detritus', 'evaporation', 'gap')
+
+def logic_16886(world):
+    _world_apply(world, 'detritus', 'methane', 'direct')
