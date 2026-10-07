@@ -707,3 +707,6 @@ def logic_10214(world):
 
 def logic_10215(world):
     _world_apply(world, 'rain', 'deadwood', 'direct')
+
+def logic_10216(world):
+    _world_apply(world, 'rain', 'pollinators', 'square')
