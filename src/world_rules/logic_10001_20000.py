@@ -14888,3 +14888,6 @@ def logic_14941(world):
 
 def logic_14942(world):
     _world_apply(world, 'methane', 'carrion', 'saturation')
+
+def logic_14943(world):
+    _world_apply(world, 'methane', 'nutrients', 'gap')
