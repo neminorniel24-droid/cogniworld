@@ -7358,3 +7358,6 @@ def logic_12431(world):
 
 def logic_12432(world):
     _world_apply(world, 'biomass', 'predator', 'gap')
+
+def logic_12433(world):
+    _world_apply(world, 'biomass', 'carrion', 'square')
