@@ -17900,3 +17900,6 @@ def logic_15945(world):
 
 def logic_15946(world):
     _world_apply(world, 'temperature', 'runoff', 'saturation')
+
+def logic_15947(world):
+    _world_apply(world, 'temperature', 'wind_x', 'gap')
