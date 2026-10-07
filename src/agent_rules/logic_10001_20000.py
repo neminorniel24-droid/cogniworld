@@ -77,3 +77,6 @@ def logic_18004(agents, world):
 
 def logic_18005(agents, world):
     _agent_apply(world, agents, 'rain', 'hydration', 'direct')
+
+def logic_18006(agents, world):
+    _agent_apply(world, agents, 'soil_moisture', 'hydration', 'direct')
