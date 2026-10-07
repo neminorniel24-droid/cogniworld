@@ -3701,3 +3701,6 @@ def logic_5300(agents, world):
 
 def logic_5301(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'stability', 'direct')
+
+def logic_5302(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'stability', 'direct')
