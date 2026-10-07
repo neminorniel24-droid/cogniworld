@@ -5504,3 +5504,6 @@ def logic_11813(world):
 
 def logic_11814(world):
     _world_apply(world, 'flowers', 'vegetation', 'gap')
+
+def logic_11815(world):
+    _world_apply(world, 'flowers', 'biomass', 'direct')
