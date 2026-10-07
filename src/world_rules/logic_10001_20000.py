@@ -15986,3 +15986,6 @@ def logic_15307(world):
 
 def logic_15308(world):
     _world_apply(world, 'carbon_storage', 'soil_depth', 'direct')
+
+def logic_15309(world):
+    _world_apply(world, 'carbon_storage', 'root_density', 'square')
