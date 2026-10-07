@@ -428,3 +428,6 @@ def logic_18121(agents, world):
 
 def logic_18122(agents, world):
     _agent_apply(world, agents, 'foraging_score', 'pathogen_risk', 'inverse')
+
+def logic_18123(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'pathogen_risk', 'inverse')
