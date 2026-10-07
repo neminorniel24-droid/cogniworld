@@ -4007,3 +4007,6 @@ def logic_19314(agents, world):
 
 def logic_19315(agents, world):
     _agent_apply(world, agents, 'defection', 'competition_score', 'pulse')
+
+def logic_19316(agents, world):
+    _agent_apply(world, agents, 'aggression', 'competition_score', 'pulse')
