@@ -5501,3 +5501,6 @@ def logic_5900(agents, world):
 
 def logic_5901(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'competition_pressure', 'direct')
+
+def logic_5902(agents, world):
+    _agent_apply(world, agents, 'ash', 'competition_pressure', 'direct')
