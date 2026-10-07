@@ -63792,3 +63792,10 @@ def logic_39491(agents, world):
     src = _local(world, agents, 'nutrients')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.defection_score = _delta(agents.defection_score, delta)
+
+
+def logic_39492(agents, world):
+    """Environmental decomposition_rate shapes agent fitness_score (square)."""
+    src = _local(world, agents, 'decomposition_rate')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.fitness_score = _delta(agents.fitness_score, delta)
