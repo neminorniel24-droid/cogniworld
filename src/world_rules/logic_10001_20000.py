@@ -7850,3 +7850,6 @@ def logic_12595(world):
 
 def logic_12596(world):
     _world_apply(world, 'carrion', 'surface_ice', 'gap')
+
+def logic_12597(world):
+    _world_apply(world, 'nutrients', 'temperature', 'direct')
