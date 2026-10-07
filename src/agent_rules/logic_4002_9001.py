@@ -6626,3 +6626,6 @@ def logic_6275(agents, world):
 
 def logic_6276(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'social_avoidance', 'direct')
+
+def logic_6277(agents, world):
+    _agent_apply(world, agents, 'payoff', 'social_avoidance', 'direct')
