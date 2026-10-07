@@ -5084,3 +5084,6 @@ def logic_19673(agents, world):
 
 def logic_19674(agents, world):
     _agent_apply(world, agents, 'co2', 'learning_rate', 'gap')
+
+def logic_19675(agents, world):
+    _agent_apply(world, agents, 'photosynthesis_factor', 'learning_rate', 'gap')
