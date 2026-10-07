@@ -2294,3 +2294,6 @@ def logic_18743(agents, world):
 
 def logic_18744(agents, world):
     _agent_apply(world, agents, 'thermal_stress', 'strategy_confidence', 'gap')
+
+def logic_18745(agents, world):
+    _agent_apply(world, agents, 'dehydration', 'strategy_confidence', 'gap')
