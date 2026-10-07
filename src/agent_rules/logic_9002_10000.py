@@ -1992,3 +1992,6 @@ def logic_9838(agents, world):
 
 def logic_9839(agents, world):
     _agent_apply(world, agents, 'erosion', 'fear', 'direct')
+
+def logic_9840(agents, world):
+    _agent_apply(world, agents, 'soil_depth', 'fear', 'direct')
