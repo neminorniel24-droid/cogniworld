@@ -2630,3 +2630,6 @@ def logic_4943(agents, world):
 
 def logic_4944(agents, world):
     _agent_apply(world, agents, 'erosion', 'reproduction_drive', 'direct')
+
+def logic_4945(agents, world):
+    _agent_apply(world, agents, 'soil_depth', 'reproduction_drive', 'direct')
