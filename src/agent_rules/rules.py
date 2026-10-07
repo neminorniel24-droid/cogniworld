@@ -26524,3 +26524,10 @@ def logic_34167(agents, world):
     src = _local(world, agents, 'erosion')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.thirst = _delta(agents.thirst, delta)
+
+
+def logic_34168(agents, world):
+    """Environmental soil_depth shapes agent alertness (square)."""
+    src = _local(world, agents, 'soil_depth')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.alertness = _delta(agents.alertness, delta)
