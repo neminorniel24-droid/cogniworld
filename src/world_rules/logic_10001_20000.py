@@ -6494,3 +6494,6 @@ def logic_12143(world):
 
 def logic_12144(world):
     _world_apply(world, 'cloud', 'ash', 'direct')
+
+def logic_12145(world):
+    _world_apply(world, 'cloud', 'snowpack', 'pulse')
