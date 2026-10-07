@@ -3359,3 +3359,6 @@ def logic_19098(agents, world):
 
 def logic_19099(agents, world):
     _agent_apply(world, agents, 'strategy_mixing', 'help_received', 'square')
+
+def logic_19100(agents, world):
+    _agent_apply(world, agents, 'learning_rate', 'help_received', 'square')
