@@ -2486,3 +2486,6 @@ def logic_4895(agents, world):
 
 def logic_4896(agents, world):
     _agent_apply(world, agents, 'resource_abundance', 'metabolic_cost', 'direct')
+
+def logic_4897(agents, world):
+    _agent_apply(world, agents, 'energy_surplus', 'metabolic_cost', 'direct')
