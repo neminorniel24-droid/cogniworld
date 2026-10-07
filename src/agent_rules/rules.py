@@ -62714,3 +62714,10 @@ def logic_39337(agents, world):
     src = _local(world, agents, 'surface_ice')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.local_density = _delta(agents.local_density, delta)
+
+
+def logic_39338(agents, world):
+    """Environmental temperature shapes agent strategy_score (direct)."""
+    src = _local(world, agents, 'temperature')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.strategy_score = _delta(agents.strategy_score, delta)
