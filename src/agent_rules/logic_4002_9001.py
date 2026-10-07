@@ -4025,3 +4025,6 @@ def logic_5408(agents, world):
 
 def logic_5409(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'social_tolerance', 'direct')
+
+def logic_5410(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'social_tolerance', 'direct')
