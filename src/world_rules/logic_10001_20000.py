@@ -17660,3 +17660,6 @@ def logic_15865(world):
 
 def logic_15866(world):
     _world_apply(world, 'soil_carbon', 'carrion', 'saturation')
+
+def logic_15867(world):
+    _world_apply(world, 'soil_carbon', 'nutrients', 'gap')
