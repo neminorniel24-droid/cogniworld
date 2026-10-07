@@ -8687,3 +8687,6 @@ def logic_12874(world):
 
 def logic_12875(world):
     _world_apply(world, 'evaporation', 'nutrients', 'saturation')
+
+def logic_12876(world):
+    _world_apply(world, 'evaporation', 'decomposition_rate', 'gap')
