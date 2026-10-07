@@ -8492,3 +8492,6 @@ def logic_6897(agents, world):
 
 def logic_6898(agents, world):
     _agent_apply(world, agents, 'wind_y', 'attack_threshold', 'direct')
+
+def logic_6899(agents, world):
+    _agent_apply(world, agents, 'vegetation', 'attack_threshold', 'direct')
