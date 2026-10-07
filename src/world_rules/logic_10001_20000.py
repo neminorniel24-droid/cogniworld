@@ -17582,3 +17582,6 @@ def logic_15839(world):
 
 def logic_15840(world):
     _world_apply(world, 'seed_bank', 'fire_risk', 'saturation')
+
+def logic_15841(world):
+    _world_apply(world, 'seed_bank', 'ash', 'direct')
