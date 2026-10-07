@@ -1524,3 +1524,4 @@
 - 21523: integrated cross-system causal rule
 - 21524: integrated cross-system causal rule
 - 21525: integrated cross-system causal rule
+- 21526: integrated cross-system causal rule
