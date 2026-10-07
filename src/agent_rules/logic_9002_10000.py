@@ -2325,3 +2325,6 @@ def logic_9949(agents, world):
 
 def logic_9950(agents, world):
     _agent_apply(world, agents, 'surface_water', 'metabolic_cost', 'direct')
+
+def logic_9951(agents, world):
+    _agent_apply(world, agents, 'humidity', 'metabolic_cost', 'direct')
