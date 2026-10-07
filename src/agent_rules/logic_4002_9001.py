@@ -5849,3 +5849,6 @@ def logic_6016(agents, world):
 
 def logic_6017(agents, world):
     _agent_apply(world, agents, 'herbivore', 'group_stability', 'direct')
+
+def logic_6018(agents, world):
+    _agent_apply(world, agents, 'predator', 'group_stability', 'direct')
