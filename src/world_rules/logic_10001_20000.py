@@ -1253,3 +1253,6 @@ def logic_10396(world):
 
 def logic_10397(world):
     _world_apply(world, 'vegetation', 'temperature', 'direct')
+
+def logic_10398(world):
+    _world_apply(world, 'vegetation', 'surface_water', 'square')
