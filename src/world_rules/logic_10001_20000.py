@@ -18710,3 +18710,6 @@ def logic_16215(world):
 
 def logic_16216(world):
     _world_apply(world, 'runoff', 'predator', 'square')
+
+def logic_16217(world):
+    _world_apply(world, 'runoff', 'carrion', 'saturation')
