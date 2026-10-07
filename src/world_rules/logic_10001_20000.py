@@ -16385,3 +16385,6 @@ def logic_15440(world):
 
 def logic_15441(world):
     _world_apply(world, 'snowpack', 'root_density', 'direct')
+
+def logic_15442(world):
+    _world_apply(world, 'snowpack', 'wetland', 'square')
