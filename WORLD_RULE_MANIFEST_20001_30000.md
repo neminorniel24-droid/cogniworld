@@ -5730,3 +5730,4 @@
 - 25729: integrated cross-system causal rule
 - 25730: integrated cross-system causal rule
 - 25731: integrated cross-system causal rule
+- 25732: integrated cross-system causal rule
