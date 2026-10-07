@@ -50352,3 +50352,10 @@ def logic_37571(agents, world):
     src = _local(world, agents, 'erosion')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.competition_score = _delta(agents.competition_score, delta)
+
+
+def logic_37572(agents, world):
+    """Environmental soil_depth shapes agent survival_score (square)."""
+    src = _local(world, agents, 'soil_depth')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.survival_score = _delta(agents.survival_score, delta)
