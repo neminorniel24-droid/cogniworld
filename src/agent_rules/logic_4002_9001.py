@@ -8660,3 +8660,6 @@ def logic_6953(agents, world):
 
 def logic_6954(agents, world):
     _agent_apply(world, agents, 'strategy_score', 'attack_threshold', 'direct')
+
+def logic_6955(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'attack_threshold', 'direct')
