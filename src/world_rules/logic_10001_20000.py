@@ -7577,3 +7577,6 @@ def logic_12504(world):
 
 def logic_12505(world):
     _world_apply(world, 'herbivore', 'flowers', 'pulse')
+
+def logic_12506(world):
+    _world_apply(world, 'herbivore', 'seed_bank', 'saturation')
