@@ -26034,3 +26034,10 @@ def logic_34097(agents, world):
     src = _local(world, agents, 'humidity')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.fire_fear = _delta(agents.fire_fear, delta)
+
+
+def logic_34098(agents, world):
+    """Environmental cloud shapes agent betrayal_memory (direct)."""
+    src = _local(world, agents, 'cloud')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.betrayal_memory = _delta(agents.betrayal_memory, delta)
