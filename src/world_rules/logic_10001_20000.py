@@ -13724,3 +13724,6 @@ def logic_14553(world):
 
 def logic_14554(world):
     _world_apply(world, 'carrion', 'methane', 'pulse')
+
+def logic_14555(world):
+    _world_apply(world, 'carrion', 'pathogen_load', 'saturation')
