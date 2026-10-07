@@ -44696,3 +44696,10 @@ def logic_36763(agents, world):
     src = _local(world, agents, 'temperature_target')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.stability = _delta(agents.stability, delta)
+
+
+def logic_36764(agents, world):
+    """Environmental surface_water shapes agent aggression (square)."""
+    src = _local(world, agents, 'surface_water')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.aggression = _delta(agents.aggression, delta)
