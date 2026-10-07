@@ -19712,3 +19712,6 @@ def logic_16549(world):
 
 def logic_16550(world):
     _world_apply(world, 'carrion', 'organic_matter', 'pulse')
+
+def logic_16551(world):
+    _world_apply(world, 'carrion', 'deadwood', 'saturation')
