@@ -1352,3 +1352,6 @@ def logic_18429(agents, world):
 
 def logic_18430(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'trust', 'pulse')
+
+def logic_18431(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'trust', 'pulse')
