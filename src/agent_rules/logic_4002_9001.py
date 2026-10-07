@@ -6230,3 +6230,6 @@ def logic_6143(agents, world):
 
 def logic_6144(agents, world):
     _agent_apply(world, agents, 'humidity', 'help_drive', 'direct')
+
+def logic_6145(agents, world):
+    _agent_apply(world, agents, 'cloud', 'help_drive', 'direct')
