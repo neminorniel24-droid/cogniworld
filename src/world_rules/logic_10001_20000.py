@@ -13901,3 +13901,6 @@ def logic_14612(world):
 
 def logic_14613(world):
     _world_apply(world, 'nutrients', 'algae', 'saturation')
+
+def logic_14614(world):
+    _world_apply(world, 'nutrients', 'organic_matter', 'gap')
