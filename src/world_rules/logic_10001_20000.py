@@ -16283,3 +16283,6 @@ def logic_15406(world):
 
 def logic_15407(world):
     _world_apply(world, 'ash', 'deadwood', 'square')
+
+def logic_15408(world):
+    _world_apply(world, 'ash', 'pollinators', 'pulse')
