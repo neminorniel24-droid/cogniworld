@@ -19964,3 +19964,6 @@ def logic_16633(world):
 
 def logic_16634(world):
     _world_apply(world, 'decomposition_rate', 'groundwater', 'pulse')
+
+def logic_16635(world):
+    _world_apply(world, 'decomposition_rate', 'sediment', 'saturation')
