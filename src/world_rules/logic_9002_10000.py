@@ -258,3 +258,6 @@ def logic_9061(world):
 
 def logic_9062(world):
     _world_apply(world, 'temperature', 'surface_water', 'pulse')
+
+def logic_9063(world):
+    _world_apply(world, 'temperature', 'humidity', 'threshold')
