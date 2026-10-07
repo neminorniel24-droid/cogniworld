@@ -21392,3 +21392,6 @@ def logic_17109(world):
 
 def logic_17110(world):
     _world_apply(world, 'erosion', 'habitat_stress', 'pulse')
+
+def logic_17111(world):
+    _world_apply(world, 'erosion', 'soil_depth', 'saturation')
