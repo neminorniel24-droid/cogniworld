@@ -3911,3 +3911,6 @@ def logic_11282(world):
 
 def logic_11283(world):
     _world_apply(world, 'wetland', 'runoff', 'pulse')
+
+def logic_11284(world):
+    _world_apply(world, 'wetland', 'wind_x', 'saturation')
