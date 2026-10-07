@@ -31760,3 +31760,10 @@ def logic_34915(agents, world):
     src = _local(world, agents, 'organic_matter')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.help_score = _delta(agents.help_score, delta)
+
+
+def logic_34916(agents, world):
+    """Environmental deadwood shapes agent strategy_persistence (square)."""
+    src = _local(world, agents, 'deadwood')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.strategy_persistence = _delta(agents.strategy_persistence, delta)
