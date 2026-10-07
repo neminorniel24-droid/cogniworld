@@ -2475,3 +2475,4 @@
 - 22474: integrated cross-system causal rule
 - 22475: integrated cross-system causal rule
 - 22476: integrated cross-system causal rule
+- 22477: integrated cross-system causal rule
