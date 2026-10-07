@@ -7892,3 +7892,6 @@ def logic_6697(agents, world):
 
 def logic_6698(agents, world):
     _agent_apply(world, agents, 'predator', 'future_help', 'direct')
+
+def logic_6699(agents, world):
+    _agent_apply(world, agents, 'carrion', 'future_help', 'direct')
