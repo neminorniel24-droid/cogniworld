@@ -5180,3 +5180,6 @@ def logic_19705(agents, world):
 
 def logic_19706(agents, world):
     _agent_apply(world, agents, 'hydration', 'future_payoff_weight', 'feedback')
+
+def logic_19707(agents, world):
+    _agent_apply(world, agents, 'thirst', 'future_payoff_weight', 'feedback')
