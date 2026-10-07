@@ -4073,3 +4073,6 @@ def logic_19336(agents, world):
 
 def logic_19337(agents, world):
     _agent_apply(world, agents, 'fire_fear', 'defection_score', 'threshold')
+
+def logic_19338(agents, world):
+    _agent_apply(world, agents, 'resource_competition', 'defection_score', 'threshold')
