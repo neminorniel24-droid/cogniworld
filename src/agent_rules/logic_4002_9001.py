@@ -13916,3 +13916,6 @@ def logic_8705(agents, world):
 
 def logic_8706(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'defection_score', 'direct')
+
+def logic_8707(agents, world):
+    _agent_apply(world, agents, 'hydration', 'defection_score', 'direct')
