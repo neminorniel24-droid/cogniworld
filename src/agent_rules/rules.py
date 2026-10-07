@@ -31725,3 +31725,10 @@ def logic_34910(agents, world):
     src = _local(world, agents, 'snowpack')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.empathy = _delta(agents.empathy, delta)
+
+
+def logic_34911(agents, world):
+    """Environmental groundwater shapes agent vegetation_expectation (inverse)."""
+    src = _local(world, agents, 'groundwater')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.vegetation_expectation = _delta(agents.vegetation_expectation, delta)
