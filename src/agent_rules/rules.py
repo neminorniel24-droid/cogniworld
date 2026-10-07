@@ -46005,3 +46005,10 @@ def logic_36950(agents, world):
     src = _local(world, agents, 'cloud')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.reproduction_score = _delta(agents.reproduction_score, delta)
+
+
+def logic_36951(agents, world):
+    """Environmental rain shapes agent self_preservation (inverse)."""
+    src = _local(world, agents, 'rain')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.self_preservation = _delta(agents.self_preservation, delta)
