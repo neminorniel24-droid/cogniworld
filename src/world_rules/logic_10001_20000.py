@@ -23090,3 +23090,6 @@ def logic_17675(world):
 
 def logic_17676(world):
     _world_apply(world, 'deadwood', 'ice', 'gap')
+
+def logic_17677(world):
+    _world_apply(world, 'deadwood', 'evaporation', 'direct')
