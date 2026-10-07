@@ -2750,3 +2750,6 @@ def logic_4983(agents, world):
 
 def logic_4984(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'reproduction_drive', 'direct')
+
+def logic_4985(agents, world):
+    _agent_apply(world, agents, 'payoff', 'reproduction_drive', 'direct')
