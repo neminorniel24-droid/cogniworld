@@ -22268,3 +22268,6 @@ def logic_17401(world):
 
 def logic_17402(world):
     _world_apply(world, 'snowpack', 'vegetation', 'square')
+
+def logic_17403(world):
+    _world_apply(world, 'snowpack', 'biomass', 'pulse')
