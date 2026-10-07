@@ -4157,3 +4157,6 @@ def logic_11364(world):
 
 def logic_11365(world):
     _world_apply(world, 'fire_risk', 'temperature', 'gap')
+
+def logic_11366(world):
+    _world_apply(world, 'fire_risk', 'surface_water', 'direct')
