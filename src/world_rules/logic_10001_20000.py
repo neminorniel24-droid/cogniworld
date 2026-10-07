@@ -6227,3 +6227,6 @@ def logic_12054(world):
 
 def logic_12055(world):
     _world_apply(world, 'surface_water', 'fire_risk', 'direct')
+
+def logic_12056(world):
+    _world_apply(world, 'surface_water', 'ash', 'square')
