@@ -1841,3 +1841,6 @@ def logic_10592(world):
 
 def logic_10593(world):
     _world_apply(world, 'carrion', 'detritus', 'square')
+
+def logic_10594(world):
+    _world_apply(world, 'carrion', 'methane', 'pulse')
