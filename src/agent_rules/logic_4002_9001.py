@@ -12209,3 +12209,6 @@ def logic_8136(agents, world):
 
 def logic_8137(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'last_energy_delta', 'direct')
+
+def logic_8138(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'last_energy_delta', 'direct')
