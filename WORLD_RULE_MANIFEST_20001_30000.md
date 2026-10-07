@@ -60,3 +60,4 @@
 - 20059: integrated cross-system causal rule
 - 20060: integrated cross-system causal rule
 - 20061: integrated cross-system causal rule
+- 20062: integrated cross-system causal rule
