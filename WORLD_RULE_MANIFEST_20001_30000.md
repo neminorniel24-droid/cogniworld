@@ -30,3 +30,4 @@
 - 20029: integrated cross-system causal rule
 - 20030: integrated cross-system causal rule
 - 20031: integrated cross-system causal rule
+- 20032: integrated cross-system causal rule
