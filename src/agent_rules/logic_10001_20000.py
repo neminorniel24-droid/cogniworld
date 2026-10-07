@@ -5147,3 +5147,6 @@ def logic_19694(agents, world):
 
 def logic_19695(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'memory_update', 'feedback')
+
+def logic_19696(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'memory_update', 'feedback')
