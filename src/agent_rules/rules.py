@@ -38802,3 +38802,10 @@ def logic_35921(agents, world):
     src = _local(world, agents, 'ash')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.future_payoff_weight = _delta(agents.future_payoff_weight, delta)
+
+
+def logic_35922(agents, world):
+    """Environmental snowpack shapes agent thermal_stress (direct)."""
+    src = _local(world, agents, 'snowpack')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.thermal_stress = _delta(agents.thermal_stress, delta)
