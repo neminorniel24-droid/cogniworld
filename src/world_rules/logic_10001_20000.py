@@ -9683,3 +9683,6 @@ def logic_13206(world):
 
 def logic_13207(world):
     _world_apply(world, 'soil_depth', 'deadwood', 'square')
+
+def logic_13208(world):
+    _world_apply(world, 'soil_depth', 'pollinators', 'pulse')
