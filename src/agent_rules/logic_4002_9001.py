@@ -857,3 +857,6 @@ def logic_4352(agents, world):
 
 def logic_4353(agents, world):
     _agent_apply(world, agents, 'energy_surplus', 'health', 'direct')
+
+def logic_4354(agents, world):
+    _agent_apply(world, agents, 'ticks_since_food', 'health', 'direct')
