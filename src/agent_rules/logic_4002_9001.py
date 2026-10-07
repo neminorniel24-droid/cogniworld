@@ -9140,3 +9140,6 @@ def logic_7113(agents, world):
 
 def logic_7114(agents, world):
     _agent_apply(world, agents, 'evaporation', 'shelter_need', 'direct')
+
+def logic_7115(agents, world):
+    _agent_apply(world, agents, 'detritus', 'shelter_need', 'direct')
