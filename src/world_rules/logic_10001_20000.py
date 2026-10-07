@@ -8282,3 +8282,6 @@ def logic_12739(world):
 
 def logic_12740(world):
     _world_apply(world, 'co2', 'herbivore', 'square')
+
+def logic_12741(world):
+    _world_apply(world, 'co2', 'predator', 'pulse')
