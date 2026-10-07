@@ -21704,3 +21704,6 @@ def logic_17213(world):
 
 def logic_17214(world):
     _world_apply(world, 'root_density', 'seed_bank', 'gap')
+
+def logic_17215(world):
+    _world_apply(world, 'root_density', 'soil_carbon', 'direct')
