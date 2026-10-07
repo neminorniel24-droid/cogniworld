@@ -4496,3 +4496,6 @@ def logic_11477(world):
 
 def logic_11478(world):
     _world_apply(world, 'snowpack', 'habitat_stress', 'square')
+
+def logic_11479(world):
+    _world_apply(world, 'snowpack', 'erosion', 'pulse')
