@@ -20078,3 +20078,6 @@ def logic_16671(world):
 
 def logic_16672(world):
     _world_apply(world, 'oxygen', 'root_density', 'gap')
+
+def logic_16673(world):
+    _world_apply(world, 'oxygen', 'wetland', 'square')
