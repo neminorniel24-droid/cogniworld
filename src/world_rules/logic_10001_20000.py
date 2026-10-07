@@ -8717,3 +8717,6 @@ def logic_12884(world):
 
 def logic_12885(world):
     _world_apply(world, 'evaporation', 'habitat_stress', 'gap')
+
+def logic_12886(world):
+    _world_apply(world, 'evaporation', 'erosion', 'direct')
