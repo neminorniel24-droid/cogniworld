@@ -18383,3 +18383,6 @@ def logic_16106(world):
 
 def logic_16107(world):
     _world_apply(world, 'cloud', 'sediment', 'gap')
+
+def logic_16108(world):
+    _world_apply(world, 'cloud', 'salinity', 'direct')
