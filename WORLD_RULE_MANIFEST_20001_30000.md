@@ -7205,3 +7205,4 @@
 - 27204: integrated cross-system causal rule
 - 27205: integrated cross-system causal rule
 - 27206: integrated cross-system causal rule
+- 27207: integrated cross-system causal rule
