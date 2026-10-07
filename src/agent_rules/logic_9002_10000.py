@@ -2277,3 +2277,6 @@ def logic_9933(agents, world):
 
 def logic_9934(agents, world):
     _agent_apply(world, agents, 'stress', 'recovery', 'direct')
+
+def logic_9935(agents, world):
+    _agent_apply(world, agents, 'risk_tolerance', 'recovery', 'direct')
