@@ -6788,3 +6788,6 @@ def logic_6329(agents, world):
 
 def logic_6330(agents, world):
     _agent_apply(world, agents, 'health', 'selfishness', 'direct')
+
+def logic_6331(agents, world):
+    _agent_apply(world, agents, 'stress', 'selfishness', 'direct')
