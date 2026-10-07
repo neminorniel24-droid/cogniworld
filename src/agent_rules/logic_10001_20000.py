@@ -5432,3 +5432,6 @@ def logic_19789(agents, world):
 
 def logic_19790(agents, world):
     _agent_apply(world, agents, 'learning_rate', 'thirst', 'direct')
+
+def logic_19791(agents, world):
+    _agent_apply(world, agents, 'memory_update', 'thirst', 'direct')
