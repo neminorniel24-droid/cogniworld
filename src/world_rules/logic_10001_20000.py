@@ -2252,3 +2252,6 @@ def logic_10729(world):
 
 def logic_10730(world):
     _world_apply(world, 'oxygen', 'erosion', 'direct')
+
+def logic_10731(world):
+    _world_apply(world, 'oxygen', 'soil_depth', 'square')
