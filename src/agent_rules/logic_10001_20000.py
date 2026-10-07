@@ -5813,3 +5813,6 @@ def logic_19916(agents, world):
 
 def logic_19917(agents, world):
     _agent_apply(world, agents, 'survival_score', 'alertness', 'inverse')
+
+def logic_19918(agents, world):
+    _agent_apply(world, agents, 'fitness_score', 'alertness', 'inverse')
