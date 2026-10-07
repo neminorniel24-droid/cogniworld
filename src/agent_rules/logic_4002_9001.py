@@ -12137,3 +12137,6 @@ def logic_8112(agents, world):
 
 def logic_8113(agents, world):
     _agent_apply(world, agents, 'payoff', 'last_reward', 'direct')
+
+def logic_8114(agents, world):
+    _agent_apply(world, agents, 'temperature', 'last_energy_delta', 'direct')
