@@ -19133,3 +19133,6 @@ def logic_16356(world):
 
 def logic_16357(world):
     _world_apply(world, 'vegetation', 'detritus', 'direct')
+
+def logic_16358(world):
+    _world_apply(world, 'vegetation', 'methane', 'square')
