@@ -13052,3 +13052,6 @@ def logic_8417(agents, world):
 
 def logic_8418(agents, world):
     _agent_apply(world, agents, 'ash', 'last_action', 'direct')
+
+def logic_8419(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'last_action', 'direct')
