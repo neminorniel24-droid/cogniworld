@@ -1163,3 +1163,6 @@ def logic_18366(agents, world):
 
 def logic_18367(agents, world):
     _agent_apply(world, agents, 'attack_threshold', 'habitat_stress', 'pulse')
+
+def logic_18368(agents, world):
+    _agent_apply(world, agents, 'defection_threshold', 'habitat_stress', 'pulse')
