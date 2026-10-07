@@ -14666,3 +14666,6 @@ def logic_8955(agents, world):
 
 def logic_8956(agents, world):
     _agent_apply(world, agents, 'erosion', 'exploration_score', 'direct')
+
+def logic_8957(agents, world):
+    _agent_apply(world, agents, 'soil_depth', 'exploration_score', 'direct')
