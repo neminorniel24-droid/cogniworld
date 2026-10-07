@@ -4694,3 +4694,6 @@ def logic_11543(world):
 
 def logic_11544(world):
     _world_apply(world, 'sediment', 'cloud', 'direct')
+
+def logic_11545(world):
+    _world_apply(world, 'sediment', 'rain', 'pulse')
