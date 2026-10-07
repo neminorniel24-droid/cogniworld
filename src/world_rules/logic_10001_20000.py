@@ -8090,3 +8090,6 @@ def logic_12675(world):
 
 def logic_12676(world):
     _world_apply(world, 'decomposition_rate', 'salinity', 'gap')
+
+def logic_12677(world):
+    _world_apply(world, 'decomposition_rate', 'algae', 'direct')
