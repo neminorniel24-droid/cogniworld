@@ -1427,3 +1427,6 @@ def logic_10454(world):
 
 def logic_10455(world):
     _world_apply(world, 'biomass', 'decomposition_rate', 'direct')
+
+def logic_10456(world):
+    _world_apply(world, 'biomass', 'oxygen', 'square')
