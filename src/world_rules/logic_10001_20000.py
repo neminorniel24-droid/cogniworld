@@ -2120,3 +2120,6 @@ def logic_10685(world):
 
 def logic_10686(world):
     _world_apply(world, 'decomposition_rate', 'erosion', 'direct')
+
+def logic_10687(world):
+    _world_apply(world, 'decomposition_rate', 'soil_depth', 'square')
