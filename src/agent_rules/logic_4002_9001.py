@@ -11801,3 +11801,6 @@ def logic_8000(agents, world):
 
 def logic_8001(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'local_density', 'direct')
+
+def logic_8002(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'local_density', 'direct')
