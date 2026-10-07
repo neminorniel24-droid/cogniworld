@@ -36625,3 +36625,10 @@ def logic_35610(agents, world):
     src = _local(world, agents, 'soil_carbon')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.fire_fear = _delta(agents.fire_fear, delta)
+
+
+def logic_35611(agents, world):
+    """Environmental surface_ice shapes agent betrayal_memory (inverse)."""
+    src = _local(world, agents, 'surface_ice')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.betrayal_memory = _delta(agents.betrayal_memory, delta)
