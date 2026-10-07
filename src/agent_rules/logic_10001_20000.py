@@ -4853,3 +4853,6 @@ def logic_19596(agents, world):
 
 def logic_19597(agents, world):
     _agent_apply(world, agents, 'sharing_capacity', 'reproduction_score', 'reciprocal')
+
+def logic_19598(agents, world):
+    _agent_apply(world, agents, 'help_drive', 'sharing_score', 'reciprocal')
