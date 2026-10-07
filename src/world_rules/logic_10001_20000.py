@@ -3788,3 +3788,6 @@ def logic_11241(world):
 
 def logic_11242(world):
     _world_apply(world, 'root_density', 'vegetation', 'square')
+
+def logic_11243(world):
+    _world_apply(world, 'root_density', 'biomass', 'pulse')
