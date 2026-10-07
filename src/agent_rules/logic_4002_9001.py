@@ -11264,3 +11264,6 @@ def logic_7821(agents, world):
 
 def logic_7822(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'cooperation_history', 'direct')
+
+def logic_7823(agents, world):
+    _agent_apply(world, agents, 'hydration', 'cooperation_history', 'direct')
