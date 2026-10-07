@@ -23210,3 +23210,6 @@ def logic_17715(world):
 
 def logic_17716(world):
     _world_apply(world, 'pollinators', 'decomposition_rate', 'gap')
+
+def logic_17717(world):
+    _world_apply(world, 'pollinators', 'oxygen', 'direct')
