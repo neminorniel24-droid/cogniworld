@@ -8051,3 +8051,6 @@ def logic_12662(world):
 
 def logic_12663(world):
     _world_apply(world, 'decomposition_rate', 'pathogen_load', 'gap')
+
+def logic_12664(world):
+    _world_apply(world, 'decomposition_rate', 'biodiversity', 'direct')
