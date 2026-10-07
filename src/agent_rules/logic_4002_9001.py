@@ -8468,3 +8468,6 @@ def logic_6889(agents, world):
 
 def logic_6890(agents, world):
     _agent_apply(world, agents, 'temperature', 'attack_threshold', 'direct')
+
+def logic_6891(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'attack_threshold', 'direct')
