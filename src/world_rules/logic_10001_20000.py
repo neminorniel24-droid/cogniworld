@@ -7160,3 +7160,6 @@ def logic_12365(world):
 
 def logic_12366(world):
     _world_apply(world, 'wind_y', 'groundwater', 'direct')
+
+def logic_12367(world):
+    _world_apply(world, 'wind_y', 'sediment', 'square')
