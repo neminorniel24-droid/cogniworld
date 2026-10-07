@@ -6422,3 +6422,6 @@ def logic_6207(agents, world):
 
 def logic_6208(agents, world):
     _agent_apply(world, agents, 'fitness_score', 'help_drive', 'direct')
+
+def logic_6209(agents, world):
+    _agent_apply(world, agents, 'payoff', 'help_drive', 'direct')
