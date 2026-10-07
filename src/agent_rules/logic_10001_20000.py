@@ -2312,3 +2312,6 @@ def logic_18749(agents, world):
 
 def logic_18750(agents, world):
     _agent_apply(world, agents, 'recovery', 'strategy_confidence', 'gap')
+
+def logic_18751(agents, world):
+    _agent_apply(world, agents, 'metabolic_cost', 'future_help', 'gap')
