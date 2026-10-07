@@ -10865,3 +10865,6 @@ def logic_13600(world):
 
 def logic_13601(world):
     _world_apply(world, 'salinity', 'algae', 'direct')
+
+def logic_13602(world):
+    _world_apply(world, 'salinity', 'organic_matter', 'square')
