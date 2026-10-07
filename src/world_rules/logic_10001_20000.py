@@ -19649,3 +19649,6 @@ def logic_16528(world):
 
 def logic_16529(world):
     _world_apply(world, 'carrion', 'co2', 'gap')
+
+def logic_16530(world):
+    _world_apply(world, 'carrion', 'photosynthesis_factor', 'direct')
