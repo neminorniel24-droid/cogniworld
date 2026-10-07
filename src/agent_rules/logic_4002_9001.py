@@ -6356,3 +6356,6 @@ def logic_6185(agents, world):
 
 def logic_6186(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'help_drive', 'direct')
+
+def logic_6187(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'help_drive', 'direct')
