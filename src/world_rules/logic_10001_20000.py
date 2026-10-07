@@ -9473,3 +9473,6 @@ def logic_13136(world):
 
 def logic_13137(world):
     _world_apply(world, 'erosion', 'predator', 'saturation')
+
+def logic_13138(world):
+    _world_apply(world, 'erosion', 'carrion', 'gap')
