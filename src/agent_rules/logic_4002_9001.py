@@ -11066,3 +11066,6 @@ def logic_7755(agents, world):
 
 def logic_7756(agents, world):
     _agent_apply(world, agents, 'thirst', 'conflict_history', 'direct')
+
+def logic_7757(agents, world):
+    _agent_apply(world, agents, 'hunger', 'conflict_history', 'direct')
