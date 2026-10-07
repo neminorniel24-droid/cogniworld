@@ -21356,3 +21356,6 @@ def logic_17097(world):
 
 def logic_17098(world):
     _world_apply(world, 'erosion', 'carrion', 'gap')
+
+def logic_17099(world):
+    _world_apply(world, 'erosion', 'nutrients', 'direct')
