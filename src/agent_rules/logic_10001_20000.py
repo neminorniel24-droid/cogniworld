@@ -2261,3 +2261,6 @@ def logic_18732(agents, world):
 
 def logic_18733(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'strategy_confidence', 'gap')
+
+def logic_18734(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'strategy_confidence', 'gap')
