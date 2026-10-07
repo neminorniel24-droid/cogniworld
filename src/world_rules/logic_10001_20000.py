@@ -4484,3 +4484,6 @@ def logic_11473(world):
 
 def logic_11474(world):
     _world_apply(world, 'snowpack', 'detritus', 'pulse')
+
+def logic_11475(world):
+    _world_apply(world, 'snowpack', 'methane', 'saturation')
