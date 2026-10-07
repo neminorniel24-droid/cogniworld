@@ -20771,3 +20771,6 @@ def logic_16902(world):
 
 def logic_16903(world):
     _world_apply(world, 'detritus', 'deadwood', 'gap')
+
+def logic_16904(world):
+    _world_apply(world, 'detritus', 'pollinators', 'direct')
