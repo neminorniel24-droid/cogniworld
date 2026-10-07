@@ -3608,3 +3608,6 @@ def logic_11181(world):
 
 def logic_11182(world):
     _world_apply(world, 'erosion', 'organic_matter', 'saturation')
+
+def logic_11183(world):
+    _world_apply(world, 'erosion', 'deadwood', 'gap')
