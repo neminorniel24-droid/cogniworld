@@ -14180,3 +14180,6 @@ def logic_14705(world):
 
 def logic_14706(world):
     _world_apply(world, 'oxygen', 'seed_bank', 'saturation')
+
+def logic_14707(world):
+    _world_apply(world, 'oxygen', 'soil_carbon', 'gap')
