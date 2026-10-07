@@ -6464,3 +6464,6 @@ def logic_12133(world):
 
 def logic_12134(world):
     _world_apply(world, 'cloud', 'methane', 'gap')
+
+def logic_12135(world):
+    _world_apply(world, 'cloud', 'pathogen_load', 'direct')
