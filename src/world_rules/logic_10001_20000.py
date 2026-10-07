@@ -17870,3 +17870,6 @@ def logic_15935(world):
 
 def logic_15936(world):
     _world_apply(world, 'surface_ice', 'deadwood', 'square')
+
+def logic_15937(world):
+    _world_apply(world, 'surface_ice', 'pollinators', 'saturation')
