@@ -7820,3 +7820,6 @@ def logic_12585(world):
 
 def logic_12586(world):
     _world_apply(world, 'carrion', 'groundwater', 'saturation')
+
+def logic_12587(world):
+    _world_apply(world, 'carrion', 'sediment', 'gap')
