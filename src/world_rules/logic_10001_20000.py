@@ -8630,3 +8630,6 @@ def logic_12855(world):
 
 def logic_12856(world):
     _world_apply(world, 'ice', 'pollinators', 'square')
+
+def logic_12857(world):
+    _world_apply(world, 'ice', 'flowers', 'saturation')
