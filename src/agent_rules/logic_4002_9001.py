@@ -8741,3 +8741,6 @@ def logic_6980(agents, world):
 
 def logic_6981(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'defection_threshold', 'direct')
+
+def logic_6982(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'defection_threshold', 'direct')
