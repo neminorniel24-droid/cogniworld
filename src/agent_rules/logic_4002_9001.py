@@ -10979,3 +10979,6 @@ def logic_7726(agents, world):
 
 def logic_7727(agents, world):
     _agent_apply(world, agents, 'detritus', 'conflict_history', 'direct')
+
+def logic_7728(agents, world):
+    _agent_apply(world, agents, 'methane', 'conflict_history', 'direct')
