@@ -49134,3 +49134,10 @@ def logic_37397(agents, world):
     src = _local(world, agents, 'salinity')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.dehydration = _delta(agents.dehydration, delta)
+
+
+def logic_37398(agents, world):
+    """Environmental algae shapes agent reproduction_drive (direct)."""
+    src = _local(world, agents, 'algae')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.reproduction_drive = _delta(agents.reproduction_drive, delta)
