@@ -11393,3 +11393,6 @@ def logic_7864(agents, world):
 
 def logic_7865(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'help_received', 'direct')
+
+def logic_7866(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'help_received', 'direct')
