@@ -41714,3 +41714,10 @@ def logic_36337(agents, world):
     src = _local(world, agents, 'groundwater')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.last_interaction = _delta(agents.last_interaction, delta)
+
+
+def logic_36338(agents, world):
+    """Environmental sediment shapes agent reciprocity_score (direct)."""
+    src = _local(world, agents, 'sediment')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.reciprocity_score = _delta(agents.reciprocity_score, delta)
