@@ -527,3 +527,6 @@ def logic_18154(agents, world):
 
 def logic_18155(agents, world):
     _agent_apply(world, agents, 'oxygen', 'infection_risk', 'inverse')
+
+def logic_18156(agents, world):
+    _agent_apply(world, agents, 'co2', 'infection_risk', 'inverse')
