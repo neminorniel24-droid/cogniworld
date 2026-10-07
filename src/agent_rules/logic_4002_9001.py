@@ -1970,3 +1970,6 @@ def logic_4723(agents, world):
 
 def logic_4724(agents, world):
     _agent_apply(world, agents, 'biomass', 'fear', 'direct')
+
+def logic_4725(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'fear', 'direct')
