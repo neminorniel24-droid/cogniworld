@@ -18944,3 +18944,6 @@ def logic_16293(world):
 
 def logic_16294(world):
     _world_apply(world, 'wind_y', 'surface_water', 'gap')
+
+def logic_16295(world):
+    _world_apply(world, 'wind_y', 'humidity', 'direct')
