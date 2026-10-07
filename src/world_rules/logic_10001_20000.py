@@ -13850,3 +13850,6 @@ def logic_14595(world):
 
 def logic_14596(world):
     _world_apply(world, 'nutrients', 'evaporation', 'gap')
+
+def logic_14597(world):
+    _world_apply(world, 'nutrients', 'detritus', 'direct')
