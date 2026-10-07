@@ -9323,3 +9323,6 @@ def logic_7174(agents, world):
 
 def logic_7175(agents, world):
     _agent_apply(world, agents, 'carrion', 'fire_fear', 'direct')
+
+def logic_7176(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'fire_fear', 'direct')
