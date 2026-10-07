@@ -3146,3 +3146,6 @@ def logic_19027(agents, world):
 
 def logic_19028(agents, world):
     _agent_apply(world, agents, 'reproduction_drive', 'betrayal_memory', 'inverse')
+
+def logic_19029(agents, world):
+    _agent_apply(world, agents, 'migration_drive', 'betrayal_memory', 'inverse')
