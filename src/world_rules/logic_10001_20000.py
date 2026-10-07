@@ -2228,3 +2228,6 @@ def logic_10721(world):
 
 def logic_10722(world):
     _world_apply(world, 'oxygen', 'photosynthesis_factor', 'square')
+
+def logic_10723(world):
+    _world_apply(world, 'oxygen', 'ice', 'pulse')
