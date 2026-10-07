@@ -15101,3 +15101,6 @@ def logic_15012(world):
 
 def logic_15013(world):
     _world_apply(world, 'pathogen_load', 'flowers', 'saturation')
+
+def logic_15014(world):
+    _world_apply(world, 'pathogen_load', 'seed_bank', 'gap')
