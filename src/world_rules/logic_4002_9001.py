@@ -329,3 +329,6 @@ def logic_4076(world):
 
 def logic_4077(world):
     _world_apply(world, 'carrion', 'organic_matter', 'sqrt')
+
+def logic_4078(world):
+    _world_apply(world, 'herbivore', 'vegetation', 'pulse')
