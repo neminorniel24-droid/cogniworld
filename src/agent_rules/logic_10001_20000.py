@@ -1748,3 +1748,6 @@ def logic_18561(agents, world):
 
 def logic_18562(agents, world):
     _agent_apply(world, agents, 'vegetation', 'group_stability', 'saturation')
+
+def logic_18563(agents, world):
+    _agent_apply(world, agents, 'biomass', 'group_stability', 'saturation')
