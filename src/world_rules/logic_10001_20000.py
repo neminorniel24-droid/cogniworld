@@ -12425,3 +12425,6 @@ def logic_14120(world):
 
 def logic_14121(world):
     _world_apply(world, 'cloud', 'wetland', 'direct')
+
+def logic_14122(world):
+    _world_apply(world, 'cloud', 'carbon_storage', 'square')
