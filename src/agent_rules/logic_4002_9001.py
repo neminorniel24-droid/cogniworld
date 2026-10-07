@@ -2924,3 +2924,6 @@ def logic_5041(agents, world):
 
 def logic_5042(agents, world):
     _agent_apply(world, agents, 'social_need', 'migration_drive', 'direct')
+
+def logic_5043(agents, world):
+    _agent_apply(world, agents, 'cooperation', 'migration_drive', 'direct')
