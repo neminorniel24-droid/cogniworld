@@ -1382,3 +1382,6 @@ def logic_18439(agents, world):
 
 def logic_18440(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'cooperation', 'pulse')
+
+def logic_18441(agents, world):
+    _agent_apply(world, agents, 'erosion', 'cooperation', 'pulse')
