@@ -22988,3 +22988,6 @@ def logic_17641(world):
 
 def logic_17642(world):
     _world_apply(world, 'organic_matter', 'wetland', 'square')
+
+def logic_17643(world):
+    _world_apply(world, 'organic_matter', 'carbon_storage', 'pulse')
