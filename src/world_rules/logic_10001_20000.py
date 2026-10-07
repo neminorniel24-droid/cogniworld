@@ -14090,3 +14090,6 @@ def logic_14675(world):
 
 def logic_14676(world):
     _world_apply(world, 'oxygen', 'herbivore', 'gap')
+
+def logic_14677(world):
+    _world_apply(world, 'oxygen', 'predator', 'direct')
