@@ -1280,3 +1280,6 @@ def logic_18405(agents, world):
 
 def logic_18406(agents, world):
     _agent_apply(world, agents, 'reproduction_score', 'reputation', 'pulse')
+
+def logic_18407(agents, world):
+    _agent_apply(world, agents, 'sharing_score', 'reputation', 'pulse')
