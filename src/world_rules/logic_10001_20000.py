@@ -15248,3 +15248,6 @@ def logic_15061(world):
 
 def logic_15062(world):
     _world_apply(world, 'habitat_stress', 'surface_water', 'saturation')
+
+def logic_15063(world):
+    _world_apply(world, 'habitat_stress', 'humidity', 'gap')
