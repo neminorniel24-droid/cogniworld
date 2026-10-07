@@ -438,3 +438,6 @@ def logic_9320(agents, world):
 
 def logic_9321(agents, world):
     _agent_apply(world, agents, 'health', 'thirst', 'direct')
+
+def logic_9322(agents, world):
+    _agent_apply(world, agents, 'stress', 'thirst', 'direct')
