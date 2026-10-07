@@ -29415,3 +29415,10 @@ def logic_34580(agents, world):
     src = _local(world, agents, 'habitat_stress')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.shelter_need = _delta(agents.shelter_need, delta)
+
+
+def logic_34581(agents, world):
+    """Environmental erosion shapes agent neighbor_health_gap (root)."""
+    src = _local(world, agents, 'erosion')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.neighbor_health_gap = _delta(agents.neighbor_health_gap, delta)
