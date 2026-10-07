@@ -18338,3 +18338,6 @@ def logic_16091(world):
 
 def logic_16092(world):
     _world_apply(world, 'cloud', 'evaporation', 'pulse')
+
+def logic_16093(world):
+    _world_apply(world, 'cloud', 'detritus', 'saturation')
