@@ -2402,3 +2402,6 @@ def logic_10779(world):
 
 def logic_10780(world):
     _world_apply(world, 'co2', 'ash', 'square')
+
+def logic_10781(world):
+    _world_apply(world, 'co2', 'snowpack', 'pulse')
