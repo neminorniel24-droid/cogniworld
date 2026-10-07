@@ -5015,3 +5015,6 @@ def logic_11650(world):
 
 def logic_11651(world):
     _world_apply(world, 'algae', 'methane', 'square')
+
+def logic_11652(world):
+    _world_apply(world, 'algae', 'pathogen_load', 'pulse')
