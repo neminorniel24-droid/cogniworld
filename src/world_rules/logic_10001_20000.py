@@ -8099,3 +8099,6 @@ def logic_12678(world):
 
 def logic_12679(world):
     _world_apply(world, 'decomposition_rate', 'deadwood', 'pulse')
+
+def logic_12680(world):
+    _world_apply(world, 'decomposition_rate', 'pollinators', 'saturation')
