@@ -14183,3 +14183,6 @@ def logic_8794(agents, world):
 
 def logic_8795(agents, world):
     _agent_apply(world, agents, 'surface_water', 'risk_score', 'direct')
+
+def logic_8796(agents, world):
+    _agent_apply(world, agents, 'humidity', 'risk_score', 'direct')
