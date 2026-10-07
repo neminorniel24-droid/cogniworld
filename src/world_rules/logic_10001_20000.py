@@ -20780,3 +20780,6 @@ def logic_16905(world):
 
 def logic_16906(world):
     _world_apply(world, 'detritus', 'seed_bank', 'saturation')
+
+def logic_16907(world):
+    _world_apply(world, 'detritus', 'soil_carbon', 'gap')
