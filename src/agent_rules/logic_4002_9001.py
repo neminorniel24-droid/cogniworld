@@ -2123,3 +2123,6 @@ def logic_4774(agents, world):
 
 def logic_4775(agents, world):
     _agent_apply(world, agents, 'help_received', 'fear', 'direct')
+
+def logic_4776(agents, world):
+    _agent_apply(world, agents, 'help_given', 'fear', 'direct')
