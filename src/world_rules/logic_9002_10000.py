@@ -150,3 +150,6 @@ def logic_9025(world):
 
 def logic_9026(world):
     _world_apply(world, 'predator', 'herbivore', 'direct')
+
+def logic_9027(world):
+    _world_apply(world, 'predator', 'carrion', 'inverse')
