@@ -3020,3 +3020,6 @@ def logic_10985(world):
 
 def logic_10986(world):
     _world_apply(world, 'methane', 'co2', 'saturation')
+
+def logic_10987(world):
+    _world_apply(world, 'methane', 'photosynthesis_factor', 'gap')
