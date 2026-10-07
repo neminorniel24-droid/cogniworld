@@ -2816,3 +2816,6 @@ def logic_18917(agents, world):
 
 def logic_18918(agents, world):
     _agent_apply(world, agents, 'empathy', 'resource_competition', 'direct')
+
+def logic_18919(agents, world):
+    _agent_apply(world, agents, 'attack_threshold', 'resource_competition', 'direct')
