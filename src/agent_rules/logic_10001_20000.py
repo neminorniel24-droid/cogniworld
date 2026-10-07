@@ -4316,3 +4316,6 @@ def logic_19417(agents, world):
 
 def logic_19418(agents, world):
     _agent_apply(world, agents, 'algae', 'exploration_score', 'threshold')
+
+def logic_19419(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'exploration_score', 'threshold')
