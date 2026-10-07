@@ -14351,3 +14351,6 @@ def logic_14762(world):
 
 def logic_14763(world):
     _world_apply(world, 'photosynthesis_factor', 'biomass', 'pulse')
+
+def logic_14764(world):
+    _world_apply(world, 'photosynthesis_factor', 'herbivore', 'saturation')
