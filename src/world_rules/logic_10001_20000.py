@@ -2825,3 +2825,6 @@ def logic_10920(world):
 
 def logic_10921(world):
     _world_apply(world, 'evaporation', 'flowers', 'direct')
+
+def logic_10922(world):
+    _world_apply(world, 'evaporation', 'seed_bank', 'square')
