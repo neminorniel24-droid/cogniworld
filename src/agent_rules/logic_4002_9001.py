@@ -14078,3 +14078,6 @@ def logic_8759(agents, world):
 
 def logic_8760(agents, world):
     _agent_apply(world, agents, 'groundwater', 'reciprocity_score', 'direct')
+
+def logic_8761(agents, world):
+    _agent_apply(world, agents, 'sediment', 'reciprocity_score', 'direct')
