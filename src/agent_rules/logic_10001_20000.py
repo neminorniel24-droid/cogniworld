@@ -2822,3 +2822,6 @@ def logic_18919(agents, world):
 
 def logic_18920(agents, world):
     _agent_apply(world, agents, 'defection_threshold', 'resource_competition', 'direct')
+
+def logic_18921(agents, world):
+    _agent_apply(world, agents, 'oxygen_need', 'resource_competition', 'direct')
