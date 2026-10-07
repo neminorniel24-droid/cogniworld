@@ -996,3 +996,6 @@ def logic_9506(agents, world):
 
 def logic_9507(agents, world):
     _agent_apply(world, agents, 'groundwater', 'thermal_stress', 'direct')
+
+def logic_9508(agents, world):
+    _agent_apply(world, agents, 'sediment', 'thermal_stress', 'direct')
