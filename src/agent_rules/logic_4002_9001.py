@@ -10343,3 +10343,6 @@ def logic_7514(agents, world):
 
 def logic_7515(agents, world):
     _agent_apply(world, agents, 'carrion', 'neighbor_energy_gap', 'direct')
+
+def logic_7516(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'neighbor_energy_gap', 'direct')
