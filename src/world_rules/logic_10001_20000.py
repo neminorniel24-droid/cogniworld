@@ -12707,3 +12707,6 @@ def logic_14214(world):
 
 def logic_14215(world):
     _world_apply(world, 'soil_moisture', 'sediment', 'direct')
+
+def logic_14216(world):
+    _world_apply(world, 'soil_moisture', 'salinity', 'square')
