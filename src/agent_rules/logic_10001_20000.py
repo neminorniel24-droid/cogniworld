@@ -5576,3 +5576,6 @@ def logic_19837(agents, world):
 
 def logic_19838(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'thermal_stress', 'direct')
+
+def logic_19839(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'thermal_stress', 'direct')
