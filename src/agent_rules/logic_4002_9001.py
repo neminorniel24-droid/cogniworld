@@ -10439,3 +10439,6 @@ def logic_7546(agents, world):
 
 def logic_7547(agents, world):
     _agent_apply(world, agents, 'resource_scarcity', 'neighbor_energy_gap', 'direct')
+
+def logic_7548(agents, world):
+    _agent_apply(world, agents, 'resource_abundance', 'neighbor_energy_gap', 'direct')
