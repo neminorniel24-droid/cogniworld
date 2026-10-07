@@ -880,3 +880,4 @@
 - 20879: integrated cross-system causal rule
 - 20880: integrated cross-system causal rule
 - 20881: integrated cross-system causal rule
+- 20882: integrated cross-system causal rule
