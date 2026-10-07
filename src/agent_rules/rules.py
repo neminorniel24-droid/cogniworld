@@ -62581,3 +62581,10 @@ def logic_39318(agents, world):
     src = _local(world, agents, 'habitat_stress')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.migration_drive = _delta(agents.migration_drive, delta)
+
+
+def logic_39319(agents, world):
+    """Environmental erosion shapes agent reputation (inverse)."""
+    src = _local(world, agents, 'erosion')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.reputation = _delta(agents.reputation, delta)
