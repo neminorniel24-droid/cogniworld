@@ -626,3 +626,6 @@ def logic_10187(world):
 
 def logic_10188(world):
     _world_apply(world, 'rain', 'predator', 'direct')
+
+def logic_10189(world):
+    _world_apply(world, 'rain', 'carrion', 'square')
