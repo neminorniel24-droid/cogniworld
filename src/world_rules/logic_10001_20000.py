@@ -17216,3 +17216,6 @@ def logic_15717(world):
 
 def logic_15718(world):
     _world_apply(world, 'deadwood', 'seed_bank', 'square')
+
+def logic_15719(world):
+    _world_apply(world, 'deadwood', 'soil_carbon', 'pulse')
