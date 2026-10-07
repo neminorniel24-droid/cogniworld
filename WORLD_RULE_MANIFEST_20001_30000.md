@@ -6925,3 +6925,4 @@
 - 26924: integrated cross-system causal rule
 - 26925: integrated cross-system causal rule
 - 26926: integrated cross-system causal rule
+- 26927: integrated cross-system causal rule
