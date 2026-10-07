@@ -3074,3 +3074,6 @@ def logic_11003(world):
 
 def logic_11004(world):
     _world_apply(world, 'methane', 'salinity', 'saturation')
+
+def logic_11005(world):
+    _world_apply(world, 'methane', 'algae', 'gap')
