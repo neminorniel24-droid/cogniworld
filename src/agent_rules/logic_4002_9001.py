@@ -11345,3 +11345,6 @@ def logic_7848(agents, world):
 
 def logic_7849(agents, world):
     _agent_apply(world, agents, 'wind_x', 'help_received', 'direct')
+
+def logic_7850(agents, world):
+    _agent_apply(world, agents, 'wind_y', 'help_received', 'direct')
