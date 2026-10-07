@@ -28141,3 +28141,10 @@ def logic_34398(agents, world):
     src = _local(world, agents, 'soil_depth')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.wealth = _delta(agents.wealth, delta)
+
+
+def logic_34399(agents, world):
+    """Environmental root_density shapes agent defection (inverse)."""
+    src = _local(world, agents, 'root_density')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defection = _delta(agents.defection, delta)
