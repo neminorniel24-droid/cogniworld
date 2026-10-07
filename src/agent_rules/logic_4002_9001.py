@@ -11450,3 +11450,6 @@ def logic_7883(agents, world):
 
 def logic_7884(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'help_received', 'direct')
+
+def logic_7885(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'help_received', 'direct')
