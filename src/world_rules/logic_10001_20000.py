@@ -5414,3 +5414,6 @@ def logic_11783(world):
 
 def logic_11784(world):
     _world_apply(world, 'pollinators', 'pathogen_load', 'direct')
+
+def logic_11785(world):
+    _world_apply(world, 'pollinators', 'biodiversity', 'pulse')
