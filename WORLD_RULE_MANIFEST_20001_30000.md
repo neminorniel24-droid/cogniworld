@@ -8204,3 +8204,4 @@
 - 28203: integrated cross-system causal rule
 - 28204: integrated cross-system causal rule
 - 28205: integrated cross-system causal rule
+- 28206: integrated cross-system causal rule
