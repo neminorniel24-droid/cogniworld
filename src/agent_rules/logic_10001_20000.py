@@ -1460,3 +1460,6 @@ def logic_18465(agents, world):
 
 def logic_18466(agents, world):
     _agent_apply(world, agents, 'hunger', 'defection', 'threshold')
+
+def logic_18467(agents, world):
+    _agent_apply(world, agents, 'health', 'defection', 'threshold')
