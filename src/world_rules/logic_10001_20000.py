@@ -15413,3 +15413,6 @@ def logic_15116(world):
 
 def logic_15117(world):
     _world_apply(world, 'erosion', 'predator', 'direct')
+
+def logic_15118(world):
+    _world_apply(world, 'erosion', 'carrion', 'square')
