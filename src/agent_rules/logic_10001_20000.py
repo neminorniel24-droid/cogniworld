@@ -6038,3 +6038,6 @@ def logic_19991(agents, world):
 
 def logic_19992(agents, world):
     _agent_apply(world, agents, 'recovery', 'metabolic_cost', 'square')
+
+def logic_19993(agents, world):
+    _agent_apply(world, agents, 'metabolic_cost', 'reproduction_drive', 'square')
