@@ -5506,3 +5506,4 @@
 - 25505: integrated cross-system causal rule
 - 25506: integrated cross-system causal rule
 - 25507: integrated cross-system causal rule
+- 25508: integrated cross-system causal rule
