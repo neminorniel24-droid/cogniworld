@@ -519,3 +519,6 @@ def logic_9148(world):
 
 def logic_9149(world):
     _world_apply(world, 'humidity', 'vegetation', 'sqrt')
+
+def logic_9150(world):
+    _world_apply(world, 'humidity', 'biomass', 'pulse')
