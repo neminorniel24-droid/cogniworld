@@ -11660,3 +11660,6 @@ def logic_7953(agents, world):
 
 def logic_7954(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'help_given', 'direct')
+
+def logic_7955(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'help_given', 'direct')
