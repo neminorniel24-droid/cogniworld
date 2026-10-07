@@ -2306,3 +2306,6 @@ def logic_4835(agents, world):
 
 def logic_4836(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'recovery', 'direct')
+
+def logic_4837(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'recovery', 'direct')
