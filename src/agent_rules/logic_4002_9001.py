@@ -7250,3 +7250,6 @@ def logic_6483(agents, world):
 
 def logic_6484(agents, world):
     _agent_apply(world, agents, 'humidity', 'caution', 'direct')
+
+def logic_6485(agents, world):
+    _agent_apply(world, agents, 'cloud', 'caution', 'direct')
