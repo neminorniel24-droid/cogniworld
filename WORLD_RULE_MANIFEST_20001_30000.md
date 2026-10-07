@@ -9610,3 +9610,4 @@
 - 29609: integrated cross-system causal rule
 - 29610: integrated cross-system causal rule
 - 29611: integrated cross-system causal rule
+- 29612: integrated cross-system causal rule
