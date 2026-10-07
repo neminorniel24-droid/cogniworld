@@ -18977,3 +18977,6 @@ def logic_16304(world):
 
 def logic_16305(world):
     _world_apply(world, 'wind_y', 'carrion', 'pulse')
+
+def logic_16306(world):
+    _world_apply(world, 'wind_y', 'nutrients', 'saturation')
