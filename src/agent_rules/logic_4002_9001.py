@@ -2264,3 +2264,6 @@ def logic_4821(agents, world):
 
 def logic_4822(agents, world):
     _agent_apply(world, agents, 'pollinators', 'recovery', 'direct')
+
+def logic_4823(agents, world):
+    _agent_apply(world, agents, 'flowers', 'recovery', 'direct')
