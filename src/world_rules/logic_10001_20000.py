@@ -8552,3 +8552,6 @@ def logic_12829(world):
 
 def logic_12830(world):
     _world_apply(world, 'ice', 'carrion', 'pulse')
+
+def logic_12831(world):
+    _world_apply(world, 'ice', 'nutrients', 'saturation')
