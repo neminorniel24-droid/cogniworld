@@ -2441,3 +2441,6 @@ def logic_18792(agents, world):
 
 def logic_18793(agents, world):
     _agent_apply(world, agents, 'conflict_history', 'empathy', 'gap')
+
+def logic_18794(agents, world):
+    _agent_apply(world, agents, 'cooperation_history', 'empathy', 'gap')
