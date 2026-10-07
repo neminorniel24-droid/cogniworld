@@ -2960,3 +2960,6 @@ def logic_18965(agents, world):
 
 def logic_18966(agents, world):
     _agent_apply(world, agents, 'payoff', 'stress', 'direct')
+
+def logic_18967(agents, world):
+    _agent_apply(world, agents, 'temperature', 'social_need', 'direct')
