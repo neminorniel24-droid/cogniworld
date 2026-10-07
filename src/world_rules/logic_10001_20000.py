@@ -12374,3 +12374,6 @@ def logic_14103(world):
 
 def logic_14104(world):
     _world_apply(world, 'cloud', 'predator', 'direct')
+
+def logic_14105(world):
+    _world_apply(world, 'cloud', 'carrion', 'pulse')
