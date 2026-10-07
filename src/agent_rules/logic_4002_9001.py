@@ -3293,3 +3293,6 @@ def logic_5164(agents, world):
 
 def logic_5165(agents, world):
     _agent_apply(world, agents, 'soil_carbon', 'food_access', 'direct')
+
+def logic_5166(agents, world):
+    _agent_apply(world, agents, 'surface_ice', 'food_access', 'direct')
