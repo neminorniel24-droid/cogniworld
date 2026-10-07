@@ -20147,3 +20147,6 @@ def logic_16694(world):
 
 def logic_16695(world):
     _world_apply(world, 'co2', 'runoff', 'direct')
+
+def logic_16696(world):
+    _world_apply(world, 'co2', 'wind_x', 'square')
