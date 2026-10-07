@@ -899,3 +899,6 @@ def logic_18278(agents, world):
 
 def logic_18279(agents, world):
     _agent_apply(world, agents, 'humidity', 'exploration_drive', 'sqrt')
+
+def logic_18280(agents, world):
+    _agent_apply(world, agents, 'cloud', 'exploration_drive', 'sqrt')
