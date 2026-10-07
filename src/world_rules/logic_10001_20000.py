@@ -6971,3 +6971,6 @@ def logic_12302(world):
 
 def logic_12303(world):
     _world_apply(world, 'wind_x', 'decomposition_rate', 'gap')
+
+def logic_12304(world):
+    _world_apply(world, 'wind_x', 'oxygen', 'direct')
