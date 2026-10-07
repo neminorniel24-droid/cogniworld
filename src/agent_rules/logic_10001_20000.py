@@ -2240,3 +2240,6 @@ def logic_18725(agents, world):
 
 def logic_18726(agents, world):
     _agent_apply(world, agents, 'sediment', 'confidence', 'gap')
+
+def logic_18727(agents, world):
+    _agent_apply(world, agents, 'salinity', 'confidence', 'gap')
