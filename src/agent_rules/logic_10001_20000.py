@@ -1826,3 +1826,6 @@ def logic_18587(agents, world):
 
 def logic_18588(agents, world):
     _agent_apply(world, agents, 'sediment', 'sharing_capacity', 'saturation')
+
+def logic_18589(agents, world):
+    _agent_apply(world, agents, 'salinity', 'sharing_capacity', 'saturation')
