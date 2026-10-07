@@ -2333,3 +2333,6 @@ def logic_10756(world):
 
 def logic_10757(world):
     _world_apply(world, 'co2', 'wind_y', 'direct')
+
+def logic_10758(world):
+    _world_apply(world, 'co2', 'vegetation', 'square')
