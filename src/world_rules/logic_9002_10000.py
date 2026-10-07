@@ -135,3 +135,6 @@ def logic_9020(world):
 
 def logic_9021(world):
     _world_apply(world, 'co2', 'vegetation', 'sqrt')
+
+def logic_9022(world):
+    _world_apply(world, 'soil_moisture', 'vegetation', 'pulse')
