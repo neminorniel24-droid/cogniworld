@@ -2954,3 +2954,6 @@ def logic_18963(agents, world):
 
 def logic_18964(agents, world):
     _agent_apply(world, agents, 'future_payoff_weight', 'stress', 'direct')
+
+def logic_18965(agents, world):
+    _agent_apply(world, agents, 'self_preservation', 'stress', 'direct')
