@@ -15578,3 +15578,6 @@ def logic_15171(world):
 
 def logic_15172(world):
     _world_apply(world, 'soil_depth', 'pathogen_load', 'pulse')
+
+def logic_15173(world):
+    _world_apply(world, 'soil_depth', 'biodiversity', 'saturation')
