@@ -8204,3 +8204,6 @@ def logic_6801(agents, world):
 
 def logic_6802(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'resource_discovery', 'direct')
+
+def logic_6803(agents, world):
+    _agent_apply(world, agents, 'hydration', 'resource_discovery', 'direct')
