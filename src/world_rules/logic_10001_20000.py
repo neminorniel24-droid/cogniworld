@@ -4385,3 +4385,6 @@ def logic_11440(world):
 
 def logic_11441(world):
     _world_apply(world, 'ash', 'snowpack', 'direct')
+
+def logic_11442(world):
+    _world_apply(world, 'ash', 'groundwater', 'square')
