@@ -23861,3 +23861,6 @@ def logic_17932(world):
 
 def logic_17933(world):
     _world_apply(world, 'temperature', 'carrion', 'saturation')
+
+def logic_17934(world):
+    _world_apply(world, 'temperature', 'nutrients', 'gap')
