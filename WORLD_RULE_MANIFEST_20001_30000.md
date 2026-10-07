@@ -2006,3 +2006,4 @@
 - 22005: integrated cross-system causal rule
 - 22006: integrated cross-system causal rule
 - 22007: integrated cross-system causal rule
+- 22008: integrated cross-system causal rule
