@@ -105,3 +105,6 @@ def logic_9010(world):
 
 def logic_9011(world):
     _world_apply(world, 'wetland', 'humidity', 'inverse')
+
+def logic_9012(world):
+    _world_apply(world, 'temperature', 'photosynthesis_factor', 'square')
