@@ -2645,3 +2645,6 @@ def logic_18860(agents, world):
 
 def logic_18861(agents, world):
     _agent_apply(world, agents, 'ash', 'oxygen_need', 'feedback')
+
+def logic_18862(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'oxygen_need', 'feedback')
