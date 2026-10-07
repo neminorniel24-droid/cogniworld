@@ -23636,3 +23636,6 @@ def logic_17857(world):
 
 def logic_17858(world):
     _world_apply(world, 'soil_carbon', 'habitat_stress', 'gap')
+
+def logic_17859(world):
+    _world_apply(world, 'soil_carbon', 'erosion', 'direct')
