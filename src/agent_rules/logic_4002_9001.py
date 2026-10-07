@@ -6110,3 +6110,6 @@ def logic_6103(agents, world):
 
 def logic_6104(agents, world):
     _agent_apply(world, agents, 'carbon_storage', 'sharing_capacity', 'direct')
+
+def logic_6105(agents, world):
+    _agent_apply(world, agents, 'fire_risk', 'sharing_capacity', 'direct')
