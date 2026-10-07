@@ -22835,3 +22835,6 @@ def logic_17590(world):
 
 def logic_17591(world):
     _world_apply(world, 'algae', 'methane', 'saturation')
+
+def logic_17592(world):
+    _world_apply(world, 'algae', 'pathogen_load', 'gap')
