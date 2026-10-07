@@ -4671,3 +4671,4 @@
 - 24670: integrated cross-system causal rule
 - 24671: integrated cross-system causal rule
 - 24672: integrated cross-system causal rule
+- 24673: integrated cross-system causal rule
