@@ -404,3 +404,4 @@
 - 20403: integrated cross-system causal rule
 - 20404: integrated cross-system causal rule
 - 20405: integrated cross-system causal rule
+- 20406: integrated cross-system causal rule
