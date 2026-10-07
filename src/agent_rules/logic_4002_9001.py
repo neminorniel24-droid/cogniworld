@@ -3650,3 +3650,6 @@ def logic_5283(agents, world):
 
 def logic_5284(agents, world):
     _agent_apply(world, agents, 'erosion', 'stability', 'direct')
+
+def logic_5285(agents, world):
+    _agent_apply(world, agents, 'soil_depth', 'stability', 'direct')
