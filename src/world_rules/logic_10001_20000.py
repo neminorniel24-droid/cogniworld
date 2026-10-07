@@ -15071,3 +15071,6 @@ def logic_15002(world):
 
 def logic_15003(world):
     _world_apply(world, 'pathogen_load', 'fire_risk', 'pulse')
+
+def logic_15004(world):
+    _world_apply(world, 'pathogen_load', 'ash', 'saturation')
