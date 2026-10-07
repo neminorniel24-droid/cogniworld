@@ -3107,3 +3107,6 @@ def logic_5102(agents, world):
 
 def logic_5103(agents, world):
     _agent_apply(world, agents, 'hydration', 'exploration_drive', 'direct')
+
+def logic_5104(agents, world):
+    _agent_apply(world, agents, 'thirst', 'exploration_drive', 'direct')
