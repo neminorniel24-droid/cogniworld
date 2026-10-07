@@ -2915,3 +2915,6 @@ def logic_5038(agents, world):
 
 def logic_5039(agents, world):
     _agent_apply(world, agents, 'stress', 'migration_drive', 'direct')
+
+def logic_5040(agents, world):
+    _agent_apply(world, agents, 'risk_tolerance', 'migration_drive', 'direct')
