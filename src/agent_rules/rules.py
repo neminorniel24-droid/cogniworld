@@ -62945,3 +62945,10 @@ def logic_39370(agents, world):
     src = _local(world, agents, 'fire_risk')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.trust = _delta(agents.trust, delta)
+
+
+def logic_39371(agents, world):
+    """Environmental ash shapes agent group_stability (inverse)."""
+    src = _local(world, agents, 'ash')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.group_stability = _delta(agents.group_stability, delta)
