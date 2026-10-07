@@ -11117,3 +11117,6 @@ def logic_7772(agents, world):
 
 def logic_7773(agents, world):
     _agent_apply(world, agents, 'payoff', 'conflict_history', 'direct')
+
+def logic_7774(agents, world):
+    _agent_apply(world, agents, 'temperature', 'cooperation_history', 'direct')
