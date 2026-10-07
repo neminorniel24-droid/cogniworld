@@ -593,3 +593,6 @@ def logic_10176(world):
 
 def logic_10177(world):
     _world_apply(world, 'rain', 'temperature', 'saturation')
+
+def logic_10178(world):
+    _world_apply(world, 'rain', 'surface_water', 'gap')
