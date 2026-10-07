@@ -60236,3 +60236,10 @@ def logic_38983(agents, world):
     src = _local(world, agents, 'predator')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.exploration_score = _delta(agents.exploration_score, delta)
+
+
+def logic_38984(agents, world):
+    """Environmental carrion shapes agent defense_score (square)."""
+    src = _local(world, agents, 'carrion')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.defense_score = _delta(agents.defense_score, delta)
