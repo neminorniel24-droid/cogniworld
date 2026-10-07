@@ -1008,3 +1008,6 @@ def logic_9510(agents, world):
 
 def logic_9511(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'thermal_stress', 'direct')
+
+def logic_9512(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'thermal_stress', 'direct')
