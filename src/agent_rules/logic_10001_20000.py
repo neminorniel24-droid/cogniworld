@@ -5438,3 +5438,6 @@ def logic_19791(agents, world):
 
 def logic_19792(agents, world):
     _agent_apply(world, agents, 'future_payoff_weight', 'thirst', 'direct')
+
+def logic_19793(agents, world):
+    _agent_apply(world, agents, 'self_preservation', 'thirst', 'direct')
