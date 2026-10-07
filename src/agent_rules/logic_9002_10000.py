@@ -1398,3 +1398,6 @@ def logic_9640(agents, world):
 
 def logic_9641(agents, world):
     _agent_apply(world, agents, 'ash', 'pathogen_risk', 'direct')
+
+def logic_9642(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'pathogen_risk', 'direct')
