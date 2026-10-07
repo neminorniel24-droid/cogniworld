@@ -13031,3 +13031,6 @@ def logic_8410(agents, world):
 
 def logic_8411(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'last_action', 'direct')
+
+def logic_8412(agents, world):
+    _agent_apply(world, agents, 'erosion', 'last_action', 'direct')
