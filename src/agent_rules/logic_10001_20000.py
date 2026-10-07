@@ -359,3 +359,6 @@ def logic_18098(agents, world):
 
 def logic_18099(agents, world):
     _agent_apply(world, agents, 'social_need', 'thermal_stress', 'inverse')
+
+def logic_18100(agents, world):
+    _agent_apply(world, agents, 'neighbor_energy_gap', 'dehydration', 'inverse')
