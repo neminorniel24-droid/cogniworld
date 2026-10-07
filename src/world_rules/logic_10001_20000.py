@@ -566,3 +566,6 @@ def logic_10167(world):
 
 def logic_10168(world):
     _world_apply(world, 'cloud', 'salinity', 'pulse')
+
+def logic_10169(world):
+    _world_apply(world, 'cloud', 'algae', 'gap')
