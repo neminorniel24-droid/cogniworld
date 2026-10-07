@@ -2012,3 +2012,6 @@ def logic_4737(agents, world):
 
 def logic_4738(agents, world):
     _agent_apply(world, agents, 'biodiversity', 'fear', 'direct')
+
+def logic_4739(agents, world):
+    _agent_apply(world, agents, 'habitat_stress', 'fear', 'direct')
