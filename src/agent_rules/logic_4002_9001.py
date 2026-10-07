@@ -7409,3 +7409,6 @@ def logic_6536(agents, world):
 
 def logic_6537(agents, world):
     _agent_apply(world, agents, 'competition_pressure', 'caution', 'direct')
+
+def logic_6538(agents, world):
+    _agent_apply(world, agents, 'social_need', 'caution', 'direct')
