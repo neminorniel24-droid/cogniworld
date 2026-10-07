@@ -12782,3 +12782,6 @@ def logic_14239(world):
 
 def logic_14240(world):
     _world_apply(world, 'runoff', 'oxygen', 'saturation')
+
+def logic_14241(world):
+    _world_apply(world, 'runoff', 'co2', 'direct')
