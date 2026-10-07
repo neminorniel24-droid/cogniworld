@@ -51857,3 +51857,10 @@ def logic_37786(agents, world):
     src = _local(world, agents, 'herbivore')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_reward = _delta(agents.last_reward, delta)
+
+
+def logic_37787(agents, world):
+    """Environmental predator shapes agent cooperation_score (inverse)."""
+    src = _local(world, agents, 'predator')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.cooperation_score = _delta(agents.cooperation_score, delta)
