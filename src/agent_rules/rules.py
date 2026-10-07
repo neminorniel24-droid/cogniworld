@@ -61202,3 +61202,10 @@ def logic_39121(agents, world):
     src = _local(world, agents, 'predator')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.last_reward = _delta(agents.last_reward, delta)
+
+
+def logic_39122(agents, world):
+    """Environmental carrion shapes agent cooperation_score (direct)."""
+    src = _local(world, agents, 'carrion')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.cooperation_score = _delta(agents.cooperation_score, delta)
