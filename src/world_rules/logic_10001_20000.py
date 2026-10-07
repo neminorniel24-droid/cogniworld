@@ -16226,3 +16226,6 @@ def logic_15387(world):
 
 def logic_15388(world):
     _world_apply(world, 'ash', 'ice', 'direct')
+
+def logic_15389(world):
+    _world_apply(world, 'ash', 'evaporation', 'square')
