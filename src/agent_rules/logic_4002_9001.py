@@ -7160,3 +7160,6 @@ def logic_6453(agents, world):
 
 def logic_6454(agents, world):
     _agent_apply(world, agents, 'pollinators', 'gratitude', 'direct')
+
+def logic_6455(agents, world):
+    _agent_apply(world, agents, 'flowers', 'gratitude', 'direct')
