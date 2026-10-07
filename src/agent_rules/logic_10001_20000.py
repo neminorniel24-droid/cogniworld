@@ -3992,3 +3992,6 @@ def logic_19309(agents, world):
 
 def logic_19310(agents, world):
     _agent_apply(world, agents, 'habitat_stress', 'competition_score', 'pulse')
+
+def logic_19311(agents, world):
+    _agent_apply(world, agents, 'social_tolerance', 'competition_score', 'pulse')
