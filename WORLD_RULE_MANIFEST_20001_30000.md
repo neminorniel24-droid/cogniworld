@@ -6018,3 +6018,4 @@
 - 26017: integrated cross-system causal rule
 - 26018: integrated cross-system causal rule
 - 26019: integrated cross-system causal rule
+- 26020: integrated cross-system causal rule
