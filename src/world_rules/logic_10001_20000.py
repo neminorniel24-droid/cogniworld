@@ -7040,3 +7040,6 @@ def logic_12325(world):
 
 def logic_12326(world):
     _world_apply(world, 'wind_x', 'organic_matter', 'direct')
+
+def logic_12327(world):
+    _world_apply(world, 'wind_x', 'deadwood', 'square')
