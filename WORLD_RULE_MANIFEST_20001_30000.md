@@ -786,3 +786,4 @@
 - 20785: integrated cross-system causal rule
 - 20786: integrated cross-system causal rule
 - 20787: integrated cross-system causal rule
+- 20788: integrated cross-system causal rule
