@@ -6080,3 +6080,6 @@ def logic_12005(world):
 
 def logic_12006(world):
     _world_apply(world, 'temperature', 'erosion', 'direct')
+
+def logic_12007(world):
+    _world_apply(world, 'temperature', 'soil_depth', 'square')
