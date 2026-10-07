@@ -7011,3 +7011,4 @@
 - 27010: integrated cross-system causal rule
 - 27011: integrated cross-system causal rule
 - 27012: integrated cross-system causal rule
+- 27013: integrated cross-system causal rule
