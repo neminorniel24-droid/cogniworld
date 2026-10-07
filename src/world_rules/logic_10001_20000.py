@@ -20039,3 +20039,6 @@ def logic_16658(world):
 
 def logic_16659(world):
     _world_apply(world, 'oxygen', 'nutrients', 'direct')
+
+def logic_16660(world):
+    _world_apply(world, 'oxygen', 'decomposition_rate', 'square')
