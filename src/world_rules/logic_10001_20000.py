@@ -22160,3 +22160,6 @@ def logic_17365(world):
 
 def logic_17366(world):
     _world_apply(world, 'ash', 'co2', 'direct')
+
+def logic_17367(world):
+    _world_apply(world, 'ash', 'photosynthesis_factor', 'square')
