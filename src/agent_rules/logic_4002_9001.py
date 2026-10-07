@@ -11840,3 +11840,6 @@ def logic_8013(agents, world):
 
 def logic_8014(agents, world):
     _agent_apply(world, agents, 'salinity', 'local_density', 'direct')
+
+def logic_8015(agents, world):
+    _agent_apply(world, agents, 'algae', 'local_density', 'direct')
