@@ -9536,3 +9536,6 @@ def logic_7245(agents, world):
 
 def logic_7246(agents, world):
     _agent_apply(world, agents, 'oxygen', 'resource_competition', 'direct')
+
+def logic_7247(agents, world):
+    _agent_apply(world, agents, 'co2', 'resource_competition', 'direct')
