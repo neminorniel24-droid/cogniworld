@@ -51885,3 +51885,10 @@ def logic_37790(agents, world):
     src = _local(world, agents, 'decomposition_rate')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.future_payoff_weight = _delta(agents.future_payoff_weight, delta)
+
+
+def logic_37791(agents, world):
+    """Environmental oxygen shapes agent thermal_stress (inverse)."""
+    src = _local(world, agents, 'oxygen')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.thermal_stress = _delta(agents.thermal_stress, delta)
