@@ -3005,3 +3005,6 @@ def logic_5068(agents, world):
 
 def logic_5069(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'exploration_drive', 'direct')
+
+def logic_5070(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'exploration_drive', 'direct')
