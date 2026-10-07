@@ -21152,3 +21152,6 @@ def logic_17029(world):
 
 def logic_17030(world):
     _world_apply(world, 'biodiversity', 'groundwater', 'pulse')
+
+def logic_17031(world):
+    _world_apply(world, 'biodiversity', 'sediment', 'saturation')
