@@ -20747,3 +20747,6 @@ def logic_16894(world):
 
 def logic_16895(world):
     _world_apply(world, 'detritus', 'fire_risk', 'direct')
+
+def logic_16896(world):
+    _world_apply(world, 'detritus', 'ash', 'square')
