@@ -7916,3 +7916,6 @@ def logic_12617(world):
 
 def logic_12618(world):
     _world_apply(world, 'nutrients', 'methane', 'gap')
+
+def logic_12619(world):
+    _world_apply(world, 'nutrients', 'pathogen_load', 'direct')
