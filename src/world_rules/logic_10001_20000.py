@@ -10754,3 +10754,6 @@ def logic_13563(world):
 
 def logic_13564(world):
     _world_apply(world, 'sediment', 'surface_ice', 'saturation')
+
+def logic_13565(world):
+    _world_apply(world, 'salinity', 'temperature', 'gap')
