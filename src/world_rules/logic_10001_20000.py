@@ -23480,3 +23480,6 @@ def logic_17805(world):
 
 def logic_17806(world):
     _world_apply(world, 'seed_bank', 'co2', 'direct')
+
+def logic_17807(world):
+    _world_apply(world, 'seed_bank', 'photosynthesis_factor', 'square')
