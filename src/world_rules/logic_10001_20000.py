@@ -8225,3 +8225,6 @@ def logic_12720(world):
 
 def logic_12721(world):
     _world_apply(world, 'oxygen', 'algae', 'direct')
+
+def logic_12722(world):
+    _world_apply(world, 'oxygen', 'organic_matter', 'square')
