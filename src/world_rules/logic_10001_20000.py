@@ -21902,3 +21902,6 @@ def logic_17279(world):
 
 def logic_17280(world):
     _world_apply(world, 'carbon_storage', 'ice', 'saturation')
+
+def logic_17281(world):
+    _world_apply(world, 'carbon_storage', 'evaporation', 'direct')
