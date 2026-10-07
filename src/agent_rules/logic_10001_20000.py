@@ -2369,3 +2369,6 @@ def logic_18768(agents, world):
 
 def logic_18769(agents, world):
     _agent_apply(world, agents, 'sharing_capacity', 'future_help', 'gap')
+
+def logic_18770(agents, world):
+    _agent_apply(world, agents, 'help_drive', 'resource_discovery', 'gap')
