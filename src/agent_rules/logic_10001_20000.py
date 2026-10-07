@@ -758,3 +758,6 @@ def logic_18231(agents, world):
 
 def logic_18232(agents, world):
     _agent_apply(world, agents, 'shelter_need', 'metabolic_cost', 'square')
+
+def logic_18233(agents, world):
+    _agent_apply(world, agents, 'fire_fear', 'metabolic_cost', 'square')
