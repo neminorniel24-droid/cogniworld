@@ -9722,3 +9722,6 @@ def logic_7307(agents, world):
 
 def logic_7308(agents, world):
     _agent_apply(world, agents, 'biomass', 'vegetation_expectation', 'direct')
+
+def logic_7309(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'vegetation_expectation', 'direct')
