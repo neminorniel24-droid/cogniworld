@@ -9128,3 +9128,6 @@ def logic_13021(world):
 
 def logic_13022(world):
     _world_apply(world, 'pathogen_load', 'carbon_storage', 'saturation')
+
+def logic_13023(world):
+    _world_apply(world, 'pathogen_load', 'fire_risk', 'gap')
