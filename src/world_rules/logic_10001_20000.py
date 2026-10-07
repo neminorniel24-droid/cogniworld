@@ -21443,3 +21443,6 @@ def logic_17126(world):
 
 def logic_17127(world):
     _world_apply(world, 'erosion', 'soil_carbon', 'square')
+
+def logic_17128(world):
+    _world_apply(world, 'erosion', 'surface_ice', 'pulse')
