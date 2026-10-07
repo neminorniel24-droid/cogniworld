@@ -8558,3 +8558,6 @@ def logic_6919(agents, world):
 
 def logic_6920(agents, world):
     _agent_apply(world, agents, 'carbon_storage', 'attack_threshold', 'direct')
+
+def logic_6921(agents, world):
+    _agent_apply(world, agents, 'fire_risk', 'attack_threshold', 'direct')
