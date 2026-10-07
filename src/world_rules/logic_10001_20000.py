@@ -5591,3 +5591,6 @@ def logic_11842(world):
 
 def logic_11843(world):
     _world_apply(world, 'flowers', 'organic_matter', 'pulse')
+
+def logic_11844(world):
+    _world_apply(world, 'flowers', 'deadwood', 'saturation')
