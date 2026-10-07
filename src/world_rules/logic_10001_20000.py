@@ -14963,3 +14963,6 @@ def logic_14966(world):
 
 def logic_14967(world):
     _world_apply(world, 'methane', 'deadwood', 'square')
+
+def logic_14968(world):
+    _world_apply(world, 'methane', 'pollinators', 'pulse')
