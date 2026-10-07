@@ -9371,3 +9371,6 @@ def logic_13102(world):
 
 def logic_13103(world):
     _world_apply(world, 'habitat_stress', 'methane', 'gap')
+
+def logic_13104(world):
+    _world_apply(world, 'habitat_stress', 'pathogen_load', 'direct')
