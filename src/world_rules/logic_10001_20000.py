@@ -677,3 +677,6 @@ def logic_10204(world):
 
 def logic_10205(world):
     _world_apply(world, 'rain', 'wetland', 'gap')
+
+def logic_10206(world):
+    _world_apply(world, 'rain', 'carbon_storage', 'direct')
