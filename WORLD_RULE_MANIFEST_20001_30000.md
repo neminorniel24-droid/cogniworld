@@ -2560,3 +2560,4 @@
 - 22559: integrated cross-system causal rule
 - 22560: integrated cross-system causal rule
 - 22561: integrated cross-system causal rule
+- 22562: integrated cross-system causal rule
