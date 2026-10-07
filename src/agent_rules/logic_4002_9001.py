@@ -9086,3 +9086,6 @@ def logic_7095(agents, world):
 
 def logic_7096(agents, world):
     _agent_apply(world, agents, 'humidity', 'shelter_need', 'direct')
+
+def logic_7097(agents, world):
+    _agent_apply(world, agents, 'cloud', 'shelter_need', 'direct')
