@@ -3872,3 +3872,6 @@ def logic_11269(world):
 
 def logic_11270(world):
     _world_apply(world, 'root_density', 'organic_matter', 'pulse')
+
+def logic_11271(world):
+    _world_apply(world, 'root_density', 'deadwood', 'saturation')
