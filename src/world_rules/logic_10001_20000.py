@@ -4619,3 +4619,6 @@ def logic_11518(world):
 
 def logic_11519(world):
     _world_apply(world, 'groundwater', 'methane', 'pulse')
+
+def logic_11520(world):
+    _world_apply(world, 'groundwater', 'pathogen_load', 'saturation')
