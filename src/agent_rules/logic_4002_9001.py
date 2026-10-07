@@ -1676,3 +1676,6 @@ def logic_4625(agents, world):
 
 def logic_4626(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'infection_risk', 'direct')
+
+def logic_4627(agents, world):
+    _agent_apply(world, agents, 'hydration', 'infection_risk', 'direct')
