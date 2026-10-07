@@ -554,3 +554,6 @@ def logic_10163(world):
 
 def logic_10164(world):
     _world_apply(world, 'cloud', 'ash', 'saturation')
+
+def logic_10165(world):
+    _world_apply(world, 'cloud', 'snowpack', 'gap')
