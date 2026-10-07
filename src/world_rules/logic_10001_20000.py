@@ -12770,3 +12770,6 @@ def logic_14235(world):
 
 def logic_14236(world):
     _world_apply(world, 'runoff', 'predator', 'gap')
+
+def logic_14237(world):
+    _world_apply(world, 'runoff', 'carrion', 'direct')
