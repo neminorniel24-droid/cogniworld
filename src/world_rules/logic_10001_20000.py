@@ -5144,3 +5144,6 @@ def logic_11693(world):
 
 def logic_11694(world):
     _world_apply(world, 'organic_matter', 'detritus', 'gap')
+
+def logic_11695(world):
+    _world_apply(world, 'organic_matter', 'methane', 'direct')
