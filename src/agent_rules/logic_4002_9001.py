@@ -14033,3 +14033,6 @@ def logic_8744(agents, world):
 
 def logic_8745(agents, world):
     _agent_apply(world, agents, 'ice', 'reciprocity_score', 'direct')
+
+def logic_8746(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'reciprocity_score', 'direct')
