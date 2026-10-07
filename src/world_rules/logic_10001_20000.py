@@ -4010,3 +4010,6 @@ def logic_11315(world):
 
 def logic_11316(world):
     _world_apply(world, 'wetland', 'pollinators', 'gap')
+
+def logic_11317(world):
+    _world_apply(world, 'wetland', 'flowers', 'direct')
