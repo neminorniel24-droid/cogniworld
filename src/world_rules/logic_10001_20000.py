@@ -16196,3 +16196,6 @@ def logic_15377(world):
 
 def logic_15378(world):
     _world_apply(world, 'ash', 'vegetation', 'gap')
+
+def logic_15379(world):
+    _world_apply(world, 'ash', 'biomass', 'direct')
