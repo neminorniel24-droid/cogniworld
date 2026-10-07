@@ -15575,3 +15575,6 @@ def logic_15170(world):
 
 def logic_15171(world):
     _world_apply(world, 'soil_depth', 'methane', 'square')
+
+def logic_15172(world):
+    _world_apply(world, 'soil_depth', 'pathogen_load', 'pulse')
