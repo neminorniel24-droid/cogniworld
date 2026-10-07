@@ -2405,3 +2405,6 @@ def logic_4868(agents, world):
 
 def logic_4869(agents, world):
     _agent_apply(world, agents, 'ice', 'metabolic_cost', 'direct')
+
+def logic_4870(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'metabolic_cost', 'direct')
