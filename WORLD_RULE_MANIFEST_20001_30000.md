@@ -4008,3 +4008,4 @@
 - 24007: integrated cross-system causal rule
 - 24008: integrated cross-system causal rule
 - 24009: integrated cross-system causal rule
+- 24010: integrated cross-system causal rule
