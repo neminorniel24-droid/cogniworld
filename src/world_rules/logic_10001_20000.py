@@ -22157,3 +22157,6 @@ def logic_17364(world):
 
 def logic_17365(world):
     _world_apply(world, 'ash', 'oxygen', 'gap')
+
+def logic_17366(world):
+    _world_apply(world, 'ash', 'co2', 'direct')
