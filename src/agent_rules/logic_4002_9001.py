@@ -12353,3 +12353,6 @@ def logic_8184(agents, world):
 
 def logic_8185(agents, world):
     _agent_apply(world, agents, 'cloud', 'last_food', 'direct')
+
+def logic_8186(agents, world):
+    _agent_apply(world, agents, 'rain', 'last_food', 'direct')
