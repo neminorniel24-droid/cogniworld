@@ -3161,3 +3161,6 @@ def logic_19032(agents, world):
 
 def logic_19033(agents, world):
     _agent_apply(world, agents, 'stability', 'betrayal_memory', 'inverse')
+
+def logic_19034(agents, world):
+    _agent_apply(world, agents, 'habitat_stress', 'betrayal_memory', 'inverse')
