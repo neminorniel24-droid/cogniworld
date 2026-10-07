@@ -14741,3 +14741,6 @@ def logic_8980(agents, world):
 
 def logic_8981(agents, world):
     _agent_apply(world, agents, 'hunger', 'exploration_score', 'direct')
+
+def logic_8982(agents, world):
+    _agent_apply(world, agents, 'health', 'exploration_score', 'direct')
