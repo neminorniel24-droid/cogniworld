@@ -7241,3 +7241,6 @@ def logic_12392(world):
 
 def logic_12393(world):
     _world_apply(world, 'vegetation', 'co2', 'square')
+
+def logic_12394(world):
+    _world_apply(world, 'vegetation', 'photosynthesis_factor', 'pulse')
