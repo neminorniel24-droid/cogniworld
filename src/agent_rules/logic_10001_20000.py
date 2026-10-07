@@ -5678,3 +5678,6 @@ def logic_19871(agents, world):
 
 def logic_19872(agents, world):
     _agent_apply(world, agents, 'group_stability', 'dehydration', 'inverse')
+
+def logic_19873(agents, world):
+    _agent_apply(world, agents, 'sharing_capacity', 'dehydration', 'inverse')
