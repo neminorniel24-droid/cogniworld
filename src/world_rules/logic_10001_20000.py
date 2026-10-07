@@ -9398,3 +9398,6 @@ def logic_13111(world):
 
 def logic_13112(world):
     _world_apply(world, 'habitat_stress', 'ash', 'gap')
+
+def logic_13113(world):
+    _world_apply(world, 'habitat_stress', 'snowpack', 'square')
