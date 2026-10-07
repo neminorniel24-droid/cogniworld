@@ -14726,3 +14726,6 @@ def logic_14887(world):
 
 def logic_14888(world):
     _world_apply(world, 'detritus', 'cloud', 'pulse')
+
+def logic_14889(world):
+    _world_apply(world, 'detritus', 'rain', 'gap')
