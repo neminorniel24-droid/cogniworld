@@ -12590,3 +12590,6 @@ def logic_8263(agents, world):
 
 def logic_8264(agents, world):
     _agent_apply(world, agents, 'nutrients', 'last_interaction', 'direct')
+
+def logic_8265(agents, world):
+    _agent_apply(world, agents, 'decomposition_rate', 'last_interaction', 'direct')
