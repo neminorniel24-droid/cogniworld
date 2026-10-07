@@ -833,3 +833,6 @@ def logic_18256(agents, world):
 
 def logic_18257(agents, world):
     _agent_apply(world, agents, 'risk_score', 'reproduction_drive', 'square')
+
+def logic_18258(agents, world):
+    _agent_apply(world, agents, 'safety_score', 'migration_drive', 'square')
