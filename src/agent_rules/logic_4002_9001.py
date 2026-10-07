@@ -3080,3 +3080,6 @@ def logic_5093(agents, world):
 
 def logic_5094(agents, world):
     _agent_apply(world, agents, 'pollinators', 'exploration_drive', 'direct')
+
+def logic_5095(agents, world):
+    _agent_apply(world, agents, 'flowers', 'exploration_drive', 'direct')
