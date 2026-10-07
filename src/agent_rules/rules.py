@@ -34987,3 +34987,10 @@ def logic_35376(agents, world):
     src = _local(world, agents, 'deadwood')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.fear = _delta(agents.fear, delta)
+
+
+def logic_35377(agents, world):
+    """Environmental pollinators shapes agent wealth (root)."""
+    src = _local(world, agents, 'pollinators')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.wealth = _delta(agents.wealth, delta)
