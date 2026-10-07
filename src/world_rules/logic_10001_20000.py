@@ -18119,3 +18119,6 @@ def logic_16018(world):
 
 def logic_16019(world):
     _world_apply(world, 'surface_water', 'sediment', 'direct')
+
+def logic_16020(world):
+    _world_apply(world, 'surface_water', 'salinity', 'square')
