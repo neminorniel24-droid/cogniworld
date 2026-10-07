@@ -12404,3 +12404,6 @@ def logic_8201(agents, world):
 
 def logic_8202(agents, world):
     _agent_apply(world, agents, 'evaporation', 'last_food', 'direct')
+
+def logic_8203(agents, world):
+    _agent_apply(world, agents, 'detritus', 'last_food', 'direct')
