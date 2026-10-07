@@ -6023,3 +6023,6 @@ def logic_6074(agents, world):
 
 def logic_6075(agents, world):
     _agent_apply(world, agents, 'surface_water', 'sharing_capacity', 'direct')
+
+def logic_6076(agents, world):
+    _agent_apply(world, agents, 'humidity', 'sharing_capacity', 'direct')
