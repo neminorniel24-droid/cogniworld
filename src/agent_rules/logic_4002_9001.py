@@ -13574,3 +13574,6 @@ def logic_8591(agents, world):
 
 def logic_8592(agents, world):
     _agent_apply(world, agents, 'humidity', 'competition_score', 'direct')
+
+def logic_8593(agents, world):
+    _agent_apply(world, agents, 'cloud', 'competition_score', 'direct')
