@@ -8048,3 +8048,6 @@ def logic_6749(agents, world):
 
 def logic_6750(agents, world):
     _agent_apply(world, agents, 'strategy_score', 'future_help', 'direct')
+
+def logic_6751(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'future_help', 'direct')
