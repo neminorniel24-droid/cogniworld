@@ -458,3 +458,6 @@ def logic_18131(agents, world):
 
 def logic_18132(agents, world):
     _agent_apply(world, agents, 'strategy_persistence', 'pathogen_risk', 'inverse')
+
+def logic_18133(agents, world):
+    _agent_apply(world, agents, 'strategy_mixing', 'pathogen_risk', 'inverse')
