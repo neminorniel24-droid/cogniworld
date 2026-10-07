@@ -9896,3 +9896,6 @@ def logic_7365(agents, world):
 
 def logic_7366(agents, world):
     _agent_apply(world, agents, 'temperature', 'stress', 'direct')
+
+def logic_7367(agents, world):
+    _agent_apply(world, agents, 'surface_water', 'stress', 'direct')
