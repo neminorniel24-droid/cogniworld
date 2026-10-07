@@ -11030,3 +11030,6 @@ def logic_7743(agents, world):
 
 def logic_7744(agents, world):
     _agent_apply(world, agents, 'organic_matter', 'conflict_history', 'direct')
+
+def logic_7745(agents, world):
+    _agent_apply(world, agents, 'deadwood', 'conflict_history', 'direct')
