@@ -14780,3 +14780,6 @@ def logic_14905(world):
 
 def logic_14906(world):
     _world_apply(world, 'detritus', 'methane', 'saturation')
+
+def logic_14907(world):
+    _world_apply(world, 'detritus', 'pathogen_load', 'gap')
