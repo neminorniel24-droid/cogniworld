@@ -12014,3 +12014,6 @@ def logic_8071(agents, world):
 
 def logic_8072(agents, world):
     _agent_apply(world, agents, 'erosion', 'last_reward', 'direct')
+
+def logic_8073(agents, world):
+    _agent_apply(world, agents, 'soil_depth', 'last_reward', 'direct')
