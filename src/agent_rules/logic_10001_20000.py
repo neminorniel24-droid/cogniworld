@@ -4664,3 +4664,6 @@ def logic_19533(agents, world):
 
 def logic_19534(agents, world):
     _agent_apply(world, agents, 'decomposition_rate', 'retaliation_risk', 'reciprocal')
+
+def logic_19535(agents, world):
+    _agent_apply(world, agents, 'oxygen', 'retaliation_risk', 'reciprocal')
