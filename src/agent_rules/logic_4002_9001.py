@@ -13820,3 +13820,6 @@ def logic_8673(agents, world):
 
 def logic_8674(agents, world):
     _agent_apply(world, agents, 'oxygen', 'defection_score', 'direct')
+
+def logic_8675(agents, world):
+    _agent_apply(world, agents, 'co2', 'defection_score', 'direct')
