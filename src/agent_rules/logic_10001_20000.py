@@ -1961,3 +1961,6 @@ def logic_18632(agents, world):
 
 def logic_18633(agents, world):
     _agent_apply(world, agents, 'social_avoidance', 'selfishness', 'reciprocal')
+
+def logic_18634(agents, world):
+    _agent_apply(world, agents, 'selfishness', 'generosity', 'reciprocal')
