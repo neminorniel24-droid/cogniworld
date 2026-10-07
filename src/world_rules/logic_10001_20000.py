@@ -21302,3 +21302,6 @@ def logic_17079(world):
 
 def logic_17080(world):
     _world_apply(world, 'habitat_stress', 'pollinators', 'saturation')
+
+def logic_17081(world):
+    _world_apply(world, 'habitat_stress', 'flowers', 'direct')
