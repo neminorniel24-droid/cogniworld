@@ -13823,3 +13823,6 @@ def logic_14586(world):
 
 def logic_14587(world):
     _world_apply(world, 'nutrients', 'biomass', 'gap')
+
+def logic_14588(world):
+    _world_apply(world, 'nutrients', 'herbivore', 'direct')
