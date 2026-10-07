@@ -12080,3 +12080,6 @@ def logic_8093(agents, world):
 
 def logic_8094(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'last_reward', 'direct')
+
+def logic_8095(agents, world):
+    _agent_apply(world, agents, 'hydration', 'last_reward', 'direct')
