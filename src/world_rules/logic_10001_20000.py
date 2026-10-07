@@ -3560,3 +3560,6 @@ def logic_11165(world):
 
 def logic_11166(world):
     _world_apply(world, 'erosion', 'detritus', 'direct')
+
+def logic_11167(world):
+    _world_apply(world, 'erosion', 'methane', 'square')
