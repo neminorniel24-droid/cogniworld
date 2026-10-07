@@ -54741,3 +54741,10 @@ def logic_38198(agents, world):
     src = _local(world, agents, 'vegetation')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.dehydration = _delta(agents.dehydration, delta)
+
+
+def logic_38199(agents, world):
+    """Environmental biomass shapes agent reproduction_drive (inverse)."""
+    src = _local(world, agents, 'biomass')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.reproduction_drive = _delta(agents.reproduction_drive, delta)
