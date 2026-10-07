@@ -1781,3 +1781,6 @@ def logic_18572(agents, world):
 
 def logic_18573(agents, world):
     _agent_apply(world, agents, 'evaporation', 'sharing_capacity', 'saturation')
+
+def logic_18574(agents, world):
+    _agent_apply(world, agents, 'detritus', 'sharing_capacity', 'saturation')
