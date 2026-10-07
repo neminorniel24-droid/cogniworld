@@ -2105,3 +2105,6 @@ def logic_18680(agents, world):
 
 def logic_18681(agents, world):
     _agent_apply(world, agents, 'migration_score', 'gratitude', 'reciprocal')
+
+def logic_18682(agents, world):
+    _agent_apply(world, agents, 'reproduction_score', 'gratitude', 'reciprocal')
