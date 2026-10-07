@@ -19310,3 +19310,6 @@ def logic_16415(world):
 
 def logic_16416(world):
     _world_apply(world, 'biomass', 'salinity', 'square')
+
+def logic_16417(world):
+    _world_apply(world, 'biomass', 'algae', 'saturation')
