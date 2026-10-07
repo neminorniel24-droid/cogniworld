@@ -13877,3 +13877,6 @@ def logic_8692(agents, world):
 
 def logic_8693(agents, world):
     _agent_apply(world, agents, 'sediment', 'defection_score', 'direct')
+
+def logic_8694(agents, world):
+    _agent_apply(world, agents, 'salinity', 'defection_score', 'direct')
