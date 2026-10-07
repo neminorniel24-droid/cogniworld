@@ -197,3 +197,6 @@ def logic_18044(agents, world):
 
 def logic_18045(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'hunger', 'direct')
+
+def logic_18046(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'hunger', 'direct')
