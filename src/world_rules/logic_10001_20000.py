@@ -2807,3 +2807,6 @@ def logic_10914(world):
 
 def logic_10915(world):
     _world_apply(world, 'evaporation', 'sediment', 'saturation')
+
+def logic_10916(world):
+    _world_apply(world, 'evaporation', 'salinity', 'gap')
