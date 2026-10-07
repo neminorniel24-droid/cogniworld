@@ -30465,3 +30465,10 @@ def logic_34730(agents, world):
     src = _local(world, agents, 'algae')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.competition_pressure = _delta(agents.competition_pressure, delta)
+
+
+def logic_34731(agents, world):
+    """Environmental organic_matter shapes agent generosity (inverse)."""
+    src = _local(world, agents, 'organic_matter')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.generosity = _delta(agents.generosity, delta)
