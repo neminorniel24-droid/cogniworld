@@ -22922,3 +22922,6 @@ def logic_17619(world):
 
 def logic_17620(world):
     _world_apply(world, 'organic_matter', 'wind_x', 'square')
+
+def logic_17621(world):
+    _world_apply(world, 'organic_matter', 'wind_y', 'pulse')
