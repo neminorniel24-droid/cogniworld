@@ -5015,3 +5015,6 @@ def logic_19650(agents, world):
 
 def logic_19651(agents, world):
     _agent_apply(world, agents, 'strategy_mixing', 'learning_rate', 'gap')
+
+def logic_19652(agents, world):
+    _agent_apply(world, agents, 'learning_rate', 'strategy_mixing', 'gap')
