@@ -12647,3 +12647,6 @@ def logic_8282(agents, world):
 
 def logic_8283(agents, world):
     _agent_apply(world, agents, 'snowpack', 'last_interaction', 'direct')
+
+def logic_8284(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'last_interaction', 'direct')
