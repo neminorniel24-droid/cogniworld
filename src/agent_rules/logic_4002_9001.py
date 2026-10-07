@@ -3041,3 +3041,6 @@ def logic_5080(agents, world):
 
 def logic_5081(agents, world):
     _agent_apply(world, agents, 'soil_depth', 'exploration_drive', 'direct')
+
+def logic_5082(agents, world):
+    _agent_apply(world, agents, 'root_density', 'exploration_drive', 'direct')
