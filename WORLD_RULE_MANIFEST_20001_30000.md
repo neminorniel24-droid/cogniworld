@@ -1001,3 +1001,4 @@
 - 21000: integrated cross-system causal rule
 - 21001: integrated cross-system causal rule
 - 21002: integrated cross-system causal rule
+- 21003: integrated cross-system causal rule
