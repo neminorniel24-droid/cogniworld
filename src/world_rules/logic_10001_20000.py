@@ -20426,3 +20426,6 @@ def logic_16787(world):
 
 def logic_16788(world):
     _world_apply(world, 'ice', 'herbivore', 'direct')
+
+def logic_16789(world):
+    _world_apply(world, 'ice', 'predator', 'square')
