@@ -1095,3 +1095,6 @@ def logic_9539(agents, world):
 
 def logic_9540(agents, world):
     _agent_apply(world, agents, 'payoff', 'thermal_stress', 'direct')
+
+def logic_9541(agents, world):
+    _agent_apply(world, agents, 'temperature', 'dehydration', 'direct')
