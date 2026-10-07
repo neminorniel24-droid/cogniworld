@@ -635,3 +635,6 @@ def logic_18190(agents, world):
 
 def logic_18191(agents, world):
     _agent_apply(world, agents, 'health', 'fear', 'square')
+
+def logic_18192(agents, world):
+    _agent_apply(world, agents, 'thermal_stress', 'fear', 'square')
