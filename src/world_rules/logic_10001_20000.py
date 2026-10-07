@@ -21224,3 +21224,6 @@ def logic_17053(world):
 
 def logic_17054(world):
     _world_apply(world, 'habitat_stress', 'carrion', 'gap')
+
+def logic_17055(world):
+    _world_apply(world, 'habitat_stress', 'nutrients', 'direct')
