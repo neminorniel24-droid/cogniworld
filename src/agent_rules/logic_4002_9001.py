@@ -2492,3 +2492,6 @@ def logic_4897(agents, world):
 
 def logic_4898(agents, world):
     _agent_apply(world, agents, 'ticks_since_food', 'metabolic_cost', 'direct')
+
+def logic_4899(agents, world):
+    _agent_apply(world, agents, 'hydration', 'metabolic_cost', 'direct')
