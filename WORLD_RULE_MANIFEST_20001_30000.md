@@ -7222,3 +7222,4 @@
 - 27221: integrated cross-system causal rule
 - 27222: integrated cross-system causal rule
 - 27223: integrated cross-system causal rule
+- 27224: integrated cross-system causal rule
