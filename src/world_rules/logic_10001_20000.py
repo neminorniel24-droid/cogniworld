@@ -1466,3 +1466,6 @@ def logic_10467(world):
 
 def logic_10468(world):
     _world_apply(world, 'biomass', 'root_density', 'direct')
+
+def logic_10469(world):
+    _world_apply(world, 'biomass', 'wetland', 'square')
