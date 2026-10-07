@@ -5627,3 +5627,6 @@ def logic_19854(agents, world):
 
 def logic_19855(agents, world):
     _agent_apply(world, agents, 'metabolic_cost', 'dehydration', 'direct')
+
+def logic_19856(agents, world):
+    _agent_apply(world, agents, 'reproduction_drive', 'dehydration', 'direct')
