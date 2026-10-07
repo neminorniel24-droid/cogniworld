@@ -12179,3 +12179,6 @@ def logic_8126(agents, world):
 
 def logic_8127(agents, world):
     _agent_apply(world, agents, 'carrion', 'last_energy_delta', 'direct')
+
+def logic_8128(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'last_energy_delta', 'direct')
