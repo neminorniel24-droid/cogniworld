@@ -2651,3 +2651,6 @@ def logic_18862(agents, world):
 
 def logic_18863(agents, world):
     _agent_apply(world, agents, 'groundwater', 'oxygen_need', 'feedback')
+
+def logic_18864(agents, world):
+    _agent_apply(world, agents, 'sediment', 'oxygen_need', 'feedback')
