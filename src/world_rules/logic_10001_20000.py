@@ -20603,3 +20603,6 @@ def logic_16846(world):
 
 def logic_16847(world):
     _world_apply(world, 'evaporation', 'soil_depth', 'square')
+
+def logic_16848(world):
+    _world_apply(world, 'evaporation', 'root_density', 'pulse')
