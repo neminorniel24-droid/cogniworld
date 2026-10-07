@@ -2120,3 +2120,6 @@ def logic_18685(agents, world):
 
 def logic_18686(agents, world):
     _agent_apply(world, agents, 'learning_rate', 'gratitude', 'reciprocal')
+
+def logic_18687(agents, world):
+    _agent_apply(world, agents, 'memory_update', 'gratitude', 'reciprocal')
