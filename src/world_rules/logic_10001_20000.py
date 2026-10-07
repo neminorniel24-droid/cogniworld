@@ -17750,3 +17750,6 @@ def logic_15895(world):
 
 def logic_15896(world):
     _world_apply(world, 'soil_carbon', 'surface_ice', 'square')
+
+def logic_15897(world):
+    _world_apply(world, 'surface_ice', 'temperature', 'saturation')
