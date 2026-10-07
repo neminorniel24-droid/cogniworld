@@ -14006,3 +14006,6 @@ def logic_14647(world):
 
 def logic_14648(world):
     _world_apply(world, 'decomposition_rate', 'root_density', 'pulse')
+
+def logic_14649(world):
+    _world_apply(world, 'decomposition_rate', 'wetland', 'gap')
