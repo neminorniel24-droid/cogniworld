@@ -2714,3 +2714,6 @@ def logic_4971(agents, world):
 
 def logic_4972(agents, world):
     _agent_apply(world, agents, 'risk_tolerance', 'reproduction_drive', 'direct')
+
+def logic_4973(agents, world):
+    _agent_apply(world, agents, 'competition_pressure', 'reproduction_drive', 'direct')
