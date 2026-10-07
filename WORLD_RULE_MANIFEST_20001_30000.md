@@ -4658,3 +4658,4 @@
 - 24657: integrated cross-system causal rule
 - 24658: integrated cross-system causal rule
 - 24659: integrated cross-system causal rule
+- 24660: integrated cross-system causal rule
