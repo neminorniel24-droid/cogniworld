@@ -247,3 +247,4 @@
 - 20246: integrated cross-system causal rule
 - 20247: integrated cross-system causal rule
 - 20248: integrated cross-system causal rule
+- 20249: integrated cross-system causal rule
