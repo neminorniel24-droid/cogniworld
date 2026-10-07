@@ -191,3 +191,6 @@ def logic_10042(world):
 
 def logic_10043(world):
     _world_apply(world, 'temperature', 'soil_carbon', 'pulse')
+
+def logic_10044(world):
+    _world_apply(world, 'temperature', 'surface_ice', 'saturation')
