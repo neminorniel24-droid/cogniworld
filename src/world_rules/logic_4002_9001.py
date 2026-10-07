@@ -272,3 +272,6 @@ def logic_4057(world):
 
 def logic_4058(world):
     _world_apply(world, 'erosion', 'sediment', 'direct')
+
+def logic_4059(world):
+    _world_apply(world, 'wetland', 'biodiversity', 'inverse')
