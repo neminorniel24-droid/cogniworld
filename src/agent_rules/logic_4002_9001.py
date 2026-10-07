@@ -12761,3 +12761,6 @@ def logic_8320(agents, world):
 
 def logic_8321(agents, world):
     _agent_apply(world, agents, 'cloud', 'risk_tolerance', 'direct')
+
+def logic_8322(agents, world):
+    _agent_apply(world, agents, 'rain', 'risk_tolerance', 'direct')
