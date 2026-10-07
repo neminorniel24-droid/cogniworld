@@ -9320,3 +9320,4 @@
 - 29319: integrated cross-system causal rule
 - 29320: integrated cross-system causal rule
 - 29321: integrated cross-system causal rule
+- 29322: integrated cross-system causal rule
