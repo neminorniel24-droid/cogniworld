@@ -9578,3 +9578,6 @@ def logic_7259(agents, world):
 
 def logic_7260(agents, world):
     _agent_apply(world, agents, 'carbon_storage', 'resource_competition', 'direct')
+
+def logic_7261(agents, world):
+    _agent_apply(world, agents, 'fire_risk', 'resource_competition', 'direct')
