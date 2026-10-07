@@ -20975,3 +20975,6 @@ def logic_16970(world):
 
 def logic_16971(world):
     _world_apply(world, 'pathogen_load', 'photosynthesis_factor', 'square')
+
+def logic_16972(world):
+    _world_apply(world, 'pathogen_load', 'ice', 'pulse')
