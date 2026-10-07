@@ -10778,3 +10778,6 @@ def logic_7659(agents, world):
 
 def logic_7660(agents, world):
     _agent_apply(world, agents, 'methane', 'betrayal_memory', 'direct')
+
+def logic_7661(agents, world):
+    _agent_apply(world, agents, 'pathogen_load', 'betrayal_memory', 'direct')
