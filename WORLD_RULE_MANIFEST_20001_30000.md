@@ -610,3 +610,4 @@
 - 20609: integrated cross-system causal rule
 - 20610: integrated cross-system causal rule
 - 20611: integrated cross-system causal rule
+- 20612: integrated cross-system causal rule
