@@ -20348,3 +20348,6 @@ def logic_16761(world):
 
 def logic_16762(world):
     _world_apply(world, 'photosynthesis_factor', 'carbon_storage', 'square')
+
+def logic_16763(world):
+    _world_apply(world, 'photosynthesis_factor', 'fire_risk', 'pulse')
