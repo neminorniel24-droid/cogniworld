@@ -131,3 +131,6 @@ def logic_10022(world):
 
 def logic_10023(world):
     _world_apply(world, 'temperature', 'pathogen_load', 'gap')
+
+def logic_10024(world):
+    _world_apply(world, 'temperature', 'biodiversity', 'direct')
