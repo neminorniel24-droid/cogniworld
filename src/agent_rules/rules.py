@@ -32572,3 +32572,10 @@ def logic_35031(agents, world):
     src = _local(world, agents, 'oxygen')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.future_payoff_weight = _delta(agents.future_payoff_weight, delta)
+
+
+def logic_35032(agents, world):
+    """Environmental co2 shapes agent thermal_stress (square)."""
+    src = _local(world, agents, 'co2')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.thermal_stress = _delta(agents.thermal_stress, delta)
