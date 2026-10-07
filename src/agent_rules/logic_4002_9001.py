@@ -2183,3 +2183,6 @@ def logic_4794(agents, world):
 
 def logic_4795(agents, world):
     _agent_apply(world, agents, 'carrion', 'recovery', 'direct')
+
+def logic_4796(agents, world):
+    _agent_apply(world, agents, 'nutrients', 'recovery', 'direct')
