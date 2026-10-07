@@ -7020,3 +7020,4 @@
 - 27019: integrated cross-system causal rule
 - 27020: integrated cross-system causal rule
 - 27021: integrated cross-system causal rule
+- 27022: integrated cross-system causal rule
