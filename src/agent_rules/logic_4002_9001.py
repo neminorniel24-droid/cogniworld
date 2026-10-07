@@ -581,3 +581,6 @@ def logic_4260(agents, world):
 
 def logic_4261(agents, world):
     _agent_apply(world, agents, 'pathogen_load', 'hunger', 'direct')
+
+def logic_4262(agents, world):
+    _agent_apply(world, agents, 'biodiversity', 'hunger', 'direct')
