@@ -19517,3 +19517,6 @@ def logic_16484(world):
 
 def logic_16485(world):
     _world_apply(world, 'predator', 'co2', 'gap')
+
+def logic_16486(world):
+    _world_apply(world, 'predator', 'photosynthesis_factor', 'direct')
