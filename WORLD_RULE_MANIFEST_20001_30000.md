@@ -5645,3 +5645,4 @@
 - 25644: integrated cross-system causal rule
 - 25645: integrated cross-system causal rule
 - 25646: integrated cross-system causal rule
+- 25647: integrated cross-system causal rule
