@@ -825,3 +825,4 @@
 - 20824: integrated cross-system causal rule
 - 20825: integrated cross-system causal rule
 - 20826: integrated cross-system causal rule
+- 20827: integrated cross-system causal rule
