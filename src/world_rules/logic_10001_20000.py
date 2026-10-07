@@ -2645,3 +2645,6 @@ def logic_10860(world):
 
 def logic_10861(world):
     _world_apply(world, 'ice', 'habitat_stress', 'pulse')
+
+def logic_10862(world):
+    _world_apply(world, 'ice', 'erosion', 'saturation')
