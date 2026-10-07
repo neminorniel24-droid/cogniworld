@@ -11420,3 +11420,6 @@ def logic_7873(agents, world):
 
 def logic_7874(agents, world):
     _agent_apply(world, agents, 'ash', 'help_received', 'direct')
+
+def logic_7875(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'help_received', 'direct')
