@@ -12113,3 +12113,6 @@ def logic_8104(agents, world):
 
 def logic_8105(agents, world):
     _agent_apply(world, agents, 'trust', 'last_reward', 'direct')
+
+def logic_8106(agents, world):
+    _agent_apply(world, agents, 'reputation', 'last_reward', 'direct')
