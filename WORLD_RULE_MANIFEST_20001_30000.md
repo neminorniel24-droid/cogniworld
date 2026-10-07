@@ -240,3 +240,4 @@
 - 20239: integrated cross-system causal rule
 - 20240: integrated cross-system causal rule
 - 20241: integrated cross-system causal rule
+- 20242: integrated cross-system causal rule
