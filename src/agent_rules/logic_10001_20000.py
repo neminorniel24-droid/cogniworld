@@ -1838,3 +1838,6 @@ def logic_18591(agents, world):
 
 def logic_18592(agents, world):
     _agent_apply(world, agents, 'deadwood', 'sharing_capacity', 'saturation')
+
+def logic_18593(agents, world):
+    _agent_apply(world, agents, 'pollinators', 'help_drive', 'saturation')
