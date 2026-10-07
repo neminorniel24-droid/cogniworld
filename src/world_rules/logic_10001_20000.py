@@ -7781,3 +7781,6 @@ def logic_12572(world):
 
 def logic_12573(world):
     _world_apply(world, 'carrion', 'detritus', 'saturation')
+
+def logic_12574(world):
+    _world_apply(world, 'carrion', 'methane', 'gap')
