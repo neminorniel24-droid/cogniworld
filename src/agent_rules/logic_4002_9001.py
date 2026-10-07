@@ -12476,3 +12476,6 @@ def logic_8225(agents, world):
 
 def logic_8226(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'last_food', 'direct')
+
+def logic_8227(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'last_food', 'direct')
