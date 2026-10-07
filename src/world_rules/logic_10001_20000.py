@@ -1313,3 +1313,6 @@ def logic_10416(world):
 
 def logic_10417(world):
     _world_apply(world, 'vegetation', 'detritus', 'saturation')
+
+def logic_10418(world):
+    _world_apply(world, 'vegetation', 'methane', 'gap')
