@@ -40034,3 +40034,10 @@ def logic_36097(agents, world):
     src = _local(world, agents, 'biodiversity')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.foraging_score = _delta(agents.foraging_score, delta)
+
+
+def logic_36098(agents, world):
+    """Environmental habitat_stress shapes agent migration_score (direct)."""
+    src = _local(world, agents, 'habitat_stress')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.migration_score = _delta(agents.migration_score, delta)
