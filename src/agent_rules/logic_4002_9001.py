@@ -2651,3 +2651,6 @@ def logic_4950(agents, world):
 
 def logic_4951(agents, world):
     _agent_apply(world, agents, 'snowpack', 'reproduction_drive', 'direct')
+
+def logic_4952(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'reproduction_drive', 'direct')
