@@ -4277,3 +4277,6 @@ def logic_5492(agents, world):
 
 def logic_5493(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'reputation', 'direct')
+
+def logic_5494(agents, world):
+    _agent_apply(world, agents, 'ash', 'reputation', 'direct')
