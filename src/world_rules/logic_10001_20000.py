@@ -10028,3 +10028,6 @@ def logic_13321(world):
 
 def logic_13322(world):
     _world_apply(world, 'carbon_storage', 'detritus', 'square')
+
+def logic_13323(world):
+    _world_apply(world, 'carbon_storage', 'methane', 'pulse')
