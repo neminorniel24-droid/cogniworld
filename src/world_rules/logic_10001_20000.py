@@ -2840,3 +2840,6 @@ def logic_10925(world):
 
 def logic_10926(world):
     _world_apply(world, 'detritus', 'surface_water', 'direct')
+
+def logic_10927(world):
+    _world_apply(world, 'detritus', 'humidity', 'square')
