@@ -12371,3 +12371,6 @@ def logic_14102(world):
 
 def logic_14103(world):
     _world_apply(world, 'cloud', 'herbivore', 'gap')
+
+def logic_14104(world):
+    _world_apply(world, 'cloud', 'predator', 'direct')
