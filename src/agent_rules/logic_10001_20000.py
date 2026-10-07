@@ -1298,3 +1298,6 @@ def logic_18411(agents, world):
 
 def logic_18412(agents, world):
     _agent_apply(world, agents, 'future_payoff_weight', 'reputation', 'pulse')
+
+def logic_18413(agents, world):
+    _agent_apply(world, agents, 'self_preservation', 'reputation', 'pulse')
