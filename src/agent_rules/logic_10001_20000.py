@@ -3470,3 +3470,6 @@ def logic_19135(agents, world):
 
 def logic_19136(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'local_density', 'square')
+
+def logic_19137(agents, world):
+    _agent_apply(world, agents, 'ash', 'local_density', 'square')
