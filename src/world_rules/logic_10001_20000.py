@@ -14960,3 +14960,6 @@ def logic_14965(world):
 
 def logic_14966(world):
     _world_apply(world, 'methane', 'organic_matter', 'direct')
+
+def logic_14967(world):
+    _world_apply(world, 'methane', 'deadwood', 'square')
