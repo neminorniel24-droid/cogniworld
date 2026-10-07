@@ -17225,3 +17225,6 @@ def logic_15720(world):
 
 def logic_15721(world):
     _world_apply(world, 'pollinators', 'temperature', 'direct')
+
+def logic_15722(world):
+    _world_apply(world, 'pollinators', 'surface_water', 'square')
