@@ -10823,3 +10823,6 @@ def logic_7674(agents, world):
 
 def logic_7675(agents, world):
     _agent_apply(world, agents, 'algae', 'betrayal_memory', 'direct')
+
+def logic_7676(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'betrayal_memory', 'direct')
