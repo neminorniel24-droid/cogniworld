@@ -1638,3 +1638,4 @@
 - 21637: integrated cross-system causal rule
 - 21638: integrated cross-system causal rule
 - 21639: integrated cross-system causal rule
+- 21640: integrated cross-system causal rule
