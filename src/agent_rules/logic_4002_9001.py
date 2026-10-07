@@ -8390,3 +8390,6 @@ def logic_6863(agents, world):
 
 def logic_6864(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'empathy', 'direct')
+
+def logic_6865(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'empathy', 'direct')
