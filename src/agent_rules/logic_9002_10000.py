@@ -2208,3 +2208,6 @@ def logic_9910(agents, world):
 
 def logic_9911(agents, world):
     _agent_apply(world, agents, 'carbon_storage', 'recovery', 'direct')
+
+def logic_9912(agents, world):
+    _agent_apply(world, agents, 'fire_risk', 'recovery', 'direct')
