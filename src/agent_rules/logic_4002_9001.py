@@ -9113,3 +9113,6 @@ def logic_7104(agents, world):
 
 def logic_7105(agents, world):
     _agent_apply(world, agents, 'herbivore', 'shelter_need', 'direct')
+
+def logic_7106(agents, world):
+    _agent_apply(world, agents, 'predator', 'shelter_need', 'direct')
