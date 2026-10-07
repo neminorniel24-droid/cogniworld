@@ -14153,3 +14153,6 @@ def logic_14696(world):
 
 def logic_14697(world):
     _world_apply(world, 'oxygen', 'snowpack', 'saturation')
+
+def logic_14698(world):
+    _world_apply(world, 'oxygen', 'groundwater', 'gap')
