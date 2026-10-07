@@ -13472,3 +13472,6 @@ def logic_8557(agents, world):
 
 def logic_8558(agents, world):
     _agent_apply(world, agents, 'salinity', 'cooperation_score', 'direct')
+
+def logic_8559(agents, world):
+    _agent_apply(world, agents, 'algae', 'cooperation_score', 'direct')
