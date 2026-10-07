@@ -2885,3 +2885,6 @@ def logic_18940(agents, world):
 
 def logic_18941(agents, world):
     _agent_apply(world, agents, 'last_action', 'vegetation_expectation', 'direct')
+
+def logic_18942(agents, world):
+    _agent_apply(world, agents, 'strategy_score', 'vegetation_expectation', 'direct')
