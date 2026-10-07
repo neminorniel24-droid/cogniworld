@@ -618,3 +618,4 @@
 - 20617: integrated cross-system causal rule
 - 20618: integrated cross-system causal rule
 - 20619: integrated cross-system causal rule
+- 20620: integrated cross-system causal rule
