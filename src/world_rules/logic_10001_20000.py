@@ -19625,3 +19625,6 @@ def logic_16520(world):
 
 def logic_16521(world):
     _world_apply(world, 'carrion', 'wind_y', 'direct')
+
+def logic_16522(world):
+    _world_apply(world, 'carrion', 'vegetation', 'square')
