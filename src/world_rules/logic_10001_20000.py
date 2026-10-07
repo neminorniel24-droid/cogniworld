@@ -7028,3 +7028,6 @@ def logic_12321(world):
 
 def logic_12322(world):
     _world_apply(world, 'wind_x', 'groundwater', 'square')
+
+def logic_12323(world):
+    _world_apply(world, 'wind_x', 'sediment', 'pulse')
