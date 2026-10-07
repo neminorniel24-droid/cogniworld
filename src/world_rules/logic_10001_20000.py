@@ -7262,3 +7262,6 @@ def logic_12399(world):
 
 def logic_12400(world):
     _world_apply(world, 'vegetation', 'biodiversity', 'saturation')
+
+def logic_12401(world):
+    _world_apply(world, 'vegetation', 'habitat_stress', 'direct')
