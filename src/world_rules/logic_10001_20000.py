@@ -5387,3 +5387,6 @@ def logic_11774(world):
 
 def logic_11775(world):
     _world_apply(world, 'pollinators', 'nutrients', 'direct')
+
+def logic_11776(world):
+    _world_apply(world, 'pollinators', 'decomposition_rate', 'square')
