@@ -11837,3 +11837,6 @@ def logic_13924(world):
 
 def logic_13925(world):
     _world_apply(world, 'surface_ice', 'wind_y', 'gap')
+
+def logic_13926(world):
+    _world_apply(world, 'surface_ice', 'vegetation', 'direct')
