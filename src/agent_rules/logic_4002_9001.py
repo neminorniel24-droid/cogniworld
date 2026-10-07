@@ -5300,3 +5300,6 @@ def logic_5833(agents, world):
 
 def logic_5834(agents, world):
     _agent_apply(world, agents, 'ash', 'conflict_pressure', 'direct')
+
+def logic_5835(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'conflict_pressure', 'direct')
