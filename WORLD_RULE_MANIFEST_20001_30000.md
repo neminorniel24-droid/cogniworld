@@ -672,3 +672,4 @@
 - 20671: integrated cross-system causal rule
 - 20672: integrated cross-system causal rule
 - 20673: integrated cross-system causal rule
+- 20674: integrated cross-system causal rule
