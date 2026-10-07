@@ -2564,3 +2564,6 @@ def logic_10833(world):
 
 def logic_10834(world):
     _world_apply(world, 'photosynthesis_factor', 'seed_bank', 'pulse')
+
+def logic_10835(world):
+    _world_apply(world, 'photosynthesis_factor', 'soil_carbon', 'saturation')
