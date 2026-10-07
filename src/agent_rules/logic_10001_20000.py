@@ -4154,3 +4154,6 @@ def logic_19363(agents, world):
 
 def logic_19364(agents, world):
     _agent_apply(world, agents, 'foraging_score', 'risk_score', 'threshold')
+
+def logic_19365(agents, world):
+    _agent_apply(world, agents, 'survival_score', 'risk_score', 'threshold')
