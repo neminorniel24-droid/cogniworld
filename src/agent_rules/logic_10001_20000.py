@@ -4901,3 +4901,6 @@ def logic_19612(agents, world):
 
 def logic_19613(agents, world):
     _agent_apply(world, agents, 'fire_fear', 'sharing_score', 'gap')
+
+def logic_19614(agents, world):
+    _agent_apply(world, agents, 'resource_competition', 'sharing_score', 'gap')
