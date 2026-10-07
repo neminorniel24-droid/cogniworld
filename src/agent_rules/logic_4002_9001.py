@@ -6278,3 +6278,6 @@ def logic_6159(agents, world):
 
 def logic_6160(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'help_drive', 'direct')
+
+def logic_6161(agents, world):
+    _agent_apply(world, agents, 'ice', 'help_drive', 'direct')
