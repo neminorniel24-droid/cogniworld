@@ -16625,3 +16625,6 @@ def logic_15520(world):
 
 def logic_15521(world):
     _world_apply(world, 'sediment', 'evaporation', 'direct')
+
+def logic_15522(world):
+    _world_apply(world, 'sediment', 'detritus', 'square')
