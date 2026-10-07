@@ -8780,3 +8780,6 @@ def logic_12905(world):
 
 def logic_12906(world):
     _world_apply(world, 'detritus', 'surface_water', 'saturation')
+
+def logic_12907(world):
+    _world_apply(world, 'detritus', 'humidity', 'gap')
