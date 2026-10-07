@@ -22025,3 +22025,6 @@ def logic_17320(world):
 
 def logic_17321(world):
     _world_apply(world, 'fire_risk', 'oxygen', 'direct')
+
+def logic_17322(world):
+    _world_apply(world, 'fire_risk', 'co2', 'square')
