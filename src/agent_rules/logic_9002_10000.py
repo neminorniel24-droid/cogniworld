@@ -1434,3 +1434,6 @@ def logic_9652(agents, world):
 
 def logic_9653(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'pathogen_risk', 'direct')
+
+def logic_9654(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'pathogen_risk', 'direct')
