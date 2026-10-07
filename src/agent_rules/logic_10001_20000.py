@@ -5000,3 +5000,6 @@ def logic_19645(agents, world):
 
 def logic_19646(agents, world):
     _agent_apply(world, agents, 'defense_score', 'strategy_mixing', 'gap')
+
+def logic_19647(agents, world):
+    _agent_apply(world, agents, 'migration_score', 'strategy_mixing', 'gap')
