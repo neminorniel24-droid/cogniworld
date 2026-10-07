@@ -639,3 +639,6 @@ def logic_9188(world):
 
 def logic_9189(world):
     _world_apply(world, 'cloud', 'wind_x', 'sqrt')
+
+def logic_9190(world):
+    _world_apply(world, 'cloud', 'wind_y', 'pulse')
