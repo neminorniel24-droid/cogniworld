@@ -6738,3 +6738,4 @@
 - 26737: integrated cross-system causal rule
 - 26738: integrated cross-system causal rule
 - 26739: integrated cross-system causal rule
+- 26740: integrated cross-system causal rule
