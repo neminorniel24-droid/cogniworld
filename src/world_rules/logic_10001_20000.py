@@ -4223,3 +4223,6 @@ def logic_11386(world):
 
 def logic_11387(world):
     _world_apply(world, 'fire_risk', 'methane', 'gap')
+
+def logic_11388(world):
+    _world_apply(world, 'fire_risk', 'pathogen_load', 'direct')
