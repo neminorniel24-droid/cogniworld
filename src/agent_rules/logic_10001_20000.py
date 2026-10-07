@@ -1448,3 +1448,6 @@ def logic_18461(agents, world):
 
 def logic_18462(agents, world):
     _agent_apply(world, agents, 'energy_surplus', 'defection', 'threshold')
+
+def logic_18463(agents, world):
+    _agent_apply(world, agents, 'ticks_since_food', 'defection', 'threshold')
