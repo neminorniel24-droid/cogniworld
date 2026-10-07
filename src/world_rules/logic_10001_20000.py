@@ -932,3 +932,6 @@ def logic_10289(world):
 
 def logic_10290(world):
     _world_apply(world, 'runoff', 'erosion', 'direct')
+
+def logic_10291(world):
+    _world_apply(world, 'runoff', 'soil_depth', 'square')
