@@ -1550,3 +1550,6 @@ def logic_4583(agents, world):
 
 def logic_4584(agents, world):
     _agent_apply(world, agents, 'runoff', 'infection_risk', 'direct')
+
+def logic_4585(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'infection_risk', 'direct')
