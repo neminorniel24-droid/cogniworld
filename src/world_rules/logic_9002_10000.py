@@ -468,3 +468,6 @@ def logic_9131(world):
 
 def logic_9132(world):
     _world_apply(world, 'surface_water', 'sediment', 'square')
+
+def logic_9133(world):
+    _world_apply(world, 'surface_water', 'salinity', 'sqrt')
