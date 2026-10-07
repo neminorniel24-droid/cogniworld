@@ -61804,3 +61804,10 @@ def logic_39207(agents, world):
     src = _local(world, agents, 'runoff')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.strategy_confidence = _delta(agents.strategy_confidence, delta)
+
+
+def logic_39208(agents, world):
+    """Environmental wind_x shapes agent shelter_need (square)."""
+    src = _local(world, agents, 'wind_x')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.shelter_need = _delta(agents.shelter_need, delta)
