@@ -29681,3 +29681,10 @@ def logic_34618(agents, world):
     src = _local(world, agents, 'co2')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.oxygen_need = _delta(agents.oxygen_need, delta)
+
+
+def logic_34619(agents, world):
+    """Environmental photosynthesis_factor shapes agent neighbor_energy_gap (inverse)."""
+    src = _local(world, agents, 'photosynthesis_factor')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.neighbor_energy_gap = _delta(agents.neighbor_energy_gap, delta)
