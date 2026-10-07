@@ -2006,3 +2006,6 @@ def logic_10647(world):
 
 def logic_10648(world):
     _world_apply(world, 'nutrients', 'ash', 'pulse')
+
+def logic_10649(world):
+    _world_apply(world, 'nutrients', 'snowpack', 'gap')
