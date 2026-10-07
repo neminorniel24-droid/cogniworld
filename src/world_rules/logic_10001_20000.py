@@ -22808,3 +22808,6 @@ def logic_17581(world):
 
 def logic_17582(world):
     _world_apply(world, 'algae', 'carrion', 'saturation')
+
+def logic_17583(world):
+    _world_apply(world, 'algae', 'nutrients', 'gap')
