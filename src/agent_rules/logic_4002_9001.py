@@ -13421,3 +13421,6 @@ def logic_8540(agents, world):
 
 def logic_8541(agents, world):
     _agent_apply(world, agents, 'ice', 'cooperation_score', 'direct')
+
+def logic_8542(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'cooperation_score', 'direct')
