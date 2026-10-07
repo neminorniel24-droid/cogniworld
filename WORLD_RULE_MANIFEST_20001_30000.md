@@ -708,3 +708,4 @@
 - 20707: integrated cross-system causal rule
 - 20708: integrated cross-system causal rule
 - 20709: integrated cross-system causal rule
+- 20710: integrated cross-system causal rule
