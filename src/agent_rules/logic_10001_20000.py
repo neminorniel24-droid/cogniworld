@@ -5651,3 +5651,6 @@ def logic_19862(agents, world):
 
 def logic_19863(agents, world):
     _agent_apply(world, agents, 'social_tolerance', 'dehydration', 'direct')
+
+def logic_19864(agents, world):
+    _agent_apply(world, agents, 'reputation', 'dehydration', 'direct')
