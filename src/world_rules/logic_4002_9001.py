@@ -377,3 +377,6 @@ def logic_4092(world):
 
 def logic_4093(world):
     _world_apply(world, 'soil_depth', 'habitat_stress', 'sqrt')
+
+def logic_4094(world):
+    _world_apply(world, 'carbon_storage', 'soil_carbon', 'pulse')
