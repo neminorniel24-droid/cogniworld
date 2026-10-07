@@ -2048,3 +2048,6 @@ def logic_10661(world):
 
 def logic_10662(world):
     _world_apply(world, 'decomposition_rate', 'surface_water', 'saturation')
+
+def logic_10663(world):
+    _world_apply(world, 'decomposition_rate', 'humidity', 'gap')
