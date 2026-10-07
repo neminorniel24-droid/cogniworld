@@ -6011,3 +6011,6 @@ def logic_19982(agents, world):
 
 def logic_19983(agents, world):
     _agent_apply(world, agents, 'thirst', 'metabolic_cost', 'square')
+
+def logic_19984(agents, world):
+    _agent_apply(world, agents, 'hunger', 'metabolic_cost', 'square')
