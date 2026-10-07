@@ -14453,3 +14453,6 @@ def logic_14796(world):
 
 def logic_14797(world):
     _world_apply(world, 'ice', 'temperature', 'direct')
+
+def logic_14798(world):
+    _world_apply(world, 'ice', 'surface_water', 'square')
