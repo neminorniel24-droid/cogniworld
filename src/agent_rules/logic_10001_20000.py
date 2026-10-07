@@ -5954,3 +5954,6 @@ def logic_19963(agents, world):
 
 def logic_19964(agents, world):
     _agent_apply(world, agents, 'fire_risk', 'recovery', 'square')
+
+def logic_19965(agents, world):
+    _agent_apply(world, agents, 'ash', 'recovery', 'square')
