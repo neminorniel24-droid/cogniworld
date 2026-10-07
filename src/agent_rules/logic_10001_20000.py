@@ -782,3 +782,6 @@ def logic_18239(agents, world):
 
 def logic_18240(agents, world):
     _agent_apply(world, agents, 'betrayal_memory', 'reproduction_drive', 'square')
+
+def logic_18241(agents, world):
+    _agent_apply(world, agents, 'conflict_history', 'reproduction_drive', 'square')
