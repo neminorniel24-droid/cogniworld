@@ -330,3 +330,4 @@
 - 20329: integrated cross-system causal rule
 - 20330: integrated cross-system causal rule
 - 20331: integrated cross-system causal rule
+- 20332: integrated cross-system causal rule
