@@ -773,3 +773,6 @@ def logic_18236(agents, world):
 
 def logic_18237(agents, world):
     _agent_apply(world, agents, 'social_need', 'metabolic_cost', 'square')
+
+def logic_18238(agents, world):
+    _agent_apply(world, agents, 'neighbor_energy_gap', 'reproduction_drive', 'square')
