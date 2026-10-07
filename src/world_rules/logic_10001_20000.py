@@ -12758,3 +12758,6 @@ def logic_14231(world):
 
 def logic_14232(world):
     _world_apply(world, 'runoff', 'wind_y', 'gap')
+
+def logic_14233(world):
+    _world_apply(world, 'runoff', 'vegetation', 'square')
