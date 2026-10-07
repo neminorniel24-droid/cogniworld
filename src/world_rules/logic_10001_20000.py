@@ -23984,3 +23984,6 @@ def logic_17973(world):
 
 def logic_17974(world):
     _world_apply(world, 'surface_water', 'biomass', 'gap')
+
+def logic_17975(world):
+    _world_apply(world, 'surface_water', 'herbivore', 'direct')
