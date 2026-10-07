@@ -22628,3 +22628,6 @@ def logic_17521(world):
 
 def logic_17522(world):
     _world_apply(world, 'sediment', 'seed_bank', 'square')
+
+def logic_17523(world):
+    _world_apply(world, 'sediment', 'soil_carbon', 'pulse')
