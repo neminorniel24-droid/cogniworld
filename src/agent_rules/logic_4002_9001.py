@@ -3260,3 +3260,6 @@ def logic_5153(agents, world):
 
 def logic_5154(agents, world):
     _agent_apply(world, agents, 'ash', 'food_access', 'direct')
+
+def logic_5155(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'food_access', 'direct')
