@@ -6854,3 +6854,6 @@ def logic_12263(world):
 
 def logic_12264(world):
     _world_apply(world, 'runoff', 'evaporation', 'direct')
+
+def logic_12265(world):
+    _world_apply(world, 'runoff', 'detritus', 'pulse')
