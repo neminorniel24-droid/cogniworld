@@ -2066,3 +2066,6 @@ def logic_18667(agents, world):
 
 def logic_18668(agents, world):
     _agent_apply(world, agents, 'competition_score', 'generosity', 'reciprocal')
+
+def logic_18669(agents, world):
+    _agent_apply(world, agents, 'defection_score', 'generosity', 'reciprocal')
