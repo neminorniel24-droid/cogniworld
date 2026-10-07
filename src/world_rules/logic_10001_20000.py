@@ -8582,3 +8582,6 @@ def logic_12839(world):
 
 def logic_12840(world):
     _world_apply(world, 'ice', 'biodiversity', 'saturation')
+
+def logic_12841(world):
+    _world_apply(world, 'ice', 'habitat_stress', 'direct')
