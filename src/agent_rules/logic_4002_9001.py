@@ -10871,3 +10871,6 @@ def logic_7690(agents, world):
 
 def logic_7691(agents, world):
     _agent_apply(world, agents, 'stress', 'betrayal_memory', 'direct')
+
+def logic_7692(agents, world):
+    _agent_apply(world, agents, 'risk_tolerance', 'betrayal_memory', 'direct')
