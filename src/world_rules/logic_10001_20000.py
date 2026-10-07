@@ -2501,3 +2501,6 @@ def logic_10812(world):
 
 def logic_10813(world):
     _world_apply(world, 'photosynthesis_factor', 'detritus', 'saturation')
+
+def logic_10814(world):
+    _world_apply(world, 'photosynthesis_factor', 'methane', 'gap')
