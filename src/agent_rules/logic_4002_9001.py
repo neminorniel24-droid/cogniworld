@@ -4454,3 +4454,6 @@ def logic_5551(agents, world):
 
 def logic_5552(agents, world):
     _agent_apply(world, agents, 'methane', 'trust', 'direct')
+
+def logic_5553(agents, world):
+    _agent_apply(world, agents, 'pathogen_load', 'trust', 'direct')
