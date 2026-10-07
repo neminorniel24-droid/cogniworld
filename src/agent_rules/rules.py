@@ -61552,3 +61552,10 @@ def logic_39171(agents, world):
     src = _local(world, agents, 'oxygen')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.betrayal_memory = _delta(agents.betrayal_memory, delta)
+
+
+def logic_39172(agents, world):
+    """Environmental co2 shapes agent last_energy_delta (square)."""
+    src = _local(world, agents, 'co2')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.last_energy_delta = _delta(agents.last_energy_delta, delta)
