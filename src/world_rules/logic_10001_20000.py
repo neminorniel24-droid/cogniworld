@@ -23519,3 +23519,6 @@ def logic_17818(world):
 
 def logic_17819(world):
     _world_apply(world, 'seed_bank', 'carbon_storage', 'direct')
+
+def logic_17820(world):
+    _world_apply(world, 'seed_bank', 'fire_risk', 'square')
