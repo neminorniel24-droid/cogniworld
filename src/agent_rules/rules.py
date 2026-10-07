@@ -51808,3 +51808,10 @@ def logic_37779(agents, world):
     src = _local(world, agents, 'rain')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.fear = _delta(agents.fear, delta)
+
+
+def logic_37780(agents, world):
+    """Environmental soil_moisture shapes agent wealth (square)."""
+    src = _local(world, agents, 'soil_moisture')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.wealth = _delta(agents.wealth, delta)
