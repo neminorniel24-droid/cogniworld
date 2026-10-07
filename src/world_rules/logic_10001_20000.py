@@ -23381,3 +23381,6 @@ def logic_17772(world):
 
 def logic_17773(world):
     _world_apply(world, 'flowers', 'root_density', 'saturation')
+
+def logic_17774(world):
+    _world_apply(world, 'flowers', 'wetland', 'gap')
