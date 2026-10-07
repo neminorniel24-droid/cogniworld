@@ -1736,3 +1736,6 @@ def logic_10557(world):
 
 def logic_10558(world):
     _world_apply(world, 'predator', 'carbon_storage', 'square')
+
+def logic_10559(world):
+    _world_apply(world, 'predator', 'fire_risk', 'pulse')
