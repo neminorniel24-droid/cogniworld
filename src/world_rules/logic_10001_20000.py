@@ -20378,3 +20378,6 @@ def logic_16771(world):
 
 def logic_16772(world):
     _world_apply(world, 'photosynthesis_factor', 'pollinators', 'pulse')
+
+def logic_16773(world):
+    _world_apply(world, 'photosynthesis_factor', 'flowers', 'saturation')
