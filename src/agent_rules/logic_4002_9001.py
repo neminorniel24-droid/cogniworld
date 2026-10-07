@@ -11087,3 +11087,6 @@ def logic_7762(agents, world):
 
 def logic_7763(agents, world):
     _agent_apply(world, agents, 'cooperation', 'conflict_history', 'direct')
+
+def logic_7764(agents, world):
+    _agent_apply(world, agents, 'defection', 'conflict_history', 'direct')
