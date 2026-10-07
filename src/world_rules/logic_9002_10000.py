@@ -327,3 +327,6 @@ def logic_9084(world):
 
 def logic_9085(world):
     _world_apply(world, 'temperature', 'soil_depth', 'sqrt')
+
+def logic_9086(world):
+    _world_apply(world, 'temperature', 'root_density', 'pulse')
