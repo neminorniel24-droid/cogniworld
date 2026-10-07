@@ -3539,3 +3539,6 @@ def logic_19158(agents, world):
 
 def logic_19159(agents, world):
     _agent_apply(world, agents, 'dehydration', 'last_reward', 'sqrt')
+
+def logic_19160(agents, world):
+    _agent_apply(world, agents, 'pathogen_risk', 'last_reward', 'sqrt')
