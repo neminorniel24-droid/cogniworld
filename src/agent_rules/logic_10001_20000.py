@@ -746,3 +746,6 @@ def logic_18227(agents, world):
 
 def logic_18228(agents, world):
     _agent_apply(world, agents, 'empathy', 'metabolic_cost', 'square')
+
+def logic_18229(agents, world):
+    _agent_apply(world, agents, 'attack_threshold', 'metabolic_cost', 'square')
