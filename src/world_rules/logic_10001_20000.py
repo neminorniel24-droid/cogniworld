@@ -1532,3 +1532,6 @@ def logic_10489(world):
 
 def logic_10490(world):
     _world_apply(world, 'herbivore', 'soil_moisture', 'direct')
+
+def logic_10491(world):
+    _world_apply(world, 'herbivore', 'runoff', 'square')
