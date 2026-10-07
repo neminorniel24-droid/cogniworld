@@ -528,3 +528,4 @@
 - 20527: integrated cross-system causal rule
 - 20528: integrated cross-system causal rule
 - 20529: integrated cross-system causal rule
+- 20530: integrated cross-system causal rule
