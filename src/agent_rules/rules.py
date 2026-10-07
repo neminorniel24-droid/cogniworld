@@ -59676,3 +59676,10 @@ def logic_38903(agents, world):
     src = _local(world, agents, 'biodiversity')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.fire_fear = _delta(agents.fire_fear, delta)
+
+
+def logic_38904(agents, world):
+    """Environmental habitat_stress shapes agent betrayal_memory (square)."""
+    src = _local(world, agents, 'habitat_stress')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.betrayal_memory = _delta(agents.betrayal_memory, delta)
