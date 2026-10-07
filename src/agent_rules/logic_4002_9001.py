@@ -13016,3 +13016,6 @@ def logic_8405(agents, world):
 
 def logic_8406(agents, world):
     _agent_apply(world, agents, 'evaporation', 'last_action', 'direct')
+
+def logic_8407(agents, world):
+    _agent_apply(world, agents, 'detritus', 'last_action', 'direct')
