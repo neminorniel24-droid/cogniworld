@@ -14087,3 +14087,6 @@ def logic_8762(agents, world):
 
 def logic_8763(agents, world):
     _agent_apply(world, agents, 'algae', 'reciprocity_score', 'direct')
+
+def logic_8764(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'reciprocity_score', 'direct')
