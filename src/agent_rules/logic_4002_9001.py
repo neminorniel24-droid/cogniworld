@@ -5456,3 +5456,6 @@ def logic_5885(agents, world):
 
 def logic_5886(agents, world):
     _agent_apply(world, agents, 'oxygen', 'competition_pressure', 'direct')
+
+def logic_5887(agents, world):
+    _agent_apply(world, agents, 'co2', 'competition_pressure', 'direct')
