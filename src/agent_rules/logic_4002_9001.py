@@ -13412,3 +13412,6 @@ def logic_8537(agents, world):
 
 def logic_8538(agents, world):
     _agent_apply(world, agents, 'oxygen', 'cooperation_score', 'direct')
+
+def logic_8539(agents, world):
+    _agent_apply(world, agents, 'co2', 'cooperation_score', 'direct')
