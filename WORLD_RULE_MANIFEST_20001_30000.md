@@ -6090,3 +6090,4 @@
 - 26089: integrated cross-system causal rule
 - 26090: integrated cross-system causal rule
 - 26091: integrated cross-system causal rule
+- 26092: integrated cross-system causal rule
