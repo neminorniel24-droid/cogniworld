@@ -431,3 +431,6 @@ def logic_4210(agents, world):
 
 def logic_4211(agents, world):
     _agent_apply(world, agents, 'flowers', 'thirst', 'direct')
+
+def logic_4212(agents, world):
+    _agent_apply(world, agents, 'seed_bank', 'thirst', 'direct')
