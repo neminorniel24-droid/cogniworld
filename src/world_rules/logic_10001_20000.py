@@ -14228,3 +14228,6 @@ def logic_14721(world):
 
 def logic_14722(world):
     _world_apply(world, 'co2', 'carrion', 'square')
+
+def logic_14723(world):
+    _world_apply(world, 'co2', 'nutrients', 'pulse')
