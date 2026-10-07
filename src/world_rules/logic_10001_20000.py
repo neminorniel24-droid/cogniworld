@@ -14132,3 +14132,6 @@ def logic_14689(world):
 
 def logic_14690(world):
     _world_apply(world, 'oxygen', 'erosion', 'direct')
+
+def logic_14691(world):
+    _world_apply(world, 'oxygen', 'soil_depth', 'square')
