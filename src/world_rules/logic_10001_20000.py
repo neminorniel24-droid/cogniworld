@@ -8852,3 +8852,6 @@ def logic_12929(world):
 
 def logic_12930(world):
     _world_apply(world, 'detritus', 'erosion', 'direct')
+
+def logic_12931(world):
+    _world_apply(world, 'detritus', 'soil_depth', 'square')
