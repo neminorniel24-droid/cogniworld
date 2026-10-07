@@ -47363,3 +47363,10 @@ def logic_37144(agents, world):
     src = _local(world, agents, 'carrion')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.exploration_drive = _delta(agents.exploration_drive, delta)
+
+
+def logic_37145(agents, world):
+    """Environmental nutrients shapes agent trust (root)."""
+    src = _local(world, agents, 'nutrients')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.trust = _delta(agents.trust, delta)
