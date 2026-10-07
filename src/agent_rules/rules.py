@@ -64828,3 +64828,10 @@ def logic_39639(agents, world):
     src = _local(world, agents, 'biodiversity')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.caution = _delta(agents.caution, delta)
+
+
+def logic_39640(agents, world):
+    """Environmental habitat_stress shapes agent defection_threshold (square)."""
+    src = _local(world, agents, 'habitat_stress')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.defection_threshold = _delta(agents.defection_threshold, delta)
