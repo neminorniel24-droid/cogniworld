@@ -21641,3 +21641,6 @@ def logic_17192(world):
 
 def logic_17193(world):
     _world_apply(world, 'root_density', 'evaporation', 'square')
+
+def logic_17194(world):
+    _world_apply(world, 'root_density', 'detritus', 'pulse')
