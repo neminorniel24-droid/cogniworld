@@ -9485,3 +9485,6 @@ def logic_13140(world):
 
 def logic_13141(world):
     _world_apply(world, 'erosion', 'oxygen', 'pulse')
+
+def logic_13142(world):
+    _world_apply(world, 'erosion', 'co2', 'saturation')
