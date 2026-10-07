@@ -2456,3 +2456,6 @@ def logic_18797(agents, world):
 
 def logic_18798(agents, world):
     _agent_apply(world, agents, 'last_reward', 'empathy', 'gap')
+
+def logic_18799(agents, world):
+    _agent_apply(world, agents, 'last_energy_delta', 'empathy', 'gap')
