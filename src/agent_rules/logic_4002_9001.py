@@ -374,3 +374,6 @@ def logic_4191(agents, world):
 
 def logic_4192(agents, world):
     _agent_apply(world, agents, 'methane', 'thirst', 'direct')
+
+def logic_4193(agents, world):
+    _agent_apply(world, agents, 'pathogen_load', 'thirst', 'direct')
