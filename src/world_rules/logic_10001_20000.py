@@ -8786,3 +8786,6 @@ def logic_12907(world):
 
 def logic_12908(world):
     _world_apply(world, 'detritus', 'cloud', 'direct')
+
+def logic_12909(world):
+    _world_apply(world, 'detritus', 'rain', 'square')
