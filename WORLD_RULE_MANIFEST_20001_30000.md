@@ -2469,3 +2469,4 @@
 - 22468: integrated cross-system causal rule
 - 22469: integrated cross-system causal rule
 - 22470: integrated cross-system causal rule
+- 22471: integrated cross-system causal rule
