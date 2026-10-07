@@ -3605,3 +3605,6 @@ def logic_19180(agents, world):
 
 def logic_19181(agents, world):
     _agent_apply(world, agents, 'territoriality', 'last_energy_delta', 'sqrt')
+
+def logic_19182(agents, world):
+    _agent_apply(world, agents, 'group_stability', 'last_energy_delta', 'sqrt')
