@@ -2526,3 +2526,4 @@
 - 22525: integrated cross-system causal rule
 - 22526: integrated cross-system causal rule
 - 22527: integrated cross-system causal rule
+- 22528: integrated cross-system causal rule
