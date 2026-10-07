@@ -16676,3 +16676,6 @@ def logic_15537(world):
 
 def logic_15538(world):
     _world_apply(world, 'sediment', 'organic_matter', 'gap')
+
+def logic_15539(world):
+    _world_apply(world, 'sediment', 'deadwood', 'direct')
