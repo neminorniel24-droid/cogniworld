@@ -3701,3 +3701,6 @@ def logic_11212(world):
 
 def logic_11213(world):
     _world_apply(world, 'soil_depth', 'biodiversity', 'saturation')
+
+def logic_11214(world):
+    _world_apply(world, 'soil_depth', 'habitat_stress', 'gap')
