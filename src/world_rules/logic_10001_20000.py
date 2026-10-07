@@ -278,3 +278,6 @@ def logic_10071(world):
 
 def logic_10072(world):
     _world_apply(world, 'surface_water', 'root_density', 'gap')
+
+def logic_10073(world):
+    _world_apply(world, 'surface_water', 'wetland', 'square')
