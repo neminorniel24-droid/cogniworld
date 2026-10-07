@@ -8444,3 +8444,6 @@ def logic_12793(world):
 
 def logic_12794(world):
     _world_apply(world, 'photosynthesis_factor', 'methane', 'pulse')
+
+def logic_12795(world):
+    _world_apply(world, 'photosynthesis_factor', 'pathogen_load', 'saturation')
