@@ -9815,3 +9815,6 @@ def logic_13250(world):
 
 def logic_13251(world):
     _world_apply(world, 'root_density', 'deadwood', 'square')
+
+def logic_13252(world):
+    _world_apply(world, 'root_density', 'pollinators', 'pulse')
