@@ -399,3 +399,6 @@ def logic_9108(world):
 
 def logic_9109(world):
     _world_apply(world, 'surface_water', 'biomass', 'sqrt')
+
+def logic_9110(world):
+    _world_apply(world, 'surface_water', 'herbivore', 'pulse')
