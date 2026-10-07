@@ -15650,3 +15650,6 @@ def logic_15195(world):
 
 def logic_15196(world):
     _world_apply(world, 'root_density', 'cloud', 'gap')
+
+def logic_15197(world):
+    _world_apply(world, 'root_density', 'rain', 'direct')
