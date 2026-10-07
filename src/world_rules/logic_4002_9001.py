@@ -140,3 +140,6 @@ def logic_4013(world):
 
 def logic_4014(world):
     _world_apply(world, 'decomposition_rate', 'nutrients', 'pulse')
+
+def logic_4015(world):
+    _world_apply(world, 'temperature', 'evaporation', 'threshold')
