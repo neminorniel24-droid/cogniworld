@@ -4280,3 +4280,6 @@ def logic_11405(world):
 
 def logic_11406(world):
     _world_apply(world, 'fire_risk', 'seed_bank', 'direct')
+
+def logic_11407(world):
+    _world_apply(world, 'fire_risk', 'soil_carbon', 'square')
