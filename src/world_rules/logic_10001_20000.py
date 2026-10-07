@@ -8894,3 +8894,6 @@ def logic_12943(world):
 
 def logic_12944(world):
     _world_apply(world, 'detritus', 'pollinators', 'direct')
+
+def logic_12945(world):
+    _world_apply(world, 'detritus', 'flowers', 'pulse')
