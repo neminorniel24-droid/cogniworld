@@ -8525,3 +8525,6 @@ def logic_6908(agents, world):
 
 def logic_6909(agents, world):
     _agent_apply(world, agents, 'ice', 'attack_threshold', 'direct')
+
+def logic_6910(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'attack_threshold', 'direct')
