@@ -5315,3 +5315,6 @@ def logic_11750(world):
 
 def logic_11751(world):
     _world_apply(world, 'deadwood', 'groundwater', 'saturation')
+
+def logic_11752(world):
+    _world_apply(world, 'deadwood', 'sediment', 'gap')
