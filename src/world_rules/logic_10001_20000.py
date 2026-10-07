@@ -16403,3 +16403,6 @@ def logic_15446(world):
 
 def logic_15447(world):
     _world_apply(world, 'snowpack', 'sediment', 'square')
+
+def logic_15448(world):
+    _world_apply(world, 'snowpack', 'salinity', 'pulse')
