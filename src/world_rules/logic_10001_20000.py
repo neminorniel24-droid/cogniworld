@@ -16478,3 +16478,6 @@ def logic_15471(world):
 
 def logic_15472(world):
     _world_apply(world, 'groundwater', 'decomposition_rate', 'gap')
+
+def logic_15473(world):
+    _world_apply(world, 'groundwater', 'oxygen', 'square')
