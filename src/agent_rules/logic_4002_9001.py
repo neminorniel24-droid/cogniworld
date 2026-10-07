@@ -4004,3 +4004,6 @@ def logic_5401(agents, world):
 
 def logic_5402(agents, world):
     _agent_apply(world, agents, 'wind_y', 'social_tolerance', 'direct')
+
+def logic_5403(agents, world):
+    _agent_apply(world, agents, 'vegetation', 'social_tolerance', 'direct')
