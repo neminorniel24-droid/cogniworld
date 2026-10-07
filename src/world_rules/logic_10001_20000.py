@@ -353,3 +353,6 @@ def logic_10096(world):
 
 def logic_10097(world):
     _world_apply(world, 'humidity', 'vegetation', 'saturation')
+
+def logic_10098(world):
+    _world_apply(world, 'humidity', 'biomass', 'gap')
