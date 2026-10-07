@@ -33377,3 +33377,10 @@ def logic_35146(agents, world):
     src = _local(world, agents, 'deadwood')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.thirst = _delta(agents.thirst, delta)
+
+
+def logic_35147(agents, world):
+    """Environmental pollinators shapes agent alertness (inverse)."""
+    src = _local(world, agents, 'pollinators')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.alertness = _delta(agents.alertness, delta)
