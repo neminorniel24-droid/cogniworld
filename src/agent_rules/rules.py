@@ -42449,3 +42449,10 @@ def logic_36442(agents, world):
     src = _local(world, agents, 'surface_water')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.learning_rate = _delta(agents.learning_rate, delta)
+
+
+def logic_36443(agents, world):
+    """Environmental humidity shapes agent hunger (inverse)."""
+    src = _local(world, agents, 'humidity')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.hunger = _delta(agents.hunger, delta)
