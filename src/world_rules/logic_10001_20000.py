@@ -21431,3 +21431,6 @@ def logic_17122(world):
 
 def logic_17123(world):
     _world_apply(world, 'erosion', 'deadwood', 'pulse')
+
+def logic_17124(world):
+    _world_apply(world, 'erosion', 'pollinators', 'saturation')
