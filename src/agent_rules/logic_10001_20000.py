@@ -2495,3 +2495,6 @@ def logic_18810(agents, world):
 
 def logic_18811(agents, world):
     _agent_apply(world, agents, 'exploration_score', 'attack_threshold', 'feedback')
+
+def logic_18812(agents, world):
+    _agent_apply(world, agents, 'foraging_score', 'attack_threshold', 'feedback')
