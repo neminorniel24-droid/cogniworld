@@ -4310,3 +4310,6 @@ def logic_11415(world):
 
 def logic_11416(world):
     _world_apply(world, 'ash', 'wind_x', 'square')
+
+def logic_11417(world):
+    _world_apply(world, 'ash', 'wind_y', 'saturation')
