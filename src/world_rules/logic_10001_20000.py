@@ -20081,3 +20081,6 @@ def logic_16672(world):
 
 def logic_16673(world):
     _world_apply(world, 'oxygen', 'wetland', 'square')
+
+def logic_16674(world):
+    _world_apply(world, 'oxygen', 'carbon_storage', 'pulse')
