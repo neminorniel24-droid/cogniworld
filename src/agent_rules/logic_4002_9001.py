@@ -9518,3 +9518,6 @@ def logic_7239(agents, world):
 
 def logic_7240(agents, world):
     _agent_apply(world, agents, 'biomass', 'resource_competition', 'direct')
+
+def logic_7241(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'resource_competition', 'direct')
