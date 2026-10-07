@@ -22943,3 +22943,6 @@ def logic_17626(world):
 
 def logic_17627(world):
     _world_apply(world, 'organic_matter', 'nutrients', 'gap')
+
+def logic_17628(world):
+    _world_apply(world, 'organic_matter', 'decomposition_rate', 'direct')
