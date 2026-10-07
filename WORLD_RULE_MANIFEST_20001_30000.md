@@ -3130,3 +3130,4 @@
 - 23129: integrated cross-system causal rule
 - 23130: integrated cross-system causal rule
 - 23131: integrated cross-system causal rule
+- 23132: integrated cross-system causal rule
