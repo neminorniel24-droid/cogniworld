@@ -17876,3 +17876,6 @@ def logic_15937(world):
 
 def logic_15938(world):
     _world_apply(world, 'surface_ice', 'flowers', 'gap')
+
+def logic_15939(world):
+    _world_apply(world, 'surface_ice', 'seed_bank', 'direct')
