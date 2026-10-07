@@ -836,3 +836,6 @@ def logic_10257(world):
 
 def logic_10258(world):
     _world_apply(world, 'soil_moisture', 'organic_matter', 'gap')
+
+def logic_10259(world):
+    _world_apply(world, 'soil_moisture', 'deadwood', 'direct')
