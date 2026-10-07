@@ -2510,3 +2510,6 @@ def logic_18815(agents, world):
 
 def logic_18816(agents, world):
     _agent_apply(world, agents, 'attack_success', 'attack_threshold', 'feedback')
+
+def logic_18817(agents, world):
+    _agent_apply(world, agents, 'retaliation_risk', 'attack_threshold', 'feedback')
