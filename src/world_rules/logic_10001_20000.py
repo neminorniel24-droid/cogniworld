@@ -3212,3 +3212,6 @@ def logic_11049(world):
 
 def logic_11050(world):
     _world_apply(world, 'pathogen_load', 'organic_matter', 'direct')
+
+def logic_11051(world):
+    _world_apply(world, 'pathogen_load', 'deadwood', 'square')
