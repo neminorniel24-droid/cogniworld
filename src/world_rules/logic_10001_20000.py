@@ -19280,3 +19280,6 @@ def logic_16405(world):
 
 def logic_16406(world):
     _world_apply(world, 'biomass', 'erosion', 'direct')
+
+def logic_16407(world):
+    _world_apply(world, 'biomass', 'soil_depth', 'square')
