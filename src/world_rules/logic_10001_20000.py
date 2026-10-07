@@ -19214,3 +19214,6 @@ def logic_16383(world):
 
 def logic_16384(world):
     _world_apply(world, 'biomass', 'cloud', 'direct')
+
+def logic_16385(world):
+    _world_apply(world, 'biomass', 'rain', 'pulse')
