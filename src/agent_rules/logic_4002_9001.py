@@ -8930,3 +8930,6 @@ def logic_7043(agents, world):
 
 def logic_7044(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'oxygen_need', 'direct')
+
+def logic_7045(agents, world):
+    _agent_apply(world, agents, 'ice', 'oxygen_need', 'direct')
