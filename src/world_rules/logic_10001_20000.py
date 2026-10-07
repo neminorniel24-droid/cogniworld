@@ -22979,3 +22979,6 @@ def logic_17638(world):
 
 def logic_17639(world):
     _world_apply(world, 'organic_matter', 'erosion', 'pulse')
+
+def logic_17640(world):
+    _world_apply(world, 'organic_matter', 'soil_depth', 'saturation')
