@@ -407,3 +407,6 @@ def logic_18114(agents, world):
 
 def logic_18115(agents, world):
     _agent_apply(world, agents, 'cooperation_score', 'dehydration', 'inverse')
+
+def logic_18116(agents, world):
+    _agent_apply(world, agents, 'competition_score', 'dehydration', 'inverse')
