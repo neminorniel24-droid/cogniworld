@@ -3977,3 +3977,6 @@ def logic_19304(agents, world):
 
 def logic_19305(agents, world):
     _agent_apply(world, agents, 'migration_drive', 'competition_score', 'pulse')
+
+def logic_19306(agents, world):
+    _agent_apply(world, agents, 'exploration_drive', 'competition_score', 'pulse')
