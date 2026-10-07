@@ -1742,3 +1742,6 @@ def logic_18559(agents, world):
 
 def logic_18560(agents, world):
     _agent_apply(world, agents, 'wind_x', 'group_stability', 'saturation')
+
+def logic_18561(agents, world):
+    _agent_apply(world, agents, 'wind_y', 'group_stability', 'saturation')
