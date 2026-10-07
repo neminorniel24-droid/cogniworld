@@ -32684,3 +32684,10 @@ def logic_35047(agents, world):
     src = _local(world, agents, 'ash')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.reputation = _delta(agents.reputation, delta)
+
+
+def logic_35048(agents, world):
+    """Environmental snowpack shapes agent territoriality (square)."""
+    src = _local(world, agents, 'snowpack')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.territoriality = _delta(agents.territoriality, delta)
