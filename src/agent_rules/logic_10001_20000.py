@@ -4937,3 +4937,6 @@ def logic_19624(agents, world):
 
 def logic_19625(agents, world):
     _agent_apply(world, agents, 'local_density', 'strategy_persistence', 'gap')
+
+def logic_19626(agents, world):
+    _agent_apply(world, agents, 'last_reward', 'strategy_persistence', 'gap')
