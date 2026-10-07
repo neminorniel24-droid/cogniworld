@@ -9930,3 +9930,4 @@
 - 29929: integrated cross-system causal rule
 - 29930: integrated cross-system causal rule
 - 29931: integrated cross-system causal rule
+- 29932: integrated cross-system causal rule
