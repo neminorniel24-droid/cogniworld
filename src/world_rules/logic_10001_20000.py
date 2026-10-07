@@ -17480,3 +17480,6 @@ def logic_15805(world):
 
 def logic_15806(world):
     _world_apply(world, 'flowers', 'seed_bank', 'direct')
+
+def logic_15807(world):
+    _world_apply(world, 'flowers', 'soil_carbon', 'square')
