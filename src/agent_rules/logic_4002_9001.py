@@ -14237,3 +14237,6 @@ def logic_8812(agents, world):
 
 def logic_8813(agents, world):
     _agent_apply(world, agents, 'ice', 'risk_score', 'direct')
+
+def logic_8814(agents, world):
+    _agent_apply(world, agents, 'evaporation', 'risk_score', 'direct')
