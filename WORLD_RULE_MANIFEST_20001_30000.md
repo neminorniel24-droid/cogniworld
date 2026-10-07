@@ -7111,3 +7111,4 @@
 - 27110: integrated cross-system causal rule
 - 27111: integrated cross-system causal rule
 - 27112: integrated cross-system causal rule
+- 27113: integrated cross-system causal rule
