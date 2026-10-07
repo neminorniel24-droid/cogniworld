@@ -11138,3 +11138,6 @@ def logic_13691(world):
 
 def logic_13692(world):
     _world_apply(world, 'organic_matter', 'pollinators', 'pulse')
+
+def logic_13693(world):
+    _world_apply(world, 'organic_matter', 'flowers', 'saturation')
