@@ -10001,3 +10001,6 @@ def logic_13312(world):
 
 def logic_13313(world):
     _world_apply(world, 'carbon_storage', 'predator', 'square')
+
+def logic_13314(world):
+    _world_apply(world, 'carbon_storage', 'carrion', 'pulse')
