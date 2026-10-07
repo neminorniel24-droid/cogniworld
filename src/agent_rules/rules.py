@@ -51605,3 +51605,10 @@ def logic_37750(agents, world):
     src = _local(world, agents, 'detritus')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.survival_score = _delta(agents.survival_score, delta)
+
+
+def logic_37751(agents, world):
+    """Environmental methane shapes agent reproduction_score (inverse)."""
+    src = _local(world, agents, 'methane')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.reproduction_score = _delta(agents.reproduction_score, delta)
