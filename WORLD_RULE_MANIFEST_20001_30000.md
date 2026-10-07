@@ -9104,3 +9104,4 @@
 - 29103: integrated cross-system causal rule
 - 29104: integrated cross-system causal rule
 - 29105: integrated cross-system causal rule
+- 29106: integrated cross-system causal rule
