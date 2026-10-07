@@ -1743,3 +1743,6 @@ def logic_9755(agents, world):
 
 def logic_9756(agents, world):
     _agent_apply(world, agents, 'herbivore', 'alertness', 'direct')
+
+def logic_9757(agents, world):
+    _agent_apply(world, agents, 'predator', 'alertness', 'direct')
