@@ -920,3 +920,4 @@
 - 20919: integrated cross-system causal rule
 - 20920: integrated cross-system causal rule
 - 20921: integrated cross-system causal rule
+- 20922: integrated cross-system causal rule
