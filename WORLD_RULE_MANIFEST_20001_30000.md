@@ -1730,3 +1730,4 @@
 - 21729: integrated cross-system causal rule
 - 21730: integrated cross-system causal rule
 - 21731: integrated cross-system causal rule
+- 21732: integrated cross-system causal rule
