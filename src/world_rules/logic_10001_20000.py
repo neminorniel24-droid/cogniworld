@@ -3944,3 +3944,6 @@ def logic_11293(world):
 
 def logic_11294(world):
     _world_apply(world, 'wetland', 'co2', 'gap')
+
+def logic_11295(world):
+    _world_apply(world, 'wetland', 'photosynthesis_factor', 'direct')
