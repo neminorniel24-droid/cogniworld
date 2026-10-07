@@ -3026,3 +3026,6 @@ def logic_10987(world):
 
 def logic_10988(world):
     _world_apply(world, 'methane', 'ice', 'direct')
+
+def logic_10989(world):
+    _world_apply(world, 'methane', 'evaporation', 'square')
