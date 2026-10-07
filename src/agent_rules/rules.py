@@ -44633,3 +44633,10 @@ def logic_36754(agents, world):
     src = _local(world, agents, 'algae')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.oxygen_need = _delta(agents.oxygen_need, delta)
+
+
+def logic_36755(agents, world):
+    """Environmental organic_matter shapes agent neighbor_energy_gap (inverse)."""
+    src = _local(world, agents, 'organic_matter')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.neighbor_energy_gap = _delta(agents.neighbor_energy_gap, delta)
