@@ -7436,3 +7436,6 @@ def logic_12457(world):
 
 def logic_12458(world):
     _world_apply(world, 'biomass', 'organic_matter', 'gap')
+
+def logic_12459(world):
+    _world_apply(world, 'biomass', 'deadwood', 'direct')
