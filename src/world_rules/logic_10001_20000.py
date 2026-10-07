@@ -12158,3 +12158,6 @@ def logic_14031(world):
 
 def logic_14032(world):
     _world_apply(world, 'surface_water', 'root_density', 'gap')
+
+def logic_14033(world):
+    _world_apply(world, 'surface_water', 'wetland', 'square')
