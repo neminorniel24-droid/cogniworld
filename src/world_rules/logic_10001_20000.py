@@ -20783,3 +20783,6 @@ def logic_16906(world):
 
 def logic_16907(world):
     _world_apply(world, 'detritus', 'soil_carbon', 'gap')
+
+def logic_16908(world):
+    _world_apply(world, 'detritus', 'surface_ice', 'direct')
