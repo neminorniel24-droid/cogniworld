@@ -11258,3 +11258,6 @@ def logic_13731(world):
 
 def logic_13732(world):
     _world_apply(world, 'deadwood', 'sediment', 'pulse')
+
+def logic_13733(world):
+    _world_apply(world, 'deadwood', 'salinity', 'saturation')
