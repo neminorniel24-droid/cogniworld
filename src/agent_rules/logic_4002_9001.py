@@ -13370,3 +13370,6 @@ def logic_8523(agents, world):
 
 def logic_8524(agents, world):
     _agent_apply(world, agents, 'humidity', 'cooperation_score', 'direct')
+
+def logic_8525(agents, world):
+    _agent_apply(world, agents, 'cloud', 'cooperation_score', 'direct')
