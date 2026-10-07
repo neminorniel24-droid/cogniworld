@@ -8984,3 +8984,6 @@ def logic_7061(agents, world):
 
 def logic_7062(agents, world):
     _agent_apply(world, agents, 'salinity', 'oxygen_need', 'direct')
+
+def logic_7063(agents, world):
+    _agent_apply(world, agents, 'algae', 'oxygen_need', 'direct')
