@@ -923,3 +923,6 @@ def logic_18286(agents, world):
 
 def logic_18287(agents, world):
     _agent_apply(world, agents, 'biomass', 'exploration_drive', 'sqrt')
+
+def logic_18288(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'exploration_drive', 'sqrt')
