@@ -1016,3 +1016,6 @@ def logic_18317(agents, world):
 
 def logic_18318(agents, world):
     _agent_apply(world, agents, 'flowers', 'wealth', 'sqrt')
+
+def logic_18319(agents, world):
+    _agent_apply(world, agents, 'seed_bank', 'wealth', 'sqrt')
