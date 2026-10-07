@@ -1887,3 +1887,4 @@
 - 21886: integrated cross-system causal rule
 - 21887: integrated cross-system causal rule
 - 21888: integrated cross-system causal rule
+- 21889: integrated cross-system causal rule
