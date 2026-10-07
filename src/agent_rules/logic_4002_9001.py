@@ -10388,3 +10388,6 @@ def logic_7529(agents, world):
 
 def logic_7530(agents, world):
     _agent_apply(world, agents, 'root_density', 'neighbor_energy_gap', 'direct')
+
+def logic_7531(agents, world):
+    _agent_apply(world, agents, 'wetland', 'neighbor_energy_gap', 'direct')
