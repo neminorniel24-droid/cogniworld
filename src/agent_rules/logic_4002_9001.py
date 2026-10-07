@@ -1160,3 +1160,6 @@ def logic_4453(agents, world):
 
 def logic_4454(agents, world):
     _agent_apply(world, agents, 'predator', 'dehydration', 'direct')
+
+def logic_4455(agents, world):
+    _agent_apply(world, agents, 'carrion', 'dehydration', 'direct')
