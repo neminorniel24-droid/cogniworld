@@ -119,3 +119,6 @@ def logic_4006(world):
 
 def logic_4007(world):
     _world_apply(world, 'biomass', 'herbivore', 'threshold')
+
+def logic_4008(world):
+    _world_apply(world, 'herbivore', 'predator', 'saturation')
