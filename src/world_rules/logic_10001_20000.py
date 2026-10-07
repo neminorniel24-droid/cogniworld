@@ -3890,3 +3890,6 @@ def logic_11275(world):
 
 def logic_11276(world):
     _world_apply(world, 'root_density', 'surface_ice', 'gap')
+
+def logic_11277(world):
+    _world_apply(world, 'wetland', 'temperature', 'direct')
