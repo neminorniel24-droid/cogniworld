@@ -609,3 +609,6 @@ def logic_9178(world):
 
 def logic_9179(world):
     _world_apply(world, 'humidity', 'deadwood', 'inverse')
+
+def logic_9180(world):
+    _world_apply(world, 'humidity', 'pollinators', 'square')
