@@ -10877,3 +10877,6 @@ def logic_13604(world):
 
 def logic_13605(world):
     _world_apply(world, 'salinity', 'flowers', 'gap')
+
+def logic_13606(world):
+    _world_apply(world, 'salinity', 'seed_bank', 'direct')
