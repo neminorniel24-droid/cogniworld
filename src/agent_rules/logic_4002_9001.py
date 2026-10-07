@@ -6086,3 +6086,6 @@ def logic_6095(agents, world):
 
 def logic_6096(agents, world):
     _agent_apply(world, agents, 'methane', 'sharing_capacity', 'direct')
+
+def logic_6097(agents, world):
+    _agent_apply(world, agents, 'pathogen_load', 'sharing_capacity', 'direct')
