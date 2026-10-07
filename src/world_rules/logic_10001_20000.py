@@ -7154,3 +7154,6 @@ def logic_12363(world):
 
 def logic_12364(world):
     _world_apply(world, 'wind_y', 'ash', 'saturation')
+
+def logic_12365(world):
+    _world_apply(world, 'wind_y', 'snowpack', 'gap')
