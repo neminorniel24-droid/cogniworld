@@ -1007,3 +1007,6 @@ def logic_10314(world):
 
 def logic_10315(world):
     _world_apply(world, 'wind_x', 'runoff', 'saturation')
+
+def logic_10316(world):
+    _world_apply(world, 'wind_x', 'wind_y', 'gap')
