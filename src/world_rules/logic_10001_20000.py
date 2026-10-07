@@ -16550,3 +16550,6 @@ def logic_15495(world):
 
 def logic_15496(world):
     _world_apply(world, 'groundwater', 'pollinators', 'square')
+
+def logic_15497(world):
+    _world_apply(world, 'groundwater', 'flowers', 'saturation')
