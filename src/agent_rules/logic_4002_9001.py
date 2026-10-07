@@ -11012,3 +11012,6 @@ def logic_7737(agents, world):
 
 def logic_7738(agents, world):
     _agent_apply(world, agents, 'ash', 'conflict_history', 'direct')
+
+def logic_7739(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'conflict_history', 'direct')
