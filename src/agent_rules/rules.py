@@ -38410,3 +38410,10 @@ def logic_35865(agents, world):
     src = _local(world, agents, 'methane')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.neighbor_energy_gap = _delta(agents.neighbor_energy_gap, delta)
+
+
+def logic_35866(agents, world):
+    """Environmental pathogen_load shapes agent local_density (direct)."""
+    src = _local(world, agents, 'pathogen_load')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.local_density = _delta(agents.local_density, delta)
