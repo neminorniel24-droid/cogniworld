@@ -704,3 +704,4 @@
 - 20703: integrated cross-system causal rule
 - 20704: integrated cross-system causal rule
 - 20705: integrated cross-system causal rule
+- 20706: integrated cross-system causal rule
