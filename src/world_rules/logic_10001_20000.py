@@ -20141,3 +20141,6 @@ def logic_16692(world):
 
 def logic_16693(world):
     _world_apply(world, 'co2', 'rain', 'saturation')
+
+def logic_16694(world):
+    _world_apply(world, 'co2', 'soil_moisture', 'gap')
