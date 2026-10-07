@@ -1697,3 +1697,6 @@ def logic_10544(world):
 
 def logic_10545(world):
     _world_apply(world, 'predator', 'co2', 'pulse')
+
+def logic_10546(world):
+    _world_apply(world, 'predator', 'photosynthesis_factor', 'saturation')
