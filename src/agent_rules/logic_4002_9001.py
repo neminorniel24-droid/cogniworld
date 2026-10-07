@@ -6527,3 +6527,6 @@ def logic_6242(agents, world):
 
 def logic_6243(agents, world):
     _agent_apply(world, agents, 'snowpack', 'social_avoidance', 'direct')
+
+def logic_6244(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'social_avoidance', 'direct')
