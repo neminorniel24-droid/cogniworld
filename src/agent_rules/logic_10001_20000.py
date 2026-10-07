@@ -3239,3 +3239,6 @@ def logic_19058(agents, world):
 
 def logic_19059(agents, world):
     _agent_apply(world, agents, 'oxygen_need', 'conflict_history', 'inverse')
+
+def logic_19060(agents, world):
+    _agent_apply(world, agents, 'shelter_need', 'conflict_history', 'inverse')
