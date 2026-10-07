@@ -23843,3 +23843,6 @@ def logic_17926(world):
 
 def logic_17927(world):
     _world_apply(world, 'temperature', 'wind_x', 'square')
+
+def logic_17928(world):
+    _world_apply(world, 'temperature', 'wind_y', 'pulse')
