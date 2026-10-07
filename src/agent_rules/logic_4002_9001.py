@@ -1418,3 +1418,6 @@ def logic_4539(agents, world):
 
 def logic_4540(agents, world):
     _agent_apply(world, agents, 'carbon_storage', 'pathogen_risk', 'direct')
+
+def logic_4541(agents, world):
+    _agent_apply(world, agents, 'fire_risk', 'pathogen_risk', 'direct')
