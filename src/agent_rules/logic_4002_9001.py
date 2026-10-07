@@ -13310,3 +13310,6 @@ def logic_8503(agents, world):
 
 def logic_8504(agents, world):
     _agent_apply(world, agents, 'thirst', 'strategy_score', 'direct')
+
+def logic_8505(agents, world):
+    _agent_apply(world, agents, 'hunger', 'strategy_score', 'direct')
