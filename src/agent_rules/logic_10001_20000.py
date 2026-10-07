@@ -4019,3 +4019,6 @@ def logic_19318(agents, world):
 
 def logic_19319(agents, world):
     _agent_apply(world, agents, 'territoriality', 'competition_score', 'pulse')
+
+def logic_19320(agents, world):
+    _agent_apply(world, agents, 'group_stability', 'competition_score', 'pulse')
