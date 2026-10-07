@@ -19136,3 +19136,6 @@ def logic_16357(world):
 
 def logic_16358(world):
     _world_apply(world, 'vegetation', 'methane', 'square')
+
+def logic_16359(world):
+    _world_apply(world, 'vegetation', 'pathogen_load', 'pulse')
