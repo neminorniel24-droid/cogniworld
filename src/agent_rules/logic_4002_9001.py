@@ -12293,3 +12293,6 @@ def logic_8164(agents, world):
 
 def logic_8165(agents, world):
     _agent_apply(world, agents, 'hunger', 'last_energy_delta', 'direct')
+
+def logic_8166(agents, world):
+    _agent_apply(world, agents, 'health', 'last_energy_delta', 'direct')
