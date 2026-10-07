@@ -1694,3 +1694,6 @@ def logic_18543(agents, world):
 
 def logic_18544(agents, world):
     _agent_apply(world, agents, 'reproduction_score', 'territoriality', 'saturation')
+
+def logic_18545(agents, world):
+    _agent_apply(world, agents, 'sharing_score', 'territoriality', 'saturation')
