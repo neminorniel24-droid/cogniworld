@@ -30808,3 +30808,10 @@ def logic_34779(agents, world):
     src = _local(world, agents, 'pollinators')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.migration_drive = _delta(agents.migration_drive, delta)
+
+
+def logic_34780(agents, world):
+    """Environmental flowers shapes agent reputation (square)."""
+    src = _local(world, agents, 'flowers')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.reputation = _delta(agents.reputation, delta)
