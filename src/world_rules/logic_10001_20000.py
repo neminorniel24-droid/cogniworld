@@ -9179,3 +9179,6 @@ def logic_13038(world):
 
 def logic_13039(world):
     _world_apply(world, 'biodiversity', 'humidity', 'pulse')
+
+def logic_13040(world):
+    _world_apply(world, 'biodiversity', 'cloud', 'saturation')
