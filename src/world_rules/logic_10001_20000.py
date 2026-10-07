@@ -12908,3 +12908,6 @@ def logic_14281(world):
 
 def logic_14282(world):
     _world_apply(world, 'wind_x', 'nutrients', 'square')
+
+def logic_14283(world):
+    _world_apply(world, 'wind_x', 'decomposition_rate', 'pulse')
