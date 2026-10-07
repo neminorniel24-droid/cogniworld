@@ -21773,3 +21773,6 @@ def logic_17236(world):
 
 def logic_17237(world):
     _world_apply(world, 'wetland', 'evaporation', 'direct')
+
+def logic_17238(world):
+    _world_apply(world, 'wetland', 'detritus', 'square')
