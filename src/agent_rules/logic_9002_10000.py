@@ -1587,3 +1587,6 @@ def logic_9703(agents, world):
 
 def logic_9704(agents, world):
     _agent_apply(world, agents, 'soil_depth', 'infection_risk', 'direct')
+
+def logic_9705(agents, world):
+    _agent_apply(world, agents, 'root_density', 'infection_risk', 'direct')
