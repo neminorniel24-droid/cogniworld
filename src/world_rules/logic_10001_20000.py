@@ -19826,3 +19826,6 @@ def logic_16587(world):
 
 def logic_16588(world):
     _world_apply(world, 'nutrients', 'ash', 'direct')
+
+def logic_16589(world):
+    _world_apply(world, 'nutrients', 'snowpack', 'square')
