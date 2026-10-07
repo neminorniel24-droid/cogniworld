@@ -336,3 +336,6 @@ def logic_9087(world):
 
 def logic_9088(world):
     _world_apply(world, 'temperature', 'carbon_storage', 'saturation')
+
+def logic_9089(world):
+    _world_apply(world, 'temperature', 'fire_risk', 'reciprocal')
