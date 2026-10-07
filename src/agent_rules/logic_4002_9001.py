@@ -9992,3 +9992,6 @@ def logic_7397(agents, world):
 
 def logic_7398(agents, world):
     _agent_apply(world, agents, 'ash', 'stress', 'direct')
+
+def logic_7399(agents, world):
+    _agent_apply(world, agents, 'snowpack', 'stress', 'direct')
