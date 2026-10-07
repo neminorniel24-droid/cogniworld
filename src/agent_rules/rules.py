@@ -44017,3 +44017,10 @@ def logic_36666(agents, world):
     src = _local(world, agents, 'flowers')
     delta = torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.neighbor_energy_gap = _delta(agents.neighbor_energy_gap, delta)
+
+
+def logic_36667(agents, world):
+    """Environmental seed_bank shapes agent local_density (inverse)."""
+    src = _local(world, agents, 'seed_bank')
+    delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.local_density = _delta(agents.local_density, delta)
