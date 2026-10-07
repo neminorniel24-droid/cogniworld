@@ -66816,3 +66816,10 @@ def logic_39923(agents, world):
     src = _local(world, agents, 'ash')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.cooperation_score = _delta(agents.cooperation_score, delta)
+
+
+def logic_39924(agents, world):
+    """Environmental snowpack shapes agent foraging_score (square)."""
+    src = _local(world, agents, 'snowpack')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.foraging_score = _delta(agents.foraging_score, delta)
