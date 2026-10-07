@@ -7940,3 +7940,6 @@ def logic_6713(agents, world):
 
 def logic_6714(agents, world):
     _agent_apply(world, agents, 'root_density', 'future_help', 'direct')
+
+def logic_6715(agents, world):
+    _agent_apply(world, agents, 'wetland', 'future_help', 'direct')
