@@ -23732,3 +23732,6 @@ def logic_17889(world):
 
 def logic_17890(world):
     _world_apply(world, 'surface_ice', 'carrion', 'direct')
+
+def logic_17891(world):
+    _world_apply(world, 'surface_ice', 'nutrients', 'square')
