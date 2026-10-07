@@ -8522,3 +8522,6 @@ def logic_12819(world):
 
 def logic_12820(world):
     _world_apply(world, 'ice', 'cloud', 'square')
+
+def logic_12821(world):
+    _world_apply(world, 'ice', 'rain', 'pulse')
