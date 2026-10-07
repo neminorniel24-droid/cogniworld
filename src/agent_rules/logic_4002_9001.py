@@ -2570,3 +2570,6 @@ def logic_4923(agents, world):
 
 def logic_4924(agents, world):
     _agent_apply(world, agents, 'runoff', 'reproduction_drive', 'direct')
+
+def logic_4925(agents, world):
+    _agent_apply(world, agents, 'wind_x', 'reproduction_drive', 'direct')
