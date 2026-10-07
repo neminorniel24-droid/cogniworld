@@ -8764,3 +8764,4 @@
 - 28763: integrated cross-system causal rule
 - 28764: integrated cross-system causal rule
 - 28765: integrated cross-system causal rule
+- 28766: integrated cross-system causal rule
