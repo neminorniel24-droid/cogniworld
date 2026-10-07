@@ -8243,3 +8243,6 @@ def logic_12726(world):
 
 def logic_12727(world):
     _world_apply(world, 'oxygen', 'soil_carbon', 'square')
+
+def logic_12728(world):
+    _world_apply(world, 'oxygen', 'surface_ice', 'pulse')
