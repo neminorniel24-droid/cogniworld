@@ -28036,3 +28036,10 @@ def logic_34383(agents, world):
     src = _local(world, agents, 'predator')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.hydration = _delta(agents.hydration, delta)
+
+
+def logic_34384(agents, world):
+    """Environmental carrion shapes agent infection_risk (square)."""
+    src = _local(world, agents, 'carrion')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.infection_risk = _delta(agents.infection_risk, delta)
