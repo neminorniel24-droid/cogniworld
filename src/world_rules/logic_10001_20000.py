@@ -15476,3 +15476,6 @@ def logic_15137(world):
 
 def logic_15138(world):
     _world_apply(world, 'erosion', 'groundwater', 'gap')
+
+def logic_15139(world):
+    _world_apply(world, 'erosion', 'sediment', 'direct')
