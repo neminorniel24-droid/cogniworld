@@ -3422,3 +3422,6 @@ def logic_5207(agents, world):
 
 def logic_5208(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'wealth', 'direct')
+
+def logic_5209(agents, world):
+    _agent_apply(world, agents, 'ice', 'wealth', 'direct')
