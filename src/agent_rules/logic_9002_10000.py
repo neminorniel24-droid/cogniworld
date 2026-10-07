@@ -414,3 +414,6 @@ def logic_9312(agents, world):
 
 def logic_9313(agents, world):
     _agent_apply(world, agents, 'surface_ice', 'thirst', 'direct')
+
+def logic_9314(agents, world):
+    _agent_apply(world, agents, 'resource_scarcity', 'thirst', 'direct')
