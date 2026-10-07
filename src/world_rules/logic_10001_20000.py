@@ -15863,3 +15863,6 @@ def logic_15266(world):
 
 def logic_15267(world):
     _world_apply(world, 'wetland', 'fire_risk', 'gap')
+
+def logic_15268(world):
+    _world_apply(world, 'wetland', 'ash', 'direct')
