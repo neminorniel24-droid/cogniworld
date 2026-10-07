@@ -101,3 +101,6 @@ def logic_10012(world):
 
 def logic_10013(world):
     _world_apply(world, 'temperature', 'carrion', 'saturation')
+
+def logic_10014(world):
+    _world_apply(world, 'temperature', 'nutrients', 'gap')
