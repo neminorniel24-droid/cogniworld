@@ -7841,3 +7841,6 @@ def logic_12592(world):
 
 def logic_12593(world):
     _world_apply(world, 'carrion', 'flowers', 'square')
+
+def logic_12594(world):
+    _world_apply(world, 'carrion', 'seed_bank', 'pulse')
