@@ -2282,3 +2282,4 @@
 - 22281: integrated cross-system causal rule
 - 22282: integrated cross-system causal rule
 - 22283: integrated cross-system causal rule
+- 22284: integrated cross-system causal rule
