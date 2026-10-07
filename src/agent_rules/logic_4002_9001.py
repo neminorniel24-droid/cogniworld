@@ -4418,3 +4418,6 @@ def logic_5539(agents, world):
 
 def logic_5540(agents, world):
     _agent_apply(world, agents, 'biomass', 'trust', 'direct')
+
+def logic_5541(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'trust', 'direct')
