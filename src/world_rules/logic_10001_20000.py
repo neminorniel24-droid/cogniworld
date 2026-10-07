@@ -11900,3 +11900,6 @@ def logic_13945(world):
 
 def logic_13946(world):
     _world_apply(world, 'surface_ice', 'wetland', 'saturation')
+
+def logic_13947(world):
+    _world_apply(world, 'surface_ice', 'carbon_storage', 'gap')
