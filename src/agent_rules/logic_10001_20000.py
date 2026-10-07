@@ -4292,3 +4292,6 @@ def logic_19409(agents, world):
 
 def logic_19410(agents, world):
     _agent_apply(world, agents, 'wetland', 'exploration_score', 'threshold')
+
+def logic_19411(agents, world):
+    _agent_apply(world, agents, 'carbon_storage', 'exploration_score', 'threshold')
