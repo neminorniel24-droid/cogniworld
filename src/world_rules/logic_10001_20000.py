@@ -1406,3 +1406,6 @@ def logic_10447(world):
 
 def logic_10448(world):
     _world_apply(world, 'biomass', 'wind_x', 'pulse')
+
+def logic_10449(world):
+    _world_apply(world, 'biomass', 'wind_y', 'gap')
