@@ -9500,3 +9500,6 @@ def logic_13145(world):
 
 def logic_13146(world):
     _world_apply(world, 'erosion', 'detritus', 'saturation')
+
+def logic_13147(world):
+    _world_apply(world, 'erosion', 'methane', 'gap')
