@@ -243,3 +243,4 @@
 - 20242: integrated cross-system causal rule
 - 20243: integrated cross-system causal rule
 - 20244: integrated cross-system causal rule
+- 20245: integrated cross-system causal rule
