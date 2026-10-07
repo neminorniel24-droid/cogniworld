@@ -564,3 +564,6 @@ def logic_9362(agents, world):
 
 def logic_9363(agents, world):
     _agent_apply(world, agents, 'erosion', 'hunger', 'direct')
+
+def logic_9364(agents, world):
+    _agent_apply(world, agents, 'soil_depth', 'hunger', 'direct')
