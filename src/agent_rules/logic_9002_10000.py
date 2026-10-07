@@ -1818,3 +1818,6 @@ def logic_9780(agents, world):
 
 def logic_9781(agents, world):
     _agent_apply(world, agents, 'salinity', 'alertness', 'direct')
+
+def logic_9782(agents, world):
+    _agent_apply(world, agents, 'algae', 'alertness', 'direct')
