@@ -52494,3 +52494,10 @@ def logic_37877(agents, world):
     src = _local(world, agents, 'biomass')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.foraging_score = _delta(agents.foraging_score, delta)
+
+
+def logic_37878(agents, world):
+    """Environmental herbivore shapes agent migration_score (direct)."""
+    src = _local(world, agents, 'herbivore')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.migration_score = _delta(agents.migration_score, delta)
