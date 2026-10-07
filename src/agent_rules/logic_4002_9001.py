@@ -13835,3 +13835,6 @@ def logic_8678(agents, world):
 
 def logic_8679(agents, world):
     _agent_apply(world, agents, 'detritus', 'defection_score', 'direct')
+
+def logic_8680(agents, world):
+    _agent_apply(world, agents, 'methane', 'defection_score', 'direct')
