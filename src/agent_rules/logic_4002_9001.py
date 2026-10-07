@@ -323,3 +323,6 @@ def logic_4174(agents, world):
 
 def logic_4175(agents, world):
     _agent_apply(world, agents, 'soil_moisture', 'thirst', 'direct')
+
+def logic_4176(agents, world):
+    _agent_apply(world, agents, 'runoff', 'thirst', 'direct')
