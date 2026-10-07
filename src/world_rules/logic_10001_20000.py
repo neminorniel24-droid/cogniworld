@@ -15806,3 +15806,6 @@ def logic_15247(world):
 
 def logic_15248(world):
     _world_apply(world, 'wetland', 'herbivore', 'pulse')
+
+def logic_15249(world):
+    _world_apply(world, 'wetland', 'predator', 'gap')
