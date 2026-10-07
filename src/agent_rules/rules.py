@@ -50226,3 +50226,10 @@ def logic_37553(agents, world):
     src = _local(world, agents, 'wind_y')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.sharing_capacity = _delta(agents.sharing_capacity, delta)
+
+
+def logic_37554(agents, world):
+    """Environmental vegetation shapes agent confidence (direct)."""
+    src = _local(world, agents, 'vegetation')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.confidence = _delta(agents.confidence, delta)
