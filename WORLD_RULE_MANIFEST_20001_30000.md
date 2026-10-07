@@ -7080,3 +7080,4 @@
 - 27079: integrated cross-system causal rule
 - 27080: integrated cross-system causal rule
 - 27081: integrated cross-system causal rule
+- 27082: integrated cross-system causal rule
