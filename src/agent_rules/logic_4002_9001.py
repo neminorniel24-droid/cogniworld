@@ -12455,3 +12455,6 @@ def logic_8218(agents, world):
 
 def logic_8219(agents, world):
     _agent_apply(world, agents, 'algae', 'last_food', 'direct')
+
+def logic_8220(agents, world):
+    _agent_apply(world, agents, 'organic_matter', 'last_food', 'direct')
