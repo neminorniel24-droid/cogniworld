@@ -758,3 +758,6 @@ def logic_10231(world):
 
 def logic_10232(world):
     _world_apply(world, 'soil_moisture', 'predator', 'gap')
+
+def logic_10233(world):
+    _world_apply(world, 'soil_moisture', 'carrion', 'square')
