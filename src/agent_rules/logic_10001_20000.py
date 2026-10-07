@@ -3098,3 +3098,6 @@ def logic_19011(agents, world):
 
 def logic_19012(agents, world):
     _agent_apply(world, agents, 'resource_scarcity', 'neighbor_health_gap', 'inverse')
+
+def logic_19013(agents, world):
+    _agent_apply(world, agents, 'resource_abundance', 'neighbor_health_gap', 'inverse')
