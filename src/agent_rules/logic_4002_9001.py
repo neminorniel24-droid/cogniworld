@@ -3467,3 +3467,6 @@ def logic_5222(agents, world):
 
 def logic_5223(agents, world):
     _agent_apply(world, agents, 'snowpack', 'wealth', 'direct')
+
+def logic_5224(agents, world):
+    _agent_apply(world, agents, 'groundwater', 'wealth', 'direct')
