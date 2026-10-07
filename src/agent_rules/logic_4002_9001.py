@@ -6713,3 +6713,6 @@ def logic_6304(agents, world):
 
 def logic_6305(agents, world):
     _agent_apply(world, agents, 'soil_depth', 'selfishness', 'direct')
+
+def logic_6306(agents, world):
+    _agent_apply(world, agents, 'root_density', 'selfishness', 'direct')
