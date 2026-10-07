@@ -20750,3 +20750,6 @@ def logic_16895(world):
 
 def logic_16896(world):
     _world_apply(world, 'detritus', 'ash', 'square')
+
+def logic_16897(world):
+    _world_apply(world, 'detritus', 'snowpack', 'saturation')
