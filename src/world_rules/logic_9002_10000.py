@@ -261,3 +261,6 @@ def logic_9062(world):
 
 def logic_9063(world):
     _world_apply(world, 'temperature', 'humidity', 'threshold')
+
+def logic_9064(world):
+    _world_apply(world, 'temperature', 'cloud', 'saturation')
