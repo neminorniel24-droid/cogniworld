@@ -12431,3 +12431,6 @@ def logic_14122(world):
 
 def logic_14123(world):
     _world_apply(world, 'cloud', 'fire_risk', 'pulse')
+
+def logic_14124(world):
+    _world_apply(world, 'cloud', 'ash', 'saturation')
