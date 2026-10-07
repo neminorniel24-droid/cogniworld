@@ -41966,3 +41966,10 @@ def logic_36373(agents, world):
     src = _local(world, agents, 'biodiversity')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.resource_competition = _delta(agents.resource_competition, delta)
+
+
+def logic_36374(agents, world):
+    """Environmental habitat_stress shapes agent conflict_history (direct)."""
+    src = _local(world, agents, 'habitat_stress')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.conflict_history = _delta(agents.conflict_history, delta)
