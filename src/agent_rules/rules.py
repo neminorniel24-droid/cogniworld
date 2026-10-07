@@ -53579,3 +53579,10 @@ def logic_38032(agents, world):
     src = _local(world, agents, 'soil_depth')
     delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.hydration = _delta(agents.hydration, delta)
+
+
+def logic_38033(agents, world):
+    """Environmental root_density shapes agent infection_risk (root)."""
+    src = _local(world, agents, 'root_density')
+    delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.infection_risk = _delta(agents.infection_risk, delta)
