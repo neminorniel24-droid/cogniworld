@@ -5501,3 +5501,6 @@ def logic_19812(agents, world):
 
 def logic_19813(agents, world):
     _agent_apply(world, agents, 'photosynthesis_factor', 'hunger', 'direct')
+
+def logic_19814(agents, world):
+    _agent_apply(world, agents, 'ice', 'hunger', 'direct')
