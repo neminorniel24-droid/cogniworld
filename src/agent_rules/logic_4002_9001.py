@@ -8798,3 +8798,6 @@ def logic_6999(agents, world):
 
 def logic_7000(agents, world):
     _agent_apply(world, agents, 'seed_bank', 'defection_threshold', 'direct')
+
+def logic_7001(agents, world):
+    _agent_apply(world, agents, 'soil_carbon', 'defection_threshold', 'direct')
