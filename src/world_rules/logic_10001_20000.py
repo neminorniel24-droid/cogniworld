@@ -18068,3 +18068,6 @@ def logic_16001(world):
 
 def logic_16002(world):
     _world_apply(world, 'surface_water', 'photosynthesis_factor', 'square')
+
+def logic_16003(world):
+    _world_apply(world, 'surface_water', 'ice', 'pulse')
