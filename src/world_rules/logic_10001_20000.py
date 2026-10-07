@@ -3773,3 +3773,6 @@ def logic_11236(world):
 
 def logic_11237(world):
     _world_apply(world, 'root_density', 'rain', 'direct')
+
+def logic_11238(world):
+    _world_apply(world, 'root_density', 'soil_moisture', 'square')
