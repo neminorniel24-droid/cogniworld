@@ -20519,3 +20519,6 @@ def logic_16818(world):
 
 def logic_16819(world):
     _world_apply(world, 'ice', 'soil_carbon', 'direct')
+
+def logic_16820(world):
+    _world_apply(world, 'ice', 'surface_ice', 'square')
