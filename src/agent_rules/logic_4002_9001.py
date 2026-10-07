@@ -10130,3 +10130,6 @@ def logic_7443(agents, world):
 
 def logic_7444(agents, world):
     _agent_apply(world, agents, 'biomass', 'social_need', 'direct')
+
+def logic_7445(agents, world):
+    _agent_apply(world, agents, 'herbivore', 'social_need', 'direct')
