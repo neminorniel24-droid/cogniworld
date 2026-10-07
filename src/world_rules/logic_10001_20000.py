@@ -7193,3 +7193,6 @@ def logic_12376(world):
 
 def logic_12377(world):
     _world_apply(world, 'vegetation', 'temperature', 'saturation')
+
+def logic_12378(world):
+    _world_apply(world, 'vegetation', 'surface_water', 'gap')
