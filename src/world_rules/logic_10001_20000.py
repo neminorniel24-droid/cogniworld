@@ -8177,3 +8177,6 @@ def logic_12704(world):
 
 def logic_12705(world):
     _world_apply(world, 'oxygen', 'detritus', 'pulse')
+
+def logic_12706(world):
+    _world_apply(world, 'oxygen', 'methane', 'saturation')
