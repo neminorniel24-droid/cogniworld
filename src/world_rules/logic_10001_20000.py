@@ -2033,3 +2033,6 @@ def logic_10656(world):
 
 def logic_10657(world):
     _world_apply(world, 'nutrients', 'flowers', 'saturation')
+
+def logic_10658(world):
+    _world_apply(world, 'nutrients', 'seed_bank', 'gap')
