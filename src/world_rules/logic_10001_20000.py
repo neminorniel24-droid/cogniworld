@@ -22292,3 +22292,6 @@ def logic_17409(world):
 
 def logic_17410(world):
     _world_apply(world, 'snowpack', 'co2', 'direct')
+
+def logic_17411(world):
+    _world_apply(world, 'snowpack', 'photosynthesis_factor', 'square')
