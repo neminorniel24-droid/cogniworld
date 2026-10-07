@@ -11390,3 +11390,6 @@ def logic_13775(world):
 
 def logic_13776(world):
     _world_apply(world, 'pollinators', 'sediment', 'square')
+
+def logic_13777(world):
+    _world_apply(world, 'pollinators', 'salinity', 'saturation')
