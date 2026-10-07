@@ -12818,3 +12818,6 @@ def logic_8339(agents, world):
 
 def logic_8340(agents, world):
     _agent_apply(world, agents, 'methane', 'risk_tolerance', 'direct')
+
+def logic_8341(agents, world):
+    _agent_apply(world, agents, 'pathogen_load', 'risk_tolerance', 'direct')
