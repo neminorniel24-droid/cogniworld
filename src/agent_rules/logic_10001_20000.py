@@ -3512,3 +3512,6 @@ def logic_19149(agents, world):
 
 def logic_19150(agents, world):
     _agent_apply(world, agents, 'resource_scarcity', 'last_reward', 'square')
+
+def logic_19151(agents, world):
+    _agent_apply(world, agents, 'resource_abundance', 'last_reward', 'square')
