@@ -395,3 +395,6 @@ def logic_4198(agents, world):
 
 def logic_4199(agents, world):
     _agent_apply(world, agents, 'wetland', 'thirst', 'direct')
+
+def logic_4200(agents, world):
+    _agent_apply(world, agents, 'carbon_storage', 'thirst', 'direct')
