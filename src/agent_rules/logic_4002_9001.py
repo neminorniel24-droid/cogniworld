@@ -2903,3 +2903,6 @@ def logic_5034(agents, world):
 
 def logic_5035(agents, world):
     _agent_apply(world, agents, 'hydration', 'migration_drive', 'direct')
+
+def logic_5036(agents, world):
+    _agent_apply(world, agents, 'thirst', 'migration_drive', 'direct')
