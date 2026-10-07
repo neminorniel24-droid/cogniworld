@@ -13808,3 +13808,6 @@ def logic_14581(world):
 
 def logic_14582(world):
     _world_apply(world, 'nutrients', 'soil_moisture', 'saturation')
+
+def logic_14583(world):
+    _world_apply(world, 'nutrients', 'runoff', 'gap')
