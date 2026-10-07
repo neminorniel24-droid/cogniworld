@@ -7865,3 +7865,6 @@ def logic_6688(agents, world):
 
 def logic_6689(agents, world):
     _agent_apply(world, agents, 'cloud', 'future_help', 'direct')
+
+def logic_6690(agents, world):
+    _agent_apply(world, agents, 'rain', 'future_help', 'direct')
