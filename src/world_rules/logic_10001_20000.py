@@ -17912,3 +17912,6 @@ def logic_15949(world):
 
 def logic_15950(world):
     _world_apply(world, 'temperature', 'biomass', 'pulse')
+
+def logic_15951(world):
+    _world_apply(world, 'temperature', 'herbivore', 'saturation')
