@@ -6053,3 +6053,6 @@ def logic_19996(agents, world):
 
 def logic_19997(agents, world):
     _agent_apply(world, agents, 'food_access', 'reproduction_drive', 'square')
+
+def logic_19998(agents, world):
+    _agent_apply(world, agents, 'wealth', 'reproduction_drive', 'square')
