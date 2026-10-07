@@ -7457,3 +7457,6 @@ def logic_6552(agents, world):
 
 def logic_6553(agents, world):
     _agent_apply(world, agents, 'cloud', 'confidence', 'direct')
+
+def logic_6554(agents, world):
+    _agent_apply(world, agents, 'rain', 'confidence', 'direct')
