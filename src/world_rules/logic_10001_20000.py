@@ -2582,3 +2582,6 @@ def logic_10839(world):
 
 def logic_10840(world):
     _world_apply(world, 'ice', 'cloud', 'saturation')
+
+def logic_10841(world):
+    _world_apply(world, 'ice', 'rain', 'direct')
