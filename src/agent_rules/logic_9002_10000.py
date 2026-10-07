@@ -1041,3 +1041,6 @@ def logic_9521(agents, world):
 
 def logic_9522(agents, world):
     _agent_apply(world, agents, 'hydration', 'thermal_stress', 'direct')
+
+def logic_9523(agents, world):
+    _agent_apply(world, agents, 'thirst', 'thermal_stress', 'direct')
