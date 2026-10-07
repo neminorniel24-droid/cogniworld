@@ -971,3 +971,4 @@
 - 20970: integrated cross-system causal rule
 - 20971: integrated cross-system causal rule
 - 20972: integrated cross-system causal rule
+- 20973: integrated cross-system causal rule
