@@ -42778,3 +42778,10 @@ def logic_36489(agents, world):
     src = _local(world, agents, 'humidity')
     delta = torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.local_density = _delta(agents.local_density, delta)
+
+
+def logic_36490(agents, world):
+    """Environmental cloud shapes agent strategy_score (direct)."""
+    src = _local(world, agents, 'cloud')
+    delta = torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.strategy_score = _delta(agents.strategy_score, delta)
