@@ -5510,3 +5510,6 @@ def logic_19815(agents, world):
 
 def logic_19816(agents, world):
     _agent_apply(world, agents, 'detritus', 'health', 'direct')
+
+def logic_19817(agents, world):
+    _agent_apply(world, agents, 'methane', 'health', 'direct')
