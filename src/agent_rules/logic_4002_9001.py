@@ -2558,3 +2558,6 @@ def logic_4919(agents, world):
 
 def logic_4920(agents, world):
     _agent_apply(world, agents, 'humidity', 'reproduction_drive', 'direct')
+
+def logic_4921(agents, world):
+    _agent_apply(world, agents, 'cloud', 'reproduction_drive', 'direct')
