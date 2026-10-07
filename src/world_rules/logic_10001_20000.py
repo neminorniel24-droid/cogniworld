@@ -9134,3 +9134,6 @@ def logic_13023(world):
 
 def logic_13024(world):
     _world_apply(world, 'pathogen_load', 'ash', 'direct')
+
+def logic_13025(world):
+    _world_apply(world, 'pathogen_load', 'snowpack', 'pulse')
