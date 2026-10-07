@@ -654,3 +654,6 @@ def logic_9193(world):
 
 def logic_9194(world):
     _world_apply(world, 'cloud', 'predator', 'direct')
+
+def logic_9195(world):
+    _world_apply(world, 'cloud', 'carrion', 'inverse')
