@@ -5894,3 +5894,6 @@ def logic_6031(agents, world):
 
 def logic_6032(agents, world):
     _agent_apply(world, agents, 'erosion', 'group_stability', 'direct')
+
+def logic_6033(agents, world):
+    _agent_apply(world, agents, 'soil_depth', 'group_stability', 'direct')
