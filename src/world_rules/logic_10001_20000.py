@@ -2135,3 +2135,6 @@ def logic_10690(world):
 
 def logic_10691(world):
     _world_apply(world, 'decomposition_rate', 'fire_risk', 'square')
+
+def logic_10692(world):
+    _world_apply(world, 'decomposition_rate', 'ash', 'pulse')
