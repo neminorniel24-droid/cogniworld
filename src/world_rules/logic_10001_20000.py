@@ -7202,3 +7202,6 @@ def logic_12379(world):
 
 def logic_12380(world):
     _world_apply(world, 'vegetation', 'cloud', 'square')
+
+def logic_12381(world):
+    _world_apply(world, 'vegetation', 'rain', 'pulse')
