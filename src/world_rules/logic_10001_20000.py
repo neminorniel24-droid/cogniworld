@@ -12386,3 +12386,6 @@ def logic_14107(world):
 
 def logic_14108(world):
     _world_apply(world, 'cloud', 'oxygen', 'direct')
+
+def logic_14109(world):
+    _world_apply(world, 'cloud', 'co2', 'square')
