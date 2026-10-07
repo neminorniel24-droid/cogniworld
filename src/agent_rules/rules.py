@@ -27364,3 +27364,10 @@ def logic_34287(agents, world):
     src = _local(world, agents, 'wind_y')
     delta = torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.empathy = _delta(agents.empathy, delta)
+
+
+def logic_34288(agents, world):
+    """Environmental vegetation shapes agent vegetation_expectation (square)."""
+    src = _local(world, agents, 'vegetation')
+    delta = torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.vegetation_expectation = _delta(agents.vegetation_expectation, delta)
