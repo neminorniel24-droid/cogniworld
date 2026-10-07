@@ -934,3 +934,4 @@
 - 20933: integrated cross-system causal rule
 - 20934: integrated cross-system causal rule
 - 20935: integrated cross-system causal rule
+- 20936: integrated cross-system causal rule
