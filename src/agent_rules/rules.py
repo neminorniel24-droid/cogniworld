@@ -77297,3 +77297,9 @@ def logic_45657(agents,world):
     src=_local(world,agents,'rain')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.defection_score=_delta(agents.defection_score,delta)
+
+
+def logic_45658(agents,world):
+    src=_local(world,agents,'wind_x')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defense_score=_delta(agents.defense_score,delta)
