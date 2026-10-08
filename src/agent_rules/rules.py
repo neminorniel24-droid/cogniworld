@@ -92141,3 +92141,9 @@ def logic_48131(agents,world):
     src=_local(world,agents,'evaporation')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.vegetation_expectation=_delta(agents.vegetation_expectation,delta)
+
+
+def logic_48132(agents,world):
+    src=_local(world,agents,'pathogen_load')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.last_reward=_delta(agents.last_reward,delta)
