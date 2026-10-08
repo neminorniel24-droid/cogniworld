@@ -86237,3 +86237,9 @@ def logic_47147(agents,world):
     src=_local(world,agents,'predator')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.sharing_score=_delta(agents.sharing_score,delta)
+
+
+def logic_47148(agents,world):
+    src=_local(world,agents,'decomposition_rate')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.health=_delta(agents.health,delta)
