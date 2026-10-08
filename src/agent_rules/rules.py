@@ -75305,3 +75305,9 @@ def logic_45325(agents,world):
     src=_local(world,agents,'evaporation')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.strategy_score=_delta(agents.strategy_score,delta)
+
+
+def logic_45326(agents,world):
+    src=_local(world,agents,'pathogen_load')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.help_score=_delta(agents.help_score,delta)
