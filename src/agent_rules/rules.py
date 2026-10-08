@@ -85193,3 +85193,9 @@ def logic_46973(agents,world):
     src=_local(world,agents,'seed_bank')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.confidence=_delta(agents.confidence,delta)
+
+
+def logic_46974(agents,world):
+    src=_local(world,agents,'temperature')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.vegetation_expectation=_delta(agents.vegetation_expectation,delta)
