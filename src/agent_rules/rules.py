@@ -93239,3 +93239,9 @@ def logic_48314(agents,world):
     src=_local(world,agents,'co2')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.migration_drive=_delta(agents.migration_drive,delta)
+
+
+def logic_48315(agents,world):
+    src=_local(world,agents,'evaporation')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.aggression=_delta(agents.aggression,delta)
