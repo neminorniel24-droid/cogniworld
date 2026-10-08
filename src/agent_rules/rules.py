@@ -73841,3 +73841,9 @@ def logic_45081(agents,world):
     src=_local(world,agents,'biodiversity')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.neighbor_energy_gap=_delta(agents.neighbor_energy_gap,delta)
+
+
+def logic_45082(agents,world):
+    src=_local(world,agents,'soil_depth')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.last_interaction=_delta(agents.last_interaction,delta)
