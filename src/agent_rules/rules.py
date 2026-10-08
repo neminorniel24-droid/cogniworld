@@ -89525,3 +89525,9 @@ def logic_47695(agents,world):
     src=_local(world,agents,'temperature_target')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.local_density=_delta(agents.local_density,delta)
+
+
+def logic_47696(agents,world):
+    src=_local(world,agents,'cloud')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.reciprocity_score=_delta(agents.reciprocity_score,delta)
