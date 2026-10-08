@@ -41670,3 +41670,6 @@ RULES.append(logic_41063)
 
 from .logic_41064_rain_influences_temperature import apply as logic_41064
 RULES.append(logic_41064)
+
+from .logic_41065_soil_moisture_influences_runoff import apply as logic_41065
+RULES.append(logic_41065)
