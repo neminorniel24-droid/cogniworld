@@ -82859,3 +82859,9 @@ def logic_46584(agents,world):
     src=_local(world,agents,'habitat_stress')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.sharing_capacity=_delta(agents.sharing_capacity,delta)
+
+
+def logic_46585(agents,world):
+    src=_local(world,agents,'root_density')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.empathy=_delta(agents.empathy,delta)
