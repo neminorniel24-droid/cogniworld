@@ -48672,3 +48672,6 @@ RULES.append(logic_43397)
 
 from .logic_43398_organic_matter_influences_wind_x import apply as logic_43398
 RULES.append(logic_43398)
+
+from .logic_43399_deadwood_influences_nutrients import apply as logic_43399
+RULES.append(logic_43399)
