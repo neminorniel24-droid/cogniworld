@@ -67487,3 +67487,9 @@ def logic_44022(agents,world):
     src=_local(world,agents,'detritus')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.last_food=_delta(agents.last_food,delta)
+
+
+def logic_44023(agents,world):
+    src=_local(world,agents,'biodiversity')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.exploration_score=_delta(agents.exploration_score,delta)
