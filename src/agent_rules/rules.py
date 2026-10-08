@@ -103061,3 +103061,9 @@ def logic_49951(agents,world):
     src=_local(world,agents,'runoff')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.defection_threshold=_delta(agents.defection_threshold,delta)
+
+
+def logic_49952(agents,world):
+    src=_local(world,agents,'vegetation')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.conflict_history=_delta(agents.conflict_history,delta)
