@@ -76565,3 +76565,9 @@ def logic_45535(agents,world):
     src=_local(world,agents,'runoff')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.last_food=_delta(agents.last_food,delta)
+
+
+def logic_45536(agents,world):
+    src=_local(world,agents,'vegetation')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.exploration_score=_delta(agents.exploration_score,delta)
