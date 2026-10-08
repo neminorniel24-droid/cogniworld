@@ -78503,3 +78503,9 @@ def logic_45858(agents,world):
     src=_local(world,agents,'vegetation')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.conflict_history=_delta(agents.conflict_history,delta)
+
+
+def logic_45859(agents,world):
+    src=_local(world,agents,'predator')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.strategy_score=_delta(agents.strategy_score,delta)
