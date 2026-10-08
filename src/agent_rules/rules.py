@@ -72047,3 +72047,9 @@ def logic_44782(agents,world):
     src=_local(world,agents,'surface_water')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.cooperation_history=_delta(agents.cooperation_history,delta)
+
+
+def logic_44783(agents,world):
+    src=_local(world,agents,'rain')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.cooperation_score=_delta(agents.cooperation_score,delta)
