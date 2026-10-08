@@ -74639,3 +74639,9 @@ def logic_45214(agents,world):
     src=_local(world,agents,'vegetation')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.hydration=_delta(agents.hydration,delta)
+
+
+def logic_45215(agents,world):
+    src=_local(world,agents,'predator')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.metabolic_cost=_delta(agents.metabolic_cost,delta)
