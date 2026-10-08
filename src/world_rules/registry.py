@@ -50280,3 +50280,6 @@ RULES.append(logic_43933)
 
 from .logic_43934_methane_influences_snowpack import apply as logic_43934
 RULES.append(logic_43934)
+
+from .logic_43935_pathogen_load_influences_pollinators import apply as logic_43935
+RULES.append(logic_43935)
