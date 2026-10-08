@@ -85199,3 +85199,9 @@ def logic_46974(agents,world):
     src=_local(world,agents,'temperature')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.vegetation_expectation=_delta(agents.vegetation_expectation,delta)
+
+
+def logic_46975(agents,world):
+    src=_local(world,agents,'humidity')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.last_reward=_delta(agents.last_reward,delta)
