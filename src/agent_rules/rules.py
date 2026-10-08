@@ -68987,3 +68987,9 @@ def logic_44272(agents,world):
     src=_local(world,agents,'sediment')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.neighbor_health_gap=_delta(agents.neighbor_health_gap,delta)
+
+
+def logic_44273(agents,world):
+    src=_local(world,agents,'organic_matter')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.risk_tolerance=_delta(agents.risk_tolerance,delta)
