@@ -80189,3 +80189,9 @@ def logic_46139(agents,world):
     src=_local(world,agents,'biodiversity')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.sharing_capacity=_delta(agents.sharing_capacity,delta)
+
+
+def logic_46140(agents,world):
+    src=_local(world,agents,'soil_depth')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.empathy=_delta(agents.empathy,delta)
