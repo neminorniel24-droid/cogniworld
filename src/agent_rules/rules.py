@@ -71795,3 +71795,9 @@ def logic_44740(agents,world):
     src=_local(world,agents,'carrion')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.strategy_confidence=_delta(agents.strategy_confidence,delta)
+
+
+def logic_44741(agents,world):
+    src=_local(world,agents,'oxygen')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.stress=_delta(agents.stress,delta)
