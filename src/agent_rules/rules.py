@@ -99113,3 +99113,9 @@ def logic_49293(agents,world):
     src=_local(world,agents,'biomass')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.migration_drive=_delta(agents.migration_drive,delta)
+
+
+def logic_49294(agents,world):
+    src=_local(world,agents,'carrion')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.aggression=_delta(agents.aggression,delta)
