@@ -97847,3 +97847,9 @@ def logic_49082(agents,world):
     src=_local(world,agents,'detritus')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.pathogen_risk=_delta(agents.pathogen_risk,delta)
+
+
+def logic_49083(agents,world):
+    src=_local(world,agents,'biodiversity')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.stability=_delta(agents.stability,delta)
