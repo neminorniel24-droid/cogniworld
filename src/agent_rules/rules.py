@@ -99083,3 +99083,9 @@ def logic_49288(agents,world):
     src=_local(world,agents,'flowers')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.vegetation_expectation=_delta(agents.vegetation_expectation,delta)
+
+
+def logic_49289(agents,world):
+    src=_local(world,agents,'surface_ice')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.last_reward=_delta(agents.last_reward,delta)
