@@ -47766,3 +47766,6 @@ RULES.append(logic_43095)
 
 from .logic_43096_predator_influences_vegetation import apply as logic_43096
 RULES.append(logic_43096)
+
+from .logic_43097_carrion_influences_oxygen import apply as logic_43097
+RULES.append(logic_43097)
