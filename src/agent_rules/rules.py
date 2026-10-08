@@ -80609,3 +80609,9 @@ def logic_46209(agents,world):
     src=_local(world,agents,'rain')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.self_preservation=_delta(agents.self_preservation,delta)
+
+
+def logic_46210(agents,world):
+    src=_local(world,agents,'wind_x')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.fear=_delta(agents.fear,delta)
