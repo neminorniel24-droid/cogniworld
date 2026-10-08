@@ -81503,3 +81503,9 @@ def logic_46358(agents,world):
     src=_local(world,agents,'algae')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.caution=_delta(agents.caution,delta)
+
+
+def logic_46359(agents,world):
+    src=_local(world,agents,'pollinators')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.resource_competition=_delta(agents.resource_competition,delta)
