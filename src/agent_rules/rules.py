@@ -79961,3 +79961,9 @@ def logic_46101(agents,world):
     src=_local(world,agents,'humidity')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.help_given=_delta(agents.help_given,delta)
+
+
+def logic_46102(agents,world):
+    src=_local(world,agents,'soil_moisture')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defection_score=_delta(agents.defection_score,delta)
