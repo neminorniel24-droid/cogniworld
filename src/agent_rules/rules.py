@@ -77303,3 +77303,9 @@ def logic_45658(agents,world):
     src=_local(world,agents,'wind_x')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.defense_score=_delta(agents.defense_score,delta)
+
+
+def logic_45659(agents,world):
+    src=_local(world,agents,'biomass')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.hydration=_delta(agents.hydration,delta)
