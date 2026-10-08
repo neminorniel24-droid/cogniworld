@@ -84449,3 +84449,9 @@ def logic_46849(agents,world):
     src=_local(world,agents,'organic_matter')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.infection_risk=_delta(agents.infection_risk,delta)
+
+
+def logic_46850(agents,world):
+    src=_local(world,agents,'flowers')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.habitat_stress=_delta(agents.habitat_stress,delta)
