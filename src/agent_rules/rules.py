@@ -93425,3 +93425,9 @@ def logic_48345(agents,world):
     src=_local(world,agents,'photosynthesis_factor')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.self_preservation=_delta(agents.self_preservation,delta)
+
+
+def logic_48346(agents,world):
+    src=_local(world,agents,'detritus')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.fear=_delta(agents.fear,delta)
