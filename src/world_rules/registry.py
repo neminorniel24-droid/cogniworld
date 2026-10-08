@@ -44223,3 +44223,6 @@ RULES.append(logic_41914)
 
 from .logic_41915_soil_depth_influences_methane import apply as logic_41915
 RULES.append(logic_41915)
+
+from .logic_41916_root_density_influences_wetland import apply as logic_41916
+RULES.append(logic_41916)
