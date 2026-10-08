@@ -88583,3 +88583,9 @@ def logic_47538(agents,world):
     src=_local(world,agents,'sediment')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.trust=_delta(agents.trust,delta)
+
+
+def logic_47539(agents,world):
+    src=_local(world,agents,'organic_matter')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.selfishness=_delta(agents.selfishness,delta)
