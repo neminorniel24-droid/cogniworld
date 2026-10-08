@@ -98933,3 +98933,9 @@ def logic_49263(agents,world):
     src=_local(world,agents,'predator')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.resource_discovery=_delta(agents.resource_discovery,delta)
+
+
+def logic_49264(agents,world):
+    src=_local(world,agents,'decomposition_rate')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.neighbor_energy_gap=_delta(agents.neighbor_energy_gap,delta)
