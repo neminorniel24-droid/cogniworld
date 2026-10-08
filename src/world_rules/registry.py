@@ -41115,3 +41115,6 @@ RULES.append(logic_40878)
 
 from .logic_40879_cloud_influences_organic_matter import apply as logic_40879
 RULES.append(logic_40879)
+
+from .logic_40880_rain_influences_temperature import apply as logic_40880
+RULES.append(logic_40880)
