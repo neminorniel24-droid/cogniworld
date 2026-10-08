@@ -38478,3 +38478,6 @@ from .logic_33999_flowers_groundwater_square import apply as logic_33999
 RULES.append(logic_33999)
 from .logic_34000_seed_bank_soil_moisture_root import apply as logic_34000
 RULES.append(logic_34000)
+
+from .logic_40001_temperature_influences_biomass import apply as logic_40001
+RULES.append(logic_40001)
