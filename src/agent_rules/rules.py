@@ -95339,3 +95339,9 @@ def logic_48664(agents,world):
     src=_local(world,agents,'vegetation')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.confidence=_delta(agents.confidence,delta)
+
+
+def logic_48665(agents,world):
+    src=_local(world,agents,'predator')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.vegetation_expectation=_delta(agents.vegetation_expectation,delta)
