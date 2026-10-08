@@ -86183,3 +86183,9 @@ def logic_47138(agents,world):
     src=_local(world,agents,'fire_risk')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.exploration_score=_delta(agents.exploration_score,delta)
+
+
+def logic_47139(agents,world):
+    src=_local(world,agents,'groundwater')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.strategy_persistence=_delta(agents.strategy_persistence,delta)
