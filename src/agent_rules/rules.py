@@ -68807,3 +68807,9 @@ def logic_44242(agents,world):
     src=_local(world,agents,'algae')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.retaliation_risk=_delta(agents.retaliation_risk,delta)
+
+
+def logic_44243(agents,world):
+    src=_local(world,agents,'pollinators')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.payoff=_delta(agents.payoff,delta)
