@@ -94799,3 +94799,9 @@ def logic_48574(agents,world):
     src=_local(world,agents,'decomposition_rate')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.conflict_pressure=_delta(agents.conflict_pressure,delta)
+
+
+def logic_48575(agents,world):
+    src=_local(world,agents,'photosynthesis_factor')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.confidence=_delta(agents.confidence,delta)
