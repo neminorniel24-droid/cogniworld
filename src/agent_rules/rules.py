@@ -90797,3 +90797,9 @@ def logic_47907(agents,world):
     src=_local(world,agents,'organic_matter')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.help_score=_delta(agents.help_score,delta)
+
+
+def logic_47908(agents,world):
+    src=_local(world,agents,'flowers')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.future_payoff_weight=_delta(agents.future_payoff_weight,delta)
