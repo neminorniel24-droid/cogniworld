@@ -71495,3 +71495,9 @@ def logic_44690(agents,world):
     src=_local(world,agents,'surface_water')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.trust=_delta(agents.trust,delta)
+
+
+def logic_44691(agents,world):
+    src=_local(world,agents,'rain')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.selfishness=_delta(agents.selfishness,delta)
