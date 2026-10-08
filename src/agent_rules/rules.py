@@ -70223,3 +70223,9 @@ def logic_44478(agents,world):
     src=_local(world,agents,'vegetation')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.health=_delta(agents.health,delta)
+
+
+def logic_44479(agents,world):
+    src=_local(world,agents,'predator')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.exploration_drive=_delta(agents.exploration_drive,delta)
