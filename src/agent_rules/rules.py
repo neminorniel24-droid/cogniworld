@@ -92903,3 +92903,9 @@ def logic_48258(agents,world):
     src=_local(world,agents,'snowpack')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.reputation=_delta(agents.reputation,delta)
+
+
+def logic_48259(agents,world):
+    src=_local(world,agents,'salinity')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.social_avoidance=_delta(agents.social_avoidance,delta)
