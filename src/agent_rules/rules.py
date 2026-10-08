@@ -69095,3 +69095,9 @@ def logic_44290(agents,world):
     src=_local(world,agents,'soil_carbon')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.exploration_score=_delta(agents.exploration_score,delta)
+
+
+def logic_44291(agents,world):
+    src=_local(world,agents,'temperature_target')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.strategy_persistence=_delta(agents.strategy_persistence,delta)
