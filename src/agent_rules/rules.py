@@ -92657,3 +92657,9 @@ def logic_48217(agents,world):
     src=_local(world,agents,'humidity')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.exploration_drive=_delta(agents.exploration_drive,delta)
+
+
+def logic_48218(agents,world):
+    src=_local(world,agents,'soil_moisture')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.conflict_pressure=_delta(agents.conflict_pressure,delta)
