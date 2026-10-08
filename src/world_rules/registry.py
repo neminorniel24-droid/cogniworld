@@ -49311,3 +49311,6 @@ RULES.append(logic_43610)
 
 from .logic_43611_detritus_influences_erosion import apply as logic_43611
 RULES.append(logic_43611)
+
+from .logic_43612_methane_influences_snowpack import apply as logic_43612
+RULES.append(logic_43612)
