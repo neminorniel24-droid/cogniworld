@@ -88223,3 +88223,9 @@ def logic_47478(agents,world):
     src=_local(world,agents,'deadwood')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.survival_score=_delta(agents.survival_score,delta)
+
+
+def logic_47479(agents,world):
+    src=_local(world,agents,'seed_bank')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.learning_rate=_delta(agents.learning_rate,delta)
