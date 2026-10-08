@@ -47598,3 +47598,6 @@ RULES.append(logic_43039)
 
 from .logic_43040_humidity_influences_fire_risk import apply as logic_43040
 RULES.append(logic_43040)
+
+from .logic_43041_cloud_influences_organic_matter import apply as logic_43041
+RULES.append(logic_43041)
