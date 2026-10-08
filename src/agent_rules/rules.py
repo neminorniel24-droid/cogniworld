@@ -79595,3 +79595,9 @@ def logic_46040(agents,world):
     src=_local(world,agents,'cloud')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.alertness=_delta(agents.alertness,delta)
+
+
+def logic_46041(agents,world):
+    src=_local(world,agents,'runoff')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.social_tolerance=_delta(agents.social_tolerance,delta)
