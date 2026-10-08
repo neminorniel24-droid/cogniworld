@@ -83159,3 +83159,9 @@ def logic_46634(agents,world):
     src=_local(world,agents,'algae')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.fire_fear=_delta(agents.fire_fear,delta)
+
+
+def logic_46635(agents,world):
+    src=_local(world,agents,'pollinators')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.help_given=_delta(agents.help_given,delta)
