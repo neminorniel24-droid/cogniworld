@@ -82895,3 +82895,9 @@ def logic_46590(agents,world):
     src=_local(world,agents,'soil_carbon')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.pathogen_risk=_delta(agents.pathogen_risk,delta)
+
+
+def logic_46591(agents,world):
+    src=_local(world,agents,'temperature_target')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.stability=_delta(agents.stability,delta)
