@@ -78713,3 +78713,9 @@ def logic_45893(agents,world):
     src=_local(world,agents,'methane')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.strategy_persistence=_delta(agents.strategy_persistence,delta)
+
+
+def logic_45894(agents,world):
+    src=_local(world,agents,'habitat_stress')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.thermal_stress=_delta(agents.thermal_stress,delta)
