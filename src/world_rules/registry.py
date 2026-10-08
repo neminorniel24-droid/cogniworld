@@ -44088,3 +44088,6 @@ RULES.append(logic_41869)
 
 from .logic_41870_root_density_influences_wetland import apply as logic_41870
 RULES.append(logic_41870)
+
+from .logic_41871_wetland_influences_salinity import apply as logic_41871
+RULES.append(logic_41871)
