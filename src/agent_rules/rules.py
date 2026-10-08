@@ -72977,3 +72977,9 @@ def logic_44937(agents,world):
     src=_local(world,agents,'runoff')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.reciprocity_score=_delta(agents.reciprocity_score,delta)
+
+
+def logic_44938(agents,world):
+    src=_local(world,agents,'vegetation')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.migration_score=_delta(agents.migration_score,delta)
