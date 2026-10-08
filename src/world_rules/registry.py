@@ -39969,3 +39969,6 @@ RULES.append(logic_40496)
 
 from .logic_40497_sediment_influences_ash import apply as logic_40497
 RULES.append(logic_40497)
+
+from .logic_40498_salinity_influences_deadwood import apply as logic_40498
+RULES.append(logic_40498)
