@@ -73655,3 +73655,9 @@ def logic_45050(agents,world):
     src=_local(world,agents,'pathogen_load')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.cooperation_score=_delta(agents.cooperation_score,delta)
+
+
+def logic_45051(agents,world):
+    src=_local(world,agents,'erosion')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.attack_success=_delta(agents.attack_success,delta)
