@@ -97691,3 +97691,9 @@ def logic_49056(agents,world):
     src=_local(world,agents,'sediment')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.attack_success=_delta(agents.attack_success,delta)
+
+
+def logic_49057(agents,world):
+    src=_local(world,agents,'organic_matter')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.self_preservation=_delta(agents.self_preservation,delta)
