@@ -71993,3 +71993,9 @@ def logic_44773(agents,world):
     src=_local(world,agents,'evaporation')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.shelter_need=_delta(agents.shelter_need,delta)
+
+
+def logic_44774(agents,world):
+    src=_local(world,agents,'pathogen_load')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.help_received=_delta(agents.help_received,delta)
