@@ -77267,3 +77267,9 @@ def logic_45652(agents,world):
     src=_local(world,agents,'sediment')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.reproduction_drive=_delta(agents.reproduction_drive,delta)
+
+
+def logic_45653(agents,world):
+    src=_local(world,agents,'organic_matter')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.defection=_delta(agents.defection,delta)
