@@ -68237,3 +68237,9 @@ def logic_44147(agents,world):
     src=_local(world,agents,'root_density')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.metabolic_cost=_delta(agents.metabolic_cost,delta)
+
+
+def logic_44148(agents,world):
+    src=_local(world,agents,'fire_risk')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.cooperation=_delta(agents.cooperation,delta)
