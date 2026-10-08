@@ -80843,3 +80843,9 @@ def logic_46248(agents,world):
     src=_local(world,agents,'wetland')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.exploration_score=_delta(agents.exploration_score,delta)
+
+
+def logic_46249(agents,world):
+    src=_local(world,agents,'ash')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.strategy_persistence=_delta(agents.strategy_persistence,delta)
