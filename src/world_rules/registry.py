@@ -43128,3 +43128,6 @@ RULES.append(logic_41549)
 
 from .logic_41550_carbon_storage_influences_soil_carbon import apply as logic_41550
 RULES.append(logic_41550)
+
+from .logic_41551_fire_risk_influences_rain import apply as logic_41551
+RULES.append(logic_41551)
