@@ -39363,3 +39363,6 @@ RULES.append(logic_40294)
 
 from .logic_40295_co2_influences_surface_ice import apply as logic_40295
 RULES.append(logic_40295)
+
+from .logic_40296_photosynthesis_factor_influences_soil_moisture import apply as logic_40296
+RULES.append(logic_40296)
