@@ -79241,3 +79241,9 @@ def logic_45981(agents,world):
     src=_local(world,agents,'biomass')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.exploration_score=_delta(agents.exploration_score,delta)
+
+
+def logic_45982(agents,world):
+    src=_local(world,agents,'carrion')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.strategy_persistence=_delta(agents.strategy_persistence,delta)
