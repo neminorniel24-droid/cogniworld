@@ -84485,3 +84485,9 @@ def logic_46855(agents,world):
     src=_local(world,agents,'biomass')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.survival_score=_delta(agents.survival_score,delta)
+
+
+def logic_46856(agents,world):
+    src=_local(world,agents,'carrion')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.learning_rate=_delta(agents.learning_rate,delta)
