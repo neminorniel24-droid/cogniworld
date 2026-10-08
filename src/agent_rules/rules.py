@@ -92159,3 +92159,9 @@ def logic_48134(agents,world):
     src=_local(world,agents,'wetland')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.reproduction_score=_delta(agents.reproduction_score,delta)
+
+
+def logic_48135(agents,world):
+    src=_local(world,agents,'ash')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.hunger=_delta(agents.hunger,delta)
