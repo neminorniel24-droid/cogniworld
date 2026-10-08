@@ -68267,3 +68267,9 @@ def logic_44152(agents,world):
     src=_local(world,agents,'soil_carbon')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.competition_score=_delta(agents.competition_score,delta)
+
+
+def logic_44153(agents,world):
+    src=_local(world,agents,'temperature_target')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.retaliation_risk=_delta(agents.retaliation_risk,delta)
