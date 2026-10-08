@@ -77357,3 +77357,9 @@ def logic_45667(agents,world):
     src=_local(world,agents,'groundwater')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.payoff=_delta(agents.payoff,delta)
+
+
+def logic_45668(agents,world):
+    src=_local(world,agents,'algae')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.recovery=_delta(agents.recovery,delta)
