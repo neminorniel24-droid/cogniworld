@@ -38940,3 +38940,6 @@ RULES.append(logic_40153)
 
 from .logic_40154_nutrients_influences_pathogen_load import apply as logic_40154
 RULES.append(logic_40154)
+
+from .logic_40155_decomposition_rate_influences_carbon_storage import apply as logic_40155
+RULES.append(logic_40155)
