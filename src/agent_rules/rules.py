@@ -88025,3 +88025,9 @@ def logic_47445(agents,world):
     src=_local(world,agents,'ash')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.competition_score=_delta(agents.competition_score,delta)
+
+
+def logic_47446(agents,world):
+    src=_local(world,agents,'sediment')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.retaliation_risk=_delta(agents.retaliation_risk,delta)
