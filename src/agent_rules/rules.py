@@ -100307,3 +100307,9 @@ def logic_49492(agents,world):
     src=_local(world,agents,'vegetation')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.competition_score=_delta(agents.competition_score,delta)
+
+
+def logic_49493(agents,world):
+    src=_local(world,agents,'predator')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.retaliation_risk=_delta(agents.retaliation_risk,delta)
