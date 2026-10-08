@@ -40995,3 +40995,6 @@ RULES.append(logic_40838)
 
 from .logic_40839_vegetation_influences_groundwater import apply as logic_40839
 RULES.append(logic_40839)
+
+from .logic_40840_biomass_influences_flowers import apply as logic_40840
+RULES.append(logic_40840)
