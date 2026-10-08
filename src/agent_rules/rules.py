@@ -70829,3 +70829,9 @@ def logic_44579(agents,world):
     src=_local(world,agents,'salinity')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.resource_competition=_delta(agents.resource_competition,delta)
+
+
+def logic_44580(agents,world):
+    src=_local(world,agents,'deadwood')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.local_density=_delta(agents.local_density,delta)
