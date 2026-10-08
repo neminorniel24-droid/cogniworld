@@ -94151,3 +94151,9 @@ def logic_48466(agents,world):
     src=_local(world,agents,'carrion')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.strategy_mixing=_delta(agents.strategy_mixing,delta)
+
+
+def logic_48467(agents,world):
+    src=_local(world,agents,'oxygen')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.dehydration=_delta(agents.dehydration,delta)
