@@ -86843,3 +86843,9 @@ def logic_47248(agents,world):
     src=_local(world,agents,'deadwood')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.caution=_delta(agents.caution,delta)
+
+
+def logic_47249(agents,world):
+    src=_local(world,agents,'seed_bank')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.resource_competition=_delta(agents.resource_competition,delta)
