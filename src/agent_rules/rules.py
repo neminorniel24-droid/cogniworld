@@ -98105,3 +98105,9 @@ def logic_49125(agents,world):
     src=_local(world,agents,'predator')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.gratitude=_delta(agents.gratitude,delta)
+
+
+def logic_49126(agents,world):
+    src=_local(world,agents,'decomposition_rate')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.fire_fear=_delta(agents.fire_fear,delta)
