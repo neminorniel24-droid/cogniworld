@@ -101447,3 +101447,9 @@ def logic_49682(agents,world):
     src=_local(world,agents,'soil_depth')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.reputation=_delta(agents.reputation,delta)
+
+
+def logic_49683(agents,world):
+    src=_local(world,agents,'carbon_storage')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.social_avoidance=_delta(agents.social_avoidance,delta)
