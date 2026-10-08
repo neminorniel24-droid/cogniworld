@@ -67865,3 +67865,9 @@ def logic_44085(agents,world):
     src=_local(world,agents,'erosion')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.attack_threshold=_delta(agents.attack_threshold,delta)
+
+
+def logic_44086(agents,world):
+    src=_local(world,agents,'wetland')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.betrayal_memory=_delta(agents.betrayal_memory,delta)
