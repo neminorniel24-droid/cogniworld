@@ -89195,3 +89195,9 @@ def logic_47640(agents,world):
     src=_local(world,agents,'ice')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.help_score=_delta(agents.help_score,delta)
+
+
+def logic_47641(agents,world):
+    src=_local(world,agents,'methane')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.future_payoff_weight=_delta(agents.future_payoff_weight,delta)
