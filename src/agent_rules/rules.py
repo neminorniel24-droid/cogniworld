@@ -73673,3 +73673,9 @@ def logic_45053(agents,world):
     src=_local(world,agents,'ash')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.fear=_delta(agents.fear,delta)
+
+
+def logic_45054(agents,world):
+    src=_local(world,agents,'sediment')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.reputation=_delta(agents.reputation,delta)
