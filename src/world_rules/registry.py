@@ -50376,3 +50376,6 @@ RULES.append(logic_43965)
 
 from .logic_43966_wind_y_influences_soil_depth import apply as logic_43966
 RULES.append(logic_43966)
+
+from .logic_43967_vegetation_influences_groundwater import apply as logic_43967
+RULES.append(logic_43967)
