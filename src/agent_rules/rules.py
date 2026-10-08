@@ -72347,3 +72347,9 @@ def logic_44832(agents,world):
     src=_local(world,agents,'carrion')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.safety_score=_delta(agents.safety_score,delta)
+
+
+def logic_44833(agents,world):
+    src=_local(world,agents,'oxygen')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.sharing_score=_delta(agents.sharing_score,delta)
