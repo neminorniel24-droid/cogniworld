@@ -82823,3 +82823,9 @@ def logic_46578(agents,world):
     src=_local(world,agents,'wind_x')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.betrayal_memory=_delta(agents.betrayal_memory,delta)
+
+
+def logic_46579(agents,world):
+    src=_local(world,agents,'biomass')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.last_action=_delta(agents.last_action,delta)
