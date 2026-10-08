@@ -75377,3 +75377,9 @@ def logic_45337(agents,world):
     src=_local(world,agents,'biomass')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.habitat_stress=_delta(agents.habitat_stress,delta)
+
+
+def logic_45338(agents,world):
+    src=_local(world,agents,'carrion')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.sharing_capacity=_delta(agents.sharing_capacity,delta)
