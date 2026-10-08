@@ -93497,3 +93497,9 @@ def logic_48357(agents,world):
     src=_local(world,agents,'wind_y')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.attack_threshold=_delta(agents.attack_threshold,delta)
+
+
+def logic_48358(agents,world):
+    src=_local(world,agents,'herbivore')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.betrayal_memory=_delta(agents.betrayal_memory,delta)
