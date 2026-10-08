@@ -102773,3 +102773,9 @@ def logic_49903(agents,world):
     src=_local(world,agents,'temperature_target')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.stress=_delta(agents.stress,delta)
+
+
+def logic_49904(agents,world):
+    src=_local(world,agents,'cloud')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.last_energy_delta=_delta(agents.last_energy_delta,delta)
