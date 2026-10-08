@@ -74891,3 +74891,9 @@ def logic_45256(agents,world):
     src=_local(world,agents,'soil_carbon')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.stability=_delta(agents.stability,delta)
+
+
+def logic_45257(agents,world):
+    src=_local(world,agents,'temperature_target')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.group_stability=_delta(agents.group_stability,delta)
