@@ -45456,3 +45456,6 @@ RULES.append(logic_42325)
 
 from .logic_42326_biodiversity_influences_surface_water import apply as logic_42326
 RULES.append(logic_42326)
+
+from .logic_42327_habitat_stress_influences_wind_y import apply as logic_42327
+RULES.append(logic_42327)
