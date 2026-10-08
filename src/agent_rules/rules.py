@@ -68351,3 +68351,9 @@ def logic_44166(agents,world):
     src=_local(world,agents,'deadwood')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.defection_threshold=_delta(agents.defection_threshold,delta)
+
+
+def logic_44167(agents,world):
+    src=_local(world,agents,'seed_bank')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.conflict_history=_delta(agents.conflict_history,delta)
