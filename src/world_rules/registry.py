@@ -41553,3 +41553,6 @@ RULES.append(logic_41024)
 
 from .logic_41025_herbivore_influences_humidity import apply as logic_41025
 RULES.append(logic_41025)
+
+from .logic_41026_predator_influences_vegetation import apply as logic_41026
+RULES.append(logic_41026)
