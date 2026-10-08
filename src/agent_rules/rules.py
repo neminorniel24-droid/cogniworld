@@ -102845,3 +102845,9 @@ def logic_49915(agents,world):
     src=_local(world,agents,'salinity')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.hunger=_delta(agents.hunger,delta)
+
+
+def logic_49916(agents,world):
+    src=_local(world,agents,'deadwood')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.migration_drive=_delta(agents.migration_drive,delta)
