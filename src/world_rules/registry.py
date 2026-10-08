@@ -45087,3 +45087,6 @@ RULES.append(logic_42202)
 
 from .logic_42203_deadwood_influences_nutrients import apply as logic_42203
 RULES.append(logic_42203)
+
+from .logic_42204_pollinators_influences_detritus import apply as logic_42204
+RULES.append(logic_42204)
