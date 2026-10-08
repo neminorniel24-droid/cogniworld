@@ -44160,3 +44160,6 @@ RULES.append(logic_41893)
 
 from .logic_41894_runoff_influences_carrion import apply as logic_41894
 RULES.append(logic_41894)
+
+from .logic_41895_wind_x_influences_evaporation import apply as logic_41895
+RULES.append(logic_41895)
