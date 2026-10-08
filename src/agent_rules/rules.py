@@ -76115,3 +76115,9 @@ def logic_45460(agents,world):
     src=_local(world,agents,'herbivore')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.confidence=_delta(agents.confidence,delta)
+
+
+def logic_45461(agents,world):
+    src=_local(world,agents,'nutrients')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.vegetation_expectation=_delta(agents.vegetation_expectation,delta)
