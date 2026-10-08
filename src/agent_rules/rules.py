@@ -68591,3 +68591,9 @@ def logic_44206(agents,world):
     src=_local(world,agents,'detritus')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.strategy_confidence=_delta(agents.strategy_confidence,delta)
+
+
+def logic_44207(agents,world):
+    src=_local(world,agents,'biodiversity')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.stress=_delta(agents.stress,delta)
