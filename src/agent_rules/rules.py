@@ -103265,3 +103265,9 @@ def logic_49985(agents,world):
     src=_local(world,agents,'oxygen')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_food=_delta(agents.last_food,delta)
+
+
+def logic_49986(agents,world):
+    src=_local(world,agents,'ice')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.exploration_score=_delta(agents.exploration_score,delta)
