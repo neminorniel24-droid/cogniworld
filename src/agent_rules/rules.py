@@ -67649,3 +67649,9 @@ def logic_44049(agents,world):
     src=_local(world,agents,'biomass')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.thirst=_delta(agents.thirst,delta)
+
+
+def logic_44050(agents,world):
+    src=_local(world,agents,'carrion')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.reproduction_drive=_delta(agents.reproduction_drive,delta)
