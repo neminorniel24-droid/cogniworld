@@ -42711,3 +42711,6 @@ RULES.append(logic_41410)
 
 from .logic_41411_wetland_influences_salinity import apply as logic_41411
 RULES.append(logic_41411)
+
+from .logic_41412_carbon_storage_influences_soil_carbon import apply as logic_41412
+RULES.append(logic_41412)
