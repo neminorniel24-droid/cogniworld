@@ -86201,3 +86201,9 @@ def logic_47141(agents,world):
     src=_local(world,agents,'pollinators')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.food_access=_delta(agents.food_access,delta)
+
+
+def logic_47142(agents,world):
+    src=_local(world,agents,'soil_carbon')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.competition_pressure=_delta(agents.competition_pressure,delta)
