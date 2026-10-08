@@ -101927,3 +101927,9 @@ def logic_49762(agents,world):
     src=_local(world,agents,'algae')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.recovery=_delta(agents.recovery,delta)
+
+
+def logic_49763(agents,world):
+    src=_local(world,agents,'pollinators')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.trust=_delta(agents.trust,delta)
