@@ -94133,3 +94133,9 @@ def logic_48463(agents,world):
     src=_local(world,agents,'rain')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.neighbor_energy_gap=_delta(agents.neighbor_energy_gap,delta)
+
+
+def logic_48464(agents,world):
+    src=_local(world,agents,'wind_x')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.last_interaction=_delta(agents.last_interaction,delta)
