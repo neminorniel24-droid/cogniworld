@@ -74387,3 +74387,9 @@ def logic_45172(agents,world):
     src=_local(world,agents,'detritus')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.foraging_score=_delta(agents.foraging_score,delta)
+
+
+def logic_45173(agents,world):
+    src=_local(world,agents,'biodiversity')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.strategy_mixing=_delta(agents.strategy_mixing,delta)
