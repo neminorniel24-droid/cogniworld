@@ -103127,3 +103127,9 @@ def logic_49962(agents,world):
     src=_local(world,agents,'deadwood')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.fitness_score=_delta(agents.fitness_score,delta)
+
+
+def logic_49963(agents,world):
+    src=_local(world,agents,'seed_bank')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.memory_update=_delta(agents.memory_update,delta)
