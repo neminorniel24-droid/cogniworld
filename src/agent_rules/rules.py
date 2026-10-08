@@ -71585,3 +71585,9 @@ def logic_44705(agents,world):
     src=_local(world,agents,'temperature_target')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.alertness=_delta(agents.alertness,delta)
+
+
+def logic_44706(agents,world):
+    src=_local(world,agents,'cloud')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.social_tolerance=_delta(agents.social_tolerance,delta)
