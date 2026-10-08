@@ -80819,3 +80819,9 @@ def logic_46244(agents,world):
     src=_local(world,agents,'co2')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.territoriality=_delta(agents.territoriality,delta)
+
+
+def logic_46245(agents,world):
+    src=_local(world,agents,'evaporation')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.future_help=_delta(agents.future_help,delta)
