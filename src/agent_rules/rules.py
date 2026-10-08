@@ -81797,3 +81797,9 @@ def logic_46407(agents,world):
     src=_local(world,agents,'temperature_target')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.empathy=_delta(agents.empathy,delta)
+
+
+def logic_46408(agents,world):
+    src=_local(world,agents,'cloud')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.neighbor_health_gap=_delta(agents.neighbor_health_gap,delta)
