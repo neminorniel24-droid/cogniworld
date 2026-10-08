@@ -94373,3 +94373,9 @@ def logic_48503(agents,world):
     src=_local(world,agents,'ash')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.fire_fear=_delta(agents.fire_fear,delta)
+
+
+def logic_48504(agents,world):
+    src=_local(world,agents,'sediment')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.help_given=_delta(agents.help_given,delta)
