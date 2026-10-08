@@ -75791,3 +75791,9 @@ def logic_45406(agents,world):
     src=_local(world,agents,'snowpack')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.cooperation_score=_delta(agents.cooperation_score,delta)
+
+
+def logic_45407(agents,world):
+    src=_local(world,agents,'salinity')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.attack_success=_delta(agents.attack_success,delta)
