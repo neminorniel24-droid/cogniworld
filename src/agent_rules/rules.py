@@ -84617,3 +84617,9 @@ def logic_46877(agents,world):
     src=_local(world,agents,'carbon_storage')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.stress=_delta(agents.stress,delta)
+
+
+def logic_46878(agents,world):
+    src=_local(world,agents,'snowpack')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.last_energy_delta=_delta(agents.last_energy_delta,delta)
