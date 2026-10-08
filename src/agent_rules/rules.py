@@ -76421,3 +76421,9 @@ def logic_45511(agents,world):
     src=_local(world,agents,'erosion')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.last_action=_delta(agents.last_action,delta)
+
+
+def logic_45512(agents,world):
+    src=_local(world,agents,'wetland')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.fitness_score=_delta(agents.fitness_score,delta)
