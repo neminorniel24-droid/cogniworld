@@ -73187,3 +73187,9 @@ def logic_44972(agents,world):
     src=_local(world,agents,'ice')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.alertness=_delta(agents.alertness,delta)
+
+
+def logic_44973(agents,world):
+    src=_local(world,agents,'methane')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.social_tolerance=_delta(agents.social_tolerance,delta)
