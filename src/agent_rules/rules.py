@@ -80081,3 +80081,9 @@ def logic_46121(agents,world):
     src=_local(world,agents,'oxygen')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.fear=_delta(agents.fear,delta)
+
+
+def logic_46122(agents,world):
+    src=_local(world,agents,'ice')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.reputation=_delta(agents.reputation,delta)
