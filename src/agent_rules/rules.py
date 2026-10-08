@@ -91025,3 +91025,9 @@ def logic_47945(agents,world):
     src=_local(world,agents,'nutrients')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.stress=_delta(agents.stress,delta)
+
+
+def logic_47946(agents,world):
+    src=_local(world,agents,'co2')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.last_energy_delta=_delta(agents.last_energy_delta,delta)
