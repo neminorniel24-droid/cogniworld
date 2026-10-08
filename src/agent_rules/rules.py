@@ -98363,3 +98363,9 @@ def logic_49168(agents,world):
     src=_local(world,agents,'cloud')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.risk_tolerance=_delta(agents.risk_tolerance,delta)
+
+
+def logic_49169(agents,world):
+    src=_local(world,agents,'runoff')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.survival_score=_delta(agents.survival_score,delta)
