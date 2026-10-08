@@ -87455,3 +87455,9 @@ def logic_47350(agents,world):
     src=_local(world,agents,'pathogen_load')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.hydration=_delta(agents.hydration,delta)
+
+
+def logic_47351(agents,world):
+    src=_local(world,agents,'erosion')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.metabolic_cost=_delta(agents.metabolic_cost,delta)
