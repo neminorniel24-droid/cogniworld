@@ -69449,3 +69449,9 @@ def logic_44349(agents,world):
     src=_local(world,agents,'salinity')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.alertness=_delta(agents.alertness,delta)
+
+
+def logic_44350(agents,world):
+    src=_local(world,agents,'deadwood')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.social_tolerance=_delta(agents.social_tolerance,delta)
