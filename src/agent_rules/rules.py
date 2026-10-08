@@ -101555,3 +101555,9 @@ def logic_49700(agents,world):
     src=_local(world,agents,'sediment')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.empathy=_delta(agents.empathy,delta)
+
+
+def logic_49701(agents,world):
+    src=_local(world,agents,'organic_matter')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.neighbor_health_gap=_delta(agents.neighbor_health_gap,delta)
