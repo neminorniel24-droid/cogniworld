@@ -74351,3 +74351,9 @@ def logic_45166(agents,world):
     src=_local(world,agents,'cloud')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.pathogen_risk=_delta(agents.pathogen_risk,delta)
+
+
+def logic_45167(agents,world):
+    src=_local(world,agents,'runoff')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.stability=_delta(agents.stability,delta)
