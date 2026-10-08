@@ -90227,3 +90227,9 @@ def logic_47812(agents,world):
     src=_local(world,agents,'wetland')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.fear=_delta(agents.fear,delta)
+
+
+def logic_47813(agents,world):
+    src=_local(world,agents,'ash')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.reputation=_delta(agents.reputation,delta)
