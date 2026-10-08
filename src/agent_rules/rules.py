@@ -81353,3 +81353,9 @@ def logic_46333(agents,world):
     src=_local(world,agents,'wind_y')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.territoriality=_delta(agents.territoriality,delta)
+
+
+def logic_46334(agents,world):
+    src=_local(world,agents,'herbivore')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.future_help=_delta(agents.future_help,delta)
