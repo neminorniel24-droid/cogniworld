@@ -82907,3 +82907,9 @@ def logic_46592(agents,world):
     src=_local(world,agents,'cloud')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.group_stability=_delta(agents.group_stability,delta)
+
+
+def logic_46593(agents,world):
+    src=_local(world,agents,'runoff')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.resource_discovery=_delta(agents.resource_discovery,delta)
