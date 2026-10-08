@@ -78275,3 +78275,9 @@ def logic_45820(agents,world):
     src=_local(world,agents,'snowpack')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.reproduction_score=_delta(agents.reproduction_score,delta)
+
+
+def logic_45821(agents,world):
+    src=_local(world,agents,'salinity')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.hunger=_delta(agents.hunger,delta)
