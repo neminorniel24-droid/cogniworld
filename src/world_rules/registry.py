@@ -41175,3 +41175,6 @@ RULES.append(logic_40898)
 
 from .logic_40899_pathogen_load_influences_pollinators import apply as logic_40899
 RULES.append(logic_40899)
+
+from .logic_40900_biodiversity_influences_surface_water import apply as logic_40900
+RULES.append(logic_40900)
