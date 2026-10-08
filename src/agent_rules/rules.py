@@ -83237,3 +83237,9 @@ def logic_46647(agents,world):
     src=_local(world,agents,'carbon_storage')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.recovery=_delta(agents.recovery,delta)
+
+
+def logic_46648(agents,world):
+    src=_local(world,agents,'snowpack')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.trust=_delta(agents.trust,delta)
