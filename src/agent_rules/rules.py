@@ -86825,3 +86825,9 @@ def logic_47245(agents,world):
     src=_local(world,agents,'carbon_storage')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.hunger=_delta(agents.hunger,delta)
+
+
+def logic_47246(agents,world):
+    src=_local(world,agents,'snowpack')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.migration_drive=_delta(agents.migration_drive,delta)
