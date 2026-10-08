@@ -95711,3 +95711,9 @@ def logic_48726(agents,world):
     src=_local(world,agents,'herbivore')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.pathogen_risk=_delta(agents.pathogen_risk,delta)
+
+
+def logic_48727(agents,world):
+    src=_local(world,agents,'nutrients')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.stability=_delta(agents.stability,delta)
