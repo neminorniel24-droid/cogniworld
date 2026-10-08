@@ -78641,3 +78641,9 @@ def logic_45881(agents,world):
     src=_local(world,agents,'ash')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.resource_discovery=_delta(agents.resource_discovery,delta)
+
+
+def logic_45882(agents,world):
+    src=_local(world,agents,'sediment')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.neighbor_energy_gap=_delta(agents.neighbor_energy_gap,delta)
