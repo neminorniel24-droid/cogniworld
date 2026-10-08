@@ -95765,3 +95765,9 @@ def logic_48735(agents,world):
     src=_local(world,agents,'organic_matter')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.wealth=_delta(agents.wealth,delta)
+
+
+def logic_48736(agents,world):
+    src=_local(world,agents,'flowers')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.territoriality=_delta(agents.territoriality,delta)
