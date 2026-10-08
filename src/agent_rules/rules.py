@@ -90005,3 +90005,9 @@ def logic_47775(agents,world):
     src=_local(world,agents,'biomass')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.vegetation_expectation=_delta(agents.vegetation_expectation,delta)
+
+
+def logic_47776(agents,world):
+    src=_local(world,agents,'carrion')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.last_reward=_delta(agents.last_reward,delta)
