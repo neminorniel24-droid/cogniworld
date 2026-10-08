@@ -101063,3 +101063,9 @@ def logic_49618(agents,world):
     src=_local(world,agents,'ice')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.group_stability=_delta(agents.group_stability,delta)
+
+
+def logic_49619(agents,world):
+    src=_local(world,agents,'methane')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.resource_discovery=_delta(agents.resource_discovery,delta)
