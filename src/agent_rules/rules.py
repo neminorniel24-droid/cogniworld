@@ -83261,3 +83261,9 @@ def logic_46651(agents,world):
     src=_local(world,agents,'seed_bank')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.cooperation_history=_delta(agents.cooperation_history,delta)
+
+
+def logic_46652(agents,world):
+    src=_local(world,agents,'temperature')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.cooperation_score=_delta(agents.cooperation_score,delta)
