@@ -96809,3 +96809,9 @@ def logic_48909(agents,world):
     src=_local(world,agents,'wind_y')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_interaction=_delta(agents.last_interaction,delta)
+
+
+def logic_48910(agents,world):
+    src=_local(world,agents,'herbivore')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.foraging_score=_delta(agents.foraging_score,delta)
