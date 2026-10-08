@@ -97223,3 +97223,9 @@ def logic_48978(agents,world):
     src=_local(world,agents,'fire_risk')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.social_tolerance=_delta(agents.social_tolerance,delta)
+
+
+def logic_48979(agents,world):
+    src=_local(world,agents,'groundwater')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.help_drive=_delta(agents.help_drive,delta)
