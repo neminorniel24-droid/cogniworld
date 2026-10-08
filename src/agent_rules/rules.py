@@ -91721,3 +91721,9 @@ def logic_48061(agents,world):
     src=_local(world,agents,'pollinators')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.defense_score=_delta(agents.defense_score,delta)
+
+
+def logic_48062(agents,world):
+    src=_local(world,agents,'soil_carbon')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.hydration=_delta(agents.hydration,delta)
