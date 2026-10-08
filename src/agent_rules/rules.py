@@ -98033,3 +98033,9 @@ def logic_49113(agents,world):
     src=_local(world,agents,'methane')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.reproduction_score=_delta(agents.reproduction_score,delta)
+
+
+def logic_49114(agents,world):
+    src=_local(world,agents,'habitat_stress')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.hunger=_delta(agents.hunger,delta)
