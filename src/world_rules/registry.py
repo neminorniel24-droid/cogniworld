@@ -50409,3 +50409,6 @@ RULES.append(logic_43976)
 
 from .logic_43977_ice_influences_predator import apply as logic_43977
 RULES.append(logic_43977)
+
+from .logic_43978_evaporation_influences_ice import apply as logic_43978
+RULES.append(logic_43978)
