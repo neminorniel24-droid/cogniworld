@@ -82505,3 +82505,9 @@ def logic_46525(agents,world):
     src=_local(world,agents,'ash')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.health=_delta(agents.health,delta)
+
+
+def logic_46526(agents,world):
+    src=_local(world,agents,'sediment')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.exploration_drive=_delta(agents.exploration_drive,delta)
