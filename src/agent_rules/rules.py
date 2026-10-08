@@ -75239,3 +75239,9 @@ def logic_45314(agents,world):
     src=_local(world,agents,'snowpack')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.selfishness=_delta(agents.selfishness,delta)
+
+
+def logic_45315(agents,world):
+    src=_local(world,agents,'salinity')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.oxygen_need=_delta(agents.oxygen_need,delta)
