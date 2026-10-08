@@ -43866,3 +43866,6 @@ RULES.append(logic_41795)
 
 from .logic_41796_temperature_target_influences_co2 import apply as logic_41796
 RULES.append(logic_41796)
+
+from .logic_41797_surface_water_influences_biodiversity import apply as logic_41797
+RULES.append(logic_41797)
