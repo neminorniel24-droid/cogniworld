@@ -97697,3 +97697,9 @@ def logic_49057(agents,world):
     src=_local(world,agents,'organic_matter')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.self_preservation=_delta(agents.self_preservation,delta)
+
+
+def logic_49058(agents,world):
+    src=_local(world,agents,'flowers')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.fear=_delta(agents.fear,delta)
