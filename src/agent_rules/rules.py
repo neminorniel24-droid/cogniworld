@@ -92135,3 +92135,9 @@ def logic_48130(agents,world):
     src=_local(world,agents,'co2')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.confidence=_delta(agents.confidence,delta)
+
+
+def logic_48131(agents,world):
+    src=_local(world,agents,'evaporation')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.vegetation_expectation=_delta(agents.vegetation_expectation,delta)
