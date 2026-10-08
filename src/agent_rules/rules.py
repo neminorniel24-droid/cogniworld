@@ -71141,3 +71141,9 @@ def logic_44631(agents,world):
     src=_local(world,agents,'wind_y')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.learning_rate=_delta(agents.learning_rate,delta)
+
+
+def logic_44632(agents,world):
+    src=_local(world,agents,'herbivore')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.pathogen_risk=_delta(agents.pathogen_risk,delta)
