@@ -103133,3 +103133,9 @@ def logic_49963(agents,world):
     src=_local(world,agents,'seed_bank')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.memory_update=_delta(agents.memory_update,delta)
+
+
+def logic_49964(agents,world):
+    src=_local(world,agents,'temperature')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.infection_risk=_delta(agents.infection_risk,delta)
