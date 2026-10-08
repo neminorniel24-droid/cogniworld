@@ -82967,3 +82967,9 @@ def logic_46602(agents,world):
     src=_local(world,agents,'snowpack')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.social_need=_delta(agents.social_need,delta)
+
+
+def logic_46603(agents,world):
+    src=_local(world,agents,'salinity')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.last_food=_delta(agents.last_food,delta)
