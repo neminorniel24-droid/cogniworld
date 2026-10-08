@@ -47700,3 +47700,6 @@ RULES.append(logic_43073)
 
 from .logic_43074_salinity_influences_deadwood import apply as logic_43074
 RULES.append(logic_43074)
+
+from .logic_43075_algae_influences_temperature_target import apply as logic_43075
+RULES.append(logic_43075)
