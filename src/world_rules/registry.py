@@ -46389,3 +46389,6 @@ RULES.append(logic_42636)
 
 from .logic_42637_carrion_influences_oxygen import apply as logic_42637
 RULES.append(logic_42637)
+
+from .logic_42638_nutrients_influences_pathogen_load import apply as logic_42638
+RULES.append(logic_42638)
