@@ -74759,3 +74759,9 @@ def logic_45234(agents,world):
     src=_local(world,agents,'pathogen_load')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.defection_threshold=_delta(agents.defection_threshold,delta)
+
+
+def logic_45235(agents,world):
+    src=_local(world,agents,'erosion')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.conflict_history=_delta(agents.conflict_history,delta)
