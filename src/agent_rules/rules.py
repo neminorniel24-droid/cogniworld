@@ -99215,3 +99215,9 @@ def logic_49310(agents,world):
     src=_local(world,agents,'decomposition_rate')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.cooperation=_delta(agents.cooperation,delta)
+
+
+def logic_49311(agents,world):
+    src=_local(world,agents,'photosynthesis_factor')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.generosity=_delta(agents.generosity,delta)
