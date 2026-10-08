@@ -98087,3 +98087,9 @@ def logic_49122(agents,world):
     src=_local(world,agents,'cloud')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.thirst=_delta(agents.thirst,delta)
+
+
+def logic_49123(agents,world):
+    src=_local(world,agents,'runoff')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.reproduction_drive=_delta(agents.reproduction_drive,delta)
