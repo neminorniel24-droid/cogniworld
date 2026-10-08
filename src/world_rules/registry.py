@@ -43482,3 +43482,6 @@ RULES.append(logic_41667)
 
 from .logic_41668_biomass_influences_flowers import apply as logic_41668
 RULES.append(logic_41668)
+
+from .logic_41669_herbivore_influences_humidity import apply as logic_41669
+RULES.append(logic_41669)
