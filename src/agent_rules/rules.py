@@ -71471,3 +71471,9 @@ def logic_44686(agents,world):
     src=_local(world,agents,'sediment')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.competition_score=_delta(agents.competition_score,delta)
+
+
+def logic_44687(agents,world):
+    src=_local(world,agents,'organic_matter')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.retaliation_risk=_delta(agents.retaliation_risk,delta)
