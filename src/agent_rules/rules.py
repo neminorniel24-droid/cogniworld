@@ -99191,3 +99191,9 @@ def logic_49306(agents,world):
     src=_local(world,agents,'cloud')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.defection_score=_delta(agents.defection_score,delta)
+
+
+def logic_49307(agents,world):
+    src=_local(world,agents,'runoff')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.defense_score=_delta(agents.defense_score,delta)
