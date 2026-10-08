@@ -76055,3 +76055,9 @@ def logic_45450(agents,world):
     src=_local(world,agents,'soil_depth')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.food_access=_delta(agents.food_access,delta)
+
+
+def logic_45451(agents,world):
+    src=_local(world,agents,'carbon_storage')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.competition_pressure=_delta(agents.competition_pressure,delta)
