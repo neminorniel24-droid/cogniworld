@@ -68081,3 +68081,9 @@ def logic_44121(agents,world):
     src=_local(world,agents,'seed_bank')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.sharing_score=_delta(agents.sharing_score,delta)
+
+
+def logic_44122(agents,world):
+    src=_local(world,agents,'temperature')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.health=_delta(agents.health,delta)
