@@ -72209,3 +72209,9 @@ def logic_44809(agents,world):
     src=_local(world,agents,'salinity')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.learning_rate=_delta(agents.learning_rate,delta)
+
+
+def logic_44810(agents,world):
+    src=_local(world,agents,'deadwood')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.pathogen_risk=_delta(agents.pathogen_risk,delta)
