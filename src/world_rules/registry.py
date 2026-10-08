@@ -49584,3 +49584,6 @@ RULES.append(logic_43701)
 
 from .logic_43702_evaporation_influences_ice import apply as logic_43702
 RULES.append(logic_43702)
+
+from .logic_43703_detritus_influences_erosion import apply as logic_43703
+RULES.append(logic_43703)
