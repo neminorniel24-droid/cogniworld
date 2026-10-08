@@ -90575,3 +90575,9 @@ def logic_47870(agents,world):
     src=_local(world,agents,'ice')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.aggression=_delta(agents.aggression,delta)
+
+
+def logic_47871(agents,world):
+    src=_local(world,agents,'methane')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.caution=_delta(agents.caution,delta)
