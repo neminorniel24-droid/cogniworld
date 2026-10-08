@@ -72551,3 +72551,9 @@ def logic_44866(agents,world):
     src=_local(world,agents,'pathogen_load')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.payoff=_delta(agents.payoff,delta)
+
+
+def logic_44867(agents,world):
+    src=_local(world,agents,'erosion')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.recovery=_delta(agents.recovery,delta)
