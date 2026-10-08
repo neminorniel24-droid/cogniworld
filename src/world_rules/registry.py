@@ -50127,3 +50127,6 @@ RULES.append(logic_43882)
 
 from .logic_43883_co2_influences_surface_ice import apply as logic_43883
 RULES.append(logic_43883)
+
+from .logic_43884_photosynthesis_factor_influences_soil_moisture import apply as logic_43884
+RULES.append(logic_43884)
