@@ -74009,3 +74009,9 @@ def logic_45109(agents,world):
     src=_local(world,agents,'oxygen')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.hunger=_delta(agents.hunger,delta)
+
+
+def logic_45110(agents,world):
+    src=_local(world,agents,'ice')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.migration_drive=_delta(agents.migration_drive,delta)
