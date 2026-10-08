@@ -39309,3 +39309,6 @@ RULES.append(logic_40276)
 
 from .logic_40277_temperature_influences_biomass import apply as logic_40277
 RULES.append(logic_40277)
+
+from .logic_40278_temperature_target_influences_co2 import apply as logic_40278
+RULES.append(logic_40278)
