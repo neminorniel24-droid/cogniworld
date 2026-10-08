@@ -47094,3 +47094,6 @@ RULES.append(logic_42871)
 
 from .logic_42872_photosynthesis_factor_influences_soil_moisture import apply as logic_42872
 RULES.append(logic_42872)
+
+from .logic_42873_ice_influences_predator import apply as logic_42873
+RULES.append(logic_42873)
