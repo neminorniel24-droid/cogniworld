@@ -76583,3 +76583,9 @@ def logic_45538(agents,world):
     src=_local(world,agents,'decomposition_rate')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.thermal_stress=_delta(agents.thermal_stress,delta)
+
+
+def logic_45539(agents,world):
+    src=_local(world,agents,'photosynthesis_factor')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.food_access=_delta(agents.food_access,delta)
