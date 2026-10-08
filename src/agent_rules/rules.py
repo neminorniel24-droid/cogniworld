@@ -83591,3 +83591,9 @@ def logic_46706(agents,world):
     src=_local(world,agents,'pathogen_load')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.confidence=_delta(agents.confidence,delta)
+
+
+def logic_46707(agents,world):
+    src=_local(world,agents,'erosion')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.vegetation_expectation=_delta(agents.vegetation_expectation,delta)
