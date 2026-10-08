@@ -91919,3 +91919,9 @@ def logic_48094(agents,world):
     src=_local(world,agents,'surface_water')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.memory_update=_delta(agents.memory_update,delta)
+
+
+def logic_48095(agents,world):
+    src=_local(world,agents,'rain')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.infection_risk=_delta(agents.infection_risk,delta)
