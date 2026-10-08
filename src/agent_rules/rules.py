@@ -76283,3 +76283,9 @@ def logic_45488(agents,world):
     src=_local(world,agents,'cloud')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.retaliation_risk=_delta(agents.retaliation_risk,delta)
+
+
+def logic_45489(agents,world):
+    src=_local(world,agents,'runoff')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.payoff=_delta(agents.payoff,delta)
