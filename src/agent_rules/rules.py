@@ -84431,3 +84431,9 @@ def logic_46846(agents,world):
     src=_local(world,agents,'wetland')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.last_action=_delta(agents.last_action,delta)
+
+
+def logic_46847(agents,world):
+    src=_local(world,agents,'ash')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.fitness_score=_delta(agents.fitness_score,delta)
