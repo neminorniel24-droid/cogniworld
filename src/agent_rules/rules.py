@@ -82949,3 +82949,9 @@ def logic_46599(agents,world):
     src=_local(world,agents,'biodiversity')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.wealth=_delta(agents.wealth,delta)
+
+
+def logic_46600(agents,world):
+    src=_local(world,agents,'soil_depth')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.territoriality=_delta(agents.territoriality,delta)
