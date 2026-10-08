@@ -82199,3 +82199,9 @@ def logic_46474(agents,world):
     src=_local(world,agents,'co2')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.cooperation_score=_delta(agents.cooperation_score,delta)
+
+
+def logic_46475(agents,world):
+    src=_local(world,agents,'evaporation')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.attack_success=_delta(agents.attack_success,delta)
