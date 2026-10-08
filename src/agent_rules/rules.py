@@ -96371,3 +96371,9 @@ def logic_48836(agents,world):
     src=_local(world,agents,'ice')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.last_energy_delta=_delta(agents.last_energy_delta,delta)
+
+
+def logic_48837(agents,world):
+    src=_local(world,agents,'methane')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.safety_score=_delta(agents.safety_score,delta)
