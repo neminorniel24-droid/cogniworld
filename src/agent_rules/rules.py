@@ -86639,3 +86639,9 @@ def logic_47214(agents,world):
     src=_local(world,agents,'wetland')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.stability=_delta(agents.stability,delta)
+
+
+def logic_47215(agents,world):
+    src=_local(world,agents,'ash')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.group_stability=_delta(agents.group_stability,delta)
