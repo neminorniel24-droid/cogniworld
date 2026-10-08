@@ -44517,3 +44517,6 @@ RULES.append(logic_42012)
 
 from .logic_42013_snowpack_influences_photosynthesis_factor import apply as logic_42013
 RULES.append(logic_42013)
+
+from .logic_42014_groundwater_influences_habitat_stress import apply as logic_42014
+RULES.append(logic_42014)
