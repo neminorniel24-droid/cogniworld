@@ -39579,3 +39579,6 @@ RULES.append(logic_40366)
 
 from .logic_40367_soil_carbon_influences_seed_bank import apply as logic_40367
 RULES.append(logic_40367)
+
+from .logic_40368_surface_ice_influences_cloud import apply as logic_40368
+RULES.append(logic_40368)
