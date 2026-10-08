@@ -41079,3 +41079,6 @@ RULES.append(logic_40866)
 
 from .logic_40867_algae_influences_temperature_target import apply as logic_40867
 RULES.append(logic_40867)
+
+from .logic_40868_organic_matter_influences_wind_x import apply as logic_40868
+RULES.append(logic_40868)
