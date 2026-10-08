@@ -69941,3 +69941,9 @@ def logic_44431(agents,world):
     src=_local(world,agents,'runoff')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.reputation=_delta(agents.reputation,delta)
+
+
+def logic_44432(agents,world):
+    src=_local(world,agents,'vegetation')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.social_avoidance=_delta(agents.social_avoidance,delta)
