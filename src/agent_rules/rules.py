@@ -99749,3 +99749,9 @@ def logic_49399(agents,world):
     src=_local(world,agents,'runoff')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.cooperation=_delta(agents.cooperation,delta)
+
+
+def logic_49400(agents,world):
+    src=_local(world,agents,'vegetation')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.generosity=_delta(agents.generosity,delta)
