@@ -81461,3 +81461,9 @@ def logic_46351(agents,world):
     src=_local(world,agents,'oxygen')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.vegetation_expectation=_delta(agents.vegetation_expectation,delta)
+
+
+def logic_46352(agents,world):
+    src=_local(world,agents,'ice')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.last_reward=_delta(agents.last_reward,delta)
