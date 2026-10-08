@@ -83069,3 +83069,9 @@ def logic_46619(agents,world):
     src=_local(world,agents,'organic_matter')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.last_reward=_delta(agents.last_reward,delta)
+
+
+def logic_46620(agents,world):
+    src=_local(world,agents,'flowers')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.risk_score=_delta(agents.risk_score,delta)
