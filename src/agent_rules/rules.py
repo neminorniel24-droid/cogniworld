@@ -101537,3 +101537,9 @@ def logic_49697(agents,world):
     src=_local(world,agents,'erosion')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.infection_risk=_delta(agents.infection_risk,delta)
+
+
+def logic_49698(agents,world):
+    src=_local(world,agents,'wetland')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.habitat_stress=_delta(agents.habitat_stress,delta)
