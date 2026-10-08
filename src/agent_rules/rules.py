@@ -72827,3 +72827,9 @@ def logic_44912(agents,world):
     src=_local(world,agents,'pathogen_load')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.last_food=_delta(agents.last_food,delta)
+
+
+def logic_44913(agents,world):
+    src=_local(world,agents,'erosion')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.exploration_score=_delta(agents.exploration_score,delta)
