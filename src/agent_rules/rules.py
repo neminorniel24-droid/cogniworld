@@ -87035,3 +87035,9 @@ def logic_47280(agents,world):
     src=_local(world,agents,'soil_carbon')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.social_avoidance=_delta(agents.social_avoidance,delta)
+
+
+def logic_47281(agents,world):
+    src=_local(world,agents,'temperature_target')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.defection_threshold=_delta(agents.defection_threshold,delta)
