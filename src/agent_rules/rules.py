@@ -100001,3 +100001,9 @@ def logic_49441(agents,world):
     src=_local(world,agents,'pollinators')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.resource_discovery=_delta(agents.resource_discovery,delta)
+
+
+def logic_49442(agents,world):
+    src=_local(world,agents,'soil_carbon')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.neighbor_energy_gap=_delta(agents.neighbor_energy_gap,delta)
