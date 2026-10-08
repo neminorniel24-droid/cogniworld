@@ -67823,3 +67823,9 @@ def logic_44078(agents,world):
     src=_local(world,agents,'soil_moisture')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.conflict_history=_delta(agents.conflict_history,delta)
+
+
+def logic_44079(agents,world):
+    src=_local(world,agents,'wind_y')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.strategy_score=_delta(agents.strategy_score,delta)
