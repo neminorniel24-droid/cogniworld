@@ -44358,3 +44358,6 @@ RULES.append(logic_41959)
 
 from .logic_41960_erosion_influences_decomposition_rate import apply as logic_41960
 RULES.append(logic_41960)
+
+from .logic_41961_soil_depth_influences_methane import apply as logic_41961
+RULES.append(logic_41961)
