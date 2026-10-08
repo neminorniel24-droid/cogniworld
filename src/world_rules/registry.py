@@ -46563,3 +46563,6 @@ RULES.append(logic_42694)
 
 from .logic_42695_habitat_stress_influences_wind_y import apply as logic_42695
 RULES.append(logic_42695)
+
+from .logic_42696_erosion_influences_decomposition_rate import apply as logic_42696
+RULES.append(logic_42696)
