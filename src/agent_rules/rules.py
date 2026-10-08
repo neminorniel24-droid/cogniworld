@@ -91697,3 +91697,9 @@ def logic_48057(agents,world):
     src=_local(world,agents,'root_density')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.gratitude=_delta(agents.gratitude,delta)
+
+
+def logic_48058(agents,world):
+    src=_local(world,agents,'fire_risk')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.fire_fear=_delta(agents.fire_fear,delta)
