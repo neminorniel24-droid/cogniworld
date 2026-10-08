@@ -98411,3 +98411,9 @@ def logic_49176(agents,world):
     src=_local(world,agents,'soil_depth')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.last_interaction=_delta(agents.last_interaction,delta)
+
+
+def logic_49177(agents,world):
+    src=_local(world,agents,'carbon_storage')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.foraging_score=_delta(agents.foraging_score,delta)
