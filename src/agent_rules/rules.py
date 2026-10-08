@@ -102803,3 +102803,9 @@ def logic_49908(agents,world):
     src=_local(world,agents,'decomposition_rate')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.exploration_drive=_delta(agents.exploration_drive,delta)
+
+
+def logic_49909(agents,world):
+    src=_local(world,agents,'photosynthesis_factor')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.conflict_pressure=_delta(agents.conflict_pressure,delta)
