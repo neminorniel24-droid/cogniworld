@@ -46857,3 +46857,6 @@ RULES.append(logic_42792)
 
 from .logic_42793_fire_risk_influences_rain import apply as logic_42793
 RULES.append(logic_42793)
+
+from .logic_42794_ash_influences_herbivore import apply as logic_42794
+RULES.append(logic_42794)
