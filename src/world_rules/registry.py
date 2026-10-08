@@ -46584,3 +46584,6 @@ RULES.append(logic_42701)
 
 from .logic_42702_ash_influences_herbivore import apply as logic_42702
 RULES.append(logic_42702)
+
+from .logic_42703_snowpack_influences_photosynthesis_factor import apply as logic_42703
+RULES.append(logic_42703)
