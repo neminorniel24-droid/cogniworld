@@ -76775,3 +76775,9 @@ def logic_45570(agents,world):
     src=_local(world,agents,'ice')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.hydration=_delta(agents.hydration,delta)
+
+
+def logic_45571(agents,world):
+    src=_local(world,agents,'methane')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.metabolic_cost=_delta(agents.metabolic_cost,delta)
