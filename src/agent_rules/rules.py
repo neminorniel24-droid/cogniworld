@@ -100433,3 +100433,9 @@ def logic_49513(agents,world):
     src=_local(world,agents,'erosion')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.help_drive=_delta(agents.help_drive,delta)
+
+
+def logic_49514(agents,world):
+    src=_local(world,agents,'wetland')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.attack_threshold=_delta(agents.attack_threshold,delta)
