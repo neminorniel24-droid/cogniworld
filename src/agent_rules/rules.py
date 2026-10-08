@@ -74423,3 +74423,9 @@ def logic_45178(agents,world):
     src=_local(world,agents,'deadwood')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.social_need=_delta(agents.social_need,delta)
+
+
+def logic_45179(agents,world):
+    src=_local(world,agents,'seed_bank')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.last_food=_delta(agents.last_food,delta)
