@@ -83327,3 +83327,9 @@ def logic_46662(agents,world):
     src=_local(world,agents,'wetland')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.future_payoff_weight=_delta(agents.future_payoff_weight,delta)
+
+
+def logic_46663(agents,world):
+    src=_local(world,agents,'ash')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.alertness=_delta(agents.alertness,delta)
