@@ -87503,3 +87503,9 @@ def logic_47358(agents,world):
     src=_local(world,agents,'surface_water')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.payoff=_delta(agents.payoff,delta)
+
+
+def logic_47359(agents,world):
+    src=_local(world,agents,'rain')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.recovery=_delta(agents.recovery,delta)
