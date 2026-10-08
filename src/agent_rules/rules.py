@@ -89861,3 +89861,9 @@ def logic_47751(agents,world):
     src=_local(world,agents,'carbon_storage')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.neighbor_energy_gap=_delta(agents.neighbor_energy_gap,delta)
+
+
+def logic_47752(agents,world):
+    src=_local(world,agents,'snowpack')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.last_interaction=_delta(agents.last_interaction,delta)
