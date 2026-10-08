@@ -86441,3 +86441,9 @@ def logic_47181(agents,world):
     src=_local(world,agents,'methane')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.recovery=_delta(agents.recovery,delta)
+
+
+def logic_47182(agents,world):
+    src=_local(world,agents,'habitat_stress')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.trust=_delta(agents.trust,delta)
