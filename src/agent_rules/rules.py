@@ -98069,3 +98069,9 @@ def logic_49119(agents,world):
     src=_local(world,agents,'pollinators')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.local_density=_delta(agents.local_density,delta)
+
+
+def logic_49120(agents,world):
+    src=_local(world,agents,'soil_carbon')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.reciprocity_score=_delta(agents.reciprocity_score,delta)
