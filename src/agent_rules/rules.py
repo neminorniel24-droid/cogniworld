@@ -76289,3 +76289,9 @@ def logic_45489(agents,world):
     src=_local(world,agents,'runoff')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.payoff=_delta(agents.payoff,delta)
+
+
+def logic_45490(agents,world):
+    src=_local(world,agents,'vegetation')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.recovery=_delta(agents.recovery,delta)
