@@ -79781,3 +79781,9 @@ def logic_46071(agents,world):
     src=_local(world,agents,'rain')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.strategy_persistence=_delta(agents.strategy_persistence,delta)
+
+
+def logic_46072(agents,world):
+    src=_local(world,agents,'wind_x')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.thermal_stress=_delta(agents.thermal_stress,delta)
