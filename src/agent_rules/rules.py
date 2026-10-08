@@ -84839,3 +84839,9 @@ def logic_46914(agents,world):
     src=_local(world,agents,'cloud')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.recovery=_delta(agents.recovery,delta)
+
+
+def logic_46915(agents,world):
+    src=_local(world,agents,'runoff')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.trust=_delta(agents.trust,delta)
