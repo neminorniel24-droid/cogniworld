@@ -81791,3 +81791,9 @@ def logic_46406(agents,world):
     src=_local(world,agents,'soil_carbon')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.sharing_capacity=_delta(agents.sharing_capacity,delta)
+
+
+def logic_46407(agents,world):
+    src=_local(world,agents,'temperature_target')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.empathy=_delta(agents.empathy,delta)
