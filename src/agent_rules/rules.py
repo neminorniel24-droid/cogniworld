@@ -95417,3 +95417,9 @@ def logic_48677(agents,world):
     src=_local(world,agents,'humidity')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.thirst=_delta(agents.thirst,delta)
+
+
+def logic_48678(agents,world):
+    src=_local(world,agents,'soil_moisture')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.reproduction_drive=_delta(agents.reproduction_drive,delta)
