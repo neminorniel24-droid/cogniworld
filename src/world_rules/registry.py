@@ -42894,3 +42894,6 @@ RULES.append(logic_41471)
 
 from .logic_41472_surface_ice_influences_cloud import apply as logic_41472
 RULES.append(logic_41472)
+
+from .logic_41473_temperature_influences_biomass import apply as logic_41473
+RULES.append(logic_41473)
