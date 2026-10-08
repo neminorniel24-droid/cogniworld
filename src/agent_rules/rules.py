@@ -98021,3 +98021,9 @@ def logic_49111(agents,world):
     src=_local(world,agents,'oxygen')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.last_reward=_delta(agents.last_reward,delta)
+
+
+def logic_49112(agents,world):
+    src=_local(world,agents,'ice')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.risk_score=_delta(agents.risk_score,delta)
