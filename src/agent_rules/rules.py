@@ -67529,3 +67529,9 @@ def logic_44029(agents,world):
     src=_local(world,agents,'seed_bank')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.stress=_delta(agents.stress,delta)
+
+
+def logic_44030(agents,world):
+    src=_local(world,agents,'temperature')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.last_energy_delta=_delta(agents.last_energy_delta,delta)
