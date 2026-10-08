@@ -43086,3 +43086,6 @@ RULES.append(logic_41535)
 
 from .logic_41536_oxygen_influences_algae import apply as logic_41536
 RULES.append(logic_41536)
+
+from .logic_41537_co2_influences_surface_ice import apply as logic_41537
+RULES.append(logic_41537)
