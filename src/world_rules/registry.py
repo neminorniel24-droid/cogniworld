@@ -44382,3 +44382,6 @@ RULES.append(logic_41967)
 
 from .logic_41968_groundwater_influences_habitat_stress import apply as logic_41968
 RULES.append(logic_41968)
+
+from .logic_41969_sediment_influences_ash import apply as logic_41969
+RULES.append(logic_41969)
