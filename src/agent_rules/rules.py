@@ -79217,3 +79217,9 @@ def logic_45977(agents,world):
     src=_local(world,agents,'surface_ice')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.territoriality=_delta(agents.territoriality,delta)
+
+
+def logic_45978(agents,world):
+    src=_local(world,agents,'surface_water')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.future_help=_delta(agents.future_help,delta)
