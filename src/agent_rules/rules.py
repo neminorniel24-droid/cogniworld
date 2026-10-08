@@ -84941,3 +84941,9 @@ def logic_46931(agents,world):
     src=_local(world,agents,'wind_y')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.social_tolerance=_delta(agents.social_tolerance,delta)
+
+
+def logic_46932(agents,world):
+    src=_local(world,agents,'herbivore')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.help_drive=_delta(agents.help_drive,delta)
