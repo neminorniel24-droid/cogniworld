@@ -38913,3 +38913,6 @@ RULES.append(logic_40144)
 
 from .logic_40145_soil_moisture_influences_runoff import apply as logic_40145
 RULES.append(logic_40145)
+
+from .logic_40146_runoff_influences_carrion import apply as logic_40146
+RULES.append(logic_40146)
