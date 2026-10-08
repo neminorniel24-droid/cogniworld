@@ -73415,3 +73415,9 @@ def logic_45010(agents,world):
     src=_local(world,agents,'flowers')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.safety_score=_delta(agents.safety_score,delta)
+
+
+def logic_45011(agents,world):
+    src=_local(world,agents,'surface_ice')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.sharing_score=_delta(agents.sharing_score,delta)
