@@ -90641,3 +90641,9 @@ def logic_47881(agents,world):
     src=_local(world,agents,'runoff')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.help_given=_delta(agents.help_given,delta)
+
+
+def logic_47882(agents,world):
+    src=_local(world,agents,'vegetation')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defection_score=_delta(agents.defection_score,delta)
