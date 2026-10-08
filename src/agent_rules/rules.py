@@ -97937,3 +97937,9 @@ def logic_49097(agents,world):
     src=_local(world,agents,'evaporation')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.strategy_persistence=_delta(agents.strategy_persistence,delta)
+
+
+def logic_49098(agents,world):
+    src=_local(world,agents,'pathogen_load')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.thermal_stress=_delta(agents.thermal_stress,delta)
