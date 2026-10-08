@@ -46578,3 +46578,6 @@ RULES.append(logic_42699)
 
 from .logic_42700_carbon_storage_influences_soil_carbon import apply as logic_42700
 RULES.append(logic_42700)
+
+from .logic_42701_fire_risk_influences_rain import apply as logic_42701
+RULES.append(logic_42701)
