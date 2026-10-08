@@ -77801,3 +77801,9 @@ def logic_45741(agents,world):
     src=_local(world,agents,'erosion')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.reproduction_drive=_delta(agents.reproduction_drive,delta)
+
+
+def logic_45742(agents,world):
+    src=_local(world,agents,'wetland')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defection=_delta(agents.defection,delta)
