@@ -83951,3 +83951,9 @@ def logic_46766(agents,world):
     src=_local(world,agents,'ice')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.survival_score=_delta(agents.survival_score,delta)
+
+
+def logic_46767(agents,world):
+    src=_local(world,agents,'methane')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.learning_rate=_delta(agents.learning_rate,delta)
