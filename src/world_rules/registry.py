@@ -42612,3 +42612,6 @@ RULES.append(logic_41377)
 
 from .logic_41378_seed_bank_influences_sediment import apply as logic_41378
 RULES.append(logic_41378)
+
+from .logic_41379_soil_carbon_influences_seed_bank import apply as logic_41379
+RULES.append(logic_41379)
