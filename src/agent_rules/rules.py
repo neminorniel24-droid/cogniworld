@@ -97607,3 +97607,9 @@ def logic_49042(agents,world):
     src=_local(world,agents,'deadwood')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.metabolic_cost=_delta(agents.metabolic_cost,delta)
+
+
+def logic_49043(agents,world):
+    src=_local(world,agents,'seed_bank')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.cooperation=_delta(agents.cooperation,delta)
