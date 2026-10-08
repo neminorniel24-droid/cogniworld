@@ -71369,3 +71369,9 @@ def logic_44669(agents,world):
     src=_local(world,agents,'carbon_storage')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.local_density=_delta(agents.local_density,delta)
+
+
+def logic_44670(agents,world):
+    src=_local(world,agents,'snowpack')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.reciprocity_score=_delta(agents.reciprocity_score,delta)
