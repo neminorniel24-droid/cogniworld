@@ -91121,3 +91121,9 @@ def logic_47961(agents,world):
     src=_local(world,agents,'oxygen')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.resource_competition=_delta(agents.resource_competition,delta)
+
+
+def logic_47962(agents,world):
+    src=_local(world,agents,'ice')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.local_density=_delta(agents.local_density,delta)
