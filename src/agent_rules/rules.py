@@ -67607,3 +67607,9 @@ def logic_44042(agents,world):
     src=_local(world,agents,'sediment')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.migration_drive=_delta(agents.migration_drive,delta)
+
+
+def logic_44043(agents,world):
+    src=_local(world,agents,'organic_matter')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.aggression=_delta(agents.aggression,delta)
