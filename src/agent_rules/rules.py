@@ -70391,3 +70391,9 @@ def logic_44506(agents,world):
     src=_local(world,agents,'surface_water')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.shelter_need=_delta(agents.shelter_need,delta)
+
+
+def logic_44507(agents,world):
+    src=_local(world,agents,'rain')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.help_received=_delta(agents.help_received,delta)
