@@ -82853,3 +82853,9 @@ def logic_46583(agents,world):
     src=_local(world,agents,'methane')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.habitat_stress=_delta(agents.habitat_stress,delta)
+
+
+def logic_46584(agents,world):
+    src=_local(world,agents,'habitat_stress')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.sharing_capacity=_delta(agents.sharing_capacity,delta)
