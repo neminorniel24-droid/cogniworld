@@ -79589,3 +79589,9 @@ def logic_46039(agents,world):
     src=_local(world,agents,'temperature_target')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.future_payoff_weight=_delta(agents.future_payoff_weight,delta)
+
+
+def logic_46040(agents,world):
+    src=_local(world,agents,'cloud')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.alertness=_delta(agents.alertness,delta)
