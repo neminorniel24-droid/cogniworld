@@ -69629,3 +69629,9 @@ def logic_44379(agents,world):
     src=_local(world,agents,'groundwater')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.exploration_score=_delta(agents.exploration_score,delta)
+
+
+def logic_44380(agents,world):
+    src=_local(world,agents,'algae')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.strategy_persistence=_delta(agents.strategy_persistence,delta)
