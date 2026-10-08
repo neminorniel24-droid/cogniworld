@@ -47775,3 +47775,6 @@ RULES.append(logic_43098)
 
 from .logic_43099_decomposition_rate_influences_carbon_storage import apply as logic_43099
 RULES.append(logic_43099)
+
+from .logic_43100_oxygen_influences_algae import apply as logic_43100
+RULES.append(logic_43100)
