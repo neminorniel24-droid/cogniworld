@@ -98393,3 +98393,9 @@ def logic_49173(agents,world):
     src=_local(world,agents,'photosynthesis_factor')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.group_stability=_delta(agents.group_stability,delta)
+
+
+def logic_49174(agents,world):
+    src=_local(world,agents,'detritus')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.resource_discovery=_delta(agents.resource_discovery,delta)
