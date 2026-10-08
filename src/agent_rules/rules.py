@@ -100727,3 +100727,9 @@ def logic_49562(agents,world):
     src=_local(world,agents,'sediment')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.caution=_delta(agents.caution,delta)
+
+
+def logic_49563(agents,world):
+    src=_local(world,agents,'organic_matter')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.resource_competition=_delta(agents.resource_competition,delta)
