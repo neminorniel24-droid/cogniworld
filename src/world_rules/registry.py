@@ -44559,3 +44559,6 @@ RULES.append(logic_42026)
 
 from .logic_42027_surface_water_influences_biodiversity import apply as logic_42027
 RULES.append(logic_42027)
+
+from .logic_42028_humidity_influences_fire_risk import apply as logic_42028
+RULES.append(logic_42028)
