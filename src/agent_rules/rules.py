@@ -101441,3 +101441,9 @@ def logic_49681(agents,world):
     src=_local(world,agents,'biodiversity')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.fear=_delta(agents.fear,delta)
+
+
+def logic_49682(agents,world):
+    src=_local(world,agents,'soil_depth')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.reputation=_delta(agents.reputation,delta)
