@@ -43611,3 +43611,6 @@ RULES.append(logic_41710)
 
 from .logic_41711_wind_x_influences_evaporation import apply as logic_41711
 RULES.append(logic_41711)
+
+from .logic_41712_wind_y_influences_soil_depth import apply as logic_41712
+RULES.append(logic_41712)
