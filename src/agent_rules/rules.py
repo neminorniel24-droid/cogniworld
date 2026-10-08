@@ -84929,3 +84929,9 @@ def logic_46929(agents,world):
     src=_local(world,agents,'humidity')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.future_payoff_weight=_delta(agents.future_payoff_weight,delta)
+
+
+def logic_46930(agents,world):
+    src=_local(world,agents,'soil_moisture')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.alertness=_delta(agents.alertness,delta)
