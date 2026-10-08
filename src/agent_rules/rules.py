@@ -74393,3 +74393,9 @@ def logic_45173(agents,world):
     src=_local(world,agents,'biodiversity')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.strategy_mixing=_delta(agents.strategy_mixing,delta)
+
+
+def logic_45174(agents,world):
+    src=_local(world,agents,'soil_depth')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.dehydration=_delta(agents.dehydration,delta)
