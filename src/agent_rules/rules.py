@@ -100409,3 +100409,9 @@ def logic_49509(agents,world):
     src=_local(world,agents,'nutrients')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.help_score=_delta(agents.help_score,delta)
+
+
+def logic_49510(agents,world):
+    src=_local(world,agents,'co2')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.future_payoff_weight=_delta(agents.future_payoff_weight,delta)
