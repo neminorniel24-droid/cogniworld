@@ -89645,3 +89645,9 @@ def logic_47715(agents,world):
     src=_local(world,agents,'nutrients')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.recovery=_delta(agents.recovery,delta)
+
+
+def logic_47716(agents,world):
+    src=_local(world,agents,'co2')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.trust=_delta(agents.trust,delta)
