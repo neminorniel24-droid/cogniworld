@@ -81881,3 +81881,9 @@ def logic_46421(agents,world):
     src=_local(world,agents,'seed_bank')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.wealth=_delta(agents.wealth,delta)
+
+
+def logic_46422(agents,world):
+    src=_local(world,agents,'temperature')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.territoriality=_delta(agents.territoriality,delta)
