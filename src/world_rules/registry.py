@@ -43572,3 +43572,6 @@ RULES.append(logic_41697)
 
 from .logic_41698_pollinators_influences_detritus import apply as logic_41698
 RULES.append(logic_41698)
+
+from .logic_41699_flowers_influences_root_density import apply as logic_41699
+RULES.append(logic_41699)
