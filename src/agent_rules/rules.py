@@ -71075,3 +71075,9 @@ def logic_44620(agents,world):
     src=_local(world,agents,'detritus')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.betrayal_memory=_delta(agents.betrayal_memory,delta)
+
+
+def logic_44621(agents,world):
+    src=_local(world,agents,'biodiversity')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.last_action=_delta(agents.last_action,delta)
