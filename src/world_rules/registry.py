@@ -48819,3 +48819,6 @@ RULES.append(logic_43446)
 
 from .logic_43447_flowers_influences_root_density import apply as logic_43447
 RULES.append(logic_43447)
+
+from .logic_43448_seed_bank_influences_sediment import apply as logic_43448
+RULES.append(logic_43448)
