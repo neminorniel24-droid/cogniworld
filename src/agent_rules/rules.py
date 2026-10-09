@@ -111383,3 +111383,9 @@ def logic_71338(agents,world):
     src=_local(world,agents,'detritus')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.neighbor_health_gap=_delta(agents.neighbor_health_gap,delta)
+
+
+def logic_71339(agents,world):
+    src=_local(world,agents,'erosion')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.safety_score=_delta(agents.safety_score,delta)
