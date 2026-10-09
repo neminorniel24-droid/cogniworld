@@ -140855,3 +140855,9 @@ def logic_76250(agents,world):
     src=_local(world,agents,'co2')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.habitat_stress=_delta(agents.habitat_stress,delta)
+
+
+def logic_76251(agents,world):
+    src=_local(world,agents,'methane')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.strategy_confidence=_delta(agents.strategy_confidence,delta)
