@@ -143807,3 +143807,9 @@ def logic_76742(agents,world):
     src=_local(world,agents,'deadwood')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.trust=_delta(agents.trust,delta)
+
+
+def logic_76743(agents,world):
+    src=_local(world,agents,'surface_ice')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.empathy=_delta(agents.empathy,delta)
