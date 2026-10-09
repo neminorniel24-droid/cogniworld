@@ -157031,3 +157031,9 @@ def logic_78946(agents,world):
     src=_local(world,agents,'ice')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.defection_score=_delta(agents.defection_score,delta)
+
+
+def logic_78947(agents,world):
+    src=_local(world,agents,'biodiversity')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.future_payoff_weight=_delta(agents.future_payoff_weight,delta)
