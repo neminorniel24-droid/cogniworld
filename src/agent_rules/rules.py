@@ -126839,3 +126839,9 @@ def logic_73914(agents,world):
     src=_local(world,agents,'detritus')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.fire_fear=_delta(agents.fire_fear,delta)
+
+
+def logic_73915(agents,world):
+    src=_local(world,agents,'erosion')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.strategy_score=_delta(agents.strategy_score,delta)
