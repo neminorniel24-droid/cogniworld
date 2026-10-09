@@ -140981,3 +140981,9 @@ def logic_76271(agents,world):
     src=_local(world,agents,'carbon_storage')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_interaction=_delta(agents.last_interaction,delta)
+
+
+def logic_76272(agents,world):
+    src=_local(world,agents,'sediment')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.reproduction_score=_delta(agents.reproduction_score,delta)
