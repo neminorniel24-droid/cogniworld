@@ -106097,3 +106097,9 @@ def logic_70457(agents,world):
     src=_local(world,agents,'ash')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.shelter_need=_delta(agents.shelter_need,delta)
+
+
+def logic_70458(agents,world):
+    src=_local(world,agents,'algae')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.last_action=_delta(agents.last_action,delta)
