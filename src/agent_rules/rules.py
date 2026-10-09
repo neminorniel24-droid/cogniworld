@@ -214013,3 +214013,9 @@ def logic_88443(agents,world):
     src=_local(world,agents,'ash')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.habitat_stress=_delta(agents.habitat_stress,delta)
+
+
+def logic_88444(agents,world):
+    src=_local(world,agents,'algae')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.strategy_confidence=_delta(agents.strategy_confidence,delta)
