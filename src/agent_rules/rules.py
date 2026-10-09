@@ -216737,3 +216737,9 @@ def logic_88897(agents,world):
     src=_local(world,agents,'humidity')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.metabolic_cost=_delta(agents.metabolic_cost,delta)
+
+
+def logic_88898(agents,world):
+    src=_local(world,agents,'wind_x')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.help_drive=_delta(agents.help_drive,delta)
