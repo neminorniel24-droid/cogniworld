@@ -280091,3 +280091,9 @@ def logic_99456(agents,world):
     src=_local(world,agents,'sediment')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.competition_pressure=_delta(agents.competition_pressure,delta)
+
+
+def logic_99457(agents,world):
+    src=_local(world,agents,'pollinators')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.fire_fear=_delta(agents.fire_fear,delta)
