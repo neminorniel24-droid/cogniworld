@@ -215465,3 +215465,9 @@ def logic_88685(agents,world):
     src=_local(world,agents,'temperature_target')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.retaliation_risk=_delta(agents.retaliation_risk,delta)
+
+
+def logic_88686(agents,world):
+    src=_local(world,agents,'soil_moisture')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.infection_risk=_delta(agents.infection_risk,delta)
