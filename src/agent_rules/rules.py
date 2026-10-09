@@ -215681,3 +215681,9 @@ def logic_88721(agents,world):
     src=_local(world,agents,'seed_bank')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.social_need=_delta(agents.social_need,delta)
+
+
+def logic_88722(agents,world):
+    src=_local(world,agents,'surface_water')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.reciprocity_score=_delta(agents.reciprocity_score,delta)
