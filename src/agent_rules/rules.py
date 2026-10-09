@@ -157655,3 +157655,9 @@ def logic_79050(agents,world):
     src=_local(world,agents,'snowpack')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.memory_update=_delta(agents.memory_update,delta)
+
+
+def logic_79051(agents,world):
+    src=_local(world,agents,'organic_matter')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.food_access=_delta(agents.food_access,delta)
