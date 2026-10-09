@@ -109686,3 +109686,6 @@ RULES.append(logic_69735)
 
 from .logic_69736_decomposition_rate_influences_sediment import apply as logic_69736
 RULES.append(logic_69736)
+
+from .logic_69737_root_density_influences_runoff import apply as logic_69737
+RULES.append(logic_69737)
