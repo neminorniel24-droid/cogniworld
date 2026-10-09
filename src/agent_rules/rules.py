@@ -223217,3 +223217,9 @@ def logic_89977(agents,world):
     src=_local(world,agents,'evaporation')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_interaction=_delta(agents.last_interaction,delta)
+
+
+def logic_89978(agents,world):
+    src=_local(world,agents,'habitat_stress')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.reproduction_score=_delta(agents.reproduction_score,delta)
