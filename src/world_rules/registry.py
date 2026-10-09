@@ -105879,3 +105879,6 @@ RULES.append(logic_68466)
 
 from .logic_68467_ash_influences_salinity import apply as logic_68467
 RULES.append(logic_68467)
+
+from .logic_68468_temperature_influences_wind_x import apply as logic_68468
+RULES.append(logic_68468)
