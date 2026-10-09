@@ -165707,3 +165707,9 @@ def logic_80392(agents,world):
     src=_local(world,agents,'soil_depth')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.empathy=_delta(agents.empathy,delta)
+
+
+def logic_80393(agents,world):
+    src=_local(world,agents,'ash')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.last_energy_delta=_delta(agents.last_energy_delta,delta)
