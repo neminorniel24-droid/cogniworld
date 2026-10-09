@@ -150821,3 +150821,9 @@ def logic_77911(agents,world):
     src=_local(world,agents,'seed_bank')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.exploration_score=_delta(agents.exploration_score,delta)
+
+
+def logic_77912(agents,world):
+    src=_local(world,agents,'surface_water')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.thirst=_delta(agents.thirst,delta)
