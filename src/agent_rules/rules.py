@@ -250829,3 +250829,9 @@ def logic_94579(agents,world):
     src=_local(world,agents,'carbon_storage')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.reproduction_drive=_delta(agents.reproduction_drive,delta)
+
+
+def logic_94580(agents,world):
+    src=_local(world,agents,'sediment')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.social_avoidance=_delta(agents.social_avoidance,delta)
