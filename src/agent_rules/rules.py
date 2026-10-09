@@ -160205,3 +160205,9 @@ def logic_79475(agents,world):
     src=_local(world,agents,'seed_bank')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_interaction=_delta(agents.last_interaction,delta)
+
+
+def logic_79476(agents,world):
+    src=_local(world,agents,'surface_water')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.reproduction_score=_delta(agents.reproduction_score,delta)
