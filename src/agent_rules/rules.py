@@ -211991,3 +211991,9 @@ def logic_88106(agents,world):
     src=_local(world,agents,'cloud')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.defection=_delta(agents.defection,delta)
+
+
+def logic_88107(agents,world):
+    src=_local(world,agents,'wind_y')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defection_threshold=_delta(agents.defection_threshold,delta)
