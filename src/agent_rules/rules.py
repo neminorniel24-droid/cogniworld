@@ -134087,3 +134087,9 @@ def logic_75122(agents,world):
     src=_local(world,agents,'sediment')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.caution=_delta(agents.caution,delta)
+
+
+def logic_75123(agents,world):
+    src=_local(world,agents,'pollinators')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.cooperation_history=_delta(agents.cooperation_history,delta)
