@@ -155417,3 +155417,9 @@ def logic_78677(agents,world):
     src=_local(world,agents,'wind_y')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.sharing_capacity=_delta(agents.sharing_capacity,delta)
+
+
+def logic_78678(agents,world):
+    src=_local(world,agents,'carrion')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.stress=_delta(agents.stress,delta)
