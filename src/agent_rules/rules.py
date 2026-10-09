@@ -137249,3 +137249,9 @@ def logic_75649(agents,world):
     src=_local(world,agents,'humidity')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.reproduction_score=_delta(agents.reproduction_score,delta)
+
+
+def logic_75650(agents,world):
+    src=_local(world,agents,'wind_x')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.recovery=_delta(agents.recovery,delta)
