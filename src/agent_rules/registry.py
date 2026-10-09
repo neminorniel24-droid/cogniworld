@@ -97397,3 +97397,6 @@ RULES.append(logic_79646)
 
 from .rules import logic_79647
 RULES.append(logic_79647)
+
+from .rules import logic_79648
+RULES.append(logic_79648)
