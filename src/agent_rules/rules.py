@@ -149243,3 +149243,9 @@ def logic_77648(agents,world):
     src=_local(world,agents,'decomposition_rate')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_reward=_delta(agents.last_reward,delta)
+
+
+def logic_77649(agents,world):
+    src=_local(world,agents,'evaporation')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.retaliation_risk=_delta(agents.retaliation_risk,delta)
