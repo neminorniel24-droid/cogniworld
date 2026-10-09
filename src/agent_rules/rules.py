@@ -124613,3 +124613,9 @@ def logic_73543(agents,world):
     src=_local(world,agents,'runoff')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.territoriality=_delta(agents.territoriality,delta)
+
+
+def logic_73544(agents,world):
+    src=_local(world,agents,'herbivore')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.resource_competition=_delta(agents.resource_competition,delta)
