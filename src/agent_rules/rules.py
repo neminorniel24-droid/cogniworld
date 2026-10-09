@@ -139235,3 +139235,9 @@ def logic_75980(agents,world):
     src=_local(world,agents,'surface_water')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.neighbor_energy_gap=_delta(agents.neighbor_energy_gap,delta)
+
+
+def logic_75981(agents,world):
+    src=_local(world,agents,'runoff')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.risk_score=_delta(agents.risk_score,delta)
