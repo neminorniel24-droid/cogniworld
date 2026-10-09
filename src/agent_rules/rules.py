@@ -228797,3 +228797,9 @@ def logic_90907(agents,world):
     src=_local(world,agents,'biodiversity')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.reputation=_delta(agents.reputation,delta)
+
+
+def logic_90908(agents,world):
+    src=_local(world,agents,'wetland')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.resource_discovery=_delta(agents.resource_discovery,delta)
