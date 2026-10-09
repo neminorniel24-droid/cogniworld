@@ -174575,3 +174575,9 @@ def logic_81870(agents,world):
     src=_local(world,agents,'herbivore')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.self_preservation=_delta(agents.self_preservation,delta)
+
+
+def logic_81871(agents,world):
+    src=_local(world,agents,'oxygen')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.stability=_delta(agents.stability,delta)
