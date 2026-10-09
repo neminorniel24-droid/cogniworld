@@ -231773,3 +231773,9 @@ def logic_91403(agents,world):
     src=_local(world,agents,'evaporation')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.recovery=_delta(agents.recovery,delta)
+
+
+def logic_91404(agents,world):
+    src=_local(world,agents,'habitat_stress')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.sharing_capacity=_delta(agents.sharing_capacity,delta)
