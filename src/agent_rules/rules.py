@@ -115895,3 +115895,9 @@ def logic_72090(agents,world):
     src=_local(world,agents,'vegetation')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.recovery=_delta(agents.recovery,delta)
+
+
+def logic_72091(agents,world):
+    src=_local(world,agents,'nutrients')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.sharing_capacity=_delta(agents.sharing_capacity,delta)
