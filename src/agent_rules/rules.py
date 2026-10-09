@@ -199199,3 +199199,9 @@ def logic_85974(agents,world):
     src=_local(world,agents,'decomposition_rate')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.recovery=_delta(agents.recovery,delta)
+
+
+def logic_85975(agents,world):
+    src=_local(world,agents,'evaporation')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.sharing_capacity=_delta(agents.sharing_capacity,delta)
