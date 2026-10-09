@@ -216095,3 +216095,9 @@ def logic_88790(agents,world):
     src=_local(world,agents,'ice')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.conflict_pressure=_delta(agents.conflict_pressure,delta)
+
+
+def logic_88791(agents,world):
+    src=_local(world,agents,'biodiversity')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.shelter_need=_delta(agents.shelter_need,delta)
