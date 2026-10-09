@@ -274295,3 +274295,9 @@ def logic_98490(agents,world):
     src=_local(world,agents,'sediment')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.pathogen_risk=_delta(agents.pathogen_risk,delta)
+
+
+def logic_98491(agents,world):
+    src=_local(world,agents,'pollinators')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.conflict_pressure=_delta(agents.conflict_pressure,delta)
