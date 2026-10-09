@@ -189167,3 +189167,9 @@ def logic_84302(agents,world):
     src=_local(world,agents,'soil_depth')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.food_access=_delta(agents.food_access,delta)
+
+
+def logic_84303(agents,world):
+    src=_local(world,agents,'ash')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.gratitude=_delta(agents.gratitude,delta)
