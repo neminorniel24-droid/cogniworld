@@ -155483,3 +155483,9 @@ def logic_78688(agents,world):
     src=_local(world,agents,'co2')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_food=_delta(agents.last_food,delta)
+
+
+def logic_78689(agents,world):
+    src=_local(world,agents,'methane')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.migration_score=_delta(agents.migration_score,delta)
