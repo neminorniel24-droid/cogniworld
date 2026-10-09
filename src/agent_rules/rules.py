@@ -123203,3 +123203,9 @@ def logic_73308(agents,world):
     src=_local(world,agents,'soil_depth')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.reproduction_drive=_delta(agents.reproduction_drive,delta)
+
+
+def logic_73309(agents,world):
+    src=_local(world,agents,'ash')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.social_avoidance=_delta(agents.social_avoidance,delta)
