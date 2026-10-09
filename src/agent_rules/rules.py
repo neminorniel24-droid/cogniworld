@@ -276269,3 +276269,9 @@ def logic_98819(agents,world):
     src=_local(world,agents,'biodiversity')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.territoriality=_delta(agents.territoriality,delta)
+
+
+def logic_98820(agents,world):
+    src=_local(world,agents,'wetland')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.resource_competition=_delta(agents.resource_competition,delta)
