@@ -106092,3 +106092,6 @@ RULES.append(logic_68537)
 
 from .logic_68538_sediment_influences_surface_water import apply as logic_68538
 RULES.append(logic_68538)
+
+from .logic_68539_humidity_influences_photosynthesis_factor import apply as logic_68539
+RULES.append(logic_68539)
