@@ -85173,3 +85173,6 @@ RULES.append(logic_61564)
 
 from .logic_61565_runoff_influences_humidity import apply as logic_61565
 RULES.append(logic_61565)
+
+from .logic_61566_ice_influences_evaporation import apply as logic_61566
+RULES.append(logic_61566)
