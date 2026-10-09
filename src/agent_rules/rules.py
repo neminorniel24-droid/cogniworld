@@ -181133,3 +181133,9 @@ def logic_82963(agents,world):
     src=_local(world,agents,'humidity')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.group_stability=_delta(agents.group_stability,delta)
+
+
+def logic_82964(agents,world):
+    src=_local(world,agents,'wind_x')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.vegetation_expectation=_delta(agents.vegetation_expectation,delta)
