@@ -84183,3 +84183,6 @@ RULES.append(logic_61234)
 
 from .logic_61235_pollinators_influences_rain import apply as logic_61235
 RULES.append(logic_61235)
+
+from .logic_61236_wind_x_influences_detritus import apply as logic_61236
+RULES.append(logic_61236)
