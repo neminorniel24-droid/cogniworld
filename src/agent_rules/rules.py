@@ -268241,3 +268241,9 @@ def logic_97481(agents,world):
     src=_local(world,agents,'rain')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_energy_delta=_delta(agents.last_energy_delta,delta)
+
+
+def logic_97482(agents,world):
+    src=_local(world,agents,'vegetation')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defense_score=_delta(agents.defense_score,delta)
