@@ -118829,3 +118829,9 @@ def logic_72579(agents,world):
     src=_local(world,agents,'oxygen')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.fire_fear=_delta(agents.fire_fear,delta)
+
+
+def logic_72580(agents,world):
+    src=_local(world,agents,'detritus')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.strategy_score=_delta(agents.strategy_score,delta)
