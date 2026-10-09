@@ -254621,3 +254621,9 @@ def logic_95211(agents,world):
     src=_local(world,agents,'oxygen')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.dehydration=_delta(agents.dehydration,delta)
+
+
+def logic_95212(agents,world):
+    src=_local(world,agents,'detritus')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.aggression=_delta(agents.aggression,delta)
