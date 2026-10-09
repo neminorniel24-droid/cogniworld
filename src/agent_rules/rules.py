@@ -182591,3 +182591,9 @@ def logic_83206(agents,world):
     src=_local(world,agents,'detritus')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.stability=_delta(agents.stability,delta)
+
+
+def logic_83207(agents,world):
+    src=_local(world,agents,'erosion')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.confidence=_delta(agents.confidence,delta)
