@@ -75204,3 +75204,6 @@ RULES.append(logic_58241)
 
 from .logic_58242_surface_water_influences_temperature import apply as logic_58242
 RULES.append(logic_58242)
+
+from .logic_58243_nutrients_influences_oxygen import apply as logic_58243
+RULES.append(logic_58243)
