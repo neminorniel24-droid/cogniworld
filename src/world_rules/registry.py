@@ -59457,3 +59457,6 @@ RULES.append(logic_52992)
 
 from .logic_52993_root_density_influences_runoff import apply as logic_52993
 RULES.append(logic_52993)
+
+from .logic_52994_flowers_influences_pathogen_load import apply as logic_52994
+RULES.append(logic_52994)
