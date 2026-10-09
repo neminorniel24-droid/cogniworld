@@ -141221,3 +141221,9 @@ def logic_76311(agents,world):
     src=_local(world,agents,'temperature_target')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.reputation=_delta(agents.reputation,delta)
+
+
+def logic_76312(agents,world):
+    src=_local(world,agents,'soil_moisture')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.resource_discovery=_delta(agents.resource_discovery,delta)
