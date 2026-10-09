@@ -179909,3 +179909,9 @@ def logic_82759(agents,world):
     src=_local(world,agents,'pollinators')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.reciprocity_score=_delta(agents.reciprocity_score,delta)
+
+
+def logic_82760(agents,world):
+    src=_local(world,agents,'temperature')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.self_preservation=_delta(agents.self_preservation,delta)
