@@ -152843,3 +152843,9 @@ def logic_78248(agents,world):
     src=_local(world,agents,'habitat_stress')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.competition_score=_delta(agents.competition_score,delta)
+
+
+def logic_78249(agents,world):
+    src=_local(world,agents,'carbon_storage')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.memory_update=_delta(agents.memory_update,delta)
