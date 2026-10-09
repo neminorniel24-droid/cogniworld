@@ -150245,3 +150245,9 @@ def logic_77815(agents,world):
     src=_local(world,agents,'methane')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.territoriality=_delta(agents.territoriality,delta)
+
+
+def logic_77816(agents,world):
+    src=_local(world,agents,'soil_depth')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.resource_competition=_delta(agents.resource_competition,delta)
