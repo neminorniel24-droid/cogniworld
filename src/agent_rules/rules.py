@@ -238475,3 +238475,9 @@ def logic_92520(agents,world):
     src=_local(world,agents,'deadwood')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.neighbor_health_gap=_delta(agents.neighbor_health_gap,delta)
+
+
+def logic_92521(agents,world):
+    src=_local(world,agents,'surface_ice')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.safety_score=_delta(agents.safety_score,delta)
