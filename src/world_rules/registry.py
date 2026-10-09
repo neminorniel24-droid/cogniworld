@@ -82515,3 +82515,6 @@ RULES.append(logic_60678)
 
 from .logic_60679_groundwater_influences_root_density import apply as logic_60679
 RULES.append(logic_60679)
+
+from .logic_60680_surface_water_influences_temperature import apply as logic_60680
+RULES.append(logic_60680)
