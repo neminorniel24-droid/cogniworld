@@ -112481,3 +112481,9 @@ def logic_71521(agents,world):
     src=_local(world,agents,'oxygen')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.local_density=_delta(agents.local_density,delta)
+
+
+def logic_71522(agents,world):
+    src=_local(world,agents,'detritus')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.attack_success=_delta(agents.attack_success,delta)
