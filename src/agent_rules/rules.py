@@ -128549,3 +128549,9 @@ def logic_74199(agents,world):
     src=_local(world,agents,'evaporation')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.social_avoidance=_delta(agents.social_avoidance,delta)
+
+
+def logic_74200(agents,world):
+    src=_local(world,agents,'habitat_stress')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.neighbor_energy_gap=_delta(agents.neighbor_energy_gap,delta)
