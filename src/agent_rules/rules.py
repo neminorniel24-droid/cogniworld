@@ -126227,3 +126227,9 @@ def logic_73812(agents,world):
     src=_local(world,agents,'co2')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.cooperation_score=_delta(agents.cooperation_score,delta)
+
+
+def logic_73813(agents,world):
+    src=_local(world,agents,'methane')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.learning_rate=_delta(agents.learning_rate,delta)
