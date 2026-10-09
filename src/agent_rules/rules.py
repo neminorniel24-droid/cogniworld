@@ -252017,3 +252017,9 @@ def logic_94777(agents,world):
     src=_local(world,agents,'wind_y')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.confidence=_delta(agents.confidence,delta)
+
+
+def logic_94778(agents,world):
+    src=_local(world,agents,'carrion')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.help_received=_delta(agents.help_received,delta)
