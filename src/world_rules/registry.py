@@ -63546,3 +63546,6 @@ RULES.append(logic_54355)
 
 from .logic_54356_algae_influences_deadwood import apply as logic_54356
 RULES.append(logic_54356)
+
+from .logic_54357_rain_influences_biomass import apply as logic_54357
+RULES.append(logic_54357)
