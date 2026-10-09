@@ -138215,3 +138215,9 @@ def logic_75810(agents,world):
     src=_local(world,agents,'habitat_stress')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.aggression=_delta(agents.aggression,delta)
+
+
+def logic_75811(agents,world):
+    src=_local(world,agents,'carbon_storage')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.oxygen_need=_delta(agents.oxygen_need,delta)
