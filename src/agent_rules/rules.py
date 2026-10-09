@@ -122543,3 +122543,9 @@ def logic_73198(agents,world):
     src=_local(world,agents,'wetland')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_reward=_delta(agents.last_reward,delta)
+
+
+def logic_73199(agents,world):
+    src=_local(world,agents,'groundwater')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.retaliation_risk=_delta(agents.retaliation_risk,delta)
