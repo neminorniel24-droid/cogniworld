@@ -232307,3 +232307,9 @@ def logic_91492(agents,world):
     src=_local(world,agents,'soil_moisture')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.recovery=_delta(agents.recovery,delta)
+
+
+def logic_91493(agents,world):
+    src=_local(world,agents,'biomass')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.sharing_capacity=_delta(agents.sharing_capacity,delta)
