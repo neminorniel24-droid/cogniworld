@@ -154373,3 +154373,9 @@ def logic_78503(agents,world):
     src=_local(world,agents,'predator')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.wealth=_delta(agents.wealth,delta)
+
+
+def logic_78504(agents,world):
+    src=_local(world,agents,'co2')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.caution=_delta(agents.caution,delta)
