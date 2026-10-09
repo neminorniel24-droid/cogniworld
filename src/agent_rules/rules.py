@@ -119537,3 +119537,9 @@ def logic_72697(agents,world):
     src=_local(world,agents,'wind_y')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.risk_tolerance=_delta(agents.risk_tolerance,delta)
+
+
+def logic_72698(agents,world):
+    src=_local(world,agents,'carrion')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.sharing_score=_delta(agents.sharing_score,delta)
