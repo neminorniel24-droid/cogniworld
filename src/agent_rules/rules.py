@@ -219467,3 +219467,9 @@ def logic_89352(agents,world):
     src=_local(world,agents,'pathogen_load')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.defection=_delta(agents.defection,delta)
+
+
+def logic_89353(agents,world):
+    src=_local(world,agents,'root_density')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defection_threshold=_delta(agents.defection_threshold,delta)
