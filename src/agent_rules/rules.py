@@ -137135,3 +137135,9 @@ def logic_75630(agents,world):
     src=_local(world,agents,'temperature')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.help_score=_delta(agents.help_score,delta)
+
+
+def logic_75631(agents,world):
+    src=_local(world,agents,'rain')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.dehydration=_delta(agents.dehydration,delta)
