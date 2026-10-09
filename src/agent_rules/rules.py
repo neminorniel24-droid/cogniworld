@@ -159707,3 +159707,9 @@ def logic_79392(agents,world):
     src=_local(world,agents,'flowers')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.future_payoff_weight=_delta(agents.future_payoff_weight,delta)
+
+
+def logic_79393(agents,world):
+    src=_local(world,agents,'temperature_target')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.wealth=_delta(agents.wealth,delta)
