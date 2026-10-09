@@ -155705,3 +155705,9 @@ def logic_78725(agents,world):
     src=_local(world,agents,'photosynthesis_factor')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.neighbor_health_gap=_delta(agents.neighbor_health_gap,delta)
+
+
+def logic_78726(agents,world):
+    src=_local(world,agents,'pathogen_load')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.safety_score=_delta(agents.safety_score,delta)
