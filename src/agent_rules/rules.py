@@ -213881,3 +213881,9 @@ def logic_88421(agents,world):
     src=_local(world,agents,'nutrients')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.fire_fear=_delta(agents.fire_fear,delta)
+
+
+def logic_88422(agents,world):
+    src=_local(world,agents,'ice')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.strategy_score=_delta(agents.strategy_score,delta)
