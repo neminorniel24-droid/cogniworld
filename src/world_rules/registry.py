@@ -95925,3 +95925,6 @@ RULES.append(logic_65148)
 
 from .logic_65149_temperature_target_influences_erosion import apply as logic_65149
 RULES.append(logic_65149)
+
+from .logic_65150_carrion_influences_soil_carbon import apply as logic_65150
+RULES.append(logic_65150)
