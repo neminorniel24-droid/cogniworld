@@ -148133,3 +148133,9 @@ def logic_77463(agents,world):
     src=_local(world,agents,'biomass')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.exploration_drive=_delta(agents.exploration_drive,delta)
+
+
+def logic_77464(agents,world):
+    src=_local(world,agents,'decomposition_rate')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.generosity=_delta(agents.generosity,delta)
