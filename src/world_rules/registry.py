@@ -104742,3 +104742,6 @@ RULES.append(logic_68087)
 
 from .logic_68088_soil_depth_influences_snowpack import apply as logic_68088
 RULES.append(logic_68088)
+
+from .logic_68089_pollinators_influences_rain import apply as logic_68089
+RULES.append(logic_68089)
