@@ -237119,3 +237119,9 @@ def logic_92294(agents,world):
     src=_local(world,agents,'carrion')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.sharing_capacity=_delta(agents.sharing_capacity,delta)
+
+
+def logic_92295(agents,world):
+    src=_local(world,agents,'photosynthesis_factor')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.stress=_delta(agents.stress,delta)
