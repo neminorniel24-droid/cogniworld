@@ -68445,3 +68445,6 @@ RULES.append(logic_55988)
 
 from .logic_55989_nutrients_influences_oxygen import apply as logic_55989
 RULES.append(logic_55989)
+
+from .logic_55990_soil_depth_influences_snowpack import apply as logic_55990
+RULES.append(logic_55990)
