@@ -54315,3 +54315,6 @@ RULES.append(logic_51278)
 
 from .logic_51279_biomass_influences_ash import apply as logic_51279
 RULES.append(logic_51279)
+
+from .logic_51280_pathogen_load_influences_cloud import apply as logic_51280
+RULES.append(logic_51280)
