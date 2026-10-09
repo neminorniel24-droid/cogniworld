@@ -75240,3 +75240,6 @@ RULES.append(logic_58253)
 
 from .logic_58254_ice_influences_evaporation import apply as logic_58254
 RULES.append(logic_58254)
+
+from .logic_58255_ash_influences_salinity import apply as logic_58255
+RULES.append(logic_58255)
