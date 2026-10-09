@@ -71121,3 +71121,6 @@ RULES.append(logic_56880)
 
 from .logic_56881_photosynthesis_factor_influences_temperature_target import apply as logic_56881
 RULES.append(logic_56881)
+
+from .logic_56882_fire_risk_influences_co2 import apply as logic_56882
+RULES.append(logic_56882)
