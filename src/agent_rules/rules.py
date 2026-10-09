@@ -153797,3 +153797,9 @@ def logic_78407(agents,world):
     src=_local(world,agents,'organic_matter')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_interaction=_delta(agents.last_interaction,delta)
+
+
+def logic_78408(agents,world):
+    src=_local(world,agents,'soil_carbon')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.reproduction_score=_delta(agents.reproduction_score,delta)
