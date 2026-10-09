@@ -237527,3 +237527,9 @@ def logic_92362(agents,world):
     src=_local(world,agents,'fire_risk')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.help_score=_delta(agents.help_score,delta)
+
+
+def logic_92363(agents,world):
+    src=_local(world,agents,'salinity')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.dehydration=_delta(agents.dehydration,delta)
