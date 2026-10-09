@@ -138293,3 +138293,9 @@ def logic_75823(agents,world):
     src=_local(world,agents,'surface_ice')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.thermal_stress=_delta(agents.thermal_stress,delta)
+
+
+def logic_75824(agents,world):
+    src=_local(world,agents,'cloud')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.defection=_delta(agents.defection,delta)
