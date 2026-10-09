@@ -218939,3 +218939,9 @@ def logic_89264(agents,world):
     src=_local(world,agents,'soil_carbon')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.defection_threshold=_delta(agents.defection_threshold,delta)
+
+
+def logic_89265(agents,world):
+    src=_local(world,agents,'humidity')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.last_interaction=_delta(agents.last_interaction,delta)
