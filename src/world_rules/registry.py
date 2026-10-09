@@ -84513,3 +84513,6 @@ RULES.append(logic_61344)
 
 from .logic_61345_surface_ice_influences_groundwater import apply as logic_61345
 RULES.append(logic_61345)
+
+from .logic_61346_herbivore_influences_soil_moisture import apply as logic_61346
+RULES.append(logic_61346)
