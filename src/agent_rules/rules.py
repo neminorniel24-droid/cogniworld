@@ -154877,3 +154877,9 @@ def logic_78587(agents,world):
     src=_local(world,agents,'photosynthesis_factor')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.recovery=_delta(agents.recovery,delta)
+
+
+def logic_78588(agents,world):
+    src=_local(world,agents,'pathogen_load')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.sharing_capacity=_delta(agents.sharing_capacity,delta)
