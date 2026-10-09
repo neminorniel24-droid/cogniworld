@@ -52428,3 +52428,6 @@ RULES.append(logic_50649)
 
 from .logic_50650_detritus_influences_herbivore import apply as logic_50650
 RULES.append(logic_50650)
+
+from .logic_50651_groundwater_influences_root_density import apply as logic_50651
+RULES.append(logic_50651)
