@@ -103895,3 +103895,9 @@ def logic_70090(agents,world):
     src=_local(world,agents,'algae')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.migration_drive=_delta(agents.migration_drive,delta)
+
+
+def logic_70091(agents,world):
+    src=_local(world,agents,'seed_bank')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.selfishness=_delta(agents.selfishness,delta)
