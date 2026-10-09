@@ -126665,3 +126665,9 @@ def logic_73885(agents,world):
     src=_local(world,agents,'nutrients')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.group_stability=_delta(agents.group_stability,delta)
+
+
+def logic_73886(agents,world):
+    src=_local(world,agents,'ice')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.vegetation_expectation=_delta(agents.vegetation_expectation,delta)
