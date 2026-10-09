@@ -141101,3 +141101,9 @@ def logic_76291(agents,world):
     src=_local(world,agents,'organic_matter')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.memory_update=_delta(agents.memory_update,delta)
+
+
+def logic_76292(agents,world):
+    src=_local(world,agents,'soil_carbon')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.food_access=_delta(agents.food_access,delta)
