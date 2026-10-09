@@ -108617,3 +108617,9 @@ def logic_70877(agents,world):
     src=_local(world,agents,'oxygen')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.exploration_drive=_delta(agents.exploration_drive,delta)
+
+
+def logic_70878(agents,world):
+    src=_local(world,agents,'detritus')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.generosity=_delta(agents.generosity,delta)
