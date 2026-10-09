@@ -161309,3 +161309,9 @@ def logic_79659(agents,world):
     src=_local(world,agents,'seed_bank')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.future_payoff_weight=_delta(agents.future_payoff_weight,delta)
+
+
+def logic_79660(agents,world):
+    src=_local(world,agents,'surface_water')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.wealth=_delta(agents.wealth,delta)
