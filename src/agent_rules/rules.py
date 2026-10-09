@@ -161363,3 +161363,9 @@ def logic_79668(agents,world):
     src=_local(world,agents,'flowers')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.migration_score=_delta(agents.migration_score,delta)
+
+
+def logic_79669(agents,world):
+    src=_local(world,agents,'temperature_target')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.fear=_delta(agents.fear,delta)
