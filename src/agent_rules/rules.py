@@ -197039,3 +197039,9 @@ def logic_85614(agents,world):
     src=_local(world,agents,'vegetation')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.defection=_delta(agents.defection,delta)
+
+
+def logic_85615(agents,world):
+    src=_local(world,agents,'nutrients')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defection_threshold=_delta(agents.defection_threshold,delta)
