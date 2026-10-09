@@ -243737,3 +243737,9 @@ def logic_93397(agents,world):
     src=_local(world,agents,'wind_y')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.exploration_score=_delta(agents.exploration_score,delta)
+
+
+def logic_93398(agents,world):
+    src=_local(world,agents,'carrion')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.thirst=_delta(agents.thirst,delta)
