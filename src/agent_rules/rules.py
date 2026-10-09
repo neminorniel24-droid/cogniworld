@@ -201503,3 +201503,9 @@ def logic_86358(agents,world):
     src=_local(world,agents,'cloud')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.alertness=_delta(agents.alertness,delta)
+
+
+def logic_86359(agents,world):
+    src=_local(world,agents,'wind_y')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.territoriality=_delta(agents.territoriality,delta)
