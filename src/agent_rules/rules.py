@@ -120251,3 +120251,9 @@ def logic_72816(agents,world):
     src=_local(world,agents,'soil_moisture')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.fear=_delta(agents.fear,delta)
+
+
+def logic_72817(agents,world):
+    src=_local(world,agents,'biomass')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.group_stability=_delta(agents.group_stability,delta)
