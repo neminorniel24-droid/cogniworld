@@ -182879,3 +182879,9 @@ def logic_83254(agents,world):
     src=_local(world,agents,'fire_risk')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.resource_discovery=_delta(agents.resource_discovery,delta)
+
+
+def logic_83255(agents,world):
+    src=_local(world,agents,'salinity')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.last_reward=_delta(agents.last_reward,delta)
