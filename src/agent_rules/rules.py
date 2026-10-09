@@ -240881,3 +240881,9 @@ def logic_92921(agents,world):
     src=_local(world,agents,'evaporation')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.wealth=_delta(agents.wealth,delta)
+
+
+def logic_92922(agents,world):
+    src=_local(world,agents,'habitat_stress')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.caution=_delta(agents.caution,delta)
