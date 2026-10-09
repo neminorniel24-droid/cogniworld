@@ -70746,3 +70746,6 @@ RULES.append(logic_56755)
 
 from .logic_56756_cloud_influences_algae import apply as logic_56756
 RULES.append(logic_56756)
+
+from .logic_56757_oxygen_influences_wind_y import apply as logic_56757
+RULES.append(logic_56757)
