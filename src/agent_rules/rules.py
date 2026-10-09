@@ -166685,3 +166685,9 @@ def logic_80555(agents,world):
     src=_local(world,agents,'nutrients')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.cooperation=_delta(agents.cooperation,delta)
+
+
+def logic_80556(agents,world):
+    src=_local(world,agents,'ice')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.attack_threshold=_delta(agents.attack_threshold,delta)
