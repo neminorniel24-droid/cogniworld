@@ -201413,3 +201413,9 @@ def logic_86343(agents,world):
     src=_local(world,agents,'evaporation')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.migration_score=_delta(agents.migration_score,delta)
+
+
+def logic_86344(agents,world):
+    src=_local(world,agents,'habitat_stress')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.fear=_delta(agents.fear,delta)
