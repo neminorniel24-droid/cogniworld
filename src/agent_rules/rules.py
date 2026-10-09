@@ -133283,3 +133283,9 @@ def logic_74988(agents,world):
     src=_local(world,agents,'vegetation')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.safety_score=_delta(agents.safety_score,delta)
+
+
+def logic_74989(agents,world):
+    src=_local(world,agents,'nutrients')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.hydration=_delta(agents.hydration,delta)
