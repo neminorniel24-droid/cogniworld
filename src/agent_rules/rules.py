@@ -149579,3 +149579,9 @@ def logic_77704(agents,world):
     src=_local(world,agents,'ice')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.cooperation_history=_delta(agents.cooperation_history,delta)
+
+
+def logic_77705(agents,world):
+    src=_local(world,agents,'biodiversity')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.survival_score=_delta(agents.survival_score,delta)
