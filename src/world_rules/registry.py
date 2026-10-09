@@ -50478,3 +50478,6 @@ RULES.append(logic_43999)
 
 from .logic_44000_seed_bank_influences_sediment import apply as logic_44000
 RULES.append(logic_44000)
+
+from .logic_50001_humidity_influences_photosynthesis_factor import apply as logic_50001
+RULES.append(logic_50001)
