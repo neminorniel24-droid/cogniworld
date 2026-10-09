@@ -92643,3 +92643,6 @@ RULES.append(logic_64054)
 
 from .logic_64055_organic_matter_influences_predator import apply as logic_64055
 RULES.append(logic_64055)
+
+from .logic_64056_soil_moisture_influences_wetland import apply as logic_64056
+RULES.append(logic_64056)
