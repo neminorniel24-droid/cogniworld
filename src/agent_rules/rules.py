@@ -140609,3 +140609,9 @@ def logic_76209(agents,world):
     src=_local(world,agents,'seed_bank')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.empathy=_delta(agents.empathy,delta)
+
+
+def logic_76210(agents,world):
+    src=_local(world,agents,'surface_water')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.last_energy_delta=_delta(agents.last_energy_delta,delta)
