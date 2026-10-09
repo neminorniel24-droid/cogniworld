@@ -207809,3 +207809,9 @@ def logic_87409(agents,world):
     src=_local(world,agents,'nutrients')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.attack_threshold=_delta(agents.attack_threshold,delta)
+
+
+def logic_87410(agents,world):
+    src=_local(world,agents,'ice')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.last_food=_delta(agents.last_food,delta)
