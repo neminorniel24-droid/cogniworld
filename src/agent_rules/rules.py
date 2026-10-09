@@ -183275,3 +183275,9 @@ def logic_83320(agents,world):
     src=_local(world,agents,'deadwood')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.vegetation_expectation=_delta(agents.vegetation_expectation,delta)
+
+
+def logic_83321(agents,world):
+    src=_local(world,agents,'surface_ice')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.competition_score=_delta(agents.competition_score,delta)
