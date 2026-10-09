@@ -264143,3 +264143,9 @@ def logic_96798(agents,world):
     src=_local(world,agents,'deadwood')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.attack_success=_delta(agents.attack_success,delta)
+
+
+def logic_96799(agents,world):
+    src=_local(world,agents,'surface_ice')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.pathogen_risk=_delta(agents.pathogen_risk,delta)
