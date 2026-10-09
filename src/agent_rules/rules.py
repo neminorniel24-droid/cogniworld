@@ -164381,3 +164381,9 @@ def logic_80171(agents,world):
     src=_local(world,agents,'erosion')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.aggression=_delta(agents.aggression,delta)
+
+
+def logic_80172(agents,world):
+    src=_local(world,agents,'fire_risk')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.oxygen_need=_delta(agents.oxygen_need,delta)
