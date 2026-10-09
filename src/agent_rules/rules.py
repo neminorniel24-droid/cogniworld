@@ -166727,3 +166727,9 @@ def logic_80562(agents,world):
     src=_local(world,agents,'cloud')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.competition_score=_delta(agents.competition_score,delta)
+
+
+def logic_80563(agents,world):
+    src=_local(world,agents,'wind_y')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.memory_update=_delta(agents.memory_update,delta)
