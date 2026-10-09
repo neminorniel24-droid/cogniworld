@@ -103293,3 +103293,6 @@ RULES.append(logic_67604)
 
 from .logic_67605_rain_influences_biomass import apply as logic_67605
 RULES.append(logic_67605)
+
+from .logic_67606_co2_influences_soil_depth import apply as logic_67606
+RULES.append(logic_67606)
