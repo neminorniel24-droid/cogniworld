@@ -242633,3 +242633,9 @@ def logic_93213(agents,world):
     src=_local(world,agents,'wind_y')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.resource_competition=_delta(agents.resource_competition,delta)
+
+
+def logic_93214(agents,world):
+    src=_local(world,agents,'carrion')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.cooperation_score=_delta(agents.cooperation_score,delta)
