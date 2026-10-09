@@ -271385,3 +271385,9 @@ def logic_98005(agents,world):
     src=_local(world,agents,'humidity')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.vegetation_expectation=_delta(agents.vegetation_expectation,delta)
+
+
+def logic_98006(agents,world):
+    src=_local(world,agents,'wind_x')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.competition_score=_delta(agents.competition_score,delta)
