@@ -114305,3 +114305,9 @@ def logic_71825(agents,world):
     src=_local(world,agents,'photosynthesis_factor')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.stress=_delta(agents.stress,delta)
+
+
+def logic_71826(agents,world):
+    src=_local(world,agents,'pathogen_load')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defection_score=_delta(agents.defection_score,delta)
