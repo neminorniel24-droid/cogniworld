@@ -151907,3 +151907,9 @@ def logic_78092(agents,world):
     src=_local(world,agents,'soil_depth')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.resource_discovery=_delta(agents.resource_discovery,delta)
+
+
+def logic_78093(agents,world):
+    src=_local(world,agents,'ash')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.last_reward=_delta(agents.last_reward,delta)
