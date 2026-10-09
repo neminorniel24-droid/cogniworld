@@ -270659,3 +270659,9 @@ def logic_97884(agents,world):
     src=_local(world,agents,'flowers')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.risk_tolerance=_delta(agents.risk_tolerance,delta)
+
+
+def logic_97885(agents,world):
+    src=_local(world,agents,'temperature_target')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.sharing_score=_delta(agents.sharing_score,delta)
