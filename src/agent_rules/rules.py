@@ -138341,3 +138341,9 @@ def logic_75831(agents,world):
     src=_local(world,agents,'organic_matter')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.defection_score=_delta(agents.defection_score,delta)
+
+
+def logic_75832(agents,world):
+    src=_local(world,agents,'soil_carbon')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.future_payoff_weight=_delta(agents.future_payoff_weight,delta)
