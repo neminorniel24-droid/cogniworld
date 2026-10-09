@@ -76254,3 +76254,6 @@ RULES.append(logic_58591)
 
 from .logic_58592_soil_carbon_influences_decomposition_rate import apply as logic_58592
 RULES.append(logic_58592)
+
+from .logic_58593_biomass_influences_ash import apply as logic_58593
+RULES.append(logic_58593)
