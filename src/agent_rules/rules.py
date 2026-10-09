@@ -104237,3 +104237,9 @@ def logic_70147(agents,world):
     src=_local(world,agents,'temperature_target')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.group_stability=_delta(agents.group_stability,delta)
+
+
+def logic_70148(agents,world):
+    src=_local(world,agents,'soil_moisture')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.vegetation_expectation=_delta(agents.vegetation_expectation,delta)
