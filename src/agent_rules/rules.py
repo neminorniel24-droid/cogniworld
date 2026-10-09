@@ -123599,3 +123599,9 @@ def logic_73374(agents,world):
     src=_local(world,agents,'sediment')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.reputation=_delta(agents.reputation,delta)
+
+
+def logic_73375(agents,world):
+    src=_local(world,agents,'pollinators')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.resource_discovery=_delta(agents.resource_discovery,delta)
