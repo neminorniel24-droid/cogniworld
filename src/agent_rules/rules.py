@@ -195695,3 +195695,9 @@ def logic_85390(agents,world):
     src=_local(world,agents,'deadwood')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.resource_discovery=_delta(agents.resource_discovery,delta)
+
+
+def logic_85391(agents,world):
+    src=_local(world,agents,'surface_ice')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.last_reward=_delta(agents.last_reward,delta)
