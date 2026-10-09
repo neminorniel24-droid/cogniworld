@@ -132341,3 +132341,9 @@ def logic_74831(agents,world):
     src=_local(world,agents,'runoff')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.aggression=_delta(agents.aggression,delta)
+
+
+def logic_74832(agents,world):
+    src=_local(world,agents,'herbivore')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.oxygen_need=_delta(agents.oxygen_need,delta)
