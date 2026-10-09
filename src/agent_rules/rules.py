@@ -165617,3 +165617,9 @@ def logic_80377(agents,world):
     src=_local(world,agents,'surface_ice')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.cooperation=_delta(agents.cooperation,delta)
+
+
+def logic_80378(agents,world):
+    src=_local(world,agents,'cloud')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.attack_threshold=_delta(agents.attack_threshold,delta)
