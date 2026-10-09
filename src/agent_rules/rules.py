@@ -189617,3 +189617,9 @@ def logic_84377(agents,world):
     src=_local(world,agents,'groundwater')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.wealth=_delta(agents.wealth,delta)
+
+
+def logic_84378(agents,world):
+    src=_local(world,agents,'deadwood')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.caution=_delta(agents.caution,delta)
