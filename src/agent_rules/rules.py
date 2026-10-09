@@ -111059,3 +111059,9 @@ def logic_71284(agents,world):
     src=_local(world,agents,'soil_depth')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.thermal_stress=_delta(agents.thermal_stress,delta)
+
+
+def logic_71285(agents,world):
+    src=_local(world,agents,'ash')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.defection=_delta(agents.defection,delta)
