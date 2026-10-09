@@ -64785,3 +64785,6 @@ RULES.append(logic_54768)
 
 from .logic_54769_biodiversity_influences_methane import apply as logic_54769
 RULES.append(logic_54769)
+
+from .logic_54770_algae_influences_deadwood import apply as logic_54770
+RULES.append(logic_54770)
