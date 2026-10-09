@@ -194873,3 +194873,9 @@ def logic_85253(agents,world):
     src=_local(world,agents,'surface_ice')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.stability=_delta(agents.stability,delta)
+
+
+def logic_85254(agents,world):
+    src=_local(world,agents,'cloud')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.confidence=_delta(agents.confidence,delta)
