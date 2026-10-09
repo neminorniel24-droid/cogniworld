@@ -104009,3 +104009,9 @@ def logic_70109(agents,world):
     src=_local(world,agents,'pollinators')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.habitat_stress=_delta(agents.habitat_stress,delta)
+
+
+def logic_70110(agents,world):
+    src=_local(world,agents,'temperature')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.strategy_confidence=_delta(agents.strategy_confidence,delta)
