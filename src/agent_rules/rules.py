@@ -158525,3 +158525,9 @@ def logic_79195(agents,world):
     src=_local(world,agents,'methane')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.sharing_score=_delta(agents.sharing_score,delta)
+
+
+def logic_79196(agents,world):
+    src=_local(world,agents,'soil_depth')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.metabolic_cost=_delta(agents.metabolic_cost,delta)
