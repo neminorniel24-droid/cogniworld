@@ -196271,3 +196271,9 @@ def logic_85486(agents,world):
     src=_local(world,agents,'carrion')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.strategy_mixing=_delta(agents.strategy_mixing,delta)
+
+
+def logic_85487(agents,world):
+    src=_local(world,agents,'photosynthesis_factor')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.migration_drive=_delta(agents.migration_drive,delta)
