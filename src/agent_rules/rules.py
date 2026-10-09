@@ -212987,3 +212987,9 @@ def logic_88272(agents,world):
     src=_local(world,agents,'soil_moisture')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.risk_tolerance=_delta(agents.risk_tolerance,delta)
+
+
+def logic_88273(agents,world):
+    src=_local(world,agents,'biomass')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.sharing_score=_delta(agents.sharing_score,delta)
