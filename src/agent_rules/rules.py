@@ -277637,3 +277637,9 @@ def logic_99047(agents,world):
     src=_local(world,agents,'nutrients')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.self_preservation=_delta(agents.self_preservation,delta)
+
+
+def logic_99048(agents,world):
+    src=_local(world,agents,'ice')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.stability=_delta(agents.stability,delta)
