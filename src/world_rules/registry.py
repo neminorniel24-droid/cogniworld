@@ -109077,3 +109077,6 @@ RULES.append(logic_69532)
 
 from .logic_69533_surface_ice_influences_groundwater import apply as logic_69533
 RULES.append(logic_69533)
+
+from .logic_69534_herbivore_influences_soil_moisture import apply as logic_69534
+RULES.append(logic_69534)
