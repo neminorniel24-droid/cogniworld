@@ -279995,3 +279995,9 @@ def logic_99440(agents,world):
     src=_local(world,agents,'surface_water')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.defense_score=_delta(agents.defense_score,delta)
+
+
+def logic_99441(agents,world):
+    src=_local(world,agents,'runoff')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.alertness=_delta(agents.alertness,delta)
