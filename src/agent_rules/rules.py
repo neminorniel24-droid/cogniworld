@@ -175325,3 +175325,9 @@ def logic_81995(agents,world):
     src=_local(world,agents,'organic_matter')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_energy_delta=_delta(agents.last_energy_delta,delta)
+
+
+def logic_81996(agents,world):
+    src=_local(world,agents,'soil_carbon')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defense_score=_delta(agents.defense_score,delta)
