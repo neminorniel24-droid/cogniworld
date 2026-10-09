@@ -140051,3 +140051,9 @@ def logic_76116(agents,world):
     src=_local(world,agents,'algae')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.conflict_history=_delta(agents.conflict_history,delta)
+
+
+def logic_76117(agents,world):
+    src=_local(world,agents,'seed_bank')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.foraging_score=_delta(agents.foraging_score,delta)
