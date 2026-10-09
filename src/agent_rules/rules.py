@@ -147227,3 +147227,9 @@ def logic_77312(agents,world):
     src=_local(world,agents,'algae')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.strategy_persistence=_delta(agents.strategy_persistence,delta)
+
+
+def logic_77313(agents,world):
+    src=_local(world,agents,'seed_bank')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.reproduction_drive=_delta(agents.reproduction_drive,delta)
