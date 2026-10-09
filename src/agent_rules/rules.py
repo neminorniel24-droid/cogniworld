@@ -221939,3 +221939,9 @@ def logic_89764(agents,world):
     src=_local(world,agents,'carrion')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.social_tolerance=_delta(agents.social_tolerance,delta)
+
+
+def logic_89765(agents,world):
+    src=_local(world,agents,'photosynthesis_factor')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.future_help=_delta(agents.future_help,delta)
