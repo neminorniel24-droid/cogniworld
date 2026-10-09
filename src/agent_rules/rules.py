@@ -143699,3 +143699,9 @@ def logic_76724(agents,world):
     src=_local(world,agents,'flowers')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.caution=_delta(agents.caution,delta)
+
+
+def logic_76725(agents,world):
+    src=_local(world,agents,'temperature_target')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.cooperation_history=_delta(agents.cooperation_history,delta)
