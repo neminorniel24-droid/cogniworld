@@ -74478,3 +74478,6 @@ RULES.append(logic_57999)
 
 from .logic_58000_wetland_influences_habitat_stress import apply as logic_58000
 RULES.append(logic_58000)
+
+from .logic_58001_seed_bank_influences_soil_carbon import apply as logic_58001
+RULES.append(logic_58001)
