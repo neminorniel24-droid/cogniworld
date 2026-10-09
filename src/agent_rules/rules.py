@@ -275561,3 +275561,9 @@ def logic_98701(agents,world):
     src=_local(world,agents,'ash')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.recovery=_delta(agents.recovery,delta)
+
+
+def logic_98702(agents,world):
+    src=_local(world,agents,'algae')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.sharing_capacity=_delta(agents.sharing_capacity,delta)
