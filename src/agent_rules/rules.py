@@ -226457,3 +226457,9 @@ def logic_90517(agents,world):
     src=_local(world,agents,'runoff')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.future_payoff_weight=_delta(agents.future_payoff_weight,delta)
+
+
+def logic_90518(agents,world):
+    src=_local(world,agents,'herbivore')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.wealth=_delta(agents.wealth,delta)
