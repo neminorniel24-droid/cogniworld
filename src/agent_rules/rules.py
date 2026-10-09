@@ -168251,3 +168251,9 @@ def logic_80816(agents,world):
     src=_local(world,agents,'fire_risk')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.future_payoff_weight=_delta(agents.future_payoff_weight,delta)
+
+
+def logic_80817(agents,world):
+    src=_local(world,agents,'salinity')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.wealth=_delta(agents.wealth,delta)
