@@ -282917,3 +282917,9 @@ def logic_99927(agents,world):
     src=_local(world,agents,'surface_ice')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.help_score=_delta(agents.help_score,delta)
+
+
+def logic_99928(agents,world):
+    src=_local(world,agents,'cloud')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.dehydration=_delta(agents.dehydration,delta)
