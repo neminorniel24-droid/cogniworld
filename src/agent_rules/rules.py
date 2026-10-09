@@ -200237,3 +200237,9 @@ def logic_86147(agents,world):
     src=_local(world,agents,'runoff')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.thermal_stress=_delta(agents.thermal_stress,delta)
+
+
+def logic_86148(agents,world):
+    src=_local(world,agents,'herbivore')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.defection=_delta(agents.defection,delta)
