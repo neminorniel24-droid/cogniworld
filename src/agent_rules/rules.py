@@ -227207,3 +227207,9 @@ def logic_90642(agents,world):
     src=_local(world,agents,'snowpack')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_reward=_delta(agents.last_reward,delta)
+
+
+def logic_90643(agents,world):
+    src=_local(world,agents,'organic_matter')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.retaliation_risk=_delta(agents.retaliation_risk,delta)
