@@ -136097,3 +136097,9 @@ def logic_75457(agents,world):
     src=_local(world,agents,'wind_y')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.sharing_score=_delta(agents.sharing_score,delta)
+
+
+def logic_75458(agents,world):
+    src=_local(world,agents,'carrion')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.metabolic_cost=_delta(agents.metabolic_cost,delta)
