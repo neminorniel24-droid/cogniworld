@@ -227939,3 +227939,9 @@ def logic_90764(agents,world):
     src=_local(world,agents,'temperature')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.risk_tolerance=_delta(agents.risk_tolerance,delta)
+
+
+def logic_90765(agents,world):
+    src=_local(world,agents,'rain')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.sharing_score=_delta(agents.sharing_score,delta)
