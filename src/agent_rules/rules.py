@@ -199847,3 +199847,9 @@ def logic_86082(agents,world):
     src=_local(world,agents,'cloud')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.food_access=_delta(agents.food_access,delta)
+
+
+def logic_86083(agents,world):
+    src=_local(world,agents,'wind_y')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.gratitude=_delta(agents.gratitude,delta)
