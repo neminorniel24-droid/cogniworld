@@ -104051,3 +104051,9 @@ def logic_70116(agents,world):
     src=_local(world,agents,'wetland')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.risk_tolerance=_delta(agents.risk_tolerance,delta)
+
+
+def logic_70117(agents,world):
+    src=_local(world,agents,'groundwater')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.sharing_score=_delta(agents.sharing_score,delta)
