@@ -167393,3 +167393,9 @@ def logic_80673(agents,world):
     src=_local(world,agents,'runoff')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.resource_discovery=_delta(agents.resource_discovery,delta)
+
+
+def logic_80674(agents,world):
+    src=_local(world,agents,'herbivore')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.last_reward=_delta(agents.last_reward,delta)
