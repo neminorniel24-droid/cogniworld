@@ -96786,3 +96786,6 @@ RULES.append(logic_65435)
 
 from .logic_65436_soil_moisture_influences_wetland import apply as logic_65436
 RULES.append(logic_65436)
+
+from .logic_65437_photosynthesis_factor_influences_temperature_target import apply as logic_65437
+RULES.append(logic_65437)
