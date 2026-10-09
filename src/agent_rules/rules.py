@@ -271199,3 +271199,9 @@ def logic_97974(agents,world):
     src=_local(world,agents,'fire_risk')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.sharing_score=_delta(agents.sharing_score,delta)
+
+
+def logic_97975(agents,world):
+    src=_local(world,agents,'salinity')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.metabolic_cost=_delta(agents.metabolic_cost,delta)
