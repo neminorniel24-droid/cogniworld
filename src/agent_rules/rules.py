@@ -226979,3 +226979,9 @@ def logic_90604(agents,world):
     src=_local(world,agents,'soil_depth')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.stress=_delta(agents.stress,delta)
+
+
+def logic_90605(agents,world):
+    src=_local(world,agents,'ash')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.defection_score=_delta(agents.defection_score,delta)
