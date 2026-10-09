@@ -121907,3 +121907,9 @@ def logic_73092(agents,world):
     src=_local(world,agents,'soil_moisture')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.hunger=_delta(agents.hunger,delta)
+
+
+def logic_73093(agents,world):
+    src=_local(world,agents,'biomass')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.trust=_delta(agents.trust,delta)
