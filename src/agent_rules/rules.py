@@ -132239,3 +132239,9 @@ def logic_74814(agents,world):
     src=_local(world,agents,'carrion')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.local_density=_delta(agents.local_density,delta)
+
+
+def logic_74815(agents,world):
+    src=_local(world,agents,'photosynthesis_factor')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.attack_success=_delta(agents.attack_success,delta)
