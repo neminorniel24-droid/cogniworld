@@ -222101,3 +222101,9 @@ def logic_89791(agents,world):
     src=_local(world,agents,'biomass')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.self_preservation=_delta(agents.self_preservation,delta)
+
+
+def logic_89792(agents,world):
+    src=_local(world,agents,'decomposition_rate')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.stability=_delta(agents.stability,delta)
