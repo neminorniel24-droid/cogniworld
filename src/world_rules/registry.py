@@ -53841,3 +53841,6 @@ RULES.append(logic_51120)
 
 from .logic_51121_erosion_influences_nutrients import apply as logic_51121
 RULES.append(logic_51121)
+
+from .logic_51122_deadwood_influences_fire_risk import apply as logic_51122
+RULES.append(logic_51122)
