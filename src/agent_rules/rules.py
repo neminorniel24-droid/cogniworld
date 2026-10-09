@@ -151961,3 +151961,9 @@ def logic_78101(agents,world):
     src=_local(world,agents,'erosion')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.selfishness=_delta(agents.selfishness,delta)
+
+
+def logic_78102(agents,world):
+    src=_local(world,agents,'fire_risk')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.neighbor_health_gap=_delta(agents.neighbor_health_gap,delta)
