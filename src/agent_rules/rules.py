@@ -200291,3 +200291,9 @@ def logic_86156(agents,world):
     src=_local(world,agents,'soil_moisture')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.future_payoff_weight=_delta(agents.future_payoff_weight,delta)
+
+
+def logic_86157(agents,world):
+    src=_local(world,agents,'biomass')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.wealth=_delta(agents.wealth,delta)
