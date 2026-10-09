@@ -248255,3 +248255,9 @@ def logic_94150(agents,world):
     src=_local(world,agents,'surface_water')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.social_need=_delta(agents.social_need,delta)
+
+
+def logic_94151(agents,world):
+    src=_local(world,agents,'runoff')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.reciprocity_score=_delta(agents.reciprocity_score,delta)
