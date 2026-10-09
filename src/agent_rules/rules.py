@@ -198821,3 +198821,9 @@ def logic_85911(agents,world):
     src=_local(world,agents,'methane')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_energy_delta=_delta(agents.last_energy_delta,delta)
+
+
+def logic_85912(agents,world):
+    src=_local(world,agents,'soil_depth')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defense_score=_delta(agents.defense_score,delta)
