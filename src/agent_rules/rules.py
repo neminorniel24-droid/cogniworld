@@ -214817,3 +214817,9 @@ def logic_88577(agents,world):
     src=_local(world,agents,'predator')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.foraging_score=_delta(agents.foraging_score,delta)
+
+
+def logic_88578(agents,world):
+    src=_local(world,agents,'co2')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.hunger=_delta(agents.hunger,delta)
