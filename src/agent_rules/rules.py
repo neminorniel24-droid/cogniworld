@@ -147059,3 +147059,9 @@ def logic_77284(agents,world):
     src=_local(world,agents,'sediment')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.learning_rate=_delta(agents.learning_rate,delta)
+
+
+def logic_77285(agents,world):
+    src=_local(world,agents,'pollinators')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.exploration_drive=_delta(agents.exploration_drive,delta)
