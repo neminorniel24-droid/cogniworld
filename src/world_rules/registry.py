@@ -68016,3 +68016,6 @@ RULES.append(logic_55845)
 
 from .logic_55846_flowers_influences_pathogen_load import apply as logic_55846
 RULES.append(logic_55846)
+
+from .logic_55847_wind_y_influences_pollinators import apply as logic_55847
+RULES.append(logic_55847)
