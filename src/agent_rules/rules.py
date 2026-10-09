@@ -190379,3 +190379,9 @@ def logic_84504(agents,world):
     src=_local(world,agents,'habitat_stress')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.competition_pressure=_delta(agents.competition_pressure,delta)
+
+
+def logic_84505(agents,world):
+    src=_local(world,agents,'carbon_storage')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.fire_fear=_delta(agents.fire_fear,delta)
