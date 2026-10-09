@@ -182207,3 +182207,9 @@ def logic_83142(agents,world):
     src=_local(world,agents,'pathogen_load')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.vegetation_expectation=_delta(agents.vegetation_expectation,delta)
+
+
+def logic_83143(agents,world):
+    src=_local(world,agents,'root_density')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.competition_score=_delta(agents.competition_score,delta)
