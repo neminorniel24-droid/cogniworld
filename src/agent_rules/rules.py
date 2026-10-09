@@ -162581,3 +162581,9 @@ def logic_79871(agents,world):
     src=_local(world,agents,'surface_ice')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.reputation=_delta(agents.reputation,delta)
+
+
+def logic_79872(agents,world):
+    src=_local(world,agents,'cloud')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.resource_discovery=_delta(agents.resource_discovery,delta)
