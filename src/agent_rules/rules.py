@@ -137723,3 +137723,9 @@ def logic_75728(agents,world):
     src=_local(world,agents,'wetland')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.reciprocity_score=_delta(agents.reciprocity_score,delta)
+
+
+def logic_75729(agents,world):
+    src=_local(world,agents,'groundwater')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.self_preservation=_delta(agents.self_preservation,delta)
