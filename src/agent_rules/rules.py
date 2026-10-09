@@ -137213,3 +137213,9 @@ def logic_75643(agents,world):
     src=_local(world,agents,'photosynthesis_factor')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.help_received=_delta(agents.help_received,delta)
+
+
+def logic_75644(agents,world):
+    src=_local(world,agents,'pathogen_load')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.fitness_score=_delta(agents.fitness_score,delta)
