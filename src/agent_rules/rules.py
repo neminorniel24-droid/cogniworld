@@ -221069,3 +221069,9 @@ def logic_89619(agents,world):
     src=_local(world,agents,'biodiversity')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.defection=_delta(agents.defection,delta)
+
+
+def logic_89620(agents,world):
+    src=_local(world,agents,'wetland')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.defection_threshold=_delta(agents.defection_threshold,delta)
