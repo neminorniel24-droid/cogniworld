@@ -151841,3 +151841,9 @@ def logic_78081(agents,world):
     src=_local(world,agents,'photosynthesis_factor')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.alertness=_delta(agents.alertness,delta)
+
+
+def logic_78082(agents,world):
+    src=_local(world,agents,'pathogen_load')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.territoriality=_delta(agents.territoriality,delta)
