@@ -215723,3 +215723,9 @@ def logic_88728(agents,world):
     src=_local(world,agents,'fire_risk')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.thermal_stress=_delta(agents.thermal_stress,delta)
+
+
+def logic_88729(agents,world):
+    src=_local(world,agents,'salinity')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.defection=_delta(agents.defection,delta)
