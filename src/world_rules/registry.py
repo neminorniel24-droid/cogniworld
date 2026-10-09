@@ -76665,3 +76665,6 @@ RULES.append(logic_58728)
 
 from .logic_58729_carbon_storage_influences_surface_ice import apply as logic_58729
 RULES.append(logic_58729)
+
+from .logic_58730_soil_carbon_influences_decomposition_rate import apply as logic_58730
+RULES.append(logic_58730)
