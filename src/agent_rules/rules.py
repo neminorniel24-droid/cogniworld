@@ -271763,3 +271763,9 @@ def logic_98068(agents,world):
     src=_local(world,agents,'flowers')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.self_preservation=_delta(agents.self_preservation,delta)
+
+
+def logic_98069(agents,world):
+    src=_local(world,agents,'temperature_target')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.stability=_delta(agents.stability,delta)
