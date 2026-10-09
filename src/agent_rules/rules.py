@@ -215579,3 +215579,9 @@ def logic_88704(agents,world):
     src=_local(world,agents,'cloud')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.strategy_persistence=_delta(agents.strategy_persistence,delta)
+
+
+def logic_88705(agents,world):
+    src=_local(world,agents,'wind_y')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.reproduction_drive=_delta(agents.reproduction_drive,delta)
