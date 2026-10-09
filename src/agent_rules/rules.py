@@ -175919,3 +175919,9 @@ def logic_82094(agents,world):
     src=_local(world,agents,'soil_depth')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.exploration_score=_delta(agents.exploration_score,delta)
+
+
+def logic_82095(agents,world):
+    src=_local(world,agents,'ash')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.thirst=_delta(agents.thirst,delta)
