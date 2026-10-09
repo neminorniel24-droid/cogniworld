@@ -67209,3 +67209,6 @@ RULES.append(logic_55576)
 
 from .logic_55577_pollinators_influences_rain import apply as logic_55577
 RULES.append(logic_55577)
+
+from .logic_55578_wind_x_influences_detritus import apply as logic_55578
+RULES.append(logic_55578)
