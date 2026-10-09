@@ -119093,3 +119093,9 @@ def logic_72623(agents,world):
     src=_local(world,agents,'runoff')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.reproduction_score=_delta(agents.reproduction_score,delta)
+
+
+def logic_72624(agents,world):
+    src=_local(world,agents,'herbivore')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.recovery=_delta(agents.recovery,delta)
