@@ -211091,3 +211091,9 @@ def logic_87956(agents,world):
     src=_local(world,agents,'sediment')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.trust=_delta(agents.trust,delta)
+
+
+def logic_87957(agents,world):
+    src=_local(world,agents,'pollinators')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.empathy=_delta(agents.empathy,delta)
