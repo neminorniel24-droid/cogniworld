@@ -195161,3 +195161,9 @@ def logic_85301(agents,world):
     src=_local(world,agents,'wind_y')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.resource_discovery=_delta(agents.resource_discovery,delta)
+
+
+def logic_85302(agents,world):
+    src=_local(world,agents,'carrion')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.last_reward=_delta(agents.last_reward,delta)
