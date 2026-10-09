@@ -263351,3 +263351,9 @@ def logic_96666(agents,world):
     src=_local(world,agents,'pathogen_load')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_food=_delta(agents.last_food,delta)
+
+
+def logic_96667(agents,world):
+    src=_local(world,agents,'root_density')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.migration_score=_delta(agents.migration_score,delta)
