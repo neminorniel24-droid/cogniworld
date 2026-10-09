@@ -163409,3 +163409,9 @@ def logic_80009(agents,world):
     src=_local(world,agents,'surface_ice')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_interaction=_delta(agents.last_interaction,delta)
+
+
+def logic_80010(agents,world):
+    src=_local(world,agents,'cloud')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.reproduction_score=_delta(agents.reproduction_score,delta)
