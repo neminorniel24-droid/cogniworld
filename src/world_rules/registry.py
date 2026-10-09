@@ -101580,3 +101580,6 @@ RULES.append(logic_67033)
 
 from .logic_67034_snowpack_influences_vegetation import apply as logic_67034
 RULES.append(logic_67034)
+
+from .logic_67035_temperature_target_influences_erosion import apply as logic_67035
+RULES.append(logic_67035)
