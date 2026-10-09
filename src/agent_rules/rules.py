@@ -114041,3 +114041,9 @@ def logic_71781(agents,world):
     src=_local(world,agents,'root_density')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.migration_drive=_delta(agents.migration_drive,delta)
+
+
+def logic_71782(agents,world):
+    src=_local(world,agents,'snowpack')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.selfishness=_delta(agents.selfishness,delta)
