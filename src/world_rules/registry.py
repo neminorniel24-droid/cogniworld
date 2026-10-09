@@ -77040,3 +77040,6 @@ RULES.append(logic_58853)
 
 from .logic_58854_temperature_influences_wind_x import apply as logic_58854
 RULES.append(logic_58854)
+
+from .logic_58855_predator_influences_biodiversity import apply as logic_58855
+RULES.append(logic_58855)
