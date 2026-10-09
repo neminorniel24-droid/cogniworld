@@ -141383,3 +141383,9 @@ def logic_76338(agents,world):
     src=_local(world,agents,'soil_carbon')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.payoff=_delta(agents.payoff,delta)
+
+
+def logic_76339(agents,world):
+    src=_local(world,agents,'humidity')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.habitat_stress=_delta(agents.habitat_stress,delta)
