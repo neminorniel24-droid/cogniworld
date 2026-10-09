@@ -101364,3 +101364,6 @@ RULES.append(logic_66961)
 
 from .logic_66962_co2_influences_soil_depth import apply as logic_66962
 RULES.append(logic_66962)
+
+from .logic_66963_carbon_storage_influences_surface_ice import apply as logic_66963
+RULES.append(logic_66963)
