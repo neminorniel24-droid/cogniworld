@@ -107285,3 +107285,9 @@ def logic_70655(agents,world):
     src=_local(world,agents,'biomass')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.reciprocity_score=_delta(agents.reciprocity_score,delta)
+
+
+def logic_70656(agents,world):
+    src=_local(world,agents,'decomposition_rate')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.self_preservation=_delta(agents.self_preservation,delta)
