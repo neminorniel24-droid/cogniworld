@@ -124199,3 +124199,9 @@ def logic_73474(agents,world):
     src=_local(world,agents,'wetland')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.neighbor_health_gap=_delta(agents.neighbor_health_gap,delta)
+
+
+def logic_73475(agents,world):
+    src=_local(world,agents,'groundwater')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.safety_score=_delta(agents.safety_score,delta)
