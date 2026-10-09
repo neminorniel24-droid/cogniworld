@@ -152321,3 +152321,9 @@ def logic_78161(agents,world):
     src=_local(world,agents,'rain')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.food_access=_delta(agents.food_access,delta)
+
+
+def logic_78162(agents,world):
+    src=_local(world,agents,'vegetation')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.gratitude=_delta(agents.gratitude,delta)
