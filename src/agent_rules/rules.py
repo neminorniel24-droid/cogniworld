@@ -226085,3 +226085,9 @@ def logic_90455(agents,world):
     src=_local(world,agents,'photosynthesis_factor')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.cooperation_score=_delta(agents.cooperation_score,delta)
+
+
+def logic_90456(agents,world):
+    src=_local(world,agents,'pathogen_load')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.learning_rate=_delta(agents.learning_rate,delta)
