@@ -101760,3 +101760,6 @@ RULES.append(logic_67093)
 
 from .logic_67094_fire_risk_influences_co2 import apply as logic_67094
 RULES.append(logic_67094)
+
+from .logic_67095_surface_ice_influences_groundwater import apply as logic_67095
+RULES.append(logic_67095)
