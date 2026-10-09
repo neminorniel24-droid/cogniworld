@@ -88794,3 +88794,6 @@ RULES.append(logic_62771)
 
 from .logic_62772_herbivore_influences_soil_moisture import apply as logic_62772
 RULES.append(logic_62772)
+
+from .logic_62773_biodiversity_influences_methane import apply as logic_62773
+RULES.append(logic_62773)
