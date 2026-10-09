@@ -225515,3 +225515,9 @@ def logic_90360(agents,world):
     src=_local(world,agents,'cloud')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.empathy=_delta(agents.empathy,delta)
+
+
+def logic_90361(agents,world):
+    src=_local(world,agents,'wind_y')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.last_energy_delta=_delta(agents.last_energy_delta,delta)
