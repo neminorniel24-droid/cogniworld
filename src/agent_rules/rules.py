@@ -133169,3 +133169,9 @@ def logic_74969(agents,world):
     src=_local(world,agents,'runoff')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.cooperation_score=_delta(agents.cooperation_score,delta)
+
+
+def logic_74970(agents,world):
+    src=_local(world,agents,'herbivore')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.learning_rate=_delta(agents.learning_rate,delta)
