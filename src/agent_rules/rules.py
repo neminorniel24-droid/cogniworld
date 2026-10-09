@@ -168497,3 +168497,9 @@ def logic_80857(agents,world):
     src=_local(world,agents,'runoff')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.strategy_score=_delta(agents.strategy_score,delta)
+
+
+def logic_80858(agents,world):
+    src=_local(world,agents,'herbivore')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.strategy_mixing=_delta(agents.strategy_mixing,delta)
