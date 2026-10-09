@@ -221375,3 +221375,9 @@ def logic_89670(agents,world):
     src=_local(world,agents,'cloud')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.migration_drive=_delta(agents.migration_drive,delta)
+
+
+def logic_89671(agents,world):
+    src=_local(world,agents,'wind_y')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.selfishness=_delta(agents.selfishness,delta)
