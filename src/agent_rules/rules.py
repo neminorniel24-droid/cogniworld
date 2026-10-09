@@ -215039,3 +215039,9 @@ def logic_88614(agents,world):
     src=_local(world,agents,'carrion')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.last_action=_delta(agents.last_action,delta)
+
+
+def logic_88615(agents,world):
+    src=_local(world,agents,'photosynthesis_factor')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.strategy_persistence=_delta(agents.strategy_persistence,delta)
