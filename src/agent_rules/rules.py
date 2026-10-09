@@ -197135,3 +197135,9 @@ def logic_85630(agents,world):
     src=_local(world,agents,'soil_carbon')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_food=_delta(agents.last_food,delta)
+
+
+def logic_85631(agents,world):
+    src=_local(world,agents,'humidity')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.migration_score=_delta(agents.migration_score,delta)
