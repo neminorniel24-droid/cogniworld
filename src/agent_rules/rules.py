@@ -227903,3 +227903,9 @@ def logic_90758(agents,world):
     src=_local(world,agents,'decomposition_rate')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.strategy_confidence=_delta(agents.strategy_confidence,delta)
+
+
+def logic_90759(agents,world):
+    src=_local(world,agents,'evaporation')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.help_given=_delta(agents.help_given,delta)
