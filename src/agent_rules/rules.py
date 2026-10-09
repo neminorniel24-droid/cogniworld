@@ -249359,3 +249359,9 @@ def logic_94334(agents,world):
     src=_local(world,agents,'surface_water')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.fitness_score=_delta(agents.fitness_score,delta)
+
+
+def logic_94335(agents,world):
+    src=_local(world,agents,'runoff')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.thermal_stress=_delta(agents.thermal_stress,delta)
