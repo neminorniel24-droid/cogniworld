@@ -146093,3 +146093,9 @@ def logic_77123(agents,world):
     src=_local(world,agents,'predator')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.neighbor_health_gap=_delta(agents.neighbor_health_gap,delta)
+
+
+def logic_77124(agents,world):
+    src=_local(world,agents,'co2')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.safety_score=_delta(agents.safety_score,delta)
