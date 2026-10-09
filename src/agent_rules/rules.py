@@ -278825,3 +278825,9 @@ def logic_99245(agents,world):
     src=_local(world,agents,'organic_matter')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.cooperation=_delta(agents.cooperation,delta)
+
+
+def logic_99246(agents,world):
+    src=_local(world,agents,'soil_carbon')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.attack_threshold=_delta(agents.attack_threshold,delta)
