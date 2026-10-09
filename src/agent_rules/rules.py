@@ -149123,3 +149123,9 @@ def logic_77628(agents,world):
     src=_local(world,agents,'wind_x')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.gratitude=_delta(agents.gratitude,delta)
+
+
+def logic_77629(agents,world):
+    src=_local(world,agents,'predator')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.conflict_history=_delta(agents.conflict_history,delta)
