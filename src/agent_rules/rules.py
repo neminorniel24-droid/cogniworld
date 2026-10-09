@@ -162551,3 +162551,9 @@ def logic_79866(agents,world):
     src=_local(world,agents,'ice')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.exploration_drive=_delta(agents.exploration_drive,delta)
+
+
+def logic_79867(agents,world):
+    src=_local(world,agents,'biodiversity')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.generosity=_delta(agents.generosity,delta)
