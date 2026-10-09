@@ -105281,3 +105281,9 @@ def logic_70321(agents,world):
     src=_local(world,agents,'seed_bank')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.attack_threshold=_delta(agents.attack_threshold,delta)
+
+
+def logic_70322(agents,world):
+    src=_local(world,agents,'surface_water')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.last_food=_delta(agents.last_food,delta)
