@@ -277163,3 +277163,9 @@ def logic_98968(agents,world):
     src=_local(world,agents,'snowpack')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.recovery=_delta(agents.recovery,delta)
+
+
+def logic_98969(agents,world):
+    src=_local(world,agents,'organic_matter')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.sharing_capacity=_delta(agents.sharing_capacity,delta)
