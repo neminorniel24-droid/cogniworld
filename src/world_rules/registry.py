@@ -62751,3 +62751,6 @@ RULES.append(logic_54090)
 
 from .logic_54091_seed_bank_influences_soil_carbon import apply as logic_54091
 RULES.append(logic_54091)
+
+from .logic_54092_vegetation_influences_carrion import apply as logic_54092
+RULES.append(logic_54092)
