@@ -168989,3 +168989,9 @@ def logic_80939(agents,world):
     src=_local(world,agents,'humidity')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.reputation=_delta(agents.reputation,delta)
+
+
+def logic_80940(agents,world):
+    src=_local(world,agents,'wind_x')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.resource_discovery=_delta(agents.resource_discovery,delta)
