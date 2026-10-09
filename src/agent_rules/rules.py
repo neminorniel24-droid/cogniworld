@@ -163961,3 +163961,9 @@ def logic_80101(agents,world):
     src=_local(world,agents,'surface_ice')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.sharing_capacity=_delta(agents.sharing_capacity,delta)
+
+
+def logic_80102(agents,world):
+    src=_local(world,agents,'cloud')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.stress=_delta(agents.stress,delta)
