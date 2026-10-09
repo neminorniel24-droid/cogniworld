@@ -271547,3 +271547,9 @@ def logic_98032(agents,world):
     src=_local(world,agents,'temperature')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.competition_pressure=_delta(agents.competition_pressure,delta)
+
+
+def logic_98033(agents,world):
+    src=_local(world,agents,'rain')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.fire_fear=_delta(agents.fire_fear,delta)
