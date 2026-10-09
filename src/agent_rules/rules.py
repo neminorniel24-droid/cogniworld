@@ -157865,3 +157865,9 @@ def logic_79085(agents,world):
     src=_local(world,agents,'biodiversity')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.future_help=_delta(agents.future_help,delta)
+
+
+def logic_79086(agents,world):
+    src=_local(world,agents,'wetland')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.local_density=_delta(agents.local_density,delta)
