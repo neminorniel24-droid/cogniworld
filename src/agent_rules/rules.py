@@ -117545,3 +117545,9 @@ def logic_72365(agents,world):
     src=_local(world,agents,'rain')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.survival_score=_delta(agents.survival_score,delta)
+
+
+def logic_72366(agents,world):
+    src=_local(world,agents,'vegetation')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.health=_delta(agents.health,delta)
