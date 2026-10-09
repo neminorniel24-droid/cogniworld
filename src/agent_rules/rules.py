@@ -142043,3 +142043,9 @@ def logic_76448(agents,world):
     src=_local(world,agents,'flowers')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.defection_threshold=_delta(agents.defection_threshold,delta)
+
+
+def logic_76449(agents,world):
+    src=_local(world,agents,'temperature_target')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.last_interaction=_delta(agents.last_interaction,delta)
