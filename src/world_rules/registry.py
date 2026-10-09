@@ -88839,3 +88839,6 @@ RULES.append(logic_62786)
 
 from .logic_62787_methane_influences_carbon_storage import apply as logic_62787
 RULES.append(logic_62787)
+
+from .logic_62788_sediment_influences_surface_water import apply as logic_62788
+RULES.append(logic_62788)
