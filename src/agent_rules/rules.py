@@ -110489,3 +110489,9 @@ def logic_71189(agents,world):
     src=_local(world,agents,'predator')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.reciprocity_score=_delta(agents.reciprocity_score,delta)
+
+
+def logic_71190(agents,world):
+    src=_local(world,agents,'co2')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.self_preservation=_delta(agents.self_preservation,delta)
