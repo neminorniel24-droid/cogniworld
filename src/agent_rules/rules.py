@@ -213107,3 +213107,9 @@ def logic_88292(agents,world):
     src=_local(world,agents,'carrion')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.future_payoff_weight=_delta(agents.future_payoff_weight,delta)
+
+
+def logic_88293(agents,world):
+    src=_local(world,agents,'photosynthesis_factor')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.wealth=_delta(agents.wealth,delta)
