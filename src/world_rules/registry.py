@@ -102693,3 +102693,6 @@ RULES.append(logic_67404)
 
 from .logic_67405_erosion_influences_nutrients import apply as logic_67405
 RULES.append(logic_67405)
+
+from .logic_67406_deadwood_influences_fire_risk import apply as logic_67406
+RULES.append(logic_67406)
