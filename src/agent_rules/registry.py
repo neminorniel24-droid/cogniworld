@@ -105542,3 +105542,6 @@ RULES.append(logic_82361)
 
 from .rules import logic_82362
 RULES.append(logic_82362)
+
+from .rules import logic_82363
+RULES.append(logic_82363)
