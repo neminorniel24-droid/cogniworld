@@ -75081,3 +75081,6 @@ RULES.append(logic_58200)
 
 from .logic_58201_evaporation_influences_organic_matter import apply as logic_58201
 RULES.append(logic_58201)
+
+from .logic_58202_snowpack_influences_vegetation import apply as logic_58202
+RULES.append(logic_58202)
