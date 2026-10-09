@@ -219449,3 +219449,9 @@ def logic_89349(agents,world):
     src=_local(world,agents,'wind_y')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.help_received=_delta(agents.help_received,delta)
+
+
+def logic_89350(agents,world):
+    src=_local(world,agents,'carrion')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.fitness_score=_delta(agents.fitness_score,delta)
