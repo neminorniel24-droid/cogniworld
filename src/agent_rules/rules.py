@@ -277445,3 +277445,9 @@ def logic_99015(agents,world):
     src=_local(world,agents,'organic_matter')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.migration_drive=_delta(agents.migration_drive,delta)
+
+
+def logic_99016(agents,world):
+    src=_local(world,agents,'soil_carbon')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.selfishness=_delta(agents.selfishness,delta)
