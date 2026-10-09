@@ -134795,3 +134795,9 @@ def logic_75240(agents,world):
     src=_local(world,agents,'soil_depth')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.betrayal_memory=_delta(agents.betrayal_memory,delta)
+
+
+def logic_75241(agents,world):
+    src=_local(world,agents,'ash')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.exploration_score=_delta(agents.exploration_score,delta)
