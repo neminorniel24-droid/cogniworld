@@ -155993,3 +155993,9 @@ def logic_78773(agents,world):
     src=_local(world,agents,'root_density')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.survival_score=_delta(agents.survival_score,delta)
+
+
+def logic_78774(agents,world):
+    src=_local(world,agents,'snowpack')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.health=_delta(agents.health,delta)
