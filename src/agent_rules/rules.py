@@ -149501,3 +149501,9 @@ def logic_77691(agents,world):
     src=_local(world,agents,'temperature_target')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.fitness_score=_delta(agents.fitness_score,delta)
+
+
+def logic_77692(agents,world):
+    src=_local(world,agents,'soil_moisture')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.thermal_stress=_delta(agents.thermal_stress,delta)
