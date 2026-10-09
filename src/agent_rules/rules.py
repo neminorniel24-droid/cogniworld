@@ -135125,3 +135125,9 @@ def logic_75295(agents,world):
     src=_local(world,agents,'erosion')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.sharing_capacity=_delta(agents.sharing_capacity,delta)
+
+
+def logic_75296(agents,world):
+    src=_local(world,agents,'fire_risk')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.stress=_delta(agents.stress,delta)
