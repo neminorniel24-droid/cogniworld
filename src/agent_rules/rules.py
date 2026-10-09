@@ -248165,3 +248165,9 @@ def logic_94135(agents,world):
     src=_local(world,agents,'photosynthesis_factor')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.social_avoidance=_delta(agents.social_avoidance,delta)
+
+
+def logic_94136(agents,world):
+    src=_local(world,agents,'pathogen_load')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.neighbor_energy_gap=_delta(agents.neighbor_energy_gap,delta)
