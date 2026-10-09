@@ -123761,3 +123761,9 @@ def logic_73401(agents,world):
     src=_local(world,agents,'ash')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.payoff=_delta(agents.payoff,delta)
+
+
+def logic_73402(agents,world):
+    src=_local(world,agents,'algae')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.habitat_stress=_delta(agents.habitat_stress,delta)
