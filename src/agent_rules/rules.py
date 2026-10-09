@@ -155987,3 +155987,9 @@ def logic_78772(agents,world):
     src=_local(world,agents,'pathogen_load')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.cooperation_history=_delta(agents.cooperation_history,delta)
+
+
+def logic_78773(agents,world):
+    src=_local(world,agents,'root_density')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.survival_score=_delta(agents.survival_score,delta)
