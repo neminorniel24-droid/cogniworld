@@ -245765,3 +245765,9 @@ def logic_93735(agents,world):
     src=_local(world,agents,'seed_bank')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.memory_update=_delta(agents.memory_update,delta)
+
+
+def logic_93736(agents,world):
+    src=_local(world,agents,'surface_water')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.food_access=_delta(agents.food_access,delta)
