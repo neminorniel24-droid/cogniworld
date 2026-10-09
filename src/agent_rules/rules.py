@@ -260519,3 +260519,9 @@ def logic_96194(agents,world):
     src=_local(world,agents,'vegetation')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.sharing_score=_delta(agents.sharing_score,delta)
+
+
+def logic_96195(agents,world):
+    src=_local(world,agents,'nutrients')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.metabolic_cost=_delta(agents.metabolic_cost,delta)
