@@ -156497,3 +156497,9 @@ def logic_78857(agents,world):
     src=_local(world,agents,'groundwater')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.defection_score=_delta(agents.defection_score,delta)
+
+
+def logic_78858(agents,world):
+    src=_local(world,agents,'deadwood')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.future_payoff_weight=_delta(agents.future_payoff_weight,delta)
