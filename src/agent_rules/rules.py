@@ -184211,3 +184211,9 @@ def logic_83476(agents,world):
     src=_local(world,agents,'algae')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.fitness_score=_delta(agents.fitness_score,delta)
+
+
+def logic_83477(agents,world):
+    src=_local(world,agents,'seed_bank')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.thermal_stress=_delta(agents.thermal_stress,delta)
