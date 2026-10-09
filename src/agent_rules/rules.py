@@ -110159,3 +110159,9 @@ def logic_71134(agents,world):
     src=_local(world,agents,'carrion')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.hunger=_delta(agents.hunger,delta)
+
+
+def logic_71135(agents,world):
+    src=_local(world,agents,'photosynthesis_factor')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.trust=_delta(agents.trust,delta)
