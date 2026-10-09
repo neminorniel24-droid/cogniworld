@@ -279305,3 +279305,9 @@ def logic_99325(agents,world):
     src=_local(world,agents,'biodiversity')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.sharing_capacity=_delta(agents.sharing_capacity,delta)
+
+
+def logic_99326(agents,world):
+    src=_local(world,agents,'wetland')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.stress=_delta(agents.stress,delta)
