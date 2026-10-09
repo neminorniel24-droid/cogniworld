@@ -105609,3 +105609,6 @@ RULES.append(logic_68376)
 
 from .logic_68377_predator_influences_biodiversity import apply as logic_68377
 RULES.append(logic_68377)
+
+from .logic_68378_habitat_stress_influences_flowers import apply as logic_68378
+RULES.append(logic_68378)
