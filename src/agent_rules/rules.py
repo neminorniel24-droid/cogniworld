@@ -132629,3 +132629,9 @@ def logic_74879(agents,world):
     src=_local(world,agents,'oxygen')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.resource_competition=_delta(agents.resource_competition,delta)
+
+
+def logic_74880(agents,world):
+    src=_local(world,agents,'detritus')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.cooperation_score=_delta(agents.cooperation_score,delta)
