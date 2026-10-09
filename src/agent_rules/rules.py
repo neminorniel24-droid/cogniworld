@@ -215345,3 +215345,9 @@ def logic_88665(agents,world):
     src=_local(world,agents,'organic_matter')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.conflict_history=_delta(agents.conflict_history,delta)
+
+
+def logic_88666(agents,world):
+    src=_local(world,agents,'soil_carbon')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.foraging_score=_delta(agents.foraging_score,delta)
