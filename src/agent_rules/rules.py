@@ -215531,3 +215531,9 @@ def logic_88696(agents,world):
     src=_local(world,agents,'vegetation')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.social_tolerance=_delta(agents.social_tolerance,delta)
+
+
+def logic_88697(agents,world):
+    src=_local(world,agents,'nutrients')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.future_help=_delta(agents.future_help,delta)
