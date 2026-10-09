@@ -276029,3 +276029,9 @@ def logic_98779(agents,world):
     src=_local(world,agents,'wind_y')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.reciprocity_score=_delta(agents.reciprocity_score,delta)
+
+
+def logic_98780(agents,world):
+    src=_local(world,agents,'carrion')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.self_preservation=_delta(agents.self_preservation,delta)
