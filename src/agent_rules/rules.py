@@ -162719,3 +162719,9 @@ def logic_79894(agents,world):
     src=_local(world,agents,'detritus')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.reproduction_drive=_delta(agents.reproduction_drive,delta)
+
+
+def logic_79895(agents,world):
+    src=_local(world,agents,'erosion')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.social_avoidance=_delta(agents.social_avoidance,delta)
