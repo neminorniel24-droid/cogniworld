@@ -102954,3 +102954,6 @@ RULES.append(logic_67491)
 
 from .logic_67492_wind_x_influences_detritus import apply as logic_67492
 RULES.append(logic_67492)
+
+from .logic_67493_evaporation_influences_organic_matter import apply as logic_67493
+RULES.append(logic_67493)
