@@ -103355,3 +103355,9 @@ def logic_50000(agents,world):
     src=_local(world,agents,'decomposition_rate')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.vegetation_expectation=_delta(agents.vegetation_expectation,delta)
+
+
+def logic_70001(agents,world):
+    src=_local(world,agents,'runoff')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.migration_drive=_delta(agents.migration_drive,delta)
