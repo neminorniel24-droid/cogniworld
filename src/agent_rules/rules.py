@@ -188069,3 +188069,9 @@ def logic_84119(agents,world):
     src=_local(world,agents,'ash')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.fear=_delta(agents.fear,delta)
+
+
+def logic_84120(agents,world):
+    src=_local(world,agents,'algae')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.group_stability=_delta(agents.group_stability,delta)
