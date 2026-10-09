@@ -138677,3 +138677,9 @@ def logic_75887(agents,world):
     src=_local(world,agents,'seed_bank')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_action=_delta(agents.last_action,delta)
+
+
+def logic_75888(agents,world):
+    src=_local(world,agents,'surface_water')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.strategy_persistence=_delta(agents.strategy_persistence,delta)
