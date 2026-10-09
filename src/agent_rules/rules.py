@@ -143237,3 +143237,9 @@ def logic_76647(agents,world):
     src=_local(world,agents,'biodiversity')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.memory_update=_delta(agents.memory_update,delta)
+
+
+def logic_76648(agents,world):
+    src=_local(world,agents,'wetland')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.food_access=_delta(agents.food_access,delta)
