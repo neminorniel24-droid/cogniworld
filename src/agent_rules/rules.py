@@ -112667,3 +112667,9 @@ def logic_71552(agents,world):
     src=_local(world,agents,'snowpack')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.defection=_delta(agents.defection,delta)
+
+
+def logic_71553(agents,world):
+    src=_local(world,agents,'organic_matter')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defection_threshold=_delta(agents.defection_threshold,delta)
