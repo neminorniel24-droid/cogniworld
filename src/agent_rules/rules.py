@@ -180437,3 +180437,9 @@ def logic_82847(agents,world):
     src=_local(world,agents,'evaporation')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.social_need=_delta(agents.social_need,delta)
+
+
+def logic_82848(agents,world):
+    src=_local(world,agents,'habitat_stress')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.reciprocity_score=_delta(agents.reciprocity_score,delta)
