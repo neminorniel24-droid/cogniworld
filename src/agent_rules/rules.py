@@ -205631,3 +205631,9 @@ def logic_87046(agents,world):
     src=_local(world,agents,'deadwood')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.future_payoff_weight=_delta(agents.future_payoff_weight,delta)
+
+
+def logic_87047(agents,world):
+    src=_local(world,agents,'surface_ice')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.wealth=_delta(agents.wealth,delta)
