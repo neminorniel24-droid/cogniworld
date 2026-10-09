@@ -116861,3 +116861,9 @@ def logic_72251(agents,world):
     src=_local(world,agents,'ash')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.oxygen_need=_delta(agents.oxygen_need,delta)
+
+
+def logic_72252(agents,world):
+    src=_local(world,agents,'algae')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.risk_tolerance=_delta(agents.risk_tolerance,delta)
