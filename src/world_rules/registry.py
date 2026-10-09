@@ -79452,3 +79452,6 @@ RULES.append(logic_59657)
 
 from .logic_59658_vegetation_influences_carrion import apply as logic_59658
 RULES.append(logic_59658)
+
+from .logic_59659_methane_influences_carbon_storage import apply as logic_59659
+RULES.append(logic_59659)
