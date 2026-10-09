@@ -268757,3 +268757,9 @@ def logic_97567(agents,world):
     src=_local(world,agents,'evaporation')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.hunger=_delta(agents.hunger,delta)
+
+
+def logic_97568(agents,world):
+    src=_local(world,agents,'habitat_stress')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.trust=_delta(agents.trust,delta)
