@@ -67980,3 +67980,6 @@ RULES.append(logic_55833)
 
 from .logic_55834_pathogen_load_influences_cloud import apply as logic_55834
 RULES.append(logic_55834)
+
+from .logic_55835_salinity_influences_evaporation import apply as logic_55835
+RULES.append(logic_55835)
