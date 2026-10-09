@@ -98625,3 +98625,6 @@ RULES.append(logic_66048)
 
 from .logic_66049_oxygen_influences_wind_y import apply as logic_66049
 RULES.append(logic_66049)
+
+from .logic_66050_wetland_influences_habitat_stress import apply as logic_66050
+RULES.append(logic_66050)
