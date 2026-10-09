@@ -185171,3 +185171,9 @@ def logic_83636(agents,world):
     src=_local(world,agents,'vegetation')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.payoff=_delta(agents.payoff,delta)
+
+
+def logic_83637(agents,world):
+    src=_local(world,agents,'nutrients')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.habitat_stress=_delta(agents.habitat_stress,delta)
