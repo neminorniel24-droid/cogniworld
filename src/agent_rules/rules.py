@@ -137303,3 +137303,9 @@ def logic_75658(agents,world):
     src=_local(world,agents,'surface_water')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.survival_score=_delta(agents.survival_score,delta)
+
+
+def logic_75659(agents,world):
+    src=_local(world,agents,'runoff')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.health=_delta(agents.health,delta)
