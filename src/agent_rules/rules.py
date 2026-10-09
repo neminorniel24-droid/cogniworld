@@ -205211,3 +205211,9 @@ def logic_86976(agents,world):
     src=_local(world,agents,'herbivore')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.hunger=_delta(agents.hunger,delta)
+
+
+def logic_86977(agents,world):
+    src=_local(world,agents,'oxygen')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.trust=_delta(agents.trust,delta)
