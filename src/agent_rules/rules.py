@@ -266333,3 +266333,9 @@ def logic_97163(agents,world):
     src=_local(world,agents,'biodiversity')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.risk_score=_delta(agents.risk_score,delta)
+
+
+def logic_97164(agents,world):
+    src=_local(world,agents,'wetland')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.payoff=_delta(agents.payoff,delta)
