@@ -94893,3 +94893,6 @@ RULES.append(logic_64804)
 
 from .logic_64805_salinity_influences_evaporation import apply as logic_64805
 RULES.append(logic_64805)
+
+from .logic_64806_cloud_influences_algae import apply as logic_64806
+RULES.append(logic_64806)
