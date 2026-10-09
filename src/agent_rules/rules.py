@@ -116633,3 +116633,9 @@ def logic_72213(agents,world):
     src=_local(world,agents,'erosion')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.generosity=_delta(agents.generosity,delta)
+
+
+def logic_72214(agents,world):
+    src=_local(world,agents,'fire_risk')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.betrayal_memory=_delta(agents.betrayal_memory,delta)
