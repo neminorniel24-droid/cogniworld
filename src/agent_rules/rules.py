@@ -168635,3 +168635,9 @@ def logic_80880(agents,world):
     src=_local(world,agents,'wetland')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.help_given=_delta(agents.help_given,delta)
+
+
+def logic_80881(agents,world):
+    src=_local(world,agents,'groundwater')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.help_score=_delta(agents.help_score,delta)
