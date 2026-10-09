@@ -229859,3 +229859,9 @@ def logic_91084(agents,world):
     src=_local(world,agents,'sediment')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.thirst=_delta(agents.thirst,delta)
+
+
+def logic_91085(agents,world):
+    src=_local(world,agents,'pollinators')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.reputation=_delta(agents.reputation,delta)
