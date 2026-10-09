@@ -278015,3 +278015,9 @@ def logic_99110(agents,world):
     src=_local(world,agents,'wind_x')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.future_help=_delta(agents.future_help,delta)
+
+
+def logic_99111(agents,world):
+    src=_local(world,agents,'predator')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.local_density=_delta(agents.local_density,delta)
