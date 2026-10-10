@@ -119568,3 +119568,6 @@ RULES.append(logic_103029)
 
 from .logic_103030_pathogen_load_influences_biodiversity import apply as logic_103030
 RULES.append(logic_103030)
+
+from .logic_103031_groundwater_influences_pollinators import apply as logic_103031
+RULES.append(logic_103031)
