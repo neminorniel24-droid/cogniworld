@@ -295661,3 +295661,9 @@ def logic_106051(agents,world):
     src=_local(world,agents,'wind_y')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.reproduction_score=_delta(agents.reproduction_score,delta)
+
+
+def logic_106052(agents,world):
+    src=_local(world,agents,'carrion')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.recovery=_delta(agents.recovery,delta)
