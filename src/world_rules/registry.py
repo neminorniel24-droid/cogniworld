@@ -117996,3 +117996,6 @@ RULES.append(logic_102505)
 
 from .logic_102506_vegetation_influences_deadwood import apply as logic_102506
 RULES.append(logic_102506)
+
+from .logic_102507_evaporation_influences_biomass import apply as logic_102507
+RULES.append(logic_102507)
