@@ -119619,3 +119619,6 @@ RULES.append(logic_103046)
 
 from .logic_103047_erosion_influences_salinity import apply as logic_103047
 RULES.append(logic_103047)
+
+from .logic_103048_algae_influences_wind_x import apply as logic_103048
+RULES.append(logic_103048)
