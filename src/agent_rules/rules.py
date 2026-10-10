@@ -304583,3 +304583,9 @@ def logic_107538(agents,world):
     src=_local(world,agents,'algae')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.social_avoidance=_delta(agents.social_avoidance,delta)
+
+
+def logic_107539(agents,world):
+    src=_local(world,agents,'seed_bank')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.neighbor_energy_gap=_delta(agents.neighbor_energy_gap,delta)
