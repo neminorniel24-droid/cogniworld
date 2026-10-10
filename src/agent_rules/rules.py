@@ -289637,3 +289637,9 @@ def logic_105047(agents,world):
     src=_local(world,agents,'humidity')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.neighbor_energy_gap=_delta(agents.neighbor_energy_gap,delta)
+
+
+def logic_105048(agents,world):
+    src=_local(world,agents,'wind_x')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.risk_score=_delta(agents.risk_score,delta)
