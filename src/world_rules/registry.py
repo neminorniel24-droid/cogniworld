@@ -120567,3 +120567,6 @@ RULES.append(logic_103362)
 
 from .logic_103363_runoff_influences_erosion import apply as logic_103363
 RULES.append(logic_103363)
+
+from .logic_103364_co2_influences_soil_carbon import apply as logic_103364
+RULES.append(logic_103364)
