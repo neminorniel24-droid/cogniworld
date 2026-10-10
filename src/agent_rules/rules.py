@@ -298151,3 +298151,9 @@ def logic_106466(agents,world):
     src=_local(world,agents,'carrion')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.shelter_need=_delta(agents.shelter_need,delta)
+
+
+def logic_106467(agents,world):
+    src=_local(world,agents,'photosynthesis_factor')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.last_action=_delta(agents.last_action,delta)
