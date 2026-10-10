@@ -114456,3 +114456,6 @@ RULES.append(logic_101325)
 
 from .logic_101326_surface_water_influences_sediment import apply as logic_101326
 RULES.append(logic_101326)
+
+from .logic_101327_predator_influences_runoff import apply as logic_101327
+RULES.append(logic_101327)
