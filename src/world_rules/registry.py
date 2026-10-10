@@ -120216,3 +120216,6 @@ RULES.append(logic_103245)
 
 from .logic_103246_wind_x_influences_decomposition_rate import apply as logic_103246
 RULES.append(logic_103246)
+
+from .logic_103247_photosynthesis_factor_influences_ash import apply as logic_103247
+RULES.append(logic_103247)
