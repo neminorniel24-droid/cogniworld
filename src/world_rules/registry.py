@@ -114252,3 +114252,6 @@ RULES.append(logic_101257)
 
 from .logic_101258_sediment_influences_wetland import apply as logic_101258
 RULES.append(logic_101258)
+
+from .logic_101259_temperature_target_influences_surface_water import apply as logic_101259
+RULES.append(logic_101259)
