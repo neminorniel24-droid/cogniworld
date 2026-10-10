@@ -111429,3 +111429,6 @@ RULES.append(logic_100316)
 
 from .logic_100317_groundwater_influences_pollinators import apply as logic_100317
 RULES.append(logic_100317)
+
+from .logic_100318_temperature_influences_herbivore import apply as logic_100318
+RULES.append(logic_100318)
