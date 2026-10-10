@@ -293471,3 +293471,9 @@ def logic_105686(agents,world):
     src=_local(world,agents,'pathogen_load')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.self_preservation=_delta(agents.self_preservation,delta)
+
+
+def logic_105687(agents,world):
+    src=_local(world,agents,'root_density')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.stability=_delta(agents.stability,delta)
