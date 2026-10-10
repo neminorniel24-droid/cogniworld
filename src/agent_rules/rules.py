@@ -316643,3 +316643,9 @@ def logic_109548(agents,world):
     src=_local(world,agents,'carrion')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.empathy=_delta(agents.empathy,delta)
+
+
+def logic_109549(agents,world):
+    src=_local(world,agents,'photosynthesis_factor')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.last_energy_delta=_delta(agents.last_energy_delta,delta)
