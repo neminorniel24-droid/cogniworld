@@ -314147,3 +314147,9 @@ def logic_109132(agents,world):
     src=_local(world,agents,'cloud')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.local_density=_delta(agents.local_density,delta)
+
+
+def logic_109133(agents,world):
+    src=_local(world,agents,'wind_y')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.attack_success=_delta(agents.attack_success,delta)
