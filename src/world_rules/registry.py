@@ -112959,3 +112959,6 @@ RULES.append(logic_100826)
 
 from .logic_100827_ash_influences_oxygen import apply as logic_100827
 RULES.append(logic_100827)
+
+from .logic_100828_soil_carbon_influences_snowpack import apply as logic_100828
+RULES.append(logic_100828)
