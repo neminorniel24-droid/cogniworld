@@ -299339,3 +299339,9 @@ def logic_106664(agents,world):
     src=_local(world,agents,'algae')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.reciprocity_score=_delta(agents.reciprocity_score,delta)
+
+
+def logic_106665(agents,world):
+    src=_local(world,agents,'seed_bank')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.self_preservation=_delta(agents.self_preservation,delta)
