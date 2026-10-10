@@ -122313,3 +122313,6 @@ RULES.append(logic_103944)
 
 from .logic_103945_nutrients_influences_carbon_storage import apply as logic_103945
 RULES.append(logic_103945)
+
+from .logic_103946_habitat_stress_influences_surface_water import apply as logic_103946
+RULES.append(logic_103946)
