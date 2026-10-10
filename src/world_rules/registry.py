@@ -119688,3 +119688,6 @@ RULES.append(logic_103069)
 
 from .logic_103070_cloud_influences_carrion import apply as logic_103070
 RULES.append(logic_103070)
+
+from .logic_103071_nutrients_influences_carbon_storage import apply as logic_103071
+RULES.append(logic_103071)
