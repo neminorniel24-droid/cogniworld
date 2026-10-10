@@ -113334,3 +113334,6 @@ RULES.append(logic_100951)
 
 from .logic_100952_soil_depth_influences_habitat_stress import apply as logic_100952
 RULES.append(logic_100952)
+
+from .logic_100953_organic_matter_influences_seed_bank import apply as logic_100953
+RULES.append(logic_100953)
