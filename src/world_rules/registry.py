@@ -117372,3 +117372,6 @@ RULES.append(logic_102297)
 
 from .logic_102298_detritus_influences_temperature import apply as logic_102298
 RULES.append(logic_102298)
+
+from .logic_102299_ash_influences_oxygen import apply as logic_102299
+RULES.append(logic_102299)
