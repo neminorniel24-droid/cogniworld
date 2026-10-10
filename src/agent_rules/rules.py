@@ -296549,3 +296549,9 @@ def logic_106199(agents,world):
     src=_local(world,agents,'predator')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.shelter_need=_delta(agents.shelter_need,delta)
+
+
+def logic_106200(agents,world):
+    src=_local(world,agents,'co2')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.last_action=_delta(agents.last_action,delta)
