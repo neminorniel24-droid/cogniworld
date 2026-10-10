@@ -290231,3 +290231,9 @@ def logic_105146(agents,world):
     src=_local(world,agents,'algae')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.risk_tolerance=_delta(agents.risk_tolerance,delta)
+
+
+def logic_105147(agents,world):
+    src=_local(world,agents,'seed_bank')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.sharing_score=_delta(agents.sharing_score,delta)
