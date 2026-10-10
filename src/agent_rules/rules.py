@@ -287039,3 +287039,9 @@ def logic_104614(agents,world):
     src=_local(world,agents,'temperature')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.metabolic_cost=_delta(agents.metabolic_cost,delta)
+
+
+def logic_104615(agents,world):
+    src=_local(world,agents,'rain')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.help_drive=_delta(agents.help_drive,delta)
