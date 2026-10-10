@@ -112038,3 +112038,6 @@ RULES.append(logic_100519)
 
 from .logic_100520_carrion_influences_flowers import apply as logic_100520
 RULES.append(logic_100520)
+
+from .logic_100521_biodiversity_influences_predator import apply as logic_100521
+RULES.append(logic_100521)
