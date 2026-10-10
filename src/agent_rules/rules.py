@@ -297035,3 +297035,9 @@ def logic_106280(agents,world):
     src=_local(world,agents,'cloud')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.safety_score=_delta(agents.safety_score,delta)
+
+
+def logic_106281(agents,world):
+    src=_local(world,agents,'wind_y')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.hydration=_delta(agents.hydration,delta)
