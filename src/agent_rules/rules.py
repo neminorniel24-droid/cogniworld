@@ -297329,3 +297329,9 @@ def logic_106329(agents,world):
     src=_local(world,agents,'photosynthesis_factor')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.cooperation=_delta(agents.cooperation,delta)
+
+
+def logic_106330(agents,world):
+    src=_local(world,agents,'pathogen_load')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.attack_threshold=_delta(agents.attack_threshold,delta)
