@@ -112845,3 +112845,6 @@ RULES.append(logic_100788)
 
 from .logic_100789_root_density_influences_nutrients import apply as logic_100789
 RULES.append(logic_100789)
+
+from .logic_100790_deadwood_influences_fire_risk import apply as logic_100790
+RULES.append(logic_100790)
