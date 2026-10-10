@@ -112302,3 +112302,6 @@ RULES.append(logic_100607)
 
 from .logic_100608_decomposition_rate_influences_ice import apply as logic_100608
 RULES.append(logic_100608)
+
+from .logic_100609_erosion_influences_salinity import apply as logic_100609
+RULES.append(logic_100609)
