@@ -317303,3 +317303,9 @@ def logic_109658(agents,world):
     src=_local(world,agents,'herbivore')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.strategy_mixing=_delta(agents.strategy_mixing,delta)
+
+
+def logic_109659(agents,world):
+    src=_local(world,agents,'oxygen')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.migration_drive=_delta(agents.migration_drive,delta)
