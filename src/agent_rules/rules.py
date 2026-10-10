@@ -297131,3 +297131,9 @@ def logic_106296(agents,world):
     src=_local(world,agents,'algae')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.habitat_stress=_delta(agents.habitat_stress,delta)
+
+
+def logic_106297(agents,world):
+    src=_local(world,agents,'seed_bank')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.strategy_confidence=_delta(agents.strategy_confidence,delta)
