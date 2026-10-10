@@ -291461,3 +291461,9 @@ def logic_105351(agents,world):
     src=_local(world,agents,'rain')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.attack_threshold=_delta(agents.attack_threshold,delta)
+
+
+def logic_105352(agents,world):
+    src=_local(world,agents,'vegetation')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.last_food=_delta(agents.last_food,delta)
