@@ -311399,3 +311399,9 @@ def logic_108674(agents,world):
     src=_local(world,agents,'carrion')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.retaliation_risk=_delta(agents.retaliation_risk,delta)
+
+
+def logic_108675(agents,world):
+    src=_local(world,agents,'photosynthesis_factor')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.infection_risk=_delta(agents.infection_risk,delta)
