@@ -111876,3 +111876,6 @@ RULES.append(logic_100465)
 
 from .logic_100466_co2_influences_soil_carbon import apply as logic_100466
 RULES.append(logic_100466)
+
+from .logic_100467_root_density_influences_nutrients import apply as logic_100467
+RULES.append(logic_100467)
