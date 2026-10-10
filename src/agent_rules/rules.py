@@ -318779,3 +318779,9 @@ def logic_109904(agents,world):
     src=_local(world,agents,'temperature')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.empathy=_delta(agents.empathy,delta)
+
+
+def logic_109905(agents,world):
+    src=_local(world,agents,'rain')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.last_energy_delta=_delta(agents.last_energy_delta,delta)
