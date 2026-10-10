@@ -315365,3 +315365,9 @@ def logic_109335(agents,world):
     src=_local(world,agents,'runoff')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.self_preservation=_delta(agents.self_preservation,delta)
+
+
+def logic_109336(agents,world):
+    src=_local(world,agents,'herbivore')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.stability=_delta(agents.stability,delta)
