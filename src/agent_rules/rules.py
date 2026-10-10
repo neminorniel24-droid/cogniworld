@@ -294755,3 +294755,9 @@ def logic_105900(agents,world):
     src=_local(world,agents,'sediment')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_energy_delta=_delta(agents.last_energy_delta,delta)
+
+
+def logic_105901(agents,world):
+    src=_local(world,agents,'pollinators')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defense_score=_delta(agents.defense_score,delta)
