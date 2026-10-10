@@ -311321,3 +311321,9 @@ def logic_108661(agents,world):
     src=_local(world,agents,'pollinators')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.alertness=_delta(agents.alertness,delta)
+
+
+def logic_108662(agents,world):
+    src=_local(world,agents,'temperature')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.territoriality=_delta(agents.territoriality,delta)
