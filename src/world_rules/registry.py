@@ -113460,3 +113460,6 @@ RULES.append(logic_100993)
 
 from .logic_100994_wetland_influences_cloud import apply as logic_100994
 RULES.append(logic_100994)
+
+from .logic_100995_pollinators_influences_evaporation import apply as logic_100995
+RULES.append(logic_100995)
