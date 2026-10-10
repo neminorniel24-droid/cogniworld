@@ -315929,3 +315929,9 @@ def logic_109429(agents,world):
     src=_local(world,agents,'oxygen')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.thermal_stress=_delta(agents.thermal_stress,delta)
+
+
+def logic_109430(agents,world):
+    src=_local(world,agents,'detritus')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.defection=_delta(agents.defection,delta)
