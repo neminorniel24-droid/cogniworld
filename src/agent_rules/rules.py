@@ -300719,3 +300719,9 @@ def logic_106894(agents,world):
     src=_local(world,agents,'algae')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.retaliation_risk=_delta(agents.retaliation_risk,delta)
+
+
+def logic_106895(agents,world):
+    src=_local(world,agents,'seed_bank')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.infection_risk=_delta(agents.infection_risk,delta)
