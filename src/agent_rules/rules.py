@@ -292061,3 +292061,9 @@ def logic_105451(agents,world):
     src=_local(world,agents,'surface_ice')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.foraging_score=_delta(agents.foraging_score,delta)
+
+
+def logic_105452(agents,world):
+    src=_local(world,agents,'cloud')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.hunger=_delta(agents.hunger,delta)
