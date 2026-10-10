@@ -296831,3 +296831,9 @@ def logic_106246(agents,world):
     src=_local(world,agents,'co2')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.vegetation_expectation=_delta(agents.vegetation_expectation,delta)
+
+
+def logic_106247(agents,world):
+    src=_local(world,agents,'methane')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.competition_score=_delta(agents.competition_score,delta)
