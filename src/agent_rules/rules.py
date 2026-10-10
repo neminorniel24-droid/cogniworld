@@ -296261,3 +296261,9 @@ def logic_106151(agents,world):
     src=_local(world,agents,'humidity')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.cooperation=_delta(agents.cooperation,delta)
+
+
+def logic_106152(agents,world):
+    src=_local(world,agents,'wind_x')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.attack_threshold=_delta(agents.attack_threshold,delta)
