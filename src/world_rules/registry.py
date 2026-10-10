@@ -115563,3 +115563,6 @@ RULES.append(logic_101694)
 
 from .logic_101695_predator_influences_runoff import apply as logic_101695
 RULES.append(logic_101695)
+
+from .logic_101696_pathogen_load_influences_biodiversity import apply as logic_101696
+RULES.append(logic_101696)
