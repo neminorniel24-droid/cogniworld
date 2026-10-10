@@ -287165,3 +287165,9 @@ def logic_104635(agents,world):
     src=_local(world,agents,'predator')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.cooperation_history=_delta(agents.cooperation_history,delta)
+
+
+def logic_104636(agents,world):
+    src=_local(world,agents,'co2')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.survival_score=_delta(agents.survival_score,delta)
