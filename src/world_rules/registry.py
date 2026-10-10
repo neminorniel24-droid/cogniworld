@@ -112773,3 +112773,6 @@ RULES.append(logic_100764)
 
 from .logic_100765_pollinators_influences_evaporation import apply as logic_100765
 RULES.append(logic_100765)
+
+from .logic_100766_soil_moisture_influences_algae import apply as logic_100766
+RULES.append(logic_100766)
