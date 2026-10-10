@@ -286091,3 +286091,9 @@ def logic_104456(agents,world):
     src=_local(world,agents,'algae')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.caution=_delta(agents.caution,delta)
+
+
+def logic_104457(agents,world):
+    src=_local(world,agents,'seed_bank')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.cooperation_history=_delta(agents.cooperation_history,delta)
