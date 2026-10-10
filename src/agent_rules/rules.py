@@ -283355,3 +283355,9 @@ def logic_100000(agents,world):
     src=_local(world,agents,'flowers')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.future_help=_delta(agents.future_help,delta)
+
+
+def logic_104001(agents,world):
+    src=_local(world,agents,'oxygen')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.defection=_delta(agents.defection,delta)
