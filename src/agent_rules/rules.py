@@ -307271,3 +307271,9 @@ def logic_107986(agents,world):
     src=_local(world,agents,'pathogen_load')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.payoff=_delta(agents.payoff,delta)
+
+
+def logic_107987(agents,world):
+    src=_local(world,agents,'root_density')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.habitat_stress=_delta(agents.habitat_stress,delta)
