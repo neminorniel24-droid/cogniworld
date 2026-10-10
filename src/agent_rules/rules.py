@@ -294875,3 +294875,9 @@ def logic_105920(agents,world):
     src=_local(world,agents,'soil_carbon')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.strategy_mixing=_delta(agents.strategy_mixing,delta)
+
+
+def logic_105921(agents,world):
+    src=_local(world,agents,'humidity')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.migration_drive=_delta(agents.migration_drive,delta)
