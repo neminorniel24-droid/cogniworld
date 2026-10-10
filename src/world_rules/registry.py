@@ -121524,3 +121524,6 @@ RULES.append(logic_103681)
 
 from .logic_103682_ice_influences_detritus import apply as logic_103682
 RULES.append(logic_103682)
+
+from .logic_103683_carbon_storage_influences_organic_matter import apply as logic_103683
+RULES.append(logic_103683)
