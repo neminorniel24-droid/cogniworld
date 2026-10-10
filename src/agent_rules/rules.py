@@ -316385,3 +316385,9 @@ def logic_109505(agents,world):
     src=_local(world,agents,'root_density')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.aggression=_delta(agents.aggression,delta)
+
+
+def logic_109506(agents,world):
+    src=_local(world,agents,'snowpack')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.oxygen_need=_delta(agents.oxygen_need,delta)
