@@ -294977,3 +294977,9 @@ def logic_105937(agents,world):
     src=_local(world,agents,'salinity')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.neighbor_energy_gap=_delta(agents.neighbor_energy_gap,delta)
+
+
+def logic_105938(agents,world):
+    src=_local(world,agents,'flowers')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.risk_score=_delta(agents.risk_score,delta)
