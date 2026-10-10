@@ -287633,3 +287633,9 @@ def logic_104713(agents,world):
     src=_local(world,agents,'groundwater')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.defection=_delta(agents.defection,delta)
+
+
+def logic_104714(agents,world):
+    src=_local(world,agents,'deadwood')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.defection_threshold=_delta(agents.defection_threshold,delta)
