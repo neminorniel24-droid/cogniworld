@@ -317609,3 +317609,9 @@ def logic_109709(agents,world):
     src=_local(world,agents,'salinity')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.survival_score=_delta(agents.survival_score,delta)
+
+
+def logic_109710(agents,world):
+    src=_local(world,agents,'flowers')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.health=_delta(agents.health,delta)
