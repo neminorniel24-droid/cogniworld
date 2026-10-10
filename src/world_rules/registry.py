@@ -120300,3 +120300,6 @@ RULES.append(logic_103273)
 
 from .logic_103274_deadwood_influences_fire_risk import apply as logic_103274
 RULES.append(logic_103274)
+
+from .logic_103275_rain_influences_humidity import apply as logic_103275
+RULES.append(logic_103275)
