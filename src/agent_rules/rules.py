@@ -283481,3 +283481,9 @@ def logic_104021(agents,world):
     src=_local(world,agents,'biodiversity')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.vegetation_expectation=_delta(agents.vegetation_expectation,delta)
+
+
+def logic_104022(agents,world):
+    src=_local(world,agents,'wetland')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.competition_score=_delta(agents.competition_score,delta)
