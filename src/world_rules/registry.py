@@ -120321,3 +120321,6 @@ RULES.append(logic_103280)
 
 from .logic_103281_biodiversity_influences_predator import apply as logic_103281
 RULES.append(logic_103281)
+
+from .logic_103282_sediment_influences_wetland import apply as logic_103282
+RULES.append(logic_103282)
