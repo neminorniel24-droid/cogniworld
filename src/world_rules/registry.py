@@ -115089,3 +115089,6 @@ RULES.append(logic_101536)
 
 from .logic_101537_methane_influences_groundwater import apply as logic_101537
 RULES.append(logic_101537)
+
+from .logic_101538_snowpack_influences_soil_moisture import apply as logic_101538
+RULES.append(logic_101538)
