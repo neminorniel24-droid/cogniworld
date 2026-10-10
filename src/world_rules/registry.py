@@ -112875,3 +112875,6 @@ RULES.append(logic_100798)
 
 from .logic_100799_temperature_target_influences_surface_water import apply as logic_100799
 RULES.append(logic_100799)
+
+from .logic_100800_herbivore_influences_co2 import apply as logic_100800
+RULES.append(logic_100800)
