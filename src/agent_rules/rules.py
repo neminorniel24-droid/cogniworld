@@ -303407,3 +303407,9 @@ def logic_107342(agents,world):
     src=_local(world,agents,'pathogen_load')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.fire_fear=_delta(agents.fire_fear,delta)
+
+
+def logic_107343(agents,world):
+    src=_local(world,agents,'root_density')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.strategy_score=_delta(agents.strategy_score,delta)
