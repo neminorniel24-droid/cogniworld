@@ -116769,3 +116769,6 @@ RULES.append(logic_102096)
 
 from .logic_102097_photosynthesis_factor_influences_ash import apply as logic_102097
 RULES.append(logic_102097)
+
+from .logic_102098_wetland_influences_cloud import apply as logic_102098
+RULES.append(logic_102098)
