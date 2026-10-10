@@ -294401,3 +294401,9 @@ def logic_105841(agents,world):
     src=_local(world,agents,'oxygen')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.pathogen_risk=_delta(agents.pathogen_risk,delta)
+
+
+def logic_105842(agents,world):
+    src=_local(world,agents,'detritus')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.conflict_pressure=_delta(agents.conflict_pressure,delta)
