@@ -284093,3 +284093,9 @@ def logic_104123(agents,world):
     src=_local(world,agents,'root_density')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.territoriality=_delta(agents.territoriality,delta)
+
+
+def logic_104124(agents,world):
+    src=_local(world,agents,'snowpack')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.resource_competition=_delta(agents.resource_competition,delta)
