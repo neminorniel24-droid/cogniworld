@@ -307259,3 +307259,9 @@ def logic_107984(agents,world):
     src=_local(world,agents,'carrion')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.neighbor_energy_gap=_delta(agents.neighbor_energy_gap,delta)
+
+
+def logic_107985(agents,world):
+    src=_local(world,agents,'photosynthesis_factor')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.risk_score=_delta(agents.risk_score,delta)
