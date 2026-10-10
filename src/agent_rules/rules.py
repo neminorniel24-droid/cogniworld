@@ -289733,3 +289733,9 @@ def logic_105063(agents,world):
     src=_local(world,agents,'salinity')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.self_preservation=_delta(agents.self_preservation,delta)
+
+
+def logic_105064(agents,world):
+    src=_local(world,agents,'flowers')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.stability=_delta(agents.stability,delta)
