@@ -318629,3 +318629,9 @@ def logic_109879(agents,world):
     src=_local(world,agents,'predator')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.recovery=_delta(agents.recovery,delta)
+
+
+def logic_109880(agents,world):
+    src=_local(world,agents,'co2')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.sharing_capacity=_delta(agents.sharing_capacity,delta)
