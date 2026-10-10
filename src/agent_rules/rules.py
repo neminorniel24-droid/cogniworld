@@ -315257,3 +315257,9 @@ def logic_109317(agents,world):
     src=_local(world,agents,'wind_y')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.reproduction_drive=_delta(agents.reproduction_drive,delta)
+
+
+def logic_109318(agents,world):
+    src=_local(world,agents,'carrion')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.social_avoidance=_delta(agents.social_avoidance,delta)
