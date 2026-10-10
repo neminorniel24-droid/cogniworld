@@ -285671,3 +285671,9 @@ def logic_104386(agents,world):
     src=_local(world,agents,'vegetation')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.empathy=_delta(agents.empathy,delta)
+
+
+def logic_104387(agents,world):
+    src=_local(world,agents,'nutrients')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.last_energy_delta=_delta(agents.last_energy_delta,delta)
