@@ -110997,3 +110997,6 @@ RULES.append(logic_100172)
 
 from .logic_100173_nutrients_influences_carbon_storage import apply as logic_100173
 RULES.append(logic_100173)
+
+from .logic_100174_habitat_stress_influences_surface_water import apply as logic_100174
+RULES.append(logic_100174)
