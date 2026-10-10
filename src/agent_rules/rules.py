@@ -302003,3 +302003,9 @@ def logic_107108(agents,world):
     src=_local(world,agents,'cloud')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.social_need=_delta(agents.social_need,delta)
+
+
+def logic_107109(agents,world):
+    src=_local(world,agents,'wind_y')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.reciprocity_score=_delta(agents.reciprocity_score,delta)
