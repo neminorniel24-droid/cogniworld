@@ -285683,3 +285683,9 @@ def logic_104388(agents,world):
     src=_local(world,agents,'ice')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.defense_score=_delta(agents.defense_score,delta)
+
+
+def logic_104389(agents,world):
+    src=_local(world,agents,'biodiversity')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.alertness=_delta(agents.alertness,delta)
