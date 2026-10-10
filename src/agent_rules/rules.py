@@ -287987,3 +287987,9 @@ def logic_104772(agents,world):
     src=_local(world,agents,'wind_x')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.attack_success=_delta(agents.attack_success,delta)
+
+
+def logic_104773(agents,world):
+    src=_local(world,agents,'predator')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.pathogen_risk=_delta(agents.pathogen_risk,delta)
