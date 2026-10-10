@@ -118413,3 +118413,6 @@ RULES.append(logic_102644)
 
 from .logic_102645_evaporation_influences_biomass import apply as logic_102645
 RULES.append(logic_102645)
+
+from .logic_102646_fire_risk_influences_soil_depth import apply as logic_102646
+RULES.append(logic_102646)
