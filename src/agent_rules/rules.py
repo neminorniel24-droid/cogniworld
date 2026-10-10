@@ -299003,3 +299003,9 @@ def logic_106608(agents,world):
     src=_local(world,agents,'snowpack')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.foraging_score=_delta(agents.foraging_score,delta)
+
+
+def logic_106609(agents,world):
+    src=_local(world,agents,'organic_matter')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.hunger=_delta(agents.hunger,delta)
