@@ -301853,3 +301853,9 @@ def logic_107083(agents,world):
     src=_local(world,agents,'oxygen')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.social_tolerance=_delta(agents.social_tolerance,delta)
+
+
+def logic_107084(agents,world):
+    src=_local(world,agents,'detritus')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.future_help=_delta(agents.future_help,delta)
