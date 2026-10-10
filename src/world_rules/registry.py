@@ -113862,3 +113862,6 @@ RULES.append(logic_101127)
 
 from .logic_101128_fire_risk_influences_soil_depth import apply as logic_101128
 RULES.append(logic_101128)
+
+from .logic_101129_seed_bank_influences_surface_ice import apply as logic_101129
+RULES.append(logic_101129)
