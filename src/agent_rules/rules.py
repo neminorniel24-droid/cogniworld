@@ -303773,3 +303773,9 @@ def logic_107403(agents,world):
     src=_local(world,agents,'runoff')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.vegetation_expectation=_delta(agents.vegetation_expectation,delta)
+
+
+def logic_107404(agents,world):
+    src=_local(world,agents,'herbivore')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.competition_score=_delta(agents.competition_score,delta)
