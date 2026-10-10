@@ -120690,3 +120690,6 @@ RULES.append(logic_103403)
 
 from .logic_103404_soil_carbon_influences_snowpack import apply as logic_103404
 RULES.append(logic_103404)
+
+from .logic_103405_wind_y_influences_rain import apply as logic_103405
+RULES.append(logic_103405)
