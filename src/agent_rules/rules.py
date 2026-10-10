@@ -301211,3 +301211,9 @@ def logic_106976(agents,world):
     src=_local(world,agents,'snowpack')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.generosity=_delta(agents.generosity,delta)
+
+
+def logic_106977(agents,world):
+    src=_local(world,agents,'organic_matter')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.betrayal_memory=_delta(agents.betrayal_memory,delta)
