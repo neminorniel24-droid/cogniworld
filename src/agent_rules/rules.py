@@ -290279,3 +290279,9 @@ def logic_105154(agents,world):
     src=_local(world,agents,'fire_risk')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.confidence=_delta(agents.confidence,delta)
+
+
+def logic_105155(agents,world):
+    src=_local(world,agents,'salinity')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.help_received=_delta(agents.help_received,delta)
