@@ -114543,3 +114543,6 @@ RULES.append(logic_101354)
 
 from .logic_101355_surface_ice_influences_methane import apply as logic_101355
 RULES.append(logic_101355)
+
+from .logic_101356_vegetation_influences_deadwood import apply as logic_101356
+RULES.append(logic_101356)
