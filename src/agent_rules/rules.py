@@ -309335,3 +309335,9 @@ def logic_108330(agents,world):
     src=_local(world,agents,'flowers')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.future_help=_delta(agents.future_help,delta)
+
+
+def logic_108331(agents,world):
+    src=_local(world,agents,'temperature_target')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.local_density=_delta(agents.local_density,delta)
