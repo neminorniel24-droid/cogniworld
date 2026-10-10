@@ -290213,3 +290213,9 @@ def logic_105143(agents,world):
     src=_local(world,agents,'methane')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.dehydration=_delta(agents.dehydration,delta)
+
+
+def logic_105144(agents,world):
+    src=_local(world,agents,'soil_depth')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.aggression=_delta(agents.aggression,delta)
