@@ -298199,3 +298199,9 @@ def logic_106474(agents,world):
     src=_local(world,agents,'wind_x')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.habitat_stress=_delta(agents.habitat_stress,delta)
+
+
+def logic_106475(agents,world):
+    src=_local(world,agents,'predator')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.strategy_confidence=_delta(agents.strategy_confidence,delta)
