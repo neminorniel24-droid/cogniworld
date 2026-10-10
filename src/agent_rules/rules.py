@@ -309587,3 +309587,9 @@ def logic_108372(agents,world):
     src=_local(world,agents,'detritus')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.caution=_delta(agents.caution,delta)
+
+
+def logic_108373(agents,world):
+    src=_local(world,agents,'erosion')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.cooperation_history=_delta(agents.cooperation_history,delta)
