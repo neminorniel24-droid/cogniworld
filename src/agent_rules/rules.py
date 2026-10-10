@@ -288443,3 +288443,9 @@ def logic_104848(agents,world):
     src=_local(world,agents,'ice')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.infection_risk=_delta(agents.infection_risk,delta)
+
+
+def logic_104849(agents,world):
+    src=_local(world,agents,'biodiversity')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.competition_pressure=_delta(agents.competition_pressure,delta)
