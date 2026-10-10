@@ -291719,3 +291719,9 @@ def logic_105394(agents,world):
     src=_local(world,agents,'sediment')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.local_density=_delta(agents.local_density,delta)
+
+
+def logic_105395(agents,world):
+    src=_local(world,agents,'pollinators')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.attack_success=_delta(agents.attack_success,delta)
