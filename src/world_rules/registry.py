@@ -110478,3 +110478,6 @@ RULES.append(logic_69999)
 
 from .logic_70000_soil_carbon_influences_decomposition_rate import apply as logic_70000
 RULES.append(logic_70000)
+
+from .logic_100001_wind_y_influences_rain import apply as logic_100001
+RULES.append(logic_100001)
