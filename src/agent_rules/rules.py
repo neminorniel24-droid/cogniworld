@@ -296603,3 +296603,9 @@ def logic_106208(agents,world):
     src=_local(world,agents,'herbivore')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.strategy_confidence=_delta(agents.strategy_confidence,delta)
+
+
+def logic_106209(agents,world):
+    src=_local(world,agents,'oxygen')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.help_given=_delta(agents.help_given,delta)
