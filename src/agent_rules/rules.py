@@ -293981,3 +293981,9 @@ def logic_105771(agents,world):
     src=_local(world,agents,'groundwater')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.metabolic_cost=_delta(agents.metabolic_cost,delta)
+
+
+def logic_105772(agents,world):
+    src=_local(world,agents,'deadwood')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.help_drive=_delta(agents.help_drive,delta)
