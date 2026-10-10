@@ -309299,3 +309299,9 @@ def logic_108324(agents,world):
     src=_local(world,agents,'herbivore')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.migration_drive=_delta(agents.migration_drive,delta)
+
+
+def logic_108325(agents,world):
+    src=_local(world,agents,'oxygen')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.selfishness=_delta(agents.selfishness,delta)
