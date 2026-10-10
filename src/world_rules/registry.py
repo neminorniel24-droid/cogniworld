@@ -120561,3 +120561,6 @@ RULES.append(logic_103360)
 
 from .logic_103361_carbon_storage_influences_organic_matter import apply as logic_103361
 RULES.append(logic_103361)
+
+from .logic_103362_flowers_influences_vegetation import apply as logic_103362
+RULES.append(logic_103362)
