@@ -294227,3 +294227,9 @@ def logic_105812(agents,world):
     src=_local(world,agents,'vegetation')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.defense_score=_delta(agents.defense_score,delta)
+
+
+def logic_105813(agents,world):
+    src=_local(world,agents,'nutrients')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.alertness=_delta(agents.alertness,delta)
