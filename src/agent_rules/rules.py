@@ -312347,3 +312347,9 @@ def logic_108832(agents,world):
     src=_local(world,agents,'detritus')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.conflict_history=_delta(agents.conflict_history,delta)
+
+
+def logic_108833(agents,world):
+    src=_local(world,agents,'erosion')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.foraging_score=_delta(agents.foraging_score,delta)
