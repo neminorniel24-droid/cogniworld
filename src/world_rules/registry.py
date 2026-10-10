@@ -120606,3 +120606,6 @@ RULES.append(logic_103375)
 
 from .logic_103376_herbivore_influences_co2 import apply as logic_103376
 RULES.append(logic_103376)
+
+from .logic_103377_methane_influences_groundwater import apply as logic_103377
+RULES.append(logic_103377)
