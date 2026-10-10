@@ -318539,3 +318539,9 @@ def logic_109864(agents,world):
     src=_local(world,agents,'wetland')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.sharing_score=_delta(agents.sharing_score,delta)
+
+
+def logic_109865(agents,world):
+    src=_local(world,agents,'groundwater')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.metabolic_cost=_delta(agents.metabolic_cost,delta)
