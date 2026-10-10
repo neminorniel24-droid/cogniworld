@@ -119874,3 +119874,6 @@ RULES.append(logic_103131)
 
 from .logic_103132_flowers_influences_vegetation import apply as logic_103132
 RULES.append(logic_103132)
+
+from .logic_103133_runoff_influences_erosion import apply as logic_103133
+RULES.append(logic_103133)
