@@ -119061,3 +119061,6 @@ RULES.append(logic_102860)
 
 from .logic_102861_rain_influences_humidity import apply as logic_102861
 RULES.append(logic_102861)
+
+from .logic_102862_decomposition_rate_influences_ice import apply as logic_102862
+RULES.append(logic_102862)
