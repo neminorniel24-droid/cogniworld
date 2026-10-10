@@ -297113,3 +297113,9 @@ def logic_106293(agents,world):
     src=_local(world,agents,'methane')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.neighbor_energy_gap=_delta(agents.neighbor_energy_gap,delta)
+
+
+def logic_106294(agents,world):
+    src=_local(world,agents,'soil_depth')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.risk_score=_delta(agents.risk_score,delta)
