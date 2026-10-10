@@ -119133,3 +119133,6 @@ RULES.append(logic_102884)
 
 from .logic_102885_organic_matter_influences_seed_bank import apply as logic_102885
 RULES.append(logic_102885)
+
+from .logic_102886_cloud_influences_carrion import apply as logic_102886
+RULES.append(logic_102886)
