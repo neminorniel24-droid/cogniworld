@@ -299735,3 +299735,9 @@ def logic_106730(agents,world):
     src=_local(world,agents,'temperature')
     delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
     agents.attack_success=_delta(agents.attack_success,delta)
+
+
+def logic_106731(agents,world):
+    src=_local(world,agents,'rain')
+    delta=torch.clamp(src * 0.0005, -0.01, 0.01)
+    agents.pathogen_risk=_delta(agents.pathogen_risk,delta)
