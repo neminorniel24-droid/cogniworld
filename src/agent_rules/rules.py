@@ -311015,3 +311015,9 @@ def logic_108610(agents,world):
     src=_local(world,agents,'decomposition_rate')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.habitat_stress=_delta(agents.habitat_stress,delta)
+
+
+def logic_108611(agents,world):
+    src=_local(world,agents,'evaporation')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.strategy_confidence=_delta(agents.strategy_confidence,delta)
