@@ -121233,3 +121233,6 @@ RULES.append(logic_103584)
 
 from .logic_103585_biomass_influences_root_density import apply as logic_103585
 RULES.append(logic_103585)
+
+from .logic_103586_detritus_influences_temperature import apply as logic_103586
+RULES.append(logic_103586)
