@@ -118005,3 +118005,6 @@ RULES.append(logic_102508)
 
 from .logic_102509_seed_bank_influences_surface_ice import apply as logic_102509
 RULES.append(logic_102509)
+
+from .logic_102510_wind_x_influences_decomposition_rate import apply as logic_102510
+RULES.append(logic_102510)
