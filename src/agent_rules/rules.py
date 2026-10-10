@@ -308189,3 +308189,9 @@ def logic_108139(agents,world):
     src=_local(world,agents,'runoff')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.last_reward=_delta(agents.last_reward,delta)
+
+
+def logic_108140(agents,world):
+    src=_local(world,agents,'herbivore')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.retaliation_risk=_delta(agents.retaliation_risk,delta)
