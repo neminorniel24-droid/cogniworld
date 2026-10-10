@@ -117210,3 +117210,6 @@ RULES.append(logic_102243)
 
 from .logic_102244_habitat_stress_influences_surface_water import apply as logic_102244
 RULES.append(logic_102244)
+
+from .logic_102245_salinity_influences_photosynthesis_factor import apply as logic_102245
+RULES.append(logic_102245)
