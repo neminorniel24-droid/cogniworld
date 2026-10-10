@@ -283367,3 +283367,9 @@ def logic_104002(agents,world):
     src=_local(world,agents,'detritus')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.defection_threshold=_delta(agents.defection_threshold,delta)
+
+
+def logic_104003(agents,world):
+    src=_local(world,agents,'erosion')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.last_interaction=_delta(agents.last_interaction,delta)
