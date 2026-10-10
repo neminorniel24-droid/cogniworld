@@ -299723,3 +299723,9 @@ def logic_106728(agents,world):
     src=_local(world,agents,'sediment')
     delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
     agents.future_help=_delta(agents.future_help,delta)
+
+
+def logic_106729(agents,world):
+    src=_local(world,agents,'pollinators')
+    delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
+    agents.local_density=_delta(agents.local_density,delta)
