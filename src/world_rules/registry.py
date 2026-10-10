@@ -118209,3 +118209,6 @@ RULES.append(logic_102576)
 
 from .logic_102577_wind_y_influences_rain import apply as logic_102577
 RULES.append(logic_102577)
+
+from .logic_102578_ice_influences_detritus import apply as logic_102578
+RULES.append(logic_102578)
