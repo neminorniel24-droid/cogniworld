@@ -315569,3 +315569,9 @@ def logic_109369(agents,world):
     src=_local(world,agents,'organic_matter')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.trust=_delta(agents.trust,delta)
+
+
+def logic_109370(agents,world):
+    src=_local(world,agents,'soil_carbon')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.empathy=_delta(agents.empathy,delta)
