@@ -283661,3 +283661,9 @@ def logic_104051(agents,world):
     src=_local(world,agents,'salinity')
     delta=torch.clamp(src.square() * 0.00025, -0.01, 0.01)
     agents.strategy_mixing=_delta(agents.strategy_mixing,delta)
+
+
+def logic_104052(agents,world):
+    src=_local(world,agents,'flowers')
+    delta=torch.clamp(torch.sqrt(torch.clamp(src, min=0.0)) * 0.00035, -0.01, 0.01)
+    agents.migration_drive=_delta(agents.migration_drive,delta)
