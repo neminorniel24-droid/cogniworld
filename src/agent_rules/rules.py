@@ -318941,3 +318941,9 @@ def logic_109931(agents,world):
     src=_local(world,agents,'seed_bank')
     delta=torch.clamp(src * 0.0005, -0.01, 0.01)
     agents.social_tolerance=_delta(agents.social_tolerance,delta)
+
+
+def logic_109932(agents,world):
+    src=_local(world,agents,'surface_water')
+    delta=torch.clamp((1.0 - src) * 0.0004, -0.01, 0.01)
+    agents.future_help=_delta(agents.future_help,delta)
