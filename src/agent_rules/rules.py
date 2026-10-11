@@ -332731,3 +332731,11 @@ def logic_111672(agents, world):
     delta = torch.clamp(signal - torch.tanh(agents.strategy_mixing), -1.0, 1.0) * 0.00004000
     delta = torch.nan_to_num(delta, nan=0.0, posinf=0.0, neginf=0.0)
     agents.strategy_mixing = torch.clamp(agents.strategy_mixing + delta, 0.0, 2.0)
+
+
+def logic_111673(agents, world):
+    # AI risk-calibration: bounded feedback-driven adaptation
+    signal = torch.tanh(agents.trust) - torch.tanh(agents.safety_score)
+    delta = torch.clamp(signal - torch.tanh(agents.migration_drive), -1.0, 1.0) * 0.00006000
+    delta = torch.nan_to_num(delta, nan=0.0, posinf=0.0, neginf=0.0)
+    agents.migration_drive = torch.clamp(agents.migration_drive + delta, 0.0, 2.0)
