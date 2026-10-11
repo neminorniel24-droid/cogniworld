@@ -330475,3 +330475,11 @@ def logic_111390(agents, world):
     delta = torch.clamp(signal - torch.tanh(agents.help_drive), -1.0, 1.0) * 0.00010000
     delta = torch.nan_to_num(delta, nan=0.0, posinf=0.0, neginf=0.0)
     agents.help_drive = torch.clamp(agents.help_drive + delta, 0.0, 2.0)
+
+
+def logic_111391(agents, world):
+    # AI reward-learning: bounded feedback-driven adaptation
+    signal = torch.tanh(agents.trust) * torch.tanh(agents.last_reward + agents.last_energy_delta)
+    delta = torch.clamp(signal - torch.tanh(agents.reciprocity_score), -1.0, 1.0) * 0.00002000
+    delta = torch.nan_to_num(delta, nan=0.0, posinf=0.0, neginf=0.0)
+    agents.reciprocity_score = torch.clamp(agents.reciprocity_score + delta, -2.0, 2.0)
