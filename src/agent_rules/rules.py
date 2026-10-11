@@ -334283,3 +334283,11 @@ def logic_111866(agents, world):
     delta = torch.clamp(signal - torch.tanh(agents.risk_tolerance), -1.0, 1.0) * 0.00002000
     delta = torch.nan_to_num(delta, nan=0.0, posinf=0.0, neginf=0.0)
     agents.risk_tolerance = torch.clamp(agents.risk_tolerance + delta, 0.0, 2.0)
+
+
+def logic_111867(agents, world):
+    # AI episodic-memory: bounded feedback-driven adaptation
+    signal = torch.tanh(agents.help_given) * torch.tanh(agents.safety_score)
+    delta = torch.clamp(signal - torch.tanh(agents.self_preservation), -1.0, 1.0) * 0.00004000
+    delta = torch.nan_to_num(delta, nan=0.0, posinf=0.0, neginf=0.0)
+    agents.self_preservation = torch.clamp(agents.self_preservation + delta, 0.0, 2.0)
