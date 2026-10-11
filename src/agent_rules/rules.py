@@ -331067,3 +331067,11 @@ def logic_111464(agents, world):
     delta = torch.clamp(signal - torch.tanh(agents.defection_score), -1.0, 1.0) * 0.00008000
     delta = torch.nan_to_num(delta, nan=0.0, posinf=0.0, neginf=0.0)
     agents.defection_score = torch.clamp(agents.defection_score + delta, -2.0, 2.0)
+
+
+def logic_111465(agents, world):
+    # AI exploration: bounded feedback-driven adaptation
+    signal = torch.tanh(agents.help_given) * (0.5 + 0.5 * torch.tanh(agents.resource_discovery).abs())
+    delta = torch.clamp(signal - torch.tanh(agents.sharing_score), -1.0, 1.0) * 0.00010000
+    delta = torch.nan_to_num(delta, nan=0.0, posinf=0.0, neginf=0.0)
+    agents.sharing_score = torch.clamp(agents.sharing_score + delta, -2.0, 2.0)
