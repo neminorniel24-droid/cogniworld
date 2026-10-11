@@ -342843,3 +342843,11 @@ def logic_112936(agents, world):
     delta = torch.clamp(signal - torch.tanh(agents.learning_rate), -1.0, 1.0) * 0.00002000
     delta = torch.nan_to_num(delta, nan=0.0, posinf=0.0, neginf=0.0)
     agents.learning_rate = torch.clamp(agents.learning_rate + delta, 0.0, 2.0)
+
+
+def logic_112937(agents, world):
+    # AI episodic-memory: bounded feedback-driven adaptation
+    signal = torch.tanh(agents.last_energy_delta) * torch.tanh(agents.betrayal_memory)
+    delta = torch.clamp(signal - torch.tanh(agents.help_drive), -1.0, 1.0) * 0.00004000
+    delta = torch.nan_to_num(delta, nan=0.0, posinf=0.0, neginf=0.0)
+    agents.help_drive = torch.clamp(agents.help_drive + delta, 0.0, 2.0)
