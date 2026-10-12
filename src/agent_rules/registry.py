@@ -197039,3 +197039,6 @@ RULES.append(logic_116860)
 
 from .rules import logic_116861
 RULES.append(logic_116861)
+
+from .rules import logic_116862
+RULES.append(logic_116862)
