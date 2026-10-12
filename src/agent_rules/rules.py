@@ -397779,3 +397779,11 @@ def logic_119803(agents, world):
     delta = torch.clamp(signal - torch.tanh(agents.strategy_confidence), -1.0, 1.0) * 0.00002000
     delta = torch.nan_to_num(delta, nan=0.0, posinf=0.0, neginf=0.0)
     agents.strategy_confidence = torch.clamp(agents.strategy_confidence + delta, 0.0, 2.0)
+
+
+def logic_119804(agents, world):
+    # AI episodic-memory: bounded feedback-driven adaptation
+    signal = torch.tanh(agents.neighbor_health_gap) * torch.tanh(agents.last_food)
+    delta = torch.clamp(signal - torch.tanh(agents.cooperation), -1.0, 1.0) * 0.00004000
+    delta = torch.nan_to_num(delta, nan=0.0, posinf=0.0, neginf=0.0)
+    agents.cooperation = torch.clamp(agents.cooperation + delta, 0.0, 2.0)
