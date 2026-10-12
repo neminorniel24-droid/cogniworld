@@ -390915,3 +390915,11 @@ def logic_118945(agents, world):
     delta = torch.clamp(signal - torch.tanh(agents.defense_score), -1.0, 1.0) * 0.00006000
     delta = torch.nan_to_num(delta, nan=0.0, posinf=0.0, neginf=0.0)
     agents.defense_score = torch.clamp(agents.defense_score + delta, -2.0, 2.0)
+
+
+def logic_118946(agents, world):
+    # AI social-learning: bounded feedback-driven adaptation
+    signal = torch.tanh(agents.neighbor_health_gap) * (1.0 - torch.tanh(agents.betrayal_memory).abs())
+    delta = torch.clamp(signal - torch.tanh(agents.risk_tolerance), -1.0, 1.0) * 0.00008000
+    delta = torch.nan_to_num(delta, nan=0.0, posinf=0.0, neginf=0.0)
+    agents.risk_tolerance = torch.clamp(agents.risk_tolerance + delta, 0.0, 2.0)
