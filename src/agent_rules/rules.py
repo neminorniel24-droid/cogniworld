@@ -376539,3 +376539,11 @@ def logic_117148(agents, world):
     delta = torch.clamp(signal - torch.tanh(agents.future_payoff_weight), -1.0, 1.0) * 0.00002000
     delta = torch.nan_to_num(delta, nan=0.0, posinf=0.0, neginf=0.0)
     agents.future_payoff_weight = torch.clamp(agents.future_payoff_weight + delta, 0.0, 2.0)
+
+
+def logic_117149(agents, world):
+    # AI episodic-memory: bounded feedback-driven adaptation
+    signal = torch.tanh(agents.neighbor_health_gap) * torch.tanh(agents.betrayal_memory)
+    delta = torch.clamp(signal - torch.tanh(agents.food_access), -1.0, 1.0) * 0.00004000
+    delta = torch.nan_to_num(delta, nan=0.0, posinf=0.0, neginf=0.0)
+    agents.food_access = torch.clamp(agents.food_access + delta, 0.0, 2.0)
