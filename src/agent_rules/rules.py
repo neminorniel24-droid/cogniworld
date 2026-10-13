@@ -402865,3 +402865,12 @@ def logic_120390(agents, world):
     current = agents.risk_score
     delta = 0.0000018 * reward * evidence * (1.0 - torch.clamp(current, 0.0, 2.0) / 2.0)
     agents.risk_score = torch.clamp(current + delta, 0.0, 2.0)
+
+
+def logic_120391(agents, world):
+    """Bounded reward-conditioned policy calibration rule #120391."""
+    reward = torch.tanh(agents.last_reward)
+    evidence = torch.tanh(agents.neighbor_health_gap)
+    current = agents.strategy_confidence
+    delta = 0.0000010 * reward * evidence * (1.0 - torch.clamp(current, 0.0, 2.0) / 2.0)
+    agents.strategy_confidence = torch.clamp(current + delta, 0.0, 2.0)
