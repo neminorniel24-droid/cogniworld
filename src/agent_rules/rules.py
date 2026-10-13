@@ -399355,3 +399355,12 @@ def logic_120000(agents, world):
     delta = torch.clamp(signal - torch.tanh(agents.confidence), -1.0, 1.0) * 0.00006000
     delta = torch.nan_to_num(delta, nan=0.0, posinf=0.0, neginf=0.0)
     agents.confidence = torch.clamp(agents.confidence + delta, 0.0, 2.0)
+
+
+def logic_120001(agents, world):
+    """Bounded reward-conditioned policy calibration rule #120001."""
+    reward = torch.tanh(agents.last_reward)
+    evidence = torch.tanh(agents.last_energy_delta)
+    current = agents.strategy_confidence
+    delta = 0.0000010 * reward * evidence * (1.0 - torch.clamp(current, 0.0, 2.0) / 2.0)
+    agents.strategy_confidence = torch.clamp(current + delta, 0.0, 2.0)
