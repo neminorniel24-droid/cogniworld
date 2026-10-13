@@ -406393,3 +406393,12 @@ def logic_120782(agents, world):
     current = agents.survival_score
     delta = 0.0000012 * reward * evidence * (1.0 - torch.clamp(current, 0.0, 2.0) / 2.0)
     agents.survival_score = torch.clamp(current + delta, 0.0, 2.0)
+
+
+def logic_120783(agents, world):
+    """Bounded reward-conditioned policy calibration rule #120783."""
+    reward = torch.tanh(agents.last_reward)
+    evidence = torch.tanh(agents.last_energy_delta)
+    current = agents.foraging_score
+    delta = 0.0000014 * reward * evidence * (1.0 - torch.clamp(current, 0.0, 2.0) / 2.0)
+    agents.foraging_score = torch.clamp(current + delta, 0.0, 2.0)
