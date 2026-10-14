@@ -411254,3 +411254,12 @@ def logic_121302(agents, world):
     prediction_error = torch.tanh(evidence - (torch.clamp(current, 0.0, 2.0) - 1.0))
     delta = 0.0000010 * reward * prediction_error
     agents.survival_score = torch.clamp(current + delta, 0.0, 2.0)
+
+
+def logic_121303(agents, world):
+    """Bounded reinforced memory adaptation rule #121303."""
+    reward = torch.tanh(torch.nan_to_num(agents.last_reward, nan=0.0, posinf=0.0, neginf=0.0))
+    evidence = torch.tanh(torch.nan_to_num(agents.neighbor_health_gap, nan=0.0, posinf=0.0, neginf=0.0))
+    current = torch.nan_to_num(agents.foraging_score, nan=0.0, posinf=2.0, neginf=0.0)
+    delta = 0.0000012 * reward * evidence - 0.0000140 * (current - 1.0)
+    agents.foraging_score = torch.clamp(current + delta, 0.0, 2.0)
