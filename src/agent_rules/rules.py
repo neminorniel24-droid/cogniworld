@@ -414287,3 +414287,13 @@ def logic_121618(agents, world):
     current = torch.nan_to_num(agents.strategy_persistence, nan=0.0, posinf=2.0, neginf=0.0)
     delta = 0.0000012 * reward * evidence - 0.0000140 * (current - 1.0)
     agents.strategy_persistence = torch.clamp(current + delta, 0.0, 2.0)
+
+
+def logic_121619(agents, world):
+    """Bounded risk gate adaptation rule #121619."""
+    reward = torch.tanh(torch.nan_to_num(agents.last_reward, nan=0.0, posinf=0.0, neginf=0.0))
+    evidence = torch.tanh(torch.nan_to_num(agents.health, nan=0.0, posinf=0.0, neginf=0.0))
+    current = torch.nan_to_num(agents.strategy_mixing, nan=0.0, posinf=2.0, neginf=0.0)
+    gate = torch.sigmoid(2.0 * evidence)
+    delta = 0.0000014 * reward * (gate - torch.clamp(current, 0.0, 2.0) / 2.0)
+    agents.strategy_mixing = torch.clamp(current + delta, 0.0, 2.0)
