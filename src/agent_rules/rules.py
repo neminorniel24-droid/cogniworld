@@ -417081,3 +417081,13 @@ def logic_121909(agents, world):
     gate = torch.sigmoid(2.0 * evidence)
     delta = 0.0000020 * reward * (gate - torch.clamp(current, 0.0, 2.0) / 2.0)
     agents.sharing_score = torch.clamp(current + delta, 0.0, 2.0)
+
+
+def logic_121910(agents, world):
+    """Bounded social feedback adaptation rule #121910."""
+    reward = torch.tanh(torch.nan_to_num(agents.last_reward, nan=0.0, posinf=0.0, neginf=0.0))
+    evidence = torch.tanh(torch.nan_to_num(agents.neighbor_energy_gap, nan=0.0, posinf=0.0, neginf=0.0))
+    current = torch.nan_to_num(agents.risk_score, nan=0.0, posinf=2.0, neginf=0.0)
+    social_signal = torch.tanh(evidence + torch.tanh(agents.help_received) - torch.tanh(agents.conflict_history))
+    delta = 0.0000022 * torch.tanh(reward + social_signal) * (1.0 - torch.clamp(current, 0.0, 2.0) / 2.0)
+    agents.risk_score = torch.clamp(current + delta, 0.0, 2.0)
