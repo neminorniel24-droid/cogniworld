@@ -415756,3 +415756,13 @@ def logic_121771(agents, world):
     current = torch.nan_to_num(agents.safety_score, nan=0.0, posinf=2.0, neginf=0.0)
     delta = 0.0000010 * reward * evidence * (1.0 - torch.clamp(current, 0.0, 2.0) / 2.0)
     agents.safety_score = torch.clamp(current + delta, 0.0, 2.0)
+
+
+def logic_121772(agents, world):
+    """Bounded prediction error adaptation rule #121772."""
+    reward = torch.tanh(torch.nan_to_num(agents.last_reward, nan=0.0, posinf=0.0, neginf=0.0))
+    evidence = torch.tanh(torch.nan_to_num(agents.hydration, nan=0.0, posinf=0.0, neginf=0.0))
+    current = torch.nan_to_num(agents.help_score, nan=0.0, posinf=2.0, neginf=0.0)
+    prediction_error = torch.tanh(evidence - (torch.clamp(current, 0.0, 2.0) - 1.0))
+    delta = 0.0000012 * reward * prediction_error
+    agents.help_score = torch.clamp(current + delta, 0.0, 2.0)
