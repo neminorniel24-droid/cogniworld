@@ -413491,3 +413491,12 @@ def logic_121535(agents, world):
     social_signal = torch.tanh(evidence + torch.tanh(agents.help_received) - torch.tanh(agents.conflict_history))
     delta = 0.0000014 * torch.tanh(reward + social_signal) * (1.0 - torch.clamp(current, 0.0, 2.0) / 2.0)
     agents.reproduction_score = torch.clamp(current + delta, 0.0, 2.0)
+
+
+def logic_121536(agents, world):
+    """Bounded reward evidence adaptation rule #121536."""
+    reward = torch.tanh(torch.nan_to_num(agents.last_reward, nan=0.0, posinf=0.0, neginf=0.0))
+    evidence = torch.tanh(torch.nan_to_num(agents.conflict_history, nan=0.0, posinf=0.0, neginf=0.0))
+    current = torch.nan_to_num(agents.sharing_score, nan=0.0, posinf=2.0, neginf=0.0)
+    delta = 0.0000016 * reward * evidence * (1.0 - torch.clamp(current, 0.0, 2.0) / 2.0)
+    agents.sharing_score = torch.clamp(current + delta, 0.0, 2.0)
