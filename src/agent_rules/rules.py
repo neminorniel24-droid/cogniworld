@@ -410975,3 +410975,13 @@ def logic_121273(agents, world):
     current = torch.nan_to_num(agents.fitness_score, nan=0.0, posinf=2.0, neginf=0.0)
     delta = 0.0000022 * reward * evidence - 0.0000140 * (current - 1.0)
     agents.fitness_score = torch.clamp(current + delta, 0.0, 2.0)
+
+
+def logic_121274(agents, world):
+    """Bounded risk gate adaptation rule #121274."""
+    reward = torch.tanh(torch.nan_to_num(agents.last_reward, nan=0.0, posinf=0.0, neginf=0.0))
+    evidence = torch.tanh(torch.nan_to_num(agents.help_received, nan=0.0, posinf=0.0, neginf=0.0))
+    current = torch.nan_to_num(agents.defense_score, nan=0.0, posinf=2.0, neginf=0.0)
+    gate = torch.sigmoid(2.0 * evidence)
+    delta = 0.0000010 * reward * (gate - torch.clamp(current, 0.0, 2.0) / 2.0)
+    agents.defense_score = torch.clamp(current + delta, 0.0, 2.0)
