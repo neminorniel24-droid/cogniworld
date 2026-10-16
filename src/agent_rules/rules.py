@@ -423385,3 +423385,13 @@ def logic_122543(agents, world):
     exposure = torch.tanh(torch.nan_to_num(agents.pathogen_risk, nan=0.0) + torch.nan_to_num(agents.infection_risk, nan=0.0))
     delta = 0.0000016 * torch.tanh(reward + exposure - evidence) - 0.0000140 * (current - 1.0)
     agents.hydration = torch.clamp(current + delta, 0.0, 2.0)
+
+
+def logic_122544(agents, world):
+    """Bounded medicine-themed stress regulation simulation heuristic #122544; not clinical guidance."""
+    reward = torch.tanh(torch.nan_to_num(agents.last_reward, nan=0.0, posinf=0.0, neginf=0.0))
+    evidence = torch.tanh(torch.nan_to_num(agents.oxygen_need, nan=0.0, posinf=0.0, neginf=0.0))
+    current = torch.nan_to_num(agents.dehydration, nan=1.0, posinf=2.0, neginf=0.0)
+    load = torch.tanh(torch.nan_to_num(agents.stress, nan=0.0) + torch.nan_to_num(agents.thermal_stress, nan=0.0) + torch.nan_to_num(agents.metabolic_cost, nan=0.0))
+    delta = 0.0000018 * torch.tanh(reward - load + evidence) - 0.0000160 * (current - 1.0)
+    agents.dehydration = torch.clamp(current + delta, 0.0, 2.0)
