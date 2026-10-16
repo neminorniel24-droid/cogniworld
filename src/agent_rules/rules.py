@@ -421265,3 +421265,13 @@ def logic_122331(agents, world):
     need = torch.tanh(torch.nan_to_num(agents.stress, nan=0.0) + torch.nan_to_num(agents.infection_risk, nan=0.0) + torch.nan_to_num(agents.dehydration, nan=0.0))
     delta = 0.0000012 * torch.tanh(reward + need - evidence) - 0.0000100 * (current - 1.0)
     agents.alertness = torch.clamp(current + delta, 0.0, 2.0)
+
+
+def logic_122332(agents, world):
+    """Bounded medicine-themed hydration balance simulation heuristic #122332; not clinical guidance."""
+    reward = torch.tanh(torch.nan_to_num(agents.last_reward, nan=0.0, posinf=0.0, neginf=0.0))
+    evidence = torch.tanh(torch.nan_to_num(agents.survival_score, nan=0.0, posinf=0.0, neginf=0.0))
+    current = torch.nan_to_num(agents.caution, nan=1.0, posinf=2.0, neginf=0.0)
+    hydration_signal = torch.tanh(torch.nan_to_num(agents.hydration, nan=0.0) - torch.nan_to_num(agents.dehydration, nan=0.0))
+    delta = 0.0000014 * torch.tanh(reward + hydration_signal - evidence) - 0.0000120 * (current - 1.0)
+    agents.caution = torch.clamp(current + delta, 0.0, 2.0)
