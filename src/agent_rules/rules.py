@@ -425445,3 +425445,13 @@ def logic_122749(agents, world):
     load = torch.tanh(torch.nan_to_num(agents.stress, nan=0.0) + torch.nan_to_num(agents.thermal_stress, nan=0.0) + torch.nan_to_num(agents.metabolic_cost, nan=0.0))
     delta = 0.0000022 * torch.tanh(reward - load + evidence) - 0.0000160 * (current - 1.0)
     agents.oxygen_need = torch.clamp(current + delta, 0.0, 2.0)
+
+
+def logic_122750(agents, world):
+    """Bounded medicine-themed preventive caution simulation heuristic #122750; not clinical guidance."""
+    reward = torch.tanh(torch.nan_to_num(agents.last_reward, nan=0.0, posinf=0.0, neginf=0.0))
+    evidence = torch.tanh(torch.nan_to_num(agents.health, nan=0.0, posinf=0.0, neginf=0.0))
+    current = torch.nan_to_num(agents.shelter_need, nan=1.0, posinf=2.0, neginf=0.0)
+    threat = torch.tanh(torch.nan_to_num(agents.pathogen_risk, nan=0.0) + torch.nan_to_num(agents.infection_risk, nan=0.0) + torch.nan_to_num(agents.habitat_stress, nan=0.0))
+    delta = 0.0000010 * torch.tanh(reward + threat + evidence) - 0.0000180 * (current - 1.0)
+    agents.shelter_need = torch.clamp(current + delta, 0.0, 2.0)
