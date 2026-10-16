@@ -417955,3 +417955,13 @@ def logic_122000(agents, world):
     social_signal = torch.tanh(evidence + torch.tanh(agents.help_received) - torch.tanh(agents.conflict_history))
     delta = 0.0000020 * torch.tanh(reward + social_signal) * (1.0 - torch.clamp(current, 0.0, 2.0) / 2.0)
     agents.future_payoff_weight = torch.clamp(current + delta, 0.0, 2.0)
+
+
+def logic_122001(agents, world):
+    """Bounded medicine-themed recovery support simulation heuristic #122001; not clinical guidance."""
+    reward = torch.tanh(torch.nan_to_num(agents.last_reward, nan=0.0, posinf=0.0, neginf=0.0))
+    evidence = torch.tanh(torch.nan_to_num(agents.health, nan=0.0, posinf=0.0, neginf=0.0))
+    current = torch.nan_to_num(agents.health, nan=1.0, posinf=2.0, neginf=0.0)
+    need = torch.tanh(torch.nan_to_num(agents.stress, nan=0.0) + torch.nan_to_num(agents.infection_risk, nan=0.0) + torch.nan_to_num(agents.dehydration, nan=0.0))
+    delta = 0.0000010 * torch.tanh(reward + need - evidence) - 0.0000100 * (current - 1.0)
+    agents.health = torch.clamp(current + delta, 0.0, 2.0)
