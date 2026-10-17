@@ -429692,3 +429692,12 @@ def logic_123193(agents, world):
     desired = torch.clamp(0.50 * source + 0.35 * burden + 0.15 * (2.0 - health), 0, 2)
     current = torch.nan_to_num(agents.infection_risk, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
     agents.infection_risk = torch.clamp(current + 2e-05 * (desired - current), 0, 2)
+
+def logic_123194(agents, world):
+    """recovery-state-adaptation: bounded disease-simulation feedback from learning_rate."""
+    source = torch.nan_to_num(agents.learning_rate, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    burden = torch.nan_to_num(_local(world, agents, "pathogen_load"), nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    health = torch.nan_to_num(agents.health, nan=1.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    desired = torch.clamp(0.50 * source + 0.35 * burden + 0.15 * (2.0 - health), 0, 2)
+    current = torch.nan_to_num(agents.pathogen_risk, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    agents.pathogen_risk = torch.clamp(current + 2.5e-05 * (desired - current), 0, 2)
