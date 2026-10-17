@@ -428990,3 +428990,12 @@ def logic_123115(agents, world):
     desired = torch.clamp(0.55 * source + 0.25 * (2.0 - burden) + 0.20 * (2.0 - infection), 0, 2)
     current = torch.nan_to_num(agents.strategy_confidence, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
     agents.strategy_confidence = torch.clamp(current + 3e-05 * (desired - current), 0, 2)
+
+def logic_123116(agents, world):
+    """host-resilience-feedback: bounded disease-resilience feedback from reproduction_drive."""
+    source = torch.nan_to_num(agents.reproduction_drive, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    burden = torch.nan_to_num(_local(world, agents, "pathogen_load"), nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    infection = torch.nan_to_num(agents.infection_risk, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    desired = torch.clamp(0.55 * source + 0.25 * (2.0 - burden) + 0.20 * (2.0 - infection), 0, 2)
+    current = torch.nan_to_num(agents.memory_update, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    agents.memory_update = torch.clamp(current + 1e-05 * (desired - current), 0, 2)
