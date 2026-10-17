@@ -433310,3 +433310,12 @@ def logic_123595(agents, world):
     desired = torch.clamp(0.50 * source + 0.35 * burden + 0.15 * (2.0 - health), 0, 2)
     current = torch.nan_to_num(agents.caution, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
     agents.caution = torch.clamp(current + 3e-05 * (desired - current), 0, 2)
+
+def logic_123596(agents, world):
+    """infection-risk-calibration: bounded disease-simulation feedback from confidence."""
+    source = torch.nan_to_num(agents.confidence, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    burden = torch.nan_to_num(_local(world, agents, "pathogen_load"), nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    health = torch.nan_to_num(agents.health, nan=1.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    desired = torch.clamp(0.50 * source + 0.35 * burden + 0.15 * (2.0 - health), 0, 2)
+    current = torch.nan_to_num(agents.self_preservation, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    agents.self_preservation = torch.clamp(current + 1e-05 * (desired - current), 0, 2)
