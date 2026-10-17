@@ -433868,3 +433868,12 @@ def logic_123657(agents, world):
     desired = torch.clamp(0.50 * source + 0.35 * burden + 0.15 * (2.0 - health), 0, 2)
     current = torch.nan_to_num(agents.thermal_stress, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
     agents.thermal_stress = torch.clamp(current + 1.5e-05 * (desired - current), 0, 2)
+
+def logic_123658(agents, world):
+    """symptom-stress-feedback: bounded disease-simulation feedback from last_reward."""
+    source = torch.nan_to_num(agents.last_reward, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    burden = torch.nan_to_num(_local(world, agents, "pathogen_load"), nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    health = torch.nan_to_num(agents.health, nan=1.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    desired = torch.clamp(0.50 * source + 0.35 * burden + 0.15 * (2.0 - health), 0, 2)
+    current = torch.nan_to_num(agents.risk_score, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    agents.risk_score = torch.clamp(current + 2e-05 * (desired - current), 0, 2)
