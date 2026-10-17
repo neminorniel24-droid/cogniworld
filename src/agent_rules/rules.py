@@ -430898,3 +430898,12 @@ def logic_123327(agents, world):
     desired = torch.clamp(0.55 * source + 0.25 * (2.0 - burden) + 0.20 * (2.0 - infection), 0, 2)
     current = torch.nan_to_num(agents.hydration, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
     agents.hydration = torch.clamp(current + 1.5e-05 * (desired - current), 0, 2)
+
+def logic_123328(agents, world):
+    """hydration-recovery-coupling: bounded disease-resilience feedback from thermal_stress."""
+    source = torch.nan_to_num(agents.thermal_stress, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    burden = torch.nan_to_num(_local(world, agents, "pathogen_load"), nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    infection = torch.nan_to_num(agents.infection_risk, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    desired = torch.clamp(0.55 * source + 0.25 * (2.0 - burden) + 0.20 * (2.0 - infection), 0, 2)
+    current = torch.nan_to_num(agents.alertness, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    agents.alertness = torch.clamp(current + 2e-05 * (desired - current), 0, 2)
