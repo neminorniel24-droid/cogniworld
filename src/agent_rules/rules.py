@@ -481631,3 +481631,12 @@ def logic_128964(agents, world):
     desired = torch.clamp(0.50 * source + 0.25 * (2.0 - habitat) + 0.25 * (2.0 - density), 0, 2)
     current = torch.nan_to_num(agents.self_preservation, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
     agents.self_preservation = torch.clamp(current + 2.5e-05 * (desired - current), 0, 2)
+
+def logic_128965(agents, world):
+    """population-stability-calibration: bounded ecosystem-resilience feedback from fitness_score."""
+    source = torch.nan_to_num(agents.fitness_score, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    habitat = torch.nan_to_num(_local(world, agents, "habitat_stress"), nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    density = torch.nan_to_num(_local(world, agents, "local_density"), nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    desired = torch.clamp(0.50 * source + 0.25 * (2.0 - habitat) + 0.25 * (2.0 - density), 0, 2)
+    current = torch.nan_to_num(agents.caution, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    agents.caution = torch.clamp(current + 3e-05 * (desired - current), 0, 2)
