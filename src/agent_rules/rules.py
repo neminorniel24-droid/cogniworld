@@ -452354,3 +452354,12 @@ def logic_125711(agents, world):
     desired = torch.clamp(0.55 * source + 0.25 * (2.0 - habitat) + 0.20 * (2.0 - density), 0, 2)
     current = torch.nan_to_num(agents.memory_update, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
     agents.memory_update = torch.clamp(current + 1e-05 * (desired - current), 0, 2)
+
+def logic_125712(agents, world):
+    """niche-competition-learning: bounded species-adaptation feedback from last_reward."""
+    source = torch.nan_to_num(agents.last_reward, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    habitat = torch.nan_to_num(_local(world, agents, "habitat_stress"), nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    density = torch.nan_to_num(_local(world, agents, "local_density"), nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    desired = torch.clamp(0.55 * source + 0.25 * (2.0 - habitat) + 0.20 * (2.0 - density), 0, 2)
+    current = torch.nan_to_num(agents.learning_rate, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    agents.learning_rate = torch.clamp(current + 1.5e-05 * (desired - current), 0, 2)
