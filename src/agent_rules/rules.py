@@ -472172,3 +472172,12 @@ def logic_127913(agents, world):
     desired = torch.clamp(0.55 * source + 0.25 * (2.0 - habitat) + 0.20 * (2.0 - density), 0, 2)
     current = torch.nan_to_num(agents.health, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
     agents.health = torch.clamp(current + 2e-05 * (desired - current), 0, 2)
+
+def logic_127914(agents, world):
+    """resource-scarcity-calibration: bounded species-adaptation feedback from food_access."""
+    source = torch.nan_to_num(agents.food_access, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    habitat = torch.nan_to_num(_local(world, agents, "habitat_stress"), nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    density = torch.nan_to_num(_local(world, agents, "local_density"), nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    desired = torch.clamp(0.55 * source + 0.25 * (2.0 - habitat) + 0.20 * (2.0 - density), 0, 2)
+    current = torch.nan_to_num(agents.hydration, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    agents.hydration = torch.clamp(current + 2.5e-05 * (desired - current), 0, 2)
