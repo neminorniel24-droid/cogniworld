@@ -1,0 +1,198 @@
+{
+  "description": "Synthetic evaluator benchmark only; not real-world fact checks.",
+  "cases": [
+    {
+      "id": "strong_support",
+      "claim": "Synthetic claim A",
+      "evidence": [
+        {
+          "source": "Research Group Alpha",
+          "stance": "supports",
+          "credibility": 0.95,
+          "relevance": 0.95,
+          "directness": 0.9
+        },
+        {
+          "source": "Research Group Beta",
+          "stance": "supports",
+          "credibility": 0.9,
+          "relevance": 0.95,
+          "directness": 0.9
+        }
+      ],
+      "expected_status": "supported_by_provided_evidence",
+      "expected_potential_misinformation": false
+    },
+    {
+      "id": "strong_contradiction",
+      "claim": "Synthetic claim B",
+      "evidence": [
+        {
+          "source": "Independent Lab One",
+          "stance": "refutes",
+          "credibility": 0.95,
+          "relevance": 0.95,
+          "directness": 0.95
+        },
+        {
+          "source": "Independent Lab Two",
+          "stance": "refutes",
+          "credibility": 0.9,
+          "relevance": 0.95,
+          "directness": 0.9
+        }
+      ],
+      "expected_status": "contradicted_by_provided_evidence",
+      "expected_potential_misinformation": true
+    },
+    {
+      "id": "balanced_conflict",
+      "claim": "Synthetic claim C",
+      "evidence": [
+        {
+          "source": "Source Support",
+          "stance": "supports",
+          "credibility": 0.9,
+          "relevance": 1.0,
+          "directness": 1.0
+        },
+        {
+          "source": "Source Refute",
+          "stance": "refutes",
+          "credibility": 0.9,
+          "relevance": 1.0,
+          "directness": 1.0
+        }
+      ],
+      "expected_status": "mixed_evidence",
+      "expected_potential_misinformation": false
+    },
+    {
+      "id": "no_evidence",
+      "claim": "Synthetic claim D",
+      "evidence": [],
+      "expected_status": "insufficient_evidence",
+      "expected_potential_misinformation": false
+    },
+    {
+      "id": "weak_single_refutation",
+      "claim": "Synthetic claim E",
+      "evidence": [
+        {
+          "source": "Low confidence source",
+          "stance": "refutes",
+          "credibility": 0.2,
+          "relevance": 0.5,
+          "directness": 0.5
+        }
+      ],
+      "expected_status": "insufficient_evidence",
+      "expected_potential_misinformation": false
+    },
+    {
+      "id": "duplicate_source_not_independent",
+      "claim": "Synthetic claim F",
+      "evidence": [
+        {
+          "source": "Same Publisher",
+          "independence_group": "publisher-network",
+          "stance": "refutes",
+          "credibility": 0.95,
+          "relevance": 0.95,
+          "directness": 0.95
+        },
+        {
+          "source": "Syndicated Copy",
+          "independence_group": "publisher-network",
+          "stance": "refutes",
+          "credibility": 0.9,
+          "relevance": 0.95,
+          "directness": 0.95
+        }
+      ],
+      "expected_status": "contradicted_by_provided_evidence",
+      "expected_potential_misinformation": false
+    },
+    {
+      "id": "neutral_only",
+      "claim": "Synthetic claim G",
+      "evidence": [
+        {
+          "source": "Background Source",
+          "stance": "neutral",
+          "credibility": 0.95,
+          "relevance": 0.95,
+          "directness": 0.95
+        }
+      ],
+      "expected_status": "insufficient_evidence",
+      "expected_potential_misinformation": false
+    },
+    {
+      "id": "close_conflicting_evidence",
+      "claim": "Synthetic claim H",
+      "evidence": [
+        {
+          "source": "Source One",
+          "stance": "supports",
+          "credibility": 0.6,
+          "relevance": 1.0,
+          "directness": 1.0
+        },
+        {
+          "source": "Source Two",
+          "stance": "refutes",
+          "credibility": 0.55,
+          "relevance": 1.0,
+          "directness": 1.0
+        }
+      ],
+      "expected_status": "mixed_evidence",
+      "expected_potential_misinformation": false
+    },
+    {
+      "id": "one_strong_support_not_fact_check",
+      "claim": "Synthetic claim I",
+      "evidence": [
+        {
+          "source": "Single Strong Source",
+          "stance": "supports",
+          "credibility": 0.95,
+          "relevance": 0.95,
+          "directness": 0.95
+        }
+      ],
+      "expected_status": "supported_by_provided_evidence",
+      "expected_potential_misinformation": false
+    },
+    {
+      "id": "support_dominates_refutation",
+      "claim": "Synthetic claim J",
+      "evidence": [
+        {
+          "source": "Source Support A",
+          "stance": "supports",
+          "credibility": 0.95,
+          "relevance": 0.95,
+          "directness": 0.95
+        },
+        {
+          "source": "Source Support B",
+          "stance": "supports",
+          "credibility": 0.9,
+          "relevance": 0.9,
+          "directness": 0.95
+        },
+        {
+          "source": "Source Refute C",
+          "stance": "refutes",
+          "credibility": 0.3,
+          "relevance": 0.5,
+          "directness": 0.5
+        }
+      ],
+      "expected_status": "supported_by_provided_evidence",
+      "expected_potential_misinformation": false
+    }
+  ]
+}
