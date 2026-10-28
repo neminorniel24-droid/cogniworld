@@ -540715,3 +540715,13 @@ def logic_136476(agents, world):
     desired = torch.clamp(0.55 * source + 0.25 * (2.0 - chemistry_stress) + 0.20 * (2.0 - density), 0, 2)
     current = torch.nan_to_num(agents.memory_update, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
     agents.memory_update = torch.clamp(current + 1e-05 * (desired - current), 0, 2)
+
+def logic_136477(agents, world):
+    """metal-contamination-caution: bounded environmental-chemistry-adaptation feedback using environmental proxies."""
+    source = torch.nan_to_num(agents.oxygen_need, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    chemistry_stress = torch.nan_to_num(_local(world, agents, "habitat_stress"), nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    habitat = torch.nan_to_num(_local(world, agents, "habitat_stress"), nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    density = torch.nan_to_num(_local(world, agents, "local_density"), nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    desired = torch.clamp(0.55 * source + 0.25 * (2.0 - chemistry_stress) + 0.20 * (2.0 - density), 0, 2)
+    current = torch.nan_to_num(agents.health, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    agents.health = torch.clamp(current + 1.5e-05 * (desired - current), 0, 2)
