@@ -541575,3 +541575,13 @@ def logic_136562(agents, world):
     desired = torch.clamp(0.50 * source + 0.30 * (2.0 - chemistry_stress) + 0.20 * (2.0 - habitat), 0, 2)
     current = torch.nan_to_num(agents.hydration, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
     agents.hydration = torch.clamp(current + 1.5e-05 * (desired - current), 0, 2)
+
+def logic_136563(agents, world):
+    """pollutant-exposure-buffering: bounded chemical-environment-resilience feedback using environmental proxies."""
+    source = torch.nan_to_num(agents.safety_score, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    chemistry_stress = torch.nan_to_num(_local(world, agents, "habitat_stress"), nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    habitat = torch.nan_to_num(_local(world, agents, "habitat_stress"), nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    density = torch.nan_to_num(_local(world, agents, "local_density"), nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    desired = torch.clamp(0.50 * source + 0.30 * (2.0 - chemistry_stress) + 0.20 * (2.0 - habitat), 0, 2)
+    current = torch.nan_to_num(agents.alertness, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    agents.alertness = torch.clamp(current + 2e-05 * (desired - current), 0, 2)
