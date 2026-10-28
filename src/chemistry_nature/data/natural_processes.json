@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "status": "illustrative_model_parameters",
+    "not_for_prediction": true,
+    "note": "Rates are pedagogical defaults, not measured global carbon-cycle rates."
+  },
+  "reservoirs": {
+    "atmosphere": {
+      "unit": "arbitrary carbon units",
+      "initial": 100.0
+    },
+    "biosphere": {
+      "unit": "arbitrary carbon units",
+      "initial": 40.0
+    },
+    "soil": {
+      "unit": "arbitrary carbon units",
+      "initial": 30.0
+    },
+    "ocean": {
+      "unit": "arbitrary carbon units",
+      "initial": 80.0
+    }
+  },
+  "flows": [
+    {
+      "source": "atmosphere",
+      "target": "biosphere",
+      "rate": 0.02,
+      "process": "photosynthesis"
+    },
+    {
+      "source": "biosphere",
+      "target": "atmosphere",
+      "rate": 0.01,
+      "process": "respiration"
+    },
+    {
+      "source": "biosphere",
+      "target": "soil",
+      "rate": 0.005,
+      "process": "litter_and_decomposition"
+    },
+    {
+      "source": "soil",
+      "target": "atmosphere",
+      "rate": 0.002,
+      "process": "soil_respiration"
+    },
+    {
+      "source": "atmosphere",
+      "target": "ocean",
+      "rate": 0.003,
+      "process": "air-sea exchange"
+    },
+    {
+      "source": "ocean",
+      "target": "atmosphere",
+      "rate": 0.002,
+      "process": "outgassing"
+    }
+  ]
+}

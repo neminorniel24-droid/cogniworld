@@ -1,0 +1,5 @@
+# Add alongside the imports in src/server.py:
+from chemistry_nature.api import router as chemistry_nature_router
+
+# Immediately after the existing `app = FastAPI()` line:
+app.include_router(chemistry_nature_router)
