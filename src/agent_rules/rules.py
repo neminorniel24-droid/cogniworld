@@ -551755,3 +551755,13 @@ def logic_137580(agents, world):
     desired = torch.clamp(0.50 * source + 0.25 * (2.0 - density) + 0.25 * (2.0 - weather_stress), 0, 2)
     current = torch.nan_to_num(agents.fitness_score, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
     agents.fitness_score = torch.clamp(current + 3e-05 * (desired - current), 0, 2)
+
+def logic_137581(agents, world):
+    """weather-hazard-avoidance: bounded weather-hazard resilience feedback using available environment proxies."""
+    source = torch.nan_to_num(agents.metabolic_cost, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    weather_stress = torch.nan_to_num(_local(world, agents, "habitat_stress"), nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    density = torch.nan_to_num(_local(world, agents, "local_density"), nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    shelter = torch.nan_to_num(agents.shelter_need, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    desired = torch.clamp(0.50 * source + 0.30 * (2.0 - weather_stress) + 0.20 * (2.0 - density), 0, 2)
+    current = torch.nan_to_num(agents.fitness_score, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    agents.fitness_score = torch.clamp(current + 1e-05 * (desired - current), 0, 2)
