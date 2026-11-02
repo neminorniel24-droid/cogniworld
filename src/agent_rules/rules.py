@@ -551685,3 +551685,13 @@ def logic_137573(agents, world):
     desired = torch.clamp(0.45 * source + 0.35 * (2.0 - weather_stress) + 0.20 * (2.0 - density), 0, 2)
     current = torch.nan_to_num(agents.alertness, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
     agents.alertness = torch.clamp(current + 2e-05 * (desired - current), 0, 2)
+
+def logic_137574(agents, world):
+    """precipitation-deficit-calibration: bounded shelter-aware weather response feedback using available environment proxies."""
+    source = torch.nan_to_num(agents.food_access, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    weather_stress = torch.nan_to_num(_local(world, agents, "habitat_stress"), nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    density = torch.nan_to_num(_local(world, agents, "local_density"), nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    shelter = torch.nan_to_num(agents.shelter_need, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    desired = torch.clamp(0.60 * source + 0.25 * (2.0 - shelter) + 0.15 * (2.0 - weather_stress), 0, 2)
+    current = torch.nan_to_num(agents.learning_rate, nan=0.0, posinf=2.0, neginf=0.0).clamp(0, 2)
+    agents.learning_rate = torch.clamp(current + 2.5e-05 * (desired - current), 0, 2)
